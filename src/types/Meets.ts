@@ -1,20 +1,5 @@
 import type { ScheduleTemplate } from "./Scheduling";
-import { CompetitionType, MatchRules } from "./MatchRules";
-
-/**
- * Color of a buzzer.
- */
-export enum BuzzerColor {
-    /**
-     * Team is sitting on the red side of the table.
-     */
-    Red = 0,
-
-    /**
-     * Team is sitting on the green side of the table.
-     */
-    Green = 1,
-}
+import { MatchRules } from "./MatchRules";
 
 /**
  * Usage of a MatchQuestion.
@@ -34,426 +19,6 @@ export enum MatchQuestionUsage {
      * Substitute question.
      */
     Substitute = 2
-}
-
-/**
- * Types of persistence.
- */
-export enum MeetPersistenceType {
-    /**
-     * No persistence of scoring data.
-     */
-    None = 0,
-
-    /**
-     * Persist only when the round changes.
-     */
-    RoundStartOrComplete = 1,
-
-    /**
-     * Persist after each question.
-     */
-    QuestionChange = 2
-}
-
-/**
- * Status of a quizzer's quizzing out.
- */
-export enum QuizzedOutState {
-    /**
-     * Quizzer is not quizzed out.
-     */
-    NotQuizzedOut = 0,
-
-    /**
-     * Quizzer quizzed out forward.
-     */
-    QuizzedOutForward = 1,
-
-    /**
-     * Quizzer quizzed out backward.
-     */
-    QuizzedOutBackward = 2
-}
-
-/**
- * Summary of a score for a meet.
- */
-export enum ScoreSummaryFootnoteType {
-    /**
-     * Tie could not be broken by tie breaking rules.
-     */
-    UnbrokenTie = 1,
-
-    /**
-     * Tie was broken by head-to-head record.
-     */
-    TieBrokenByHeadToHead = 2,
-
-    /**
-     * Tie was broken by total points.
-     */
-    TieBrokenByTotalPoints = 3,
-
-    /**
-     * Tie was broken by quiz outs.
-     */
-    TieBrokenByQuizOuts = 4,
-
-    /**
-     * Tie was broken by playoffs.
-     */
-    TieBrokenByPlayoff = 5,
-
-    /**
-     * Tie was broken by average score.
-     */
-    TieBrokenByAverageScore = 6,
-}
-
-/**
- * Metadata about a contact.
- */
-export class ContactInfo {
-
-    /**
-     * Name of the contact.
-     */
-    public Name?: string;
-
-    /**
-     * Phone number of the contact.
-     */
-    public Phone?: string;
-
-    /**
-     * E-mail address of the contact.
-     */
-    public Email?: string;
-}
-
-/**
- * Rules for quizzing out.
- */
-export class MatchQuestion {
-
-    /**
-     * Initializes a new instance of the MatchQuestion class.
-     */
-    constructor() {
-        this.PointValue = 0;
-        this.PlainText = "";
-        this.Usage = MatchQuestionUsage.Regular;
-    }
-
-    /**
-     * Number of points for the question.
-     */
-    public PointValue: number;
-
-    /**
-     * Text for the question formatted as plain text.
-     */
-    public PlainText: string;
-
-    /**
-     * Text for the question formatted as HTML.
-     */
-    public HtmlText?: string;
-
-    /**
-     * Usage for the question.
-     */
-    public Usage: MatchQuestionUsage;
-}
-
-/**
- * Metadata about a scheduled match in a room.
- */
-export class MatchScheduledRoom {
-
-    /**
-     * Initializes a new instance of the MatchScheduledRoom class.
-     */
-    constructor() {
-        this.IsByeRound = false;
-    }
-
-    /**
-     * List of team ids (if this is a team competition).
-     */
-    public TeamIds?: Set<number>;
-
-    /**
-     * List of quizzer ids.
-     */
-    public QuizzerIds?: Set<number>;
-
-    /**
-     * Mapping of placement to the room where the individual is supposed to go. If the place isn't present, the individual is
-     * no longer part of the competition.
-     */
-    public PlacementRoomRouting?: Record<number, number>;
-
-    /**
-     * Value indicating whether this is a bye round.
-     */
-    public IsByeRound: boolean;
-}
-
-/**
- * Set of questions.
- */
-export class MatchQuestionSet {
-
-    /**
-     * Initializes a new instance of the MatchQuestionSet class.
-     */
-    constructor() {
-        this.Questions = {};
-    }
-
-    /**
-     * Questions for the match.
-     */
-    public Questions: Record<number, MatchQuestion>;
-}
-
-/**
- * Metadata about an individual match.
- */
-export class Match {
-
-    /**
-     * Initializes a new instance of the Match class.
-     */
-    constructor() {
-        this.Questions = {};
-        this.RoomSchedule = {};
-        this.IsPlayoff = false;
-    }
-
-    /**
-     * Questions for the match.
-     */
-    public Questions: Record<number, MatchQuestion>;
-
-    /**
-     * Rooms scheduled for this match.
-     */
-    public RoomSchedule: Record<number, MatchScheduledRoom>;
-
-    /**
-     * Scheduled start time for the match (if any).
-     */
-    public MatchTime?: string;
-
-    /**
-     * Value indicating whether this match has imported questions. If this is null, the match
-     * was imported in a version of ScoreKeep without knowledge of this field.
-     */
-    public HasImportedQuestions?: boolean;
-
-    /**
-     * Value indicating whether this match has imported questions. If this is null, the match
-     * was imported in a version of ScoreKeep without knowledge of this field.
-     */
-    public IsPlayoff: boolean;
-}
-
-/**
- * Overrides for scoring.
- */
-export class MeetRanking {
-
-    /**
-     * Initializes a new instance of the MeetRanking class.
-     */
-    constructor() {
-        this.IncludeByesInScores = false;
-        this.TeamsRankByWinRate = false;
-        this.QuizzersRankByAverageCorrect = false;
-    }
-
-    /**
-     * Value indicating whether bye rounds should be included in the scores.
-     */
-    public IncludeByesInScores: boolean;
-
-    /**
-     * Message to include if TeamRankOverrides has changed.
-     */
-    public TeamOverrideMessage?: string;
-
-    /**
-     * Ordered ranking of Team.Ids. If this is null, the team ranking hasn't been overridden.
-     * Any teams not found in this list should appear AFTER all teams contained in the list.
-     */
-    public TeamRankOverrides?: number[];
-
-    /**
-     * Teams are ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.
-     * If this is true, teams will be ranked by ScoreSummary.WinRate instead of win/loss record.
-     */
-    public TeamsRankByWinRate: boolean;
-
-    /**
-     * Message to include if QuizzerRankOverrides has changed.
-     */
-    public QuizzerOverrideMessage?: string;
-
-    /**
-     * Ordered ranking of Quizzer.Ids. If this is null, the quizzer ranking hasn't been overridden.
-     * Any quizzer not found in this list should appear AFTER all quizzers contained in the list.
-     */
-    public QuizzerRankOverrides?: number[];
-
-    /**
-     * Quizzers are ranked by average score, then by total forward quiz outs, and then by success rate for answered questions.
-     * If this value is set, they will first be ranked the average number of questions answered correctly per match with this point value.
-     */
-    public QuizzersRankByAverageCorrectPointValue?: number;
-
-    /**
-     * Value indicating whether to rank by quizzer's average correct value. This will take precedence over QuizzersRankByAverageCorrectPointValue.
-     */
-    public QuizzersRankByAverageCorrect: boolean;
-}
-
-/**
- * Information about building a schedule.
- */
-export class MeetSchedule {
-
-    /**
-     * Initializes a new instance of the MeetSchedule class.
-     */
-    constructor() {
-        this.MatchLengthInMinutes = 0;
-    }
-
-    /**
-     * Number of minutes to allocate for each match.
-     */
-    public MatchLengthInMinutes: number;
-
-    /**
-     * Ordered list of ids for the linked meets (including the current meet). If there aren't any linked meets, this will be null.
-     */
-    public LinkedMeetIds?: number[];
-
-    /**
-     * Optional optmized schedule for the meets.
-     */
-    public OptimizedSchedule?: ScheduleTemplate;
-
-    /**
-     * Optional custom schedule for the meets.
-     */
-    public CustomSchedule?: ScheduleTemplate;
-}
-
-/**
- * Progress of scoring for a given meet.
- */
-export class MeetScoringProgress {
-
-    /**
-     * Initializes a new instance of the MeetScoringProgress class.
-     */
-    constructor() {
-        this.HasScoringStarted = false;
-        this.MatchesCompletedForAllRooms = 0;
-        this.MatchesCompletedForSomeRooms = 0;
-        this.MatchesCompletedForAllTeams = 0;
-        this.MatchesCompletedForSomeTeams = 0;
-        this.MatchesCompletedForAllQuizzers = 0;
-        this.MatchesCompletedForSomeQuizzers = 0;
-        this.TotalScorableMatches = 0;
-    }
-
-    /**
-     * Value indicating whether scoring has started.
-     */
-    public HasScoringStarted: boolean;
-
-    /**
-     * Number of matches completed for all rooms (excluding bye rounds).
-     */
-    public MatchesCompletedForAllRooms: number;
-
-    /**
-     * Number of matches completed for some rooms, but not all (excluding bye rounds).
-     */
-    public MatchesCompletedForSomeRooms: number;
-
-    /**
-     * Number of scoreable matches.
-     */
-    public TotalScorableMatches: number;
-
-    /**
-     * Number of matches completed for all teams (excluding bye rounds).
-     */
-    public MatchesCompletedForAllTeams: number;
-
-    /**
-     * Number of matches completed for some teams, but not all (excluding bye rounds).
-     */
-    public MatchesCompletedForSomeTeams: number;
-
-    /**
-     * Number of matches completed for all quizzers (excluding bye rounds).
-     */
-    public MatchesCompletedForAllQuizzers: number;
-
-    /**
-     * Number of matches completed for some quizzers, but not all (excluding bye rounds).
-     */
-    public MatchesCompletedForSomeQuizzers: number;
-}
-
-/**
- * Scope for a question set for either JBQ or TBQ questions.
- */
-export class QuestionSetScope {
-
-    /**
-     * Initializes a new instance of the QuestionSetScope class.
-     */
-    constructor() {
-        this.CompetitionType = CompetitionType.JBQ;
-    }
-
-    /**
-     * Competition Type.
-     */
-    public CompetitionType: CompetitionType;
-
-    /**
-     * Name of the Question Set Scope.
-     */
-    public Name?: string;
-
-    /**
-     * JBQ Mode.
-     */
-    public JbqMode?: any; // QuestionSetScopeJbqMode - type not provided
-
-    /**
-     * JBQ Scope Type.
-     */
-    public JbqType?: any; // QuestionSetScopeJbqType - type not provided
-
-    /**
-     * JBQ Question Categories.
-     */
-    public JbqQuestionCategories?: Set<any>; // JbqQuestionCategory - type not provided
-
-    /**
-     * TBQ Book Sections.
-     */
-    public TbqBookSections?: any[]; // BookSectionMetadata[] - type not provided
 }
 
 /**
@@ -590,75 +155,196 @@ export class Meet {
      * Value indicating whether the meet is closed.
      */
     public IsClosed: boolean;
-
-    /**
-     * Scope of the question set.
-     */
-    public QuestionSetScope?: QuestionSetScope;
-
-    /**
-     * Override scope of the question set.
-     */
-    public QuestionSetScopeOverride?: QuestionSetScope;
 }
 
 /**
- * Manifest for a given meet.
+ * Metadata about a team.
  */
-export class MeetManifest {
+export class Team {
 
     /**
-     * Initializes a new instance of the MeetManifest class.
+     * Initializes a new instance of the Team class.
      */
     constructor() {
-        this.Meet = new Meet();
-        this.TeamScores = {};
-        this.QuizzerScores = {};
-        this.RoomSummaries = {};
-        this.QuestionSummaries = {};
-        this.Scores = {};
-        this.ScoringProgress = new MeetScoringProgress();
+        this.Id = 0;
+        this.Name = "";
+        this.PrimaryContact = new ContactInfo();
+        this.Coach = new ContactInfo();
+        this.DefaultPositions = {};
+        this.IsHidden = false;
     }
 
     /**
-     * Meet for the manifest.
+     * Id for the item internal to the scoring system.
      */
-    public Meet: Meet;
+    public Id: number;
 
     /**
-     * Summary of team scores.
+     * Id for the team in the Registration System.
      */
-    public TeamScores: Record<number, ScoreSummary>;
+    public RemoteTeamId?: string;
 
     /**
-     * Summary of quizzer scores.
+     * Id for the church for this team within the registration system.
      */
-    public QuizzerScores: Record<number, ScoreSummary>;
+    public RemotePersistentId?: string;
 
     /**
-     * Summary of individual room scores (i.e., Scores).
+     * Id for the church for this team within the registration system.
      */
-    public RoomSummaries: Record<string, RoomSummary>; // Key is "(MatchId, RoomId)"
+    public RemoteChurchId?: string;
 
     /**
-     * Summary of stats for individual MatchQuestionUsage.Regular questions.
+     * Name of the item.
      */
-    public QuestionSummaries: Record<string, QuestionSummary>; // Key is "(MatchId, QuestionId)"
+    public Name: string;
 
     /**
-     * Scores for an individual room.
+     * League for the team.
      */
-    public Scores: Record<string, Room>; // Key is "(MatchId, RoomId)"
+    public League?: string;
 
     /**
-     * Progress of scores for the meet.
+     * Id for the quizzer containing totals for this team.
      */
-    public ScoringProgress: MeetScoringProgress;
+    public TotalQuizzerId?: number;
 
     /**
-     * Optional list of names for ScoreSummary.TotalPointsPerMeet.
+     * Full name of the church.
      */
-    public MeetNames?: string[];
+    public FullChurchName?: string;
+
+    /**
+     * Name of the church for the team.
+     */
+    public Church?: string;
+
+    /**
+     * City of the church for the team.
+     */
+    public City?: string;
+
+    /**
+     * State of the church for the team.
+     */
+    public State?: string;
+
+    /**
+     * Primary contact for the team.
+     */
+    public PrimaryContact: ContactInfo;
+
+    /**
+     * Contact information for the coach.
+     */
+    public Coach: ContactInfo;
+
+    /**
+     * The default positions for seating the quizzers. Maps position ids to quizzer ids.
+     */
+    public DefaultPositions: Record<number, number>;
+
+    /**
+     * Value indicating whether the team should be hidden in the UI.
+     */
+    public IsHidden: boolean;
+}
+
+/**
+ * Metadata about a contact.
+ */
+export class ContactInfo {
+
+    /**
+     * Name of the contact.
+     */
+    public Name?: string;
+
+    /**
+     * Phone number of the contact.
+     */
+    public Phone?: string;
+
+    /**
+     * E-mail address of the contact.
+     */
+    public Email?: string;
+}
+
+/**
+ * Quizzer information.
+ */
+export class Quizzer {
+
+    /**
+     * Initializes a new instance of the Quizzer class.
+     */
+    constructor() {
+        this.Id = 0;
+        this.Name = "";
+        this.DuplicateRemotePersonIds = new Set<string>();
+        this.IsHidden = false;
+    }
+
+    /**
+     * Id for the item internal to the scoring system.
+     */
+    public Id: number;
+
+    /**
+     * Id for the person in the Registration System.
+     */
+    public RemotePersonId?: string;
+
+    /**
+     * Id for the person's church in the Registration System.
+     */
+    public RemoteChurchId?: string;
+
+    /**
+     * Name of the item.
+     */
+    public Name: string;
+
+    /**
+     * Name of the church for this quizzer.
+     */
+    public ChurchName?: string;
+
+    /**
+     * Id of the team (if any) for this quizzer.
+     */
+    public TeamId?: number;
+
+    /**
+     * Date of birth for the quizzer.
+     */
+    public DateOfBirth?: string;
+
+    /**
+     * Grade for the quizzer.
+     */
+    public Grade?: string;
+
+    /**
+     * Number of years this quizzer has been quizzing.
+     */
+    public YearsQuizzing?: number;
+
+    /**
+     * Set of RemotePersonId that also refer to this quizzer.
+     */
+    public DuplicateRemotePersonIds: Set<string>;
+
+    /**
+     * Value indicating whether the quizzer should be hidden.
+     */
+    public IsHidden: boolean;
+
+    /**
+     * Value indicating whether the quizzer's RemotePersonId has been verified remotely.
+     */
+    public IsVerifiedRemotely?: boolean;
 }
 
 /**
@@ -757,708 +443,222 @@ export class Official {
 }
 
 /**
- * Individual research for a question in a Room.
+ * Metadata about an individual match.
  */
-export class QuestionResearch {
+export class Match {
 
     /**
-     * Initializes a new instance of the QuestionResearch class.
+     * Initializes a new instance of the Match class.
      */
     constructor() {
-        this.SearchSelections = [];
-        this.Remarks = [];
-        this.ScriptureRemarks = [];
-        this.AnalysisScopeRemarks = [];
-        this.SearchTerms = [];
-        this.HtmlSettings = {};
+        this.Questions = {};
+        this.RoomSchedule = {};
+        this.IsPlayoff = false;
     }
 
     /**
-     * The current unprocessed input phrase from the user.
+     * Questions for the match.
      */
-    public InputPhrase?: string;
+    public Questions: Record<number, MatchQuestion>;
 
     /**
-     * The current search phrase from the user.
+     * Rooms scheduled for this match.
      */
-    public SearchPhrase?: string;
+    public RoomSchedule: Record<number, MatchScheduledRoom>;
 
     /**
-     * The current notes from the user.
+     * Scheduled start time for the match (if any).
      */
-    public Notes?: string;
+    public MatchTime?: string;
 
     /**
-     * The current search items selected by the user.
+     * Value indicating whether this match has imported questions. If this is null, the match
+     * was imported in a version of ScoreKeep without knowledge of this field.
      */
-    public SearchSelections: string[];
+    public HasImportedQuestions?: boolean;
 
     /**
-     * The current set of remarks entered by the user.
+     * Value indicating whether this match has imported questions. If this is null, the match
+     * was imported in a version of ScoreKeep without knowledge of this field.
      */
-    public Remarks: any[]; // RemarkItem[] - type not provided
-
-    /**
-     * The current set of remarks entered by the user.
-     */
-    public ScriptureRemarks: any[]; // ScriptureRemarkItem[] - type not provided
-
-    /**
-     * The current set of remarks entered by the user.
-     */
-    public AnalysisScopeRemarks: any[]; // AnalysisScopeRemarkItem[] - type not provided
-
-    /**
-     * The current set of search terms entered by the user.
-     */
-    public SearchTerms: string[];
-
-    /**
-     * The current set of Html settings.
-     */
-    public HtmlSettings: Record<string, string>;
+    public IsPlayoff: boolean;
 }
 
 /**
- * Summary of stats about a specific question.
+ * Rules for quizzing out.
  */
-export class QuestionSummary {
+export class MatchQuestion {
 
     /**
-     * Initializes a new instance of the QuestionSummary class.
+     * Initializes a new instance of the MatchQuestion class.
      */
     constructor() {
         this.PointValue = 0;
-        this.Rooms = 0;
-        this.NoResponse = 0;
-        this.Correct = 0;
-        this.Incorrect = 0;
+        this.PlainText = "";
+        this.Usage = MatchQuestionUsage.Regular;
     }
 
     /**
-     * Point value for the question.
+     * Number of points for the question.
      */
     public PointValue: number;
 
     /**
-     * Number of rooms where the question was read.
+     * Text for the question formatted as plain text.
      */
-    public Rooms: number;
+    public PlainText: string;
 
     /**
-     * Number of rooms where NO response was given. If at least one correct or incorrect answer was given, it will not be included in this number.
+     * Text for the question formatted as HTML.
      */
-    public NoResponse: number;
+    public HtmlText?: string;
 
     /**
-     * Number of times the question was answered correctly.
+     * Usage for the question.
      */
-    public Correct: number;
-
-    /**
-     * Number of times the question was answered incorrectly.
-     */
-    public Incorrect: number;
+    public Usage: MatchQuestionUsage;
 }
 
 /**
- * Quizzer information.
+ * Set of questions.
  */
-export class Quizzer {
+export class MatchQuestionSet {
 
     /**
-     * Initializes a new instance of the Quizzer class.
+     * Initializes a new instance of the MatchQuestionSet class.
      */
     constructor() {
-        this.Id = 0;
-        this.Name = "";
-        this.DuplicateRemotePersonIds = new Set<string>();
-        this.IsHidden = false;
-    }
-
-    /**
-     * Id for the item internal to the scoring system.
-     */
-    public Id: number;
-
-    /**
-     * Id for the person in the Registration System.
-     */
-    public RemotePersonId?: string;
-
-    /**
-     * Id for the person's church in the Registration System.
-     */
-    public RemoteChurchId?: string;
-
-    /**
-     * Name of the item.
-     */
-    public Name: string;
-
-    /**
-     * Name of the church for this quizzer.
-     */
-    public ChurchName?: string;
-
-    /**
-     * Id of the team (if any) for this quizzer.
-     */
-    public TeamId?: number;
-
-    /**
-     * Date of birth for the quizzer.
-     */
-    public DateOfBirth?: string;
-
-    /**
-     * Grade for the quizzer.
-     */
-    public Grade?: string;
-
-    /**
-     * Number of years this quizzer has been quizzing.
-     */
-    public YearsQuizzing?: number;
-
-    /**
-     * Set of RemotePersonId that also refer to this quizzer.
-     */
-    public DuplicateRemotePersonIds: Set<string>;
-
-    /**
-     * Value indicating whether the quizzer should be hidden.
-     */
-    public IsHidden: boolean;
-
-    /**
-     * Value indicating whether the quizzer's RemotePersonId has been verified remotely.
-     */
-    public IsVerifiedRemotely?: boolean;
-}
-
-/**
- * Points for an individual within a RoomQuestion.
- */
-export class RoomQuestionQuizzerScore {
-
-    /**
-     * Initializes a new instance of the RoomQuestionQuizzerScore class.
-     */
-    constructor() {
-        this.Points = 0;
-        this.IsInterrupted = false;
-    }
-
-    /**
-     * Point values for the question.
-     */
-    public Points: number;
-
-    /**
-     * Value indicating whether the question was interrupted by this quizzer.
-     */
-    public IsInterrupted: boolean;
-}
-
-/**
- * Individual question for a Room.
- */
-export class RoomQuestion {
-
-    /**
-     * Initializes a new instance of the RoomQuestion class.
-     */
-    constructor() {
-        this.QuizzerPoints = {};
-    }
-
-    /**
-     * Scores for individual quizzers.
-     */
-    public QuizzerPoints: Record<number, RoomQuestionQuizzerScore>;
-}
-
-/**
- * State of a quizzer within a room.
- */
-export class RoomQuizzer {
-
-    /**
-     * Initializes a new instance of the RoomQuizzer class.
-     */
-    constructor() {
-        this.FoulCount = 0;
-        this.TotalFoulPoints = 0;
-        this.TotalPoints = 0;
-        this.Color = BuzzerColor.Red;
-        this.QuizzedOutState = QuizzedOutState.NotQuizzedOut;
-        this.Correct = 0;
-        this.Incorrect = 0;
-        this.BonusPoints = 0;
-    }
-
-    /**
-     * Id for the team of the quizzer.
-     */
-    public TeamId?: number;
-
-    /**
-     * Number of fouls assessed for this quizzer.
-     */
-    public FoulCount: number;
-
-    /**
-     * Total foul points for this quizzer.
-     */
-    public TotalFoulPoints: number;
-
-    /**
-     * Total points for this quizzer.
-     */
-    public TotalPoints: number;
-
-    /**
-     * Value indicates the last question number answered by this quizzer.
-     */
-    public LastQuestionAnswered?: number;
-
-    /**
-     * Color of the buzzer for the quizzer.
-     */
-    public Color: BuzzerColor;
-
-    /**
-     * Value indicating whether the quizzer is active.
-     */
-    public Position?: number;
-
-    /**
-     * Value indicating the state of the quizzer's quizzing out.
-     */
-    public QuizzedOutState: QuizzedOutState;
-
-    /**
-     * Number of correct questions.
-     */
-    public Correct: number;
-
-    /**
-     * Number of incorrect questions.
-     */
-    public Incorrect: number;
-
-    /**
-     * Number of bonus points assigned.
-     */
-    public BonusPoints: number;
-}
-
-/**
- * Summary of a room's scores.
- */
-export class RoomSummary {
-
-    /**
-     * Initializes a new instance of the RoomSummary class.
-     */
-    constructor() {
-        this.TeamScores = {};
-    }
-
-    /**
-     * Mapping of teams to their scores.
-     */
-    public TeamScores: Record<number, number>;
-
-    /**
-     * Current question for the room. If this is null, the match is completed.
-     */
-    public CurrentQuestion?: number;
-}
-
-/**
- * State of a team within a room.
- */
-export class RoomTeam {
-
-    /**
-     * Initializes a new instance of the RoomTeam class.
-     */
-    constructor() {
-        this.FoulCount = 0;
-        this.TotalFoulPoints = 0;
-        this.TotalPoints = 0;
-        this.SuccessfulContests = 0;
-        this.UnsuccessfulContests = 0;
-        this.Timeouts = 0;
-        this.IsVerified = false;
-    }
-
-    /**
-     * Number of fouls assessed for this team.
-     */
-    public FoulCount: number;
-
-    /**
-     * Total foul points for the team.
-     */
-    public TotalFoulPoints: number;
-
-    /**
-     * Total points for this team.
-     */
-    public TotalPoints: number;
-
-    /**
-     * Number of successful contests for the team.
-     */
-    public SuccessfulContests: number;
-
-    /**
-     * Number of unsuccessful contests for the team.
-     */
-    public UnsuccessfulContests: number;
-
-    /**
-     * Number of timeouts for this team.
-     */
-    public Timeouts: number;
-
-    /**
-     * Value indicating that the data was verified (typically by the coach).
-     */
-    public IsVerified: boolean;
-}
-
-/**
- * Metadata about a single room in a match.
- */
-export class Room {
-
-    /**
-     * Initializes a new instance of the Room class.
-     */
-    constructor() {
-        this.CurrentQuestion = 0;
         this.Questions = {};
-        this.PointValueOverrides = {};
-        this.Quizzers = {};
-        this.Teams = {};
-        this.IsCompleted = false;
-        this.HasUnsyncedChanges = false;
-        this.Research = {};
     }
 
     /**
-     * Id for the red team.
+     * Questions for the match.
      */
-    public RedTeamId?: number;
-
-    /**
-     * Id for the green team.
-     */
-    public GreenTeamId?: number;
-
-    /**
-     * The current question for the room.
-     */
-    public CurrentQuestion: number;
-
-    /**
-     * List of questions for the match.
-     */
-    public Questions: Record<number, RoomQuestion>;
-
-    /**
-     * Overrides for point values for a given room.
-     */
-    public PointValueOverrides: Record<number, number>;
-
-    /**
-     * Stats about the quizzers applying across the entire match.
-     */
-    public Quizzers: Record<number, RoomQuizzer>;
-
-    /**
-     * Stats about the teams applying across the entire match.
-     */
-    public Teams: Record<number, RoomTeam>;
-
-    /**
-     * Value indicating whether the match is completed.
-     */
-    public IsCompleted: boolean;
-
-    /**
-     * Timestamp when the timer was started. This value will only be set when the timer is currently running.
-     */
-    public TimerStarted?: string;
-
-    /**
-     * Current remaining for the timer. If the timer is currently running, TimerStarted will be set and this value will contain the value from the
-     * last time it was stopped (e.g., paused).
-     */
-    public TimerRemaining?: string;
-
-    /**
-     * Timestamp when the match started.
-     */
-    public MatchStarted?: string;
-
-    /**
-     * Timestamp when the match stopped.
-     */
-    public MatchStopped?: string;
-
-    /**
-     * Room research info.
-     */
-    public Research: Record<number, QuestionResearch>;
-
-    /**
-     * Value indicating whether to use the question scope.
-     */
-    public IsQuestionSetScopeEnabled?: boolean;
-
-    /**
-     * Scope of the question set.
-     */
-    public QuestionSetScope?: QuestionSetScope;
-
-    /**
-     * Version of the room in the remote system.
-     */
-    public RemoteVersion?: string;
-
-    /**
-     * Value indicating whether there are changes that haven't been synced to the remote system.
-     */
-    public HasUnsyncedChanges: boolean;
+    public Questions: Record<number, MatchQuestion>;
 }
 
 /**
- * Summary of a score for a meet.
+ * Metadata about a scheduled match in a room.
  */
-export class ScoreSummary {
+export class MatchScheduledRoom {
 
     /**
-     * Initializes a new instance of the ScoreSummary class.
+     * Initializes a new instance of the MatchScheduledRoom class.
      */
     constructor() {
-        this.Wins = new Set<number>();
-        this.HeadToHeadRecord = {};
-        this.PlayoffRecord = {};
-        this.Losses = new Set<number>();
-        this.Playoffs = new Set<number>();
-        this.Matches = 0;
-        this.ScorableMatches = 0;
-        this.TotalPoints = 0;
-        this.AverageScore = 0;
-        this.AverageCorrect = 0;
-        this.WinRate = 0;
-        this.TotalQuizOutsForward = 0;
-        this.TotalCorrect = 0;
-        this.TotalIncorrect = 0;
-        this.SuccessRate = 0;
-        this.TotalPointValueScores = {};
+        this.IsByeRound = false;
     }
 
     /**
-     * Numerical rank (starting at 1) for the score.
+     * List of team ids (if this is a team competition).
      */
-    public Rank?: number;
+    public TeamIds?: Set<number>;
 
     /**
-     * Numerical sort order for the score.
+     * List of quizzer ids.
      */
-    public Order?: number;
+    public QuizzerIds?: Set<number>;
 
     /**
-     * Message describing the ranking.
+     * Mapping of placement to the room where the individual is supposed to go. If the place isn't present, the individual is
+     * no longer part of the competition.
      */
-    public RankMessage?: string;
+    public PlacementRoomRouting?: Record<number, number>;
 
     /**
-     * Optional footnote for the Rank and Order.
+     * Value indicating whether this is a bye round.
      */
-    public RankFootnote?: ScoreSummaryFootnoteType;
-
-    /**
-     * Matches where a win occurred.
-     */
-    public Wins: Set<number>;
-
-    /**
-     * Record of head-to-head against another team. A positive number indicates this team has won more times.
-     */
-    public HeadToHeadRecord: Record<number, number>;
-
-    /**
-     * Record of playoffs against another team. A positive number indicates this team has won more times.
-     */
-    public PlayoffRecord: Record<number, number>;
-
-    /**
-     * Matches where a loss occurred.
-     */
-    public Losses: Set<number>;
-
-    /**
-     * Playoff matches.
-     */
-    public Playoffs: Set<number>;
-
-    /**
-     * Total points for individual meets (a null value means there was no total). The order of the meets is arbitrary for the caller. This property may be null and is not serialized.
-     */
-    public TotalPointsPerMeet?: (number | null)[];
-
-    /**
-     * Number of rounds to be used for calculating the average.
-     */
-    public Matches: number;
-
-    /**
-     * Number of matches that can be scored (i.e., non bye round).
-     */
-    public ScorableMatches: number;
-
-    /**
-     * Total score at the meet.
-     */
-    public TotalPoints: number;
-
-    /**
-     * Average score for this item.
-     */
-    public AverageScore: number;
-
-    /**
-     * Average correctly answered questions for this item.
-     */
-    public AverageCorrect: number;
-
-    /**
-     * Percentage of matches played that were won (0 - 100).
-     */
-    public WinRate: number;
-
-    /**
-     * Number of forward quizouts.
-     */
-    public TotalQuizOutsForward: number;
-
-    /**
-     * Number of questions answered correctly.
-     */
-    public TotalCorrect: number;
-
-    /**
-     * Number of questions answered incorrectly.
-     */
-    public TotalIncorrect: number;
-
-    /**
-     * Percentage (0 - 100) of questions answered successfully.
-     */
-    public SuccessRate: number;
-
-    /**
-     * Number of correct questions per point value.
-     */
-    public TotalPointValueScores: Record<number, number>;
+    public IsByeRound: boolean;
 }
 
 /**
- * Metadata about a team.
+ * Overrides for scoring.
  */
-export class Team {
+export class MeetRanking {
 
     /**
-     * Initializes a new instance of the Team class.
+     * Initializes a new instance of the MeetRanking class.
      */
     constructor() {
-        this.Id = 0;
-        this.Name = "";
-        this.PrimaryContact = new ContactInfo();
-        this.Coach = new ContactInfo();
-        this.DefaultPositions = {};
-        this.IsHidden = false;
+        this.IncludeByesInScores = false;
+        this.TeamsRankByWinRate = false;
+        this.QuizzersRankByAverageCorrect = false;
     }
 
     /**
-     * Id for the item internal to the scoring system.
+     * Value indicating whether bye rounds should be included in the scores.
      */
-    public Id: number;
+    public IncludeByesInScores: boolean;
 
     /**
-     * Id for the team in the Registration System.
+     * Message to include if TeamRankOverrides has changed.
      */
-    public RemoteTeamId?: string;
+    public TeamOverrideMessage?: string;
 
     /**
-     * Id for the church for this team within the registration system.
+     * Ordered ranking of Team.Ids. If this is null, the team ranking hasn't been overridden.
+     * Any teams not found in this list should appear AFTER all teams contained in the list.
      */
-    public RemotePersistentId?: string;
+    public TeamRankOverrides?: number[];
 
     /**
-     * Id for the church for this team within the registration system.
+     * Teams are ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.
+     * If this is true, teams will be ranked by win rate instead of win/loss record.
      */
-    public RemoteChurchId?: string;
+    public TeamsRankByWinRate: boolean;
 
     /**
-     * Name of the item.
+     * Message to include if QuizzerRankOverrides has changed.
      */
-    public Name: string;
+    public QuizzerOverrideMessage?: string;
 
     /**
-     * League for the team.
+     * Ordered ranking of Quizzer.Ids. If this is null, the quizzer ranking hasn't been overridden.
+     * Any quizzer not found in this list should appear AFTER all quizzers contained in the list.
      */
-    public League?: string;
+    public QuizzerRankOverrides?: number[];
 
     /**
-     * Id for the quizzer containing totals for this team.
+     * Quizzers are ranked by average score, then by total forward quiz outs, and then by success rate for answered questions.
+     * If this value is set, they will first be ranked the average number of questions answered correctly per match with this point value.
      */
-    public TotalQuizzerId?: number;
+    public QuizzersRankByAverageCorrectPointValue?: number;
 
     /**
-     * Full name of the church.
+     * Value indicating whether to rank by quizzer's average correct value. This will take precedence over QuizzersRankByAverageCorrectPointValue.
      */
-    public FullChurchName?: string;
+    public QuizzersRankByAverageCorrect: boolean;
+}
+
+/**
+ * Information about building a schedule.
+ */
+export class MeetSchedule {
 
     /**
-     * Name of the church for the team.
+     * Initializes a new instance of the MeetSchedule class.
      */
-    public Church?: string;
+    constructor() {
+        this.MatchLengthInMinutes = 0;
+    }
 
     /**
-     * City of the church for the team.
+     * Number of minutes to allocate for each match.
      */
-    public City?: string;
+    public MatchLengthInMinutes: number;
 
     /**
-     * State of the church for the team.
+     * Ordered list of ids for the linked meets (including the current meet). If there aren't any linked meets, this will be null.
      */
-    public State?: string;
+    public LinkedMeetIds?: number[];
 
     /**
-     * Primary contact for the team.
+     * Optional optmized schedule for the meets.
      */
-    public PrimaryContact: ContactInfo;
+    public OptimizedSchedule?: ScheduleTemplate;
 
     /**
-     * Contact information for the coach.
+     * Optional custom schedule for the meets.
      */
-    public Coach: ContactInfo;
-
-    /**
-     * The default positions for seating the quizzers. Maps position ids to quizzer ids.
-     */
-    public DefaultPositions: Record<number, number>;
-
-    /**
-     * Value indicating whether the team should be hidden in the UI.
-     */
-    public IsHidden: boolean;
+    public CustomSchedule?: ScheduleTemplate;
 }
