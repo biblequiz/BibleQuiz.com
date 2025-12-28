@@ -299,4 +299,25 @@ export class DataTypeHelpers {
         const trimmed = value.trim();
         return trimmed.length === 0 ? null : trimmed;
     }
+
+    /**
+     * Determines the season from the date.
+     * 
+     * @param date Date for the event.
+     * @returns Season of the date.
+     */
+    public static getSeasonFromDate(date: string): number | null {
+
+        const parsedDate: Date | null = DataTypeHelpers.parseDateOnly(date);
+        if (!parsedDate) {
+            return null;
+        }
+
+        if (parsedDate.getMonth() >= 8) {
+            return parsedDate.getFullYear() + 1;
+        }
+        else {
+            return parsedDate.getFullYear();
+        }
+    }
 }

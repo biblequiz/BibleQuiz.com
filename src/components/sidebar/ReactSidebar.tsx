@@ -3,7 +3,7 @@ import { useStore } from "@nanostores/react";
 import ReactSidebarSublist from "./ReactSidebarSublist";
 import { createMultiReactAtom } from "utils/MultiReactNanoStore";
 import type { NavigateFunction } from "react-router-dom";
-import { AuthManager, type UserAccountProfile, type UserProfileType } from "types/AuthManager";
+import { AuthManager, type UserAccountProfile } from "types/AuthManager";
 
 interface Props {
     loadingElementId: string;
@@ -27,6 +27,7 @@ export interface ReactSidebarLink {
     label: string;
     isCurrent: boolean;
     icon?: string;
+    iconClass?: string[];
     attrs?: any;
     navigate: () => void | Promise<void>;
 }
@@ -37,6 +38,7 @@ export interface ReactSidebarGroup {
     entries: (ReactSidebarLink | ReactSidebarGroup)[];
     collapsed: boolean;
     icon?: string;
+    iconClass?: string[];
     id?: string;
 }
 
