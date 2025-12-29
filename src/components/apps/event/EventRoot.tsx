@@ -391,7 +391,6 @@ function buildSidebar(
                 const findId = DATABASE_GROUP_ID_PREFIX + (routeParameters.databaseId ?? "new");
                 for (const child of currentPage.entries) {
                     if (child.id === findId) {
-                        isDatabaseGroup = true;
                         break;
                     }
 
