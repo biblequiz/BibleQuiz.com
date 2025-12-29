@@ -6,7 +6,7 @@ import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
 import EventPermissionsPage from './EventPermissionsPage';
-import ReportsPage from './ReportsPage';
+import EventReportsPage from './EventReportsPage';
 import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
 import RegistrationProvider from './RegistrationProvider';
@@ -39,6 +39,8 @@ import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
 import ScoringDatabaseDeletePage from './scoring/ScoringDatabaseDeletePage';
 import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
 import ScoringDashboardPage from './scoring/ScoringDashboardPage';
+import EventPaymentsPage from './EventPaymentsPage';
+import EventSummaryProvider from './EventSummaryProvider';
 
 interface Props {
     loadingElementId: string;
@@ -50,6 +52,7 @@ const DATABASE_GROUP_ID_PREFIX = "db-";
 const DATABASE_LOADING_ID = DATABASE_GROUP_ID_PREFIX + "loading";
 const PERMISSIONS_ID = "permissions";
 const REPORTS_ID = "reports";
+const PAYMENTS_ID = "payments";
 const CLONE_ID = "clone";
 const EMAIL_ID = "email";
 const DELETE_ID = "delete";
@@ -292,11 +295,21 @@ function buildSidebar(
         {
             type: 'link' as const,
             label: "Downloads & Reports",
-            navigate: () => navigate(`${rootEventPath}/reports`),
+            navigate: () => navigate(`${rootEventPath}/summary/reports`),
             isCurrent: false,
             icon: "fas faFileImport"
         };
         sidebarEntries.push(reportsEntry);
+
+        const paymentsEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Fees & Payments",
+            navigate: () => navigate(`${rootEventPath}/summary/payments`),
+            isCurrent: false,
+            icon: "fas faSackDollar"
+        };
+        sidebarEntries.push(paymentsEntry);
 
         const permissionsEntry: ReactSidebarLink =
         {
@@ -344,6 +357,9 @@ function buildSidebar(
                 break;
             case REPORTS_ID:
                 currentPage = reportsEntry;
+                break;
+            case PAYMENTS_ID:
+                currentPage = paymentsEntry;
                 break;
             case PERMISSIONS_ID:
                 currentPage = permissionsEntry;
@@ -615,9 +631,19 @@ const router = createHashRouter([
                                 ]
                             },
                             {
-                                path: "/:eventId/reports",
-                                id: REPORTS_ID,
-                                element: <ReportsPage />
+                                path: "/:eventId/summary",
+                                element: <EventSummaryProvider />,
+                                children: [
+                                    {
+                                        path: "/:eventId/summary/reports",
+                                        id: REPORTS_ID,
+                                        element: <EventReportsPage />
+                                    },
+                                    {
+                                        path: "/:eventId/summary/payments",
+                                        id: PAYMENTS_ID,
+                                        element: <EventPaymentsPage />
+                                    }]
                             },
                             {
                                 path: "/:eventId/email",
