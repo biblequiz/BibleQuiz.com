@@ -142,7 +142,6 @@ export default function AllOwnedEventsRoot({
                 districts={districts}
                 seasons={seasons}
                 allowTypeFilter={true}
-                hideScopeLabel={true}
             />
             {auth.userProfile?.canCreateEvents && (
                 <div>

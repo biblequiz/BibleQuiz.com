@@ -201,6 +201,26 @@ export class DataTypeHelpers {
     }
 
     /**
+     * Formats a dollar amount.
+     * 
+     * @param value Value to format.
+     */
+    public static formatDollars(value: number | null): string {
+
+        if (!value) {
+            return "$0.00";
+        }
+
+        const number = this.formatNumber(Math.abs(value), 2);
+        if (value < 0) {
+            return `-$${number}`;
+        }
+        else {
+            return `$${number}`;
+        }
+    }
+
+    /**
      * Formats a zip code.
      * 
      * @param code Code to format.
@@ -283,8 +303,8 @@ export class DataTypeHelpers {
      * 
      * @param value Value to be checked.
      */
-    public static isNullOrEmpty(value: string | null): boolean {
-        return null == value || 0 == value.length;
+    public static isNullOrEmpty(value: string | null | undefined): boolean {
+        return null == value || undefined == value || 0 == value.length;
     }
 
     /**

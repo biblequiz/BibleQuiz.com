@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useStore } from "@nanostores/react";
-import { $eventFilters, EventInfoTypeFilter, type EventFilterConfiguration } from "utils/SharedState";
+import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
 import FontAwesomeIcon from './FontAwesomeIcon';
 
 import type { RegionInfo, DistrictInfo } from 'types/RegionAndDistricts';
@@ -13,7 +13,6 @@ interface Props {
   districts: DistrictInfo[];
   seasons?: number[];
   allowTypeFilter?: boolean;
-  hideScopeLabel?: boolean;
 }
 
 const FILTERS_STORAGE_KEY = "event-list-filters--";
@@ -68,23 +67,6 @@ export function matchesFilter(
     return false;
   }
 
-  switch (filter.infoTypeFilter) {
-    case EventInfoTypeFilter.None:
-      break;
-    case EventInfoTypeFilter.EventsOnly:
-      if (event.isReport) {
-        return false;
-      }
-
-      break;
-    case EventInfoTypeFilter.ReportsOnly:
-      if (!event.isReport) {
-        return false;
-      }
-
-      break;
-  }
-
   switch (event.scope) {
     case "region":
       if (filter.regionId && filter.regionId != event.regionId) {
@@ -122,8 +104,7 @@ export default function EventListFilters({
   regions,
   districts,
   allowTypeFilter,
-  seasons,
-  hideScopeLabel = false }: Props) {
+  seasons }: Props) {
 
   const currentEventFilters = useStore($eventFilters);
 
@@ -136,7 +117,6 @@ export default function EventListFilters({
   const [typeFilterOverride, setTypeFilterOverride] = useState<string | undefined>(currentEventFilters?.typeFilterOverride);
   const [urlPrefix, setUrlPrefix] = useState<string | undefined>(currentEventFilters?.urlPrefix);
   const [season, setSeason] = useState<number | undefined>(seasons ? (currentEventFilters?.season ?? seasons[1]) : undefined);
-  const [infoTypeFilter, setInfoTypeFilter] = useState<EventInfoTypeFilter>(currentEventFilters?.infoTypeFilter ?? EventInfoTypeFilter.None);
   const [showDefaultDialog, setShowDefaultDialog] = useState<boolean>(() => !getDefaultRegionAndDistrict());
 
   useEffect(() => {
@@ -175,7 +155,6 @@ export default function EventListFilters({
         setTypeFilter(deserialized.typeFilter);
         setTypeFilterOverride(newTypeFilterOverride);
         setUrlPrefix(deserialized.urlPrefix);
-        setInfoTypeFilter(deserialized.infoTypeFilter ?? EventInfoTypeFilter.None);
 
         // NOTE: Season is intentionally excluded from being persisted as it is only
         //       used on the All Events page.
@@ -268,21 +247,6 @@ export default function EventListFilters({
     });
   };
 
-  const handleInfoTypeChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
-
-    const selectedValue = e.target.value;
-    const newFilter = DataTypeHelpers.isNullOrEmpty(selectedValue)
-      ? EventInfoTypeFilter.None
-      : EventInfoTypeFilter[selectedValue as keyof typeof EventInfoTypeFilter];
-
-    setInfoTypeFilter(newFilter);
-
-    setSharedStateAndPersist({
-      ...currentEventFilters,
-      infoTypeFilter: newFilter
-    });
-  };
-
   const hasDefaultFilters = useMemo(() => {
     return getKeyFromLocation(getDefaultRegionAndDistrict()) === scope;
   }, [scope]);
@@ -291,7 +255,6 @@ export default function EventListFilters({
     setSearchText(undefined);
     setTypeFilter(undefined);
     setUrlPrefix(undefined);
-    setInfoTypeFilter(EventInfoTypeFilter.None);
     setSeason(seasons ? seasons[1] : undefined);
 
     const defaultLocation = getDefaultRegionAndDistrict();
@@ -304,11 +267,10 @@ export default function EventListFilters({
       districtId: defaultLocation?.districtId,
       typeFilter: undefined,
       urlPrefix: undefined,
-      infoTypeFilter: EventInfoTypeFilter.None,
     } as EventFilterConfiguration);
   };
 
-  const hasFilters = (searchText || !hasDefaultFilters || typeFilter || !!urlPrefix || (seasons && season != seasons[1]) || infoTypeFilter !== EventInfoTypeFilter.None);
+  const hasFilters = (searchText || !hasDefaultFilters || typeFilter || !!urlPrefix || (seasons && season != seasons[1]));
 
   return (
     <>
@@ -349,8 +311,8 @@ export default function EventListFilters({
                 <FontAwesomeIcon icon="fas faCircleXmark" />
               </button>)}
           </label>
-          <div className={`flex items-center gap-2 rounded-box border border-neutral-color p-0 ${hideScopeLabel ? "pl-0" : "pl-2"} mb-0 mt-0`}>
-            {!hideScopeLabel && "Teams in"}
+          <div className="flex items-center gap-2 rounded-box border border-neutral-color p-0 pl-2 mb-0 mt-0">
+            Teams in
             <select
               className="select select-sm mt-0 w-auto"
               onChange={handleScopeChanged}
@@ -410,16 +372,7 @@ export default function EventListFilters({
             <option value="districts/">Districts</option>
             <option value="tournaments/">Tournaments</option>
             <option value="other/">Local</option>
-          </select>
-          <select
-            className="select select-sm mt-0 w-auto"
-            onChange={handleInfoTypeChanged}
-            value={infoTypeFilter ?? ""}>
-            <option value={EventInfoTypeFilter.None}>
-              Events & Reports
-            </option>
-            <option value={EventInfoTypeFilter.EventsOnly}>Events Only</option>
-            <option value={EventInfoTypeFilter.ReportsOnly}>Reports Only</option>
+            <option value="reports/">Reports</option>
           </select>
           {!hasFilters && (
             <div className="mt-0">
