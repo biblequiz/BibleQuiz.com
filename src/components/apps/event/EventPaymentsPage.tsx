@@ -1,10 +1,9 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { EventSummaryProviderContext } from "./EventSummaryProvider";
-import { useNavigate, useOutletContext } from "react-router-dom";
+import { useNavigate, useOutletContext, type NavigateFunction } from "react-router-dom";
 import type { EventChurchSummary, EventInfo } from "types/services/EventsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import { useState } from "react";
-import EventPaymentsReceiptDialog from "./EventPaymentsReceiptDialog";
 
 interface Props {
 }
@@ -12,15 +11,14 @@ interface Props {
 const getChurchCard = (
     info: EventInfo,
     summary: EventChurchSummary,
-    setSelectedChurch: (church: EventChurchSummary) => void,
-    isDisabled: boolean) => {
+    rootUrl: string,
+    navigate: NavigateFunction) => {
 
     return (
         <button
             key={`church-${summary.Id}`}
             className="card live-events-card w-full md:w-64 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
-            onClick={() => setSelectedChurch(summary)}
-            disabled={isDisabled}
+            onClick={() => navigate(`${rootUrl}/summary/payments/${summary.Id}`)}
         >
             <div className="card-body p-2 pl-4">
                 <div className="flex items-start gap-4">
@@ -61,12 +59,11 @@ export default function EventPaymentsPage({ }: Props) {
         summary
     } = useOutletContext<EventSummaryProviderContext>();
 
-    const { auth, info, rootUrl } = context;
+    const { info, rootUrl } = context;
     const navigate = useNavigate();
 
     const [searchText, setSearchText] = useState<string | undefined>(undefined);
     const [includeOnlyNonZeroChurches, setIncludeOnlyNonZeroChurches] = useState<boolean>(false);
-    const [displayChurch, setDisplayChurch] = useState<EventChurchSummary | undefined>(undefined);
 
     if (!info!.CalculatePayment) {
         return (
@@ -137,7 +134,6 @@ export default function EventPaymentsPage({ }: Props) {
                             placeholder="Name or Location"
                             value={searchText ?? ""}
                             onChange={e => setSearchText(e.target.value)}
-                            disabled={!!displayChurch}
                         />
                         {(searchText?.length ?? 0) > 0 && (
                             <button
@@ -155,7 +151,6 @@ export default function EventPaymentsPage({ }: Props) {
                                     className="checkbox checkbox-sm checkbox-info"
                                     checked={includeOnlyNonZeroChurches}
                                     onChange={e => setIncludeOnlyNonZeroChurches(e.target.checked)}
-                                    disabled={!!displayChurch}
                                 />
                                 <span className="mt-0 mb-0 text-base-content">
                                     Show only churches owing money
@@ -168,19 +163,13 @@ export default function EventPaymentsPage({ }: Props) {
                 {filteredChurches.map(church => getChurchCard(
                     info!,
                     church,
-                    setDisplayChurch,
-                    !!displayChurch))}
+                    rootUrl,
+                    navigate))}
                 {filteredChurches.length === 0 && (
                     <p className="mt-4 italic w-full text-center">
                         No churches match the specified criteria.
                     </p>
                 )}
             </div>
-            {displayChurch && (
-                <EventPaymentsReceiptDialog
-                    eventSummary={summary}
-                    churchSummary={displayChurch}
-                    onClose={() => setDisplayChurch(undefined)}
-                />)}
         </>);
 }

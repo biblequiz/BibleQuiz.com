@@ -41,6 +41,7 @@ import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
 import ScoringDashboardPage from './scoring/ScoringDashboardPage';
 import EventPaymentsPage from './EventPaymentsPage';
 import EventSummaryProvider from './EventSummaryProvider';
+import EventPaymentsReceiptPage from './EventPaymentsReceiptPage';
 
 interface Props {
     loadingElementId: string;
@@ -53,6 +54,7 @@ const DATABASE_LOADING_ID = DATABASE_GROUP_ID_PREFIX + "loading";
 const PERMISSIONS_ID = "permissions";
 const REPORTS_ID = "reports";
 const PAYMENTS_ID = "payments";
+const PAYMENTS_RECEIPT_ID = "payments-receipt";
 const CLONE_ID = "clone";
 const EMAIL_ID = "email";
 const DELETE_ID = "delete";
@@ -359,6 +361,7 @@ function buildSidebar(
                 currentPage = reportsEntry;
                 break;
             case PAYMENTS_ID:
+            case PAYMENTS_RECEIPT_ID:
                 currentPage = paymentsEntry;
                 break;
             case PERMISSIONS_ID:
@@ -643,6 +646,11 @@ const router = createHashRouter([
                                         path: "/:eventId/summary/payments",
                                         id: PAYMENTS_ID,
                                         element: <EventPaymentsPage />
+                                    },
+                                    {
+                                        path: "/:eventId/summary/payments/:churchId",
+                                        id: PAYMENTS_RECEIPT_ID,
+                                        element: <EventPaymentsReceiptPage />
                                     }]
                             },
                             {

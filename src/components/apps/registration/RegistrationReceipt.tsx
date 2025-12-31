@@ -1,59 +1,31 @@
-import { useState } from 'react';
-
 import { PaymentEntry, type EventChurchSummary, type EventSummary } from 'types/services/EventsService';
 import RegistrationReceiptPaymentRow from './RegistrationReceiptPaymentRow';
-import { sharedDirtyWindowState } from 'utils/SharedState';
 import { DataTypeHelpers } from 'utils/DataTypeHelpers';
-import FontAwesomeIcon from 'components/FontAwesomeIcon';
 
 interface Props {
     eventSummary: EventSummary;
     churchSummary: EventChurchSummary;
+    entries: PaymentEntry[];
     isEditable: boolean;
     includeDetails: boolean;
-    setAreEntriesChanged: (hasChanges: boolean) => void;
+    editEntry: (entry: PaymentEntry) => void;
 }
 
 export default function RegistrationReceipt({
     eventSummary,
     churchSummary,
+    entries,
     isEditable,
     includeDetails,
-    setAreEntriesChanged }: Props) {
+    editEntry }: Props) {
 
-    const [entries, setEntries] = useState<PaymentEntry[]>(() => churchSummary?.PaymentEntries || []);
-    const [paymentsTotal, setPaymentsTotal] = useState<number>(() => {
-        let total = 0;
-        if (churchSummary?.PaymentEntries) {
-            for (const entry of entries) {
-                total += entry.Amount;
-            }
-        }
-
-        return total;
-    });
+    let paymentsTotal = 0;
+    for (const entry of entries) {
+        paymentsTotal += entry.Amount;
+    }
 
     return (
         <div className="overflow-x-auto">
-            <button
-                type="button"
-                className="btn btn-sm btn-primary float-right mb-4"
-                onClick={() => {
-                    setEntries([
-                        ...entries,
-                        {
-                            Id: null,
-                            EntryDate: DataTypeHelpers.formatDate(DataTypeHelpers.nowDateOnly, "yyyy-MM-dd"),
-                            Description: "",
-                            Amount: 0,
-                            IsAutomated: false
-                        } as PaymentEntry]);
-
-                    setAreEntriesChanged(true);
-                    sharedDirtyWindowState.set(true);
-                }}>
-                <FontAwesomeIcon icon="fas faPlus" /> Add Payment
-            </button>
             <table className="table table-zebra">
                 <thead>
                     <tr>
@@ -77,16 +49,7 @@ export default function RegistrationReceipt({
                                     key={`payment-editable-${entry.Id || -index}`}
                                     isEditable={isEditable}
                                     entry={entry}
-                                    onChange={balanceAdjustment => {
-                                        setPaymentsTotal(paymentsTotal - balanceAdjustment);
-                                        setAreEntriesChanged(true);
-                                        sharedDirtyWindowState.set(true);
-                                    }}
-                                    onDelete={() => {
-                                        setEntries(entries.filter(e => e !== entry));
-                                        setAreEntriesChanged(true);
-                                        sharedDirtyWindowState.set(true);
-                                    }}
+                                    onEdit={() => editEntry(entry)}
                                 />))}
                             {entries.length > 0 && (
                                 <tr>
