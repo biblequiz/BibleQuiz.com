@@ -41,7 +41,7 @@ export function matchesFilter(
   event: EventInfo,
   type: string,
   includeHidden?: boolean): boolean {
-    
+
   if (!event.isVisible && !includeHidden) {
     return false;
   }
@@ -100,7 +100,11 @@ const getKeyFromLocation = (location?: DefaultRegionAndDistrict): string | undef
   }
 }
 
-export default function EventListFilters({ regions, districts, allowTypeFilter, seasons }: Props) {
+export default function EventListFilters({
+  regions,
+  districts,
+  allowTypeFilter,
+  seasons }: Props) {
 
   const currentEventFilters = useStore($eventFilters);
 
@@ -152,6 +156,8 @@ export default function EventListFilters({ regions, districts, allowTypeFilter, 
         setTypeFilterOverride(newTypeFilterOverride);
         setUrlPrefix(deserialized.urlPrefix);
 
+        // NOTE: Season is intentionally excluded from being persisted as it is only
+        //       used on the All Events page.
         if (deserialized.districtId) {
           const { regionId, districtId } = deserialized;
           setScope(`${regionId}_${districtId}`);
@@ -260,6 +266,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter, 
       regionId: defaultLocation?.regionId,
       districtId: defaultLocation?.districtId,
       typeFilter: undefined,
+      urlPrefix: undefined,
     } as EventFilterConfiguration);
   };
 
@@ -365,6 +372,7 @@ export default function EventListFilters({ regions, districts, allowTypeFilter, 
             <option value="districts/">Districts</option>
             <option value="tournaments/">Tournaments</option>
             <option value="other/">Local</option>
+            <option value="reports/">Reports</option>
           </select>
           {!hasFilters && (
             <div className="mt-0">

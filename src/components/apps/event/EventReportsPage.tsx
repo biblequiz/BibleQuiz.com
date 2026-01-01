@@ -3,7 +3,7 @@ import { AuthManager } from "types/AuthManager";
 interface Props {
 }
 
-export default function ReportsPage({ }: Props) {
+export default function EventReportsPage({ }: Props) {
     const auth = AuthManager.useNanoStore();
 
     return (

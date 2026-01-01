@@ -91,6 +91,15 @@ export interface PrintConfiguration {
 export const sharedPrintConfiguration = atom<PrintConfiguration | null>(null);
 
 /**
+ * Filter on EventInfo objects.
+ */
+export enum EventInfoTypeFilter {
+    None = "None",
+    EventsOnly = "EventsOnly",
+    ReportsOnly = "ReportsOnly",
+}
+
+/**
  * Filters for event lists.
  */
 export interface EventFilterConfiguration {
@@ -134,6 +143,11 @@ export interface EventFilterConfiguration {
      * Filter on the URL prefix for different types of events.
      */
     urlPrefix: string | undefined;
+
+    /**
+     * Filter on the type of EventInfo.
+     */
+    infoTypeFilter: EventInfoTypeFilter | undefined;
 }
 
 export const $eventFilters = atom<EventFilterConfiguration>({ isLoaded: false } as EventFilterConfiguration);
