@@ -1440,6 +1440,11 @@ export class EventTeamSummary {
   public readonly Name!: string;
 
   /**
+   * Gets the id for the team's church.
+   */
+  public readonly ChurchId!: string;
+
+  /**
     * Gets the name of the church.
     */
   public readonly ChurchName!: string;
@@ -1534,6 +1539,11 @@ export class EventPersonSummary {
    * Gets the name of the person's team (if any).
    */
   public readonly TeamName!: string;
+
+  /**
+   * Gets the id for the person's church.
+   */
+  public readonly ChurchId!: string;
 
   /**
     * Gets the name of the person's church.

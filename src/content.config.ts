@@ -22,6 +22,7 @@ export const collections = {
 						showSeasonButtons: z.boolean().optional(),
 						hidePageTitle: z.boolean().optional(),
 						hidePageTitleOnPrint: z.boolean().optional(),
+						hideAdsOnPrint: z.boolean().optional(),
 						hideFooterOnPrint: z.boolean().optional(),
 					}),
 			})

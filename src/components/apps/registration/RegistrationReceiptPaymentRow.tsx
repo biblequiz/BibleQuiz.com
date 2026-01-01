@@ -6,14 +6,12 @@ import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 interface Props {
     isEditable: boolean;
     entry: PaymentEntry;
-    isEditDisabled: boolean;
     onEdit: () => void;
 }
 
 export default function RegistrationReceiptPaymentRow({
     isEditable,
     entry,
-    isEditDisabled,
     onEdit }: Props) {
 
     const canEdit = isEditable && !entry.IsAutomated;
@@ -33,12 +31,11 @@ export default function RegistrationReceiptPaymentRow({
 
     return (
         <tr>
-            <td className={`p-0 ${canEdit ? "pl-2 pt-2 pb-2" : "pl-10"}`}>
+            <td className={`p-0 ${canEdit ? "pl-2 pt-2 pb-2 print:pl-6 print:pt-0 print:pb-0" : "pl-6"}`}>
                 {canEdit && (
                     <button
                         type="button"
-                        className="btn btn-sm btn-primary mr-1"
-                        disabled={isEditDisabled}
+                        className="btn btn-sm btn-primary mr-1 hide-on-print"
                         onClick={() => onEdit()}>
                         <FontAwesomeIcon icon="fas faEdit" />
                     </button>

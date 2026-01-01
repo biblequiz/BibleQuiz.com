@@ -9,7 +9,6 @@ import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 import EventPaymentsEntryDialog from './EventPaymentsEntryDialog';
 import { sharedDirtyWindowState } from 'utils/SharedState';
 import { RegistrationService } from 'types/services/RegistrationService';
-import { set } from 'date-fns';
 
 interface Props {
 }
@@ -128,8 +127,16 @@ export default function EventPaymentsReceiptPage({ }: Props) {
             <div className="mt-4 text-right hide-on-print">
                 <button
                     type="button"
-                    className="btn btn-primary mr-2 mt-0"
+                    className="btn btn-warning mr-2 mt-0"
                     tabIndex={1}
+                    onClick={() => window.print()}>
+                    <FontAwesomeIcon icon="fas faPrint" />
+                    Print
+                </button>
+                <button
+                    type="button"
+                    className="btn btn-primary mr-2 mt-0"
+                    tabIndex={2}
                     disabled={isSaving}
                     onClick={() => {
                         setEditingEntry({
@@ -146,7 +153,7 @@ export default function EventPaymentsReceiptPage({ }: Props) {
                 <button
                     type="button"
                     className="btn btn-success mr-2 mt-0"
-                    tabIndex={2}
+                    tabIndex={3}
                     disabled={!areEntriesChanged || isSaving}
                     onClick={() => {
                         setIsSaving(true);
@@ -163,7 +170,12 @@ export default function EventPaymentsReceiptPage({ }: Props) {
                                         churchId)
                                         .then(updatedSummary => {
                                             if (updatedSummary.Churches) {
+                                                const existingChurchIndex = summary.Churches.findIndex(c => c.Id === churchId);
                                                 const updatedChurch = getChurchFromSummary(updatedSummary, churchId);
+                                                if (existingChurchIndex >= 0 && updatedChurch) {
+                                                    summary.Churches[existingChurchIndex] = updatedChurch;
+                                                }
+
                                                 setChurchSummary(updatedChurch);
                                                 setEntries(updatedChurch?.PaymentEntries || []);
                                             }
@@ -202,7 +214,13 @@ export default function EventPaymentsReceiptPage({ }: Props) {
                         entry={editingEntry}
                         onClose={entry => {
                             if (entry) {
-                                if (!entry.Id) {
+                                const existingIndex = entries.findIndex(e => e === editingEntry);
+                                if (existingIndex >= 0) {
+                                    const newEntries = [...entries];
+                                    newEntries[existingIndex] = entry;
+                                    setEntries(newEntries);
+                                }
+                                else {
                                     setEntries([...entries, entry]);
                                 }
 
@@ -216,7 +234,7 @@ export default function EventPaymentsReceiptPage({ }: Props) {
                         onDelete={() => {
                             const newEntries = entries.filter(e => e !== editingEntry);
                             setEntries(newEntries);
-                            setAreEntriesChanged(false);
+                            setAreEntriesChanged(true);
                             setEditingEntry(undefined);
 
                             sharedDirtyWindowState.set(true);

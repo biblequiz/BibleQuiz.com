@@ -56,70 +56,66 @@ export default function EventPaymentsEntryDialog({
 
     return (
         <dialog ref={dialogRef} className="modal" open>
-            <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
+            <div className="modal-box w-11/12 max-w-full md:w-1/2">
                 <h3 className="font-bold text-lg">Edit Payment Entry</h3>
                 <form method="dialog gap-2" onSubmit={handleSubmit}>
-                    <div>
-                        <div className="w-full">
-                            <label className="label">
-                                <span className="label-text font-medium">Date</span>
-                                <span className="label-text-alt text-error">*</span>
-                            </label>
+                    <div className="grid grid-cols-[minmax(auto,150px)_1fr] gap-x-4 gap-y-2 items-center">
+                        <label className="label justify-start p-0">
+                            <span className="label-text font-medium">Date</span>
+                            <span className="label-text-alt text-error ml-1">*</span>
+                        </label>
+                        <input
+                            name="entryDate"
+                            type="date"
+                            className="input input-sm"
+                            value={date}
+                            onChange={e => {
+                                const newDate = e.target.value;
+                                setDate(newDate);
+                                recalculateIfChanged(newDate, description, amount);
+                            }}
+                            required
+                        />
+
+                        <label className="label justify-start p-0">
+                            <span className="label-text font-medium">Description</span>
+                            <span className="label-text-alt text-error ml-1">*</span>
+                        </label>
+                        <input
+                            name="description"
+                            type="text"
+                            className="input input-sm"
+                            value={description}
+                            maxLength={100}
+                            onChange={e => {
+                                const newDescription = e.target.value;
+                                setDescription(newDescription);
+                                recalculateIfChanged(date, newDescription, amount);
+                            }}
+                            required
+                        />
+
+                        <label className="label justify-start p-0 mt-0">
+                            <span className="label-text font-medium">Amount</span>
+                            <span className="label-text-alt text-error ml-1">*</span>
+                        </label>
+                        <label className="input input-sm mt-0">
+                            <FontAwesomeIcon icon="fas faDollarSign" />
                             <input
-                                name="entryDate"
-                                type="date"
-                                className="input input-sm ml-2"
-                                value={date}
+                                type="number"
+                                step={0.01}
+                                min={-10000}
+                                max={10000}
+                                className="grow"
+                                value={amount}
                                 onChange={e => {
-                                    const newDate = e.target.value;
-                                    setDate(newDate);
-                                    recalculateIfChanged(newDate, description, amount);
+                                    const newAmount = parseFloat(e.target.value);
+                                    setAmount(newAmount);
+                                    recalculateIfChanged(date, description, newAmount);
                                 }}
                                 required
                             />
-                        </div>
-                        <div className="w-full">
-                            <label className="label">
-                                <span className="label-text font-medium">Description</span>
-                                <span className="label-text-alt text-error">*</span>
-                            </label>
-                            <input
-                                name="description"
-                                type="text"
-                                className="input input-sm min-w-24 ml-2 grow"
-                                value={description}
-                                maxLength={100}
-                                onChange={e => {
-                                    const newDescription = e.target.value;
-                                    setDescription(newDescription);
-                                    recalculateIfChanged(date, newDescription, amount);
-                                }}
-                                required
-                            />
-                        </div>
-                        <div className="w-full">
-                            <label className="label">
-                                <span className="label-text font-medium">Amount</span>
-                                <span className="label-text-alt text-error">*</span>
-                            </label>
-                            <label className="input">
-                                <FontAwesomeIcon icon="fas faDollarSign" />
-                                <input
-                                    type="number"
-                                    step={0.01}
-                                    min={-10000}
-                                    max={10000}
-                                    className="input input-info input-sm mt-0 w-full"
-                                    value={amount}
-                                    onChange={e => {
-                                        const newAmount = parseFloat(e.target.value);
-                                        setAmount(newAmount);
-                                        recalculateIfChanged(date, description, newAmount);
-                                    }}
-                                    required
-                                />
-                            </label>
-                        </div>
+                        </label>
                     </div>
                     <div className="mt-4 text-right">
                         <button

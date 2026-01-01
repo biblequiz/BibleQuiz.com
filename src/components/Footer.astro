@@ -4,13 +4,14 @@ import Pagination from "virtual:starlight/components/Pagination";
 
 const {
     hideFooterOnPrint,
+    hideAdsOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
 ---
 
 <footer class={`sl-flex ${hideFooterOnPrint ? "hide-on-print": ""}`}>
     <Pagination />
 
-    <div class="grid grid-cols-2 lg:flex lg:justify-center gap-4">
+    <div class={`grid grid-cols-2 lg:flex lg:justify-center gap-4 ${hideAdsOnPrint ? "hide-on-print" : ""}`}>
         <div class="flex justify-center">
             <a href="https://www.evangel.edu/">
                 <img
