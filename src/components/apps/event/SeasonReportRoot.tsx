@@ -5,46 +5,14 @@ import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCall
 import ConfirmationDialog from '../../ConfirmationDialog';
 import ProtectedRoute from '../../auth/ProtectedRoute';
 import { reactSidebarEntries, type ReactSidebarEntry, type ReactSidebarGroup, type ReactSidebarLink } from 'components/sidebar/ReactSidebar';
-import EventPermissionsPage from './EventPermissionsPage';
-import EventRegistrationsPage from './EventRegistrationsPage';
 import ErrorPage from '../ErrorPage';
 import NotFoundError from 'components/NotFoundError';
-import RegistrationProvider from './RegistrationProvider';
-import RegistrationGeneralPage from './registration/RegistrationGeneralPage';
-import RegistrationTeamsAndQuizzersPage from './registration/RegistrationTeamsAndQuizzersPage';
-import RegistrationOfficialsPage from './registration/RegistrationOfficialsPage';
-import RegistrationRequiredFieldsPage from './registration/RegistrationRequiredFieldsPage';
-import RegistrationCustomFieldsPage from './registration/RegistrationCustomFieldsPage';
-import RegistrationDivisionsPage from './registration/RegistrationDivisionsPage';
-import RegistrationFormsPage from './registration/RegistrationFormsPage';
-import RegistrationMoneyPage from './registration/RegistrationMoneyPage';
-import RegistrationOtherPage from './registration/RegistrationOtherPage';
-import ScoringSettingsPage from './scoring/ScoringSettingsPage';
-import ScoringDatabaseProvider from './scoring/ScoringDatabaseProvider';
-import ScoringDatabaseMeetsPage from './scoring/ScoringDatabaseMeetsPage';
-import ScoringDatabaseLiveScoresPage from './scoring/ScoringDatabaseLiveScoresPage';
-import ScoringDatabasePlayoffsPage from './scoring/ScoringDatabasePlayoffsPage';
-import ScoringDatabaseTeamsAndQuizzersPage from './scoring/ScoringDatabaseTeamsAndQuizzersPage';
-import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
-import ScoringDatabaseManualEntryPage from './scoring/ScoringDatabaseManualEntryPage';
-import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
-import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
+import { NEW_ID_PLACEHOLDER } from './EventProvider';
 import { AuthManager } from 'types/AuthManager';
-import EventDashboardPage from './EventDashboardPage';
-import DeleteEventPage from './DeleteEventPage';
-import EmailEventPage from './EmailEventPage';
-import CloneEventPage from './CloneEventPage';
 import type { DatabaseSettings } from 'types/services/DatabasesService';
 import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
-import ScoringDatabaseDeletePage from './scoring/ScoringDatabaseDeletePage';
-import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
-import ScoringDashboardPage from './scoring/ScoringDashboardPage';
-import EventPaymentsPage from './EventPaymentsPage';
-import EventSummaryProvider from './EventSummaryProvider';
-import EventPaymentsReceiptPage from './EventPaymentsReceiptPage';
-import EventReportsPage from './EventReportsPage';
-import EventReportsProvider from './EventReportsProvider';
 import EventReportSettingsPage from './report/EventReportSettingsPage';
+import SeasonReportProvider from './SeasonReportProvider';
 
 interface Props {
     loadingElementId: string;
@@ -539,175 +507,21 @@ function buildDatabaseEntry(
 const router = createHashRouter([
     {
         path: "/",
-        element: <RootLayout loadingElementId="event-fallback" />,
-        errorElement: <ErrorPage loadingElementId="event-fallback" />,
+        element: <RootLayout loadingElementId="report-fallback" />,
+        errorElement: <ErrorPage loadingElementId="report-fallback" />,
         children: [
             {
                 path: "/",
                 element: <ProtectedRoute permissionCheck={profile => profile.canManageEvents} />,
                 children: [
                     {
-                        path: "/",
-                        element: <EventProvider />,
+                        path: "/:reportId",
+                        element: <SeasonReportProvider />,
                         children: [
                             {
-                                path: "/:eventId/dashboard",
-                                id: DASHBOARD_ID,
-                                element: <EventDashboardPage />
-                            },
-                            {
-                                path: "/:eventId",
-                                element: <RegistrationProvider />,
-                                children: [
-                                    {
-                                        path: "/:eventId/registration/general",
-                                        element: <RegistrationGeneralPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/teamsAndQuizzers",
-                                        element: <RegistrationTeamsAndQuizzersPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/officials",
-                                        element: <RegistrationOfficialsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/requiredFields",
-                                        element: <RegistrationRequiredFieldsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/customFields",
-                                        element: <RegistrationCustomFieldsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/divisions",
-                                        element: <RegistrationDivisionsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/forms",
-                                        element: <RegistrationFormsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/money",
-                                        element: <RegistrationMoneyPage />
-                                    },
-                                    {
-                                        path: "/:eventId/registration/other",
-                                        element: <RegistrationOtherPage />
-                                    },
-                                ],
-                            },
-                            {
-                                path: "/:eventId/scoring",
-                                children: [
-                                    {
-                                        path: "/:eventId/scoring",
-                                        element: <ScoringSettingsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/scoring/databases/:databaseId",
-                                        element: <ScoringDatabaseProvider />,
-                                        children: [
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/dashboard",
-                                                element: <ScoringDashboardPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/meets",
-                                                element: <ScoringDatabaseMeetsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/teamsAndQuizzers",
-                                                element: <ScoringDatabaseTeamsAndQuizzersPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/liveScores",
-                                                element: <ScoringDatabaseLiveScoresPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/playoffs",
-                                                element: <ScoringDatabasePlayoffsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/apps",
-                                                element: <ScoringDatabaseAppsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/awards",
-                                                element: <ScoringDatabaseAwardsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/manualEntry",
-                                                element: <ScoringDatabaseManualEntryPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/delete",
-                                                element: <ScoringDatabaseDeletePage />
-                                            },
-                                        ]
-                                    },
-                                    {
-                                        path: "/:eventId/scoring/addDatabase",
-                                        element: <ScoringDatabaseNewPage />
-                                    },
-                                ]
-                            },
-                            {
-                                path: "/:eventId/summary",
-                                element: <EventSummaryProvider />,
-                                children: [
-                                    {
-                                        path: "/:eventId/summary/registrations",
-                                        id: REGISTRATIONS_ID,
-                                        element: <EventRegistrationsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/summary/payments",
-                                        id: PAYMENTS_ID,
-                                        element: <EventPaymentsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/summary/payments/:churchId",
-                                        id: PAYMENTS_RECEIPT_ID,
-                                        element: <EventPaymentsReceiptPage />
-                                    }]
-                            },
-                            {
-                                path: "/:eventId/reports",
-                                element: <EventReportsProvider />,
-                                children: [
-                                    {
-                                        path: "/:eventId/reports",
-                                        id: REPORTS_ID,
-                                        element: <EventReportsPage />
-                                    },
-                                    {
-                                        path: "/:eventId/reports/:type/:reportId",
-                                        id: REPORT_SETTINGS_ID,
-                                        element: <EventReportSettingsPage />
-                                    }
-                                ]
-                            },
-                            {
-                                path: "/:eventId/email",
-                                id: EMAIL_ID,
-                                element: <EmailEventPage />
-                            },
-                            {
-                                path: "/:eventId/clone",
-                                id: CLONE_ID,
-                                element: <CloneEventPage />
-                            },
-                            {
-                                path: "/:eventId/permissions",
-                                id: PERMISSIONS_ID,
-                                element: <EventPermissionsPage />
-                            },
-                            {
-                                path: "/:eventId/delete",
-                                id: DELETE_ID,
-                                element: <DeleteEventPage />
-                            },
+                                path: "/:reportId",
+                                element: <EventReportSettingsPage />
+                            }
                         ]
                     }
                 ]
@@ -720,6 +534,6 @@ const router = createHashRouter([
     }
 ]);
 
-export default function EventRoot() {
+export default function SeasonReportRoot() {
     return <RouterProvider router={router} />;
 }

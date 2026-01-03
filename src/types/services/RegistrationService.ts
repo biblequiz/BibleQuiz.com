@@ -553,7 +553,7 @@ export class IdRolePair extends RemoteServiceModelBase<string> {
      * @param role Role to check.
      */
     public static isRoleKey(key: string, role: PersonRole): boolean {
-        return (key.substr(0, 2) == role + "|");
+        return (key.substring(0, 2) == role + "|");
     }
 
     /**

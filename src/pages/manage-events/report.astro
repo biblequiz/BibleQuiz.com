@@ -1,0 +1,21 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import SeasonReportRoot from "components/apps/event/SeasonReportRoot";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Manage My Report",
+    hidePageTitle: true,
+    hideAdsOnPrint: true,
+    pagefind: false
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="report-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading
+        Page ...
+    </div>
+    <SeasonReportRoot client:only="react" />
+</StarlightPage>
