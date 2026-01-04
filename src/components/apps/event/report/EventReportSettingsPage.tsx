@@ -6,7 +6,6 @@ import type { EventReportsProviderContext } from "../EventReportsProvider";
 import EventReportSettingsSection from "./EventReportSettingsSection";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import { sharedDirtyWindowState } from "utils/SharedState";
-import { set } from "date-fns";
 
 interface Props {
 }
@@ -190,34 +189,33 @@ export default function EventReportSettingsPage({ }: Props) {
             });
     };
 
-    const deleteReport = (): Promise<void> => {
+    const deleteReport = async (): Promise<void> => {
 
         setIsSaving(true);
 
         const reportEventId = eventId ?? reportSettings!.Meets[0].EventId;
-        return DatabaseReportsService.deleteEventOrSeasonReport(
-            auth,
-            reportEventId,
-            reportId!,
-            type === "event")
-            .then(() => {
-                if (type === "event") {
-                    setLoadedEventReport(reportId!);
-                }
-                else {
-                    setLoadedSeasonReport(reportId!);
-                }
+        try {
+            await DatabaseReportsService.deleteEventOrSeasonReport(
+                auth,
+                reportEventId,
+                reportId!,
+                type === "event");
+            if (type === "event") {
+                setLoadedEventReport(reportId!);
+            }
+            else {
+                setLoadedSeasonReport(reportId!);
+            }
 
-                sharedDirtyWindowState.set(false);
-                setIsDeleting(false);
-                setIsSaving(false);
-                backToAllReports();
-            })
-            .catch(err => {
-                setSavingError(err.message || "An error occurred while deleting the report.");
-                setIsDeleting(false);
-                setIsDeleting(false);
-            });
+            sharedDirtyWindowState.set(false);
+            setIsDeleting(false);
+            setIsSaving(false);
+            backToAllReports();
+        } catch (err) {
+            setSavingError((err as Error).message || "An error occurred while deleting the report.");
+            setIsDeleting(false);
+            setIsDeleting(false);
+        }
     };
 
     if (isLoading || !reportSettings) {

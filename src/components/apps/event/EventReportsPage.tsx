@@ -1,6 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useNavigate, useOutletContext, type NavigateFunction } from "react-router-dom";
-import { NEW_ID_PLACEHOLDER, type EventProviderContext } from "./EventProvider";
+import { NEW_ID_PLACEHOLDER } from "./EventProvider";
 import { ReportType, type EventReport, type SeasonReport } from "types/services/DatabaseReportsService";
 import type { EventReportsProviderContext, LoadedReport } from "./EventReportsProvider";
 

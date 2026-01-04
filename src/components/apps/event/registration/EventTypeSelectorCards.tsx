@@ -4,7 +4,7 @@ import districts from "data/districts.json";
 import { EventPublishType } from "types/services/EventsService";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { AuthManager } from "types/AuthManager";
-import { filterToAuthorizedDistricts, filterToAuthorizedRegions, type DistrictInfo, type RegionInfo } from "types/RegionAndDistricts";
+import { filterToAuthorizedDistricts, filterToAuthorizedRegions } from "types/RegionAndDistricts";
 
 interface Props {
     isNewEvent: boolean;

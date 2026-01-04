@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { DatabaseSettings, DatabaseSettingsMeet, DatabasesService } from "types/services/DatabasesService";
-import { DatabaseReportsService, type ReportMeetFilter } from "types/services/DatabaseReportsService";
+import { DatabaseReportsService } from "types/services/DatabaseReportsService";
 
 interface Props {
     auth: AuthManager;

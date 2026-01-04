@@ -114,7 +114,7 @@ export default function SeasonReportProvider({ }: Props) {
                     />
                 )}
                 <span className="event-title-text">{reportTitle || report.Name}</span>
-                {!report.IsVisible && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
+                {isHidden && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
             </h1>
             <Outlet context={{
                 auth: auth,
@@ -132,7 +132,7 @@ export default function SeasonReportProvider({ }: Props) {
 
                 parentUrl: `/manage-events`,
                 useNavigateForParent: false,
-                getItemUrl: (type, reportId) => `/${reportId}`,
+                getItemUrl: (_type, reportId) => `/${reportId}`,
                 getDatabaseUrl: (eventId, databaseId) => ({
                     url: `/manage-events/event/#/${eventId}/scoring/databases/${databaseId}/meets`,
                     useNavigate: false

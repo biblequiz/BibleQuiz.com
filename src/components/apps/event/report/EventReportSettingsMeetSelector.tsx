@@ -1,7 +1,7 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useMemo, useState } from "react";
 import { useNavigate, type NavigateFunction } from "react-router-dom";
-import type { ReportMeetFilter, ReportType } from "types/services/DatabaseReportsService";
+import type { ReportMeetFilter } from "types/services/DatabaseReportsService";
 import EventLookupDialog from "../EventLookupDialog";
 import EventDatabaseLookupDialog, { type DatabaseAndMeetLookupResult } from "../EventDatabaseLookupDialog";
 

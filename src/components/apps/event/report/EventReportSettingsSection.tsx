@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { EventReport, EventReportBase, EventReportPointValueFilter, ReportType, SeasonReport } from "types/services/DatabaseReportsService";
+import { EventReport, EventReportPointValueFilter, ReportType, SeasonReport } from "types/services/DatabaseReportsService";
 import EventReportSettingsGeneralSection from "./EventReportSettingsGeneralSection";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { sharedDirtyWindowState } from "utils/SharedState";
@@ -135,12 +135,6 @@ export default function EventReportSettingsSection({
         await saveReport(newReport);
     };
 
-    const handleDelete = async (e: React.MouseEvent) => {
-        e.preventDefault();
-
-        await deleteReport();
-    };
-
     const hasRequiredFilters = general.reportType === ReportType.Teams ||
         (quizzerPointFilter.averagePoints || quizzerPointFilter.p10 || quizzerPointFilter.p20 || quizzerPointFilter.p30);
 
@@ -169,7 +163,7 @@ export default function EventReportSettingsSection({
                     <button
                         type="button"
                         className="btn btn-sm btn-error m-0"
-                        onClick={handleDelete}
+                        onClick={() => deleteReport()}
                         disabled={!report?.Id || isViewing}>
                         <FontAwesomeIcon icon="fas faTrash" />
                         Delete Report
