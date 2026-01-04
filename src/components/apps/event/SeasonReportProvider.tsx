@@ -21,6 +21,7 @@ export default function SeasonReportProvider({ }: Props) {
     const [isLoading, setIsLoading] = useState(reportId !== null);
     const [loadingError, setLoadingError] = useState<string | null>(null);
     const [report, setReport] = useState<SeasonReport | null>(null);
+    const [isHidden, setIsHidden] = useState<boolean>(false);
 
     useEffect(() => {
         if (!reportId || reportId == NEW_ID_PLACEHOLDER) {
@@ -60,6 +61,10 @@ export default function SeasonReportProvider({ }: Props) {
                 });
         }
     }, [reportId, auth]);
+
+    useEffect(
+        () => setIsHidden(report?.IsVisible ?? false),
+        [report]);
 
     if (isLoading || !report) {
         return (
@@ -113,12 +118,25 @@ export default function SeasonReportProvider({ }: Props) {
             </h1>
             <Outlet context={{
                 auth: auth,
+                reportId: reportId,
+                type: "season",
                 eventId: null,
-                setReportTitle: setReportTitle,
+                eventName: null,
+
+                setReportTitle: (t, isReport) => isReport ? `Report: ${t}` : t,
+                setReportHidden: setIsHidden,
+
+                season: report.Season,
+                competitionTypeId: report.CompetitionTypeId,
+                competitionTypeLabel: report.CompetitionTypeLabel,
 
                 parentUrl: `/manage-events`,
                 useNavigateForParent: false,
                 getItemUrl: (type, reportId) => `/${reportId}`,
+                getDatabaseUrl: (eventId, databaseId) => ({
+                    url: `/manage-events/event/#/${eventId}/scoring/databases/${databaseId}/meets`,
+                    useNavigate: false
+                }),
 
                 eventReports: [],
                 setLoadedEventReport: () => { },

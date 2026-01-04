@@ -1,8 +1,8 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useNavigate, useOutletContext, type NavigateFunction } from "react-router-dom";
-import type { EventProviderContext } from "./EventProvider";
+import { NEW_ID_PLACEHOLDER, type EventProviderContext } from "./EventProvider";
 import { ReportType, type EventReport, type SeasonReport } from "types/services/DatabaseReportsService";
-import type { EventReportsProviderContext } from "./EventReportsProvider";
+import type { EventReportsProviderContext, LoadedReport } from "./EventReportsProvider";
 
 interface Props {
 }
@@ -72,33 +72,40 @@ export default function EventReportsPage({ }: Props) {
 
     const navigate = useNavigate();
 
+    const getReportSection = (
+        label: string,
+        icon: string,
+        type: "event" | "season",
+        badgeClass: string,
+        reports: LoadedReport<EventReport>[] | LoadedReport<SeasonReport>[]) => {
+
+        return (
+            <div className="mt-4">
+                <div className="flex items-center justify-between mt-4">
+                    <div className={`badge badge-${badgeClass} text-md p-4 mt-0`}>
+                        <FontAwesomeIcon icon={icon} />
+                        <span className="font-bold">{label.toUpperCase()} REPORTS</span>
+                    </div>
+                    <button
+                        type="button"
+                        className={`btn btn-sm btn-${badgeClass} hide-on-print`}
+                        onClick={() => navigate(getItemUrl(type, NEW_ID_PLACEHOLDER))}>
+                        <FontAwesomeIcon icon="fas faPlus" /> Add {label} Report
+                    </button>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                    {reports.map(report => getReportCard(getItemUrl, report.report, type, navigate))}
+                    {reports.length === 0 && (
+                        <p className="mt-0 italic w-full">
+                            No {label} Reports have been created for this event.
+                        </p>)}
+                </div>
+            </div>);
+    }
+
     return (
         <>
-            <div className="mt-4">
-                <div className={`badge badge-success text-md p-4 mt-0`}>
-                    <FontAwesomeIcon icon="fas faCalendarDay" />
-                    <span className="font-bold">EVENT REPORTS</span>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                    {eventReports.map(report => getReportCard(getItemUrl, report.report, "event", navigate))}
-                    {eventReports.length === 0 && (
-                        <p className="mt-0 italic w-full">
-                            No event reports have been created for this event.
-                        </p>)}
-                </div>
-            </div>
-            <div className="mt-4">
-                <div className={`badge badge-warning text-md p-4 mt-0`}>
-                    <FontAwesomeIcon icon="fas faCalendarDays" />
-                    <span className="font-bold">SEASON REPORTS</span>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                    {seasonReports.map(report => getReportCard(getItemUrl, report.report, "season", navigate))}
-                    {seasonReports.length === 0 && (
-                        <p className="mt-0 italic w-full">
-                            No season reports have been created for this event.
-                        </p>)}
-                </div>
-            </div>
+            {getReportSection("Event", "fas faCalendarDay", "event", "success", eventReports)}
+            {getReportSection("Season", "fas faCalendarDays", "season", "warning", seasonReports)}
         </>);
 }

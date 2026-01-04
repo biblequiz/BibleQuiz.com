@@ -60,7 +60,6 @@ export class DatabaseReportsService {
      * @param eventId Id for the event.
      * @param reportId Id for the report (if any).
      * @param isEventReport Value indicating whether this is an event report.
-     * 
      */
     public static generateEventOrSeasonReport(
         auth: AuthManager,
@@ -82,13 +81,12 @@ export class DatabaseReportsService {
      * @param eventId Id for the event.
      * @param isEventReport Value indicating whether this is an event report.
      * @param report Report to be persisted.
-     * 
      */
     public static putEventOrSeasonReport(
         auth: AuthManager,
         eventId: string,
         isEventReport: boolean,
-        report: EventReportBase): Promise<void> {
+        report: EventReport | SeasonReport): Promise<void> {
 
         return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
@@ -458,17 +456,17 @@ export enum ReportType {
     /**
      * Report includes only teams.
      */
-    Teams,
+    Teams = "Teams",
 
     /**
      * Report includes teams and quizzers.
      */
-    TeamsAndQuizzers,
+    TeamsAndQuizzers = "TeamsAndQuizzers",
 
     /**
      * Report includes only quizzers.
      */
-    Quizzers
+    Quizzers = "Quizzers"
 }
 
 /**

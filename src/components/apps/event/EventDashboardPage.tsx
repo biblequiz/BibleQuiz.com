@@ -32,7 +32,7 @@ export default function EventDashboardPage({ }: Props) {
         <div className="flex flex-wrap gap-2">
             <button
                 className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
-                onClick={() => navigate(`${rootUrl}/sumary/registrations`)}
+                onClick={() => navigate(`${rootUrl}/registration/general`)}
             >
                 <div className="card-body p-2 pl-4">
                     <div className="flex items-start gap-4">
@@ -163,7 +163,7 @@ export default function EventDashboardPage({ }: Props) {
                 <button
                     key={`database_${d.DatabaseId}`}
                     className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
-                    onClick={() => navigate(`${rootUrl}/scoring/databases/${d.DatabaseId}/meets`)}
+                    onClick={() => navigate(`${rootUrl}/scoring/databases/${d.DatabaseId}/dashboard`)}
                 >
                     <div className="card-body p-2 pl-4">
                         <div className="flex items-start gap-4">
