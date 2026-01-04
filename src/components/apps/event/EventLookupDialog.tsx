@@ -205,6 +205,7 @@ export default function EventLookupDialog({
 
                                         return (
                                             <button
+                                                key={`event-card-${event.Id}`}
                                                 type="button"
                                                 className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
                                                 onClick={() => onSelect(event)}>

@@ -2,7 +2,7 @@
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { ScoringHtmlReport } from './DatabasesService';
 
-const URL_ROOT_PATH = "/api/Events";
+const URL_ROOT_PATH = "/api";
 
 /**
  * Wrapper for the Churches service.
@@ -25,28 +25,32 @@ export class DatabaseReportsService {
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/Reports`);
+            `${URL_ROOT_PATH}/Events/${eventId}/Reports`);
     }
 
     /**
      * Retrieves a single event or season report for eventId.
      * 
      * @param auth AuthManager to use for authentication.
-     * @param eventId Id for the event.
+     * @param eventId Id for the event. If this is null, the reportId must be specified.
      * @param reportId Id for the report (if any).
      * @param isEventReport Value indicating whether this is an event report.
      */
     public static getEventOrSeasonReport(
         auth: AuthManager,
-        eventId: string,
+        eventId: string | null,
         reportId: string | null,
         isEventReport: boolean): Promise<DatabaseReportSummary> {
+
+        const urlPath = !isEventReport && !eventId
+            ? `${URL_ROOT_PATH}/SeasonReports/${reportId ?? ""}`
+            : `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId ?? ""}`;
 
         return RemoteServiceUtility.executeHttpRequest<DatabaseReportSummary>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId ?? ""}`);
+            urlPath);
     }
 
     /**
@@ -56,7 +60,6 @@ export class DatabaseReportsService {
      * @param eventId Id for the event.
      * @param reportId Id for the report (if any).
      * @param isEventReport Value indicating whether this is an event report.
-     * 
      */
     public static generateEventOrSeasonReport(
         auth: AuthManager,
@@ -68,7 +71,7 @@ export class DatabaseReportsService {
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/View`);
+            `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/View`);
     }
 
     /**
@@ -78,19 +81,18 @@ export class DatabaseReportsService {
      * @param eventId Id for the event.
      * @param isEventReport Value indicating whether this is an event report.
      * @param report Report to be persisted.
-     * 
      */
     public static putEventOrSeasonReport(
         auth: AuthManager,
         eventId: string,
         isEventReport: boolean,
-        report: EventReportBase): Promise<void> {
+        report: EventReport | SeasonReport): Promise<void> {
 
         return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/${isEventReport ? "Event" : "Season"}Reports`,
+            `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports`,
             null,
             report);
     }
@@ -111,7 +113,7 @@ export class DatabaseReportsService {
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/EventReports/Order`,
+            `${URL_ROOT_PATH}/Events/${eventId}/EventReports/Order`,
             null,
             reportIds);
     }
@@ -133,7 +135,7 @@ export class DatabaseReportsService {
             auth,
             "DELETE",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}`);
+            `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}`);
     }
 
     /**
@@ -154,7 +156,7 @@ export class DatabaseReportsService {
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/Teams`);
+            `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/Teams`);
     }
 
     /**
@@ -177,7 +179,7 @@ export class DatabaseReportsService {
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/Teams`,
+            `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/Teams`,
             null,
             updatedLinks);
     }
@@ -454,17 +456,17 @@ export enum ReportType {
     /**
      * Report includes only teams.
      */
-    Teams,
+    Teams = "Teams",
 
     /**
      * Report includes teams and quizzers.
      */
-    TeamsAndQuizzers,
+    TeamsAndQuizzers = "TeamsAndQuizzers",
 
     /**
      * Report includes only quizzers.
      */
-    Quizzers
+    Quizzers = "Quizzers"
 }
 
 /**

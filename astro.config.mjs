@@ -98,9 +98,18 @@ export default defineConfig({
                         {
                             label: "My Event",
                             link: "manage-events/event/",
-                            attrs: { 
+                            attrs: {
                                 useReactSidebar: true,
-                                hideIfNotCurrent: true }
+                                hideIfNotCurrent: true
+                            }
+                        },
+                        {
+                            label: "My Report",
+                            link: "manage-events/report/",
+                            attrs: {
+                                hideIfNotCurrent: true,
+                                icon: "fas faBook"
+                            }
                         },
                     ]
                 },

@@ -4,7 +4,7 @@ import districts from "data/districts.json";
 import { EventPublishType } from "types/services/EventsService";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { AuthManager } from "types/AuthManager";
-import type { DistrictInfo, RegionInfo } from "types/RegionAndDistricts";
+import { filterToAuthorizedDistricts, filterToAuthorizedRegions } from "types/RegionAndDistricts";
 
 interface Props {
     isNewEvent: boolean;
@@ -64,31 +64,13 @@ export default function EventTypeSelectorCards({
             return isNewEvent ? EventType.Local : undefined;
         });
 
-    const filteredRegions = useMemo(() => {
-        const filtered: RegionInfo[] = [];
-        for (const region of regions) {
-            if (regionId === region.id ||
-                (auth.userProfile &&
-                    auth.userProfile.hasRegionPermission(region.id, type))) {
-                filtered.push(region);
-            }
-        }
+    const filteredRegions = useMemo(
+        () => filterToAuthorizedRegions(auth, regions, type, regionId),
+        [auth, type]);
 
-        return filtered;
-    }, [auth, type,]);
-
-    const filteredDistricts = useMemo(() => {
-        const filtered: DistrictInfo[] = [];
-        for (const district of districts) {
-            if (districtId === district.id ||
-                (auth.userProfile &&
-                    auth.userProfile.hasDistrictPermission(district.id, district.regionId, type))) {
-                filtered.push(district);
-            }
-        }
-
-        return filtered;
-    }, [auth, type]);
+    const filteredDistricts = useMemo(
+        () => filterToAuthorizedDistricts(auth, districts, type, districtId),
+        [auth, type]);
 
     const getCard = (
         label: string,
