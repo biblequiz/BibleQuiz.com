@@ -1,0 +1,3893 @@
+{
+  "EventName": "Oklahoma NE League (Tulsa) 25-26 Meet #3",
+  "DatabaseNames": {
+    "10d99f34-724c-4904-9d8f-cb5dfb601dd8": "2026-NEOK-BQ-PC"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "10d99f34-724c-4904-9d8f-cb5dfb601dd8",
+        "MeetId": 9,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "3 Master",
+        "LastUpdated": "1/11/26 1:05 AM",
+        "DatabaseLastUpdated": "2026-01-08T19:21:22.4167535+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Sarah Childress",
+            "Quizzers": [
+              3,
+              5,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_58a8d070-f3c0-4188-99d9-1c96de20e7a1",
+            "Name": "Owasso 1st Assembly (God's Girls)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 830,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 138.3,
+              "AverageCorrect": 9.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 36,
+              "Correct20s": 13,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Michelle Wagner",
+            "Quizzers": [
+              1,
+              2,
+              7,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_71c90614-1bed-4e0e-84d8-6dca88ca3241",
+            "Name": "Owasso 1st Assembly (Scripture Sisters)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 185.8,
+              "AverageCorrect": 11.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 34,
+              "Correct20s": 22,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Ila Boggs",
+            "Quizzers": [
+              6,
+              8,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5fc75251-22d7-41c6-8b0c-556f5b12d4aa",
+            "Name": "Owasso 1st Assembly (Two Dudes & a Dudette)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 775,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 129.2,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 12,
+              "Correct20s": 27,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Carol Ramsey",
+            "Quizzers": [
+              0,
+              4,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_c3f43923-9504-4d95-bdcb-71d07529f1dd",
+            "Name": "Timber Ridge Trailblazers",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 425,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.8,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 24,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Timber Ridge Trailblazers",
+            "YearsQuizzing": null,
+            "Id": "q_17e15aaf0ab646c855a508ddf5ebf858",
+            "Name": "Abigail Ramsey",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Scripture Sisters)",
+            "YearsQuizzing": null,
+            "Id": "q_9a5e49deca974f9aa6c808da90edc9c7",
+            "Name": "Anna Wagner",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 2,
+              "Correct20s": 22,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Scripture Sisters)",
+            "YearsQuizzing": null,
+            "Id": "q_e9eed4b6bc3f445dce7008dccfacd3a9",
+            "Name": "Ella Childress",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 32,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (God's Girls)",
+            "YearsQuizzing": null,
+            "Id": "q_37bec45005df43416b6508dbb0cb2340",
+            "Name": "Evelyn Stewart",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.8,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 10,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Trailblazers",
+            "YearsQuizzing": null,
+            "Id": "q_e2381cfd87f2486955ab08ddf5ebf858",
+            "Name": "Finnley Wells",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (God's Girls)",
+            "YearsQuizzing": null,
+            "Id": "q_d2dfd269fe28444ece5d08dccfacd3a9",
+            "Name": "Giulia Scalora",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.2,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 0,
+              "Correct20s": 8,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Two Dudes & a Dudette)",
+            "YearsQuizzing": null,
+            "Id": "q_ebcc9112ef6e4239a70608da90edc9c7",
+            "Name": "Holden Hanover",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Scripture Sisters)",
+            "YearsQuizzing": null,
+            "Id": "q_d5aee83d2d6b4cb06b3508dbb0cb2340",
+            "Name": "Kyra Mueters",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Two Dudes & a Dudette)",
+            "YearsQuizzing": null,
+            "Id": "q_87d132fcd5fd4b15a6e208da90edc9c7",
+            "Name": "Maverick Boggs",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 715,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 119.2,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 6,
+              "Correct20s": 27,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Scripture Sisters)",
+            "YearsQuizzing": null,
+            "Id": "q_e2d873979d064f2b6b5f08dbb0cb2340",
+            "Name": "Mercy Rogers",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (God's Girls)",
+            "YearsQuizzing": null,
+            "Id": "q_dc7eedfea4274929ce6908dccfacd3a9",
+            "Name": "Penelope Childress",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.3,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 26,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Trailblazers",
+            "YearsQuizzing": null,
+            "Id": "q_f8a5bd451f074e0f559808ddf5ebf858",
+            "Name": "Samuel Ramsey",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.8,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 5,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Two Dudes & a Dudette)",
+            "YearsQuizzing": null,
+            "Id": "q_dce4a391c0574312a6d208da90edc9c7",
+            "Name": "Ximena Monroy",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          8,
+          5,
+          2,
+          10,
+          11,
+          0,
+          3,
+          12,
+          4,
+          6,
+          7,
+          9
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "M1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "M2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "10d99f34-724c-4904-9d8f-cb5dfb601dd8",
+        "MeetId": 10,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "3 Searcher 1",
+        "LastUpdated": "1/11/26 1:05 AM",
+        "DatabaseLastUpdated": "2026-01-08T19:21:22.4167535+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Tamara Beasler",
+            "Quizzers": [
+              3,
+              4,
+              6,
+              7,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_65d040fe-25fd-4d3f-b713-de45b3b787b7",
+            "Name": "Christian Chapel 3rd/6th",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 650,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 108.3,
+              "AverageCorrect": 8.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 35,
+              "Correct20s": 17,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Mandy Wootton",
+            "Quizzers": [
+              0,
+              2,
+              8,
+              10,
+              13,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9cb54fe0-3757-43a3-98a2-1c2d4aeca801",
+            "Name": "Faith Force (CAG-S1)",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 630,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.0,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 41,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Crystal Jackson",
+            "Quizzers": [
+              11,
+              14,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_7215de56-df3d-40b1-8bf4-cfac07de369b",
+            "Name": "Owasso 1st Assembly (The Bible Bunch)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.2,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 29,
+              "Correct20s": 16,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kevin Wagner",
+            "Quizzers": [
+              1,
+              5,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e5fc4fa7-256c-42d9-b631-c896313ed9eb",
+            "Name": "Owasso 1st Assembly (Warrior Quizzers)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 685,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 114.2,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 35,
+              "Correct20s": 18,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Faith Force (CAG-S1)",
+            "YearsQuizzing": null,
+            "Id": "q_6213b4b792b7400c5a1208dcd6e915b1",
+            "Name": "Abigail Hooper",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Warrior Quizzers)",
+            "YearsQuizzing": null,
+            "Id": "q_2bb50e0313bc415ccdea08dccfacd3a9",
+            "Name": "Caleb Wagner",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 405,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 26,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Force (CAG-S1)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_43",
+            "Name": "Caselyn Staten",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 3rd/6th",
+            "YearsQuizzing": null,
+            "Id": "q_8406c015f12d4f68770d08dcdb413b3b",
+            "Name": "Deana Fladie",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 3rd/6th",
+            "YearsQuizzing": null,
+            "Id": "q_e88fec6a0c0148923b9908ddfc56c036",
+            "Name": "Eli Geppelt",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Warrior Quizzers)",
+            "YearsQuizzing": null,
+            "Id": "q_faf89360027944fdcdfc08dccfacd3a9",
+            "Name": "Ellie Boggs",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 9,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 3rd/6th",
+            "YearsQuizzing": null,
+            "Id": "q_b92822a50aa243bd772b08dcdb413b3b",
+            "Name": "Eowyn Berens",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 3rd/6th",
+            "YearsQuizzing": null,
+            "Id": "q_5caa2c3ec22f4c9b5d6808dbafc02107",
+            "Name": "Ethan Ray",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 21,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Force (CAG-S1)",
+            "YearsQuizzing": null,
+            "Id": "q_4c4fed0600ca4571bfa908dbc2ad911e",
+            "Name": "Evelynn Potter",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.3,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 25,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 3rd/6th",
+            "YearsQuizzing": null,
+            "Id": "q_100ebf810f0344a33b9e08ddfc56c036",
+            "Name": "Griffyn Woods",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Force (CAG-S1)",
+            "YearsQuizzing": null,
+            "Id": "q_04482cafa24c4cae5a0408dcd6e915b1",
+            "Name": "Maddie Goodridge",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (The Bible Bunch)",
+            "YearsQuizzing": null,
+            "Id": "q_a205dd205cc949fcce1a08dccfacd3a9",
+            "Name": "Malachi Stewart",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 15,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (Warrior Quizzers)",
+            "YearsQuizzing": null,
+            "Id": "q_04a5bcdf4026449f6b1808dbb0cb2340",
+            "Name": "Micah Morgan",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Faith Force (CAG-S1)",
+            "YearsQuizzing": null,
+            "Id": "q_45c929d742dc48d0bf5d08dbc2ad911e",
+            "Name": "Molly Middleton",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (The Bible Bunch)",
+            "YearsQuizzing": null,
+            "Id": "q_eb127cc38b874d8e707d08ddf523e127",
+            "Name": "Rachel Wilson",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.8,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 14,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Force (CAG-S1)",
+            "YearsQuizzing": null,
+            "Id": "q_421236c08dbf4d2cbf7508dbc2ad911e",
+            "Name": "Stella Holt",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 12,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Owasso 1st Assembly (The Bible Bunch)",
+            "YearsQuizzing": null,
+            "Id": "q_31d46624f97643d26ad008dbb0cb2340",
+            "Name": "Titus Monroy",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          8,
+          1,
+          14,
+          5,
+          11,
+          15,
+          9,
+          0,
+          3,
+          6,
+          2,
+          10,
+          12,
+          13,
+          16,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "S1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "S2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "10d99f34-724c-4904-9d8f-cb5dfb601dd8",
+        "MeetId": 11,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "3 Searcher 2",
+        "LastUpdated": "1/11/26 1:05 AM",
+        "DatabaseLastUpdated": "2026-01-08T19:21:22.4167535+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Robbie Horn",
+            "Quizzers": [
+              0,
+              2,
+              4,
+              15,
+              21,
+              26,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_c46ed89e-8721-4852-9a99-6df5681ad720",
+            "Name": "Community Gospel Center (Fort Gibson)",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Cammie Holt",
+            "Quizzers": [
+              7,
+              13,
+              20,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -25,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f3e3d940-a858-4892-9ba8-3b23e10434f8",
+            "Name": "Dueling Disciples (CAG-S3)",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 48,
+              "Correct10s": 9,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Cynthia Hopfer",
+            "Quizzers": [
+              1,
+              3,
+              9,
+              12,
+              28
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_870d2b49-4b81-4091-9d4b-3697d23988aa",
+            "Name": "First Assembly of God (Muskogee)",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "--",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 435,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 87.0,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 23,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Erin Goodridge",
+            "Quizzers": [
+              14,
+              17,
+              25,
+              29
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_64587f34-002d-4b43-a0fb-ef6cb501e467",
+            "Name": "Spiritual Spartans (CAG-S2)",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.0,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 28,
+              "Correct20s": 16,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Carol Wyatt",
+            "Quizzers": [
+              10,
+              11,
+              18,
+              22,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_caf1c5c3-f8b9-44bb-8fd2-8e330d3d5a8b",
+            "Name": "Timber Ridge Explorers",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 830,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 166.0,
+              "AverageCorrect": 13.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 43,
+              "Correct20s": 22,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Cammie Holt",
+            "Quizzers": [
+              5,
+              6,
+              8,
+              16,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "S4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "S5",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_10d99f34-724c-4904-9d8f-cb5dfb601dd8_21",
+            "Name": "Word Warriors (CAG-S3)",
+            "ChurchId": null,
+            "ChurchName": "Carbondale AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.0,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 39,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          4,
+          2,
+          3,
+          5,
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_1b5edbced75f4823be6f08ddfc475f45",
+            "Name": "Abigail White",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "First Assembly of God (Muskogee)",
+            "YearsQuizzing": null,
+            "Id": "q_21285313ca07423def6f08ddff6180fc",
+            "Name": "Ariella Staggers",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "--",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_e3aeb7f75a8048dbbe7408ddfc475f45",
+            "Name": "Atticus Henson",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "First Assembly of God (Muskogee)",
+            "YearsQuizzing": null,
+            "Id": "q_97d95ff0cae345c3818208dcdb19fbaa",
+            "Name": "Benjamin Hopfer",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "--",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 13,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_9d414020911f4bb8bdeb08ddfc475f45",
+            "Name": "Blakely Landrum",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Word Warriors (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_185",
+            "Name": "Caleb Cates",
+            "ChurchId": null,
+            "ChurchName": "Carbondale AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 30,
+              "IsTie": false,
+              "TotalPoints": -30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -6.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Word Warriors (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_188",
+            "Name": "Carly Middleton",
+            "ChurchId": null,
+            "ChurchName": "Carbondale AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 24,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dueling Disciples (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_182",
+            "Name": "Caselyn Slaten",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Word Warriors (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_189",
+            "Name": "Danielle Barnett",
+            "ChurchId": null,
+            "ChurchName": "Carbondale AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "First Assembly of God (Muskogee)",
+            "YearsQuizzing": null,
+            "Id": "q_ac6ab03defd94a62818908dcdb19fbaa",
+            "Name": "Elijah Staggers",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "--",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 8,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Explorers",
+            "YearsQuizzing": null,
+            "Id": "q_51bb75d8bbfc4b5f59f408ddf5ebf858",
+            "Name": "Hadassah Ratcliff",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 69.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 11,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Explorers",
+            "YearsQuizzing": null,
+            "Id": "q_10ab8ef585114a3459fa08ddf5ebf858",
+            "Name": "Jacey Butler",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "First Assembly of God (Muskogee)",
+            "YearsQuizzing": null,
+            "Id": "q_f80b20f0b8c648f2ef6508ddff6180fc",
+            "Name": "Jett Green",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "--",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Dueling Disciples (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_181",
+            "Name": "JJ Miller",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 2,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Spiritual Spartans (CAG-S2)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_151",
+            "Name": "Joseph Cates",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 28,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_70c7d8a8ef5d410694ff08ddfc3ef602",
+            "Name": "Joseph Samples",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Word Warriors (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_186",
+            "Name": "Josiah Cobb",
+            "ChurchId": null,
+            "ChurchName": "Carbondale AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 15,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Spiritual Spartans (CAG-S2)",
+            "YearsQuizzing": null,
+            "Id": "q_cd7bf1b828704fb6bfcb08dbc2ad911e",
+            "Name": "Levi Cobb",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 12,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Explorers",
+            "YearsQuizzing": null,
+            "Id": "q_245ae276288a4d2b5a1608ddf5ebf858",
+            "Name": "Liam Smith",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 72.0,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 23,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Word Warriors (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_187",
+            "Name": "Lola Holt",
+            "ChurchId": null,
+            "ChurchName": "Carbondale AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Dueling Disciples (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_183",
+            "Name": "Myles Wootton",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_e1995c4ba62f4031bdfa08ddfc475f45",
+            "Name": "Pryor Martin",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Explorers",
+            "YearsQuizzing": null,
+            "Id": "q_d83b1aa1f8c541925a1008ddf5ebf858",
+            "Name": "Rayna Smith",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 9,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dueling Disciples (CAG-S3)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_180",
+            "Name": "Reagan Barnett",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Timber Ridge Explorers",
+            "YearsQuizzing": null,
+            "Id": "q_a4ae27d514e54d1e5a2108ddf5ebf858",
+            "Name": "Remi Smith",
+            "ChurchId": "e00b0284-7af2-424a-9507-aa047d989a78",
+            "ChurchName": "Timber Ridge Assembly",
+            "City": "Catoosa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Spiritual Spartans (CAG-S2)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_152",
+            "Name": "Sadie Quinn",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 4,
+              "Correct20s": 15,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_8e6f8370946c46299ad008dcd4f08ea8",
+            "Name": "Samuel Horn",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Community Gospel Center (Fort Gibson)",
+            "YearsQuizzing": null,
+            "Id": "q_0b05502037b14af09abc08dcd4f08ea8",
+            "Name": "Stella Landrum",
+            "ChurchId": "0e0b7049-68d8-4900-af44-ebc7584f358e",
+            "ChurchName": "--",
+            "City": "Fort Gibson",
+            "State": "OK",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "First Assembly of God (Muskogee)",
+            "YearsQuizzing": null,
+            "Id": "q_0a836282d6ce499fef6a08ddff6180fc",
+            "Name": "TJ Mauhar",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "--",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Spiritual Spartans (CAG-S2)",
+            "YearsQuizzing": null,
+            "Id": "q_137bfe32b8de40ad5ace08dbafc02107",
+            "Name": "Trinity Harris",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          18,
+          10,
+          25,
+          3,
+          6,
+          16,
+          27,
+          22,
+          17,
+          9,
+          29,
+          13,
+          1,
+          12,
+          23,
+          26,
+          28,
+          20,
+          0,
+          2,
+          7,
+          8,
+          11,
+          15,
+          19,
+          21,
+          24,
+          14,
+          4,
+          5
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "S3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "S4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "S5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "10d99f34-724c-4904-9d8f-cb5dfb601dd8",
+        "MeetId": 12,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "3 Discoverer",
+        "LastUpdated": "1/11/26 1:05 AM",
+        "DatabaseLastUpdated": "2026-01-08T19:21:22.4167535+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Celeste Freese",
+            "Quizzers": [
+              0,
+              2,
+              6,
+              7,
+              8,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a8394a89-6e74-41c3-9987-e14cee36dc54",
+            "Name": "Christian Chapel 1st/2nd",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 95.0,
+              "AverageCorrect": 9.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 38,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Katelynn Potter",
+            "Quizzers": [
+              1,
+              3,
+              4,
+              5,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a6bc3e91-4078-4a74-836c-156515dfe3e1",
+            "Name": "Little Lights (CAG-D2)",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 6.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Christian Chapel 1st/2nd",
+            "YearsQuizzing": null,
+            "Id": "q_10f5432afa5146c43b7b08ddfc56c036",
+            "Name": "Abe Geppelt",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Little Lights (CAG-D2)",
+            "YearsQuizzing": null,
+            "Id": "q_ee83caba1ea540c86f0308ddf523e127",
+            "Name": "Adeline Barnett",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 1st/2nd",
+            "YearsQuizzing": null,
+            "Id": "q_733a5b5a318a4a673b7108ddfc56c036",
+            "Name": "Blair Sutton",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Little Lights (CAG-D2)",
+            "YearsQuizzing": null,
+            "Id": "q_03e5ba730b3d40e5bfa308dbc2ad911e",
+            "Name": "Charlotte Potter",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Little Lights (CAG-D2)",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_79",
+            "Name": "Claye Slaten",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Little Lights (CAG-D2)",
+            "YearsQuizzing": null,
+            "Id": "q_4bae59662ffd4ed159bd08dcd6e915b1",
+            "Name": "Eden Harris",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 1st/2nd",
+            "YearsQuizzing": null,
+            "Id": "q_10d99f34-724c-4904-9d8f-cb5dfb601dd8_7",
+            "Name": "Extra-1",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 1st/2nd",
+            "YearsQuizzing": null,
+            "Id": "q_eef7ceb1ac1744343b8008ddfc56c036",
+            "Name": "Irene Eipp",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 1st/2nd",
+            "YearsQuizzing": null,
+            "Id": "q_7152614c224f4bec770708dcdb413b3b",
+            "Name": "Isaac Ray",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Chapel 1st/2nd",
+            "YearsQuizzing": null,
+            "Id": "q_227b3b15e252491f3b7608ddfc56c036",
+            "Name": "Judah Robison",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.2,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Little Lights (CAG-D2)",
+            "YearsQuizzing": null,
+            "Id": "q_a7718379d79f47d0bfaf08dbc2ad911e",
+            "Name": "Lillian Potter",
+            "ChurchId": "2c0c8ac3-d2e7-4508-9e22-b1bd6e111315",
+            "ChurchName": "Carbondale AG",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.2,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 23,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          10,
+          8,
+          7,
+          9,
+          5,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "D1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-01-11T01:05:38.3853293+00:00"
+}
