@@ -1,0 +1,1965 @@
+{
+  "EventName": "Wichita Jan 10th Meet",
+  "DatabaseNames": {
+    "76d6edbd-b059-40ea-9777-5314d65e3597": "2026_Wichita_area"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "76d6edbd-b059-40ea-9777-5314d65e3597",
+        "MeetId": 7,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "January A team",
+        "LastUpdated": "1/11/26 12:05 PM",
+        "DatabaseLastUpdated": "2026-01-08T18:26:27.2372384+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              2,
+              3
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_15",
+            "Name": "Evangel A",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              4,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_2",
+            "Name": "T.U.R.T.L.E.S.",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Evangel A",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_128",
+            "Name": "Aubree Stucky",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "T.U.R.T.L.E.S.",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_13",
+            "Name": "Declan Broeckelman",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Evangel A",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_129",
+            "Name": "Eden Thompson",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Evangel A",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_130",
+            "Name": "Naomi Burkholder",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "T.U.R.T.L.E.S.",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_12",
+            "Name": "Paityn Seifert",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "T.U.R.T.L.E.S.",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_11",
+            "Name": "William Moeder",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "76d6edbd-b059-40ea-9777-5314d65e3597",
+        "MeetId": 8,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "January I Team",
+        "LastUpdated": "1/11/26 12:05 PM",
+        "DatabaseLastUpdated": "2026-01-08T18:26:27.2372384+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              8,
+              9,
+              10,
+              19,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_8",
+            "Name": "Bible Baddies",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              5,
+              12,
+              28
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_14",
+            "Name": "Evangel I",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              14,
+              15,
+              16,
+              30
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_9",
+            "Name": "Guardians of the Gospel",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              6,
+              18,
+              29,
+              31
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_1",
+            "Name": "I Scream 4 Christ",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              7,
+              17,
+              22,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_11",
+            "Name": "Lord's Lively Lions",
+            "ChurchId": null,
+            "ChurchName": "Lifepoint Church",
+            "City": "Valley Center",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              13,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_12",
+            "Name": "Quizzlers",
+            "ChurchId": null,
+            "ChurchName": "Living Word Assembly",
+            "City": "Chanute",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              21,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 7
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_7",
+            "Name": "River Rafters",
+            "ChurchId": null,
+            "ChurchName": "River Church",
+            "City": "Haysville",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              11,
+              20,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 4,
+                "Room": "I4",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_10",
+            "Name": "Route 66 Cruisers",
+            "ChurchId": null,
+            "ChurchName": "First Assembly of God",
+            "City": "Baxter Springs",
+            "State": "KS",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Evangel I",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_119",
+            "Name": "Amelia Burkholder",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Route 66 Cruisers",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_84",
+            "Name": "Amos Plank",
+            "ChurchId": null,
+            "ChurchName": "First Assembly of God",
+            "City": "Baxter Springs",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "River Rafters",
+            "YearsQuizzing": 2,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_58",
+            "Name": "Ben Muthiani",
+            "ChurchId": null,
+            "ChurchName": "River Church",
+            "City": "Haysville",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bible Baddies",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_68",
+            "Name": "Benjamin Buzzell",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lord's Lively Lions",
+            "YearsQuizzing": 2,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_94",
+            "Name": "Braden Rodgers",
+            "ChurchId": null,
+            "ChurchName": "Lifepoint Church",
+            "City": "Valley Center",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Evangel I",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_120",
+            "Name": "Colton Reeves",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Scream 4 Christ",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_3",
+            "Name": "Dakota Schroeter",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lord's Lively Lions",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_29",
+            "Name": "Damian Heitz",
+            "ChurchId": null,
+            "ChurchName": "Lifepoint Church",
+            "City": "Valley Center",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bible Baddies",
+            "YearsQuizzing": 3,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_69",
+            "Name": "Daniel King",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bible Baddies",
+            "YearsQuizzing": 3,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_66",
+            "Name": "Erika Tuck",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bible Baddies",
+            "YearsQuizzing": 3,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_65",
+            "Name": "Everly Batt",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Route 66 Cruisers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_86",
+            "Name": "Faith Fryer",
+            "ChurchId": null,
+            "ChurchName": "First Assembly of God",
+            "City": "Baxter Springs",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Evangel I",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_121",
+            "Name": "Hendrix Phillips",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Quizzlers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_102",
+            "Name": "Isaac Garrett",
+            "ChurchId": null,
+            "ChurchName": "Living Word Assembly",
+            "City": "Chanute",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_77",
+            "Name": "Isaiah Jackson",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_75",
+            "Name": "Ivory Lueth",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_74",
+            "Name": "Jocelyn Anderson",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lord's Lively Lions",
+            "YearsQuizzing": 2,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_93",
+            "Name": "Jonas Lamar",
+            "ChurchId": null,
+            "ChurchName": "Lifepoint Church",
+            "City": "Valley Center",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Scream 4 Christ",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_2",
+            "Name": "Kayadalyn Burton",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bible Baddies",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_70",
+            "Name": "Kenlie Knackstedt",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Route 66 Cruisers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_85",
+            "Name": "Lizzie Hosfelt",
+            "ChurchId": null,
+            "ChurchName": "First Assembly of God",
+            "City": "Baxter Springs",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "River Rafters",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_57",
+            "Name": "Maddie Muthiani",
+            "ChurchId": null,
+            "ChurchName": "River Church",
+            "City": "Haysville",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lord's Lively Lions",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_30",
+            "Name": "Makayla Finley",
+            "ChurchId": null,
+            "ChurchName": "Lifepoint Church",
+            "City": "Valley Center",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "River Rafters",
+            "YearsQuizzing": 3,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_56",
+            "Name": "Malachi Parker",
+            "ChurchId": null,
+            "ChurchName": "River Church",
+            "City": "Haysville",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Route 66 Cruisers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_83",
+            "Name": "Matthew Bell",
+            "ChurchId": null,
+            "ChurchName": "First Assembly of God",
+            "City": "Baxter Springs",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bible Baddies",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_67",
+            "Name": "Micah Beilfuss",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lord's Lively Lions",
+            "YearsQuizzing": 2,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_92",
+            "Name": "Obi Brickman",
+            "ChurchId": null,
+            "ChurchName": "Lifepoint Church",
+            "City": "Valley Center",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Quizzlers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_101",
+            "Name": "Ryder Welker",
+            "ChurchId": null,
+            "ChurchName": "Living Word Assembly",
+            "City": "Chanute",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Evangel I",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_122",
+            "Name": "Ryker Hartzler",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Scream 4 Christ",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_4",
+            "Name": "Trinity Smith",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_76",
+            "Name": "Willow Seifert",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Scream 4 Christ",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_5",
+            "Name": "Zeke Rathburn",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "I1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "I2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "I3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "I4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 7,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "76d6edbd-b059-40ea-9777-5314d65e3597",
+        "MeetId": 9,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "January B Team",
+        "LastUpdated": "1/11/26 12:05 PM",
+        "DatabaseLastUpdated": "2026-01-08T18:26:27.2372384+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              7,
+              9,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_3",
+            "Name": "B+ Buzzing Bee-Lievers",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              5,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_4",
+            "Name": "B+ Evangel team",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              3,
+              4,
+              6,
+              8,
+              11
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_76d6edbd-b059-40ea-9777-5314d65e3597_6",
+            "Name": "The Believer Beavers",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "B+ Evangel team",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_32",
+            "Name": "Ara Patino",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Believer Beavers",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_53",
+            "Name": "Becca Beilfuss",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "B+ Buzzing Bee-Lievers",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_20",
+            "Name": "Bethany Jackson",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Believer Beavers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_48",
+            "Name": "Cohen Tuck",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Believer Beavers",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_50",
+            "Name": "Elizabeth Buzzell",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "B+ Evangel team",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_34",
+            "Name": "Hendrix Phillips",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Believer Beavers",
+            "YearsQuizzing": 1,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_47",
+            "Name": "Hudson Batt",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "B+ Buzzing Bee-Lievers",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_23",
+            "Name": "Isabel Valles",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Believer Beavers",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_51",
+            "Name": "Isaiah King",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "B+ Buzzing Bee-Lievers",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_21",
+            "Name": "Joey Clarke",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "B+ Evangel team",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_33",
+            "Name": "Lucas Patino",
+            "ChurchId": null,
+            "ChurchName": "Evangel",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Believer Beavers",
+            "YearsQuizzing": 0,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_52",
+            "Name": "Maverick Knackstedt",
+            "ChurchId": null,
+            "ChurchName": "Bethel Life Center",
+            "City": "Wichita",
+            "State": "KS",
+            "Scores": null
+          },
+          {
+            "TeamName": "B+ Buzzing Bee-Lievers",
+            "YearsQuizzing": null,
+            "Id": "q_76d6edbd-b059-40ea-9777-5314d65e3597_22",
+            "Name": "Tony Clarke",
+            "ChurchId": null,
+            "ChurchName": "Encounter Church",
+            "City": "Great Bend",
+            "State": "KS",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-01-08T18:26:27.4558513+00:00"
+}
