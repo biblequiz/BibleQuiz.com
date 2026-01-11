@@ -1,0 +1,131 @@
+{
+  "EventName": "2025-26 NNED Central Maine Contender Season to Date",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2025-26 NNED Central Maine Contender Season to Date",
+        "LastUpdated": "1/10/26 7:10 PM",
+        "DatabaseLastUpdated": "2026-01-09T13:47:05.9376936+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Kara Churchill",
+            "Quizzers": [],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_0b9296c7-d635-48bb-aa2b-1848359af7cf",
+            "Name": "Pure Blooded Troublemakers",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 11,
+              "WinPercentage": 27,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 795,
+              "PerMeetTotalPoints": [
+                160,
+                380,
+                255
+              ],
+              "AveragePoints": 53.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 41,
+              "Correct20s": 18,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kara Churchill",
+            "Quizzers": [],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_54724ad1-593a-4e47-a121-07cdab331cc8",
+            "Name": "VFD-Valuable Forevermore Disciples",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 4,
+              "WinPercentage": 73,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1250,
+              "PerMeetTotalPoints": [
+                170,
+                415,
+                665
+              ],
+              "AveragePoints": 83.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 28,
+              "Correct20s": 32,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": null,
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": [
+          "2025-26 NNED Central Maine TBQ Meet 2 (TBQ): Contender Meet 2",
+          "2025-26 NNED Central Maine TBQ Meet 1 (TBQ): Contender Meet 1",
+          "2025-26 NNED Central Maine TBQ Meet 3 (TBQ): Contender Meet 3"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "",
+        "TeamRankingAwardsLabel": "",
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-01-10T23:52:15.7916481+00:00"
+}
