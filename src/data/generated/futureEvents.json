@@ -141,14 +141,12 @@
       "isVisible": true,
       "isReport": false
     },
-    "other/56396ea8-14ba-43f1-cebb-08de20915106/": {
+    "tournaments/west-texas-plainswest-texas-north-meet-4-in-amarillo/": {
       "id": "56396ea8-14ba-43f1-cebb-08de20915106",
       "season": 2026,
       "name": "West Texas & Plains/West Texas North Meet 4 in Amarillo",
-      "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
-      "districtId": "5851b0e6-151b-4f62-8e10-f9f81e3cecfa",
-      "scope": "district",
-      "scopeLabel": "West Texas District",
+      "scope": "nation",
+      "scopeLabel": "Nation",
       "dates": "Jan 24, 2026",
       "startDate": "01/24/2026",
       "endDate": "01/24/2026",
@@ -156,6 +154,22 @@
       "registrationEndDate": "01/19/2026",
       "locationName": "Amarillo Emmanuel Revival Church",
       "locationCity": "Amarillo, TX",
+      "isVisible": true,
+      "isReport": false
+    },
+    "tournaments/west-texas-plainswest-texas-south-meet-4-in-lubbock/": {
+      "id": "8dc2943a-b852-4528-4085-08de4e044a90",
+      "season": 2026,
+      "name": "West Texas & Plains/West Texas South Meet 4 in Lubbock",
+      "scope": "nation",
+      "scopeLabel": "Nation",
+      "dates": "Jan 24, 2026",
+      "startDate": "01/24/2026",
+      "endDate": "01/24/2026",
+      "registrationDates": "Closes Jan 19, 2026",
+      "registrationEndDate": "01/19/2026",
+      "locationName": "Christian Life Assembly of God",
+      "locationCity": "Lubbock, TX",
       "isVisible": true,
       "isReport": false
     },
