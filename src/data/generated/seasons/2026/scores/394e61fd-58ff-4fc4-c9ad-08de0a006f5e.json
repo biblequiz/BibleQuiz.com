@@ -1,7 +1,7 @@
 {
   "EventName": "2025-2025 Bible Quiz Georgia League Meet #2",
   "DatabaseNames": {
-    "2fc512bc-6e9c-4e1e-9f31-75cdafdba982": "2025-2025_League"
+    "2fc512bc-6e9c-4e1e-9f31-75cdafdba982": "2025-2026_League"
   },
   "Report": {
     "Meets": [
@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Champ Meet #2",
-        "LastUpdated": "11/8/25 7:34 PM",
-        "DatabaseLastUpdated": "2025-11-04T16:02:43.8762602+00:00",
+        "LastUpdated": "1/13/26 12:12 AM",
+        "DatabaseLastUpdated": "2026-01-12T21:42:15.1642813+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -91,6 +91,7 @@
             "CurrentMatchId": null,
             "Id": "t_02074dd9-3d97-4eff-8d1d-53955936f2c4",
             "Name": "Ambassadors for Christ (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -186,6 +187,7 @@
             "CurrentMatchId": null,
             "Id": "t_276c2043-e44f-4f5c-88bb-b2fd67ac1883",
             "Name": "Light Bearers",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -281,6 +283,7 @@
             "CurrentMatchId": null,
             "Id": "t_4c32fd81-605e-4eb8-a3ca-d552e725301f",
             "Name": "More Than Conquerors (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -377,6 +380,7 @@
             "CurrentMatchId": null,
             "Id": "t_32453a0f-e380-48e3-919e-1b18af183d71",
             "Name": "Overcomers (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -472,6 +476,7 @@
             "CurrentMatchId": null,
             "Id": "t_70d320f1-ec95-440a-9010-ac9f0f7a4d29",
             "Name": "Rooted & Grounded",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -568,6 +573,7 @@
             "CurrentMatchId": null,
             "Id": "t_349a452b-45e4-4e57-ae85-4590ba459bfe",
             "Name": "Salt & Light - Mountain West Church",
+            "ChurchId": "050a8c1c-f58a-48ce-d95c-08daeedc2a47",
             "ChurchName": "Mountainwest Church of God",
             "City": "Stone Mountain",
             "State": "GA",
@@ -610,6 +616,7 @@
             "YearsQuizzing": null,
             "Id": "q_3d18430aae9d4dcb85f3717f97988c5f",
             "Name": "Alwin Stephen",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -633,6 +640,7 @@
             "YearsQuizzing": null,
             "Id": "q_7e3264c1fd9f4d1567f508d71ab479e4",
             "Name": "Daniel Harshish Jay",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -656,6 +664,7 @@
             "YearsQuizzing": null,
             "Id": "q_bc49bcec6c9f4015f37308dcc5bd4e63",
             "Name": "Daphna Kingston",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -679,6 +688,7 @@
             "YearsQuizzing": null,
             "Id": "q_7ff059d2324c4fc9d8dd08d8f272c07b",
             "Name": "Hans Asher Daniel",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -702,6 +712,7 @@
             "YearsQuizzing": null,
             "Id": "q_b4a27240df744540d40508daf1e486d0",
             "Name": "Jayden Nadar",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -725,6 +736,7 @@
             "YearsQuizzing": null,
             "Id": "q_241b0b4da24d4e252d8508d95f2290ed",
             "Name": "Joash Prince",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -748,6 +760,7 @@
             "YearsQuizzing": null,
             "Id": "q_a3e18d32876c4cb48ef583e44357e79e",
             "Name": "Joel Christopher",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -771,6 +784,7 @@
             "YearsQuizzing": null,
             "Id": "q_54446c61b0384d67d3fa08daf1e486d0",
             "Name": "Johan Yogarajan",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -794,6 +808,7 @@
             "YearsQuizzing": null,
             "Id": "q_8961d94106e745b367fa08d71ab479e4",
             "Name": "John Ben Florence",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -817,6 +832,7 @@
             "YearsQuizzing": null,
             "Id": "q_586e8c3ae5e2490a87d449af4b501074",
             "Name": "Joshua Gunasingh",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -840,6 +856,7 @@
             "YearsQuizzing": null,
             "Id": "q_454a0ade67d9437b4d3908da1403e0fb",
             "Name": "Leslie Cowan",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -863,6 +880,7 @@
             "YearsQuizzing": null,
             "Id": "q_6a25685b4c4b42b7fa1508db1c4cce3c",
             "Name": "Renat Sriraman",
+            "ChurchId": "050a8c1c-f58a-48ce-d95c-08daeedc2a47",
             "ChurchName": "Mountainwest Church of God",
             "City": "Stone Mountain",
             "State": "GA",
@@ -886,6 +904,7 @@
             "YearsQuizzing": null,
             "Id": "q_947946d16a37433bfa1808db1c4cce3c",
             "Name": "Renee Sriraman",
+            "ChurchId": "050a8c1c-f58a-48ce-d95c-08daeedc2a47",
             "ChurchName": "Mountainwest Church of God",
             "City": "Stone Mountain",
             "State": "GA",
@@ -909,6 +928,7 @@
             "YearsQuizzing": null,
             "Id": "q_5e75b65fc0aa40139d9e08dcde30b60d",
             "Name": "Ritvik Shetty",
+            "ChurchId": "050a8c1c-f58a-48ce-d95c-08daeedc2a47",
             "ChurchName": "Mountainwest Church of God",
             "City": "Stone Mountain",
             "State": "GA",
@@ -932,6 +952,7 @@
             "YearsQuizzing": null,
             "Id": "q_8fb1d418fc314724984e3e658426beef",
             "Name": "Steve Joy",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -1224,8 +1245,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender Meet #2",
-        "LastUpdated": "11/8/25 7:34 PM",
-        "DatabaseLastUpdated": "2025-11-04T16:02:43.8762602+00:00",
+        "LastUpdated": "1/13/26 12:12 AM",
+        "DatabaseLastUpdated": "2026-01-12T21:42:15.1642813+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -1303,6 +1324,7 @@
             "CurrentMatchId": null,
             "Id": "t_ca725f38-9b4c-4d68-918a-10bb0401968b",
             "Name": "CACOG 1 - Teens for Christ",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -1398,6 +1420,7 @@
             "CurrentMatchId": null,
             "Id": "t_7ddcf2e8-569b-4878-8372-b3f54859a4c2",
             "Name": "CACOG 2 - Alabasters",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -1494,6 +1517,7 @@
             "CurrentMatchId": null,
             "Id": "t_a30f3872-952d-4a91-9437-42d142702268",
             "Name": "Epistles of Christ (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -1589,6 +1613,7 @@
             "CurrentMatchId": null,
             "Id": "t_3cbb2a0b-0289-426f-976a-139860fd82f0",
             "Name": "Faithful Friends",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -1687,6 +1712,7 @@
             "CurrentMatchId": null,
             "Id": "t_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_24",
             "Name": "The Bible Conquerors",
+            "ChurchId": null,
             "ChurchName": "CACOG",
             "City": null,
             "State": null,
@@ -1782,6 +1808,7 @@
             "CurrentMatchId": null,
             "Id": "t_761971df-64e6-42ed-ab59-e5d23bba0ed8",
             "Name": "Warriors for Christ",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -1824,6 +1851,7 @@
             "YearsQuizzing": null,
             "Id": "q_66b0aef4e7c343695afb08ddf5ebf858",
             "Name": "Aceline Jestin",
+            "ChurchId": null,
             "ChurchName": "CACOG",
             "City": null,
             "State": null,
@@ -1847,6 +1875,7 @@
             "YearsQuizzing": null,
             "Id": "q_cf3727c632b84ffb7b1308dbb0cb2340",
             "Name": "Aiden Samuel",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -1870,6 +1899,7 @@
             "YearsQuizzing": null,
             "Id": "q_2ce65961660e4fe404cc08db9ad08123",
             "Name": "Angelina Biju",
+            "ChurchId": null,
             "ChurchName": "CACOG",
             "City": null,
             "State": null,
@@ -1893,6 +1923,7 @@
             "YearsQuizzing": null,
             "Id": "q_dbfde8f1e8304fae632408d84f5ec185",
             "Name": "Evangelin Grace Sheen",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -1916,6 +1947,7 @@
             "YearsQuizzing": null,
             "Id": "q_448f4250ab8c48817b1f08dbb0cb2340",
             "Name": "Gaius Lejo",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -1939,6 +1971,7 @@
             "YearsQuizzing": null,
             "Id": "q_a3a42b00d90d4f387b2b08dbb0cb2340",
             "Name": "Hannah Jacob",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -1962,6 +1995,7 @@
             "YearsQuizzing": null,
             "Id": "q_5579748857fb4481d41708daf1e486d0",
             "Name": "Jenisha Sherlyn Yogarajan",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -1985,6 +2019,7 @@
             "YearsQuizzing": null,
             "Id": "q_8d712157b84c41a858f108ddf5ebf858",
             "Name": "Jesse Davis Jebaraj",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -2008,6 +2043,7 @@
             "YearsQuizzing": null,
             "Id": "q_23c5ddd3b0014f13052408db9ad08123",
             "Name": "Johanna Shinu",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -2031,6 +2067,7 @@
             "YearsQuizzing": null,
             "Id": "q_d2c292a271e9491ad41d08daf1e486d0",
             "Name": "Karunya Karthikeyan",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -2054,6 +2091,7 @@
             "YearsQuizzing": null,
             "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_209",
             "Name": "Quizzer-1",
+            "ChurchId": null,
             "ChurchName": "CACOG",
             "City": null,
             "State": null,
@@ -2077,6 +2115,7 @@
             "YearsQuizzing": null,
             "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_210",
             "Name": "Quizzer-2",
+            "ChurchId": null,
             "ChurchName": "CACOG",
             "City": null,
             "State": null,
@@ -2100,6 +2139,7 @@
             "YearsQuizzing": null,
             "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_211",
             "Name": "Quizzer-3",
+            "ChurchId": null,
             "ChurchName": "CACOG",
             "City": null,
             "State": null,
@@ -2123,6 +2163,7 @@
             "YearsQuizzing": null,
             "Id": "q_4661753f0c6e4d0e67f008d71ab479e4",
             "Name": "Ruth Harshine Jay",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -2146,6 +2187,7 @@
             "YearsQuizzing": null,
             "Id": "q_efd9a27b943d44335ab108ddf5ebf858",
             "Name": "Sera Lejo",
+            "ChurchId": "8ab060f8-3ee6-4081-53de-08db9ad044ae",
             "ChurchName": "Calvary Assembly Church Of God",
             "City": "Sugar Hill",
             "State": "GA",
@@ -2169,6 +2211,7 @@
             "YearsQuizzing": null,
             "Id": "q_b337d008096e4654d41108daf1e486d0",
             "Name": "Sherin Jenefa Selvin Prabaharan",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -2192,6 +2235,7 @@
             "YearsQuizzing": null,
             "Id": "q_6c8350ebe7fd4c722d7f08d95f2290ed",
             "Name": "Steven Daniel",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -2490,8 +2534,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 Meet #2",
-        "LastUpdated": "11/8/25 7:34 PM",
-        "DatabaseLastUpdated": "2025-11-04T16:02:43.8762602+00:00",
+        "LastUpdated": "1/13/26 12:12 AM",
+        "DatabaseLastUpdated": "2026-01-12T21:42:15.1642813+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -2565,6 +2609,7 @@
             "CurrentMatchId": null,
             "Id": "t_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_23",
             "Name": "Bereans",
+            "ChurchId": null,
             "ChurchName": "Georgia Christian Assembly",
             "City": null,
             "State": null,
@@ -2590,8 +2635,8 @@
             "CoachName": "Josh Cheatwood",
             "Quizzers": [
               6,
-              20,
-              25
+              21,
+              26
             ],
             "Matches": [
               {
@@ -2653,6 +2698,7 @@
             "CurrentMatchId": null,
             "Id": "t_5606f4c2-1832-46b2-a089-8e99a1737def",
             "Name": "Central Christian School (Sharpsburg) #1",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -2679,8 +2725,8 @@
             "Quizzers": [
               1,
               7,
-              21,
-              22
+              22,
+              23
             ],
             "Matches": [
               {
@@ -2750,6 +2796,7 @@
             "CurrentMatchId": null,
             "Id": "t_87d64c02-55b9-4580-b48b-27a6313c8d8b",
             "Name": "Central Christian School (Sharpsburg) #2",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -2775,8 +2822,8 @@
             "CoachName": "Micthell Davis",
             "Quizzers": [
               5,
-              23,
-              27
+              24,
+              28
             ],
             "Matches": [
               {
@@ -2838,6 +2885,7 @@
             "CurrentMatchId": null,
             "Id": "t_95f71445-d8bd-4556-980d-5861af067330",
             "Name": "Central Christian School (Sharpsburg) #3",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -2863,8 +2911,9 @@
             "CoachName": "Mitchell Davis",
             "Quizzers": [
               2,
-              11,
-              26
+              9,
+              12,
+              27
             ],
             "Matches": [
               {
@@ -2926,6 +2975,7 @@
             "CurrentMatchId": null,
             "Id": "t_0b4474df-0716-4136-8d04-e477c77123ff",
             "Name": "Central Christian School (Sharpsburg) #4",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3022,6 +3072,7 @@
             "CurrentMatchId": null,
             "Id": "t_1c210dad-c0d7-4cb2-9a72-a6231f8ed911",
             "Name": "Fishers of Men",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3046,8 +3097,8 @@
           {
             "CoachName": "Aruna Danny",
             "Quizzers": [
-              10,
-              13
+              11,
+              14
             ],
             "Matches": [
               null,
@@ -3109,6 +3160,7 @@
             "CurrentMatchId": null,
             "Id": "t_8e2aff04-8f7d-4fba-8489-48dcae97ca07",
             "Name": "Flame of fire (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3133,9 +3185,9 @@
           {
             "CoachName": "Seetha Stephen",
             "Quizzers": [
-              9,
-              12,
-              18
+              10,
+              13,
+              19
             ],
             "Matches": [
               {
@@ -3197,6 +3249,7 @@
             "CurrentMatchId": null,
             "Id": "t_795d6830-34ac-4b5e-8043-03d088b755dc",
             "Name": "Fruitful Bough (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3221,9 +3274,9 @@
           {
             "CoachName": "Calvin Jeremy",
             "Quizzers": [
-              14,
               15,
-              24
+              16,
+              25
             ],
             "Matches": [
               {
@@ -3293,6 +3346,7 @@
             "CurrentMatchId": null,
             "Id": "t_23bf7e29-fc54-4a7c-b71e-681998c41929",
             "Name": "Olive Trees (AIPF)",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3317,8 +3371,8 @@
           {
             "CoachName": "Vimala Arun",
             "Quizzers": [
-              17,
-              19
+              18,
+              20
             ],
             "Matches": [
               {
@@ -3380,6 +3434,7 @@
             "CurrentMatchId": null,
             "Id": "t_2350b546-cc9c-4fa9-8d25-09b8e1ebf1c2",
             "Name": "Sword of the Spirit",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3405,7 +3460,7 @@
             "CoachName": "McLean Mary Francis",
             "Quizzers": [
               8,
-              16
+              17
             ],
             "Matches": [
               {
@@ -3467,6 +3522,7 @@
             "CurrentMatchId": null,
             "Id": "t_6e85949a-11a9-4d6a-b054-2fd44d0b4779",
             "Name": "World Turners",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3514,6 +3570,7 @@
             "YearsQuizzing": null,
             "Id": "q_570828eada274b1fc58c08d71a778d78",
             "Name": "Abigail Solomon",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3537,6 +3594,7 @@
             "YearsQuizzing": null,
             "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_41",
             "Name": "Addi Haddock",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3560,6 +3618,7 @@
             "YearsQuizzing": null,
             "Id": "q_6885a1ba605a4a13b43208dd08b90e65",
             "Name": "Addi Klingler",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3583,6 +3642,7 @@
             "YearsQuizzing": null,
             "Id": "q_b2b93e1d0cbd4b046d2708dbb0cb2340",
             "Name": "Adrian Washburn",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3606,11 +3666,12 @@
             "YearsQuizzing": null,
             "Id": "q_b243b33b0cda46e8c5d208d71a778d78",
             "Name": "Adriel Solomon",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
             "Scores": {
-              "Rank": 28,
+              "Rank": 29,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -3629,6 +3690,7 @@
             "YearsQuizzing": null,
             "Id": "q_ff0cb7d9b8b248b8938208ddfc3ef602",
             "Name": "Anna Wilson",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3652,6 +3714,7 @@
             "YearsQuizzing": null,
             "Id": "q_60dceed8e4c741b1931608ddfc3ef602",
             "Name": "Caleb Leigh",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3675,6 +3738,7 @@
             "YearsQuizzing": null,
             "Id": "q_1f1c3bc5bb7241d2b44608dd08b90e65",
             "Name": "Cayden Gazaway",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3698,6 +3762,7 @@
             "YearsQuizzing": null,
             "Id": "q_debb52acd9ff4415d42e08daf1e486d0",
             "Name": "Cherisha Karthikeyan",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3717,10 +3782,35 @@
             }
           },
           {
+            "TeamName": "Central Christian School (Sharpsburg) #4",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_59",
+            "Name": "CJ Haydock",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Fruitful Bough (AIPF)",
             "YearsQuizzing": null,
             "Id": "q_9744904f5aaf4212590908ddf5ebf858",
             "Name": "Daniel Nelson",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3744,6 +3834,7 @@
             "YearsQuizzing": null,
             "Id": "q_661c20bff36c45e7c5c108d71a778d78",
             "Name": "Davis Devadasan",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3767,6 +3858,7 @@
             "YearsQuizzing": null,
             "Id": "q_27dfe6d827ac4d7393a608ddfc3ef602",
             "Name": "Ethan Renz",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3790,6 +3882,7 @@
             "YearsQuizzing": null,
             "Id": "q_3534ee8f36284e2a590f08ddf5ebf858",
             "Name": "Isaac Nelson",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3813,6 +3906,7 @@
             "YearsQuizzing": null,
             "Id": "q_58389b090d0449ec814108dd58ed233f",
             "Name": "Jaddua Flavius Jibinsingh",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3836,6 +3930,7 @@
             "YearsQuizzing": null,
             "Id": "q_72b3072509b1440821b308da9275ed7d",
             "Name": "Jaron Chris Jeremy",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3851,7 +3946,7 @@
               "Correct10s": 16,
               "Correct20s": 9,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             }
           },
           {
@@ -3859,6 +3954,7 @@
             "YearsQuizzing": null,
             "Id": "q_9beef735ad3648cb023b08dba97a958d",
             "Name": "Jason Israel Peter",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3882,6 +3978,7 @@
             "YearsQuizzing": null,
             "Id": "q_9d055ca24ff04a73bee308dccebed830",
             "Name": "Jerusha Rajesh",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3905,6 +4002,7 @@
             "YearsQuizzing": null,
             "Id": "q_7a31d6ca4b674e404a2d08d7c5ca2243",
             "Name": "Jessica Abraham",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3928,6 +4026,7 @@
             "YearsQuizzing": null,
             "Id": "q_7395b95c93c444e8681808d71ab479e4",
             "Name": "Jessy Stephen",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -3951,6 +4050,7 @@
             "YearsQuizzing": null,
             "Id": "q_0f5b1536a25641cec5e408d71a778d78",
             "Name": "Joshua Abraham",
+            "ChurchId": "ed65deea-5970-44cc-bd8b-569ed0a42ee0",
             "ChurchName": "Atlanta Tamil Church",
             "City": "Norcross",
             "State": "GA",
@@ -3974,6 +4074,7 @@
             "YearsQuizzing": null,
             "Id": "q_2d323b55b5fa41967a1b08dd18789b43",
             "Name": "Joshua Cheatwood",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -3997,6 +4098,7 @@
             "YearsQuizzing": null,
             "Id": "q_8978b2b1b3d9441f934c08ddfc3ef602",
             "Name": "Kaden Barnes-Cloud",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -4019,7 +4121,8 @@
             "TeamName": "Central Christian School (Sharpsburg) #2",
             "YearsQuizzing": null,
             "Id": "q_97dde0c85e55401e9d1208dcde30b60d",
-            "Name": "Kimari Poitier -. Bullard",
+            "Name": "Kimari Poitier - Bullard",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -4043,6 +4146,7 @@
             "YearsQuizzing": null,
             "Id": "q_b79959b5e4674db19d0f08dcde30b60d",
             "Name": "Miriam Holst",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -4066,6 +4170,7 @@
             "YearsQuizzing": null,
             "Id": "q_af7d5f30b8074e76f91e08db1c4cce3c",
             "Name": "Niven Vijay",
+            "ChurchId": "50fae482-3c87-4c6b-bad2-d806ea41763c",
             "ChurchName": "Atlanta Indian Prayer Fellowship",
             "City": "Marietta",
             "State": "GA",
@@ -4089,6 +4194,7 @@
             "YearsQuizzing": null,
             "Id": "q_0595f07a57aa48bc930a08ddfc3ef602",
             "Name": "Owen Wolke",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -4112,6 +4218,7 @@
             "YearsQuizzing": null,
             "Id": "q_efe2799859b2486193a008ddfc3ef602",
             "Name": "Sadie Holt",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -4135,6 +4242,7 @@
             "YearsQuizzing": null,
             "Id": "q_91ef74fac48d4b75937b08ddfc3ef602",
             "Name": "Vania Vasquez",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
             "State": "GA",
@@ -4155,43 +4263,40 @@
           }
         ],
         "RankedQuizzers": [
-          18,
-          8,
-          10,
-          0,
-          13,
           19,
-          20,
-          2,
-          15,
+          8,
           11,
-          17,
-          23,
-          3,
-          12,
+          0,
           14,
+          20,
+          21,
+          2,
           16,
+          12,
+          18,
+          24,
+          3,
+          13,
+          15,
+          17,
           1,
-          22,
-          25,
-          27,
-          6,
+          23,
           26,
-          9,
+          28,
+          6,
+          27,
+          10,
           7,
           5,
-          21,
-          24,
+          9,
+          22,
+          25,
           4
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
             "Text": "Tie couldn't be broken by tie breaking rules."
-          },
-          {
-            "Symbol": "**",
-            "Text": "Tie broken by total quiz outs."
           }
         ],
         "MeetNames": null,
@@ -4679,5 +4784,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-08T19:34:42.1461909+00:00"
+  "Freshness": "2026-01-12T21:42:15.5288945+00:00"
 }
