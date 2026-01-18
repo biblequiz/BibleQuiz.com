@@ -1,0 +1,920 @@
+{
+  "EventName": "Long Island XP5 2025-2026 Meet #3",
+  "DatabaseNames": {
+    "bc818b7e-6135-455d-b52f-cd2b3938fb59": "2025-2026_XP5_Database"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "bc818b7e-6135-455d-b52f-cd2b3938fb59",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Meet 3",
+        "LastUpdated": "1/17/26 10:45 PM",
+        "DatabaseLastUpdated": "2026-01-17T02:33:28.8664182+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Nina and Dawn",
+            "Quizzers": [
+              6,
+              7,
+              10,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_fe646353-0d7b-4809-931c-cc651f0f7815",
+            "Name": "Biblical Blast",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 215.0,
+              "AverageCorrect": 10.2,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 24,
+              "Correct20s": 28,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jolene",
+            "Quizzers": [
+              3,
+              4,
+              8,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_16aaefd5-08c9-4cc9-a44e-c1ac61cd125f",
+            "Name": "God's Army",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 840,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 140.0,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 11,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Elaina and Robert",
+            "Quizzers": [
+              2,
+              9,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_c52f2a2d-2eab-41a9-a1c8-e6698088edfa",
+            "Name": "Still Waters",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 620,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.3,
+              "AverageCorrect": 6.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 22,
+              "Correct20s": 12,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Mark and Natalie",
+            "Quizzers": [
+              0,
+              1,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8dccab45-306d-4e30-8f9d-eb9d7e5f5df6",
+            "Name": "Warriors of God",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 870,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 145.0,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 14,
+              "Correct20s": 19,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_118ad4f7dc3a497aeeb808dbd94ee1c8",
+            "Name": "Carmelo Rivera",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 19.2,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_f791db21c20c4a96764e08dce6219480",
+            "Name": "Damon Boutsikos",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 755,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 125.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 2,
+              "Correct20s": 19,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Still Waters",
+            "YearsQuizzing": null,
+            "Id": "q_66532c5840e041f4c89508ddfeee20fa",
+            "Name": "Jahnissi Paredes",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "God's Army",
+            "YearsQuizzing": null,
+            "Id": "q_6cfd3678b4b64437c85e08ddfeee20fa",
+            "Name": "Jayden Roman",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Army",
+            "YearsQuizzing": null,
+            "Id": "q_a8f4ce00582f424d75bd08dce6219480",
+            "Name": "Jose Alicia",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_66c4a0e692d8478aeebd08dbd94ee1c8",
+            "Name": "Joshua Deleon",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Biblical Blast",
+            "YearsQuizzing": null,
+            "Id": "q_abddb0a99fb149fcc87d08ddfeee20fa",
+            "Name": "Joshua Paredes",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Biblical Blast",
+            "YearsQuizzing": null,
+            "Id": "q_8322c04e53514847759908dce6219480",
+            "Name": "Josiah Grillo",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 460,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 76.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 21,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Army",
+            "YearsQuizzing": null,
+            "Id": "q_1db0cdc5ab154204768108dce6219480",
+            "Name": "Liam Lipton",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Still Waters",
+            "YearsQuizzing": null,
+            "Id": "q_d2f369b005bc43c5c83108ddfeee20fa",
+            "Name": "Lilaray Pagano",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 10,
+              "Correct20s": 8,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Biblical Blast",
+            "YearsQuizzing": null,
+            "Id": "q_6f55549a32644968767b08dce6219480",
+            "Name": "Logan Lipton",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Biblical Blast",
+            "YearsQuizzing": null,
+            "Id": "q_f8ebaf4a790747ee75a708dce6219480",
+            "Name": "Matthew Boutsikos",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Still Waters",
+            "YearsQuizzing": null,
+            "Id": "q_20f66c596ce24e66766108dce6219480",
+            "Name": "Sarah Andersen",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 12,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Army",
+            "YearsQuizzing": null,
+            "Id": "q_d458892302824646759408dce6219480",
+            "Name": "Stephen Nax Pagano",
+            "ChurchId": "16a66ec1-ceb6-4ef9-c0c5-08dbd94e7a26",
+            "ChurchName": "Gospel Community Church",
+            "City": "Sayville",
+            "State": "NY",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": true,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          11,
+          13,
+          1,
+          7,
+          9,
+          12,
+          0,
+          8,
+          10,
+          3,
+          2,
+          4,
+          5,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:45 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-01-17T22:45:06.3680098+00:00"
+}
