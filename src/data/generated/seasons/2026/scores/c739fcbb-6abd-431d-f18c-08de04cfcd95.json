@@ -17,19 +17,19 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Central: November: Achiever",
-        "LastUpdated": "11/23/25 7:23 PM",
-        "DatabaseLastUpdated": "2025-11-04T02:02:59.0553041+00:00",
+        "LastUpdated": "1/19/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-01-19T20:27:32.8651594+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Peyton Thomas",
             "Quizzers": [
-              3,
-              5,
-              7,
-              17,
-              22,
-              23
+              4,
+              6,
+              8,
+              18,
+              23,
+              24
             ],
             "Matches": [
               {
@@ -106,10 +106,10 @@
           {
             "CoachName": "Christina Perez",
             "Quizzers": [
-              1,
-              6,
-              11,
-              19
+              0,
+              2,
+              7,
+              12
             ],
             "Matches": [
               {
@@ -186,10 +186,11 @@
           {
             "CoachName": "Autumn Chabia",
             "Quizzers": [
-              4,
-              10,
-              13,
-              15
+              5,
+              11,
+              14,
+              16,
+              22
             ],
             "Matches": [
               {
@@ -266,8 +267,8 @@
           {
             "CoachName": "Maira Smith",
             "Quizzers": [
-              8,
-              12,
+              9,
+              13,
               21
             ],
             "Matches": [
@@ -345,10 +346,10 @@
           {
             "CoachName": "Blanca Wise",
             "Quizzers": [
-              14,
-              16,
+              15,
+              17,
               20,
-              24
+              25
             ],
             "Matches": [
               {
@@ -425,10 +426,10 @@
           {
             "CoachName": "Dennis_ Godfrey",
             "Quizzers": [
-              0,
-              2,
-              9,
-              18
+              1,
+              3,
+              10,
+              19
             ],
             "Matches": [
               {
@@ -513,6 +514,30 @@
         ],
         "TeamFootnotes": [],
         "Quizzers": [
+          {
+            "TeamName": "God's Word Warriors",
+            "YearsQuizzing": 0,
+            "Id": "q_c2b26284-182f-4431-b19a-a8329545cb07_86",
+            "Name": "--",
+            "ChurchId": "aea5ec99-63d5-44f6-bdf3-594ee8123bed",
+            "ChurchName": "Faith Assembly of God",
+            "City": "Orlando",
+            "State": "FL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
           {
             "TeamName": "The X-League",
             "YearsQuizzing": null,
@@ -763,7 +788,7 @@
             "City": "Ocoee",
             "State": "FL",
             "Scores": {
-              "Rank": 25,
+              "Rank": 26,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -970,30 +995,6 @@
             }
           },
           {
-            "TeamName": "God's Word Warriors",
-            "YearsQuizzing": 0,
-            "Id": "q_c2b26284-182f-4431-b19a-a8329545cb07_86",
-            "Name": "Micah George",
-            "ChurchId": "aea5ec99-63d5-44f6-bdf3-594ee8123bed",
-            "ChurchName": "Faith Assembly of God",
-            "City": "Orlando",
-            "State": "FL",
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 40,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 8.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 4,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "TeamName": "Testimony Troop",
             "YearsQuizzing": null,
             "Id": "q_8e93b275c03d4e2153d708d72ca5b5dd",
@@ -1025,6 +1026,30 @@
             "ChurchId": "aea5ec99-63d5-44f6-bdf3-594ee8123bed",
             "ChurchName": "Faith Assembly of God",
             "City": "Orlando",
+            "State": "FL",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Hallelujah Homies",
+            "YearsQuizzing": null,
+            "Id": "q_c2b26284-182f-4431-b19a-a8329545cb07_303",
+            "Name": "Samuel Scott",
+            "ChurchId": "46f887e3-eed7-44a1-a791-1c14b9612f0c",
+            "ChurchName": "Glad Tidings Assembly of God",
+            "City": "Ocoee",
             "State": "FL",
             "Scores": {
               "Rank": 19,
@@ -1075,7 +1100,7 @@
             "City": "Sanford",
             "State": "FL",
             "Scores": {
-              "Rank": 24,
+              "Rank": 25,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -1115,31 +1140,32 @@
           }
         ],
         "RankedQuizzers": [
-          8,
-          14,
           9,
-          2,
-          16,
-          20,
-          12,
-          22,
-          5,
-          17,
-          6,
-          24,
-          11,
-          13,
           15,
-          19,
+          10,
+          3,
+          17,
+          20,
+          13,
+          23,
+          6,
+          18,
+          7,
+          25,
+          12,
+          14,
+          16,
+          0,
+          2,
+          5,
           1,
           4,
-          0,
-          3,
-          7,
-          18,
+          8,
+          19,
           21,
-          23,
-          10
+          22,
+          24,
+          11
         ],
         "QuizzerFootnotes": [
           {
@@ -1337,8 +1363,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Central: November: Rising Stars",
-        "LastUpdated": "11/23/25 7:23 PM",
-        "DatabaseLastUpdated": "2025-11-04T02:02:59.0553041+00:00",
+        "LastUpdated": "1/19/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-01-19T20:27:32.8651594+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -17412,5 +17438,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-19T15:49:46.679628+00:00"
+  "Freshness": "2026-01-19T20:27:32.9894727+00:00"
 }
