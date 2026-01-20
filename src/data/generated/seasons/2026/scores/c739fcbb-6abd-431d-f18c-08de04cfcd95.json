@@ -4500,8 +4500,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South November Searcher 25",
-        "LastUpdated": "1/19/26 6:05 PM",
-        "DatabaseLastUpdated": "2026-01-19T15:49:45.9836267+00:00",
+        "LastUpdated": "1/20/26 6:06 PM",
+        "DatabaseLastUpdated": "2026-01-20T17:24:45.3882175+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4509,8 +4509,8 @@
             "Quizzers": [
               0,
               5,
-              9,
-              13
+              10,
+              16
             ],
             "Matches": [
               {
@@ -4579,8 +4579,8 @@
           {
             "CoachName": "Padu Padmanaban",
             "Quizzers": [
-              12,
-              15
+              15,
+              17
             ],
             "Matches": [
               {
@@ -4651,8 +4651,8 @@
             "Quizzers": [
               4,
               6,
-              11,
-              14
+              12,
+              13
             ],
             "Matches": [
               {
@@ -4722,7 +4722,9 @@
             "CoachName": "Suze Denis",
             "Quizzers": [
               2,
-              8
+              8,
+              9,
+              14
             ],
             "Matches": [
               {
@@ -4794,7 +4796,7 @@
               1,
               3,
               7,
-              10
+              11
             ],
             "Matches": [
               null,
@@ -4837,7 +4839,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_07545d82-88f4-4ebc-ac9c-dc9796dc365b",
-            "Name": "Wild Wisdom Warriors",
+            "Name": "Warriors of the Forest",
             "ChurchId": "60a02c73-12e3-46e8-186b-08ddfc473c64",
             "ChurchName": "Wild Wisdom Learning",
             "City": "Sunrise",
@@ -4895,7 +4897,7 @@
             }
           },
           {
-            "TeamName": "Wild Wisdom Warriors",
+            "TeamName": "Warriors of the Forest",
             "YearsQuizzing": null,
             "Id": "q_cd5634e222174742c17c08ddfc475f45",
             "Name": "Adrielle Beckford",
@@ -4943,7 +4945,7 @@
             }
           },
           {
-            "TeamName": "Wild Wisdom Warriors",
+            "TeamName": "Warriors of the Forest",
             "YearsQuizzing": null,
             "Id": "q_a17ce3097cbd48a9c17e08ddfc475f45",
             "Name": "Aston Samuels",
@@ -4976,7 +4978,7 @@
             "City": "Miami",
             "State": "FL",
             "Scores": {
-              "Rank": 16,
+              "Rank": 18,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -5039,7 +5041,7 @@
             }
           },
           {
-            "TeamName": "Wild Wisdom Warriors",
+            "TeamName": "Warriors of the Forest",
             "YearsQuizzing": null,
             "Id": "q_9ee3be67d6a64a00c18108ddfc475f45",
             "Name": "David Wade",
@@ -5087,6 +5089,30 @@
             }
           },
           {
+            "TeamName": "Terra Nova Tigers",
+            "YearsQuizzing": null,
+            "Id": "q_418e898bcce9489c6ebc08ddee77000d",
+            "Name": "Ezekiel Benjamin",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "CLC Sunrise",
             "YearsQuizzing": 0,
             "Id": "q_3e5fae50-c396-4daf-afb5-525cbadea1b0_796",
@@ -5111,7 +5137,7 @@
             }
           },
           {
-            "TeamName": "Wild Wisdom Warriors",
+            "TeamName": "Warriors of the Forest",
             "YearsQuizzing": null,
             "Id": "q_2a745a48b4834f43c18508ddfc475f45",
             "Name": "Lucille Wade",
@@ -5121,7 +5147,7 @@
             "State": "FL",
             "Scores": {
               "Rank": 13,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -5137,11 +5163,59 @@
           {
             "TeamName": "Saints",
             "YearsQuizzing": null,
-            "Id": "q_a60350a20315411142ad08ddf0571ac9",
-            "Name": "Luis Guanche",
+            "Id": "q_ef8f34905b9043c842e508ddf0571ac9",
+            "Name": "Lyanna Flick",
             "ChurchId": "95569837-e75f-4a86-b02a-d7d797ac7025",
             "ChurchName": "Upper Room Assembly of God",
             "City": "Miami",
+            "State": "FL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Saints",
+            "YearsQuizzing": null,
+            "Id": "q_d93b3f4bb96e47c042df08ddf0571ac9",
+            "Name": "Mateo Flick",
+            "ChurchId": "95569837-e75f-4a86-b02a-d7d797ac7025",
+            "ChurchName": "Upper Room Assembly of God",
+            "City": "Miami",
+            "State": "FL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Terra Nova Tigers",
+            "YearsQuizzing": null,
+            "Id": "q_cdc2e02d2e094c51374a08ddeee6e820",
+            "Name": "Micah Benjamin",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
             "State": "FL",
             "Scores": {
               "Rank": 13,
@@ -5207,30 +5281,6 @@
             }
           },
           {
-            "TeamName": "Saints",
-            "YearsQuizzing": null,
-            "Id": "q_1082b4e703174d3142a708ddf0571ac9",
-            "Name": "Nathan Rodriguez",
-            "ChurchId": "95569837-e75f-4a86-b02a-d7d797ac7025",
-            "ChurchName": "Upper Room Assembly of God",
-            "City": "Miami",
-            "State": "FL",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
             "TeamName": "CLC-Messengers of Hope",
             "YearsQuizzing": null,
             "Id": "q_2058f71769eb42eaf34108ddff6180fc",
@@ -5256,8 +5306,8 @@
           }
         ],
         "RankedQuizzers": [
-          15,
-          9,
+          17,
+          10,
           6,
           8,
           0,
@@ -5265,11 +5315,13 @@
           5,
           2,
           3,
-          12,
+          15,
           7,
-          13,
-          10,
+          16,
+          9,
           11,
+          12,
+          13,
           14,
           4
         ],
@@ -5424,8 +5476,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South January Searcher 26",
-        "LastUpdated": "1/19/26 6:05 PM",
-        "DatabaseLastUpdated": "2026-01-19T15:49:45.9836267+00:00",
+        "LastUpdated": "1/20/26 6:06 PM",
+        "DatabaseLastUpdated": "2026-01-20T17:24:45.3882175+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -17438,5 +17490,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-19T20:27:32.9894727+00:00"
+  "Freshness": "2026-01-20T17:24:45.4858188+00:00"
 }
