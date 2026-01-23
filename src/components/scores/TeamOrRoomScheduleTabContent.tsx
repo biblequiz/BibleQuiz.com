@@ -268,7 +268,7 @@ export default function TeamOrRoomScheduleTabContent({
                             if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
                                 shouldHighlightFavorite = true;
                             }
-                            cellText.push(`"${otherTeam.Name}"`);
+                            cellText.push(`"${otherTeam.Name} (${otherTeam.ChurchName})"`);
                             if (!isScheduleOnly) {
                                 if (isLiveMatch) {
                                     if (!isRoomReport) {
