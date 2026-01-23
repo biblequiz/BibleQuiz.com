@@ -16,18 +16,26 @@ export class AstroEventsService {
    *
    * @param auth AuthManager to use for authentication.
    * @param season Season for the events.
+   * @param typeId Optional type id for filtering events.
+   * @param requireDatabases Optional value indicating whether an event must have a database.
    * 
    * @returns Array of results.
    */
   public static getOwnedEvents(
     auth: AuthManager,
-    season: number): Promise<EventInfoWithUrl[]> {
+    season: number,
+    typeId?: string,
+    requireDatabases?: boolean): Promise<EventInfoWithUrl[]> {
 
     return RemoteServiceUtility.executeHttpRequest<EventInfoWithUrl[]>(
       auth,
       "GET",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/seasons/${season}`);
+      `${URL_ROOT_PATH}/seasons/${season}`,
+      RemoteServiceUtility.getFilteredUrlParameters({
+        d: requireDatabases,
+        t: typeId
+      }));
   }
 
   /**

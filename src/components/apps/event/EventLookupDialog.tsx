@@ -1,75 +1,38 @@
 import { useEffect, useRef, useState } from "react";
 import { AuthManager } from 'types/AuthManager';
-import { EventFilter, EventInfo, EventsService } from "types/services/EventsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import PaginationControl from "./PaginationControl";
+import { AstroEventsService } from "types/services/AstroEventsService";
+import type { EventInfo } from "types/EventTypes";
 
 interface Props {
-
-    /**
-     * Handler for selecting an event.
-     * 
-     * @param event Selected event or null (if canceled).
-     */
-    onSelect: (event: EventInfo | null) => void;
-
-    /**
-     * Id for the competition type.
-     */
-    typeId: string;
-
-    /**
-     * Season for the events to include.
-     */
     season: number;
-
-    /**
-     * Optional exclusion for a specific event.
-     */
-    excludeEventId?: string;
-
-    /**
-     * Optional region id for any events.
-     */
     regionId?: string;
-
-    /**
-     * Optional district id for any events.
-     */
     districtId?: string;
-
-    /**
-     * Optional value indicating just the district events should be included.
-     */
-    includeDistrict?: boolean;
-
-    /**
-     * Optional value indicating just the region events should be included.
-     */
-    includeRegion?: boolean;
-
-    /**
-     * Optional value indicating just the national events should be included.
-     */
-    includeNation?: boolean;
-
-    /**
-     * Optional value indicating the event must have databases.
-     */
+    onSelect: (event: EventInfo | null) => void;
+    eventCache?: EventInfoCache;
+    typeId?: string;
     requireDatabases?: boolean;
+    excludeEventIds?: string[];
+}
+
+export interface EventInfoCache {
+    events: EventInfoWithTypeId[] | undefined;
+    season: number | undefined;
+}
+
+export interface EventInfoWithTypeId extends EventInfo {
+    typeId: string;
 }
 
 export default function EventLookupDialog({
-    onSelect,
-    typeId,
     season,
-    excludeEventId,
     regionId,
     districtId,
-    includeDistrict = true,
-    includeRegion = true,
-    includeNation = true,
+    onSelect,
+    eventCache,
+    excludeEventIds,
+    typeId,
     requireDatabases = false }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
@@ -78,49 +41,71 @@ export default function EventLookupDialog({
 
     const [intermediateSearchText, setIntermediateSearchText] = useState<string | undefined>(undefined);
     const [searchText, setSearchText] = useState<string | undefined>(undefined);
-    const [events, setEvents] = useState<EventInfo[] | undefined>(undefined);
-    const [currentPageNumber, setCurrentPageNumber] = useState<number | undefined>(0);
-    const [pageCount, setPageCount] = useState<number>(0);
+    const [allEvents, setAllEvents] = useState<EventInfoWithTypeId[] | undefined>(undefined);
+    const [events, setEvents] = useState<EventInfoWithTypeId[] | undefined>(undefined);
     const [isLoading, setIsLoading] = useState(false);
     const [isAssigning, setIsAssigning] = useState(false);
     const [loadingOrSavingError, setLoadingOrSavingError] = useState<string | null>(null);
 
     useEffect(() => {
-        const newPageNumber = currentPageNumber ?? 0;
         setIsLoading(true);
 
         if (!isLoading && !isAssigning) {
-            EventsService.getEvents(
-                auth,
-                6,
-                newPageNumber,
-                typeId,
-                null, // Church ID
-                regionId ?? null,
-                districtId ?? null,
-                EventFilter.MyDistrictRegionNation,
-                searchText ?? "",
-                requireDatabases,
-                false, // Include Only Scores
-                includeDistrict,
-                includeRegion,
-                includeNation,
-                null, // Include all time periods.
-                true, // Include only what the user is authorized to view.
-                season,
-                excludeEventId ?? null)
-                .then(page => {
-                    setIsLoading(false);
-                    setLoadingOrSavingError(null);
-                    setEvents(page[0].events);
-                    setPageCount(page[0].pageCount);
-                })
-                .catch(err => {
-                    setIsLoading(false);
-                    setLoadingOrSavingError(err.message ?? "Unknown error");
-                });
+
+            const excludeIds = new Set<string>(excludeEventIds ?? []);
+
+            if (eventCache?.events && eventCache.season === season) {
+                setAllEvents(eventCache!.events.filter(e => !excludeIds.has(e.id)));
+            }
+            else {
+                AstroEventsService.getOwnedEvents(
+                    auth,
+                    season,
+                    typeId,
+                    requireDatabases)
+                    .then(events => {
+                        const formattedEvents = events.map(e => {
+                            const formatted = e.Event as EventInfoWithTypeId;
+                            formatted.typeId = e.Url.substring(1, 4);
+                            return formatted;
+                        });
+
+                        setAllEvents(formattedEvents.filter(e => !excludeIds.has(e.id)));
+                        setLoadingOrSavingError(null);
+                    })
+                    .catch(err => {
+                        setIsLoading(false);
+                        setLoadingOrSavingError(err.message ?? "Unknown error");
+                    });
+            }
         }
-    }, [searchText, currentPageNumber]);
+    }, [auth, season, eventCache, requireDatabases]);
+
+    useEffect(() => {
+        if (!allEvents) {
+            return;
+        }
+
+        const filteredEvents = allEvents.filter(event => {
+            if (regionId && event.regionId !== regionId) {
+                return false;
+            }
+            else if (districtId && event.districtId !== districtId) {
+                return false;
+            }
+
+            if (searchText &&
+                !event.name.includes(searchText) &&
+                event.locationName && !event.locationName.includes(searchText)) {
+                return false;
+            }
+
+            return true;
+        });
+
+        setEvents(filteredEvents);
+        setIsLoading(false);
+    }, [allEvents, searchText, regionId, districtId]);
 
     return (
         <dialog ref={dialogRef} className="modal" open>
@@ -189,38 +174,36 @@ export default function EventLookupDialog({
                                     {events.map(event => {
 
                                         let locationLabel: string | null = null;
-                                        if (event.LocationName || event.Location) {
-                                            if (event.LocationName && event.Location) {
-                                                locationLabel = `${event.LocationName}, ${event.Location.City}, ${event.Location.State}`;
+                                        if (event.locationName || event.locationCity) {
+                                            if (event.locationName && event.locationCity) {
+                                                locationLabel = `${event.locationName}, ${event.locationCity}`;
                                             }
-                                            else if (event.LocationName) {
-                                                locationLabel = event.LocationName;
+                                            else if (event.locationName) {
+                                                locationLabel = event.locationName;
                                             }
                                             else {
-                                                locationLabel = `${event.Location.City}, ${event.Location.State}`;
+                                                locationLabel = event.locationCity;
                                             }
                                         }
 
-                                        const typeId = event.TypeId.substring(2).toLowerCase();
-
                                         return (
                                             <button
-                                                key={`event-card-${event.Id}`}
+                                                key={`event-card-${event.id}`}
                                                 type="button"
                                                 className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
                                                 onClick={() => onSelect(event)}>
                                                 <div className="card-body p-2 pl-4">
                                                     <div className="flex items-start gap-4">
                                                         <img
-                                                            src={`/assets/logos/${typeId}/${typeId}-logo.png`}
-                                                            alt={`${typeId.toUpperCase()} Logo`}
+                                                            src={`/assets/logos/${event.typeId}/${event.typeId}-logo.png`}
+                                                            alt={`${event.typeId.toUpperCase()} Logo`}
                                                             className="w-20 h-20 flex-shrink-0 mt-2"
                                                         />
                                                         <div className="flex-1 pr-6 mt-2">
                                                             <h2 className="card-title mb-0 mt-1">
-                                                                {event.Name}
+                                                                {event.name}
                                                             </h2>
-                                                            <p className="mt-0">{event.StartDate} - {event.EndDate}</p>
+                                                            <p className="mt-0">{event.dates}</p>
                                                             {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
                                                         </div>
                                                     </div>
@@ -240,11 +223,6 @@ export default function EventLookupDialog({
                                     </span>
                                 </div>)}
                         </div>
-                        <PaginationControl
-                            currentPage={currentPageNumber ?? 0}
-                            pages={pageCount ?? 0}
-                            setPage={setCurrentPageNumber}
-                            isLoading={isLoading || isAssigning} />
                     </>)}
                 <div className="mt-4 text-right">
                     <button
