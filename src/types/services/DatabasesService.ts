@@ -1,4 +1,5 @@
-﻿import type { AuthManager } from "../AuthManager";
+﻿import type { EventScoringReport } from "types/EventScoringReport";
+import type { AuthManager } from "../AuthManager";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 
 const URL_ROOT_PATH = "/api/Events";
@@ -45,6 +46,25 @@ export class DatabasesService {
             "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/Databases/${databaseId}`);
+    }
+
+    /**
+     * Retrieves the scoring report for a specific database (if the user owns it).
+     * 
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     */
+    public static getEventScoringReport(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string): Promise<EventScoringReport> {
+
+        return RemoteServiceUtility.executeHttpRequest<EventScoringReport>(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/Databases/${databaseId}/ScoringReport`);
     }
 
     /**

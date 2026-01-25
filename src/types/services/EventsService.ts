@@ -431,6 +431,16 @@ export class EventInfo extends RemoteServiceModelBase<string> {
   public EndDate!: string;
 
   /**
+   * Gets the start date when scoring can be uploaded from EZScore.
+   */
+  public readonly ScoringStartDate!: string | null;
+
+  /**
+   * Gets the end date when scoring can be uploaded from EZScore.
+   */
+  public readonly ScoringEndDate!: string | null;
+
+  /**
    * Gets or sets the name of the location.
    **/
   public LocationName!: string;
