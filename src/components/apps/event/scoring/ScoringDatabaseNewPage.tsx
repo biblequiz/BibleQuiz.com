@@ -1,22 +1,18 @@
+import DatabaseSettingsSection from "./DatabaseSettingsSection";
 import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
-import { useOutletContext } from "react-router-dom";
+import { useNavigate, useOutletContext } from "react-router-dom";
 
 interface Props {
 }
 
 export default function ScoringDatabaseNewPage({ }: Props) {
-    const auth = useOutletContext<ScoringDatabaseProviderContext>().auth;
+    const { auth, eventId, rootUrl } = useOutletContext<ScoringDatabaseProviderContext>();
+    const navigate = useNavigate();
 
     return (
-        <>
-            <div>
-                <b>New Database</b>
-            </div>
-            <p>
-                This page allows the user to create a new database.
-            </p>
-            <div>
-                Placeholder for {auth.userProfile?.displayName}
-            </div>
-        </>);
+        <DatabaseSettingsSection
+            auth={auth}
+            eventId={eventId}
+            onSaved={summary => navigate(`${rootUrl}/${summary.SummaryAndSettings.DatabaseId}`)}
+        />);
 }

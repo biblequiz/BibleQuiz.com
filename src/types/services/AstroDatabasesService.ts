@@ -32,7 +32,7 @@ export class AstroDatabasesService {
   }
 
   /**
-   * Create database.
+   * Create a new database or update an existing database.
    *
    * @param auth AuthManager to use for authentication.
    * @param eventId Id for the event.
@@ -40,37 +40,14 @@ export class AstroDatabasesService {
    * 
    * @returns Updated database summary.
    */
-  public static createDatabase(
+  public static createOrUpdateDatabase(
     auth: AuthManager,
     eventId: string,
     settings: OnlineDatabaseSettings): Promise<OnlineDatabaseSummary> {
 
     return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
       auth,
-      "POST",
-      RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/events/${eventId}/databases`,
-      null,
-      settings);
-  }
-
-  /**
-   * Updates an existing database.
-   *
-   * @param auth AuthManager to use for authentication.
-   * @param eventId Id for the event.
-   * @param settings Settings for the database.
-   * 
-   * @returns Updated database summary.
-   */
-  public static updateDatabase(
-    auth: AuthManager,
-    eventId: string,
-    settings: OnlineDatabaseSettings): Promise<OnlineDatabaseSummary> {
-
-    return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
-      auth,
-      "PUT",
+      settings.General?.DatabaseId ? "PUT" : "POST",
       RemoteServiceUrlBase.Registration,
       `${URL_ROOT_PATH}/events/${eventId}/databases`,
       null,
@@ -117,7 +94,7 @@ export class OnlineDatabaseSummary {
  * Settings that can be written for a database.
  */
 export class OnlineDatabaseSettings {
-  
+
   /**
    * Name of the database as it should appear in JBQ.org.
    */
@@ -145,7 +122,7 @@ export class RemoteDatabaseSettings {
   public ContactInfo!: string;
 
   /**
-   * Default start time for matches.
+   * Default start time for matches. This is a C# TimeSpan string.
    */
   public DefaultMatchStartTime!: string;
 
@@ -163,9 +140,4 @@ export class RemoteDatabaseSettings {
    * Rules for the matches.
    */
   public Rules!: MatchRules | null;
-
-  /**
-   * Type of competition used to default <see cref="Rules"/>. If this is null, the rules are custom.
-   */
-  public Type!: CompetitionType;
 }
