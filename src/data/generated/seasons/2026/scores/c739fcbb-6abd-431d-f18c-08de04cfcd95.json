@@ -4500,8 +4500,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South November Searcher 25",
-        "LastUpdated": "1/22/26 3:08 PM",
-        "DatabaseLastUpdated": "2026-01-22T14:19:30.0775919+00:00",
+        "LastUpdated": "1/24/26 1:57 PM",
+        "DatabaseLastUpdated": "2026-01-24T13:57:43.779014+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -5476,8 +5476,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South January Searcher 26",
-        "LastUpdated": "1/22/26 3:08 PM",
-        "DatabaseLastUpdated": "2026-01-22T14:19:30.0775919+00:00",
+        "LastUpdated": "1/24/26 1:57 PM",
+        "DatabaseLastUpdated": "2026-01-24T13:57:43.779014+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -6459,6 +6459,386 @@
           {
             "Id": 7,
             "MatchTime": "12:30 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "3e5fae50-c396-4daf-afb5-525cbadea1b0",
+        "MeetId": 6,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "South January XP5 26",
+        "LastUpdated": "1/24/26 1:57 PM",
+        "DatabaseLastUpdated": "2026-01-24T13:57:43.779014+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              4,
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_3e5fae50-c396-4daf-afb5-525cbadea1b0_90",
+            "Name": "CLC Sunrise",
+            "ChurchId": null,
+            "ChurchName": "Christian Life Center",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "CoachName": "Beverly Hayles",
+            "Quizzers": [
+              1,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_1438e305-70db-497e-ae96-56fa939d211b",
+            "Name": "Followers of Christ",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "CoachName": "Peter Hayles",
+            "Quizzers": [
+              2,
+              3
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ce608ff4-20d4-4764-956f-67740f979248",
+            "Name": "Not Your Average Team",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "CLC Sunrise",
+            "YearsQuizzing": 0,
+            "Id": "q_3e5fae50-c396-4daf-afb5-525cbadea1b0_803",
+            "Name": "Elijah Gayle",
+            "ChurchId": null,
+            "ChurchName": "Christian Life Center",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "Followers of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_db6b664e466b40f823a608ddee73e62e",
+            "Name": "Jonah Rodriguez",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Your Average Team",
+            "YearsQuizzing": null,
+            "Id": "q_49165b84d57142d1855708ddf066650f",
+            "Name": "Joseph Morrow",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "Not Your Average Team",
+            "YearsQuizzing": null,
+            "Id": "q_f88a36048a5044e123a208ddee73e62e",
+            "Name": "Josiah Rodriguez",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "CLC Sunrise",
+            "YearsQuizzing": null,
+            "Id": "q_3e5fae50-c396-4daf-afb5-525cbadea1b0_807",
+            "Name": "Llydia Grant",
+            "ChurchId": null,
+            "ChurchName": "Christian Life Center",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "Followers of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_c21e04c5d2cb469823ab08ddee73e62e",
+            "Name": "Micah Rodriguez",
+            "ChurchId": "497696ce-8249-4734-86b9-08ddee73ae44",
+            "ChurchName": "Terra Nova",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "CLC Sunrise",
+            "YearsQuizzing": null,
+            "Id": "q_3e5fae50-c396-4daf-afb5-525cbadea1b0_808",
+            "Name": "Tahlia McQuilkin",
+            "ChurchId": null,
+            "ChurchName": "Christian Life Center",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          },
+          {
+            "TeamName": "CLC Sunrise",
+            "YearsQuizzing": 0,
+            "Id": "q_3e5fae50-c396-4daf-afb5-525cbadea1b0_806",
+            "Name": "Victoria Okoh",
+            "ChurchId": null,
+            "ChurchName": "Christian Life Center",
+            "City": "Sunrise",
+            "State": "FL",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "X1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:05 PM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -17500,7 +17880,21 @@
         "Show20s": true,
         "Show30s": true
       }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
     }
   ],
-  "Freshness": "2026-01-22T14:19:33.6343478+00:00"
+  "Freshness": "2026-01-24T13:57:53.3657834+00:00"
 }
