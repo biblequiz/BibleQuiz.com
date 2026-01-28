@@ -1,0 +1,285 @@
+{
+  "EventName": "2025-26 NNED Central Maine Contender Season to Date Jan 2026",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2025-26 NNED Central Maine Contender Season to Date Jan 2026",
+        "LastUpdated": "1/13/26 3:06 PM",
+        "DatabaseLastUpdated": "2026-01-13T14:59:59.9920177+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Kara Churchill",
+            "Quizzers": [
+              2,
+              3
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_0b9296c7-d635-48bb-aa2b-1848359af7cf",
+            "Name": "Pure Blooded Troublemakers",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 11,
+              "WinPercentage": 27,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 795,
+              "PerMeetTotalPoints": [
+                160,
+                380,
+                255
+              ],
+              "AveragePoints": 53.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 41,
+              "Correct20s": 18,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kara Churchill",
+            "Quizzers": [
+              0,
+              1,
+              4
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_54724ad1-593a-4e47-a121-07cdab331cc8",
+            "Name": "VFD-Valuable Forevermore Disciples",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 4,
+              "WinPercentage": 73,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1250,
+              "PerMeetTotalPoints": [
+                170,
+                415,
+                665
+              ],
+              "AveragePoints": 83.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 28,
+              "Correct20s": 32,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "VFD-Valuable Forevermore Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_3a2ff882761b4d37b09908de251e06b1",
+            "Name": "Baylor Willey",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": [
+                5,
+                0,
+                105
+              ],
+              "AveragePoints": 7.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 10,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "VFD-Valuable Forevermore Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_9870ad8037084ee4b09d08de251e06b1",
+            "Name": "Joey Pellerin",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Pure Blooded Troublemakers",
+            "YearsQuizzing": null,
+            "Id": "q_69158e7a35964deeb0aa08de251e06b1",
+            "Name": "Kristina Parks",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": [
+                90,
+                195,
+                185
+              ],
+              "AveragePoints": 31.3,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 17,
+              "Correct20s": 11,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Pure Blooded Troublemakers",
+            "YearsQuizzing": null,
+            "Id": "q_b7195354482c40d6b0b008de251e06b1",
+            "Name": "Mason Little",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": [
+                70,
+                185,
+                70
+              ],
+              "AveragePoints": 21.7,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 24,
+              "Correct20s": 7,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "VFD-Valuable Forevermore Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_9561d4b9809c4b14b09608de251e06b1",
+            "Name": "Woodney Parker",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1140,
+              "PerMeetTotalPoints": [
+                165,
+                415,
+                560
+              ],
+              "AveragePoints": 76.0,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 18,
+              "Correct20s": 30,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          2,
+          3,
+          0,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "2025-26 NNED Central Maine TBQ Meet 2 (TBQ): Contender Meet 2",
+          "2025-26 NNED Central Maine TBQ Meet 1 (TBQ): Contender Meet 1",
+          "2025-26 NNED Central Maine TBQ Meet 3 (TBQ): Contender Meet 3"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.. All Averages Calculated with 15 rounds.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs... All Averages Calculated with 15 rounds.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-01-13T15:06:16.5946334+00:00"
+}

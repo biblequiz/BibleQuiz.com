@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 Meet 2",
-        "LastUpdated": "11/17/25 9:03 PM",
-        "DatabaseLastUpdated": "2025-11-17T19:53:14.9134165+00:00",
+        "LastUpdated": "1/13/26 3:06 PM",
+        "DatabaseLastUpdated": "2026-01-13T15:00:00.0113599+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -30,7 +30,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -48,7 +48,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               null,
               {
@@ -64,6 +64,7 @@
             "CurrentMatchId": null,
             "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_1",
             "Name": "430 Experienced Descendants",
+            "ChurchId": null,
             "ChurchName": "KVAG",
             "City": "Chelsea",
             "State": "ME",
@@ -111,7 +112,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -129,12 +130,13 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 3
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_2",
             "Name": "KPSRKPEL",
+            "ChurchId": null,
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -171,7 +173,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": -10,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -180,7 +182,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               null,
               {
@@ -205,6 +207,7 @@
             "CurrentMatchId": null,
             "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_7",
             "Name": "PowerSource Co-op",
+            "ChurchId": null,
             "ChurchName": "PowerSource Co-op",
             "City": "Dexter",
             "State": "ME",
@@ -223,76 +226,6 @@
               "Correct10s": 10,
               "Correct20s": 4,
               "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Whitney Geleney",
-            "Quizzers": [
-              4,
-              10,
-              11
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 2
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_4",
-            "Name": "TRC XP5 #1",
-            "ChurchName": "The Rock Church",
-            "City": "Scarborough",
-            "State": "ME",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 330,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 82.5,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 15,
-              "Correct20s": 7,
-              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -338,13 +271,14 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               null
             ],
             "CurrentMatchId": null,
             "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_3",
-            "Name": "TRC XP5 #2",
+            "Name": "Rock Solid",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -365,11 +299,82 @@
               "Correct30s": 0,
               "FootnoteIndex": null
             }
+          },
+          {
+            "CoachName": "Whitney Geleney",
+            "Quizzers": [
+              4,
+              10,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_4",
+            "Name": "The Smart Ones",
+            "ChurchId": null,
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.5,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 15,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
           }
         ],
         "RankedTeams": [
-          3,
           4,
+          3,
           0,
           2,
           1
@@ -381,6 +386,7 @@
             "YearsQuizzing": null,
             "Id": "q_d3b23fd465a44ec7b0cb08de251e06b1",
             "Name": "Edythe Little",
+            "ChurchId": null,
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -404,6 +410,7 @@
             "YearsQuizzing": null,
             "Id": "q_ba5488575cc4417db05e08de251e06b1",
             "Name": "Emmie Godbout",
+            "ChurchId": null,
             "ChurchName": "KVAG",
             "City": "Chelsea",
             "State": "ME",
@@ -423,10 +430,11 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #2",
+            "TeamName": "Rock Solid",
             "YearsQuizzing": null,
             "Id": "q_39190e699b474b1eb10308de251e06b1",
             "Name": "Esha Nagella",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -450,6 +458,7 @@
             "YearsQuizzing": null,
             "Id": "q_404ed216f4a74190b05808de251e06b1",
             "Name": "Jonathan Lewis",
+            "ChurchId": null,
             "ChurchName": "KVAG",
             "City": "Chelsea",
             "State": "ME",
@@ -469,10 +478,11 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #1",
+            "TeamName": "The Smart Ones",
             "YearsQuizzing": null,
             "Id": "q_1685bef12ef7419fb0ec08de251e06b1",
             "Name": "Joshua Lebida",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -496,6 +506,7 @@
             "YearsQuizzing": null,
             "Id": "q_89a74fbdf0724b03b0e208de251e06b1",
             "Name": "Joshua Plourde",
+            "ChurchId": null,
             "ChurchName": "PowerSource Co-op",
             "City": "Dexter",
             "State": "ME",
@@ -519,6 +530,7 @@
             "YearsQuizzing": null,
             "Id": "q_3d4db39f1a2b4aa3b0c508de251e06b1",
             "Name": "Kimberline Parker",
+            "ChurchId": null,
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -538,10 +550,11 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #2",
+            "TeamName": "Rock Solid",
             "YearsQuizzing": null,
             "Id": "q_3d9966cbbb364bf2b0fd08de251e06b1",
             "Name": "Kylee Lebida",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -565,6 +578,7 @@
             "YearsQuizzing": null,
             "Id": "q_3da3ca8cdc0f4702b0d708de251e06b1",
             "Name": "Kylie Parks",
+            "ChurchId": null,
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -588,6 +602,7 @@
             "YearsQuizzing": null,
             "Id": "q_3c98a3e0623447bab0e608de251e06b1",
             "Name": "Nataleigh \"Nat\" Perry",
+            "ChurchId": null,
             "ChurchName": "PowerSource Co-op",
             "City": "Dexter",
             "State": "ME",
@@ -607,10 +622,11 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #1",
+            "TeamName": "The Smart Ones",
             "YearsQuizzing": null,
             "Id": "q_31031479369b4f92b0e908de251e06b1",
             "Name": "Quinton Rosner",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -630,10 +646,11 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #1",
+            "TeamName": "The Smart Ones",
             "YearsQuizzing": null,
             "Id": "q_bdf9ae7e63fc4fcdb0f008de251e06b1",
             "Name": "Samuel Nelson",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -657,6 +674,7 @@
             "YearsQuizzing": null,
             "Id": "q_f7ef71022c134c1db0df08de251e06b1",
             "Name": "Sophia \"Sophie\" Cotta",
+            "ChurchId": null,
             "ChurchName": "PowerSource Co-op",
             "City": "Dexter",
             "State": "ME",
@@ -680,6 +698,7 @@
             "YearsQuizzing": null,
             "Id": "q_a6baf815b16641bab0d108de251e06b1",
             "Name": "Sophia Rowe",
+            "ChurchId": null,
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -699,10 +718,11 @@
             }
           },
           {
-            "TeamName": "TRC XP5 #2",
+            "TeamName": "Rock Solid",
             "YearsQuizzing": null,
             "Id": "q_f7b6cd33f332431bb10908de251e06b1",
             "Name": "Zayka Nelson",
+            "ChurchId": null,
             "ChurchName": "The Rock Church",
             "City": "Scarborough",
             "State": "ME",
@@ -753,7 +773,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -761,7 +781,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 3,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -769,7 +789,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 4,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -785,7 +805,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 4,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -798,7 +818,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 4,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -814,7 +834,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -822,8 +842,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -890,8 +910,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender Meet 2",
-        "LastUpdated": "11/17/25 9:03 PM",
-        "DatabaseLastUpdated": "2025-11-17T19:53:14.9134165+00:00",
+        "LastUpdated": "1/13/26 3:06 PM",
+        "DatabaseLastUpdated": "2026-01-13T15:00:00.0113599+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -948,8 +968,9 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_6",
+            "Id": "t_0b9296c7-d635-48bb-aa2b-1848359af7cf",
             "Name": "Pure Blooded Troublemakers",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1026,8 +1047,9 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_9c8c8586-a3fc-4cae-a62e-8973b508d65a_5",
+            "Id": "t_54724ad1-593a-4e47-a121-07cdab331cc8",
             "Name": "VFD-Valuable Forevermore Disciples",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1061,6 +1083,7 @@
             "YearsQuizzing": null,
             "Id": "q_3a2ff882761b4d37b09908de251e06b1",
             "Name": "Baylor Willey",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1084,6 +1107,7 @@
             "YearsQuizzing": null,
             "Id": "q_9870ad8037084ee4b09d08de251e06b1",
             "Name": "Joey Pellerin",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1107,6 +1131,7 @@
             "YearsQuizzing": null,
             "Id": "q_69158e7a35964deeb0aa08de251e06b1",
             "Name": "Kristina Parks",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1130,6 +1155,7 @@
             "YearsQuizzing": null,
             "Id": "q_b7195354482c40d6b0b008de251e06b1",
             "Name": "Mason Little",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1153,6 +1179,7 @@
             "YearsQuizzing": null,
             "Id": "q_9561d4b9809c4b14b09608de251e06b1",
             "Name": "Woodney Parker",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
             "ChurchName": "Charleston Church",
             "City": "Charleston",
             "State": "ME",
@@ -1305,5 +1332,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-19T14:49:44.1197586+00:00"
+  "Freshness": "2026-01-13T15:00:00.2474357+00:00"
 }
