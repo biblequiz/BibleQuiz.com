@@ -17,12 +17,14 @@
       "isVisible": true,
       "isReport": false
     },
-    "tournaments/west-texas-north-meet-4-in-amarillo-make-up-meet/": {
+    "other/west-texas-north-meet-4-in-amarillo-make-up-meet/": {
       "id": "176c5b61-a367-4473-2dc0-08de5e83cb6a",
       "season": 2026,
       "name": "West Texas North Meet 4 in Amarillo Make-Up Meet",
-      "scope": "nation",
-      "scopeLabel": "Nation",
+      "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc",
+      "districtId": "5851b0e6-151b-4f62-8e10-f9f81e3cecfa",
+      "scope": "district",
+      "scopeLabel": "West Texas District",
       "dates": "Jan 31, 2026",
       "startDate": "01/31/2026",
       "endDate": "01/31/2026",
@@ -221,6 +223,22 @@
       "registrationDates": "Closes Feb 9, 2026",
       "registrationEndDate": "02/09/2026",
       "locationName": "Various Locations in the West Florida Ministry Network",
+      "isVisible": true,
+      "isReport": false
+    },
+    "tournaments/west-texas-plainswest-texas-combined-district-meet/": {
+      "id": "56396ea8-14ba-43f1-cebb-08de20915106",
+      "season": 2026,
+      "name": "West Texas & Plains/West Texas Combined District JBQ Meet",
+      "scope": "nation",
+      "scopeLabel": "Nation",
+      "dates": "Feb 21, 2026",
+      "startDate": "02/21/2026",
+      "endDate": "02/21/2026",
+      "registrationDates": "Closes Feb 16, 2026",
+      "registrationEndDate": "02/16/2026",
+      "locationName": "First Assembly of God",
+      "locationCity": "Plainview, TX",
       "isVisible": true,
       "isReport": false
     },
