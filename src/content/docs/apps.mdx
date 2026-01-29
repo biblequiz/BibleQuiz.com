@@ -7,7 +7,7 @@ sidebar:
 ---
 
 import { Aside, LinkButton, Card, CardGrid, Steps } from '@astrojs/starlight/components';
-import FontAwesomeIcon from 'components/FontAwesomeIcon';
+import AppDownloadButtons from 'components/AppDownloadButtons';
 
 <Card>
 
@@ -15,14 +15,9 @@ import FontAwesomeIcon from 'components/FontAwesomeIcon';
     
     Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the
     latest rulebook, see the online score, and get an online schedule for any online registered competition
-    on BibleQuiz.com. It is intended for use in conjunction with https://registration.biblequiz.com/.
+    on BibleQuiz.com. It is intended for use in conjunction with https://registration.biblequiz.com/
 
-    <LinkButton href="https://github.com/biblequiz/Releases.CoachApp/releases/latest/download/com.biblequiz.coachapp.windows.msixbundle">
-        <FontAwesomeIcon icon="fab faWindows" /> Windows
-    </LinkButton>
-    <LinkButton href="https://github.com/biblequiz/Releases.CoachApp/releases" variant="secondary">
-        <FontAwesomeIcon icon="fab faGithub" /> All Releases
-    </LinkButton>
+    <AppDownloadButtons product="CoachApp" />
 
 </Card>
 
@@ -39,15 +34,7 @@ import FontAwesomeIcon from 'components/FontAwesomeIcon';
         and ***strongly*** recommend them.
     </Aside>
 
-    <LinkButton href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.windows.msixbundle">
-        <FontAwesomeIcon icon="fab faWindows" /> Windows
-    </LinkButton>
-    <LinkButton href="https://github.com/biblequiz/Releases.EZScore/releases/latest/download/com.biblequiz.ezscore.android.apk">
-        <FontAwesomeIcon icon="fab faAndroid" /> Android
-    </LinkButton>
-    <LinkButton href="https://github.com/biblequiz/Releases.EZScore/releases" variant="secondary">
-        <FontAwesomeIcon icon="fab faGithub" /> All Releases
-    </LinkButton>
+    <AppDownloadButtons product="EZScore" />
 
     #### Training Videos
 
@@ -62,14 +49,9 @@ import FontAwesomeIcon from 'components/FontAwesomeIcon';
     ### ScoreKeep: Meet Manager
     
     Manage a competition for use with EZScore and publishing scores on BibleQuiz.com. It is intended for
-    use in conjunction with https://registration.biblequiz.com/.
+    use in conjunction with https://registration.biblequiz.com/
 
-    <LinkButton href="https://github.com/biblequiz/Releases.ScoreKeep/releases/latest/download/com.biblequiz.scorekeep.windows.msixbundle">
-        <FontAwesomeIcon icon="fab faWindows" /> Windows
-    </LinkButton>
-    <LinkButton href="https://github.com/biblequiz/Releases.ScoreKeep/releases" variant="secondary">
-        <FontAwesomeIcon icon="fab faGithub" /> All Releases
-    </LinkButton>
+    <AppDownloadButtons product="ScoreKeep" />
 
     #### Training Videos
 
