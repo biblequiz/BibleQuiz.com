@@ -172,10 +172,15 @@ function getAppManifest(
     platforms[platform] = `${urlPrefix}/${fileName}`;
   }
 
+  let appVersion = gitRelease.tag_name;
+  if (appVersion.startsWith("v") || appVersion.startsWith("V")) {
+    appVersion = appVersion.substring(1);
+  }
+
   return {
     allReleasesUrl: `https://github.com/${parts[0]}/${parts[1]}/releases`,
     manifest: {
-      version: gitRelease.tag_name,
+      version: appVersion,
       releaseDate: gitRelease.published_at,
       platforms: platforms
     }
