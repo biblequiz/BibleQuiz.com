@@ -1,194 +1,241 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import path from "path";
+import { fileExists, getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from './FileSystem';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const ROOT_SOURCE_PATH = await getAstroRootSourcePath(import.meta.url);
 
 /**
- * Get all available products
+ * Manifest for a specific app.
  */
-export function getAvailableProducts(): string[] {
-  const releasesDir = path.join(__dirname, '../releases');
-  const entries = fs.readdirSync(releasesDir, { withFileTypes: true });
-  return entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name);
-}
+export interface AppReleasesManifest {
 
+  /**
+   * URL for all releases.
+   */
+  allReleasesUrl: string;
 
-interface GitHubRelease {
-  id: number;
-  tag_name: string;
-  name: string;
-  body: string;
-  created_at: string;
-  published_at: string;
-  draft: boolean;
-  prerelease: boolean;
-  author: {
-    login: string;
-    avatar_url: string;
-  };
-  assets: Array<{
-    name: string;
-    size: number;
-    download_count: number;
-    browser_download_url: string;
-  }>;
-  html_url: string;
-}
+  /**
+   * Latest stable release.
+   */
+  latest: AppReleaseManifest;
 
-interface ReleaseAnalysis {
-  totalReleases: number;
-  latestRelease?: GitHubRelease;
-  latestStableRelease?: GitHubRelease;
-  totalDownloads: number;
-  releasesByYear: Record<string, number>;
-  prereleaseCount: number;
-  stableReleaseCount: number;
-  releases: GitHubRelease[];
-}
-
-interface ProcessedRelease {
-  product: string;
-  analysis: ReleaseAnalysis;
-  generatedAt: string;
+  /**
+   * Latest prerelease.
+   */
+  prerelease: AppReleaseManifest;
 }
 
 /**
- * Parse version from tag_name and extract year
+ * Manifest for a specific app release.
  */
-function getYearFromTag(tagName: string): string {
-  const match = tagName.match(/v?(\d{4})/);
-  return match ? match[1] : 'unknown';
+export interface AppReleaseManifest {
+
+  /**
+   * Version of the release.
+   */
+  version: string;
+
+  /**
+   * Release date in ISO format (YYYY-MM-DDTHH:mm:ssZ).
+   */
+  releaseDate: string;
+
+  /**
+   * Mapping of platform to the download URL for the installer.
+   */
+  platforms: Record<AppReleasePlatform, string>;
 }
 
 /**
- * Analyze releases and generate statistics
+ * Type of platform for an app installer.
  */
-function analyzeReleases(releases: GitHubRelease[]): ReleaseAnalysis {
-  // Sort by published_at descending (newest first)
-  const sortedReleases = [...releases].sort(
-    (a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()
-  );
+export enum AppReleasePlatform {
 
-  const latestRelease = sortedReleases[0];
-  const latestStableRelease = sortedReleases.find((r) => !r.prerelease);
+  /**
+   * Android.
+   */
+  Android = "android",
 
-  const releasesByYear: Record<string, number> = {};
-  let totalDownloads = 0;
-  let prereleaseCount = 0;
-  let stableReleaseCount = 0;
+  /**
+   * macOS
+   */
+  MacOS = "macos",
 
-  for (const release of releases) {
-    const year = getYearFromTag(release.tag_name);
-    releasesByYear[year] = (releasesByYear[year] || 0) + 1;
-
-    if (release.prerelease) {
-      prereleaseCount++;
-    } else {
-      stableReleaseCount++;
-    }
-
-    for (const asset of release.assets) {
-      totalDownloads += asset.download_count || 0;
-    }
-  }
-
-  return {
-    totalReleases: releases.length,
-    latestRelease,
-    latestStableRelease,
-    totalDownloads,
-    releasesByYear,
-    prereleaseCount,
-    stableReleaseCount,
-    releases: sortedReleases,
-  };
+  /**
+   * Windows
+   */
+  Windows = "windows",
 }
 
 /**
- * Process a single release directory
+ * Retrieves the list of available products.
+ * @returns Array of available products.
  */
-function processReleaseDirectory(productName: string, dirPath: string): ProcessedRelease {
-  const files = fs.readdirSync(dirPath);
-  const jsonFiles = files.filter((f) => f.endsWith('.json'));
+export async function getAvailableProducts(): Promise<string[]> {
 
-  const releases: GitHubRelease[] = [];
+  const assetFiles = await getFilesByWildcard(
+    path.resolve(ROOT_SOURCE_PATH, "releases"),
+    "*/assets.json");
 
-  for (const file of jsonFiles) {
-    const filePath = path.join(dirPath, file);
-    const content = fs.readFileSync(filePath, 'utf-8');
-    try {
-      const release = JSON.parse(content) as GitHubRelease;
-      releases.push(release);
-    } catch (error) {
-      console.warn(`Failed to parse ${filePath}:`, error);
-    }
-  }
-
-  const analysis = analyzeReleases(releases);
-
-  return {
-    product: productName,
-    analysis,
-    generatedAt: new Date().toISOString(),
-  };
+  return assetFiles.map(file => path.basename(path.dirname(file)));
 }
 
 /**
- * Process all release directories and generate JSON files
+ * Gets the app release manifest for the specified product.
+ * 
+ * @param productName Name of the product.
+ * @returns The app release manifest or null if not found.
  */
-export function generateReleaseData(
-  releasesDir: string = path.join(__dirname, '../releases'),
-  outputDir: string = path.join(__dirname, '../../public/api/releases')
-): Map<string, ProcessedRelease> {
-  // Ensure output directory exists
-  fs.mkdirSync(outputDir, { recursive: true });
+export async function getAppReleaseManifest(productName: string): Promise<AppReleasesManifest | null> {
 
-  const results = new Map<string, ProcessedRelease>();
-
-  // Read all directories in releases/
-  const entries = fs.readdirSync(releasesDir, { withFileTypes: true });
-  const directories = entries.filter((entry) => entry.isDirectory());
-
-  for (const dir of directories) {
-    const productName = dir.name;
-    const dirPath = path.join(releasesDir, productName);
-
-    console.log(`Processing releases for ${productName}...`);
-
-    const processedData = processReleaseDirectory(productName, dirPath);
-    results.set(productName, processedData);
-
-    // Write individual product JSON file
-    const outputPath = path.join(outputDir, `${productName}.json`);
-    fs.writeFileSync(outputPath, JSON.stringify(processedData, null, 2), 'utf-8');
-    console.log(`Generated ${outputPath}`);
-  }
-
-  // Generate index file with all products
-  const index = {
-    products: Array.from(results.keys()),
-    generatedAt: new Date().toISOString(),
-  };
-
-  const indexPath = path.join(outputDir, 'index.json');
-  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2), 'utf-8');
-  console.log(`Generated ${indexPath}`);
-
-  return results;
-}
-
-/**
- * Get processed release data for a specific product (for use in Astro pages)
- */
-export function getReleaseData(productName: string): ProcessedRelease | null {
-  const releasesDir = path.join(__dirname, '../releases');
-  const dirPath = path.join(releasesDir, productName);
-
-  if (!fs.existsSync(dirPath)) {
+  // Read the assets file before doing any processing of the releases.
+  const assetsPath = path.resolve(ROOT_SOURCE_PATH, "releases", productName, "assets.json");
+  if (!await fileExists(assetsPath)) {
     return null;
   }
 
-  return processReleaseDirectory(productName, dirPath);
+  const assetManifest = await tryReadFileAsJson<AppAssetManifest>(assetsPath);
+  if (!assetManifest) {
+    return null;
+  }
+
+  // Read all the versions that are present.
+  const versionFileNames = await getFilesByWildcard(
+    path.resolve(ROOT_SOURCE_PATH, "releases", productName),
+    "v*.json");
+
+  // Sort versions in descending order.
+  versionFileNames.sort((a, b) => b.localeCompare(a));
+
+  // Extract the latest stable and prerelease versions.
+  let allReleasesUrl: string | null = null;
+  let latestRelease: AppReleaseManifest | null = null;
+  let prerelease: AppReleaseManifest | null = null;
+  for (const fileName of versionFileNames) {
+    const releaseData = await tryReadFileAsJson<GitHubRelease>(fileName);
+    if (!releaseData || releaseData.draft) {
+      continue;
+    }
+
+    const manifest = getAppManifest(releaseData, assetManifest);
+    if (!manifest) {
+      continue;
+    }
+
+    allReleasesUrl = manifest.allReleasesUrl;
+
+    if (releaseData.prerelease) {
+      prerelease = manifest.manifest;
+    }
+    else {
+      latestRelease = manifest.manifest;
+      prerelease ??= manifest.manifest;
+      break;
+    }
+  }
+
+  return {
+    allReleasesUrl: allReleasesUrl!,
+    latest: latestRelease!,
+    prerelease: prerelease!,
+  };
+}
+
+const URL_START_SENTINEL = "/repos/";
+const URL_END_SENTINEL = "/releases/";
+
+function getAppManifest(
+  gitRelease: GitHubRelease,
+  assetManifest: AppAssetManifest): ProcessedAppReleaseManifest | null {
+
+  const startPosition = gitRelease.url.indexOf(URL_START_SENTINEL);
+  const endPosition = gitRelease.url.indexOf(URL_END_SENTINEL, startPosition);
+  if (startPosition < 0 || endPosition < 0) {
+    return null;
+  }
+
+  const parts = gitRelease.url.substring(
+    startPosition + URL_START_SENTINEL.length,
+    endPosition).split("/");
+  if (parts.length !== 2) {
+    return null;
+  }
+
+  const platforms: Record<AppReleasePlatform, string> = {} as any;
+
+  const urlPrefix = `https://github.com/${parts[0]}/${parts[1]}/releases/download/${gitRelease.tag_name}`;
+  for (const platform of Object.values(AppReleasePlatform)) {
+    const fileName = assetManifest.platforms[platform];
+    if (!fileName) {
+      continue;
+    }
+
+    platforms[platform] = `${urlPrefix}/${fileName}`;
+  }
+
+  return {
+    allReleasesUrl: `https://github.com/${parts[0]}/${parts[1]}/releases`,
+    manifest: {
+      version: gitRelease.tag_name,
+      releaseDate: gitRelease.published_at,
+      platforms: platforms
+    }
+  };
+}
+
+/**
+ * Manifest for app assets.
+ */
+interface AppAssetManifest {
+
+  /**
+   * Mapping of platform to the file name that will be found in the release.
+   */
+  platforms: Record<AppReleasePlatform, string>;
+}
+
+/**
+ * Processed app release manifest with additional metadata.
+ */
+interface ProcessedAppReleaseManifest {
+
+  /**
+   * Manifest for the release.
+   */
+  manifest: AppReleaseManifest;
+
+  /**
+   * URL for all releases.
+   */
+  allReleasesUrl: string;
+}
+
+/**
+ * Simplified schema for a GitHub release.
+ */
+interface GitHubRelease {
+
+  /**
+   * Name of the tag for the release.
+   */
+  tag_name: string;
+
+  /**
+   * Publish date in ISO format (YYYY-MM-DDTHH:mm:ssZ).
+   */
+  published_at: string;
+
+  /**
+   * Value indicating whether this is a draft.
+   */
+  draft: boolean;
+
+  /**
+   * Value indicating whether this is a prerelease.
+   */
+  prerelease: boolean;
+
+  /**
+   * URL containing the release.
+   */
+  url: string;
 }
