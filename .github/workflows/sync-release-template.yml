@@ -51,6 +51,10 @@ jobs:
         run: |
           cd BibleQuiz.com
           
+          # Fetch the latest release data from API to ensure we have assets
+          RELEASE_DATA=$(curl -s -H "Authorization: token ${{ steps.generate_token.outputs.token }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.release.tag_name }}")
+          
           # Get the tag name to use as filename
           TAG_NAME="${{ github.event.release.tag_name }}"
           # Sanitize tag name for use as filename (replace / with -)
@@ -74,10 +78,12 @@ jobs:
             mkdir -p $DIRECTORY
             
             # Write the entire release object to JSON file
-            cat > "$FULLPATH" << 'EOF'
-          ${{ toJSON(github.event.release) }}
-          EOF
+            echo "$RELEASE_DATA" > "$FULLPATH"
             echo "Created/updated ${FULLPATH}"
+
+            echo "========== File contents =========="
+            cat "$FULLPATH"
+            echo "==================================="
           fi
       
       - name: Commit to BibleQuiz.com
