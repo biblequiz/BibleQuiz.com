@@ -1,19 +1,30 @@
 import type { APIRoute } from 'astro';
-import { getAppReleaseManifest, getAvailableProducts } from 'utils/AppReleases';
+import { AppReleasePlatform, getAppReleaseManifest, getAvailableProducts } from 'utils/AppReleases';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
     const products = await getAvailableProducts();
-    return products.map((product) => ({
-        params: { product },
-    }));
+
+    const routes: { params: { product: string, platform: string } }[] = [];
+    for (const product of products) {
+        for (const platform of product.platforms) {
+            routes.push({
+                params: {
+                    product: product.name,
+                    platform: platform,
+                },
+            });
+        }
+    }
+
+    return routes;
 }
 
 export const GET: APIRoute = async ({ params }) => {
-    const { product } = params;
-    if (!product) {
-        return new Response(JSON.stringify({ error: 'Product name is required in the URL.' }), {
+    const { product, platform } = params;
+    if (!product || !platform) {
+        return new Response(JSON.stringify({ error: 'Product name and platform are required in the URL.' }), {
             status: 400,
             headers: {
                 'Content-Type': 'application/json',
@@ -21,7 +32,9 @@ export const GET: APIRoute = async ({ params }) => {
         });
     }
 
-    const manifest = await getAppReleaseManifest(product);
+    const manifest = await getAppReleaseManifest(
+        product,
+        platform as AppReleasePlatform);
     if (!manifest) {
         return new Response(JSON.stringify({ error: 'Product not found' }), {
             status: 404,
@@ -30,6 +43,8 @@ export const GET: APIRoute = async ({ params }) => {
             },
         });
     }
+
+    delete (manifest as any).previous;
 
     return new Response(JSON.stringify(manifest, null, 2), {
         status: 200,
