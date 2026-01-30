@@ -1,0 +1,100 @@
+name: sync-release-template
+on:
+  workflow_call:
+    inputs:
+      product_name:
+        description: 'Product name for BibleQuiz.com'
+        required: true
+        type: string
+      repo_name:
+        description: 'Repo containing the release.'
+        required: true
+        type: string
+      commit_changes:
+        description: 'Whether to commit and push changes to the target repository'
+        required: false
+        type: boolean
+        default: true
+    secrets:
+      BOT_APP_ID:
+        required: true
+      BOT_APP_PRIVATE_KEY:
+        required: true
+jobs:
+  sync-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate token
+        id: generate_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
+          owner: biblequiz
+          repositories: "BibleQuiz.com"
+
+      - name: Checkout BibleQuiz.com
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ format('biblequiz/{0}', inputs.repo_name) }}
+          token: ${{ steps.generate_token.outputs.token }}
+          path: BibleQuiz.com
+      
+      - name: Display Release data
+        id: process
+        run: |
+          echo "Release action: ${{ github.event.action }}"
+          echo "Release tag: ${{ github.event.release.tag_name }}"
+          echo "Release name: ${{ github.event.release.name }}"
+          
+      - name: Process release
+        run: |
+          cd BibleQuiz.com
+          
+          # Get the tag name to use as filename
+          TAG_NAME="${{ github.event.release.tag_name }}"
+          # Sanitize tag name for use as filename (replace / with -)
+          FILENAME=$(echo "$TAG_NAME" | sed 's/\//-/g')
+          DIRECTORY="src/releases/${{ inputs.product_name }}"
+          FULLPATH="${DIRECTORY}/${FILENAME}.json"
+          
+          ACTION="${{ github.event.action }}"
+          if [[ -z "$FILENAME" ]]; then
+            echo "No File Name detected"
+          elif [[ "$ACTION" == "deleted" || "$ACTION" == "unpublished" ]]; then
+            # Delete the file if it exists
+            if [ -f "$FULLPATH" ]; then
+              rm "$FULLPATH"
+              echo "Deleted $FULLPATH"
+            else
+              echo "File $FULLPATH does not exist"
+            fi
+          else
+            # Create releases directory if it doesn't exist
+            mkdir -p $DIRECTORY
+            
+            # Write the entire release object to JSON file
+            cat > "$FULLPATH" << 'EOF'
+          ${{ toJSON(github.event.release) }}
+          EOF
+            echo "Created/updated ${FULLPATH}"
+          fi
+      
+      - name: Commit to BibleQuiz.com
+        if: ${{ inputs.commit_changes != false }}
+        run: |
+          cd BibleQuiz.com
+          git config user.name "bible-quiz-bot[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          
+          ACTION="${{ github.event.action }}"
+          TAG_NAME="${{ github.event.release.tag_name }}"
+          
+          if [[ "$ACTION" == "deleted" || "$ACTION" == "unpublished" ]]; then
+            git commit -m "Remove ${{ inputs.product_name }} Release: $TAG_NAME ($ACTION)" || echo "No changes to commit"
+          else
+            git commit -m "Add/Update ${{ inputs.product_name }} Release: $TAG_NAME ($ACTION)" || echo "No changes to commit"
+          fi
+          
+          git push
