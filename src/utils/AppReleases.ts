@@ -1,7 +1,23 @@
 import path from "path";
-import { fileExists, getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from './FileSystem';
+import { getAstroRootSourcePath, getFilesByWildcard, tryReadFileAsJson } from './FileSystem';
 
 const ROOT_SOURCE_PATH = await getAstroRootSourcePath(import.meta.url);
+
+/**
+ * Available product with platforms.
+ */
+export interface AvailableAppProduct {
+
+  /**
+   * Name of the product.
+   */
+  name: string;
+
+  /**
+   * Available platforms.
+   */
+  platforms: Set<AppReleasePlatform>;
+}
 
 /**
  * Manifest for a specific app.
@@ -9,19 +25,19 @@ const ROOT_SOURCE_PATH = await getAstroRootSourcePath(import.meta.url);
 export interface AppReleasesManifest {
 
   /**
-   * URL for all releases.
+   * List of stable builds.
    */
-  allReleasesUrl: string;
+  stable: AppReleaseManifest | null;
 
   /**
-   * Latest stable release.
+   * List of beta builds.
    */
-  latest: AppReleaseManifest;
+  beta: AppReleaseManifest | null;
 
   /**
-   * Latest prerelease.
+   * Previous builds.
    */
-  prerelease: AppReleaseManifest;
+  previous: AppReleaseManifest[];
 }
 
 /**
@@ -40,9 +56,19 @@ export interface AppReleaseManifest {
   releaseDate: string;
 
   /**
-   * Mapping of platform to the download URL for the installer.
+   * URL to download the installer for the app.
    */
-  platforms: Record<AppReleasePlatform, string>;
+  downloadUrl: string;
+
+  /**
+   * Size of the file in bytes.
+   */
+  size: number;
+
+  /**
+   * Value indicating whether this is a beta release.
+   */
+  isBeta: boolean;
 }
 
 /**
@@ -70,107 +96,115 @@ export enum AppReleasePlatform {
  * Retrieves the list of available products.
  * @returns Array of available products.
  */
-export async function getAvailableProducts(): Promise<string[]> {
+export async function getAvailableProducts(): Promise<AvailableAppProduct[]> {
 
   const assetFiles = await getFilesByWildcard(
     path.resolve(ROOT_SOURCE_PATH, "releases"),
-    "*/assets.json");
+    "**/v*.json");
 
-  return assetFiles.map(file => path.basename(path.dirname(file)));
+  const products: Record<string, AvailableAppProduct> = {};
+  for (const file of assetFiles) {
+
+    // Read the release data to determine the available platforms.
+    const releaseData = await tryReadFileAsJson<GitHubRelease>(file);
+    if (!releaseData) {
+      continue;
+    }
+
+    // Find the product entry.
+    const productName = path.basename(path.dirname(path.dirname(file)));
+    let product = products[productName];
+    if (!product) {
+      product = {
+        name: productName,
+        platforms: new Set<AppReleasePlatform>(),
+      };
+
+      products[productName] = product;
+    }
+
+    // Determine the platform from the assets.
+    for (const asset of releaseData.assets) {
+      const platform = getAppPlatform(asset);
+      if (platform) {
+        product.platforms.add(platform);
+      }
+    }
+  }
+
+  return Object.values(products);
 }
 
 /**
  * Gets the app release manifest for the specified product.
  * 
  * @param productName Name of the product.
+ * @param platform Platform for the product.
  * @returns The app release manifest or null if not found.
  */
-export async function getAppReleaseManifest(productName: string): Promise<AppReleasesManifest | null> {
-
-  // Read the assets file before doing any processing of the releases.
-  const assetsPath = path.resolve(ROOT_SOURCE_PATH, "releases", productName, "assets.json");
-  if (!await fileExists(assetsPath)) {
-    return null;
-  }
-
-  const assetManifest = await tryReadFileAsJson<AppAssetManifest>(assetsPath);
-  if (!assetManifest) {
-    return null;
-  }
+export async function getAppReleaseManifest(
+  productName: string,
+  platform: AppReleasePlatform): Promise<AppReleasesManifest | null> {
 
   // Read all the versions that are present.
   const versionFileNames = await getFilesByWildcard(
     path.resolve(ROOT_SOURCE_PATH, "releases", productName),
-    "v*.json");
+    "**/v*.json");
 
   // Sort versions in descending order.
   versionFileNames.sort((a, b) => b.localeCompare(a));
 
   // Extract the latest stable and prerelease versions.
-  let allReleasesUrl: string | null = null;
-  let latestRelease: AppReleaseManifest | null = null;
-  let prerelease: AppReleaseManifest | null = null;
+  let latestStable: AppReleaseManifest | null = null;
+  let latestBeta: AppReleaseManifest | null = null;
+  const previousReleases: AppReleaseManifest[] = [];
   for (const fileName of versionFileNames) {
     const releaseData = await tryReadFileAsJson<GitHubRelease>(fileName);
     if (!releaseData || releaseData.draft) {
       continue;
     }
 
-    const manifest = getAppManifest(releaseData, assetManifest);
-    if (!manifest) {
-      continue;
-    }
+    for (const asset of releaseData.assets) {
+      const assetPlatform = getAppPlatform(asset);
+      if (assetPlatform !== platform) {
+        continue;
+      }
 
-    allReleasesUrl = manifest.allReleasesUrl;
+      const manifest = getAppManifest(releaseData, asset);
+      if (!manifest) {
+        continue;
+      }
 
-    if (releaseData.prerelease) {
-      prerelease = manifest.manifest;
-    }
-    else {
-      latestRelease = manifest.manifest;
-      prerelease ??= manifest.manifest;
-      break;
+      if (latestStable) {
+        previousReleases.push(manifest);
+      }
+      else {
+        if (!releaseData.prerelease && !latestStable) {
+          latestStable = manifest;
+        }
+
+        if (!latestBeta) {
+          latestBeta = manifest;
+        }
+      }
     }
   }
 
+  if (!latestStable && !latestBeta) {
+    return null;
+  }
+
+  // Generate the final manifest.
   return {
-    allReleasesUrl: allReleasesUrl!,
-    latest: latestRelease!,
-    prerelease: prerelease!,
+    stable: latestStable,
+    beta: latestBeta,
+    previous: previousReleases
   };
 }
 
-const URL_START_SENTINEL = "/repos/";
-const URL_END_SENTINEL = "/releases/";
-
 function getAppManifest(
   gitRelease: GitHubRelease,
-  assetManifest: AppAssetManifest): ProcessedAppReleaseManifest | null {
-
-  const startPosition = gitRelease.url.indexOf(URL_START_SENTINEL);
-  const endPosition = gitRelease.url.indexOf(URL_END_SENTINEL, startPosition);
-  if (startPosition < 0 || endPosition < 0) {
-    return null;
-  }
-
-  const parts = gitRelease.url.substring(
-    startPosition + URL_START_SENTINEL.length,
-    endPosition).split("/");
-  if (parts.length !== 2) {
-    return null;
-  }
-
-  const platforms: Record<AppReleasePlatform, string> = {} as any;
-
-  const urlPrefix = `https://github.com/${parts[0]}/${parts[1]}/releases/download/${gitRelease.tag_name}`;
-  for (const platform of Object.values(AppReleasePlatform)) {
-    const fileName = assetManifest.platforms[platform];
-    if (!fileName) {
-      continue;
-    }
-
-    platforms[platform] = `${urlPrefix}/${fileName}`;
-  }
+  asset: GitHubReleaseAsset): AppReleaseManifest | null {
 
   let appVersion = gitRelease.tag_name;
   if (appVersion.startsWith("v") || appVersion.startsWith("V")) {
@@ -178,40 +212,29 @@ function getAppManifest(
   }
 
   return {
-    allReleasesUrl: `https://github.com/${parts[0]}/${parts[1]}/releases`,
-    manifest: {
-      version: appVersion,
-      releaseDate: gitRelease.published_at,
-      platforms: platforms
-    }
+    version: appVersion,
+    releaseDate: gitRelease.published_at,
+    downloadUrl: asset.browser_download_url,
+    size: asset.size,
+    isBeta: gitRelease.prerelease,
   };
 }
 
-/**
- * Manifest for app assets.
- */
-interface AppAssetManifest {
-
-  /**
-   * Mapping of platform to the file name that will be found in the release.
-   */
-  platforms: Record<AppReleasePlatform, string>;
-}
-
-/**
- * Processed app release manifest with additional metadata.
- */
-interface ProcessedAppReleaseManifest {
-
-  /**
-   * Manifest for the release.
-   */
-  manifest: AppReleaseManifest;
-
-  /**
-   * URL for all releases.
-   */
-  allReleasesUrl: string;
+function getAppPlatform(asset: GitHubReleaseAsset): AppReleasePlatform | null {
+  const extension = path.extname(asset.name).toLowerCase();
+  switch (extension) {
+    case ".msix":
+    case ".msixbundle":
+    case ".exe":
+      return AppReleasePlatform.Windows;
+    case ".dmg":
+    case ".pkg":
+      return AppReleasePlatform.MacOS;
+    case ".apk":
+      return AppReleasePlatform.Android;
+    default:
+      return null;
+  }
 }
 
 /**
@@ -243,4 +266,30 @@ interface GitHubRelease {
    * URL containing the release.
    */
   url: string;
+
+  /**
+   * List of assets for the release.
+   */
+  assets: GitHubReleaseAsset[];
+}
+
+/**
+ * Simplified schema for a GitHub release asset.
+ */
+interface GitHubReleaseAsset {
+
+  /**
+   * File name for the asset.
+   */
+  name: string;
+
+  /**
+   * Size of the asset in bytes.
+   */
+  size: number;
+
+  /**
+   * URL to download the content.
+   */
+  browser_download_url: string;
 }
