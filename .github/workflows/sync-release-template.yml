@@ -2,6 +2,10 @@ name: sync-release-template
 on:
   workflow_call:
     inputs:
+      tag_name:
+        description: 'Optional tag name for the release'
+        required: false
+        type: string
       product_name:
         description: 'Product name for BibleQuiz.com'
         required: true
@@ -51,18 +55,15 @@ jobs:
           FULL_REPO_NAME="${{ github.repository }}"
           REPO_NAME="${FULL_REPO_NAME##*/}"
           
-          # Fetch the latest release data from API to ensure we have assets
-          RELEASE_DATA=$(curl -s -H "Authorization: token ${{ steps.generate_token.outputs.token }}" \
-            "https://api.github.com/repos/${FULL_REPO_NAME}/releases/tags/${{ github.event.release.tag_name }}")
-          
           # Get the tag name to use as filename
-          TAG_NAME="${{ github.event.release.tag_name }}"
+          TAG_NAME="${{ github.event.release.tag_name || inputs.tag_name }}"
+
           # Sanitize tag name for use as filename (replace / with -)
           FILENAME=$(echo "$TAG_NAME" | sed 's/\//-/g')
           DIRECTORY="src/releases/${{ inputs.product_name }}/${REPO_NAME}"
           FULLPATH="${DIRECTORY}/${FILENAME}.json"
           
-          ACTION="${{ github.event.action }}"
+          ACTION="${{ github.event.action || 'released' }}"
           if [[ -z "$FILENAME" ]]; then
             echo "No File Name detected"
           elif [[ "$ACTION" == "deleted" || "$ACTION" == "unpublished" ]]; then
@@ -76,6 +77,10 @@ jobs:
           else
             # Create releases directory if it doesn't exist
             mkdir -p $DIRECTORY
+            
+            # Fetch the latest release data from API to ensure we have assets
+            RELEASE_DATA=$(curl -s -H "Authorization: token ${{ steps.generate_token.outputs.token }}" \
+              "https://api.github.com/repos/${FULL_REPO_NAME}/releases/tags/${TAG_NAME}")
             
             # Write the entire release object to JSON file
             echo "$RELEASE_DATA" > "$FULLPATH"
@@ -94,8 +99,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           
-          ACTION="${{ github.event.action }}"
-          TAG_NAME="${{ github.event.release.tag_name }}"
+          ACTION="${{ github.event.action || 'manual' }}"
+          TAG_NAME="${{ github.event.release.tag_name || inputs.tag_name }}"
           
           if [[ "$ACTION" == "deleted" || "$ACTION" == "unpublished" ]]; then
             git commit -m "Remove ${{ inputs.product_name }} Release: $TAG_NAME ($ACTION)" || echo "No changes to commit"
