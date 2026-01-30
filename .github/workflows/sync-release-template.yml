@@ -59,7 +59,7 @@ jobs:
           TAG_NAME="${{ github.event.release.tag_name }}"
           # Sanitize tag name for use as filename (replace / with -)
           FILENAME=$(echo "$TAG_NAME" | sed 's/\//-/g')
-          DIRECTORY="src/releases/${{ inputs.product_name }}"
+          DIRECTORY="src/releases/${{ inputs.product_name }}/${REPO_NAME}"
           FULLPATH="${DIRECTORY}/${FILENAME}.json"
           
           ACTION="${{ github.event.action }}"
