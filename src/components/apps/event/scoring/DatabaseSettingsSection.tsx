@@ -11,6 +11,8 @@ interface Props {
     eventId: string;
     databaseName?: string;
     settings?: OnlineDatabaseSettings | null;
+    cloneEventId?: string;
+    cloneDatabaseId?: string;
     onSaved: (settings: OnlineDatabaseSummary) => void;
     disabled?: boolean;
 }
@@ -24,6 +26,8 @@ export default function DatabaseSettingsSection({
     auth,
     eventId,
     settings,
+    cloneEventId,
+    cloneDatabaseId,
     onSaved,
     disabled = false
 }: Props) {
