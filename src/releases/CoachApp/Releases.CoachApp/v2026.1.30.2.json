@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOKAneSM4QzHRz",
   "tag_name": "v2026.1.30.2",
   "target_commitish": "ebbd26899bde6fae8bf1bcff9fbd4037783ac769",
-  "name": "New CoachApp Release",
+  "name": "Harden Upgrade Path",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:52Z",
-  "updated_at": "2026-01-31T20:42:02Z",
+  "updated_at": "2026-02-01T06:05:31Z",
   "published_at": "2026-01-31T20:41:51Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 308877633,
       "digest": "sha256:fcb840818f29afa7b6d42b9a7524bac804bc8c01dca78a8d462f90eb7b398772",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-01-31T20:41:52Z",
       "updated_at": "2026-01-31T20:42:02Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.CoachApp/releases/download/v2026.1.30.2/com.biblequiz.coachapp.windows.msixbundle"
@@ -75,5 +75,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/tarball/v2026.1.30.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/zipball/v2026.1.30.2",
-  "body": "Latest version of CoachApp"
+  "body": "Updated the upgrade check path to avoid throttling issues seen on some devices."
 }
