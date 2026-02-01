@@ -215,7 +215,7 @@ export default function EventReportSettingsMeetSelector({
                             return;
                         }
 
-                        setAddingEvent({ id: e.Id!, name: e.Name! });
+                        setAddingEvent({ id: e.id!, name: e.name! });
                     }}
                 />)}
             {isAdding && addingEvent && (
