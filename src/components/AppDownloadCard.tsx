@@ -57,8 +57,8 @@ export default async function AppDownloadCard({ product, platform }: Props) {
             throw new Error(`Unsupported platform: ${platform}`);
     }
 
-    const hasPrerelease = manifest.stable && manifest.beta &&
-        manifest.beta.version !== manifest.stable.version;
+    const hasPrerelease = manifest.beta &&
+        manifest.beta.version !== manifest.stable?.version;
 
     return (
         <div
