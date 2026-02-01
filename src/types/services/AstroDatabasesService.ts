@@ -54,6 +54,35 @@ export class AstroDatabasesService {
   }
 
   /**
+   * Clones an existing database to a new database for the specified event.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the source event.
+   * @param databaseId Id for the source database.
+   * @param targetEventId Id for the event where the new database will be created.
+   * @param schedule Value indicating whether to copy the schedule.
+   * @param settings Settings for the database. If settings from the source database are desired, they should be populated here.
+   * 
+   * @returns Cloned database summary.
+   */
+  public static cloneDatabaseAsync(
+    auth: AuthManager,
+    eventId: string,
+    databaseId: string,
+    targetEventId: string,
+    schedule: boolean,
+    settings: OnlineDatabaseSettings): Promise<OnlineDatabaseSummary> {
+
+    return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
+      auth,
+      "POST",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/Clone/${targetEventId}`,
+      RemoteServiceUtility.getFilteredUrlParameters({ schedule }),
+      settings);
+  }
+
+  /**
    * Deletes an existing database.
    *
    * @param auth AuthManager to use for authentication.
