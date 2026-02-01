@@ -90,6 +90,11 @@ export enum AppReleasePlatform {
    * Windows
    */
   Windows = "windows",
+
+  /**
+   * Windows (Uno Framework)
+   */
+  WindowsUno = "windows-uno",
 }
 
 /**
@@ -125,7 +130,7 @@ export async function getAvailableProducts(): Promise<AvailableAppProduct[]> {
 
     // Determine the platform from the assets.
     for (const asset of releaseData.assets) {
-      const platform = getAppPlatform(asset);
+      const platform = getAppPlatform(file, asset);
       if (platform) {
         product.platforms.add(platform);
       }
@@ -165,7 +170,7 @@ export async function getAppReleaseManifest(
     }
 
     for (const asset of releaseData.assets) {
-      const assetPlatform = getAppPlatform(asset);
+      const assetPlatform = getAppPlatform(fileName, asset);
       if (assetPlatform !== platform) {
         continue;
       }
@@ -220,13 +225,19 @@ function getAppManifest(
   };
 }
 
-function getAppPlatform(asset: GitHubReleaseAsset): AppReleasePlatform | null {
+function getAppPlatform(versionFileName: string, asset: GitHubReleaseAsset): AppReleasePlatform | null {
+  const repoName = path.basename(path.dirname(versionFileName));
   const extension = path.extname(asset.name).toLowerCase();
   switch (extension) {
     case ".msix":
     case ".msixbundle":
     case ".exe":
-      return AppReleasePlatform.Windows;
+      if (repoName.indexOf("Uno") >= 0) {
+        return AppReleasePlatform.WindowsUno;
+      }
+      else {
+        return AppReleasePlatform.Windows;
+      }
     case ".dmg":
     case ".pkg":
       return AppReleasePlatform.MacOS;
