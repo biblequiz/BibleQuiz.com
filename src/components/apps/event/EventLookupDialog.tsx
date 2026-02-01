@@ -14,6 +14,7 @@ interface Props {
     typeId?: string;
     requireDatabases?: boolean;
     excludeEventIds?: string[];
+    allowBroaderScopes?: boolean;
 }
 
 export interface EventInfoCache {
@@ -33,7 +34,8 @@ export default function EventLookupDialog({
     eventCache,
     excludeEventIds,
     typeId,
-    requireDatabases = false }: Props) {
+    requireDatabases = false,
+    allowBroaderScopes = false }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
 
@@ -88,10 +90,14 @@ export default function EventLookupDialog({
 
         const filteredEvents = allEvents.filter(event => {
             if (regionId && event.regionId !== regionId) {
-                return false;
+                if (!allowBroaderScopes || event.regionId) {
+                    return false;
+                }
             }
             else if (districtId && event.districtId !== districtId) {
-                return false;
+                if (!allowBroaderScopes || event.districtId) {
+                    return false;
+                }
             }
 
             if (searchText &&

@@ -367,6 +367,6 @@ export class DataTypeHelpers {
         const mm = minutes.toString().padStart(2, "0");
         const ss = seconds.toString().padStart(2, "0");
 
-        return `${sign}${days}.${hh}:${mm}:${ss}`;
+        return `${sign}${days === 0 ? "" : `${days}.`}${hh}:${mm}:${ss}`;
     }
 }

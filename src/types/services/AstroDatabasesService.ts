@@ -10,6 +10,25 @@ const URL_ROOT_PATH = "/api/v1.0/events";
 export class AstroDatabasesService {
 
   /**
+   * Retrieves the summary for all databases for this event.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * 
+   * @returns Summary for each database in this event.
+   */
+  public static getAllDatabases(
+    auth: AuthManager,
+    eventId: string): Promise<OnlineDatabaseSummary[]> {
+
+    return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary[]>(
+      auth,
+      "GET",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/databases`);
+  }
+
+  /**
    * Gets an existing database.
    *
    * @param auth AuthManager to use for authentication.
@@ -60,25 +79,33 @@ export class AstroDatabasesService {
    * @param eventId Id for the source event.
    * @param databaseId Id for the source database.
    * @param targetEventId Id for the event where the new database will be created.
-   * @param schedule Value indicating whether to copy the schedule.
    * @param settings Settings for the database. If settings from the source database are desired, they should be populated here.
+   * @param teamsAndQuizzers Value indicating whether to copy the teams and quizzers.
+   * @param awards Value indicating whether to copy the awards.
+   * @param schedule Value indicating whether to copy the schedule.
    * 
    * @returns Cloned database summary.
    */
-  public static cloneDatabaseAsync(
+  public static cloneDatabase(
     auth: AuthManager,
     eventId: string,
     databaseId: string,
     targetEventId: string,
-    schedule: boolean,
-    settings: OnlineDatabaseSettings): Promise<OnlineDatabaseSummary> {
+    settings: OnlineDatabaseSettings,
+    teamsAndQuizzers: boolean = false,
+    awards: boolean = true,
+    schedule: boolean = true): Promise<OnlineDatabaseSummary> {
 
     return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
       auth,
       "POST",
       RemoteServiceUrlBase.Registration,
       `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/Clone/${targetEventId}`,
-      RemoteServiceUtility.getFilteredUrlParameters({ schedule }),
+      RemoteServiceUtility.getFilteredUrlParameters({
+        teamsAndQuizzers,
+        awards,
+        schedule
+      }),
       settings);
   }
 

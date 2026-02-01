@@ -1,13 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { DatabaseSettings, DatabaseSettingsMeet, DatabasesService } from "types/services/DatabasesService";
+import { AstroDatabasesService, OnlineDatabaseMeetSettings, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
-    onSelect: (result: DatabaseAndMeetLookupResult[] | null) => void;
+    onSelect: (result: DatabaseAndMeetLookupResult[] | OnlineDatabaseSummary | null) => void;
     eventId: string;
-    excludeIds: DatabaseAndMeetLookupResult[] | null;
+    excludeIds?: DatabaseAndMeetLookupResult[];
     isDisabled: boolean;
+    isDatabaseOnly?: boolean;
 }
 
 /**
@@ -34,6 +35,7 @@ export type DatabaseAndMeetLookupResult = {
 export default function EventDatabaseLookupDialog({
     eventId,
     excludeIds,
+    isDatabaseOnly,
     onSelect,
     isDisabled }: Props) {
 
@@ -41,8 +43,8 @@ export default function EventDatabaseLookupDialog({
 
     const auth = AuthManager.useNanoStore();
 
-    const [allDatabases, setAllDatabases] = useState<DatabaseSettings[] | undefined>();
-    const [currentDatabase, setCurrentDatabase] = useState<DatabaseSettings | undefined>();
+    const [allDatabases, setAllDatabases] = useState<OnlineDatabaseSummary[] | undefined>();
+    const [currentDatabase, setCurrentDatabase] = useState<OnlineDatabaseSummary | undefined>();
     const [selectedResults, setSelectedResults] = useState<DatabaseAndMeetLookupResult[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [isAssigning, setIsAssigning] = useState(false);
@@ -53,19 +55,18 @@ export default function EventDatabaseLookupDialog({
 
         if (!isLoading && !isAssigning) {
 
-            DatabasesService.getAllDatabaseSettingsForEvent(
+            AstroDatabasesService.getAllDatabases(
                 auth,
-                eventId,
-                true)
+                eventId)
                 .then(databases => {
                     const filteredDatabases = excludeIds ? [] : databases;
                     if (excludeIds) {
                         const excludeIdSet = new Set<string>(
                             excludeIds.map(d => `${d.databaseId}_${d.meetId}`));
                         for (const database of databases) {
-                            const filteredMeets: DatabaseSettingsMeet[] = [];
+                            const filteredMeets: OnlineDatabaseMeetSettings[] = [];
                             for (const filter of database.Meets) {
-                                if (!excludeIdSet.has(`${database.DatabaseId}_${filter.Id}`)) {
+                                if (!excludeIdSet.has(`${database.Settings.DatabaseId}_${filter.Id}`)) {
                                     filteredMeets.push(filter);
                                 }
                             }
@@ -100,7 +101,7 @@ export default function EventDatabaseLookupDialog({
     const selectedMeetIds = isLoading || isAssigning || !currentDatabase
         ? undefined
         : new Set<number>(selectedResults
-            .filter(d => d.databaseId === currentDatabase!.DatabaseId)
+            .filter(d => d.databaseId === currentDatabase!.Settings.DatabaseId)
             .map(d => d.meetId));
 
     return (
@@ -136,19 +137,28 @@ export default function EventDatabaseLookupDialog({
                         {!currentDatabase && allDatabases && allDatabases.length > 0 && (
                             <div className="flex flex-wrap gap-4">
                                 {allDatabases.map(database => {
-                                    const count = selectedCountByDatabase![database.DatabaseId] ?? 0;
+                                    const count = selectedCountByDatabase![database.Settings.DatabaseId!] ?? 0;
                                     return (
                                         <button
-                                            key={`database - card - ${database.DatabaseId}`}
+                                            key={`database - card - ${database.Settings.DatabaseId}`}
                                             type="button"
                                             className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
-                                            onClick={() => setCurrentDatabase(database)}
+                                            onClick={() => {
+                                                if (isDatabaseOnly) {
+                                                    setIsAssigning(true);
+                                                    onSelect(database);
+                                                    dialogRef.current?.close();
+                                                }
+                                                else {
+                                                    setCurrentDatabase(database);
+                                                }
+                                            }}
                                             disabled={isDisabled}>
                                             <div className="card-body p-2">
                                                 <div className="flex items-start gap-4">
                                                     <div className="flex-1 pr-6 mt-0">
                                                         <h2 className="card-title mb-0 mt-2">
-                                                            {database.DatabaseName}
+                                                            {database.Settings.DatabaseName}
                                                         </h2>
                                                         {count > 0 && (
                                                             <div className="badge badge-secondary badge-sm mt-0 mb-0">
@@ -170,16 +180,16 @@ export default function EventDatabaseLookupDialog({
                                     const isSelected = selectedMeetIds!.has(meet.Id);
                                     return (
                                         <button
-                                            key={`database - card - ${currentDatabase.DatabaseId} - meets - ${meet.Id}`}
+                                            key={`database - card - ${currentDatabase.Settings.DatabaseId} - meets - ${meet.Id}`}
                                             type="button"
                                             className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
                                             onClick={() => {
                                                 const newSelections = isSelected
-                                                    ? selectedResults.filter(d => d.databaseId !== currentDatabase.DatabaseId || d.meetId !== meet.Id)
+                                                    ? selectedResults.filter(d => d.databaseId !== currentDatabase.Settings.DatabaseId || d.meetId !== meet.Id)
                                                     : [
                                                         ...selectedResults,
                                                         {
-                                                            databaseId: currentDatabase.DatabaseId,
+                                                            databaseId: currentDatabase.Settings.DatabaseId,
                                                             meetId: meet.Id,
                                                             name: meet.Name
                                                         } as DatabaseAndMeetLookupResult

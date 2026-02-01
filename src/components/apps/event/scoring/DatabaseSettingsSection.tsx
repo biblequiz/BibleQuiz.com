@@ -9,15 +9,19 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 interface Props {
     auth: AuthManager;
     eventId: string;
-    databaseName?: string;
     settings?: OnlineDatabaseSettings | null;
     cloneEventId?: string;
     cloneDatabaseId?: string;
+    cloneTeamsAndQuizzers?: boolean;
+    cloneAwards?: boolean;
+    cloneSchedule?: boolean;
+    setIsProcessing: (isSaving: boolean) => void;
     onSaved: (settings: OnlineDatabaseSummary) => void;
     disabled?: boolean;
 }
 
 const DEFAULT_START_TIME = "09:00:00";
+const DEFAULT_MATCH_LENGTH = 30;
 
 /**
  * Section to edit database settings.
@@ -28,6 +32,10 @@ export default function DatabaseSettingsSection({
     settings,
     cloneEventId,
     cloneDatabaseId,
+    cloneTeamsAndQuizzers = false,
+    cloneAwards = true,
+    cloneSchedule = true,
+    setIsProcessing,
     onSaved,
     disabled = false
 }: Props) {
@@ -38,7 +46,7 @@ export default function DatabaseSettingsSection({
     const [databaseNameOverride, setDatabaseNameOverride] = useState<string | undefined>(settings?.DatabaseNameOverride ?? undefined);
     const [defaultMatchStartTime, setDefaultMatchStartTime] = useState<string>(settings?.DefaultMatchStartTime ?? DEFAULT_START_TIME);
     const [intermediateMatchStartTime, setIntermediateMatchStartTime] = useState<string | undefined>();
-    const [defaultMatchLengthInMinutes, setDefaultMatchLengthInMinutes] = useState<number | undefined>(settings?.DefaultMatchLengthInMinutes);
+    const [defaultMatchLengthInMinutes, setDefaultMatchLengthInMinutes] = useState<number | undefined>(settings?.DefaultMatchLengthInMinutes ?? DEFAULT_MATCH_LENGTH);
     const [contactInfo, setContactInfo] = useState<string | undefined>(settings?.ContactInfo);
 
     const formRef = useRef<HTMLFormElement>(null);
@@ -52,6 +60,7 @@ export default function DatabaseSettingsSection({
         }
 
         const updatedSettings = new OnlineDatabaseSettings();
+        updatedSettings.DatabaseId = settings?.DatabaseId ?? null;
         updatedSettings.DatabaseName = databaseName!;
         updatedSettings.DatabaseNameOverride = databaseNameOverride || null;
         updatedSettings.DefaultMatchStartTime = defaultMatchStartTime;
@@ -60,17 +69,35 @@ export default function DatabaseSettingsSection({
         updatedSettings.Rules = settings?.Rules ?? null;
 
         setIsSaving(true);
+        setSavingError(null);
+        setIsProcessing(true);
 
-        AstroDatabasesService.createOrUpdateDatabase(
-            auth,
-            eventId,
-            updatedSettings)
+        // Do the operation.
+        const operationPromise = cloneEventId && cloneDatabaseId
+            ? AstroDatabasesService.cloneDatabase(
+                auth,
+                cloneEventId,
+                cloneDatabaseId,
+                eventId,
+                updatedSettings,
+                cloneTeamsAndQuizzers,
+                cloneAwards,
+                cloneSchedule)
+            : AstroDatabasesService.createOrUpdateDatabase(
+                auth,
+                eventId,
+                updatedSettings);
+
+        operationPromise
             .then(saved => {
+                setIsSaving(false);
+                setIsProcessing(false);
                 onSaved(saved);
                 sharedDirtyWindowState.set(false);
             })
             .catch(err => {
                 setIsSaving(false);
+                setIsProcessing(false);
                 setSavingError(err.message || "An error occurred while saving the settings.");
             });
     };
@@ -91,11 +118,14 @@ export default function DatabaseSettingsSection({
                 <div role="alert" className="alert alert-error mt-0 w-full">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />
                     <div>
-                        <b>Error: </b> {savingError}
+                        <b>Error: </b>
+                        {savingError.indexOf("<br />") >= 0
+                            ? (<span dangerouslySetInnerHTML={{ __html: savingError }} />)
+                            : (<span>{savingError}</span>)}
                     </div>
                 </div>)}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-2">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Database Name</span>
                         <span className="label-text-alt text-error">*</span>
@@ -109,7 +139,7 @@ export default function DatabaseSettingsSection({
                             setDatabaseName(e.target.value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled}
+                        disabled={disabled || isSaving}
                         maxLength={50}
                         required
                         pattern="[a-zA-Z0-9_]+"
@@ -117,7 +147,7 @@ export default function DatabaseSettingsSection({
                     />
                 </div>
 
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-2">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Optional Display Name</span>
                     </label>
@@ -130,12 +160,12 @@ export default function DatabaseSettingsSection({
                             setDatabaseNameOverride(e.target.value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled}
+                        disabled={disabled || isSaving}
                         maxLength={50}
                     />
                 </div>
 
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-2">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Default Start Time</span>
                         <span className="label-text-alt text-error">*</span>
@@ -153,18 +183,18 @@ export default function DatabaseSettingsSection({
                             const minutes = parts.length > 1 ? parseInt(parts[1]) : 0;
 
                             setDefaultMatchStartTime(DataTypeHelpers.formatTimeSpan(hours, minutes));
-                            setIntermediateMatchStartTime(undefined);
 
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled}
+                        disabled={disabled || isSaving}
                         required
                     />
                 </div>
 
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-2">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Default Match Length (minutes)</span>
+                        <span className="label-text-alt text-error">*</span>
                     </label>
                     <input
                         type="number"
@@ -177,11 +207,12 @@ export default function DatabaseSettingsSection({
                             setDefaultMatchLengthInMinutes(value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled}
+                        disabled={disabled || isSaving}
+                        required
                     />
                 </div>
 
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-2">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Contact Info</span>
                         <span className="label-text-alt text-error">*</span>
@@ -196,7 +227,7 @@ export default function DatabaseSettingsSection({
                             setContactInfo(value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled}
+                        disabled={disabled || isSaving}
                         required
                     />
                 </div>
