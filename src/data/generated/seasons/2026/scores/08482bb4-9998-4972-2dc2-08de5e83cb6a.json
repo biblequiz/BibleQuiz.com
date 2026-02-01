@@ -1,0 +1,2349 @@
+{
+  "EventName": "South Dakota East League Meet #4",
+  "DatabaseNames": {
+    "90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14": "SouthDakotaEastLeagueMeet4-01-31-2026"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14",
+        "MeetId": 10,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "South Dakota- East League- A Level- 01/31/2026",
+        "LastUpdated": "1/31/26 6:34 PM",
+        "DatabaseLastUpdated": "2026-01-31T15:36:07.0658419+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Brooks Anderson",
+            "Quizzers": [
+              3,
+              5,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 340,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 275,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 320,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_1",
+            "Name": "Buzz for the Bible",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 286.2,
+              "AverageCorrect": 16.0,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 29,
+              "Correct20s": 23,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Marlaina Kinn",
+            "Quizzers": [
+              0,
+              1,
+              2,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_2",
+            "Name": "Christian Creators",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Christian Creators",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_11",
+            "Name": "Aaliyah Rencountre",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Creators",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_13",
+            "Name": "Aaylah Rencountre",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Creators",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_12",
+            "Name": "Areia Lesnar",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Buzz for the Bible",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_2",
+            "Name": "Bennett Anderson",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 620,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 155.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 12,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Christian Creators",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_14",
+            "Name": "Colten Hodge",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Buzz for the Bible",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_4",
+            "Name": "Glory Kabre",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 8,
+              "Correct20s": 11,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Buzz for the Bible",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_5",
+            "Name": "Jackson Theisen",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          5,
+          6,
+          0,
+          4,
+          2,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:20 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14",
+        "MeetId": 11,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "South Dakota- East League- B Level- 01/31/2026",
+        "LastUpdated": "1/31/26 6:34 PM",
+        "DatabaseLastUpdated": "2026-01-31T15:36:07.0658419+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Cassie Hodge",
+            "Quizzers": [
+              1,
+              6,
+              8,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_3",
+            "Name": "Freedom Bible Force",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Marie Zoa",
+            "Quizzers": [
+              3,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_7",
+            "Name": "Good Samaritans",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.7,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 25,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Christophina Logue",
+            "Quizzers": [
+              4,
+              9,
+              12,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_8",
+            "Name": "Holy Hits Different",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 14,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Ashley Anderson",
+            "Quizzers": [
+              0,
+              2,
+              5,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_9",
+            "Name": "Kingdom Kidz",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Harrisburg",
+            "State": "SD",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 10,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Kingdom Kidz",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_74",
+            "Name": "Abigail Tufte",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Harrisburg",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Freedom Bible Force",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_21",
+            "Name": "Dylan Ellis",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Kingdom Kidz",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_80",
+            "Name": "Ellie Waldner",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Harrisburg",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Good Samaritans",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_62",
+            "Name": "Gracen Wiener",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 16,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Holy Hits Different",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_65",
+            "Name": "Isabella Dalseide",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Kingdom Kidz",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_76",
+            "Name": "Jersey Janecek",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Harrisburg",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Freedom Bible Force",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_23",
+            "Name": "Lola Short",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Kingdom Kidz",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_75",
+            "Name": "Lucas Tufte",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Harrisburg",
+            "State": "SD",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Freedom Bible Force",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_22",
+            "Name": "Naomi Lesnar",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Holy Hits Different",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_66",
+            "Name": "Nevaeh Bosvokic",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Good Samaritans",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_60",
+            "Name": "Nora Sheppard",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Freedom Bible Force",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_20",
+            "Name": "Phillip Poorman",
+            "ChurchId": null,
+            "ChurchName": "Freedom Church",
+            "City": "Webster",
+            "State": "SD",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Holy Hits Different",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_67",
+            "Name": "Sophia Shchur",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.7,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 12,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Holy Hits Different",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_68",
+            "Name": "Trevyn Tassler",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          12,
+          3,
+          7,
+          1,
+          10,
+          13,
+          5,
+          0,
+          2,
+          4,
+          6,
+          8,
+          9,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:20 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14",
+        "MeetId": 12,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "South Dakota- East League- C Level- 01/31/2026",
+        "LastUpdated": "1/31/26 6:34 PM",
+        "DatabaseLastUpdated": "2026-01-31T15:36:07.0658419+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Paul Baustian",
+            "Quizzers": [
+              5,
+              6,
+              16,
+              17,
+              18,
+              19,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 2
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_6",
+            "Name": "Ap-Paul-stles",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.5,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 36,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Meranda Shindelbower",
+            "Quizzers": [
+              2,
+              3,
+              11,
+              24
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_4",
+            "Name": "Jesus Freaks",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 32,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Cole Schantz",
+            "Quizzers": [
+              0,
+              8,
+              10,
+              13,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_10",
+            "Name": "Peaceful Preachers",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.5,
+              "AverageCorrect": 6.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Tammi Halbert",
+            "Quizzers": [
+              1,
+              4,
+              12,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_5",
+            "Name": "Team Jesus",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 30,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Chris Anderson",
+            "Quizzers": [
+              7,
+              9,
+              20,
+              21,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_11",
+            "Name": "Wisdom Warriors",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 140.0,
+              "AverageCorrect": 13.5,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 54,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          4,
+          0,
+          1,
+          3,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Peaceful Preachers",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_84",
+            "Name": "Abigail Lail",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_31",
+            "Name": "Afia Cronauer",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Jesus Freaks",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_33",
+            "Name": "Akech Cronauer",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Jesus Freaks",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_32",
+            "Name": "Akwata Cronauer",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_40",
+            "Name": "Aria Donnell",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.2,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_49",
+            "Name": "Blake Waldner",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_47",
+            "Name": "Deacon Knuth",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_94",
+            "Name": "Easton McCaulley",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 21,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Peaceful Preachers",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_87",
+            "Name": "Eden Schantz",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.2,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_97",
+            "Name": "Elijah Swenson",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.2,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Peaceful Preachers",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_88",
+            "Name": "Ella Wiener",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Jesus Freaks",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_29",
+            "Name": "Ellie Spatz",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_38",
+            "Name": "Emery Anderson",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Peaceful Preachers",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_83",
+            "Name": "Etta Doyle",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Peaceful Preachers",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_102",
+            "Name": "Garrett Haugaard",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.8,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_41",
+            "Name": "Gideon Donnell",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_53",
+            "Name": "Gwen Wittrock",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_51",
+            "Name": "Jania Apau",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_52",
+            "Name": "JD Wittrock",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_50",
+            "Name": "Jeremy Apau",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.2,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_92",
+            "Name": "Levi Jalleta",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": true,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_93",
+            "Name": "Light Kabre",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ap-Paul-stles",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_48",
+            "Name": "Magnolia Knuth",
+            "ChurchId": null,
+            "ChurchName": "Crosswalk Community Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Wisdom Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_95",
+            "Name": "Theo Schantz",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Jesus Freaks",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_30",
+            "Name": "Xavier Shindelbower",
+            "ChurchId": null,
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          11,
+          20,
+          15,
+          7,
+          14,
+          5,
+          19,
+          9,
+          24,
+          13,
+          4,
+          8,
+          22,
+          1,
+          6,
+          12,
+          17,
+          0,
+          2,
+          3,
+          10,
+          16,
+          18,
+          21,
+          23
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:20 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:10 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-01-31T18:34:16.9460434+00:00"
+}
