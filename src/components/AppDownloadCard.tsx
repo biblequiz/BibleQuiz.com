@@ -40,6 +40,9 @@ export default async function AppDownloadCard({ product, platform }: Props) {
         case AppReleasePlatform.Windows:
             // Already set.
             break;
+        case AppReleasePlatform.WindowsUno:
+            text = "Windows (Experimental)";
+            break;
         case AppReleasePlatform.Android:
             icon = "faAndroid";
             text = "Android";
@@ -54,12 +57,12 @@ export default async function AppDownloadCard({ product, platform }: Props) {
             throw new Error(`Unsupported platform: ${platform}`);
     }
 
-    const hasPrerelease = manifest.stable && manifest.beta &&
-        manifest.beta.version !== manifest.stable.version;
+    const hasPrerelease = manifest.beta &&
+        manifest.beta.version !== manifest.stable?.version;
 
     return (
         <div
-            className={`card w-full md:w-1/3 card-sm shadow-sm border-1 border-solid mt-0`}
+            className={`card w-full md:w-80 card-sm shadow-sm border-1 border-solid mt-0`}
         >
             <div className="card-body items-center">
                 <h2 className="card-title mb-0 mt-0">
