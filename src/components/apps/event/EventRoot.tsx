@@ -34,7 +34,6 @@ import EventDashboardPage from './EventDashboardPage';
 import DeleteEventPage from './DeleteEventPage';
 import EmailEventPage from './EmailEventPage';
 import CloneEventPage from './CloneEventPage';
-import type { DatabaseSettings } from 'types/services/DatabasesService';
 import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
 import ScoringDatabaseDeletePage from './scoring/ScoringDatabaseDeletePage';
 import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
@@ -46,6 +45,7 @@ import EventReportsPage from './EventReportsPage';
 import EventReportsProvider from './EventReportsProvider';
 import EventReportSettingsPage from './report/EventReportSettingsPage';
 import DebugEventPage from './DebugEventPage';
+import type { OnlineDatabaseSummary } from 'types/services/AstroDatabasesService';
 
 interface Props {
     loadingElementId: string;
@@ -66,14 +66,14 @@ const CLONE_ID = "clone";
 const EMAIL_ID = "email";
 const DELETE_ID = "delete";
 
-export const currentDatabaseSettings = createMultiReactAtom<DatabaseSettings[] | undefined>(
-    "databaseSettings",
+export const currentDatabaseSummary = createMultiReactAtom<OnlineDatabaseSummary[] | undefined>(
+    "databaseSummaries",
     undefined);
 
 function RootLayout({ loadingElementId }: Props) {
 
     const auth = AuthManager.useNanoStore();
-    const databases = useStore(currentDatabaseSettings);
+    const databases = useStore(currentDatabaseSummary);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
@@ -152,7 +152,7 @@ function RootLayout({ loadingElementId }: Props) {
 function buildSidebar(
     routeMatches: UIMatch<unknown, unknown>[],
     routeParameters: Readonly<Params<string>>,
-    databases: DatabaseSettings[] | undefined,
+    databases: OnlineDatabaseSummary[] | undefined,
     navigate: NavigateFunction): ReactSidebarEntry[] {
 
     if (routeParameters["*"]) {
@@ -254,7 +254,7 @@ function buildSidebar(
         let databaseEntries: ReactSidebarEntry[];
         if (databases) {
             databaseEntries = databases.map(
-                db => buildDatabaseEntry(rootEventPath, db.DatabaseId, db.DatabaseName.replaceAll('_', ' '), navigate));
+                db => buildDatabaseEntry(rootEventPath, db.Settings.DatabaseName, db.Settings.DatabaseName.replaceAll('_', ' '), navigate));
 
             databaseEntries.push({
                 type: 'link' as const,

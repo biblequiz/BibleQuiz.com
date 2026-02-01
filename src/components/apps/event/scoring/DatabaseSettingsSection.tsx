@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { AstroDatabasesService, OnlineDatabaseSettings, OnlineDatabaseSummary, RemoteDatabaseSettings } from "types/services/AstroDatabasesService";
+import { AstroDatabasesService, OnlineDatabaseSettings, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { AuthManager } from "types/AuthManager";
@@ -31,11 +31,11 @@ export default function DatabaseSettingsSection({
     const [isSaving, setIsSaving] = useState<boolean>(false);
     const [savingError, setSavingError] = useState<string | null>(null);
     const [databaseName, setDatabaseName] = useState<string | undefined>(settings?.DatabaseName || "");
-    const [databaseNameOverride, setDatabaseNameOverride] = useState<string | undefined>(settings?.General?.DatabaseNameOverride ?? undefined);
-    const [defaultMatchStartTime, setDefaultMatchStartTime] = useState<string>(settings?.General?.DefaultMatchStartTime ?? DEFAULT_START_TIME);
+    const [databaseNameOverride, setDatabaseNameOverride] = useState<string | undefined>(settings?.DatabaseNameOverride ?? undefined);
+    const [defaultMatchStartTime, setDefaultMatchStartTime] = useState<string>(settings?.DefaultMatchStartTime ?? DEFAULT_START_TIME);
     const [intermediateMatchStartTime, setIntermediateMatchStartTime] = useState<string | undefined>();
-    const [defaultMatchLengthInMinutes, setDefaultMatchLengthInMinutes] = useState<number | undefined>(settings?.General?.DefaultMatchLengthInMinutes);
-    const [contactInfo, setContactInfo] = useState<string | undefined>(settings?.General?.ContactInfo);
+    const [defaultMatchLengthInMinutes, setDefaultMatchLengthInMinutes] = useState<number | undefined>(settings?.DefaultMatchLengthInMinutes);
+    const [contactInfo, setContactInfo] = useState<string | undefined>(settings?.ContactInfo);
 
     const formRef = useRef<HTMLFormElement>(null);
     const hasChanges = useStore(sharedDirtyWindowState);
@@ -49,13 +49,11 @@ export default function DatabaseSettingsSection({
 
         const updatedSettings = new OnlineDatabaseSettings();
         updatedSettings.DatabaseName = databaseName!;
-        updatedSettings.General = new RemoteDatabaseSettings();
-        updatedSettings.General.DatabaseId = settings?.General?.DatabaseId ?? null;
-        updatedSettings.General.ContactInfo = contactInfo!;
-        updatedSettings.General.DefaultMatchStartTime = defaultMatchStartTime;
-        updatedSettings.General.DefaultMatchLengthInMinutes = defaultMatchLengthInMinutes!;
-        updatedSettings.General.DatabaseNameOverride = databaseNameOverride || null;
-        updatedSettings.General.Rules = settings?.General?.Rules ?? null;
+        updatedSettings.DatabaseNameOverride = databaseNameOverride || null;
+        updatedSettings.DefaultMatchStartTime = defaultMatchStartTime;
+        updatedSettings.DefaultMatchLengthInMinutes = defaultMatchLengthInMinutes!;
+        updatedSettings.ContactInfo = contactInfo!;
+        updatedSettings.Rules = settings?.Rules ?? null;
 
         setIsSaving(true);
 
@@ -76,15 +74,22 @@ export default function DatabaseSettingsSection({
     useEffect(() => {
         if (settings) {
             setDatabaseName(settings.DatabaseName!);
-            setDatabaseNameOverride(settings.General!.DatabaseNameOverride!);
-            setDefaultMatchStartTime(settings.General!.DefaultMatchStartTime);
-            setDefaultMatchLengthInMinutes(settings.General!.DefaultMatchLengthInMinutes);
-            setContactInfo(settings.General!.ContactInfo);
+            setDatabaseNameOverride(settings.DatabaseNameOverride!);
+            setDefaultMatchStartTime(settings.DefaultMatchStartTime);
+            setDefaultMatchLengthInMinutes(settings.DefaultMatchLengthInMinutes);
+            setContactInfo(settings.ContactInfo);
         }
     }, [settings]);
 
     return (
         <form ref={formRef} className="space-y-6 mt-0" onSubmit={handleSave}>
+            {savingError && (
+                <div role="alert" className="alert alert-error mt-0 w-full">
+                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    <div>
+                        <b>Error: </b> {savingError}
+                    </div>
+                </div>)}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="form-control w-full">
                     <label className="label">

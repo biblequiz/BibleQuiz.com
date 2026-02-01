@@ -1,5 +1,5 @@
 ﻿import type { AuthManager } from "../AuthManager";
-import type { DatabaseSettings } from "./DatabasesService";
+import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { EventInfo as ServiceEventInfo } from "./EventsService";
 import type { EventInfo as TypeEventInfo } from "types/EventTypes";
@@ -84,7 +84,7 @@ export class EventInfoWithSummary {
   /**
    * List of databases associated with the event.
    */
-  public readonly Databases!: DatabaseSettings[];
+  public readonly Databases!: OnlineDatabaseSummary[];
 
   /**
    * Number of churches that have registered.

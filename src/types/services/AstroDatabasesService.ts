@@ -1,7 +1,6 @@
 ﻿import type { AuthManager } from "../AuthManager";
-import type { DatabaseSettings } from "./DatabasesService";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
-import { CompetitionType, MatchRules } from "types/MatchRules";
+import type { MatchRules } from "types/MatchRules";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -28,11 +27,11 @@ export class AstroDatabasesService {
       auth,
       "GET",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/events/${eventId}/databases/${databaseId}`);
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}`);
   }
 
   /**
-   * Create a new database or update an existing database.
+   * Creates a new or updates an existing database.
    *
    * @param auth AuthManager to use for authentication.
    * @param eventId Id for the event.
@@ -47,9 +46,9 @@ export class AstroDatabasesService {
 
     return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
       auth,
-      settings.General?.DatabaseId ? "PUT" : "POST",
+      "PUT",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/events/${eventId}/databases`,
+      `${URL_ROOT_PATH}/${eventId}/databases`,
       null,
       settings);
   }
@@ -70,24 +69,49 @@ export class AstroDatabasesService {
       auth,
       "DELETE",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/events/${eventId}/databases/${databaseId}`);
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}`);
   }
 }
 
 /**
- * Summary of a database.
+ * Summary of a database for use in Astro.
  */
 export class OnlineDatabaseSummary {
 
   /**
-   * Summary of the database with some additional settings.
+   * Settings for the database.
    */
-  public readonly SummaryAndSettings!: DatabaseSettings;
+  public readonly Settings!: OnlineDatabaseSettings;
 
   /**
-   * General settings for the database.
+   * Value indicating whether scoring is enabled.
    */
-  public readonly General!: RemoteDatabaseSettings;
+  public readonly IsScoringEnabled!: boolean;
+
+  /**
+   * Number of active meets contained in this database.
+   */
+  public readonly ActiveMeetCount!: number;
+
+  /**
+   * Number of inactive meets contained in this database.
+   */
+  public readonly InactiveMeetCount!: number;
+
+  /**
+   * Number of teams contained in this database.
+   */
+  public readonly TeamCount!: number;
+
+  /**
+   * Number of quizzers contained in this database.
+   */
+  public readonly QuizzerCount!: number;
+
+  /**
+   * Display settings for meets.
+   */
+  public readonly Meets!: OnlineDatabaseMeetSettings[];
 }
 
 /**
@@ -96,25 +120,19 @@ export class OnlineDatabaseSummary {
 export class OnlineDatabaseSettings {
 
   /**
+   * Id for the database.
+   */
+  public DatabaseId!: string | null;
+
+  /**
    * Name of the database as it should appear in JBQ.org.
    */
   public DatabaseName!: string;
 
   /**
-   * General settings for the database.
+   * Override for the database name. If this is null, the file name will be used.
    */
-  public General!: RemoteDatabaseSettings;
-}
-
-/**
- * Settings for the remote database.
- */
-export class RemoteDatabaseSettings {
-
-  /**
-   * Id for the database.
-   */
-  public DatabaseId!: string | null;
+  public DatabaseNameOverride!: string | null;
 
   /**
    * Contact Information.
@@ -132,12 +150,64 @@ export class RemoteDatabaseSettings {
   public DefaultMatchLengthInMinutes!: number;
 
   /**
-   * Override for the database name. If this is null, the file name will be used.
-   */
-  public DatabaseNameOverride!: string | null;
-
-  /**
    * Rules for the matches.
    */
   public Rules!: MatchRules | null;
+
+  /**
+   * Value indicating whether this database is managed by ScoreKeep. If true, there will be limited update
+   * functionality.
+   */
+  public readonly IsScoreKeep!: boolean;
+}
+
+/**
+ * Settings for displaying a meet.
+ */
+export class OnlineDatabaseMeetSettings {
+
+  /**
+   * Id for the meet.
+   */
+  public readonly Id!: number;
+
+  /**
+   * Original name for the meet.
+   */
+  public readonly Name!: string;
+
+  /**
+   * Override for the display name of the meet. Only used for ScoreKeep database.
+   */
+  public NameOverride!: string | null;
+
+  /**
+   * Value indicating whether EZScore is enabled for this meet.
+   */
+  public readonly AllowEZScore!: boolean;
+
+  /**
+   * Value indicating whether scores should be displayed.
+   */
+  public readonly ShowScores!: boolean;
+
+  /**
+   * Value indicating whether the schedule should be displayed.
+   */
+  public readonly ShowSchedule!: boolean;
+
+  /**
+   * Value indicating whether individual scores should be displayed.
+   */
+  public readonly ShowIndividualScores!: boolean;
+
+  /**
+   * Value indicating whether question stats should be displayed.
+   */
+  public readonly ShowQuestionStats!: boolean;
+
+  /**
+   * All meets linked to this meet will have the same value. If it is null, the meet isn't linked.
+   */
+  public readonly LinkedMeetGroupId!: string | null;
 }

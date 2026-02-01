@@ -188,15 +188,15 @@ export default function EventDashboardPage({ }: Props) {
                 {databases.map(d => (
                     <button
                         type="button"
-                        key={`database_${d.DatabaseId}`}
+                        key={`database_${d.Settings.DatabaseId}`}
                         className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
-                        onClick={() => navigate(`${rootUrl}/scoring/databases/${d.DatabaseId}/dashboard`)}
+                        onClick={() => navigate(`${rootUrl}/scoring/databases/${d.Settings.DatabaseId}/dashboard`)}
                     >
                         <div className="card-body p-2 pl-4">
                             <div className="flex items-start gap-4">
                                 <div className="flex-1 mt-2 pr-6 text-left">
                                     <h2 className="card-title mb-0 mt-0">
-                                        <FontAwesomeIcon icon="fas faDatabase" /> Database: {d.DatabaseName.replaceAll('_', ' ')}
+                                        <FontAwesomeIcon icon="fas faDatabase" /> Database: {d.Settings.DatabaseName.replaceAll('_', ' ')}
                                     </h2>
                                     <p className="text-base mt-1">
                                         Manage the settings for this database.

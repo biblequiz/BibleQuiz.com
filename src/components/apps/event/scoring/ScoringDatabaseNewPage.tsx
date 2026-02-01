@@ -13,6 +13,6 @@ export default function ScoringDatabaseNewPage({ }: Props) {
         <DatabaseSettingsSection
             auth={auth}
             eventId={eventId}
-            onSaved={summary => navigate(`${rootUrl}/${summary.SummaryAndSettings.DatabaseId}`)}
+            onSaved={summary => navigate(`${rootUrl}/${summary.Settings.DatabaseId}`)}
         />);
 }
