@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPTTM4QzR-8",
   "tag_name": "v2026.1.30.2",
   "target_commitish": "742b8211909269a07b2697de808acafe6f94b2f0",
-  "name": "New ScoreKeep Release",
+  "name": "Harden Upgrade Path",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:12:59Z",
-  "updated_at": "2026-02-01T05:25:39Z",
+  "updated_at": "2026-02-01T06:05:30Z",
   "published_at": "2026-02-01T05:25:33Z",
   "assets": [
     {
@@ -75,5 +75,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.ScoreKeep/tarball/v2026.1.30.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.ScoreKeep/zipball/v2026.1.30.2",
-  "body": "Latest version of ScoreKeep"
+  "body": "Updated the upgrade check path to avoid throttling issues seen on some devices."
 }
