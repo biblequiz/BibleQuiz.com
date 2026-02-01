@@ -66,7 +66,7 @@ export default function EventLookupDialog({
                     .then(events => {
                         const formattedEvents = events.map(e => {
                             const formatted = e.Event as EventInfoWithTypeId;
-                            formatted.typeId = e.Url.substring(1, 4);
+                            formatted.typeId = e.Url.substring(0, 3);
                             return formatted;
                         });
 
