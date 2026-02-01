@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4QzR-P",
   "tag_name": "v2026.1.30.2",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Harden Upgrade Path",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-02-01T05:24:52Z",
+  "updated_at": "2026-02-01T06:05:29Z",
   "published_at": "2026-02-01T05:24:44Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 118718479,
       "digest": "sha256:021c8a5f1ad1bc315fcac7ba10d99b4a1279cddd9af989a59b99796e2061e1c0",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-02-01T05:24:44Z",
       "updated_at": "2026-02-01T05:24:48Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.EZScore/releases/download/v2026.1.30.2/com.biblequiz.ezscore.android.apk"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 97826124,
       "digest": "sha256:0490279b782e253ceb597b88b09ade9db0438c713fc2eb75b65cc5956e782622",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-02-01T05:24:49Z",
       "updated_at": "2026-02-01T05:24:52Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.EZScore/releases/download/v2026.1.30.2/com.biblequiz.ezscore.windows.msixbundle"
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.1.30.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.1.30.2",
-  "body": "Latest version of EZScore"
+  "body": "Updated the upgrade check path to avoid throttling issues seen on some devices."
 }
