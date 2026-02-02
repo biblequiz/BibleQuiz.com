@@ -5,6 +5,7 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { AuthManager } from "types/AuthManager";
 import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
 
 interface Props {
     auth: AuthManager;
@@ -51,6 +52,7 @@ export default function DatabaseSettingsSection({
 
     const formRef = useRef<HTMLFormElement>(null);
     const hasChanges = useStore(sharedDirtyWindowState);
+    const isScoreKeep = settings?.IsScoreKeep ?? false;
 
     const handleSave = (e: React.MouseEvent | React.FormEvent) => {
         e.preventDefault();
@@ -114,6 +116,7 @@ export default function DatabaseSettingsSection({
 
     return (
         <form ref={formRef} className="space-y-6 mt-0" onSubmit={handleSave}>
+            <ScoringDatabaseScoreKeepAlert isScoreKeep={isScoreKeep} />
             {savingError && (
                 <div role="alert" className="alert alert-error mt-0 w-full">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />
@@ -139,7 +142,7 @@ export default function DatabaseSettingsSection({
                             setDatabaseName(e.target.value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled || isSaving}
+                        disabled={disabled || isSaving || isScoreKeep}
                         maxLength={50}
                         required
                         pattern="[a-zA-Z0-9_]+"
@@ -186,7 +189,7 @@ export default function DatabaseSettingsSection({
 
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled || isSaving}
+                        disabled={disabled || isSaving || isScoreKeep}
                         required
                     />
                 </div>
@@ -207,7 +210,7 @@ export default function DatabaseSettingsSection({
                             setDefaultMatchLengthInMinutes(value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled || isSaving}
+                        disabled={disabled || isSaving || isScoreKeep}
                         required
                     />
                 </div>
@@ -227,7 +230,7 @@ export default function DatabaseSettingsSection({
                             setContactInfo(value);
                             sharedDirtyWindowState.set(true);
                         }}
-                        disabled={disabled || isSaving}
+                        disabled={disabled || isSaving || isScoreKeep}
                         required
                     />
                 </div>

@@ -4,7 +4,7 @@ import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { AstroEventsService } from "types/services/AstroEventsService";
 import { EventInfo } from "types/services/EventsService";
-import { currentDatabaseSummary } from "./EventRoot";
+import { currentDatabaseSummaries } from "./EventRoot";
 import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
@@ -25,6 +25,7 @@ export interface EventProviderContext {
     setEventType: (typeId: string) => void;
     setEventIsHidden: (isHidden: boolean) => void;
     setLatestEvent: (event: EventInfo | null) => void;
+    setDatabases: (databases: OnlineDatabaseSummary[]) => void;
     setClonePermissionsFromEventId: (eventId: string | undefined) => void;
 }
 
@@ -195,7 +196,7 @@ export default function EventProvider({ }: Props) {
                         setPayments(null);
                     }
 
-                    currentDatabaseSummary.set(summary.Databases);
+                    currentDatabaseSummaries.set(summary.Databases);
 
                     setIsLoading(false);
                     setLoadingError(null);
@@ -284,6 +285,10 @@ export default function EventProvider({ }: Props) {
                 setEventType: setEventTypeId,
                 setEventIsHidden: setEventIsHidden,
                 setLatestEvent: setCurrentEvent,
+                setDatabases: d => {
+                    setDatabases(d);
+                    currentDatabaseSummaries.set(d);
+                },
                 setClonePermissionsFromEventId: setClonePermissionsFromEventId
             } as EventProviderContext} />
         </>);

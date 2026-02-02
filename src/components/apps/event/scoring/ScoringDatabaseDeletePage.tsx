@@ -3,6 +3,8 @@ import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
+import { useStore } from "@nanostores/react";
+import { currentDatabaseSummaries } from "../EventRoot";
 
 interface Props {
 }
@@ -13,12 +15,15 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
         rootEventUrl,
         eventId,
         databaseId,
+        currentDatabase,
     } = useOutletContext<ScoringDatabaseProviderContext>();
 
     const navigate = useNavigate();
     const [confirmed, setConfirmed] = useState<boolean>(false);
     const [isProcessing, setIsProcessing] = useState<boolean>(false);
     const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+    const currentSummaries = useStore(currentDatabaseSummaries);
 
     const handleSave = (e: React.MouseEvent) => {
         e.preventDefault();
@@ -31,6 +36,15 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
             eventId,
             databaseId!)
             .then(() => {
+                if (currentSummaries) {
+                    const currentIndex = currentSummaries.findIndex(
+                        d => d.Settings.DatabaseId === databaseId);
+                    if (currentIndex >= 0) {
+                        currentSummaries.splice(currentIndex, 1);
+                        currentDatabaseSummaries.set([...currentSummaries]);
+                    }
+                }
+
                 setIsProcessing(false);
                 setErrorMessage(null);
 
@@ -78,6 +92,10 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
     return (
         <form className="space-y-6 mt-0">
             <h5 className="mb-2 mt-2">Permanently Delete Database</h5>
+            <p className="subtitle mb-2 mt-2">
+                <FontAwesomeIcon icon="fas faDatabase" />
+                <span className="ml-2">{currentDatabase!.Settings.DatabaseName}</span>
+            </p>
             <div className="w-full ml-2 mt-4 mb-0">
                 <label className="label text-wrap">
                     <input

@@ -6,6 +6,7 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import { OnlineDatabaseSettings } from "types/services/AstroDatabasesService";
 import type { EventProviderContext } from "../EventProvider";
 import { sharedDirtyWindowState } from "utils/SharedState";
+import { set } from "date-fns";
 
 interface Props {
 }
@@ -16,7 +17,9 @@ export default function ScoringDatabaseNewPage({ }: Props) {
         auth,
         eventId,
         info,
-        rootUrl } = useOutletContext<EventProviderContext>();
+        rootUrl,
+        databases,
+        setDatabases } = useOutletContext<EventProviderContext>();
     const navigate = useNavigate();
 
     const [isProcessing, setIsProcessing] = useState<boolean>(false);
@@ -179,7 +182,8 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                         setIsProcessing={setIsProcessing}
                         onSaved={summary => {
                             sharedDirtyWindowState.set(false);
-                            navigate(`${rootUrl}/databases/${summary.Settings.DatabaseId}/dashboard`);
+                            setDatabases([...databases, summary]);
+                            navigate(`${rootUrl}/scoring/databases/${summary.Settings.DatabaseId}/dashboard`);
                         }}
                     />
                 </>)}

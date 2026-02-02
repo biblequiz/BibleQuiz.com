@@ -66,14 +66,14 @@ const CLONE_ID = "clone";
 const EMAIL_ID = "email";
 const DELETE_ID = "delete";
 
-export const currentDatabaseSummary = createMultiReactAtom<OnlineDatabaseSummary[] | undefined>(
+export const currentDatabaseSummaries = createMultiReactAtom<OnlineDatabaseSummary[] | undefined>(
     "databaseSummaries",
     undefined);
 
 function RootLayout({ loadingElementId }: Props) {
 
     const auth = AuthManager.useNanoStore();
-    const databases = useStore(currentDatabaseSummary);
+    const databases = useStore(currentDatabaseSummaries);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);

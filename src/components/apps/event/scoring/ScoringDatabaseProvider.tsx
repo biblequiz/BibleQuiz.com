@@ -4,6 +4,7 @@ import type { EventProviderContext } from "../EventProvider";
 import { useEffect, useState } from "react";
 import { AstroDatabasesService, type OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { currentDatabaseSummaries } from "../EventRoot";
 
 interface Props {
 }
@@ -106,6 +107,22 @@ export default function ScoringDatabaseProvider({ }: Props) {
             databaseId: databaseId,
 
             currentDatabase: currentDatabase,
-            setCurrentDatabase: setCurrentDatabase
+            setCurrentDatabase: database => {
+                setCurrentDatabase(database);
+
+                if (database) {
+                    const newSummaries = [...(currentDatabaseSummaries.get() ?? [])];
+                    const index = newSummaries.findIndex(
+                        d => d.Settings.DatabaseId === database.Settings.DatabaseId);
+                    if (index !== undefined && index >= 0 && newSummaries) {
+                        newSummaries[index] = database;
+                    }
+                    else {
+                        newSummaries.push(database);
+                    }
+
+                    currentDatabaseSummaries.set(newSummaries);
+                }
+            }
         } as ScoringDatabaseProviderContext} />);
 }
