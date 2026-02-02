@@ -9,7 +9,7 @@ interface Props {
     districtId: string | null;
     eventType: string;
     season: number;
-    onSelectDatabase: (eventId: string, summary: OnlineDatabaseSummary) => void;
+    onSelectDatabase: (eventId: string | undefined, summary: OnlineDatabaseSummary | undefined) => void;
     isDisabled: boolean;
 }
 
@@ -43,11 +43,11 @@ export default function DatabaseSelector({
 
                 )}
                 {selectedEventName && (
-                    <h2 className="card-title mb-0 mt-4 text-sm">
+                    <h2 className="card-title mb-0 mt-4">
                         <FontAwesomeIcon icon="fas faCalendar" /> {selectedEventName}
                     </h2>)}
                 {selectedDatabase && (
-                    <p className="subtitle mt-0 mb-0 text-sm">
+                    <p className="subtitle mt-0 mb-0">
                         {selectedDatabase.Settings.DatabaseNameOverride ?? selectedDatabase.Settings.DatabaseName}
                     </p>)}
             </div>
@@ -108,6 +108,9 @@ export default function DatabaseSelector({
                             });
 
                             onSelectDatabase(selectedEventId, JSON.parse(JSON.stringify(database)));
+                        }
+                        else {
+                            onSelectDatabase(undefined, undefined);
                         }
 
                         setIsSelecting(false);

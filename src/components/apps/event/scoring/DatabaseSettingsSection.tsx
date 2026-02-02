@@ -125,7 +125,7 @@ export default function DatabaseSettingsSection({
                     </div>
                 </div>)}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="form-control w-full mt-2">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Database Name</span>
                         <span className="label-text-alt text-error">*</span>
@@ -147,7 +147,7 @@ export default function DatabaseSettingsSection({
                     />
                 </div>
 
-                <div className="form-control w-full mt-2">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Optional Display Name</span>
                     </label>
@@ -165,7 +165,7 @@ export default function DatabaseSettingsSection({
                     />
                 </div>
 
-                <div className="form-control w-full mt-2">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Default Start Time</span>
                         <span className="label-text-alt text-error">*</span>
@@ -191,7 +191,7 @@ export default function DatabaseSettingsSection({
                     />
                 </div>
 
-                <div className="form-control w-full mt-2">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Default Match Length (minutes)</span>
                         <span className="label-text-alt text-error">*</span>
@@ -212,7 +212,7 @@ export default function DatabaseSettingsSection({
                     />
                 </div>
 
-                <div className="form-control w-full mt-2">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium text-sm">Contact Info</span>
                         <span className="label-text-alt text-error">*</span>

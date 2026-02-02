@@ -28,6 +28,23 @@ export default function ScoringDatabaseNewPage({ }: Props) {
     const [cloneAwards, setCloneAwards] = useState<boolean>(true);
     const [cloneSchedule, setCloneSchedule] = useState<boolean>(true);
 
+    if (isProcessing) {
+        return (
+            <div className="hero bg-base-300 rounded-2xl shadow-lg">
+                <div className="hero-content text-center py-16 px-8">
+                    <div className="max-w-4xl">
+                        <h1 className="text-3xl font-bold text-base-content mb-4">
+                            <span className="loading loading-spinner loading-lg"></span>
+                            <span className="ml-4">Saving Database ...</span>
+                        </h1>
+                        <p className="text-lg text-base-content/70 mb-8">
+                            The database is being saved. This should just take a second or two ...
+                        </p>
+                    </div>
+                </div>
+            </div>);
+    }
+
     return (
         <div className="space-y-6 mt-4">
             <h5 className="mb-2">How do you want to create the database?</h5>
@@ -39,6 +56,7 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                         className="radio radio-info"
                         checked={!useClone}
                         onChange={e => setUseClone(!e.target.checked)}
+                        disabled={isProcessing}
                     />
                     <span className="text-sm">
                         <b>Start Fresh</b><br />
@@ -54,6 +72,7 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                         className="radio radio-info"
                         checked={useClone}
                         onChange={e => setUseClone(e.target.checked)}
+                        disabled={isProcessing}
                     />
                     <span className="text-sm">
                         <b>Copy Existing Database</b><br />
@@ -73,6 +92,9 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                         eventType={info!.TypeId}
                         season={DataTypeHelpers.getSeasonFromDate(info!.StartDate)!}
                         onSelectDatabase={(eventId, database) => {
+                            if (!eventId || !database) {
+                                return;
+                            }
 
                             setCloneEventId(eventId);
                             setCloneDatabaseId(database.Settings.DatabaseId!);
@@ -83,7 +105,7 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                             clone.DatabaseNameOverride = null;
 
                             setClonedSettings(clone);
-                            
+
                             sharedDirtyWindowState.set(true);
                         }}
                         isDisabled={isProcessing}
@@ -155,7 +177,10 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                         cloneSchedule={cloneSchedule}
                         settings={clonedSettings}
                         setIsProcessing={setIsProcessing}
-                        onSaved={summary => navigate(`${rootUrl}/${summary.Settings.DatabaseId}`)}
+                        onSaved={summary => {
+                            sharedDirtyWindowState.set(false);
+                            navigate(`${rootUrl}/databases/${summary.Settings.DatabaseId}/dashboard`);
+                        }}
                     />
                 </>)}
         </div>);

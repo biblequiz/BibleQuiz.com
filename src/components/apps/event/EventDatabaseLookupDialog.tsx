@@ -231,18 +231,19 @@ export default function EventDatabaseLookupDialog({
                             onClick={() => setCurrentDatabase(undefined)}>
                             <FontAwesomeIcon icon="fas faArrowLeft" />&nbsp;Back to Databases
                         </button>)}
-                    <button
-                        className="btn btn-sm btn-success mt-0"
-                        type="button"
-                        disabled={isLoading || isAssigning || selectedResults.length === 0}
-                        tabIndex={2}
-                        onClick={() => {
-                            setIsAssigning(true);
-                            onSelect(selectedResults);
-                            dialogRef.current?.close();
-                        }}>
-                        Select {selectedResults.length} Division{selectedResults.length !== 1 ? "s" : ""}
-                    </button>
+                    {!isDatabaseOnly && (
+                        <button
+                            className="btn btn-sm btn-success mt-0"
+                            type="button"
+                            disabled={isLoading || isAssigning || selectedResults.length === 0}
+                            tabIndex={2}
+                            onClick={() => {
+                                setIsAssigning(true);
+                                onSelect(selectedResults);
+                                dialogRef.current?.close();
+                            }}>
+                            Select {selectedResults.length} Division{selectedResults.length !== 1 ? "s" : ""}
+                        </button>)}
                     <button
                         className="btn btn-sm btn-warning mt-0"
                         type="button"
