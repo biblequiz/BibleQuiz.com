@@ -251,10 +251,10 @@ export default function CloneEventPage({ }: Props) {
                 <EventLookupDialog
                     typeId={info!.TypeId}
                     season={DataTypeHelpers.getSeasonFromDate(info!.StartDate)!}
-                    excludeEventId={eventId}
+                    excludeEventIds={[eventId]}
                     onSelect={e => {
                         if (e) {
-                            setCopyFromEvent({ id: e.Id!, label: e.Name });
+                            setCopyFromEvent({ id: e.id, label: e.name });
                         }
                         else {
                             setCopyFromEvent(undefined);

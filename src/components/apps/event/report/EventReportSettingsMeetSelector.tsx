@@ -215,7 +215,7 @@ export default function EventReportSettingsMeetSelector({
                             return;
                         }
 
-                        setAddingEvent({ id: e.Id!, name: e.Name! });
+                        setAddingEvent({ id: e.id!, name: e.name! });
                     }}
                 />)}
             {isAdding && addingEvent && (
@@ -226,7 +226,7 @@ export default function EventReportSettingsMeetSelector({
                     onSelect={r => {
                         if (r) {
                             const newMeets: ReportMeetFilter[] = [...meets];
-                            for (const selection of r) {
+                            for (const selection of r as DatabaseAndMeetLookupResult[]) {
                                 newMeets.push({
                                     EventId: addingEvent.id,
                                     EventName: addingEvent.name,

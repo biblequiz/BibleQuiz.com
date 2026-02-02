@@ -34,7 +34,6 @@ import EventDashboardPage from './EventDashboardPage';
 import DeleteEventPage from './DeleteEventPage';
 import EmailEventPage from './EmailEventPage';
 import CloneEventPage from './CloneEventPage';
-import type { DatabaseSettings } from 'types/services/DatabasesService';
 import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
 import ScoringDatabaseDeletePage from './scoring/ScoringDatabaseDeletePage';
 import ScoringDatabaseAppsPage from './scoring/ScoringDatabaseAppsPage';
@@ -45,6 +44,8 @@ import EventPaymentsReceiptPage from './EventPaymentsReceiptPage';
 import EventReportsPage from './EventReportsPage';
 import EventReportsProvider from './EventReportsProvider';
 import EventReportSettingsPage from './report/EventReportSettingsPage';
+import DebugEventPage from './DebugEventPage';
+import type { OnlineDatabaseSummary } from 'types/services/AstroDatabasesService';
 
 interface Props {
     loadingElementId: string;
@@ -55,6 +56,7 @@ const SCORES_GROUP_ID = "scores";
 const DATABASE_GROUP_ID_PREFIX = "db-";
 const DATABASE_LOADING_ID = DATABASE_GROUP_ID_PREFIX + "loading";
 const PERMISSIONS_ID = "permissions";
+const DEBUG_ID = "debug";
 const REGISTRATIONS_ID = "registrations";
 const PAYMENTS_ID = "payments";
 const PAYMENTS_RECEIPT_ID = "payments-receipt";
@@ -64,14 +66,14 @@ const CLONE_ID = "clone";
 const EMAIL_ID = "email";
 const DELETE_ID = "delete";
 
-export const currentDatabaseSettings = createMultiReactAtom<DatabaseSettings[] | undefined>(
-    "databaseSettings",
+export const currentDatabaseSummary = createMultiReactAtom<OnlineDatabaseSummary[] | undefined>(
+    "databaseSummaries",
     undefined);
 
 function RootLayout({ loadingElementId }: Props) {
 
     const auth = AuthManager.useNanoStore();
-    const databases = useStore(currentDatabaseSettings);
+    const databases = useStore(currentDatabaseSummary);
 
     useEffect(() => {
         const fallback = document.getElementById(loadingElementId);
@@ -150,7 +152,7 @@ function RootLayout({ loadingElementId }: Props) {
 function buildSidebar(
     routeMatches: UIMatch<unknown, unknown>[],
     routeParameters: Readonly<Params<string>>,
-    databases: DatabaseSettings[] | undefined,
+    databases: OnlineDatabaseSummary[] | undefined,
     navigate: NavigateFunction): ReactSidebarEntry[] {
 
     if (routeParameters["*"]) {
@@ -252,7 +254,7 @@ function buildSidebar(
         let databaseEntries: ReactSidebarEntry[];
         if (databases) {
             databaseEntries = databases.map(
-                db => buildDatabaseEntry(rootEventPath, db.DatabaseId, db.DatabaseName.replaceAll('_', ' '), navigate));
+                db => buildDatabaseEntry(rootEventPath, db.Settings.DatabaseId!, db.Settings.DatabaseName.replaceAll('_', ' '), navigate));
 
             databaseEntries.push({
                 type: 'link' as const,
@@ -358,6 +360,16 @@ function buildSidebar(
         };
         sidebarEntries.push(cloneEntry);
 
+        const debugEntry: ReactSidebarLink =
+        {
+            type: 'link' as const,
+            label: "Help & Debug",
+            navigate: () => navigate(`${rootEventPath}/debug`),
+            isCurrent: false,
+            icon: "fas faCircleQuestion"
+        };
+        sidebarEntries.push(debugEntry);
+
         const deleteEntry: ReactSidebarLink =
         {
             type: 'link' as const,
@@ -391,6 +403,9 @@ function buildSidebar(
                 break;
             case CLONE_ID:
                 currentPage = cloneEntry;
+                break;
+            case DEBUG_ID:
+                currentPage = debugEntry;
                 break;
             case DELETE_ID:
                 currentPage = deleteEntry;
@@ -702,6 +717,11 @@ const router = createHashRouter([
                                 path: "/:eventId/permissions",
                                 id: PERMISSIONS_ID,
                                 element: <EventPermissionsPage />
+                            },
+                            {
+                                path: "/:eventId/debug",
+                                id: DEBUG_ID,
+                                element: <DebugEventPage />
                             },
                             {
                                 path: "/:eventId/delete",

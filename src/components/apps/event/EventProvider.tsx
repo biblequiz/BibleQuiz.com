@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { AstroEventsService } from "types/services/AstroEventsService";
-import type { DatabaseSettings } from "types/services/DatabasesService";
 import { EventInfo } from "types/services/EventsService";
-import { currentDatabaseSettings } from "./EventRoot";
+import { currentDatabaseSummary } from "./EventRoot";
+import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
 }
@@ -17,7 +17,7 @@ export interface EventProviderContext {
     info: EventInfo | null;
     rootUrl: string;
     clonePermissionsFromEventId?: string;
-    databases: DatabaseSettings[];
+    databases: OnlineDatabaseSummary[];
     registrations: EventRegistrationSummary;
     payments: EventPaymentSummary | null;
 
@@ -157,7 +157,7 @@ export default function EventProvider({ }: Props) {
     const [loadingError, setLoadingError] = useState<string | null>(null);
     const [currentEventResultsUrl, setCurrentEventResultsUrl] = useState<string | null>(null);
     const [currentEvent, setCurrentEvent] = useState<EventInfo | null>(null);
-    const [databases, setDatabases] = useState<DatabaseSettings[]>([]);
+    const [databases, setDatabases] = useState<OnlineDatabaseSummary[]>([]);
     const [registrations, setRegistrations] = useState<EventRegistrationSummary>(() => new EventRegistrationSummary(0, 0, 0, 0, 0, 0));
     const [payments, setPayments] = useState<EventPaymentSummary | null>(null);
     const [eventTitle, setEventTitle] = useState<string>("Untitled Event");
@@ -195,7 +195,7 @@ export default function EventProvider({ }: Props) {
                         setPayments(null);
                     }
 
-                    currentDatabaseSettings.set(summary.Databases);
+                    currentDatabaseSummary.set(summary.Databases);
 
                     setIsLoading(false);
                     setLoadingError(null);

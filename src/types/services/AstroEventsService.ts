@@ -1,5 +1,5 @@
 ﻿import type { AuthManager } from "../AuthManager";
-import type { DatabaseSettings } from "./DatabasesService";
+import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { EventInfo as ServiceEventInfo } from "./EventsService";
 import type { EventInfo as TypeEventInfo } from "types/EventTypes";
@@ -16,18 +16,26 @@ export class AstroEventsService {
    *
    * @param auth AuthManager to use for authentication.
    * @param season Season for the events.
+   * @param typeId Optional type id for filtering events.
+   * @param requireDatabases Optional value indicating whether an event must have a database.
    * 
    * @returns Array of results.
    */
   public static getOwnedEvents(
     auth: AuthManager,
-    season: number): Promise<EventInfoWithUrl[]> {
+    season: number,
+    typeId?: string,
+    requireDatabases?: boolean): Promise<EventInfoWithUrl[]> {
 
     return RemoteServiceUtility.executeHttpRequest<EventInfoWithUrl[]>(
       auth,
       "GET",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/seasons/${season}`);
+      `${URL_ROOT_PATH}/seasons/${season}`,
+      RemoteServiceUtility.getFilteredUrlParameters({
+        d: requireDatabases,
+        t: typeId
+      }));
   }
 
   /**
@@ -84,7 +92,7 @@ export class EventInfoWithSummary {
   /**
    * List of databases associated with the event.
    */
-  public readonly Databases!: DatabaseSettings[];
+  public readonly Databases!: OnlineDatabaseSummary[];
 
   /**
    * Number of churches that have registered.

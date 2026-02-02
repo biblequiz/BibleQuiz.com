@@ -86,7 +86,7 @@ export default defineConfig({
                     label: "Manage Events",
                     collapsed: true,
                     badge: {
-                        text: "EXPERIMENT",
+                        text: "ALPHA",
                         variant: "caution"
                     },
                     items: [
