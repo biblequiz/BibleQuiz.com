@@ -1,10 +1,7 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
 import { useNavigate, useOutletContext } from "react-router-dom";
-import { DatabaseSettings } from "types/services/DatabasesService";
 import DatabaseSettingsSection from "./DatabaseSettingsSection";
-import { useState } from "react";
-import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
 }
@@ -31,8 +28,6 @@ export default function ScoringDashboardPage({ }: Props) {
 
     const navigate = useNavigate();
 
-    const [isProcessing, setIsProcessing] = useState<boolean>(false);
-
     return (
         <>
             <DatabaseSettingsSection
@@ -40,7 +35,7 @@ export default function ScoringDashboardPage({ }: Props) {
                 eventId={eventId}
                 settings={JSON.parse(JSON.stringify(currentDatabase!.Settings))}
                 onSaved={setCurrentDatabase}
-                setIsProcessing={setIsProcessing}
+                setIsProcessing={()=> {}}
             />
             <div className="divider mt-0 mb-2" />
             <div className="flex flex-wrap gap-2 mt-2">

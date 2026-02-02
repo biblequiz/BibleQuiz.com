@@ -226,7 +226,7 @@ export default function EventReportSettingsMeetSelector({
                     onSelect={r => {
                         if (r) {
                             const newMeets: ReportMeetFilter[] = [...meets];
-                            for (const selection of r) {
+                            for (const selection of r as DatabaseAndMeetLookupResult[]) {
                                 newMeets.push({
                                     EventId: addingEvent.id,
                                     EventName: addingEvent.name,

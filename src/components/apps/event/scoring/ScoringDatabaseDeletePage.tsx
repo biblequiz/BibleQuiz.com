@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
