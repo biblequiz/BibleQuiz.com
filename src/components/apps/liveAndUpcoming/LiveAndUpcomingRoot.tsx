@@ -111,12 +111,6 @@ export default function LiveAndUpcomingRoot({
             const recentCutoff: Date = new Date(today.getTime());
             recentCutoff.setDate(today.getDate() - 10);
 
-            const upcomingCutoff: Date = new Date(today.getTime());
-            upcomingCutoff.setDate(today.getDate() + 14);
-
-            const nationalsCutoff: Date = new Date(upcomingCutoff.getTime());
-            nationalsCutoff.setDate(upcomingCutoff.getDate() + 14);
-
             const listCollection = [futureEvents, recentSeasonEvents];
             for (const events of listCollection) {
                 if (!events) {
@@ -158,14 +152,14 @@ export default function LiveAndUpcomingRoot({
                             liveEvents.push(eventItem);
                         } else {
                             let isUpcoming = false;
-                            if (eventItem.isNationals && startDate > today && startDate < nationalsCutoff) {
+                            if (eventItem.isNationals && startDate > today) {
                                 isUpcoming = true;
                             }
                             else {
-                                isUpcoming = startDate > today && startDate <= upcomingCutoff;
+                                isUpcoming = startDate > today;
                                 if (event.registrationEndDate) {
                                     const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
-                                    eventItem.isRegistrationOpen = date > today && date <= upcomingCutoff;
+                                    eventItem.isRegistrationOpen = date > today;
                                 }
                             }
 
@@ -207,6 +201,6 @@ export default function LiveAndUpcomingRoot({
             />
             {renderEventSection("LIVE EVENTS", "success", "faTowerBroadcast", liveEvents, eventFilters, true)}
             {renderEventSection("JUST HAPPENED", "info", "faClockRotateLeft", recentEvents, eventFilters, true)}
-            {renderEventSection("UP NEXT", "primary", "faCalendarDays", upcomingEvents, eventFilters, false)}
+            {renderEventSection("COMING UP", "primary", "faCalendarDays", upcomingEvents, eventFilters, false)}
         </div>);
 }
