@@ -453,7 +453,7 @@ export class EventInfo extends RemoteServiceModelBase<string> {
   /**
    * Gets or sets the ScoringCode for the event.
   **/
-  public ScoringCode!: string;
+  public ScoringCode!: string | null;
 
   /**
    * Gets or sets a value indicating whether the event should be published to BibleQuiz.com's archives.
