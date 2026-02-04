@@ -172,6 +172,7 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                     <DatabaseSettingsSection
                         auth={auth}
                         eventId={eventId}
+                        eventType={info!.TypeId}
                         cloneEventId={cloneEventId}
                         cloneDatabaseId={cloneDatabaseId}
                         cloneTeamsAndQuizzers={cloneTeamsAndQuizzers}

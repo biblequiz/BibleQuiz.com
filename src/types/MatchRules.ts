@@ -279,6 +279,24 @@ export enum CompetitionType {
 }
 
 /**
+ * Converts a type id string to a CompetitionType enum value.
+ * 
+ * @param typeId Id of the type to convert.
+ * @returns Valid enum or undefined if not recognized.
+ */
+export function convertToCompetitionType(typeId?: string): CompetitionType | undefined {
+    switch (typeId?.toLowerCase())
+    {
+        case "tbq":
+            return CompetitionType.TBQ;
+        case "jbq":
+            return CompetitionType.JBQ;
+        default:
+            return undefined;
+    }
+}
+
+/**
  * Rules for quizzing out.
  */
 export class QuizOutRule {
