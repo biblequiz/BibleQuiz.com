@@ -369,4 +369,48 @@ export class DataTypeHelpers {
 
         return `${sign}${days === 0 ? "" : `${days}.`}${hh}:${mm}:${ss}`;
     }
+
+    /**
+     * Parses a time span string and returns the total minutes.
+     * Supports formats: "HH:MM:SS", "D.HH:MM:SS", or just minutes as a number.
+     * @param value TimeSpan string to parse.
+     * @returns Total minutes as a number.
+     */
+    public static parseTimeSpanMinutes(value: string | null | undefined): number {
+        if (this.isNullOrEmpty(value)) {
+            return 0;
+        }
+
+        // Check if it's just a number (already in minutes)
+        const numericValue = parseFloat(value!);
+        if (!isNaN(numericValue) && !value!.includes(":")) {
+            return numericValue;
+        }
+
+        let days = 0;
+        let timePart = value!;
+
+        // Check for days component (D.HH:MM:SS format)
+        if (value!.includes(".")) {
+            const dotIndex = value!.indexOf(".");
+            const potentialDays = value!.substring(0, dotIndex);
+            // Only treat as days if the part before dot is a number and there's a colon after
+            if (!isNaN(parseInt(potentialDays)) && value!.substring(dotIndex + 1).includes(":")) {
+                days = parseInt(potentialDays);
+                timePart = value!.substring(dotIndex + 1);
+            }
+        }
+
+        // Parse HH:MM:SS or HH:MM
+        const parts = timePart.split(":");
+        if (parts.length < 2) {
+            return 0;
+        }
+
+        const hours = parseInt(parts[0]) || 0;
+        const minutes = parseInt(parts[1]) || 0;
+        // Seconds are ignored for minute calculation (or could round)
+
+        return (days * 24 * 60) + (hours * 60) + minutes;
+    }
 }
