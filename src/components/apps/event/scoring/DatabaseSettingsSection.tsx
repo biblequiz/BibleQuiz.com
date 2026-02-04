@@ -267,7 +267,7 @@ export default function DatabaseSettingsSection({
                     <div className="form-control w-full mt-0 border border-base-500 rounded-lg p-4">
                         <span
                             className="text-xs"
-                            dangerouslySetInnerHTML={{ __html: MatchRules.toHtmlString(settings.Rules) }} />
+                            dangerouslySetInnerHTML={{ __html: MatchRules.toHtmlString(rules || settings.Rules) }} />
                         <button
                             type="button"
                             className="btn btn-sm btn-secondary mt-4 w-full text-sm"
