@@ -6,11 +6,13 @@ import type { AuthManager } from "types/AuthManager";
 import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
+import { MatchRules } from "types/MatchRules";
 
 interface Props {
     auth: AuthManager;
     eventId: string;
     settings?: OnlineDatabaseSettings | null;
+    defaultRules?: MatchRules;
     cloneEventId?: string;
     cloneDatabaseId?: string;
     cloneTeamsAndQuizzers?: boolean;
@@ -24,6 +26,13 @@ interface Props {
 const DEFAULT_START_TIME = "09:00:00";
 const DEFAULT_MATCH_LENGTH = 30;
 
+function generateDatabaseNameFromDisplayName(value: string): string {
+    return value
+        .replace(/[^a-zA-Z0-9_\\-]/g, "_")  // Replace non-alphanumeric with underscore
+        .replace(/_+/g, "_")              // Consolidate multiple underscores
+        .replace(/_+$/g, "");             // Trim trailing underscores
+}
+
 /**
  * Section to edit database settings.
  */
@@ -31,6 +40,7 @@ export default function DatabaseSettingsSection({
     auth,
     eventId,
     settings,
+    defaultRules,
     cloneEventId,
     cloneDatabaseId,
     cloneTeamsAndQuizzers = false,
@@ -49,10 +59,11 @@ export default function DatabaseSettingsSection({
     const [intermediateMatchStartTime, setIntermediateMatchStartTime] = useState<string | undefined>();
     const [defaultMatchLengthInMinutes, setDefaultMatchLengthInMinutes] = useState<number | undefined>(settings?.DefaultMatchLengthInMinutes ?? DEFAULT_MATCH_LENGTH);
     const [contactInfo, setContactInfo] = useState<string | undefined>(settings?.ContactInfo);
+    const [rules, setRules] = useState<MatchRules | undefined>(settings?.Rules || undefined);
 
     const formRef = useRef<HTMLFormElement>(null);
     const hasChanges = useStore(sharedDirtyWindowState);
-    const isScoreKeep = settings?.IsScoreKeep ?? false;
+    const isScoreKeep = ((!cloneEventId || !cloneDatabaseId) && settings?.IsScoreKeep) || false;
 
     const handleSave = (e: React.MouseEvent | React.FormEvent) => {
         e.preventDefault();
@@ -61,9 +72,14 @@ export default function DatabaseSettingsSection({
             return;
         }
 
+        const displayName = databaseNameOverride && databaseNameOverride.trim().length > 0
+            ? databaseNameOverride.trim()
+            : undefined;
+        const resolvedDatabaseName = databaseName || generateDatabaseNameFromDisplayName(displayName || "");
+
         const updatedSettings = new OnlineDatabaseSettings();
         updatedSettings.DatabaseId = settings?.DatabaseId ?? null;
-        updatedSettings.DatabaseName = databaseName!;
+        updatedSettings.DatabaseName = resolvedDatabaseName;
         updatedSettings.DatabaseNameOverride = databaseNameOverride || null;
         updatedSettings.DefaultMatchStartTime = defaultMatchStartTime;
         updatedSettings.DefaultMatchLengthInMinutes = defaultMatchLengthInMinutes!;
@@ -127,32 +143,36 @@ export default function DatabaseSettingsSection({
                             : (<span>{savingError}</span>)}
                     </div>
                 </div>)}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="form-control w-full mt-0">
-                    <label className="label">
-                        <span className="label-text font-medium text-sm">Database Name</span>
-                        <span className="label-text-alt text-error">*</span>
-                    </label>
-                    <input
-                        type="text"
-                        className="input w-full"
-                        placeholder="Name of the database file"
-                        value={databaseName}
-                        onChange={e => {
-                            setDatabaseName(e.target.value);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                        disabled={disabled || isSaving || isScoreKeep}
-                        maxLength={50}
-                        required
-                        pattern="[a-zA-Z0-9_]+"
-                        title="Only letters, numbers, and underscores are allowed"
-                    />
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+                {isScoreKeep && (
+                    <div className="form-control w-full mt-0">
+                        <label className="label">
+                            <span className="label-text font-medium text-sm">Database Name</span>
+                            <span className="label-text-alt text-error">*</span>
+                        </label>
+                        <input
+                            type="text"
+                            className="input w-full"
+                            placeholder="Name of the database file"
+                            value={databaseName}
+                            onChange={e => {
+                                setDatabaseName(e.target.value);
+                                sharedDirtyWindowState.set(true);
+                            }}
+                            disabled={disabled || isSaving || isScoreKeep}
+                            maxLength={50}
+                            required
+                            pattern="[a-zA-Z0-9_]+"
+                            title="Only letters, numbers, and underscores are allowed"
+                        />
+                    </div>)}
 
                 <div className="form-control w-full mt-0">
                     <label className="label">
-                        <span className="label-text font-medium text-sm">Optional Display Name</span>
+                        <span className="label-text font-medium text-sm">
+                            {isScoreKeep ? "Optional Display Name" : "Display Name"}
+                        </span>
+                        {!isScoreKeep && <span className="label-text-alt text-error">*</span>}
                     </label>
                     <input
                         type="text"
@@ -163,8 +183,29 @@ export default function DatabaseSettingsSection({
                             setDatabaseNameOverride(e.target.value);
                             sharedDirtyWindowState.set(true);
                         }}
+                        required={!isScoreKeep}
                         disabled={disabled || isSaving}
                         maxLength={50}
+                    />
+                </div>
+
+                <div className="form-control w-full mt-0">
+                    <label className="label">
+                        <span className="label-text font-medium text-sm">Contact Info</span>
+                        <span className="label-text-alt text-error">*</span>
+                    </label>
+                    <input
+                        type="text"
+                        className="input w-full"
+                        maxLength={120}
+                        value={contactInfo}
+                        onChange={e => {
+                            const value = e.target.value;
+                            setContactInfo(value);
+                            sharedDirtyWindowState.set(true);
+                        }}
+                        disabled={disabled || isSaving || isScoreKeep}
+                        required
                     />
                 </div>
 
@@ -214,27 +255,24 @@ export default function DatabaseSettingsSection({
                         required
                     />
                 </div>
-
-                <div className="form-control w-full mt-0">
-                    <label className="label">
-                        <span className="label-text font-medium text-sm">Contact Info</span>
-                        <span className="label-text-alt text-error">*</span>
-                    </label>
-                    <input
-                        type="text"
-                        className="input w-full"
-                        maxLength={120}
-                        value={contactInfo}
-                        onChange={e => {
-                            const value = e.target.value;
-                            setContactInfo(value);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                        disabled={disabled || isSaving || isScoreKeep}
-                        required
-                    />
-                </div>
             </div>
+
+            {settings?.Rules && defaultRules && (
+                <div className="form-control w-full mt-0 border border-base-500 rounded-lg p-4">
+                    <span
+                        className="text-xs"
+                        dangerouslySetInnerHTML={{ __html: MatchRules.toHtmlString(settings.Rules) }} />
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-secondary mt-4 w-full text-sm"
+                        onClick={() => {
+                            alert("Show Rules Editor");
+                        }}
+                        disabled={isSaving || disabled}>
+                        <FontAwesomeIcon icon="fas faPencil" />
+                        Edit Default Rules for Database
+                    </button>
+                </div>)}
 
             <button
                 type="submit"

@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import CollapsibleSection from "components/CollapsibleSection";
-import { 
-    MatchRules, 
-    QuizOutRule, 
-    ContestRules, 
+import {
+    MatchRules,
+    QuizOutRule,
+    ContestRules,
     TimingRules,
-    type CompetitionType 
+    type CompetitionType
 } from "types/MatchRules";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
@@ -74,7 +74,7 @@ function CheckboxNumberInput({
 /**
  * Editor for match rules configuration.
  */
-export default function MatchRulesEditor({ 
+export default function MatchRulesEditor({
     rules,
     defaultType,
     defaultRules,
@@ -83,6 +83,7 @@ export default function MatchRulesEditor({
 }: Props) {
 
     const formRef = useRef<HTMLFormElement>(null);
+
     const [validationError, setValidationError] = useState<string | null>(null);
     const [hasChanges, setHasChanges] = useState(false);
 
@@ -129,23 +130,15 @@ export default function MatchRulesEditor({
 
     // Timer
     const [timerEnabled, setTimerEnabled] = useState(rules.TimingRules?.InitialRemainingTime !== undefined);
-    const [timerInitial, setTimerInitial] = useState(
-        rules.TimingRules?.InitialRemainingTime 
-            ? DataTypeHelpers.parseTimeSpanMinutes(rules.TimingRules.InitialRemainingTime) 
-            : 30
-    );
+    const [timerInitial, setTimerInitial] = useState(() =>
+        DataTypeHelpers.parseTimeSpanAsMinutes(rules.TimingRules?.InitialRemainingTime) ?? 30);
     const [timerWarnEnabled, setTimerWarnEnabled] = useState(rules.TimingRules?.WarnIfRemaining !== undefined);
-    const [timerWarn, setTimerWarn] = useState(
-        rules.TimingRules?.WarnIfRemaining 
-            ? DataTypeHelpers.parseTimeSpanMinutes(rules.TimingRules.WarnIfRemaining) 
-            : 5
-    );
+    const [timerWarn, setTimerWarn] = useState(() =>
+        DataTypeHelpers.parseTimeSpanAsMinutes(rules.TimingRules?.WarnIfRemaining) ?? 5);
+
     const [timerAlertEnabled, setTimerAlertEnabled] = useState(rules.TimingRules?.AlertIfRemaining !== undefined);
-    const [timerAlert, setTimerAlert] = useState(
-        rules.TimingRules?.AlertIfRemaining 
-            ? DataTypeHelpers.parseTimeSpanMinutes(rules.TimingRules.AlertIfRemaining) 
-            : 0
-    );
+    const [timerAlert, setTimerAlert] = useState(() =>
+        DataTypeHelpers.parseTimeSpanAsMinutes(rules.TimingRules?.AlertIfRemaining) ?? 0);
 
     // Track changes
     useEffect(() => {
@@ -194,23 +187,11 @@ export default function MatchRulesEditor({
         setIncorrectMultiplier(r.IncorrectPointMultiplier < -0.6 ? "full" : "half");
 
         setTimerEnabled(r.TimingRules?.InitialRemainingTime !== undefined);
-        setTimerInitial(
-            r.TimingRules?.InitialRemainingTime 
-                ? DataTypeHelpers.parseTimeSpanMinutes(r.TimingRules.InitialRemainingTime) 
-                : 30
-        );
+        setTimerInitial(DataTypeHelpers.parseTimeSpanAsMinutes(r.TimingRules?.InitialRemainingTime) ?? 30);
         setTimerWarnEnabled(r.TimingRules?.WarnIfRemaining !== undefined);
-        setTimerWarn(
-            r.TimingRules?.WarnIfRemaining 
-                ? DataTypeHelpers.parseTimeSpanMinutes(r.TimingRules.WarnIfRemaining) 
-                : 5
-        );
+        setTimerWarn(DataTypeHelpers.parseTimeSpanAsMinutes(r.TimingRules?.WarnIfRemaining) ?? 5);
         setTimerAlertEnabled(r.TimingRules?.AlertIfRemaining !== undefined);
-        setTimerAlert(
-            r.TimingRules?.AlertIfRemaining 
-                ? DataTypeHelpers.parseTimeSpanMinutes(r.TimingRules.AlertIfRemaining) 
-                : 0
-        );
+        setTimerAlert(DataTypeHelpers.parseTimeSpanAsMinutes(r.TimingRules?.AlertIfRemaining) ?? 0);
 
         setHasChanges(false);
         setValidationError(null);

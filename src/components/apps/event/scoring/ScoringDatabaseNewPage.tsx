@@ -103,8 +103,8 @@ export default function ScoringDatabaseNewPage({ }: Props) {
 
                             const clone = database.Settings;
                             clone.DatabaseId = null;
-                            clone.DatabaseName += "_Clone";
-                            clone.DatabaseNameOverride = null;
+                            clone.DatabaseNameOverride = `${clone.DatabaseNameOverride ?? clone.DatabaseName.replace('_', ' ')} (Copy)`;
+                            clone.DatabaseName = null!;
 
                             setClonedSettings(clone);
 

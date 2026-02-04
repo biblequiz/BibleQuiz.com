@@ -343,10 +343,11 @@ export class DataTypeHelpers {
 
     /**
      * Formats a time span for C# TimeSpan.Parse compatibility.
-     * @param days Days component (optional).
+     * 
      * @param hours Hours component.
      * @param minutes Minutes component.
      * @param seconds Seconds component (optional).
+     * @param days Days component (optional).
      * @returns A string that can be parsed by C# TimeSpan.Parse.
      */
     public static formatTimeSpan(
@@ -358,10 +359,29 @@ export class DataTypeHelpers {
         const isNegative = hours < 0 || minutes < 0 || seconds < 0 || days < 0;
         const sign = isNegative ? "-" : "";
 
+        // Convert to absolute values for calculation
         days = Math.abs(days);
         hours = Math.abs(hours);
         minutes = Math.abs(minutes);
         seconds = Math.abs(seconds);
+
+        // Normalize seconds overflow
+        if (seconds >= 60) {
+            minutes += Math.floor(seconds / 60);
+            seconds = seconds % 60;
+        }
+
+        // Normalize minutes overflow
+        if (minutes >= 60) {
+            hours += Math.floor(minutes / 60);
+            minutes = minutes % 60;
+        }
+
+        // Normalize hours overflow
+        if (hours >= 24) {
+            days += Math.floor(hours / 24);
+            hours = hours % 24;
+        }
 
         const hh = hours.toString().padStart(2, "0");
         const mm = minutes.toString().padStart(2, "0");
@@ -371,20 +391,14 @@ export class DataTypeHelpers {
     }
 
     /**
-     * Parses a time span string and returns the total minutes.
-     * Supports formats: "HH:MM:SS", "D.HH:MM:SS", or just minutes as a number.
+     * Parses a time span for C# TimeSpan.Parse compatibility.
+     * 
      * @param value TimeSpan string to parse.
-     * @returns Total minutes as a number.
+     * @returns Parsed TimeSpan components.
      */
-    public static parseTimeSpanMinutes(value: string | null | undefined): number {
+    public static parseTimeSpan(value: string | null | undefined): { days: number, hours: number, minutes: number, seconds: number } | null {
         if (this.isNullOrEmpty(value)) {
-            return 0;
-        }
-
-        // Check if it's just a number (already in minutes)
-        const numericValue = parseFloat(value!);
-        if (!isNaN(numericValue) && !value!.includes(":")) {
-            return numericValue;
+            return null;
         }
 
         let days = 0;
@@ -404,13 +418,34 @@ export class DataTypeHelpers {
         // Parse HH:MM:SS or HH:MM
         const parts = timePart.split(":");
         if (parts.length < 2) {
-            return 0;
+            return null;
         }
 
         const hours = parseInt(parts[0]) || 0;
         const minutes = parseInt(parts[1]) || 0;
-        // Seconds are ignored for minute calculation (or could round)
+        const seconds = parts.length >= 3 ? (parseInt(parts[2]) || 0) : 0;
+        if (isNaN(hours) || isNaN(minutes) || isNaN(seconds)) {
+            return null;
+        }
 
-        return (days * 24 * 60) + (hours * 60) + minutes;
+        return { days, hours, minutes, seconds };
+    }
+
+    /**
+     * Parses a time span as total minutes.
+     * 
+     * @param value TimeSpan to parse.
+     * @returns Total minutes represented by the TimeSpan.
+     */
+    public static parseTimeSpanAsMinutes(value: string | null | undefined): number | null {
+        const timeSpan = this.parseTimeSpan(value);
+        if (!timeSpan) {
+            return null;
+        }
+
+        return (timeSpan.days * 24 * 60) +
+            (timeSpan.hours * 60) +
+            timeSpan.minutes +
+            (timeSpan.seconds >= 30 ? 1 : 0);
     }
 }

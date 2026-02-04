@@ -95,6 +95,171 @@ export class MatchRules {
      * List of question numbers when the score is required to be read. If this isn't set, there are no required readings.
      */
     public RequiredScoreReading?: Set<number>;
+
+    /**
+     * Converts a MatchRules object to a human-readable string description.
+     * @param rules The MatchRules object or plain object to describe.
+     * @returns A formatted string describing the rules.
+     */
+    public static toHtmlString(rules: MatchRules): string {
+        const lines: string[] = [];
+
+        // Header line
+        lines.push(`<p className="m-0">${rules.CompetitionFullName} - ${rules.CompetitionName} (Max ${rules.QuizzersPerTeam} quizzers at table)</p><ul>`);
+
+        // Question point values
+        if (rules.PointValueCounts) {
+            const questionsDisplay = Object.entries(rules.PointValueCounts)
+                .map(([points, count]) => {
+                    const incorrectPoints = Math.floor(Number(points) * rules.IncorrectPointMultiplier);
+                    return `${count} x ${points} (${incorrectPoints} Incorrect)`;
+                })
+                .join(", ");
+            lines.push(`<li><b>Questions:</b> ${questionsDisplay}</li>`);
+        }
+
+        // Point value rules
+        if (rules.PointValueRules) {
+            for (const [pointValue, rule] of Object.entries(rules.PointValueRules)) {
+                const parts: string[] = [];
+
+                if (rule.PerHalfCount !== undefined && rule.PerHalfCount !== null) {
+                    parts.push(`at least ${rule.PerHalfCount} per half`);
+                }
+
+                if (!rule.AllowConsecutive) {
+                    parts.push("non-consecutive");
+                }
+
+                if (rule.First === rule.Last) {
+                    switch (rule.First) {
+                        case QuestionPositionRequirement.Required:
+                            parts.push("must be first and last question");
+                            break;
+                        case QuestionPositionRequirement.NotAllowed:
+                            parts.push("not first or last question");
+                            break;
+                        case QuestionPositionRequirement.Allowed:
+                        default:
+                            break;
+                    }
+                } else {
+                    switch (rule.First) {
+                        case QuestionPositionRequirement.Required:
+                            parts.push("must be first question");
+                            break;
+                        case QuestionPositionRequirement.NotAllowed:
+                            parts.push("not first question");
+                            break;
+                        case QuestionPositionRequirement.Allowed:
+                        default:
+                            break;
+                    }
+
+                    switch (rule.Last) {
+                        case QuestionPositionRequirement.Required:
+                            parts.push("must be last question");
+                            break;
+                        case QuestionPositionRequirement.NotAllowed:
+                            parts.push("not last question");
+                            break;
+                        case QuestionPositionRequirement.Allowed:
+                        default:
+                            break;
+                    }
+                }
+
+                if (parts.length > 0) {
+                    lines.push(`<li>${pointValue}-point: ${parts.join(", ")}</li>`);
+                }
+            }
+        }
+
+        // Quiz out rules helper
+        const describeQuizOutRule = (rule: QuizOutRule, questionDescription: string): string => {
+            const conditions: string[] = [];
+
+            if (rule.QuestionCount) {
+                conditions.push(`${rule.QuestionCount} ${questionDescription} question(s)`);
+            }
+
+            if (rule.FoulCount) {
+                conditions.push(`${rule.FoulCount} foul(s)`);
+            }
+
+            let description = `after ${conditions.join(" or ")}`;
+
+            if (rule.BonusPoints) {
+                description += ` and award ${rule.BonusPoints} points`;
+            }
+
+            return description;
+        };
+
+        // Quiz out rules
+        if (rules.QuizOutForward) {
+            lines.push(`<li><b>Quiz Out</b> ${describeQuizOutRule(rules.QuizOutForward, "correct")}</li>`);
+        }
+
+        if (rules.QuizOutBackward) {
+            lines.push(`<li><b>Strike Out</b> ${describeQuizOutRule(rules.QuizOutBackward, "incorrect")}</li>`);
+        }
+
+        // Contest rules
+        if (rules.ContestRules) {
+            const contestParts: string[] = [];
+
+            if (rules.ContestRules.MaxSuccessfulContests) {
+                contestParts.push(`Max ${rules.ContestRules.MaxSuccessfulContests} Successful`);
+            }
+
+            if (rules.ContestRules.MaxUnsuccessfulContests) {
+                contestParts.push(`Max ${rules.ContestRules.MaxUnsuccessfulContests} unsuccessful`);
+            }
+
+            if (rules.ContestRules.UnsuccessfulContestsWithoutFouls) {
+                contestParts.push(`${rules.ContestRules.UnsuccessfulContestsWithoutFouls} unsuccessful w/o fouls`);
+            }
+
+            lines.push(`<li><b>${rules.ContestRules.ContestLabel}:</b> ${contestParts.join(", ")}</li>`);
+        }
+
+        // Timeout and foul rules
+        if (rules.MaxTimeouts) {
+            lines.push(`<li><b>Timeouts:</b> ${rules.MaxTimeouts} per round</li>`);
+        }
+
+        if (rules.FoulPoints) {
+            lines.push(`<li><b>Fouls:</b> -${rules.FoulPoints} points</li>`);
+        }
+
+        // Timing rules
+        if (rules.TimingRules?.InitialRemainingTime) {
+            const formatTime = (value: string | null): string => {
+                const minutes = DataTypeHelpers.parseTimeSpanAsMinutes(value);
+                if (!minutes) {
+                    return "0 minutes";
+                }
+
+                return `${minutes} minute${minutes > 1 ? "s" : ""}`;
+            };
+
+            let timingLine = `<li><b>Timer counts down</b> from ${formatTime(rules.TimingRules.InitialRemainingTime)}`;
+
+            if (rules.TimingRules.WarnIfRemaining) {
+                timingLine += `, <i>warn at</i> ${formatTime(rules.TimingRules.WarnIfRemaining)}`;
+            }
+
+            if (rules.TimingRules.AlertIfRemaining) {
+                timingLine += `, <i>alert at</i> ${formatTime(rules.TimingRules.AlertIfRemaining)}`;
+            }
+
+            lines.push(timingLine);
+        }
+
+        lines.push("</ul>");
+        return lines.join("\n");
+    }
 }
 
 /**

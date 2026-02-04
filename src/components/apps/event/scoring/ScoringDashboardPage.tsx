@@ -34,6 +34,7 @@ export default function ScoringDashboardPage({ }: Props) {
                 auth={auth}
                 eventId={eventId}
                 settings={JSON.parse(JSON.stringify(currentDatabase!.Settings))}
+                defaultRules={currentDatabase!.DefaultRules || undefined}
                 onSaved={setCurrentDatabase}
                 setIsProcessing={()=> {}}
             />

@@ -19,7 +19,8 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
     } = useOutletContext<ScoringDatabaseProviderContext>();
 
     const navigate = useNavigate();
-    const [confirmed, setConfirmed] = useState<boolean>(false);
+    const [confirmedIntent, setConfirmedIntent] = useState<boolean>(false);
+    const [confirmedImpact, setConfirmedImpact] = useState<boolean>(false);
     const [isProcessing, setIsProcessing] = useState<boolean>(false);
     const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
@@ -27,6 +28,10 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
 
     const handleSave = (e: React.MouseEvent) => {
         e.preventDefault();
+
+        if (!confirmedIntent || !confirmedImpact) {
+            return;
+        }
 
         setIsProcessing(true);
         setErrorMessage(null);
@@ -89,24 +94,38 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
             </div>);
     }
 
+    const databaseName = currentDatabase?.Settings.DatabaseNameOverride || currentDatabase?.Settings.DatabaseName;
+
     return (
         <form className="space-y-6 mt-0">
             <h5 className="mb-2 mt-2">Permanently Delete Database</h5>
             <p className="subtitle mb-2 mt-2">
                 <FontAwesomeIcon icon="fas faDatabase" />
-                <span className="ml-2">{currentDatabase!.Settings.DatabaseName}</span>
+                <span className="ml-2">{databaseName}</span>
             </p>
             <div className="w-full ml-2 mt-4 mb-0">
                 <label className="label text-wrap">
                     <input
                         type="checkbox"
-                        name="cloneTeamsAndQuizzers"
                         className="checkbox checkbox-sm checkbox-info"
-                        checked={confirmed}
-                        onChange={e => setConfirmed(e.target.checked)}
+                        checked={confirmedIntent}
+                        onChange={e => setConfirmedIntent(e.target.checked)}
                     />
                     <span>
-                        I understand that deleting this database is permanent and cannot be undone.
+                        I want to delete the {databaseName} database.
+                    </span>
+                </label>
+            </div>
+            <div className="w-full ml-2 mt-4 mb-0">
+                <label className="label text-wrap">
+                    <input
+                        type="checkbox"
+                        className="checkbox checkbox-sm checkbox-info"
+                        checked={confirmedImpact}
+                        onChange={e => setConfirmedImpact(e.target.checked)}
+                    />
+                    <span>
+                        I understand that deleting the {databaseName} database is permanent and cannot be undone.
                     </span>
                 </label>
             </div>
@@ -114,7 +133,7 @@ export default function ScoringDatabaseDeletePage({ }: Props) {
                 type="button"
                 className="btn btn-sm btn-error mt-4"
                 onClick={handleSave}
-                disabled={isProcessing || !confirmed}>
+                disabled={isProcessing || !confirmedIntent || !confirmedImpact}>
                 <FontAwesomeIcon icon="fas faTrash" />
                 Permanently Delete Database
             </button>
