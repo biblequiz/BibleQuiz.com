@@ -18,6 +18,31 @@ export default defineConfig({
         ignoredDiagnosticCodes: [80006],
     },
     integrations: [
+         starlight({
+        title: 'My Docs',
+        head: [
+            // 1. Add the GA4 script tag
+            {
+            tag: 'script',
+            attrs: {
+                async: true,
+                src: 'https://www.googletagmanager.com',
+            },
+            },
+            // 2. Initialize gtag
+            // This Gootlge analytics id currently part of bellevueneighborhood.com, 
+            // but will be switched to the BibleQuiz.com GA4 property once it's fully set up and ready to go live.
+            {
+            tag: 'script',
+            content: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-45VYJD59T5');
+            `,
+                },
+        ],
+        }),
         sitemap(),
         starlight({
             title: "BibleQuiz.com",
@@ -164,3 +189,5 @@ export default defineConfig({
         plugins: [tailwindcss()],
     },
 });
+
+
