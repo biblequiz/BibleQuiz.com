@@ -97,7 +97,6 @@ export default function MatchRulesDialog({
                             backwardState={state.quizOutBackward}
                             onForwardChange={actions.setQuizOutForward}
                             onBackwardChange={actions.setQuizOutBackward}
-                            totalQuestions={state.questionCounts.count10s + state.questionCounts.count20s + state.questionCounts.count30s}
                             disabled={isReadOnly}
                         />
 

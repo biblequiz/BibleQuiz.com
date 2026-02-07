@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import type { EventReportQuizzerRankInfo } from "./EventReportSettingsSection";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { MeetRankingSortType } from "types/Meets";
 
 interface Props {
     info: EventReportQuizzerRankInfo;
     setInfo: (info: EventReportQuizzerRankInfo) => void;
     isDisabled: boolean;
 }
+
+const YEARS_IN_QUIZ_PREFIX = "years_";
 
 export default function EventReportSettingsQuizzerRankSection({
     info,
@@ -16,29 +19,40 @@ export default function EventReportSettingsQuizzerRankSection({
     const [rankByAverageCorrectPoint, setRankByAverageCorrectPoint] = useState<number | null>(info.rankByAverageCorrectPointValue);
     const [isMatchOverridesChecked, setMatchesOverridesChecked] = useState(info.matchesOverride !== null);
     const [matchesOverride, setMatchesOverride] = useState<number | null>(info.matchesOverride);
+    const [yearsInQuiz, setYearsInQuiz] = useState<MeetRankingSortType | null>(info.yearsInQuiz);
 
     const handleAveragePointValueChanged = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.checked) {
-            const parsedValue = parseInt(e.target.value);
-            const newValue = parsedValue ? parsedValue : null;
+            const rawValue = e.target.value;
+            const newYearsInQuizValue = rawValue.startsWith(YEARS_IN_QUIZ_PREFIX)
+                ? parseInt(rawValue.substring(YEARS_IN_QUIZ_PREFIX.length)) as MeetRankingSortType
+                : null;
+            const parsedValue = newYearsInQuizValue === null ? parseInt(rawValue) : null;
+            const newValue = newYearsInQuizValue === null ? (parsedValue ? parsedValue : null) : null;
+
             setRankByAverageCorrectPoint(newValue);
+            setYearsInQuiz(newYearsInQuizValue);
 
             setInfo({
                 ...info,
-                rankByAverageCorrectPointValue: newValue
+                rankByAverageCorrectPointValue: newValue,
+                yearsInQuiz: newYearsInQuizValue
             })
         }
     }
 
-    const getAveragePointRadio = (value: number | null, label: string) => (
+    const getAveragePointRadio = (
+        value: number | null,
+        label: string,
+        yearsInQuizValue: MeetRankingSortType | null = null) => (
         <div className="w-full mb-0 mt-0">
             <label className="label text-wrap">
                 <input
                     type="radio"
                     name="averagePointValue"
                     className="radio radio-sm radio-info"
-                    checked={rankByAverageCorrectPoint === value}
-                    value={value ?? 0}
+                    checked={(yearsInQuiz !== null && yearsInQuizValue === yearsInQuiz) || (yearsInQuiz === null && yearsInQuizValue === null && rankByAverageCorrectPoint === value)}
+                    value={yearsInQuizValue === null ? (value ?? 0) : YEARS_IN_QUIZ_PREFIX + yearsInQuizValue}
                     onChange={handleAveragePointValueChanged}
                 />
                 <span className="text-sm">
@@ -60,6 +74,14 @@ export default function EventReportSettingsQuizzerRankSection({
             {getAveragePointRadio(10, "Rank by 10-point questions answered correctly, then by average points, then by total quiz outs.")}
             {getAveragePointRadio(20, "Rank by 20-point questions answered correctly, then by average points, then by total quiz outs.")}
             {getAveragePointRadio(30, "Rank by 30-point questions answered correctly, then by average points, then by total quiz outs.")}
+            {getAveragePointRadio(
+                null,
+                "Group by years in quiz (descending), then rank by average points, then by total quiz outs.",
+                MeetRankingSortType.Descending)}
+            {getAveragePointRadio(
+                null,
+                "Group by years in quiz (ascending), then rank by average points, then by total quiz outs.",
+                MeetRankingSortType.Ascending)}
 
             <div className="mt-2 p-3 border border-base-500 bg-base-300 rounded-lg">
                 <div className="w-full mt-0">

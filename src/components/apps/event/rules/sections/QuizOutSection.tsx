@@ -94,7 +94,6 @@ export default function QuizOutSection({
                     questionLabel="correct"
                     idPrefix="qoForward"
                     state={forwardState}
-                    allowBonusPoints={true}
                     onChange={onForwardChange}
                     disabled={disabled}
                 />
@@ -103,7 +102,6 @@ export default function QuizOutSection({
                     questionLabel="incorrect"
                     idPrefix="qoBackward"
                     state={backwardState}
-                    allowBonusPoints={false}
                     onChange={onBackwardChange}
                     disabled={disabled}
                 />
