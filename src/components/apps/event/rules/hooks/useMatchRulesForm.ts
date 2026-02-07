@@ -81,7 +81,7 @@ export interface MatchRulesFormActions {
 function extractQuizOutState(rule: QuizOutRule): QuizOutState {
     return {
         questions: rule.QuestionCount,
-        foulsEnabled: rule.FoulCount !== undefined,
+        foulsEnabled: !!rule.FoulCount,
         fouls: rule.FoulCount ?? 3,
         bonusEnabled: rule.BonusPoints > 0,
         bonus: rule.BonusPoints || 10
@@ -90,11 +90,11 @@ function extractQuizOutState(rule: QuizOutRule): QuizOutState {
 
 function extractTimerState(timing?: TimingRules): TimerRulesState {
     return {
-        enabled: timing?.InitialRemainingTime !== undefined,
+        enabled: !!timing?.InitialRemainingTime,
         initial: DataTypeHelpers.parseTimeSpanAsMinutes(timing?.InitialRemainingTime) ?? 30,
-        warnEnabled: timing?.WarnIfRemaining !== undefined,
+        warnEnabled: !!timing?.WarnIfRemaining,
         warn: DataTypeHelpers.parseTimeSpanAsMinutes(timing?.WarnIfRemaining) ?? 5,
-        alertEnabled: timing?.AlertIfRemaining !== undefined,
+        alertEnabled: !!timing?.AlertIfRemaining,
         alert: DataTypeHelpers.parseTimeSpanAsMinutes(timing?.AlertIfRemaining) ?? 0
     };
 }
@@ -121,11 +121,11 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
     // Contest Rules
     const [contests, setContestsState] = useState<ContestRulesState>({
         contestLabel: initialRules.ContestRules.ContestLabel,
-        maxSuccessfulEnabled: initialRules.ContestRules.MaxSuccessfulContests !== undefined,
+        maxSuccessfulEnabled: !!initialRules.ContestRules.MaxSuccessfulContests,
         maxSuccessful: initialRules.ContestRules.MaxSuccessfulContests ?? 2,
-        maxUnsuccessfulEnabled: initialRules.ContestRules.MaxUnsuccessfulContests !== undefined,
+        maxUnsuccessfulEnabled: !!initialRules.ContestRules.MaxUnsuccessfulContests,
         maxUnsuccessful: initialRules.ContestRules.MaxUnsuccessfulContests ?? 3,
-        unsuccessfulFoulsEnabled: initialRules.ContestRules.UnsuccessfulContestsWithoutFouls !== undefined,
+        unsuccessfulFoulsEnabled: !!initialRules.ContestRules.UnsuccessfulContestsWithoutFouls,
         unsuccessfulFouls: initialRules.ContestRules.UnsuccessfulContestsWithoutFouls ?? 2
     });
 
@@ -199,11 +199,11 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
 
         setContestsState({
             contestLabel: rules.ContestRules.ContestLabel,
-            maxSuccessfulEnabled: rules.ContestRules.MaxSuccessfulContests !== undefined,
+            maxSuccessfulEnabled: !!rules.ContestRules.MaxSuccessfulContests,
             maxSuccessful: rules.ContestRules.MaxSuccessfulContests ?? 2,
-            maxUnsuccessfulEnabled: rules.ContestRules.MaxUnsuccessfulContests !== undefined,
+            maxUnsuccessfulEnabled: !!rules.ContestRules.MaxUnsuccessfulContests,
             maxUnsuccessful: rules.ContestRules.MaxUnsuccessfulContests ?? 3,
-            unsuccessfulFoulsEnabled: rules.ContestRules.UnsuccessfulContestsWithoutFouls !== undefined,
+            unsuccessfulFoulsEnabled: !!rules.ContestRules.UnsuccessfulContestsWithoutFouls,
             unsuccessfulFouls: rules.ContestRules.UnsuccessfulContestsWithoutFouls ?? 2
         });
 
@@ -325,7 +325,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         setTimer,
         loadRules,
         buildMatchRules,
-        validate
+        validate,
     };
 
     return [state, actions];

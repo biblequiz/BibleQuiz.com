@@ -14,11 +14,12 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
             elementId="generalRules"
             icon="fas faCog"
             title="General Match Rules"
+            titleClass="mt-4"
             defaultOpen={true}
             allowMultipleOpen={true}
         >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
-                <div className="form-control w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-0 p-2">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium">Competition Abbreviation</span>
                         <span className="label-text-alt text-error">*</span>
@@ -33,7 +34,7 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
                         required
                     />
                 </div>
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium">Full Competition Name</span>
                     </label>
@@ -46,7 +47,7 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
                         maxLength={50}
                     />
                 </div>
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium">Max Quizzers at Table</span>
                         <span className="label-text-alt text-error">*</span>
@@ -62,7 +63,7 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
                         required
                     />
                 </div>
-                <div className="form-control w-full">
+                <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium">Max Timeouts per Match</span>
                         <span className="label-text-alt text-error">*</span>

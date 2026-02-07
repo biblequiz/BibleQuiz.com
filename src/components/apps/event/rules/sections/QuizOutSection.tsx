@@ -11,48 +11,57 @@ interface QuizOutCardProps {
     disabled: boolean;
 }
 
-function QuizOutCard({ title, questionLabel, idPrefix, state, onChange, disabled }: QuizOutCardProps) {
+function QuizOutCard({
+    title,
+    questionLabel,
+    state,
+    onChange,
+    disabled }: QuizOutCardProps) {
     return (
         <div className="border border-base-300 rounded-lg p-3">
             <h4 className="font-semibold mb-2">{title}</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">{questionLabel}</span>
-                    </label>
-                    <input
-                        type="number"
-                        className="input input-sm w-24"
-                        value={state.questions}
-                        onChange={e => onChange({ questions: parseInt(e.target.value) || 0 })}
+            <div className="grid gap-4">
+                <div className="flex flex-wrap items-center gap-2 mt-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                        <label className="label">
+                            <span className="label-text text-base-content">After</span>
+                        </label>
+                        <input
+                            type="number"
+                            className="input input-sm w-auto"
+                            value={state.questions}
+                            onChange={e => onChange({ questions: parseInt(e.target.value) || 0 })}
+                            disabled={disabled}
+                            min={0}
+                            max={20}
+                            step={1}
+                        />
+                        <label className="label">
+                            <span className="label-text text-base-content">{questionLabel} question(s) or</span>
+                        </label>
+                    </div>
+                    <CheckboxNumberInput
+                        checkboxLabel="after"
+                        suffixLabel="foul(s)"
+                        checked={state.foulsEnabled}
+                        value={state.fouls}
+                        onCheckedChange={checked => onChange({ foulsEnabled: checked })}
+                        onValueChange={value => onChange({ fouls: value })}
                         disabled={disabled}
-                        min={0}
-                        max={20}
                     />
                 </div>
                 <CheckboxNumberInput
-                    id={`${idPrefix}Fouls`}
-                    checkboxLabel="or after"
-                    suffixLabel="foul(s)"
-                    checked={state.foulsEnabled}
-                    value={state.fouls}
-                    onCheckedChange={checked => onChange({ foulsEnabled: checked })}
-                    onValueChange={value => onChange({ fouls: value })}
-                    disabled={disabled}
-                />
-                <CheckboxNumberInput
-                    id={`${idPrefix}Bonus`}
                     checkboxLabel="Award"
                     suffixLabel="bonus point(s)"
                     checked={state.bonusEnabled}
                     value={state.bonus}
+                    leftIndent={6}
                     onCheckedChange={checked => onChange({ bonusEnabled: checked })}
                     onValueChange={value => onChange({ bonus: value })}
                     disabled={disabled}
                 />
             </div>
-        </div>
-    );
+        </div>);
 }
 
 interface Props {
@@ -76,22 +85,25 @@ export default function QuizOutSection({
             elementId="quizOuts"
             icon="fas faGraduationCap"
             title="Quiz Outs"
+            titleClass="mt-4"
             allowMultipleOpen={true}
         >
-            <div className="p-2 space-y-4">
+            <div className="p-2 space-y-4 mt-0">
                 <QuizOutCard
-                    title="Quiz Out Forward"
-                    questionLabel="After correct question(s)"
+                    title="Quiz Out"
+                    questionLabel="correct"
                     idPrefix="qoForward"
                     state={forwardState}
+                    allowBonusPoints={true}
                     onChange={onForwardChange}
                     disabled={disabled}
                 />
                 <QuizOutCard
-                    title="Quiz Out Backward"
-                    questionLabel="After incorrect question(s)"
+                    title="Strike Out"
+                    questionLabel="incorrect"
                     idPrefix="qoBackward"
                     state={backwardState}
+                    allowBonusPoints={false}
                     onChange={onBackwardChange}
                     disabled={disabled}
                 />

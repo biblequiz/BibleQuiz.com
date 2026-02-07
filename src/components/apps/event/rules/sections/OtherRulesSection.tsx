@@ -14,6 +14,7 @@ export default function OtherRulesSection({ state, onChange, disabled = false }:
             elementId="otherRules"
             icon="fas faSliders"
             title="Other Rules"
+            titleClass="mt-4"
             allowMultipleOpen={true}
         >
             <div className="p-2 space-y-4">
@@ -29,36 +30,34 @@ export default function OtherRulesSection({ state, onChange, disabled = false }:
                         disabled={disabled}
                         min={0}
                         max={50}
+                        step={1}
                     />
                 </div>
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text font-medium">Negative Points per Incorrect</span>
+                <div className="form-control w-full">
+                    <label className="label cursor-pointer gap-2 mt-0">
+                        <input
+                            type="radio"
+                            name="incorrectMultiplier"
+                            className="radio radio-sm radio-info"
+                            checked={state.incorrectMultiplier === "half"}
+                            onChange={() => onChange({ incorrectMultiplier: "half" })}
+                            disabled={disabled}
+                        />
+                        <span className="label-text text-base-content">Half Negative Point Value when Incorrect (e.g., -5 for incorrect 10-point question)</span>
                     </label>
-                    <div className="flex gap-4">
-                        <label className="label cursor-pointer gap-2">
-                            <input
-                                type="radio"
-                                name="incorrectMultiplier"
-                                className="radio radio-sm radio-info"
-                                checked={state.incorrectMultiplier === "half"}
-                                onChange={() => onChange({ incorrectMultiplier: "half" })}
-                                disabled={disabled}
-                            />
-                            <span className="label-text">Half Point Value</span>
-                        </label>
-                        <label className="label cursor-pointer gap-2">
-                            <input
-                                type="radio"
-                                name="incorrectMultiplier"
-                                className="radio radio-sm radio-info"
-                                checked={state.incorrectMultiplier === "full"}
-                                onChange={() => onChange({ incorrectMultiplier: "full" })}
-                                disabled={disabled}
-                            />
-                            <span className="label-text">Full Point Value</span>
-                        </label>
-                    </div>
+                </div>
+                <div className="form-control w-full">
+                    <label className="label cursor-pointer gap-2 mt-0">
+                        <input
+                            type="radio"
+                            name="incorrectMultiplier"
+                            className="radio radio-sm radio-info"
+                            checked={state.incorrectMultiplier === "full"}
+                            onChange={() => onChange({ incorrectMultiplier: "full" })}
+                            disabled={disabled}
+                        />
+                        <span className="label-text text-base-content">Negative Point Value when Incorrect (e.g., -10 for incorrect 10-point question)</span>
+                    </label>
                 </div>
             </div>
         </CollapsibleSection>

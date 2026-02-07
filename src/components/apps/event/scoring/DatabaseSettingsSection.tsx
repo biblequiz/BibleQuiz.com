@@ -89,7 +89,7 @@ export default function DatabaseSettingsSection({
         updatedSettings.DefaultMatchStartTime = defaultMatchStartTime;
         updatedSettings.DefaultMatchLengthInMinutes = defaultMatchLengthInMinutes!;
         updatedSettings.ContactInfo = contactInfo!;
-        updatedSettings.Rules = settings?.Rules ?? null;
+        updatedSettings.Rules = rules ?? settings?.Rules ?? null;
 
         setIsSaving(true);
         setSavingError(null);

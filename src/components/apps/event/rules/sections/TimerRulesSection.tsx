@@ -14,6 +14,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
             elementId="timer"
             icon="fas faStopwatch"
             title="Countdown Match Timer"
+            titleClass="mt-4"
             allowMultipleOpen={true}
         >
             <div className="p-2 space-y-4">
@@ -26,7 +27,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                             onChange={e => onChange({ enabled: e.target.checked })}
                             disabled={disabled}
                         />
-                        <span className="label-text">Start Timer in EZScore at</span>
+                        <span className="label-text text-base-content">Start Timer in EZScore at</span>
                     </label>
                     <input
                         type="number"
@@ -37,9 +38,9 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                         min={1}
                         max={180}
                     />
-                    <span className="label-text">minutes</span>
+                    <span className="label-text text-base-content">minutes</span>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-6 mt-0">
                     <div className="flex items-center gap-2 flex-wrap">
                         <label className="label cursor-pointer gap-2 p-0">
                             <input
@@ -49,7 +50,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                                 onChange={e => onChange({ warnEnabled: e.target.checked })}
                                 disabled={disabled || !state.enabled}
                             />
-                            <span className="label-text">Warn at</span>
+                            <span className="label-text text-base-content">Warn at</span>
                         </label>
                         <input
                             type="number"
@@ -62,7 +63,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                         />
                         <span className="label-text">minutes</span>
                     </div>
-                    <div className="flex items-center gap-2 flex-wrap">
+                    <div className="flex items-center gap-2 flex-wrap mt-0">
                         <label className="label cursor-pointer gap-2 p-0">
                             <input
                                 type="checkbox"
@@ -71,7 +72,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                                 onChange={e => onChange({ alertEnabled: e.target.checked })}
                                 disabled={disabled || !state.enabled}
                             />
-                            <span className="label-text">Alert at</span>
+                            <span className="label-text text-base-content">Alert at</span>
                         </label>
                         <input
                             type="number"
@@ -82,7 +83,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                             min={0}
                             max={180}
                         />
-                        <span className="label-text">minutes</span>
+                        <span className="label-text text-base-content">minutes</span>
                     </div>
                 </div>
             </div>

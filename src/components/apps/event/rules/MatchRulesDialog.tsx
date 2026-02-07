@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import type { EventInfo } from "types/EventTypes";
-import { CompetitionType, convertToCompetitionType, type MatchRules } from "types/MatchRules";
+import { type MatchRules } from "types/MatchRules";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useMatchRulesForm } from "./hooks/useMatchRulesForm";
 import GeneralRulesSection from "./sections/GeneralRulesSection";
@@ -29,7 +29,6 @@ export interface EventInfoWithTypeId extends EventInfo {
 
 export default function MatchRulesDialog({
     rules,
-    defaultType,
     defaultRules,
     onSelect,
     isReadOnly }: Props) {
@@ -37,7 +36,6 @@ export default function MatchRulesDialog({
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
 
-    const defaultCompetitionType = convertToCompetitionType(defaultType) ?? CompetitionType.JBQ;
     const [state, actions] = useMatchRulesForm(rules);
 
     const handleSave = (e: React.MouseEvent | React.FormEvent) => {
@@ -54,15 +52,10 @@ export default function MatchRulesDialog({
             return;
         }
 
-        const newRules = actions.buildMatchRules(defaultCompetitionType, rules);
+        const newRules = actions.buildMatchRules(defaultRules.Type!, rules);
 
         onSelect(newRules);
         dialogRef.current?.close();
-    };
-
-    const handleResetToDefaults = () => {
-        actions.loadRules(defaultRules);
-        // Mark as having changes since we loaded different rules
     };
 
     // Get validation error on demand for display
@@ -71,7 +64,7 @@ export default function MatchRulesDialog({
     return (
         <dialog ref={dialogRef} className="modal" open>
             <div className="modal-box w-full max-w-3xl">
-                <h3 className="font-bold text-lg">Select an Event</h3>
+                <h3 className="font-bold text-lg">Edit Rules</h3>
                 <button
                     type="button"
                     className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
@@ -104,6 +97,7 @@ export default function MatchRulesDialog({
                             backwardState={state.quizOutBackward}
                             onForwardChange={actions.setQuizOutForward}
                             onBackwardChange={actions.setQuizOutBackward}
+                            totalQuestions={state.questionCounts.count10s + state.questionCounts.count20s + state.questionCounts.count30s}
                             disabled={isReadOnly}
                         />
 
@@ -159,7 +153,7 @@ export default function MatchRulesDialog({
                             onSelect(null);
                             dialogRef.current?.close();
                         }}>
-                        Close
+                        {isReadOnly ? "Close" : "Cancel"}
                     </button>
                 </div>
             </div>

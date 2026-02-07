@@ -1,5 +1,4 @@
 interface Props {
-    id: string;
     checkboxLabel: string;
     suffixLabel?: string;
     checked: boolean;
@@ -9,13 +8,13 @@ interface Props {
     disabled?: boolean;
     min?: number;
     max?: number;
+    leftIndent?: number;
 }
 
 /**
  * Helper component for checkbox + number input pattern.
  */
 export default function CheckboxNumberInput({
-    id,
     checkboxLabel,
     suffixLabel,
     checked,
@@ -24,20 +23,20 @@ export default function CheckboxNumberInput({
     onValueChange,
     disabled = false,
     min = 0,
-    max = 99
+    max = 99,
+    leftIndent
 }: Props) {
     return (
-        <div className="flex items-center gap-2 flex-wrap">
+        <div className={`flex items-center gap-2 flex-wrap mt-0 ${leftIndent ? `pl-${leftIndent}` : ""}`}>
             <label className="label cursor-pointer gap-2 p-0">
                 <input
                     type="checkbox"
-                    id={id}
                     className="checkbox checkbox-sm checkbox-info"
                     checked={checked}
                     onChange={e => onCheckedChange(e.target.checked)}
                     disabled={disabled}
                 />
-                <span className="label-text">{checkboxLabel}</span>
+                <span className="label-text text-base-content">{checkboxLabel}</span>
             </label>
             <input
                 type="number"
@@ -48,7 +47,7 @@ export default function CheckboxNumberInput({
                 min={min}
                 max={max}
             />
-            {suffixLabel && <span className="label-text">{suffixLabel}</span>}
+            {suffixLabel && <span className="label-text text-base-content">{suffixLabel}</span>}
         </div>
     );
 }

@@ -17,6 +17,7 @@ export default function ContestRulesSection({ state, onChange, disabled = false 
             elementId="contests"
             icon="fas faGavel"
             title="Contests"
+            titleClass="mt-4"
             allowMultipleOpen={true}
         >
             <div className="p-2 space-y-4">
@@ -34,9 +35,8 @@ export default function ContestRulesSection({ state, onChange, disabled = false 
                         placeholder="e.g., Contests, Coach's Appeals"
                     />
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex flex-wrap items-center gap-2 mt-0">
                     <CheckboxNumberInput
-                        id="maxSuccessful"
                         checkboxLabel="Allow up to"
                         suffixLabel={`successful ${contestLabelLower}`}
                         checked={state.maxSuccessfulEnabled}
@@ -46,8 +46,7 @@ export default function ContestRulesSection({ state, onChange, disabled = false 
                         disabled={disabled}
                     />
                     <CheckboxNumberInput
-                        id="maxUnsuccessful"
-                        checkboxLabel="Allow up to"
+                        checkboxLabel="and up to"
                         suffixLabel={`unsuccessful ${contestLabelLower}`}
                         checked={state.maxUnsuccessfulEnabled}
                         value={state.maxUnsuccessful}
@@ -56,7 +55,6 @@ export default function ContestRulesSection({ state, onChange, disabled = false 
                         disabled={disabled}
                     />
                     <CheckboxNumberInput
-                        id="unsuccessfulFouls"
                         checkboxLabel="Award foul after"
                         suffixLabel={`unsuccessful ${contestLabelLower}`}
                         checked={state.unsuccessfulFoulsEnabled}

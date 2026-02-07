@@ -16,11 +16,12 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
             elementId="questionCounts"
             icon="fas faListOl"
             title="Question Counts"
+            titleClass="mt-4"
             allowMultipleOpen={true}
         >
             <div className="p-2">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div className="form-control">
+                    <div className="form-control mt-0">
                         <label className="label">
                             <span className="label-text">10 point Questions</span>
                         </label>
@@ -32,9 +33,10 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
                             disabled={disabled}
                             min={0}
                             max={20}
+                            step={1}
                         />
                     </div>
-                    <div className="form-control">
+                    <div className="form-control mt-0">
                         <label className="label">
                             <span className="label-text">20 point Questions</span>
                         </label>
@@ -46,9 +48,10 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
                             disabled={disabled}
                             min={0}
                             max={20}
+                            step={1}
                         />
                     </div>
-                    <div className="form-control">
+                    <div className="form-control mt-0">
                         <label className="label">
                             <span className="label-text">30 point Questions</span>
                         </label>
@@ -60,9 +63,10 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
                             disabled={disabled}
                             min={0}
                             max={20}
+                            step={1}
                         />
                     </div>
-                    <div className="form-control">
+                    <div className="form-control mt-0">
                         <label className="label">
                             <span className="label-text font-semibold">Total Questions</span>
                         </label>
