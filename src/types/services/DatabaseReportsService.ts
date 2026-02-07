@@ -1,6 +1,7 @@
 ﻿import type { AuthManager } from "../AuthManager";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { ScoringHtmlReport } from './DatabasesService';
+import type { MeetRankingSortType } from "types/Meets";
 
 const URL_ROOT_PATH = "/api";
 
@@ -328,6 +329,11 @@ export abstract class EventReportBase {
      * Filter for 30-point values of quizzers. If this value is null, 30-point questions shouldn't be included.
      */
     public Quizzer30Pointers!: EventReportPointValueFilter | null;
+
+    /**
+     * Value indicating whether to rank quizzers by number of years the quizzer has been quizzing. Missing values will be added to the end.
+     */
+    public QuizzersRankYearsInQuiz!: MeetRankingSortType | null;
 
     /**
      * Overrides the number of matches.

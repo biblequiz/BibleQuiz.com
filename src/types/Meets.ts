@@ -628,6 +628,26 @@ export class MeetRanking {
      * Value indicating whether to rank by quizzer's average correct value. This will take precedence over QuizzersRankByAverageCorrectPointValue.
      */
     public QuizzersRankByAverageCorrect: boolean;
+
+    /**
+     * Value indicating whether to rank quizzers by years in quiz.
+     */
+    public QuizzersRankByYearsInQuiz?: MeetRankingSortType;
+}
+
+/**
+ * Sort type for ranking.
+ */
+export enum MeetRankingSortType {
+    /**
+     * Sort in ascending order. Any missing value will be at the end.
+     */
+    Ascending = 0,
+
+    /**
+     * Sort in descending order. Any missing value will be at the end.
+     */
+    Descending = 1
 }
 
 /**
