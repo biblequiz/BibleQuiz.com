@@ -55,7 +55,7 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
             <div className="w-full mt-0 mb-0 flex flex-wrap gap-2">
                 <button
                     type="button"
-                    className="btn btn-success m-0"
+                    className="btn btn-success btn-sm m-0"
                     onClick={importFromRegistrations}
                     disabled={isDownloading || isImportingFile || isSelectingEvent}>
                     <FontAwesomeIcon icon="fas faUserPen" />
@@ -63,7 +63,7 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
                 </button>
                 <button
                     type="button"
-                    className="btn btn-primary m-0"
+                    className="btn btn-primary btn-sm m-0"
                     onClick={() => {
                         setIsImportingFile(true);
                         setDownloadError(null);
@@ -74,7 +74,7 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
                 </button>
                 <button
                     type="button"
-                    className="btn btn-secondary m-0"
+                    className="btn btn-secondary btn-sm m-0"
                     onClick={() => {
                         setIsSelectingEvent(true);
                         setDownloadError(null);
