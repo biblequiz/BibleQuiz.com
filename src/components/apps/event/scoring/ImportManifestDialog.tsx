@@ -46,7 +46,8 @@ function isTeamChanged(manifestTeam: Team, existingTeam: Team): boolean {
         manifestTeam.City !== existingTeam.City ||
         manifestTeam.State !== existingTeam.State ||
         manifestTeam.League !== existingTeam.League ||
-        manifestTeam.FullChurchName !== existingTeam.FullChurchName;
+        manifestTeam.RemoteChurchId !== existingTeam.RemoteChurchId ||
+        manifestTeam.RemotePersistentId !== existingTeam.RemotePersistentId;
 }
 
 /**
@@ -57,7 +58,9 @@ function isQuizzerChanged(manifestQuizzer: Quizzer, existingQuizzer: Quizzer): b
         manifestQuizzer.TeamId !== existingQuizzer.TeamId ||
         manifestQuizzer.Grade !== existingQuizzer.Grade ||
         manifestQuizzer.DateOfBirth !== existingQuizzer.DateOfBirth ||
-        manifestQuizzer.YearsQuizzing !== existingQuizzer.YearsQuizzing;
+        manifestQuizzer.YearsQuizzing !== existingQuizzer.YearsQuizzing ||
+        manifestQuizzer.RemotePersonId !== existingQuizzer.RemotePersonId ||
+        manifestQuizzer.RemoteChurchId !== existingQuizzer.RemoteChurchId;
 }
 
 export default function ImportManifestDialog({

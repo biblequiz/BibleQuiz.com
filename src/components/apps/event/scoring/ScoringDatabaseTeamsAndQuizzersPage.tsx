@@ -17,8 +17,9 @@ import { sharedDirtyWindowState } from "utils/SharedState";
 import TeamsAndQuizzersTable from "./teamsAndQuizzers/TeamsAndQuizzersTable";
 import TeamDialog from "./teamsAndQuizzers/TeamDialog";
 import QuizzerDialog from "./teamsAndQuizzers/QuizzerDialog";
-import StatsDialog, { type StatsType } from "./teamsAndQuizzers/StatsDialog";
+import StatsDialog, { type QuizzerStats, type TeamStats } from "./teamsAndQuizzers/StatsDialog";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import type { OnlineDatabaseMeetSettings } from "types/services/AstroDatabasesService";
 
 interface Props {
 }
@@ -30,6 +31,13 @@ interface PendingChanges {
     addedOrUpdatedQuizzers: Map<number, Quizzer>;
     addedQuizzerIds: Set<number>;
     removedQuizzerIds: Set<number>;
+}
+
+interface ConfirmDialogProps {
+    title: string;
+    message: string;
+    action?: () => void;
+    alertOnly?: boolean;
 }
 
 export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
@@ -64,16 +72,11 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const [quizzerDialogOpen, setQuizzerDialogOpen] = useState(false);
     const [editingQuizzer, setEditingQuizzer] = useState<Quizzer | null>(null);
     const [defaultTeamIdForQuizzer, setDefaultTeamIdForQuizzer] = useState<number | undefined>(undefined);
-    const [statsDialogOpen, setStatsDialogOpen] = useState(false);
-    const [statsDialogType, setStatsDialogType] = useState<StatsType>("team");
-    const [statsDialogId, setStatsDialogId] = useState(0);
-    const [statsDialogName, setStatsDialogName] = useState("");
+    const [statsDialogTeam, setStatsDialogTeam] = useState<TeamStats | null>(null);
+    const [statsDialogQuizzer, setStatsDialogQuizzer] = useState<QuizzerStats | null>(null);
 
     // Confirmation dialog state
-    const [confirmDialogOpen, setConfirmDialogOpen] = useState(false);
-    const [confirmDialogTitle, setConfirmDialogTitle] = useState("");
-    const [confirmDialogMessage, setConfirmDialogMessage] = useState("");
-    const [confirmDialogAction, setConfirmDialogAction] = useState<(() => void) | null>(null);
+    const [confirmDialog, setConfirmDialog] = useState<ConfirmDialogProps | undefined>();
 
     // Pending changes tracking
     const [pendingChanges, setPendingChanges] = useState<PendingChanges>({
@@ -129,19 +132,6 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         sharedDirtyWindowState.set(true);
     };
 
-    // Check if a quizzer can be dragged (not in a meet with scores)
-    const canDragQuizzer = useCallback((quizzer: Quizzer): boolean => {
-        if (!currentTeamsAndQuizzers) return true;
-
-        const quizzerManifest = currentTeamsAndQuizzers.Quizzers[quizzer.Id];
-        if (!quizzerManifest) return true;
-
-        const meetIds = Object.keys(quizzerManifest.MeetTeamIds || {}).map(Number);
-        const meetsWithScores = currentTeamsAndQuizzers.MeetIdsWithScores || [];
-
-        return !meetIds.some(id => meetsWithScores.includes(id));
-    }, [currentTeamsAndQuizzers]);
-
     // Get merged teams (original + pending changes)
     const getMergedTeams = useCallback(() => {
         if (!currentTeamsAndQuizzers) return {};
@@ -176,6 +166,19 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         });
 
         return merged;
+    }, [currentTeamsAndQuizzers, pendingChanges]);
+
+    const getAllPeopleIds = useCallback(() => {
+        const ids: string[] = [];
+        const merged = getMergedQuizzers();
+        for (const quizzer of Object.values(merged)) {
+            const id = quizzer.Quizzer.RemotePersonId;
+            if (id) {
+                ids.push(id);
+            }
+        }
+
+        return ids;
     }, [currentTeamsAndQuizzers, pendingChanges]);
 
     // Team handlers
@@ -215,37 +218,55 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     };
 
     const handleDeleteTeam = (team: Team) => {
-        setConfirmDialogTitle("Delete Team");
-        setConfirmDialogMessage(`Are you sure you want to delete "${team.Name}"? This will also remove all quizzers from this team.`);
-        setConfirmDialogAction(() => () => {
-            setPendingChanges(prev => {
-                const updated = { ...prev };
+        const teamQuizzers = Object.values(getMergedQuizzers())
+            .filter(q => q.Quizzer.TeamId === team.Id);
 
-                // If this was a newly added team, just remove it from added
-                if (prev.addedTeamIds.has(team.Id)) {
-                    updated.addedTeamIds = new Set(prev.addedTeamIds);
-                    updated.addedTeamIds.delete(team.Id);
-                    updated.addedOrUpdatedTeams = new Map(prev.addedOrUpdatedTeams);
-                    updated.addedOrUpdatedTeams.delete(team.Id);
-                } else {
-                    updated.removedTeamIds = new Set(prev.removedTeamIds);
-                    updated.removedTeamIds.add(team.Id);
+        setConfirmDialog({
+            title: "Delete Team",
+            alertOnly: teamQuizzers.length > 0,
+            message: teamQuizzers.length > 0
+                ? `You cannot delete ${team.Name} because there are quizzers assigned to this team. Please move or delete the quizzers before deleting the team.`
+                : `Are you sure you want to delete "${team.Name}"? This will also remove all quizzers from this team.`,
+            action: () => {
+                if (teamQuizzers.length > 0) {
+                    setConfirmDialog(undefined);
+                    return;
                 }
 
-                return updated;
-            });
+                setPendingChanges(prev => {
+                    const updated = { ...prev };
 
-            markDirty();
-            setConfirmDialogOpen(false);
+                    // If this was a newly added team, just remove it from added
+                    if (prev.addedTeamIds.has(team.Id)) {
+                        updated.addedTeamIds = new Set(prev.addedTeamIds);
+                        updated.addedTeamIds.delete(team.Id);
+                        updated.addedOrUpdatedTeams = new Map(prev.addedOrUpdatedTeams);
+                        updated.addedOrUpdatedTeams.delete(team.Id);
+                    } else {
+                        updated.removedTeamIds = new Set(prev.removedTeamIds);
+                        updated.removedTeamIds.add(team.Id);
+                    }
+
+                    return updated;
+                });
+
+                markDirty();
+                setConfirmDialog(undefined);
+            }
         });
-        setConfirmDialogOpen(true);
     };
 
     const handleShowTeamStats = (team: Team) => {
-        setStatsDialogType("team");
-        setStatsDialogId(team.Id);
-        setStatsDialogName(team.Name);
-        setStatsDialogOpen(true);
+        const teamMeets = new Set<number>(currentTeamsAndQuizzers!.Teams[team.Id]?.MeetIds || []);
+        const meets: Record<number, { meet: OnlineDatabaseMeetSettings, hasScores: boolean }> = {};
+        const meetsWithScores = new Set<number>(currentTeamsAndQuizzers?.MeetIdsWithScores || []);
+        for (const meet of currentDatabase!.Meets) {
+            if (teamMeets.has(meet.Id)) {
+                meets[meet.Id] = { meet: meet, hasScores: meetsWithScores.has(meet.Id) };
+            }
+        }
+
+        setStatsDialogTeam({ team: team, meets: meets });
     };
 
     // Quizzer handlers
@@ -291,37 +312,55 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     };
 
     const handleDeleteQuizzer = (quizzer: Quizzer) => {
-        setConfirmDialogTitle("Delete Quizzer");
-        setConfirmDialogMessage(`Are you sure you want to delete "${quizzer.Name}"?`);
-        setConfirmDialogAction(() => () => {
-            setPendingChanges(prev => {
-                const updated = { ...prev };
+        setConfirmDialog(
+            {
+                title: "Delete Quizzer",
+                message: `Are you sure you want to delete "${quizzer.Name}"?`,
+                action: () => {
+                    setPendingChanges(prev => {
+                        const updated = { ...prev };
 
-                // If this was a newly added quizzer, just remove it from added
-                if (prev.addedQuizzerIds.has(quizzer.Id)) {
-                    updated.addedQuizzerIds = new Set(prev.addedQuizzerIds);
-                    updated.addedQuizzerIds.delete(quizzer.Id);
-                    updated.addedOrUpdatedQuizzers = new Map(prev.addedOrUpdatedQuizzers);
-                    updated.addedOrUpdatedQuizzers.delete(quizzer.Id);
-                } else {
-                    updated.removedQuizzerIds = new Set(prev.removedQuizzerIds);
-                    updated.removedQuizzerIds.add(quizzer.Id);
+                        // If this was a newly added quizzer, just remove it from added
+                        if (prev.addedQuizzerIds.has(quizzer.Id)) {
+                            updated.addedQuizzerIds = new Set(prev.addedQuizzerIds);
+                            updated.addedQuizzerIds.delete(quizzer.Id);
+                            updated.addedOrUpdatedQuizzers = new Map(prev.addedOrUpdatedQuizzers);
+                            updated.addedOrUpdatedQuizzers.delete(quizzer.Id);
+                        } else {
+                            updated.removedQuizzerIds = new Set(prev.removedQuizzerIds);
+                            updated.removedQuizzerIds.add(quizzer.Id);
+                        }
+
+                        return updated;
+                    });
+
+                    markDirty();
+                    setConfirmDialog(undefined);
                 }
-
-                return updated;
             });
-
-            markDirty();
-            setConfirmDialogOpen(false);
-        });
-        setConfirmDialogOpen(true);
     };
 
     const handleShowQuizzerStats = (quizzer: Quizzer) => {
-        setStatsDialogType("quizzer");
-        setStatsDialogId(quizzer.Id);
-        setStatsDialogName(quizzer.Name);
-        setStatsDialogOpen(true);
+        const teams = getMergedTeams();
+        const quizzerData = getMergedQuizzers()[quizzer.Id];
+        const quizzerMeets: Record<number, { meet: OnlineDatabaseMeetSettings, teamName: string | undefined, hasScores: boolean }> = {};
+        const meetsWithScores = new Set<number>(currentTeamsAndQuizzers?.MeetIdsWithScores || []);
+        for (const meetId in quizzerData?.MeetTeamIds ?? []) {
+            const teamId = quizzerData.MeetTeamIds[meetId];
+            const hasScores = meetsWithScores.has(Number(meetId));
+            quizzerMeets[meetId] = {
+                meet: currentDatabase!.Meets.find(m => m.Id === Number(meetId))!,
+                teamName: teamId === null
+                    ? undefined
+                    : teams[teamId]?.Team?.Name,
+                hasScores: hasScores
+            };
+        }
+
+        setStatsDialogQuizzer({
+            quizzer: quizzer,
+            meets: quizzerMeets
+        });
     };
 
     const handleMoveQuizzer = (quizzerId: number, _fromTeamId: number | undefined, toTeamId: number) => {
@@ -369,9 +408,8 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
             setCurrentTeamsAndQuizzers(updated);
             setIsSaved(true);
             resetPendingChanges();
-        } catch (error: unknown) {
-            const errorMessage = error instanceof Error ? error.message : "Failed to save changes.";
-            setSaveError(errorMessage);
+        } catch (error: any) {
+            setSaveError(error.message || error.Message || "Failed to save changes.");
         } finally {
             setIsSaving(false);
         }
@@ -405,19 +443,20 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     return (
         <div className="space-y-6">
             <ScoringDatabaseScoreKeepAlert isScoreKeep={currentDatabase?.Settings.IsScoreKeep} />
-            <ScoringDatabaseTeamsAndQuizzerImportButtons
-                auth={auth}
-                season={eventSeason}
-                eventId={eventId}
-                eventRegionId={eventRegionId}
-                eventDistrictId={eventDistrictId}
-                eventType={eventType}
-                databaseId={databaseId!}
-                setDownloadedManifest={m => {
-                    setDownloadedManifest(m);
-                    setIsPreparingManifest(true);
-                }}
-            />
+            {!currentDatabase!.Settings.IsScoreKeep && (
+                <ScoringDatabaseTeamsAndQuizzerImportButtons
+                    auth={auth}
+                    season={eventSeason}
+                    eventId={eventId}
+                    eventRegionId={eventRegionId}
+                    eventDistrictId={eventDistrictId}
+                    eventType={eventType}
+                    databaseId={databaseId!}
+                    setDownloadedManifest={m => {
+                        setDownloadedManifest(m);
+                        setIsPreparingManifest(true);
+                    }}
+                />)}
             {isPreparingManifest && (
                 <div className="flex items-center justify-center gap-2 mt-4">
                     <span className="loading loading-spinner loading-md"></span>
@@ -450,9 +489,12 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
 
             {saveError && (
                 <div role="alert" className="alert alert-error mt-0 w-full">
-                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    <FontAwesomeIcon icon="fas faTriangleExclamation" />
                     <div>
-                        <b>Save Error: </b> {saveError}
+                        <span className="mb-0"><b>Save Error: </b></span>
+                        <div
+                            className="mt-0"
+                            dangerouslySetInnerHTML={{ __html: saveError }} />
                     </div>
                 </div>
             )}
@@ -472,7 +514,6 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 isSaving={isSaving}
                 isReadOnly={currentDatabase!.Settings.IsScoreKeep}
                 hasChanges={isDirty}
-                canDragQuizzer={canDragQuizzer}
                 onAddTeam={handleAddTeam}
                 onEditTeam={handleEditTeam}
                 onDeleteTeam={handleDeleteTeam}
@@ -490,7 +531,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 <TeamDialog
                     regionId={eventRegionId}
                     districtId={eventDistrictId}
-                    
+
                     churches={currentTeamsAndQuizzers!.Churches}
                     onDiscoveredChurch={church => currentTeamsAndQuizzers!.Churches[church.Id!] = church}
 
@@ -503,36 +544,41 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     }}
                 />)}
 
-            <QuizzerDialog
-                quizzer={editingQuizzer}
-                teams={getTeamsList()}
-                defaultTeamId={defaultTeamIdForQuizzer}
-                isOpen={quizzerDialogOpen}
-                isReadOnly={currentDatabase!.Settings.IsScoreKeep}
-                onSave={handleSaveQuizzer}
-                onCancel={() => {
-                    setQuizzerDialogOpen(false);
-                    setEditingQuizzer(null);
-                }}
-            />
+            {quizzerDialogOpen && (
+                <QuizzerDialog
+                    churches={currentTeamsAndQuizzers!.Churches}
+                    people={currentTeamsAndQuizzers!.People}
+                    quizzer={editingQuizzer}
+                    teams={getTeamsList()}
+                    excludePeopleId={getAllPeopleIds()}
+                    defaultTeamId={defaultTeamIdForQuizzer}
+                    isReadOnly={currentDatabase!.Settings.IsScoreKeep}
+                    onSave={handleSaveQuizzer}
+                    onCancel={() => {
+                        setQuizzerDialogOpen(false);
+                        setEditingQuizzer(null);
+                    }}
+                />)}
 
-            <StatsDialog
-                type={statsDialogType}
-                id={statsDialogId}
-                name={statsDialogName}
-                isOpen={statsDialogOpen}
-                onClose={() => setStatsDialogOpen(false)}
-            />
+            {(statsDialogTeam || statsDialogQuizzer) && (
+                <StatsDialog
+                    team={statsDialogTeam}
+                    quizzer={statsDialogQuizzer}
+                    onClose={() => {
+                        setStatsDialogTeam(null);
+                        setStatsDialogQuizzer(null);
+                    }}
+                />)}
 
-            {confirmDialogOpen && (
+            {confirmDialog && (
                 <ConfirmationDialog
-                    title={confirmDialogTitle}
-                    yesLabel="Delete"
-                    onYes={() => confirmDialogAction?.()}
-                    noLabel="Cancel"
-                    onNo={() => setConfirmDialogOpen(false)}
+                    title={confirmDialog.title}
+                    yesLabel={confirmDialog.alertOnly ? "Close" : "Delete"}
+                    onYes={() => confirmDialog.action?.()}
+                    noLabel={confirmDialog.alertOnly ? undefined : "Cancel"}
+                    onNo={confirmDialog.alertOnly ? undefined : () => setConfirmDialog(undefined)}
                 >
-                    <p className="py-4">{confirmDialogMessage}</p>
+                    <p className="py-4">{confirmDialog.message}</p>
                 </ConfirmationDialog>
             )}
         </div>);

@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import ChurchLookup, { ChurchSearchTips, type SelectedChurch } from "components/ChurchLookup";
+import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
 import type { AddingChurchState } from "components/ChurchSettingsDialog";
 import ChurchSettingsDialog from "components/ChurchSettingsDialog";
 import type { Church } from "types/services/ChurchesService";
@@ -35,6 +35,8 @@ export default function TeamDialog({
     const [league, setLeague] = useState<string | undefined>(undefined);
     const [selectedChurchId, setSelectedChurchId] = useState<string | undefined>(undefined);
     const [church, setChurch] = useState<Church | undefined>(undefined);
+    const [churchName, setChurchName] = useState<string | undefined>(undefined);
+    const [isDefaultChurchName, setIsDefaultChurchName] = useState<boolean>(true);
     const [addingChurchState, setAddingChurchState] = useState<AddingChurchState | null>(null);
     const [isHidden, setIsHidden] = useState<boolean>(false);
 
@@ -44,13 +46,14 @@ export default function TeamDialog({
     useEffect(() => {
 
         const newChurchId = team?.RemoteChurchId || (knownChurches.length > 0 ? knownChurches[0].Id! : undefined);
+        const newChurch = newChurchId ? churches[newChurchId] : undefined;
 
         setName(team?.Name);
         setLeague(team?.League);
         setSelectedChurchId(newChurchId);
-        setChurch(newChurchId
-            ? churches[newChurchId] || undefined
-            : undefined);
+        setChurch(newChurch);
+        setChurchName(team?.Church);
+        setIsDefaultChurchName(!team?.Church || !newChurch || newChurch.Name === team?.Church);
         setIsHidden(team?.IsHidden || false);
         setAddingChurchState(null);
     }, [team]);
@@ -68,16 +71,18 @@ export default function TeamDialog({
         updatedTeam.Name = name!.trim();
         updatedTeam.League = league!.trim().toUpperCase();
         updatedTeam.RemoteChurchId = church!.Id!;
-        updatedTeam.Church = church!.Name!;
+        updatedTeam.Church = churchName!.trim();
         updatedTeam.City = church!.PhysicalAddress?.City || undefined;
         updatedTeam.State = church!.PhysicalAddress?.State || undefined;
         updatedTeam.IsHidden = isHidden;
 
         onSave(updatedTeam);
+        dialogRef.current?.close();
     };
 
     const handleClose = () => {
         onCancel();
+        dialogRef.current?.close();
     };
 
     return (
@@ -106,7 +111,7 @@ export default function TeamDialog({
                                 type="text"
                                 className="input input-bordered w-full"
                                 placeholder="Team Name"
-                                value={name}
+                                value={name ?? ""}
                                 maxLength={80}
                                 onChange={e => setName(e.target.value)}
                                 required
@@ -123,7 +128,7 @@ export default function TeamDialog({
                                 type="text"
                                 className="input input-bordered w-full"
                                 placeholder="e.g., A, B, C"
-                                value={league}
+                                value={league ?? ""}
                                 onChange={e => setLeague(e.target.value)}
                                 maxLength={1}
                                 pattern="[A-Z]"
@@ -140,7 +145,7 @@ export default function TeamDialog({
                             </label>
                             <select
                                 className="select select-bordered w-full mt-0"
-                                value={selectedChurchId}
+                                value={selectedChurchId ?? ""}
                                 onChange={e => {
                                     const targetValue = e.target.value;
                                     const newValue = DataTypeHelpers.isNullOrEmpty(targetValue)
@@ -150,6 +155,7 @@ export default function TeamDialog({
                                     setSelectedChurchId(newValue);
                                     setChurch(newValue ? churches[newValue] : undefined);
                                 }}
+                                disabled={isReadOnly}
                                 required
                             >
                                 {knownChurches.map(church => (
@@ -172,8 +178,33 @@ export default function TeamDialog({
                                 onSelect={(_church, info) => {
                                     setChurch(info);
                                     onDiscoveredChurch(info);
+
+                                    if (isDefaultChurchName) {
+                                        setChurchName(info.Name);
+                                    }
                                 }}
                             />)}
+
+                        <div className="form-control w-full mt-0">
+                            <label className="label">
+                                <span className="label-text font-medium">Church Display Name</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full"
+                                placeholder="Church Name"
+                                value={churchName ?? ""}
+                                maxLength={80}
+                                onChange={e => {
+                                    const newName = e.target.value;
+                                    setIsDefaultChurchName(church && church.Name === newName ? true : false);
+                                    setChurchName(newName);
+                                }}
+                                required
+                                disabled={isReadOnly}
+                            />
+                        </div>
 
                         <div className="form-control mt-2">
                             <label className="label cursor-pointer justify-start gap-3">

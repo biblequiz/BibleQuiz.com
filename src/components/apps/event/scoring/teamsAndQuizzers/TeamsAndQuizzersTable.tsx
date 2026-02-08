@@ -8,7 +8,6 @@ interface Props {
     quizzers: Record<number, OnlineTeamsAndQuizzersQuizzer>;
     isReadOnly: boolean;
     isSaving: boolean;
-    canDragQuizzer?: (quizzer: Quizzer) => boolean;
     onEditTeam: (team: Team) => void;
     onDeleteTeam: (team: Team) => void;
     onAddTeam: () => void;
@@ -27,7 +26,6 @@ export default function TeamsAndQuizzersTable({
     quizzers,
     isReadOnly,
     isSaving,
-    canDragQuizzer,
     onEditTeam,
     onDeleteTeam,
     onAddTeam,
@@ -87,7 +85,7 @@ export default function TeamsAndQuizzersTable({
 
     // Drag and drop handlers
     const handleDragStart = (e: React.DragEvent, quizzer: Quizzer) => {
-        if (canDragQuizzer && !canDragQuizzer(quizzer)) {
+        if (isReadOnly) {
             e.preventDefault();
             return;
         }
@@ -124,16 +122,6 @@ export default function TeamsAndQuizzersTable({
 
         setDraggedQuizzerId(null);
         setDragOverTeamId(null);
-    };
-
-    const formatDate = (dateStr?: string): string => {
-        if (!dateStr) return "";
-        try {
-            const date = new Date(dateStr);
-            return date.toLocaleDateString();
-        } catch {
-            return dateStr;
-        }
     };
 
     return (
@@ -210,7 +198,6 @@ export default function TeamsAndQuizzersTable({
                                         quizzers={teamQuizzers}
                                         isDragOver={isDragOver}
                                         draggedQuizzerId={draggedQuizzerId}
-                                        canDragQuizzer={canDragQuizzer}
                                         onToggleExpand={() => toggleTeamExpansion(team.Id)}
                                         onEdit={() => onEditTeam(team)}
                                         onDelete={() => onDeleteTeam(team)}
@@ -224,7 +211,6 @@ export default function TeamsAndQuizzersTable({
                                         onDragOver={(e) => handleDragOver(e, team.Id)}
                                         onDragLeave={handleDragLeave}
                                         onDrop={(e) => handleDrop(e, team.Id)}
-                                        formatDate={formatDate}
                                     />
                                 );
                             })}
@@ -244,7 +230,6 @@ interface TeamRowProps {
     draggedQuizzerId: number | null;
     isReadOnly: boolean;
     disabled: boolean;
-    canDragQuizzer?: (quizzer: Quizzer) => boolean;
     onToggleExpand: () => void;
     onEdit: () => void;
     onDelete: () => void;
@@ -258,7 +243,6 @@ interface TeamRowProps {
     onDragOver: (e: React.DragEvent) => void;
     onDragLeave: () => void;
     onDrop: (e: React.DragEvent) => void;
-    formatDate: (dateStr?: string) => string;
 }
 
 function TeamRow({
@@ -269,7 +253,6 @@ function TeamRow({
     draggedQuizzerId,
     isReadOnly,
     disabled,
-    canDragQuizzer,
     onToggleExpand,
     onEdit,
     onDelete,
@@ -282,8 +265,7 @@ function TeamRow({
     onDragEnd,
     onDragOver,
     onDragLeave,
-    onDrop,
-    formatDate
+    onDrop
 }: TeamRowProps) {
     return (
         <>
@@ -378,13 +360,12 @@ function TeamRow({
                                             <th className="w-8"></th>
                                             <th>Name</th>
                                             <th>Years Quizzing</th>
-                                            <th>Date of Birth</th>
                                             <th className="w-32 text-center">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         {quizzers.map(quizzer => {
-                                            const isDraggable = !canDragQuizzer || canDragQuizzer(quizzer);
+                                            const isDraggable = !isReadOnly;
                                             const isDragging = draggedQuizzerId === quizzer.Id;
 
                                             return (
@@ -417,7 +398,6 @@ function TeamRow({
                                                         )}
                                                     </td>
                                                     <td>{quizzer.YearsQuizzing ?? "None"}</td>
-                                                    <td>{quizzer.DateOfBirth ? formatDate(quizzer.DateOfBirth) : "None"}</td>
                                                     <td>
                                                         <div className="flex justify-center gap-1">
                                                             <button
