@@ -130,8 +130,8 @@ export default function TeamsAndQuizzersTable({
         <div className="space-y-2">
             {/* Header with Add Team button */}
             <div className="flex justify-between items-center mb-0 mt-0">
-                <h3 className="text-lg font-semibold">Teams & Quizzers</h3>
-                <div className="flex justify-right gap-2">
+                <h3 className="text-lg font-semibold w-full md:w-auto">Teams & Quizzers</h3>
+                <div className="flex flex-wrap justify-end gap-2 mt-0">
                     <label className="label cursor-pointer gap-2 mt-0">
                         <input
                             type="checkbox"
