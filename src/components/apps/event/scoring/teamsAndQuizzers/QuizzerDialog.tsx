@@ -18,6 +18,7 @@ export default function QuizzerDialog({ quizzer, teams, defaultTeamId, isOpen, i
 
     const [name, setName] = useState("");
     const [dateOfBirth, setDateOfBirth] = useState("");
+    const [yearsOfQuizzing, setYearsOfQuizzing] = useState<number | undefined>(undefined);
     const [teamId, setTeamId] = useState<number | undefined>(undefined);
     const [isHidden, setIsHidden] = useState(false);
 
@@ -57,6 +58,7 @@ export default function QuizzerDialog({ quizzer, teams, defaultTeamId, isOpen, i
             : new Quizzer();
 
         updatedQuizzer.Name = name.trim();
+        updatedQuizzer.YearsQuizzing = yearsOfQuizzing;
         updatedQuizzer.DateOfBirth = dateOfBirth || undefined;
         updatedQuizzer.TeamId = teamId;
         updatedQuizzer.IsHidden = isHidden;
@@ -113,6 +115,30 @@ export default function QuizzerDialog({ quizzer, teams, defaultTeamId, isOpen, i
                             onChange={e => setName(e.target.value)}
                             disabled={isReadOnly}
                             required
+                        />
+                    </div>
+
+                    {/* Years of Quizzing */}
+                    <div className="form-control w-full">
+                        <label className="label">
+                            <span className="label-text font-semibold">Years of Quizzing</span>
+                        </label>
+                        <input
+                            type="number"
+                            className="input input-bordered w-full"
+                            value={yearsOfQuizzing}
+                            onChange={e => {
+                                const newValue = parseInt(e.target.value);
+                                if (isNaN(newValue) || newValue < 0) {
+                                    setYearsOfQuizzing(undefined);
+                                } else {
+                                    setYearsOfQuizzing(newValue);
+                                }
+                            }}
+                            min={0}
+                            max={30}
+                            step={1}
+                            disabled={isReadOnly}
                         />
                     </div>
 

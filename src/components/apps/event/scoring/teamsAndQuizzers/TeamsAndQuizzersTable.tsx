@@ -376,6 +376,7 @@ function TeamRow({
                                         <tr>
                                             <th className="w-8"></th>
                                             <th>Name</th>
+                                            <th>Years Quizzing</th>
                                             <th>Date of Birth</th>
                                             <th className="w-32 text-center">Actions</th>
                                         </tr>
@@ -414,6 +415,7 @@ function TeamRow({
                                                             <span className="badge badge-ghost badge-sm ml-2">Hidden</span>
                                                         )}
                                                     </td>
+                                                    <td>{quizzer.YearsQuizzing ?? "None"}</td>
                                                     <td>{quizzer.DateOfBirth ? formatDate(quizzer.DateOfBirth) : "None"}</td>
                                                     <td>
                                                         <div className="flex justify-center gap-1">
