@@ -18,31 +18,7 @@ export default defineConfig({
         ignoredDiagnosticCodes: [80006],
     },
     integrations: [
-         starlight({
-        title: 'My Docs',
-        head: [
-            // 1. Add the GA4 script tag
-            {
-            tag: 'script',
-            attrs: {
-                async: true,
-                src: 'https://www.googletagmanager.com',
-            },
-            },
-            // 2. Initialize gtag
-            // This Gootlge analytics id currently part of bellevueneighborhood.com, 
-            // but will be switched to the BibleQuiz.com GA4 property once it's fully set up and ready to go live.
-            {
-            tag: 'script',
-            content: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-45VYJD59T5');
-            `,
-                },
-        ],
-        }),
+         
         sitemap(),
         starlight({
             title: "BibleQuiz.com",
@@ -71,6 +47,24 @@ export default defineConfig({
                 replacesTitle: true,
             },
             customCss: ["./src/styles/custom.css", "./src/styles/global.css"],
+            head: [
+                {
+                    tag: "script",
+                    attrs: {
+                        async: true,
+                        src: "https://www.googletagmanager.com/gtag/js?id=G-45VYJD59T5",
+                    },
+                },
+                {
+                    tag: "script",
+                    content: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-45VYJD59T5');
+            `,
+                },
+            ],
             sidebar: [
                 {
                     label: "Upcoming & Live Events",
@@ -150,23 +144,6 @@ export default defineConfig({
                 SocialIcons: "./src/components/SocialIcons.astro",
             },
             lastUpdated: true,
-            pagefind: {
-                ranking: {
-                    termSimilarity: 0.6,
-                },
-            },
-            pagination: false,
-            plugins: [
-                starlightLinksValidator({
-                    errorOnRelativeLinks: false,
-                }),
-                starlightBlog({
-                    title: "News",
-                    prefix: "news",
-                    postCount: 10,
-                    recentPostCount: 10,
-                }),
-            ],
         }),
         react(),
     ],
