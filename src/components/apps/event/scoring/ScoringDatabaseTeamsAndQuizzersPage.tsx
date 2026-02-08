@@ -421,6 +421,17 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 VersionId: currentTeamsAndQuizzers.VersionId
             };
 
+            // Ensure the original names are set.
+            for (const team of Object.values(changes.AddedOrUpdatedTeams)) {
+                if (!team.OriginalName) {
+                    team.OriginalName = team.Name;
+                }
+
+                if (!team.OriginalChurchName) {
+                    team.OriginalChurchName = team.Church;
+                }
+            }
+
             const updated = await AstroTeamsAndQuizzersService.updateTeamsAndQuizzers(
                 auth,
                 eventId,

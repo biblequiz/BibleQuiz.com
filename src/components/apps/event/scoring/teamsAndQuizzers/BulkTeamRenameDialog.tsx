@@ -174,7 +174,6 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
             finalName: preview.team.OriginalName || preview.team.Name,
             finalChurch: preview.team.OriginalChurchName || preview.team.Church || '',
         })));
-        setSelectedTags([]);
     };
 
     // Add tag to scheme
@@ -188,12 +187,23 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
         }
 
         // If adding a data tag and there's already at least one tag, auto-add a comma separator first
+        // But only if the last tag is not already a separator
         if (config.type === 'data' && selectedTags.length > 0) {
-            setSelectedTags([
-                ...selectedTags,
-                { id: 'comma', instanceId: nextInstanceId++ },
-                { id: tagId, instanceId: nextInstanceId++ }
-            ]);
+            const lastTag = selectedTags[selectedTags.length - 1];
+            const lastTagConfig = getTagConfig(lastTag.id);
+            const lastTagIsSeparator = lastTagConfig?.type === 'separator';
+
+            if (lastTagIsSeparator) {
+                // Last tag is a separator, just add the data tag
+                setSelectedTags([...selectedTags, { id: tagId, instanceId: nextInstanceId++ }]);
+            } else {
+                // Last tag is data, add comma then data tag
+                setSelectedTags([
+                    ...selectedTags,
+                    { id: 'comma', instanceId: nextInstanceId++ },
+                    { id: tagId, instanceId: nextInstanceId++ }
+                ]);
+            }
         } else {
             setSelectedTags([...selectedTags, { id: tagId, instanceId: nextInstanceId++ }]);
         }
@@ -244,11 +254,19 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
 
     // Save changes
     const handleSave = () => {
-        const renamedTeams = teamPreviews.map(preview => ({
-            ...preview.team,
-            Name: preview.finalName.trim(),
-            Church: preview.finalChurch.trim(),
-        }));
+        const renamedTeams = teamPreviews.map(preview => {
+            const newValue = { ...preview.team };
+            if (!newValue.OriginalName) {
+                newValue.OriginalName = newValue.Name;
+            }
+
+            if (!newValue.OriginalChurchName) {
+                newValue.OriginalChurchName = newValue.Church;
+            }
+
+            return newValue;
+        });
+
         onSave(renamedTeams);
         dialogRef.current?.close();
     };
