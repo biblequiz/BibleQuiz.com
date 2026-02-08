@@ -9,6 +9,7 @@ import EventReportSettingsQuizzerRankSection from "./EventReportSettingsQuizzerR
 import EventReportSettingsQuizzerPointFilterSection from "./EventReportSettingsQuizzerPointFilterSection";
 import EventReportSettingsMeetSelector from "./EventReportSettingsMeetSelector";
 import EventReportViewDialog from "../EventReportViewDialog";
+import type { MeetRankingSortType } from "types/Meets";
 
 interface Props {
     auth: AuthManager;
@@ -40,6 +41,7 @@ export interface EventReportGeneralInfo {
 export interface EventReportQuizzerRankInfo {
     rankByAverageCorrectPointValue: number | null;
     matchesOverride: number | null;
+    yearsInQuiz: MeetRankingSortType | null;
 }
 
 export interface EventReportQuizzerPointFilterInfo {
@@ -79,7 +81,10 @@ export default function EventReportSettingsSection({
     }));
     const [quizzerRank, setQuizzerRank] = useState(() => ({
         rankByAverageCorrectPointValue: report?.QuizzersRankByAverageCorrectPointValue ?? null,
-        matchesOverride: report?.MatchesOverride ?? null
+        matchesOverride: report?.MatchesOverride ?? null,
+        yearsInQuiz: report && report.QuizzersRankYearsInQuiz !== null && report.QuizzersRankYearsInQuiz !== undefined
+            ? report.QuizzersRankYearsInQuiz
+            : null
     } as EventReportQuizzerRankInfo));
     const [quizzerPointFilter, setQuizzerPointFilter] = useState(() => ({
         averagePoints: report?.QuizzerAveragePoints ?? null,

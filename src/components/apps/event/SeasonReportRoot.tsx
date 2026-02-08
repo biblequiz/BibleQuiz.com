@@ -220,7 +220,11 @@ function buildSidebar(
         let databaseEntries: ReactSidebarEntry[];
         if (databases) {
             databaseEntries = databases.map(
-                db => buildDatabaseEntry(rootEventPath, db.DatabaseId, db.DatabaseName.replaceAll('_', ' '), navigate));
+                db => buildDatabaseEntry(
+                    rootEventPath,
+                    db.DatabaseId,
+                    db.DisplayNameOverride ?? db.DatabaseName.replaceAll('_', ' '),
+                    navigate));
 
             databaseEntries.push({
                 type: 'link' as const,

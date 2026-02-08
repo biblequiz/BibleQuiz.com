@@ -3,6 +3,7 @@ import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { EventInfo as ServiceEventInfo } from "./EventsService";
 import type { EventInfo as TypeEventInfo } from "types/EventTypes";
+import type { OnlineTeamsAndQuizzersImportManifest } from "./AstroTeamsAndQuizzersService";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -55,6 +56,24 @@ export class AstroEventsService {
       "GET",
       RemoteServiceUrlBase.Registration,
       `${URL_ROOT_PATH}/summaries/${eventId}`);
+  }
+  /**
+   * Generates a manifest of the teams and quizzers from this event's registrations.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * 
+   * @returns Manifest for importing.
+   */
+  public static getTeamsAndQuizzersManifest(
+    auth: AuthManager,
+    eventId: string): Promise<OnlineTeamsAndQuizzersImportManifest> {
+
+    return RemoteServiceUtility.executeHttpRequest<OnlineTeamsAndQuizzersImportManifest>(
+      auth,
+      "GET",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/teamsAndQuizzers/${eventId}`);
   }
 }
 

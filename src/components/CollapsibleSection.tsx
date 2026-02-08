@@ -26,7 +26,23 @@ interface Props {
     defaultOpen?: boolean;
 };
 
-export default function CollapsibleSection({ pageId, elementId, icon, iconChildren, title, titleClass, subtitle, subtitleClass, titleChildren, isPrinting, printSectionIndex, forceOpen, children, badges, allowMultipleOpen, defaultOpen }: Props) {
+export default function CollapsibleSection({
+    pageId,
+    elementId,
+    icon,
+    iconChildren,
+    title,
+    titleClass,
+    subtitle,
+    subtitleClass,
+    titleChildren,
+    isPrinting,
+    printSectionIndex,
+    forceOpen,
+    children,
+    badges,
+    allowMultipleOpen,
+    defaultOpen }: Props) {
 
     const titleElement = (
         <>

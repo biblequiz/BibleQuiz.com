@@ -165,6 +165,11 @@ export class OnlineDatabaseSummary {
   public readonly QuizzerCount!: number;
 
   /**
+   * Default rules for the current event's type.
+   */
+  public readonly DefaultRules!: MatchRules | null;
+
+  /**
    * Display settings for meets.
    */
   public readonly Meets!: OnlineDatabaseMeetSettings[];

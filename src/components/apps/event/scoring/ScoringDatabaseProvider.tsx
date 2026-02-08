@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { AstroDatabasesService, type OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { currentDatabaseSummaries } from "../EventRoot";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
 }
@@ -14,6 +15,10 @@ export interface ScoringDatabaseProviderContext {
     rootEventUrl: string;
     rootUrl: string;
     eventId: string;
+    eventType: string;
+    eventSeason: number;
+    eventRegionId: string | null;
+    eventDistrictId: string | null;
     databaseId: string | null;
 
     currentDatabase: OnlineDatabaseSummary | null;
@@ -27,6 +32,7 @@ export default function ScoringDatabaseProvider({ }: Props) {
     const context = useOutletContext<EventProviderContext>();
     const auth = context.auth;
     const eventId = context.eventId;
+    const eventType = context.info!.TypeId;
     const databaseId = urlParameters.databaseId || null;
     const rootUrl = `${context.rootUrl}/scoring/databases/${databaseId || ""}`;
 
@@ -104,6 +110,10 @@ export default function ScoringDatabaseProvider({ }: Props) {
             rootEventUrl: context.rootUrl,
             rootUrl: rootUrl,
             eventId: eventId,
+            eventType: eventType,
+            eventRegionId: context.info!.RegionId,
+            eventDistrictId: context.info!.DistrictId,
+            eventSeason: DataTypeHelpers.getSeasonFromDate(context.info!.StartDate),
             databaseId: databaseId,
 
             currentDatabase: currentDatabase,

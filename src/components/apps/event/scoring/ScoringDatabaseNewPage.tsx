@@ -6,7 +6,6 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import { OnlineDatabaseSettings } from "types/services/AstroDatabasesService";
 import type { EventProviderContext } from "../EventProvider";
 import { sharedDirtyWindowState } from "utils/SharedState";
-import { set } from "date-fns";
 
 interface Props {
 }
@@ -104,8 +103,8 @@ export default function ScoringDatabaseNewPage({ }: Props) {
 
                             const clone = database.Settings;
                             clone.DatabaseId = null;
-                            clone.DatabaseName += "_Clone";
-                            clone.DatabaseNameOverride = null;
+                            clone.DatabaseNameOverride = `${clone.DatabaseNameOverride ?? clone.DatabaseName.replace('_', ' ')} (Copy)`;
+                            clone.DatabaseName = null!;
 
                             setClonedSettings(clone);
 
@@ -173,6 +172,7 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                     <DatabaseSettingsSection
                         auth={auth}
                         eventId={eventId}
+                        eventType={info!.TypeId}
                         cloneEventId={cloneEventId}
                         cloneDatabaseId={cloneDatabaseId}
                         cloneTeamsAndQuizzers={cloneTeamsAndQuizzers}

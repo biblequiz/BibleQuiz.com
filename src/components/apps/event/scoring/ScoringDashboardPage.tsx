@@ -22,6 +22,7 @@ export default function ScoringDashboardPage({ }: Props) {
     const {
         auth,
         eventId,
+        eventType,
         currentDatabase,
         setCurrentDatabase,
         rootUrl } = useOutletContext<ScoringDatabaseProviderContext>();
@@ -33,9 +34,11 @@ export default function ScoringDashboardPage({ }: Props) {
             <DatabaseSettingsSection
                 auth={auth}
                 eventId={eventId}
+                eventType={eventType}
                 settings={JSON.parse(JSON.stringify(currentDatabase!.Settings))}
+                defaultRules={currentDatabase!.DefaultRules || undefined}
                 onSaved={setCurrentDatabase}
-                setIsProcessing={()=> {}}
+                setIsProcessing={() => { }}
             />
             <div className="divider mt-0 mb-2" />
             <div className="flex flex-wrap gap-2 mt-2">
