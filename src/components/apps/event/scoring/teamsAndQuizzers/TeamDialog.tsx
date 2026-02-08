@@ -1,47 +1,64 @@
 import { useRef, useState, useEffect } from "react";
 import { Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
+import type { AddingChurchState } from "components/ChurchSettingsDialog";
+import ChurchSettingsDialog from "components/ChurchSettingsDialog";
+import type { Church } from "types/services/ChurchesService";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
+    regionId: string | null;
+    districtId: string | null;
+    churches: Record<string, Church>;
     team: Team | null;
-    isOpen: boolean;
     isReadOnly: boolean;
     onSave: (team: Team) => void;
     onCancel: () => void;
+    onDiscoveredChurch: (church: Church) => void;
 }
 
-export default function TeamDialog({ team, isOpen, isReadOnly, onSave, onCancel }: Props) {
+export default function TeamDialog({
+    regionId,
+    districtId,
+    churches,
+    team,
+    isReadOnly,
+    onSave,
+    onCancel,
+    onDiscoveredChurch }: Props) {
+
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
 
-    const [name, setName] = useState("");
-    const [league, setLeague] = useState("");
-    const [church, setChurch] = useState("");
-    const [isHidden, setIsHidden] = useState(false);
+    const [name, setName] = useState<string | undefined>(undefined);
+    const [league, setLeague] = useState<string | undefined>(undefined);
+    const [selectedChurchId, setSelectedChurchId] = useState<string | undefined>(undefined);
+    const [church, setChurch] = useState<Church | undefined>(undefined);
+    const [churchName, setChurchName] = useState<string | undefined>(undefined);
+    const [isDefaultChurchName, setIsDefaultChurchName] = useState<boolean>(true);
+    const [addingChurchState, setAddingChurchState] = useState<AddingChurchState | null>(null);
+    const [isHidden, setIsHidden] = useState<boolean>(false);
 
-    // Load team data when dialog opens
-    useEffect(() => {
-        if (isOpen && team) {
-            setName(team.Name || "");
-            setLeague(team.League || "");
-            setChurch(team.Church || "");
-            setIsHidden(team.IsHidden || false);
-        } else if (isOpen && !team) {
-            // Reset for new team
-            setName("");
-            setLeague("");
-            setChurch("");
-            setIsHidden(false);
-        }
-    }, [isOpen, team]);
+    const knownChurches = Object.values(churches)
+        .sort((a, b) => a.Name.localeCompare(b.Name));
 
     useEffect(() => {
-        if (isOpen) {
-            dialogRef.current?.showModal();
-        } else {
-            dialogRef.current?.close();
-        }
-    }, [isOpen]);
+
+        const newChurchId = team
+            ? team.RemoteChurchId ?? undefined
+            : knownChurches.length > 0 ? knownChurches[0].Id! : undefined;
+        const newChurch = newChurchId ? churches[newChurchId] : undefined;
+
+        setName(team?.Name);
+        setLeague(team?.League);
+        setSelectedChurchId(newChurchId);
+        setChurch(newChurch);
+        setChurchName(team?.Church);
+        setIsDefaultChurchName(!team?.Church || !newChurch || newChurch.Name === team?.Church);
+        setIsHidden(team?.IsHidden || false);
+        setAddingChurchState(null);
+    }, [team]);
 
     const handleSave = (e: React.MouseEvent | React.FormEvent) => {
         e.preventDefault();
@@ -53,131 +70,193 @@ export default function TeamDialog({ team, isOpen, isReadOnly, onSave, onCancel 
         const updatedTeam: Team = team
             ? { ...team }
             : new Team();
-
-        updatedTeam.Name = name.trim();
-        updatedTeam.League = league.trim() ? league.trim().substring(0, 1).toUpperCase() : undefined;
-        updatedTeam.Church = church.trim() || undefined;
+        updatedTeam.Name = name!.trim();
+        updatedTeam.League = league!.trim().toUpperCase();
+        updatedTeam.RemoteChurchId = church!.Id!;
+        updatedTeam.Church = churchName!.trim();
+        updatedTeam.City = church!.PhysicalAddress?.City || undefined;
+        updatedTeam.State = church!.PhysicalAddress?.State || undefined;
         updatedTeam.IsHidden = isHidden;
 
         onSave(updatedTeam);
+        dialogRef.current?.close();
     };
 
     const handleClose = () => {
         onCancel();
+        dialogRef.current?.close();
     };
 
-    if (!isOpen) {
-        return null;
-    }
-
     return (
-        <dialog ref={dialogRef} className="modal" onClose={handleClose}>
-            <div className="modal-box w-full max-w-lg">
-                <h3 className="font-bold text-lg">
-                    {team ? "Edit Team" : "Add Team"}
-                </h3>
-                <button
-                    type="button"
-                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-                    onClick={handleClose}
-                >
-                    ✕
-                </button>
-
-                <form ref={formRef} className="mt-4 space-y-4" onSubmit={handleSave}>
-                    {/* Name */}
-                    <div className="form-control w-full">
-                        <label className="label">
-                            <span className="label-text font-semibold">Name *</span>
-                        </label>
-                        <input
-                            type="text"
-                            className="input input-bordered w-full"
-                            placeholder="Team name"
-                            value={name}
-                            onChange={e => setName(e.target.value)}
-                            required
-                            disabled={isReadOnly}
-                        />
-                    </div>
-
-                    {/* League */}
-                    <div className="form-control w-full">
-                        <label className="label">
-                            <span className="label-text font-semibold">League</span>
-                        </label>
-                        <input
-                            type="text"
-                            className="input input-bordered w-full"
-                            placeholder="e.g., A, B, C"
-                            value={league}
-                            onChange={e => setLeague(e.target.value)}
-                            maxLength={1}
-                            disabled={isReadOnly}
-                        />
-                        <label className="label">
-                            <span className="label-text-alt">Single letter (A, B, C, etc.)</span>
-                        </label>
-                    </div>
-
-                    {/* Church Lookup Placeholder */}
-                    <div className="form-control w-full">
-                        <label className="label">
-                            <span className="label-text font-semibold">Church</span>
-                        </label>
-                        <div className="p-3 border border-dashed border-base-300 rounded-lg bg-base-200">
-                            <div className="flex items-center gap-2 text-base-content/60">
-                                <FontAwesomeIcon icon="fas faChurch" />
-                                <span className="text-sm italic">Church Lookup will be added here</span>
-                            </div>
-                        </div>
-                        <input
-                            type="text"
-                            className="input input-bordered w-full mt-2"
-                            placeholder="Church name (temporary field)"
-                            value={church}
-                            onChange={e => setChurch(e.target.value)}
-                            disabled={isReadOnly}
-                        />
-                    </div>
-
-                    {/* Hidden */}
-                    <div className="form-control">
-                        <label className="label cursor-pointer justify-start gap-3">
-                            <input
-                                type="checkbox"
-                                className="checkbox"
-                                checked={isHidden}
-                                onChange={e => setIsHidden(e.target.checked)}
-                                disabled={isReadOnly}
-                            />
-                            <span className="label-text">Hidden</span>
-                        </label>
-                    </div>
-                </form>
-
-                <div className="modal-action">
-                    {!isReadOnly && (
-                        <button
-                            type="button"
-                            className="btn btn-primary"
-                            onClick={handleSave}
-                        >
-                            <FontAwesomeIcon icon="fas faSave" />
-                            Save
-                        </button>)}
+        <>
+            <dialog ref={dialogRef} className="modal" onClose={handleClose} open>
+                <div className="modal-box w-full max-w-2xl">
+                    <h3 className="font-bold text-lg">
+                        {team ? "Edit Team" : "Add Team"}
+                    </h3>
                     <button
                         type="button"
-                        className="btn btn-ghost"
+                        className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-0"
                         onClick={handleClose}
                     >
-                        {isReadOnly ? "Close" : "Cancel"}
+                        ✕
                     </button>
-                </div>
-            </div>
-            <form method="dialog" className="modal-backdrop">
-                <button onClick={handleClose}>close</button>
-            </form>
-        </dialog>
+
+                    <form ref={formRef} className="mt-4 space-y-4" onSubmit={handleSave}>
+
+                        <div className="form-control w-full mt-0">
+                            <label className="label">
+                                <span className="label-text font-medium">Team Name</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full"
+                                placeholder="Team Name"
+                                value={name ?? ""}
+                                maxLength={80}
+                                onChange={e => setName(e.target.value)}
+                                required
+                                disabled={isReadOnly}
+                            />
+                        </div>
+
+                        <div className="form-control w-full mt-0">
+                            <label className="label">
+                                <span className="label-text font-semibold">Division Abbreviation</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full"
+                                placeholder="e.g., A, B, C"
+                                value={league ?? ""}
+                                onChange={e => setLeague(e.target.value)}
+                                maxLength={1}
+                                pattern="[A-Z]"
+                                title="Single uppercase alphabetic character"
+                                required
+                                disabled={isReadOnly}
+                            />
+                        </div>
+
+                        <div className="form-control w-full">
+                            <label className="label">
+                                <span className="label-text font-semibold">Church</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
+                            <select
+                                className="select select-bordered w-full mt-0"
+                                value={selectedChurchId ?? ""}
+                                onChange={e => {
+                                    const targetValue = e.target.value;
+                                    const newValue = DataTypeHelpers.isNullOrEmpty(targetValue)
+                                        ? undefined
+                                        : targetValue;
+
+                                    setSelectedChurchId(newValue);
+                                    setChurch(newValue ? churches[newValue] : undefined);
+                                }}
+                                disabled={isReadOnly}
+                                required
+                            >
+                                {knownChurches.map(church => (
+                                    <option key={`church_${church.Id}`} value={church.Id!}>
+                                        {church.Name}
+                                    </option>
+                                ))}
+                                <option value="">Other</option>
+                            </select>
+                        </div>
+
+                        {!selectedChurchId && (
+                            <ChurchLookup
+                                regionId={regionId ?? undefined}
+                                districtId={districtId ?? undefined}
+                                showTips={ChurchSearchTips.None}
+                                subtitle="Selecting a church helps deduplicate when generating reports."
+                                required={true}
+                                disabled={isReadOnly}
+                                allowAdd={{ authorizeChurch: false, onAdding: setAddingChurchState }}
+                                onSelect={(_church, info) => {
+                                    setChurch(info);
+                                    onDiscoveredChurch(info);
+
+                                    if (isDefaultChurchName) {
+                                        setChurchName(info.Name);
+                                    }
+                                }}
+                            />)}
+
+                        <div className="form-control w-full mt-2">
+                            <label className="label">
+                                <span className="label-text font-medium">Church Display Name</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full"
+                                placeholder="Church Name"
+                                value={churchName ?? ""}
+                                maxLength={80}
+                                onChange={e => {
+                                    const newName = e.target.value;
+                                    setIsDefaultChurchName(church && church.Name === newName ? true : false);
+                                    setChurchName(newName);
+                                }}
+                                required
+                                disabled={isReadOnly}
+                            />
+                        </div>
+
+                        <div className="form-control mt-2">
+                            <label className="label cursor-pointer justify-start gap-3">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox"
+                                    checked={isHidden}
+                                    onChange={e => setIsHidden(e.target.checked)}
+                                    disabled={isReadOnly}
+                                />
+                                <span className="label-text text-sm">
+                                    Hide Team from scheduling in divisions.
+                                </span>
+                            </label>
+                        </div>
+                    </form>
+
+                    <div className="modal-action mt-0">
+                        {!isReadOnly && (
+                            <button
+                                type="button"
+                                className="btn btn-sm btn-primary mt-0"
+                                onClick={handleSave}
+                            >
+                                <FontAwesomeIcon icon="fas faSave" />
+                                Save
+                            </button>)}
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-secondary mt-0"
+                            onClick={handleClose}
+                        >
+                            {isReadOnly ? "Close" : "Cancel"}
+                        </button>
+                    </div>
+                </div >
+                <form method="dialog" className="modal-backdrop">
+                    <button onClick={handleClose}>Close</button>
+                </form>
+            </dialog >
+            {addingChurchState && (
+                <ChurchSettingsDialog
+                    title="Add Church"
+                    regionId={regionId ?? undefined}
+                    districtId={districtId ?? undefined}
+                    addState={addingChurchState}
+                    onSave={() => setAddingChurchState(null)}
+                />)
+            }
+        </>
     );
 }

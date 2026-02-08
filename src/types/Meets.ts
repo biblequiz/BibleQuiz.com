@@ -210,11 +210,6 @@ export class Team {
     public TotalQuizzerId?: number;
 
     /**
-     * Full name of the church.
-     */
-    public FullChurchName?: string;
-
-    /**
      * Name of the church for the team.
      */
     public Church?: string;
@@ -238,6 +233,16 @@ export class Team {
      * Contact information for the coach.
      */
     public Coach: ContactInfo;
+
+    /**
+     * Original Name when the team was registered.
+     */
+    public OriginalName: string | null | undefined;
+
+    /**
+     * Original Church when the team was registered.
+     */
+    public OriginalChurchName: string | null | undefined;
 
     /**
      * The default positions for seating the quizzers. Maps position ids to quizzer ids.
@@ -282,7 +287,7 @@ export class Quizzer {
     constructor() {
         this.Id = 0;
         this.Name = "";
-        this.DuplicateRemotePersonIds = new Set<string>();
+        this.DuplicateRemotePersonIds = [];
         this.IsHidden = false;
     }
 
@@ -334,7 +339,7 @@ export class Quizzer {
     /**
      * Set of RemotePersonId that also refer to this quizzer.
      */
-    public DuplicateRemotePersonIds: Set<string>;
+    public DuplicateRemotePersonIds: string[];
 
     /**
      * Value indicating whether the quizzer should be hidden.
@@ -359,7 +364,7 @@ export class Official {
         this.Id = 0;
         this.Name = "";
         this.YearsOfExperience = 0;
-        this.DuplicateRemotePersonIds = new Set<string>();
+        this.DuplicateRemotePersonIds = [];
         this.IsYouth = false;
         this.IsCertified = false;
         this.IsPicked = false;
@@ -419,7 +424,7 @@ export class Official {
     /**
      * Set of RemotePersonId that also refer to this official.
      */
-    public DuplicateRemotePersonIds: Set<string>;
+    public DuplicateRemotePersonIds: string[];
 
     /**
      * Value indicating whether this official is a youth.

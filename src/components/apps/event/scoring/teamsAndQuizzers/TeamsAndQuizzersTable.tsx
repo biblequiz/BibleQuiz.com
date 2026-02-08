@@ -8,10 +8,10 @@ interface Props {
     quizzers: Record<number, OnlineTeamsAndQuizzersQuizzer>;
     isReadOnly: boolean;
     isSaving: boolean;
-    canDragQuizzer?: (quizzer: Quizzer) => boolean;
     onEditTeam: (team: Team) => void;
     onDeleteTeam: (team: Team) => void;
     onAddTeam: () => void;
+    onBulkRename: () => void;
     onEditQuizzer: (quizzer: Quizzer) => void;
     onDeleteQuizzer: (quizzer: Quizzer) => void;
     onAddQuizzer: (teamId: number) => void;
@@ -27,10 +27,10 @@ export default function TeamsAndQuizzersTable({
     quizzers,
     isReadOnly,
     isSaving,
-    canDragQuizzer,
     onEditTeam,
     onDeleteTeam,
     onAddTeam,
+    onBulkRename,
     onEditQuizzer,
     onDeleteQuizzer,
     onAddQuizzer,
@@ -87,7 +87,7 @@ export default function TeamsAndQuizzersTable({
 
     // Drag and drop handlers
     const handleDragStart = (e: React.DragEvent, quizzer: Quizzer) => {
-        if (canDragQuizzer && !canDragQuizzer(quizzer)) {
+        if (isReadOnly) {
             e.preventDefault();
             return;
         }
@@ -126,22 +126,12 @@ export default function TeamsAndQuizzersTable({
         setDragOverTeamId(null);
     };
 
-    const formatDate = (dateStr?: string): string => {
-        if (!dateStr) return "";
-        try {
-            const date = new Date(dateStr);
-            return date.toLocaleDateString();
-        } catch {
-            return dateStr;
-        }
-    };
-
     return (
         <div className="space-y-2">
             {/* Header with Add Team button */}
             <div className="flex justify-between items-center mb-0 mt-0">
-                <h3 className="text-lg font-semibold">Teams & Quizzers</h3>
-                <div className="flex justify-right gap-2">
+                <h3 className="text-lg font-semibold w-full md:w-auto">Teams & Quizzers</h3>
+                <div className="flex flex-wrap justify-end gap-2 mt-0">
                     <label className="label cursor-pointer gap-2 mt-0">
                         <input
                             type="checkbox"
@@ -172,16 +162,25 @@ export default function TeamsAndQuizzersTable({
                                 <FontAwesomeIcon icon="fas faPlus" />
                                 Add Team
                             </button>
+                            <button
+                                type="button"
+                                className="btn btn-secondary btn-sm mt-0"
+                                onClick={onBulkRename}
+                                disabled={isSaving}
+                            >
+                                <FontAwesomeIcon icon="fas faPenToSquare" />
+                                Bulk Rename
+                            </button>
                         </>)}
                 </div>
             </div>
 
             {/* Teams table */}
             {sortedTeams.length === 0 ? (
-                <div className="alert alert-info">
-                    <FontAwesomeIcon icon="fas faInfoCircle" />
-                    <span>No teams found. Click "Add Team" to create one.</span>
-                </div>
+                <p className="text-sm text-base-content/60 text-center italic mt-4 mb-4">
+                    No teams found. Click the <FontAwesomeIcon icon="fas faPlus" /> Add Team button
+                    to add a team.
+                </p>
             ) : (
                 <div className="overflow-x-auto">
                     <table className="table table-zebra w-full text-sm">
@@ -210,7 +209,6 @@ export default function TeamsAndQuizzersTable({
                                         quizzers={teamQuizzers}
                                         isDragOver={isDragOver}
                                         draggedQuizzerId={draggedQuizzerId}
-                                        canDragQuizzer={canDragQuizzer}
                                         onToggleExpand={() => toggleTeamExpansion(team.Id)}
                                         onEdit={() => onEditTeam(team)}
                                         onDelete={() => onDeleteTeam(team)}
@@ -224,7 +222,6 @@ export default function TeamsAndQuizzersTable({
                                         onDragOver={(e) => handleDragOver(e, team.Id)}
                                         onDragLeave={handleDragLeave}
                                         onDrop={(e) => handleDrop(e, team.Id)}
-                                        formatDate={formatDate}
                                     />
                                 );
                             })}
@@ -244,7 +241,6 @@ interface TeamRowProps {
     draggedQuizzerId: number | null;
     isReadOnly: boolean;
     disabled: boolean;
-    canDragQuizzer?: (quizzer: Quizzer) => boolean;
     onToggleExpand: () => void;
     onEdit: () => void;
     onDelete: () => void;
@@ -258,7 +254,6 @@ interface TeamRowProps {
     onDragOver: (e: React.DragEvent) => void;
     onDragLeave: () => void;
     onDrop: (e: React.DragEvent) => void;
-    formatDate: (dateStr?: string) => string;
 }
 
 function TeamRow({
@@ -269,7 +264,6 @@ function TeamRow({
     draggedQuizzerId,
     isReadOnly,
     disabled,
-    canDragQuizzer,
     onToggleExpand,
     onEdit,
     onDelete,
@@ -282,8 +276,7 @@ function TeamRow({
     onDragEnd,
     onDragOver,
     onDragLeave,
-    onDrop,
-    formatDate
+    onDrop
 }: TeamRowProps) {
     return (
         <>
@@ -367,8 +360,9 @@ function TeamRow({
                     <td colSpan={5} className="bg-base-200 p-0">
                         <div className="p-0 pl-16 mt-0">
                             {quizzers.length === 0 ? (
-                                <p className="text-sm text-base-content/60 italic">
-                                    No quizzers on this team.
+                                <p className="text-sm text-base-content/60 text-center italic mt-4 mb-4">
+                                    No quizzers have been added for this team yet. Click
+                                    the <FontAwesomeIcon icon="fas faPlus" /> button to add a quizzer.
                                 </p>
                             ) : (
                                 <table className="table table-sm w-full">
@@ -377,13 +371,12 @@ function TeamRow({
                                             <th className="w-8"></th>
                                             <th>Name</th>
                                             <th>Years Quizzing</th>
-                                            <th>Date of Birth</th>
                                             <th className="w-32 text-center">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         {quizzers.map(quizzer => {
-                                            const isDraggable = !canDragQuizzer || canDragQuizzer(quizzer);
+                                            const isDraggable = !isReadOnly;
                                             const isDragging = draggedQuizzerId === quizzer.Id;
 
                                             return (
@@ -416,7 +409,6 @@ function TeamRow({
                                                         )}
                                                     </td>
                                                     <td>{quizzer.YearsQuizzing ?? "None"}</td>
-                                                    <td>{quizzer.DateOfBirth ? formatDate(quizzer.DateOfBirth) : "None"}</td>
                                                     <td>
                                                         <div className="flex justify-center gap-1">
                                                             <button
