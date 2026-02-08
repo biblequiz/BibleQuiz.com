@@ -45,7 +45,9 @@ export default function TeamDialog({
 
     useEffect(() => {
 
-        const newChurchId = team?.RemoteChurchId || (knownChurches.length > 0 ? knownChurches[0].Id! : undefined);
+        const newChurchId = team
+            ? team.RemoteChurchId ?? undefined
+            : knownChurches.length > 0 ? knownChurches[0].Id! : undefined;
         const newChurch = newChurchId ? churches[newChurchId] : undefined;
 
         setName(team?.Name);
@@ -172,6 +174,7 @@ export default function TeamDialog({
                                 regionId={regionId ?? undefined}
                                 districtId={districtId ?? undefined}
                                 showTips={ChurchSearchTips.None}
+                                subtitle="Selecting a church helps deduplicate when generating reports."
                                 required={true}
                                 disabled={isReadOnly}
                                 allowAdd={{ authorizeChurch: false, onAdding: setAddingChurchState }}
@@ -185,7 +188,7 @@ export default function TeamDialog({
                                 }}
                             />)}
 
-                        <div className="form-control w-full mt-0">
+                        <div className="form-control w-full mt-2">
                             <label className="label">
                                 <span className="label-text font-medium">Church Display Name</span>
                                 <span className="label-text-alt text-error">*</span>

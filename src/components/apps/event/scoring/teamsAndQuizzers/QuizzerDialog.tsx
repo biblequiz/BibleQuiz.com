@@ -108,7 +108,7 @@ export default function QuizzerDialog({
                     </button>
 
                     <form ref={formRef} className="mt-4 space-y-4" onSubmit={handleSave}>
-                        <div className="relative flex gap-2 mt-0">
+                        <div className="relative flex gap-2 mt-0 mb-0">
                             <input
                                 type="text"
                                 className="input input-bordered grow"
@@ -128,6 +128,9 @@ export default function QuizzerDialog({
                                     <FontAwesomeIcon icon="fas faSearch" />
                                     Find
                                 </button>)}
+                        </div>
+                        <div className="mt-0 text-xs text-gray-500 italic">
+                            Selecting a person helps deduplicate when generating reports.
                         </div>
 
                         <div className="form-control w-full">
@@ -197,7 +200,7 @@ export default function QuizzerDialog({
                                         : undefined;
 
                                     return (
-                                        <option key={team.Id} value={team.Id} disabled={!teamChurch}>
+                                        <option key={team.Id} value={team.Id}>
                                             {team.Name} {teamChurch ? `(${teamChurch.Name})` : " (Missing or Invalid Church)"}
                                         </option>);
                                 })}

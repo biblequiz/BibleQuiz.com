@@ -32,6 +32,7 @@ interface Props {
   currentChurch?: SelectedChurch | null;
   showTips?: ChurchSearchTips;
   allowAdd?: AddChurchConfig;
+  subtitle?: string;
   onSelect: (church: SelectedChurch, info: Church) => void;
 }
 
@@ -52,6 +53,7 @@ export default function ChurchLookup({
   required,
   disabled = false,
   currentChurch,
+  subtitle,
   onSelect,
   allowAdd }: Props) {
 
@@ -136,7 +138,7 @@ export default function ChurchLookup({
 
   return (
     <>
-      <div className="relative flex gap-2">
+      <div className={`relative flex gap-2 ${subtitle ? "mb-0" : ""}`}>
         <input
           type="text"
           className="input input-bordered grow"
@@ -158,6 +160,10 @@ export default function ChurchLookup({
             Search
           </button>)}
       </div>
+      {subtitle && (
+        <div className="mt-0 mb-2 text-xs text-gray-500 italic">
+          {subtitle}
+        </div>)}
       {!disabled && !isAdding && (
         <span className="text-xs">
           Enter <b>Name</b> (e.g., "Cedar Park"), <b>City & State</b> (e.g., "Seattle, WA"), or <b>both</b> (e.g., "Cedar Park, Bothell, WA"), and then click <b>Search</b>.

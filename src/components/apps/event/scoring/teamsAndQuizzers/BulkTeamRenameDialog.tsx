@@ -72,6 +72,8 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
 
     // State for team previews
     const [teamPreviews, setTeamPreviews] = useState<TeamPreview[]>([]);
+    const [draggedTeamIndex, setDraggedTeamIndex] = useState<number | null>(null);
+    const [dragOverTeamIndex, setDragOverTeamIndex] = useState<number | null>(null);
 
     // Initialize team previews with current values
     useEffect(() => {
@@ -94,7 +96,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
     const generateNameFromTags = useCallback((team: Team, tags: SelectedTag[]): string => {
         if (tags.length === 0) return team.Name;
 
-        let result = '';
+        let result: string[] = [];
         let lastWasData = false;
 
         for (const tag of tags) {
@@ -106,56 +108,57 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                 if (value) {
                     // Add space between consecutive data tags
                     if (lastWasData && result.length > 0) {
-                        result += ' ';
+                        result.push(' ');
                     }
-                    result += value;
+                    result.push(value);
                     lastWasData = true;
                 }
             } else {
                 // Separator
-                if (config.spaceBefore && result.length > 0 && !result.endsWith(' ')) {
-                    result += ' ';
+                if (config.spaceBefore && result.length > 0 && result[result.length - 1] !== ' ') {
+                    result.push(' ');
                 }
-                result += config.char;
+                result.push(config.char);
                 if (config.spaceAfter) {
-                    result += ' ';
+                    result.push(' ');
                 }
                 lastWasData = false;
             }
         }
 
-        return result.trim() || team.Name;
+        return result.join('').trim() || team.Name;
     }, [getTagConfig]);
 
     // Apply naming scheme to all teams
     const applyNamingScheme = useCallback(() => {
         if (selectedTags.length === 0) return;
 
-        // Generate initial names
-        const generatedNames: { teamId: number; name: string }[] = visibleTeams.map(team => ({
-            teamId: team.Id,
-            name: generateNameFromTags(team, selectedTags),
+        // Generate initial names based on current teamPreviews order
+        const generatedNames: { teamId: number; name: string; orderIndex: number }[] = teamPreviews.map((preview, index) => ({
+            teamId: preview.team.Id,
+            name: generateNameFromTags(preview.team, selectedTags),
+            orderIndex: index,
         }));
 
-        // Find duplicates and add suffixes
-        const nameCounts: Record<string, number[]> = {};
+        // Find duplicates and add suffixes based on order in the table
+        const nameCounts: Record<string, { teamId: number; orderIndex: number }[]> = {};
         generatedNames.forEach(item => {
             if (!nameCounts[item.name]) {
                 nameCounts[item.name] = [];
             }
-            nameCounts[item.name].push(item.teamId);
+            nameCounts[item.name].push({ teamId: item.teamId, orderIndex: item.orderIndex });
         });
 
-        // Sort duplicate team IDs and assign suffixes
+        // Sort duplicate teams by their order index and assign suffixes
         const finalNames: Record<number, string> = {};
-        Object.entries(nameCounts).forEach(([name, teamIds]) => {
-            if (teamIds.length === 1) {
-                finalNames[teamIds[0]] = name;
+        Object.entries(nameCounts).forEach(([name, teams]) => {
+            if (teams.length === 1) {
+                finalNames[teams[0].teamId] = name;
             } else {
-                // Sort by team ID and add suffix
-                teamIds.sort((a, b) => a - b);
-                teamIds.forEach((teamId, index) => {
-                    finalNames[teamId] = `${name} #${index + 1}`;
+                // Sort by order index (position in table) and add suffix
+                teams.sort((a, b) => a.orderIndex - b.orderIndex);
+                teams.forEach((team, index) => {
+                    finalNames[team.teamId] = `${name} #${index + 1}`;
                 });
             }
         });
@@ -165,7 +168,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
             ...preview,
             finalName: finalNames[preview.team.Id] || preview.team.Name,
         })));
-    }, [selectedTags, visibleTeams, generateNameFromTags]);
+    }, [selectedTags, teamPreviews, generateNameFromTags]);
 
     // Reset to original names
     const handleResetToOriginal = () => {
@@ -235,6 +238,39 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
         setDraggedTagIndex(null);
     };
 
+    // Drag and drop for reordering teams
+    const handleTeamDragStart = (index: number) => {
+        setDraggedTeamIndex(index);
+    };
+
+    const handleTeamDragOver = (e: React.DragEvent, index: number) => {
+        e.preventDefault();
+        if (draggedTeamIndex === null || draggedTeamIndex === index) return;
+        setDragOverTeamIndex(index);
+    };
+
+    const handleTeamDrop = (e: React.DragEvent, index: number) => {
+        e.preventDefault();
+        if (draggedTeamIndex === null || draggedTeamIndex === index) {
+            setDraggedTeamIndex(null);
+            setDragOverTeamIndex(null);
+            return;
+        }
+
+        const newPreviews = [...teamPreviews];
+        const draggedPreview = newPreviews[draggedTeamIndex];
+        newPreviews.splice(draggedTeamIndex, 1);
+        newPreviews.splice(index, 0, draggedPreview);
+        setTeamPreviews(newPreviews);
+        setDraggedTeamIndex(null);
+        setDragOverTeamIndex(null);
+    };
+
+    const handleTeamDragEnd = () => {
+        setDraggedTeamIndex(null);
+        setDragOverTeamIndex(null);
+    };
+
     // Update individual team preview
     const handleNameChange = (teamId: number, newName: string) => {
         setTeamPreviews(prev => prev.map(preview =>
@@ -263,6 +299,9 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
             if (!newValue.OriginalChurchName) {
                 newValue.OriginalChurchName = newValue.Church;
             }
+
+            newValue.Name = preview.finalName.trim();
+            newValue.Church = preview.finalChurch.trim();
 
             return newValue;
         });
@@ -379,10 +418,15 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
 
                     {/* Teams Preview Table */}
                     <div className="divider mt-2 mb-2"></div>
+                    <p className="text-xs text-base-content/50 mb-2">
+                        <FontAwesomeIcon icon="fas faArrowsUpDownLeftRight" classNames={["mr-1"]} />
+                        Drag rows to reorder teams (affects #N numbering for duplicates)
+                    </p>
                     <div className="overflow-x-auto max-h-96">
                         <table className="table table-zebra table-sm w-full">
                             <thead className="sticky top-0 bg-base-200">
                                 <tr>
+                                    <th className="w-8"></th>
                                     <th>Original Name</th>
                                     <th>Original Church</th>
                                     <th>Final Name</th>
@@ -390,8 +434,19 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                                 </tr>
                             </thead>
                             <tbody>
-                                {teamPreviews.map(preview => (
-                                    <tr key={preview.team.Id}>
+                                {teamPreviews.map((preview, index) => (
+                                    <tr
+                                        key={preview.team.Id}
+                                        draggable
+                                        onDragStart={() => handleTeamDragStart(index)}
+                                        onDragOver={(e) => handleTeamDragOver(e, index)}
+                                        onDrop={(e) => handleTeamDrop(e, index)}
+                                        onDragEnd={handleTeamDragEnd}
+                                        className={`cursor-grab ${draggedTeamIndex === index ? 'opacity-50' : ''} ${dragOverTeamIndex === index ? 'bg-primary/20' : ''}`}
+                                    >
+                                        <td className="text-base-content/40">
+                                            <FontAwesomeIcon icon="fas faGripVertical" />
+                                        </td>
                                         <td className="text-base-content/70">
                                             {preview.team.OriginalName || preview.team.Name}
                                         </td>
