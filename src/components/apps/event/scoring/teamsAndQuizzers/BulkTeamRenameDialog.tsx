@@ -1,0 +1,429 @@
+import { useRef, useState, useEffect, useCallback } from "react";
+import { Team } from "types/Meets";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+
+interface Props {
+    teams: Team[];
+    onSave: (renamedTeams: Team[]) => void;
+    onCancel: () => void;
+}
+
+type DataTagId = 'churchName' | 'city' | 'state' | 'teamName';
+type SeparatorTagId = 'colon' | 'comma' | 'dash' | 'openParen' | 'closeParen';
+type TagId = DataTagId | SeparatorTagId;
+
+interface DataTagConfig {
+    id: DataTagId;
+    label: string;
+    type: 'data';
+    getValue: (team: Team) => string;
+}
+
+interface SeparatorTagConfig {
+    id: SeparatorTagId;
+    label: string;
+    type: 'separator';
+    char: string;
+    spaceBefore: boolean;
+    spaceAfter: boolean;
+}
+
+type TagConfig = DataTagConfig | SeparatorTagConfig;
+
+const DATA_TAGS: DataTagConfig[] = [
+    { id: 'churchName', label: 'Church Name', type: 'data', getValue: (team) => team.Church || '' },
+    { id: 'city', label: 'City', type: 'data', getValue: (team) => team.City || '' },
+    { id: 'state', label: 'State', type: 'data', getValue: (team) => team.State || '' },
+    { id: 'teamName', label: 'Team Name', type: 'data', getValue: (team) => team.Name || '' },
+];
+
+const SEPARATOR_TAGS: SeparatorTagConfig[] = [
+    { id: 'colon', label: ':', type: 'separator', char: ':', spaceBefore: false, spaceAfter: true },
+    { id: 'comma', label: ',', type: 'separator', char: ',', spaceBefore: false, spaceAfter: true },
+    { id: 'dash', label: '-', type: 'separator', char: '-', spaceBefore: true, spaceAfter: true },
+    { id: 'openParen', label: '(', type: 'separator', char: '(', spaceBefore: true, spaceAfter: false },
+    { id: 'closeParen', label: ')', type: 'separator', char: ')', spaceBefore: false, spaceAfter: true },
+];
+
+const ALL_TAGS: TagConfig[] = [...DATA_TAGS, ...SEPARATOR_TAGS];
+
+interface SelectedTag {
+    id: TagId;
+    instanceId: number; // Unique instance ID to allow multiple separators
+}
+
+interface TeamPreview {
+    team: Team;
+    finalName: string;
+    finalChurch: string;
+}
+
+let nextInstanceId = 0;
+
+export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props) {
+    const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Filter out hidden teams
+    const visibleTeams = teams.filter(t => !t.IsHidden);
+
+    // State for tag configuration
+    const [selectedTags, setSelectedTags] = useState<SelectedTag[]>([]);
+    const [draggedTagIndex, setDraggedTagIndex] = useState<number | null>(null);
+
+    // State for team previews
+    const [teamPreviews, setTeamPreviews] = useState<TeamPreview[]>([]);
+
+    // Initialize team previews with current values
+    useEffect(() => {
+        const previews = visibleTeams
+            .sort((a, b) => a.Id - b.Id)
+            .map(team => ({
+                team,
+                finalName: team.Name,
+                finalChurch: team.Church || '',
+            }));
+        setTeamPreviews(previews);
+    }, []);
+
+    // Get tag config by id
+    const getTagConfig = useCallback((id: TagId): TagConfig | undefined => {
+        return ALL_TAGS.find(t => t.id === id);
+    }, []);
+
+    // Generate name from tags
+    const generateNameFromTags = useCallback((team: Team, tags: SelectedTag[]): string => {
+        if (tags.length === 0) return team.Name;
+
+        let result = '';
+        let lastWasData = false;
+
+        for (const tag of tags) {
+            const config = getTagConfig(tag.id);
+            if (!config) continue;
+
+            if (config.type === 'data') {
+                const value = config.getValue(team);
+                if (value) {
+                    // Add space between consecutive data tags
+                    if (lastWasData && result.length > 0) {
+                        result += ' ';
+                    }
+                    result += value;
+                    lastWasData = true;
+                }
+            } else {
+                // Separator
+                if (config.spaceBefore && result.length > 0 && !result.endsWith(' ')) {
+                    result += ' ';
+                }
+                result += config.char;
+                if (config.spaceAfter) {
+                    result += ' ';
+                }
+                lastWasData = false;
+            }
+        }
+
+        return result.trim() || team.Name;
+    }, [getTagConfig]);
+
+    // Apply naming scheme to all teams
+    const applyNamingScheme = useCallback(() => {
+        if (selectedTags.length === 0) return;
+
+        // Generate initial names
+        const generatedNames: { teamId: number; name: string }[] = visibleTeams.map(team => ({
+            teamId: team.Id,
+            name: generateNameFromTags(team, selectedTags),
+        }));
+
+        // Find duplicates and add suffixes
+        const nameCounts: Record<string, number[]> = {};
+        generatedNames.forEach(item => {
+            if (!nameCounts[item.name]) {
+                nameCounts[item.name] = [];
+            }
+            nameCounts[item.name].push(item.teamId);
+        });
+
+        // Sort duplicate team IDs and assign suffixes
+        const finalNames: Record<number, string> = {};
+        Object.entries(nameCounts).forEach(([name, teamIds]) => {
+            if (teamIds.length === 1) {
+                finalNames[teamIds[0]] = name;
+            } else {
+                // Sort by team ID and add suffix
+                teamIds.sort((a, b) => a - b);
+                teamIds.forEach((teamId, index) => {
+                    finalNames[teamId] = `${name} #${index + 1}`;
+                });
+            }
+        });
+
+        // Update previews
+        setTeamPreviews(prev => prev.map(preview => ({
+            ...preview,
+            finalName: finalNames[preview.team.Id] || preview.team.Name,
+        })));
+    }, [selectedTags, visibleTeams, generateNameFromTags]);
+
+    // Reset to original names
+    const handleResetToOriginal = () => {
+        setTeamPreviews(prev => prev.map(preview => ({
+            ...preview,
+            finalName: preview.team.OriginalName || preview.team.Name,
+            finalChurch: preview.team.OriginalChurchName || preview.team.Church || '',
+        })));
+        setSelectedTags([]);
+    };
+
+    // Add tag to scheme
+    const handleAddTag = (tagId: TagId) => {
+        const config = getTagConfig(tagId);
+        if (!config) return;
+
+        // Data tags can only be added once, separators can be added multiple times
+        if (config.type === 'data' && selectedTags.some(t => t.id === tagId)) {
+            return;
+        }
+
+        // If adding a data tag and there's already at least one tag, auto-add a comma separator first
+        if (config.type === 'data' && selectedTags.length > 0) {
+            setSelectedTags([
+                ...selectedTags,
+                { id: 'comma', instanceId: nextInstanceId++ },
+                { id: tagId, instanceId: nextInstanceId++ }
+            ]);
+        } else {
+            setSelectedTags([...selectedTags, { id: tagId, instanceId: nextInstanceId++ }]);
+        }
+    };
+
+    // Remove tag from scheme
+    const handleRemoveTag = (instanceId: number) => {
+        setSelectedTags(selectedTags.filter(t => t.instanceId !== instanceId));
+    };
+
+    // Drag and drop for reordering tags
+    const handleTagDragStart = (index: number) => {
+        setDraggedTagIndex(index);
+    };
+
+    const handleTagDragOver = (e: React.DragEvent, index: number) => {
+        e.preventDefault();
+        if (draggedTagIndex === null || draggedTagIndex === index) return;
+
+        const newTags = [...selectedTags];
+        const draggedTag = newTags[draggedTagIndex];
+        newTags.splice(draggedTagIndex, 1);
+        newTags.splice(index, 0, draggedTag);
+        setSelectedTags(newTags);
+        setDraggedTagIndex(index);
+    };
+
+    const handleTagDragEnd = () => {
+        setDraggedTagIndex(null);
+    };
+
+    // Update individual team preview
+    const handleNameChange = (teamId: number, newName: string) => {
+        setTeamPreviews(prev => prev.map(preview =>
+            preview.team.Id === teamId
+                ? { ...preview, finalName: newName }
+                : preview
+        ));
+    };
+
+    const handleChurchChange = (teamId: number, newChurch: string) => {
+        setTeamPreviews(prev => prev.map(preview =>
+            preview.team.Id === teamId
+                ? { ...preview, finalChurch: newChurch }
+                : preview
+        ));
+    };
+
+    // Save changes
+    const handleSave = () => {
+        const renamedTeams = teamPreviews.map(preview => ({
+            ...preview.team,
+            Name: preview.finalName.trim(),
+            Church: preview.finalChurch.trim(),
+        }));
+        onSave(renamedTeams);
+        dialogRef.current?.close();
+    };
+
+    const handleClose = () => {
+        onCancel();
+        dialogRef.current?.close();
+    };
+
+    // Get available data tags (not yet selected)
+    const availableDataTags = DATA_TAGS.filter(t => !selectedTags.some(st => st.id === t.id));
+
+    return (
+        <dialog ref={dialogRef} className="modal" onClose={handleClose} open>
+            <div className="modal-box w-full max-w-5xl max-h-[90vh]">
+                <h3 className="font-bold text-lg">Bulk Rename Teams</h3>
+                <button
+                    type="button"
+                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-0"
+                    onClick={handleClose}
+                >
+                    ✕
+                </button>
+
+                <div className="mt-4 space-y-4">
+                    <div className="flex flex-wrap gap-2">
+                        {availableDataTags.map(tag => (
+                            <button
+                                key={tag.id}
+                                type="button"
+                                className="btn btn-sm btn-outline btn-primary mt-0"
+                                onClick={() => handleAddTag(tag.id)}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                                {tag.label}
+                            </button>
+                        ))}
+                        {SEPARATOR_TAGS.map(tag => (
+                            <button
+                                key={tag.id}
+                                type="button"
+                                className="btn btn-sm btn-outline btn-secondary mt-0"
+                                onClick={() => handleAddTag(tag.id)}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                                {tag.label}
+                            </button>
+                        ))}
+                    </div>
+
+                    <div className="border border-base-500 rounded-lg p-3">
+                        <div className="flex flex-wrap items-center gap-2">
+                            {selectedTags.length === 0 ? (
+                                <span className="text-sm text-base-content/60 italic">
+                                    Click tags above to build naming scheme
+                                </span>
+                            ) : (
+                                <>
+                                    {selectedTags.map((tag, index) => {
+                                        const config = getTagConfig(tag.id);
+                                        const isDataTag = config?.type === 'data';
+                                        return (
+                                            <div
+                                                key={tag.instanceId}
+                                                className={`badge badge-lg gap-1 cursor-move ${isDataTag ? 'badge-primary' : 'badge-secondary'} text-sm mt-0`}
+                                                draggable
+                                                onDragStart={() => handleTagDragStart(index)}
+                                                onDragOver={(e) => handleTagDragOver(e, index)}
+                                                onDragEnd={handleTagDragEnd}
+                                            >
+                                                <FontAwesomeIcon icon="fas faGripVertical" classNames={["text-xs"]} />
+                                                {config?.label}
+                                                <button
+                                                    type="button"
+                                                    className="btn btn-ghost btn-xs p-0 ml-1 mt-0 cursor-pointer mt-0"
+                                                    onClick={() => handleRemoveTag(tag.instanceId)}
+                                                >
+                                                    ✕
+                                                </button>
+                                            </div>
+                                        );
+                                    })}
+                                </>)}
+                        </div>
+                        <p className="text-xs text-base-content/50 mt-2">
+                            <FontAwesomeIcon icon="fas faArrowsUpDownLeftRight" classNames={["mr-1"]} />
+                            Drag and drop tags to reorder
+                        </p>
+                    </div>
+
+                    <div className="flex gap-2">
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-info mt-0"
+                            onClick={applyNamingScheme}
+                            disabled={selectedTags.length === 0}
+                        >
+                            <FontAwesomeIcon icon="fas faWandMagicSparkles" />
+                            Apply Scheme
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-warning mt-0"
+                            onClick={handleResetToOriginal}
+                        >
+                            <FontAwesomeIcon icon="fas faRotateLeft" />
+                            Reset to Original Names
+                        </button>
+                    </div>
+
+                    {/* Teams Preview Table */}
+                    <div className="divider mt-2 mb-2"></div>
+                    <div className="overflow-x-auto max-h-96">
+                        <table className="table table-zebra table-sm w-full">
+                            <thead className="sticky top-0 bg-base-200">
+                                <tr>
+                                    <th>Original Name</th>
+                                    <th>Original Church</th>
+                                    <th>Final Name</th>
+                                    <th>Final Church</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {teamPreviews.map(preview => (
+                                    <tr key={preview.team.Id}>
+                                        <td className="text-base-content/70">
+                                            {preview.team.OriginalName || preview.team.Name}
+                                        </td>
+                                        <td className="text-base-content/70">
+                                            {preview.team.OriginalChurchName || preview.team.Church || '-'}
+                                        </td>
+                                        <td>
+                                            <input
+                                                type="text"
+                                                className="input input-bordered input-sm w-full"
+                                                value={preview.finalName}
+                                                onChange={(e) => handleNameChange(preview.team.Id, e.target.value)}
+                                            />
+                                        </td>
+                                        <td>
+                                            <input
+                                                type="text"
+                                                className="input input-bordered input-sm w-full"
+                                                value={preview.finalChurch}
+                                                onChange={(e) => handleChurchChange(preview.team.Id, e.target.value)}
+                                            />
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div className="modal-action mt-4">
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-primary mt-0"
+                        onClick={handleSave}
+                    >
+                        <FontAwesomeIcon icon="fas faSave" />
+                        Apply
+                    </button>
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-secondary mt-0"
+                        onClick={handleClose}
+                    >
+                        Cancel
+                    </button>
+                </div>
+            </div>
+            <form method="dialog" className="modal-backdrop">
+                <button onClick={handleClose}>Close</button>
+            </form>
+        </dialog>
+    );
+}

@@ -11,6 +11,7 @@ interface Props {
     onEditTeam: (team: Team) => void;
     onDeleteTeam: (team: Team) => void;
     onAddTeam: () => void;
+    onBulkRename: () => void;
     onEditQuizzer: (quizzer: Quizzer) => void;
     onDeleteQuizzer: (quizzer: Quizzer) => void;
     onAddQuizzer: (teamId: number) => void;
@@ -29,6 +30,7 @@ export default function TeamsAndQuizzersTable({
     onEditTeam,
     onDeleteTeam,
     onAddTeam,
+    onBulkRename,
     onEditQuizzer,
     onDeleteQuizzer,
     onAddQuizzer,
@@ -159,6 +161,15 @@ export default function TeamsAndQuizzersTable({
                             >
                                 <FontAwesomeIcon icon="fas faPlus" />
                                 Add Team
+                            </button>
+                            <button
+                                type="button"
+                                className="btn btn-secondary btn-sm mt-0"
+                                onClick={onBulkRename}
+                                disabled={isSaving}
+                            >
+                                <FontAwesomeIcon icon="fas faPenToSquare" />
+                                Bulk Rename
                             </button>
                         </>)}
                 </div>

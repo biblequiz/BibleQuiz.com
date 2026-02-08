@@ -18,6 +18,7 @@ import TeamsAndQuizzersTable from "./teamsAndQuizzers/TeamsAndQuizzersTable";
 import TeamDialog from "./teamsAndQuizzers/TeamDialog";
 import QuizzerDialog from "./teamsAndQuizzers/QuizzerDialog";
 import StatsDialog, { type QuizzerStats, type TeamStats } from "./teamsAndQuizzers/StatsDialog";
+import BulkTeamRenameDialog from "./teamsAndQuizzers/BulkTeamRenameDialog";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import type { OnlineDatabaseMeetSettings } from "types/services/AstroDatabasesService";
 
@@ -74,6 +75,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const [defaultTeamIdForQuizzer, setDefaultTeamIdForQuizzer] = useState<number | undefined>(undefined);
     const [statsDialogTeam, setStatsDialogTeam] = useState<TeamStats | null>(null);
     const [statsDialogQuizzer, setStatsDialogQuizzer] = useState<QuizzerStats | null>(null);
+    const [bulkRenameDialogOpen, setBulkRenameDialogOpen] = useState(false);
 
     // Confirmation dialog state
     const [confirmDialog, setConfirmDialog] = useState<ConfirmDialogProps | undefined>();
@@ -190,6 +192,27 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const handleEditTeam = (team: Team) => {
         setEditingTeam(team);
         setTeamDialogOpen(true);
+    };
+
+    const handleBulkRename = () => {
+        setBulkRenameDialogOpen(true);
+    };
+
+    const handleBulkRenameSave = (renamedTeams: Team[]) => {
+        // Apply all renamed teams to pending changes
+        setPendingChanges(prev => {
+            const updated = { ...prev };
+            updated.addedOrUpdatedTeams = new Map(prev.addedOrUpdatedTeams);
+
+            for (const team of renamedTeams) {
+                updated.addedOrUpdatedTeams.set(team.Id, team);
+            }
+
+            return updated;
+        });
+
+        markDirty();
+        setBulkRenameDialogOpen(false);
     };
 
     const handleSaveTeam = (team: Team) => {
@@ -524,6 +547,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 onShowQuizzerStats={handleShowQuizzerStats}
                 onMoveQuizzer={handleMoveQuizzer}
                 onSaveChanges={handleSave}
+                onBulkRename={handleBulkRename}
             />
 
             {/* Dialogs */}
@@ -580,6 +604,14 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 >
                     <p className="py-4">{confirmDialog.message}</p>
                 </ConfirmationDialog>
+            )}
+
+            {bulkRenameDialogOpen && (
+                <BulkTeamRenameDialog
+                    teams={getTeamsList()}
+                    onSave={handleBulkRenameSave}
+                    onCancel={() => setBulkRenameDialogOpen(false)}
+                />
             )}
         </div>);
 }
