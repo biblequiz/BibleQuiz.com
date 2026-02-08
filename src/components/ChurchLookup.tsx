@@ -32,7 +32,7 @@ interface Props {
   currentChurch?: SelectedChurch | null;
   showTips?: ChurchSearchTips;
   allowAdd?: AddChurchConfig;
-  onSelect: (church: SelectedChurch) => void;
+  onSelect: (church: SelectedChurch, info: Church) => void;
 }
 
 interface ChurchSearchState {
@@ -131,7 +131,7 @@ export default function ChurchLookup({
     setSearchText(displayName);
     setSearchState(null); // Clear search state after selection
 
-    onSelect({ id: church.Id!, displayName });
+    onSelect({ id: church.Id!, displayName }, church);
   }
 
   return (
@@ -166,7 +166,7 @@ export default function ChurchLookup({
         <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative mt-2 flex gap-2">
           <legend className="fieldset-legend">Church Search Results</legend>
           {searchState.isLoading && (
-            <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" />)}
+            <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" className="mt-0" />)}
           {!searchState.isLoading && (
             <>
               {searchState.error && (

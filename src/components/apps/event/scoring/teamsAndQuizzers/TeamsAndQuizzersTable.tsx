@@ -178,10 +178,10 @@ export default function TeamsAndQuizzersTable({
 
             {/* Teams table */}
             {sortedTeams.length === 0 ? (
-                <div className="alert alert-info">
-                    <FontAwesomeIcon icon="fas faInfoCircle" />
-                    <span>No teams found. Click "Add Team" to create one.</span>
-                </div>
+                <p className="text-sm text-base-content/60 text-center italic mt-4 mb-4">
+                    No teams found. Click the <FontAwesomeIcon icon="fas faPlus" /> Add Team button
+                    to add a team.
+                </p>
             ) : (
                 <div className="overflow-x-auto">
                     <table className="table table-zebra w-full text-sm">
@@ -367,8 +367,9 @@ function TeamRow({
                     <td colSpan={5} className="bg-base-200 p-0">
                         <div className="p-0 pl-16 mt-0">
                             {quizzers.length === 0 ? (
-                                <p className="text-sm text-base-content/60 italic">
-                                    No quizzers on this team.
+                                <p className="text-sm text-base-content/60 text-center italic mt-4 mb-4">
+                                    No quizzers have been added for this team yet. Click
+                                    the <FontAwesomeIcon icon="fas faPlus" /> button to add a quizzer.
                                 </p>
                             ) : (
                                 <table className="table table-sm w-full">

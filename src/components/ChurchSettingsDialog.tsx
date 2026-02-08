@@ -1,11 +1,13 @@
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Church, ChurchesService } from 'types/services/ChurchesService';
+import regions from 'data/regions.json';
 import districts from 'data/districts.json';
 import FontAwesomeIcon from './FontAwesomeIcon';
-import type { DistrictInfo } from 'types/RegionAndDistricts';
+import type { DistrictInfo, RegionInfo } from 'types/RegionAndDistricts';
 import type { Address } from 'types/services/models/Address';
 import { AuthManager } from 'types/AuthManager';
 import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
+import { manifest } from "astro:ssr-manifest";
 
 export interface AddingChurchState {
     districtId: string | null;
@@ -19,7 +21,33 @@ interface Props {
     church?: Church;
     creatorEmail?: string;
     authorizeChurch?: boolean;
+    regionId?: string;
+    districtId?: string;
     onSave: (church: Church | null) => void;
+}
+
+const INDEXED_REGIONS: Record<string, RegionInfo> = {};
+{
+    for (const region of (regions as any as RegionInfo[])) {
+        INDEXED_REGIONS[region.id] = region;
+    }
+}
+
+const DISTRICTS_BY_REGION: Record<string, DistrictInfo[]> = {};
+const INDEXED_DISTRICTS: Record<string, DistrictInfo> = {};
+{
+    for (const district of (districts as any as DistrictInfo[])) {
+        INDEXED_DISTRICTS[district.id] = district;
+        if (INDEXED_REGIONS[district.regionId]) {
+            const regionDistricts = DISTRICTS_BY_REGION[district.regionId];
+            if (regionDistricts) {
+                regionDistricts.push(district);
+            }
+            else {
+                DISTRICTS_BY_REGION[district.regionId] = [district];
+            }
+        }
+    }
 }
 
 const DISTRICTS_BY_STATE: Record<string, DistrictInfo[]> = {};
@@ -49,14 +77,58 @@ export default function ChurchSettingsDialog({
     church,
     creatorEmail,
     authorizeChurch = false,
+    regionId: filterToRegionId,
+    districtId: filterToDistrictId,
     onSave }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
 
     const auth = AuthManager.useNanoStore();
 
-    const [state, setState] = useState(() => church?.PhysicalAddress?.State || addState?.state || Object.keys(DISTRICTS_BY_STATE)[0]);
-    const allowedDistricts = DISTRICTS_BY_STATE[state];
+    const { validDistricts, validDistrictsByState, validStates } = useMemo(() => {
+
+        const districts: Record<string, DistrictInfo> = {};
+        if (filterToDistrictId) {
+            districts[filterToDistrictId] = INDEXED_DISTRICTS[filterToDistrictId];
+        }
+        else if (filterToRegionId) {
+            for (const district of DISTRICTS_BY_REGION[filterToRegionId]) {
+                districts[district.id] = district;
+            }
+        }
+        else {
+            return {
+                validDistricts: INDEXED_DISTRICTS,
+                validDistrictsByState: DISTRICTS_BY_STATE,
+                validStates: Object.keys(DISTRICTS_BY_STATE),
+            };
+        }
+
+        const states = new Set<string>();
+        const districtsByState: Record<string, DistrictInfo[]> = {};
+        for (const district of Object.values(districts)) {
+            for (const state of district.states) {
+                states.add(state);
+
+                const stateDistricts = districtsByState[state];
+                if (stateDistricts) {
+                    stateDistricts.push(district);
+                }
+                else {
+                    districtsByState[state] = [district];
+                }
+            }
+        }
+
+        return {
+            validDistricts: districts,
+            validDistrictsByState: districtsByState,
+            validStates: Array.from(states).sort()
+        };
+    }, [manifest]);
+
+    const [state, setState] = useState(() => church?.PhysicalAddress?.State || addState?.state || validStates[0]);
+    const allowedDistricts = validDistrictsByState[state];
 
     const [isSaving, setIsSaving] = useState(false);
     const [savingError, setSavingError] = useState<string | null>(null);
@@ -177,15 +249,18 @@ export default function ChurchSettingsDialog({
                                         onChange={e => {
                                             setState(e.target.value);
 
-                                            const potentialDistricts = DISTRICTS_BY_STATE[e.target.value];
+                                            const potentialDistricts = validDistrictsByState[e.target.value];
                                             if (potentialDistricts.length > 0) {
-                                                setDistrictId(potentialDistricts[0].id);
+                                                const newDistrictId = potentialDistricts[0].id;
+                                                if (validDistricts[newDistrictId]) {
+                                                    setDistrictId(newDistrictId);
+                                                }
                                             }
                                         }}
                                         disabled={isSaving}
                                         required
                                     >
-                                        {Object.keys(DISTRICTS_BY_STATE).map(s => (
+                                        {validStates.map(s => (
                                             <option key={`state_${s}`} value={s}>
                                                 {s}
                                             </option>))}
@@ -226,7 +301,7 @@ export default function ChurchSettingsDialog({
                                         disabled={isSaving}
                                         required
                                     >
-                                        {DISTRICTS_BY_STATE[state].map(d => {
+                                        {validDistrictsByState[state].map(d => {
                                             return (
                                                 <option key={`district_${d.id}`} value={d.id}>
                                                     {d.name}

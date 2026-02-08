@@ -1,5 +1,6 @@
 import type { AuthManager } from "../AuthManager";
 import type { Team, Quizzer } from "../Meets";
+import type { Church } from "./ChurchesService";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
 
 const URL_ROOT_PATH = "/api/v1.0/events";
@@ -97,9 +98,9 @@ export interface OnlineTeamsAndQuizzers {
     Quizzers: Record<number, OnlineTeamsAndQuizzersQuizzer>;
 
     /**
-     * Any churches associated with this event (GUID to name mapping).
+     * Any churches associated with this event (GUID to Church mapping).
      */
-    Churches: Record<string, string>;
+    Churches: Record<string, Church>;
 
     /**
      * Any people associated with this event (GUID to name mapping).

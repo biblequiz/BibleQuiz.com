@@ -210,11 +210,6 @@ export class Team {
     public TotalQuizzerId?: number;
 
     /**
-     * Full name of the church.
-     */
-    public FullChurchName?: string;
-
-    /**
      * Name of the church for the team.
      */
     public Church?: string;

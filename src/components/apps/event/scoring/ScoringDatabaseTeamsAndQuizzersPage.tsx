@@ -193,11 +193,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         const isNew = !editingTeam || pendingChanges.addedTeamIds.has(team.Id);
 
         if (isNew && team.Id === 0) {
-            // Assign new ID
-            team.Id = currentTeamsAndQuizzers?.NextTeamId || Date.now();
-            if (currentTeamsAndQuizzers) {
-                currentTeamsAndQuizzers.NextTeamId = team.Id + 1;
-            }
+            team.Id = currentTeamsAndQuizzers!.NextTeamId++;
         }
 
         setPendingChanges(prev => {
@@ -422,12 +418,6 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     setIsPreparingManifest(true);
                 }}
             />
-            {isLoadingTeamsAndQuizzers && (
-                <div className="flex items-center justify-center gap-2 mt-4">
-                    <span className="loading loading-spinner loading-md"></span>
-                    <span>Loading current teams and quizzers ...</span>
-                </div>
-            )}
             {isPreparingManifest && (
                 <div className="flex items-center justify-center gap-2 mt-4">
                     <span className="loading loading-spinner loading-md"></span>
@@ -476,7 +466,6 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     </div>
                 </div>)}
 
-            {/* Teams and Quizzers Table */}
             <TeamsAndQuizzersTable
                 teams={getMergedTeams()}
                 quizzers={getMergedQuizzers()}
@@ -497,16 +486,22 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
             />
 
             {/* Dialogs */}
-            <TeamDialog
-                team={editingTeam}
-                isOpen={teamDialogOpen}
-                isReadOnly={currentDatabase!.Settings.IsScoreKeep}
-                onSave={handleSaveTeam}
-                onCancel={() => {
-                    setTeamDialogOpen(false);
-                    setEditingTeam(null);
-                }}
-            />
+            {teamDialogOpen && (
+                <TeamDialog
+                    regionId={eventRegionId}
+                    districtId={eventDistrictId}
+                    
+                    churches={currentTeamsAndQuizzers!.Churches}
+                    onDiscoveredChurch={church => currentTeamsAndQuizzers!.Churches[church.Id!] = church}
+
+                    team={editingTeam}
+                    isReadOnly={currentDatabase!.Settings.IsScoreKeep}
+                    onSave={handleSaveTeam}
+                    onCancel={() => {
+                        setTeamDialogOpen(false);
+                        setEditingTeam(null);
+                    }}
+                />)}
 
             <QuizzerDialog
                 quizzer={editingQuizzer}
