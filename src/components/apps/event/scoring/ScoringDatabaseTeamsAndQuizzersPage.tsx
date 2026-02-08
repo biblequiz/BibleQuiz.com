@@ -13,6 +13,8 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const {
         auth,
         eventId,
+        eventRegionId,
+        eventDistrictId,
         eventType,
         eventSeason,
         databaseId,
@@ -20,7 +22,6 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     } = useOutletContext<ScoringDatabaseProviderContext>();
 
     const [downloadedManifests, setDownloadedManifests] = useState<OnlineTeamsAndQuizzersImportManifest | null>(null);
-    const [isDownloading, setIsDownloading] = useState(false);
 
     return (
         <div className="space-y-6">
@@ -29,13 +30,14 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 auth={auth}
                 season={eventSeason}
                 eventId={eventId}
+                eventRegionId={eventRegionId}
+                eventDistrictId={eventDistrictId}
                 eventType={eventType}
                 databaseId={databaseId!}
-                setIsDownloading={setIsDownloading}
-                disabled={isDownloading}
+                setDownloadedManifest={setDownloadedManifests}
             />
             <div className="divider mt-0" />
-
+            {JSON.stringify(downloadedManifests)}
             <div>
                 <b>Teams & Quizzers Section</b>
             </div>

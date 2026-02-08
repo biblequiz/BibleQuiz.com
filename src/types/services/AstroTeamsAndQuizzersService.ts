@@ -77,7 +77,8 @@ export class AstroTeamsAndQuizzersService {
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers/processReport`,
             null,
-            form);
+            form,
+            true);
     }
 }
 

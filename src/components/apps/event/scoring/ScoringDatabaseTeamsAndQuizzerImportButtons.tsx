@@ -1,12 +1,10 @@
-import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
-import { useOutletContext } from "react-router-dom";
-import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
 import { useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { AuthManager } from "types/AuthManager";
 import EventLookupDialog from "../EventLookupDialog";
 import { AstroEventsService } from "types/services/AstroEventsService";
-import type { OnlineTeamsAndQuizzersImportManifest } from "types/services/AstroTeamsAndQuizzersService";
+import { AstroTeamsAndQuizzersService, type OnlineTeamsAndQuizzersImportManifest } from "types/services/AstroTeamsAndQuizzersService";
+import FileUploadDialog from "../FileUploadDialog";
 
 interface Props {
     auth: AuthManager;
@@ -17,8 +15,6 @@ interface Props {
     eventType: string;
     databaseId: string;
     setDownloadedManifest: (manifest: OnlineTeamsAndQuizzersImportManifest) => void;
-    setIsDownloading: (isDownloading: boolean) => void;
-    disabled: boolean;
 }
 
 export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
@@ -29,45 +25,50 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
     eventDistrictId,
     eventType,
     databaseId,
-    setDownloadedManifest,
-    setIsDownloading,
-    disabled
+    setDownloadedManifest
 }: Props) {
 
     const [downloadError, setDownloadError] = useState<string | null>(null);
+    const [isDownloading, setIsDownloading] = useState(false);
+    const [isImportingFile, setIsImportingFile] = useState(false);
     const [isSelectingEvent, setIsSelectingEvent] = useState(false);
 
     const importFromRegistrations = () => {
+        setIsDownloading(true);
+        setDownloadError(null);
 
-    };
-
-    const importFromReport = () => {
-
+        AstroEventsService.getTeamsAndQuizzersManifest(
+            auth,
+            eventId)
+            .then(manifest => {
+                setDownloadedManifest(manifest);
+                setIsDownloading(false);
+            })
+            .catch(error => {
+                setDownloadError(error.message || "An error occured while downloading the teams and quizzers data for this event.");
+                setIsDownloading(false);
+            });
     };
 
     return (
         <>
-            {downloadError && (
-                <div role="alert" className="alert alert-error mt-0 w-full">
-                    <FontAwesomeIcon icon="fas faCircleExclamation" />
-                    <div>
-                        <b>Error: </b> {downloadError}
-                    </div>
-                </div>)}
             <div className="w-full mt-0 mb-0 flex flex-wrap gap-2">
                 <button
                     type="button"
                     className="btn btn-success m-0"
                     onClick={importFromRegistrations}
-                    disabled={disabled}>
+                    disabled={isDownloading || isImportingFile || isSelectingEvent}>
                     <FontAwesomeIcon icon="fas faUserPen" />
                     Import from Event's Registration
                 </button>
                 <button
                     type="button"
                     className="btn btn-primary m-0"
-                    onClick={importFromReport}
-                    disabled={disabled}>
+                    onClick={() => {
+                        setIsImportingFile(true);
+                        setDownloadError(null);
+                    }}
+                    disabled={isDownloading || isImportingFile || isSelectingEvent}>
                     <FontAwesomeIcon icon="fas faBook" />
                     Import from ScoreKeep Report
                 </button>
@@ -76,14 +77,47 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
                     className="btn btn-secondary m-0"
                     onClick={() => {
                         setIsSelectingEvent(true);
-                        setIsDownloading(true);
                         setDownloadError(null);
                     }}
-                    disabled={disabled}>
+                    disabled={isDownloading || isImportingFile || isSelectingEvent}>
                     <FontAwesomeIcon icon="fas faList" />
                     Import from Other Event's Registration
                 </button>
             </div>
+            {isDownloading && (
+                <div className="flex items-center justify-center gap-2 mt-4">
+                    <span className="loading loading-spinner loading-md"></span>
+                    <span>Downloading registrations ...</span>
+                </div>)}
+            {downloadError && (
+                <div role="alert" className="alert alert-error mt-0 w-full">
+                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    <div>
+                        <b>Error: </b> {downloadError}
+                    </div>
+                </div>)}
+            {isImportingFile && (
+                <FileUploadDialog
+                    title="Select ScoreKeep Report"
+                    extensions={[".xlsx", ".txt"]}
+                    onReadyForUpload={formData => {
+                        if (formData) {
+                            return AstroTeamsAndQuizzersService.processReportForImport(
+                                auth,
+                                eventId,
+                                databaseId,
+                                formData)
+                                .then(manifest => {
+                                    setDownloadedManifest(manifest);
+                                    setIsImportingFile(false);
+                                });
+                        }
+                        else {
+                            setIsImportingFile(false);
+                            return Promise.resolve();
+                        }
+                    }}
+                />)}
             {isSelectingEvent && (
                 <EventLookupDialog
                     season={season}
@@ -100,18 +134,15 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
                                 .then(manifest => {
                                     setDownloadedManifest(manifest);
                                     setIsSelectingEvent(false);
-                                    setIsDownloading(false);
                                     setDownloadError(null);
                                 })
                                 .catch(error => {
                                     setIsSelectingEvent(false);
-                                    setIsDownloading(false);
                                     setDownloadError(error.message || "An error occured while downloading the teams and quizzers data for this event.");
                                 });
                         }
                         else {
                             setIsSelectingEvent(false);
-                            setIsDownloading(false);
                         }
                     }}
                 />)}
