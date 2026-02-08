@@ -54,6 +54,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const [teamsAndQuizzersError, setTeamsAndQuizzersError] = useState<string | null>(null);
 
     // UI state
+    const [isSaved, setIsSaved] = useState(false);
     const [isSaving, setIsSaving] = useState(false);
     const [saveError, setSaveError] = useState<string | null>(null);
 
@@ -348,6 +349,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         if (!currentTeamsAndQuizzers || !databaseId) return;
 
         setIsSaving(true);
+        setIsSaved(false);
         setSaveError(null);
 
         try {
@@ -369,6 +371,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
             );
 
             setCurrentTeamsAndQuizzers(updated);
+            setIsSaved(true);
             resetPendingChanges();
         } catch (error: unknown) {
             const errorMessage = error instanceof Error ? error.message : "Failed to save changes.";
@@ -463,6 +466,15 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     </div>
                 </div>
             )}
+            {isSaved && (
+                <div className="alert alert-success rounded-2xl mb-0">
+                    <div className="w-full">
+                        <FontAwesomeIcon icon="fas faCircleCheck" />
+                        <span className="pl-2">
+                            Successfully saved changes to the teams and quizzers.
+                        </span>
+                    </div>
+                </div>)}
 
             {/* Teams and Quizzers Table */}
             <TeamsAndQuizzersTable
