@@ -1,0 +1,5518 @@
+{
+  "EventName": "2026 President's Cup",
+  "DatabaseNames": {
+    "0e34dff5-b571-4d6a-a86f-25f5467f5aeb": "2026_President_s_Cup"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "0e34dff5-b571-4d6a-a86f-25f5467f5aeb",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Championship",
+        "LastUpdated": "2/7/26 7:42 PM",
+        "DatabaseLastUpdated": "2026-02-04T03:55:31.3734175+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Arleen Jacob",
+            "Quizzers": [
+              9,
+              16,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2991060f-a726-4942-88f9-28f0dde3be4d",
+            "Name": "\"Team Joy\" Word of Life Assembly of God (Springfield)",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 865,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 108.1,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 16,
+              "Correct20s": 26,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Divya Mathews",
+            "Quizzers": [
+              7,
+              28
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_405da6eb-7333-4bd4-9056-9b083fe953bb",
+            "Name": "\"Team Peace\" Word of Life Assembly of God (Springfield)",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 7,
+              "WinPercentage": 12,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.6,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 30,
+              "Correct20s": 19,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Sam Klco",
+            "Quizzers": [
+              11,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 5
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 8
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bb9cd40b-4b8c-4531-ad73-0be0d976a1f0",
+            "Name": "And Sarah is our mother",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchName": "Painesville Assembly of God",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 3,
+              "WinPercentage": 62,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 180.0,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 22,
+              "Correct20s": 32,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sheena Anishraj",
+            "Quizzers": [
+              3,
+              5,
+              12,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -30,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a2558055-37a3-4cfc-b9c6-7899838c3680",
+            "Name": "Crowd of Captives",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 7,
+              "WinPercentage": 12,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.9,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 25,
+              "Correct20s": 15,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Toby Hill",
+            "Quizzers": [
+              1,
+              13,
+              20
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0e34dff5-b571-4d6a-a86f-25f5467f5aeb_24",
+            "Name": "Glad When I Suffer",
+            "ChurchId": null,
+            "ChurchName": "CTI",
+            "City": "Wayne, NJ",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 5,
+              "WinPercentage": 38,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 870,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 108.8,
+              "AverageCorrect": 7.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 25,
+              "Correct20s": 30,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Joey Lemley",
+            "Quizzers": [
+              14,
+              18,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_57bfa837-69de-49bd-ad9f-e63abc3c307d",
+            "Name": "New Day Assembly of God (Upper Saint Clair)",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 2,
+              "WinPercentage": 75,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 146.9,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 33,
+              "Correct20s": 33,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Tammy Hoffmann",
+            "Quizzers": [
+              6,
+              8,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 295,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 8
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5645959c-5dd6-47ca-9e51-3d29fffb7fd0",
+            "Name": "Northern Provinces",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 1,
+              "WinPercentage": 88,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 193.1,
+              "AverageCorrect": 11.9,
+              "QuizOuts": 15,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 41,
+              "Correct20s": 44,
+              "Correct30s": 10,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "esther vellore",
+            "Quizzers": [
+              0,
+              2,
+              4,
+              23,
+              24,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 6
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_21018600-081a-4f1e-8d15-3eb1e2322141",
+            "Name": "UECF Grace Keepers",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 6,
+              "WinPercentage": 25,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 600,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 23,
+              "Correct20s": 15,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Holly Ciampa",
+            "Quizzers": [
+              19,
+              22,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 330,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_aef42d4e-16d1-4722-b270-eee00a7a69b1",
+            "Name": "We Can't See",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 1,
+              "WinPercentage": 88,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1555,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 194.4,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 14,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 44,
+              "Correct20s": 39,
+              "Correct30s": 13,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          8,
+          6,
+          5,
+          2,
+          0,
+          4,
+          7,
+          3,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "UECF Grace Keepers",
+            "YearsQuizzing": null,
+            "Id": "q_023802e466764aedad6d08daa7c729d4",
+            "Name": "Abhinav Gatala",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Glad When I Suffer",
+            "YearsQuizzing": null,
+            "Id": "q_0e34dff5-b571-4d6a-a86f-25f5467f5aeb_209",
+            "Name": "Andrea Coello",
+            "ChurchId": null,
+            "ChurchName": "CTI",
+            "City": "Wayne, NJ",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 11,
+              "Correct20s": 16,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Grace Keepers",
+            "YearsQuizzing": null,
+            "Id": "q_6aee6159255041c2a4e9843cd9c0e90e",
+            "Name": "Ashriel Vellore",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.2,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 10,
+              "Correct20s": 6,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Crowd of Captives",
+            "YearsQuizzing": null,
+            "Id": "q_e37780d6f094400ca09f08dc206486a9",
+            "Name": "Bency Isravel",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.4,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Grace Keepers",
+            "YearsQuizzing": null,
+            "Id": "q_42a9ac3fcaf44be191fcd4e48fc48f04",
+            "Name": "Blessy Ananya Devi",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.4,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Crowd of Captives",
+            "YearsQuizzing": null,
+            "Id": "q_95c8b55bbb4a4c28a0a408dc206486a9",
+            "Name": "Blessy Isravel",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Northern Provinces",
+            "YearsQuizzing": null,
+            "Id": "q_46a281e8acd04420af5808dab68a0866",
+            "Name": "Claire Cook",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 17,
+              "Correct20s": 18,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "\"Team Peace\" Word of Life Assembly of God (Springfield)",
+            "YearsQuizzing": null,
+            "Id": "q_2217700a1622433e0f4308d74aafa564",
+            "Name": "Ebubechi Okeoma",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.4,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 20,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Northern Provinces",
+            "YearsQuizzing": null,
+            "Id": "q_618ec9aa648d4f24af5e08dab68a0866",
+            "Name": "Eliana Oxenford",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.4,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 63,
+              "Correct10s": 19,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "\"Team Joy\" Word of Life Assembly of God (Springfield)",
+            "YearsQuizzing": null,
+            "Id": "q_faa69d3c8a0e4014927108db263946b0",
+            "Name": "Godwin Jacob",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 705,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.1,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 4,
+              "Correct20s": 24,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Northern Provinces",
+            "YearsQuizzing": null,
+            "Id": "q_7f132b2960ca4415487308dbafc02107",
+            "Name": "Ian Horn",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 670,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.8,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 5,
+              "Correct20s": 23,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "And Sarah is our mother",
+            "YearsQuizzing": null,
+            "Id": "q_7fd8afe62bcd4115f92608dd6fe50b30",
+            "Name": "Jeremiah Klco",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchName": "Painesville Assembly of God",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.9,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 20,
+              "Correct20s": 6,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Crowd of Captives",
+            "YearsQuizzing": null,
+            "Id": "q_2ba5a28f08864a37a0b308dc206486a9",
+            "Name": "Joel Samuel",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 14,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Glad When I Suffer",
+            "YearsQuizzing": null,
+            "Id": "q_0e34dff5-b571-4d6a-a86f-25f5467f5aeb_211",
+            "Name": "Johan Ajoy",
+            "ChurchId": null,
+            "ChurchName": "CTI",
+            "City": "Wayne, NJ",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 5,
+              "Correct20s": 13,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Day Assembly of God (Upper Saint Clair)",
+            "YearsQuizzing": null,
+            "Id": "q_668c527221af44d9c5a808ddfeee20fa",
+            "Name": "Josh Spencer",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 785,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.1,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 9,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "And Sarah is our mother",
+            "YearsQuizzing": null,
+            "Id": "q_39c697fcfc9c4c230b0608dce5ae031e",
+            "Name": "Justin Klco",
+            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchName": "Painesville Assembly of God",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 945,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.1,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 2,
+              "Correct20s": 26,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "\"Team Joy\" Word of Life Assembly of God (Springfield)",
+            "YearsQuizzing": null,
+            "Id": "q_59e5b9bbecce472d0f1208d74aafa564",
+            "Name": "Kelechi Okeoma",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 9,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "\"Team Joy\" Word of Life Assembly of God (Springfield)",
+            "YearsQuizzing": null,
+            "Id": "q_97a689c14500468c110808d74aafa564",
+            "Name": "Kendra Prempeh",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "New Day Assembly of God (Upper Saint Clair)",
+            "YearsQuizzing": null,
+            "Id": "q_809459d4b2f84da3fa1b08dac0e0e0a1",
+            "Name": "Madison Ketter",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.1,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Can't See",
+            "YearsQuizzing": null,
+            "Id": "q_7601ec76543f41f36bec08d8069b86c1",
+            "Name": "Mark Ciampa",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 59,
+              "Correct10s": 15,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Glad When I Suffer",
+            "YearsQuizzing": null,
+            "Id": "q_0e34dff5-b571-4d6a-a86f-25f5467f5aeb_210",
+            "Name": "Michelle Ajoy",
+            "ChurchId": null,
+            "ChurchName": "CTI",
+            "City": "Wayne, NJ",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.2,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 9,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Crowd of Captives",
+            "YearsQuizzing": null,
+            "Id": "q_33e8e75e44674a6b5f9508dd38b93b05",
+            "Name": "Nathan Samuel",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Can't See",
+            "YearsQuizzing": null,
+            "Id": "q_3fdb84cdef374b891ebd08da10795bb6",
+            "Name": "Paul Ciampa",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 510,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.8,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 18,
+              "Correct20s": 15,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Grace Keepers",
+            "YearsQuizzing": null,
+            "Id": "q_93b3fdbcaef842bca26190bfffeb4452",
+            "Name": "Sahil Vupulla",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "UECF Grace Keepers",
+            "YearsQuizzing": null,
+            "Id": "q_33583b76dd1e4d9b523408dbafc02107",
+            "Name": "Samrudh Ganta",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.4,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 10,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Can't See",
+            "YearsQuizzing": null,
+            "Id": "q_d16d212ea5644e2f1eb908da10795bb6",
+            "Name": "Sarah Ciampa",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 845,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.6,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 11,
+              "Correct20s": 18,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Day Assembly of God (Upper Saint Clair)",
+            "YearsQuizzing": null,
+            "Id": "q_a28baac4f94947257a4008dce9fc53b8",
+            "Name": "Selah Booher",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.6,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 17,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Grace Keepers",
+            "YearsQuizzing": null,
+            "Id": "q_67aaf1fda172472f854c08da929026bd",
+            "Name": "Viraj Sandela",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "\"Team Peace\" Word of Life Assembly of God (Springfield)",
+            "YearsQuizzing": null,
+            "Id": "q_c197fdf0305c42868a7508dd3cc623ec",
+            "Name": "Zoe Guerard",
+            "ChurchId": "f21cba8b-3d15-4e4b-99fc-fd6a82d58bae",
+            "ChurchName": "Word of Life Assembly of God",
+            "City": "Springfield",
+            "State": "VA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.2,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 63,
+              "Correct10s": 10,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          15,
+          25,
+          14,
+          9,
+          6,
+          10,
+          1,
+          22,
+          11,
+          12,
+          2,
+          28,
+          26,
+          7,
+          13,
+          24,
+          19,
+          8,
+          18,
+          20,
+          17,
+          16,
+          3,
+          4,
+          0,
+          5,
+          23,
+          27,
+          21
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "D",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "0e34dff5-b571-4d6a-a86f-25f5467f5aeb",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Contender",
+        "LastUpdated": "2/7/26 7:42 PM",
+        "DatabaseLastUpdated": "2026-02-04T03:55:31.3734175+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Garrett Searing",
+            "Quizzers": [
+              2,
+              6,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 265,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_80f70f07-adf0-468a-8b56-7fb988c7c85d",
+            "Name": "Calvary Chapel 1",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 196.4,
+              "AverageCorrect": 11.4,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 30,
+              "Correct20s": 39,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sue Green",
+            "Quizzers": [
+              14,
+              15,
+              16,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_31fdaee5-e447-4004-a163-d0001ea4a66f",
+            "Name": "Calvary Chapel 2",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.9,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 59,
+              "Correct10s": 24,
+              "Correct20s": 14,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Julice John Raju",
+            "Quizzers": [
+              5,
+              19,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_89f5a4dc-3336-4785-ba2c-5f543524279e",
+            "Name": "Chains of Christ",
+            "ChurchId": "5c13a978-2a78-4821-ade1-e195e0b83375",
+            "ChurchName": "River of God Church",
+            "City": "Enola",
+            "State": "PA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.9,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 16,
+              "Correct20s": 15,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Wendy Cosme",
+            "Quizzers": [
+              8,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_225f83d9-7dc4-45d9-a8de-53b93118f74c",
+            "Name": "Fountain of Life Center (Burlington) #1",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.1,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 18,
+              "Correct20s": 11,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Theodore Anishraj",
+            "Quizzers": [
+              9,
+              10,
+              12,
+              25,
+              26,
+              28
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ccf48f2c-39a6-4d3b-8144-5f9f5ac87f0a",
+            "Name": "God's Masterpiece",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 710,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.4,
+              "AverageCorrect": 7.1,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 29,
+              "Correct20s": 16,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Brian Card",
+            "Quizzers": [
+              0,
+              1,
+              3,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a278c04a-712b-4551-9116-455435eaffcf",
+            "Name": "Hopelessly Confused",
+            "ChurchId": "9d910f29-0f16-435b-b793-29f8d28c3dfa",
+            "ChurchName": "Crossroads Community Cathedral",
+            "City": "East Hartford",
+            "State": "CT",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 955,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 136.4,
+              "AverageCorrect": 7.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 15,
+              "Correct20s": 30,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Bethany Lacontora",
+            "Quizzers": [
+              17,
+              18,
+              20,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 7
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_755cb4ed-5fed-4e11-b121-1aee0e5186af",
+            "Name": "New Life Assembly of God (Lancaster) #1",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.9,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 14,
+              "Correct20s": 5,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Brian Hoffmann",
+            "Quizzers": [
+              4,
+              7,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_32ef6ad5-f98e-4214-b4b0-f6b474ee4eb3",
+            "Name": "Redeemer Church (Utica)",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 790,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 112.9,
+              "AverageCorrect": 7.1,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 21,
+              "Correct20s": 20,
+              "Correct30s": 9,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          4,
+          7,
+          5,
+          1,
+          3,
+          2,
+          6
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_820e4f616a70490dd7ef08de499a9a76",
+            "Name": "Aiden Andrews",
+            "ChurchId": "9d910f29-0f16-435b-b793-29f8d28c3dfa",
+            "ChurchName": "Crossroads Community Cathedral",
+            "City": "East Hartford",
+            "State": "CT",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 185,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.4,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 13,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_51df5aac09e3410fa92808dc53e1935e",
+            "Name": "Andrew Card",
+            "ChurchId": "9d910f29-0f16-435b-b793-29f8d28c3dfa",
+            "ChurchName": "Crossroads Community Cathedral",
+            "City": "East Hartford",
+            "State": "CT",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 740,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.7,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 0,
+              "Correct20s": 27,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 1",
+            "YearsQuizzing": null,
+            "Id": "q_3c69da0f88ea4483060308daf34f36d9",
+            "Name": "Asher Gilbert",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.3,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 12,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_2e7190e0eaaa432ea99d08db3b8adc45",
+            "Name": "Aubrey Werhle",
+            "ChurchId": "9d910f29-0f16-435b-b793-29f8d28c3dfa",
+            "ChurchName": "Crossroads Community Cathedral",
+            "City": "East Hartford",
+            "State": "CT",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Redeemer Church (Utica)",
+            "YearsQuizzing": null,
+            "Id": "q_2ea49f5ed7474552737f08dde30b48e2",
+            "Name": "Clarice Bielby",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 97.1,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 10,
+              "Correct20s": 17,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chains of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_26c0e70f0b1a4a7570d008de08e1689b",
+            "Name": "Dorothy Esther",
+            "ChurchId": "5c13a978-2a78-4821-ade1-e195e0b83375",
+            "ChurchName": "River of God Church",
+            "City": "Enola",
+            "State": "PA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 1",
+            "YearsQuizzing": null,
+            "Id": "q_0e34dff5-b571-4d6a-a86f-25f5467f5aeb_22",
+            "Name": "Extra-1",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 575,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.1,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 6,
+              "Correct20s": 19,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Redeemer Church (Utica)",
+            "YearsQuizzing": null,
+            "Id": "q_13890a0ef0724e32738508dde30b48e2",
+            "Name": "Grace Oxenford",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.7,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 44,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a31d377238f848bf959508da9f41af4d",
+            "Name": "Isaiah Fadare",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.6,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 8,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_c057da548cca43990d9708de557e9930",
+            "Name": "Ivan Jacob Shidenberg",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.9,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 13,
+              "Correct20s": 5,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_635f2590d35e4f685faa08dd38b93b05",
+            "Name": "Jessica Shankar",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #1",
+            "YearsQuizzing": null,
+            "Id": "q_2ee1a0badfd745db7f4b08dcdc9e5050",
+            "Name": "Kaitlyn Kwaniki",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.6,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 10,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_1f34497ce9b04972a0ae08dc206486a9",
+            "Name": "Kesena Emmanuel",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.1,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 1",
+            "YearsQuizzing": null,
+            "Id": "q_171c0d40beea4c3d053908dc0284f0ab",
+            "Name": "Liam Torrey",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 630,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 12,
+              "Correct20s": 15,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 2",
+            "YearsQuizzing": null,
+            "Id": "q_04b1773bdc074a9da8f408de48d68617",
+            "Name": "Logan Torrey",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 2",
+            "YearsQuizzing": null,
+            "Id": "q_2b60e9245e024bdab23f08dcf82988de",
+            "Name": "Mercy Gilbert",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.1,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 49,
+              "Correct10s": 11,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 2",
+            "YearsQuizzing": null,
+            "Id": "q_a2483f45c96843aea92408de48d68617",
+            "Name": "Micah Gilbert",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.1,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #1",
+            "YearsQuizzing": null,
+            "Id": "q_5660c5b10db14b6ea35608de045d4f17",
+            "Name": "Nahomi Yigezo",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.6,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #1",
+            "YearsQuizzing": null,
+            "Id": "q_dbab5bbdb1e44d5ba35008de045d4f17",
+            "Name": "Nanat Fikadu",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Chains of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_c60dbde3f2974e3c160d08ddd3723a75",
+            "Name": "Naomi Deborah",
+            "ChurchId": "5c13a978-2a78-4821-ade1-e195e0b83375",
+            "ChurchName": "River of God Church",
+            "City": "Enola",
+            "State": "PA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 49.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 11,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #1",
+            "YearsQuizzing": null,
+            "Id": "q_34585ed444e44c9fa37a08de045d4f17",
+            "Name": "Nathan Tesfaye",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.1,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 8,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Redeemer Church (Utica)",
+            "YearsQuizzing": null,
+            "Id": "q_04c064944cc94881738b08dde30b48e2",
+            "Name": "Nia Mercedes",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ad555bd2bc31454ea37408de045d4f17",
+            "Name": "Obsinan Tesfaye",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.1,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_c7c862fd99734940867d08dd00dcffc4",
+            "Name": "Renna DiSalvatore",
+            "ChurchId": "9d910f29-0f16-435b-b793-29f8d28c3dfa",
+            "ChurchName": "Crossroads Community Cathedral",
+            "City": "East Hartford",
+            "State": "CT",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Calvary Chapel 2",
+            "YearsQuizzing": null,
+            "Id": "q_c6b1b50a4b804b79a8e908de48d68617",
+            "Name": "Richard Searing",
+            "ChurchId": "b286a07c-4823-4549-aca1-775971182a46",
+            "ChurchName": "Vineyard Church",
+            "City": "Auburn",
+            "State": "NY",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 12,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_38566770e27b4d900da108de557e9930",
+            "Name": "Steve Praveen",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.7,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_a5483795ffea44f3a0a908dc206486a9",
+            "Name": "Tirzah Selvin",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Chains of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_4b0b817c3b50492df7ff08dd5b8c5103",
+            "Name": "Wyatt Heller",
+            "ChurchId": "5c13a978-2a78-4821-ade1-e195e0b83375",
+            "ChurchName": "River of God Church",
+            "City": "Enola",
+            "State": "PA",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_fd3b4585a34b44fb0d9c08de557e9930",
+            "Name": "Zander Jacob Sheldenberg",
+            "ChurchId": "14e69742-1fd3-4f2d-d123-08d8f31ef912",
+            "ChurchName": "Indians for Christ",
+            "City": "Silver Spring",
+            "State": "MD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.7,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 7,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          4,
+          13,
+          6,
+          19,
+          9,
+          8,
+          28,
+          24,
+          11,
+          0,
+          2,
+          5,
+          12,
+          20,
+          21,
+          15,
+          25,
+          7,
+          3,
+          18,
+          17,
+          16,
+          22,
+          10,
+          26,
+          14,
+          27,
+          23
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "D",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "0e34dff5-b571-4d6a-a86f-25f5467f5aeb",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "XP5",
+        "LastUpdated": "2/7/26 7:42 PM",
+        "DatabaseLastUpdated": "2026-02-04T03:55:31.3734175+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Iheoma Nwaigbo",
+            "Quizzers": [
+              1,
+              21
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8a329c2f-519c-4729-84be-45c7364824e0",
+            "Name": "Fountain of Life Center (Burlington) #2",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1090,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 181.7,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 98,
+              "Correct10s": 22,
+              "Correct20s": 25,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              20,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 6
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8c38d2a5-c831-44a9-bd99-427dd6290d73",
+            "Name": "Fountain of Life Center (Burlington) #3",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 775,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 129.2,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 13,
+              "Correct20s": 23,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Emily Bonilla",
+            "Quizzers": [
+              5,
+              7,
+              8,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bd04fd13-c378-4643-bcfa-b9898e8cb082",
+            "Name": "Living Waters Chapel Assembly of God (Lebanon) #1",
+            "ChurchId": "5d9ed603-7cc1-40f6-8fec-6d884cd9407c",
+            "ChurchName": "Living Waters Chapel Assembly of God",
+            "City": "Lebanon",
+            "State": "PA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1025,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 170.8,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 17,
+              "Correct20s": 23,
+              "Correct30s": 11,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Richard Lacontora",
+            "Quizzers": [
+              9,
+              15,
+              16,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2662b2b4-9b1a-432e-a40b-6ec59de75466",
+            "Name": "New Life Assembly of God (Lancaster) #2",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 745,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 124.2,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 21,
+              "Correct20s": 21,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sara Puckett",
+            "Quizzers": [
+              3,
+              4,
+              14,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_9fc8fef2-ab45-4321-baa0-01122ecca9df",
+            "Name": "Standing Firm Under Authority",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 192.5,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 20,
+              "Correct20s": 25,
+              "Correct30s": 10,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Cheyene Puckett",
+            "Quizzers": [
+              0,
+              6,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_48cf97e0-67f4-46fd-be81-4cef22cfbb57",
+            "Name": "The Commander in Chiefs Armor",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 12,
+              "Correct20s": 13,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Ashok Vellore",
+            "Quizzers": [
+              11,
+              12,
+              13,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 280,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 4
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_53722efc-fd08-4096-8911-b866fb87b467",
+            "Name": "UECF Light bearers",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 221.7,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 30,
+              "Correct20s": 31,
+              "Correct30s": 10,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          6,
+          4,
+          0,
+          2,
+          3,
+          1,
+          5
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "The Commander in Chiefs Armor",
+            "YearsQuizzing": null,
+            "Id": "q_23da12e27e3348aa727408de04845ac9",
+            "Name": "Addison Puckett",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 10,
+              "Correct20s": 9,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #2",
+            "YearsQuizzing": null,
+            "Id": "q_9a8ad4cc70a2413395ca08da9f41af4d",
+            "Name": "Alexis Mwaniki",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.7,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 14,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #3",
+            "YearsQuizzing": null,
+            "Id": "q_fad56a95d51b4760532108dadbf42b01",
+            "Name": "Allyson Corbin",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.2,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 5,
+              "Correct20s": 17,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Standing Firm Under Authority",
+            "YearsQuizzing": null,
+            "Id": "q_e7fba4039a1141b2728e08de04845ac9",
+            "Name": "Aryanna Miller",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 8,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Standing Firm Under Authority",
+            "YearsQuizzing": null,
+            "Id": "q_d2d3e80eb15e421f727208de04845ac9",
+            "Name": "Ava Sherry",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 710,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 17,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Living Waters Chapel Assembly of God (Lebanon) #1",
+            "YearsQuizzing": null,
+            "Id": "q_3cf91ad0845146e7fc0908ddfee5ce2e",
+            "Name": "Avery Simpson",
+            "ChurchId": "5d9ed603-7cc1-40f6-8fec-6d884cd9407c",
+            "ChurchName": "Living Waters Chapel Assembly of God",
+            "City": "Lebanon",
+            "State": "PA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.3,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 14,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Commander in Chiefs Armor",
+            "YearsQuizzing": null,
+            "Id": "q_f034af67d3d24ebf728008de04845ac9",
+            "Name": "Briella Sherry",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 2,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Living Waters Chapel Assembly of God (Lebanon) #1",
+            "YearsQuizzing": null,
+            "Id": "q_5c5c4a9ed7d64527f6bb08dd5b8c5103",
+            "Name": "Chance Martin",
+            "ChurchId": "5d9ed603-7cc1-40f6-8fec-6d884cd9407c",
+            "ChurchName": "Living Waters Chapel Assembly of God",
+            "City": "Lebanon",
+            "State": "PA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 815,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 135.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 0,
+              "Correct20s": 19,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Living Waters Chapel Assembly of God (Lebanon) #1",
+            "YearsQuizzing": null,
+            "Id": "q_3bd2555a7a214fd2fc1408ddfee5ce2e",
+            "Name": "Destinee McMullen",
+            "ChurchId": "5d9ed603-7cc1-40f6-8fec-6d884cd9407c",
+            "ChurchName": "Living Waters Chapel Assembly of God",
+            "City": "Lebanon",
+            "State": "PA",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #2",
+            "YearsQuizzing": null,
+            "Id": "q_e04cbb89d5ff4385a36808de045d4f17",
+            "Name": "Eden Kebede",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Living Waters Chapel Assembly of God (Lebanon) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7290555fe5634412fc1a08ddfee5ce2e",
+            "Name": "Evan McMullen",
+            "ChurchId": "5d9ed603-7cc1-40f6-8fec-6d884cd9407c",
+            "ChurchName": "Living Waters Chapel Assembly of God",
+            "City": "Lebanon",
+            "State": "PA",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Light bearers",
+            "YearsQuizzing": null,
+            "Id": "q_eb318066c4c742cc884208d745303a93",
+            "Name": "Jairus Peyyala",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "UECF Light bearers",
+            "YearsQuizzing": null,
+            "Id": "q_62e58cd933c2418387fb08d745303a93",
+            "Name": "Joanna Bollam",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.5,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 17,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Light bearers",
+            "YearsQuizzing": null,
+            "Id": "q_9bad3dfc8ed643e4880208d745303a93",
+            "Name": "Joha Pilli",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 755,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 125.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 1,
+              "Correct20s": 21,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Standing Firm Under Authority",
+            "YearsQuizzing": null,
+            "Id": "q_9281219bb14f45b572c908de04845ac9",
+            "Name": "John Beiler",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8332657010b44a0ca35c08de045d4f17",
+            "Name": "Kebron Dugassa",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 630,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 4,
+              "Correct20s": 20,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #2",
+            "YearsQuizzing": null,
+            "Id": "q_679a0e1ed81a4693a36208de045d4f17",
+            "Name": "Kenaf Kabeta",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Life Assembly of God (Lancaster) #2",
+            "YearsQuizzing": null,
+            "Id": "q_18bae73d48434d01a36e08de045d4f17",
+            "Name": "Latu Tolla",
+            "ChurchId": "949beba8-1a94-4c6a-aacf-4260f5c9df97",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Lancaster",
+            "State": "PA",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.2,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "UECF Light bearers",
+            "YearsQuizzing": null,
+            "Id": "q_d893b1d69ba74715884808d745303a93",
+            "Name": "Lisa Rachel Dayala",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 54.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 12,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Commander in Chiefs Armor",
+            "YearsQuizzing": null,
+            "Id": "q_71e52e7bdab448be727708de04845ac9",
+            "Name": "Rebekah Beiler",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #3",
+            "YearsQuizzing": null,
+            "Id": "q_1eca34e11d864ba596bc08ddfc3ef602",
+            "Name": "Seun Oluwagbemi",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 185,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.8,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 8,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #2",
+            "YearsQuizzing": null,
+            "Id": "q_e5f04bb68262418b95c408da9f41af4d",
+            "Name": "Victoria Fadare",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 570,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 95.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 14,
+              "Correct20s": 11,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Standing Firm Under Authority",
+            "YearsQuizzing": null,
+            "Id": "q_bb47883949434ab572c308de04845ac9",
+            "Name": "Wyatt Puckett",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center (Burlington) #3",
+            "YearsQuizzing": null,
+            "Id": "q_e9c353e5891345a9968908ddfc3ef602",
+            "Name": "Xzander Bartosh",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          13,
+          4,
+          15,
+          2,
+          21,
+          1,
+          3,
+          0,
+          18,
+          12,
+          20,
+          5,
+          6,
+          17,
+          10,
+          16,
+          9,
+          22,
+          8,
+          11,
+          14,
+          19,
+          23
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-07T19:42:42.3773119+00:00"
+}
