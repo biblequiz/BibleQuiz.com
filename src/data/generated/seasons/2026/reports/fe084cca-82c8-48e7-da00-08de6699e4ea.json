@@ -1,0 +1,940 @@
+{
+  "EventName": "EauClaire League Combined Season Report 2025-26",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "EauClaire League Combined Season Report 2025-26",
+        "LastUpdated": "2/7/26 6:44 PM",
+        "DatabaseLastUpdated": "2026-02-03T21:00:51.1338339+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Dave Thomassen",
+            "Quizzers": [
+              7,
+              8,
+              18
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_30f502da-8c86-47f5-8553-0b0609ba8b15",
+            "Name": "Dallas \"Bible Bears\"",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 19,
+              "WinPercentage": 5,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 1515,
+              "PerMeetTotalPoints": [
+                545,
+                525,
+                445
+              ],
+              "AveragePoints": 75.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 59,
+              "Correct20s": 33,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Heather Lansing",
+            "Quizzers": [
+              2,
+              3,
+              17
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_ceb69a7c-3bd4-4d49-ba36-e41e73dfec2c",
+            "Name": "Eau Claire \"Pasta Pals\"",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Wins": 14,
+              "Losses": 6,
+              "WinPercentage": 70,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 3245,
+              "PerMeetTotalPoints": [
+                1200,
+                1155,
+                890
+              ],
+              "AveragePoints": 162.2,
+              "AverageCorrect": 10.8,
+              "QuizOuts": 22,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 116,
+              "Correct20s": 78,
+              "Correct30s": 22,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Tom Hagen",
+            "Quizzers": [
+              4,
+              5,
+              9,
+              10
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_99284cd2-83f0-4b4c-97ba-73a599754569",
+            "Name": "Eau Claire \"Peanut Pants\"",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Wins": 10,
+              "Losses": 10,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 2905,
+              "PerMeetTotalPoints": [
+                1005,
+                1065,
+                835
+              ],
+              "AveragePoints": 145.2,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 83,
+              "Correct20s": 56,
+              "Correct30s": 38,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jeff Rapp",
+            "Quizzers": [
+              0,
+              1,
+              12,
+              15,
+              19
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_0c669a6a-f5cf-4988-9c10-9d80291021a0",
+            "Name": "New Richmond \"Bible Buzzers\"",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 17,
+              "WinPercentage": 15,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1760,
+              "PerMeetTotalPoints": [
+                715,
+                490,
+                555
+              ],
+              "AveragePoints": 88.0,
+              "AverageCorrect": 7.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 82,
+              "Correct20s": 62,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Andrea Helgerson",
+            "Quizzers": [
+              11,
+              13,
+              14,
+              16
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_4df3555a-b060-451a-9c10-353956b59cec",
+            "Name": "Sparta \"Quizzing Quad\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 18,
+              "Losses": 2,
+              "WinPercentage": 90,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 4180,
+              "PerMeetTotalPoints": [
+                1390,
+                1575,
+                1215
+              ],
+              "AveragePoints": 209.0,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 29,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 109,
+              "Correct20s": 73,
+              "Correct30s": 53,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jesse Baldwin",
+            "Quizzers": [
+              6,
+              20,
+              21
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_543e1edc-4306-4202-a7a5-530d25908b05",
+            "Name": "Sparta \"Scripture Squirrels 2.0\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 14,
+              "Losses": 6,
+              "WinPercentage": 70,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 3185,
+              "PerMeetTotalPoints": [
+                1040,
+                960,
+                1185
+              ],
+              "AveragePoints": 159.2,
+              "AverageCorrect": 11.1,
+              "QuizOuts": 23,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 131,
+              "Correct20s": 78,
+              "Correct30s": 13,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          4,
+          5,
+          1,
+          2,
+          3,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "New Richmond \"Bible Buzzers\"",
+            "YearsQuizzing": 2,
+            "Id": "q_9fb8e4d4ad464ad6699608dcf9adf9a0",
+            "Name": "Alexander Howell",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": [
+                15,
+                0,
+                60
+              ],
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond \"Bible Buzzers\"",
+            "YearsQuizzing": 1,
+            "Id": "q_9ce53320108248c71a5b08de1687ad9b",
+            "Name": "Allis Wood",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": [
+                20,
+                20,
+                15
+              ],
+              "AveragePoints": 2.8,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Pasta Pals\"",
+            "YearsQuizzing": 3,
+            "Id": "q_fdb444a1e207423e3dfe08dbd94ef9ff",
+            "Name": "Bash Lansing",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": [
+                85,
+                0,
+                10
+              ],
+              "AveragePoints": 4.8,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Pasta Pals\"",
+            "YearsQuizzing": 1,
+            "Id": "q_f854e2ce0a804a547cf508de04845ac9",
+            "Name": "Caleb Williams",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1090,
+              "PerMeetTotalPoints": [
+                315,
+                410,
+                365
+              ],
+              "AveragePoints": 54.5,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 100,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Peanut Pants\"",
+            "YearsQuizzing": 1,
+            "Id": "q_a375b69c1b7249827d1b08de04845ac9",
+            "Name": "Cordelia Lansing",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                -5
+              ],
+              "AveragePoints": -0.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Peanut Pants\"",
+            "YearsQuizzing": 2,
+            "Id": "q_55dca0291f4740d4b0de08dcf82988de",
+            "Name": "Eleanor Bergeron",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": [
+                90,
+                210,
+                35
+              ],
+              "AveragePoints": 16.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 35,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Scripture Squirrels 2.0\"",
+            "YearsQuizzing": 4,
+            "Id": "q_9846cb0a265344c93d5008dbd94ef9ff",
+            "Name": "Evalyn Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1600,
+              "PerMeetTotalPoints": [
+                525,
+                435,
+                640
+              ],
+              "AveragePoints": 80.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 13,
+              "Correct20s": 77,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dallas \"Bible Bears\"",
+            "YearsQuizzing": 1,
+            "Id": "q_29d223c566c44308b29508dd1880467e",
+            "Name": "Evelyn Juza",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dallas \"Bible Bears\"",
+            "YearsQuizzing": 2,
+            "Id": "q_5642729159394874b29608dd1880467e",
+            "Name": "Flory Thomassen",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": [
+                20,
+                25,
+                20
+              ],
+              "AveragePoints": 3.2,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Peanut Pants\"",
+            "YearsQuizzing": 1,
+            "Id": "q_cc1c5799901444c37d2108de04845ac9",
+            "Name": "Henley Bowe",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": [
+                115,
+                80,
+                185
+              ],
+              "AveragePoints": 19.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 40,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Peanut Pants\"",
+            "YearsQuizzing": 4,
+            "Id": "q_951c461d136c4b4f68f708db1c497da3",
+            "Name": "Jack Paulseth",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2195,
+              "PerMeetTotalPoints": [
+                800,
+                775,
+                620
+              ],
+              "AveragePoints": 109.8,
+              "AverageCorrect": 5.1,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 8,
+              "Correct20s": 56,
+              "Correct30s": 38,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Quizzing Quad\"",
+            "YearsQuizzing": 1,
+            "Id": "q_c95872529c7a4d6b7bb408de04845ac9",
+            "Name": "Jade Adams",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": [
+                45,
+                90,
+                40
+              ],
+              "AveragePoints": 8.8,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 6,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond \"Bible Buzzers\"",
+            "YearsQuizzing": 2,
+            "Id": "q_8d46c469249d4a78698a08dcf9adf9a0",
+            "Name": "Jeffrey Myer",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 555,
+              "PerMeetTotalPoints": [
+                265,
+                150,
+                140
+              ],
+              "AveragePoints": 27.8,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 63,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Quizzing Quad\"",
+            "YearsQuizzing": 3,
+            "Id": "q_3aeada945f9647493d2c08dbd94ef9ff",
+            "Name": "Jeremiah Helgerson",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2950,
+              "PerMeetTotalPoints": [
+                985,
+                1095,
+                870
+              ],
+              "AveragePoints": 147.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 19,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 1,
+              "Correct20s": 65,
+              "Correct30s": 53,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Quizzing Quad\"",
+            "YearsQuizzing": 1,
+            "Id": "q_ac5f7a367b3a4b227baf08de04845ac9",
+            "Name": "Kacey Jordan",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": [
+                10,
+                0,
+                -5
+              ],
+              "AveragePoints": 0.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond \"Bible Buzzers\"",
+            "YearsQuizzing": 1,
+            "Id": "q_6cf5eb29808247681a5508de1687ad9b",
+            "Name": "Malachi Starkweather",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 865,
+              "PerMeetTotalPoints": [
+                335,
+                300,
+                230
+              ],
+              "AveragePoints": 43.2,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 0,
+              "Correct20s": 55,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Quizzing Quad\"",
+            "YearsQuizzing": 1,
+            "Id": "q_4060b04c78d249c27baa08de04845ac9",
+            "Name": "Odin Uker",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1050,
+              "PerMeetTotalPoints": [
+                350,
+                390,
+                310
+              ],
+              "AveragePoints": 52.5,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 101,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Pasta Pals\"",
+            "YearsQuizzing": 3,
+            "Id": "q_6b2d7c541b5045bc3e0308dbd94ef9ff",
+            "Name": "Oliver Bergeron",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 2060,
+              "PerMeetTotalPoints": [
+                800,
+                745,
+                515
+              ],
+              "AveragePoints": 103.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 0,
+              "Correct20s": 78,
+              "Correct30s": 22,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dallas \"Bible Bears\"",
+            "YearsQuizzing": 2,
+            "Id": "q_02775b97ce4e4a15b29408dd1880467e",
+            "Name": "Roger Thomassen",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1450,
+              "PerMeetTotalPoints": [
+                525,
+                500,
+                425
+              ],
+              "AveragePoints": 72.5,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 52,
+              "Correct20s": 33,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond \"Bible Buzzers\"",
+            "YearsQuizzing": 2,
+            "Id": "q_f4858d4a08334580699008dcf9adf9a0",
+            "Name": "Ryan Pederson",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": [
+                80,
+                20,
+                110
+              ],
+              "AveragePoints": 10.5,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 3,
+              "Correct20s": 7,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Scripture Squirrels 2.0\"",
+            "YearsQuizzing": 1,
+            "Id": "q_777e2e4312bf4f147bd108de04845ac9",
+            "Name": "Scarlett Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": [
+                35,
+                20,
+                60
+              ],
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"Scripture Squirrels 2.0\"",
+            "YearsQuizzing": 3,
+            "Id": "q_3e6f3890ffdf46a63d4108dbd94ef9ff",
+            "Name": "Violet Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1470,
+              "PerMeetTotalPoints": [
+                480,
+                505,
+                485
+              ],
+              "AveragePoints": 73.5,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 17,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 105,
+              "Correct20s": 1,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          16,
+          15,
+          9,
+          11,
+          20,
+          1,
+          14,
+          7,
+          4,
+          18,
+          12,
+          5,
+          19,
+          0,
+          8,
+          13,
+          17,
+          21,
+          2,
+          10,
+          6
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "2025-2026 JBQ Eau Claire December League Meet (JBQ): December 25",
+          "2025-2026 JBQ Eau Claire February League Meet (JBQ): February 26",
+          "2025-2026 JBQ Eau Claire November League Meet (JBQ): November 25"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Grouped by years in quiz (Ascending), then ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Years Quizzing & Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-07T18:44:27.7886793+00:00"
+}
