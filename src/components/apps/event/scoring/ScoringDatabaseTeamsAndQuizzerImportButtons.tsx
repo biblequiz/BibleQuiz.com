@@ -100,21 +100,20 @@ export default function ScoringDatabaseTeamsAndQuizzerImportButtons({
                 <FileUploadDialog
                     title="Select ScoreKeep Report"
                     extensions={[".xlsx", ".txt"]}
-                    onReadyForUpload={formData => {
+                    onReadyForUpload={async formData => {
                         if (formData) {
-                            return AstroTeamsAndQuizzersService.processReportForImport(
+
+                            const manifest = await AstroTeamsAndQuizzersService.processReportForImport(
                                 auth,
                                 eventId,
                                 databaseId,
-                                formData)
-                                .then(manifest => {
-                                    setDownloadedManifest(manifest);
-                                    setIsImportingFile(false);
-                                });
-                        }
-                        else {
+                                formData);
+
+                            setDownloadedManifest(manifest);
                             setIsImportingFile(false);
-                            return Promise.resolve();
+
+                        } else {
+                            setIsImportingFile(false);
                         }
                     }}
                 />)}

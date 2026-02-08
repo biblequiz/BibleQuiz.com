@@ -24,6 +24,8 @@ export interface EventInfoCache {
 
 export interface EventInfoWithTypeId extends EventInfo {
     typeId: string;
+    searchableName: string;
+    searchableLocation?: string;
 }
 
 export default function EventLookupDialog({
@@ -41,7 +43,6 @@ export default function EventLookupDialog({
 
     const auth = AuthManager.useNanoStore();
 
-    const [intermediateSearchText, setIntermediateSearchText] = useState<string | undefined>(undefined);
     const [searchText, setSearchText] = useState<string | undefined>(undefined);
     const [allEvents, setAllEvents] = useState<EventInfoWithTypeId[] | undefined>(undefined);
     const [events, setEvents] = useState<EventInfoWithTypeId[] | undefined>(undefined);
@@ -69,6 +70,8 @@ export default function EventLookupDialog({
                         const formattedEvents = events.map(e => {
                             const formatted = e.Event as EventInfoWithTypeId;
                             formatted.typeId = e.Url.substring(0, 3);
+                            formatted.searchableName = formatted.name.toLowerCase();
+                            formatted.searchableLocation = formatted.locationName?.toLowerCase();
                             return formatted;
                         });
 
@@ -88,26 +91,28 @@ export default function EventLookupDialog({
             return;
         }
 
-        const filteredEvents = allEvents.filter(event => {
+        const normalizedSearchText = searchText?.trim()?.toLowerCase();
+        const filteredEvents: EventInfoWithTypeId[] = [];
+        for (const event of allEvents) {
             if (regionId && event.regionId !== regionId) {
                 if (!allowBroaderScopes || event.regionId) {
-                    return false;
+                    continue;
                 }
             }
             else if (districtId && event.districtId !== districtId) {
                 if (!allowBroaderScopes || event.districtId) {
-                    return false;
+                    continue;
                 }
             }
 
-            if (searchText &&
-                !event.name.includes(searchText) &&
-                event.locationName && !event.locationName.includes(searchText)) {
-                return false;
+            if (normalizedSearchText &&
+                !event.searchableName.includes(normalizedSearchText) &&
+                event.searchableLocation && !event.searchableLocation.includes(normalizedSearchText)) {
+                continue;
             }
 
-            return true;
-        });
+            filteredEvents.push(event);
+        }
 
         setEvents(filteredEvents);
         setIsLoading(false);
@@ -140,27 +145,21 @@ export default function EventLookupDialog({
                                 type="text"
                                 className="grow"
                                 placeholder="Name"
-                                value={intermediateSearchText ?? ""}
+                                value={searchText ?? ""}
                                 onChange={e => {
                                     const currentValue = e.target.value;
                                     const newText = DataTypeHelpers.isNullOrEmpty(currentValue)
                                         ? undefined
                                         : currentValue;
-                                    setIntermediateSearchText(newText);
+                                    setSearchText(newText);
                                 }}
-                                onBlur={() => setSearchText(intermediateSearchText)}
-                                onKeyDown={e => {
-                                    if (e.key === "Enter") {
-                                        setSearchText(intermediateSearchText);
-                                    }
-                                }}
+                                onBlur={() => setSearchText(searchText)}
                                 disabled={isLoading || isAssigning} />
-                            {(intermediateSearchText?.length ?? 0) > 0 && (
+                            {(searchText?.length ?? 0) > 0 && (
                                 <button
                                     className="btn btn-ghost btn-xs"
                                     onClick={() => {
                                         setSearchText(undefined);
-                                        setIntermediateSearchText(undefined);
                                     }}>
                                     <FontAwesomeIcon icon="fas faCircleXmark" />
                                 </button>)}
@@ -197,7 +196,10 @@ export default function EventLookupDialog({
                                                 key={`event-card-${event.id}`}
                                                 type="button"
                                                 className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
-                                                onClick={() => onSelect(event)}>
+                                                onClick={() => {
+                                                    onSelect(event);
+                                                    dialogRef.current?.close();
+                                                }}>
                                                 <div className="card-body p-2 pl-4">
                                                     <div className="flex items-start gap-4">
                                                         <img
