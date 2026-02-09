@@ -426,7 +426,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                         <table className="table table-zebra table-sm w-full">
                             <thead className="bg-base-200">
                                 <tr>
-                                    <th className="w-8"></th>
+                                    <th>&nbsp;</th>
                                     <th>Original Name</th>
                                     <th>Original Church</th>
                                     <th>Final Name</th>
@@ -444,8 +444,11 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                                         onDragEnd={handleTeamDragEnd}
                                         className={`${draggedTeamIndex === index ? 'opacity-50' : ''} ${dragOverTeamIndex === index ? 'bg-primary/20' : ''}`}
                                     >
-                                        <td className="text-base-content/40">
-                                            <FontAwesomeIcon icon="fas faGripVertical" />
+                                        <td>
+                                            <FontAwesomeIcon
+                                                icon="fas faGripVertical"
+                                                classNames={["cursor-grab", "text-base-content/40"]}
+                                            />
                                         </td>
                                         <td className="text-base-content/70">
                                             {preview.team.OriginalName || preview.team.Name}
