@@ -1,0 +1,695 @@
+{
+  "EventName": "NC TBQ As of January A",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "NC TBQ As of January A",
+        "LastUpdated": "1/17/26 7:02 PM",
+        "DatabaseLastUpdated": "2026-01-16T04:34:16.16261+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              10
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_957deb80-8139-44b2-91ea-9c2366cb0d06",
+            "Name": "Carolinas Christian Assembly (Matthews) #1",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 3,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1470,
+              "PerMeetTotalPoints": [
+                555,
+                395,
+                520
+              ],
+              "AveragePoints": 122.5,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 28,
+              "Correct20s": 36,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "David P Shepard",
+            "Quizzers": [
+              3,
+              8,
+              9,
+              11,
+              13
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_bf02d241-7d0f-4815-a78b-15334849055c",
+            "Name": "Centro Cristiano Restauración",
+            "ChurchId": "480f8069-c491-42ec-82dc-ae09be2174ad",
+            "ChurchName": "Tabernacle of Praise",
+            "City": "Fletcher",
+            "State": "NC",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 12,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": [
+                45,
+                10,
+                60
+              ],
+              "AveragePoints": 9.6,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 8,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Paul McCollum",
+            "Quizzers": [
+              0,
+              4,
+              14
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_51564adf-d732-48aa-990e-9a0b520b198e",
+            "Name": "Dont give up !",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 8,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 685,
+              "PerMeetTotalPoints": [
+                175,
+                90,
+                420
+              ],
+              "AveragePoints": 57.1,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 29,
+              "Correct20s": 20,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Mike Teeter",
+            "Quizzers": [
+              6,
+              7
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_cb1a143d-02e1-444f-a29f-7a6154ff311d",
+            "Name": "Help These Two Women (CICF)",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Wins": 12,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2610,
+              "PerMeetTotalPoints": [
+                900,
+                845,
+                865
+              ],
+              "AveragePoints": 217.5,
+              "AverageCorrect": 9.9,
+              "QuizOuts": 23,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 38,
+              "Correct20s": 56,
+              "Correct30s": 25,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jean McCollum",
+            "Quizzers": [
+              1,
+              5,
+              12
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_310b7c51-43a9-4e00-aa09-8163f2d1dd77",
+            "Name": "Listen !",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 7,
+              "WinPercentage": 42,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1145,
+              "PerMeetTotalPoints": [
+                380,
+                410,
+                355
+              ],
+              "AveragePoints": 95.4,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 34,
+              "Correct20s": 29,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          0,
+          4,
+          2,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Dont give up !",
+            "YearsQuizzing": null,
+            "Id": "q_54933cfb1679438fbae272cb9df99ac7",
+            "Name": "Braedan Darby",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": [
+                60,
+                -15,
+                40
+              ],
+              "AveragePoints": 7.1,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 46,
+              "Correct10s": 12,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Listen !",
+            "YearsQuizzing": null,
+            "Id": "q_50af9be13c4f417fc55a08dbc909e367",
+            "Name": "Danielle Riego",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 435,
+              "PerMeetTotalPoints": [
+                205,
+                230,
+                0
+              ],
+              "AveragePoints": 36.2,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 12,
+              "Correct20s": 10,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Carolinas Christian Assembly (Matthews) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ae9f23d40b7040b2918108d89ebeb141",
+            "Name": "Dillon Sam",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1135,
+              "PerMeetTotalPoints": [
+                385,
+                330,
+                420
+              ],
+              "AveragePoints": 94.6,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 12,
+              "Correct20s": 33,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Centro Cristiano Restauración",
+            "YearsQuizzing": null,
+            "Id": "q_7251c813ff6d4dc3b34708d8ad8e15ba",
+            "Name": "Dorothy Shepard",
+            "ChurchId": "480f8069-c491-42ec-82dc-ae09be2174ad",
+            "ChurchName": "Tabernacle of Praise",
+            "City": "Fletcher",
+            "State": "NC",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": [
+                40,
+                5,
+                45
+              ],
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 2,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dont give up !",
+            "YearsQuizzing": null,
+            "Id": "q_814a89faf67c4dee3eac08d7a39e1b07",
+            "Name": "Hunter Darby",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 600,
+              "PerMeetTotalPoints": [
+                115,
+                105,
+                380
+              ],
+              "AveragePoints": 50.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 17,
+              "Correct20s": 15,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Listen !",
+            "YearsQuizzing": null,
+            "Id": "q_6be99a16434d458ca494d8e8ad408d56",
+            "Name": "Ian McCollum",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                -10,
+                10
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Help These Two Women (CICF)",
+            "YearsQuizzing": null,
+            "Id": "q_1f86df1a160247c6d7bb08d8f272c07b",
+            "Name": "Josita Paulraj",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1615,
+              "PerMeetTotalPoints": [
+                520,
+                505,
+                590
+              ],
+              "AveragePoints": 134.6,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 0,
+              "Correct20s": 39,
+              "Correct30s": 21,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Help These Two Women (CICF)",
+            "YearsQuizzing": null,
+            "Id": "q_27849dd2b6034fab84a808dbb0cb2340",
+            "Name": "Katelyn Teeter",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 995,
+              "PerMeetTotalPoints": [
+                380,
+                340,
+                275
+              ],
+              "AveragePoints": 82.9,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 38,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Centro Cristiano Restauración",
+            "YearsQuizzing": null,
+            "Id": "q_b332d160c61c4af05a0908dd6a1ee8c9",
+            "Name": "Kaya Hassier",
+            "ChurchId": "480f8069-c491-42ec-82dc-ae09be2174ad",
+            "ChurchName": "Tabernacle of Praise",
+            "City": "Fletcher",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Centro Cristiano Restauración",
+            "YearsQuizzing": null,
+            "Id": "q_aa9410f63d9c4ef4cf5d08ddfaaf0d2a",
+            "Name": "Paloma Recobro",
+            "ChurchId": "480f8069-c491-42ec-82dc-ae09be2174ad",
+            "ChurchName": "Tabernacle of Praise",
+            "City": "Fletcher",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Carolinas Christian Assembly (Matthews) #1",
+            "YearsQuizzing": null,
+            "Id": "q_f34c3efbcccc49c5918d08d89ebeb141",
+            "Name": "Rachel Kuruvila",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": [
+                170,
+                65,
+                100
+              ],
+              "AveragePoints": 27.9,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 16,
+              "Correct20s": 3,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Centro Cristiano Restauración",
+            "YearsQuizzing": null,
+            "Id": "q_c00d7a8a6f8843e787ec08dbb0cb2340",
+            "Name": "Rafael Ulrich",
+            "ChurchId": "480f8069-c491-42ec-82dc-ae09be2174ad",
+            "ChurchName": "Tabernacle of Praise",
+            "City": "Fletcher",
+            "State": "NC",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": [
+                -10,
+                0,
+                0
+              ],
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Listen !",
+            "YearsQuizzing": null,
+            "Id": "q_a9833f7758b54074b3c808d8ad8e15ba",
+            "Name": "Rian Darby",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 710,
+              "PerMeetTotalPoints": [
+                175,
+                190,
+                345
+              ],
+              "AveragePoints": 59.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 21,
+              "Correct20s": 19,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Centro Cristiano Restauración",
+            "YearsQuizzing": null,
+            "Id": "q_59c233ed1eb04951b34c08d8ad8e15ba",
+            "Name": "Shammah Shepard",
+            "ChurchId": "480f8069-c491-42ec-82dc-ae09be2174ad",
+            "ChurchName": "Tabernacle of Praise",
+            "City": "Fletcher",
+            "State": "NC",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": [
+                15,
+                5,
+                15
+              ],
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dont give up !",
+            "YearsQuizzing": null,
+            "Id": "q_d0e7facab711443a027408ddfee5ce2f",
+            "Name": "William Benson",
+            "ChurchId": "307f7be2-bd72-4797-4fa2-08db4136b16b",
+            "ChurchName": "Calvary Church",
+            "City": "Greensboro",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          6,
+          2,
+          7,
+          12,
+          4,
+          1,
+          10,
+          3,
+          0,
+          13,
+          5,
+          8,
+          9,
+          14,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": [
+          "Oct Meet - Championship",
+          "Nov Meet - Championship",
+          "Jan Meet - Championship"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-01T15:54:54.100871+00:00"
+}
