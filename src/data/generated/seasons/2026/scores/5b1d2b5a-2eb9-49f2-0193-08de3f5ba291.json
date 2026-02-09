@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Champ Meet #3",
-        "LastUpdated": "2/7/26 12:18 AM",
-        "DatabaseLastUpdated": "2026-02-06T23:31:20.499178+00:00",
+        "LastUpdated": "2/9/26 9:13 PM",
+        "DatabaseLastUpdated": "2026-02-09T18:40:21.1678865+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -1173,7 +1173,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1235,8 +1235,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender Meet #3",
-        "LastUpdated": "2/7/26 12:18 AM",
-        "DatabaseLastUpdated": "2026-02-06T23:31:20.499178+00:00",
+        "LastUpdated": "2/9/26 9:13 PM",
+        "DatabaseLastUpdated": "2026-02-09T18:40:21.1678865+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -2583,7 +2583,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2645,17 +2645,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 Meet #3",
-        "LastUpdated": "2/7/26 12:18 AM",
-        "DatabaseLastUpdated": "2026-02-06T23:31:20.499178+00:00",
+        "LastUpdated": "2/9/26 9:13 PM",
+        "DatabaseLastUpdated": "2026-02-09T18:40:21.1678865+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": null,
             "Quizzers": [
-              17,
-              25,
+              18,
               26,
-              27
+              27,
+              28
             ],
             "Matches": [
               {
@@ -2750,9 +2750,9 @@
           {
             "CoachName": "Josh Cheatwood",
             "Quizzers": [
-              4,
-              19,
-              24
+              5,
+              20,
+              25
             ],
             "Matches": [
               {
@@ -2848,9 +2848,10 @@
             "CoachName": "Mitchell Davis",
             "Quizzers": [
               3,
-              20,
+              4,
               21,
-              22
+              22,
+              23
             ],
             "Matches": [
               {
@@ -2945,9 +2946,9 @@
           {
             "CoachName": "Micthell Davis",
             "Quizzers": [
-              6,
-              9,
-              28
+              7,
+              10,
+              29
             ],
             "Matches": [
               {
@@ -3139,8 +3140,8 @@
           {
             "CoachName": "Aruna Danny",
             "Quizzers": [
-              8,
-              11
+              9,
+              12
             ],
             "Matches": [
               {
@@ -3235,9 +3236,9 @@
           {
             "CoachName": "Seetha Stephen",
             "Quizzers": [
-              7,
-              10,
-              16
+              8,
+              11,
+              17
             ],
             "Matches": [
               {
@@ -3332,9 +3333,9 @@
           {
             "CoachName": "Calvin Jeremy",
             "Quizzers": [
-              12,
               13,
-              23
+              14,
+              24
             ],
             "Matches": [
               {
@@ -3429,8 +3430,8 @@
           {
             "CoachName": "Vimala Arun",
             "Quizzers": [
-              15,
-              18
+              16,
+              19
             ],
             "Matches": [
               {
@@ -3525,8 +3526,8 @@
           {
             "CoachName": "McLean Mary Francis",
             "Quizzers": [
-              5,
-              14
+              6,
+              15
             ],
             "Matches": [
               {
@@ -3740,6 +3741,30 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #2",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_42",
+            "Name": "Barrett Del A Resa",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -4137,7 +4162,7 @@
             "State": "GA",
             "Scores": {
               "Rank": 23,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -4154,7 +4179,7 @@
             "TeamName": "Central Christian School (Sharpsburg) #2",
             "YearsQuizzing": null,
             "Id": "q_97dde0c85e55401e9d1208dcde30b60d",
-            "Name": "Kimari Poitier -. Bullard",
+            "Name": "Kimari Poitier - Bullard",
             "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
             "ChurchName": "Central Christian School",
             "City": "Sharpsburg",
@@ -4344,35 +4369,36 @@
           }
         ],
         "RankedQuizzers": [
-          5,
-          16,
-          22,
-          8,
-          9,
-          12,
+          6,
           17,
-          11,
-          19,
+          23,
+          9,
+          10,
+          13,
+          18,
+          12,
+          20,
           1,
           0,
-          14,
-          13,
-          7,
-          10,
           15,
-          18,
-          28,
-          4,
+          14,
+          8,
+          11,
+          16,
+          19,
+          29,
+          5,
           3,
-          6,
+          7,
           2,
-          20,
+          4,
           21,
-          23,
+          22,
           24,
           25,
           26,
-          27
+          27,
+          28
         ],
         "QuizzerFootnotes": [
           {
@@ -4690,7 +4716,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -4791,5 +4817,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-06T23:31:20.8948947+00:00"
+  "Freshness": "2026-02-09T18:40:22.26418+00:00"
 }
