@@ -18,6 +18,7 @@ export default defineConfig({
         ignoredDiagnosticCodes: [80006],
     },
     integrations: [
+         
         sitemap(),
         starlight({
             title: "BibleQuiz.com",
@@ -46,6 +47,24 @@ export default defineConfig({
                 replacesTitle: true,
             },
             customCss: ["./src/styles/custom.css", "./src/styles/global.css"],
+            head: [
+                {
+                    tag: "script",
+                    attrs: {
+                        async: true,
+                        src: "https://www.googletagmanager.com/gtag/js?id=G-45VYJD59T5",
+                    },
+                },
+                {
+                    tag: "script",
+                    content: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-45VYJD59T5');
+            `,
+                },
+            ],
             sidebar: [
                 {
                     label: "Upcoming & Live Events",
@@ -125,23 +144,6 @@ export default defineConfig({
                 SocialIcons: "./src/components/SocialIcons.astro",
             },
             lastUpdated: true,
-            pagefind: {
-                ranking: {
-                    termSimilarity: 0.6,
-                },
-            },
-            pagination: false,
-            plugins: [
-                starlightLinksValidator({
-                    errorOnRelativeLinks: false,
-                }),
-                starlightBlog({
-                    title: "News",
-                    prefix: "news",
-                    postCount: 10,
-                    recentPostCount: 10,
-                }),
-            ],
         }),
         react(),
     ],
@@ -164,3 +166,5 @@ export default defineConfig({
         plugins: [tailwindcss()],
     },
 });
+
+
