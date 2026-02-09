@@ -1,0 +1,850 @@
+{
+  "EventName": "NC TBQ as of January B",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "NC TBQ as of January B",
+        "LastUpdated": "1/17/26 7:02 PM",
+        "DatabaseLastUpdated": "2026-01-16T04:34:16.16261+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Jerusha Jebaraj",
+            "Quizzers": [
+              0,
+              5,
+              17
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_5d85dc85-6d13-44fa-a9ad-c179238744e2",
+            "Name": "Carolinas Christian Assembly (Matthews) #2",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 14,
+              "WinPercentage": 7,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": [
+                240,
+                100,
+                10
+              ],
+              "AveragePoints": 23.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 19,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Peter Prakash",
+            "Quizzers": [
+              2,
+              11,
+              13,
+              18
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_5a05f93f-8500-4181-8cf3-fa3eb5de2351",
+            "Name": "Cross examiners (Greater Life)",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 10,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1320,
+              "PerMeetTotalPoints": [
+                480,
+                355,
+                485
+              ],
+              "AveragePoints": 88.0,
+              "AverageCorrect": 5.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 45,
+              "Correct20s": 33,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kris Livingstone",
+            "Quizzers": [
+              1,
+              8,
+              12,
+              16
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_25113cc3-b995-41c9-b459-508a50b7f70f",
+            "Name": "God's Own (IAG)",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 4,
+              "WinPercentage": 73,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 3035,
+              "PerMeetTotalPoints": [
+                1055,
+                1005,
+                975
+              ],
+              "AveragePoints": 202.3,
+              "AverageCorrect": 10.7,
+              "QuizOuts": 18,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 62,
+              "Correct20s": 75,
+              "Correct30s": 24,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              10
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_90b4f174-3dce-4e79-aa6d-41e1de254bef",
+            "Name": "Lil Hot Cheetos (Greater Life)",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 6,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 2450,
+              "PerMeetTotalPoints": [
+                915,
+                750,
+                785
+              ],
+              "AveragePoints": 163.3,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 18,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 44,
+              "Correct20s": 56,
+              "Correct30s": 24,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jenifer Lawrence",
+            "Quizzers": [
+              4,
+              6,
+              9
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_86413772-2e66-4edf-a510-40ffbd5f4adf",
+            "Name": "Mighty Pebbles",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 11,
+              "WinPercentage": 27,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1590,
+              "PerMeetTotalPoints": [
+                280,
+                720,
+                590
+              ],
+              "AveragePoints": 106.0,
+              "AverageCorrect": 6.6,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 49,
+              "Correct20s": 43,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Abraham Gopali",
+            "Quizzers": [
+              7,
+              14,
+              15
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_6aa94014-7f2c-41d0-b939-ea7db10f9933",
+            "Name": "The Real Children of Abraham (CICF)",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Wins": 15,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 3415,
+              "PerMeetTotalPoints": [
+                1320,
+                1005,
+                1090
+              ],
+              "AveragePoints": 227.7,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 26,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 69,
+              "Correct20s": 82,
+              "Correct30s": 26,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          5,
+          2,
+          3,
+          1,
+          4,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Carolinas Christian Assembly (Matthews) #2",
+            "YearsQuizzing": null,
+            "Id": "q_52612471b6f64978cfc708dccfacd3a9",
+            "Name": "Andrew Abraham",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": [
+                5,
+                0,
+                0
+              ],
+              "AveragePoints": 0.3,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Own (IAG)",
+            "YearsQuizzing": null,
+            "Id": "q_b7f80e9a7f064fa95c2b08db2721723e",
+            "Name": "Anyuta Rampa",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 490,
+              "PerMeetTotalPoints": [
+                165,
+                75,
+                250
+              ],
+              "AveragePoints": 32.7,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 13,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cross examiners (Greater Life)",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_19",
+            "Name": "Caelyn Pesce",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Lil Hot Cheetos (Greater Life)",
+            "YearsQuizzing": null,
+            "Id": "q_7f0e2c6738d2473e6e5408d7a0f080d8",
+            "Name": "Elizabeth Wolfe",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1325,
+              "PerMeetTotalPoints": [
+                410,
+                440,
+                475
+              ],
+              "AveragePoints": 88.3,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 20,
+              "Correct20s": 30,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mighty Pebbles",
+            "YearsQuizzing": null,
+            "Id": "q_fc276b39b2a5499177f708dce6219480",
+            "Name": "Joan Thangadurai",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 610,
+              "PerMeetTotalPoints": [
+                25,
+                210,
+                375
+              ],
+              "AveragePoints": 40.7,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 21,
+              "Correct20s": 16,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Carolinas Christian Assembly (Matthews) #2",
+            "YearsQuizzing": null,
+            "Id": "q_abf990cebdf246d2687e08dbafc02107",
+            "Name": "Joann Sanil",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": [
+                235,
+                100,
+                10
+              ],
+              "AveragePoints": 23.0,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 18,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mighty Pebbles",
+            "YearsQuizzing": null,
+            "Id": "q_495f1382746844a677f108dce6219480",
+            "Name": "Joel Thangadurai",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 880,
+              "PerMeetTotalPoints": [
+                255,
+                490,
+                135
+              ],
+              "AveragePoints": 58.7,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 26,
+              "Correct20s": 24,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Real Children of Abraham (CICF)",
+            "YearsQuizzing": null,
+            "Id": "q_d18236934c4644729dbc08db3f7e644d",
+            "Name": "Jordan Gopali",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": [
+                330,
+                150,
+                200
+              ],
+              "AveragePoints": 45.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 36,
+              "Correct20s": 13,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Own (IAG)",
+            "YearsQuizzing": null,
+            "Id": "q_e6bda6b2056d4d50bf1508dbc2ad911e",
+            "Name": "Joshua Chacko",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": [
+                0,
+                200,
+                0
+              ],
+              "AveragePoints": 13.3,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 8,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mighty Pebbles",
+            "YearsQuizzing": null,
+            "Id": "q_5fa760e60f714923780908dce6219480",
+            "Name": "Katelyn Justin",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": [
+                0,
+                20,
+                80
+              ],
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 2,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lil Hot Cheetos (Greater Life)",
+            "YearsQuizzing": null,
+            "Id": "q_a689385930614c2b6e5108d7a0f080d8",
+            "Name": "Lilly Wolfe",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1125,
+              "PerMeetTotalPoints": [
+                505,
+                310,
+                310
+              ],
+              "AveragePoints": 75.0,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 24,
+              "Correct20s": 26,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cross examiners (Greater Life)",
+            "YearsQuizzing": null,
+            "Id": "q_a5ce452424bd4d586e6208d7a0f080d8",
+            "Name": "Matthew Prakash",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 700,
+              "PerMeetTotalPoints": [
+                155,
+                180,
+                365
+              ],
+              "AveragePoints": 46.7,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 20,
+              "Correct20s": 16,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Own (IAG)",
+            "YearsQuizzing": null,
+            "Id": "q_c85c3f55762d4ec75c3408db2721723e",
+            "Name": "Nathaniel Livingstone",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": [
+                335,
+                230,
+                240
+              ],
+              "AveragePoints": 53.7,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 20,
+              "Correct20s": 13,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Cross examiners (Greater Life)",
+            "YearsQuizzing": null,
+            "Id": "q_42a0cb05549a4995a73508db3b8adc45",
+            "Name": "Piper Harrell",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": [
+                145,
+                180,
+                120
+              ],
+              "AveragePoints": 29.7,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 12,
+              "Correct20s": 13,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Real Children of Abraham (CICF)",
+            "YearsQuizzing": null,
+            "Id": "q_82ff1fa28d2c4ba284ae08dbb0cb2340",
+            "Name": "Rakshania Thomas",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 795,
+              "PerMeetTotalPoints": [
+                350,
+                245,
+                200
+              ],
+              "AveragePoints": 53.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 32,
+              "Correct20s": 20,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Real Children of Abraham (CICF)",
+            "YearsQuizzing": null,
+            "Id": "q_b65960dbf5a047d7482f08db3be7ef2f",
+            "Name": "Rebecca Joel",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1940,
+              "PerMeetTotalPoints": [
+                640,
+                610,
+                690
+              ],
+              "AveragePoints": 129.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 15,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 1,
+              "Correct20s": 49,
+              "Correct30s": 25,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "God's Own (IAG)",
+            "YearsQuizzing": null,
+            "Id": "q_53cfe329ed2c405f374308dce61ae87e",
+            "Name": "Ryan Vinoth",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1540,
+              "PerMeetTotalPoints": [
+                555,
+                500,
+                485
+              ],
+              "AveragePoints": 102.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 17,
+              "Correct20s": 44,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Carolinas Christian Assembly (Matthews) #2",
+            "YearsQuizzing": null,
+            "Id": "q_13df3023fd2b4d73689108dbafc02107",
+            "Name": "Stefana Sam",
+            "ChurchId": "7af2cf46-c1cb-4c06-bd5d-6f4e47884dc3",
+            "ChurchName": "Carolinas Christian Assembly",
+            "City": "Matthews",
+            "State": "NC",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Cross examiners (Greater Life)",
+            "YearsQuizzing": null,
+            "Id": "q_2e988ea1d7e74b576e6708d7a0f080d8",
+            "Name": "Stephen Prakash",
+            "ChurchId": "a7cac504-15e6-4586-870a-0e731e885f7f",
+            "ChurchName": "Greater Life Church",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": [
+                180,
+                -5,
+                0
+              ],
+              "AveragePoints": 11.7,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 13,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          15,
+          16,
+          3,
+          10,
+          6,
+          12,
+          14,
+          11,
+          7,
+          4,
+          1,
+          13,
+          5,
+          8,
+          18,
+          9,
+          0,
+          2,
+          17
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": [
+          "Oct Meet - Contender",
+          "Nov Meet - Contender",
+          "Jan Meet - Contender"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-01T15:54:54.100871+00:00"
+}
