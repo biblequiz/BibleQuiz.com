@@ -426,7 +426,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                         <table className="table table-zebra table-sm w-full">
                             <thead className="bg-base-200">
                                 <tr>
-                                    <th className="w-8"></th>
+                                    <th>&nbsp;</th>
                                     <th>Original Name</th>
                                     <th>Original Church</th>
                                     <th>Final Name</th>
