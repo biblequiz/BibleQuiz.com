@@ -396,7 +396,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                         </p>
                     </div>
 
-                    <div className="flex gap-2">
+                    <div className="flex flex-wrap gap-2 items-center mb-0">
                         <button
                             type="button"
                             className="btn btn-sm btn-info mt-0"
@@ -414,17 +414,17 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                             <FontAwesomeIcon icon="fas faRotateLeft" />
                             Reset to Original Names
                         </button>
+                        <div className="text-xs text-base-content/50 mb-0 mt-0">
+                            <FontAwesomeIcon icon="fas faArrowsUpDownLeftRight" classNames={["mr-1"]} />
+                            Drag rows to reorder teams (affects #N numbering)
+                        </div>
                     </div>
 
                     {/* Teams Preview Table */}
                     <div className="divider mt-2 mb-2"></div>
-                    <p className="text-xs text-base-content/50 mb-2">
-                        <FontAwesomeIcon icon="fas faArrowsUpDownLeftRight" classNames={["mr-1"]} />
-                        Drag rows to reorder teams (affects #N numbering for duplicates)
-                    </p>
-                    <div className="overflow-x-auto max-h-96">
+                    <div className="overflow-auto max-h-64 -webkit-overflow-scrolling-touch border border-base-300 rounded-lg">
                         <table className="table table-zebra table-sm w-full">
-                            <thead className="sticky top-0 bg-base-200">
+                            <thead className="bg-base-200">
                                 <tr>
                                     <th className="w-8"></th>
                                     <th>Original Name</th>
@@ -442,7 +442,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                                         onDragOver={(e) => handleTeamDragOver(e, index)}
                                         onDrop={(e) => handleTeamDrop(e, index)}
                                         onDragEnd={handleTeamDragEnd}
-                                        className={`cursor-grab ${draggedTeamIndex === index ? 'opacity-50' : ''} ${dragOverTeamIndex === index ? 'bg-primary/20' : ''}`}
+                                        className={`${draggedTeamIndex === index ? 'opacity-50' : ''} ${dragOverTeamIndex === index ? 'bg-primary/20' : ''}`}
                                     >
                                         <td className="text-base-content/40">
                                             <FontAwesomeIcon icon="fas faGripVertical" />
@@ -497,6 +497,5 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
             <form method="dialog" className="modal-backdrop">
                 <button onClick={handleClose}>Close</button>
             </form>
-        </dialog>
-    );
+        </dialog>);
 }
