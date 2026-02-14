@@ -109,6 +109,7 @@ export default function EventListFilters({
   const currentEventFilters = useStore($eventFilters);
 
   const [searchText, setSearchText] = useState<string | undefined>(currentEventFilters?.searchText);
+
   const [typeFilter, setTypeFilter] = useState<string | undefined>(currentEventFilters?.typeFilter);
   const [scope, setScope] = useState<string | undefined>(() => getKeyFromLocation({
     regionId: currentEventFilters?.regionId,
@@ -146,6 +147,7 @@ export default function EventListFilters({
 
         // Always apply the current URL.
         deserialized.typeFilterOverride = newTypeFilterOverride;
+        deserialized.typeFilter = deserialized.typeFilterOverride ?? deserialized.typeFilter;
 
         // Update the filters from the deserialized state.
         $eventFilters.set(deserialized);
@@ -175,6 +177,7 @@ export default function EventListFilters({
       }
     }
   }, []);
+
 
   const handleScopeChanged = (e: React.ChangeEvent<HTMLSelectElement>) => {
 
@@ -213,7 +216,8 @@ export default function EventListFilters({
 
     setSharedStateAndPersist({
       ...currentEventFilters,
-      typeFilter: newTypeFilter
+      typeFilter: newTypeFilter,
+      typeFilterOverride: newTypeFilter, // When the user selects a type filter, also set it as the override to ensure it is applied regardless of URL parameters.
     });
   };
 
@@ -271,6 +275,7 @@ export default function EventListFilters({
   };
 
   const hasFilters = (searchText || !hasDefaultFilters || typeFilter || !!urlPrefix || (seasons && season != seasons[1]));
+
 
   return (
     <>
@@ -338,16 +343,16 @@ export default function EventListFilters({
               ))}
             </select>
           </div>
-          {!typeFilterOverride && allowTypeFilter && (
+          {allowTypeFilter && (
             <select
               className="select select-sm mt-0 w-auto"
               onChange={handleTypeChanged}
-              value={typeFilter ?? ""}>
-              <option value="">
-                JBQ &amp; TBQ
+              value={typeFilter?? ""}>
+              <option value="" selected={typeFilter == undefined}>
+              JBQ &amp; TBQ
               </option>
-              <option value="jbq">JBQ Only</option>
-              <option value="tbq">TBQ Only</option>
+              <option value="jbq" selected={typeFilter == "jbq"}>JBQ Only</option>
+              <option value="tbq" selected={typeFilter == "tbq"}>TBQ Only</option>
             </select>)}
           {seasons && (
             <select

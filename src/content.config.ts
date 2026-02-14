@@ -19,7 +19,7 @@ export const collections = {
 						eventScopeLabel: z.string().optional(),
 						eventLocation: z.string().optional(),
 						eventIsLoaded: z.boolean().optional(),
-						showSeasonButtons: z.boolean().optional(),
+						showCurrentEvents: z.boolean().optional(),
 						hidePageTitle: z.boolean().optional(),
 						hidePageTitleOnPrint: z.boolean().optional(),
 						hideAdsOnPrint: z.boolean().optional(),
