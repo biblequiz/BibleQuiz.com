@@ -14,8 +14,8 @@ const frontmatter: StarlightPageFrontmatter = {
         order: 1,
         attrs: {
             icon: "fas faBroadcastTower",
-        }
-    }
+        },
+    },
 };
 ---
 
@@ -24,7 +24,34 @@ const frontmatter: StarlightPageFrontmatter = {
         style="display: flex; flex-direction: column"
         class="home-flex-container mb-0"
     >
-        <div class="m-0">
+        <h1
+            id="type-label"
+            class="page-title mb-4 flex items-center gap-4"
+            style="display:none"
+        >
+            <div class="shrink-0">
+                <img
+                    src={`/assets/logos/jbq/jbq-logo.png`}
+                    alt="Junior Bible Quiz"
+                    width="72"
+                    height="72"
+                    class="event-icon"
+                    id="jbq-title-icon"
+                    style="display:none"
+                />
+                <img
+                    src={`/assets/logos/tbq/tbq-logo.png`}
+                    alt="Teen Bible Quiz"
+                    width="72"
+                    height="72"
+                    class="event-icon"
+                    id="tbq-title-icon"
+                    style="display:none"
+                />
+            </div>
+            <div class="align-middle text-md">LIVE & UPCOMING EVENTS</div>
+        </h1>
+        <div class="m-0" id="type-card-deck">
             <CardGrid>
                 <LinkCard
                     title="Junior Bible Quiz (JBQ)"
@@ -51,4 +78,31 @@ const frontmatter: StarlightPageFrontmatter = {
             <LiveAndUpcomingApp />
         </div>
     </div>
+
+    <script>
+        const titleElement = document.getElementById("type-label");
+        const cardDeckElement = document.getElementById("type-card-deck");
+
+        if (titleElement && cardDeckElement) {
+            const type = new URLSearchParams(window.location.search).get(
+                "type",
+            );
+
+            if (type) {
+                const isTbq = type.toLowerCase() === "tbq";
+                document.getElementById("jbq-title-icon")!.style.display = isTbq
+                    ? "none"
+                    : "";
+                document.getElementById("tbq-title-icon")!.style.display = isTbq
+                    ? ""
+                    : "none";
+
+                titleElement.style.display = "";
+                cardDeckElement.style.display = "none";
+            } else {
+                titleElement.style.display = "none";
+                cardDeckElement.style.display = "";
+            }
+        }
+    </script>
 </StarlightPage>
