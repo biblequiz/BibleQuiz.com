@@ -9,7 +9,7 @@ const {
     eventScopeLabel,
     eventLocation,
     eventIsLoaded,
-    showSeasonButtons,
+    showCurrentEvents,
     hidePageTitle,
     hidePageTitleOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
@@ -25,7 +25,7 @@ import { getSeasons } from "utils/Seasons";
 const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
 
 let currentSeasonLink: string | undefined = undefined;
-if (eventType && showSeasonButtons) {
+if (eventType && showCurrentEvents) {
     const rootSeasonsForType = `${rootSourcePath}/content/docs/${eventType}/Seasons`;
 
     const seasons = await getSeasons(import.meta.url);
@@ -70,12 +70,12 @@ if (!resolvedEventType) {
             <span class="event-title-text">
                 {title}
                 {description && <p class="italic text-sm">{description}</p>}
-                {showSeasonButtons && currentSeasonLink && (
+                {showCurrentEvents && (
                     <a
+                        href={`/current-events?type=${resolvedEventType}`}
                         class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
-                        href={currentSeasonLink}
                     >
-                        Current Season Results
+                        Current Events
                     </a>
                 )}
             </span>

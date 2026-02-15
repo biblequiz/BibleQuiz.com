@@ -1,13 +1,9 @@
 ---
 title: "Teen Bible Quiz"
 description: |
-    Discipleship ministry geared for grades 6 - 12 memorizing different book(s) of the New
-    Testament each year. Competitions are happening across the nation at tournaments, league, 
-    district, regional, and national level events. Each year, thousands of dollars in
-    scholarships are awarded to students for their hard work. If you love God, enjoy the
-    thrill of competition, and want to have fun, then TBQ is for you!
-eventType: tbq
-showSeasonButtons: true
+        Teen Bible Quiz (TBQ) is a long-standing discipleship ministry that helps teenagers engage deeply with God’s Word through competitive, team-based Bible memorization.eventType: tbq
+showCurrentEvents: true
+tableOfContents: false
 sidebar:
     label: Overview
     order: -100
@@ -17,25 +13,89 @@ sidebar:
 
 import { LinkButton } from "@astrojs/starlight/components";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { CardGrid } from "@astrojs/starlight/components";
+import { LinkCard } from "@astrojs/starlight/components";
 
-## Get Started
 
-**New to Bible Quiz?** We highly recommend reaching out to Pastor Bernie Elliot, the
-National Bible Quiz Coordinator.
+<div class="flex items-center gap-2 whitespace-nowrap">
+  <span>***New to Bible Quiz? We highly recommend connecting with</span>
 
-Subscribing to the newsletter is the best way to stay up-to-date on news, information, and upcoming events.
+  <a href="mailto:pastorbernie@biblequiz.com" class="inline-flex items-center gap-1 text-blue-600 hover:underline">
+    Pastor Bernie Elliot
+    <svg xmlns="http://www.w3.org" fill="none" viewBox="0,0,24,24" stroke-width="1.5" stroke="currentColor" class="size-5 text-blue-600">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+    </svg>
+  </a>
 
-<LinkButton
-    href="mailto:pastorbernie@biblequiz.com"
-    icon="email"
-    iconPlacement="start"
->
-    Pastor Bernie
-</LinkButton>
-<LinkButton
-    href="https://biblequiz.us11.list-manage.com/subscribe?u=089b34ce4234326ee935daca3&id=ff95fe96ee"
-    icon="document"
-    iconPlacement="start"
->
-    Subscribe Now
-</LinkButton>
+  <span>, the National Bible Quiz Coordinator, for guidance and support.***</span>
+</div>
+
+<CardGrid class="grid grid-cols-3 gap-3 mt-6 items-stretch" >
+    <LinkCard title="The Material" icon="open-book" class="h-full flex flex-col"
+      href="https://myhealthychurch.com/store/startitem.cfm?item=027067&cat=YMBIBQUIZ&mastercat=&path=YMBIBQUIZ"
+      description={`
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/galatians.jpg" alt="Bible Fact Pack" class="h-30" />
+        Teen Bible Quiz (TBQ) centers on deep study of specific Bible books through a structured 9-year New Testament cycle—for example, one year may focus on the Gospel of Mark, while another covers Romans and James. Many committed quizzers complete the program having memorized 13–15 full books of the Bible.
+        <br/>
+        <br/>
+            This year’s focus is the Prison Epistles: Galatians, Ephesians, Colossians, Philippians, and Philemon—get your books today.
+       </div>
+      `}
+      >
+    </LinkCard> 
+    <LinkCard title="Awards and Scholarships " icon="document" class="h-full flex flex-col"
+      href="https://biblequiz.com/tbq/scholarships"
+      description={`
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/images/tbq-scholarships.png" alt="Scholerships" class="h-36" />
+        Each year, over $10,000 is awarded in scholarships to various Bible Quiz participants. Additionally, universities that recognize and appreciate the dedication of quizzers also extend scholarship opportunities.
+        <br/><br/>If you have any additional opportunities or suggestions, we welcome you to reach out via email at hello@biblequiz.com
+        <br/><br/>Explore various college level scholarships and awards available for rewarding your dedication and hardwork.
+      </div>
+      `}
+      >
+    </LinkCard>
+    <LinkCard title="Official Rules , Cheat Sheets & Score Sheets" icon="seti:json" class="h-full flex flex-col"
+      href="/tbq/downloads"
+      description={`
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/logos/tbq/tbq-logo.png" alt=Rules " class="h-24" href="/tbq" />
+        Official Rules of TBQ and Cheat Sheets and other  out t out Free and Paid questions and other resources for your team practices.
+      </div>
+      `}
+      >
+    </LinkCard>
+    <LinkCard title="Question sets and Other Practice Resources" icon="seti:json" class="h-full flex flex-col"
+      href="/tbq/questions"
+      description={`
+      <div class="flex items-center justify-center gap-3 flex-1">
+        <img src="/assets/logos/tbq/tbq-logo.png" alt=Rules " class="h-24" href="/tbq" />
+        Explore free and paid Pracice sets, Applications Questions and other great resources for your team practices.
+      </div>
+      `}
+      >
+    </LinkCard>
+    <LinkCard title="TBQ News & Community" icon="facebook" class="h-full flex flex-col flex-1"
+      href="https://biblequiz.us11.list-manage.com/subscribe?u=089b34ce4234326ee935daca3&id=ff95fe96ee"
+      description= {`
+      <div class="flex items-center justify-center gap-3 flex-1">
+      <img src="/assets/images/social-media.png" alt="Social Media" class="h-24" />
+      <span>Subsribe to Bible Quiz News Letter for up-to-date news, information and events. 
+      <br/><br/>Be part of our faceboook group<a href="https://www.facebook.com/groups/agbiblequiz" class="inline-flex items-center gap-1 text-blue-600 hover:underline">#agbiblequiz</a>
+      </span> 
+      </div>
+      `}
+      >
+    </LinkCard>
+    <LinkCard title="Training and Coaching" icon="magnifier" class="h-full flex flex-col flex-1"
+      href="/tbq/training/coaches/"
+      description={`
+      <div class="flex items-center justify-center gap-3 flex-1">
+      <img src="/assets/images/jbq-church.jpg" alt="Bible Fact Pack" class="h-24" />
+      Are you interested in starting a group? Check out our training section for more details on how to coach, prepare and compete!
+      </div>
+      `}
+      >
+    </LinkCard>
+</CardGrid>

@@ -1,0 +1,21 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
+
+const type = Astro.url.searchParams.get('type') || '';
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Current Events",
+    template: "doc",
+    sidebar: {
+        label: "Current Events",
+        order: 0,
+    }
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <LiveAndUpcomingApp type={type} />
+</StarlightPage>
