@@ -18,25 +18,12 @@ import ExcelExportButton from "./scores/ExcelExportButton.astro";
 import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
 import EventScopeBadge from "./EventScopeBadge";
-import { getAstroRootSourcePath } from "utils/FileSystem";
-import { fileExists } from "utils/FileSystem";
-import { getSeasons } from "utils/Seasons";
+import { getCurrentSeasonResultsUrl } from "utils/Seasons";
 
-const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
-
-let currentSeasonLink: string | undefined = undefined;
-if (eventType && showSeasonButtons) {
-    const rootSeasonsForType = `${rootSourcePath}/content/docs/${eventType}/Seasons`;
-
-    const seasons = await getSeasons(import.meta.url);
-    if (
-        await fileExists(`${rootSeasonsForType}/${seasons[1]}/results.mdx`)
-    ) {
-        currentSeasonLink = `/${eventType}/seasons/${seasons[1]}/results/`;
-    } else {
-        currentSeasonLink = `/${eventType}/seasons/${seasons[1]}/`;
-    }
-}
+const currentSeasonLink =
+    eventType && showSeasonButtons
+        ? await getCurrentSeasonResultsUrl(import.meta.url, eventType)
+        : undefined;
 
 let resolvedEventType = eventType;
 if (!resolvedEventType) {
@@ -67,18 +54,26 @@ if (!resolvedEventType) {
                     />
                 </div>
             )}
-            <span class="event-title-text">
+            <div class="event-title-text">
                 {title}
                 {description && <p class="italic text-sm">{description}</p>}
                 {showSeasonButtons && currentSeasonLink && (
-                    <a
-                        class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
-                        href={currentSeasonLink}
-                    >
-                        Current Season Results
-                    </a>
+                    <div class="flex flex-wrap items-start gap-2 mt-2">
+                        <a
+                            class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
+                            href={`/?type=${eventType}`}
+                        >
+                            Live & Upcoming Events
+                        </a>
+                        <a
+                            class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
+                            href={currentSeasonLink}
+                        >
+                            Past Results for this Season
+                        </a>
+                    </div>
                 )}
-            </span>
+            </div>
             {eventType && eventId && (
                 <span>
                     <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
