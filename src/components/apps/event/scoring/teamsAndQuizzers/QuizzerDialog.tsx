@@ -92,6 +92,11 @@ export default function QuizzerDialog({
         dialogRef.current?.close();
     };
 
+    // TODO: Add the ability to select a church here. This way, the event report doesn't need the functionality.
+    //       Maybe we need an indicator on quizzers where the person/church is missing?
+    // TODO: Maybe need an indicator on Teams where the church is missing/invalid? That way it is obvious to
+    //       the user.
+
     return (
         <>
             <dialog ref={dialogRef} className="modal" onClose={handleClose} open>

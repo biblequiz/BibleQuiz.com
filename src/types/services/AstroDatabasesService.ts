@@ -100,7 +100,7 @@ export class AstroDatabasesService {
       auth,
       "POST",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/Clone/${targetEventId}`,
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/clone/${targetEventId}`,
       RemoteServiceUtility.getFilteredUrlParameters({
         teamsAndQuizzers,
         awards,
