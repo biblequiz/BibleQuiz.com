@@ -32,6 +32,7 @@ const setSharedStateAndPersist = (newFilters: EventFilterConfiguration) => {
  * @param event The event to check against the filter.
  * @param type The type of the event.
  * @param includeHidden Whether to include hidden events in the match check.
+ * @param filterTypeOverride Optional override for the type filter.
  *
  * @returns True if the event matches the filter; otherwise, false.
  */
@@ -40,7 +41,8 @@ export function matchesFilter(
   urlSlug: string,
   event: EventInfo,
   type: string,
-  includeHidden?: boolean): boolean {
+  includeHidden?: boolean,
+  filterTypeOverride?: string): boolean {
 
   if (!event.isVisible && !includeHidden) {
     return false;
@@ -49,7 +51,7 @@ export function matchesFilter(
     return true;
   }
 
-  const requireType = filter.typeFilterOverride ?? filter.typeFilter;
+  const requireType = filterTypeOverride ?? filter.typeFilterOverride ?? filter.typeFilter;
   if (requireType && requireType !== type) {
     return false;
   }

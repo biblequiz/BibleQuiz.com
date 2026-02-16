@@ -8,16 +8,31 @@ import districts from "data/districts.json";
 
 import path from "path";
 import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
-import { getSeasons } from "utils/Seasons";
+import { getCurrentSeasonResultsUrl, getSeasons } from "utils/Seasons";
 
-const seasons = await getSeasons(import.meta.url);
-const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+const metaUrl = import.meta.url;
+const seasons = await getSeasons(metaUrl);
+const rootSourcePath = await getAstroRootSourcePath(metaUrl);
 
-const maxSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${seasons[0]}/events.json`);
-const lastSeasonPath = path.resolve(rootSourcePath, `data/generated/seasons/${seasons[1]}/events.json`);
+const maxSeasonPath = path.resolve(
+    rootSourcePath,
+    `data/generated/seasons/${seasons[0]}/events.json`,
+);
+const lastSeasonPath = path.resolve(
+    rootSourcePath,
+    `data/generated/seasons/${seasons[1]}/events.json`,
+);
 
-const recentSeasonEvents = (await tryReadFileAsJson<EventTypeList>(maxSeasonPath)) ??
-    (await tryReadFileAsJson<EventTypeList>(lastSeasonPath));
+const maxSeasonEvents = await tryReadFileAsJson<EventTypeList>(maxSeasonPath);
+
+const currentSeason = maxSeasonEvents ? seasons[0] : seasons[1];
+const currentSeasonLinks = {
+    jbq: await getCurrentSeasonResultsUrl(metaUrl, "jbq"),
+    tbq: await getCurrentSeasonResultsUrl(metaUrl, "tbq"),
+};
+
+const recentSeasonEvents =
+    maxSeasonEvents ?? (await tryReadFileAsJson<EventTypeList>(lastSeasonPath));
 ---
 
 <div id="generator-fallback" class="flex justify-center items-center">
@@ -29,7 +44,8 @@ const recentSeasonEvents = (await tryReadFileAsJson<EventTypeList>(maxSeasonPath
     regions={regions}
     districts={districts}
     recentSeasonEvents={recentSeasonEvents}
-    futureEvents={(futureEvents as any) as EventTypeList}
+    currentSeason={currentSeason}
+    currentSeasonLinks={currentSeasonLinks}
+    futureEvents={futureEvents as any as EventTypeList}
     loadingElementId="generator-fallback"
 />
-

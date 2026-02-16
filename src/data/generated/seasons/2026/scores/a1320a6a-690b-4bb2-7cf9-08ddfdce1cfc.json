@@ -1,7 +1,7 @@
 {
   "EventName": "2025-2026 WI/NM TBQ League Meet October",
   "DatabaseNames": {
-    "2ea364d7-0106-4c18-b611-12553ba25b44": "TBQ_League_2025-2026"
+    "2ea364d7-0106-4c18-b611-12553ba25b44": "TBQ_League_2025-2026_New"
   },
   "Report": {
     "Meets": [
@@ -12,17 +12,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Championship October",
-        "LastUpdated": "11/7/25 6:05 PM",
-        "DatabaseLastUpdated": "2025-11-07T17:22:50.564564+00:00",
+        "LastUpdated": "2/13/26 3:50 AM",
+        "DatabaseLastUpdated": "2026-02-13T01:33:43.1910223+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": "Ryan Langner",
             "Quizzers": [
-              4,
               5,
-              9,
-              17
+              6,
+              10,
+              18
             ],
             "Matches": [
               {
@@ -84,6 +84,7 @@
             "CurrentMatchId": null,
             "Id": "t_bce78ad9-75e5-4c53-add1-9e13cdd709b9",
             "Name": "Boscobel \"Go Eat PopCorn, Please\"",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
             "ChurchName": "Boscobel Assembly of God",
             "City": "Boscobel",
             "State": "WI",
@@ -108,8 +109,8 @@
           {
             "CoachName": "Christopher Mank",
             "Quizzers": [
-              10,
-              13
+              11,
+              14
             ],
             "Matches": [
               {
@@ -171,6 +172,7 @@
             "CurrentMatchId": null,
             "Id": "t_747ab917-43cb-4d67-b7bc-00ccc63505ce",
             "Name": "Oak Creek \"Biting and Devouring\"",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
             "ChurchName": "Discover Church",
             "City": "Oak Creek",
             "State": "WI",
@@ -195,9 +197,9 @@
           {
             "CoachName": "Don Batty",
             "Quizzers": [
-              14,
               15,
-              18
+              16,
+              19
             ],
             "Matches": [
               {
@@ -259,6 +261,7 @@
             "CurrentMatchId": null,
             "Id": "t_a79fe3eb-f78a-41c1-a27e-705e622d9d12",
             "Name": "Portage \"Go Eat PanCakes Please\"",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -346,6 +349,7 @@
             "CurrentMatchId": null,
             "Id": "t_8f5b90ce-52ef-4709-b31f-28f71592b1fd",
             "Name": "Portage \"Hopelessly Confused\"",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -370,9 +374,10 @@
           {
             "CoachName": null,
             "Quizzers": [
-              6,
-              8,
-              16
+              3,
+              7,
+              9,
+              17
             ],
             "Matches": [
               null,
@@ -433,7 +438,8 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_37cb2a0b-6f77-4890-bcc6-623e84049dea",
-            "Name": "Sioux Falls LifeChange Church",
+            "Name": "Sioux Falls LifeChange Church #1",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
             "ChurchName": "LifeChange Church",
             "City": "Sioux Falls",
             "State": "SD",
@@ -459,7 +465,7 @@
             "CoachName": null,
             "Quizzers": [
               0,
-              7
+              8
             ],
             "Matches": [
               {
@@ -521,6 +527,7 @@
             "CurrentMatchId": null,
             "Id": "t_33012cac-827e-41ea-9f08-9a96deb587b9",
             "Name": "Sparta \"Immature like Children\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -545,9 +552,9 @@
           {
             "CoachName": null,
             "Quizzers": [
-              3,
-              11,
-              12
+              4,
+              12,
+              13
             ],
             "Matches": [
               {
@@ -609,6 +616,7 @@
             "CurrentMatchId": null,
             "Id": "t_26adcb1e-c60a-4964-9bfc-6fdc1655a947",
             "Name": "Sparta \"We are not Children\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -652,6 +660,7 @@
             "YearsQuizzing": null,
             "Id": "q_3476d0cefaf44a069345b42904bafd9e",
             "Name": "Ava Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -675,6 +684,7 @@
             "YearsQuizzing": null,
             "Id": "q_780923aad615415466c908d7a0284b34",
             "Name": "Ava Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -698,6 +708,7 @@
             "YearsQuizzing": null,
             "Id": "q_e66564914fff479c00da08d9cd6f31c9",
             "Name": "Brenna Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -717,10 +728,35 @@
             }
           },
           {
+            "TeamName": "Sioux Falls LifeChange Church #1",
+            "YearsQuizzing": null,
+            "Id": "q_2ea364d7-0106-4c18-b611-12553ba25b44_59",
+            "Name": "Brooks Anderson",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Sparta \"We are not Children\"",
             "YearsQuizzing": null,
             "Id": "q_03ce532b136a469a063908d8f2259de9",
             "Name": "Eiliyah Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -744,6 +780,7 @@
             "YearsQuizzing": null,
             "Id": "q_ec5db26617fb4f3afac108ddfee5ce2e",
             "Name": "Eli Ngahlem",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
             "ChurchName": "Boscobel Assembly of God",
             "City": "Boscobel",
             "State": "WI",
@@ -767,6 +804,7 @@
             "YearsQuizzing": null,
             "Id": "q_b8f47d721da14079fabc08ddfee5ce2e",
             "Name": "Ella VandeHei",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
             "ChurchName": "Boscobel Assembly of God",
             "City": "Boscobel",
             "State": "WI",
@@ -786,10 +824,11 @@
             }
           },
           {
-            "TeamName": "Sioux Falls LifeChange Church",
+            "TeamName": "Sioux Falls LifeChange Church #1",
             "YearsQuizzing": null,
             "Id": "q_80171ddf5b894230fa7c08de02efc02a",
             "Name": "Ezra Lynch",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
             "ChurchName": "LifeChange Church",
             "City": "Sioux Falls",
             "State": "SD",
@@ -813,6 +852,7 @@
             "YearsQuizzing": null,
             "Id": "q_5581b3626c024675063408d8f2259de9",
             "Name": "Isabella Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -832,10 +872,11 @@
             }
           },
           {
-            "TeamName": "Sioux Falls LifeChange Church",
+            "TeamName": "Sioux Falls LifeChange Church #1",
             "YearsQuizzing": null,
             "Id": "q_27eee54722b04f52187408dc5bdf929f",
             "Name": "Kaleab Alemseged",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
             "ChurchName": "LifeChange Church",
             "City": "Sioux Falls",
             "State": "SD",
@@ -859,6 +900,7 @@
             "YearsQuizzing": null,
             "Id": "q_264ca28772a84a4dd1b408dce3c3a8b7",
             "Name": "Kameron Langner",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
             "ChurchName": "Boscobel Assembly of God",
             "City": "Boscobel",
             "State": "WI",
@@ -882,6 +924,7 @@
             "YearsQuizzing": null,
             "Id": "q_1ee2d8b99de94add298308daf5b040d4",
             "Name": "Levi Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
             "ChurchName": "Discover Church",
             "City": "Oak Creek",
             "State": "WI",
@@ -905,6 +948,7 @@
             "YearsQuizzing": null,
             "Id": "q_3c8dee9cc60e4dc4063e08d8f2259de9",
             "Name": "Libby Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -928,6 +972,7 @@
             "YearsQuizzing": null,
             "Id": "q_292632c2ff374e03062a08d8f2259de9",
             "Name": "Lucas Abbott",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -951,6 +996,7 @@
             "YearsQuizzing": null,
             "Id": "q_8759654677cd47b9c33b08d8f272c07b",
             "Name": "Lucas Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
             "ChurchName": "Discover Church",
             "City": "Oak Creek",
             "State": "WI",
@@ -974,6 +1020,7 @@
             "YearsQuizzing": null,
             "Id": "q_9a74549d6ab54d5d6b5008db1c497da3",
             "Name": "Noah Martens",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -997,6 +1044,7 @@
             "YearsQuizzing": null,
             "Id": "q_c9e8f656cd324c966b5508db1c497da3",
             "Name": "Nolan Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1016,15 +1064,16 @@
             }
           },
           {
-            "TeamName": "Sioux Falls LifeChange Church",
+            "TeamName": "Sioux Falls LifeChange Church #1",
             "YearsQuizzing": null,
             "Id": "q_79badd23621d48c7746f08dbb0cb2340",
             "Name": "Praise Dandjinou Kabre",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
             "ChurchName": "LifeChange Church",
             "City": "Sioux Falls",
             "State": "SD",
             "Scores": {
-              "Rank": 19,
+              "Rank": 20,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -1043,6 +1092,7 @@
             "YearsQuizzing": null,
             "Id": "q_8cc0549163404284fab308ddfee5ce2e",
             "Name": "Sam VandeHei",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
             "ChurchName": "Boscobel Assembly of God",
             "City": "Boscobel",
             "State": "WI",
@@ -1066,6 +1116,7 @@
             "YearsQuizzing": null,
             "Id": "q_72ffe61b6b8f429d6b5a08db1c497da3",
             "Name": "Silas Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1086,25 +1137,26 @@
           }
         ],
         "RankedQuizzers": [
-          13,
-          17,
-          10,
+          14,
+          18,
+          11,
           1,
           2,
-          7,
-          5,
-          12,
           8,
-          15,
           6,
-          18,
-          0,
-          11,
-          4,
-          14,
-          3,
+          13,
           9,
-          16
+          16,
+          7,
+          19,
+          0,
+          12,
+          5,
+          15,
+          4,
+          3,
+          10,
+          17
         ],
         "QuizzerFootnotes": [
           {
@@ -1300,7 +1352,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1362,8 +1414,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 October",
-        "LastUpdated": "11/7/25 6:05 PM",
-        "DatabaseLastUpdated": "2025-11-07T17:22:50.564564+00:00",
+        "LastUpdated": "2/13/26 3:50 AM",
+        "DatabaseLastUpdated": "2026-02-13T01:33:43.1910223+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -1431,6 +1483,7 @@
             "CurrentMatchId": null,
             "Id": "t_403fde78-1d2f-4332-ae3c-8c62db52a4c0",
             "Name": "Eau Claire \"Scripture Sisters\"",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
             "ChurchName": "West Ridge Church",
             "City": "Eau Claire",
             "State": "WI",
@@ -1519,6 +1572,7 @@
             "CurrentMatchId": null,
             "Id": "t_7109c314-7fca-45b7-a482-2c57a0637033",
             "Name": "Portage  XP5",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1606,6 +1660,7 @@
             "CurrentMatchId": null,
             "Id": "t_22400413-c0fd-4b7e-8a12-473da87570f3",
             "Name": "Sparta XP #1",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1694,6 +1749,7 @@
             "CurrentMatchId": null,
             "Id": "t_c2c5c299-522a-4056-b2cb-9a35e3c6f198",
             "Name": "Sparta XP #2",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1729,6 +1785,7 @@
             "YearsQuizzing": null,
             "Id": "q_68818cc90e8047d298fd08de045d4f17",
             "Name": "Alliah Amstutz",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1752,6 +1809,7 @@
             "YearsQuizzing": null,
             "Id": "q_b0c8b3b454d54e5168fa08db1c497da3",
             "Name": "Aubrey Bergeron",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
             "ChurchName": "West Ridge Church",
             "City": "Eau Claire",
             "State": "WI",
@@ -1775,6 +1833,7 @@
             "YearsQuizzing": null,
             "Id": "q_47392ee8a4884a475e6c08de0487fb39",
             "Name": "Carter Coenen",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1798,6 +1857,7 @@
             "YearsQuizzing": null,
             "Id": "q_86a8d9bf44394d4716de08da165f544a",
             "Name": "Daelyn Allard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1821,6 +1881,7 @@
             "YearsQuizzing": null,
             "Id": "q_2dc1078f27294c135e5d08de0487fb39",
             "Name": "Davin Merrill",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1844,6 +1905,7 @@
             "YearsQuizzing": null,
             "Id": "q_57e22eba706f49043d5a08dbd94ef9ff",
             "Name": "Elias Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1867,6 +1929,7 @@
             "YearsQuizzing": null,
             "Id": "q_878ed18a7e054e845e6208de0487fb39",
             "Name": "Isaac Martens",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1890,6 +1953,7 @@
             "YearsQuizzing": null,
             "Id": "q_b9bafb1f07c84bb798f808de045d4f17",
             "Name": "Isabella Amstutz",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1913,6 +1977,7 @@
             "YearsQuizzing": null,
             "Id": "q_4d826ca90a5842f05e5108de0487fb39",
             "Name": "Jace Merrill",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
             "ChurchName": "CrossPoint Assembly of God",
             "City": "Portage",
             "State": "WI",
@@ -1936,6 +2001,7 @@
             "YearsQuizzing": null,
             "Id": "q_8a15f581a20847bc3d5f08dbd94ef9ff",
             "Name": "Jade Vian",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -1959,6 +2025,7 @@
             "YearsQuizzing": null,
             "Id": "q_f5f07b4f6b5f4f3468f508db1c497da3",
             "Name": "Phoebe Lansing",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
             "ChurchName": "West Ridge Church",
             "City": "Eau Claire",
             "State": "WI",
@@ -1982,6 +2049,7 @@
             "YearsQuizzing": null,
             "Id": "q_9a2db80a6e29448f6a9c08db1c497da3",
             "Name": "Sophia Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -2005,6 +2073,7 @@
             "YearsQuizzing": null,
             "Id": "q_d30a29315ff14cff16e808da165f544a",
             "Name": "Will Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
             "ChurchName": "New Life Assembly of God",
             "City": "Sparta",
             "State": "WI",
@@ -2156,7 +2225,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2237,5 +2306,5 @@
       }
     }
   ],
-  "Freshness": "2025-11-07T18:05:07.6609586+00:00"
+  "Freshness": "2026-02-13T01:33:43.913143+00:00"
 }

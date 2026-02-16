@@ -1,4 +1,4 @@
-import { getAstroRootSourcePath, getFilesByWildcard } from "./FileSystem";
+import { fileExists, getAstroRootSourcePath, getFilesByWildcard } from "./FileSystem";
 
 /**
  * Retrieves all available seasons.
@@ -39,4 +39,33 @@ export async function getSeasons(metaUrl: string, minSeason?: number): Promise<n
     seasons.sort((a, b) => b - a);
 
     return seasons;
+}
+
+/**
+ * Calculates the link to the current season's results page.
+ * @param metaUrl URL for the current module.
+ * @param eventType Type of the event.
+ * 
+ * @returns URL for the current season's results page (if it exists) or the season page if not.
+ */
+export async function getCurrentSeasonResultsUrl(
+    metaUrl: string,
+    eventType: string): Promise<string | undefined> {
+
+    const rootSourcePath = await getAstroRootSourcePath(metaUrl);
+
+    const rootSeasonsForType = `${rootSourcePath}/content/docs/${eventType}/Seasons`;
+
+    const seasons = await getSeasons(metaUrl);
+    for (const season of seasons) {
+        if (await fileExists(`${rootSourcePath}/data/generated/seasons/${season}/events.json`)) {
+            if (
+                await fileExists(`${rootSeasonsForType}/${season}/results.mdx`)
+            ) {
+                return `/${eventType}/seasons/${season}/results/`;
+            } else {
+                return `/${eventType}/seasons/${season}/`;
+            }
+        }
+    }
 }
