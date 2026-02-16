@@ -1,5 +1,3 @@
-import type { MatchScheduledRoom } from "./Meets";
-
 /**
  * Template for building a schedule.
  */
@@ -64,4 +62,38 @@ export class ScheduleTemplateMatch {
      * Rooms scheduled for this match.
      */
     public RoomSchedule: Record<number, MatchScheduledRoom>;
+}
+
+/**
+ * Metadata about a scheduled match in a room.
+ */
+export class MatchScheduledRoom {
+
+    /**
+     * Initializes a new instance of the MatchScheduledRoom class.
+     */
+    constructor() {
+        this.IsByeRound = false;
+    }
+
+    /**
+     * List of team ids (if this is a team competition).
+     */
+    public TeamIds?: Set<number>;
+
+    /**
+     * List of quizzer ids.
+     */
+    public QuizzerIds?: Set<number>;
+
+    /**
+     * Mapping of placement to the room where the individual is supposed to go. If the place isn't present, the individual is
+     * no longer part of the competition.
+     */
+    public PlacementRoomRouting?: Record<number, number>;
+
+    /**
+     * Value indicating whether this is a bye round.
+     */
+    public IsByeRound: boolean;
 }

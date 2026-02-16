@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { AstroDatabasesService, OnlineDatabaseMeetSettings, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
+import { AstroDatabasesService, OnlineDatabaseMeetSummary, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
     onSelect: (result: DatabaseAndMeetLookupResult[] | OnlineDatabaseSummary | null) => void;
@@ -55,29 +55,29 @@ export default function EventDatabaseLookupDialog({
 
         if (!isLoading && !isAssigning) {
 
-            AstroDatabasesService.getAllDatabases(
-                auth,
-                eventId)
-                .then(databases => {
-                    const filteredDatabases = excludeIds ? [] : databases;
-                    if (excludeIds) {
-                        const excludeIdSet = new Set<string>(
-                            excludeIds.map(d => `${d.databaseId}_${d.meetId}`));
-                        for (const database of databases) {
-                            const filteredMeets: OnlineDatabaseMeetSettings[] = [];
-                            for (const filter of database.Meets) {
-                                if (!excludeIdSet.has(`${database.Settings.DatabaseId}_${filter.Id}`)) {
-                                    filteredMeets.push(filter);
+                    AstroDatabasesService.getAllDatabases(
+                        auth,
+                        eventId)
+                        .then(databases => {
+                            const filteredDatabases = excludeIds ? [] : databases;
+                            if (excludeIds) {
+                                const excludeIdSet = new Set<string>(
+                                    excludeIds.map(d => `${d.databaseId}_${d.meetId}`));
+                                for (const database of databases) {
+                                    const filteredMeets: OnlineDatabaseMeetSummary[] = [];
+                                    for (const meet of database.Meets) {
+                                        if (!excludeIdSet.has(`${database.Settings.DatabaseId}_${meet.Display.Id}`)) {
+                                            filteredMeets.push(meet);
+                                        }
+                                    }
+
+                                    (database as any).Meets = filteredMeets;
+
+                                    if (database.Meets.length > 0) {
+                                        filteredDatabases.push(database);
+                                    }
                                 }
                             }
-
-                            (database as any).Meets = filteredMeets;
-
-                            if (database.Meets.length > 0) {
-                                filteredDatabases.push(database);
-                            }
-                        }
-                    }
 
                     setAllDatabases(filteredDatabases);
 
@@ -177,21 +177,21 @@ export default function EventDatabaseLookupDialog({
                         {currentDatabase && (
                             <div className="flex flex-wrap gap-4">
                                 {currentDatabase.Meets.map(meet => {
-                                    const isSelected = selectedMeetIds!.has(meet.Id);
+                                    const isSelected = selectedMeetIds!.has(meet.Display.Id);
                                     return (
                                         <button
-                                            key={`database - card - ${currentDatabase.Settings.DatabaseId} - meets - ${meet.Id}`}
+                                            key={`database - card - ${currentDatabase.Settings.DatabaseId} - meets - ${meet.Display.Id}`}
                                             type="button"
                                             className="card live-events-card w-85 card-sm shadow-sm border-2 border-solid mt-0 relative"
                                             onClick={() => {
                                                 const newSelections = isSelected
-                                                    ? selectedResults.filter(d => d.databaseId !== currentDatabase.Settings.DatabaseId || d.meetId !== meet.Id)
+                                                    ? selectedResults.filter(d => d.databaseId !== currentDatabase.Settings.DatabaseId || d.meetId !== meet.Display.Id)
                                                     : [
                                                         ...selectedResults,
                                                         {
                                                             databaseId: currentDatabase.Settings.DatabaseId,
-                                                            meetId: meet.Id,
-                                                            name: meet.Name
+                                                            meetId: meet.Display.Id,
+                                                            name: meet.Display.Name
                                                         } as DatabaseAndMeetLookupResult
                                                     ];
                                                 setSelectedResults(newSelections);
@@ -201,7 +201,7 @@ export default function EventDatabaseLookupDialog({
                                                 <div className="flex items-start gap-4">
                                                     <div className="flex-1 pr-6 mt-0">
                                                         <h2 className="card-title mb-0 mt-2">
-                                                            {meet.NameOverride ?? meet.Name}
+                                                            {meet.Display.NameOverride ?? meet.Display.Name}
                                                         </h2>
                                                     </div>
                                                 </div>

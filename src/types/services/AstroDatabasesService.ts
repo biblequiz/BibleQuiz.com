@@ -1,6 +1,7 @@
 ﻿import type { AuthManager } from "../AuthManager";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { MatchRules } from "types/MatchRules";
+import type { ScheduleTemplate } from "types/Scheduling";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -127,6 +128,83 @@ export class AstroDatabasesService {
       RemoteServiceUrlBase.Registration,
       `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}`);
   }
+
+  /**
+   * Updates the display settings for a meet.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * @param databaseId Id for the database.
+   * @param meetId Id for the meet.
+   * @param settings Display settings to update.
+   * 
+   * @returns Updated database summary.
+   */
+  public static updateMeetDisplaySettings(
+    auth: AuthManager,
+    eventId: string,
+    databaseId: string,
+    meetId: number,
+    settings: OnlineDatabaseMeetDisplaySettings): Promise<OnlineDatabaseSummary> {
+
+    return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
+      auth,
+      "PUT",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/display`,
+      null,
+      settings);
+  }
+
+  /**
+   * Gets a schedule template for the specified number of teams.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * @param databaseId Id for the database.
+   * @param teamCount Number of teams for the schedule template.
+   * 
+   * @returns Schedule template.
+   */
+  public static getScheduleTemplate(
+    auth: AuthManager,
+    eventId: string,
+    databaseId: string,
+    teamCount: number): Promise<void> {
+
+    return RemoteServiceUtility.downloadFromHttpRequest(
+      auth,
+      "GET",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
+      RemoteServiceUtility.getFilteredUrlParameters({ teams: teamCount }));
+  }
+
+  /**
+   * Parses an uploaded schedule template file.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * @param databaseId Id for the database.
+   * @param form Form contents with "file" set with the schedule template file.
+   * 
+   * @returns Parsed schedule template.
+   */
+  public static parseScheduleTemplate(
+    auth: AuthManager,
+    eventId: string,
+    databaseId: string,
+    form: FormData): Promise<ScheduleTemplate> {
+
+    return RemoteServiceUtility.executeHttpRequest<ScheduleTemplate>(
+      auth,
+      "PUT",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
+      null,
+      form,
+      true);
+  }
 }
 
 /**
@@ -170,9 +248,30 @@ export class OnlineDatabaseSummary {
   public readonly DefaultRules!: MatchRules | null;
 
   /**
-   * Display settings for meets.
+   * Summary for meets.
    */
-  public readonly Meets!: OnlineDatabaseMeetSettings[];
+  public readonly Meets!: OnlineDatabaseMeetSummary[];
+}
+
+/**
+ * Summary of a meet within a database.
+ */
+export class OnlineDatabaseMeetSummary {
+
+  /**
+   * Display settings for the meet.
+   */
+  public readonly Display!: OnlineDatabaseMeetDisplaySettings;
+
+  /**
+   * Value indicating whether there are any matches without imported questions.
+   */
+  public readonly HasAnyMissingQuestions!: boolean;
+
+  /**
+   * All meets linked to this meet will have the same value. If it is null, the meet isn't linked.
+   */
+  public readonly LinkedMeetGroupId!: string | null;
 }
 
 /**
@@ -225,7 +324,7 @@ export class OnlineDatabaseSettings {
 /**
  * Settings for displaying a meet.
  */
-export class OnlineDatabaseMeetSettings {
+export class OnlineDatabaseMeetDisplaySettings {
 
   /**
    * Id for the meet.
@@ -266,9 +365,4 @@ export class OnlineDatabaseMeetSettings {
    * Value indicating whether question stats should be displayed.
    */
   public readonly ShowQuestionStats!: boolean;
-
-  /**
-   * All meets linked to this meet will have the same value. If it is null, the meet isn't linked.
-   */
-  public readonly LinkedMeetGroupId!: string | null;
 }
