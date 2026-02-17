@@ -20,7 +20,7 @@ import QuizzerDialog from "./teamsAndQuizzers/QuizzerDialog";
 import StatsDialog, { type QuizzerStats, type TeamStats } from "./teamsAndQuizzers/StatsDialog";
 import BulkTeamRenameDialog from "./teamsAndQuizzers/BulkTeamRenameDialog";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import type { OnlineDatabaseMeetSettings } from "types/services/AstroDatabasesService";
+import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
 }
@@ -281,11 +281,11 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
 
     const handleShowTeamStats = (team: Team) => {
         const teamMeets = new Set<number>(currentTeamsAndQuizzers!.Teams[team.Id]?.MeetIds || []);
-        const meets: Record<number, { meet: OnlineDatabaseMeetSettings, hasScores: boolean }> = {};
+        const meets: Record<number, { meet: OnlineDatabaseMeetSummary, hasScores: boolean }> = {};
         const meetsWithScores = new Set<number>(currentTeamsAndQuizzers?.MeetIdsWithScores || []);
         for (const meet of currentDatabase!.Meets) {
-            if (teamMeets.has(meet.Id)) {
-                meets[meet.Id] = { meet: meet, hasScores: meetsWithScores.has(meet.Id) };
+            if (teamMeets.has(meet.Display.Id)) {
+                meets[meet.Display.Id] = { meet: meet, hasScores: meetsWithScores.has(meet.Display.Id) };
             }
         }
 
@@ -366,13 +366,13 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const handleShowQuizzerStats = (quizzer: Quizzer) => {
         const teams = getMergedTeams();
         const quizzerData = getMergedQuizzers()[quizzer.Id];
-        const quizzerMeets: Record<number, { meet: OnlineDatabaseMeetSettings, teamName: string | undefined, hasScores: boolean }> = {};
+        const quizzerMeets: Record<number, { meet: OnlineDatabaseMeetSummary, teamName: string | undefined, hasScores: boolean }> = {};
         const meetsWithScores = new Set<number>(currentTeamsAndQuizzers?.MeetIdsWithScores || []);
         for (const meetId in quizzerData?.MeetTeamIds ?? []) {
             const teamId = quizzerData.MeetTeamIds[meetId];
             const hasScores = meetsWithScores.has(Number(meetId));
             quizzerMeets[meetId] = {
-                meet: currentDatabase!.Meets.find(m => m.Id === Number(meetId))!,
+                meet: currentDatabase!.Meets.find(m => m.Display.Id === Number(meetId))!,
                 teamName: teamId === null
                     ? undefined
                     : teams[teamId]?.Team?.Name,

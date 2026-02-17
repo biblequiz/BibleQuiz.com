@@ -1,16 +1,16 @@
 import { useRef, useEffect } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { Quizzer, Team } from "types/Meets";
-import type { OnlineDatabaseMeetSettings } from "types/services/AstroDatabasesService";
+import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 
 export interface TeamStats {
     team: Team;
-    meets: Record<number, { meet: OnlineDatabaseMeetSettings, hasScores: boolean }>;
+    meets: Record<number, { meet: OnlineDatabaseMeetSummary, hasScores: boolean }>;
 }
 
 export interface QuizzerStats {
     quizzer: Quizzer;
-    meets: Record<number, { meet: OnlineDatabaseMeetSettings, teamName: string | undefined, hasScores: boolean }>;
+    meets: Record<number, { meet: OnlineDatabaseMeetSummary, teamName: string | undefined, hasScores: boolean }>;
 }
 
 interface Props {
@@ -68,10 +68,10 @@ export default function StatsDialog({
                         </div>)}
                     {team && hasMeets && (
                         Object.entries(team.meets).map(([_meetId, { meet, hasScores }]) => (
-                            <div key={`team_${meet.Id}`} className="pl-8">
+                            <div key={`team_${meet.Display.Id}`} className="pl-8">
                                 <FontAwesomeIcon icon="fas faCalendar" />
                                 <span className="pl-2 font-bold">
-                                    {meet.NameOverride || meet.Name}:
+                                    {meet.Display.NameOverride || meet.Display.Name}:
                                 </span>
                                 <span className="pl-2">
                                     {hasScores ? "Scoring has started" : "No scores yet"}
@@ -80,10 +80,10 @@ export default function StatsDialog({
                         )))}
                     {quizzer && hasMeets &&
                         Object.entries(quizzer.meets).map(([_meetId, { meet, teamName, hasScores }]) => (
-                            <div key={`quizzer_${meet.Id}`} className="pl-8">
+                            <div key={`quizzer_${meet.Display.Id}`} className="pl-8">
                                 <FontAwesomeIcon icon="fas faCalendar" />
                                 <span className="pl-2 font-bold">
-                                    {meet.NameOverride || meet.Name}:
+                                    {meet.Display.NameOverride || meet.Display.Name}:
                                 </span>
                                 <span className="pl-2">
                                     {hasScores ? "Scoring has started" : "No scores yet"}
