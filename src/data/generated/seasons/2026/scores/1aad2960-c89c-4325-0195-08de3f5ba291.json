@@ -1,0 +1,616 @@
+{
+  "EventName": "Michael Test Event",
+  "DatabaseNames": {
+    "46adcb43-e023-45b8-a5e6-2669fc587e75": "Michael's Database"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "46adcb43-e023-45b8-a5e6-2669fc587e75",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Test 2",
+        "LastUpdated": "2/17/26 1:09 AM",
+        "DatabaseLastUpdated": "2026-02-17T01:08:08.5789594+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "esther vellore",
+            "Quizzers": [
+              0,
+              1,
+              2
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_36cc0d67-4003-4e91-a42b-9c5578349517",
+            "Name": "Westfield, NJ #1",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "CoachName": "Ashok Vellore",
+            "Quizzers": [
+              3,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2b880971-6381-49bb-9847-1d726d52c3ce",
+            "Name": "Westfield, NJ #2",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Westfield, NJ #1",
+            "YearsQuizzing": null,
+            "Id": "q_62e58cd933c2418387fb08d745303a93",
+            "Name": "Joanna Bollam",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Westfield, NJ #1",
+            "YearsQuizzing": null,
+            "Id": "q_9bad3dfc8ed643e4880208d745303a93",
+            "Name": "Joha Pilli",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Westfield, NJ #1",
+            "YearsQuizzing": null,
+            "Id": "q_d893b1d69ba74715884808d745303a93",
+            "Name": "Lisa Rachel Dayala",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Westfield, NJ #2",
+            "YearsQuizzing": null,
+            "Id": "q_93b3fdbcaef842bca26190bfffeb4452",
+            "Name": "Sahil Vupulla",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Westfield, NJ #2",
+            "YearsQuizzing": null,
+            "Id": "q_33583b76dd1e4d9b523408dbafc02107",
+            "Name": "Samrudh Ganta",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "46adcb43-e023-45b8-a5e6-2669fc587e75",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Test 1",
+        "LastUpdated": "2/17/26 1:09 AM",
+        "DatabaseLastUpdated": "2026-02-17T01:08:08.5789594+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              7,
+              8,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_46adcb43-e023-45b8-a5e6-2669fc587e75_11",
+            "Name": "Alpine, NJ",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "CoachName": "Donald Duck",
+            "Quizzers": [
+              5,
+              6,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_7ecba278-7aa7-46ae-aa67-ca71d2258d64",
+            "Name": "Lynnfield, MA #11",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "CoachName": "Holly Ciampa",
+            "Quizzers": [
+              1,
+              4
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5bc2f878-8bed-4b7a-8b99-bfd80e72949a",
+            "Name": "Lynnfield, MA #2",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "CoachName": "Carolyn Bielby",
+            "Quizzers": [
+              0,
+              2,
+              3
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_06f357d0-b116-4044-b030-6a397431c6d9",
+            "Name": "Utica, NY #2",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Utica, NY #2",
+            "YearsQuizzing": null,
+            "Id": "q_1716853a737344dff2de08ddf069fc0f",
+            "Name": "Andrea Coello",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lynnfield, MA #2",
+            "YearsQuizzing": null,
+            "Id": "q_c7db0286c5534a21021e08dcd424e3c7",
+            "Name": "Chloe Levitre",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "TeamName": "Utica, NY #2",
+            "YearsQuizzing": null,
+            "Id": "q_46a281e8acd04420af5808dab68a0866",
+            "Name": "Claire Cook",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": null
+          },
+          {
+            "TeamName": "Utica, NY #2",
+            "YearsQuizzing": null,
+            "Id": "q_618ec9aa648d4f24af5e08dab68a0866",
+            "Name": "Eliana Oxenford",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lynnfield, MA #2",
+            "YearsQuizzing": null,
+            "Id": "q_42153e220b044a931ec708da10795bb6",
+            "Name": "Jochebed Christanday",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lynnfield, MA #11",
+            "YearsQuizzing": null,
+            "Id": "q_7601ec76543f41f36bec08d8069b86c1",
+            "Name": "Mark Ciampa",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lynnfield, MA #11",
+            "YearsQuizzing": null,
+            "Id": "q_3fdb84cdef374b891ebd08da10795bb6",
+            "Name": "Paul Ciampa",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "TeamName": "Alpine, NJ",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43-e023-45b8-a5e6-2669fc587e75_92",
+            "Name": "Quizzer-1",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Alpine, NJ",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43-e023-45b8-a5e6-2669fc587e75_93",
+            "Name": "Quizzer-2",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Alpine, NJ",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43-e023-45b8-a5e6-2669fc587e75_94",
+            "Name": "Quizzer-3",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null
+          },
+          {
+            "TeamName": "Lynnfield, MA #11",
+            "YearsQuizzing": null,
+            "Id": "q_d16d212ea5644e2f1eb908da10795bb6",
+            "Name": "Sarah Ciampa",
+            "ChurchId": "aa6931b5-c43c-4bc0-986d-15bde195abbe",
+            "ChurchName": "Calvary Christian Church",
+            "City": "Lynnfield",
+            "State": "MA",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-17T01:09:44.4578232+00:00"
+}
