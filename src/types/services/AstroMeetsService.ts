@@ -18,7 +18,7 @@ export class AstroMeetsService {
      * @param auth AuthManager to use for authentication.
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
-     * @param meetId Id for the meet.
+     * @param meetId Id for the meet. If 0 is given, a default will be returned.
      * 
      * @returns Meet settings.
      */
@@ -207,6 +207,11 @@ export interface OnlineMeetSchedulingSettings {
      * Value indicating whether bye rounds should be included in scores.
      */
     IncludeByesInScores: boolean;
+
+    /**
+     * Value indicating whether there is a custom schedule.
+     */
+    readonly HasCustomSchedule: boolean;
 
     /**
      * Value indicating whether the CustomSchedule and OptimizedSchedule have been changed.
