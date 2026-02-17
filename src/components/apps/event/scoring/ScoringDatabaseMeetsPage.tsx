@@ -248,27 +248,29 @@ export default function ScoringDatabaseMeetsPage() {
         setSaveError(null);
 
         try {
-            // Save display settings changes
-            for (const [meetIdStr, changes] of Object.entries(pendingDisplayChanges)) {
-                const meetId = Number(meetIdStr);
-                const meet = currentDatabase.Meets.find(m => m.Display.Id === meetId);
-                if (!meet) continue;
+            // Build ordered array of all display settings with pending changes applied
+            const orderedSettings: OnlineDatabaseMeetDisplaySettings[] = meetOrder
+                .map(meetId => {
+                    const meet = currentDatabase.Meets.find(m => m.Display.Id === meetId);
+                    if (!meet) return null;
 
-                const updatedSettings: OnlineDatabaseMeetDisplaySettings = {
-                    ...meet.Display,
-                    ...changes
-                } as OnlineDatabaseMeetDisplaySettings;
+                    const pending = pendingDisplayChanges[meetId];
+                    return pending
+                        ? { ...meet.Display, ...pending } as OnlineDatabaseMeetDisplaySettings
+                        : meet.Display;
+                })
+                .filter((s): s is OnlineDatabaseMeetDisplaySettings => s !== null);
 
-                const result = await AstroDatabasesService.updateMeetDisplaySettings(
-                    auth,
-                    eventId,
-                    databaseId,
-                    meetId,
-                    updatedSettings
-                );
+            // Send all settings in the correct order with a single API call
+            const result = await AstroDatabasesService.updateMeetDisplaySettings(
+                auth,
+                eventId,
+                databaseId,
+                0, // meetId=0 indicates bulk update for all meets
+                orderedSettings
+            );
 
-                setCurrentDatabase(result);
-            }
+            setCurrentDatabase(result);
 
             // Clear pending changes
             setPendingDisplayChanges({});
@@ -279,7 +281,7 @@ export default function ScoringDatabaseMeetsPage() {
         } finally {
             setIsSaving(false);
         }
-    }, [auth, eventId, databaseId, currentDatabase, pendingDisplayChanges, setCurrentDatabase]);
+    }, [auth, eventId, databaseId, currentDatabase, meetOrder, pendingDisplayChanges, setCurrentDatabase]);
 
     // Dialog save handler
     const handleDialogSave = useCallback((updatedDatabase: OnlineDatabaseSummary) => {

@@ -145,7 +145,7 @@ export class AstroDatabasesService {
     eventId: string,
     databaseId: string,
     meetId: number,
-    settings: OnlineDatabaseMeetDisplaySettings): Promise<OnlineDatabaseSummary> {
+    settings: OnlineDatabaseMeetDisplaySettings[]): Promise<OnlineDatabaseSummary> {
 
     return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
       auth,
