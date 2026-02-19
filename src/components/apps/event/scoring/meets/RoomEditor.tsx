@@ -31,40 +31,12 @@ export default function RoomEditor({
         onRoomNamesChange(updated);
     };
 
-    // Generate next room name (A, B, C... then A1, B1...)
-    const getNextRoomName = (): string => {
-        const count = roomNames.length;
-        if (count < 26) {
-            return String.fromCharCode(65 + count); // A-Z
-        }
-        const letter = String.fromCharCode(65 + (count % 26));
-        const number = Math.floor(count / 26);
-        return `${letter}${number}`;
-    };
-
-    const handleAddRoom = () => {
-        onRoomNamesChange([...roomNames, getNextRoomName()]);
-    };
-
     const handleRemoveRoom = (index: number) => {
         onRoomNamesChange(roomNames.filter((_, i) => i !== index));
     };
 
     return (
         <div className="p-2">
-            {!isReadOnly && (
-                <div className="mb-3">
-                    <button
-                        type="button"
-                        className="btn btn-xs btn-primary"
-                        onClick={handleAddRoom}
-                        disabled={disabled}
-                    >
-                        <FontAwesomeIcon icon="fas faPlus" />
-                        Add Room
-                    </button>
-                </div>
-            )}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                 {roomNames.map((roomName, index) => (
                     <div key={index} className="flex items-center gap-1">

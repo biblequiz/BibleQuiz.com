@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import { useOutletContext } from "react-router-dom";
 import { useStore } from "@nanostores/react";
 import type { ScoringDatabaseProviderContext } from "./ScoringDatabaseProvider";
-import type { OnlineDatabaseMeetDisplaySettings, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
+import type { OnlineDatabaseMeetDisplaySettings, OnlineDatabaseMeetSummary, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
 import { AstroMeetsService } from "types/services/AstroMeetsService";
 import { sharedDirtyWindowState } from "utils/SharedState";
@@ -73,11 +73,8 @@ export default function ScoringDatabaseMeetsPage() {
     }, [currentDatabase, meetOrder]);
 
     // Get display settings with pending changes applied
-    const getDisplaySettings = useCallback((meetId: number): OnlineDatabaseMeetDisplaySettings | null => {
-        const meet = currentDatabase?.Meets.find(m => m.Display.Id === meetId);
-        if (!meet) return null;
-
-        const pending = pendingDisplayChanges[meetId];
+    const getDisplaySettings = useCallback((meet: OnlineDatabaseMeetSummary): OnlineDatabaseMeetDisplaySettings | null => {
+        const pending = pendingDisplayChanges[meet.Display.Id];
         if (!pending) return meet.Display;
 
         return {
@@ -98,13 +95,28 @@ export default function ScoringDatabaseMeetsPage() {
         field: keyof OnlineDatabaseMeetDisplaySettings,
         value: boolean
     ) => {
-        setPendingDisplayChanges(prev => ({
-            ...prev,
-            [meetId]: {
-                ...prev[meetId],
-                [field]: value
+        const currentMeet = currentDatabase?.Meets.find(m => m.Display.Id === meetId);
+        if (!currentMeet) {
+            return;
+        }
+
+        const meetsToUpdate: OnlineDatabaseMeetSummary[] = [currentMeet];
+        if (currentMeet.LinkedMeetGroupId) {
+            for (const meet of currentDatabase!.Meets) {
+                if (meet.Display.Id !== meetId && meet.LinkedMeetGroupId === currentMeet.LinkedMeetGroupId) {
+                    meetsToUpdate.push(meet);
+                }
             }
-        }));
+        }
+
+        const newChanges: PendingDisplayChanges = { ...pendingDisplayChanges };
+        for (const meet of meetsToUpdate) {
+            newChanges[meet.Display.Id] = {
+                ...newChanges[meet.Display.Id],
+                [field]: value
+            };
+        }
+        setPendingDisplayChanges(newChanges);
         markDirty();
     }, [markDirty]);
 
@@ -266,9 +278,7 @@ export default function ScoringDatabaseMeetsPage() {
                 auth,
                 eventId,
                 databaseId,
-                0, // meetId=0 indicates bulk update for all meets
-                orderedSettings
-            );
+                orderedSettings);
 
             setCurrentDatabase(result);
 
@@ -392,7 +402,7 @@ export default function ScoringDatabaseMeetsPage() {
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {orderedMeets.map(meet => {
-                        const displaySettings = getDisplaySettings(meet.Display.Id);
+                        const displaySettings = getDisplaySettings(meet);
                         if (!displaySettings) return null;
 
                         return (

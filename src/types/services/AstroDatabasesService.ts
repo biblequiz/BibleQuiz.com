@@ -130,12 +130,11 @@ export class AstroDatabasesService {
   }
 
   /**
-   * Updates the display settings for a meet.
+   * Updates the display settings for the meets of a database.
    *
    * @param auth AuthManager to use for authentication.
    * @param eventId Id for the event.
    * @param databaseId Id for the database.
-   * @param meetId Id for the meet.
    * @param settings Display settings to update.
    * 
    * @returns Updated database summary.
@@ -144,14 +143,13 @@ export class AstroDatabasesService {
     auth: AuthManager,
     eventId: string,
     databaseId: string,
-    meetId: number,
     settings: OnlineDatabaseMeetDisplaySettings[]): Promise<OnlineDatabaseSummary> {
 
     return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
       auth,
       "PUT",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/display`,
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meetDisplay`,
       null,
       settings);
   }
@@ -332,9 +330,9 @@ export class OnlineDatabaseMeetDisplaySettings {
   public readonly Id!: number;
 
   /**
-   * Original name for the meet.
+   * Name of the meet.
    */
-  public readonly Name!: string;
+  public Name!: string;
 
   /**
    * Override for the display name of the meet. Only used for ScoreKeep database.

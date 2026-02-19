@@ -59,7 +59,6 @@ export default function DivisionScheduleDialog({
     const [isRefreshingPreview, setIsRefreshingPreview] = useState(false);
     const [isUploadingSchedule, setIsUploadingSchedule] = useState(false);
     const [error, setError] = useState<string | null>(null);
-    const [saveError, setSaveError] = useState<string | null>(null);
 
     // Meet settings
     const [settings, setSettings] = useState<OnlineMeetSettings | null>(null);
@@ -105,11 +104,11 @@ export default function DivisionScheduleDialog({
         AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad)
             .then(data => {
                 setSettings(data);
-                
+
                 if (!isNew) {
                     setName(data.Name);
                 }
-                
+
                 setRoomNames(data.RoomNames || []);
                 setMatchLengthInMinutes(data.MatchLengthInMinutes || 20);
                 setAllTeams(data.AllTeams || {});
@@ -128,7 +127,7 @@ export default function DivisionScheduleDialog({
                         setStartingRoundOverride(data.Schedule.StartingTemplateRoundOverride || null);
                         setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
                     }
-                    
+
                     // Custom schedule from server
                     setHasCustomSchedule(data.Schedule.HasCustomSchedule || false);
                 }
@@ -154,7 +153,7 @@ export default function DivisionScheduleDialog({
                 const newRooms = [...roomNames];
                 if (requiredRooms > roomNames.length) {
                     for (let i = roomNames.length; i < requiredRooms; i++) {
-                        newRooms.push(`Room ${i + 1}`);
+                        newRooms.push(`${i + 1}`);
                     }
                 } else {
                     newRooms.length = requiredRooms;
@@ -204,7 +203,7 @@ export default function DivisionScheduleDialog({
         if (!file) return;
 
         setIsUploadingSchedule(true);
-        setSaveError(null);
+        setError(null);
 
         try {
             const formData = new FormData();
@@ -222,7 +221,7 @@ export default function DivisionScheduleDialog({
             setIsRemovingCustomSchedule(false);
             markScheduleOutOfDate();
         } catch (err: any) {
-            setSaveError(err.message || "Failed to parse schedule file.");
+            setError(err.message || "Failed to parse schedule file.");
         } finally {
             setIsUploadingSchedule(false);
         }
@@ -253,12 +252,12 @@ export default function DivisionScheduleDialog({
     // Refresh schedule preview
     const handleRefreshPreview = async () => {
         if (selectedTeamIds.length < 2) {
-            setSaveError("You must assign at least two teams to generate a schedule.");
+            setError("You must assign at least two teams to generate a schedule.");
             return;
         }
 
         setIsRefreshingPreview(true);
-        setSaveError(null);
+        setError(null);
 
         try {
             const schedulingSettings: OnlineMeetSchedulingSettings = {
@@ -285,7 +284,7 @@ export default function DivisionScheduleDialog({
             setSchedulePreview(preview);
             setIsScheduleOutOfDate(false);
         } catch (err: any) {
-            setSaveError(err.message || "Failed to refresh schedule preview.");
+            setError(err.message || "Failed to refresh schedule preview.");
         } finally {
             setIsRefreshingPreview(false);
         }
@@ -298,17 +297,17 @@ export default function DivisionScheduleDialog({
         }
 
         if (!name.trim()) {
-            setSaveError("Division name is required.");
+            setError("Division name is required.");
             return;
         }
 
         if (selectedTeamIds.length < 2) {
-            setSaveError("You must assign at least two teams.");
+            setError("You must assign at least two teams.");
             return;
         }
 
         setIsSaving(true);
-        setSaveError(null);
+        setError(null);
 
         try {
             // If schedule is out of date, refresh it first
@@ -369,7 +368,7 @@ export default function DivisionScheduleDialog({
             onSave(result);
             dialogRef.current?.close();
         } catch (err: any) {
-            setSaveError(err.message || "Failed to save division settings.");
+            setError(err.message || "Failed to save division settings.");
         } finally {
             setIsSaving(false);
         }
@@ -405,18 +404,8 @@ export default function DivisionScheduleDialog({
                     {error && (
                         <div role="alert" className="alert alert-error">
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
-                            <div>
-                                <b>Error: </b>{error}
-                            </div>
-                        </div>
-                    )}
-
-                    {saveError && (
-                        <div role="alert" className="alert alert-error mb-4">
-                            <FontAwesomeIcon icon="fas faTriangleExclamation" />
-                            <div>
-                                <b>Error: </b>{saveError}
-                            </div>
+                            <span className="font-bold">Error:</span>
+                            <span>{error}</span>
                         </div>
                     )}
 
@@ -630,9 +619,9 @@ export default function DivisionScheduleDialog({
                                             <div className="border border-base-300 rounded-lg p-3">
                                                 <span
                                                     className="text-xs"
-                                                    dangerouslySetInnerHTML={{ 
-                                                        __html: MatchRulesClass.toHtmlString(effectiveRules) 
-                                                    }} 
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: MatchRulesClass.toHtmlString(effectiveRules)
+                                                    }}
                                                 />
                                                 {useCustomRules && !isReadOnly && (
                                                     <button
