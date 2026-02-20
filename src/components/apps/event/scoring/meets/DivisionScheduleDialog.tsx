@@ -77,7 +77,6 @@ export default function DivisionScheduleDialog({
 
     // Custom schedule state
     const [hasCustomSchedule, setHasCustomSchedule] = useState(false);
-    const [useCustomSchedule, setUseCustomSchedule] = useState(false);
     const [customSchedule, setCustomSchedule] = useState<ScheduleTemplate | null>(null);
     const [isRemovingCustomSchedule, setIsRemovingCustomSchedule] = useState(false);
 
@@ -132,7 +131,6 @@ export default function DivisionScheduleDialog({
                     // Custom schedule from server
                     const hasCustom = data.Schedule.HasCustomSchedule || false;
                     setHasCustomSchedule(hasCustom);
-                    setUseCustomSchedule(hasCustom);
                 }
 
                 if (data.Preview && !isNew) {
@@ -197,17 +195,18 @@ export default function DivisionScheduleDialog({
         markScheduleOutOfDate();
     };
 
-    // Handle custom schedule checkbox change
-    const handleUseCustomScheduleChange = (checked: boolean) => {
-        setUseCustomSchedule(checked);
-        if (!checked) {
-            // When unchecking, mark as removing custom schedule
-            setIsRemovingCustomSchedule(true);
-        } else {
-            setIsRemovingCustomSchedule(false);
-        }
-        markScheduleOutOfDate();
-    };
+    // Build scheduling settings object (reused across multiple operations)
+    const getSchedulingSettings = (): OnlineMeetSchedulingSettings => ({
+        LinkedMeetIds: linkedMeetIds,
+        TeamIds: selectedTeamIds,
+        IncludeByesInScores: includeByesInScores,
+        HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
+        IsScheduleChanged: true,
+        CustomSchedule: isRemovingCustomSchedule ? null : customSchedule,
+        OptimizedSchedule: null,
+        StartingTemplateRoundOverride: startingRoundOverride,
+        TemplateRoundCountOverride: roundCountOverride
+    });
 
     // Custom schedule handlers
     const handleUploadSchedule = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -230,7 +229,6 @@ export default function DivisionScheduleDialog({
 
             setCustomSchedule(template);
             setHasCustomSchedule(true);
-            setUseCustomSchedule(true);
             setIsRemovingCustomSchedule(false);
             markScheduleOutOfDate();
         } catch (err: any) {
@@ -244,7 +242,6 @@ export default function DivisionScheduleDialog({
         setCustomSchedule(null);
         setIsRemovingCustomSchedule(true);
         setHasCustomSchedule(false);
-        setUseCustomSchedule(false);
         markScheduleOutOfDate();
     };
 
@@ -274,17 +271,7 @@ export default function DivisionScheduleDialog({
         setError(null);
 
         try {
-            const schedulingSettings: OnlineMeetSchedulingSettings = {
-                LinkedMeetIds: linkedMeetIds,
-                TeamIds: selectedTeamIds,
-                IncludeByesInScores: includeByesInScores,
-                HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
-                IsScheduleChanged: true,
-                CustomSchedule: customSchedule,
-                OptimizedSchedule: null,
-                StartingTemplateRoundOverride: startingRoundOverride,
-                TemplateRoundCountOverride: roundCountOverride
-            };
+            const schedulingSettings = getSchedulingSettings();
 
             const preview = await AstroMeetsService.refreshSchedulePreview(
                 auth,
@@ -327,17 +314,7 @@ export default function DivisionScheduleDialog({
             // If schedule is out of date, refresh it first
             let finalPreview = schedulePreview;
             if (isScheduleOutOfDate) {
-                const schedulingSettings: OnlineMeetSchedulingSettings = {
-                    LinkedMeetIds: linkedMeetIds,
-                    TeamIds: selectedTeamIds,
-                    IncludeByesInScores: includeByesInScores,
-                    HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
-                    IsScheduleChanged: true,
-                    CustomSchedule: isRemovingCustomSchedule ? null : customSchedule,
-                    OptimizedSchedule: isRemovingCustomSchedule ? null : null,
-                    StartingTemplateRoundOverride: startingRoundOverride,
-                    TemplateRoundCountOverride: roundCountOverride
-                };
+                const schedulingSettings = getSchedulingSettings();
 
                 finalPreview = await AstroMeetsService.refreshSchedulePreview(
                     auth,
@@ -516,7 +493,7 @@ export default function DivisionScheduleDialog({
                                         className: "badge-info",
                                         text: `${selectedTeamIds.length} selected`
                                     },
-                                    ...(useCustomSchedule && hasCustomSchedule && !isRemovingCustomSchedule ? [{
+                                    ...(hasCustomSchedule && !isRemovingCustomSchedule ? [{
                                         className: "badge-warning",
                                         text: "Locked"
                                     }] : [])
@@ -529,7 +506,7 @@ export default function DivisionScheduleDialog({
                                     allTeams={allTeams}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
-                                    allowAddRemove={!(useCustomSchedule && hasCustomSchedule && !isRemovingCustomSchedule)}
+                                    allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
                                     onTeamIdsChange={handleTeamIdsChange}
                                 />
                             </CollapsibleSection>
@@ -597,7 +574,7 @@ export default function DivisionScheduleDialog({
                                 elementId="customSchedule"
                                 icon="fas faFileExcel"
                                 title="Custom Schedule"
-                                badges={useCustomSchedule && hasCustomSchedule && !isRemovingCustomSchedule ? [{
+                                badges={hasCustomSchedule && !isRemovingCustomSchedule ? [{
                                     className: "badge-success",
                                     text: "Active"
                                 }] : undefined}
@@ -606,7 +583,6 @@ export default function DivisionScheduleDialog({
                             >
                                 <CustomScheduleUploader
                                     hasCustomSchedule={hasCustomSchedule && !isRemovingCustomSchedule}
-                                    useCustomSchedule={useCustomSchedule}
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
@@ -615,10 +591,9 @@ export default function DivisionScheduleDialog({
                                     eventId={eventId}
                                     databaseId={databaseId}
                                     meetId={meetId}
-                                    teamCount={selectedTeamIds.length}
+                                    getSchedulingSettings={getSchedulingSettings}
                                     onUpload={handleUploadSchedule}
                                     onRemove={handleRemoveCustomSchedule}
-                                    onUseCustomScheduleChange={handleUseCustomScheduleChange}
                                 />
                             </CollapsibleSection>
 

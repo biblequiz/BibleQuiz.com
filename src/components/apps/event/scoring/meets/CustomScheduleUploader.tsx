@@ -1,11 +1,10 @@
 import { useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { AuthManager } from "types/AuthManager";
-import { AstroMeetsService } from "types/services/AstroMeetsService";
+import { AstroMeetsService, type OnlineMeetSchedulingSettings } from "types/services/AstroMeetsService";
 
 interface Props {
     hasCustomSchedule: boolean;
-    useCustomSchedule: boolean;
     isUploading: boolean;
     disabled: boolean;
     isReadOnly: boolean;
@@ -14,15 +13,13 @@ interface Props {
     eventId: string;
     databaseId: string;
     meetId: number;
-    teamCount: number;
+    getSchedulingSettings: () => OnlineMeetSchedulingSettings;
     onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onRemove: () => void;
-    onUseCustomScheduleChange: (checked: boolean) => void;
 }
 
 export default function CustomScheduleUploader({
     hasCustomSchedule,
-    useCustomSchedule,
     isUploading,
     disabled,
     isReadOnly,
@@ -31,10 +28,9 @@ export default function CustomScheduleUploader({
     eventId,
     databaseId,
     meetId,
-    teamCount,
+    getSchedulingSettings,
     onUpload,
-    onRemove,
-    onUseCustomScheduleChange
+    onRemove
 }: Props) {
     const fileInputRef = useRef<HTMLInputElement>(null);
     const [isExporting, setIsExporting] = useState(false);
@@ -44,7 +40,8 @@ export default function CustomScheduleUploader({
         setIsExporting(true);
         setExportError(null);
         try {
-            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId, teamCount);
+            const settings = getSchedulingSettings();
+            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId, settings);
         } catch (err: any) {
             setExportError(err.message || "Failed to export schedule.");
         } finally {
@@ -60,7 +57,7 @@ export default function CustomScheduleUploader({
         }
     };
 
-    const controlsDisabled = disabled || !useCustomSchedule || isNew;
+    const controlsDisabled = disabled || isNew;
 
     return (
         <div className="p-2 space-y-3">
@@ -72,18 +69,6 @@ export default function CustomScheduleUploader({
                 </div>
             )}
 
-            {/* Use Custom Schedule Checkbox */}
-            <label className="label cursor-pointer gap-2 justify-start">
-                <input
-                    type="checkbox"
-                    className="checkbox checkbox-sm"
-                    checked={useCustomSchedule}
-                    onChange={(e) => onUseCustomScheduleChange(e.target.checked)}
-                    disabled={disabled || isReadOnly || isNew}
-                />
-                <span className="label-text">Use Custom Schedule</span>
-            </label>
-
             {exportError && (
                 <div role="alert" className="alert alert-error alert-sm">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />
@@ -91,7 +76,7 @@ export default function CustomScheduleUploader({
                 </div>
             )}
 
-            {hasCustomSchedule && useCustomSchedule && (
+            {hasCustomSchedule && (
                 <div className="flex items-center gap-2 text-success">
                     <FontAwesomeIcon icon="fas faCircleCheck" />
                     <span>Custom schedule is active</span>
@@ -139,7 +124,7 @@ export default function CustomScheduleUploader({
                 )}
 
                 {/* Remove Button */}
-                {!isReadOnly && hasCustomSchedule && useCustomSchedule && (
+                {!isReadOnly && hasCustomSchedule && (
                     <button
                         type="button"
                         className="btn btn-sm btn-error btn-outline"
@@ -151,12 +136,6 @@ export default function CustomScheduleUploader({
                     </button>
                 )}
             </div>
-
-            {!useCustomSchedule && (
-                <p className="text-sm text-base-content/70">
-                    Enable "Use Custom Schedule" to upload or export a custom schedule template.
-                </p>
-            )}
         </div>
     );
 }
