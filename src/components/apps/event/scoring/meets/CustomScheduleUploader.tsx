@@ -8,7 +8,6 @@ interface Props {
     isUploading: boolean;
     disabled: boolean;
     isReadOnly: boolean;
-    isNew: boolean;
     auth: AuthManager;
     eventId: string;
     databaseId: string;
@@ -23,7 +22,6 @@ export default function CustomScheduleUploader({
     isUploading,
     disabled,
     isReadOnly,
-    isNew,
     auth,
     eventId,
     databaseId,
@@ -57,18 +55,10 @@ export default function CustomScheduleUploader({
         }
     };
 
-    const controlsDisabled = disabled || isNew;
+    const controlsDisabled = disabled || getSchedulingSettings().TeamIds.length === 0;
 
     return (
         <div className="p-2 space-y-3">
-            {/* Help text for new divisions */}
-            {isNew && (
-                <div role="alert" className="alert alert-info alert-sm">
-                    <FontAwesomeIcon icon="fas faCircleInfo" />
-                    <span>Save the division first to enable custom schedule options.</span>
-                </div>
-            )}
-
             {exportError && (
                 <div role="alert" className="alert alert-error alert-sm">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />
@@ -85,26 +75,24 @@ export default function CustomScheduleUploader({
 
             <div className="flex flex-wrap items-center gap-2">
                 {/* Export Button - only show for existing divisions */}
-                {!isNew && (
-                    <button
-                        type="button"
-                        className="btn btn-sm btn-outline"
-                        onClick={handleExportSchedule}
-                        disabled={controlsDisabled || isExporting}
-                    >
-                        {isExporting ? (
-                            <>
-                                <span className="loading loading-spinner loading-sm"></span>
-                                Exporting...
-                            </>
-                        ) : (
-                            <>
-                                <FontAwesomeIcon icon="fas faDownload" />
-                                Export Last Saved Schedule
-                            </>
-                        )}
-                    </button>
-                )}
+                <button
+                    type="button"
+                    className="btn btn-sm btn-outline"
+                    onClick={handleExportSchedule}
+                    disabled={controlsDisabled || isExporting}
+                >
+                    {isExporting ? (
+                        <>
+                            <span className="loading loading-spinner loading-sm"></span>
+                            Exporting...
+                        </>
+                    ) : (
+                        <>
+                            <FontAwesomeIcon icon="fas faDownload" />
+                            Export Current Schedule
+                        </>
+                    )}
+                </button>
 
                 {/* Upload Control */}
                 {!isReadOnly && (

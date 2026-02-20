@@ -495,7 +495,7 @@ export default function DivisionScheduleDialog({
                                     },
                                     ...(hasCustomSchedule && !isRemovingCustomSchedule ? [{
                                         className: "badge-warning",
-                                        text: "Locked"
+                                        text: "Locked (Custom Schedule)"
                                     }] : [])
                                 ]}
                                 defaultOpen={true}
@@ -586,7 +586,6 @@ export default function DivisionScheduleDialog({
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
-                                    isNew={isNew}
                                     auth={auth}
                                     eventId={eventId}
                                     databaseId={databaseId}
