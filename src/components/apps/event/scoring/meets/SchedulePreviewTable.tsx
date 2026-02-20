@@ -97,7 +97,7 @@ export default function SchedulePreviewTable({
                                 return (
                                     <tr key={teamId}>
                                         <td className="font-medium">
-                                            {team?.Name || `Team ${teamId}`}
+                                            {team?.Name || `Team ${teamId}`} ({team?.ChurchName || "No Church"})
                                         </td>
                                         {Object.entries(schedulePreview.Matches).map(([matchId, match]) => {
                                             let roomLabel = "--";
