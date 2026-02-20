@@ -24,12 +24,12 @@ import CustomScheduleUploader from "./CustomScheduleUploader";
 interface Props {
     auth: AuthManager;
     eventId: string;
-    eventType?: string;
+    eventType: string;
     databaseId: string;
     meetId: number;
     meetName: string;
     allMeets: OnlineDatabaseMeetSummary[];
-    defaultRules?: MatchRules | null;
+    defaultRules: MatchRules;
     isReadOnly: boolean;
     isNew: boolean;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;

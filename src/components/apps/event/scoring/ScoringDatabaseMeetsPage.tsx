@@ -35,6 +35,7 @@ export default function ScoringDatabaseMeetsPage() {
     const {
         auth,
         eventId,
+        eventType,
         databaseId,
         currentDatabase,
         setCurrentDatabase
@@ -434,9 +435,11 @@ export default function ScoringDatabaseMeetsPage() {
                 <DivisionScheduleDialog
                     auth={auth}
                     eventId={eventId}
+                    eventType={eventType}
                     databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
+                    defaultRules={currentDatabase.DefaultRules}
                     allMeets={currentDatabase.Meets}
                     isReadOnly={isReadOnly}
                     isNew={false}
@@ -470,10 +473,12 @@ export default function ScoringDatabaseMeetsPage() {
                 <DivisionScheduleDialog
                     auth={auth}
                     eventId={eventId}
+                    eventType={eventType}
                     databaseId={databaseId!}
                     meetId={0}
                     meetName="New Division"
                     allMeets={currentDatabase.Meets}
+                    defaultRules={currentDatabase.DefaultRules}
                     isReadOnly={false}
                     isNew={true}
                     onSave={handleDialogSave}
