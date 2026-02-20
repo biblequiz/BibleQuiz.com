@@ -61,7 +61,7 @@ export default function ScoringDatabaseMeetsPage() {
     const [draggedMeetId, setDraggedMeetId] = useState<number | null>(null);
     const [dragOverMeetId, setDragOverMeetId] = useState<number | null>(null);
 
-    const isReadOnly = currentDatabase?.Settings.IsScoreKeep || false;
+    const isReadOnly = currentDatabase?.IsScoreKeep || false;
 
     // Get meets in current order
     const getOrderedMeets = useCallback(() => {

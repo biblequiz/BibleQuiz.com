@@ -251,6 +251,11 @@ export interface OnlineMeetSchedulingSettings {
     readonly HasCustomSchedule: boolean;
 
     /**
+     * Value indicating whether to use the optimizer.
+     */
+    UseOptimizer: boolean;
+
+    /**
      * Value indicating whether the CustomSchedule and OptimizedSchedule have been changed.
      * If this is false, the existing values in the database will be used.
      */

@@ -715,7 +715,6 @@ export default function DivisionScheduleDialog({
             {showLinkedMeetsDialog && (
                 <LinkedMeetsDialog
                     currentMeetId={meetId}
-                    currentMeetName={name}
                     allMeets={allMeets}
                     linkedMeetIds={linkedMeetIds}
                     isReadOnly={isReadOnly}

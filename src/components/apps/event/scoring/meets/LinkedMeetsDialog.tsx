@@ -4,7 +4,6 @@ import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesSer
 
 interface Props {
     currentMeetId: number;
-    currentMeetName: string;
     allMeets: OnlineDatabaseMeetSummary[];
     linkedMeetIds: number[];
     isReadOnly: boolean;
@@ -19,7 +18,6 @@ interface Props {
  */
 export default function LinkedMeetsDialog({
     currentMeetId,
-    currentMeetName,
     allMeets,
     linkedMeetIds,
     isReadOnly,
