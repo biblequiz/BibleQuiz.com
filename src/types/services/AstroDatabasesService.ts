@@ -193,7 +193,7 @@ export class AstroDatabasesService {
 
     return RemoteServiceUtility.executeHttpRequest<ScheduleTemplate>(
       auth,
-      "PUT",
+      "POST",
       RemoteServiceUrlBase.Registration,
       `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
       null,
