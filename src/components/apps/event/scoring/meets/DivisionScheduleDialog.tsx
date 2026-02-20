@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useEffect } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import CollapsibleSection from "components/CollapsibleSection";
 import type { AuthManager } from "types/AuthManager";
@@ -17,7 +17,7 @@ import type { ScheduleTemplate } from "types/Scheduling";
 import LinkedMeetsDialog from "./LinkedMeetsDialog";
 import MatchRulesDialog from "../../rules/MatchRulesDialog";
 import TeamSelector from "./TeamSelector";
-import RoomEditor from "./RoomEditor";
+import RoomEditor, { generateRoomNamesForCount } from "./RoomEditor";
 import SchedulePreviewTable from "./SchedulePreviewTable";
 import CustomScheduleUploader from "./CustomScheduleUploader";
 
@@ -150,23 +150,16 @@ export default function DivisionScheduleDialog({
         if (schedulePreview && schedulePreview.RoomCount > 0) {
             const requiredRooms = schedulePreview.RoomCount;
             if (roomNames.length !== requiredRooms) {
-                const newRooms = [...roomNames];
-                if (requiredRooms > roomNames.length) {
-                    for (let i = roomNames.length; i < requiredRooms; i++) {
-                        newRooms.push(`${i + 1}`);
-                    }
-                } else {
-                    newRooms.length = requiredRooms;
-                }
+                const newRooms = generateRoomNamesForCount(roomNames, requiredRooms);
                 setRoomNames(newRooms);
             }
         }
-    }, [schedulePreview?.RoomCount]);
+    }, [schedulePreview?.RoomCount, roomNames.length]);
 
     // Mark schedule as out of date when settings change
-    const markScheduleOutOfDate = useCallback(() => {
+    const markScheduleOutOfDate = () => {
         setIsScheduleOutOfDate(true);
-    }, []);
+    };
 
     // Handle scheduling settings changes
     const handleTeamIdsChange = (newTeamIds: number[]) => {
