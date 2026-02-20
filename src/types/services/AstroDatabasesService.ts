@@ -160,22 +160,19 @@ export class AstroDatabasesService {
    * @param auth AuthManager to use for authentication.
    * @param eventId Id for the event.
    * @param databaseId Id for the database.
-   * @param teamCount Number of teams for the schedule template.
    * 
    * @returns Schedule template.
    */
   public static getScheduleTemplate(
     auth: AuthManager,
     eventId: string,
-    databaseId: string,
-    teamCount: number): Promise<void> {
+    databaseId: string): Promise<void> {
 
     return RemoteServiceUtility.downloadFromHttpRequest(
       auth,
       "GET",
       RemoteServiceUrlBase.Registration,
-      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
-      RemoteServiceUtility.getFilteredUrlParameters({ teams: teamCount }));
+      `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`);
   }
 
   /**
