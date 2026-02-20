@@ -615,6 +615,7 @@ export default function DivisionScheduleDialog({
                                     eventId={eventId}
                                     databaseId={databaseId}
                                     meetId={meetId}
+                                    teamCount={selectedTeamIds.length}
                                     onUpload={handleUploadSchedule}
                                     onRemove={handleRemoveCustomSchedule}
                                     onUseCustomScheduleChange={handleUseCustomScheduleChange}

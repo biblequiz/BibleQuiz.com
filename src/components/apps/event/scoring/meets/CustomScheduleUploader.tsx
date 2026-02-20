@@ -14,6 +14,7 @@ interface Props {
     eventId: string;
     databaseId: string;
     meetId: number;
+    teamCount: number;
     onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onRemove: () => void;
     onUseCustomScheduleChange: (checked: boolean) => void;
@@ -30,6 +31,7 @@ export default function CustomScheduleUploader({
     eventId,
     databaseId,
     meetId,
+    teamCount,
     onUpload,
     onRemove,
     onUseCustomScheduleChange
@@ -42,7 +44,7 @@ export default function CustomScheduleUploader({
         setIsExporting(true);
         setExportError(null);
         try {
-            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId);
+            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId, teamCount);
         } catch (err: any) {
             setExportError(err.message || "Failed to export schedule.");
         } finally {
@@ -58,10 +60,18 @@ export default function CustomScheduleUploader({
         }
     };
 
-    const controlsDisabled = disabled || !useCustomSchedule;
+    const controlsDisabled = disabled || !useCustomSchedule || isNew;
 
     return (
         <div className="p-2 space-y-3">
+            {/* Help text for new divisions */}
+            {isNew && (
+                <div role="alert" className="alert alert-info alert-sm">
+                    <FontAwesomeIcon icon="fas faCircleInfo" />
+                    <span>Save the division first to enable custom schedule options.</span>
+                </div>
+            )}
+
             {/* Use Custom Schedule Checkbox */}
             <label className="label cursor-pointer gap-2 justify-start">
                 <input
@@ -69,7 +79,7 @@ export default function CustomScheduleUploader({
                     className="checkbox checkbox-sm"
                     checked={useCustomSchedule}
                     onChange={(e) => onUseCustomScheduleChange(e.target.checked)}
-                    disabled={disabled || isReadOnly}
+                    disabled={disabled || isReadOnly || isNew}
                 />
                 <span className="label-text">Use Custom Schedule</span>
             </label>
@@ -105,7 +115,7 @@ export default function CustomScheduleUploader({
                         ) : (
                             <>
                                 <FontAwesomeIcon icon="fas faDownload" />
-                                Export Current Schedule
+                                Export Last Saved Schedule
                             </>
                         )}
                     </button>
