@@ -26,7 +26,7 @@ export default function TeamSelector({
     // Get available teams (not yet selected)
     const availableTeams = Object.entries(allTeams)
         .filter(([id]) => !selectedTeamIds.includes(Number(id)))
-        .sort(([, a], [, b]) => a.Name.localeCompare(b.Name));
+        .sort(([, a], [, b]) => (a.Prefix ?? "").localeCompare(b.Prefix ?? "") || a.Name.localeCompare(b.Name));
 
     const handleAddTeam = (teamId: number) => {
         if (!selectedTeamIds.includes(teamId)) {
