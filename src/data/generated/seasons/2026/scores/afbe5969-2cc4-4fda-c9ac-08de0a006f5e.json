@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "2025-26 Western NY JBQ Meet 1",
-        "LastUpdated": "1/7/26 3:31 AM",
-        "DatabaseLastUpdated": "2026-01-07T00:39:07.1023309+00:00",
+        "LastUpdated": "2/20/26 3:14 PM",
+        "DatabaseLastUpdated": "2026-02-20T14:23:31.2930881+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -72,7 +72,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 5,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -99,7 +99,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -143,7 +143,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -152,7 +152,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 25,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -238,113 +238,6 @@
           {
             "CoachName": "Mike Crooks",
             "Quizzers": [
-              14,
-              24,
-              36
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 290,
-                "OtherTeam": 7
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 5
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 8
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 245,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 4,
-                "Room": "4",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 255,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_8",
-            "Name": "Lemons to Lemonade - Mike",
-            "ChurchId": null,
-            "ChurchName": "The Bridge Assembly of God",
-            "City": "Niagara Falls",
-            "State": "NY",
-            "Scores": {
-              "Wins": 6,
-              "Losses": 2,
-              "WinPercentage": 75,
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 1675,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 209.4,
-              "AverageCorrect": 10.9,
-              "QuizOuts": 13,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 47,
-              "Correct20s": 18,
-              "Correct30s": 22,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": "Wendy Conheady",
-            "Quizzers": [
               1,
               21,
               23
@@ -420,13 +313,13 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               null
             ],
             "CurrentMatchId": null,
             "Id": "t_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_6",
-            "Name": "Lemons to Lemonade - Wendy",
+            "Name": "Lemons to Lemonade - Mike",
             "ChurchId": null,
             "ChurchName": "The Bridge Assembly of God",
             "City": "Niagara Falls",
@@ -446,6 +339,113 @@
               "Correct10s": 51,
               "Correct20s": 39,
               "Correct30s": 18,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Wendy Conheady",
+            "Quizzers": [
+              14,
+              24,
+              36
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 290,
+                "OtherTeam": 7
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 5
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 8
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 245,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_8",
+            "Name": "Lemons to Lemonade - Wendy",
+            "ChurchId": null,
+            "ChurchName": "The Bridge Assembly of God",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 2,
+              "WinPercentage": 75,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1675,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 209.4,
+              "AverageCorrect": 10.9,
+              "QuizOuts": 13,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 47,
+              "Correct20s": 18,
+              "Correct30s": 22,
               "FootnoteIndex": null
             }
           },
@@ -484,7 +484,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -511,7 +511,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -600,7 +600,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 125,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -619,7 +619,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 35,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -682,7 +682,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 200,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -700,7 +700,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 230,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -791,7 +791,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 115,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -800,7 +800,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -927,7 +927,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -936,7 +936,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 140,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -993,9 +993,9 @@
           }
         ],
         "RankedTeams": [
-          3,
-          6,
           2,
+          6,
+          3,
           8,
           7,
           5,
@@ -1035,7 +1035,7 @@
             }
           },
           {
-            "TeamName": "Lemons to Lemonade - Wendy",
+            "TeamName": "Lemons to Lemonade - Mike",
             "YearsQuizzing": 3,
             "Id": "q_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_48",
             "Name": "Amelia Bianchi",
@@ -1347,7 +1347,7 @@
             }
           },
           {
-            "TeamName": "Lemons to Lemonade - Mike",
+            "TeamName": "Lemons to Lemonade - Wendy",
             "YearsQuizzing": 2,
             "Id": "q_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_66",
             "Name": "Jeana Fiore",
@@ -1515,7 +1515,7 @@
             }
           },
           {
-            "TeamName": "Lemons to Lemonade - Wendy",
+            "TeamName": "Lemons to Lemonade - Mike",
             "YearsQuizzing": 3,
             "Id": "q_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_49",
             "Name": "Luke Bianchi",
@@ -1563,7 +1563,7 @@
             }
           },
           {
-            "TeamName": "Lemons to Lemonade - Wendy",
+            "TeamName": "Lemons to Lemonade - Mike",
             "YearsQuizzing": 3,
             "Id": "q_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_47",
             "Name": "Makayla Crooks",
@@ -1587,7 +1587,7 @@
             }
           },
           {
-            "TeamName": "Lemons to Lemonade - Mike",
+            "TeamName": "Lemons to Lemonade - Wendy",
             "YearsQuizzing": 4,
             "Id": "q_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_65",
             "Name": "Maren Crooks",
@@ -1875,7 +1875,7 @@
             }
           },
           {
-            "TeamName": "Lemons to Lemonade - Mike",
+            "TeamName": "Lemons to Lemonade - Wendy",
             "YearsQuizzing": 1,
             "Id": "q_e8f3d5d3-d3c4-4800-96e5-a1b22f1081d8_67",
             "Name": "Sophia Brocious",
@@ -2010,7 +2010,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -2019,7 +2019,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 2,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2042,7 +2042,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -2050,7 +2050,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -2079,7 +2079,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -2103,7 +2103,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -2143,7 +2143,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -2156,7 +2156,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -2164,7 +2164,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
@@ -2180,7 +2180,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -2188,7 +2188,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
@@ -2204,7 +2204,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -2249,7 +2249,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 7,
                 "State": "Completed",
                 "Blockers": null
@@ -2273,7 +2273,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 8,
                 "State": "Completed",
                 "Blockers": null
@@ -2289,8 +2289,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2307,7 +2307,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2392,5 +2392,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-07T00:39:07.2433211+00:00"
+  "Freshness": "2026-02-20T14:23:31.6317719+00:00"
 }
