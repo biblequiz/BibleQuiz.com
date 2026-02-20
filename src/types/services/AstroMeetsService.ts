@@ -45,6 +45,9 @@ export class AstroMeetsService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
+     * @param teamCount Number of teams in the meet. This is used to determine which template to return.
+     * @param template Template that was previously parsed but hasn't been saved yet.
+     *
      * @returns Custom schedule template for the meet.
      */
     public static getScheduleTemplate(
@@ -52,12 +55,18 @@ export class AstroMeetsService {
         eventId: string,
         databaseId: string,
         meetId: number,
+        teamCount: number,
+        template?: ScheduleTemplate,
     ): Promise<void> {
+        
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
-            "GET",
+            "POST",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/scheduleTemplate`,
+            RemoteServiceUtility.getFilteredUrlParameters({ teams: teamCount }),
+            undefined,
+            template,
         );
     }
 

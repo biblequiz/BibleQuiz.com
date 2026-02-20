@@ -1,24 +1,54 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import type { AuthManager } from "types/AuthManager";
+import { AstroMeetsService } from "types/services/AstroMeetsService";
 
 interface Props {
     hasCustomSchedule: boolean;
+    useCustomSchedule: boolean;
     isUploading: boolean;
     disabled: boolean;
     isReadOnly: boolean;
+    isNew: boolean;
+    auth: AuthManager;
+    eventId: string;
+    databaseId: string;
+    meetId: number;
     onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onRemove: () => void;
+    onUseCustomScheduleChange: (checked: boolean) => void;
 }
 
 export default function CustomScheduleUploader({
     hasCustomSchedule,
+    useCustomSchedule,
     isUploading,
     disabled,
     isReadOnly,
+    isNew,
+    auth,
+    eventId,
+    databaseId,
+    meetId,
     onUpload,
-    onRemove
+    onRemove,
+    onUseCustomScheduleChange
 }: Props) {
     const fileInputRef = useRef<HTMLInputElement>(null);
+    const [isExporting, setIsExporting] = useState(false);
+    const [exportError, setExportError] = useState<string | null>(null);
+
+    const handleExportSchedule = async () => {
+        setIsExporting(true);
+        setExportError(null);
+        try {
+            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId);
+        } catch (err: any) {
+            setExportError(err.message || "Failed to export schedule.");
+        } finally {
+            setIsExporting(false);
+        }
+    };
 
     const handleUploadComplete = (e: React.ChangeEvent<HTMLInputElement>) => {
         onUpload(e);
@@ -28,47 +58,94 @@ export default function CustomScheduleUploader({
         }
     };
 
+    const controlsDisabled = disabled || !useCustomSchedule;
+
     return (
-        <div className="p-2">
-            {hasCustomSchedule ? (
-                <div className="flex items-center gap-4">
-                    <div className="flex items-center gap-2 text-success">
-                        <FontAwesomeIcon icon="fas faCircleCheck" />
-                        <span>Custom schedule is active</span>
-                    </div>
-                    {!isReadOnly && (
-                        <button
-                            type="button"
-                            className="btn btn-sm btn-error btn-outline"
-                            onClick={onRemove}
-                            disabled={disabled}
-                        >
-                            <FontAwesomeIcon icon="fas faTrash" />
-                            Remove Custom Schedule
-                        </button>
-                    )}
+        <div className="p-2 space-y-3">
+            {/* Use Custom Schedule Checkbox */}
+            <label className="label cursor-pointer gap-2 justify-start">
+                <input
+                    type="checkbox"
+                    className="checkbox checkbox-sm"
+                    checked={useCustomSchedule}
+                    onChange={(e) => onUseCustomScheduleChange(e.target.checked)}
+                    disabled={disabled || isReadOnly}
+                />
+                <span className="label-text">Use Custom Schedule</span>
+            </label>
+
+            {exportError && (
+                <div role="alert" className="alert alert-error alert-sm">
+                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    <span>{exportError}</span>
                 </div>
-            ) : (
-                <div>
-                    <p className="text-sm text-base-content/70 mb-3">
-                        Upload an Excel file (.xlsx) to use a custom schedule template.
-                    </p>
-                    {!isReadOnly && (
-                        <div className="flex items-center gap-2">
-                            <input
-                                ref={fileInputRef}
-                                type="file"
-                                accept=".xlsx"
-                                className="file-input file-input-bordered file-input-sm w-full max-w-xs"
-                                onChange={handleUploadComplete}
-                                disabled={disabled || isUploading}
-                            />
-                            {isUploading && (
+            )}
+
+            {hasCustomSchedule && useCustomSchedule && (
+                <div className="flex items-center gap-2 text-success">
+                    <FontAwesomeIcon icon="fas faCircleCheck" />
+                    <span>Custom schedule is active</span>
+                </div>
+            )}
+
+            <div className="flex flex-wrap items-center gap-2">
+                {/* Export Button - only show for existing divisions */}
+                {!isNew && (
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline"
+                        onClick={handleExportSchedule}
+                        disabled={controlsDisabled || isExporting}
+                    >
+                        {isExporting ? (
+                            <>
                                 <span className="loading loading-spinner loading-sm"></span>
-                            )}
-                        </div>
-                    )}
-                </div>
+                                Exporting...
+                            </>
+                        ) : (
+                            <>
+                                <FontAwesomeIcon icon="fas faDownload" />
+                                Export Current Schedule
+                            </>
+                        )}
+                    </button>
+                )}
+
+                {/* Upload Control */}
+                {!isReadOnly && (
+                    <>
+                        <input
+                            ref={fileInputRef}
+                            type="file"
+                            accept=".xlsx"
+                            className="file-input file-input-bordered file-input-sm w-full max-w-xs"
+                            onChange={handleUploadComplete}
+                            disabled={controlsDisabled || isUploading}
+                        />
+                        {isUploading && (
+                            <span className="loading loading-spinner loading-sm"></span>
+                        )}
+                    </>
+                )}
+
+                {/* Remove Button */}
+                {!isReadOnly && hasCustomSchedule && useCustomSchedule && (
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-error btn-outline"
+                        onClick={onRemove}
+                        disabled={controlsDisabled}
+                    >
+                        <FontAwesomeIcon icon="fas faTrash" />
+                        Remove
+                    </button>
+                )}
+            </div>
+
+            {!useCustomSchedule && (
+                <p className="text-sm text-base-content/70">
+                    Enable "Use Custom Schedule" to upload or export a custom schedule template.
+                </p>
             )}
         </div>
     );

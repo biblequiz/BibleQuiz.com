@@ -7,6 +7,7 @@ interface Props {
     allTeams: Record<number, TeamOrQuizzerReference>;
     disabled: boolean;
     isReadOnly: boolean;
+    allowAddRemove?: boolean;
     onTeamIdsChange: (teamIds: number[]) => void;
 }
 
@@ -15,6 +16,7 @@ export default function TeamSelector({
     allTeams,
     disabled,
     isReadOnly,
+    allowAddRemove = true,
     onTeamIdsChange
 }: Props) {
     // Drag state for team reordering
@@ -66,7 +68,7 @@ export default function TeamSelector({
     return (
         <div className="p-2">
             {/* Add team dropdown */}
-            {!isReadOnly && availableTeams.length > 0 && (
+            {!isReadOnly && allowAddRemove && availableTeams.length > 0 && (
                 <div className="mb-3">
                     <select
                         className="select select-bordered select-sm w-full max-w-xs"
@@ -81,7 +83,7 @@ export default function TeamSelector({
                         <option value="" disabled>Add team...</option>
                         {availableTeams.map(([id, team]) => (
                             <option key={id} value={id}>
-                                {team.Name} {team.ChurchName ? `(${team.ChurchName})` : ""}
+                                {team.Prefix} {team.Name} {team.ChurchName ? `(${team.ChurchName})` : ""}
                             </option>
                         ))}
                     </select>
@@ -127,7 +129,7 @@ export default function TeamSelector({
                                         </span>
                                     )}
                                 </span>
-                                {!isReadOnly && (
+                                {!isReadOnly && allowAddRemove && (
                                     <button
                                         type="button"
                                         className="btn btn-ghost btn-xs text-error"

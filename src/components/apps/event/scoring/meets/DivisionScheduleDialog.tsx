@@ -77,6 +77,7 @@ export default function DivisionScheduleDialog({
 
     // Custom schedule state
     const [hasCustomSchedule, setHasCustomSchedule] = useState(false);
+    const [useCustomSchedule, setUseCustomSchedule] = useState(false);
     const [customSchedule, setCustomSchedule] = useState<ScheduleTemplate | null>(null);
     const [isRemovingCustomSchedule, setIsRemovingCustomSchedule] = useState(false);
 
@@ -129,7 +130,9 @@ export default function DivisionScheduleDialog({
                     }
 
                     // Custom schedule from server
-                    setHasCustomSchedule(data.Schedule.HasCustomSchedule || false);
+                    const hasCustom = data.Schedule.HasCustomSchedule || false;
+                    setHasCustomSchedule(hasCustom);
+                    setUseCustomSchedule(hasCustom);
                 }
 
                 if (data.Preview && !isNew) {
@@ -185,8 +188,24 @@ export default function DivisionScheduleDialog({
     };
 
     const handleRoundCountChange = (value: string) => {
-        const parsed = parseInt(value, 10);
-        setRoundCountOverride(isNaN(parsed) || parsed < 1 ? null : parsed);
+        if (value === "" || value === "default") {
+            setRoundCountOverride(null);
+        } else {
+            const parsed = parseInt(value, 10);
+            setRoundCountOverride(isNaN(parsed) || parsed < 1 ? null : parsed);
+        }
+        markScheduleOutOfDate();
+    };
+
+    // Handle custom schedule checkbox change
+    const handleUseCustomScheduleChange = (checked: boolean) => {
+        setUseCustomSchedule(checked);
+        if (!checked) {
+            // When unchecking, mark as removing custom schedule
+            setIsRemovingCustomSchedule(true);
+        } else {
+            setIsRemovingCustomSchedule(false);
+        }
         markScheduleOutOfDate();
     };
 
@@ -211,6 +230,7 @@ export default function DivisionScheduleDialog({
 
             setCustomSchedule(template);
             setHasCustomSchedule(true);
+            setUseCustomSchedule(true);
             setIsRemovingCustomSchedule(false);
             markScheduleOutOfDate();
         } catch (err: any) {
@@ -224,6 +244,7 @@ export default function DivisionScheduleDialog({
         setCustomSchedule(null);
         setIsRemovingCustomSchedule(true);
         setHasCustomSchedule(false);
+        setUseCustomSchedule(false);
         markScheduleOutOfDate();
     };
 
@@ -490,10 +511,16 @@ export default function DivisionScheduleDialog({
                                 elementId="teams"
                                 icon="fas faUsers"
                                 title="Teams"
-                                badges={[{
-                                    className: "badge-info",
-                                    text: `${selectedTeamIds.length} selected`
-                                }]}
+                                badges={[
+                                    {
+                                        className: "badge-info",
+                                        text: `${selectedTeamIds.length} selected`
+                                    },
+                                    ...(useCustomSchedule && hasCustomSchedule && !isRemovingCustomSchedule ? [{
+                                        className: "badge-warning",
+                                        text: "Locked"
+                                    }] : [])
+                                ]}
                                 defaultOpen={true}
                                 allowMultipleOpen={true}
                             >
@@ -502,6 +529,7 @@ export default function DivisionScheduleDialog({
                                     allTeams={allTeams}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
+                                    allowAddRemove={!(useCustomSchedule && hasCustomSchedule && !isRemovingCustomSchedule)}
                                     onTeamIdsChange={handleTeamIdsChange}
                                 />
                             </CollapsibleSection>
@@ -545,15 +573,19 @@ export default function DivisionScheduleDialog({
                                     <div className="form-control">
                                         <label className="label gap-2 p-0">
                                             <span className="label-text text-sm">Round Count:</span>
-                                            <input
-                                                type="number"
-                                                className="input input-xs input-bordered w-16"
-                                                value={roundCountOverride || ""}
+                                            <select
+                                                className="select select-xs select-bordered w-24"
+                                                value={roundCountOverride ?? "default"}
                                                 onChange={(e) => handleRoundCountChange(e.target.value)}
-                                                disabled={isSaving || isReadOnly}
-                                                min={1}
-                                                placeholder="Auto"
-                                            />
+                                                disabled={isSaving || isReadOnly || !schedulePreview || Object.keys(schedulePreview.Matches || {}).length === 0}
+                                            >
+                                                <option value="default">Default</option>
+                                                {schedulePreview && Object.keys(schedulePreview.Matches || {}).length > 0 &&
+                                                    Array.from({ length: Object.keys(schedulePreview.Matches).length }, (_, i) => i + 1).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ))
+                                                }
+                                            </select>
                                         </label>
                                     </div>
                                 </div>
@@ -565,7 +597,7 @@ export default function DivisionScheduleDialog({
                                 elementId="customSchedule"
                                 icon="fas faFileExcel"
                                 title="Custom Schedule"
-                                badges={hasCustomSchedule && !isRemovingCustomSchedule ? [{
+                                badges={useCustomSchedule && hasCustomSchedule && !isRemovingCustomSchedule ? [{
                                     className: "badge-success",
                                     text: "Active"
                                 }] : undefined}
@@ -574,11 +606,18 @@ export default function DivisionScheduleDialog({
                             >
                                 <CustomScheduleUploader
                                     hasCustomSchedule={hasCustomSchedule && !isRemovingCustomSchedule}
+                                    useCustomSchedule={useCustomSchedule}
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
+                                    isNew={isNew}
+                                    auth={auth}
+                                    eventId={eventId}
+                                    databaseId={databaseId}
+                                    meetId={meetId}
                                     onUpload={handleUploadSchedule}
                                     onRemove={handleRemoveCustomSchedule}
+                                    onUseCustomScheduleChange={handleUseCustomScheduleChange}
                                 />
                             </CollapsibleSection>
 
