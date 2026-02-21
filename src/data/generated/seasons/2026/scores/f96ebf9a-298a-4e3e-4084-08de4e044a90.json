@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A League Meet #3",
-        "LastUpdated": "1/18/26 1:37 AM",
-        "DatabaseLastUpdated": "2026-01-17T22:05:13.5317458+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.8218977+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -719,7 +719,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -775,8 +775,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B Advanced Meet #3",
-        "LastUpdated": "1/18/26 1:37 AM",
-        "DatabaseLastUpdated": "2026-01-17T22:05:13.5317458+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.8218977+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1701,7 +1701,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1751,8 +1751,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B Novice Meet #3",
-        "LastUpdated": "1/18/26 1:37 AM",
-        "DatabaseLastUpdated": "2026-01-17T22:05:13.5317458+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.8218977+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1761,7 +1761,7 @@
               1,
               5,
               7,
-              19
+              20
             ],
             "Matches": [
               {
@@ -1839,7 +1839,7 @@
             "CoachName": "Juliane Cross",
             "Quizzers": [
               0,
-              18
+              19
             ],
             "Matches": [
               {
@@ -1918,7 +1918,8 @@
             "Quizzers": [
               4,
               9,
-              20
+              10,
+              21
             ],
             "Matches": [
               {
@@ -1996,9 +1997,9 @@
             "CoachName": "Josh Hicks",
             "Quizzers": [
               3,
-              13,
               14,
-              17
+              15,
+              18
             ],
             "Matches": [
               {
@@ -2075,10 +2076,10 @@
           {
             "CoachName": "Meghan Spillers",
             "Quizzers": [
-              11,
               12,
-              15,
-              16
+              13,
+              16,
+              17
             ],
             "Matches": [
               {
@@ -2158,7 +2159,7 @@
               2,
               6,
               8,
-              10
+              11
             ],
             "Matches": [
               {
@@ -2493,6 +2494,30 @@
             }
           },
           {
+            "TeamName": "Journey Life Church (Holt) #1 JBQ Lions",
+            "YearsQuizzing": 1,
+            "Id": "q_852f5ff9-8d3d-4d85-9035-9651529dbcf3_202",
+            "Name": "Lucy Keuppers",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Praying Possums",
             "YearsQuizzing": null,
             "Id": "q_b0a0fb0d795345dead1d08dd66db43b2",
@@ -2759,15 +2784,15 @@
         ],
         "RankedQuizzers": [
           9,
-          19,
+          20,
           5,
-          17,
-          16,
           18,
+          17,
+          19,
           8,
-          11,
           12,
           13,
+          14,
           6,
           2,
           7,
@@ -2776,9 +2801,10 @@
           3,
           4,
           10,
-          14,
+          11,
           15,
-          20
+          16,
+          21
         ],
         "QuizzerFootnotes": [
           {
@@ -2926,7 +2952,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2966,7 +2992,7 @@
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
-        "ShowYearsQuizzing": false,
+        "ShowYearsQuizzing": true,
         "IsCombinedReport": false
       },
       {
@@ -2976,8 +3002,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "C League Meet #3",
-        "LastUpdated": "1/18/26 1:37 AM",
-        "DatabaseLastUpdated": "2026-01-17T22:05:13.5317458+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.8218977+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4288,7 +4314,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -4391,5 +4417,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-21T02:26:43.3014335+00:00"
+  "Freshness": "2026-02-21T20:26:28.0641864+00:00"
 }
