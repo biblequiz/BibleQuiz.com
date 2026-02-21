@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A League Meet#2",
-        "LastUpdated": "11/22/25 6:23 PM",
-        "DatabaseLastUpdated": "2025-11-20T05:26:54.1778654+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.3536354+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -719,7 +719,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -775,8 +775,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B Advanced Meet#2",
-        "LastUpdated": "11/22/25 6:23 PM",
-        "DatabaseLastUpdated": "2025-11-20T05:26:54.1778654+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.3536354+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1193,7 +1193,7 @@
           },
           {
             "TeamName": "Brightmoor Christian Church (JBQ Spicy Quizzers)",
-            "YearsQuizzing": null,
+            "YearsQuizzing": 2,
             "Id": "q_6c96877ea1c34e91929708dd5453051f",
             "Name": "Boston Scott",
             "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
@@ -1642,7 +1642,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1688,7 +1688,7 @@
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
-        "ShowYearsQuizzing": false,
+        "ShowYearsQuizzing": true,
         "IsCombinedReport": false
       },
       {
@@ -1698,17 +1698,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B Novice Meet#2",
-        "LastUpdated": "11/22/25 6:23 PM",
-        "DatabaseLastUpdated": "2025-11-20T05:26:54.1778654+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.3536354+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
-            "CoachName": "Megan Stryd",
+            "CoachName": "Maria Caballero",
             "Quizzers": [
               1,
               5,
               7,
-              19
+              20
             ],
             "Matches": [
               {
@@ -1786,7 +1786,7 @@
             "CoachName": "Juliane Cross",
             "Quizzers": [
               0,
-              18
+              19
             ],
             "Matches": [
               {
@@ -1865,7 +1865,8 @@
             "Quizzers": [
               4,
               9,
-              20
+              10,
+              21
             ],
             "Matches": [
               {
@@ -1943,9 +1944,9 @@
             "CoachName": "Josh Hicks",
             "Quizzers": [
               3,
-              13,
               14,
-              17
+              15,
+              18
             ],
             "Matches": [
               {
@@ -2022,10 +2023,10 @@
           {
             "CoachName": "Meghan Spillers",
             "Quizzers": [
-              11,
               12,
-              15,
-              16
+              13,
+              16,
+              17
             ],
             "Matches": [
               {
@@ -2105,7 +2106,7 @@
               2,
               6,
               8,
-              10
+              11
             ],
             "Matches": [
               {
@@ -2353,7 +2354,7 @@
             "City": "Shelby Township",
             "State": "MI",
             "Scores": {
-              "Rank": 21,
+              "Rank": 22,
               "IsTie": false,
               "TotalPoints": -15,
               "PerMeetTotalPoints": null,
@@ -2437,6 +2438,30 @@
               "Correct20s": 17,
               "Correct30s": 5,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1 JBQ Lions",
+            "YearsQuizzing": 1,
+            "Id": "q_852f5ff9-8d3d-4d85-9035-9651529dbcf3_202",
+            "Name": "Lucy Keuppers",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2705,26 +2730,27 @@
           }
         ],
         "RankedQuizzers": [
-          16,
-          9,
           17,
-          19,
+          9,
           18,
+          20,
+          19,
           5,
           8,
-          10,
-          0,
           11,
+          0,
           12,
+          13,
           7,
           2,
           3,
-          15,
+          16,
           4,
-          13,
-          1,
           14,
-          20,
+          1,
+          10,
+          15,
+          21,
           6
         ],
         "QuizzerFootnotes": [
@@ -2873,7 +2899,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2913,7 +2939,7 @@
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
-        "ShowYearsQuizzing": false,
+        "ShowYearsQuizzing": true,
         "IsCombinedReport": false
       },
       {
@@ -2923,8 +2949,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "C League Meet#2",
-        "LastUpdated": "11/22/25 6:23 PM",
-        "DatabaseLastUpdated": "2025-11-20T05:26:54.1778654+00:00",
+        "LastUpdated": "2/21/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-02-21T20:26:27.3536354+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4235,7 +4261,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -4338,5 +4364,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-21T02:27:10.6901214+00:00"
+  "Freshness": "2026-02-21T20:26:27.7027753+00:00"
 }
