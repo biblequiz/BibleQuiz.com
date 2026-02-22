@@ -1,5 +1,5 @@
 {
-  "EventName": "NC TBQ as of January C",
+  "EventName": "NC TBQ Season C",
   "DatabaseNames": {},
   "Report": {
     "Meets": [
@@ -9,9 +9,9 @@
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "NC TBQ as of January C",
-        "LastUpdated": "1/17/26 7:02 PM",
-        "DatabaseLastUpdated": "2026-01-16T04:34:16.16261+00:00",
+        "Name": "NC TBQ Season C",
+        "LastUpdated": "2/21/26 5:48 PM",
+        "DatabaseLastUpdated": "2026-02-21T03:22:14.0883577+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -30,25 +30,26 @@
             "City": "Matthews",
             "State": "NC",
             "Scores": {
-              "Wins": 9,
-              "Losses": 7,
-              "WinPercentage": 56,
-              "Rank": 4,
+              "Wins": 12,
+              "Losses": 8,
+              "WinPercentage": 60,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 2445,
+              "TotalPoints": 3045,
               "PerMeetTotalPoints": [
                 470,
                 1005,
-                970
+                970,
+                600
               ],
-              "AveragePoints": 152.8,
+              "AveragePoints": 152.2,
               "AverageCorrect": 9.1,
-              "QuizOuts": 19,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 67,
-              "Correct20s": 64,
-              "Correct30s": 15,
-              "FootnoteIndex": 0
+              "QuizOuts": 26,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 84,
+              "Correct20s": 81,
+              "Correct30s": 17,
+              "FootnoteIndex": null
             }
           },
           {
@@ -67,24 +68,25 @@
             "City": "Concord",
             "State": "NC",
             "Scores": {
-              "Wins": 4,
-              "Losses": 12,
+              "Wins": 5,
+              "Losses": 15,
               "WinPercentage": 25,
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 1490,
+              "TotalPoints": 1910,
               "PerMeetTotalPoints": [
                 175,
                 615,
-                700
+                700,
+                420
               ],
-              "AveragePoints": 93.1,
-              "AverageCorrect": 5.6,
-              "QuizOuts": 5,
+              "AveragePoints": 95.5,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 8,
               "QuestionCorrectPercentage": 90,
-              "Correct10s": 39,
-              "Correct20s": 42,
-              "Correct30s": 9,
+              "Correct10s": 50,
+              "Correct20s": 54,
+              "Correct30s": 10,
               "FootnoteIndex": null
             }
           },
@@ -104,24 +106,25 @@
             "State": "NC",
             "Scores": {
               "Wins": 9,
-              "Losses": 7,
-              "WinPercentage": 56,
-              "Rank": 3,
+              "Losses": 11,
+              "WinPercentage": 45,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 2500,
+              "TotalPoints": 3005,
               "PerMeetTotalPoints": [
                 550,
                 745,
-                1205
+                1205,
+                505
               ],
-              "AveragePoints": 156.2,
-              "AverageCorrect": 7.6,
-              "QuizOuts": 21,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 39,
-              "Correct20s": 59,
-              "Correct30s": 24,
-              "FootnoteIndex": 0
+              "AveragePoints": 150.2,
+              "AverageCorrect": 7.1,
+              "QuizOuts": 25,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 40,
+              "Correct20s": 73,
+              "Correct30s": 29,
+              "FootnoteIndex": null
             }
           },
           {
@@ -148,7 +151,8 @@
               "PerMeetTotalPoints": [
                 null,
                 175,
-                455
+                455,
+                null
               ],
               "AveragePoints": 52.5,
               "AverageCorrect": 4.5,
@@ -177,24 +181,25 @@
             "City": "Durham",
             "State": "NC",
             "Scores": {
-              "Wins": 6,
-              "Losses": 10,
-              "WinPercentage": 38,
+              "Wins": 8,
+              "Losses": 12,
+              "WinPercentage": 40,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 1830,
+              "TotalPoints": 2430,
               "PerMeetTotalPoints": [
                 360,
                 870,
+                600,
                 600
               ],
-              "AveragePoints": 114.4,
-              "AverageCorrect": 7.3,
-              "QuizOuts": 9,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 57,
-              "Correct20s": 50,
-              "Correct30s": 10,
+              "AveragePoints": 121.5,
+              "AverageCorrect": 7.6,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 72,
+              "Correct20s": 64,
+              "Correct30s": 15,
               "FootnoteIndex": null
             }
           },
@@ -215,24 +220,25 @@
             "City": "Lexington",
             "State": "NC",
             "Scores": {
-              "Wins": 15,
+              "Wins": 19,
               "Losses": 1,
-              "WinPercentage": 94,
+              "WinPercentage": 95,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 3330,
+              "TotalPoints": 4120,
               "PerMeetTotalPoints": [
                 735,
                 1325,
-                1270
+                1270,
+                790
               ],
-              "AveragePoints": 208.1,
-              "AverageCorrect": 10.7,
-              "QuizOuts": 21,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 67,
-              "Correct20s": 79,
-              "Correct30s": 25,
+              "AveragePoints": 206.0,
+              "AverageCorrect": 10.8,
+              "QuizOuts": 25,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 86,
+              "Correct20s": 97,
+              "Correct30s": 32,
               "FootnoteIndex": null
             }
           },
@@ -260,7 +266,8 @@
               "PerMeetTotalPoints": [
                 null,
                 950,
-                1050
+                1050,
+                null
               ],
               "AveragePoints": 166.7,
               "AverageCorrect": 9.2,
@@ -276,18 +283,13 @@
         "RankedTeams": [
           5,
           6,
-          2,
           0,
+          2,
           4,
           1,
           3
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by head-to-head record of teams."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Gospel Guardian",
@@ -301,19 +303,20 @@
             "Scores": {
               "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 1010,
+              "TotalPoints": 1185,
               "PerMeetTotalPoints": [
                 135,
                 310,
-                565
+                565,
+                175
               ],
-              "AveragePoints": 63.1,
-              "AverageCorrect": 3.6,
-              "QuizOuts": 5,
+              "AveragePoints": 59.2,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 6,
               "QuestionCorrectPercentage": 88,
-              "Correct10s": 22,
-              "Correct20s": 27,
-              "Correct30s": 8,
+              "Correct10s": 27,
+              "Correct20s": 31,
+              "Correct30s": 9,
               "FootnoteIndex": null
             }
           },
@@ -333,10 +336,11 @@
               "PerMeetTotalPoints": [
                 70,
                 70,
+                0,
                 0
               ],
-              "AveragePoints": 8.8,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 85,
               "Correct10s": 6,
@@ -357,19 +361,20 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 1960,
+              "TotalPoints": 2255,
               "PerMeetTotalPoints": [
                 455,
                 745,
-                760
+                760,
+                295
               ],
-              "AveragePoints": 122.5,
-              "AverageCorrect": 4.9,
-              "QuizOuts": 15,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 11,
-              "Correct20s": 45,
-              "Correct30s": 23,
+              "AveragePoints": 112.8,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 16,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 16,
+              "Correct20s": 50,
+              "Correct30s": 28,
               "FootnoteIndex": null
             }
           },
@@ -383,20 +388,21 @@
             "City": "Concord",
             "State": "NC",
             "Scores": {
-              "Rank": 14,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 290,
+              "TotalPoints": 535,
               "PerMeetTotalPoints": [
                 40,
                 250,
-                0
+                0,
+                245
               ],
-              "AveragePoints": 18.1,
-              "AverageCorrect": 1.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 11,
-              "Correct20s": 9,
+              "AveragePoints": 26.8,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 17,
+              "Correct20s": 17,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -411,20 +417,21 @@
             "City": "Durham",
             "State": "NC",
             "Scores": {
-              "Rank": 13,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 435,
+              "TotalPoints": 525,
               "PerMeetTotalPoints": [
                 85,
                 195,
-                155
+                155,
+                90
               ],
-              "AveragePoints": 27.2,
+              "AveragePoints": 26.2,
               "AverageCorrect": 2.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 19,
-              "Correct20s": 10,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 24,
+              "Correct20s": 12,
               "Correct30s": 3,
               "FootnoteIndex": null
             }
@@ -439,21 +446,22 @@
             "City": "Durham",
             "State": "NC",
             "Scores": {
-              "Rank": 18,
+              "Rank": 15,
               "IsTie": false,
-              "TotalPoints": 170,
+              "TotalPoints": 475,
               "PerMeetTotalPoints": [
                 25,
                 0,
-                145
+                145,
+                305
               ],
-              "AveragePoints": 10.6,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 65,
-              "Correct10s": 5,
-              "Correct20s": 6,
-              "Correct30s": 2,
+              "AveragePoints": 23.8,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 11,
+              "Correct20s": 10,
+              "Correct30s": 7,
               "FootnoteIndex": null
             }
           },
@@ -467,21 +475,22 @@
             "City": "Matthews",
             "State": "NC",
             "Scores": {
-              "Rank": 5,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 1170,
+              "TotalPoints": 1425,
               "PerMeetTotalPoints": [
                 180,
                 475,
-                515
+                515,
+                255
               ],
-              "AveragePoints": 73.1,
+              "AveragePoints": 71.2,
               "AverageCorrect": 4.1,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 25,
-              "Correct20s": 30,
-              "Correct30s": 11,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 34,
+              "Correct20s": 35,
+              "Correct30s": 13,
               "FootnoteIndex": null
             }
           },
@@ -499,6 +508,7 @@
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": [
+                0,
                 0,
                 0,
                 0
@@ -523,13 +533,14 @@
             "City": "Greensboro",
             "State": null,
             "Scores": {
-              "Rank": 11,
+              "Rank": 12,
               "IsTie": false,
               "TotalPoints": 435,
               "PerMeetTotalPoints": [
                 null,
                 30,
-                405
+                405,
+                null
               ],
               "AveragePoints": 36.2,
               "AverageCorrect": 2.5,
@@ -538,7 +549,7 @@
               "Correct10s": 13,
               "Correct20s": 14,
               "Correct30s": 3,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -553,19 +564,20 @@
             "Scores": {
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 1660,
+              "TotalPoints": 2165,
               "PerMeetTotalPoints": [
                 300,
                 745,
-                615
+                615,
+                505
               ],
-              "AveragePoints": 103.8,
+              "AveragePoints": 108.2,
               "AverageCorrect": 4.9,
-              "QuizOuts": 14,
+              "QuizOuts": 18,
               "QuestionCorrectPercentage": 93,
-              "Correct10s": 26,
-              "Correct20s": 38,
-              "Correct30s": 14,
+              "Correct10s": 27,
+              "Correct20s": 52,
+              "Correct30s": 19,
               "FootnoteIndex": null
             }
           },
@@ -579,16 +591,17 @@
             "City": "Concord",
             "State": "NC",
             "Scores": {
-              "Rank": 17,
+              "Rank": 18,
               "IsTie": false,
               "TotalPoints": 190,
               "PerMeetTotalPoints": [
                 0,
                 55,
-                135
+                135,
+                0
               ],
-              "AveragePoints": 11.9,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 9.5,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 87,
               "Correct10s": 6,
@@ -613,7 +626,8 @@
               "PerMeetTotalPoints": [
                 null,
                 510,
-                435
+                435,
+                null
               ],
               "AveragePoints": 78.8,
               "AverageCorrect": 4.6,
@@ -635,21 +649,22 @@
             "City": "Lexington",
             "State": "NC",
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 825,
+              "TotalPoints": 1140,
               "PerMeetTotalPoints": [
                 235,
                 370,
-                220
+                220,
+                315
               ],
-              "AveragePoints": 51.6,
-              "AverageCorrect": 3.3,
-              "QuizOuts": 4,
+              "AveragePoints": 57.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 6,
               "QuestionCorrectPercentage": 91,
-              "Correct10s": 29,
-              "Correct20s": 22,
-              "Correct30s": 2,
+              "Correct10s": 34,
+              "Correct20s": 31,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -663,20 +678,21 @@
             "City": "Lexington",
             "State": "NC",
             "Scores": {
-              "Rank": 12,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 545,
+              "TotalPoints": 725,
               "PerMeetTotalPoints": [
                 45,
                 210,
-                290
+                290,
+                180
               ],
-              "AveragePoints": 34.1,
-              "AverageCorrect": 2.4,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 98,
-              "Correct10s": 27,
-              "Correct20s": 12,
+              "AveragePoints": 36.2,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 36,
+              "Correct20s": 16,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -691,20 +707,21 @@
             "City": "Matthews",
             "State": "NC",
             "Scores": {
-              "Rank": 6,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 1135,
+              "TotalPoints": 1480,
               "PerMeetTotalPoints": [
                 220,
                 460,
-                455
+                455,
+                345
               ],
-              "AveragePoints": 70.9,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 11,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 36,
-              "Correct20s": 29,
+              "AveragePoints": 74.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 15,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 44,
+              "Correct20s": 41,
               "Correct30s": 4,
               "FootnoteIndex": null
             }
@@ -719,16 +736,17 @@
             "City": "Durham",
             "State": "NC",
             "Scores": {
-              "Rank": 16,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": 205,
               "PerMeetTotalPoints": [
                 50,
                 155,
+                0,
                 0
               ],
-              "AveragePoints": 12.8,
-              "AverageCorrect": 0.9,
+              "AveragePoints": 10.2,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 83,
               "Correct10s": 9,
@@ -749,18 +767,19 @@
             "Scores": {
               "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 1020,
+              "TotalPoints": 1225,
               "PerMeetTotalPoints": [
                 200,
                 520,
-                300
+                300,
+                205
               ],
-              "AveragePoints": 63.8,
-              "AverageCorrect": 3.6,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 24,
-              "Correct20s": 30,
+              "AveragePoints": 61.2,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 28,
+              "Correct20s": 38,
               "Correct30s": 3,
               "FootnoteIndex": null
             }
@@ -781,7 +800,8 @@
               "PerMeetTotalPoints": [
                 null,
                 440,
-                615
+                615,
+                null
               ],
               "AveragePoints": 87.9,
               "AverageCorrect": 4.7,
@@ -803,16 +823,17 @@
             "City": "Waxhaw",
             "State": "NC",
             "Scores": {
-              "Rank": 9,
+              "Rank": 10,
               "IsTie": false,
               "TotalPoints": 840,
               "PerMeetTotalPoints": [
                 250,
                 0,
-                590
+                590,
+                0
               ],
-              "AveragePoints": 52.5,
-              "AverageCorrect": 2.8,
+              "AveragePoints": 42.0,
+              "AverageCorrect": 2.2,
               "QuizOuts": 7,
               "QuestionCorrectPercentage": 76,
               "Correct10s": 13,
@@ -831,13 +852,14 @@
             "City": "Greensboro",
             "State": null,
             "Scores": {
-              "Rank": 15,
+              "Rank": 16,
               "IsTie": false,
               "TotalPoints": 195,
               "PerMeetTotalPoints": [
                 null,
                 145,
-                50
+                50,
+                null
               ],
               "AveragePoints": 16.2,
               "AverageCorrect": 2.0,
@@ -855,28 +877,34 @@
           9,
           17,
           11,
-          6,
           14,
+          6,
           16,
           0,
-          18,
           12,
-          8,
+          18,
           13,
-          4,
+          8,
           3,
+          4,
+          5,
           19,
           15,
           10,
-          5,
           1,
           7
         ],
-        "QuizzerFootnotes": [],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each quizzer."
+          }
+        ],
         "MeetNames": [
           "Oct Meet - XP5",
           "Nov Meet - XP5",
-          "Jan Meet - XP5"
+          "Jan Meet - XP5",
+          "Feb Meet - XP5"
         ],
         "Rooms": null,
         "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
@@ -911,5 +939,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-01T15:54:54.100871+00:00"
+  "Freshness": "2026-02-21T17:48:52.6078887+00:00"
 }
