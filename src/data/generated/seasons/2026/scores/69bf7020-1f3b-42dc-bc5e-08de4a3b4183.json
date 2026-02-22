@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Meet 2",
-        "LastUpdated": "2/21/26 3:45 AM",
-        "DatabaseLastUpdated": "2026-02-21T02:23:49.8973688+00:00",
+        "LastUpdated": "2/21/26 10:27 PM",
+        "DatabaseLastUpdated": "2026-02-21T22:15:17.3401215+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -289,7 +289,8 @@
               6,
               9,
               14,
-              15
+              15,
+              16
             ],
             "Matches": [
               {
@@ -511,7 +512,7 @@
             "City": "Sayville",
             "State": "NY",
             "Scores": {
-              "Rank": 16,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -744,6 +745,30 @@
           {
             "TeamName": "Unleashers",
             "YearsQuizzing": null,
+            "Id": "q_5835e2db-b5c5-4e2c-bc19-4a2adaeac1eb_33",
+            "Name": "Oliver Kann",
+            "ChurchId": "4801825a-3586-4e6a-9310-6e29ebb2a458",
+            "ChurchName": "Church Unleashed",
+            "City": "Commack NY",
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Unleashers",
+            "YearsQuizzing": null,
             "Id": "q_ca866dc9a9944c94acce08de045d4f17",
             "Name": "Prashant Brijilall",
             "ChurchId": "4801825a-3586-4e6a-9310-6e29ebb2a458",
@@ -782,6 +807,7 @@
           8,
           2,
           15,
+          16,
           5
         ],
         "QuizzerFootnotes": [
@@ -968,5 +994,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-21T02:23:50.2265527+00:00"
+  "Freshness": "2026-02-21T22:27:50.954505+00:00"
 }
