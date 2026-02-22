@@ -1,0 +1,560 @@
+{
+  "EventName": "MN Central Experienced 2025-26 Cumulative",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "MN Central Experienced 2025-26 Cumulative",
+        "LastUpdated": "2/21/26 6:22 PM",
+        "DatabaseLastUpdated": "2026-02-21T21:18:35.4720995+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Jamie Farnsworth",
+            "Quizzers": [
+              3,
+              7,
+              8,
+              9
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_dca4bf6a-71de-4a58-960e-72b72ea265aa",
+            "Name": "Abundant Life Church (Hibbing) #1",
+            "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
+            "ChurchName": "Abundant Life Church",
+            "City": "Hibbing",
+            "State": "MN",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 5,
+              "WinPercentage": 58,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1880,
+              "PerMeetTotalPoints": [
+                725,
+                380,
+                775
+              ],
+              "AveragePoints": 156.7,
+              "AverageCorrect": 10.3,
+              "QuizOuts": 13,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 70,
+              "Correct20s": 40,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "John Spillers",
+            "Quizzers": [
+              2,
+              4,
+              5,
+              6,
+              12
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_09ca78a1-e44b-410c-a4b8-3713fbc9f8c7",
+            "Name": "Bible Scholars",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 1,
+              "WinPercentage": 92,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 3040,
+              "PerMeetTotalPoints": [
+                980,
+                1180,
+                880
+              ],
+              "AveragePoints": 253.3,
+              "AverageCorrect": 15.2,
+              "QuizOuts": 19,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 86,
+              "Correct20s": 67,
+              "Correct30s": 29,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Karen Freyberger",
+            "Quizzers": [
+              0,
+              1,
+              10,
+              11
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_dc925fb7-d5cb-4987-b6ca-8b7c1474b256",
+            "Name": "Mac 'N Jesus",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 12,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": [
+                150,
+                70,
+                220
+              ],
+              "AveragePoints": 36.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 22,
+              "Correct20s": 11,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Mac 'N Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_c17da7cb43ee4c3e8b6f08dbe09f162e",
+            "Name": "Claira Sedler",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": [
+                120,
+                0,
+                70
+              ],
+              "AveragePoints": 15.8,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 9,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mac 'N Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_a301ae0e2a9c4fc98b8d08dbe09f162e",
+            "Name": "Danelly Towner",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": [
+                30,
+                -5,
+                0
+              ],
+              "AveragePoints": 2.1,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_3a56250c4fc24229c97808dbc909e367",
+            "Name": "Gideon Roos",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                10,
+                0,
+                0
+              ],
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Abundant Life Church (Hibbing) #1",
+            "YearsQuizzing": null,
+            "Id": "q_f4008c79869d4b66132d08dbdb177eb6",
+            "Name": "Hans Elfrink",
+            "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
+            "ChurchName": "Abundant Life Church",
+            "City": "Hibbing",
+            "State": "MN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": [
+                175,
+                0,
+                255
+              ],
+              "AveragePoints": 35.8,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 31,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_1cb6c83412c14cabc9c808dbc909e367",
+            "Name": "Jed Legatt",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": [
+                105,
+                145,
+                85
+              ],
+              "AveragePoints": 27.9,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 37,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_0dc9c5b7a3684496c9eb08dbc909e367",
+            "Name": "Jotham Ireland",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1290,
+              "PerMeetTotalPoints": [
+                445,
+                450,
+                395
+              ],
+              "AveragePoints": 107.5,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 39,
+              "Correct20s": 1,
+              "Correct30s": 28,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_2b6bada5c9f844d9c9bd08dbc909e367",
+            "Name": "Micha Ireland",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1270,
+              "PerMeetTotalPoints": [
+                430,
+                520,
+                320
+              ],
+              "AveragePoints": 105.8,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 1,
+              "Correct20s": 63,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Abundant Life Church (Hibbing) #1",
+            "YearsQuizzing": null,
+            "Id": "q_172b640f96d844d9134d08dbdb177eb6",
+            "Name": "Phinehas Oksanen",
+            "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
+            "ChurchName": "Abundant Life Church",
+            "City": "Hibbing",
+            "State": "MN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": [
+                15,
+                210,
+                20
+              ],
+              "AveragePoints": 20.4,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 8,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Abundant Life Church (Hibbing) #1",
+            "YearsQuizzing": null,
+            "Id": "q_75a2960046b6419c72f008d8fe0fea5c",
+            "Name": "Samuel Farnsworth",
+            "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
+            "ChurchName": "Abundant Life Church",
+            "City": "Hibbing",
+            "State": "MN",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 830,
+              "PerMeetTotalPoints": [
+                415,
+                0,
+                415
+              ],
+              "AveragePoints": 69.2,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 3,
+              "Correct20s": 22,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Abundant Life Church (Hibbing) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a02bc46f1fcb4c81134708dbdb177eb6",
+            "Name": "Simon White",
+            "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
+            "ChurchName": "Abundant Life Church",
+            "City": "Hibbing",
+            "State": "MN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": [
+                120,
+                170,
+                85
+              ],
+              "AveragePoints": 31.2,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 28,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mac 'N Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_d597d6fe8144470e8b6008dbe09f162e",
+            "Name": "Stephanie Bashtovoy",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": [
+                0,
+                75,
+                140
+              ],
+              "AveragePoints": 17.9,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 10,
+              "Correct20s": 6,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Mac 'N Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_fdd605f31fc643a4eb7208dcfe134c2d",
+            "Name": "Vivian Sanderson",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                10
+              ],
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_4cdb4a99e6674e519a5e08dcfc76a6cc",
+            "Name": "Wesley Smith",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": [
+                -10,
+                65,
+                80
+              ],
+              "AveragePoints": 11.2,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 8,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          5,
+          6,
+          8,
+          3,
+          9,
+          4,
+          7,
+          10,
+          0,
+          12,
+          11,
+          1,
+          2
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "2026-02 Experienced",
+          "2026-01 Experienced",
+          "2025-11 Experienced"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-21T21:23:16.6058376+00:00"
+}
