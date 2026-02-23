@@ -411,6 +411,7 @@ export default function ScoringDatabaseMeetsPage() {
                                 key={meet.Display.Id}
                                 meetId={meet.Display.Id}
                                 displaySettings={displaySettings}
+                                hasAnyMissingQuestions={meet.HasAnyMissingQuestions}
                                 isReadOnly={isReadOnly}
                                 disabled={isSaving}
                                 isDragOver={dragOverMeetId === meet.Display.Id}

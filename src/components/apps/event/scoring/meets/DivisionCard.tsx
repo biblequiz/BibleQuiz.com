@@ -4,6 +4,7 @@ import type { OnlineDatabaseMeetDisplaySettings } from "types/services/AstroData
 interface Props {
     meetId: number;
     displaySettings: OnlineDatabaseMeetDisplaySettings;
+    hasAnyMissingQuestions: boolean;
     isReadOnly: boolean;
     disabled: boolean;
     isDragOver: boolean;
@@ -22,6 +23,7 @@ interface Props {
 export default function DivisionCard({
     meetId,
     displaySettings,
+    hasAnyMissingQuestions,
     isReadOnly,
     disabled,
     isDragOver,
@@ -72,6 +74,14 @@ export default function DivisionCard({
                         </button>
                     )}
                 </div>
+
+                {/* Missing Questions Warning */}
+                {hasAnyMissingQuestions && (
+                    <div className="flex items-center gap-2 text-warning text-sm mb-2">
+                        <FontAwesomeIcon icon="fas faTriangleExclamation" />
+                        <span>Missing Imported Questions</span>
+                    </div>
+                )}
 
                 {/* Checkboxes Row */}
                 <div className="flex flex-wrap gap-4 mb-3">
