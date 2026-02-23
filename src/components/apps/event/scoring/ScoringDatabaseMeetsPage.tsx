@@ -96,28 +96,30 @@ export default function ScoringDatabaseMeetsPage() {
         field: keyof OnlineDatabaseMeetDisplaySettings,
         value: boolean
     ) => {
-        const currentMeet = currentDatabase?.Meets.find(m => m.Display.Id === meetId);
-        if (!currentMeet) {
-            return;
-        }
+        setPendingDisplayChanges(prev => {
+            const currentMeet = currentDatabase?.Meets.find(m => m.Display.Id === meetId);
+            if (!currentMeet) {
+                return prev;
+            }
 
-        const meetsToUpdate: OnlineDatabaseMeetSummary[] = [currentMeet];
-        if (currentMeet.LinkedMeetGroupId) {
-            for (const meet of currentDatabase!.Meets) {
-                if (meet.Display.Id !== meetId && meet.LinkedMeetGroupId === currentMeet.LinkedMeetGroupId) {
-                    meetsToUpdate.push(meet);
+            const meetsToUpdate: OnlineDatabaseMeetSummary[] = [currentMeet];
+            if (currentMeet.LinkedMeetGroupId) {
+                for (const meet of currentDatabase!.Meets) {
+                    if (meet.Display.Id !== meetId && meet.LinkedMeetGroupId === currentMeet.LinkedMeetGroupId) {
+                        meetsToUpdate.push(meet);
+                    }
                 }
             }
-        }
 
-        const newChanges: PendingDisplayChanges = { ...pendingDisplayChanges };
-        for (const meet of meetsToUpdate) {
-            newChanges[meet.Display.Id] = {
-                ...newChanges[meet.Display.Id],
-                [field]: value
-            };
-        }
-        setPendingDisplayChanges(newChanges);
+            const newChanges: PendingDisplayChanges = { ...prev };
+            for (const meet of meetsToUpdate) {
+                newChanges[meet.Display.Id] = {
+                    ...newChanges[meet.Display.Id],
+                    [field]: value
+                };
+            }
+            return newChanges;
+        });
         markDirty();
     }, [markDirty]);
 
