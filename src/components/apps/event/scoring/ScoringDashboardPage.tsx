@@ -35,6 +35,7 @@ export default function ScoringDashboardPage({ }: Props) {
                 auth={auth}
                 eventId={eventId}
                 eventType={eventType}
+                isScoreKeep={currentDatabase!.IsScoreKeep || false}
                 settings={JSON.parse(JSON.stringify(currentDatabase!.Settings))}
                 defaultRules={currentDatabase!.DefaultRules || undefined}
                 onSaved={setCurrentDatabase}

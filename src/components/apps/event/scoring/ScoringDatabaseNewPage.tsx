@@ -173,6 +173,7 @@ export default function ScoringDatabaseNewPage({ }: Props) {
                         auth={auth}
                         eventId={eventId}
                         eventType={info!.TypeId}
+                        isScoreKeep={false}
                         cloneEventId={cloneEventId}
                         cloneDatabaseId={cloneDatabaseId}
                         cloneTeamsAndQuizzers={cloneTeamsAndQuizzers}

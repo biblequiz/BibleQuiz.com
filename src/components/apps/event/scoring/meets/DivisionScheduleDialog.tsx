@@ -205,7 +205,8 @@ export default function DivisionScheduleDialog({
         CustomSchedule: isRemovingCustomSchedule ? null : customSchedule,
         OptimizedSchedule: null,
         StartingTemplateRoundOverride: startingRoundOverride,
-        TemplateRoundCountOverride: roundCountOverride
+        TemplateRoundCountOverride: roundCountOverride,
+        UseOptimizer: useOptimizer
     });
 
     // Custom schedule handlers
@@ -343,7 +344,8 @@ export default function DivisionScheduleDialog({
                     CustomSchedule: isRemovingCustomSchedule ? null : (finalPreview?.CustomSchedule || customSchedule),
                     OptimizedSchedule: isRemovingCustomSchedule ? null : finalPreview?.OptimizedSchedule,
                     StartingTemplateRoundOverride: startingRoundOverride,
-                    TemplateRoundCountOverride: roundCountOverride
+                    TemplateRoundCountOverride: roundCountOverride,
+                    UseOptimizer: useOptimizer
                 }
             };
 
@@ -400,7 +402,7 @@ export default function DivisionScheduleDialog({
                         </div>
                     )}
 
-                    {!isLoading && !error && (
+                    {!isLoading && (
                         <form ref={formRef} className="space-y-2">
                             {/* Division Name - Always visible at top */}
                             <div className="form-control mb-4">

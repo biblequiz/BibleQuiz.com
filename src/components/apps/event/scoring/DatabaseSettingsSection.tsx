@@ -12,6 +12,7 @@ import MatchRulesDialog from "../rules/MatchRulesDialog";
 interface Props {
     auth: AuthManager;
     eventId: string;
+    isScoreKeep: boolean;
     eventType?: string;
     settings?: OnlineDatabaseSettings | null;
     defaultRules?: MatchRules;
@@ -42,6 +43,7 @@ export default function DatabaseSettingsSection({
     auth,
     eventId,
     eventType,
+    isScoreKeep,
     settings,
     defaultRules,
     cloneEventId,
@@ -68,7 +70,6 @@ export default function DatabaseSettingsSection({
 
     const formRef = useRef<HTMLFormElement>(null);
     const hasChanges = useStore(sharedDirtyWindowState);
-    const isScoreKeep = ((!cloneEventId || !cloneDatabaseId) && settings?.IsScoreKeep) || false;
 
     const handleSave = (e: React.MouseEvent | React.FormEvent) => {
         e.preventDefault();

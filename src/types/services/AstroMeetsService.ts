@@ -56,7 +56,6 @@ export class AstroMeetsService {
         meetId: number,
         settings: OnlineMeetSchedulingSettings,
     ): Promise<void> {
-        
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
             "POST",
@@ -224,6 +223,11 @@ export interface OnlineMeetSettings {
      * All teams for the database. This is read-only from the server.
      */
     readonly AllTeams?: Record<number, TeamOrQuizzerReference>;
+
+    /**
+     * All meets in this database where scoring has started.
+     */
+    readonly AllMeetsWithScores?: number[];
 }
 
 /**
