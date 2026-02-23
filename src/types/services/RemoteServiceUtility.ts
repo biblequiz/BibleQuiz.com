@@ -305,7 +305,7 @@ export class RemoteServiceUtility {
         let baseUrl: string;
         switch (service) {
             case RemoteServiceUrlBase.Registration:
-                baseUrl = "https://localhost:5001";
+                baseUrl = "https://registration.biblequiz.com";
                 break;
             case RemoteServiceUrlBase.Scores:
                 baseUrl = "https://scores.biblequiz.com";
