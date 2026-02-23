@@ -23,7 +23,6 @@ import ScoringSettingsPage from './scoring/ScoringSettingsPage';
 import ScoringDatabaseProvider from './scoring/ScoringDatabaseProvider';
 import ScoringDatabaseMeetsPage from './scoring/ScoringDatabaseMeetsPage';
 import ScoringDatabaseLiveScoresPage from './scoring/ScoringDatabaseLiveScoresPage';
-import ScoringDatabasePlayoffsPage from './scoring/ScoringDatabasePlayoffsPage';
 import ScoringDatabaseTeamsAndQuizzersPage from './scoring/ScoringDatabaseTeamsAndQuizzersPage';
 import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
 import ScoringDatabaseManualEntryPage from './scoring/ScoringDatabaseManualEntryPage';
@@ -519,13 +518,6 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Playoffs",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/playoffs`),
-                isCurrent: false,
-                icon: "fas faPeopleArrows"
-            },
-            {
-                type: 'link' as const,
                 label: "Devices & Apps",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/apps`),
                 isCurrent: false,
@@ -642,10 +634,6 @@ const router = createHashRouter([
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/liveScores",
                                                 element: <ScoringDatabaseLiveScoresPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/playoffs",
-                                                element: <ScoringDatabasePlayoffsPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/apps",

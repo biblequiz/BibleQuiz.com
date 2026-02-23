@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useEffect } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import CollapsibleSection from "components/CollapsibleSection";
 import type { AuthManager } from "types/AuthManager";
@@ -17,19 +17,19 @@ import type { ScheduleTemplate } from "types/Scheduling";
 import LinkedMeetsDialog from "./LinkedMeetsDialog";
 import MatchRulesDialog from "../../rules/MatchRulesDialog";
 import TeamSelector from "./TeamSelector";
-import RoomEditor from "./RoomEditor";
+import RoomEditor, { generateRoomNamesForCount } from "./RoomEditor";
 import SchedulePreviewTable from "./SchedulePreviewTable";
 import CustomScheduleUploader from "./CustomScheduleUploader";
 
 interface Props {
     auth: AuthManager;
     eventId: string;
-    eventType?: string;
+    eventType: string;
     databaseId: string;
     meetId: number;
     meetName: string;
     allMeets: OnlineDatabaseMeetSummary[];
-    defaultRules?: MatchRules | null;
+    defaultRules: MatchRules;
     isReadOnly: boolean;
     isNew: boolean;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
@@ -59,7 +59,6 @@ export default function DivisionScheduleDialog({
     const [isRefreshingPreview, setIsRefreshingPreview] = useState(false);
     const [isUploadingSchedule, setIsUploadingSchedule] = useState(false);
     const [error, setError] = useState<string | null>(null);
-    const [saveError, setSaveError] = useState<string | null>(null);
 
     // Meet settings
     const [settings, setSettings] = useState<OnlineMeetSettings | null>(null);
@@ -105,11 +104,11 @@ export default function DivisionScheduleDialog({
         AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad)
             .then(data => {
                 setSettings(data);
-                
+
                 if (!isNew) {
                     setName(data.Name);
                 }
-                
+
                 setRoomNames(data.RoomNames || []);
                 setMatchLengthInMinutes(data.MatchLengthInMinutes || 20);
                 setAllTeams(data.AllTeams || {});
@@ -128,9 +127,10 @@ export default function DivisionScheduleDialog({
                         setStartingRoundOverride(data.Schedule.StartingTemplateRoundOverride || null);
                         setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
                     }
-                    
+
                     // Custom schedule from server
-                    setHasCustomSchedule(data.Schedule.HasCustomSchedule || false);
+                    const hasCustom = data.Schedule.HasCustomSchedule || false;
+                    setHasCustomSchedule(hasCustom);
                 }
 
                 if (data.Preview && !isNew) {
@@ -151,23 +151,16 @@ export default function DivisionScheduleDialog({
         if (schedulePreview && schedulePreview.RoomCount > 0) {
             const requiredRooms = schedulePreview.RoomCount;
             if (roomNames.length !== requiredRooms) {
-                const newRooms = [...roomNames];
-                if (requiredRooms > roomNames.length) {
-                    for (let i = roomNames.length; i < requiredRooms; i++) {
-                        newRooms.push(`Room ${i + 1}`);
-                    }
-                } else {
-                    newRooms.length = requiredRooms;
-                }
+                const newRooms = generateRoomNamesForCount(roomNames, requiredRooms);
                 setRoomNames(newRooms);
             }
         }
-    }, [schedulePreview?.RoomCount]);
+    }, [schedulePreview?.RoomCount, roomNames.length]);
 
     // Mark schedule as out of date when settings change
-    const markScheduleOutOfDate = useCallback(() => {
+    const markScheduleOutOfDate = () => {
         setIsScheduleOutOfDate(true);
-    }, []);
+    };
 
     // Handle scheduling settings changes
     const handleTeamIdsChange = (newTeamIds: number[]) => {
@@ -193,10 +186,28 @@ export default function DivisionScheduleDialog({
     };
 
     const handleRoundCountChange = (value: string) => {
-        const parsed = parseInt(value, 10);
-        setRoundCountOverride(isNaN(parsed) || parsed < 1 ? null : parsed);
+        if (value === "" || value === "default") {
+            setRoundCountOverride(null);
+        } else {
+            const parsed = parseInt(value, 10);
+            setRoundCountOverride(isNaN(parsed) || parsed < 1 ? null : parsed);
+        }
         markScheduleOutOfDate();
     };
+
+    // Build scheduling settings object (reused across multiple operations)
+    const getSchedulingSettings = (): OnlineMeetSchedulingSettings => ({
+        LinkedMeetIds: linkedMeetIds,
+        TeamIds: selectedTeamIds,
+        IncludeByesInScores: includeByesInScores,
+        HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
+        IsScheduleChanged: true,
+        CustomSchedule: isRemovingCustomSchedule ? null : customSchedule,
+        OptimizedSchedule: null,
+        StartingTemplateRoundOverride: startingRoundOverride,
+        TemplateRoundCountOverride: roundCountOverride,
+        UseOptimizer: useOptimizer
+    });
 
     // Custom schedule handlers
     const handleUploadSchedule = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -204,7 +215,7 @@ export default function DivisionScheduleDialog({
         if (!file) return;
 
         setIsUploadingSchedule(true);
-        setSaveError(null);
+        setError(null);
 
         try {
             const formData = new FormData();
@@ -222,7 +233,7 @@ export default function DivisionScheduleDialog({
             setIsRemovingCustomSchedule(false);
             markScheduleOutOfDate();
         } catch (err: any) {
-            setSaveError(err.message || "Failed to parse schedule file.");
+            setError(err.message || "Failed to parse schedule file.");
         } finally {
             setIsUploadingSchedule(false);
         }
@@ -253,25 +264,15 @@ export default function DivisionScheduleDialog({
     // Refresh schedule preview
     const handleRefreshPreview = async () => {
         if (selectedTeamIds.length < 2) {
-            setSaveError("You must assign at least two teams to generate a schedule.");
+            setError("You must assign at least two teams to generate a schedule.");
             return;
         }
 
         setIsRefreshingPreview(true);
-        setSaveError(null);
+        setError(null);
 
         try {
-            const schedulingSettings: OnlineMeetSchedulingSettings = {
-                LinkedMeetIds: linkedMeetIds,
-                TeamIds: selectedTeamIds,
-                IncludeByesInScores: includeByesInScores,
-                HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
-                IsScheduleChanged: true,
-                CustomSchedule: customSchedule,
-                OptimizedSchedule: null,
-                StartingTemplateRoundOverride: startingRoundOverride,
-                TemplateRoundCountOverride: roundCountOverride
-            };
+            const schedulingSettings = getSchedulingSettings();
 
             const preview = await AstroMeetsService.refreshSchedulePreview(
                 auth,
@@ -285,7 +286,7 @@ export default function DivisionScheduleDialog({
             setSchedulePreview(preview);
             setIsScheduleOutOfDate(false);
         } catch (err: any) {
-            setSaveError(err.message || "Failed to refresh schedule preview.");
+            setError(err.message || "Failed to refresh schedule preview.");
         } finally {
             setIsRefreshingPreview(false);
         }
@@ -298,33 +299,23 @@ export default function DivisionScheduleDialog({
         }
 
         if (!name.trim()) {
-            setSaveError("Division name is required.");
+            setError("Division name is required.");
             return;
         }
 
         if (selectedTeamIds.length < 2) {
-            setSaveError("You must assign at least two teams.");
+            setError("You must assign at least two teams.");
             return;
         }
 
         setIsSaving(true);
-        setSaveError(null);
+        setError(null);
 
         try {
             // If schedule is out of date, refresh it first
             let finalPreview = schedulePreview;
             if (isScheduleOutOfDate) {
-                const schedulingSettings: OnlineMeetSchedulingSettings = {
-                    LinkedMeetIds: linkedMeetIds,
-                    TeamIds: selectedTeamIds,
-                    IncludeByesInScores: includeByesInScores,
-                    HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
-                    IsScheduleChanged: true,
-                    CustomSchedule: isRemovingCustomSchedule ? null : customSchedule,
-                    OptimizedSchedule: isRemovingCustomSchedule ? null : null,
-                    StartingTemplateRoundOverride: startingRoundOverride,
-                    TemplateRoundCountOverride: roundCountOverride
-                };
+                const schedulingSettings = getSchedulingSettings();
 
                 finalPreview = await AstroMeetsService.refreshSchedulePreview(
                     auth,
@@ -353,7 +344,8 @@ export default function DivisionScheduleDialog({
                     CustomSchedule: isRemovingCustomSchedule ? null : (finalPreview?.CustomSchedule || customSchedule),
                     OptimizedSchedule: isRemovingCustomSchedule ? null : finalPreview?.OptimizedSchedule,
                     StartingTemplateRoundOverride: startingRoundOverride,
-                    TemplateRoundCountOverride: roundCountOverride
+                    TemplateRoundCountOverride: roundCountOverride,
+                    UseOptimizer: useOptimizer
                 }
             };
 
@@ -369,7 +361,7 @@ export default function DivisionScheduleDialog({
             onSave(result);
             dialogRef.current?.close();
         } catch (err: any) {
-            setSaveError(err.message || "Failed to save division settings.");
+            setError(err.message || "Failed to save division settings.");
         } finally {
             setIsSaving(false);
         }
@@ -405,22 +397,12 @@ export default function DivisionScheduleDialog({
                     {error && (
                         <div role="alert" className="alert alert-error">
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
-                            <div>
-                                <b>Error: </b>{error}
-                            </div>
+                            <span className="font-bold">Error:</span>
+                            <span>{error}</span>
                         </div>
                     )}
 
-                    {saveError && (
-                        <div role="alert" className="alert alert-error mb-4">
-                            <FontAwesomeIcon icon="fas faTriangleExclamation" />
-                            <div>
-                                <b>Error: </b>{saveError}
-                            </div>
-                        </div>
-                    )}
-
-                    {!isLoading && !error && (
+                    {!isLoading && (
                         <form ref={formRef} className="space-y-2">
                             {/* Division Name - Always visible at top */}
                             <div className="form-control mb-4">
@@ -508,10 +490,16 @@ export default function DivisionScheduleDialog({
                                 elementId="teams"
                                 icon="fas faUsers"
                                 title="Teams"
-                                badges={[{
-                                    className: "badge-info",
-                                    text: `${selectedTeamIds.length} selected`
-                                }]}
+                                badges={[
+                                    {
+                                        className: "badge-info",
+                                        text: `${selectedTeamIds.length} selected`
+                                    },
+                                    ...(hasCustomSchedule && !isRemovingCustomSchedule ? [{
+                                        className: "badge-warning",
+                                        text: "Locked (Custom Schedule)"
+                                    }] : [])
+                                ]}
                                 defaultOpen={true}
                                 allowMultipleOpen={true}
                             >
@@ -520,6 +508,7 @@ export default function DivisionScheduleDialog({
                                     allTeams={allTeams}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
+                                    allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
                                     onTeamIdsChange={handleTeamIdsChange}
                                 />
                             </CollapsibleSection>
@@ -548,29 +537,35 @@ export default function DivisionScheduleDialog({
                                     <div className="form-control">
                                         <label className="label gap-2 p-0">
                                             <span className="label-text text-sm">Starting Round:</span>
-                                            <input
-                                                type="number"
-                                                className="input input-xs input-bordered w-16"
-                                                value={startingRoundOverride || ""}
+                                            <select
+                                                className="select select-xs select-bordered w-20"
+                                                value={startingRoundOverride ?? ""}
                                                 onChange={(e) => handleStartingRoundChange(e.target.value)}
                                                 disabled={isSaving || isReadOnly}
-                                                min={1}
-                                                placeholder="1"
-                                            />
+                                            >
+                                                <option value="">1</option>
+                                                {(() => {
+                                                    const totalRounds = roundCountOverride ?? (schedulePreview ? Object.keys(schedulePreview.Matches || {}).length : 0);
+                                                    return Array.from({ length: totalRounds }, (_, i) => i + 1).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ));
+                                                })()}
+                                            </select>
                                         </label>
                                     </div>
 
                                     <div className="form-control">
                                         <label className="label gap-2 p-0">
-                                            <span className="label-text text-sm">Round Count:</span>
+                                            <span className="label-text text-sm">Total Rounds:</span>
                                             <input
                                                 type="number"
                                                 className="input input-xs input-bordered w-16"
-                                                value={roundCountOverride || ""}
+                                                value={roundCountOverride ?? ""}
                                                 onChange={(e) => handleRoundCountChange(e.target.value)}
                                                 disabled={isSaving || isReadOnly}
                                                 min={1}
-                                                placeholder="Auto"
+                                                step={1}
+                                                placeholder=""
                                             />
                                         </label>
                                     </div>
@@ -595,6 +590,11 @@ export default function DivisionScheduleDialog({
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
                                     isReadOnly={isReadOnly}
+                                    auth={auth}
+                                    eventId={eventId}
+                                    databaseId={databaseId}
+                                    meetId={meetId}
+                                    getSchedulingSettings={getSchedulingSettings}
                                     onUpload={handleUploadSchedule}
                                     onRemove={handleRemoveCustomSchedule}
                                 />
@@ -630,9 +630,9 @@ export default function DivisionScheduleDialog({
                                             <div className="border border-base-300 rounded-lg p-3">
                                                 <span
                                                     className="text-xs"
-                                                    dangerouslySetInnerHTML={{ 
-                                                        __html: MatchRulesClass.toHtmlString(effectiveRules) 
-                                                    }} 
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: MatchRulesClass.toHtmlString(effectiveRules)
+                                                    }}
                                                 />
                                                 {useCustomRules && !isReadOnly && (
                                                     <button
@@ -719,9 +719,9 @@ export default function DivisionScheduleDialog({
             {showLinkedMeetsDialog && (
                 <LinkedMeetsDialog
                     currentMeetId={meetId}
-                    currentMeetName={name}
                     allMeets={allMeets}
                     linkedMeetIds={linkedMeetIds}
+                    meetsWithScores={settings?.AllMeetsWithScores ?? []}
                     isReadOnly={isReadOnly}
                     onSave={handleLinkedMeetsSave}
                     onClose={() => setShowLinkedMeetsDialog(false)}

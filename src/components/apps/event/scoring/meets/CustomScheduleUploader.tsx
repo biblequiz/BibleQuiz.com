@@ -1,11 +1,18 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import type { AuthManager } from "types/AuthManager";
+import { AstroMeetsService, type OnlineMeetSchedulingSettings } from "types/services/AstroMeetsService";
 
 interface Props {
     hasCustomSchedule: boolean;
     isUploading: boolean;
     disabled: boolean;
     isReadOnly: boolean;
+    auth: AuthManager;
+    eventId: string;
+    databaseId: string;
+    meetId: number;
+    getSchedulingSettings: () => OnlineMeetSchedulingSettings;
     onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onRemove: () => void;
 }
@@ -15,10 +22,30 @@ export default function CustomScheduleUploader({
     isUploading,
     disabled,
     isReadOnly,
+    auth,
+    eventId,
+    databaseId,
+    meetId,
+    getSchedulingSettings,
     onUpload,
     onRemove
 }: Props) {
     const fileInputRef = useRef<HTMLInputElement>(null);
+    const [isExporting, setIsExporting] = useState(false);
+    const [exportError, setExportError] = useState<string | null>(null);
+
+    const handleExportSchedule = async () => {
+        setIsExporting(true);
+        setExportError(null);
+        try {
+            const settings = getSchedulingSettings();
+            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId, settings);
+        } catch (err: any) {
+            setExportError(err.message || "Failed to export schedule.");
+        } finally {
+            setIsExporting(false);
+        }
+    };
 
     const handleUploadComplete = (e: React.ChangeEvent<HTMLInputElement>) => {
         onUpload(e);
@@ -28,48 +55,75 @@ export default function CustomScheduleUploader({
         }
     };
 
+    const controlsDisabled = disabled || getSchedulingSettings().TeamIds.length === 0;
+
     return (
-        <div className="p-2">
-            {hasCustomSchedule ? (
-                <div className="flex items-center gap-4">
-                    <div className="flex items-center gap-2 text-success">
-                        <FontAwesomeIcon icon="fas faCircleCheck" />
-                        <span>Custom schedule is active</span>
-                    </div>
-                    {!isReadOnly && (
-                        <button
-                            type="button"
-                            className="btn btn-sm btn-error btn-outline"
-                            onClick={onRemove}
-                            disabled={disabled}
-                        >
-                            <FontAwesomeIcon icon="fas faTrash" />
-                            Remove Custom Schedule
-                        </button>
-                    )}
-                </div>
-            ) : (
-                <div>
-                    <p className="text-sm text-base-content/70 mb-3">
-                        Upload an Excel file (.xlsx) to use a custom schedule template.
-                    </p>
-                    {!isReadOnly && (
-                        <div className="flex items-center gap-2">
-                            <input
-                                ref={fileInputRef}
-                                type="file"
-                                accept=".xlsx"
-                                className="file-input file-input-bordered file-input-sm w-full max-w-xs"
-                                onChange={handleUploadComplete}
-                                disabled={disabled || isUploading}
-                            />
-                            {isUploading && (
-                                <span className="loading loading-spinner loading-sm"></span>
-                            )}
-                        </div>
-                    )}
+        <div className="p-2 space-y-3">
+            {exportError && (
+                <div role="alert" className="alert alert-error alert-sm">
+                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    <span>{exportError}</span>
                 </div>
             )}
+
+            {hasCustomSchedule && (
+                <div className="flex items-center gap-2 text-success">
+                    <FontAwesomeIcon icon="fas faCircleCheck" />
+                    <span>Custom schedule is active</span>
+                </div>
+            )}
+
+            <div className="flex flex-wrap items-center gap-2">
+                {/* Export Button - only show for existing divisions */}
+                <button
+                    type="button"
+                    className="btn btn-sm btn-outline"
+                    onClick={handleExportSchedule}
+                    disabled={controlsDisabled || isExporting}
+                >
+                    {isExporting ? (
+                        <>
+                            <span className="loading loading-spinner loading-sm"></span>
+                            Exporting...
+                        </>
+                    ) : (
+                        <>
+                            <FontAwesomeIcon icon="fas faDownload" />
+                            Export Current Schedule
+                        </>
+                    )}
+                </button>
+
+                {/* Upload Control */}
+                {!isReadOnly && (
+                    <>
+                        <input
+                            ref={fileInputRef}
+                            type="file"
+                            accept=".xlsx"
+                            className="file-input file-input-bordered file-input-sm w-full max-w-xs"
+                            onChange={handleUploadComplete}
+                            disabled={controlsDisabled || isUploading}
+                        />
+                        {isUploading && (
+                            <span className="loading loading-spinner loading-sm"></span>
+                        )}
+                    </>
+                )}
+
+                {/* Remove Button */}
+                {!isReadOnly && hasCustomSchedule && (
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-error btn-outline"
+                        onClick={onRemove}
+                        disabled={controlsDisabled}
+                    >
+                        <FontAwesomeIcon icon="fas faTrash" />
+                        Remove
+                    </button>
+                )}
+            </div>
         </div>
     );
 }

@@ -196,7 +196,7 @@ export default function EventDashboardPage({ }: Props) {
                             <div className="flex items-start gap-4">
                                 <div className="flex-1 mt-2 pr-6 text-left">
                                     <h2 className="card-title mb-0 mt-0">
-                                        <FontAwesomeIcon icon="fas faDatabase" /> Database: {d.Settings.DatabaseName.replaceAll('_', ' ')}
+                                        <FontAwesomeIcon icon="fas faDatabase" /> Database: {d.Settings.DatabaseNameOverride || d.Settings.DatabaseName.replaceAll('_', ' ')}
                                     </h2>
                                     <p className="text-base mt-1">
                                         Manage the settings for this database.

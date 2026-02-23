@@ -1,6 +1,9 @@
 import type { AuthManager } from "../AuthManager";
 import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
-import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
+import {
+    RemoteServiceUrlBase,
+    RemoteServiceUtility,
+} from "./RemoteServiceUtility";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -8,7 +11,6 @@ const URL_ROOT_PATH = "/api/v1.0/events";
  * Wrapper for the Astro Meet Playoffs service.
  */
 export class AstroMeetPlayoffsService {
-
     /**
      * Gets the playoff matches for a meet.
      *
@@ -16,20 +18,21 @@ export class AstroMeetPlayoffsService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
-     * 
+     *
      * @returns Playoff meet configuration.
      */
     public static getPlayoffs(
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        meetId: number): Promise<OnlinePlayoffMeet> {
-
+        meetId: number,
+    ): Promise<OnlinePlayoffMeet> {
         return RemoteServiceUtility.executeHttpRequest<OnlinePlayoffMeet>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/playoffs`);
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/playoffs`,
+        );
     }
 
     /**
@@ -40,7 +43,7 @@ export class AstroMeetPlayoffsService {
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
      * @param playoffs Playoff configuration to save.
-     * 
+     *
      * @returns Updated database summary.
      */
     public static updatePlayoffs(
@@ -48,15 +51,16 @@ export class AstroMeetPlayoffsService {
         eventId: string,
         databaseId: string,
         meetId: number,
-        playoffs: OnlinePlayoffMeet): Promise<OnlineDatabaseSummary> {
-
+        playoffs: OnlinePlayoffMeet,
+    ): Promise<OnlineDatabaseSummary> {
         return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/playoffs`,
             null,
-            playoffs);
+            playoffs,
+        );
     }
 }
 
@@ -78,6 +82,11 @@ export interface OnlinePlayoffMeet {
      * Playoff matches for this meet.
      */
     Matches: OnlinePlayoffMatch[];
+
+    /**
+     * Value indicating whether scoring has started.
+     */
+    readonly HasScoringStarted: boolean;
 
     /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.

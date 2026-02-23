@@ -3,7 +3,10 @@ import type { MatchRules } from "../MatchRules";
 import type { ScheduleTemplate } from "../Scheduling";
 import type { TeamOrQuizzerReference } from "../Meets";
 import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
-import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
+import {
+    RemoteServiceUrlBase,
+    RemoteServiceUtility,
+} from "./RemoteServiceUtility";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -11,7 +14,6 @@ const URL_ROOT_PATH = "/api/v1.0/events";
  * Wrapper for the Astro Meets service.
  */
 export class AstroMeetsService {
-
     /**
      * Gets the settings for a meet.
      *
@@ -19,20 +21,50 @@ export class AstroMeetsService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet. If 0 is given, a default will be returned.
-     * 
+     *
      * @returns Meet settings.
      */
     public static getMeet(
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        meetId: number): Promise<OnlineMeetSettings> {
-
+        meetId: number,
+    ): Promise<OnlineMeetSettings> {
         return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`);
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
+        );
+    }
+
+    /**
+     * Retrieves the current custom schedule template as a file for the meet.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param meetId Id for the meet.
+     * @param settings Settings for scheduling.
+     *
+     * @returns Custom schedule template for the meet.
+     */
+    public static getScheduleTemplate(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        meetId: number,
+        settings: OnlineMeetSchedulingSettings,
+    ): Promise<void> {
+        return RemoteServiceUtility.downloadFromHttpRequest(
+            auth,
+            "POST",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/scheduleTemplate`,
+            undefined,
+            undefined,
+            settings,
+        );
     }
 
     /**
@@ -44,7 +76,7 @@ export class AstroMeetsService {
      * @param meetId Id for the meet. Use 0 or negative for a new meet.
      * @param settings Settings for the meet.
      * @param useOptimizer Value indicating whether to use the optimizer when refreshing the schedule.
-     * 
+     *
      * @returns Updated database summary.
      */
     public static createOrUpdateMeet(
@@ -53,15 +85,16 @@ export class AstroMeetsService {
         databaseId: string,
         meetId: number,
         settings: OnlineMeetSettings,
-        useOptimizer: boolean = false): Promise<OnlineDatabaseSummary> {
-
+        useOptimizer: boolean = false,
+    ): Promise<OnlineDatabaseSummary> {
         return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
             RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
-            settings);
+            settings,
+        );
     }
 
     /**
@@ -76,13 +109,14 @@ export class AstroMeetsService {
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        meetId: number): Promise<void> {
-
+        meetId: number,
+    ): Promise<void> {
         return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "DELETE",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`);
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
+        );
     }
 
     /**
@@ -94,7 +128,7 @@ export class AstroMeetsService {
      * @param meetId Id for the meet. Use 0 or negative for a new meet.
      * @param settings Scheduling settings for the meet.
      * @param useOptimizer Value indicating whether to use the optimizer.
-     * 
+     *
      * @returns Schedule preview.
      */
     public static refreshSchedulePreview(
@@ -103,15 +137,16 @@ export class AstroMeetsService {
         databaseId: string,
         meetId: number,
         settings: OnlineMeetSchedulingSettings,
-        useOptimizer: boolean = false): Promise<OnlineMeetSchedulePreview> {
-
+        useOptimizer: boolean = false,
+    ): Promise<OnlineMeetSchedulePreview> {
         return RemoteServiceUtility.executeHttpRequest<OnlineMeetSchedulePreview>(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/schedule`,
             RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
-            settings);
+            settings,
+        );
     }
 
     /**
@@ -130,8 +165,8 @@ export class AstroMeetsService {
         databaseId: string,
         meetId: number,
         settings: OnlineMeetSchedulingSettings,
-        useOptimizer: boolean): Promise<void> {
-
+        useOptimizer: boolean,
+    ): Promise<void> {
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
             "POST",
@@ -139,7 +174,8 @@ export class AstroMeetsService {
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/schedule/stats`,
             RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
             undefined,
-            settings);
+            settings,
+        );
     }
 }
 
@@ -187,6 +223,11 @@ export interface OnlineMeetSettings {
      * All teams for the database. This is read-only from the server.
      */
     readonly AllTeams?: Record<number, TeamOrQuizzerReference>;
+
+    /**
+     * All meets in this database where scoring has started.
+     */
+    readonly AllMeetsWithScores?: number[];
 }
 
 /**
@@ -212,6 +253,11 @@ export interface OnlineMeetSchedulingSettings {
      * Value indicating whether there is a custom schedule.
      */
     readonly HasCustomSchedule: boolean;
+
+    /**
+     * Value indicating whether to use the optimizer.
+     */
+    UseOptimizer: boolean;
 
     /**
      * Value indicating whether the CustomSchedule and OptimizedSchedule have been changed.

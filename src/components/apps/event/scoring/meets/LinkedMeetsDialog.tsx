@@ -4,9 +4,9 @@ import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesSer
 
 interface Props {
     currentMeetId: number;
-    currentMeetName: string;
     allMeets: OnlineDatabaseMeetSummary[];
     linkedMeetIds: number[];
+    meetsWithScores: number[];
     isReadOnly: boolean;
     onSave: (linkedMeetIds: number[]) => void;
     onClose: () => void;
@@ -15,53 +15,167 @@ interface Props {
 /**
  * Dialog for selecting meets to link together.
  * Following the frmLinkedMeets pattern from ScoreKeep.
+ * Supports drag-and-drop reordering of linked divisions.
  */
 export default function LinkedMeetsDialog({
     currentMeetId,
-    currentMeetName,
     allMeets,
     linkedMeetIds,
+    meetsWithScores,
     isReadOnly,
     onSave,
     onClose
 }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    // Initialize selected meets - always include current meet
-    const [selectedMeetIds, setSelectedMeetIds] = useState<Set<number>>(() => {
-        const initial = new Set(linkedMeetIds);
-        initial.add(currentMeetId);
-        return initial;
+    // Initialize selected meets as an ordered array - honor API order exactly
+    // The API includes current meet in the list, so use it as-is
+    // If no linked meets from API, start with just the current meet
+    const [selectedMeetIds, setSelectedMeetIds] = useState<number[]>(() => {
+        if (linkedMeetIds.length === 0) {
+            return [currentMeetId];
+        }
+        // API returns the full list including current meet in its proper position
+        return [...linkedMeetIds];
     });
 
-    // Get other meets (excluding current)
-    const otherMeets = allMeets.filter(m => m.Display.Id !== currentMeetId);
+    // Drag state
+    const [draggedId, setDraggedId] = useState<number | null>(null);
+    const [dragOverId, setDragOverId] = useState<number | null>(null);
+
+    // Create a Set for faster lookup of meets with scores
+    const meetsWithScoresSet = new Set(meetsWithScores);
+
+    // Determine if linking is locked (any currently linked division has scores)
+    const isLinkingLocked = linkedMeetIds.some(id => meetsWithScoresSet.has(id));
+
+    // Get the order of a meet in the selected list (for display purposes)
+    const getOrderIndex = (meetId: number): number => {
+        return selectedMeetIds.indexOf(meetId);
+    };
 
     const handleToggleMeet = (meetId: number) => {
+        // Cannot uncheck the current meet
+        if (meetId === currentMeetId) {
+            return;
+        }
+
         setSelectedMeetIds(prev => {
-            const updated = new Set(prev);
-            if (updated.has(meetId)) {
-                updated.delete(meetId);
+            if (prev.includes(meetId)) {
+                // Remove from array
+                return prev.filter(id => id !== meetId);
             } else {
-                updated.add(meetId);
+                // Add to end of array
+                return [...prev, meetId];
             }
-            return updated;
         });
     };
 
-    const handleSave = () => {
-        // Convert to array, ensuring current meet is included
-        const linkedIds = Array.from(selectedMeetIds);
-        
-        // If only current meet is selected, that means no linked meets
-        if (linkedIds.length <= 1) {
-            onSave([]);
-        } else {
-            onSave(linkedIds);
+    // Drag and drop handlers - all checked items can be dragged including current meet
+    const handleDragStart = (e: React.DragEvent, meetId: number) => {
+        // Don't allow dragging unchecked items
+        if (!selectedMeetIds.includes(meetId)) {
+            e.preventDefault();
+            return;
+        }
+        setDraggedId(meetId);
+        e.dataTransfer.effectAllowed = "move";
+        e.dataTransfer.setData("text/plain", meetId.toString());
+    };
+
+    const handleDragOver = (e: React.DragEvent, meetId: number) => {
+        e.preventDefault();
+        // Only allow dropping on other checked items
+        if (selectedMeetIds.includes(meetId) && meetId !== draggedId) {
+            setDragOverId(meetId);
+            e.dataTransfer.dropEffect = "move";
         }
     };
 
-    const hasLinkedMeets = selectedMeetIds.size > 1;
+    const handleDragLeave = () => {
+        setDragOverId(null);
+    };
+
+    const handleDrop = (e: React.DragEvent, targetMeetId: number) => {
+        e.preventDefault();
+        setDragOverId(null);
+
+        if (!draggedId || draggedId === targetMeetId) {
+            setDraggedId(null);
+            return;
+        }
+
+        // Don't allow dropping on unchecked items
+        if (!selectedMeetIds.includes(targetMeetId)) {
+            setDraggedId(null);
+            return;
+        }
+
+        setSelectedMeetIds(prev => {
+            const newOrder = [...prev];
+            const draggedIndex = newOrder.indexOf(draggedId);
+            const targetIndex = newOrder.indexOf(targetMeetId);
+
+            if (draggedIndex === -1 || targetIndex === -1) return prev;
+
+            // Remove dragged item and insert at target position
+            newOrder.splice(draggedIndex, 1);
+            newOrder.splice(targetIndex, 0, draggedId);
+
+            return newOrder;
+        });
+
+        setDraggedId(null);
+    };
+
+    const handleDragEnd = () => {
+        setDraggedId(null);
+        setDragOverId(null);
+    };
+
+    const handleSave = () => {
+        // If only current meet is selected, that means no linked meets
+        if (selectedMeetIds.length <= 1) {
+            onSave([]);
+        } else {
+            // Return the ordered array
+            onSave(selectedMeetIds);
+        }
+    };
+
+    const hasLinkedMeets = selectedMeetIds.length > 1;
+
+    // Build the unified list of all meets for display
+    // Linked meets first (in their order), then available meets alphabetically
+    const allMeetItems = allMeets.map(meet => ({
+        id: meet.Display.Id,
+        name: meet.Display.NameOverride || meet.Display.Name,
+        isCurrent: meet.Display.Id === currentMeetId,
+        isLinkedToAnother: meet.LinkedMeetGroupId && 
+            !linkedMeetIds.includes(meet.Display.Id) &&
+            linkedMeetIds.length > 0,
+        hasScores: meetsWithScoresSet.has(meet.Display.Id)
+    }));
+
+    // Sort: checked items first (in their order), then unchecked alphabetically
+    const sortedMeetItems = [...allMeetItems].sort((a, b) => {
+        const aChecked = selectedMeetIds.includes(a.id);
+        const bChecked = selectedMeetIds.includes(b.id);
+
+        if (aChecked && bChecked) {
+            // Both checked: sort by their position in selectedMeetIds
+            return getOrderIndex(a.id) - getOrderIndex(b.id);
+        } else if (aChecked && !bChecked) {
+            // a is checked, b is not: a comes first
+            return -1;
+        } else if (!aChecked && bChecked) {
+            // b is checked, a is not: b comes first
+            return 1;
+        } else {
+            // Both unchecked: sort alphabetically
+            return a.name.localeCompare(b.name);
+        }
+    });
 
     return (
         <dialog ref={dialogRef} className="modal" open>
@@ -86,70 +200,109 @@ export default function LinkedMeetsDialog({
                                 from different divisions to play against each other in a
                                 combined round-robin schedule.
                             </p>
+                            {!isReadOnly && !isLinkingLocked && hasLinkedMeets && (
+                                <p className="mt-1 text-info-content/80">
+                                    <FontAwesomeIcon icon="fas faGripVertical" classNames={["mr-1"]} />
+                                    Drag checked divisions to reorder them.
+                                </p>
+                            )}
                         </div>
                     </div>
 
-                    {/* Current Meet (always included) */}
-                    <div className="mb-4">
-                        <h4 className="font-semibold text-sm mb-2">Current Division</h4>
-                        <div className="bg-base-200 p-3 rounded-lg">
-                            <label className="flex items-center gap-3 cursor-not-allowed">
-                                <input
-                                    type="checkbox"
-                                    className="checkbox checkbox-sm checkbox-primary"
-                                    checked={true}
-                                    disabled={true}
-                                />
-                                <span className="font-medium">{currentMeetName}</span>
-                                <span className="badge badge-primary badge-sm">Current</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    {/* Other Meets */}
+                    {/* All Meets - Unified List */}
                     <div>
                         <h4 className="font-semibold text-sm mb-2">
-                            {isReadOnly ? "Linked Divisions" : "Select Divisions to Link"}
+                            {isReadOnly || isLinkingLocked ? "Linked Divisions" : "Select Divisions to Link"}
                         </h4>
                         
-                        {otherMeets.length === 0 ? (
+                        {allMeetItems.length === 0 ? (
                             <div className="text-center py-4 text-base-content/60">
                                 <p className="text-sm italic">
-                                    No other divisions available to link.
+                                    No divisions available.
                                 </p>
                             </div>
                         ) : (
-                            <div className="space-y-2 max-h-60 overflow-y-auto">
-                                {otherMeets.map(meet => {
-                                    const meetName = meet.Display.NameOverride || meet.Display.Name;
-                                    const isSelected = selectedMeetIds.has(meet.Display.Id);
-                                    const isLinkedToAnother = meet.LinkedMeetGroupId && 
-                                        !linkedMeetIds.includes(meet.Display.Id) &&
-                                        linkedMeetIds.length > 0;
+                            <div className="space-y-2 max-h-80 overflow-y-auto">
+                                {sortedMeetItems.map(meet => {
+                                    const isSelected = selectedMeetIds.includes(meet.id);
+                                    const orderIndex = getOrderIndex(meet.id);
+                                    const isDragging = draggedId === meet.id;
+                                    const isDragOver = dragOverId === meet.id;
+
+                                    // Determine if this meet can be toggled
+                                    // - Cannot toggle if linking is locked
+                                    // - Cannot toggle the current meet
+                                    // - Cannot toggle if in read-only mode
+                                    // - Cannot check a meet that has scores (but can uncheck if it doesn't have scores)
+                                    const cannotToggleDueToScores = !isSelected && meet.hasScores;
+                                    const isEffectivelyDisabled = isLinkingLocked || meet.isCurrent || isReadOnly || cannotToggleDueToScores;
+
+                                    // Can only drag if selected and not locked
+                                    const canDragEffective = isSelected && !isReadOnly && !isLinkingLocked;
 
                                     return (
                                         <div
-                                            key={meet.Display.Id}
-                                            className={`p-3 rounded-lg border ${
-                                                isSelected ? "bg-primary/10 border-primary" : "bg-base-200 border-transparent"
+                                            key={meet.id}
+                                            className={`p-3 rounded-lg border transition-all ${
+                                                isDragging
+                                                    ? "opacity-50 border-primary bg-primary/5"
+                                                    : isDragOver
+                                                    ? "border-primary border-2 bg-primary/10"
+                                                    : isSelected 
+                                                    ? "bg-primary/10 border-primary" 
+                                                    : "bg-base-200 border-transparent"
                                             }`}
+                                            draggable={canDragEffective}
+                                            onDragStart={(e) => handleDragStart(e, meet.id)}
+                                            onDragOver={(e) => handleDragOver(e, meet.id)}
+                                            onDragLeave={handleDragLeave}
+                                            onDrop={(e) => handleDrop(e, meet.id)}
+                                            onDragEnd={handleDragEnd}
                                         >
-                                            <label className={`flex items-center gap-3 ${isReadOnly ? "cursor-not-allowed" : "cursor-pointer"}`}>
+                                            <label className={`flex items-center gap-3 ${
+                                                isEffectivelyDisabled && !canDragEffective
+                                                    ? "cursor-not-allowed" 
+                                                    : canDragEffective 
+                                                    ? "cursor-grab" 
+                                                    : "cursor-pointer"
+                                            }`}>
+                                                <span className={`w-6 text-center ${
+                                                    canDragEffective 
+                                                        ? "text-base-content/60 hover:text-base-content cursor-grab active:cursor-grabbing" 
+                                                        : "text-base-content/20"
+                                                }`}>
+                                                    <FontAwesomeIcon icon="fas faGripVertical" />
+                                                </span>
                                                 <input
                                                     type="checkbox"
                                                     className="checkbox checkbox-sm checkbox-primary"
                                                     checked={isSelected}
-                                                    onChange={() => handleToggleMeet(meet.Display.Id)}
-                                                    disabled={isReadOnly}
+                                                    onChange={() => handleToggleMeet(meet.id)}
+                                                    disabled={isEffectivelyDisabled}
                                                 />
                                                 <div className="flex-1">
-                                                    <span className="font-medium">{meetName}</span>
-                                                    {isLinkedToAnother && (
+                                                    <span className="font-medium">{meet.name}</span>
+                                                    {meet.isCurrent && (
+                                                        <span className="badge badge-primary badge-sm ml-2">
+                                                            Current
+                                                        </span>
+                                                    )}
+                                                    {meet.hasScores && (
+                                                        <span className="badge badge-error badge-sm ml-2">
+                                                            Has Scores
+                                                        </span>
+                                                    )}
+                                                    {meet.isLinkedToAnother && !meet.hasScores && (
                                                         <span className="badge badge-warning badge-sm ml-2">
                                                             Already Linked
                                                         </span>
                                                     )}
                                                 </div>
+                                                {isSelected && (
+                                                    <span className="badge badge-ghost badge-sm">
+                                                        #{orderIndex + 1}
+                                                    </span>
+                                                )}
                                             </label>
                                         </div>
                                     );
@@ -158,8 +311,22 @@ export default function LinkedMeetsDialog({
                         )}
                     </div>
 
+                    {/* Warning when linking is locked due to scoring */}
+                    {isLinkingLocked && (
+                        <div className="alert alert-warning mt-4">
+                            <FontAwesomeIcon icon="fas faLock" />
+                            <div className="text-sm">
+                                <p className="font-semibold">Linking Locked</p>
+                                <p>
+                                    Division linking cannot be changed because scoring has started
+                                    for one or more linked divisions.
+                                </p>
+                            </div>
+                        </div>
+                    )}
+
                     {/* Warning about shared settings */}
-                    {hasLinkedMeets && !isReadOnly && (
+                    {hasLinkedMeets && !isReadOnly && !isLinkingLocked && (
                         <div className="alert alert-warning mt-4">
                             <FontAwesomeIcon icon="fas faTriangleExclamation" />
                             <div className="text-sm">
@@ -175,14 +342,14 @@ export default function LinkedMeetsDialog({
                 </div>
 
                 <div className="mt-4 text-right gap-2 flex justify-end">
-                    {!isReadOnly && (
+                    {!isReadOnly && !isLinkingLocked && (
                         <button
                             className="btn btn-sm btn-primary"
                             type="button"
                             onClick={handleSave}
                         >
                             <FontAwesomeIcon icon="fas faSave" />
-                            {hasLinkedMeets ? `Link ${selectedMeetIds.size} Divisions` : "Remove Links"}
+                            {hasLinkedMeets ? `Link ${selectedMeetIds.length} Divisions` : "Remove Links"}
                         </button>
                     )}
                     <button
@@ -190,7 +357,7 @@ export default function LinkedMeetsDialog({
                         type="button"
                         onClick={onClose}
                     >
-                        {isReadOnly ? "Close" : "Cancel"}
+                        {isReadOnly || isLinkingLocked ? "Close" : "Cancel"}
                     </button>
                 </div>
             </div>

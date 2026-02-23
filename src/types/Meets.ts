@@ -234,6 +234,12 @@ export enum MeetRankingSortType {
  * Reference to a team or quizzer.
  */
 export interface TeamOrQuizzerReference {
+
+    /**
+     * Prefix for the name.
+     */
+    Prefix: string | null;
+    
     /**
      * Name of the team or quizzer.
      */

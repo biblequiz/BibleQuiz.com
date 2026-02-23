@@ -476,8 +476,8 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
 
     return (
         <div className="space-y-6">
-            <ScoringDatabaseScoreKeepAlert isScoreKeep={currentDatabase?.Settings.IsScoreKeep} />
-            {!currentDatabase!.Settings.IsScoreKeep && (
+            <ScoringDatabaseScoreKeepAlert isScoreKeep={currentDatabase?.IsScoreKeep} />
+            {!currentDatabase!.IsScoreKeep && (
                 <ScoringDatabaseTeamsAndQuizzerImportButtons
                     auth={auth}
                     season={eventSeason}
@@ -546,7 +546,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 teams={getMergedTeams()}
                 quizzers={getMergedQuizzers()}
                 isSaving={isSaving}
-                isReadOnly={currentDatabase!.Settings.IsScoreKeep}
+                isReadOnly={currentDatabase!.IsScoreKeep}
                 hasChanges={isDirty}
                 onAddTeam={handleAddTeam}
                 onEditTeam={handleEditTeam}
@@ -571,7 +571,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     onDiscoveredChurch={church => currentTeamsAndQuizzers!.Churches[church.Id!] = church}
 
                     team={editingTeam}
-                    isReadOnly={currentDatabase!.Settings.IsScoreKeep}
+                    isReadOnly={currentDatabase!.IsScoreKeep}
                     onSave={handleSaveTeam}
                     onCancel={() => {
                         setTeamDialogOpen(false);
@@ -587,7 +587,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     teams={getTeamsList()}
                     excludePeopleId={getAllPeopleIds()}
                     defaultTeamId={defaultTeamIdForQuizzer}
-                    isReadOnly={currentDatabase!.Settings.IsScoreKeep}
+                    isReadOnly={currentDatabase!.IsScoreKeep}
                     onSave={handleSaveQuizzer}
                     onCancel={() => {
                         setQuizzerDialogOpen(false);

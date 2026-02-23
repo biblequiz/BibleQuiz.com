@@ -35,6 +35,7 @@ export default function ScoringDashboardPage({ }: Props) {
                 auth={auth}
                 eventId={eventId}
                 eventType={eventType}
+                isScoreKeep={currentDatabase!.IsScoreKeep || false}
                 settings={JSON.parse(JSON.stringify(currentDatabase!.Settings))}
                 defaultRules={currentDatabase!.DefaultRules || undefined}
                 onSaved={setCurrentDatabase}
@@ -109,28 +110,6 @@ export default function ScoringDashboardPage({ }: Props) {
                                 <p className="text-base mt-1">
                                     View the live scores for the events in this database, even if they aren't
                                     visible to regular users.
-                                </p>
-                            </div>
-                            <FontAwesomeIcon
-                                icon="fas faArrowRight"
-                                classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
-                            />
-                        </div>
-                    </div>
-                </button>
-                <button
-                    type="button"
-                    className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
-                    onClick={() => navigate(`${rootUrl}/playoffs`)}
-                >
-                    <div className="card-body p-2 pl-4">
-                        <div className="flex items-start gap-4">
-                            <div className="flex-1 mt-2 pr-6 text-left">
-                                <h2 className="card-title mb-0 mt-0">
-                                    <FontAwesomeIcon icon="fas faPeopleArrows" /> Playoffs
-                                </h2>
-                                <p className="text-base mt-1">
-                                    Manage playoffs for the divisions in this database.
                                 </p>
                             </div>
                             <FontAwesomeIcon
