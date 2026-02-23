@@ -537,34 +537,36 @@ export default function DivisionScheduleDialog({
                                     <div className="form-control">
                                         <label className="label gap-2 p-0">
                                             <span className="label-text text-sm">Starting Round:</span>
-                                            <input
-                                                type="number"
-                                                className="input input-xs input-bordered w-16"
-                                                value={startingRoundOverride || ""}
+                                            <select
+                                                className="select select-xs select-bordered w-20"
+                                                value={startingRoundOverride ?? ""}
                                                 onChange={(e) => handleStartingRoundChange(e.target.value)}
                                                 disabled={isSaving || isReadOnly}
-                                                min={1}
-                                                placeholder="1"
-                                            />
+                                            >
+                                                <option value="">1</option>
+                                                {(() => {
+                                                    const totalRounds = roundCountOverride ?? (schedulePreview ? Object.keys(schedulePreview.Matches || {}).length : 0);
+                                                    return Array.from({ length: totalRounds }, (_, i) => i + 1).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ));
+                                                })()}
+                                            </select>
                                         </label>
                                     </div>
 
                                     <div className="form-control">
                                         <label className="label gap-2 p-0">
-                                            <span className="label-text text-sm">Round Count:</span>
-                                            <select
-                                                className="select select-xs select-bordered w-24"
-                                                value={roundCountOverride ?? "default"}
+                                            <span className="label-text text-sm">Total Rounds:</span>
+                                            <input
+                                                type="number"
+                                                className="input input-xs input-bordered w-16"
+                                                value={roundCountOverride ?? ""}
                                                 onChange={(e) => handleRoundCountChange(e.target.value)}
-                                                disabled={isSaving || isReadOnly || !schedulePreview || Object.keys(schedulePreview.Matches || {}).length === 0}
-                                            >
-                                                <option value="default">Default</option>
-                                                {schedulePreview && Object.keys(schedulePreview.Matches || {}).length > 0 &&
-                                                    Array.from({ length: Object.keys(schedulePreview.Matches).length }, (_, i) => i + 1).map(num => (
-                                                        <option key={num} value={num}>{num}</option>
-                                                    ))
-                                                }
-                                            </select>
+                                                disabled={isSaving || isReadOnly}
+                                                min={1}
+                                                step={1}
+                                                placeholder=""
+                                            />
                                         </label>
                                     </div>
                                 </div>
