@@ -155,22 +155,26 @@ export async function getAppReleaseManifest(
   const versionFileNames = await getFilesByWildcard(
     path.resolve(ROOT_SOURCE_PATH, "releases", productName),
     "**/v*.json");
+    const versionFiles = versionFileNames.map(file => ({
+      file,
+      version: getNormalizedVersion(file)
+    }));
 
   // Sort versions in descending order.
-  versionFileNames.sort((a, b) => b.localeCompare(a));
+  versionFiles.sort((a, b) => b.version.localeCompare(a.version));
 
   // Extract the latest stable and prerelease versions.
   let latestStable: AppReleaseManifest | null = null;
   let latestBeta: AppReleaseManifest | null = null;
   const previousReleases: AppReleaseManifest[] = [];
-  for (const fileName of versionFileNames) {
-    const releaseData = await tryReadFileAsJson<GitHubRelease>(fileName);
+  for (const { file } of versionFiles) {
+    const releaseData = await tryReadFileAsJson<GitHubRelease>(file);
     if (!releaseData || releaseData.draft) {
       continue;
     }
 
     for (const asset of releaseData.assets) {
-      const assetPlatform = getAppPlatform(fileName, asset);
+      const assetPlatform = getAppPlatform(file, asset);
       if (assetPlatform !== platform) {
         continue;
       }
@@ -246,6 +250,11 @@ function getAppPlatform(versionFileName: string, asset: GitHubReleaseAsset): App
     default:
       return null;
   }
+}
+
+function getNormalizedVersion(versionFilePath: string) : string {
+  const parts = path.basename(versionFilePath, path.extname(versionFilePath)).split('.');
+  return `${parts[0].padStart(4, '0')}.${parts[1].padStart(2, '0')}.${parts[2].padStart(2, '0')}.${parts[3].padStart(4, '0')}`;
 }
 
 /**
