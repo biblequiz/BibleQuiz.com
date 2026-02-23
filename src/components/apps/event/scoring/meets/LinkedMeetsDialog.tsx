@@ -6,6 +6,7 @@ interface Props {
     currentMeetId: number;
     allMeets: OnlineDatabaseMeetSummary[];
     linkedMeetIds: number[];
+    meetsWithScores: number[];
     isReadOnly: boolean;
     onSave: (linkedMeetIds: number[]) => void;
     onClose: () => void;
@@ -20,6 +21,7 @@ export default function LinkedMeetsDialog({
     currentMeetId,
     allMeets,
     linkedMeetIds,
+    meetsWithScores,
     isReadOnly,
     onSave,
     onClose
@@ -40,6 +42,12 @@ export default function LinkedMeetsDialog({
     // Drag state
     const [draggedId, setDraggedId] = useState<number | null>(null);
     const [dragOverId, setDragOverId] = useState<number | null>(null);
+
+    // Create a Set for faster lookup of meets with scores
+    const meetsWithScoresSet = new Set(meetsWithScores);
+
+    // Determine if linking is locked (any currently linked division has scores)
+    const isLinkingLocked = linkedMeetIds.some(id => meetsWithScoresSet.has(id));
 
     // Get the order of a meet in the selected list (for display purposes)
     const getOrderIndex = (meetId: number): number => {
@@ -145,7 +153,8 @@ export default function LinkedMeetsDialog({
         isCurrent: meet.Display.Id === currentMeetId,
         isLinkedToAnother: meet.LinkedMeetGroupId && 
             !linkedMeetIds.includes(meet.Display.Id) &&
-            linkedMeetIds.length > 0
+            linkedMeetIds.length > 0,
+        hasScores: meetsWithScoresSet.has(meet.Display.Id)
     }));
 
     // Sort: checked items first (in their order), then unchecked alphabetically
@@ -191,7 +200,7 @@ export default function LinkedMeetsDialog({
                                 from different divisions to play against each other in a
                                 combined round-robin schedule.
                             </p>
-                            {!isReadOnly && hasLinkedMeets && (
+                            {!isReadOnly && !isLinkingLocked && hasLinkedMeets && (
                                 <p className="mt-1 text-info-content/80">
                                     <FontAwesomeIcon icon="fas faGripVertical" classNames={["mr-1"]} />
                                     Drag checked divisions to reorder them.
@@ -203,7 +212,7 @@ export default function LinkedMeetsDialog({
                     {/* All Meets - Unified List */}
                     <div>
                         <h4 className="font-semibold text-sm mb-2">
-                            {isReadOnly ? "Linked Divisions" : "Select Divisions to Link"}
+                            {isReadOnly || isLinkingLocked ? "Linked Divisions" : "Select Divisions to Link"}
                         </h4>
                         
                         {allMeetItems.length === 0 ? (
@@ -219,8 +228,17 @@ export default function LinkedMeetsDialog({
                                     const orderIndex = getOrderIndex(meet.id);
                                     const isDragging = draggedId === meet.id;
                                     const isDragOver = dragOverId === meet.id;
-                                    const canDrag = isSelected && !isReadOnly;
-                                    const isCheckboxDisabled = meet.isCurrent || isReadOnly;
+
+                                    // Determine if this meet can be toggled
+                                    // - Cannot toggle if linking is locked
+                                    // - Cannot toggle the current meet
+                                    // - Cannot toggle if in read-only mode
+                                    // - Cannot check a meet that has scores (but can uncheck if it doesn't have scores)
+                                    const cannotToggleDueToScores = !isSelected && meet.hasScores;
+                                    const isEffectivelyDisabled = isLinkingLocked || meet.isCurrent || isReadOnly || cannotToggleDueToScores;
+
+                                    // Can only drag if selected and not locked
+                                    const canDragEffective = isSelected && !isReadOnly && !isLinkingLocked;
 
                                     return (
                                         <div
@@ -234,7 +252,7 @@ export default function LinkedMeetsDialog({
                                                     ? "bg-primary/10 border-primary" 
                                                     : "bg-base-200 border-transparent"
                                             }`}
-                                            draggable={canDrag}
+                                            draggable={canDragEffective}
                                             onDragStart={(e) => handleDragStart(e, meet.id)}
                                             onDragOver={(e) => handleDragOver(e, meet.id)}
                                             onDragLeave={handleDragLeave}
@@ -242,14 +260,14 @@ export default function LinkedMeetsDialog({
                                             onDragEnd={handleDragEnd}
                                         >
                                             <label className={`flex items-center gap-3 ${
-                                                isCheckboxDisabled && !canDrag
+                                                isEffectivelyDisabled && !canDragEffective
                                                     ? "cursor-not-allowed" 
-                                                    : canDrag 
+                                                    : canDragEffective 
                                                     ? "cursor-grab" 
                                                     : "cursor-pointer"
                                             }`}>
                                                 <span className={`w-6 text-center ${
-                                                    canDrag 
+                                                    canDragEffective 
                                                         ? "text-base-content/60 hover:text-base-content cursor-grab active:cursor-grabbing" 
                                                         : "text-base-content/20"
                                                 }`}>
@@ -260,7 +278,7 @@ export default function LinkedMeetsDialog({
                                                     className="checkbox checkbox-sm checkbox-primary"
                                                     checked={isSelected}
                                                     onChange={() => handleToggleMeet(meet.id)}
-                                                    disabled={isCheckboxDisabled}
+                                                    disabled={isEffectivelyDisabled}
                                                 />
                                                 <div className="flex-1">
                                                     <span className="font-medium">{meet.name}</span>
@@ -269,7 +287,12 @@ export default function LinkedMeetsDialog({
                                                             Current
                                                         </span>
                                                     )}
-                                                    {meet.isLinkedToAnother && (
+                                                    {meet.hasScores && (
+                                                        <span className="badge badge-error badge-sm ml-2">
+                                                            Has Scores
+                                                        </span>
+                                                    )}
+                                                    {meet.isLinkedToAnother && !meet.hasScores && (
                                                         <span className="badge badge-warning badge-sm ml-2">
                                                             Already Linked
                                                         </span>
@@ -288,8 +311,22 @@ export default function LinkedMeetsDialog({
                         )}
                     </div>
 
+                    {/* Warning when linking is locked due to scoring */}
+                    {isLinkingLocked && (
+                        <div className="alert alert-warning mt-4">
+                            <FontAwesomeIcon icon="fas faLock" />
+                            <div className="text-sm">
+                                <p className="font-semibold">Linking Locked</p>
+                                <p>
+                                    Division linking cannot be changed because scoring has started
+                                    for one or more linked divisions.
+                                </p>
+                            </div>
+                        </div>
+                    )}
+
                     {/* Warning about shared settings */}
-                    {hasLinkedMeets && !isReadOnly && (
+                    {hasLinkedMeets && !isReadOnly && !isLinkingLocked && (
                         <div className="alert alert-warning mt-4">
                             <FontAwesomeIcon icon="fas faTriangleExclamation" />
                             <div className="text-sm">
@@ -305,7 +342,7 @@ export default function LinkedMeetsDialog({
                 </div>
 
                 <div className="mt-4 text-right gap-2 flex justify-end">
-                    {!isReadOnly && (
+                    {!isReadOnly && !isLinkingLocked && (
                         <button
                             className="btn btn-sm btn-primary"
                             type="button"
@@ -320,7 +357,7 @@ export default function LinkedMeetsDialog({
                         type="button"
                         onClick={onClose}
                     >
-                        {isReadOnly ? "Close" : "Cancel"}
+                        {isReadOnly || isLinkingLocked ? "Close" : "Cancel"}
                     </button>
                 </div>
             </div>

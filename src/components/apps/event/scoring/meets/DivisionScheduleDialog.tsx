@@ -719,6 +719,7 @@ export default function DivisionScheduleDialog({
                     currentMeetId={meetId}
                     allMeets={allMeets}
                     linkedMeetIds={linkedMeetIds}
+                    meetsWithScores={settings?.AllMeetsWithScores ?? []}
                     isReadOnly={isReadOnly}
                     onSave={handleLinkedMeetsSave}
                     onClose={() => setShowLinkedMeetsDialog(false)}
