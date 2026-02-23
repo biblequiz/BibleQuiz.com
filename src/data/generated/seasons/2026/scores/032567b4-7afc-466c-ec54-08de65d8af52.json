@@ -1,5 +1,5 @@
 {
-  "EventName": "NTX - FW/S Dallas Area - January 2026 Meet",
+  "EventName": "NTX - FW/S Dallas Area - February 2026 Meet",
   "DatabaseNames": {
     "2264d487-eed0-4237-b168-9f6d09f1e5e6": "2025-2026_NTX_-_FWSD"
   },
@@ -7,13 +7,13 @@
     "Meets": [
       {
         "DatabaseId": "2264d487-eed0-4237-b168-9f6d09f1e5e6",
-        "MeetId": 11,
+        "MeetId": 16,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "03 - Jan Adv",
-        "LastUpdated": "2/19/26 12:20 AM",
-        "DatabaseLastUpdated": "2026-02-18T23:39:52.1793913+00:00",
+        "Name": "04 - Feb Adv",
+        "LastUpdated": "2/21/26 5:09 PM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:50.7758015+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -26,95 +26,24 @@
               16
             ],
             "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "01",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 2
-              },
+              null,
               {
                 "Result": "W",
                 "RoomId": 2,
                 "Room": "02",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 150,
+                "Score": 235,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "02",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
                 "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "01",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 4
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "02",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_5",
-            "Name": "Bible Buzzing Bros",
-            "ChurchId": null,
-            "ChurchName": "Trinity Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 2,
-              "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 520,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 130.0,
-              "AverageCorrect": 9.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 26,
-              "Correct20s": 8,
-              "Correct30s": 5,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              4,
-              5,
-              10
-            ],
-            "Matches": [
-              null,
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "02",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "02",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -131,9 +60,80 @@
                 "Room": "01",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
+                "Score": 115,
                 "OtherTeam": 4
               }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_5",
+            "Name": "Bible Buzzing Bros",
+            "ChurchId": null,
+            "ChurchName": "Trinity Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 148.8,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 15,
+              "Correct20s": 12,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              5,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "01",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "01",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "02",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "02",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 4
+              },
+              null
             ],
             "CurrentMatchId": null,
             "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_2",
@@ -143,20 +143,20 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 0,
-              "Losses": 4,
-              "WinPercentage": 0,
-              "Rank": 5,
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 290,
+              "TotalPoints": 545,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 72.5,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 74,
-              "Correct10s": 10,
-              "Correct20s": 13,
-              "Correct30s": 0,
+              "AveragePoints": 136.2,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 17,
+              "Correct20s": 16,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           },
@@ -174,25 +174,7 @@
                 "Room": "01",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "01",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "02",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
+                "Score": 50,
                 "OtherTeam": 1
               },
               {
@@ -201,10 +183,28 @@
                 "Room": "02",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 105,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "01",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
                 "OtherTeam": 4
               },
-              null
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "02",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 3
+              }
             ],
             "CurrentMatchId": null,
             "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_4",
@@ -214,21 +214,21 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 2,
-              "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 4,
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 510,
+              "TotalPoints": 265,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 127.5,
-              "AverageCorrect": 7.2,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 12,
-              "Correct20s": 11,
-              "Correct30s": 6,
-              "FootnoteIndex": 0
+              "AveragePoints": 66.2,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 13,
+              "Correct20s": 6,
+              "Correct30s": 2,
+              "FootnoteIndex": null
             }
           },
           {
@@ -240,22 +240,22 @@
             ],
             "Matches": [
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "02",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 150,
+                "Score": 85,
                 "OtherTeam": 4
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "01",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 2
+                "Score": 125,
+                "OtherTeam": 1
               },
               null,
               {
@@ -264,8 +264,8 @@
                 "Room": "01",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 1
+                "Score": 160,
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -273,8 +273,8 @@
                 "Room": "02",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 0
+                "Score": 170,
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -288,18 +288,18 @@
               "Wins": 3,
               "Losses": 1,
               "WinPercentage": 75,
-              "Rank": 1,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 655,
+              "TotalPoints": 540,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 163.8,
-              "AverageCorrect": 11.2,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 28,
-              "Correct20s": 14,
+              "AveragePoints": 135.0,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 31,
+              "Correct20s": 10,
               "Correct30s": 3,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -311,12 +311,12 @@
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "02",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 90,
+                "Score": 240,
                 "OtherTeam": 3
               },
               null,
@@ -326,8 +326,8 @@
                 "Room": "01",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 0
+                "Score": 250,
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -335,8 +335,8 @@
                 "Room": "02",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 2
+                "Score": 205,
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -344,8 +344,8 @@
                 "Room": "01",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 225,
-                "OtherTeam": 1
+                "Score": 160,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -356,37 +356,32 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 3,
-              "Losses": 1,
-              "WinPercentage": 75,
-              "Rank": 2,
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 715,
+              "TotalPoints": 855,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 178.8,
-              "AverageCorrect": 10.5,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 17,
-              "Correct20s": 15,
+              "AveragePoints": 213.8,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 19,
+              "Correct20s": 18,
               "Correct30s": 10,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
-          3,
           4,
+          3,
+          1,
           0,
-          2,
-          1
+          2
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by head-to-head record of teams."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "The Truth Tribe",
@@ -398,17 +393,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 4,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 285,
+              "TotalPoints": 310,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 71.2,
-              "AverageCorrect": 5.5,
+              "AveragePoints": 77.5,
+              "AverageCorrect": 5.8,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 18,
-              "Correct20s": 3,
-              "Correct30s": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 20,
+              "Correct20s": 1,
+              "Correct30s": 2,
               "FootnoteIndex": null
             }
           },
@@ -422,7 +417,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 12,
+              "Rank": 13,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -433,7 +428,7 @@
               "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -446,18 +441,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 0,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -470,17 +465,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 7,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 220,
+              "TotalPoints": 340,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 55.0,
-              "AverageCorrect": 2.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 0,
-              "Correct20s": 6,
-              "Correct30s": 5,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 3,
+              "Correct20s": 4,
+              "Correct30s": 9,
               "FootnoteIndex": null
             }
           },
@@ -494,18 +489,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 12,
-              "IsTie": true,
-              "TotalPoints": 10,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 145,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "AveragePoints": 36.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 14,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -518,17 +513,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 6,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 225,
+              "TotalPoints": 400,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 56.2,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 70,
+              "AveragePoints": 100.0,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
               "Correct10s": 3,
-              "Correct20s": 13,
-              "Correct30s": 0,
+              "Correct20s": 16,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           },
@@ -543,7 +538,7 @@
             "State": null,
             "Scores": {
               "Rank": 14,
-              "IsTie": true,
+              "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -566,16 +561,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 8,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 165,
+              "TotalPoints": 240,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 41.2,
-              "AverageCorrect": 3.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 14,
-              "Correct20s": 1,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 10,
+              "Correct20s": 8,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -614,17 +609,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 2,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 430,
+              "TotalPoints": 175,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 107.5,
-              "AverageCorrect": 5.2,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 84,
+              "AveragePoints": 43.8,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
               "Correct10s": 4,
-              "Correct20s": 11,
-              "Correct30s": 6,
+              "Correct20s": 6,
+              "Correct30s": 2,
               "FootnoteIndex": null
             }
           },
@@ -638,18 +633,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 55,
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 13.8,
-              "AverageCorrect": 1.5,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 6,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -664,14 +659,14 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 460,
+              "TotalPoints": 540,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 115.0,
-              "AverageCorrect": 5.0,
+              "AveragePoints": 135.0,
+              "AverageCorrect": 5.8,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 77,
+              "QuestionCorrectPercentage": 85,
               "Correct10s": 0,
-              "Correct20s": 10,
+              "Correct20s": 13,
               "Correct30s": 10,
               "FootnoteIndex": null
             }
@@ -710,17 +705,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 3,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 370,
+              "TotalPoints": 210,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 92.5,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 10,
-              "Correct20s": 11,
-              "Correct30s": 2,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 9,
+              "Correct20s": 9,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -734,15 +729,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 5,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 255,
+              "TotalPoints": 315,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 63.8,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 17,
+              "AveragePoints": 78.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 19,
               "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -760,13 +755,13 @@
             "Scores": {
               "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 70,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 17.5,
-              "AverageCorrect": 1.8,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 7,
+              "Correct10s": 8,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -782,16 +777,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 9,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 135,
+              "TotalPoints": 15,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 33.8,
-              "AverageCorrect": 3.2,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 12,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -799,21 +794,21 @@
         ],
         "RankedQuizzers": [
           11,
-          9,
-          13,
-          0,
-          14,
           5,
           3,
+          14,
+          0,
           7,
-          16,
-          15,
-          10,
-          1,
+          13,
+          9,
           4,
+          15,
           2,
+          16,
+          1,
           6,
           8,
+          10,
           12
         ],
         "QuizzerFootnotes": [
@@ -830,7 +825,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 1,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -839,7 +834,23 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
                 "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -848,22 +859,6 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -875,8 +870,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -884,22 +879,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -907,8 +886,24 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 1,
                 "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -928,25 +923,25 @@
           },
           {
             "Id": 2,
-            "MatchTime": "09:25 AM",
+            "MatchTime": "09:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 3,
-            "MatchTime": "09:50 AM",
+            "MatchTime": "10:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 4,
-            "MatchTime": "10:15 AM",
+            "MatchTime": "10:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 5,
-            "MatchTime": "10:40 AM",
+            "MatchTime": "11:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -962,13 +957,13 @@
       },
       {
         "DatabaseId": "2264d487-eed0-4237-b168-9f6d09f1e5e6",
-        "MeetId": 12,
+        "MeetId": 17,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "03 - Jan Int",
-        "LastUpdated": "2/19/26 12:20 AM",
-        "DatabaseLastUpdated": "2026-02-18T23:39:52.1793913+00:00",
+        "Name": "04 - Feb Int",
+        "LastUpdated": "2/21/26 5:09 PM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:50.7758015+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -986,7 +981,7 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 100,
+                "Score": 105,
                 "OtherTeam": 3
               },
               {
@@ -995,7 +990,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 130,
+                "Score": 145,
                 "OtherTeam": 5
               },
               {
@@ -1004,7 +999,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 120,
+                "Score": 140,
                 "OtherTeam": 2
               },
               {
@@ -1013,7 +1008,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 160,
+                "Score": 230,
                 "OtherTeam": 1
               },
               {
@@ -1022,7 +1017,7 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
+                "Score": 125,
                 "OtherTeam": 4
               }
             ],
@@ -1039,15 +1034,15 @@
               "WinPercentage": 80,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 620,
+              "TotalPoints": 745,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 124.0,
-              "AverageCorrect": 7.4,
+              "AveragePoints": 149.0,
+              "AverageCorrect": 9.0,
               "QuizOuts": 5,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 17,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 22,
               "Correct20s": 19,
-              "Correct30s": 1,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -1067,7 +1062,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 30,
+                "Score": 0,
                 "OtherTeam": 5
               },
               {
@@ -1085,7 +1080,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 30,
+                "Score": 20,
                 "OtherTeam": 4
               },
               {
@@ -1094,7 +1089,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 10,
+                "Score": 0,
                 "OtherTeam": 0
               },
               {
@@ -1103,7 +1098,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 30,
                 "OtherTeam": 3
               }
             ],
@@ -1120,14 +1115,14 @@
               "WinPercentage": 0,
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 90,
+              "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 18.0,
-              "AverageCorrect": 1.6,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 7,
-              "Correct20s": 1,
+              "Correct10s": 1,
+              "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1146,7 +1141,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 50,
+                "Score": 70,
                 "OtherTeam": 4
               },
               {
@@ -1155,7 +1150,7 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 90,
+                "Score": 110,
                 "OtherTeam": 1
               },
               {
@@ -1164,7 +1159,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
+                "Score": 100,
                 "OtherTeam": 0
               },
               {
@@ -1177,12 +1172,12 @@
                 "OtherTeam": 3
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 50,
+                "Score": 85,
                 "OtherTeam": 5
               }
             ],
@@ -1194,19 +1189,19 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 2,
-              "Losses": 3,
-              "WinPercentage": 40,
-              "Rank": 4,
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 320,
+              "TotalPoints": 415,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 64.0,
-              "AverageCorrect": 4.4,
+              "AveragePoints": 83.0,
+              "AverageCorrect": 5.2,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 15,
-              "Correct20s": 6,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 13,
+              "Correct20s": 12,
               "Correct30s": 1,
               "FootnoteIndex": null
             }
@@ -1226,7 +1221,7 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 115,
+                "Score": 160,
                 "OtherTeam": 0
               },
               {
@@ -1235,7 +1230,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 130,
+                "Score": 125,
                 "OtherTeam": 4
               },
               {
@@ -1244,7 +1239,7 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
+                "Score": 140,
                 "OtherTeam": 5
               },
               {
@@ -1253,7 +1248,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 165,
+                "Score": 145,
                 "OtherTeam": 2
               },
               {
@@ -1262,7 +1257,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 120,
+                "Score": 135,
                 "OtherTeam": 1
               }
             ],
@@ -1279,15 +1274,15 @@
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 610,
+              "TotalPoints": 705,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 122.0,
-              "AverageCorrect": 9.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 33,
-              "Correct20s": 15,
-              "Correct30s": 1,
+              "AveragePoints": 141.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 31,
+              "Correct20s": 16,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           },
@@ -1307,7 +1302,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 40,
+                "Score": 45,
                 "OtherTeam": 2
               },
               {
@@ -1316,7 +1311,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 15,
                 "OtherTeam": 3
               },
               {
@@ -1325,16 +1320,16 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
+                "Score": 70,
                 "OtherTeam": 1
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 3,
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 10,
+                "Score": 95,
                 "OtherTeam": 5
               },
               {
@@ -1343,7 +1338,7 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
+                "Score": 50,
                 "OtherTeam": 0
               }
             ],
@@ -1355,20 +1350,20 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 1,
-              "Losses": 4,
-              "WinPercentage": 20,
-              "Rank": 5,
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 210,
+              "TotalPoints": 275,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 42.0,
-              "AverageCorrect": 4.0,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 4.8,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 18,
-              "Correct20s": 2,
-              "Correct30s": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 19,
+              "Correct20s": 4,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -1388,7 +1383,7 @@
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 85,
+                "Score": 120,
                 "OtherTeam": 1
               },
               {
@@ -1397,7 +1392,7 @@
                 "Room": "04",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
+                "Score": 90,
                 "OtherTeam": 0
               },
               {
@@ -1406,25 +1401,25 @@
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 40,
+                "Score": 55,
                 "OtherTeam": 3
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 3,
                 "Room": "05",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 100,
+                "Score": 85,
                 "OtherTeam": 4
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "03",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 65,
+                "Score": 45,
                 "OtherTeam": 2
               }
             ],
@@ -1436,19 +1431,19 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
-              "Rank": 3,
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 345,
+              "TotalPoints": 395,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 69.0,
-              "AverageCorrect": 6.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 76,
-              "Correct10s": 22,
-              "Correct20s": 8,
+              "AveragePoints": 79.0,
+              "AverageCorrect": 6.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 26,
+              "Correct20s": 6,
               "Correct30s": 1,
               "FootnoteIndex": null
             }
@@ -1457,9 +1452,9 @@
         "RankedTeams": [
           3,
           0,
-          5,
           2,
           4,
+          5,
           1
         ],
         "TeamFootnotes": [],
@@ -1474,18 +1469,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 11,
+              "Rank": 15,
               "IsTie": false,
-              "TotalPoints": 50,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1498,17 +1493,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 13,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 15,
+              "TotalPoints": 40,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.0,
+              "AveragePoints": 8.0,
               "AverageCorrect": 0.4,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 67,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -1522,16 +1517,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 9,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": 110,
               "PerMeetTotalPoints": null,
               "AveragePoints": 22.0,
-              "AverageCorrect": 1.4,
+              "AverageCorrect": 1.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 4,
+              "Correct10s": 1,
+              "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1546,16 +1541,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 5,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 170,
+              "TotalPoints": 185,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 34.0,
-              "AverageCorrect": 3.4,
-              "QuizOuts": 0,
+              "AveragePoints": 37.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
               "QuestionCorrectPercentage": 89,
-              "Correct10s": 15,
-              "Correct20s": 2,
+              "Correct10s": 13,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1572,14 +1567,14 @@
             "Scores": {
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 320,
+              "TotalPoints": 415,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 64.0,
-              "AverageCorrect": 4.4,
+              "AveragePoints": 83.0,
+              "AverageCorrect": 5.2,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 15,
-              "Correct20s": 6,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 13,
+              "Correct20s": 12,
               "Correct30s": 1,
               "FootnoteIndex": null
             }
@@ -1594,8 +1589,8 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
-              "IsTie": false,
+              "Rank": 15,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -1605,7 +1600,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1620,15 +1615,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 510,
+              "TotalPoints": 540,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 102.0,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 5,
+              "AveragePoints": 108.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
               "QuestionCorrectPercentage": 94,
-              "Correct10s": 14,
-              "Correct20s": 15,
-              "Correct30s": 1,
+              "Correct10s": 11,
+              "Correct20s": 14,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -1642,17 +1637,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 6,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 145,
+              "TotalPoints": 270,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 29.0,
-              "AverageCorrect": 2.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 6,
-              "Correct20s": 5,
-              "Correct30s": 0,
+              "AveragePoints": 54.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 4,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -1666,16 +1661,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 12,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 40,
+              "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.0,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 4,
-              "Correct20s": 0,
+              "Correct10s": 1,
+              "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1690,17 +1685,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 8,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 115,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 23.0,
-              "AverageCorrect": 1.6,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 5,
-              "Correct20s": 2,
-              "Correct30s": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -1714,7 +1709,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1725,7 +1720,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1738,18 +1733,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 85,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "AveragePoints": 17.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             }
           },
           {
@@ -1762,7 +1757,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1773,7 +1768,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1786,7 +1781,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1797,7 +1792,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1811,17 +1806,17 @@
             "State": null,
             "Scores": {
               "Rank": 14,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "IsTie": false,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             }
           },
           {
@@ -1834,15 +1829,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 85,
+              "TotalPoints": 25,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 17.0,
-              "AverageCorrect": 2.4,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 63,
-              "Correct10s": 11,
+              "QuestionCorrectPercentage": 44,
+              "Correct10s": 3,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -1858,7 +1853,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1869,7 +1864,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1882,7 +1877,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1893,7 +1888,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1906,18 +1901,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 3,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 320,
+              "TotalPoints": 255,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 64.0,
-              "AverageCorrect": 3.8,
+              "AveragePoints": 51.0,
+              "AverageCorrect": 3.2,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 5,
-              "Correct20s": 13,
-              "Correct30s": 1,
-              "FootnoteIndex": 0
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 6,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
             }
           },
           {
@@ -1930,7 +1925,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1941,7 +1936,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1954,7 +1949,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1965,7 +1960,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1978,7 +1973,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1989,7 +1984,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2002,7 +1997,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2013,7 +2008,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2026,16 +2021,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 4,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 195,
+              "TotalPoints": 235,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 39.0,
-              "AverageCorrect": 3.6,
+              "AveragePoints": 47.0,
+              "AverageCorrect": 4.4,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 16,
-              "Correct20s": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 19,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -2050,7 +2045,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 15,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2061,7 +2056,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2074,17 +2069,17 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 7,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 120,
+              "TotalPoints": 265,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 24.0,
-              "AverageCorrect": 2.6,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 13,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "AveragePoints": 53.0,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 12,
+              "Correct20s": 3,
+              "Correct30s": 3,
               "FootnoteIndex": null
             }
           }
@@ -2092,23 +2087,23 @@
         "RankedQuizzers": [
           6,
           4,
+          7,
+          25,
           18,
           23,
           3,
-          7,
-          25,
-          9,
           2,
-          15,
-          0,
+          9,
+          11,
           8,
           1,
+          15,
+          14,
+          0,
           5,
           10,
-          11,
           12,
           13,
-          14,
           16,
           17,
           19,
@@ -2120,10 +2115,6 @@
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
-            "Text": "Tie broken by total quiz outs."
-          },
-          {
-            "Symbol": "**",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -2167,8 +2158,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -2249,8 +2240,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2278,25 +2269,25 @@
           },
           {
             "Id": 2,
-            "MatchTime": "09:25 AM",
+            "MatchTime": "09:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 3,
-            "MatchTime": "09:50 AM",
+            "MatchTime": "10:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 4,
-            "MatchTime": "10:15 AM",
+            "MatchTime": "10:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 5,
-            "MatchTime": "10:40 AM",
+            "MatchTime": "11:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -2312,13 +2303,13 @@
       },
       {
         "DatabaseId": "2264d487-eed0-4237-b168-9f6d09f1e5e6",
-        "MeetId": 14,
+        "MeetId": 18,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "03 - Jan Beg A",
-        "LastUpdated": "2/19/26 12:20 AM",
-        "DatabaseLastUpdated": "2026-02-18T23:39:52.1793913+00:00",
+        "Name": "04 - Feb Beg A",
+        "LastUpdated": "2/21/26 5:09 PM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:50.7758015+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -2332,13 +2323,13 @@
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 3,
                 "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 5
+                "Score": 105,
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -2346,7 +2337,16 @@
                 "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 135,
+                "Score": 145,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "06",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
                 "OtherTeam": 2
               },
               {
@@ -2355,16 +2355,7 @@
                 "Room": "06",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "06",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
+                "Score": 160,
                 "OtherTeam": 1
               },
               {
@@ -2373,7 +2364,7 @@
                 "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 110,
+                "Score": 115,
                 "OtherTeam": 4
               }
             ],
@@ -2385,21 +2376,21 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 4,
-              "Losses": 1,
-              "WinPercentage": 80,
-              "Rank": 3,
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 505,
+              "TotalPoints": 705,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 101.0,
-              "AverageCorrect": 10.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 48,
-              "Correct20s": 2,
+              "AveragePoints": 141.0,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 53,
+              "Correct20s": 7,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2417,17 +2408,17 @@
                 "Room": "06",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 160,
-                "OtherTeam": 2
+                "Score": 85,
+                "OtherTeam": 5
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 3,
                 "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 3
+                "Score": 150,
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -2435,7 +2426,7 @@
                 "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 65,
+                "Score": 120,
                 "OtherTeam": 4
               },
               {
@@ -2444,7 +2435,7 @@
                 "Room": "06",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 30,
                 "OtherTeam": 0
               },
               {
@@ -2453,8 +2444,8 @@
                 "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 5
+                "Score": 70,
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -2465,19 +2456,19 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 2,
-              "Losses": 3,
-              "WinPercentage": 40,
-              "Rank": 4,
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 355,
+              "TotalPoints": 455,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 71.0,
-              "AverageCorrect": 7.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 34,
-              "Correct20s": 2,
+              "AveragePoints": 91.0,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 37,
+              "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -2492,17 +2483,26 @@
             "Matches": [
               {
                 "Result": "L",
-                "RoomId": 1,
-                "Room": "06",
+                "RoomId": 2,
+                "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "08",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
                 "OtherTeam": 1
               },
               {
                 "Result": "L",
-                "RoomId": 2,
-                "Room": "07",
+                "RoomId": 1,
+                "Room": "06",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
@@ -2510,21 +2510,12 @@
               },
               {
                 "Result": "L",
-                "RoomId": 3,
-                "Room": "08",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "08",
+                "RoomId": 2,
+                "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -2533,7 +2524,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 3
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -2549,14 +2540,14 @@
               "WinPercentage": 0,
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 50,
+              "TotalPoints": 60,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
+              "AveragePoints": 12.0,
               "AverageCorrect": 1.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 5,
-              "Correct20s": 0,
+              "Correct10s": 4,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -2571,12 +2562,21 @@
             ],
             "Matches": [
               {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "07",
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 160,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "06",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
                 "OtherTeam": 4
               },
               {
@@ -2585,17 +2585,17 @@
                 "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 1
+                "Score": 140,
+                "OtherTeam": 5
               },
               {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "06",
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 0
+                "Score": 185,
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -2604,16 +2604,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 85,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "06",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 2
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -2629,16 +2620,16 @@
               "WinPercentage": 80,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 575,
+              "TotalPoints": 560,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 115.0,
-              "AverageCorrect": 9.4,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 36,
-              "Correct20s": 11,
+              "AveragePoints": 112.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 42,
+              "Correct20s": 8,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2653,13 +2644,13 @@
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
+                "Score": 90,
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -2667,8 +2658,8 @@
                 "Room": "06",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 5
+                "Score": 70,
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -2676,17 +2667,8 @@
                 "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
+                "Score": 65,
                 "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "08",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -2694,7 +2676,16 @@
                 "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 50,
+                "Score": 70,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "08",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
                 "OtherTeam": 0
               }
             ],
@@ -2711,12 +2702,12 @@
               "WinPercentage": 20,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 320,
+              "TotalPoints": 365,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 64.0,
+              "AveragePoints": 73.0,
               "AverageCorrect": 6.4,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 80,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
               "Correct10s": 32,
               "Correct20s": 0,
               "Correct30s": 0,
@@ -2732,31 +2723,13 @@
             ],
             "Matches": [
               {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "08",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "06",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "08",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 2
+                "Score": 65,
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -2764,17 +2737,35 @@
                 "Room": "07",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 80,
+                "Score": 40,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "08",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
                 "OtherTeam": 3
               },
               {
                 "Result": "W",
-                "RoomId": 2,
-                "Room": "07",
+                "RoomId": 3,
+                "Room": "08",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 1
+                "Score": 130,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "06",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -2785,38 +2776,33 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 4,
-              "Losses": 1,
-              "WinPercentage": 80,
-              "Rank": 1,
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 625,
+              "TotalPoints": 440,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 125.0,
-              "AverageCorrect": 10.2,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 43,
-              "Correct20s": 8,
+              "AveragePoints": 88.0,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 34,
+              "Correct20s": 5,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
-          5,
-          3,
           0,
+          3,
           1,
+          5,
           4,
           2
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each team."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Dino-Might Quizzers",
@@ -2828,16 +2814,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
-              "IsTie": true,
-              "TotalPoints": 20,
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 4.0,
-              "AverageCorrect": 0.6,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 43,
-              "Correct10s": 1,
-              "Correct20s": 2,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
             }
@@ -2852,18 +2838,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 25,
               "IsTie": false,
-              "TotalPoints": 20,
+              "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 4.0,
-              "AverageCorrect": 0.4,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -2876,8 +2862,8 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
-              "IsTie": false,
+              "Rank": 17,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -2900,18 +2886,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 5,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 1.0,
+              "AveragePoints": 2.0,
               "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
+              "QuestionCorrectPercentage": 100,
               "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2924,15 +2910,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 3,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 295,
+              "TotalPoints": 345,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 59.0,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 29,
+              "AveragePoints": 69.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 30,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2948,7 +2934,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
+              "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2972,7 +2958,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
+              "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2996,16 +2982,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 8,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 155,
+              "TotalPoints": 165,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 31.0,
-              "AverageCorrect": 2.6,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 10,
-              "Correct20s": 3,
+              "AveragePoints": 33.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 17,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3020,16 +3006,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 11,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 55,
+              "TotalPoints": 170,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.0,
-              "AverageCorrect": 1.2,
+              "AveragePoints": 34.0,
+              "AverageCorrect": 2.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 6,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3044,15 +3030,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 60,
+              "TotalPoints": 55,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 12.0,
-              "AverageCorrect": 1.4,
+              "AveragePoints": 11.0,
+              "AverageCorrect": 1.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 7,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -3068,16 +3054,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 13,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 30,
+              "TotalPoints": 60,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 6.0,
-              "AverageCorrect": 0.6,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 1.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 0,
+              "Correct10s": 4,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3092,16 +3078,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 1,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 390,
+              "TotalPoints": 240,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 78.0,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 97,
-              "Correct10s": 25,
-              "Correct20s": 5,
+              "AveragePoints": 48.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 17,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3116,15 +3102,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 9,
+              "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 140,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 28.0,
-              "AverageCorrect": 2.4,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 10,
+              "Correct10s": 6,
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -3140,7 +3126,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
+              "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3166,13 +3152,13 @@
             "Scores": {
               "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 160,
+              "TotalPoints": 185,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 32.0,
-              "AverageCorrect": 3.6,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 18,
+              "AveragePoints": 37.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 20,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -3188,16 +3174,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 5,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 225,
+              "TotalPoints": 290,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 45.0,
-              "AverageCorrect": 4.4,
+              "AveragePoints": 58.0,
+              "AverageCorrect": 5.2,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 22,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 24,
+              "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3212,16 +3198,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 4,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 230,
+              "TotalPoints": 355,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 46.0,
-              "AverageCorrect": 4.4,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 22,
-              "Correct20s": 0,
+              "AveragePoints": 71.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 25,
+              "Correct20s": 4,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3236,7 +3222,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
+              "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3260,7 +3246,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
+              "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3284,16 +3270,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 12,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 40,
+              "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.0,
+              "AveragePoints": 10.0,
               "AverageCorrect": 0.8,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 4,
-              "Correct20s": 0,
+              "Correct10s": 3,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3308,15 +3294,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 19,
+              "Rank": 14,
               "IsTie": true,
-              "TotalPoints": 0,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -3333,17 +3319,17 @@
             "State": null,
             "Scores": {
               "Rank": 17,
-              "IsTie": false,
-              "TotalPoints": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.0,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -3358,14 +3344,14 @@
             "Scores": {
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 215,
+              "TotalPoints": 205,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 43.0,
+              "AveragePoints": 41.0,
               "AverageCorrect": 3.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 16,
-              "Correct20s": 3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 17,
+              "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3380,14 +3366,14 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 2,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 360,
+              "TotalPoints": 340,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 72.0,
+              "AveragePoints": 68.0,
               "AverageCorrect": 5.4,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 93,
+              "QuestionCorrectPercentage": 84,
               "Correct10s": 19,
               "Correct20s": 8,
               "Correct30s": 0,
@@ -3406,13 +3392,13 @@
             "Scores": {
               "Rank": 14,
               "IsTie": true,
-              "TotalPoints": 20,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 4.0,
-              "AverageCorrect": 0.4,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -3420,31 +3406,31 @@
           }
         ],
         "RankedQuizzers": [
-          11,
-          23,
-          4,
           16,
+          4,
+          23,
           15,
+          11,
           22,
           14,
+          8,
           7,
           12,
-          9,
-          8,
-          19,
           10,
-          1,
+          9,
+          19,
+          3,
+          20,
           24,
           0,
-          21,
-          3,
           2,
           5,
           6,
           13,
           17,
           18,
-          20
+          21,
+          1
         ],
         "QuizzerFootnotes": [
           {
@@ -3461,15 +3447,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 4,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3477,7 +3455,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3492,7 +3478,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 5,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -3505,8 +3491,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3514,7 +3500,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 2,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3529,15 +3515,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 3,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 3,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -3550,8 +3536,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3559,7 +3553,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 1,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3567,15 +3561,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3603,25 +3589,25 @@
           },
           {
             "Id": 2,
-            "MatchTime": "09:25 AM",
+            "MatchTime": "09:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 3,
-            "MatchTime": "09:50 AM",
+            "MatchTime": "10:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 4,
-            "MatchTime": "10:15 AM",
+            "MatchTime": "10:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 5,
-            "MatchTime": "10:40 AM",
+            "MatchTime": "11:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -3637,33 +3623,32 @@
       },
       {
         "DatabaseId": "2264d487-eed0-4237-b168-9f6d09f1e5e6",
-        "MeetId": 15,
+        "MeetId": 19,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "03 - Jan Beg B",
-        "LastUpdated": "2/19/26 12:20 AM",
-        "DatabaseLastUpdated": "2026-02-18T23:39:52.1793913+00:00",
+        "Name": "04 - Feb Beg B",
+        "LastUpdated": "2/21/26 5:09 PM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:50.7758015+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": null,
             "Quizzers": [
-              8,
-              10,
+              9,
+              12,
               14,
-              18,
-              21
+              20
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 5
+                "Score": 35,
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -3671,35 +3656,35 @@
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 5,
+                "Score": 20,
                 "OtherTeam": 1
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "09",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
+                "Score": 45,
                 "OtherTeam": 4
               },
               {
                 "Result": "L",
+                "RoomId": 1,
+                "Room": "09",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 2
+                "Score": 30,
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -3710,18 +3695,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 1,
-              "Losses": 4,
-              "WinPercentage": 20,
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 125,
+              "TotalPoints": 135,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 25.0,
-              "AverageCorrect": 3.0,
+              "AveragePoints": 27.0,
+              "AverageCorrect": 3.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 15,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 18,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -3734,18 +3719,18 @@
               1,
               2,
               3,
-              12,
-              15
+              11,
+              13
             ],
             "Matches": [
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 3
+                "Score": 30,
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -3753,7 +3738,7 @@
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
+                "Score": 50,
                 "OtherTeam": 0
               },
               {
@@ -3762,8 +3747,8 @@
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 4
+                "Score": 80,
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -3771,17 +3756,17 @@
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 2
+                "Score": 60,
+                "OtherTeam": 3
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 5
+                "Score": 90,
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -3797,14 +3782,14 @@
               "WinPercentage": 60,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 225,
+              "TotalPoints": 310,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 45.0,
-              "AverageCorrect": 7.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 29,
-              "Correct20s": 10,
+              "AveragePoints": 62.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 26,
+              "Correct20s": 4,
               "Correct30s": 0,
               "FootnoteIndex": 0
             }
@@ -3812,10 +3797,89 @@
           {
             "CoachName": null,
             "Quizzers": [
+              15,
+              16,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "09",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "10",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "11",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "11",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "09",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_23",
+            "Name": "Ghost Team Beginner",
+            "ChurchId": null,
+            "ChurchName": "Bedside Baptist",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
               4,
-              9,
-              11,
-              20
+              8,
+              10,
+              18
             ],
             "Matches": [
               {
@@ -3824,8 +3888,8 @@
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 4
+                "Score": 70,
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -3833,8 +3897,8 @@
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 3
+                "Score": 100,
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -3842,8 +3906,8 @@
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 5
+                "Score": 140,
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -3851,7 +3915,7 @@
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 95,
+                "Score": 100,
                 "OtherTeam": 1
               },
               {
@@ -3860,7 +3924,7 @@
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
+                "Score": 80,
                 "OtherTeam": 0
               }
             ],
@@ -3877,14 +3941,14 @@
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 385,
+              "TotalPoints": 490,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 77.0,
-              "AverageCorrect": 8.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 38,
-              "Correct20s": 2,
+              "AveragePoints": 98.0,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 44,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -3894,18 +3958,18 @@
             "Quizzers": [
               5,
               7,
+              21,
               22,
-              23,
-              24
+              23
             ],
             "Matches": [
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 45,
+                "Score": 40,
                 "OtherTeam": 1
               },
               {
@@ -3914,16 +3978,16 @@
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 2
+                "Score": 25,
+                "OtherTeam": 3
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 2,
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 45,
+                "Score": 20,
                 "OtherTeam": 0
               },
               {
@@ -3932,17 +3996,17 @@
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 5
+                "Score": 85,
+                "OtherTeam": 2
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 3,
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 15,
-                "OtherTeam": 4
+                "Score": 50,
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -3953,29 +4017,29 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 2,
-              "Losses": 3,
-              "WinPercentage": 40,
-              "Rank": 4,
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 195,
+              "TotalPoints": 220,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 39.0,
+              "AveragePoints": 44.0,
               "AverageCorrect": 4.4,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 22,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 19,
+              "Correct20s": 3,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
             "CoachName": null,
             "Quizzers": [
               6,
-              19,
-              25
+              17,
+              24
             ],
             "Matches": [
               {
@@ -3984,17 +4048,17 @@
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 2
+                "Score": 40,
+                "OtherTeam": 3
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 2,
                 "Room": "10",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 5
+                "Score": 60,
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -4002,26 +4066,26 @@
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 10,
                 "OtherTeam": 1
               },
               {
-                "Result": "L",
+                "Result": "W",
                 "RoomId": 1,
                 "Room": "09",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 20,
+                "Score": 30,
                 "OtherTeam": 0
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 3,
                 "Room": "11",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 3
+                "Score": 20,
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
@@ -4032,98 +4096,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Wins": 1,
-              "Losses": 4,
-              "WinPercentage": 20,
-              "Rank": 6,
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 115,
+              "TotalPoints": 160,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 23.0,
-              "AverageCorrect": 2.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 10,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              13,
-              16,
-              17,
-              26
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "09",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "10",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "11",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "11",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "09",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_20",
-            "Name": "The Seekers",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 260,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 52.0,
-              "AverageCorrect": 1.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 55,
-              "Correct10s": 6,
+              "AveragePoints": 32.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 19,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -4131,12 +4115,12 @@
           }
         ],
         "RankedTeams": [
-          2,
-          5,
-          1,
           3,
+          4,
+          1,
+          5,
           0,
-          4
+          2
         ],
         "TeamFootnotes": [
           {
@@ -4155,7 +4139,31 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Buddies",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_175",
+            "Name": "Daniel Quaye",
+            "ChurchId": null,
+            "ChurchName": "Oaks Church",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 12,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4172,30 +4180,6 @@
           {
             "TeamName": "Bible Buddies",
             "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_175",
-            "Name": "Daniel Quaye",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 60,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 12.0,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 3,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bible Buddies",
-            "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_167",
             "Name": "David Quaye",
             "ChurchId": null,
@@ -4203,16 +4187,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 7,
+              "Rank": 12,
               "IsTie": true,
-              "TotalPoints": 80,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 16.0,
-              "AverageCorrect": 1.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 3,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
             }
@@ -4227,16 +4211,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 6,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 85,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 17.0,
-              "AverageCorrect": 2.0,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 77,
-              "Correct10s": 10,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -4251,16 +4235,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 55,
+              "TotalPoints": 160,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.0,
-              "AverageCorrect": 1.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 5,
-              "Correct20s": 1,
+              "AveragePoints": 32.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -4275,18 +4259,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 15,
-              "IsTie": false,
-              "TotalPoints": 10,
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.0,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -4299,15 +4283,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 25,
               "IsTie": false,
-              "TotalPoints": 15,
+              "TotalPoints": -20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.0,
-              "AverageCorrect": 0.4,
+              "AveragePoints": -4.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -4323,40 +4307,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 3,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 155,
+              "TotalPoints": 230,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 31.0,
-              "AverageCorrect": 3.4,
+              "AveragePoints": 46.0,
+              "AverageCorrect": 4.2,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 17,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethesda AG Beginners",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_186",
-            "Name": "Extra-2",
-            "ChurchId": null,
-            "ChurchName": "Bethesda AG",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 45,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 9.0,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 5,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 18,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -4371,31 +4331,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 120,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 24.0,
-              "AverageCorrect": 2.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 14,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethesda AG Beginners",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_183",
-            "Name": "Judah Saenz",
-            "ChurchId": null,
-            "ChurchName": "Bethesda AG",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4410,6 +4346,30 @@
             }
           },
           {
+            "TeamName": "Bethesda AG Beginners",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_183",
+            "Name": "Judah Saenz",
+            "ChurchId": null,
+            "ChurchName": "Bethesda AG",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "TeamName": "God's Warriors",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_146",
@@ -4419,16 +4379,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 2,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 210,
+              "TotalPoints": 330,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 42.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 19,
-              "Correct20s": 1,
+              "AveragePoints": 66.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 29,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -4443,42 +4403,18 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 1,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 230,
+              "TotalPoints": 145,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 46.0,
-              "AverageCorrect": 3.6,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 13,
-              "Correct20s": 5,
+              "AveragePoints": 29.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 11,
+              "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Seekers",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_173",
-            "Name": "Magnolia Cano",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 17,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
             }
           },
           {
@@ -4491,7 +4427,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4515,55 +4451,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "The Seekers",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_176",
-            "Name": "Max Torres",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 25,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 56,
-              "Correct10s": 5,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Seekers",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_174",
-            "Name": "Mia Navarro",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4587,7 +4475,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4602,6 +4490,54 @@
             }
           },
           {
+            "TeamName": "Ghost Team Beginner",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_200",
+            "Name": "Quizzer-1",
+            "ChurchId": null,
+            "ChurchName": "Bedside Baptist",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ghost Team Beginner",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_201",
+            "Name": "Quizzer-2",
+            "ChurchId": null,
+            "ChurchName": "Bedside Baptist",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "TeamName": "The Pows",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_220",
@@ -4611,7 +4547,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4635,7 +4571,31 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ghost Team Beginner",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_202",
+            "Name": "Quizzer-3",
+            "ChurchId": null,
+            "ChurchName": "Bedside Baptist",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4659,15 +4619,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 80,
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 30,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 16.0,
-              "AverageCorrect": 2.0,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 77,
-              "Correct10s": 10,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -4683,7 +4643,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4707,15 +4667,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 12,
+              "Rank": 24,
               "IsTie": false,
-              "TotalPoints": 30,
+              "TotalPoints": -10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 6.0,
-              "AverageCorrect": 0.8,
+              "AveragePoints": -2.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 4,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -4731,7 +4691,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 12,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4755,39 +4715,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 5,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 100,
+              "TotalPoints": 180,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 20.0,
-              "AverageCorrect": 1.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 8,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Seekers",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_168",
-            "Name": "Zeke Torres",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.0,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 1,
+              "AveragePoints": 36.0,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -4795,33 +4731,31 @@
           }
         ],
         "RankedQuizzers": [
-          12,
-          11,
-          7,
-          9,
-          25,
-          3,
-          21,
-          2,
-          1,
-          4,
-          8,
-          23,
-          16,
-          6,
-          5,
-          26,
-          0,
           10,
+          7,
+          24,
+          4,
+          11,
+          9,
+          3,
+          0,
+          16,
+          15,
+          20,
+          1,
+          2,
+          5,
+          8,
+          12,
           13,
           14,
-          15,
           17,
           18,
           19,
-          20,
+          21,
+          23,
           22,
-          24
+          6
         ],
         "QuizzerFootnotes": [
           {
@@ -4837,6 +4771,30 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 0,
                 "State": "Completed",
@@ -4845,32 +4803,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4882,31 +4816,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 4,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -4914,7 +4824,31 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -4927,8 +4861,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 4,
+                "Team1": 3,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4943,24 +4877,24 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4980,25 +4914,25 @@
           },
           {
             "Id": 2,
-            "MatchTime": "09:25 AM",
+            "MatchTime": "09:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 3,
-            "MatchTime": "09:50 AM",
+            "MatchTime": "10:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 4,
-            "MatchTime": "10:15 AM",
+            "MatchTime": "10:30 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           },
           {
             "Id": 5,
-            "MatchTime": "10:40 AM",
+            "MatchTime": "11:00 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
           }
@@ -5072,5 +5006,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-18T23:39:52.3057163+00:00"
+  "Freshness": "2026-02-21T17:09:06.5840609+00:00"
 }

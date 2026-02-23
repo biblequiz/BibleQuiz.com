@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Meet 1",
-        "LastUpdated": "1/4/26 12:16 AM",
-        "DatabaseLastUpdated": "2026-01-03T21:19:50.4307038+00:00",
+        "LastUpdated": "2/21/26 10:23 PM",
+        "DatabaseLastUpdated": "2026-02-21T22:15:16.9506752+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -208,7 +208,8 @@
               6,
               9,
               14,
-              15
+              15,
+              16
             ],
             "Matches": [
               {
@@ -331,7 +332,7 @@
             "City": "Sayville",
             "State": "NY",
             "Scores": {
-              "Rank": 16,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -636,6 +637,30 @@
           {
             "TeamName": "Unleashers",
             "YearsQuizzing": null,
+            "Id": "q_a7a223e9ea6a466bc05908de6dca1617",
+            "Name": "Oliver Kann",
+            "ChurchId": "4801825a-3586-4e6a-9310-6e29ebb2a458",
+            "ChurchName": "Church Unleashed",
+            "City": "Commack NY",
+            "State": null,
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Unleashers",
+            "YearsQuizzing": null,
             "Id": "q_ca866dc9a9944c94acce08de045d4f17",
             "Name": "Prashant Brijilall",
             "ChurchId": "4801825a-3586-4e6a-9310-6e29ebb2a458",
@@ -670,10 +695,11 @@
           8,
           12,
           3,
-          15,
+          16,
           0,
           5,
           9,
+          15,
           2
         ],
         "QuizzerFootnotes": [
@@ -745,7 +771,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -794,5 +820,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-03T21:19:50.7635682+00:00"
+  "Freshness": "2026-02-22T00:35:17.8134646+00:00"
 }

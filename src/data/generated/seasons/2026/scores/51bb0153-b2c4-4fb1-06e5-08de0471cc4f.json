@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01 - October 2025 JBQ Meet ADV",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -166,8 +166,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01 - October 2025 JBQ Meet Int A",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -234,7 +234,7 @@
             "Matches": null,
             "CurrentMatchId": null,
             "Id": "t_00000000-0000-0000-0000-000000000002_3",
-            "Name": "Gateway Church Midlothian Intermediate",
+            "Name": "Gateway Guardians",
             "ChurchId": null,
             "ChurchName": "Gateway Church Midlothian",
             "City": null,
@@ -248,10 +248,10 @@
               "TotalPoints": 45,
               "PerMeetTotalPoints": null,
               "AveragePoints": 7.5,
-              "AverageCorrect": 2.5,
+              "AverageCorrect": 2.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 54,
-              "Correct10s": 14,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 11,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -325,8 +325,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01 - October 2025 JBQ Meet Int. B",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -334,37 +334,8 @@
             "Quizzers": [],
             "Matches": null,
             "CurrentMatchId": null,
-            "Id": "t_00000000-0000-0000-0000-000000000002_1",
-            "Name": "Gospel Lighthouse Intermediate",
-            "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 590,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 98.3,
-              "AverageCorrect": 5.7,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 10,
-              "Correct20s": 22,
-              "Correct30s": 2,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
             "Id": "t_00000000-0000-0000-0000-000000000002_4",
-            "Name": "Intermediate Holy Spirit",
+            "Name": "Ghost Team Intermediate",
             "ChurchId": null,
             "ChurchName": "Church of the Holy Comforter",
             "City": null,
@@ -385,6 +356,35 @@
               "Correct20s": 4,
               "Correct30s": 1,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_00000000-0000-0000-0000-000000000002_1",
+            "Name": "Lighthouse Intermediate",
+            "ChurchId": null,
+            "ChurchName": "Lighthouse",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 590,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.3,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 10,
+              "Correct20s": 22,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -448,8 +448,8 @@
         ],
         "RankedTeams": [
           3,
-          0,
           1,
+          0,
           2
         ],
         "TeamFootnotes": [
@@ -484,39 +484,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01 - October 2025 JBQ Meet Beg A",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
-          {
-            "CoachName": null,
-            "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_00000000-0000-0000-0000-000000000002_2",
-            "Name": "Beginner A Holy Spirit",
-            "ChurchId": null,
-            "ChurchName": "Bedside Baptist",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 5,
-              "WinPercentage": 0,
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
           {
             "CoachName": null,
             "Quizzers": [],
@@ -580,6 +551,35 @@
             "Quizzers": [],
             "Matches": null,
             "CurrentMatchId": null,
+            "Id": "t_00000000-0000-0000-0000-000000000002_2",
+            "Name": "Ghost Team Beginner",
+            "ChurchId": null,
+            "ChurchName": "Bedside Baptist",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [],
+            "Matches": null,
+            "CurrentMatchId": null,
             "Id": "t_00000000-0000-0000-0000-000000000002_1",
             "Name": "God's Super Rock Stars",
             "ChurchId": null,
@@ -610,9 +610,9 @@
             "Matches": null,
             "CurrentMatchId": null,
             "Id": "t_00000000-0000-0000-0000-000000000002_4",
-            "Name": "Gospel Lighthouse Beginners",
+            "Name": "Lighthouse Beginners",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
@@ -653,23 +653,23 @@
               "TotalPoints": 375,
               "PerMeetTotalPoints": null,
               "AveragePoints": 75.0,
-              "AverageCorrect": 6.6,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 28,
-              "Correct20s": 5,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 13,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
-          2,
+          1,
           3,
           5,
           4,
-          1,
-          0
+          0,
+          2
         ],
         "TeamFootnotes": [],
         "Quizzers": null,
@@ -698,39 +698,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01 - October 2025 JBQ Meet Beg B",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
-          {
-            "CoachName": null,
-            "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_00000000-0000-0000-0000-000000000002_5",
-            "Name": "Beginner B Holy Spirit",
-            "ChurchId": null,
-            "ChurchName": "Church of the Holy Comforter",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 5,
-              "WinPercentage": 0,
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
           {
             "CoachName": null,
             "Quizzers": [],
@@ -751,10 +722,10 @@
               "TotalPoints": 280,
               "PerMeetTotalPoints": null,
               "AveragePoints": 56.0,
-              "AverageCorrect": 5.8,
+              "AverageCorrect": 4.4,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 28,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 21,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -823,6 +794,35 @@
             "Quizzers": [],
             "Matches": null,
             "CurrentMatchId": null,
+            "Id": "t_00000000-0000-0000-0000-000000000002_5",
+            "Name": "Hidden Ghost Team Beg B",
+            "ChurchId": null,
+            "ChurchName": "Church of the Holy Comforter",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [],
+            "Matches": null,
+            "CurrentMatchId": null,
             "Id": "t_00000000-0000-0000-0000-000000000002_6",
             "Name": "Powdered Donuts",
             "ChurchId": null,
@@ -878,12 +878,12 @@
           }
         ],
         "RankedTeams": [
-          2,
+          1,
           5,
           4,
-          3,
-          1,
-          0
+          2,
+          0,
+          3
         ],
         "TeamFootnotes": [],
         "Quizzers": null,
@@ -912,8 +912,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01-Oct Adv",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1697,7 +1697,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1753,97 +1753,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01-Oct Beg A",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": null,
             "Quizzers": [
-              4,
-              18,
-              19,
-              20
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B9",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B7",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B8",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 4
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_23",
-            "Name": "Beginner A Holy Spirit",
-            "ChurchId": null,
-            "ChurchName": "Bedside Baptist",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 5,
-              "WinPercentage": 0,
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              8,
-              14,
-              17,
-              21
+              7,
+              12,
+              15,
+              19
             ],
             "Matches": [
               {
@@ -1853,7 +1773,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 0
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -1880,7 +1800,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -1921,9 +1841,9 @@
             "CoachName": null,
             "Quizzers": [
               0,
-              6,
-              9,
-              11
+              5,
+              8,
+              10
             ],
             "Matches": [
               {
@@ -1951,7 +1871,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 0
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -1960,7 +1880,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 185,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -2000,10 +1920,90 @@
           {
             "CoachName": null,
             "Quizzers": [
-              5,
-              7,
-              10,
-              24
+              3,
+              16,
+              17,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "B9",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "B7",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B8",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_23",
+            "Name": "Ghost Team Beginner",
+            "ChurchId": null,
+            "ChurchName": "Bedside Baptist",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              6,
+              9,
+              23
             ],
             "Matches": [
               {
@@ -2022,7 +2022,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 185,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -2040,7 +2040,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 210,
-                "OtherTeam": 0
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -2049,7 +2049,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 2
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -2080,10 +2080,11 @@
           {
             "CoachName": null,
             "Quizzers": [
+              1,
               2,
-              3,
-              22,
-              23
+              20,
+              21,
+              22
             ],
             "Matches": [
               {
@@ -2102,7 +2103,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -2111,7 +2112,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -2129,14 +2130,14 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 0
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_18",
-            "Name": "Gospel Lighthouse Beginners",
+            "Name": "Lighthouse Beginners",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
@@ -2160,11 +2161,9 @@
           {
             "CoachName": null,
             "Quizzers": [
-              1,
-              12,
+              11,
               13,
-              15,
-              16
+              14
             ],
             "Matches": [
               {
@@ -2174,7 +2173,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -2183,7 +2182,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 0
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -2210,7 +2209,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 65,
-                "OtherTeam": 1
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -2229,23 +2228,23 @@
               "TotalPoints": 375,
               "PerMeetTotalPoints": null,
               "AveragePoints": 75.0,
-              "AverageCorrect": 6.6,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 28,
-              "Correct20s": 5,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 13,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
-          2,
+          1,
           3,
           5,
           4,
-          1,
-          0
+          0,
+          2
         ],
         "TeamFootnotes": [],
         "Quizzers": [
@@ -2259,7 +2258,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2274,40 +2273,16 @@
             }
           },
           {
-            "TeamName": "The Seekers",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_175",
-            "Name": "Daniel Quaye",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 15,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 3.0,
-              "AverageCorrect": 0.4,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Gospel Lighthouse Beginners",
+            "TeamName": "Lighthouse Beginners",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_157",
             "Name": "Emilia Moss",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 25,
+              "Rank": 24,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -2322,16 +2297,16 @@
             }
           },
           {
-            "TeamName": "Gospel Lighthouse Beginners",
+            "TeamName": "Lighthouse Beginners",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_156",
             "Name": "Erin Higgins",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 6,
+              "Rank": 5,
               "IsTie": false,
               "TotalPoints": 190,
               "PerMeetTotalPoints": null,
@@ -2346,7 +2321,7 @@
             }
           },
           {
-            "TeamName": "Beginner A Holy Spirit",
+            "TeamName": "Ghost Team Beginner",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_203",
             "Name": "Extra-1",
@@ -2355,7 +2330,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 13,
               "IsTie": false,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
@@ -2397,13 +2372,13 @@
             "TeamName": "Flaming Marshmallows",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_122",
-            "Name": "Ilia Trinity",
+            "Name": "Ilia Ramirez",
             "ChurchId": null,
             "ChurchName": "Trinity Church",
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 8,
+              "Rank": 7,
               "IsTie": false,
               "TotalPoints": 130,
               "PerMeetTotalPoints": null,
@@ -2427,7 +2402,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 12,
+              "Rank": 11,
               "IsTie": false,
               "TotalPoints": 45,
               "PerMeetTotalPoints": null,
@@ -2451,7 +2426,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 7,
+              "Rank": 6,
               "IsTie": false,
               "TotalPoints": 160,
               "PerMeetTotalPoints": null,
@@ -2499,7 +2474,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 11,
+              "Rank": 10,
               "IsTie": false,
               "TotalPoints": 55,
               "PerMeetTotalPoints": null,
@@ -2540,30 +2515,6 @@
           {
             "TeamName": "The Seekers",
             "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_177",
-            "Name": "Lincoln Wildman",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 245,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 49.0,
-              "AverageCorrect": 3.6,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 13,
-              "Correct20s": 5,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "The Seekers",
-            "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_173",
             "Name": "Magnolia Cano",
             "ChurchId": null,
@@ -2571,7 +2522,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2595,7 +2546,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2619,7 +2570,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 9,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": 115,
               "PerMeetTotalPoints": null,
@@ -2643,7 +2594,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2667,7 +2618,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2682,7 +2633,7 @@
             }
           },
           {
-            "TeamName": "Beginner A Holy Spirit",
+            "TeamName": "Ghost Team Beginner",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_200",
             "Name": "Quizzer-1",
@@ -2691,7 +2642,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 13,
               "IsTie": true,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
@@ -2706,7 +2657,7 @@
             }
           },
           {
-            "TeamName": "Beginner A Holy Spirit",
+            "TeamName": "Ghost Team Beginner",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_201",
             "Name": "Quizzer-2",
@@ -2715,7 +2666,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 17,
+              "Rank": 15,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -2730,7 +2681,7 @@
             }
           },
           {
-            "TeamName": "Beginner A Holy Spirit",
+            "TeamName": "Ghost Team Beginner",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_202",
             "Name": "Quizzer-3",
@@ -2739,7 +2690,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2763,7 +2714,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": false,
               "TotalPoints": 90,
               "PerMeetTotalPoints": null,
@@ -2778,16 +2729,16 @@
             }
           },
           {
-            "TeamName": "Gospel Lighthouse Beginners",
+            "TeamName": "Lighthouse Beginners",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_155",
             "Name": "Ryan Folsom",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 16,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2802,16 +2753,16 @@
             }
           },
           {
-            "TeamName": "Gospel Lighthouse Beginners",
+            "TeamName": "Lighthouse Beginners",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_158",
             "Name": "Sarah Pereira",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 13,
+              "Rank": 12,
               "IsTie": false,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
@@ -2823,6 +2774,30 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lighthouse Beginners",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_159",
+            "Name": "Stella Pargas",
+            "ChurchId": null,
+            "ChurchName": "Lighthouse",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2851,31 +2826,30 @@
           }
         ],
         "RankedQuizzers": [
-          11,
-          9,
-          24,
-          5,
-          12,
-          3,
-          8,
-          6,
-          15,
-          21,
           10,
-          7,
+          8,
           23,
           4,
-          18,
-          1,
-          19,
-          0,
+          2,
+          7,
+          5,
           13,
-          14,
+          19,
+          9,
+          6,
+          21,
+          3,
           16,
           17,
+          0,
+          11,
+          12,
+          14,
+          15,
+          18,
           20,
           22,
-          2
+          1
         ],
         "QuizzerFootnotes": [
           {
@@ -2891,15 +2865,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -2916,7 +2890,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 0,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2924,7 +2898,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -2936,7 +2910,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -2945,15 +2919,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2969,7 +2943,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 0,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -2990,7 +2964,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 0,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -2998,22 +2972,22 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
@@ -3023,7 +2997,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -3073,97 +3047,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01-Oct Beg B",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
-          {
-            "CoachName": null,
-            "Quizzers": [
-              19,
-              20,
-              22
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "11",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "10",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 10,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "11",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 0,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "12",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "12",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_22",
-            "Name": "Beginner B Holy Spirit",
-            "ChurchId": null,
-            "ChurchName": "Church of the Holy Comforter",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 0,
-              "Losses": 5,
-              "WinPercentage": 0,
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 50,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
           {
             "CoachName": null,
             "Quizzers": [
               0,
               5,
               6,
-              14,
-              24
+              14
             ],
             "Matches": [
               {
@@ -3191,7 +3085,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -3200,7 +3094,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 45,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -3209,7 +3103,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 90,
-                "OtherTeam": 0
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -3228,10 +3122,10 @@
               "TotalPoints": 280,
               "PerMeetTotalPoints": null,
               "AveragePoints": 56.0,
-              "AverageCorrect": 5.8,
+              "AverageCorrect": 4.4,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 28,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 21,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -3254,7 +3148,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 0
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -3263,7 +3157,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 110,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -3272,7 +3166,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -3343,7 +3237,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 35,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -3352,7 +3246,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 85,
-                "OtherTeam": 0
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -3361,7 +3255,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -3401,12 +3295,91 @@
           {
             "CoachName": null,
             "Quizzers": [
+              19,
+              20,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "11",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "10",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "11",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "12",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "12",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_22",
+            "Name": "Hidden Ghost Team Beg B",
+            "ChurchId": null,
+            "ChurchName": "Church of the Holy Comforter",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
               3,
               4,
               8,
               17,
               18,
-              25
+              24
             ],
             "Matches": [
               {
@@ -3416,7 +3389,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 55,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -3425,7 +3398,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -3443,7 +3416,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 0
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -3452,7 +3425,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 2
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -3495,7 +3468,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 160,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -3504,7 +3477,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 205,
-                "OtherTeam": 0
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -3522,7 +3495,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 95,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -3531,7 +3504,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 180,
-                "OtherTeam": 3
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -3561,12 +3534,12 @@
           }
         ],
         "RankedTeams": [
-          2,
+          1,
           5,
           4,
-          3,
-          1,
-          0
+          2,
+          0,
+          3
         ],
         "TeamFootnotes": [],
         "Quizzers": [
@@ -3598,7 +3571,7 @@
             "TeamName": "Dino-Might Quizzers",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_114",
-            "Name": "Ariella Trinity",
+            "Name": "Ariella Pshichenko",
             "ChurchId": null,
             "ChurchName": "Trinity Church",
             "City": null,
@@ -3628,7 +3601,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 13,
               "IsTie": false,
               "TotalPoints": 35,
               "PerMeetTotalPoints": null,
@@ -3652,7 +3625,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 26,
+              "Rank": 25,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -3700,7 +3673,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3772,7 +3745,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 15,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -3796,7 +3769,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3820,7 +3793,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 15,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -3916,7 +3889,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": 5,
               "PerMeetTotalPoints": null,
@@ -3934,7 +3907,7 @@
             "TeamName": "Dino-Might Quizzers",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_112",
-            "Name": "NOah Morato de Carvalho",
+            "Name": "Noah Morato de Carvalho",
             "ChurchId": null,
             "ChurchName": "Trinity Church",
             "City": null,
@@ -3988,7 +3961,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4012,7 +3985,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 25,
+              "Rank": 24,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -4027,7 +4000,7 @@
             }
           },
           {
-            "TeamName": "Beginner B Holy Spirit",
+            "TeamName": "Hidden Ghost Team Beg B",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_191",
             "Name": "Quizzer-1",
@@ -4036,7 +4009,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 15,
+              "Rank": 14,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -4051,7 +4024,7 @@
             }
           },
           {
-            "TeamName": "Beginner B Holy Spirit",
+            "TeamName": "Hidden Ghost Team Beg B",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_192",
             "Name": "Quizzer-2",
@@ -4060,7 +4033,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 13,
+              "Rank": 12,
               "IsTie": false,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
@@ -4084,7 +4057,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4099,7 +4072,7 @@
             }
           },
           {
-            "TeamName": "Beginner B Holy Spirit",
+            "TeamName": "Hidden Ghost Team Beg B",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_193",
             "Name": "Quizzer-3",
@@ -4108,7 +4081,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4147,40 +4120,16 @@
             }
           },
           {
-            "TeamName": "Bible Buddies",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_168",
-            "Name": "Zeke Torres",
-            "ChurchId": null,
-            "ChurchName": "Oaks Church",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 55,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 11.0,
-              "AverageCorrect": 1.4,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 70,
-              "Correct10s": 7,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "TeamName": "Powdered Donuts",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_133",
-            "Name": "Zoar Trinity",
+            "Name": "Zoar Ramirez",
             "ChurchId": null,
             "ChurchName": "Trinity",
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 18,
+              "Rank": 17,
               "IsTie": true,
               "TotalPoints": 5,
               "PerMeetTotalPoints": null,
@@ -4207,14 +4156,13 @@
           11,
           12,
           0,
-          24,
           20,
           2,
           19,
           8,
           10,
           14,
-          25,
+          24,
           5,
           9,
           17,
@@ -4238,7 +4186,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4246,6 +4194,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -4254,22 +4210,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 1,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -4282,8 +4230,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 1,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4291,14 +4239,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -4307,6 +4247,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -4315,7 +4263,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4328,15 +4276,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -4352,15 +4300,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 0,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -4369,7 +4317,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -4419,8 +4367,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01-Oct Int A",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4515,7 +4463,7 @@
           {
             "CoachName": null,
             "Quizzers": [
-              5,
+              4,
               10,
               11,
               13,
@@ -4606,7 +4554,7 @@
             "CoachName": null,
             "Quizzers": [
               0,
-              4,
+              5,
               9,
               15
             ],
@@ -4668,7 +4616,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_9",
-            "Name": "Gateway Church Midlothian Intermediate",
+            "Name": "Gateway Guardians",
             "ChurchId": null,
             "ChurchName": "Gateway Church Midlothian",
             "City": null,
@@ -4682,10 +4630,10 @@
               "TotalPoints": 45,
               "PerMeetTotalPoints": null,
               "AveragePoints": 7.5,
-              "AverageCorrect": 2.5,
+              "AverageCorrect": 2.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 54,
-              "Correct10s": 14,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 11,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -4795,7 +4743,7 @@
         ],
         "Quizzers": [
           {
-            "TeamName": "Gateway Church Midlothian Intermediate",
+            "TeamName": "Gateway Guardians",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_74",
             "Name": "Abisola Atobatele",
@@ -4804,8 +4752,8 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 16,
-              "IsTie": true,
+              "Rank": 17,
+              "IsTie": false,
               "TotalPoints": -25,
               "PerMeetTotalPoints": null,
               "AveragePoints": -4.2,
@@ -4815,7 +4763,7 @@
               "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -4828,7 +4776,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4891,30 +4839,6 @@
             }
           },
           {
-            "TeamName": "Gateway Church Midlothian Intermediate",
-            "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_76",
-            "Name": "Emory Limer",
-            "ChurchId": null,
-            "ChurchName": "Gateway Church Midlothian",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": -25,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -4.2,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 25,
-              "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
             "TeamName": "Bible Buzzing Bros",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_38",
@@ -4936,6 +4860,30 @@
               "Correct20s": 16,
               "Correct30s": 7,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Gateway Guardians",
+            "YearsQuizzing": null,
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_79",
+            "Name": "Harrison Ortiz",
+            "ChurchId": null,
+            "ChurchName": "Gateway Church Midlothian",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -4972,7 +4920,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -4996,7 +4944,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5011,7 +4959,7 @@
             }
           },
           {
-            "TeamName": "Gateway Church Midlothian Intermediate",
+            "TeamName": "Gateway Guardians",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_77",
             "Name": "Logan Payne",
@@ -5044,7 +4992,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5092,7 +5040,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5116,7 +5064,7 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 10,
+              "Rank": 9,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5155,27 +5103,27 @@
             }
           },
           {
-            "TeamName": "Gateway Church Midlothian Intermediate",
+            "TeamName": "Gateway Guardians",
             "YearsQuizzing": null,
-            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_75",
-            "Name": "Tosin Atobetele",
+            "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_78",
+            "Name": "Wyatt Geeslin",
             "ChurchId": null,
             "ChurchName": "Gateway Church Midlothian",
             "City": null,
             "State": null,
             "Scores": {
               "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -5204,7 +5152,7 @@
           }
         ],
         "RankedQuizzers": [
-          5,
+          4,
           11,
           2,
           3,
@@ -5212,14 +5160,14 @@
           14,
           6,
           9,
-          15,
           1,
+          5,
           7,
           8,
           10,
           12,
           13,
-          4,
+          15,
           0
         ],
         "QuizzerFootnotes": [
@@ -5339,7 +5287,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -5395,98 +5343,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "01-Oct Int B",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
-          {
-            "CoachName": null,
-            "Quizzers": [
-              1,
-              10,
-              12
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "05",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "06",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "05",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "06",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "05",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "06",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_7",
-            "Name": "Gospel Lighthouse Intermediate",
-            "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
-            "City": null,
-            "State": null,
-            "Scores": {
-              "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 590,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 98.3,
-              "AverageCorrect": 5.7,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 10,
-              "Correct20s": 22,
-              "Correct30s": 2,
-              "FootnoteIndex": 0
-            }
-          },
           {
             "CoachName": null,
             "Quizzers": [
@@ -5520,7 +5380,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 40,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -5547,12 +5407,12 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 0
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_24",
-            "Name": "Intermediate Holy Spirit",
+            "Name": "Ghost Team Intermediate",
             "ChurchId": null,
             "ChurchName": "Church of the Holy Comforter",
             "City": null,
@@ -5578,6 +5438,94 @@
           {
             "CoachName": null,
             "Quizzers": [
+              1,
+              10,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "05",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "06",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "05",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "06",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "05",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "06",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2264d487-eed0-4237-b168-9f6d09f1e5e6_7",
+            "Name": "Lighthouse Intermediate",
+            "ChurchId": null,
+            "ChurchName": "Lighthouse",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 590,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.3,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 10,
+              "Correct20s": 22,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
               0,
               5,
               8,
@@ -5592,7 +5540,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -5601,7 +5549,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -5619,7 +5567,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -5628,7 +5576,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -5682,7 +5630,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 125,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -5691,7 +5639,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -5709,7 +5657,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -5718,7 +5666,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -5758,8 +5706,8 @@
         ],
         "RankedTeams": [
           3,
-          0,
           1,
+          0,
           2
         ],
         "TeamFootnotes": [
@@ -5794,12 +5742,12 @@
             }
           },
           {
-            "TeamName": "Gospel Lighthouse Intermediate",
+            "TeamName": "Lighthouse Intermediate",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_56",
             "Name": "Caroline Higgins",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
@@ -5821,7 +5769,7 @@
             "TeamName": "The Quizraelites",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_50",
-            "Name": "Carter Trinity",
+            "Name": "Carter May",
             "ChurchId": null,
             "ChurchName": "Trinity Church",
             "City": null,
@@ -5941,7 +5889,7 @@
             "TeamName": "The Quizraelites",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_51",
-            "Name": "Kinley Trinity",
+            "Name": "Kinley May",
             "ChurchId": null,
             "ChurchName": "Trinity Church",
             "City": null,
@@ -5986,7 +5934,7 @@
             }
           },
           {
-            "TeamName": "Intermediate Holy Spirit",
+            "TeamName": "Ghost Team Intermediate",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_209",
             "Name": "Quizzer-1",
@@ -6010,12 +5958,12 @@
             }
           },
           {
-            "TeamName": "Gospel Lighthouse Intermediate",
+            "TeamName": "Lighthouse Intermediate",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_57",
             "Name": "Quizzer-2",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
@@ -6034,7 +5982,7 @@
             }
           },
           {
-            "TeamName": "Intermediate Holy Spirit",
+            "TeamName": "Ghost Team Intermediate",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_210",
             "Name": "Quizzer-2",
@@ -6058,12 +6006,12 @@
             }
           },
           {
-            "TeamName": "Gospel Lighthouse Intermediate",
+            "TeamName": "Lighthouse Intermediate",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_58",
             "Name": "Quizzer-3",
             "ChurchId": null,
-            "ChurchName": "Gospel Lighthouse",
+            "ChurchName": "Lighthouse",
             "City": null,
             "State": null,
             "Scores": {
@@ -6082,7 +6030,7 @@
             }
           },
           {
-            "TeamName": "Intermediate Holy Spirit",
+            "TeamName": "Ghost Team Intermediate",
             "YearsQuizzing": null,
             "Id": "q_2264d487-eed0-4237-b168-9f6d09f1e5e6_211",
             "Name": "Quizzer-3",
@@ -6186,14 +6134,6 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
                 "State": "Completed",
@@ -6203,15 +6143,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6220,6 +6160,14 @@
                 "LinkedMeet": null,
                 "Team1": 3,
                 "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6240,14 +6188,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -6256,14 +6196,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 2,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 3,
                 "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
@@ -6280,7 +6220,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -6289,7 +6237,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -6345,8 +6293,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "02 - Nov Adv",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -6943,8 +6891,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "02 - Nov Int A",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -7601,8 +7549,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "02 - Nov Int B",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -8247,8 +8195,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "02 - Nov Beg A",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -9096,8 +9044,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "02 - Nov Beg B",
-        "LastUpdated": "11/8/25 4:13 PM",
-        "DatabaseLastUpdated": "2025-11-07T21:51:33.5230933+00:00",
+        "LastUpdated": "2/19/26 12:20 AM",
+        "DatabaseLastUpdated": "2026-02-18T23:39:51.0179975+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -10188,5 +10136,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-01T15:54:45.5673707+00:00"
+  "Freshness": "2026-02-18T23:39:51.4544534+00:00"
 }
