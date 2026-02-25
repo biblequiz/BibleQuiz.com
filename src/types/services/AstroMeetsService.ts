@@ -110,8 +110,8 @@ export class AstroMeetsService {
         eventId: string,
         databaseId: string,
         meetId: number,
-    ): Promise<void> {
-        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
+    ): Promise<OnlineDatabaseSummary> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
             auth,
             "DELETE",
             RemoteServiceUrlBase.Registration,

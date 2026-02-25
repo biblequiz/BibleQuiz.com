@@ -56,7 +56,7 @@ export default function QuizzerDialog({
 
         const initialTeamId = (quizzer?.TeamId || defaultTeamId || teams[0]!.Id);
         const initialTeam = teams.find(t => t.Id === initialTeamId);
-        setTeam(initialTeam?.RemoteChurchId && churches[initialTeam.RemoteChurchId] ? initialTeam : undefined);
+        setTeam(initialTeam);
 
         setName(quizzer?.Name);
         setIsDefaultPersonName(!quizzer || newPersonName === quizzer.Name);
