@@ -436,6 +436,24 @@ export default function DivisionScheduleDialog({
         setMatchTimes(newMatchTimes);
     }, [matchTimes, defaultMatchStartTime, calculateExpectedMatchTime, matchLengthInMinutes]);
 
+    // Export schedule stats
+    const handleExportStats = async () => {
+        const schedulingSettings = getSchedulingSettings();
+
+        try {
+            await AstroMeetsService.downloadScheduleStats(
+                auth,
+                eventId,
+                databaseId,
+                meetId,
+                schedulingSettings,
+                useOptimizer
+            );
+        } catch (err: any) {
+            setError(err.message || "Failed to export schedule stats.");
+        }
+    };
+
     // Refresh schedule preview
     const handleRefreshPreview = async () => {
         if (selectedTeamIds.length < 2) {
@@ -904,6 +922,7 @@ export default function DivisionScheduleDialog({
                                     onRefreshPreview={handleRefreshPreview}
                                     onMatchTimeChange={handleMatchTimeChange}
                                     onResetMatchTimes={handleResetMatchTimes}
+                                    onExportStats={handleExportStats}
                                 />
                             </CollapsibleSection>
                         </form>

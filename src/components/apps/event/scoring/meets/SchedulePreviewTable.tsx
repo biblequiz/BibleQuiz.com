@@ -19,6 +19,7 @@ interface Props {
     onRefreshPreview: () => void;
     onMatchTimeChange: (matchId: number, time: string | null) => void;
     onResetMatchTimes: () => void;
+    onExportStats: () => void;
 }
 
 export default function SchedulePreviewTable({
@@ -36,7 +37,8 @@ export default function SchedulePreviewTable({
     onUseOptimizerChange,
     onRefreshPreview,
     onMatchTimeChange,
-    onResetMatchTimes
+    onResetMatchTimes,
+    onExportStats
 }: Props) {
     return (
         <div className="p-2">
@@ -70,6 +72,15 @@ export default function SchedulePreviewTable({
                                 Refresh Preview
                             </>
                         )}
+                    </button>
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline"
+                        onClick={onExportStats}
+                        disabled={disabled || isRefreshing || !schedulePreview}
+                    >
+                        <FontAwesomeIcon icon="fas faFileExcel" />
+                        Export Schedule Stats
                     </button>
                 </div>
             )}
