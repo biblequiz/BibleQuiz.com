@@ -209,6 +209,13 @@ export interface OnlineMeetSettings {
     Schedule?: OnlineMeetSchedulingSettings | null;
 
     /**
+     * Match times by match id. Key is the match id, value is the TimeSpan string.
+     * If null or undefined, the server will calculate default times based on MatchLengthInMinutes.
+     * If all times follow the default pattern, send null to let the server use defaults.
+     */
+    MatchTimes?: Record<number, string | null> | null;
+
+    /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.
      * This can only be null for a new meet.
      */

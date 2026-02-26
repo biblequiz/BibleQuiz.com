@@ -1,6 +1,7 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
     schedulePreview: OnlineMeetSchedulePreview | null;
@@ -13,8 +14,10 @@ interface Props {
     disabled: boolean;
     isReadOnly: boolean;
     useOptimizer: boolean;
+    matchTimes: Record<number, string | null>;
     onUseOptimizerChange: (value: boolean) => void;
     onRefreshPreview: () => void;
+    onMatchTimeChange: (matchId: number, time: string | null) => void;
 }
 
 export default function SchedulePreviewTable({
@@ -28,8 +31,10 @@ export default function SchedulePreviewTable({
     disabled,
     isReadOnly,
     useOptimizer,
+    matchTimes,
     onUseOptimizerChange,
-    onRefreshPreview
+    onRefreshPreview,
+    onMatchTimeChange
 }: Props) {
     return (
         <div className="p-2">
@@ -122,6 +127,35 @@ export default function SchedulePreviewTable({
                                 );
                             })}
                         </tbody>
+                        <tfoot>
+                            <tr className="border-t-2 border-base-300">
+                                <td className="font-semibold">Match Time</td>
+                                {Object.entries(schedulePreview.Matches).map(([matchId]) => {
+                                    const matchIdNum = Number(matchId);
+                                    const timeValue = matchTimes[matchIdNum] ?? "";
+                                    return (
+                                        <td key={matchId} className="text-center">
+                                            {isReadOnly ? (
+                                                <span>{timeValue || "--"}</span>
+                                            ) : (
+                                                <input
+                                                    type="time"
+                                                    className="input input-xs input-bordered w-20 text-center"
+                                                    value={timeValue}
+                                                    onChange={(e) => {
+                                                        const parsed = DataTypeHelpers.parseTimeSpan(e.target.value);
+                                                        onMatchTimeChange(
+                                                            matchIdNum,
+                                                            parsed ? DataTypeHelpers.formatTimeSpan(parsed.hours, parsed.minutes) : null);
+                                                    }}
+                                                    disabled={disabled || isRefreshing}
+                                                />
+                                            )}
+                                        </td>
+                                    );
+                                })}
+                            </tr>
+                        </tfoot>
                     </table>
                 </div>
             ) : null}

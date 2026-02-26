@@ -438,6 +438,7 @@ export default function ScoringDatabaseMeetsPage() {
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
                     defaultRules={currentDatabase.DefaultRules}
+                    defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     allMeets={currentDatabase.Meets}
                     isReadOnly={isReadOnly}
                     isNew={false}
@@ -477,6 +478,7 @@ export default function ScoringDatabaseMeetsPage() {
                     meetName="New Division"
                     allMeets={currentDatabase.Meets}
                     defaultRules={currentDatabase.DefaultRules}
+                    defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     isReadOnly={false}
                     isNew={true}
                     onSave={handleDialogSave}
