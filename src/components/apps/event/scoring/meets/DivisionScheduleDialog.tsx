@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import CollapsibleSection from "components/CollapsibleSection";
 import type { AuthManager } from "types/AuthManager";
@@ -20,6 +20,7 @@ import TeamSelector from "./TeamSelector";
 import RoomEditor, { generateRoomNamesForCount } from "./RoomEditor";
 import SchedulePreviewTable from "./SchedulePreviewTable";
 import CustomScheduleUploader from "./CustomScheduleUploader";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
     auth: AuthManager;
@@ -30,7 +31,8 @@ interface Props {
     meetName: string;
     allMeets: OnlineDatabaseMeetSummary[];
     defaultRules: MatchRules;
-    isReadOnly: boolean;
+    defaultMatchStartTime: string;
+    isScoreKeepDatabase: boolean;
     isNew: boolean;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
     onClose: () => void;
@@ -45,7 +47,8 @@ export default function DivisionScheduleDialog({
     meetName,
     allMeets,
     defaultRules,
-    isReadOnly,
+    defaultMatchStartTime,
+    isScoreKeepDatabase,
     isNew,
     onSave,
     onClose
@@ -63,6 +66,7 @@ export default function DivisionScheduleDialog({
     // Meet settings
     const [settings, setSettings] = useState<OnlineMeetSettings | null>(null);
     const [schedulePreview, setSchedulePreview] = useState<OnlineMeetSchedulePreview | null>(null);
+    const [hasOriginalSchedule, setHasOriginalSchedule] = useState(isNew);
     const [isScheduleOutOfDate, setIsScheduleOutOfDate] = useState(isNew);
 
     // Form state
@@ -88,11 +92,27 @@ export default function DivisionScheduleDialog({
     // Optimizer state
     const [useOptimizer, setUseOptimizer] = useState(false);
 
+    // Match times state - tracks the time for each match (key = matchId, value = TimeSpan string)
+    const [matchTimes, setMatchTimes] = useState<Record<number, string | null>>({});
+    // Track the previous match length to detect changes
+    const [prevMatchLengthInMinutes, setPrevMatchLengthInMinutes] = useState<number | null>(null);
+
     // Dialog state
     const [showLinkedMeetsDialog, setShowLinkedMeetsDialog] = useState(false);
 
     // All available teams from the database
     const [allTeams, setAllTeams] = useState<Record<number, TeamOrQuizzerReference>>({});
+
+    // Meets with scores - used to determine if scoring has started
+    const [meetsWithScores, setMeetsWithScores] = useState<number[]>([]);
+
+    // Derived permissions based on database type and scoring status
+    const hasScoringStarted = !isNew && meetsWithScores.includes(meetId);
+    const canEditName = !isSaving;
+    const canEditRoomNames = !isScoreKeepDatabase && !hasScoringStarted && !isSaving;
+    const canEditScheduleSettings = !isScoreKeepDatabase && !hasScoringStarted && !isSaving;
+    // For LinkedMeetsDialog - show divisions but don't allow changes if ScoreKeep or scoring started
+    const isLinkedMeetsReadOnly = isScoreKeepDatabase || hasScoringStarted;
 
     // Load meet settings on mount (call getMeet with 0 for new divisions to get defaults)
     useEffect(() => {
@@ -131,12 +151,35 @@ export default function DivisionScheduleDialog({
                     // Custom schedule from server
                     const hasCustom = data.Schedule.HasCustomSchedule || false;
                     setHasCustomSchedule(hasCustom);
+
+                    // Use optimizer
+                    if (data.Schedule.UseOptimizer) {
+                        setUseOptimizer(true);
+                    }
                 }
 
                 if (data.Preview && !isNew) {
                     setSchedulePreview(data.Preview);
                     setIsScheduleOutOfDate(false);
+                    setHasOriginalSchedule(true);
+
+                    // Initialize match times from the preview
+                    const initialMatchTimes: Record<number, string | null> = {};
+                    let lastMatchTime = defaultMatchStartTime;
+                    for (const [matchId, match] of Object.entries(data.Preview.Matches)) {
+                        initialMatchTimes[Number(matchId)] = match.MatchTime ?? lastMatchTime ?? null;
+                        if (match.MatchTime && lastMatchTime != match.MatchTime) {
+                            lastMatchTime = match.MatchTime;
+                        }
+                    }
+                    setMatchTimes(initialMatchTimes);
                 }
+
+                // Store which meets have scores
+                setMeetsWithScores(data.AllMeetsWithScores || []);
+
+                // Store the initial match length for comparison
+                setPrevMatchLengthInMinutes(data.MatchLengthInMinutes || 20);
 
                 setIsLoading(false);
             })
@@ -157,9 +200,89 @@ export default function DivisionScheduleDialog({
         }
     }, [schedulePreview?.RoomCount, roomNames.length]);
 
+    /**
+     * Calculate expected match time for a given match index based on first match time and match length.
+     */
+    const calculateExpectedMatchTime = useCallback((matchIndex: number, firstMatchTime: string | null, lengthInMinutes: number): string | null => {
+        if (!firstMatchTime) return null;
+        const parsed = DataTypeHelpers.parseTimeSpan(firstMatchTime);
+        if (!parsed) return null;
+
+        const totalMinutes = (parsed.days * 24 * 60) + (parsed.hours * 60) + parsed.minutes + (matchIndex * lengthInMinutes);
+        const days = Math.floor(totalMinutes / (24 * 60));
+        const remainingMinutes = totalMinutes % (24 * 60);
+        const hours = Math.floor(remainingMinutes / 60);
+        const minutes = remainingMinutes % 60;
+
+        return DataTypeHelpers.formatTimeSpan(hours, minutes, 0, days);
+    }, []);
+
+    /**
+     * Check if all match times follow the expected pattern based on the match length.
+     */
+    const areMatchTimesFollowingPattern = useCallback((times: Record<number, string | null>, lengthInMinutes: number): boolean => {
+        const matchIds = Object.keys(times).map(Number).sort((a, b) => a - b);
+        if (matchIds.length === 0) return true;
+
+        const firstMatchTime = times[matchIds[0]];
+        if (!firstMatchTime) return true; // If no times set, consider as following pattern
+
+        for (let i = 1; i < matchIds.length; i++) {
+            const expectedTime = calculateExpectedMatchTime(i, firstMatchTime, lengthInMinutes);
+            const actualTime = times[matchIds[i]];
+
+            // Compare normalized time strings
+            if (expectedTime !== actualTime) {
+                // Also check if both are effectively the same time (compare parsed values)
+                const expectedParsed = DataTypeHelpers.parseTimeSpan(expectedTime);
+                const actualParsed = DataTypeHelpers.parseTimeSpan(actualTime);
+
+                if (!expectedParsed || !actualParsed) return false;
+
+                const expectedMinutes = (expectedParsed.days * 24 * 60) + (expectedParsed.hours * 60) + expectedParsed.minutes;
+                const actualMinutes = (actualParsed.days * 24 * 60) + (actualParsed.hours * 60) + actualParsed.minutes;
+
+                if (expectedMinutes !== actualMinutes) return false;
+            }
+        }
+        return true;
+    }, [calculateExpectedMatchTime]);
+
+    /**
+     * Handle match length change - recalculate times only if they were following the old pattern.
+     */
+    useEffect(() => {
+        if (prevMatchLengthInMinutes === null || prevMatchLengthInMinutes === matchLengthInMinutes) {
+            return;
+        }
+
+        // Check if match times were following the pattern with the OLD match length
+        if (areMatchTimesFollowingPattern(matchTimes, prevMatchLengthInMinutes)) {
+            // Recalculate with new match length
+            const matchIds = Object.keys(matchTimes).map(Number).sort((a, b) => a - b);
+            if (matchIds.length > 0) {
+                const firstMatchTime = matchTimes[matchIds[0]];
+                const newMatchTimes: Record<number, string | null> = {};
+
+                for (let i = 0; i < matchIds.length; i++) {
+                    if (i === 0) {
+                        newMatchTimes[matchIds[i]] = firstMatchTime;
+                    } else {
+                        newMatchTimes[matchIds[i]] = calculateExpectedMatchTime(i, firstMatchTime, matchLengthInMinutes);
+                    }
+                }
+
+                setMatchTimes(newMatchTimes);
+            }
+        }
+
+        setPrevMatchLengthInMinutes(matchLengthInMinutes);
+    }, [matchLengthInMinutes, prevMatchLengthInMinutes, matchTimes, areMatchTimesFollowingPattern, calculateExpectedMatchTime]);
+
     // Mark schedule as out of date when settings change
     const markScheduleOutOfDate = () => {
         setIsScheduleOutOfDate(true);
+        setHasOriginalSchedule(false);
     };
 
     // Handle scheduling settings changes
@@ -261,6 +384,90 @@ export default function DivisionScheduleDialog({
         }
     };
 
+    /**
+     * Convert a time string to total minutes for comparison.
+     */
+    const getTimeInMinutes = useCallback((time: string | null): number | null => {
+        if (!time) return null;
+        const parsed = DataTypeHelpers.parseTimeSpan(time);
+        if (!parsed) return null;
+        return (parsed.days * 24 * 60) + (parsed.hours * 60) + parsed.minutes;
+    }, []);
+
+    /**
+     * Handle individual match time change.
+     * If the new time is later than the old time, recalculate all subsequent match times.
+     */
+    const handleMatchTimeChange = useCallback((matchId: number, time: string | null) => {
+        setMatchTimes(prev => {
+            const oldTime = prev[matchId];
+            const oldMinutes = getTimeInMinutes(oldTime);
+            const newMinutes = getTimeInMinutes(time);
+
+            // If new time is later than old time, update subsequent matches
+            if (newMinutes !== null && oldMinutes !== null && newMinutes > oldMinutes) {
+                const matchIds = Object.keys(prev).map(Number).sort((a, b) => a - b);
+                const changedIndex = matchIds.indexOf(matchId);
+
+                if (changedIndex >= 0) {
+                    const newMatchTimes = { ...prev };
+                    newMatchTimes[matchId] = time;
+
+                    // Recalculate all subsequent match times
+                    for (let i = changedIndex + 1; i < matchIds.length; i++) {
+                        const subsequentMatchId = matchIds[i];
+                        const offsetFromChanged = i - changedIndex;
+                        newMatchTimes[subsequentMatchId] = calculateExpectedMatchTime(offsetFromChanged, time, matchLengthInMinutes);
+                    }
+
+                    return newMatchTimes;
+                }
+            }
+
+            // Otherwise just update the single match time
+            return {
+                ...prev,
+                [matchId]: time
+            };
+        });
+    }, [getTimeInMinutes, calculateExpectedMatchTime, matchLengthInMinutes]);
+
+    /**
+     * Reset all match times to calculated defaults based on first match time and match length.
+     */
+    const handleResetMatchTimes = useCallback(() => {
+        const matchIds = Object.keys(matchTimes).map(Number).sort((a, b) => a - b);
+        if (matchIds.length === 0) return;
+
+        const firstMatchTime = defaultMatchStartTime || matchTimes[matchIds[0]];
+        if (!firstMatchTime) return;
+
+        const newMatchTimes: Record<number, string | null> = {};
+        for (let i = 0; i < matchIds.length; i++) {
+            newMatchTimes[matchIds[i]] = calculateExpectedMatchTime(i, firstMatchTime, matchLengthInMinutes);
+        }
+
+        setMatchTimes(newMatchTimes);
+    }, [matchTimes, defaultMatchStartTime, calculateExpectedMatchTime, matchLengthInMinutes]);
+
+    // Export schedule stats
+    const handleExportStats = async () => {
+        const schedulingSettings = getSchedulingSettings();
+
+        try {
+            await AstroMeetsService.downloadScheduleStats(
+                auth,
+                eventId,
+                databaseId,
+                meetId,
+                schedulingSettings,
+                useOptimizer
+            );
+        } catch (err: any) {
+            setError(err.message || "Failed to export schedule stats.");
+        }
+    };
+
     // Refresh schedule preview
     const handleRefreshPreview = async () => {
         if (selectedTeamIds.length < 2) {
@@ -285,6 +492,48 @@ export default function DivisionScheduleDialog({
 
             setSchedulePreview(preview);
             setIsScheduleOutOfDate(false);
+
+            // Update match times for new/changed matches
+            const newMatchIds = Object.keys(preview.Matches).map(Number).sort((a, b) => a - b);
+            const existingMatchIds = Object.keys(matchTimes).map(Number).sort((a, b) => a - b);
+
+            // If we have new matches that don't exist in current matchTimes, calculate their times
+            if (newMatchIds.length > existingMatchIds.length) {
+                const newMatchTimes = { ...matchTimes };
+
+                // Find the first match time to use as base
+                let firstMatchTime: string | null = null;
+                if (existingMatchIds.length > 0 && matchTimes[existingMatchIds[0]]) {
+                    firstMatchTime = matchTimes[existingMatchIds[0]];
+                } else if (newMatchIds.length > 0 && preview.Matches[newMatchIds[0]]?.MatchTime) {
+                    firstMatchTime = preview.Matches[newMatchIds[0]].MatchTime ?? null;
+                } else if (defaultMatchStartTime) {
+                    // Use database default start time if no other times are available
+                    firstMatchTime = defaultMatchStartTime;
+                }
+
+                // Calculate times for all matches
+                for (let i = 0; i < newMatchIds.length; i++) {
+                    const matchId = newMatchIds[i];
+                    if (!(matchId in newMatchTimes) || newMatchTimes[matchId] === undefined) {
+                        // New match - calculate time
+                        if (firstMatchTime) {
+                            newMatchTimes[matchId] = calculateExpectedMatchTime(i, firstMatchTime, matchLengthInMinutes);
+                        } else {
+                            newMatchTimes[matchId] = preview.Matches[matchId]?.MatchTime ?? null;
+                        }
+                    }
+                }
+
+                setMatchTimes(newMatchTimes);
+            } else if (newMatchIds.length > 0 && Object.keys(matchTimes).length === 0) {
+                // Initialize from preview if we don't have any times yet
+                const initialMatchTimes: Record<number, string | null> = {};
+                for (const [matchId, match] of Object.entries(preview.Matches)) {
+                    initialMatchTimes[Number(matchId)] = match.MatchTime ?? null;
+                }
+                setMatchTimes(initialMatchTimes);
+            }
         } catch (err: any) {
             setError(err.message || "Failed to refresh schedule preview.");
         } finally {
@@ -328,25 +577,28 @@ export default function DivisionScheduleDialog({
                 setSchedulePreview(finalPreview);
             }
 
+            const updatedSchedule = hasOriginalSchedule ? undefined : {
+                LinkedMeetIds: linkedMeetIds,
+                TeamIds: selectedTeamIds,
+                IncludeByesInScores: includeByesInScores,
+                HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
+                IsScheduleChanged: true,
+                CustomSchedule: isRemovingCustomSchedule ? null : (finalPreview?.CustomSchedule || customSchedule),
+                OptimizedSchedule: isRemovingCustomSchedule ? null : finalPreview?.OptimizedSchedule,
+                StartingTemplateRoundOverride: startingRoundOverride,
+                TemplateRoundCountOverride: roundCountOverride,
+                UseOptimizer: useOptimizer
+            };
+
             // Build the settings to save
             const meetSettings: OnlineMeetSettings = {
                 Name: name.trim(),
                 RoomNames: roomNames,
                 MatchLengthInMinutes: matchLengthInMinutes,
                 CustomRules: useCustomRules ? customRules : null,
+                MatchTimes: matchTimes,
                 VersionId: settings?.VersionId || null,
-                Schedule: {
-                    LinkedMeetIds: linkedMeetIds,
-                    TeamIds: selectedTeamIds,
-                    IncludeByesInScores: includeByesInScores,
-                    HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
-                    IsScheduleChanged: true,
-                    CustomSchedule: isRemovingCustomSchedule ? null : (finalPreview?.CustomSchedule || customSchedule),
-                    OptimizedSchedule: isRemovingCustomSchedule ? null : finalPreview?.OptimizedSchedule,
-                    StartingTemplateRoundOverride: startingRoundOverride,
-                    TemplateRoundCountOverride: roundCountOverride,
-                    UseOptimizer: useOptimizer
-                }
+                Schedule: updatedSchedule
             };
 
             const result = await AstroMeetsService.createOrUpdateMeet(
@@ -415,7 +667,7 @@ export default function DivisionScheduleDialog({
                                     className="input input-bordered"
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
-                                    disabled={isSaving || isReadOnly}
+                                    disabled={!canEditName}
                                     required
                                     placeholder="Enter division name"
                                 />
@@ -440,7 +692,7 @@ export default function DivisionScheduleDialog({
                                             className="input input-bordered"
                                             value={matchLengthInMinutes}
                                             onChange={(e) => setMatchLengthInMinutes(Number(e.target.value))}
-                                            disabled={isSaving || isReadOnly}
+                                            disabled={!canEditScheduleSettings}
                                             min={1}
                                             max={120}
                                         />
@@ -453,7 +705,7 @@ export default function DivisionScheduleDialog({
                                         type="button"
                                         className="btn btn-sm btn-outline"
                                         onClick={() => setShowLinkedMeetsDialog(true)}
-                                        disabled={isSaving || isReadOnly}
+                                        disabled={isSaving}
                                     >
                                         <FontAwesomeIcon icon="fas faLink" />
                                         {linkedMeetIds.length > 1
@@ -479,7 +731,7 @@ export default function DivisionScheduleDialog({
                                 <RoomEditor
                                     roomNames={roomNames}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditRoomNames}
                                     onRoomNamesChange={setRoomNames}
                                 />
                             </CollapsibleSection>
@@ -507,7 +759,7 @@ export default function DivisionScheduleDialog({
                                     selectedTeamIds={selectedTeamIds}
                                     allTeams={allTeams}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditScheduleSettings}
                                     allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
                                     onTeamIdsChange={handleTeamIdsChange}
                                 />
@@ -529,7 +781,7 @@ export default function DivisionScheduleDialog({
                                             className="checkbox checkbox-sm"
                                             checked={includeByesInScores}
                                             onChange={(e) => handleIncludeByesChange(e.target.checked)}
-                                            disabled={isSaving || isReadOnly}
+                                            disabled={!canEditScheduleSettings}
                                         />
                                         <span className="label-text text-sm">Include Byes in Scores</span>
                                     </label>
@@ -541,7 +793,7 @@ export default function DivisionScheduleDialog({
                                                 className="select select-xs select-bordered w-20"
                                                 value={startingRoundOverride ?? ""}
                                                 onChange={(e) => handleStartingRoundChange(e.target.value)}
-                                                disabled={isSaving || isReadOnly}
+                                                disabled={!canEditScheduleSettings}
                                             >
                                                 <option value="">1</option>
                                                 {(() => {
@@ -562,7 +814,7 @@ export default function DivisionScheduleDialog({
                                                 className="input input-xs input-bordered w-16"
                                                 value={roundCountOverride ?? ""}
                                                 onChange={(e) => handleRoundCountChange(e.target.value)}
-                                                disabled={isSaving || isReadOnly}
+                                                disabled={!canEditScheduleSettings}
                                                 min={1}
                                                 step={1}
                                                 placeholder=""
@@ -589,7 +841,7 @@ export default function DivisionScheduleDialog({
                                     hasCustomSchedule={hasCustomSchedule && !isRemovingCustomSchedule}
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditScheduleSettings}
                                     auth={auth}
                                     eventId={eventId}
                                     databaseId={databaseId}
@@ -621,7 +873,7 @@ export default function DivisionScheduleDialog({
                                                 className="checkbox checkbox-sm"
                                                 checked={useCustomRules}
                                                 onChange={(e) => handleCustomRulesChange(e.target.checked)}
-                                                disabled={isSaving || isReadOnly}
+                                                disabled={!canEditScheduleSettings}
                                             />
                                             <span className="label-text">Use Custom Rules for this Division</span>
                                         </label>
@@ -634,7 +886,7 @@ export default function DivisionScheduleDialog({
                                                         __html: MatchRulesClass.toHtmlString(effectiveRules)
                                                     }}
                                                 />
-                                                {useCustomRules && !isReadOnly && (
+                                                {useCustomRules && canEditScheduleSettings && (
                                                     <button
                                                         type="button"
                                                         className="btn btn-sm btn-secondary mt-3 w-full"
@@ -673,10 +925,18 @@ export default function DivisionScheduleDialog({
                                     isOutOfDate={isScheduleOutOfDate}
                                     isRefreshing={isRefreshingPreview}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditScheduleSettings}
                                     useOptimizer={useOptimizer}
-                                    onUseOptimizerChange={setUseOptimizer}
+                                    matchTimes={matchTimes}
+                                    onUseOptimizerChange={(value) => {
+                                        setUseOptimizer(value);
+                                        setIsScheduleOutOfDate(true);
+                                        setHasOriginalSchedule(false);
+                                    }}
                                     onRefreshPreview={handleRefreshPreview}
+                                    onMatchTimeChange={handleMatchTimeChange}
+                                    onResetMatchTimes={handleResetMatchTimes}
+                                    onExportStats={handleExportStats}
                                 />
                             </CollapsibleSection>
                         </form>
@@ -684,33 +944,31 @@ export default function DivisionScheduleDialog({
                 </div>
 
                 <div className="mt-4 text-right gap-2 flex justify-end">
-                    {!isReadOnly && (
-                        <button
-                            className="btn btn-sm btn-primary"
-                            type="button"
-                            onClick={handleSave}
-                            disabled={isSaving || isLoading}
-                        >
-                            {isSaving ? (
-                                <>
-                                    <span className="loading loading-spinner loading-sm"></span>
-                                    Saving...
-                                </>
-                            ) : (
-                                <>
-                                    <FontAwesomeIcon icon="fas faSave" />
-                                    {isNew ? "Create Division" : "Save Division"}
-                                </>
-                            )}
-                        </button>
-                    )}
+                    <button
+                        className="btn btn-sm btn-primary"
+                        type="button"
+                        onClick={handleSave}
+                        disabled={isSaving || isLoading}
+                    >
+                        {isSaving ? (
+                            <>
+                                <span className="loading loading-spinner loading-sm"></span>
+                                Saving...
+                            </>
+                        ) : (
+                            <>
+                                <FontAwesomeIcon icon="fas faSave" />
+                                {isNew ? "Create Division" : "Save Division"}
+                            </>
+                        )}
+                    </button>
                     <button
                         className="btn btn-sm btn-secondary"
                         type="button"
                         onClick={onClose}
                         disabled={isSaving}
                     >
-                        {isReadOnly ? "Close" : "Cancel"}
+                        Cancel
                     </button>
                 </div>
             </div>
@@ -722,7 +980,7 @@ export default function DivisionScheduleDialog({
                     allMeets={allMeets}
                     linkedMeetIds={linkedMeetIds}
                     meetsWithScores={settings?.AllMeetsWithScores ?? []}
-                    isReadOnly={isReadOnly}
+                    isReadOnly={isLinkedMeetsReadOnly}
                     onSave={handleLinkedMeetsSave}
                     onClose={() => setShowLinkedMeetsDialog(false)}
                 />
@@ -735,7 +993,7 @@ export default function DivisionScheduleDialog({
                     defaultType={eventType}
                     defaultRules={defaultRules}
                     onSelect={handleRulesDialogClose}
-                    isReadOnly={isReadOnly}
+                    isReadOnly={!canEditScheduleSettings}
                 />
             )}
         </dialog>

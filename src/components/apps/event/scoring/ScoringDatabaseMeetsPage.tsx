@@ -24,11 +24,9 @@ interface EditingMeet {
     type: "schedule" | "playoffs" | "ranking";
 }
 
-interface ConfirmDialogProps {
-    title: string;
-    message: string;
-    action?: () => void;
-    alertOnly?: boolean;
+interface DeleteConfirmation {
+    meetName: string;
+    action: () => void;
 }
 
 export default function ScoringDatabaseMeetsPage() {
@@ -55,7 +53,7 @@ export default function ScoringDatabaseMeetsPage() {
     // Dialog state
     const [editingMeet, setEditingMeet] = useState<EditingMeet | null>(null);
     const [isAddingNewDivision, setIsAddingNewDivision] = useState(false);
-    const [confirmDialog, setConfirmDialog] = useState<ConfirmDialogProps | undefined>();
+    const [confirmDelete, setConfirmDelete] = useState<DeleteConfirmation | undefined>();
 
     // Drag state
     const [draggedMeetId, setDraggedMeetId] = useState<number | null>(null);
@@ -121,7 +119,7 @@ export default function ScoringDatabaseMeetsPage() {
             return newChanges;
         });
         markDirty();
-    }, [markDirty]);
+    }, [currentDatabase, markDirty]);
 
     // Drag handlers
     const handleDragStart = useCallback((e: React.DragEvent, meetId: number) => {
@@ -219,39 +217,36 @@ export default function ScoringDatabaseMeetsPage() {
 
         const meetName = meet.Display.NameOverride || meet.Display.Name;
 
-        setConfirmDialog({
-            title: "Delete Division",
-            message: `Are you sure you want to delete "${meetName}"? This action cannot be undone and will remove all matches and scores for this division.`,
-            action: async () => {
-                setConfirmDialog(undefined);
-                setIsSaving(true);
-                setSaveError(null);
+        setConfirmDelete(
+            {
+                meetName: meetName,
+                action: async () => {
+                    setConfirmDelete(undefined);
+                    setIsSaving(true);
+                    setSaveError(null);
 
-                try {
-                    await AstroMeetsService.deleteMeet(auth, eventId, databaseId!, meetId);
+                    try {
+                        const updatedDatabase = await AstroMeetsService.deleteMeet(auth, eventId, databaseId!, meetId);
+                        setCurrentDatabase(updatedDatabase);
 
-                    // Refresh the database
-                    const updatedDatabase = await AstroDatabasesService.getDatabase(auth, eventId, databaseId!);
-                    setCurrentDatabase(updatedDatabase);
+                        // Update meet order
+                        setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
 
-                    // Update meet order
-                    setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
+                        // Remove from pending changes
+                        setPendingDisplayChanges(prev => {
+                            const updated = { ...prev };
+                            delete updated[meetId];
+                            return updated;
+                        });
 
-                    // Remove from pending changes
-                    setPendingDisplayChanges(prev => {
-                        const updated = { ...prev };
-                        delete updated[meetId];
-                        return updated;
-                    });
-
-                    setIsSaved(true);
-                } catch (err: any) {
-                    setSaveError(err.message || "Failed to delete division.");
-                } finally {
-                    setIsSaving(false);
+                        setIsSaved(true);
+                    } catch (err: any) {
+                        setSaveError(err.message || "Failed to delete division.");
+                    } finally {
+                        setIsSaving(false);
+                    }
                 }
-            }
-        });
+            });
     }, [auth, eventId, databaseId, currentDatabase, setCurrentDatabase]);
 
     // Save all changes
@@ -443,8 +438,9 @@ export default function ScoringDatabaseMeetsPage() {
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
                     defaultRules={currentDatabase.DefaultRules}
+                    defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     allMeets={currentDatabase.Meets}
-                    isReadOnly={isReadOnly}
+                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
@@ -482,22 +478,25 @@ export default function ScoringDatabaseMeetsPage() {
                     meetName="New Division"
                     allMeets={currentDatabase.Meets}
                     defaultRules={currentDatabase.DefaultRules}
-                    isReadOnly={false}
+                    defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
+                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
             )}
 
-            {confirmDialog && (
+            {confirmDelete && (
                 <ConfirmationDialog
-                    title={confirmDialog.title}
-                    yesLabel={confirmDialog.alertOnly ? "Close" : "Delete"}
-                    onYes={() => confirmDialog.action?.()}
-                    noLabel={confirmDialog.alertOnly ? undefined : "Cancel"}
-                    onNo={confirmDialog.alertOnly ? undefined : () => setConfirmDialog(undefined)}
+                    title={"Delete Division"}
+                    yesLabel={"Delete"}
+                    onYes={confirmDelete.action}
+                    noLabel={"Cancel"}
+                    onNo={() => setConfirmDelete(undefined)}
                 >
-                    <p className="py-4">{confirmDialog.message}</p>
+                    <p className="py-4">
+                        Are you sure you want to delete {confirmDelete.meetName}? This action cannot be undone and will remove all matches and scores for this division.
+                    </p>
                 </ConfirmationDialog>
             )}
         </div>

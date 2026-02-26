@@ -77,9 +77,9 @@ export default function DivisionCard({
 
                 {/* Missing Questions Warning */}
                 {hasAnyMissingQuestions && (
-                    <div className="flex items-center gap-2 text-warning text-sm mb-2">
+                    <div role="alert" className="alert alert-warning mt-0 mb-0 w-full">
                         <FontAwesomeIcon icon="fas faTriangleExclamation" />
-                        <span>Missing Imported Questions</span>
+                        <span>Missing Questions</span>
                     </div>
                 )}
 
@@ -102,7 +102,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowScores}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowScores", e.target.checked)}
-                            disabled={disabled || isReadOnly}
+                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule}
                         />
                         <span className="label-text text-sm">Stats</span>
                     </label>
@@ -113,7 +113,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowIndividualScores}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowIndividualScores", e.target.checked)}
-                            disabled={disabled || isReadOnly}
+                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
                         />
                         <span className="label-text text-sm">Individuals</span>
                     </label>
@@ -124,7 +124,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowQuestionStats}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowQuestionStats", e.target.checked)}
-                            disabled={disabled || isReadOnly}
+                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule}
                         />
                         <span className="label-text text-sm">Q Stats</span>
                     </label>
@@ -135,7 +135,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.AllowEZScore}
                             onChange={(e) => onDisplaySettingsChange(meetId, "AllowEZScore", e.target.checked)}
-                            disabled={disabled || isReadOnly}
+                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule}
                         />
                         <span className="label-text text-sm">EZScore</span>
                     </label>

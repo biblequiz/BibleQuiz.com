@@ -25,7 +25,6 @@ import ScoringDatabaseMeetsPage from './scoring/ScoringDatabaseMeetsPage';
 import ScoringDatabaseLiveScoresPage from './scoring/ScoringDatabaseLiveScoresPage';
 import ScoringDatabaseTeamsAndQuizzersPage from './scoring/ScoringDatabaseTeamsAndQuizzersPage';
 import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
-import ScoringDatabaseManualEntryPage from './scoring/ScoringDatabaseManualEntryPage';
 import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
 import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
 import { AuthManager } from 'types/AuthManager';
@@ -532,13 +531,6 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Manual Entry",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/manualEntry`),
-                isCurrent: false,
-                icon: "fas faPenToSquare"
-            },
-            {
-                type: 'link' as const,
                 label: "Delete Database",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/delete`),
                 isCurrent: false,
@@ -642,10 +634,6 @@ const router = createHashRouter([
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/awards",
                                                 element: <ScoringDatabaseAwardsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/manualEntry",
-                                                element: <ScoringDatabaseManualEntryPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/delete",

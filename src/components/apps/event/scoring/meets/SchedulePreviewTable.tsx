@@ -1,6 +1,7 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
     schedulePreview: OnlineMeetSchedulePreview | null;
@@ -13,8 +14,12 @@ interface Props {
     disabled: boolean;
     isReadOnly: boolean;
     useOptimizer: boolean;
+    matchTimes: Record<number, string | null>;
     onUseOptimizerChange: (value: boolean) => void;
     onRefreshPreview: () => void;
+    onMatchTimeChange: (matchId: number, time: string | null) => void;
+    onResetMatchTimes: () => void;
+    onExportStats: () => void;
 }
 
 export default function SchedulePreviewTable({
@@ -28,44 +33,60 @@ export default function SchedulePreviewTable({
     disabled,
     isReadOnly,
     useOptimizer,
+    matchTimes,
     onUseOptimizerChange,
-    onRefreshPreview
+    onRefreshPreview,
+    onMatchTimeChange,
+    onResetMatchTimes,
+    onExportStats
 }: Props) {
     return (
         <div className="p-2">
             {/* Refresh controls */}
-            {!isReadOnly && (
-                <div className="flex flex-wrap items-center gap-4 mb-4">
-                    <label className="label cursor-pointer gap-2">
-                        <input
-                            type="checkbox"
-                            className="checkbox checkbox-sm"
-                            checked={useOptimizer}
-                            onChange={(e) => onUseOptimizerChange(e.target.checked)}
-                            disabled={disabled || isRefreshing}
-                        />
-                        <span className="label-text text-sm">Use Optimizer</span>
-                    </label>
-                    <button
-                        type="button"
-                        className={`btn btn-sm ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
-                        onClick={onRefreshPreview}
-                        disabled={disabled || isRefreshing || selectedTeamIds.length < 2}
-                    >
-                        {isRefreshing ? (
-                            <>
-                                <span className="loading loading-spinner loading-xs"></span>
-                                Refreshing...
-                            </>
-                        ) : (
-                            <>
-                                <FontAwesomeIcon icon="fas faRefresh" />
-                                Refresh Preview
-                            </>
-                        )}
-                    </button>
-                </div>
-            )}
+            <div className="flex flex-wrap items-center gap-4 mb-4">
+                {!isReadOnly && (
+                    <>
+                        <label className="label cursor-pointer gap-2">
+                            <input
+                                type="checkbox"
+                                className="checkbox checkbox-sm"
+                                checked={useOptimizer}
+                                onChange={(e) => onUseOptimizerChange(e.target.checked)}
+                                disabled={disabled || isRefreshing}
+                            />
+                            <span className="label-text text-sm">Use Optimizer</span>
+                        </label>
+                        <button
+                            type="button"
+                            className={`btn btn-sm ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
+                            onClick={onRefreshPreview}
+                            disabled={disabled || isRefreshing || selectedTeamIds.length < 2}
+                        >
+                            {isRefreshing ? (
+                                <>
+                                    <span className="loading loading-spinner loading-xs"></span>
+                                    Refreshing...
+                                </>
+                            ) : (
+                                <>
+                                    <FontAwesomeIcon icon="fas faRefresh" />
+                                    Refresh Preview
+                                </>
+                            )}
+                        </button>
+                    </>
+                )}
+                {/* Export Stats button is always visible - it doesn't change data */}
+                <button
+                    type="button"
+                    className="btn btn-sm btn-outline"
+                    onClick={onExportStats}
+                    disabled={disabled || isRefreshing || !schedulePreview}
+                >
+                    <FontAwesomeIcon icon="fas faFileExcel" />
+                    Export Schedule Stats
+                </button>
+            </div>
 
             {selectedTeamIds.length < 2 ? (
                 <div className="text-center py-4 text-base-content/60">
@@ -122,6 +143,49 @@ export default function SchedulePreviewTable({
                                 );
                             })}
                         </tbody>
+                        <tfoot>
+                            <tr className="border-t-2 border-base-300">
+                                <td className="font-semibold">
+                                    Match Time
+                                    {!isReadOnly && (
+                                        <button
+                                            type="button"
+                                            className="btn btn-xs btn-outline ml-1"
+                                            onClick={onResetMatchTimes}
+                                            disabled={disabled || isRefreshing}
+                                            title="Reset match times"
+                                        >
+                                            <FontAwesomeIcon icon="fas faRotateLeft" />
+                                            <span>Reset Times</span>
+                                        </button>
+                                    )}
+                                </td>
+                                {Object.entries(schedulePreview.Matches).map(([matchId]) => {
+                                    const matchIdNum = Number(matchId);
+                                    const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "");
+                                    return (
+                                        <td key={`time-${matchId}`} className="text-center">
+                                            {isReadOnly ? (
+                                                <span>{formattedValue || "--"}</span>
+                                            ) : (
+                                                <input
+                                                    type="time"
+                                                    className="input input-xs input-bordered w-20 text-center"
+                                                    defaultValue={formattedValue || ""}
+                                                    onBlur={(e) => {
+                                                        const newValue = DataTypeHelpers.formatTimeSpanAsTime(e.target.value);
+                                                        if (newValue !== formattedValue) {
+                                                            onMatchTimeChange(matchIdNum, newValue);
+                                                        }
+                                                    }}
+                                                    disabled={disabled || isRefreshing}
+                                                />
+                                            )}
+                                        </td>
+                                    );
+                                })}
+                            </tr>
+                        </tfoot>
                     </table>
                 </div>
             ) : null}

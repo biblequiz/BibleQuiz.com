@@ -270,7 +270,7 @@ export default function RoomEditor({
                         onChange={(e) => handleRoomNameChange(index, e.target.value)}
                         disabled={disabled || isReadOnly}
                         maxLength={2}
-                        pattern="^[A-Z0-9][A-Z0-9-]?$"
+                        pattern="^[A-Z0-9][A-Z0-9\-]?$"
                         title="1-2 uppercase alphanumeric characters or dash (cannot start with dash)"
                         placeholder={generateRoomName(index, format, prefix)}
                     />

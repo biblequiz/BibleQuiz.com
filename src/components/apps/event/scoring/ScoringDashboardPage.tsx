@@ -166,28 +166,6 @@ export default function ScoringDashboardPage({ }: Props) {
                 <button
                     type="button"
                     className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
-                    onClick={() => navigate(`${rootUrl}/manualEntry`)}
-                >
-                    <div className="card-body p-2 pl-4">
-                        <div className="flex items-start gap-4">
-                            <div className="flex-1 mt-2 pr-6 text-left">
-                                <h2 className="card-title mb-0 mt-0">
-                                    <FontAwesomeIcon icon="fas faPenToSquare" /> Manual Entry
-                                </h2>
-                                <p className="text-base mt-1">
-                                    Manually edit the scores for divisions in this database.
-                                </p>
-                            </div>
-                            <FontAwesomeIcon
-                                icon="fas faArrowRight"
-                                classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
-                            />
-                        </div>
-                    </div>
-                </button>
-                <button
-                    type="button"
-                    className="card live-events-card w-full md:w-128 card-sm shadow-sm border-2 border-solid mt-0 relative cursor-pointer"
                     onClick={() => navigate(`${rootUrl}/delete`)}
                 >
                     <div className="card-body p-2 pl-4">

@@ -110,8 +110,8 @@ export class AstroMeetsService {
         eventId: string,
         databaseId: string,
         meetId: number,
-    ): Promise<void> {
-        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
+    ): Promise<OnlineDatabaseSummary> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
             auth,
             "DELETE",
             RemoteServiceUrlBase.Registration,
@@ -207,6 +207,13 @@ export interface OnlineMeetSettings {
      * Scheduling settings. If this is null, the schedule is assumed not to have changed.
      */
     Schedule?: OnlineMeetSchedulingSettings | null;
+
+    /**
+     * Match times by match id. Key is the match id, value is the TimeSpan string.
+     * If null or undefined, the server will calculate default times based on MatchLengthInMinutes.
+     * If all times follow the default pattern, send null to let the server use defaults.
+     */
+    MatchTimes?: Record<number, string | null> | null;
 
     /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.
