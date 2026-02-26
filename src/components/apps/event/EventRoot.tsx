@@ -532,13 +532,6 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Manual Entry",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/manualEntry`),
-                isCurrent: false,
-                icon: "fas faPenToSquare"
-            },
-            {
-                type: 'link' as const,
                 label: "Delete Database",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/delete`),
                 isCurrent: false,
@@ -642,10 +635,6 @@ const router = createHashRouter([
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/awards",
                                                 element: <ScoringDatabaseAwardsPage />
-                                            },
-                                            {
-                                                path: "/:eventId/scoring/databases/:databaseId/manualEntry",
-                                                element: <ScoringDatabaseManualEntryPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/delete",

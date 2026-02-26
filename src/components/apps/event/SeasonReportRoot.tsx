@@ -493,13 +493,6 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Manual Entry",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/manualEntry`),
-                isCurrent: false,
-                icon: "fas faPenToSquare"
-            },
-            {
-                type: 'link' as const,
                 label: "Delete Database",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/delete`),
                 isCurrent: false,
