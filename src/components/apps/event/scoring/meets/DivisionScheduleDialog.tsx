@@ -140,6 +140,11 @@ export default function DivisionScheduleDialog({
                     // Custom schedule from server
                     const hasCustom = data.Schedule.HasCustomSchedule || false;
                     setHasCustomSchedule(hasCustom);
+
+                    // Use optimizer
+                    if (data.Schedule.UseOptimizer) {
+                        setUseOptimizer(true);
+                    }
                 }
 
                 if (data.Preview && !isNew) {
@@ -891,7 +896,11 @@ export default function DivisionScheduleDialog({
                                     isReadOnly={isReadOnly}
                                     useOptimizer={useOptimizer}
                                     matchTimes={matchTimes}
-                                    onUseOptimizerChange={setUseOptimizer}
+                                    onUseOptimizerChange={(value) => {
+                                        setUseOptimizer(value);
+                                        setIsScheduleOutOfDate(true);
+                                        setHasOriginalSchedule(false);
+                                    }}
                                     onRefreshPreview={handleRefreshPreview}
                                     onMatchTimeChange={handleMatchTimeChange}
                                     onResetMatchTimes={handleResetMatchTimes}

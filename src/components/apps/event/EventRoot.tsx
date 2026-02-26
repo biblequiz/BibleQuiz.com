@@ -25,7 +25,6 @@ import ScoringDatabaseMeetsPage from './scoring/ScoringDatabaseMeetsPage';
 import ScoringDatabaseLiveScoresPage from './scoring/ScoringDatabaseLiveScoresPage';
 import ScoringDatabaseTeamsAndQuizzersPage from './scoring/ScoringDatabaseTeamsAndQuizzersPage';
 import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
-import ScoringDatabaseManualEntryPage from './scoring/ScoringDatabaseManualEntryPage';
 import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
 import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
 import { AuthManager } from 'types/AuthManager';
