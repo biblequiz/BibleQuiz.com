@@ -366,14 +366,70 @@ export default function DivisionScheduleDialog({
     };
 
     /**
+     * Convert a time string to total minutes for comparison.
+     */
+    const getTimeInMinutes = useCallback((time: string | null): number | null => {
+        if (!time) return null;
+        const parsed = DataTypeHelpers.parseTimeSpan(time);
+        if (!parsed) return null;
+        return (parsed.days * 24 * 60) + (parsed.hours * 60) + parsed.minutes;
+    }, []);
+
+    /**
      * Handle individual match time change.
+     * If the new time is later than the old time, recalculate all subsequent match times.
      */
     const handleMatchTimeChange = useCallback((matchId: number, time: string | null) => {
-        setMatchTimes(prev => ({
-            ...prev,
-            [matchId]: time
-        }));
-    }, []);
+        setMatchTimes(prev => {
+            const oldTime = prev[matchId];
+            const oldMinutes = getTimeInMinutes(oldTime);
+            const newMinutes = getTimeInMinutes(time);
+
+            // If new time is later than old time, update subsequent matches
+            if (newMinutes !== null && oldMinutes !== null && newMinutes > oldMinutes) {
+                const matchIds = Object.keys(prev).map(Number).sort((a, b) => a - b);
+                const changedIndex = matchIds.indexOf(matchId);
+
+                if (changedIndex >= 0) {
+                    const newMatchTimes = { ...prev };
+                    newMatchTimes[matchId] = time;
+
+                    // Recalculate all subsequent match times
+                    for (let i = changedIndex + 1; i < matchIds.length; i++) {
+                        const subsequentMatchId = matchIds[i];
+                        const offsetFromChanged = i - changedIndex;
+                        newMatchTimes[subsequentMatchId] = calculateExpectedMatchTime(offsetFromChanged, time, matchLengthInMinutes);
+                    }
+
+                    return newMatchTimes;
+                }
+            }
+
+            // Otherwise just update the single match time
+            return {
+                ...prev,
+                [matchId]: time
+            };
+        });
+    }, [getTimeInMinutes, calculateExpectedMatchTime, matchLengthInMinutes]);
+
+    /**
+     * Reset all match times to calculated defaults based on first match time and match length.
+     */
+    const handleResetMatchTimes = useCallback(() => {
+        const matchIds = Object.keys(matchTimes).map(Number).sort((a, b) => a - b);
+        if (matchIds.length === 0) return;
+
+        const firstMatchTime = defaultMatchStartTime || matchTimes[matchIds[0]];
+        if (!firstMatchTime) return;
+
+        const newMatchTimes: Record<number, string | null> = {};
+        for (let i = 0; i < matchIds.length; i++) {
+            newMatchTimes[matchIds[i]] = calculateExpectedMatchTime(i, firstMatchTime, matchLengthInMinutes);
+        }
+
+        setMatchTimes(newMatchTimes);
+    }, [matchTimes, defaultMatchStartTime, calculateExpectedMatchTime, matchLengthInMinutes]);
 
     // Refresh schedule preview
     const handleRefreshPreview = async () => {
@@ -838,6 +894,7 @@ export default function DivisionScheduleDialog({
                                     onUseOptimizerChange={setUseOptimizer}
                                     onRefreshPreview={handleRefreshPreview}
                                     onMatchTimeChange={handleMatchTimeChange}
+                                    onResetMatchTimes={handleResetMatchTimes}
                                 />
                             </CollapsibleSection>
                         </form>

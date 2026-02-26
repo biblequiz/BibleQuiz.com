@@ -18,6 +18,7 @@ interface Props {
     onUseOptimizerChange: (value: boolean) => void;
     onRefreshPreview: () => void;
     onMatchTimeChange: (matchId: number, time: string | null) => void;
+    onResetMatchTimes: () => void;
 }
 
 export default function SchedulePreviewTable({
@@ -34,7 +35,8 @@ export default function SchedulePreviewTable({
     matchTimes,
     onUseOptimizerChange,
     onRefreshPreview,
-    onMatchTimeChange
+    onMatchTimeChange,
+    onResetMatchTimes
 }: Props) {
     return (
         <div className="p-2">
@@ -129,7 +131,21 @@ export default function SchedulePreviewTable({
                         </tbody>
                         <tfoot>
                             <tr className="border-t-2 border-base-300">
-                                <td className="font-semibold">Match Time</td>
+                                <td className="font-semibold">
+                                    Match Time
+                                    {!isReadOnly && (
+                                        <button
+                                            type="button"
+                                            className="btn btn-xs btn-outline ml-1"
+                                            onClick={onResetMatchTimes}
+                                            disabled={disabled || isRefreshing}
+                                            title="Reset match times"
+                                        >
+                                            <FontAwesomeIcon icon="fas faRotateLeft" />
+                                            <span>Reset Times</span>
+                                        </button>
+                                    )}
+                                </td>
                                 {Object.entries(schedulePreview.Matches).map(([matchId]) => {
                                     const matchIdNum = Number(matchId);
                                     const timeValue = matchTimes[matchIdNum] ?? "";
