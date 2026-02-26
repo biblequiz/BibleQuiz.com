@@ -440,7 +440,7 @@ export default function ScoringDatabaseMeetsPage() {
                     defaultRules={currentDatabase.DefaultRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     allMeets={currentDatabase.Meets}
-                    isReadOnly={isReadOnly}
+                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
@@ -479,7 +479,7 @@ export default function ScoringDatabaseMeetsPage() {
                     allMeets={currentDatabase.Meets}
                     defaultRules={currentDatabase.DefaultRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
-                    isReadOnly={false}
+                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}

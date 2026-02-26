@@ -43,47 +43,50 @@ export default function SchedulePreviewTable({
     return (
         <div className="p-2">
             {/* Refresh controls */}
-            {!isReadOnly && (
-                <div className="flex flex-wrap items-center gap-4 mb-4">
-                    <label className="label cursor-pointer gap-2">
-                        <input
-                            type="checkbox"
-                            className="checkbox checkbox-sm"
-                            checked={useOptimizer}
-                            onChange={(e) => onUseOptimizerChange(e.target.checked)}
-                            disabled={disabled || isRefreshing}
-                        />
-                        <span className="label-text text-sm">Use Optimizer</span>
-                    </label>
-                    <button
-                        type="button"
-                        className={`btn btn-sm ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
-                        onClick={onRefreshPreview}
-                        disabled={disabled || isRefreshing || selectedTeamIds.length < 2}
-                    >
-                        {isRefreshing ? (
-                            <>
-                                <span className="loading loading-spinner loading-xs"></span>
-                                Refreshing...
-                            </>
-                        ) : (
-                            <>
-                                <FontAwesomeIcon icon="fas faRefresh" />
-                                Refresh Preview
-                            </>
-                        )}
-                    </button>
-                    <button
-                        type="button"
-                        className="btn btn-sm btn-outline"
-                        onClick={onExportStats}
-                        disabled={disabled || isRefreshing || !schedulePreview}
-                    >
-                        <FontAwesomeIcon icon="fas faFileExcel" />
-                        Export Schedule Stats
-                    </button>
-                </div>
-            )}
+            <div className="flex flex-wrap items-center gap-4 mb-4">
+                {!isReadOnly && (
+                    <>
+                        <label className="label cursor-pointer gap-2">
+                            <input
+                                type="checkbox"
+                                className="checkbox checkbox-sm"
+                                checked={useOptimizer}
+                                onChange={(e) => onUseOptimizerChange(e.target.checked)}
+                                disabled={disabled || isRefreshing}
+                            />
+                            <span className="label-text text-sm">Use Optimizer</span>
+                        </label>
+                        <button
+                            type="button"
+                            className={`btn btn-sm ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
+                            onClick={onRefreshPreview}
+                            disabled={disabled || isRefreshing || selectedTeamIds.length < 2}
+                        >
+                            {isRefreshing ? (
+                                <>
+                                    <span className="loading loading-spinner loading-xs"></span>
+                                    Refreshing...
+                                </>
+                            ) : (
+                                <>
+                                    <FontAwesomeIcon icon="fas faRefresh" />
+                                    Refresh Preview
+                                </>
+                            )}
+                        </button>
+                    </>
+                )}
+                {/* Export Stats button is always visible - it doesn't change data */}
+                <button
+                    type="button"
+                    className="btn btn-sm btn-outline"
+                    onClick={onExportStats}
+                    disabled={disabled || isRefreshing || !schedulePreview}
+                >
+                    <FontAwesomeIcon icon="fas faFileExcel" />
+                    Export Schedule Stats
+                </button>
+            </div>
 
             {selectedTeamIds.length < 2 ? (
                 <div className="text-center py-4 text-base-content/60">
@@ -159,21 +162,19 @@ export default function SchedulePreviewTable({
                                 </td>
                                 {Object.entries(schedulePreview.Matches).map(([matchId]) => {
                                     const matchIdNum = Number(matchId);
-                                    const timeValue = matchTimes[matchIdNum] ?? "";
+                                    const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "");
                                     return (
-                                        <td key={matchId} className="text-center">
+                                        <td key={`time-${matchId}`} className="text-center">
                                             {isReadOnly ? (
-                                                <span>{timeValue || "--"}</span>
+                                                <span>{formattedValue || "--"}</span>
                                             ) : (
                                                 <input
                                                     type="time"
                                                     className="input input-xs input-bordered w-20 text-center"
-                                                    defaultValue={timeValue}
-                                                    key={timeValue}
+                                                    defaultValue={formattedValue || ""}
                                                     onBlur={(e) => {
-                                                        const parsed = DataTypeHelpers.parseTimeSpan(e.target.value);
-                                                        const newValue = parsed ? DataTypeHelpers.formatTimeSpan(parsed.hours, parsed.minutes) : null;
-                                                        if (newValue !== timeValue) {
+                                                        const newValue = DataTypeHelpers.formatTimeSpanAsTime(e.target.value);
+                                                        if (newValue !== formattedValue) {
                                                             onMatchTimeChange(matchIdNum, newValue);
                                                         }
                                                     }}

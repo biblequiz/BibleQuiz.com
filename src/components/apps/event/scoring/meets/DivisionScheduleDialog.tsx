@@ -32,7 +32,7 @@ interface Props {
     allMeets: OnlineDatabaseMeetSummary[];
     defaultRules: MatchRules;
     defaultMatchStartTime: string;
-    isReadOnly: boolean;
+    isScoreKeepDatabase: boolean;
     isNew: boolean;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
     onClose: () => void;
@@ -48,7 +48,7 @@ export default function DivisionScheduleDialog({
     allMeets,
     defaultRules,
     defaultMatchStartTime,
-    isReadOnly,
+    isScoreKeepDatabase,
     isNew,
     onSave,
     onClose
@@ -102,6 +102,17 @@ export default function DivisionScheduleDialog({
 
     // All available teams from the database
     const [allTeams, setAllTeams] = useState<Record<number, TeamOrQuizzerReference>>({});
+
+    // Meets with scores - used to determine if scoring has started
+    const [meetsWithScores, setMeetsWithScores] = useState<number[]>([]);
+
+    // Derived permissions based on database type and scoring status
+    const hasScoringStarted = !isNew && meetsWithScores.includes(meetId);
+    const canEditName = !isSaving;
+    const canEditRoomNames = !isScoreKeepDatabase && !hasScoringStarted && !isSaving;
+    const canEditScheduleSettings = !isScoreKeepDatabase && !hasScoringStarted && !isSaving;
+    // For LinkedMeetsDialog - show divisions but don't allow changes if ScoreKeep or scoring started
+    const isLinkedMeetsReadOnly = isScoreKeepDatabase || hasScoringStarted;
 
     // Load meet settings on mount (call getMeet with 0 for new divisions to get defaults)
     useEffect(() => {
@@ -163,6 +174,9 @@ export default function DivisionScheduleDialog({
                     }
                     setMatchTimes(initialMatchTimes);
                 }
+
+                // Store which meets have scores
+                setMeetsWithScores(data.AllMeetsWithScores || []);
 
                 // Store the initial match length for comparison
                 setPrevMatchLengthInMinutes(data.MatchLengthInMinutes || 20);
@@ -653,7 +667,7 @@ export default function DivisionScheduleDialog({
                                     className="input input-bordered"
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
-                                    disabled={isSaving || isReadOnly}
+                                    disabled={!canEditName}
                                     required
                                     placeholder="Enter division name"
                                 />
@@ -678,7 +692,7 @@ export default function DivisionScheduleDialog({
                                             className="input input-bordered"
                                             value={matchLengthInMinutes}
                                             onChange={(e) => setMatchLengthInMinutes(Number(e.target.value))}
-                                            disabled={isSaving || isReadOnly}
+                                            disabled={!canEditScheduleSettings}
                                             min={1}
                                             max={120}
                                         />
@@ -691,7 +705,7 @@ export default function DivisionScheduleDialog({
                                         type="button"
                                         className="btn btn-sm btn-outline"
                                         onClick={() => setShowLinkedMeetsDialog(true)}
-                                        disabled={isSaving || isReadOnly}
+                                        disabled={isSaving}
                                     >
                                         <FontAwesomeIcon icon="fas faLink" />
                                         {linkedMeetIds.length > 1
@@ -717,7 +731,7 @@ export default function DivisionScheduleDialog({
                                 <RoomEditor
                                     roomNames={roomNames}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditRoomNames}
                                     onRoomNamesChange={setRoomNames}
                                 />
                             </CollapsibleSection>
@@ -745,7 +759,7 @@ export default function DivisionScheduleDialog({
                                     selectedTeamIds={selectedTeamIds}
                                     allTeams={allTeams}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditScheduleSettings}
                                     allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
                                     onTeamIdsChange={handleTeamIdsChange}
                                 />
@@ -767,7 +781,7 @@ export default function DivisionScheduleDialog({
                                             className="checkbox checkbox-sm"
                                             checked={includeByesInScores}
                                             onChange={(e) => handleIncludeByesChange(e.target.checked)}
-                                            disabled={isSaving || isReadOnly}
+                                            disabled={!canEditScheduleSettings}
                                         />
                                         <span className="label-text text-sm">Include Byes in Scores</span>
                                     </label>
@@ -779,7 +793,7 @@ export default function DivisionScheduleDialog({
                                                 className="select select-xs select-bordered w-20"
                                                 value={startingRoundOverride ?? ""}
                                                 onChange={(e) => handleStartingRoundChange(e.target.value)}
-                                                disabled={isSaving || isReadOnly}
+                                                disabled={!canEditScheduleSettings}
                                             >
                                                 <option value="">1</option>
                                                 {(() => {
@@ -800,7 +814,7 @@ export default function DivisionScheduleDialog({
                                                 className="input input-xs input-bordered w-16"
                                                 value={roundCountOverride ?? ""}
                                                 onChange={(e) => handleRoundCountChange(e.target.value)}
-                                                disabled={isSaving || isReadOnly}
+                                                disabled={!canEditScheduleSettings}
                                                 min={1}
                                                 step={1}
                                                 placeholder=""
@@ -827,7 +841,7 @@ export default function DivisionScheduleDialog({
                                     hasCustomSchedule={hasCustomSchedule && !isRemovingCustomSchedule}
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditScheduleSettings}
                                     auth={auth}
                                     eventId={eventId}
                                     databaseId={databaseId}
@@ -859,7 +873,7 @@ export default function DivisionScheduleDialog({
                                                 className="checkbox checkbox-sm"
                                                 checked={useCustomRules}
                                                 onChange={(e) => handleCustomRulesChange(e.target.checked)}
-                                                disabled={isSaving || isReadOnly}
+                                                disabled={!canEditScheduleSettings}
                                             />
                                             <span className="label-text">Use Custom Rules for this Division</span>
                                         </label>
@@ -872,7 +886,7 @@ export default function DivisionScheduleDialog({
                                                         __html: MatchRulesClass.toHtmlString(effectiveRules)
                                                     }}
                                                 />
-                                                {useCustomRules && !isReadOnly && (
+                                                {useCustomRules && canEditScheduleSettings && (
                                                     <button
                                                         type="button"
                                                         className="btn btn-sm btn-secondary mt-3 w-full"
@@ -911,7 +925,7 @@ export default function DivisionScheduleDialog({
                                     isOutOfDate={isScheduleOutOfDate}
                                     isRefreshing={isRefreshingPreview}
                                     disabled={isSaving}
-                                    isReadOnly={isReadOnly}
+                                    isReadOnly={!canEditScheduleSettings}
                                     useOptimizer={useOptimizer}
                                     matchTimes={matchTimes}
                                     onUseOptimizerChange={(value) => {
@@ -930,33 +944,31 @@ export default function DivisionScheduleDialog({
                 </div>
 
                 <div className="mt-4 text-right gap-2 flex justify-end">
-                    {!isReadOnly && (
-                        <button
-                            className="btn btn-sm btn-primary"
-                            type="button"
-                            onClick={handleSave}
-                            disabled={isSaving || isLoading}
-                        >
-                            {isSaving ? (
-                                <>
-                                    <span className="loading loading-spinner loading-sm"></span>
-                                    Saving...
-                                </>
-                            ) : (
-                                <>
-                                    <FontAwesomeIcon icon="fas faSave" />
-                                    {isNew ? "Create Division" : "Save Division"}
-                                </>
-                            )}
-                        </button>
-                    )}
+                    <button
+                        className="btn btn-sm btn-primary"
+                        type="button"
+                        onClick={handleSave}
+                        disabled={isSaving || isLoading}
+                    >
+                        {isSaving ? (
+                            <>
+                                <span className="loading loading-spinner loading-sm"></span>
+                                Saving...
+                            </>
+                        ) : (
+                            <>
+                                <FontAwesomeIcon icon="fas faSave" />
+                                {isNew ? "Create Division" : "Save Division"}
+                            </>
+                        )}
+                    </button>
                     <button
                         className="btn btn-sm btn-secondary"
                         type="button"
                         onClick={onClose}
                         disabled={isSaving}
                     >
-                        {isReadOnly ? "Close" : "Cancel"}
+                        Cancel
                     </button>
                 </div>
             </div>
@@ -968,7 +980,7 @@ export default function DivisionScheduleDialog({
                     allMeets={allMeets}
                     linkedMeetIds={linkedMeetIds}
                     meetsWithScores={settings?.AllMeetsWithScores ?? []}
-                    isReadOnly={isReadOnly}
+                    isReadOnly={isLinkedMeetsReadOnly}
                     onSave={handleLinkedMeetsSave}
                     onClose={() => setShowLinkedMeetsDialog(false)}
                 />
@@ -981,7 +993,7 @@ export default function DivisionScheduleDialog({
                     defaultType={eventType}
                     defaultRules={defaultRules}
                     onSelect={handleRulesDialogClose}
-                    isReadOnly={isReadOnly}
+                    isReadOnly={!canEditScheduleSettings}
                 />
             )}
         </dialog>

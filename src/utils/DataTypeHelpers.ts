@@ -391,6 +391,35 @@ export class DataTypeHelpers {
     }
 
     /**
+     * Formats a TimeSpan as time.
+     * 
+     * @param value TimeSpan string to parse.
+     * @returns A string for time.
+     */
+    public static formatTimeSpanAsTime(value: string | null | undefined): string | null {
+        const parsed = this.parseTimeSpan(value);
+        if (!parsed) {
+            return null;
+        }
+
+        return this.formatAsTime(parsed.hours, parsed.minutes);
+    }
+
+    /**
+     * Formats as time.
+     * 
+     * @param hours Hours component.
+     * @param minutes Minutes component.
+     * @returns A string for time.
+     */
+    public static formatAsTime(
+        hours: number,
+        minutes: number): string {
+
+        return `${Math.abs(hours).toString().padStart(2, "0")}:${Math.abs(minutes).toString().padStart(2, "0")}`;
+    }
+
+    /**
      * Parses a time span for C# TimeSpan.Parse compatibility.
      * 
      * @param value TimeSpan string to parse.
