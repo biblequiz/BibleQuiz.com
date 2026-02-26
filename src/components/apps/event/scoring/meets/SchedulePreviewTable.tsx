@@ -157,12 +157,14 @@ export default function SchedulePreviewTable({
                                                 <input
                                                     type="time"
                                                     className="input input-xs input-bordered w-20 text-center"
-                                                    value={timeValue}
-                                                    onChange={(e) => {
+                                                    defaultValue={timeValue}
+                                                    key={timeValue}
+                                                    onBlur={(e) => {
                                                         const parsed = DataTypeHelpers.parseTimeSpan(e.target.value);
-                                                        onMatchTimeChange(
-                                                            matchIdNum,
-                                                            parsed ? DataTypeHelpers.formatTimeSpan(parsed.hours, parsed.minutes) : null);
+                                                        const newValue = parsed ? DataTypeHelpers.formatTimeSpan(parsed.hours, parsed.minutes) : null;
+                                                        if (newValue !== timeValue) {
+                                                            onMatchTimeChange(matchIdNum, newValue);
+                                                        }
                                                     }}
                                                     disabled={disabled || isRefreshing}
                                                 />
