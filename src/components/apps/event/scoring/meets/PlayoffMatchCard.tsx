@@ -10,8 +10,9 @@ interface Props {
     isReadOnly: boolean;
     onMatchTimeChange: (matchIndex: number, time: string) => void;
     onRoomTeamChange: (matchIndex: number, roomIndex: number, teamIndex: number, teamId: number | null) => void;
-    onAddTeamToRoom: (matchIndex: number, roomIndex: number) => void;
-    onRemoveMatch: (matchIndex: number) => void;
+    onAddRoomToMatch: (matchIndex: number) => void;
+    onRoomChange: (matchIndex: number, roomIndex: number, newRoomId: number) => void;
+    onRemoveRoom: (matchIndex: number, roomIndex: number) => void;
 }
 
 export default function PlayoffMatchCard({
@@ -23,9 +24,19 @@ export default function PlayoffMatchCard({
     isReadOnly,
     onMatchTimeChange,
     onRoomTeamChange,
-    onAddTeamToRoom,
-    onRemoveMatch
+    onAddRoomToMatch,
+    onRoomChange,
+    onRemoveRoom
 }: Props) {
+    // Get rooms already used in this match (for filtering available rooms)
+    const usedRoomIds = match.RoomSchedule.map(r => r.Id);
+
+    // Check if there are more rooms available to add
+    const hasMoreRoomsAvailable = match.AvailableRooms.some(roomId => !usedRoomIds.includes(roomId));
+
+    // Get all team IDs used across all rooms in this match (for filtering team options)
+    const allUsedTeamIds = match.RoomSchedule.flatMap(r => r.TeamIds);
+
     return (
         <div className="card bg-base-200 p-4">
             <div className="flex items-center justify-between mb-3">
@@ -43,80 +54,121 @@ export default function PlayoffMatchCard({
                             disabled={isSaving || isReadOnly}
                         />
                     </label>
-                    {!isReadOnly && (
-                        <button
-                            type="button"
-                            className="btn btn-ghost btn-xs text-error"
-                            onClick={() => onRemoveMatch(matchIndex)}
-                            disabled={isSaving}
-                            title="Remove Match"
-                        >
-                            <FontAwesomeIcon icon="fas faTrash" />
-                        </button>
-                    )}
                 </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {match.RoomSchedule.map((room, roomIndex) => (
-                    <div key={room.Id} className="bg-base-100 p-3 rounded-lg">
-                        <div className="font-medium text-sm mb-2">
-                            Room: {rooms[room.Id] || `Room ${room.Id}`}
-                            {room.HasScoringStarted && (
-                                <span className="badge badge-warning badge-sm ml-2">
-                                    Scoring Started
-                                </span>
-                            )}
-                        </div>
-                        <div className="space-y-2">
-                            {room.TeamIds.map((teamId, teamIndex) => (
-                                <div key={teamIndex} className="flex items-center gap-2">
-                                    <select
-                                        className="select select-sm select-bordered flex-1"
-                                        value={teamId}
-                                        onChange={(e) => onRoomTeamChange(
-                                            matchIndex,
-                                            roomIndex,
-                                            teamIndex,
-                                            Number(e.target.value)
-                                        )}
-                                        disabled={isSaving || isReadOnly || !!room.HasScoringStarted}
-                                    >
-                                        {Object.entries(teams).map(([id, name]) => (
-                                            <option key={id} value={id}>{name}</option>
-                                        ))}
-                                    </select>
+                {match.RoomSchedule.map((room, roomIndex) => {
+                    // Available rooms for this dropdown: current room + unused rooms
+                    const availableRoomsForSelect = match.AvailableRooms.filter(
+                        roomId => roomId === room.Id || !usedRoomIds.includes(roomId)
+                    );
+
+                    // Ensure we always have exactly 2 team slots (pad with null if needed)
+                    const teamSlots: (number | null)[] = [
+                        room.TeamIds[0] ?? null,
+                        room.TeamIds[1] ?? null
+                    ];
+
+                    return (
+                        <div key={`${room.Id}-${roomIndex}`} className="bg-base-100 p-3 rounded-lg">
+                            <div className="flex items-center justify-between mb-2">
+                                <div className="flex items-center gap-2 flex-1">
+                                    <span className="text-sm font-medium">Room:</span>
+                                    {!isReadOnly && !room.HasScoringStarted ? (
+                                        <select
+                                            className="select select-sm select-bordered flex-1"
+                                            value={room.Id}
+                                            onChange={(e) => onRoomChange(matchIndex, roomIndex, Number(e.target.value))}
+                                            disabled={isSaving}
+                                        >
+                                            {availableRoomsForSelect.map(roomId => (
+                                                <option key={roomId} value={roomId}>
+                                                    {rooms[roomId] || `Room ${roomId}`}
+                                                </option>
+                                            ))}
+                                        </select>
+                                    ) : (
+                                        <span className="font-medium">
+                                            {rooms[room.Id] || `Room ${room.Id}`}
+                                        </span>
+                                    )}
+                                </div>
+                                <div className="flex items-center gap-1">
+                                    {room.HasScoringStarted && (
+                                        <span className="badge badge-warning badge-sm">
+                                            Scoring Started
+                                        </span>
+                                    )}
                                     {!isReadOnly && !room.HasScoringStarted && (
                                         <button
                                             type="button"
                                             className="btn btn-ghost btn-xs text-error"
-                                            onClick={() => onRoomTeamChange(
-                                                matchIndex,
-                                                roomIndex,
-                                                teamIndex,
-                                                null
-                                            )}
+                                            onClick={() => onRemoveRoom(matchIndex, roomIndex)}
                                             disabled={isSaving}
+                                            title="Remove Room"
                                         >
                                             <FontAwesomeIcon icon="fas faXmark" />
                                         </button>
                                     )}
                                 </div>
-                            ))}
-                            {!isReadOnly && !room.HasScoringStarted && (
-                                <button
-                                    type="button"
-                                    className="btn btn-ghost btn-xs w-full"
-                                    onClick={() => onAddTeamToRoom(matchIndex, roomIndex)}
-                                    disabled={isSaving}
-                                >
-                                    <FontAwesomeIcon icon="fas faPlus" />
-                                    Add Team
-                                </button>
-                            )}
+                            </div>
+
+                            <div className="space-y-2">
+                                {teamSlots.map((teamId, teamIndex) => {
+                                    // Available teams for this dropdown:
+                                    // - "Select Team..." option (empty)
+                                    // - Currently selected team (if any)
+                                    // - Teams not used in any other room in this round
+                                    const availableTeamsForSelect = Object.entries(teams).filter(([id]) => {
+                                        const numId = Number(id);
+                                        // Include if it's the currently selected team
+                                        if (numId === teamId) return true;
+                                        // Exclude if used elsewhere in this round
+                                        if (allUsedTeamIds.includes(numId)) return false;
+                                        return true;
+                                    });
+
+                                    return (
+                                        <div key={teamIndex} className="flex items-center gap-2">
+                                            <select
+                                                className="select select-sm select-bordered flex-1"
+                                                value={teamId ?? ""}
+                                                onChange={(e) => onRoomTeamChange(
+                                                    matchIndex,
+                                                    roomIndex,
+                                                    teamIndex,
+                                                    e.target.value === "" ? null : Number(e.target.value)
+                                                )}
+                                                disabled={isSaving || isReadOnly || !!room.HasScoringStarted}
+                                            >
+                                                <option value="">Select Team...</option>
+                                                {availableTeamsForSelect.map(([id, name]) => (
+                                                    <option key={id} value={id}>{name}</option>
+                                                ))}
+                                            </select>
+                                        </div>
+                                    );
+                                })}
+                            </div>
                         </div>
+                    );
+                })}
+
+                {/* Add Room button */}
+                {!isReadOnly && hasMoreRoomsAvailable && (
+                    <div className="bg-base-100 p-3 rounded-lg border-2 border-dashed border-base-300 flex items-center justify-center min-h-[120px]">
+                        <button
+                            type="button"
+                            className="btn btn-ghost btn-sm"
+                            onClick={() => onAddRoomToMatch(matchIndex)}
+                            disabled={isSaving}
+                        >
+                            <FontAwesomeIcon icon="fas faPlus" />
+                            Add Room
+                        </button>
                     </div>
-                ))}
+                )}
             </div>
         </div>
     );

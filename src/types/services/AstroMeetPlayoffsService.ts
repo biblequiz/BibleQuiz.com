@@ -137,5 +137,5 @@ export interface OnlinePlayoffMatchRoomSchedule {
      * Value indicating whether scoring has started for the match. If this is null,
      * the current state of the match is unknown.
      */
-    readonly HasScoringStarted?: boolean | null;
+    readonly HasScoringStarted: boolean;
 }

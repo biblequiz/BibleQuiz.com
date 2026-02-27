@@ -76,39 +76,22 @@ export default function DivisionPlayoffsDialog({
         const match = { ...updatedMatches[matchIndex] };
         const roomSchedule = [...match.RoomSchedule];
         const room = { ...roomSchedule[roomIndex] };
+
+        // Ensure TeamIds array has at least teamIndex + 1 elements
         const teamIds = [...room.TeamIds];
+        while (teamIds.length <= teamIndex) {
+            teamIds.push(undefined as any); // Placeholder to expand array
+        }
 
         if (teamId === null) {
-            // Remove team
-            teamIds.splice(teamIndex, 1);
+            // Remove team at this index (set to undefined, then filter out)
+            teamIds[teamIndex] = undefined as any;
         } else {
             teamIds[teamIndex] = teamId;
         }
 
-        room.TeamIds = teamIds;
-        roomSchedule[roomIndex] = room;
-        match.RoomSchedule = roomSchedule;
-        updatedMatches[matchIndex] = match;
-
-        setPlayoffs({
-            ...playoffs,
-            Matches: updatedMatches
-        });
-    };
-
-    const handleAddTeamToRoom = (matchIndex: number, roomIndex: number) => {
-        if (!playoffs) return;
-
-        const updatedMatches = [...playoffs.Matches];
-        const match = { ...updatedMatches[matchIndex] };
-        const roomSchedule = [...match.RoomSchedule];
-        const room = { ...roomSchedule[roomIndex] };
-
-        // Add first available team
-        const availableTeams = Object.keys(playoffs.Teams).map(Number);
-        const firstTeam = availableTeams[0] || 0;
-
-        room.TeamIds = [...room.TeamIds, firstTeam];
+        // Filter out undefined/null values but keep valid team IDs
+        room.TeamIds = teamIds.filter(id => id !== undefined && id !== null);
         roomSchedule[roomIndex] = room;
         match.RoomSchedule = roomSchedule;
         updatedMatches[matchIndex] = match;
@@ -131,7 +114,8 @@ export default function DivisionPlayoffsDialog({
             Id: newMatchId,
             RoomSchedule: availableRooms.slice(0, 1).map(roomId => ({
                 Id: roomId,
-                TeamIds: []
+                TeamIds: [],
+                HasScoringStarted: false
             })),
             AvailableRooms: availableRooms,
             MatchTime: null
@@ -143,10 +127,64 @@ export default function DivisionPlayoffsDialog({
         });
     };
 
-    const handleRemoveMatch = (matchIndex: number) => {
+    const handleAddRoomToMatch = (matchIndex: number) => {
         if (!playoffs) return;
 
-        const updatedMatches = playoffs.Matches.filter((_, i) => i !== matchIndex);
+        const updatedMatches = [...playoffs.Matches];
+        const match = { ...updatedMatches[matchIndex] };
+        const roomSchedule = [...match.RoomSchedule];
+
+        // Get rooms already used in this match
+        const usedRoomIds = roomSchedule.map(r => r.Id);
+
+        // Find first available room not already used
+        const availableRoomId = match.AvailableRooms.find(roomId => !usedRoomIds.includes(roomId));
+        if (availableRoomId === undefined) return; // No more rooms available
+
+        roomSchedule.push({
+            Id: availableRoomId,
+            TeamIds: [],
+            HasScoringStarted: false
+        });
+
+        match.RoomSchedule = roomSchedule;
+        updatedMatches[matchIndex] = match;
+
+        setPlayoffs({
+            ...playoffs,
+            Matches: updatedMatches
+        });
+    };
+
+    const handleRoomChange = (matchIndex: number, roomIndex: number, newRoomId: number) => {
+        if (!playoffs) return;
+
+        const updatedMatches = [...playoffs.Matches];
+        const match = { ...updatedMatches[matchIndex] };
+        const roomSchedule = [...match.RoomSchedule];
+        const room = { ...roomSchedule[roomIndex] };
+
+        room.Id = newRoomId;
+        roomSchedule[roomIndex] = room;
+        match.RoomSchedule = roomSchedule;
+        updatedMatches[matchIndex] = match;
+
+        setPlayoffs({
+            ...playoffs,
+            Matches: updatedMatches
+        });
+    };
+
+    const handleRemoveRoom = (matchIndex: number, roomIndex: number) => {
+        if (!playoffs) return;
+
+        const updatedMatches = [...playoffs.Matches];
+        const match = { ...updatedMatches[matchIndex] };
+        const roomSchedule = match.RoomSchedule.filter((_, i) => i !== roomIndex);
+
+        match.RoomSchedule = roomSchedule;
+        updatedMatches[matchIndex] = match;
+
         setPlayoffs({
             ...playoffs,
             Matches: updatedMatches
@@ -219,11 +257,18 @@ export default function DivisionPlayoffsDialog({
 
                     {playoffs && !isLoading && (
                         <div className="space-y-4">
-                            {playoffs.Matches.length === 0 ? (
+                    {!playoffs.HasScoringStarted && (
+                        <div role="alert" className="alert alert-info mb-4">
+                            <FontAwesomeIcon icon="fas faInfoCircle" />
+                            <span>Playoffs cannot be configured until at least one match is in progress.</span>
+                        </div>
+                    )}
+
+                    {playoffs.Matches.length === 0 ? (
                                 <div className="text-center py-8 text-base-content/60">
                                     <FontAwesomeIcon icon="fas faTrophy" classNames={["text-4xl", "mb-4"]} />
                                     <p>No playoff matches configured yet.</p>
-                                    {!isReadOnly && (
+                                    {!isReadOnly && playoffs.HasScoringStarted && (
                                         <button
                                             type="button"
                                             className="btn btn-primary btn-sm mt-4"
@@ -247,12 +292,13 @@ export default function DivisionPlayoffsDialog({
                                             isReadOnly={isReadOnly}
                                             onMatchTimeChange={handleMatchTimeChange}
                                             onRoomTeamChange={handleRoomTeamChange}
-                                            onAddTeamToRoom={handleAddTeamToRoom}
-                                            onRemoveMatch={handleRemoveMatch}
+                                            onAddRoomToMatch={handleAddRoomToMatch}
+                                            onRoomChange={handleRoomChange}
+                                            onRemoveRoom={handleRemoveRoom}
                                         />
                                     ))}
 
-                                    {!isReadOnly && (
+                                    {!isReadOnly && playoffs.HasScoringStarted && (
                                         <button
                                             type="button"
                                             className="btn btn-outline btn-sm w-full"
@@ -270,7 +316,7 @@ export default function DivisionPlayoffsDialog({
                 </div>
 
                 <div className="mt-4 text-right gap-2 flex justify-end">
-                    {!isReadOnly && playoffs && (
+                    {!isReadOnly && playoffs && playoffs.HasScoringStarted && (
                         <button
                             className="btn btn-sm btn-primary"
                             type="button"
@@ -296,7 +342,7 @@ export default function DivisionPlayoffsDialog({
                         onClick={onClose}
                         disabled={isSaving}
                     >
-                        {isReadOnly ? "Close" : "Cancel"}
+                        {isReadOnly || !playoffs?.HasScoringStarted ? "Close" : "Cancel"}
                     </button>
                 </div>
             </div>
