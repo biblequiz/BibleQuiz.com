@@ -9,6 +9,7 @@ import type { ScoringReportFootnote } from "types/EventScoringReport";
 import type { EventScoresProps } from "utils/Scores";
 import { isTabActive } from "utils/Tabs";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
+import FontAwesomeIcon from "components/FontAwesomeIcon";
 
 function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
     return (
@@ -59,7 +60,7 @@ export default function StatsTabContent({
     return (
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
-                
+
                 if (selectedMeets && selectedMeets.length > 0) {
                     const selectedMeetRef = selectedMeets.find(
                         m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);
@@ -76,10 +77,6 @@ export default function StatsTabContent({
 
                 const hasRankedQuizzers = meet.RankedQuizzers && meet.RankedQuizzers.length > 0 &&
                     (!isPrinting || printingStatsFormat === StatsFormat.TeamsAndQuizzers || printingStatsFormat === StatsFormat.QuizzersOnly);
-
-                if (!hasRankedTeams && !hasRankedQuizzers) {
-                    return null;
-                }
 
                 const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
                     eventFilters.openMeetMeetId === meet.MeetId;
@@ -219,17 +216,22 @@ export default function StatsTabContent({
                     })
                     : null;
 
-                const sectionBadges = [
-                    {
+                const sectionBadges = [];
+                if (rankedTeams) {
+                    sectionBadges.push({
                         className: "badge-lg badge-soft badge-primary",
                         icon: "fas faPeopleGroup",
                         text: teamCount.toString()
-                    },
-                    {
-                        className: "badge-lg badge-info",
+                    });
+                }
+
+                if (rankedQuizzers) {
+                    sectionBadges.push({
+                        className: "badge-lg badge-soft badge-info",
                         icon: "fas faPerson",
                         text: quizzerCount.toString()
-                    }];
+                    });
+                }
 
                 return (
                     <CollapsableMeetSection
@@ -305,6 +307,12 @@ export default function StatsTabContent({
                                     </tbody>
                                 </table>
                                 {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_quizzerfoot`, meet.QuizzerFootnotes, hasQuizzerTie)}
+                            </div>)}
+
+                        {!rankedTeams && !rankedQuizzers && (
+                            <div className="text-lg text-center italic">
+                                <FontAwesomeIcon icon="fas faHourglassHalf" classNames={["mr-2"]} />
+                                <span>Stats will be available once scoring has started and there's at least one completed match.</span>
                             </div>)}
                     </CollapsableMeetSection>);
             })}
