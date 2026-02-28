@@ -1,5 +1,6 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ConfirmationDialog from "components/ConfirmationDialog";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import {
@@ -37,6 +38,8 @@ export default function DivisionPlayoffsDialog({
     const [isSaving, setIsSaving] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [saveError, setSaveError] = useState<string | null>(null);
+    const [isDirty, setIsDirty] = useState(false);
+    const [showCloseConfirmation, setShowCloseConfirmation] = useState(false);
 
     // Load playoffs data on mount
     useEffect(() => {
@@ -67,6 +70,7 @@ export default function DivisionPlayoffsDialog({
             ...playoffs,
             Matches: updatedMatches
         });
+        setIsDirty(true);
     };
 
     const handleRoomTeamChange = (matchIndex: number, roomIndex: number, teamIndex: number, teamId: number | null) => {
@@ -100,6 +104,7 @@ export default function DivisionPlayoffsDialog({
             ...playoffs,
             Matches: updatedMatches
         });
+        setIsDirty(true);
     };
 
     const handleAddMatch = () => {
@@ -125,6 +130,7 @@ export default function DivisionPlayoffsDialog({
             ...playoffs,
             Matches: [...playoffs.Matches, newMatch]
         });
+        setIsDirty(true);
     };
 
     const handleAddRoomToMatch = (matchIndex: number) => {
@@ -154,6 +160,7 @@ export default function DivisionPlayoffsDialog({
             ...playoffs,
             Matches: updatedMatches
         });
+        setIsDirty(true);
     };
 
     const handleRoomChange = (matchIndex: number, roomIndex: number, newRoomId: number) => {
@@ -173,6 +180,7 @@ export default function DivisionPlayoffsDialog({
             ...playoffs,
             Matches: updatedMatches
         });
+        setIsDirty(true);
     };
 
     const handleRemoveRoom = (matchIndex: number, roomIndex: number) => {
@@ -189,7 +197,30 @@ export default function DivisionPlayoffsDialog({
             ...playoffs,
             Matches: updatedMatches
         });
+        setIsDirty(true);
     };
+
+    // Handle close with unsaved changes check
+    const handleClose = useCallback(() => {
+        if (isDirty && !isReadOnly) {
+            setShowCloseConfirmation(true);
+        } else {
+            onClose();
+        }
+    }, [isDirty, isReadOnly, onClose]);
+
+    // Handle Escape key to close dialog
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape" && !isSaving) {
+                e.preventDefault();
+                handleClose();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+        return () => document.removeEventListener("keydown", handleKeyDown);
+    }, [handleClose, isSaving]);
 
     const handleSave = async () => {
         if (!playoffs) return;
@@ -225,7 +256,7 @@ export default function DivisionPlayoffsDialog({
                 <button
                     type="button"
                     className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-                    onClick={onClose}
+                    onClick={handleClose}
                     disabled={isSaving}
                 >✕</button>
 
@@ -339,13 +370,29 @@ export default function DivisionPlayoffsDialog({
                     <button
                         className="btn btn-sm btn-secondary"
                         type="button"
-                        onClick={onClose}
+                        onClick={handleClose}
                         disabled={isSaving}
                     >
                         {isReadOnly || !playoffs?.HasScoringStarted ? "Close" : "Cancel"}
                     </button>
                 </div>
             </div>
+
+            {/* Close Confirmation Dialog */}
+            {showCloseConfirmation && (
+                <ConfirmationDialog
+                    title="Unsaved Changes"
+                    yesLabel="Discard Changes"
+                    noLabel="Keep Editing"
+                    onYes={onClose}
+                    onNo={() => setShowCloseConfirmation(false)}
+                    className="max-w-md"
+                >
+                    <p className="py-4">
+                        You have unsaved changes. Are you sure you want to close without saving?
+                    </p>
+                </ConfirmationDialog>
+            )}
         </dialog>
     );
 }

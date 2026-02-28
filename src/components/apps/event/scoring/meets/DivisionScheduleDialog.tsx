@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ConfirmationDialog from "components/ConfirmationDialog";
 import CollapsibleSection from "components/CollapsibleSection";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary, OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
@@ -99,6 +100,8 @@ export default function DivisionScheduleDialog({
 
     // Dialog state
     const [showLinkedMeetsDialog, setShowLinkedMeetsDialog] = useState(false);
+    const [isDirty, setIsDirty] = useState(false);
+    const [showCloseConfirmation, setShowCloseConfirmation] = useState(false);
 
     // All available teams from the database
     const [allTeams, setAllTeams] = useState<Record<number, TeamOrQuizzerReference>>({});
@@ -283,6 +286,7 @@ export default function DivisionScheduleDialog({
     const markScheduleOutOfDate = () => {
         setIsScheduleOutOfDate(true);
         setHasOriginalSchedule(false);
+        setIsDirty(true);
     };
 
     // Handle scheduling settings changes
@@ -375,12 +379,14 @@ export default function DivisionScheduleDialog({
         if (!checked) {
             setCustomRules(null);
         }
+        setIsDirty(true);
     };
 
     const handleRulesDialogClose = (newRules: MatchRules | null) => {
         setIsEditingRules(false);
         if (newRules) {
             setCustomRules(newRules);
+            setIsDirty(true);
         }
     };
 
@@ -399,6 +405,7 @@ export default function DivisionScheduleDialog({
      * If the new time is later than the old time, recalculate all subsequent match times.
      */
     const handleMatchTimeChange = useCallback((matchId: number, time: string | null) => {
+        setIsDirty(true);
         setMatchTimes(prev => {
             const oldTime = prev[matchId];
             const oldMinutes = getTimeInMinutes(oldTime);
@@ -448,7 +455,30 @@ export default function DivisionScheduleDialog({
         }
 
         setMatchTimes(newMatchTimes);
+        setIsDirty(true);
     }, [matchTimes, defaultMatchStartTime, calculateExpectedMatchTime, matchLengthInMinutes]);
+
+    // Handle close with unsaved changes check
+    const handleClose = useCallback(() => {
+        if (isDirty) {
+            setShowCloseConfirmation(true);
+        } else {
+            onClose();
+        }
+    }, [isDirty, onClose]);
+
+    // Handle Escape key to close dialog
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape" && !isSaving) {
+                e.preventDefault();
+                handleClose();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+        return () => document.removeEventListener("keydown", handleKeyDown);
+    }, [handleClose, isSaving]);
 
     // Export schedule stats
     const handleExportStats = async () => {
@@ -634,7 +664,7 @@ export default function DivisionScheduleDialog({
                 <button
                     type="button"
                     className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-                    onClick={onClose}
+                    onClick={handleClose}
                     disabled={isSaving}
                 >✕</button>
 
@@ -666,7 +696,10 @@ export default function DivisionScheduleDialog({
                                     type="text"
                                     className="input input-bordered"
                                     value={name}
-                                    onChange={(e) => setName(e.target.value)}
+                                    onChange={(e) => {
+                                        setName(e.target.value);
+                                        setIsDirty(true);
+                                    }}
                                     disabled={!canEditName}
                                     required
                                     placeholder="Enter division name"
@@ -691,7 +724,10 @@ export default function DivisionScheduleDialog({
                                             type="number"
                                             className="input input-bordered"
                                             value={matchLengthInMinutes}
-                                            onChange={(e) => setMatchLengthInMinutes(Number(e.target.value))}
+                                            onChange={(e) => {
+                                                setMatchLengthInMinutes(Number(e.target.value));
+                                                setIsDirty(true);
+                                            }}
                                             disabled={!canEditScheduleSettings}
                                             min={1}
                                             max={120}
@@ -732,7 +768,10 @@ export default function DivisionScheduleDialog({
                                     roomNames={roomNames}
                                     disabled={isSaving}
                                     isReadOnly={!canEditRoomNames}
-                                    onRoomNamesChange={setRoomNames}
+                                    onRoomNamesChange={(newRoomNames) => {
+                                        setRoomNames(newRoomNames);
+                                        setIsDirty(true);
+                                    }}
                                 />
                             </CollapsibleSection>
 
@@ -965,13 +1004,29 @@ export default function DivisionScheduleDialog({
                     <button
                         className="btn btn-sm btn-secondary"
                         type="button"
-                        onClick={onClose}
+                        onClick={handleClose}
                         disabled={isSaving}
                     >
                         Cancel
                     </button>
                 </div>
             </div>
+
+            {/* Close Confirmation Dialog */}
+            {showCloseConfirmation && (
+                <ConfirmationDialog
+                    title="Unsaved Changes"
+                    yesLabel="Discard Changes"
+                    noLabel="Keep Editing"
+                    onYes={onClose}
+                    onNo={() => setShowCloseConfirmation(false)}
+                    className="max-w-md"
+                >
+                    <p className="py-4">
+                        You have unsaved changes. Are you sure you want to close without saving?
+                    </p>
+                </ConfirmationDialog>
+            )}
 
             {/* Linked Meets Dialog */}
             {showLinkedMeetsDialog && (

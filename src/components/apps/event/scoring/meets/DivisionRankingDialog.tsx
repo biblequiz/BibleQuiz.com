@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 
 interface Props {
@@ -16,6 +16,19 @@ export default function DivisionRankingDialog({
     onClose
 }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Handle Escape key to close dialog
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") {
+                e.preventDefault();
+                onClose();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+        return () => document.removeEventListener("keydown", handleKeyDown);
+    }, [onClose]);
 
     return (
         <dialog ref={dialogRef} className="modal" open>
