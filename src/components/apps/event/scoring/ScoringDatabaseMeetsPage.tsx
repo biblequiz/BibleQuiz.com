@@ -462,8 +462,13 @@ export default function ScoringDatabaseMeetsPage() {
 
             {editingMeet?.type === "ranking" && (
                 <DivisionRankingDialog
+                    auth={auth}
+                    eventId={eventId}
+                    databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
+                    isReadOnly={isReadOnly}
+                    onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
             )}
