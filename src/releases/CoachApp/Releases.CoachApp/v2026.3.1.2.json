@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOKAneSM4RZN5o",
   "tag_name": "v2026.3.1.2",
   "target_commitish": "ebbd26899bde6fae8bf1bcff9fbd4037783ac769",
-  "name": "New CoachApp Release",
+  "name": "Fix Team Foul Calculation Bug",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:52Z",
-  "updated_at": "2026-03-01T17:34:38Z",
+  "updated_at": "2026-03-01T17:36:48Z",
   "published_at": "2026-03-01T17:34:27Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/tarball/v2026.3.1.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/zipball/v2026.3.1.2",
-  "body": "Latest version of CoachApp"
+  "body": "The team fouls won't be accounted for in the team total if:\r\n1. Team foul is assessed\r\n2. User navigates to a different room and navigates back to the original room.\r\n\r\nLoad any impacted matches in the updated Coach App and toggle the checkbox for Verify Scores. This will cause the total to be recalculated and uploaded."
 }
