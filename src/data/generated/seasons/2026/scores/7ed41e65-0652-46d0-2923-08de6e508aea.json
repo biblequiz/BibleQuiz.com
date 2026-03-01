@@ -1,0 +1,1936 @@
+{
+  "EventName": "Dakota Quiz League Meet 4",
+  "DatabaseNames": {
+    "4dbd616a-ada5-4606-bd16-ae07591bdd0d": "TBQ_Meet_4_2_28_26"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "4dbd616a-ada5-4606-bd16-ae07591bdd0d",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Championship/Contender",
+        "LastUpdated": "2/28/26 6:57 PM",
+        "DatabaseLastUpdated": "2026-02-27T03:21:40.7398425+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Joshua Ternes",
+            "Quizzers": [
+              1,
+              3
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8096b403-807b-403e-9c22-425614a622b1",
+            "Name": "Bismarck Home Fellowship (Bismarck) #1",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bismarck Home Fellowship",
+            "City": "Bismarck",
+            "State": "ND",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 405,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 81.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 16,
+              "Correct20s": 13,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jennifer Howard",
+            "Quizzers": [
+              0,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -15,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -20,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_38565ecb-a6d9-4b6e-bcdf-d8c40a8920a6",
+            "Name": "Calvary Assembly of God (Alliance) #1",
+            "ChurchId": "ed8e5425-97e8-461f-9a65-8569b4dc194a",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Alliance",
+            "State": "NE",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": -40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -8.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 23,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              7,
+              8
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_f1b194df-c08c-4171-8a5c-d5e545db359d",
+            "Name": "Open Bible Church Rapid City Have the Right Response",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 850,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 170.0,
+              "AverageCorrect": 9.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 98,
+              "Correct10s": 24,
+              "Correct20s": 22,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Andrea Rossignol",
+            "Quizzers": [
+              2,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_4dbd616a-ada5-4606-bd16-ae07591bdd0d_10",
+            "Name": "We Have The Attitude (of Christ)",
+            "ChurchId": null,
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.0,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 12,
+              "Correct20s": 15,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Calvary Assembly of God (Alliance) #1",
+            "YearsQuizzing": null,
+            "Id": "q_64f5e4d3489e46d28e5708d89ebeb141",
+            "Name": "Caoimhe Howard",
+            "ChurchId": "ed8e5425-97e8-461f-9a65-8569b4dc194a",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Alliance",
+            "State": "NE",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": -25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bismarck Home Fellowship (Bismarck) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a757b3b039e7405f49c508dafff6a6b5",
+            "Name": "Eden Ternes",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bismarck Home Fellowship",
+            "City": "Bismarck",
+            "State": "ND",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 9,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Have The Attitude (of Christ)",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_83",
+            "Name": "Elizabeth Rossignol",
+            "ChurchId": null,
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 10,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bismarck Home Fellowship (Bismarck) #1",
+            "YearsQuizzing": null,
+            "Id": "q_76797e934195418a49d108dafff6a6b5",
+            "Name": "Kyra Jirsa",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bismarck Home Fellowship",
+            "City": "Bismarck",
+            "State": "ND",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 7,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Have the Right Response",
+            "YearsQuizzing": null,
+            "Id": "q_d969a025fc9147589e7e08dcde30b60d",
+            "Name": "Levi Gibbs",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Calvary Assembly of God (Alliance) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7cc014117e3c44868e5108d89ebeb141",
+            "Name": "Saoirse Howard",
+            "ChurchId": "ed8e5425-97e8-461f-9a65-8569b4dc194a",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Alliance",
+            "State": "NE",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 30,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Have The Attitude (of Christ)",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_84",
+            "Name": "Stella Curtis",
+            "ChurchId": null,
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Have the Right Response",
+            "YearsQuizzing": null,
+            "Id": "q_ba7e0386288b4ea4fba908db236e84da",
+            "Name": "TaKayla Kaiser",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Have the Right Response",
+            "YearsQuizzing": null,
+            "Id": "q_5a72f6a18c894744f62808dd1ac62cc2",
+            "Name": "Zoriah Plaggemeyer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 11,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          7,
+          1,
+          2,
+          4,
+          3,
+          6,
+          5,
+          0
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "4dbd616a-ada5-4606-bd16-ae07591bdd0d",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "XP",
+        "LastUpdated": "2/28/26 6:57 PM",
+        "DatabaseLastUpdated": "2026-02-27T03:21:40.7398425+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Lillee Solvie",
+            "Quizzers": [
+              3,
+              10,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_fd9e3315-3ae7-432a-8005-16e88cdc580b",
+            "Name": "Open Bible Church Rapid City Be Persistent",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 12,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kevin Ladd",
+            "Quizzers": [
+              14,
+              15,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_790da543-62d3-4957-b243-5f6fbd697b88",
+            "Name": "Open Bible Church Rapid City Fully Prepared",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 72.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Benjamin Beautiful Bald Eagle",
+            "Quizzers": [
+              7,
+              9,
+              12,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0a3653b8-4600-43d1-938b-de09a6467a62",
+            "Name": "Open Bible Church Rapid City Good News Shoes",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 9,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Kristen Kenner",
+            "Quizzers": [
+              1,
+              5,
+              11
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_c875e954-6767-4c0c-92e3-1130bb0aaab6",
+            "Name": "Open Bible Church Rapid City One Mind and Purpose",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 9,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Matt Gibbs",
+            "Quizzers": [
+              0,
+              4,
+              6
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_95ab186d-3a3e-4663-849a-3bb5f22956fa",
+            "Name": "Open Bible Church Rapid City Shining Like Bright Lights",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 17,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "David Sullivan",
+            "Quizzers": [
+              2,
+              8,
+              13,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -35,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_4f046636-368a-4e7b-8b81-bf0e057fa539",
+            "Name": "We Also Have An Attitude",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 7,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          4,
+          0,
+          2,
+          3,
+          5
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Open Bible Church Rapid City Shining Like Bright Lights",
+            "YearsQuizzing": null,
+            "Id": "q_210d9f86a1ac44c79a3808de045d4f17",
+            "Name": "Ashlyn McCormick",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City One Mind and Purpose",
+            "YearsQuizzing": null,
+            "Id": "q_db596f146c24401652c708dbafc02107",
+            "Name": "Aubrey Kenner",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Also Have An Attitude",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_14",
+            "Name": "Becca Dye",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Be Persistent",
+            "YearsQuizzing": null,
+            "Id": "q_6e1a6da711c041028fef08de2462bbf7",
+            "Name": "Brooke Gahagan",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Shining Like Bright Lights",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_49",
+            "Name": "Deborah Storer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City One Mind and Purpose",
+            "YearsQuizzing": null,
+            "Id": "q_aa8274e49ddc495409db08dadcae4b0f",
+            "Name": "Emeline White",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Shining Like Bright Lights",
+            "YearsQuizzing": null,
+            "Id": "q_8bc14868a1e44ba89a4408de045d4f17",
+            "Name": "Ezekielle Gibbs",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 13,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Good News Shoes",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_32",
+            "Name": "Ezra Storer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 9,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "We Also Have An Attitude",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_12",
+            "Name": "Gabe Thibodeau",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 44,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Good News Shoes",
+            "YearsQuizzing": null,
+            "Id": "q_82e43b3fe53741430a1608dadcae4b0f",
+            "Name": "Jude Beautiful Bald Eagle",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Be Persistent",
+            "YearsQuizzing": null,
+            "Id": "q_732dad37c2ca40e022cb08db412b2f55",
+            "Name": "Juelia Styles",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 19.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 3,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City One Mind and Purpose",
+            "YearsQuizzing": null,
+            "Id": "q_1d9353e35bb745948fe908de2462bbf7",
+            "Name": "Kate Kammerer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -4.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Good News Shoes",
+            "YearsQuizzing": null,
+            "Id": "q_5cb0269866ed4f580a1c08dadcae4b0f",
+            "Name": "Keenan Beautiful Bald Eagle",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "We Also Have An Attitude",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_13",
+            "Name": "Kirsten Young",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Fully Prepared",
+            "YearsQuizzing": null,
+            "Id": "q_38813f132ccf44d69e8a08dcde30b60d",
+            "Name": "Koldin Kaiser",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 7,
+              "Correct20s": 8,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Fully Prepared",
+            "YearsQuizzing": null,
+            "Id": "q_329f50c122854a059a0808de045d4f17",
+            "Name": "Nehemiah Bray",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "We Also Have An Attitude",
+            "YearsQuizzing": null,
+            "Id": "q_4dbd616a-ada5-4606-bd16-ae07591bdd0d_15",
+            "Name": "Nora Dye",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bethel Church",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Be Persistent",
+            "YearsQuizzing": null,
+            "Id": "q_2fddaceb8d3d42ca22d708db412b2f55",
+            "Name": "Olivia White",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.0,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 9,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Fully Prepared",
+            "YearsQuizzing": null,
+            "Id": "q_4e9e76e29ddd41ea044d08d9cd6f31c9",
+            "Name": "Shawn Vogel",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Open Bible Church Rapid City Good News Shoes",
+            "YearsQuizzing": null,
+            "Id": "q_defdd901496e441c0a1008dadcae4b0f",
+            "Name": "Zayn Styles",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          6,
+          14,
+          17,
+          7,
+          5,
+          10,
+          2,
+          4,
+          8,
+          1,
+          0,
+          18,
+          15,
+          9,
+          12,
+          13,
+          16,
+          19,
+          3,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-02-28T18:57:15.1725469+00:00"
+}
