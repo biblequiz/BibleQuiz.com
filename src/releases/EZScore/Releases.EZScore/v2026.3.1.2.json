@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4RZN4Z",
   "tag_name": "v2026.3.1.2",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Fix Team Foul Calculation Bug",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-03-01T17:33:44Z",
+  "updated_at": "2026-03-01T17:36:11Z",
   "published_at": "2026-03-01T17:33:37Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.3.1.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.3.1.2",
-  "body": "Latest version of EZScore"
+  "body": "The team fouls won't be accounted for in the team total if:\r\n1. Team foul is assessed\r\n2. User navigates to a different room without verifying the scores.\r\n3. User navigates back to the original room.\r\n\r\nLoad any impacted matches in the updated EZScore and toggle the checkbox for Verify Scores. This will cause the total to be recalculated and uploaded."
 }
