@@ -61,7 +61,7 @@
             transform: rotateZ(90deg);
         }
 
-        a {
+        ul a {
             display: block;
             border-radius: 0.25rem;
             text-decoration: none;
@@ -70,8 +70,8 @@
             line-height: 1.4;
         }
 
-        a:hover,
-        a:focus {
+        ul a:hover,
+        ul a:focus {
             color: var(--sl-color-white);
         }
 
@@ -83,7 +83,7 @@
             background-color: var(--sl-color-text-accent);
         }
 
-        a>*:not(:last-child),
+        ul a>*:not(:last-child),
         .group-label>*:not(:last-child) {
             margin-inline-end: 0.25em;
         }
@@ -97,7 +97,7 @@
                 font-size: var(--sl-text-base);
             }
 
-            a {
+            ul a {
                 font-size: var(--sl-text-sm);
             }
         }
