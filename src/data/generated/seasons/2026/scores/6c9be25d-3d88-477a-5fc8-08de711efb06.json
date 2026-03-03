@@ -12,7 +12,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Championship",
-        "LastUpdated": "3/1/26 12:57 AM",
+        "LastUpdated": "3/3/26 12:10 PM",
         "DatabaseLastUpdated": "2026-02-28T06:50:41.8431038+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
@@ -532,16 +532,16 @@
                 "OtherTeam": 9
               },
               {
-                "Result": null,
+                "Result": "L",
                 "RoomId": 4,
                 "Room": "A4",
-                "State": "InProgress",
-                "CurrentQuestion": 20,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
                 "OtherTeam": 10
               }
             ],
-            "CurrentMatchId": 6,
+            "CurrentMatchId": null,
             "Id": "t_3a0e9763-031e-4131-a3ce-675ae777073a",
             "Name": "Malicious Kindness",
             "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
@@ -550,20 +550,20 @@
             "State": "WA",
             "Scores": {
               "Wins": 5,
-              "Losses": 1,
-              "WinPercentage": 83,
-              "Rank": 2,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 990,
+              "TotalPoints": 1125,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 165.0,
-              "AverageCorrect": 8.7,
-              "QuizOuts": 8,
+              "AveragePoints": 160.7,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 9,
               "QuestionCorrectPercentage": 78,
-              "Correct10s": 18,
-              "Correct20s": 25,
-              "Correct30s": 9,
-              "FootnoteIndex": null
+              "Correct10s": 20,
+              "Correct20s": 28,
+              "Correct30s": 11,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -652,7 +652,7 @@
               "Correct10s": 15,
               "Correct20s": 25,
               "Correct30s": 8,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             }
           },
           {
@@ -993,16 +993,16 @@
                 "OtherTeam": 8
               },
               {
-                "Result": null,
+                "Result": "W",
                 "RoomId": 4,
                 "Room": "A4",
-                "State": "InProgress",
-                "CurrentQuestion": 20,
-                "Score": null,
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
                 "OtherTeam": 5
               }
             ],
-            "CurrentMatchId": 6,
+            "CurrentMatchId": null,
             "Id": "t_6bf8a0a6-793d-4e72-b3d1-4b842796246b",
             "Name": "You Owe Me Your Very Soul",
             "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
@@ -1010,19 +1010,19 @@
             "City": "Bellevue",
             "State": "WA",
             "Scores": {
-              "Wins": 4,
+              "Wins": 5,
               "Losses": 2,
-              "WinPercentage": 67,
-              "Rank": 3,
+              "WinPercentage": 71,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 1125,
+              "TotalPoints": 1315,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 187.5,
-              "AverageCorrect": 9.2,
-              "QuizOuts": 9,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 19,
-              "Correct20s": 22,
+              "AveragePoints": 187.9,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 24,
+              "Correct20s": 27,
               "Correct30s": 14,
               "FootnoteIndex": 0
             }
@@ -1030,8 +1030,8 @@
         ],
         "RankedTeams": [
           2,
-          5,
           10,
+          5,
           6,
           4,
           0,
@@ -1280,13 +1280,13 @@
             "Scores": {
               "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 380,
+              "TotalPoints": 450,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 63.3,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 19,
+              "AveragePoints": 64.3,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 24,
               "Correct20s": 7,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -1424,15 +1424,15 @@
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 675,
+              "TotalPoints": 790,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 112.5,
+              "AveragePoints": 112.9,
               "AverageCorrect": 5.0,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 86,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 83,
               "Correct10s": 4,
-              "Correct20s": 20,
-              "Correct30s": 6,
+              "Correct20s": 23,
+              "Correct30s": 8,
               "FootnoteIndex": null
             }
           },
@@ -1520,13 +1520,13 @@
             "Scores": {
               "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 315,
+              "TotalPoints": 335,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 52.5,
-              "AverageCorrect": 3.7,
+              "AveragePoints": 47.9,
+              "AverageCorrect": 3.4,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 14,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 16,
               "Correct20s": 5,
               "Correct30s": 3,
               "FootnoteIndex": null
@@ -1808,14 +1808,14 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 745,
+              "TotalPoints": 865,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 124.2,
-              "AverageCorrect": 4.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 81,
+              "AveragePoints": 123.6,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 83,
               "Correct10s": 0,
-              "Correct20s": 15,
+              "Correct20s": 20,
               "Correct30s": 14,
               "FootnoteIndex": null
             }
@@ -2127,11 +2127,11 @@
                 "Blockers": null
               },
               {
-                "CurrentQuestion": 20,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 10,
-                "State": "InProgress",
+                "Team1": 10,
+                "Team2": 5,
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -2246,9 +2246,9 @@
             "RegularQuestionStats": null
           }
         ],
-        "HasRoomCompletionMismatch": true,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "6 of 7 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -2262,7 +2262,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender",
-        "LastUpdated": "3/1/26 12:57 AM",
+        "LastUpdated": "3/3/26 12:10 PM",
         "DatabaseLastUpdated": "2026-02-28T06:50:41.8431038+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
@@ -3304,7 +3304,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP",
-        "LastUpdated": "3/1/26 12:57 AM",
+        "LastUpdated": "3/3/26 12:10 PM",
         "DatabaseLastUpdated": "2026-02-28T06:50:41.8431038+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
@@ -4632,5 +4632,5 @@
       }
     }
   ],
-  "Freshness": "2026-03-01T00:57:26.4051975+00:00"
+  "Freshness": "2026-03-03T05:52:55.1345734+00:00"
 }
