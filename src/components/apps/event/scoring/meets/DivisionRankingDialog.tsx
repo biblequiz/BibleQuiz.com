@@ -17,7 +17,7 @@ interface Props {
     meetId: number;
     meetName: string;
     isReadOnly: boolean;
-    onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
+    onSave: () => void;
     onClose: () => void;
 }
 
@@ -184,36 +184,60 @@ export default function DivisionRankingDialog({
 
     const handleClearTeamRanking = () => {
         if (!rankingSummary) return;
-        // Create a lookup map from team ID to its default rank position
-        const defaultRankMap = new Map<number, number>();
-        rankingSummary.DefaultRankTeams.forEach((id, index) => {
-            defaultRankMap.set(id, index);
+
+        // Create a lookup for all teams.
+        const currentTeams = new Map<number, ScoringReportTeam>();
+        rankedTeams.forEach(team => {
+            currentTeams.set(parseInt(team.Id, 10), team);
         });
-        // Sort teams by their position in DefaultRankTeams
-        const sortedTeams = [...rankedTeams].sort((a, b) => {
-            const aIndex = defaultRankMap.get(parseInt(a.Id, 10)) ?? Number.MAX_VALUE;
-            const bIndex = defaultRankMap.get(parseInt(b.Id, 10)) ?? Number.MAX_VALUE;
-            return aIndex - bIndex;
+
+        // Generate a new ordered list of teams based on the default ranking.
+        const newRankedTeams: ScoringReportTeam[] = [];
+        rankingSummary.DefaultRankedTeams.forEach(teamId => {
+            newRankedTeams.push(currentTeams.get(teamId)!);
+            currentTeams.delete(teamId);
         });
-        setRankedTeams(sortedTeams);
+
+        // Add any remaining teams in the order they were previously.
+        rankedTeams.forEach(team => {
+            const teamId = parseInt(team.Id, 10);
+            if (currentTeams.has(teamId)) {
+                newRankedTeams.push(team);
+                currentTeams.delete(teamId);
+            }
+        });
+        
+        setRankedTeams(newRankedTeams);
         setTeamOverrideMessage("");
         setIsDirty(true);
     };
 
     const handleClearQuizzerRanking = () => {
         if (!rankingSummary) return;
-        // Create a lookup map from quizzer ID to its default rank position
-        const defaultRankMap = new Map<number, number>();
-        rankingSummary.DefaultRankQuizzers.forEach((id, index) => {
-            defaultRankMap.set(id, index);
+
+        // Create a lookup for all quizzers.
+        const currentQuizzers = new Map<number, ScoringReportQuizzer>();
+        rankedQuizzers.forEach(quizzer => {
+            currentQuizzers.set(parseInt(quizzer.Id, 10), quizzer);
         });
-        // Sort quizzers by their position in DefaultRankQuizzers
-        const sortedQuizzers = [...rankedQuizzers].sort((a, b) => {
-            const aIndex = defaultRankMap.get(parseInt(a.Id, 10)) ?? Number.MAX_VALUE;
-            const bIndex = defaultRankMap.get(parseInt(b.Id, 10)) ?? Number.MAX_VALUE;
-            return aIndex - bIndex;
+
+        // Generate a new ordered list of quizzers based on the default ranking.
+        const newRankedQuizzers: ScoringReportQuizzer[] = [];
+        rankingSummary.DefaultRankedQuizzers.forEach(quizzerId => {
+            newRankedQuizzers.push(currentQuizzers.get(quizzerId)!);
+            currentQuizzers.delete(quizzerId);
         });
-        setRankedQuizzers(sortedQuizzers);
+
+        // Add any remaining quizzers in the order they were previously.
+        rankedQuizzers.forEach(quizzer => {
+            const quizzerId = parseInt(quizzer.Id, 10);
+            if (currentQuizzers.has(quizzerId)) {
+                newRankedQuizzers.push(quizzer);
+                currentQuizzers.delete(quizzerId);
+            }
+        });
+        
+        setRankedQuizzers(newRankedQuizzers);
         setQuizzerOverrideMessage("");
         setIsDirty(true);
     };
@@ -234,7 +258,7 @@ export default function DivisionRankingDialog({
                 QuizzerRankOverrides: rankedQuizzers.map(q => parseInt(q.Id, 10))
             };
 
-            const result = await AstroMeetRankingService.updateRanking(
+            await AstroMeetRankingService.updateRanking(
                 auth,
                 eventId,
                 databaseId,
@@ -243,7 +267,7 @@ export default function DivisionRankingDialog({
             );
 
             setIsDirty(false);
-            onSave(result);
+            onSave();
             onClose();
         } catch (err: any) {
             setSaveError(err.message || "Failed to save ranking settings.");

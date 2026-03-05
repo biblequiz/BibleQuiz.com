@@ -22,7 +22,6 @@ export class AstroMeetRankingService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
-     * @param resetToDefault Value indicating whether to reset the ranking to default.
      *
      * @returns Ranking settings for the meet.
      */
@@ -31,14 +30,12 @@ export class AstroMeetRankingService {
         eventId: string,
         databaseId: string,
         meetId: number,
-        resetToDefault: boolean = false,
     ): Promise<OnlineMeetRankingSummary> {
         return RemoteServiceUtility.executeHttpRequest<OnlineMeetRankingSummary>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/ranking`,
-            RemoteServiceUtility.getFilteredUrlParameters({ resetToDefault }),
         );
     }
 
@@ -50,8 +47,6 @@ export class AstroMeetRankingService {
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
      * @param ranking Ranking settings to save.
-     *
-     * @returns Updated database summary.
      */
     public static updateRanking(
         auth: AuthManager,
@@ -59,8 +54,8 @@ export class AstroMeetRankingService {
         databaseId: string,
         meetId: number,
         ranking: OnlineMeetRankingSettings,
-    ): Promise<OnlineDatabaseSummary> {
-        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
+    ): Promise<void> {
+        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
@@ -81,9 +76,19 @@ export interface OnlineMeetRankingSummary {
     readonly RankedTeams: ScoringReportTeam[];
 
     /**
+     * Default ranking of teams by id.
+     */
+    readonly DefaultRankedTeams: number[];
+
+    /**
      * List of quizzers ranked by their position in the stats.
      */
     readonly RankedQuizzers: ScoringReportQuizzer[];
+
+    /**
+     * Default ranking of quizzers by id.
+     */
+    readonly DefaultRankedQuizzers: number[];
 
     /**
      * Settings for ranking.
