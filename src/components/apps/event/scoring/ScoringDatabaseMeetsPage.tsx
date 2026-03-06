@@ -292,9 +292,11 @@ export default function ScoringDatabaseMeetsPage() {
     }, [auth, eventId, databaseId, currentDatabase, meetOrder, pendingDisplayChanges, setCurrentDatabase]);
 
     // Dialog save handler
-    const handleDialogSave = useCallback((updatedDatabase: OnlineDatabaseSummary) => {
-        setCurrentDatabase(updatedDatabase);
-        setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
+    const handleDialogSave = useCallback((updatedDatabase?: OnlineDatabaseSummary) => {
+        if (updatedDatabase) {
+            setCurrentDatabase(updatedDatabase);
+            setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
+        }
         setEditingMeet(null);
         setIsAddingNewDivision(false);
     }, [setCurrentDatabase]);
@@ -454,7 +456,7 @@ export default function ScoringDatabaseMeetsPage() {
                     databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
-                    isReadOnly={isReadOnly}
+                    isReadOnly={false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
@@ -462,8 +464,13 @@ export default function ScoringDatabaseMeetsPage() {
 
             {editingMeet?.type === "ranking" && (
                 <DivisionRankingDialog
+                    auth={auth}
+                    eventId={eventId}
+                    databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
+                    isReadOnly={false}
+                    onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
             )}

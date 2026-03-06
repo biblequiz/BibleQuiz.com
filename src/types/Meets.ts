@@ -1,26 +1,6 @@
 import type { ScheduleTemplate } from "./Scheduling";
 
 /**
- * Usage of a MatchQuestion.
- */
-export enum MatchQuestionUsage {
-    /**
-     * Question during the regular match.
-     */
-    Regular = 0,
-
-    /**
-     * Question during overtime.
-     */
-    Overtime = 1,
-
-    /**
-     * Substitute question.
-     */
-    Substitute = 2
-}
-
-/**
  * Metadata about a team.
  */
 export class Team {

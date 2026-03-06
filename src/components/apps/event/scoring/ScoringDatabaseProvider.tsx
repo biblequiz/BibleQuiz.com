@@ -69,7 +69,7 @@ export default function ScoringDatabaseProvider({ }: Props) {
                     }
                 });
         }
-    }, [context]);
+    }, [context, currentDatabase]);
 
     if (isLoading || (!loadingError && !currentDatabase)) {
         return (

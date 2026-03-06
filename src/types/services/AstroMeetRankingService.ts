@@ -1,6 +1,13 @@
+import type {
+    ScoringReportQuizzer,
+    ScoringReportTeam,
+} from "types/EventScoringReport";
 import type { AuthManager } from "../AuthManager";
 import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
-import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
+import {
+    RemoteServiceUrlBase,
+    RemoteServiceUtility,
+} from "./RemoteServiceUtility";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -8,7 +15,6 @@ const URL_ROOT_PATH = "/api/v1.0/events";
  * Wrapper for the Astro Meet Ranking service.
  */
 export class AstroMeetRankingService {
-
     /**
      * Gets the ranking settings for a meet.
      *
@@ -16,20 +22,21 @@ export class AstroMeetRankingService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
-     * 
+     *
      * @returns Ranking settings for the meet.
      */
     public static getRanking(
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        meetId: number): Promise<OnlineMeetRankingSettings> {
-
-        return RemoteServiceUtility.executeHttpRequest<OnlineMeetRankingSettings>(
+        meetId: number,
+    ): Promise<OnlineMeetRankingSummary> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineMeetRankingSummary>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/ranking`);
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/ranking`,
+        );
     }
 
     /**
@@ -40,24 +47,53 @@ export class AstroMeetRankingService {
      * @param databaseId Id for the database.
      * @param meetId Id for the meet.
      * @param ranking Ranking settings to save.
-     * 
-     * @returns Updated database summary.
      */
     public static updateRanking(
         auth: AuthManager,
         eventId: string,
         databaseId: string,
         meetId: number,
-        ranking: OnlineMeetRankingSettings): Promise<OnlineDatabaseSummary> {
-
-        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
+        ranking: OnlineMeetRankingSettings,
+    ): Promise<void> {
+        return RemoteServiceUtility.executeHttpRequestWithoutResponse(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/ranking`,
             null,
-            ranking);
+            ranking,
+        );
     }
+}
+
+/**
+ * Summary of meet ranking.
+ */
+export interface OnlineMeetRankingSummary {
+    /**
+     * List of teams ranked by their position in the stats.
+     */
+    readonly RankedTeams: ScoringReportTeam[];
+
+    /**
+     * Default ranking of teams by id.
+     */
+    readonly DefaultRankedTeams: number[];
+
+    /**
+     * List of quizzers ranked by their position in the stats.
+     */
+    readonly RankedQuizzers: ScoringReportQuizzer[];
+
+    /**
+     * Default ranking of quizzers by id.
+     */
+    readonly DefaultRankedQuizzers: number[];
+
+    /**
+     * Settings for ranking.
+     */
+    readonly Settings: OnlineMeetRankingSettings;
 }
 
 /**
