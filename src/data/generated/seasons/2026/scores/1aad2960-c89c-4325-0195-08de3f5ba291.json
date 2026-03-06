@@ -13,7 +13,7 @@
         "HasQuestionStats": false,
         "Name": "Test 2",
         "LastUpdated": "2/24/26 12:13 PM",
-        "DatabaseLastUpdated": "2026-02-23T15:00:35.3447658+00:00",
+        "DatabaseLastUpdated": "2026-03-06T03:20:14.0627871+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -585,7 +585,7 @@
         "HasQuestionStats": false,
         "Name": "Test 1",
         "LastUpdated": "2/24/26 12:13 PM",
-        "DatabaseLastUpdated": "2026-02-23T15:00:35.3447658+00:00",
+        "DatabaseLastUpdated": "2026-03-06T03:20:14.0627871+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -618,7 +618,8 @@
                 "CurrentQuestion": null,
                 "Score": null,
                 "OtherTeam": 3
-              }
+              },
+              null
             ],
             "CurrentMatchId": 0,
             "Id": "t_46adcb43-e023-45b8-a5e6-2669fc587e75_11",
@@ -666,6 +667,15 @@
                 "CurrentQuestion": null,
                 "Score": null,
                 "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
               },
               {
                 "Result": null,
@@ -732,6 +742,15 @@
                 "CurrentQuestion": null,
                 "Score": null,
                 "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": 0,
@@ -789,7 +808,8 @@
                 "CurrentQuestion": null,
                 "Score": null,
                 "OtherTeam": 0
-              }
+              },
+              null
             ],
             "CurrentMatchId": null,
             "Id": "t_06f357d0-b116-4044-b030-6a397431c6d9",
@@ -884,6 +904,14 @@
                 "Team2": 1,
                 "State": "NotStarted",
                 "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
               }
             ]
           }
@@ -910,6 +938,12 @@
             "MatchTime": null,
             "PlayoffIndex": null,
             "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": 1,
+            "RegularQuestionStats": null
           }
         ],
         "HasRoomCompletionMismatch": false,
@@ -929,7 +963,7 @@
         "HasQuestionStats": false,
         "Name": "Test Utica",
         "LastUpdated": "2/24/26 12:13 PM",
-        "DatabaseLastUpdated": "2026-02-23T15:00:35.3447658+00:00",
+        "DatabaseLastUpdated": "2026-03-06T03:20:14.0627871+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -1130,5 +1164,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-23T15:00:35.3823621+00:00"
+  "Freshness": "2026-03-06T03:20:18.4374085+00:00"
 }
