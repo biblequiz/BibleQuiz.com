@@ -190,8 +190,23 @@ export default function DivisionPlayoffsDialog({
         const match = { ...updatedMatches[matchIndex] };
         const roomSchedule = match.RoomSchedule.filter((_, i) => i !== roomIndex);
 
-        match.RoomSchedule = roomSchedule;
-        updatedMatches[matchIndex] = match;
+        // If this was the last room, remove the entire match
+        if (roomSchedule.length === 0) {
+            // Remove the match
+            updatedMatches.splice(matchIndex, 1);
+
+            // Decrement IDs for subsequent matches
+            for (let i = matchIndex; i < updatedMatches.length; i++) {
+                updatedMatches[i] = {
+                    ...updatedMatches[i],
+                    Id: updatedMatches[i].Id - 1
+                };
+            }
+        } else {
+            // Just update the room schedule
+            match.RoomSchedule = roomSchedule;
+            updatedMatches[matchIndex] = match;
+        }
 
         setPlayoffs({
             ...playoffs,

@@ -2,7 +2,6 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import type { AuthManager } from "types/AuthManager";
-import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import type { ScoringReportTeam, ScoringReportQuizzer } from "types/EventScoringReport";
 import {
     AstroMeetRankingService,

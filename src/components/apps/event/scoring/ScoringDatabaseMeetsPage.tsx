@@ -59,7 +59,7 @@ export default function ScoringDatabaseMeetsPage() {
     const [draggedMeetId, setDraggedMeetId] = useState<number | null>(null);
     const [dragOverMeetId, setDragOverMeetId] = useState<number | null>(null);
 
-    const isReadOnly = currentDatabase?.IsScoreKeep || false;
+    const isScoreKeep = currentDatabase?.IsScoreKeep || false;
 
     // Get meets in current order
     const getOrderedMeets = useCallback(() => {
@@ -326,42 +326,40 @@ export default function ScoringDatabaseMeetsPage() {
 
     return (
         <div className="space-y-6">
-            <ScoringDatabaseScoreKeepAlert isScoreKeep={isReadOnly} />
+            <ScoringDatabaseScoreKeepAlert isScoreKeep={isScoreKeep} />
 
             {/* Header */}
             <div className="flex flex-wrap justify-between items-center gap-4">
                 <h3 className="text-lg font-semibold">Divisions</h3>
                 <div className="flex flex-wrap gap-2">
-                    {!isReadOnly && (
-                        <>
-                            <button
-                                type="button"
-                                className="btn btn-success btn-sm"
-                                onClick={handleSaveChanges}
-                                disabled={!isDirty || isSaving}
-                            >
-                                {isSaving ? (
-                                    <>
-                                        <span className="loading loading-spinner loading-sm"></span>
-                                        Saving...
-                                    </>
-                                ) : (
-                                    <>
-                                        <FontAwesomeIcon icon="fas faSave" />
-                                        Save Changes
-                                    </>
-                                )}
-                            </button>
-                            <button
-                                type="button"
-                                className="btn btn-primary btn-sm"
-                                onClick={handleAddDivision}
-                                disabled={isSaving}
-                            >
-                                <FontAwesomeIcon icon="fas faPlus" />
-                                Add Division
-                            </button>
-                        </>
+                    <button
+                        type="button"
+                        className="btn btn-success btn-sm"
+                        onClick={handleSaveChanges}
+                        disabled={!isDirty || isSaving}
+                    >
+                        {isSaving ? (
+                            <>
+                                <span className="loading loading-spinner loading-sm"></span>
+                                Saving...
+                            </>
+                        ) : (
+                            <>
+                                <FontAwesomeIcon icon="fas faSave" />
+                                Save Changes
+                            </>
+                        )}
+                    </button>
+                    {!isScoreKeep && (
+                        <button
+                            type="button"
+                            className="btn btn-primary btn-sm"
+                            onClick={handleAddDivision}
+                            disabled={isSaving}
+                        >
+                            <FontAwesomeIcon icon="fas faPlus" />
+                            Add Division
+                        </button>
                     )}
                 </div>
             </div>
@@ -388,7 +386,7 @@ export default function ScoringDatabaseMeetsPage() {
                 <div className="text-center py-12 text-base-content/60">
                     <FontAwesomeIcon icon="fas faLayerGroup" classNames={["text-4xl", "mb-4"]} />
                     <p className="text-lg mb-4">No divisions have been created yet.</p>
-                    {!isReadOnly && (
+                    {!isScoreKeep && (
                         <button
                             type="button"
                             className="btn btn-primary"
@@ -411,7 +409,7 @@ export default function ScoringDatabaseMeetsPage() {
                                 meetId={meet.Display.Id}
                                 displaySettings={displaySettings}
                                 hasAnyMissingQuestions={meet.HasAnyMissingQuestions}
-                                isReadOnly={isReadOnly}
+                                isScoreKeep={isScoreKeep}
                                 disabled={isSaving}
                                 isDragOver={dragOverMeetId === meet.Display.Id}
                                 onDisplaySettingsChange={handleDisplaySettingsChange}

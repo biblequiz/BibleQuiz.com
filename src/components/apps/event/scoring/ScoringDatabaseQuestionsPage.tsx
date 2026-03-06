@@ -243,7 +243,7 @@ export default function ScoringDatabaseQuestionsPage() {
         let firstCounts: Map<number, number> | null = null;
         let isConsistent = true;
 
-        for (const [matchNum, counts] of matchPointCounts) {
+        for (const [, counts] of matchPointCounts) {
             if (!firstCounts) {
                 firstCounts = counts;
                 continue;

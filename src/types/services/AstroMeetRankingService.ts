@@ -3,7 +3,6 @@ import type {
     ScoringReportTeam,
 } from "types/EventScoringReport";
 import type { AuthManager } from "../AuthManager";
-import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
 import {
     RemoteServiceUrlBase,
     RemoteServiceUtility,
