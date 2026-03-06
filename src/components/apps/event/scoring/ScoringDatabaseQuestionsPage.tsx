@@ -70,6 +70,7 @@ export default function ScoringDatabaseQuestionsPage() {
         eventId,
         databaseId,
         currentDatabase,
+        setCurrentDatabase,
     } = useOutletContext<ScoringDatabaseProviderContext>();
 
     // State
@@ -300,6 +301,7 @@ export default function ScoringDatabaseQuestionsPage() {
     const handleImportSave = useCallback((updatedSet: OnlineDatabaseQuestionSet) => {
         setQuestionSets(prev => {
             const index = prev.findIndex(qs => qs.MeetId === updatedSet.MeetId);
+            setCurrentDatabase(null); // Clear current database to force refresh of summaries in provider
             if (index >= 0) {
                 const newSets = [...prev];
                 newSets[index] = updatedSet;
@@ -321,6 +323,10 @@ export default function ScoringDatabaseQuestionsPage() {
                             <span className="loading loading-spinner loading-lg"></span>
                             <span className="ml-4">Loading Questions...</span>
                         </h1>
+                        <p className="text-lg text-base-content/70 mb-8">
+                            The questions are being downloaded from the server. If you have a lot of questions,
+                            this can take a little bit. Please avoid refreshing the page.
+                        </p>
                     </div>
                 </div>
             </div>
