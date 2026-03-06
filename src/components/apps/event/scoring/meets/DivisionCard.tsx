@@ -5,7 +5,7 @@ interface Props {
     meetId: number;
     displaySettings: OnlineDatabaseMeetDisplaySettings;
     hasAnyMissingQuestions: boolean;
-    isReadOnly: boolean;
+    isScoreKeep: boolean;
     disabled: boolean;
     isDragOver: boolean;
     onDisplaySettingsChange: (meetId: number, field: keyof OnlineDatabaseMeetDisplaySettings, value: boolean) => void;
@@ -24,7 +24,7 @@ export default function DivisionCard({
     meetId,
     displaySettings,
     hasAnyMissingQuestions,
-    isReadOnly,
+    isScoreKeep,
     disabled,
     isDragOver,
     onDisplaySettingsChange,
@@ -43,7 +43,7 @@ export default function DivisionCard({
     return (
         <div
             className={`card bg-base-100 shadow-md border ${isDragOver ? "border-primary border-2 bg-primary/10" : "border-base-300"}`}
-            draggable={!isReadOnly && !disabled}
+            draggable={!disabled}
             onDragStart={(e) => onDragStart(e, meetId)}
             onDragEnd={onDragEnd}
             onDragOver={onDragOver}
@@ -54,15 +54,13 @@ export default function DivisionCard({
                 {/* Header Row */}
                 <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-2">
-                        {!isReadOnly && (
-                            <FontAwesomeIcon
-                                icon="fas faGripVertical"
-                                classNames={["cursor-grab", "text-base-content/40"]}
-                            />
-                        )}
+                        <FontAwesomeIcon
+                            icon="fas faGripVertical"
+                            classNames={["cursor-grab", "text-base-content/40"]}
+                        />
                         <h3 className="card-title text-base m-0">{divisionName}</h3>
                     </div>
-                    {!isReadOnly && (
+                    {!isScoreKeep && (
                         <button
                             type="button"
                             className="btn btn-ghost btn-xs text-error"
@@ -91,7 +89,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowSchedule}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowSchedule", e.target.checked)}
-                            disabled={disabled || isReadOnly}
+                            disabled={disabled}
                         />
                         <span className="label-text text-sm">Visible</span>
                     </label>
@@ -102,7 +100,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowScores}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowScores", e.target.checked)}
-                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule}
+                            disabled={disabled || !displaySettings.ShowSchedule}
                         />
                         <span className="label-text text-sm">Stats</span>
                     </label>
@@ -113,7 +111,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowIndividualScores}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowIndividualScores", e.target.checked)}
-                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
+                            disabled={disabled || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
                         />
                         <span className="label-text text-sm">Individuals</span>
                     </label>
@@ -124,7 +122,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.ShowQuestionStats}
                             onChange={(e) => onDisplaySettingsChange(meetId, "ShowQuestionStats", e.target.checked)}
-                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule}
+                            disabled={disabled || !displaySettings.ShowSchedule}
                         />
                         <span className="label-text text-sm">Q Stats</span>
                     </label>
@@ -135,7 +133,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.AllowEZScore}
                             onChange={(e) => onDisplaySettingsChange(meetId, "AllowEZScore", e.target.checked)}
-                            disabled={disabled || isReadOnly || !displaySettings.ShowSchedule}
+                            disabled={disabled || !displaySettings.ShowSchedule}
                         />
                         <span className="label-text text-sm">EZScore</span>
                     </label>
