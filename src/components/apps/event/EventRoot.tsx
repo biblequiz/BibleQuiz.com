@@ -25,6 +25,7 @@ import ScoringDatabaseMeetsPage from './scoring/ScoringDatabaseMeetsPage';
 import ScoringDatabaseLiveScoresPage from './scoring/ScoringDatabaseLiveScoresPage';
 import ScoringDatabaseTeamsAndQuizzersPage from './scoring/ScoringDatabaseTeamsAndQuizzersPage';
 import ScoringDatabaseAwardsPage from './scoring/ScoringDatabaseAwardsPage';
+import ScoringDatabaseQuestionsPage from './scoring/ScoringDatabaseQuestionsPage';
 import EventProvider, { NEW_ID_PLACEHOLDER } from './EventProvider';
 import ScoringDatabaseNewPage from './scoring/ScoringDatabaseNewPage';
 import { AuthManager } from 'types/AuthManager';
@@ -510,6 +511,13 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
+                label: "Questions",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/questions`),
+                isCurrent: false,
+                icon: "fas faFileLines"
+            },
+            {
+                type: 'link' as const,
                 label: "Live Scores",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/liveScores`),
                 isCurrent: false,
@@ -622,6 +630,10 @@ const router = createHashRouter([
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/teamsAndQuizzers",
                                                 element: <ScoringDatabaseTeamsAndQuizzersPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/questions",
+                                                element: <ScoringDatabaseQuestionsPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/liveScores",
