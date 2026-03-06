@@ -81,13 +81,13 @@ export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: 
                             restriction="Quizzers Only"
                             addField={() => addField(getGradeField(typeId))} />
                         <EventFieldCommonCard
-                            title="1:1"
-                            description="Participant in the 1:1 tournament."
+                            title="Individuals"
+                            description="Participant in the Individual Tournament."
                             restriction="Quizzers Only"
                             addField={() => {
                                 const newField: EventField = {
                                     Id: null,
-                                    Label: "1:1",
+                                    Label: "Individuals",
                                     ControlType: EventFieldControlType.Checkbox,
                                     DataType: EventFieldDataType.Boolean,
                                     Scopes: EventFieldScopes.Quizzer,
