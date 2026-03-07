@@ -5,12 +5,6 @@ import RoomDialogContent from './RoomDialogContent';
 
 <dialog id={RoomDialogModalId} class="modal">
     <div class="modal-box w-full max-w-5xl">
-        <form method="dialog">
-            <button
-                class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-                >✕</button
-            >
-        </form>
         <RoomDialogContent client:only="react" />
         <div class="modal-action">
             <form method="dialog">
