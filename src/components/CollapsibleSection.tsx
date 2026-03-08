@@ -50,9 +50,19 @@ export default function CollapsibleSection({
     const storageKey = `collapsible_${pageId}_${elementId || 'default'}`;
     
     const [isOpen, setIsOpen] = useState(() => {
-        if (!persistState || typeof window === 'undefined') return defaultOpen ?? false;
+        if (forceOpen) {
+            return true;
+        }
+
+        if (!persistState || typeof window === 'undefined') {
+            return defaultOpen ?? false;
+        }
+
         const raw = localStorage.getItem(storageKey);
-        if (raw === null) return defaultOpen ?? false;
+        if (raw === null) { 
+            return defaultOpen ?? false;
+        }
+        
         try {
             const parsed = JSON.parse(raw);
             if (parsed && typeof parsed === 'object' && 'value' in parsed && 'timestamp' in parsed) {

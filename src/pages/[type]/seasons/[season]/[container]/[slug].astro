@@ -363,3 +363,26 @@ const qstatsTabId = "qstats_tab";
         }
     }
 </style>
+
+<script>
+    // Disable browser's automatic scroll restoration to handle it manually
+    // after React components have finished loading
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+
+    // Save scroll position before page unload
+    const SCROLL_KEY = `scroll-${location.pathname}`;
+    window.addEventListener("beforeunload", () => {
+        sessionStorage.setItem(SCROLL_KEY, window.scrollY.toString());
+    });
+
+    // Listen for custom event when React content is ready
+    window.addEventListener("scores-content-ready", () => {
+        const savedScroll = sessionStorage.getItem(SCROLL_KEY);
+        if (savedScroll) {
+            window.scrollTo(0, parseInt(savedScroll, 10));
+            sessionStorage.removeItem(SCROLL_KEY);
+        }
+    });
+</script>
