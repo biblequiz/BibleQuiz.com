@@ -47,7 +47,7 @@ export default function CollapsableMeetSection({ pageId, elementId, meet, showCo
     return (
         <CollapsibleSection
             pageId={pageId}
-            elementId={elementId}
+            elementId={elementId ?? meet.MeetId.toString()}
             icon={icon}
             iconChildren={iconChildren}
             title={showCombinedName ? (meet.CombinedName || meet.Name) : meet.Name}
@@ -56,7 +56,8 @@ export default function CollapsableMeetSection({ pageId, elementId, meet, showCo
             isPrinting={isPrinting}
             printSectionIndex={printSectionIndex}
             badges={badges}
-            forceOpen={forceOpen}>
+            forceOpen={forceOpen}
+            persistState={true}>
             {children}
         </CollapsibleSection>);
 };

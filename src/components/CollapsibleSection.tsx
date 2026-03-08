@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 
 interface SectionBadge {
@@ -24,6 +25,7 @@ interface Props {
     badges?: SectionBadge[];
     allowMultipleOpen?: boolean;
     defaultOpen?: boolean;
+    persistState?: boolean;
 };
 
 export default function CollapsibleSection({
@@ -42,7 +44,24 @@ export default function CollapsibleSection({
     children,
     badges,
     allowMultipleOpen,
-    defaultOpen }: Props) {
+    defaultOpen,
+    persistState = true }: Props) {
+
+    const storageKey = `collapsible_${pageId}_${elementId || 'default'}`;
+    
+    const [isOpen, setIsOpen] = useState(() => {
+        if (!persistState || typeof window === 'undefined') return defaultOpen ?? false;
+        const stored = localStorage.getItem(storageKey);
+        return stored !== null ? stored === 'true' : (defaultOpen ?? false);
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const newState = e.target.checked;
+        setIsOpen(newState);
+        if (persistState && typeof window !== 'undefined') {
+            localStorage.setItem(storageKey, String(newState));
+        }
+    };
 
     const titleElement = (
         <>
@@ -78,7 +97,13 @@ export default function CollapsibleSection({
                 tabIndex={1}
                 className={`collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links ${forceOpen ? "collapse-open" : ""}`}
             >
-                <input type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"} name={pageId} className="peer" defaultChecked={defaultOpen ?? false} />
+                <input 
+                    type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"} 
+                    name={pageId} 
+                    className="peer" 
+                    checked={isOpen} 
+                    onChange={handleChange} 
+                />
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
                     {titleElement}
                 </div>
