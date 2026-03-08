@@ -87,51 +87,59 @@ export default function RoomDialogContent() {
     };
 
     return (
-        <div className="overflow-x-auto overflow-y-auto">
-            <p className="text-xl font-bold">
+        <div>
+            <div className="text-xl font-bold sticky top-0 bg-base-100 z-10 py-2">
                 <button type="button" className="btn btn-sm btn-primary" onClick={handleRefreshClick}>
                     <FontAwesomeIcon icon="fas faArrowsRotate" />
                 </button>&nbsp;
                 {reportState.criteria.label}
-            </p>
-            {(report.CurrentQuestion != null || report.IsCompleted) && (
-                <p className="text-xs ml-2">
-                    <b>CURRENT QUESTION:</b>&nbsp;
-                    {report.IsCompleted && (
-                        <span className="done">[ COMPLETED ]</span>)}
-                    {!report.IsCompleted && (
-                        <>
-                            <span>[ {report.CurrentQuestion} ]</span>
-                            {totalRemaining > 0 && (
-                                <>
-                                    <br />
-                                    <b>REMAINING:</b> <span> {totalRemaining} points ({remainingPointCounts.join(", ")})</span>
-                                </>)}
-                        </>)}
-                    {report.StartTime != null && (report.RemainingTime != null || report.EndTime != null) && (
-                        <>
-                            <br />
-                            <b>Timer Started:</b> {report.StartTime}
-                            {report.RemainingTime != null && (
-                                <>
-                                    <br />
-                                    <span><b>Timer Remaining:</b> <mark> {report.RemainingTime} </mark></span>
-                                </>)}
-                            {report.EndTime != null && (
-                                <>
-                                    <br />
-                                    <span><b>Timer Stopped:</b>  {report.EndTime}</span>
-                                </>)}
-                        </>)}
-                </p>)}
-            <table className="table table-xs table-nowrap">
-                {report.RedTeam && (
-                    <RoomDialogTeamTable primaryRowClass="red-room-score" team={report.RedTeam} report={report} addSpace={false} />
-                )}
-                {report.GreenTeam && (
-                    <RoomDialogTeamTable primaryRowClass="green-room-score" team={report.GreenTeam} report={report} addSpace={true} />
-                )}
-            </table>
+                <form method="dialog">
+                    <button
+                        className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    >✕</button
+                    >
+                </form>
+            </div>
+            <div className="overflow-x-auto overflow-y-auto">
+                {(report.CurrentQuestion != null || report.IsCompleted) && (
+                    <p className="text-xs ml-2">
+                        <b>CURRENT QUESTION:</b>&nbsp;
+                        {report.IsCompleted && (
+                            <span className="done">[ COMPLETED ]</span>)}
+                        {!report.IsCompleted && (
+                            <>
+                                <span>[ {report.CurrentQuestion} ]</span>
+                                {totalRemaining > 0 && (
+                                    <>
+                                        <br />
+                                        <b>REMAINING:</b> <span> {totalRemaining} points ({remainingPointCounts.join(", ")})</span>
+                                    </>)}
+                            </>)}
+                        {report.StartTime != null && (report.RemainingTime != null || report.EndTime != null) && (
+                            <>
+                                <br />
+                                <b>Timer Started:</b> {report.StartTime}
+                                {report.RemainingTime != null && (
+                                    <>
+                                        <br />
+                                        <span><b>Timer Remaining:</b> <mark> {report.RemainingTime} </mark></span>
+                                    </>)}
+                                {report.EndTime != null && (
+                                    <>
+                                        <br />
+                                        <span><b>Timer Stopped:</b>  {report.EndTime}</span>
+                                    </>)}
+                            </>)}
+                    </p>)}
+                <table className="table table-xs table-nowrap">
+                    {report.RedTeam && (
+                        <RoomDialogTeamTable primaryRowClass="red-room-score" team={report.RedTeam} report={report} addSpace={false} />
+                    )}
+                    {report.GreenTeam && (
+                        <RoomDialogTeamTable primaryRowClass="green-room-score" team={report.GreenTeam} report={report} addSpace={true} />
+                    )}
+                </table>
+            </div>
         </div>);
 };
 
