@@ -371,10 +371,14 @@ const qstatsTabId = "qstats_tab";
         history.scrollRestoration = "manual";
     }
 
-    // Save scroll position before page unload
+    // Continuously track scroll position so we always have an accurate value.
+    // Saving only on beforeunload can lose ~10-15px because the browser
+    // may have already adjusted the viewport by the time the event fires.
     const SCROLL_KEY = `scroll-${location.pathname}`;
+    let lastScrollY = window.scrollY;
+    window.addEventListener("scroll", () => { lastScrollY = window.scrollY; }, { passive: true });
     window.addEventListener("beforeunload", () => {
-        sessionStorage.setItem(SCROLL_KEY, window.scrollY.toString());
+        sessionStorage.setItem(SCROLL_KEY, lastScrollY.toString());
     });
 
     // Listen for custom event when React content is ready

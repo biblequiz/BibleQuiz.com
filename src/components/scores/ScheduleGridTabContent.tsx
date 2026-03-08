@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
@@ -32,6 +32,7 @@ export default function ScheduleGridTabContent({
     const reportState = useStore(sharedEventScoringReportState);
     event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+    const [isForcedOpen, setIsForcedOpen] = useState(false);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
     // Add an effect to scroll the item into view once it is loaded.
@@ -40,7 +41,7 @@ export default function ScheduleGridTabContent({
         if (isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-    }, [eventFilters]);
+    }, [eventFilters, isForcedOpen]);
 
     if (!event) {
         return (<span>Event is Loading ...</span>);
@@ -209,6 +210,7 @@ export default function ScheduleGridTabContent({
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
                         forceOpen={forceOpen}
+                        onForceOpen={() => setIsForcedOpen(true)}
                         badges={sectionBadges}
                         key={key}>
 

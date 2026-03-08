@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
@@ -97,6 +97,7 @@ export default function TeamOrRoomScheduleTabContent({
 
     event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+    const [isForcedOpen, setIsForcedOpen] = useState(false);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
     // Add an effect to scroll the item into view once it is loaded.
@@ -105,7 +106,7 @@ export default function TeamOrRoomScheduleTabContent({
         if (isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-    }, [eventFilters]);
+    }, [eventFilters, isForcedOpen]);
 
     if (!event) {
         return (<span>Event is Loading ...</span>);
@@ -195,7 +196,7 @@ export default function TeamOrRoomScheduleTabContent({
                             return (<li key={matchKey} className="ml-6">BYE</li>);
                         }
 
-                        const resolvedMeet = !meet.HasLinkedMeets || 
+                        const resolvedMeet = !meet.HasLinkedMeets ||
                             (!(matchItem as ScoringReportRoomMatch).LinkedMeet && (matchItem as ScoringReportRoomMatch).LinkedMeet !== 0)
                             ? meet
                             : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
@@ -433,6 +434,7 @@ export default function TeamOrRoomScheduleTabContent({
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
                         forceOpen={forceOpen}
+                        onForceOpen={() => setIsForcedOpen(true)}
                         elementId={forceOpen && isRoomReport ? scrollToViewElementId : undefined}
                         badges={sectionBadges}
                         key={key}>

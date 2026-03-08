@@ -1,3 +1,4 @@
+import { sharedEventScoringReportFilterState } from "utils/SharedState";
 import CollapsibleSection from "../CollapsibleSection";
 import MeetProgressNotification, { hasMeetNotification } from './MeetProgressNotification';
 import { ScoringReportMeet } from "types/EventScoringReport";
@@ -21,9 +22,21 @@ interface Props {
     forceOpen?: boolean;
     children?: React.ReactNode;
     badges?: SectionBadge[];
+    onForceOpen?: () => void;
 };
 
-export default function CollapsableMeetSection({ pageId, elementId, meet, showCombinedName, showMeetStatus, isPrinting, printSectionIndex, forceOpen, children, badges }: Props) {
+export default function CollapsableMeetSection({
+    pageId,
+    elementId,
+    meet,
+    showCombinedName,
+    showMeetStatus,
+    isPrinting,
+    printSectionIndex,
+    forceOpen,
+    children,
+    badges,
+    onForceOpen }: Props) {
 
     const icon = meet.IsCombinedReport
         ? "fas faBook"
@@ -57,7 +70,17 @@ export default function CollapsableMeetSection({ pageId, elementId, meet, showCo
             printSectionIndex={printSectionIndex}
             badges={badges}
             forceOpen={forceOpen}
-            persistState={true}>
+            persistState={true}
+            onForceOpen={onForceOpen}
+            onClose={() => {
+                const currentFilters = sharedEventScoringReportFilterState.get();
+                if (forceOpen && currentFilters) {
+                    const newState = { ...currentFilters };
+                    newState.openMeetDatabaseId = null;
+                    newState.openMeetMeetId = null;
+                    sharedEventScoringReportFilterState.set(newState);
+                }
+            }}>
             {children}
         </CollapsibleSection>);
 };

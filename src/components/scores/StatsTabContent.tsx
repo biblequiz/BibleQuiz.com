@@ -1,4 +1,4 @@
-import { useEffect, type JSX } from "react";
+import { useEffect, useState, type JSX } from "react";
 import { ScoringReportMeet } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
@@ -40,6 +40,7 @@ export default function StatsTabContent({
     const reportState = useStore(sharedEventScoringReportState);
     event ??= reportState?.report || undefined;
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
+    const [isForcedOpen, setIsForcedOpen] = useState(false);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
     // Add an effect to scroll the item into view once it is loaded.
@@ -48,7 +49,7 @@ export default function StatsTabContent({
         if (isTabActive(parentTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-    }, [eventFilters]);
+    }, [eventFilters, isForcedOpen]);
 
     if (!event) {
         return (<span>Event is Loading ...</span>);
@@ -242,6 +243,7 @@ export default function StatsTabContent({
                         isPrinting={isPrinting}
                         printSectionIndex={sectionIndex++}
                         forceOpen={forceOpen}
+                        onForceOpen={() => setIsForcedOpen(true)}
                         badges={sectionBadges}
                         key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
 

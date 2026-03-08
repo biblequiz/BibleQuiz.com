@@ -1,11 +1,11 @@
 import { atom } from 'nanostores';
-import { persistentAtom } from '@nanostores/persistent';
 import Fuse, { type FuseResult } from "fuse.js";
 
 import type { QuizzerIndex } from 'types/QuizzerSearch';
 import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from 'types/EventScoringReport';
 import type { TeamAndQuizzerFavorites } from 'types/TeamAndQuizzerFavorites';
 import type { RoomScoringReport } from 'types/RoomScoringReport';
+import { sessionAtom } from './PersistentState';
 
 /* Downloaded Event Report */
 export interface EventScoringReportSearchIndexItem<T> {
@@ -35,40 +35,14 @@ export interface SharedEventScoringReportFilterState {
     favoritesVersion: number | null;
 }
 
-export const sharedEventScoringReportFilterState = persistentAtomWithExpiry<SharedEventScoringReportFilterState | null>(
+export const sharedEventScoringReportFilterState = sessionAtom<SharedEventScoringReportFilterState | null>(
     'sharedEventScoringReportFilterState',
-    null,
-    86400000);
+    null);
 
 /* Toggle for Favorites */
-export const showFavoritesOnlyToggle = persistentAtomWithExpiry<boolean>(
-    'showFavoritesOnlyToggle', 
-    false, 
-    86400000);
-
-/**
- * Creates a persistent atom that automatically expires after the given duration.
- * Once expired, the stored value is ignored and the default is returned.
- */
-export function persistentAtomWithExpiry<T>(
-    key: string,
-    defaultValue: T,
-    ttlMs: number
-) {
-    return persistentAtom<T>(key, defaultValue, {
-        encode: (value) => JSON.stringify({ value, timestamp: Date.now() }),
-        decode: (raw) => {
-            try {
-                const parsed = JSON.parse(raw);
-                if (parsed && typeof parsed === 'object' && 'value' in parsed && 'timestamp' in parsed) {
-                    if (Date.now() - parsed.timestamp > ttlMs) return defaultValue;
-                    return parsed.value;
-                }
-            } catch { /* corrupted or legacy format */ }
-            return defaultValue;
-        },
-    });
-}
+export const showFavoritesOnlyToggle = sessionAtom<boolean>(
+    'showFavoritesOnlyToggle',
+    false);
 
 /* Downloaded Room Score Report */
 export interface RoomDialogCriteria {
