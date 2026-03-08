@@ -1,4 +1,5 @@
 import { atom } from 'nanostores';
+import { persistentAtom } from '@nanostores/persistent';
 import Fuse, { type FuseResult } from "fuse.js";
 
 import type { QuizzerIndex } from 'types/QuizzerSearch';
@@ -37,7 +38,10 @@ export interface SharedEventScoringReportFilterState {
 export const sharedEventScoringReportFilterState = atom<SharedEventScoringReportFilterState | null>(null);
 
 /* Toggle for Favorites */
-export const showFavoritesOnlyToggle = atom<boolean>(false);
+export const showFavoritesOnlyToggle = persistentAtom<boolean>('showFavoritesOnlyToggle', false, {
+    encode: JSON.stringify,
+    decode: JSON.parse,
+});
 
 /* Downloaded Room Score Report */
 export interface RoomDialogCriteria {
