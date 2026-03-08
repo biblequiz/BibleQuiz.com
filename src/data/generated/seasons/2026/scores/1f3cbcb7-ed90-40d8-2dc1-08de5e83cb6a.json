@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "SNE-Meet4-Feb2026-A",
-        "LastUpdated": "2/23/26 10:49 PM",
-        "DatabaseLastUpdated": "2026-02-23T22:49:17.3884538+00:00",
+        "LastUpdated": "3/7/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-03-07T21:02:04.6047675+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -290,8 +290,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "SNE-Meet4-Feb2026-B",
-        "LastUpdated": "2/23/26 10:49 PM",
-        "DatabaseLastUpdated": "2026-02-23T22:49:17.3884538+00:00",
+        "LastUpdated": "3/7/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-03-07T21:02:04.6047675+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1560,54 +1560,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "New Meet-B",
-        "LastUpdated": "2/23/26 10:49 PM",
-        "DatabaseLastUpdated": "2026-02-23T22:49:17.3884538+00:00",
+        "LastUpdated": "3/7/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-03-07T21:02:04.6047675+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
-          {
-            "CoachName": "Dave Blake",
-            "Quizzers": [
-              8,
-              9
-            ],
-            "Matches": [
-              {
-                "Result": null,
-                "RoomId": 2,
-                "Room": "2",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 3
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 2
-              },
-              {
-                "Result": null,
-                "RoomId": 1,
-                "Room": "1",
-                "State": "NotStarted",
-                "CurrentQuestion": null,
-                "Score": null,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_4eda1385-6199-4485-9791-b12d2f5b2600",
-            "Name": "#Bethany Agawam(B5) - Bethany Bible Beez",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": null
-          },
           {
             "CoachName": "Lisa Young",
             "Quizzers": [
@@ -1625,7 +1581,7 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
-                "OtherTeam": 2
+                "OtherTeam": 1
               },
               {
                 "Result": null,
@@ -1634,7 +1590,7 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": null,
@@ -1643,12 +1599,12 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
-                "OtherTeam": 0
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_5c34c18b-fa94-4377-b12e-7731a7186f99",
-            "Name": "Assembly of God (Attleboro) #1Wranglers of Gods Word",
+            "Name": "#Assembly of God (Attleboro) #1Wranglers of Gods Word",
             "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
             "ChurchName": "Assembly of God",
             "City": "Attleboro",
@@ -1672,7 +1628,7 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
-                "OtherTeam": 1
+                "OtherTeam": 0
               },
               {
                 "Result": null,
@@ -1681,7 +1637,7 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
-                "OtherTeam": 0
+                "OtherTeam": 3
               },
               {
                 "Result": null,
@@ -1690,12 +1646,12 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
-                "OtherTeam": 3
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
             "Id": "t_255a1692-f910-4f7f-9350-6e06f14aa448",
-            "Name": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "Name": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
             "City": "Agawam",
@@ -1719,6 +1675,15 @@
                 "State": "NotStarted",
                 "CurrentQuestion": null,
                 "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
                 "OtherTeam": 0
               },
               {
@@ -1729,7 +1694,24 @@
                 "CurrentQuestion": null,
                 "Score": null,
                 "OtherTeam": 1
-              },
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_255a1692-f910-4f7f-9350-6e06f14aa448",
+            "Name": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
+            "ChurchName": "Bethany Assembly of God",
+            "City": "Agawam",
+            "State": "MA",
+            "Scores": null
+          },
+          {
+            "CoachName": "Dave Blake",
+            "Quizzers": [
+              8,
+              9
+            ],
+            "Matches": [
               {
                 "Result": null,
                 "RoomId": 2,
@@ -1738,11 +1720,29 @@
                 "CurrentQuestion": null,
                 "Score": null,
                 "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_255a1692-f910-4f7f-9350-6e06f14aa448",
-            "Name": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "Id": "t_4eda1385-6199-4485-9791-b12d2f5b2600",
+            "Name": "#Bethany Agawam(B5) - Bethany Bible Beez",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
             "City": "Agawam",
@@ -1754,7 +1754,7 @@
         "TeamFootnotes": null,
         "Quizzers": [
           {
-            "TeamName": "Assembly of God (Attleboro) #1Wranglers of Gods Word",
+            "TeamName": "#Assembly of God (Attleboro) #1Wranglers of Gods Word",
             "YearsQuizzing": null,
             "Id": "q_b081fff1da424a93f63708de4a3be303",
             "Name": "Amelia Dahlstrom",
@@ -1765,7 +1765,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_ae059f0b45e84f12c5f108de2a061e1e",
             "Name": "Asher Lawrence",
@@ -1776,7 +1776,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_ae059f0b45e84f12c5f108de2a061e1e",
             "Name": "Asher Lawrence",
@@ -1787,7 +1787,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_a8a36ab3e37540cbc69d08de2a061e1e",
             "Name": "Caleb Malancha",
@@ -1798,7 +1798,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_a8a36ab3e37540cbc69d08de2a061e1e",
             "Name": "Caleb Malancha",
@@ -1809,7 +1809,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Assembly of God (Attleboro) #1Wranglers of Gods Word",
+            "TeamName": "#Assembly of God (Attleboro) #1Wranglers of Gods Word",
             "YearsQuizzing": null,
             "Id": "q_46d9ed5d2fa5455ef64008de4a3be303",
             "Name": "Eden Wixson",
@@ -1820,7 +1820,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Assembly of God (Attleboro) #1Wranglers of Gods Word",
+            "TeamName": "#Assembly of God (Attleboro) #1Wranglers of Gods Word",
             "YearsQuizzing": null,
             "Id": "q_54a8ccd761a24b36f63c08de4a3be303",
             "Name": "Elaina Carpenter",
@@ -1831,7 +1831,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Assembly of God (Attleboro) #1Wranglers of Gods Word",
+            "TeamName": "#Assembly of God (Attleboro) #1Wranglers of Gods Word",
             "YearsQuizzing": null,
             "Id": "q_5216546accbf47dff63908de4a3be303",
             "Name": "Emma Dahlstrom",
@@ -1864,7 +1864,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_28360155866c46f8c5ea08de2a061e1e",
             "Name": "Lincoln Milanczuk",
@@ -1875,7 +1875,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_28360155866c46f8c5ea08de2a061e1e",
             "Name": "Lincoln Milanczuk",
@@ -1886,7 +1886,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_986bdb41d0e6473fc5c808de2a061e1e",
             "Name": "Mark Sheliag",
@@ -1897,7 +1897,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_986bdb41d0e6473fc5c808de2a061e1e",
             "Name": "Mark Sheliag",
@@ -1908,7 +1908,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_2e52a442fd514aa4c5c208de2a061e1e",
             "Name": "Nathan Sheliag",
@@ -1919,7 +1919,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
+            "TeamName": "#Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "YearsQuizzing": null,
             "Id": "q_2e52a442fd514aa4c5c208de2a061e1e",
             "Name": "Nathan Sheliag",
@@ -1930,7 +1930,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Assembly of God (Attleboro) #1Wranglers of Gods Word",
+            "TeamName": "#Assembly of God (Attleboro) #1Wranglers of Gods Word",
             "YearsQuizzing": null,
             "Id": "q_77a8b8282e57439ff64508de4a3be303",
             "Name": "Zeke Wixson",
@@ -1951,16 +1951,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "State": "NotStarted",
                 "Blockers": null
               },
@@ -1968,7 +1960,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
                 "State": "NotStarted",
                 "Blockers": null
               }
@@ -1980,8 +1980,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
                 "State": "NotStarted",
                 "Blockers": null
               },
@@ -1989,15 +1997,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 3,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
+                "Team2": 2,
                 "State": "NotStarted",
                 "Blockers": null
               }
@@ -2044,8 +2044,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "New Meet-A",
-        "LastUpdated": "2/23/26 10:49 PM",
-        "DatabaseLastUpdated": "2026-02-23T22:49:17.3884538+00:00",
+        "LastUpdated": "3/7/26 9:04 PM",
+        "DatabaseLastUpdated": "2026-03-07T21:02:04.6047675+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -2069,7 +2069,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_9f7c43a9-e92e-4e85-a671-1b93f8e2ce5e",
-            "Name": "Bethany Agawam(A) - Deep Roots New Fruits",
+            "Name": "#Bethany Agawam(A) - Deep Roots New Fruits",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
             "City": "Agawam",
@@ -2097,7 +2097,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_921d77f7-26c0-43bc-be6e-bc7cbe0bce41",
-            "Name": "Bethany Community Church (Mendon) #1",
+            "Name": "#Bethany Community Church (Mendon) #1",
             "ChurchId": "96eec7b3-788a-45e4-8b28-3a7d59929aac",
             "ChurchName": "Bethany Community Church",
             "City": "Mendon",
@@ -2109,7 +2109,7 @@
         "TeamFootnotes": null,
         "Quizzers": [
           {
-            "TeamName": "Bethany Community Church (Mendon) #1",
+            "TeamName": "#Bethany Community Church (Mendon) #1",
             "YearsQuizzing": null,
             "Id": "q_89194958473d4f6e6d7708dd6e6ababf",
             "Name": "Angelica Haynes",
@@ -2120,7 +2120,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
+            "TeamName": "#Bethany Agawam(A) - Deep Roots New Fruits",
             "YearsQuizzing": null,
             "Id": "q_98059e2091994916bc8008dd7489edd0",
             "Name": "Jane Joseph",
@@ -2131,7 +2131,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Community Church (Mendon) #1",
+            "TeamName": "#Bethany Community Church (Mendon) #1",
             "YearsQuizzing": null,
             "Id": "q_27df0b7751744d696d5f08dd6e6ababf",
             "Name": "Jethro Gaspard",
@@ -2142,7 +2142,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Community Church (Mendon) #1",
+            "TeamName": "#Bethany Community Church (Mendon) #1",
             "YearsQuizzing": null,
             "Id": "q_bf1307fc99f040396d7108dd6e6ababf",
             "Name": "Olamide Ogundare",
@@ -2153,7 +2153,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
+            "TeamName": "#Bethany Agawam(A) - Deep Roots New Fruits",
             "YearsQuizzing": null,
             "Id": "q_741b9d90814042bbbc9808dd7489edd0",
             "Name": "Philip Blake",
@@ -2164,7 +2164,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Community Church (Mendon) #1",
+            "TeamName": "#Bethany Community Church (Mendon) #1",
             "YearsQuizzing": null,
             "Id": "q_47e4195dd5e945516d6508dd6e6ababf",
             "Name": "Shania Gaspard",
@@ -2175,7 +2175,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
+            "TeamName": "#Bethany Agawam(A) - Deep Roots New Fruits",
             "YearsQuizzing": null,
             "Id": "q_0e2abae3457645b1bc8c08dd7489edd0",
             "Name": "Titus Thee",
@@ -2186,7 +2186,7 @@
             "Scores": null
           },
           {
-            "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
+            "TeamName": "#Bethany Agawam(A) - Deep Roots New Fruits",
             "YearsQuizzing": null,
             "Id": "q_9c424980dc6e4662bc8608dd7489edd0",
             "Name": "Wesley Anderson",
@@ -2296,5 +2296,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-23T22:49:34.8725577+00:00"
+  "Freshness": "2026-03-07T21:02:04.8075822+00:00"
 }
