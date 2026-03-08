@@ -35,13 +35,40 @@ export interface SharedEventScoringReportFilterState {
     favoritesVersion: number | null;
 }
 
-export const sharedEventScoringReportFilterState = atom<SharedEventScoringReportFilterState | null>(null);
+export const sharedEventScoringReportFilterState = persistentAtomWithExpiry<SharedEventScoringReportFilterState | null>(
+    'sharedEventScoringReportFilterState',
+    null,
+    86400000);
 
 /* Toggle for Favorites */
-export const showFavoritesOnlyToggle = persistentAtom<boolean>('showFavoritesOnlyToggle', false, {
-    encode: JSON.stringify,
-    decode: JSON.parse,
-});
+export const showFavoritesOnlyToggle = persistentAtomWithExpiry<boolean>(
+    'showFavoritesOnlyToggle', 
+    false, 
+    86400000);
+
+/**
+ * Creates a persistent atom that automatically expires after the given duration.
+ * Once expired, the stored value is ignored and the default is returned.
+ */
+export function persistentAtomWithExpiry<T>(
+    key: string,
+    defaultValue: T,
+    ttlMs: number
+) {
+    return persistentAtom<T>(key, defaultValue, {
+        encode: (value) => JSON.stringify({ value, timestamp: Date.now() }),
+        decode: (raw) => {
+            try {
+                const parsed = JSON.parse(raw);
+                if (parsed && typeof parsed === 'object' && 'value' in parsed && 'timestamp' in parsed) {
+                    if (Date.now() - parsed.timestamp > ttlMs) return defaultValue;
+                    return parsed.value;
+                }
+            } catch { /* corrupted or legacy format */ }
+            return defaultValue;
+        },
+    });
+}
 
 /* Downloaded Room Score Report */
 export interface RoomDialogCriteria {

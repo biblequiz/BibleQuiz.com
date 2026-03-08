@@ -51,15 +51,26 @@ export default function CollapsibleSection({
     
     const [isOpen, setIsOpen] = useState(() => {
         if (!persistState || typeof window === 'undefined') return defaultOpen ?? false;
-        const stored = localStorage.getItem(storageKey);
-        return stored !== null ? stored === 'true' : (defaultOpen ?? false);
+        const raw = localStorage.getItem(storageKey);
+        if (raw === null) return defaultOpen ?? false;
+        try {
+            const parsed = JSON.parse(raw);
+            if (parsed && typeof parsed === 'object' && 'value' in parsed && 'timestamp' in parsed) {
+                if (Date.now() - parsed.timestamp > 86400000) { // 24 hours
+                    localStorage.removeItem(storageKey);
+                    return defaultOpen ?? false;
+                }
+                return parsed.value;
+            }
+        } catch { /* legacy plain string format */ }
+        return raw === 'true' ? true : (defaultOpen ?? false);
     });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newState = e.target.checked;
         setIsOpen(newState);
         if (persistState && typeof window !== 'undefined') {
-            localStorage.setItem(storageKey, String(newState));
+            localStorage.setItem(storageKey, JSON.stringify({ value: newState, timestamp: Date.now() }));
         }
     };
 
