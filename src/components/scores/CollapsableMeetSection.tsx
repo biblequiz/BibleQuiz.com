@@ -22,7 +22,6 @@ interface Props {
     forceOpen?: boolean;
     children?: React.ReactNode;
     badges?: SectionBadge[];
-    onForceOpen?: () => void;
 };
 
 export default function CollapsableMeetSection({
@@ -35,8 +34,7 @@ export default function CollapsableMeetSection({
     printSectionIndex,
     forceOpen,
     children,
-    badges,
-    onForceOpen }: Props) {
+    badges }: Props) {
 
     const icon = meet.IsCombinedReport
         ? "fas faBook"
@@ -71,7 +69,6 @@ export default function CollapsableMeetSection({
             badges={badges}
             forceOpen={forceOpen}
             persistState={true}
-            onForceOpen={onForceOpen}
             onClose={() => {
                 const currentFilters = sharedEventScoringReportFilterState.get();
                 if (forceOpen && currentFilters) {

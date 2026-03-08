@@ -26,7 +26,6 @@ interface Props {
     allowMultipleOpen?: boolean;
     defaultOpen?: boolean;
     persistState?: boolean;
-    onForceOpen?: () => void;
     onClose?: () => void;
 };
 
@@ -47,7 +46,6 @@ export default function CollapsibleSection({
     badges,
     allowMultipleOpen,
     defaultOpen,
-    onForceOpen,
     onClose,
     persistState = true }: Props) {
 
@@ -81,10 +79,6 @@ export default function CollapsibleSection({
     useEffect(() => {
         if (forceOpen) {
             setIsOpenAndPersist(true);
-
-            if (onForceOpen) {
-                onForceOpen();
-            }
         }
     }, [forceOpen]);
 
