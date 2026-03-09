@@ -1,4 +1,4 @@
-import { useEffect, type JSX } from "react";
+import type { JSX } from "react";
 import { ScoringReportMeet } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
@@ -42,13 +42,13 @@ export default function StatsTabContent({
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
-    // Add an effect to scroll the item into view once it is loaded.
-    useEffect(() => {
+    // Scroll handler to be called when a section opens
+    const handleSectionOpened = () => {
         const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
         if (isTabActive(parentTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-    }, [eventFilters]);
+    };
 
     if (!event) {
         return (<span>Event is Loading ...</span>);
@@ -243,6 +243,7 @@ export default function StatsTabContent({
                         printSectionIndex={sectionIndex++}
                         forceOpen={forceOpen}
                         badges={sectionBadges}
+                        onOpen={forceOpen ? handleSectionOpened : undefined}
                         key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
 
                         {rankedTeams && (

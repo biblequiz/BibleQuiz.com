@@ -26,6 +26,7 @@ interface Props {
     allowMultipleOpen?: boolean;
     defaultOpen?: boolean;
     persistState?: boolean;
+    onOpen?: () => void;
     onClose?: () => void;
 };
 
@@ -47,6 +48,7 @@ export default function CollapsibleSection({
     allowMultipleOpen,
     defaultOpen,
     onClose,
+    onOpen,
     persistState = true }: Props) {
 
     const storageKey = `collapsible_${pageId}_${elementId || 'default'}`;
@@ -79,6 +81,11 @@ export default function CollapsibleSection({
     useEffect(() => {
         if (forceOpen) {
             setIsOpenAndPersist(true);
+            if (onOpen) {
+                // Delay to allow CSS transition to complete
+                const timeoutId = setTimeout(onOpen, 300);
+                return () => clearTimeout(timeoutId);
+            }
         }
     }, [forceOpen]);
 
@@ -135,7 +142,7 @@ export default function CollapsibleSection({
                     type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"}
                     name={pageId}
                     className="peer"
-                    checked={forceOpen ?? isOpen}
+                    checked={isOpen}
                     onChange={handleChange}
                 />
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>

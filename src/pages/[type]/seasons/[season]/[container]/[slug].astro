@@ -385,7 +385,7 @@ const qstatsTabId = "qstats_tab";
     window.addEventListener("scores-content-ready", () => {
         const savedScroll = sessionStorage.getItem(SCROLL_KEY);
         if (savedScroll) {
-            window.scrollTo(0, parseInt(savedScroll, 10) + 32); // Add extra offset to account for any minor adjustments
+            window.scrollTo(0, parseInt(savedScroll, 10));
             sessionStorage.removeItem(SCROLL_KEY);
         }
     });
