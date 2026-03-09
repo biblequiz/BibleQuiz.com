@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Champ Meet #2",
-        "LastUpdated": "1/13/26 12:12 AM",
-        "DatabaseLastUpdated": "2026-01-12T21:42:15.1642813+00:00",
+        "LastUpdated": "3/9/26 9:08 PM",
+        "DatabaseLastUpdated": "2026-03-09T20:56:30.8204373+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -1183,7 +1183,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1245,8 +1245,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender Meet #2",
-        "LastUpdated": "1/13/26 12:12 AM",
-        "DatabaseLastUpdated": "2026-01-12T21:42:15.1642813+00:00",
+        "LastUpdated": "3/9/26 9:08 PM",
+        "DatabaseLastUpdated": "2026-03-09T20:56:30.8204373+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -2472,7 +2472,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2534,8 +2534,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 Meet #2",
-        "LastUpdated": "1/13/26 12:12 AM",
-        "DatabaseLastUpdated": "2026-01-12T21:42:15.1642813+00:00",
+        "LastUpdated": "3/9/26 9:08 PM",
+        "DatabaseLastUpdated": "2026-03-09T20:56:30.8204373+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -2634,9 +2634,9 @@
           {
             "CoachName": "Josh Cheatwood",
             "Quizzers": [
-              6,
-              21,
-              26
+              7,
+              22,
+              27
             ],
             "Matches": [
               {
@@ -2724,9 +2724,10 @@
             "CoachName": "Mitchell Davis",
             "Quizzers": [
               1,
-              7,
-              22,
-              23
+              6,
+              8,
+              23,
+              24
             ],
             "Matches": [
               {
@@ -2822,8 +2823,8 @@
             "CoachName": "Micthell Davis",
             "Quizzers": [
               5,
-              24,
-              28
+              25,
+              29
             ],
             "Matches": [
               {
@@ -2911,9 +2912,9 @@
             "CoachName": "Mitchell Davis",
             "Quizzers": [
               2,
-              9,
-              12,
-              27
+              10,
+              13,
+              28
             ],
             "Matches": [
               {
@@ -3097,8 +3098,8 @@
           {
             "CoachName": "Aruna Danny",
             "Quizzers": [
-              11,
-              14
+              12,
+              15
             ],
             "Matches": [
               null,
@@ -3185,9 +3186,9 @@
           {
             "CoachName": "Seetha Stephen",
             "Quizzers": [
-              10,
-              13,
-              19
+              11,
+              14,
+              20
             ],
             "Matches": [
               {
@@ -3274,9 +3275,9 @@
           {
             "CoachName": "Calvin Jeremy",
             "Quizzers": [
-              15,
               16,
-              25
+              17,
+              26
             ],
             "Matches": [
               {
@@ -3371,8 +3372,8 @@
           {
             "CoachName": "Vimala Arun",
             "Quizzers": [
-              18,
-              20
+              19,
+              21
             ],
             "Matches": [
               {
@@ -3459,8 +3460,8 @@
           {
             "CoachName": "McLean Mary Francis",
             "Quizzers": [
-              8,
-              17
+              9,
+              18
             ],
             "Matches": [
               {
@@ -3671,7 +3672,7 @@
             "City": "Norcross",
             "State": "GA",
             "Scores": {
-              "Rank": 29,
+              "Rank": 30,
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
@@ -3697,6 +3698,30 @@
             "Scores": {
               "Rank": 25,
               "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Central Christian School (Sharpsburg) #2",
+            "YearsQuizzing": null,
+            "Id": "q_2fc512bc-6e9c-4e1e-9f31-75cdafdba982_42",
+            "Name": "Barrett Del A. Resa",
+            "ChurchId": "4bb906e6-5474-4e07-a47d-08dcde45b9d6",
+            "ChurchName": "Central Christian School",
+            "City": "Sharpsburg",
+            "State": "GA",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -4263,34 +4288,35 @@
           }
         ],
         "RankedQuizzers": [
-          19,
-          8,
-          11,
-          0,
-          14,
           20,
-          21,
-          2,
-          16,
+          9,
           12,
-          18,
-          24,
-          3,
-          13,
+          0,
           15,
+          21,
+          22,
+          2,
           17,
+          13,
+          19,
+          25,
+          3,
+          14,
+          16,
+          18,
           1,
+          24,
+          27,
+          29,
+          7,
+          28,
+          11,
+          8,
+          5,
+          6,
+          10,
           23,
           26,
-          28,
-          6,
-          27,
-          10,
-          7,
-          5,
-          9,
-          22,
-          25,
           4
         ],
         "QuizzerFootnotes": [
@@ -4683,7 +4709,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -4784,5 +4810,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-12T21:42:15.5288945+00:00"
+  "Freshness": "2026-03-09T20:56:32.9223267+00:00"
 }
