@@ -135,7 +135,7 @@ export default function CollapsibleSection({
                     type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"}
                     name={pageId}
                     className="peer"
-                    checked={isOpen}
+                    checked={forceOpen ?? isOpen}
                     onChange={handleChange}
                 />
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
