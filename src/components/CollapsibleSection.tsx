@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 
 interface SectionBadge {
@@ -24,6 +25,9 @@ interface Props {
     badges?: SectionBadge[];
     allowMultipleOpen?: boolean;
     defaultOpen?: boolean;
+    persistState?: boolean;
+    onOpen?: () => void;
+    onClose?: () => void;
 };
 
 export default function CollapsibleSection({
@@ -42,7 +46,63 @@ export default function CollapsibleSection({
     children,
     badges,
     allowMultipleOpen,
-    defaultOpen }: Props) {
+    defaultOpen,
+    onClose,
+    onOpen,
+    persistState = true }: Props) {
+
+    const storageKey = `collapsible_${pageId}_${elementId || 'default'}`;
+
+    const [isOpen, setIsOpen] = useState(() => {
+        if (forceOpen) {
+            return true;
+        }
+
+        if (!persistState || typeof window === 'undefined') {
+            return defaultOpen ?? false;
+        }
+
+        const raw = sessionStorage.getItem(storageKey);
+        if (raw === null || raw === undefined) {
+            return defaultOpen ?? false;
+        }
+
+        try {
+            const parsed = JSON.parse(raw);
+            if (parsed === true || parsed === false) {
+                return parsed;
+            }
+        }
+        catch { }
+
+        return defaultOpen ?? false;
+    });
+
+    useEffect(() => {
+        if (forceOpen) {
+            setIsOpenAndPersist(true);
+            if (onOpen) {
+                // Delay to allow CSS transition to complete
+                const timeoutId = setTimeout(onOpen, 300);
+                return () => clearTimeout(timeoutId);
+            }
+        }
+    }, [forceOpen]);
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setIsOpenAndPersist(e.target.checked);
+    };
+
+    const setIsOpenAndPersist = (newState: boolean) => {
+        setIsOpen(newState);
+        if (persistState && typeof window !== 'undefined') {
+            sessionStorage.setItem(storageKey, JSON.stringify(newState));
+        }
+
+        if (!newState && onClose) {
+            onClose();
+        }
+    };
 
     const titleElement = (
         <>
@@ -76,9 +136,15 @@ export default function CollapsibleSection({
             <div
                 id={elementId}
                 tabIndex={1}
-                className={`collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links ${forceOpen ? "collapse-open" : ""}`}
+                className="collapse collapse-arrow bg-base-100 border-base-300 border no-anchor-links"
             >
-                <input type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"} name={pageId} className="peer" defaultChecked={defaultOpen ?? false} />
+                <input
+                    type={(allowMultipleOpen ?? true) ? "checkbox" : "radio"}
+                    name={pageId}
+                    className="peer"
+                    checked={isOpen}
+                    onChange={handleChange}
+                />
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
                     {titleElement}
                 </div>

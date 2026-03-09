@@ -5,6 +5,7 @@ import type { QuizzerIndex } from 'types/QuizzerSearch';
 import type { EventScoringReport, ScoringReportMeet, ScoringReportQuizzer, ScoringReportTeam } from 'types/EventScoringReport';
 import type { TeamAndQuizzerFavorites } from 'types/TeamAndQuizzerFavorites';
 import type { RoomScoringReport } from 'types/RoomScoringReport';
+import { sessionAtom } from './PersistentState';
 
 /* Downloaded Event Report */
 export interface EventScoringReportSearchIndexItem<T> {
@@ -34,10 +35,14 @@ export interface SharedEventScoringReportFilterState {
     favoritesVersion: number | null;
 }
 
-export const sharedEventScoringReportFilterState = atom<SharedEventScoringReportFilterState | null>(null);
+export const sharedEventScoringReportFilterState = sessionAtom<SharedEventScoringReportFilterState | null>(
+    'sharedEventScoringReportFilterState',
+    null);
 
 /* Toggle for Favorites */
-export const showFavoritesOnlyToggle = atom<boolean>(false);
+export const showFavoritesOnlyToggle = sessionAtom<boolean>(
+    'showFavoritesOnlyToggle',
+    false);
 
 /* Downloaded Room Score Report */
 export interface RoomDialogCriteria {

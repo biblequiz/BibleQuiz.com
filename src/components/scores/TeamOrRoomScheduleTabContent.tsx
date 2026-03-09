@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringReportRoom } from "types/EventScoringReport";
 
 import { useStore } from "@nanostores/react";
@@ -99,13 +98,13 @@ export default function TeamOrRoomScheduleTabContent({
     const eventFilters = useStore(sharedEventScoringReportFilterState as any);
     const showOnlyFavorites: boolean = useStore(showFavoritesOnlyToggle);
 
-    // Add an effect to scroll the item into view once it is loaded.
-    useEffect(() => {
+    // Scroll handler to be called when a section opens
+    const handleSectionOpened = () => {
         const highlightCard = document.getElementById(scrollToViewElementId) as HTMLDivElement;
         if (isTabActive(schedulesTabId) && highlightCard?.scrollIntoView) {
             highlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-    }, [eventFilters]);
+    };
 
     if (!event) {
         return (<span>Event is Loading ...</span>);
@@ -435,6 +434,7 @@ export default function TeamOrRoomScheduleTabContent({
                         forceOpen={forceOpen}
                         elementId={forceOpen && isRoomReport ? scrollToViewElementId : undefined}
                         badges={sectionBadges}
+                        onOpen={forceOpen ? handleSectionOpened : undefined}
                         key={key}>
 
                         <div className={`grid ${gridColumns} gap-2`}>

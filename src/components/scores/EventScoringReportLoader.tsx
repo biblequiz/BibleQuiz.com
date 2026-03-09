@@ -245,6 +245,9 @@ export default function EventScoringReportLoader({ eventInfo, event, parentTabId
                 parentTab.style.display = "";
             }
 
+            // Signal that content is ready for scroll restoration
+            window.dispatchEvent(new CustomEvent("scores-content-ready"));
+
             return <div />;
         }
     } else {
