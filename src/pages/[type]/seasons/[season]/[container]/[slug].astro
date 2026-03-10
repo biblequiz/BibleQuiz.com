@@ -97,6 +97,7 @@ const { type, season, container, slug } = Astro.params as Props;
 async function getEventIdFromUrl(
     eventsFilePath: string,
     type: string,
+    season: number,
     container: string,
     slug: string,
 ): Promise<EventInfo | null> {
@@ -110,7 +111,7 @@ async function getEventIdFromUrl(
     }
 
     const event = typeEvents[`${container}/${slug}/`] as EventInfo;
-    if (!event) {
+    if (!event || event.season !== season) {
         return null;
     }
 
@@ -129,6 +130,7 @@ const eventInfo =
     (await getEventIdFromUrl(
         path.resolve(rootSourcePath, `data/generated/futureEvents.json`),
         type,
+        parseInt(season as any as string),
         container,
         slug,
     )) ||
@@ -138,6 +140,7 @@ const eventInfo =
             `data/generated/seasons/${season}/events.json`,
         ),
         type,
+        parseInt(season as any as string),
         container,
         slug,
     ));
