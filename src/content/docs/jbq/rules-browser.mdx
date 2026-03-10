@@ -1,0 +1,13 @@
+---
+title: "JBQ Rules Browser"
+pagefind: false
+sidebar:
+  label: "Rules Browser"
+  order: -97
+  badge: ALPHA
+---
+
+import RulesBrowser from "../../../components/rules/RulesBrowser";
+import ruleSet from "../../../data/rules/jbq-rules.json";
+
+<RulesBrowser client:load ruleSet={ruleSet} />
