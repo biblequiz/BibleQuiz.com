@@ -1,0 +1,182 @@
+{
+  "id": "tbq-simplified",
+  "title": "TBQ Simplified Rules",
+  "pdfPath": "/assets/2026/25-26_TBQ-Simplified-Rules.pdf",
+  "sections": [
+    {
+      "id": "before-quiz",
+      "title": "Before the Quiz",
+      "pdfPage": 1,
+      "tags": ["preparation"],
+      "items": [
+        { "id": "bq.1", "text": "Each team consists of one to three *active quizzers* at the table. Additional quizzers sit behind the table as *inactive quizzers*.", "pdfPage": 1, "tags": ["preparation", "team"] },
+        { "id": "bq.2", "text": "The *head coach* designates a *captain* for each match.", "pdfPage": 1, "tags": ["preparation", "captain"] },
+        { "id": "bq.3", "text": "Active quizzers may only have closed *Scripture Portions* on the table.", "pdfPage": 1, "tags": ["preparation", "materials"] },
+        { "id": "bq.4", "text": "Each match consists of twenty questions: eight 10-point, nine 20-point, and three 30-point questions.", "pdfPage": 1, "tags": ["preparation", "questions", "scoring"] }
+      ]
+    },
+    {
+      "id": "during-quiz",
+      "title": "During the Quiz",
+      "pdfPage": 1,
+      "tags": ["match"],
+      "items": [],
+      "subsections": [
+        {
+          "id": "buzzing-in",
+          "title": "Buzzing In",
+          "pdfPage": 1,
+          "tags": ["match", "buzzer"],
+          "items": [
+            { "id": "bi.1", "text": "After \"Question\" is called, hands must be above the table, palms down, in contact with the table, pad, or other hand.", "pdfPage": 1, "tags": ["buzzer", "hands"] },
+            { "id": "bi.2", "text": "Do NOT *buzz in* during *opening remarks* (question number, point value, *Introductory Remarks*) — this is a foul.", "pdfPage": 1, "tags": ["buzzer", "opening-remarks", "fouls"] },
+            { "id": "bi.3", "text": "Quizzers have 5 seconds to *buzz in* after the question is fully read.", "pdfPage": 1, "tags": ["buzzer", "timing"] },
+            { "id": "bi.4", "text": "Do NOT begin answering before being *identified* — this is a foul.", "pdfPage": 1, "tags": ["buzzer", "identification", "fouls"] }
+          ]
+        },
+        {
+          "id": "answering",
+          "title": "Answering",
+          "pdfPage": 1,
+          "tags": ["match", "answering"],
+          "items": [
+            { "id": "ans.1", "text": "You have 30 seconds to complete the question (if *interrupted*) and give your answer after being *identified*.", "pdfPage": 1, "tags": ["answering", "timing"] },
+            { "id": "ans.2", "text": "A question is *interrupted* when you *buzz in* before the last word of the question is spoken.", "pdfPage": 1, "tags": ["answering", "interruption"] },
+            { "id": "ans.3", "text": "If you interrupt, you must correctly complete the question AND give the answer.", "pdfPage": 1, "tags": ["answering", "interruption"] },
+            { "id": "ans.4", "text": "Correct answer = full point value. Incorrect answer = lose half the point value.", "pdfPage": 1, "tags": ["answering", "scoring"] },
+            { "id": "ans.5", "text": "An *interrupted* question answered incorrectly is *reread* to the opposing team.", "pdfPage": 1, "tags": ["answering", "interruption", "reread"] }
+          ]
+        },
+        {
+          "id": "quiz-out-strike-out",
+          "title": "Quiz Out / Strike Out / Foul Out",
+          "pdfPage": 2,
+          "tags": ["match", "scoring"],
+          "items": [
+            { "id": "qsf.1", "text": "**Quiz Out**: Answer 5 questions correctly → 20 bonus points, must leave table.", "pdfPage": 2, "tags": ["quiz-out", "bonus"] },
+            { "id": "qsf.2", "text": "**Strike Out**: Answer 3 questions incorrectly → must leave table.", "pdfPage": 2, "tags": ["strike-out"] },
+            { "id": "qsf.3", "text": "**Foul Out**: Receive 3 individual fouls → must leave table.", "pdfPage": 2, "tags": ["foul-out", "fouls"] },
+            { "id": "qsf.4", "text": "Any quizzer who leaves the table can be immediately replaced by an *inactive* *eligible quizzer* without using a *time-out*.", "pdfPage": 2, "tags": ["substitution"] }
+          ]
+        },
+        {
+          "id": "communication",
+          "title": "Communication Rules",
+          "pdfPage": 2,
+          "tags": ["match", "communication"],
+          "items": [
+            { "id": "comm.1", "text": "No *verbal communication* among *active quizzers* or between active quizzers and team *members* except during conferring, contesting, responding, and *time-outs*.", "pdfPage": 2, "tags": ["communication"] },
+            { "id": "comm.2", "text": "Coaches and *inactive quizzers* may non-verbally communicate at any time among themselves.", "pdfPage": 2, "tags": ["communication"] },
+            { "id": "comm.3", "text": "No communication between team *members* and the audience at any time.", "pdfPage": 2, "tags": ["communication"] }
+          ]
+        },
+        {
+          "id": "time-outs-simplified",
+          "title": "Time-outs",
+          "pdfPage": 2,
+          "tags": ["match", "time-out"],
+          "items": [
+            { "id": "tos.1", "text": "Each team gets 3 time-outs per match (30 seconds each).", "pdfPage": 2, "tags": ["time-out"] },
+            { "id": "tos.2", "text": "Any team *member* may request a *time-out* between questions.", "pdfPage": 2, "tags": ["time-out"] },
+            { "id": "tos.3", "text": "All *members* of both teams may verbally communicate during a *time-out*.", "pdfPage": 2, "tags": ["time-out", "communication"] },
+            { "id": "tos.4", "text": "Quizzers may be substituted during a *time-out*.", "pdfPage": 2, "tags": ["time-out", "substitution"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conferring-simplified",
+      "title": "Conferring",
+      "pdfPage": 2,
+      "tags": ["conferring"],
+      "items": [
+        { "id": "cfs.1", "text": "Only the quizzer whose answer was ruled incorrect may request to confer.", "pdfPage": 2, "tags": ["conferring"] },
+        { "id": "cfs.2", "text": "30 seconds to confer with *active quizzers* and *head coach* at the table.", "pdfPage": 2, "tags": ["conferring", "timing"] },
+        { "id": "cfs.3", "text": "The *head coach* may bring materials to the table during the confer.", "pdfPage": 2, "tags": ["conferring", "materials"] }
+      ]
+    },
+    {
+      "id": "contesting-simplified",
+      "title": "Contesting",
+      "pdfPage": 2,
+      "tags": ["contesting"],
+      "items": [
+        { "id": "cts.1", "text": "Any team *member* may initiate a contest.", "pdfPage": 2, "tags": ["contesting"] },
+        { "id": "cts.2", "text": "Contest on three issues only: (a) question validity, (b) voiding, (c) correctness of the answer.", "pdfPage": 2, "tags": ["contesting", "validity", "voiding"] },
+        { "id": "cts.3", "text": "Each team gets a maximum of 3 *unsuccessful* contests per match.", "pdfPage": 2, "tags": ["contesting"] },
+        { "id": "cts.4", "text": "2 minutes 30 seconds to prepare and present (30-second prep + 2-minute presentation).", "pdfPage": 2, "tags": ["contesting", "timing"] },
+        { "id": "cts.5", "text": "Opposing team gets 1 minute to respond after the contest.", "pdfPage": 3, "tags": ["contesting", "timing"] },
+        { "id": "cts.6", "text": "A team may withdraw a contest within the first 30 seconds in exchange for a *time-out* (if available).", "pdfPage": 3, "tags": ["contesting", "time-out"] },
+        { "id": "cts.7", "text": "Judges vote with coins: heads = accept, tails = deny. Majority wins.", "pdfPage": 3, "tags": ["contesting", "voting"] }
+      ]
+    },
+    {
+      "id": "fouls-simplified",
+      "title": "Fouls",
+      "pdfPage": 3,
+      "tags": ["fouls"],
+      "items": [
+        { "id": "fs.0", "text": "Each foul = loss of 5 points.", "pdfPage": 3, "tags": ["fouls", "scoring"] }
+      ],
+      "subsections": [
+        {
+          "id": "individual-fouls-simplified",
+          "title": "Individual Quizzer Fouls",
+          "pdfPage": 3,
+          "tags": ["fouls", "individual-fouls"],
+          "items": [
+            { "id": "ifs.1", "text": "Buzzing in during *opening remarks*.", "pdfPage": 3, "tags": ["fouls", "opening-remarks"] },
+            { "id": "ifs.2", "text": "Answering before being *identified*.", "pdfPage": 3, "tags": ["fouls", "identification"] },
+            { "id": "ifs.3", "text": "Answering when another quizzer was *identified*.", "pdfPage": 3, "tags": ["fouls", "identification"] },
+            { "id": "ifs.4", "text": "Giving *help* to a teammate who *buzzed in*.", "pdfPage": 3, "tags": ["fouls", "help"] },
+            { "id": "ifs.5", "text": "Improper communication by an *active quizzer*.", "pdfPage": 3, "tags": ["fouls", "communication"] },
+            { "id": "ifs.6", "text": "Having open *Scripture Portion* or materials when not allowed.", "pdfPage": 3, "tags": ["fouls", "materials"] },
+            { "id": "ifs.7", "text": "Flagrant distraction or signaling teammates.", "pdfPage": 3, "tags": ["fouls", "distraction"] },
+            { "id": "ifs.8", "text": "Un-Christlike or unsportsmanlike attitude.", "pdfPage": 3, "tags": ["fouls", "sportsmanship"] }
+          ]
+        },
+        {
+          "id": "team-fouls-simplified",
+          "title": "Team Fouls",
+          "pdfPage": 3,
+          "tags": ["fouls", "team-fouls"],
+          "items": [
+            { "id": "tfs.1", "text": "Improper communication by a coach or *inactive quizzer*.", "pdfPage": 3, "tags": ["fouls", "communication"] },
+            { "id": "tfs.2", "text": "Not stopping at the calling of \"time\" during a contest.", "pdfPage": 3, "tags": ["fouls", "contesting"] },
+            { "id": "tfs.3", "text": "Coach or *inactive quizzer* gives *help* to an *active quizzer*.", "pdfPage": 3, "tags": ["fouls", "help"] },
+            { "id": "tfs.4", "text": "Contesting with intent of using it solely as a *time-out*.", "pdfPage": 3, "tags": ["fouls", "contesting", "time-out"] },
+            { "id": "tfs.5", "text": "Un-Christlike or unsportsmanlike attitude by a coach or *inactive quizzer*.", "pdfPage": 3, "tags": ["fouls", "sportsmanship"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "overtime-simplified",
+      "title": "Overtime",
+      "pdfPage": 3,
+      "tags": ["overtime"],
+      "items": [
+        { "id": "ots.1", "text": "If tied after 20 questions, sudden death overtime begins.", "pdfPage": 3, "tags": ["overtime", "tie"] },
+        { "id": "ots.2", "text": "One-minute *time-out* is declared before overtime.", "pdfPage": 3, "tags": ["overtime", "time-out"] },
+        { "id": "ots.3", "text": "10-point substitute questions are read until the tie is broken.", "pdfPage": 3, "tags": ["overtime", "questions"] }
+      ]
+    },
+    {
+      "id": "question-types-simplified",
+      "title": "Question Types",
+      "pdfPage": 3,
+      "tags": ["question-types"],
+      "items": [
+        { "id": "qt.1", "text": "**Standard Question**: Requires an answer from the material being studied.", "pdfPage": 3, "tags": ["question-types"] },
+        { "id": "qt.2", "text": "**Statement and Question**: A statement gives additional information before the question. Both are part of the question and can be *interrupted*.", "pdfPage": 3, "tags": ["question-types", "statement-and-question"] },
+        { "id": "qt.3", "text": "**Multi-Part Question**: Two or more distinct questions requiring separate answers.", "pdfPage": 3, "tags": ["question-types", "multi-part"] },
+        { "id": "qt.4", "text": "**Scripture Text Question**: Contains \"quote\" followed by Scripture. Answer must come from the *three-verse context*.", "pdfPage": 3, "tags": ["question-types", "scripture-text", "three-verse-context"] },
+        { "id": "qt.5", "text": "**Application Question**: Requires answers about the author, history, doctrine, or related topics not necessarily found in the material.", "pdfPage": 4, "tags": ["question-types", "application"] },
+        { "id": "qt.6", "text": "**Quotation Question**: Requires a *perfect quotation* from a complete verse or verses.", "pdfPage": 4, "tags": ["question-types", "quotation"] },
+        { "id": "qt.7", "text": "**Quotation Completion Question**: Requires completing a *perfect quotation*. Cannot be asked after question 17 or in overtime.", "pdfPage": 4, "tags": ["question-types", "quotation-completion"] },
+        { "id": "qt.8", "text": "**Essence Question**: Requires a verse or verses to be given in essence (own words with same meaning). Does not have to be a *perfect quotation*.", "pdfPage": 4, "tags": ["question-types", "essence"] },
+        { "id": "qt.9", "text": "**Essence Completion Question**: Requires completing a verse or verses in essence.", "pdfPage": 4, "tags": ["question-types", "essence-completion"] }
+      ]
+    }
+  ]
+}
