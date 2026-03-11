@@ -1,11 +1,32 @@
 ---
+import { getSeasons } from 'utils/Seasons';
+
 interface Props {
-    season: number;
+    season: number | "current";
 }
 
 const { season } = Astro.props as Props;
+
+let imagePath: string | null = null;
+let seasonNumber: number | null = null;
+
+if (season === "current") {
+    // Get the current season (most recent)
+    const seasons = await getSeasons(import.meta.url);
+    if (seasons.length > 0) {
+        seasonNumber = seasons[0];
+        const potentialPath = `/assets/scripture-portions/${seasonNumber}.jpg`;
+        imagePath = potentialPath;
+    }
+} else {
+    seasonNumber = season as number;
+    imagePath = `/assets/scripture-portions/${seasonNumber}.jpg`;
+}
+
 ---
 
-<div class="text-center">
-    <img src={`/assets/scripture-portions/${season}.jpg`} alt="Cover Art" style="max-height:300px" />
-</div>
+{imagePath && (
+    <div class="text-center">
+        <img src={imagePath} alt="Scripture Portion Cover" style="max-height:300px" />
+    </div>
+)}
