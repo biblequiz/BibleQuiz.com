@@ -3346,6 +3346,22 @@
       "isVisible": true,
       "isReport": false
     },
+    "other/8c6c6d9b-683c-47de-aff8-08ddf0049550/": {
+      "id": "8c6c6d9b-683c-47de-aff8-08ddf0049550",
+      "season": 2026,
+      "name": "NJ TBQ 2025-2026 Meet #2",
+      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+      "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
+      "scope": "district",
+      "scopeLabel": "New Jersey District",
+      "dates": "Dec 6, 2025",
+      "startDate": "12/06/2025",
+      "endDate": "12/06/2025",
+      "registrationDates": "Closed",
+      "locationName": "Metuchen Assembly of God",
+      "isVisible": true,
+      "isReport": false
+    },
     "other/f32b5c66-88e3-47cd-38f7-08de2e8e466e/": {
       "id": "f32b5c66-88e3-47cd-38f7-08de2e8e466e",
       "season": 2026,
@@ -3428,22 +3444,6 @@
       "registrationDates": "Closed",
       "locationName": "Grace Community Assembly",
       "locationCity": "Branson, MO",
-      "isVisible": true,
-      "isReport": false
-    },
-    "other/8c6c6d9b-683c-47de-aff8-08ddf0049550/": {
-      "id": "8c6c6d9b-683c-47de-aff8-08ddf0049550",
-      "season": 2026,
-      "name": "TBQ Meet #2",
-      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
-      "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
-      "scope": "district",
-      "scopeLabel": "New Jersey District",
-      "dates": "Dec 6, 2025",
-      "startDate": "12/06/2025",
-      "endDate": "12/06/2025",
-      "registrationDates": "Closed",
-      "locationName": "Metuchen Assembly of God",
       "isVisible": true,
       "isReport": false
     },
@@ -3958,6 +3958,18 @@
       "isVisible": true,
       "isReport": true
     },
+    "reports/27781778-c07b-4b93-464f-08de509f32aa/": {
+      "id": "27781778-c07b-4b93-464f-08de509f32aa",
+      "season": 2026,
+      "name": "2025-26 NNED Central Maine Contender Season to Date Jan 2026",
+      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+      "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
+      "scope": "district",
+      "scopeLabel": "Northern New England District",
+      "dates": "Oct 4 - Jan 10, 2026",
+      "isVisible": true,
+      "isReport": true
+    },
     "reports/46b0a570-215d-4cb3-8cd7-08de277c5269/": {
       "id": "46b0a570-215d-4cb3-8cd7-08de277c5269",
       "season": 2026,
@@ -3974,18 +3986,6 @@
       "id": "c094c97a-feaa-4a1b-3d3b-08de64333ea1",
       "season": 2026,
       "name": "2025-26 NNED Central Maine XP5 Season to Date Jan 2026",
-      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
-      "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
-      "scope": "district",
-      "scopeLabel": "Northern New England District",
-      "dates": "Oct 4 - Jan 10, 2026",
-      "isVisible": true,
-      "isReport": true
-    },
-    "reports/27781778-c07b-4b93-464f-08de509f32aa/": {
-      "id": "27781778-c07b-4b93-464f-08de509f32aa",
-      "season": 2026,
-      "name": "2025-26 NNED Central Maine Contender Season to Date Jan 2026",
       "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
       "districtId": "fc06490d-9163-4169-b023-e53158df55b0",
       "scope": "district",
@@ -4050,6 +4050,42 @@
       "scope": "region",
       "scopeLabel": "North Central Region",
       "dates": "Oct 11 - Nov 8, 2025",
+      "isVisible": true,
+      "isReport": true
+    },
+    "reports/a11dddc7-7ee5-4dce-fc7c-08de7f02d17e/": {
+      "id": "a11dddc7-7ee5-4dce-fc7c-08de7f02d17e",
+      "season": 2026,
+      "name": "NJ TBQ 2025-2026 Totals XP5",
+      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+      "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
+      "scope": "district",
+      "scopeLabel": "New Jersey District",
+      "dates": "Oct 18 - Feb 28, 2026",
+      "isVisible": true,
+      "isReport": true
+    },
+    "reports/1e5b84c4-fb26-4d08-fc7a-08de7f02d17e/": {
+      "id": "1e5b84c4-fb26-4d08-fc7a-08de7f02d17e",
+      "season": 2026,
+      "name": "NJ TBQ 2025-2026 Totals",
+      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+      "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
+      "scope": "district",
+      "scopeLabel": "New Jersey District",
+      "dates": "Oct 18 - Feb 28, 2026",
+      "isVisible": true,
+      "isReport": true
+    },
+    "reports/c8d71e89-4932-4805-fc7b-08de7f02d17e/": {
+      "id": "c8d71e89-4932-4805-fc7b-08de7f02d17e",
+      "season": 2026,
+      "name": "NJ TBQ 2025-2026 Totals Cont",
+      "regionId": "6ffc3e05-500b-4da1-9993-63f1a5860a0d",
+      "districtId": "26fe993c-ced1-4f45-82d4-81310c1a9727",
+      "scope": "district",
+      "scopeLabel": "New Jersey District",
+      "dates": "Oct 18 - Feb 28, 2026",
       "isVisible": true,
       "isReport": true
     },
