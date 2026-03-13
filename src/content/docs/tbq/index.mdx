@@ -16,13 +16,15 @@ import { LinkButton, CardGrid, LinkCard } from "@astrojs/starlight/components";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScripturePortionCover from 'components/ScripturePortionCover.astro';
 
-<div class="flex items-center gap-2 whitespace-nowrap">
-  <span class="font-bold text-lg">New to Bible Quiz?</span> <span>We highly recommend connecting with</span>
+<div class="flex flex-col md:flex-row md:items-center gap-1 md:gap-2">
+  <span class="font-bold text-lg">New to Bible Quiz?</span>
+  <span class="hidden md:inline">We highly recommend connecting with</span>
+  <span class="md:hidden">Connect with</span>
 
   <a href="mailto:pastorbernie@biblequiz.com" class="inline-flex items-center gap-1 text-blue-600 hover:underline">
     Pastor Bernie Elliot <FontAwesomeIcon icon="fas faEnvelope" />
   </a> 
-    <span>the National Bible Quiz Coordinator, for guidance and support.</span>
+  <span>the National Bible Quiz Coordinator, for guidance and support.</span>
 </div>
 
 <CardGrid class="grid grid-cols-3 gap-3 mt-6 items-stretch" >
@@ -30,10 +32,7 @@ import ScripturePortionCover from 'components/ScripturePortionCover.astro';
       href="/tbq/seasons/2026"
       description={`
       <div class="flex items-center justify-center gap-3 flex-1">
-        Teen Bible Quiz (TBQ) centers on deep study of specific Bible books through a structured 9-year New Testament cycle—for example, one year may focus on the Gospel of Mark, while another covers Romans and James. Many committed quizzers complete the program having memorized 13–15 full books of the Bible.
-        <br/>
-        <br/>
-            This year’s focus is the Prison Epistles: Galatians, Ephesians, Colossians, Philippians, and Philemon—get your books today.
+        Deep study through a structured 9-year New Testament cycle. Many quizzers memorize 13-15 full Bible books. This year: Prison Epistles (Galatians, Ephesians, Colossians, Philippians, Philemon)—get your books today.
        </div>
       `}
       >
@@ -43,10 +42,10 @@ import ScripturePortionCover from 'components/ScripturePortionCover.astro';
       href="https://biblequiz.com/tbq/scholarships"
       description={`
       <div class="flex items-center justify-center gap-3 flex-1">
-        <img src="/assets/images/tbq-scholarships.png" alt="Scholerships" class="h-36" />
-        Each year, over $10,000 is awarded in scholarships to various Bible Quiz participants. Additionally, universities that recognize and appreciate the dedication of quizzers also extend scholarship opportunities.
-        <br/><br/>If you have any additional opportunities or suggestions, we welcome you to reach out via email at hello@biblequiz.com
-        <br/><br/>Explore various college level scholarships and awards available for rewarding your dedication and hardwork.
+        <img src="/assets/images/tbq-scholarships.png" alt="Scholerships" class="h-20 md:h-24 flex-shrink-0" />
+        <div>
+          Over $10,000 annually in scholarships for Bible Quiz participants and university recognition. Have opportunity suggestions? Contact hello@biblequiz.com
+        </div>
       </div>
       `}
       >
