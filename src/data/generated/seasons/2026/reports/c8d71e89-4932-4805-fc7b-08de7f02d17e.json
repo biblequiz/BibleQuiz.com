@@ -1,0 +1,489 @@
+{
+  "EventName": "NJ TBQ 2025-2026 Totals Cont",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "NJ TBQ 2025-2026 Totals Cont",
+        "LastUpdated": "2/28/26 5:49 PM",
+        "DatabaseLastUpdated": "2026-02-28T00:04:47.5062876+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Nat Ocot",
+            "Quizzers": [
+              3,
+              4,
+              7
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_63fee626-218a-4f34-8f2e-62047bf37e20",
+            "Name": "Bethany Church (Wyckoff) #1",
+            "ChurchId": "0b911137-c760-4032-8f03-3c982214dd19",
+            "ChurchName": "Bethany Church",
+            "City": "Wyckoff",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 13,
+              "WinPercentage": 28,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1090,
+              "PerMeetTotalPoints": [
+                null,
+                330,
+                350,
+                410
+              ],
+              "AveragePoints": 60.6,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 45,
+              "Correct20s": 25,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Priscilla Jesudian",
+            "Quizzers": [
+              2,
+              8
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_e569a1d8-7349-4be8-a46e-097c5e5cdbee",
+            "Name": "Chosen Disciples",
+            "ChurchId": "7f213237-e30d-4459-a7d9-cea238484a63",
+            "ChurchName": "Tamil Assembly of God Church",
+            "City": "Iselin",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 12,
+              "Losses": 10,
+              "WinPercentage": 55,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1815,
+              "PerMeetTotalPoints": [
+                490,
+                330,
+                550,
+                445
+              ],
+              "AveragePoints": 82.5,
+              "AverageCorrect": 6.2,
+              "QuizOuts": 16,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 74,
+              "Correct20s": 57,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sheeba Manoj",
+            "Quizzers": [
+              1,
+              5
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_918dd315-aaa2-4f4f-b69f-af828820a58d",
+            "Name": "Devoted Disciples",
+            "ChurchId": "7f213237-e30d-4459-a7d9-cea238484a63",
+            "ChurchName": "Tamil Assembly of God Church",
+            "City": "Iselin",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 11,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1895,
+              "PerMeetTotalPoints": [
+                400,
+                295,
+                590,
+                610
+              ],
+              "AveragePoints": 86.1,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 80,
+              "Correct20s": 39,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Wendy Cosme",
+            "Quizzers": [
+              0,
+              6
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_1686362b-db09-4785-85db-ca40fb92a835",
+            "Name": "Fountain of Life Center Believers",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Wins": 14,
+              "Losses": 8,
+              "WinPercentage": 64,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2365,
+              "PerMeetTotalPoints": [
+                220,
+                795,
+                660,
+                690
+              ],
+              "AveragePoints": 107.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 13,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 45,
+              "Correct20s": 70,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Fountain of Life Center Believers",
+            "YearsQuizzing": null,
+            "Id": "q_a31d377238f848bf959508da9f41af4d",
+            "Name": "Isaiah Fadare",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1465,
+              "PerMeetTotalPoints": [
+                0,
+                405,
+                460,
+                600
+              ],
+              "AveragePoints": 66.6,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 24,
+              "Correct20s": 39,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Devoted Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_1157b6a26d114f6e953c08da9f41af4d",
+            "Name": "Jasiel Prince",
+            "ChurchId": "7f213237-e30d-4459-a7d9-cea238484a63",
+            "ChurchName": "Tamil Assembly of God Church",
+            "City": "Iselin",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 780,
+              "PerMeetTotalPoints": [
+                180,
+                90,
+                295,
+                215
+              ],
+              "AveragePoints": 35.5,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 18,
+              "Correct20s": 20,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chosen Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_7c48ebf5533c40a18460ed33ebcee7b2",
+            "Name": "Jason Davis Manikandan",
+            "ChurchId": "7f213237-e30d-4459-a7d9-cea238484a63",
+            "ChurchName": "Tamil Assembly of God Church",
+            "City": "Iselin",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 995,
+              "PerMeetTotalPoints": [
+                215,
+                20,
+                400,
+                360
+              ],
+              "AveragePoints": 45.2,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 38,
+              "Correct20s": 30,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethany Church (Wyckoff) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b8959e4fcebd40f3b08a08dcdc383362",
+            "Name": "Jayden George",
+            "ChurchId": "0b911137-c760-4032-8f03-3c982214dd19",
+            "ChurchName": "Bethany Church",
+            "City": "Wyckoff",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": [
+                null,
+                40,
+                0,
+                40
+              ],
+              "AveragePoints": 4.4,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethany Church (Wyckoff) #1",
+            "YearsQuizzing": null,
+            "Id": "q_06015c3586114a45e64408dbfc578ac8",
+            "Name": "Jiselle George",
+            "ChurchId": "0b911137-c760-4032-8f03-3c982214dd19",
+            "ChurchName": "Bethany Church",
+            "City": "Wyckoff",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 580,
+              "PerMeetTotalPoints": [
+                null,
+                170,
+                80,
+                330
+              ],
+              "AveragePoints": 32.2,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 16,
+              "Correct20s": 13,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Devoted Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_436498eaa2b74705a8ada9cbd7f91cfa",
+            "Name": "Joshua Winfred",
+            "ChurchId": "7f213237-e30d-4459-a7d9-cea238484a63",
+            "ChurchName": "Tamil Assembly of God Church",
+            "City": "Iselin",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1115,
+              "PerMeetTotalPoints": [
+                220,
+                205,
+                295,
+                395
+              ],
+              "AveragePoints": 50.7,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 62,
+              "Correct20s": 19,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Fountain of Life Center Believers",
+            "YearsQuizzing": null,
+            "Id": "q_2ee1a0badfd745db7f4b08dcdc9e5050",
+            "Name": "Kaitlyn Kwaniki",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 900,
+              "PerMeetTotalPoints": [
+                220,
+                390,
+                200,
+                90
+              ],
+              "AveragePoints": 40.9,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 21,
+              "Correct20s": 31,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethany Church (Wyckoff) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ecbf7bd903a3489281ba9745bde1d603",
+            "Name": "Paulie Velicky",
+            "ChurchId": "0b911137-c760-4032-8f03-3c982214dd19",
+            "ChurchName": "Bethany Church",
+            "City": "Wyckoff",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": [
+                null,
+                120,
+                270,
+                40
+              ],
+              "AveragePoints": 23.9,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 25,
+              "Correct20s": 10,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chosen Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_e54f844f12fb422ffa0008dba753fa00",
+            "Name": "Shashmitha Prasath",
+            "ChurchId": "7f213237-e30d-4459-a7d9-cea238484a63",
+            "ChurchName": "Tamil Assembly of God Church",
+            "City": "Iselin",
+            "State": "NJ",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 820,
+              "PerMeetTotalPoints": [
+                275,
+                310,
+                150,
+                85
+              ],
+              "AveragePoints": 37.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 36,
+              "Correct20s": 27,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          5,
+          2,
+          6,
+          8,
+          1,
+          4,
+          7,
+          3
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "NJ TBQ 2025-2026 Meet #1 (TBQ): Meet 1 - Contender",
+          "NJ TBQ 2025-2026 Meet #2 (TBQ): Meet 2 - Contender",
+          "NJ TBQ 2025-2026 Meet #3 (TBQ): Meet 3 - Contender",
+          "NJ TBQ 2025-2026 Meet #4 (TBQ): Meet 4 - Contender"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-12T21:15:58.1110783+00:00"
+}
