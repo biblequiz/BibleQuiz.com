@@ -167,6 +167,9 @@ export default defineConfig({
         format: "directory",
         assets: "_astro",
     },
+    server: {
+        host: "0.0.0.0",
+    },
     vite: {
         resolve: {
             alias: {
@@ -178,6 +181,6 @@ export default defineConfig({
                 "utils": path.resolve("./src/utils"),
             },
         },
-        plugins: [tailwindcss()],
+        plugins: [tailwindcss()]
     },
 });
