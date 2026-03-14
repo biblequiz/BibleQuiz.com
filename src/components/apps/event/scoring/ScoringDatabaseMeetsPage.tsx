@@ -12,6 +12,7 @@ import DivisionCard from "./meets/DivisionCard";
 import DivisionScheduleDialog from "./meets/DivisionScheduleDialog";
 import DivisionPlayoffsDialog from "./meets/DivisionPlayoffsDialog";
 import DivisionRankingDialog from "./meets/DivisionRankingDialog";
+import DivisionStatsDialog from "./meets/DivisionStatsDialog";
 import ConfirmationDialog from "components/ConfirmationDialog";
 
 interface PendingDisplayChanges {
@@ -21,7 +22,7 @@ interface PendingDisplayChanges {
 interface EditingMeet {
     meetId: number;
     meetName: string;
-    type: "schedule" | "playoffs" | "ranking";
+    type: "schedule" | "playoffs" | "ranking" | "stats";
 }
 
 interface DeleteConfirmation {
@@ -201,6 +202,17 @@ export default function ScoringDatabaseMeetsPage() {
                 meetId,
                 meetName: meet.Display.NameOverride || meet.Display.Name,
                 type: "ranking"
+            });
+        }
+    }, [currentDatabase]);
+
+    const handleEditStats = useCallback((meetId: number) => {
+        const meet = currentDatabase?.Meets.find(m => m.Display.Id === meetId);
+        if (meet) {
+            setEditingMeet({
+                meetId,
+                meetName: meet.Display.NameOverride || meet.Display.Name,
+                type: "stats"
             });
         }
     }, [currentDatabase]);
@@ -416,6 +428,7 @@ export default function ScoringDatabaseMeetsPage() {
                                 onEditSchedule={handleEditSchedule}
                                 onEditPlayoffs={handleEditPlayoffs}
                                 onEditRanking={handleEditRanking}
+                                onEditStats={handleEditStats}
                                 onDelete={handleDeleteDivision}
                                 onDragStart={handleDragStart}
                                 onDragEnd={handleDragEnd}
@@ -462,6 +475,19 @@ export default function ScoringDatabaseMeetsPage() {
 
             {editingMeet?.type === "ranking" && (
                 <DivisionRankingDialog
+                    auth={auth}
+                    eventId={eventId}
+                    databaseId={databaseId!}
+                    meetId={editingMeet.meetId}
+                    meetName={editingMeet.meetName}
+                    isReadOnly={false}
+                    onSave={handleDialogSave}
+                    onClose={handleDialogClose}
+                />
+            )}
+
+            {editingMeet?.type === "stats" && (
+                <DivisionStatsDialog
                     auth={auth}
                     eventId={eventId}
                     databaseId={databaseId!}

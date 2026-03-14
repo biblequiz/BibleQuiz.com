@@ -51,9 +51,6 @@ export default function DivisionRankingDialog({
     const [teamOverrideMessage, setTeamOverrideMessage] = useState<string>("");
     const [quizzerOverrideMessage, setQuizzerOverrideMessage] = useState<string>("");
 
-    // Quizzer match overrides (quizzer id -> number of matches)
-    const [quizzerMatchOverrides, setQuizzerMatchOverrides] = useState<Record<number, number>>({});
-
     // Drag state
     const [draggedTeamIndex, setDraggedTeamIndex] = useState<number | null>(null);
     const [dragOverTeamIndex, setDragOverTeamIndex] = useState<number | null>(null);
@@ -72,7 +69,6 @@ export default function DivisionRankingDialog({
                 setRankedQuizzers([...data.RankedQuizzers]);
                 setTeamOverrideMessage(data.Settings.TeamOverrideMessage || "");
                 setQuizzerOverrideMessage(data.Settings.QuizzerOverrideMessage || "");
-                setQuizzerMatchOverrides(data.Settings.QuizzerMatchOverrides || {});
                 setIsLoading(false);
             })
             .catch(err => {
@@ -245,23 +241,6 @@ export default function DivisionRankingDialog({
         setIsDirty(true);
     };
 
-    const handleQuizzerMatchOverrideChange = (quizzerId: number, value: string) => {
-        const numValue = parseInt(value, 10);
-        
-        setQuizzerMatchOverrides(prev => {
-            const newOverrides = { ...prev };
-            if (value === "" || isNaN(numValue)) {
-                // Remove the override if blank or invalid
-                delete newOverrides[quizzerId];
-            } else if (numValue >= 1) {
-                // Only set if value is >= 1
-                newOverrides[quizzerId] = numValue;
-            }
-            return newOverrides;
-        });
-        setIsDirty(true);
-    };
-
     const handleSave = async () => {
         if (!rankingSummary) return;
 
@@ -275,8 +254,7 @@ export default function DivisionRankingDialog({
                 TeamOverrideMessage: teamOverrideMessage || null,
                 TeamRankOverrides: rankedTeams.map(t => parseInt(t.Id, 10)),
                 QuizzerOverrideMessage: quizzerOverrideMessage || null,
-                QuizzerRankOverrides: rankedQuizzers.map(q => parseInt(q.Id, 10)),
-                QuizzerMatchOverrides: quizzerMatchOverrides
+                QuizzerRankOverrides: rankedQuizzers.map(q => parseInt(q.Id, 10))
             };
 
             await AstroMeetRankingService.updateRanking(
@@ -366,7 +344,6 @@ export default function DivisionRankingDialog({
                         <th>Team</th>
                         <th className="text-right w-16">Total</th>
                         <th className="text-center w-12">QO</th>
-                        {!isReadOnly && <th className="text-center w-16">Matches</th>}
                         <th className="text-right w-16">Avg</th>
                         <th className="text-center w-12">10s</th>
                         <th className="text-center w-12">20s</th>
@@ -399,20 +376,6 @@ export default function DivisionRankingDialog({
                             <td>{quizzer.TeamName}</td>
                             <td className="text-right">{quizzer.Scores?.TotalPoints ?? "-"}</td>
                             <td className="text-center">{quizzer.Scores?.QuizOuts ?? "-"}</td>
-                            {!isReadOnly && (
-                                <td className="text-center">
-                                    <input
-                                        type="number"
-                                        className="input input-xs input-bordered w-14 text-center"
-                                        min="1"
-                                        step="1"
-                                        value={quizzerMatchOverrides[parseInt(quizzer.Id, 10)] ?? ""}
-                                        onChange={(e) => handleQuizzerMatchOverrideChange(parseInt(quizzer.Id, 10), e.target.value)}
-                                        disabled={isSaving}
-                                        placeholder=""
-                                    />
-                                </td>
-                            )}
                             <td className="text-right">{quizzer.Scores?.AveragePoints?.toFixed(1) ?? "-"}</td>
                             <td className="text-center">{quizzer.Scores?.Correct10s ?? "-"}</td>
                             <td className="text-center">{quizzer.Scores?.Correct20s ?? "-"}</td>
