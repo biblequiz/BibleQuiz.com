@@ -120,7 +120,7 @@ export default function DivisionStatsDialog({
                 delete newOverrides[quizzerId];
             } else {
                 const numValue = parseInt(value, 10);
-                if (!isNaN(numValue) && numValue >= 1) {
+                if (!isNaN(numValue) && numValue >= 0) {
                     newOverrides[quizzerId] = numValue;
                 }
             }
@@ -269,7 +269,7 @@ export default function DivisionStatsDialog({
                                                         <input
                                                             type="number"
                                                             className="input input-bordered input-xs w-20"
-                                                            min="1"
+                                                            min="0"
                                                             step="1"
                                                             value={quizzer.matchOverride ?? ""}
                                                             onChange={(e) => handleMatchOverrideChange(quizzer.id, e.target.value)}
