@@ -1,7 +1,7 @@
 {
   "EventName": "South Dakota East League Meet #4",
   "DatabaseNames": {
-    "90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14": "SouthDakotaEastLeagueMeet4-01-31-2026"
+    "90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14": "SouthDakotaDistrictStateMeet4-03-14-2026"
   },
   "Report": {
     "Meets": [
@@ -12,16 +12,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South Dakota- East League- A Level- 01/31/2026",
-        "LastUpdated": "1/31/26 6:34 PM",
-        "DatabaseLastUpdated": "2026-01-31T15:36:07.0658419+00:00",
+        "LastUpdated": "3/14/26 6:07 PM",
+        "DatabaseLastUpdated": "2026-03-14T15:55:05.3200278+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Brooks Anderson",
             "Quizzers": [
               3,
-              5,
-              6
+              4,
+              6,
+              7
             ],
             "Matches": [
               {
@@ -92,7 +93,7 @@
               0,
               1,
               2,
-              4
+              5
             ],
             "Matches": [
               {
@@ -198,7 +199,7 @@
             "City": "Webster",
             "State": "SD",
             "Scores": {
-              "Rank": 7,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -257,6 +258,30 @@
               "Correct10s": 1,
               "Correct20s": 12,
               "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Buzz for the Bible",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_3",
+            "Name": "Cole Anderson",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -335,11 +360,12 @@
         ],
         "RankedQuizzers": [
           3,
-          5,
           6,
+          7,
           0,
-          4,
+          5,
           2,
+          4,
           1
         ],
         "QuizzerFootnotes": [],
@@ -385,7 +411,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -429,17 +455,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South Dakota- East League- B Level- 01/31/2026",
-        "LastUpdated": "1/31/26 6:34 PM",
-        "DatabaseLastUpdated": "2026-01-31T15:36:07.0658419+00:00",
+        "LastUpdated": "3/14/26 6:07 PM",
+        "DatabaseLastUpdated": "2026-03-14T15:55:05.3200278+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
             "CoachName": "Cassie Hodge",
             "Quizzers": [
               1,
-              6,
-              8,
-              11
+              5,
+              7,
+              10
             ],
             "Matches": [
               {
@@ -496,10 +522,11 @@
             }
           },
           {
-            "CoachName": "Marie Zoa",
+            "CoachName": "Nelli Shchur",
             "Quizzers": [
-              3,
-              10
+              2,
+              9,
+              12
             ],
             "Matches": [
               {
@@ -558,9 +585,9 @@
           {
             "CoachName": "Christophina Logue",
             "Quizzers": [
-              4,
-              9,
-              12,
+              3,
+              8,
+              11,
               13
             ],
             "Matches": [
@@ -621,9 +648,8 @@
             "CoachName": "Ashley Anderson",
             "Quizzers": [
               0,
-              2,
-              5,
-              7
+              4,
+              6
             ],
             "Matches": [
               {
@@ -734,30 +760,6 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Kingdom Kidz",
-            "YearsQuizzing": null,
-            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_80",
-            "Name": "Ellie Waldner",
-            "ChurchId": null,
-            "ChurchName": "LifeChange Church",
-            "City": "Harrisburg",
-            "State": "SD",
-            "Scores": {
-              "Rank": 8,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
             }
           },
           {
@@ -1001,6 +1003,30 @@
             }
           },
           {
+            "TeamName": "Good Samaritans",
+            "YearsQuizzing": null,
+            "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_58",
+            "Name": "Titus Ragland",
+            "ChurchId": null,
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Holy Hits Different",
             "YearsQuizzing": null,
             "Id": "q_90da6ffc-8bf1-4ba0-b4d7-1c5e67d32a14_68",
@@ -1026,20 +1052,20 @@
           }
         ],
         "RankedQuizzers": [
-          12,
-          3,
-          7,
-          1,
-          10,
-          13,
-          5,
-          0,
+          11,
           2,
-          4,
           6,
-          8,
+          1,
           9,
-          11
+          13,
+          4,
+          0,
+          3,
+          5,
+          7,
+          8,
+          12,
+          10
         ],
         "QuizzerFootnotes": [
           {
@@ -1110,7 +1136,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1148,8 +1174,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "South Dakota- East League- C Level- 01/31/2026",
-        "LastUpdated": "1/31/26 6:34 PM",
-        "DatabaseLastUpdated": "2026-01-31T15:36:07.0658419+00:00",
+        "LastUpdated": "3/14/26 6:07 PM",
+        "DatabaseLastUpdated": "2026-03-14T15:55:05.3200278+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -2256,7 +2282,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -2345,5 +2371,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-31T18:34:16.9460434+00:00"
+  "Freshness": "2026-03-14T15:55:05.4196772+00:00"
 }
