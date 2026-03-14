@@ -12,6 +12,7 @@ interface Props {
     onEditSchedule: (meetId: number) => void;
     onEditPlayoffs: (meetId: number) => void;
     onEditRanking: (meetId: number) => void;
+    onEditStats: (meetId: number) => void;
     onDelete: (meetId: number) => void;
     onDragStart: (e: React.DragEvent, meetId: number) => void;
     onDragEnd: () => void;
@@ -31,6 +32,7 @@ export default function DivisionCard({
     onEditSchedule,
     onEditPlayoffs,
     onEditRanking,
+    onEditStats,
     onDelete,
     onDragStart,
     onDragEnd,
@@ -169,6 +171,16 @@ export default function DivisionCard({
                     >
                         <FontAwesomeIcon icon="fas faMedal" />
                         Ranking
+                    </button>
+
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline"
+                        onClick={() => onEditStats(meetId)}
+                        disabled={disabled}
+                    >
+                        <FontAwesomeIcon icon="fas faChartBar" />
+                        Stats
                     </button>
                 </div>
             </div>
