@@ -122,6 +122,12 @@ export interface OnlineMeetRankingSettings {
     QuizzerRankOverrides?: number[] | null;
 
     /**
+     * Mapping of quizzer id to an override for the number of matches they should be considered to have played. This will influence their average
+     * score and ranking.
+     */
+    QuizzerMatchOverrides: Record<number, number>;
+
+    /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.
      */
     VersionId: string;
