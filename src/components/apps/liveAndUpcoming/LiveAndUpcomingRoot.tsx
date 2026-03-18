@@ -237,8 +237,33 @@ export default function LiveAndUpcomingRoot({
         }
     }, [loadingElementId]);
 
+    const handleTypeSwitch = (newType: string) => {
+        const params = new URLSearchParams(window.location.search);
+        params.set('type', newType);
+        window.history.pushState({}, '', `?${params.toString()}`);
+        setUrlParameters(params);
+        // Dispatch custom event so the page title updates
+        window.dispatchEvent(new CustomEvent('typeChanged', { detail: { type: newType } }));
+    };
+
     return (
         <div ref={eventListRef} style={{ display: "none" }}>
+            {urlType && (
+                <div className="mb-4 flex items-center justify-between">
+                    <div className="join">
+                        <button
+                            className={`join-item btn btn-sm ${urlType === 'jbq' ? 'btn-primary' : ''}`}
+                            onClick={() => handleTypeSwitch('jbq')}>
+                            JBQ
+                        </button>
+                        <button
+                            className={`join-item btn btn-sm ${urlType === 'tbq' ? 'btn-primary' : ''}`}
+                            onClick={() => handleTypeSwitch('tbq')}>
+                            TBQ
+                        </button>
+                    </div>
+                </div>
+            )}
             <EventListFilters
                 regions={regions}
                 districts={districts}

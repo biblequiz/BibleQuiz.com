@@ -18,7 +18,6 @@ const frontmatter: StarlightPageFrontmatter = {
     },
 };
 ---
-
 <StarlightPage frontmatter={frontmatter}>
     <div
         style="display: flex; flex-direction: column"
@@ -26,7 +25,7 @@ const frontmatter: StarlightPageFrontmatter = {
     >
         <h1
             id="type-label"
-            class="page-title mb-4 flex items-center gap-4"
+            class="page-title mb-4 flex items-start gap-4"
             style="display:none"
         >
             <div class="shrink-0">
@@ -37,7 +36,7 @@ const frontmatter: StarlightPageFrontmatter = {
                     height="72"
                     class="event-icon"
                     id="jbq-title-icon"
-                    style="display:none"
+                    style="display:none; object-fit: contain; object-position: center;"
                 />
                 <img
                     src={`/assets/logos/tbq/tbq-logo.png`}
@@ -46,10 +45,10 @@ const frontmatter: StarlightPageFrontmatter = {
                     height="72"
                     class="event-icon"
                     id="tbq-title-icon"
-                    style="display:none"
+                    style="display:none; object-fit: contain; object-position: top;"
                 />
             </div>
-            <div class="align-middle text-md">LIVE & UPCOMING EVENTS</div>
+            <div class="text-md">LIVE & UPCOMING EVENTS</div>
         </h1>
         <div class="m-0" id="type-card-deck">
             <CardGrid>
@@ -82,27 +81,34 @@ const frontmatter: StarlightPageFrontmatter = {
     <script>
         const titleElement = document.getElementById("type-label");
         const cardDeckElement = document.getElementById("type-card-deck");
+        const jbqIcon = document.getElementById("jbq-title-icon");
+        const tbqIcon = document.getElementById("tbq-title-icon");
 
-        if (titleElement && cardDeckElement) {
-            const type = new URLSearchParams(window.location.search).get(
-                "type",
-            );
+        function updateTitleDisplay() {
+            if (titleElement && cardDeckElement && jbqIcon && tbqIcon) {
+                const type = new URLSearchParams(window.location.search).get(
+                    "type",
+                );
 
-            if (type) {
-                const isTbq = type.toLowerCase() === "tbq";
-                document.getElementById("jbq-title-icon")!.style.display = isTbq
-                    ? "none"
-                    : "";
-                document.getElementById("tbq-title-icon")!.style.display = isTbq
-                    ? ""
-                    : "none";
-
-                titleElement.style.display = "";
-                cardDeckElement.style.display = "none";
-            } else {
-                titleElement.style.display = "none";
-                cardDeckElement.style.display = "";
+                if (type) {
+                    const isTbq = type.toLowerCase() === "tbq";
+                    jbqIcon.style.display = isTbq ? "none" : "";
+                    tbqIcon.style.display = isTbq ? "" : "none";
+                    titleElement.style.display = "";
+                    cardDeckElement.style.display = "none";
+                } else {
+                    titleElement.style.display = "none";
+                    cardDeckElement.style.display = "";
+                }
             }
         }
+
+        // Initial load
+        updateTitleDisplay();
+
+        // Listen for URL changes from the toggle buttons
+        window.addEventListener("popstate", updateTitleDisplay);
+        // Listen for custom event from React component
+        window.addEventListener("typeChanged", updateTitleDisplay);
     </script>
 </StarlightPage>
