@@ -21,6 +21,7 @@ export class AstroMeetsService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet. If 0 is given, a default will be returned.
+     * @param isIndividualTournament Value indicating whether this is an individual tournament. Only required when meetId is less than 1.
      *
      * @returns Meet settings.
      */
@@ -29,12 +30,16 @@ export class AstroMeetsService {
         eventId: string,
         databaseId: string,
         meetId: number,
+        isIndividualTournament: boolean = false,
     ): Promise<OnlineMeetSettings> {
         return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualTournament,
+            }),
         );
     }
 
@@ -258,9 +263,25 @@ export interface OnlineMeetSchedulingSettings {
     LinkedMeetIds: number[];
 
     /**
-     * Ordered list of team ids for this meet.
+     * Ordered list of team ids for this meet (if team competition).
      */
     TeamIds: number[];
+
+    /**
+     * Value indicating whether this meet is an individual tournament. This can only be set when the meet is created. If this is true, OnlineMeetSettings.AllQuizzers
+     * will be populated. Otherwise, OnlineMeetSettings.AllTeams will be populated.
+     */
+    IsIndividualTournament: boolean;
+
+    /**
+     * Ordered list of quizzer ids for this meet (if individual competition).
+     */
+    QuizzerIds: number[];
+
+    /**
+     * Maximum quizzers per room for an individual tournament.
+     */
+    MaxQuizzersPerRoom: number | null;
 
     /**
      * Value indicating whether bye rounds should be included in scores.
@@ -359,9 +380,14 @@ export interface OnlineMeetScheduleMatch {
  */
 export interface OnlineMeetScheduleRoom {
     /**
-     * List of team ids in this room.
+     * List of team ids (if this is a team competition).
      */
     TeamIds: number[];
+
+    /**
+     * List of quizzer ids (if this is an individual competition).
+     */
+    QuizzerIds: number[];
 
     /**
      * Value indicating whether this is a bye round.

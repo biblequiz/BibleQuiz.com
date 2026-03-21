@@ -2,12 +2,12 @@
  * Template for building a schedule.
  */
 export class ScheduleTemplate {
-
     /**
      * Initializes a new instance of the ScheduleTemplate class.
      */
     constructor() {
         this.ByTeamCount = {};
+        this.ByQuizzerCount = {};
     }
 
     /**
@@ -15,13 +15,17 @@ export class ScheduleTemplate {
      * number of meets.
      */
     public ByTeamCount: Record<number, ScheduleTemplateMeet>;
+
+    /**
+     * Schedules for Meets indexed by number of quizzers in the meet.
+     */
+    public ByQuizzerCount: Record<number, ScheduleTemplateMeet>;
 }
 
 /**
  * Template for building the schedule of a meet.
  */
 export class ScheduleTemplateMeet {
-
     /**
      * Initializes a new instance of the ScheduleTemplateMeet class.
      */
@@ -50,7 +54,6 @@ export class ScheduleTemplateMeet {
  * Template for building the schedule of an individual match.
  */
 export class ScheduleTemplateMatch {
-    
     /**
      * Initializes a new instance of the ScheduleTemplateMatch class.
      */
@@ -68,7 +71,6 @@ export class ScheduleTemplateMatch {
  * Metadata about a scheduled match in a room.
  */
 export class MatchScheduledRoom {
-
     /**
      * Initializes a new instance of the MatchScheduledRoom class.
      */
