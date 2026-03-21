@@ -231,44 +231,40 @@ export class MatchRules {
         }
 
         // Unseat rules.
-        /*
-            if (rules.UnseatRule)
-            {
-                bool hasUnseatRule = false;
-                if (UnseatRule.UnseatIfPositionGuaranteed)
-                {
-                    display.Append("=> (IC Only) Unseat Quizzer if guaranteed");
-                    if (UnseatRule.TopPositions.HasValue && !UnseatRule.DetermineTopPositionOrder)
-                    {
-                        display.Append($" specific position or any top {UnseatRule.TopPositions} position");
-                    }
-                    else
-                    {
-                        display.Append(" position");
-                    }
-
-                    hasUnseatRule = true;
-                }
-                else if (UnseatRule.TopPositions.HasValue)
-                {
-                    string order = UnseatRule.DetermineTopPositionOrder ? string.Empty : " any";
-                    display.Append($"=> (IC Only) Unseat Quizzer if guaranteed{order} top {UnseatRule.TopPositions} position");
-
-                    hasUnseatRule = true;
+        if (rules.UnseatRule) {
+            let description = "If guaranteed";
+            let hasUnseatRule = false;
+            if (rules.UnseatRule.UnseatIfPositionGuaranteed) {
+                if (
+                    rules.UnseatRule.TopPositions &&
+                    !rules.UnseatRule.DetermineTopPositionOrder
+                ) {
+                    description += ` specific position or any top ${rules.UnseatRule.TopPositions} position`;
+                } else {
+                    description += " position";
                 }
 
-                if (hasUnseatRule)
-                {
-                    if (UnseatRule.TopPositions.HasValue && UnseatRule.EndMatchIfTopPositionsKnown)
-                    {
-                        display.AppendLine($". Match ends early if top {UnseatRule.TopPositions} positions guaranteed.");
-                    }
-                    else
-                    {
-                        display.AppendLine(".");
-                    }
+                hasUnseatRule = true;
+            } else if (rules.UnseatRule.TopPositions) {
+                description += `${rules.UnseatRule.DetermineTopPositionOrder ? "" : " any"} top ${rules.UnseatRule.TopPositions} position`;
+                hasUnseatRule = true;
+            }
+
+            if (hasUnseatRule) {
+                if (
+                    rules.UnseatRule.TopPositions &&
+                    rules.UnseatRule.EndMatchIfTopPositionsKnown
+                ) {
+                    description += `. Match ends early if top ${rules.UnseatRule.TopPositions} positions guaranteed.`;
+                } else {
+                    description += ".";
                 }
-            }*/
+
+                lines.push(
+                    `<li><b>(IC Only) Unseating:</b> ${description}</li>`,
+                );
+            }
+        }
 
         // Contest rules
         if (rules.ContestRules) {
