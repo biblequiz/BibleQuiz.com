@@ -1,0 +1,706 @@
+{
+  "EventName": "Northern League A Level Final",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Northern League A Level Final",
+        "LastUpdated": "3/21/26 5:17 PM",
+        "DatabaseLastUpdated": "2026-03-21T14:52:26.0748408+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Suzy Walker",
+            "Quizzers": [
+              4,
+              6,
+              11,
+              15
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_8dff9898-af1f-4836-877d-2b06a06cf346",
+            "Name": "Chicago",
+            "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
+            "ChurchName": "Metro Praise International Church",
+            "City": "Chicago",
+            "State": "IL",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 27,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1465,
+              "PerMeetTotalPoints": [
+                380,
+                440,
+                320,
+                325
+              ],
+              "AveragePoints": 54.3,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 114,
+              "Correct20s": 28,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jeff Papendick",
+            "Quizzers": [
+              2,
+              8,
+              10,
+              12,
+              13
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_701f8b71-3e08-4476-b8f4-cc38a6f4c25b",
+            "Name": "Naperville (J)",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Wins": 22,
+              "Losses": 5,
+              "WinPercentage": 81,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 4680,
+              "PerMeetTotalPoints": [
+                865,
+                1290,
+                1275,
+                1250
+              ],
+              "AveragePoints": 173.3,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 36,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 177,
+              "Correct20s": 114,
+              "Correct30s": 27,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Scott Papendick",
+            "Quizzers": [
+              1,
+              3,
+              5,
+              9,
+              14
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_62e642f2-575e-4034-9aa0-1ecc5757e804",
+            "Name": "Naperville (S)",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Wins": 19,
+              "Losses": 8,
+              "WinPercentage": 70,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 4660,
+              "PerMeetTotalPoints": [
+                1030,
+                1295,
+                1205,
+                1130
+              ],
+              "AveragePoints": 172.6,
+              "AverageCorrect": 10.7,
+              "QuizOuts": 29,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 113,
+              "Correct20s": 124,
+              "Correct30s": 53,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Sagaya Melwin",
+            "Quizzers": [
+              0,
+              7
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_2d81c2e1-19c2-4eba-ac95-90ca95a2c4c2",
+            "Name": "Palatine",
+            "ChurchId": "dcc9b945-38ca-4db5-bdb9-08ddf3df6d81",
+            "ChurchName": "Chicago Indian Church",
+            "City": "Palatine",
+            "State": "IL",
+            "Scores": {
+              "Wins": 13,
+              "Losses": 14,
+              "WinPercentage": 48,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 3905,
+              "PerMeetTotalPoints": [
+                860,
+                990,
+                930,
+                1125
+              ],
+              "AveragePoints": 144.6,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 19,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 120,
+              "Correct20s": 85,
+              "Correct30s": 38,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Palatine",
+            "YearsQuizzing": null,
+            "Id": "q_8cc5b054e8b84997622308ddf5169cc0",
+            "Name": "Brielle Hope Melwin",
+            "ChurchId": "dcc9b945-38ca-4db5-bdb9-08ddf3df6d81",
+            "ChurchName": "Chicago Indian Church",
+            "City": "Palatine",
+            "State": "IL",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1385,
+              "PerMeetTotalPoints": [
+                285,
+                360,
+                325,
+                415
+              ],
+              "AveragePoints": 51.3,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 97,
+              "Correct20s": 23,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (S)",
+            "YearsQuizzing": null,
+            "Id": "q_fa8fb1cb4f4b429ff71c08d8f2259de8",
+            "Name": "Darien Edward",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 3480,
+              "PerMeetTotalPoints": [
+                725,
+                985,
+                835,
+                935
+              ],
+              "AveragePoints": 128.9,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 24,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 0,
+              "Correct20s": 102,
+              "Correct30s": 52,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (J)",
+            "YearsQuizzing": null,
+            "Id": "q_76a3802609184219804208db263946b0",
+            "Name": "Eliana Mesfin",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": [
+                20,
+                10,
+                0,
+                20
+              ],
+              "AveragePoints": 1.9,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (S)",
+            "YearsQuizzing": null,
+            "Id": "q_1fbdd89a329d4952803608db263946b0",
+            "Name": "Emma Gonzalez",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": [
+                15,
+                20,
+                60,
+                65
+              ],
+              "AveragePoints": 5.9,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chicago",
+            "YearsQuizzing": null,
+            "Id": "q_200f1d83fb79423a7c2c08dbb0cb2340",
+            "Name": "Emmanuel Govea",
+            "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
+            "ChurchName": "Metro Praise International Church",
+            "City": "Chicago",
+            "State": "IL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                10,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (S)",
+            "YearsQuizzing": null,
+            "Id": "q_37c657fbb5544a1a7a3308dbb0cb2340",
+            "Name": "Esther Bontha",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                10,
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.4,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chicago",
+            "YearsQuizzing": null,
+            "Id": "q_18c1c6f16d8e4bb7d53308dd13aaa1c8",
+            "Name": "Isaac Walker",
+            "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
+            "ChurchName": "Metro Praise International Church",
+            "City": "Chicago",
+            "State": "IL",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": [
+                90,
+                100,
+                5,
+                65
+              ],
+              "AveragePoints": 9.6,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 28,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Palatine",
+            "YearsQuizzing": null,
+            "Id": "q_31807ee902d742c7621d08ddf5169cc0",
+            "Name": "Isabelle Harper Melwin",
+            "ChurchId": "dcc9b945-38ca-4db5-bdb9-08ddf3df6d81",
+            "ChurchName": "Chicago Indian Church",
+            "City": "Palatine",
+            "State": "IL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 2520,
+              "PerMeetTotalPoints": [
+                575,
+                630,
+                605,
+                710
+              ],
+              "AveragePoints": 93.3,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 23,
+              "Correct20s": 62,
+              "Correct30s": 38,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (J)",
+            "YearsQuizzing": null,
+            "Id": "q_714e7aa5c326444f70c708da0aebe4a8",
+            "Name": "Jeremy James",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 2585,
+              "PerMeetTotalPoints": [
+                365,
+                755,
+                760,
+                705
+              ],
+              "AveragePoints": 95.7,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 15,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 0,
+              "Correct20s": 106,
+              "Correct30s": 24,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (S)",
+            "YearsQuizzing": null,
+            "Id": "q_5962d9047e224a12713508da0aebe4a8",
+            "Name": "Johan Gopikrishnan",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": [
+                190,
+                175,
+                225,
+                90
+              ],
+              "AveragePoints": 25.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 94,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (J)",
+            "YearsQuizzing": null,
+            "Id": "q_d972538d33e241f97a2708dbb0cb2340",
+            "Name": "Leo Gonzalez",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 185,
+              "PerMeetTotalPoints": [
+                40,
+                80,
+                65,
+                0
+              ],
+              "AveragePoints": 6.9,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 22,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chicago",
+            "YearsQuizzing": null,
+            "Id": "q_2229cb0a83ed41b5dc9f08d8700b9096",
+            "Name": "Micah Scienski",
+            "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
+            "ChurchName": "Metro Praise International Church",
+            "City": "Chicago",
+            "State": "IL",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": [
+                150,
+                75,
+                20,
+                10
+              ],
+              "AveragePoints": 9.4,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 20,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (J)",
+            "YearsQuizzing": null,
+            "Id": "q_0fc8179732c84371f71608d8f2259de8",
+            "Name": "Neharikha Gopikrishnan",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1635,
+              "PerMeetTotalPoints": [
+                315,
+                445,
+                430,
+                445
+              ],
+              "AveragePoints": 60.6,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 21,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 150,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (J)",
+            "YearsQuizzing": null,
+            "Id": "q_a01b5d29c1b7414d7a2d08dbb0cb2340",
+            "Name": "Samuel Pahuja",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": [
+                125,
+                0,
+                20,
+                80
+              ],
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 0,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Naperville (S)",
+            "YearsQuizzing": null,
+            "Id": "q_0b771ba83db94143775908dc487c2ca1",
+            "Name": "Sujay Shanmugam",
+            "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
+            "ChurchName": "Calvary Church",
+            "City": "Naperville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": [
+                90,
+                115,
+                90,
+                40
+              ],
+              "AveragePoints": 12.4,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 0,
+              "Correct20s": 22,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Chicago",
+            "YearsQuizzing": null,
+            "Id": "q_622fc129c48b41a6dca408d8700b9096",
+            "Name": "Zoe Wyrostek",
+            "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
+            "ChurchName": "Metro Praise International Church",
+            "City": "Chicago",
+            "State": "IL",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 940,
+              "PerMeetTotalPoints": [
+                130,
+                265,
+                295,
+                250
+              ],
+              "AveragePoints": 34.8,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 63,
+              "Correct20s": 21,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          8,
+          7,
+          12,
+          0,
+          15,
+          9,
+          14,
+          6,
+          11,
+          13,
+          10,
+          3,
+          2,
+          4,
+          5
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "Illinois League Registration October '25 (JBQ): A Level",
+          "Illinois League Registration December '25 (JBQ): A Level",
+          "Illinois League Registration January '26 (JBQ): A Level",
+          "Illinois League Registration March '26 (JBQ): A Level"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-21T17:17:25.0221356+00:00"
+}
