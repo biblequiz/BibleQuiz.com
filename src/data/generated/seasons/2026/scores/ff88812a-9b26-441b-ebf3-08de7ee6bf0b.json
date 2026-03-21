@@ -1,5 +1,5 @@
 {
-  "EventName": "2025-2026 WI/NM TBQ League Meet November",
+  "EventName": "2025-2026 WI/NM TBQ League Meet March",
   "DatabaseNames": {
     "2ea364d7-0106-4c18-b611-12553ba25b44": "TBQ_League_2025-2026_New"
   },
@@ -7,13 +7,13 @@
     "Meets": [
       {
         "DatabaseId": "2ea364d7-0106-4c18-b611-12553ba25b44",
-        "MeetId": 3,
+        "MeetId": 8,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "Championship November",
-        "LastUpdated": "2/13/26 3:50 AM",
-        "DatabaseLastUpdated": "2026-02-13T01:33:40.6922938+00:00",
+        "Name": "Championship March",
+        "LastUpdated": "3/15/26 12:23 AM",
+        "DatabaseLastUpdated": "2026-03-14T02:40:04.5178663+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -21,26 +21,34 @@
             "Quizzers": [
               4,
               5,
-              7,
-              14
+              11
             ],
             "Matches": [
               {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 5
+                "Score": 185,
+                "OtherTeam": 2
               },
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 3,
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 140,
+                "Score": 75,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
                 "OtherTeam": 4
               },
               {
@@ -49,7 +57,7 @@
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 85,
+                "Score": 90,
                 "OtherTeam": 1
               },
               {
@@ -58,17 +66,8 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 200,
+                "Score": 130,
                 "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -84,32 +83,32 @@
               "WinPercentage": 60,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 705,
+              "TotalPoints": 595,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 141.0,
-              "AverageCorrect": 7.6,
+              "AveragePoints": 119.0,
+              "AverageCorrect": 7.4,
               "QuizOuts": 4,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 13,
-              "Correct20s": 22,
-              "Correct30s": 3,
-              "FootnoteIndex": 0
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 16,
+              "Correct20s": 19,
+              "Correct30s": 2,
+              "FootnoteIndex": null
             }
           },
           {
             "CoachName": "Christopher Mank",
             "Quizzers": [
-              8,
-              11
+              6,
+              9
             ],
             "Matches": [
               {
                 "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
+                "RoomId": 3,
+                "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 230,
+                "Score": 240,
                 "OtherTeam": 4
               },
               {
@@ -118,8 +117,17 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 100,
+                "Score": 250,
                 "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -127,26 +135,17 @@
                 "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 220,
+                "Score": 230,
                 "OtherTeam": 0
               },
               {
                 "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
+                "RoomId": 2,
+                "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 235,
+                "Score": 115,
                 "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -162,34 +161,33 @@
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 975,
+              "TotalPoints": 1075,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 195.0,
-              "AverageCorrect": 9.8,
+              "AveragePoints": 215.0,
+              "AverageCorrect": 9.4,
               "QuizOuts": 9,
-              "QuestionCorrectPercentage": 84,
-              "Correct10s": 20,
-              "Correct20s": 18,
-              "Correct30s": 11,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 11,
+              "Correct20s": 23,
+              "Correct30s": 13,
               "FootnoteIndex": null
             }
           },
           {
             "CoachName": "Don Batty",
             "Quizzers": [
-              12,
-              13,
-              15
+              10,
+              12
             ],
             "Matches": [
               {
                 "Result": "L",
-                "RoomId": 3,
-                "Room": "C",
+                "RoomId": 2,
+                "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 75,
-                "OtherTeam": 3
+                "Score": 15,
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -197,8 +195,17 @@
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 25,
+                "Score": 40,
                 "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -206,26 +213,17 @@
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -35,
                 "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -236,20 +234,20 @@
             "City": "Portage",
             "State": "WI",
             "Scores": {
-              "Wins": 0,
-              "Losses": 5,
-              "WinPercentage": 0,
-              "Rank": 6,
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 180,
+              "TotalPoints": 245,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 36.0,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 68,
-              "Correct10s": 7,
-              "Correct20s": 6,
-              "Correct30s": 2,
+              "AveragePoints": 49.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -261,18 +259,9 @@
             ],
             "Matches": [
               {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 2
-              },
-              {
                 "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
+                "RoomId": 1,
+                "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 10,
@@ -280,21 +269,12 @@
               },
               {
                 "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
+                "RoomId": 2,
+                "Room": "B",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 95,
+                "Score": 110,
                 "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 15,
-                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -302,8 +282,26 @@
                 "Room": "C",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 55,
+                "Score": 60,
                 "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -319,131 +317,25 @@
               "WinPercentage": 40,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 255,
+              "TotalPoints": 390,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 51.0,
+              "AveragePoints": 78.0,
               "AverageCorrect": 4.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 13,
-              "Correct20s": 9,
-              "Correct30s": 2,
-              "FootnoteIndex": 0
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 11,
+              "Correct20s": 10,
+              "Correct30s": 3,
+              "FootnoteIndex": null
             }
           },
           {
             "CoachName": null,
             "Quizzers": [
               0,
-              6
+              3
             ],
             "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 20,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 5
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_33012cac-827e-41ea-9f08-9a96deb587b9",
-            "Name": "Sparta \"Immature like Children\"",
-            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
-            "ChurchName": "New Life Assembly of God",
-            "City": "Sparta",
-            "State": "WI",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 3,
-              "WinPercentage": 40,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 400,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 80.0,
-              "AverageCorrect": 4.6,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 10,
-              "Correct20s": 11,
-              "Correct30s": 2,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              3,
-              9,
-              10
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 105,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 75,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "C",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 2
-              },
               {
                 "Result": "L",
                 "RoomId": 3,
@@ -455,12 +347,118 @@
               },
               {
                 "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "A",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 30,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_33012cac-827e-41ea-9f08-9a96deb587b9",
+            "Name": "Sparta \"Immature like Children\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              7,
+              8,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
                 "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -471,21 +469,21 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 355,
+              "TotalPoints": 695,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 71.0,
-              "AverageCorrect": 5.6,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 16,
-              "Correct20s": 10,
-              "Correct30s": 2,
-              "FootnoteIndex": 0
+              "AveragePoints": 139.0,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 19,
+              "Correct20s": 21,
+              "Correct30s": 4,
+              "FootnoteIndex": null
             }
           }
         ],
@@ -494,15 +492,10 @@
           5,
           0,
           3,
-          4,
-          2
+          2,
+          4
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by head-to-head record of teams."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Sparta \"Immature like Children\"",
@@ -514,15 +507,15 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 13,
+              "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 15,
+              "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.0,
-              "AverageCorrect": 0.6,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 5,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -538,16 +531,16 @@
             "City": "Portage",
             "State": "WI",
             "Scores": {
-              "Rank": 7,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 150,
+              "TotalPoints": 360,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 30.0,
-              "AverageCorrect": 2.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 3,
-              "Correct20s": 6,
+              "AveragePoints": 72.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 11,
+              "Correct20s": 8,
               "Correct30s": 2,
               "FootnoteIndex": null
             }
@@ -562,22 +555,22 @@
             "City": "Portage",
             "State": "WI",
             "Scores": {
-              "Rank": 9,
+              "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 105,
+              "TotalPoints": 30,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 21.0,
-              "AverageCorrect": 2.6,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 68,
-              "Correct10s": 10,
-              "Correct20s": 3,
-              "Correct30s": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
           {
-            "TeamName": "Sparta \"We are not Children\"",
+            "TeamName": "Sparta \"Immature like Children\"",
             "YearsQuizzing": null,
             "Id": "q_03ce532b136a469a063908d8f2259de9",
             "Name": "Eiliyah Millard",
@@ -586,42 +579,18 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 11,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 45,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 9.0,
-              "AverageCorrect": 1.2,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 6,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Boscobel \"Go Eat PopCorn, Please\"",
-            "YearsQuizzing": null,
-            "Id": "q_ec5db26617fb4f3afac108ddfee5ce2e",
-            "Name": "Eli Ngahlem",
-            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
-            "ChurchName": "Boscobel Assembly of God",
-            "City": "Boscobel",
-            "State": "WI",
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.0,
-              "AverageCorrect": 0.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
+              "QuestionCorrectPercentage": 38,
               "Correct10s": 1,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
             }
           },
           {
@@ -634,41 +603,17 @@
             "City": "Boscobel",
             "State": "WI",
             "Scores": {
-              "Rank": 5,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 270,
+              "TotalPoints": 240,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 54.0,
-              "AverageCorrect": 3.0,
+              "AveragePoints": 48.0,
+              "AverageCorrect": 3.2,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 6,
-              "Correct20s": 8,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 9,
+              "Correct20s": 6,
               "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Sparta \"Immature like Children\"",
-            "YearsQuizzing": null,
-            "Id": "q_5581b3626c024675063408d8f2259de9",
-            "Name": "Isabella Millard",
-            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
-            "ChurchName": "New Life Assembly of God",
-            "City": "Sparta",
-            "State": "WI",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 385,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 77.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 8,
-              "Correct20s": 10,
-              "Correct30s": 2,
               "FootnoteIndex": null
             }
           },
@@ -682,7 +627,7 @@
             "City": "Boscobel",
             "State": "WI",
             "Scores": {
-              "Rank": 16,
+              "Rank": 13,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -706,17 +651,17 @@
             "City": "Oak Creek",
             "State": "WI",
             "Scores": {
-              "Rank": 4,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 365,
+              "TotalPoints": 470,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 73.0,
+              "AveragePoints": 94.0,
               "AverageCorrect": 5.0,
               "QuizOuts": 5,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 20,
-              "Correct20s": 5,
-              "Correct30s": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 11,
+              "Correct20s": 13,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -730,16 +675,16 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 10,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 95,
+              "TotalPoints": -15,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 19.0,
-              "AverageCorrect": 1.4,
+              "AveragePoints": -3.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 3,
-              "Correct20s": 4,
+              "QuestionCorrectPercentage": 20,
+              "Correct10s": 1,
+              "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -754,16 +699,16 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 6,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 215,
+              "TotalPoints": 365,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 43.0,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 7,
-              "Correct20s": 6,
+              "AveragePoints": 73.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 5,
+              "Correct20s": 14,
               "Correct30s": 2,
               "FootnoteIndex": null
             }
@@ -780,40 +725,16 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 610,
+              "TotalPoints": 605,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 122.0,
-              "AverageCorrect": 4.8,
+              "AveragePoints": 121.0,
+              "AverageCorrect": 4.4,
               "QuizOuts": 4,
-              "QuestionCorrectPercentage": 86,
+              "QuestionCorrectPercentage": 88,
               "Correct10s": 0,
-              "Correct20s": 13,
-              "Correct30s": 11,
+              "Correct20s": 10,
+              "Correct30s": 12,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Portage \"Go Eat PanCakes Please\"",
-            "YearsQuizzing": null,
-            "Id": "q_9a74549d6ab54d5d6b5008db1c497da3",
-            "Name": "Noah Martens",
-            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
-            "ChurchName": "CrossPoint Assembly of God",
-            "City": "Portage",
-            "State": "WI",
-            "Scores": {
-              "Rank": 14,
-              "IsTie": true,
-              "TotalPoints": 5,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 1.0,
-              "AverageCorrect": 0.6,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 43,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 1,
-              "FootnoteIndex": 0
             }
           },
           {
@@ -826,14 +747,14 @@
             "City": "Portage",
             "State": "WI",
             "Scores": {
-              "Rank": 8,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 145,
+              "TotalPoints": 105,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 29.0,
+              "AveragePoints": 21.0,
               "AverageCorrect": 2.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 83,
+              "QuestionCorrectPercentage": 62,
               "Correct10s": 5,
               "Correct20s": 4,
               "Correct30s": 1,
@@ -850,17 +771,17 @@
             "City": "Boscobel",
             "State": "WI",
             "Scores": {
-              "Rank": 2,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 430,
+              "TotalPoints": 355,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 86.0,
-              "AverageCorrect": 4.4,
+              "AveragePoints": 71.0,
+              "AverageCorrect": 4.2,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 6,
-              "Correct20s": 14,
-              "Correct30s": 2,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 7,
+              "Correct20s": 13,
+              "Correct30s": 1,
               "FootnoteIndex": null
             }
           },
@@ -874,45 +795,62 @@
             "City": "Portage",
             "State": "WI",
             "Scores": {
-              "Rank": 12,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 30,
+              "TotalPoints": 140,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 6.0,
-              "AverageCorrect": 0.4,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 0,
-              "Correct20s": 2,
+              "AveragePoints": 28.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 6,
+              "Correct20s": 4,
               "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta \"We are not Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_d30a29315ff14cff16e808da165f544a",
+            "Name": "Will Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 69.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 13,
+              "Correct20s": 7,
+              "Correct30s": 2,
               "FootnoteIndex": null
             }
           }
         ],
         "RankedQuizzers": [
-          11,
-          14,
+          9,
           6,
           8,
-          5,
-          10,
           1,
+          11,
           13,
-          2,
-          9,
-          3,
-          15,
-          0,
           4,
           12,
+          10,
+          0,
+          2,
+          3,
+          5,
           7
         ],
-        "QuizzerFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie couldn't be broken by tie breaking rules."
-          }
-        ],
+        "QuizzerFootnotes": [],
         "MeetNames": null,
         "Rooms": [
           {
@@ -922,7 +860,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 0,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -937,7 +875,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -947,14 +893,6 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -966,7 +904,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -975,7 +921,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -990,16 +936,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 2,
+                "Team1": 1,
+                "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1011,15 +949,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
+                "Team1": 1,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -1028,15 +958,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 5,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1045,6 +967,22 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1098,22 +1036,32 @@
       },
       {
         "DatabaseId": "2ea364d7-0106-4c18-b611-12553ba25b44",
-        "MeetId": 4,
+        "MeetId": 9,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "XP5 November",
-        "LastUpdated": "2/13/26 3:50 AM",
-        "DatabaseLastUpdated": "2026-02-13T01:33:40.6922938+00:00",
+        "Name": "XP5 March",
+        "LastUpdated": "3/15/26 12:23 AM",
+        "DatabaseLastUpdated": "2026-03-14T02:40:04.5178663+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
-            "CoachName": "Jessica Bergeron",
+            "CoachName": null,
             "Quizzers": [
               1,
-              6
+              4,
+              5
             ],
             "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 1
+              },
               {
                 "Result": "W",
                 "RoomId": 1,
@@ -1121,108 +1069,25 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 90,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
                 "OtherTeam": 1
               },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 1
-              },
-              null
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_403fde78-1d2f-4332-ae3c-8c62db52a4c0",
-            "Name": "Eau Claire \"Scripture Sisters\"",
-            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
-            "ChurchName": "West Ridge Church",
-            "City": "Eau Claire",
-            "State": "WI",
-            "Scores": {
-              "Wins": 1,
-              "Losses": 3,
-              "WinPercentage": 25,
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 315,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 78.8,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 10,
-              "Correct20s": 9,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              2,
-              5,
-              7
-            ],
-            "Matches": [
-              null,
               {
                 "Result": "W",
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 0
+                "Score": 220,
+                "OtherTeam": 1
               },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 2
-              },
-              null,
               {
                 "Result": "W",
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 2
+                "Score": 210,
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -1233,20 +1098,20 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Wins": 2,
-              "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 2,
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 575,
+              "TotalPoints": 710,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 143.8,
-              "AverageCorrect": 9.2,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 82,
+              "AveragePoints": 177.5,
+              "AverageCorrect": 9.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
               "Correct10s": 18,
               "Correct20s": 16,
-              "Correct30s": 3,
+              "Correct30s": 5,
               "FootnoteIndex": null
             }
           },
@@ -1254,9 +1119,8 @@
             "CoachName": null,
             "Quizzers": [
               0,
-              3,
-              4,
-              8
+              2,
+              3
             ],
             "Matches": [
               {
@@ -1265,37 +1129,35 @@
                 "Room": "D",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 65,
+                "Score": 70,
                 "OtherTeam": 0
               },
-              null,
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
+                "Score": 70,
                 "OtherTeam": 0
               },
-              null,
               {
-                "Result": "W",
+                "Result": "L",
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
                 "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 1
+                "Score": 60,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 0
               }
             ],
             "CurrentMatchId": null,
@@ -1306,28 +1168,27 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Wins": 3,
-              "Losses": 1,
-              "WinPercentage": 75,
-              "Rank": 1,
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 615,
+              "TotalPoints": 215,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 153.8,
-              "AverageCorrect": 8.2,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 13,
-              "Correct20s": 16,
-              "Correct30s": 4,
+              "AveragePoints": 53.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 9,
+              "Correct20s": 7,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           }
         ],
         "RankedTeams": [
-          2,
-          1,
-          0
+          0,
+          1
         ],
         "TeamFootnotes": [],
         "Quizzers": [
@@ -1341,40 +1202,16 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Eau Claire \"Scripture Sisters\"",
-            "YearsQuizzing": null,
-            "Id": "q_b0c8b3b454d54e5168fa08db1c497da3",
-            "Name": "Aubrey Bergeron",
-            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
-            "ChurchName": "West Ridge Church",
-            "City": "Eau Claire",
-            "State": "WI",
-            "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 255,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 63.8,
-              "AverageCorrect": 3.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 7,
-              "Correct20s": 8,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 4,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1389,17 +1226,17 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 2,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 355,
+              "TotalPoints": 410,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 88.8,
+              "AveragePoints": 102.5,
               "AverageCorrect": 4.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 1,
               "Correct20s": 13,
-              "Correct30s": 3,
+              "Correct30s": 4,
               "FootnoteIndex": null
             }
           },
@@ -1414,17 +1251,17 @@
             "State": "WI",
             "Scores": {
               "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 190,
+              "IsTie": true,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 47.5,
-              "AverageCorrect": 3.5,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 11,
-              "Correct20s": 3,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 5,
+              "Correct20s": 2,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           },
           {
@@ -1437,16 +1274,16 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 8,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": 35,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 8.8,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 2,
+              "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
             }
@@ -1461,39 +1298,15 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 5,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 175,
+              "TotalPoints": 220,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 43.8,
+              "AveragePoints": 55.0,
               "AverageCorrect": 3.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 14,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Eau Claire \"Scripture Sisters\"",
-            "YearsQuizzing": null,
-            "Id": "q_f5f07b4f6b5f4f3468f508db1c497da3",
-            "Name": "Phoebe Lansing",
-            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
-            "ChurchName": "West Ridge Church",
-            "City": "Eau Claire",
-            "State": "WI",
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 60,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 15.0,
-              "AverageCorrect": 1.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 62,
-              "Correct10s": 3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
               "Correct20s": 1,
               "Correct30s": 1,
               "FootnoteIndex": null
@@ -1509,57 +1322,35 @@
             "City": "Sparta",
             "State": "WI",
             "Scores": {
-              "Rank": 7,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 45,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.2,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
               "Correct20s": 2,
               "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Sparta XP #2",
-            "YearsQuizzing": null,
-            "Id": "q_d30a29315ff14cff16e808da165f544a",
-            "Name": "Will Meyer",
-            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
-            "ChurchName": "New Life Assembly of God",
-            "City": "Sparta",
-            "State": "WI",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 415,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 103.8,
-              "AverageCorrect": 4.5,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 1,
-              "Correct20s": 13,
-              "Correct30s": 4,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             }
           }
         ],
         "RankedQuizzers": [
-          8,
-          2,
           1,
-          3,
-          5,
-          6,
-          7,
           4,
-          0
+          0,
+          5,
+          2,
+          3
         ],
-        "QuizzerFootnotes": [],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -1568,23 +1359,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 0,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1592,23 +1367,23 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 0,
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
@@ -1641,18 +1416,6 @@
           },
           {
             "Id": 4,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 5,
-            "MatchTime": null,
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
-          },
-          {
-            "Id": 6,
             "MatchTime": null,
             "PlayoffIndex": null,
             "RegularQuestionStats": null
@@ -1699,5 +1462,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-13T03:50:34.2344824+00:00"
+  "Freshness": "2026-03-15T00:23:10.6314715+00:00"
 }

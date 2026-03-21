@@ -1,0 +1,618 @@
+{
+  "EventName": "2025-26 WI/NM XP5 League Combined Nov-March",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2025-26 WI/NM XP5 League Combined Nov-March",
+        "LastUpdated": "3/14/26 11:51 PM",
+        "DatabaseLastUpdated": "2026-03-14T02:40:04.5178663+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Jessica Bergeron",
+            "Quizzers": [
+              1,
+              10
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_403fde78-1d2f-4332-ae3c-8c62db52a4c0",
+            "Name": "Eau Claire \"Scripture Sisters\"",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 11,
+              "WinPercentage": 19,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1035,
+              "PerMeetTotalPoints": [
+                250,
+                315,
+                470,
+                null
+              ],
+              "AveragePoints": 64.7,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 39,
+              "Correct20s": 30,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              4,
+              6,
+              8
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_7109c314-7fca-45b7-a482-2c57a0637033",
+            "Name": "Portage  XP5",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": [
+                -10,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": -1.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 42,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              9,
+              11
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_22400413-c0fd-4b7e-8a12-473da87570f3",
+            "Name": "Sparta XP #1",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 14,
+              "Losses": 4,
+              "WinPercentage": 70,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 3055,
+              "PerMeetTotalPoints": [
+                655,
+                575,
+                1115,
+                710
+              ],
+              "AveragePoints": 152.8,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 23,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 91,
+              "Correct20s": 78,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              5,
+              7,
+              12
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_c2c5c299-522a-4056-b2cb-9a35e3c6f198",
+            "Name": "Sparta XP #2",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 7,
+              "WinPercentage": 55,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 2675,
+              "PerMeetTotalPoints": [
+                965,
+                615,
+                880,
+                215
+              ],
+              "AveragePoints": 133.8,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 17,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 59,
+              "Correct20s": 68,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Sparta XP #2",
+            "YearsQuizzing": null,
+            "Id": "q_68818cc90e8047d298fd08de045d4f17",
+            "Name": "Alliah Amstutz",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": [
+                100,
+                0,
+                230,
+                100
+              ],
+              "AveragePoints": 21.5,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 22,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Scripture Sisters\"",
+            "YearsQuizzing": null,
+            "Id": "q_b0c8b3b454d54e5168fa08db1c497da3",
+            "Name": "Aubrey Bergeron",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 930,
+              "PerMeetTotalPoints": [
+                200,
+                255,
+                475,
+                null
+              ],
+              "AveragePoints": 58.1,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 31,
+              "Correct20s": 27,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage  XP5",
+            "YearsQuizzing": null,
+            "Id": "q_47392ee8a4884a475e6c08de0487fb39",
+            "Name": "Carter Coenen",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Sparta XP #1",
+            "YearsQuizzing": null,
+            "Id": "q_86a8d9bf44394d4716de08da165f544a",
+            "Name": "Daelyn Allard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1900,
+              "PerMeetTotalPoints": [
+                475,
+                355,
+                660,
+                410
+              ],
+              "AveragePoints": 95.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 16,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 16,
+              "Correct20s": 61,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage  XP5",
+            "YearsQuizzing": null,
+            "Id": "q_2dc1078f27294c135e5d08de0487fb39",
+            "Name": "Davin Merrill",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Sparta XP #2",
+            "YearsQuizzing": null,
+            "Id": "q_57e22eba706f49043d5a08dbd94ef9ff",
+            "Name": "Elias Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 985,
+              "PerMeetTotalPoints": [
+                110,
+                190,
+                605,
+                80
+              ],
+              "AveragePoints": 49.2,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 29,
+              "Correct20s": 23,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage  XP5",
+            "YearsQuizzing": null,
+            "Id": "q_878ed18a7e054e845e6208de0487fb39",
+            "Name": "Isaac Martens",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": [
+                -10,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": -1.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 42,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta XP #2",
+            "YearsQuizzing": null,
+            "Id": "q_b9bafb1f07c84bb798f808de045d4f17",
+            "Name": "Isabella Amstutz",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": [
+                0,
+                10,
+                45,
+                35
+              ],
+              "AveragePoints": 4.5,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage  XP5",
+            "YearsQuizzing": null,
+            "Id": "q_4d826ca90a5842f05e5108de0487fb39",
+            "Name": "Jace Merrill",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Sparta XP #1",
+            "YearsQuizzing": null,
+            "Id": "q_8a15f581a20847bc3d5f08dbd94ef9ff",
+            "Name": "Jade Vian",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 905,
+              "PerMeetTotalPoints": [
+                125,
+                175,
+                385,
+                220
+              ],
+              "AveragePoints": 45.2,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 55,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire \"Scripture Sisters\"",
+            "YearsQuizzing": null,
+            "Id": "q_f5f07b4f6b5f4f3468f508db1c497da3",
+            "Name": "Phoebe Lansing",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": [
+                50,
+                60,
+                -5,
+                null
+              ],
+              "AveragePoints": 6.6,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 63,
+              "Correct10s": 8,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta XP #1",
+            "YearsQuizzing": null,
+            "Id": "q_9a2db80a6e29448f6a9c08db1c497da3",
+            "Name": "Sophia Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": [
+                55,
+                45,
+                70,
+                80
+              ],
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 20,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta XP #2",
+            "YearsQuizzing": null,
+            "Id": "q_d30a29315ff14cff16e808da165f544a",
+            "Name": "Will Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1170,
+              "PerMeetTotalPoints": [
+                755,
+                415,
+                null,
+                null
+              ],
+              "AveragePoints": 117.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 2,
+              "Correct20s": 34,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          12,
+          3,
+          1,
+          5,
+          9,
+          0,
+          11,
+          10,
+          7,
+          2,
+          4,
+          8,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": [
+          "2025-2026 WI/NM TBQ League Meet October (TBQ): XP5 October",
+          "2025-2026 WI/NM TBQ League Meet November (TBQ): XP5 November",
+          "2025-2026 WI/NM TBQ League Meet February (TBQ): XP5 February",
+          "2025-2026 WI/NM TBQ League Meet March (TBQ): XP5 March"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-14T23:51:48.4642834+00:00"
+}

@@ -1,0 +1,1144 @@
+{
+  "EventName": "CenCAL Leage Finals (Meet #5) - TBQ",
+  "DatabaseNames": {
+    "ac351e7f-a635-4d02-98d2-5c9e46d2e9c1": "2026_TBQ_CenCAL_March_Champion"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "ac351e7f-a635-4d02-98d2-5c9e46d2e9c1",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "CenCAL Champion March 2026",
+        "LastUpdated": "3/14/26 8:22 PM",
+        "DatabaseLastUpdated": "2026-03-14T17:45:08.8590335+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Jothi Jebaraj",
+            "Quizzers": [
+              0,
+              2,
+              4,
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2370c140-024e-40d6-96bd-7370c40c6b4b",
+            "Name": "Children of Promise",
+            "ChurchId": "592fa6fb-9033-44ef-b7cb-2bfc3fdf7dc4",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 200.0,
+              "AverageCorrect": 10.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 12,
+              "Correct20s": 20,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Daniel Sirvent",
+            "Quizzers": [
+              1,
+              3,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "T1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e407c5a5-396c-4cda-bc09-ccb86df9706d",
+            "Name": "Indecisive Disciples",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.0,
+              "AverageCorrect": 6.2,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 11,
+              "Correct20s": 13,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Children of Promise",
+            "YearsQuizzing": null,
+            "Id": "q_06526c59667742196e3608da1b18cfc1",
+            "Name": "Aaryanna Aaron",
+            "ChurchId": "592fa6fb-9033-44ef-b7cb-2bfc3fdf7dc4",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_add471e4dd9d4264155308dc574ad0b9",
+            "Name": "Chloe Obagi",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 7,
+              "Correct20s": 12,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Children of Promise",
+            "YearsQuizzing": null,
+            "Id": "q_e3aedb64fa7a497e237008db412b2f55",
+            "Name": "Gloria Joan Ravikumar",
+            "ChurchId": "592fa6fb-9033-44ef-b7cb-2bfc3fdf7dc4",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.2,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_9fd356f91d1a4ad0154708dc574ad0b9",
+            "Name": "Hazel Stout",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Children of Promise",
+            "YearsQuizzing": null,
+            "Id": "q_caae4fa4716f4fe2cf4608dc589f8f34",
+            "Name": "Jebin Sathish Reginald",
+            "ChurchId": "592fa6fb-9033-44ef-b7cb-2bfc3fdf7dc4",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Indecisive Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_0d45d9c7afae4b25154508dc574ad0b9",
+            "Name": "Jericho Sirvent",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 44,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Children of Promise",
+            "YearsQuizzing": null,
+            "Id": "q_0bddd660e34f40a1706608da165e0775",
+            "Name": "Krysle John",
+            "ChurchId": "592fa6fb-9033-44ef-b7cb-2bfc3fdf7dc4",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 9,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Children of Promise",
+            "YearsQuizzing": null,
+            "Id": "q_d9acd77a9bd341b4935608d7e50c366c",
+            "Name": "Tehillah Jebaraj",
+            "ChurchId": "592fa6fb-9033-44ef-b7cb-2bfc3fdf7dc4",
+            "ChurchName": "Bethel Church of San Jose",
+            "City": "San Jose",
+            "State": "CA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 510,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 127.5,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 0,
+              "Correct20s": 11,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          1,
+          6,
+          4,
+          2,
+          3,
+          5,
+          0
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "T1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "4 of 5 Match(es) Done",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "ac351e7f-a635-4d02-98d2-5c9e46d2e9c1",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "CenCAL 2026 Contender March",
+        "LastUpdated": "3/14/26 8:22 PM",
+        "DatabaseLastUpdated": "2026-03-14T17:45:08.8590335+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Heather Wolf",
+            "Quizzers": [
+              1,
+              6,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_99f4530c-8a2f-4ca4-b9ca-60c72d16409c",
+            "Name": "Kingdom Crew",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              4,
+              8,
+              9,
+              10
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 5,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_67e621e6-9751-438e-85a5-d0253cfa6ffd",
+            "Name": "Scripture Sloths",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 10,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Daniel Morales",
+            "Quizzers": [
+              2,
+              3,
+              5
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "T2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -5,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b45b3fc3-6903-4244-95f7-3ee95226fa19",
+            "Name": "Truth Tribe",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_7944bf7bed8a43f338ae08dce61ae87e",
+            "Name": "Alec Nyberg",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Kingdom Crew",
+            "YearsQuizzing": null,
+            "Id": "q_0345bafe9b004b2338e908dce61ae87e",
+            "Name": "Camila Montes",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Truth Tribe",
+            "YearsQuizzing": null,
+            "Id": "q_bad491a1e58040bc395208dce61ae87e",
+            "Name": "Eli Rivera",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Truth Tribe",
+            "YearsQuizzing": null,
+            "Id": "q_a3635ff345784631392408dce61ae87e",
+            "Name": "Jenaveah Morales",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_ac351e7f-a635-4d02-98d2-5c9e46d2e9c1_32",
+            "Name": "Kelilah Sirvent",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.2,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Truth Tribe",
+            "YearsQuizzing": null,
+            "Id": "q_d1d57511073544ae38d808dce61ae87e",
+            "Name": "Liam Rivera",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Kingdom Crew",
+            "YearsQuizzing": null,
+            "Id": "q_2c95d34bdf654f04394c08dce61ae87e",
+            "Name": "Lily Caudle",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Kingdom Crew",
+            "YearsQuizzing": null,
+            "Id": "q_99426e9d26fc420038c208dce61ae87e",
+            "Name": "Lucas Wolf",
+            "ChurchId": "decdf8c8-eff9-4a69-a9b0-3b6769ccdb23",
+            "ChurchName": "First Assembly of God",
+            "City": "Visalia",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_ac351e7f-a635-4d02-98d2-5c9e46d2e9c1_33",
+            "Name": "Scarlett Stout",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_a1e1363759aa458d379d08dce61ae87e",
+            "Name": "Torin Nyberg",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Scripture Sloths",
+            "YearsQuizzing": null,
+            "Id": "q_1c68ee1fa37142a737a308dce61ae87e",
+            "Name": "Wess Nyberg",
+            "ChurchId": "3c0a5539-1bb2-4c9c-9747-8b272e3e6b0e",
+            "ChurchName": "Northpark Community Church",
+            "City": "Fresno",
+            "State": "CA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          1,
+          10,
+          8,
+          5,
+          2,
+          7,
+          6,
+          9,
+          3,
+          0
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "T2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:05 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-14T20:22:51.7845914+00:00"
+}

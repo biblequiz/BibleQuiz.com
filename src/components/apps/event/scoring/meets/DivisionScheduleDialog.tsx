@@ -729,7 +729,7 @@ export default function DivisionScheduleDialog({
                                                 setIsDirty(true);
                                             }}
                                             disabled={!canEditScheduleSettings}
-                                            min={1}
+                                            min={0}
                                             max={120}
                                         />
                                     </div>
