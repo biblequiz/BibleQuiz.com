@@ -3,6 +3,9 @@ import type { Team, Quizzer } from "types/Meets";
 import type { OnlineTeamsAndQuizzersTeam, OnlineTeamsAndQuizzersQuizzer } from "types/services/AstroTeamsAndQuizzersService";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 
+// Sentinel value for quizzers without a team (used for drag/drop)
+export const NO_TEAM_ID = -1;
+
 interface Props {
     teams: Record<number, OnlineTeamsAndQuizzersTeam>;
     quizzers: Record<number, OnlineTeamsAndQuizzersQuizzer>;
@@ -15,7 +18,7 @@ interface Props {
     onEditQuizzer: (quizzer: Quizzer) => void;
     onDeleteQuizzer: (quizzer: Quizzer) => void;
     onAddQuizzer: (teamId: number) => void;
-    onMoveQuizzer: (quizzerId: number, fromTeamId: number | undefined, toTeamId: number) => void;
+    onMoveQuizzer: (quizzerId: number, fromTeamId: number | undefined, toTeamId: number | undefined) => void;
     onShowTeamStats: (team: Team) => void;
     onShowQuizzerStats: (quizzer: Quizzer) => void;
     onSaveChanges: () => void;
@@ -73,6 +76,20 @@ export default function TeamsAndQuizzersTable({
             });
     }, [quizzers, showHidden]);
 
+    // Get quizzers without a team
+    const getQuizzersWithoutTeam = useCallback((): Quizzer[] => {
+        return Object.values(quizzers)
+            .map(q => q.Quizzer)
+            .filter(q => q.TeamId === null || q.TeamId === undefined)
+            .filter(q => showHidden || !q.IsHidden)
+            .sort((a, b) => {
+                const hiddenCompare = (a.IsHidden === b.IsHidden) ? 0 : a.IsHidden ? 1 : -1;
+                if (hiddenCompare !== 0) return hiddenCompare;
+
+                return a.Name.localeCompare(b.Name);
+            });
+    }, [quizzers, showHidden]);
+
     const toggleTeamExpansion = (teamId: number) => {
         setExpandedTeams(prev => {
             const newSet = new Set(prev);
@@ -111,14 +128,18 @@ export default function TeamsAndQuizzersTable({
         setDragOverTeamId(null);
     };
 
-    const handleDrop = (e: React.DragEvent, targetTeamId: number) => {
+    const handleDrop = (e: React.DragEvent, targetTeamId: number | undefined) => {
         e.preventDefault();
         const quizzerId = parseInt(e.dataTransfer.getData("text/plain"), 10);
 
         if (!isNaN(quizzerId) && draggedQuizzerId !== null) {
             const quizzer = quizzers[quizzerId]?.Quizzer;
-            if (quizzer && quizzer.TeamId !== targetTeamId) {
-                onMoveQuizzer(quizzerId, quizzer.TeamId, targetTeamId);
+            // Convert NO_TEAM_ID sentinel to undefined
+            const actualTargetTeamId = targetTeamId === NO_TEAM_ID ? undefined : targetTeamId;
+            const currentTeamId = quizzer?.TeamId;
+            
+            if (quizzer && currentTeamId !== actualTargetTeamId) {
+                onMoveQuizzer(quizzerId, currentTeamId, actualTargetTeamId);
             }
         }
 
@@ -225,6 +246,25 @@ export default function TeamsAndQuizzersTable({
                                     />
                                 );
                             })}
+                            {/* Quizzers without Team section */}
+                            <NoTeamRow
+                                isExpanded={expandedTeams.has(NO_TEAM_ID)}
+                                isReadOnly={isReadOnly}
+                                disabled={isSaving}
+                                quizzers={getQuizzersWithoutTeam()}
+                                isDragOver={dragOverTeamId === NO_TEAM_ID}
+                                draggedQuizzerId={draggedQuizzerId}
+                                onToggleExpand={() => toggleTeamExpansion(NO_TEAM_ID)}
+                                onAddQuizzer={() => onAddQuizzer(NO_TEAM_ID)}
+                                onEditQuizzer={onEditQuizzer}
+                                onDeleteQuizzer={onDeleteQuizzer}
+                                onShowQuizzerStats={onShowQuizzerStats}
+                                onDragStart={handleDragStart}
+                                onDragEnd={handleDragEnd}
+                                onDragOver={(e) => handleDragOver(e, NO_TEAM_ID)}
+                                onDragLeave={handleDragLeave}
+                                onDrop={(e) => handleDrop(e, NO_TEAM_ID)}
+                            />
                         </tbody>
                     </table>
                 </div>
@@ -395,6 +435,185 @@ function TeamRow({
                                                             />
                                                         ) : (
                                                             <span title="Cannot move - has scores in meets">
+                                                                <FontAwesomeIcon
+                                                                    icon="fas faLock"
+                                                                    classNames={["text-warning/60"]}
+                                                                />
+                                                            </span>
+                                                        )}
+                                                    </td>
+                                                    <td>
+                                                        {quizzer.Name}
+                                                        {quizzer.IsHidden && (
+                                                            <span className="badge badge-ghost badge-sm ml-2">Hidden</span>
+                                                        )}
+                                                    </td>
+                                                    <td>{quizzer.YearsQuizzing ?? "None"}</td>
+                                                    <td>
+                                                        <div className="flex justify-center gap-1">
+                                                            <button
+                                                                type="button"
+                                                                className="btn btn-ghost btn-xs mt-0"
+                                                                onClick={() => onShowQuizzerStats(quizzer)}
+                                                                title="View Statistics"
+                                                            >
+                                                                <FontAwesomeIcon icon="fas faChartBar" />
+                                                            </button>
+                                                            <button
+                                                                type="button"
+                                                                className="btn btn-ghost btn-xs mt-0"
+                                                                onClick={() => onEditQuizzer(quizzer)}
+                                                                title="Edit Quizzer"
+                                                            >
+                                                                <FontAwesomeIcon icon="fas faPencil" />
+                                                            </button>
+                                                            {!isReadOnly && (
+                                                                <button
+                                                                    type="button"
+                                                                    className="btn btn-ghost btn-xs text-error mt-0"
+                                                                    onClick={() => onDeleteQuizzer(quizzer)}
+                                                                    title="Delete Quizzer"
+                                                                >
+                                                                    <FontAwesomeIcon icon="fas faTrash" />
+                                                                </button>)}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            );
+                                        })}
+                                    </tbody>
+                                </table>
+                            )}
+                        </div>
+                    </td>
+                </tr>
+            )}
+        </>
+    );
+}
+
+interface NoTeamRowProps {
+    isExpanded: boolean;
+    quizzers: Quizzer[];
+    isDragOver: boolean;
+    draggedQuizzerId: number | null;
+    isReadOnly: boolean;
+    disabled: boolean;
+    onToggleExpand: () => void;
+    onAddQuizzer: () => void;
+    onEditQuizzer: (quizzer: Quizzer) => void;
+    onDeleteQuizzer: (quizzer: Quizzer) => void;
+    onShowQuizzerStats: (quizzer: Quizzer) => void;
+    onDragStart: (e: React.DragEvent, quizzer: Quizzer) => void;
+    onDragEnd: () => void;
+    onDragOver: (e: React.DragEvent) => void;
+    onDragLeave: () => void;
+    onDrop: (e: React.DragEvent) => void;
+}
+
+function NoTeamRow({
+    isExpanded,
+    quizzers,
+    isDragOver,
+    draggedQuizzerId,
+    isReadOnly,
+    disabled,
+    onToggleExpand,
+    onAddQuizzer,
+    onEditQuizzer,
+    onDeleteQuizzer,
+    onShowQuizzerStats,
+    onDragStart,
+    onDragEnd,
+    onDragOver,
+    onDragLeave,
+    onDrop
+}: NoTeamRowProps) {
+    return (
+        <>
+            {/* Quizzers without Team row */}
+            <tr
+                className={`cursor-pointer hover ${isDragOver ? "bg-primary/20" : ""}`}
+                onDragOver={onDragOver}
+                onDragLeave={onDragLeave}
+                onDrop={onDrop}
+            >
+                <td>
+                    <button
+                        type="button"
+                        className="btn btn-outline btn-xs w-8"
+                        onClick={onToggleExpand}
+                    >
+                        <FontAwesomeIcon
+                            icon={isExpanded ? "fas faChevronDown" : "fas faChevronRight"}
+                            classNames={["w-auto"]} />
+                    </button>
+                </td>
+                <td className="text-center font-mono">-</td>
+                <td onClick={onToggleExpand}>
+                    <span className="font-medium italic text-base-content/70">Quizzers without Team</span>
+                    <span className="badge badge-info badge-sm ml-2">
+                        <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
+                        {quizzers.length}
+                    </span>
+                </td>
+                <td>-</td>
+                <td>
+                    <div className="flex justify-center gap-1">
+                        {!isReadOnly && (
+                            <button
+                                type="button"
+                                className="btn btn-outline btn-xs"
+                                onClick={onAddQuizzer}
+                                title="Add Quizzer without Team"
+                                disabled={disabled}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                            </button>)}
+                    </div>
+                </td>
+            </tr>
+
+            {/* Expanded quizzers section */}
+            {isExpanded && (
+                <tr>
+                    <td colSpan={5} className="bg-base-200 p-0">
+                        <div className="p-0 pl-16 mt-0">
+                            {quizzers.length === 0 ? (
+                                <p className="text-sm text-base-content/60 text-center italic mt-4 mb-4">
+                                    No quizzers without a team. Drag quizzers here to remove them from their team.
+                                </p>
+                            ) : (
+                                <table className="table table-sm w-full">
+                                    <thead>
+                                        <tr>
+                                            <th className="w-8"></th>
+                                            <th>Name</th>
+                                            <th>Years Quizzing</th>
+                                            <th className="w-32 text-center">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {quizzers.map(quizzer => {
+                                            const isDraggable = !isReadOnly;
+                                            const isDragging = draggedQuizzerId === quizzer.Id;
+
+                                            return (
+                                                <tr
+                                                    key={quizzer.Id}
+                                                    className={`${quizzer.IsHidden ? "opacity-50" : ""} ${isDragging ? "opacity-30" : ""}`}
+                                                    draggable={isDraggable}
+                                                    onDragStart={(e) => onDragStart(e, quizzer)}
+                                                    onDragEnd={onDragEnd}
+                                                >
+                                                    <td>
+                                                        {isDraggable ? (
+                                                            <FontAwesomeIcon
+                                                                icon="fas faGripVertical"
+                                                                classNames={["cursor-grab", "text-base-content/40"]}
+                                                            />
+                                                        ) : (
+                                                            <span title="Cannot move - read only">
                                                                 <FontAwesomeIcon
                                                                     icon="fas faLock"
                                                                     classNames={["text-warning/60"]}

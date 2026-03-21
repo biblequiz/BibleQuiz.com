@@ -4,7 +4,6 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
  * Rules about the matches for a specific meet.
  */
 export class MatchRules {
-
     /**
      * Initializes a new instance of the MatchRules class.
      */
@@ -14,6 +13,7 @@ export class MatchRules {
         this.QuizzersPerTeam = 3;
         this.QuizOutForward = new QuizOutRule();
         this.QuizOutBackward = new QuizOutRule();
+        this.UnseatRule = null;
         this.PointValueCounts = {};
         this.FoulPoints = 5;
         this.MaxTimeouts = 3;
@@ -49,12 +49,17 @@ export class MatchRules {
     /**
      * Rule for quizzing out forward.
      */
-    public QuizOutForward: QuizOutRule;
+    public QuizOutForward: QuizOutRule | null;
 
     /**
      * Rule for quizzing out backward.
      */
-    public QuizOutBackward: QuizOutRule;
+    public QuizOutBackward: QuizOutRule | null;
+
+    /**
+     * Rule for unseating a quizzer outside of quizzing out forward or backward. If this is null, unseating isn't allowed.
+     */
+    public UnseatRule: UnseatRule | null;
 
     /**
      * Rules for each question point value.
@@ -105,13 +110,17 @@ export class MatchRules {
         const lines: string[] = [];
 
         // Header line
-        lines.push(`<p className="m-0">${rules.CompetitionFullName} - ${rules.CompetitionName} (Max ${rules.QuizzersPerTeam} quizzers at table)</p><ul>`);
+        lines.push(
+            `<p className="m-0">${rules.CompetitionFullName} - ${rules.CompetitionName} (Max ${rules.QuizzersPerTeam} quizzers at table)</p><ul>`,
+        );
 
         // Question point values
         if (rules.PointValueCounts) {
             const questionsDisplay = Object.entries(rules.PointValueCounts)
                 .map(([points, count]) => {
-                    const incorrectPoints = Math.floor(Number(points) * rules.IncorrectPointMultiplier);
+                    const incorrectPoints = Math.floor(
+                        Number(points) * rules.IncorrectPointMultiplier,
+                    );
                     return `${count} x ${points} (${incorrectPoints} Incorrect)`;
                 })
                 .join(", ");
@@ -120,10 +129,15 @@ export class MatchRules {
 
         // Point value rules
         if (rules.PointValueRules) {
-            for (const [pointValue, rule] of Object.entries(rules.PointValueRules)) {
+            for (const [pointValue, rule] of Object.entries(
+                rules.PointValueRules,
+            )) {
                 const parts: string[] = [];
 
-                if (rule.PerHalfCount !== undefined && rule.PerHalfCount !== null) {
+                if (
+                    rule.PerHalfCount !== undefined &&
+                    rule.PerHalfCount !== null
+                ) {
                     parts.push(`at least ${rule.PerHalfCount} per half`);
                 }
 
@@ -170,17 +184,24 @@ export class MatchRules {
                 }
 
                 if (parts.length > 0) {
-                    lines.push(`<li>${pointValue}-point: ${parts.join(", ")}</li>`);
+                    lines.push(
+                        `<li>${pointValue}-point: ${parts.join(", ")}</li>`,
+                    );
                 }
             }
         }
 
         // Quiz out rules helper
-        const describeQuizOutRule = (rule: QuizOutRule, questionDescription: string): string => {
+        const describeQuizOutRule = (
+            rule: QuizOutRule,
+            questionDescription: string,
+        ): string => {
             const conditions: string[] = [];
 
             if (rule.QuestionCount) {
-                conditions.push(`${rule.QuestionCount} ${questionDescription} question(s)`);
+                conditions.push(
+                    `${rule.QuestionCount} ${questionDescription} question(s)`,
+                );
             }
 
             if (rule.FoulCount) {
@@ -198,35 +219,89 @@ export class MatchRules {
 
         // Quiz out rules
         if (rules.QuizOutForward) {
-            lines.push(`<li><b>Quiz Out</b> ${describeQuizOutRule(rules.QuizOutForward, "correct")}</li>`);
+            lines.push(
+                `<li><b>Quiz Out</b> ${describeQuizOutRule(rules.QuizOutForward, "correct")}</li>`,
+            );
         }
 
         if (rules.QuizOutBackward) {
-            lines.push(`<li><b>Strike Out</b> ${describeQuizOutRule(rules.QuizOutBackward, "incorrect")}</li>`);
+            lines.push(
+                `<li><b>Strike Out</b> ${describeQuizOutRule(rules.QuizOutBackward, "incorrect")}</li>`,
+            );
         }
+
+        // Unseat rules.
+        /*
+            if (rules.UnseatRule)
+            {
+                bool hasUnseatRule = false;
+                if (UnseatRule.UnseatIfPositionGuaranteed)
+                {
+                    display.Append("=> (IC Only) Unseat Quizzer if guaranteed");
+                    if (UnseatRule.TopPositions.HasValue && !UnseatRule.DetermineTopPositionOrder)
+                    {
+                        display.Append($" specific position or any top {UnseatRule.TopPositions} position");
+                    }
+                    else
+                    {
+                        display.Append(" position");
+                    }
+
+                    hasUnseatRule = true;
+                }
+                else if (UnseatRule.TopPositions.HasValue)
+                {
+                    string order = UnseatRule.DetermineTopPositionOrder ? string.Empty : " any";
+                    display.Append($"=> (IC Only) Unseat Quizzer if guaranteed{order} top {UnseatRule.TopPositions} position");
+
+                    hasUnseatRule = true;
+                }
+
+                if (hasUnseatRule)
+                {
+                    if (UnseatRule.TopPositions.HasValue && UnseatRule.EndMatchIfTopPositionsKnown)
+                    {
+                        display.AppendLine($". Match ends early if top {UnseatRule.TopPositions} positions guaranteed.");
+                    }
+                    else
+                    {
+                        display.AppendLine(".");
+                    }
+                }
+            }*/
 
         // Contest rules
         if (rules.ContestRules) {
             const contestParts: string[] = [];
 
             if (rules.ContestRules.MaxSuccessfulContests) {
-                contestParts.push(`Max ${rules.ContestRules.MaxSuccessfulContests} Successful`);
+                contestParts.push(
+                    `Max ${rules.ContestRules.MaxSuccessfulContests} Successful`,
+                );
             }
 
             if (rules.ContestRules.MaxUnsuccessfulContests) {
-                contestParts.push(`Max ${rules.ContestRules.MaxUnsuccessfulContests} unsuccessful`);
+                contestParts.push(
+                    `Max ${rules.ContestRules.MaxUnsuccessfulContests} unsuccessful`,
+                );
             }
 
             if (rules.ContestRules.UnsuccessfulContestsWithoutFouls) {
-                contestParts.push(`${rules.ContestRules.UnsuccessfulContestsWithoutFouls} unsuccessful w/o fouls`);
+                contestParts.push(
+                    `${rules.ContestRules.UnsuccessfulContestsWithoutFouls} unsuccessful w/o fouls`,
+                );
             }
 
-            lines.push(`<li><b>${rules.ContestRules.ContestLabel}:</b> ${contestParts.join(", ")}</li>`);
+            lines.push(
+                `<li><b>${rules.ContestRules.ContestLabel}:</b> ${contestParts.join(", ")}</li>`,
+            );
         }
 
         // Timeout and foul rules
         if (rules.MaxTimeouts) {
-            lines.push(`<li><b>Timeouts:</b> ${rules.MaxTimeouts} per round</li>`);
+            lines.push(
+                `<li><b>Timeouts:</b> ${rules.MaxTimeouts} per round</li>`,
+            );
         }
 
         if (rules.FoulPoints) {
@@ -266,7 +341,6 @@ export class MatchRules {
  * Type of competition that defines the rules.
  */
 export enum CompetitionType {
-
     /**
      * Junior Bible Quiz
      */
@@ -275,20 +349,18 @@ export enum CompetitionType {
     /**
      * Teen Bible Quiz
      */
-    TBQ = 1
+    TBQ = 1,
 }
 
 /**
  * Rules for quizzing out.
  */
 export class QuizOutRule {
-
     /**
      * Initializes a new instance of the QuizOutRule class.
      */
     constructor() {
         this.QuestionCount = 0;
-        this.ShouldUnseatIfUnbeatable = false;
         this.BonusPoints = 0;
     }
 
@@ -303,21 +375,52 @@ export class QuizOutRule {
     public FoulCount?: number;
 
     /**
-     * Value indicating whether the quizzer should be unseated if it is no longer possible to reach the quizzer's score.
-     */
-    public ShouldUnseatIfUnbeatable: boolean;
-
-    /**
      * Number of bonus points received when quizzing out.
      */
     public BonusPoints: number;
 }
 
 /**
+ * Rules for unseating.
+ */
+export class UnseatRule {
+    /**
+     * Initializes a new instance of the UnseatRule class.
+     */
+    constructor() {
+        this.TopPositions = null;
+        this.EndMatchIfTopPositionsKnown = false;
+        this.DetermineTopPositionOrder = false;
+        this.UnseatIfPositionGuaranteed = false;
+    }
+
+    /**
+     * Top number of positions that must be known for the match to be ended.
+     */
+    public TopPositions: number | null;
+
+    /**
+     * Value indicating whether the match should end if top TopPositions positions are known in a way that satisfies DetermineTopPositionOrder.
+     * This property is ignored if TopPositions is null or less than 1.
+     */
+    public EndMatchIfTopPositionsKnown: boolean;
+
+    /**
+     * Value indicating whether the specific order of TopPositions must be known for the match to be ended.
+     * This property is ignored if TopPositions is null or less than 1.
+     */
+    public DetermineTopPositionOrder: boolean;
+
+    /**
+     * Value indicating whether to unseat a quizzer if their position is guaranteed.
+     */
+    public UnseatIfPositionGuaranteed: boolean;
+}
+
+/**
  * Rules about question point values.
  */
 export class QuestionPointValueRules {
-
     /**
      * Initializes a new instance of the QuestionPointValueRules class.
      */
@@ -352,7 +455,6 @@ export class QuestionPointValueRules {
  * Requirement for a question's position.
  */
 export enum QuestionPositionRequirement {
-
     /**
      * Allowed to be in the position, but not required.
      */
@@ -366,14 +468,13 @@ export enum QuestionPositionRequirement {
     /**
      * Not allowed to be in the specific position.
      */
-    NotAllowed = 2
+    NotAllowed = 2,
 }
 
 /**
  * Rules about contesting.
  */
 export class ContestRules {
-
     /**
      * Initializes a new instance of the ContestRules class.
      */
@@ -412,7 +513,6 @@ export class ContestRules {
  * Rules about timing.
  */
 export class TimingRules {
-
     /**
      * Initial time remaining for the timer (if any).
      */

@@ -14,7 +14,7 @@ import ImportManifestDialog from "./ImportManifestDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { Team, Quizzer } from "types/Meets";
 import { sharedDirtyWindowState } from "utils/SharedState";
-import TeamsAndQuizzersTable from "./teamsAndQuizzers/TeamsAndQuizzersTable";
+import TeamsAndQuizzersTable, { NO_TEAM_ID } from "./teamsAndQuizzers/TeamsAndQuizzersTable";
 import TeamDialog from "./teamsAndQuizzers/TeamDialog";
 import QuizzerDialog from "./teamsAndQuizzers/QuizzerDialog";
 import StatsDialog, { type QuizzerStats, type TeamStats } from "./teamsAndQuizzers/StatsDialog";
@@ -295,7 +295,8 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     // Quizzer handlers
     const handleAddQuizzer = (teamId: number) => {
         setEditingQuizzer(null);
-        setDefaultTeamIdForQuizzer(teamId);
+        // Convert NO_TEAM_ID sentinel to undefined
+        setDefaultTeamIdForQuizzer(teamId === NO_TEAM_ID ? undefined : teamId);
         setQuizzerDialogOpen(true);
     };
 
@@ -386,7 +387,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         });
     };
 
-    const handleMoveQuizzer = (quizzerId: number, _fromTeamId: number | undefined, toTeamId: number) => {
+    const handleMoveQuizzer = (quizzerId: number, _fromTeamId: number | undefined, toTeamId: number | undefined) => {
         const quizzer = getMergedQuizzers()[quizzerId]?.Quizzer;
         if (!quizzer) return;
 
@@ -581,6 +582,8 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
 
             {quizzerDialogOpen && (
                 <QuizzerDialog
+                    regionId={eventRegionId || undefined}
+                    districtId={eventDistrictId || undefined}
                     churches={currentTeamsAndQuizzers!.Churches}
                     people={currentTeamsAndQuizzers!.People}
                     quizzer={editingQuizzer}
@@ -588,6 +591,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     excludePeopleId={getAllPeopleIds()}
                     defaultTeamId={defaultTeamIdForQuizzer}
                     isReadOnly={currentDatabase!.IsScoreKeep}
+                    onDiscoveredChurch={church => currentTeamsAndQuizzers!.Churches[church.Id!] = church}
                     onSave={handleSaveQuizzer}
                     onCancel={() => {
                         setQuizzerDialogOpen(false);
