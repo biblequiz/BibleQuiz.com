@@ -4327,8 +4327,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-Championship-League-2-Nov-2025",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -5474,8 +5474,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-XP-League-2-Nov-2025",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -5513,7 +5513,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -5522,7 +5522,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 195,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -5531,7 +5531,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 145,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -5569,6 +5569,95 @@
             }
           },
           {
+            "CoachName": "Angeline Ramesh",
+            "Quizzers": [
+              2,
+              10,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "X3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 6
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "X3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 5
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
+            "Name": "Built Different(Eph. 2 Edition)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 230.0,
+              "AverageCorrect": 11.7,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 25,
+              "Correct20s": 33,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "CoachName": "Jennifer Lapusan",
             "Quizzers": [
               1,
@@ -5594,7 +5683,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -5603,7 +5692,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 55,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               null,
               {
@@ -5676,7 +5765,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 5,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               null,
               {
@@ -5686,7 +5775,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -5751,95 +5840,6 @@
             }
           },
           {
-            "CoachName": "Angeline Ramesh",
-            "Quizzers": [
-              2,
-              10,
-              14
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 205,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 255,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "X3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 255,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "X3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 215,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "X2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 235,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "X1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 215,
-                "OtherTeam": 5
-              },
-              null
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
-            "Name": "Not Drunk on Wine, Just on the Spirit",
-            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
-            "ChurchName": "First at Firewheel",
-            "City": "Garland",
-            "State": "TX",
-            "Scores": {
-              "Wins": 6,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 1380,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 230.0,
-              "AverageCorrect": 11.7,
-              "QuizOuts": 9,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 25,
-              "Correct20s": 33,
-              "Correct30s": 12,
-              "FootnoteIndex": null
-            }
-          },
-          {
             "CoachName": "Elijah Lee",
             "Quizzers": [
               6,
@@ -5883,7 +5883,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -5892,7 +5892,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 200,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -5901,7 +5901,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 190,
-                "OtherTeam": 1
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -5945,7 +5945,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -5982,7 +5982,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -5991,7 +5991,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 140,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -6052,7 +6052,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 3
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -6061,7 +6061,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 180,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -6070,7 +6070,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 175,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               null,
               {
@@ -6110,13 +6110,13 @@
           }
         ],
         "RankedTeams": [
-          3,
+          1,
           0,
           4,
           5,
           6,
-          2,
-          1
+          3,
+          2
         ],
         "TeamFootnotes": [
           {
@@ -6174,7 +6174,7 @@
             }
           },
           {
-            "TeamName": "Not Drunk on Wine, Just on the Spirit",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_d4c1a2db02df469c844408dce4140bc0",
             "Name": "Abigail Pradeep",
@@ -6366,7 +6366,7 @@
             }
           },
           {
-            "TeamName": "Not Drunk on Wine, Just on the Spirit",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_a953843da6474517572908dbafc02107",
             "Name": "Grace Joseph",
@@ -6462,7 +6462,7 @@
             }
           },
           {
-            "TeamName": "Not Drunk on Wine, Just on the Spirit",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_2b4d5d2b3edf4f9dbba15a2fc215b5d3",
             "Name": "Jayden Ramesh",
@@ -6842,8 +6842,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
+                "Team1": 1,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6858,8 +6858,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6875,14 +6875,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 1,
                 "Team2": 5,
                 "State": "Completed",
                 "Blockers": null
@@ -6911,8 +6911,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6928,14 +6928,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
-                "Team2": 2,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 1,
                 "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
@@ -6944,7 +6944,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6952,7 +6952,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 2,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -6965,7 +6965,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 5,
-                "Team2": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -6980,7 +6980,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 1,
                 "Team2": 6,
                 "State": "Completed",
                 "Blockers": null
@@ -6988,7 +6988,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 1,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -6997,7 +6997,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -7006,14 +7014,6 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -7084,8 +7084,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-Contender-League-2-Nov-2025",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -7094,7 +7094,8 @@
               4,
               5,
               6,
-              16
+              8,
+              20
             ],
             "Matches": [
               null,
@@ -7183,9 +7184,10 @@
             "Quizzers": [
               1,
               3,
-              11,
-              14,
-              17
+              12,
+              16,
+              18,
+              21
             ],
             "Matches": [
               {
@@ -7272,9 +7274,9 @@
           {
             "CoachName": "Peter Morgan",
             "Quizzers": [
-              21,
-              22,
-              23
+              25,
+              26,
+              27
             ],
             "Matches": [
               {
@@ -7363,8 +7365,8 @@
             "Quizzers": [
               0,
               7,
-              10,
-              19
+              11,
+              23
             ],
             "Matches": [
               {
@@ -7452,8 +7454,8 @@
             "CoachName": "Sherri Byers",
             "Quizzers": [
               2,
-              12,
-              13
+              15,
+              17
             ],
             "Matches": [
               {
@@ -7514,7 +7516,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_5355265d-2a6e-424c-bcec-d78e701514dc",
-            "Name": "I Don’t Know How Else To Help You",
+            "Name": "I Don't Know How Else To Help You",
             "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
             "ChurchName": "Oaks Church",
             "City": "Red Oak",
@@ -7540,8 +7542,8 @@
           {
             "CoachName": "Claude Zeli",
             "Quizzers": [
-              9,
-              15
+              10,
+              19
             ],
             "Matches": [
               {
@@ -7628,9 +7630,11 @@
           {
             "CoachName": "Tony Deemy",
             "Quizzers": [
-              8,
-              18,
-              20
+              9,
+              13,
+              14,
+              22,
+              24
             ],
             "Matches": [
               {
@@ -7775,7 +7779,7 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_2395236bab6d4c8add1308d744f7f6e4",
             "Name": "Alyssa Dixon",
@@ -7919,6 +7923,30 @@
             }
           },
           {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_42",
+            "Name": "Chizaram Iwuogaranya",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Team TD",
             "YearsQuizzing": null,
             "Id": "q_f902959eb4ee4d03c04b08dc4dd60d93",
@@ -8015,7 +8043,55 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_167",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_168",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_121",
             "Name": "Hannah Lapusan",
@@ -8039,7 +8115,31 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_25",
+            "Name": "Iliya Constant",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_7344d82e5ca64e95faa408d97f98c6a0",
             "Name": "John Pettis",
@@ -8304,17 +8404,17 @@
           }
         ],
         "RankedQuizzers": [
-          18,
-          12,
-          9,
-          23,
-          2,
-          13,
-          15,
-          19,
           22,
-          8,
-          11,
+          15,
+          10,
+          27,
+          2,
+          17,
+          19,
+          23,
+          26,
+          9,
+          12,
           7,
           6,
           4,
@@ -8322,12 +8422,16 @@
           0,
           1,
           3,
-          10,
+          8,
+          11,
+          13,
           14,
           16,
-          17,
+          18,
           20,
-          21
+          21,
+          24,
+          25
         ],
         "QuizzerFootnotes": [
           {
@@ -8585,8 +8689,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-Championship-League-3-Jan-2026",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -10982,17 +11086,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-Contender-League-3-Jan-2026",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": "JP Brown",
             "Quizzers": [
-              8,
-              14,
-              16,
-              21
+              9,
+              17,
+              20,
+              25
             ],
             "Matches": [
               {
@@ -11090,7 +11194,8 @@
               4,
               5,
               6,
-              19
+              8,
+              23
             ],
             "Matches": [
               {
@@ -11187,9 +11292,10 @@
             "Quizzers": [
               1,
               3,
-              12,
-              17,
-              20
+              13,
+              18,
+              21,
+              24
             ],
             "Matches": [
               {
@@ -11284,9 +11390,9 @@
           {
             "CoachName": "Peter Morgan",
             "Quizzers": [
-              25,
-              26,
-              27
+              29,
+              30,
+              31
             ],
             "Matches": [
               {
@@ -11383,8 +11489,8 @@
             "Quizzers": [
               0,
               7,
-              11,
-              23
+              12,
+              27
             ],
             "Matches": [
               {
@@ -11480,8 +11586,8 @@
             "CoachName": "Sherri Byers",
             "Quizzers": [
               2,
-              13,
-              15
+              16,
+              19
             ],
             "Matches": [
               {
@@ -11550,7 +11656,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_5355265d-2a6e-424c-bcec-d78e701514dc",
-            "Name": "I Don’t Know How Else To Help You",
+            "Name": "I Don't Know How Else To Help You",
             "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
             "ChurchName": "Oaks Church",
             "City": "Red Oak",
@@ -11576,8 +11682,8 @@
           {
             "CoachName": "Claude Zeli",
             "Quizzers": [
-              10,
-              18
+              11,
+              22
             ],
             "Matches": [
               {
@@ -11672,9 +11778,11 @@
           {
             "CoachName": "Tony Deemy",
             "Quizzers": [
-              9,
-              22,
-              24
+              10,
+              14,
+              15,
+              26,
+              28
             ],
             "Matches": [
               {
@@ -11833,7 +11941,7 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_2395236bab6d4c8add1308d744f7f6e4",
             "Name": "Alyssa Dixon",
@@ -11977,6 +12085,30 @@
             }
           },
           {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_42",
+            "Name": "Chizaram Iwuogaranya",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
             "TeamName": "A Special Gift-First at Firewheel (Garland)",
             "YearsQuizzing": null,
             "Id": "q_225d259c031b44a22f2d08ddfaa89b9a",
@@ -12058,7 +12190,7 @@
             "City": "Garland",
             "State": "TX",
             "Scores": {
-              "Rank": 28,
+              "Rank": 32,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -12097,7 +12229,55 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_167",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_168",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_121",
             "Name": "Hannah Lapusan",
@@ -12145,7 +12325,31 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_25",
+            "Name": "Iliya Constant",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_7344d82e5ca64e95faa408d97f98c6a0",
             "Name": "John Pettis",
@@ -12459,33 +12663,37 @@
         ],
         "RankedQuizzers": [
           2,
-          13,
-          10,
-          8,
-          24,
-          27,
-          22,
-          18,
-          21,
-          5,
-          26,
-          12,
-          15,
-          7,
+          16,
+          11,
           9,
+          28,
+          31,
+          26,
+          22,
           25,
+          5,
+          30,
+          13,
+          19,
+          7,
+          10,
+          29,
           6,
           4,
           0,
-          23,
-          14,
+          27,
+          17,
           1,
           3,
-          16,
-          17,
-          19,
+          8,
+          14,
+          15,
+          18,
           20,
-          11
+          21,
+          23,
+          24,
+          12
         ],
         "QuizzerFootnotes": [
           {
@@ -12808,10 +13016,81 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-XP-League-3-Jan-2026",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
+          {
+            "CoachName": "Angeline Ramesh",
+            "Quizzers": [
+              1,
+              7,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 1
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
+            "Name": "Built Different(Eph. 2 Edition)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 900,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 225.0,
+              "AverageCorrect": 11.5,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 17,
+              "Correct20s": 23,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
           {
             "CoachName": "Christy Quaye",
             "Quizzers": [
@@ -12829,7 +13108,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 135,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               null,
               {
@@ -12839,7 +13118,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 15,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -12848,7 +13127,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 4
+                "OtherTeam": 0
               },
               {
                 "Result": "L",
@@ -12857,7 +13136,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 3
+                "OtherTeam": 4
               }
             ],
             "CurrentMatchId": null,
@@ -12901,7 +13180,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -12910,7 +13189,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 4
+                "OtherTeam": 0
               },
               null,
               {
@@ -12920,7 +13199,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 35,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -12929,7 +13208,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 115,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -12973,7 +13252,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 140,
-                "OtherTeam": 4
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -12982,7 +13261,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 170,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -12991,7 +13270,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 160,
-                "OtherTeam": 0
+                "OtherTeam": 1
               },
               null,
               {
@@ -13001,7 +13280,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 140,
-                "OtherTeam": 1
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -13045,7 +13324,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -13054,7 +13333,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 110,
-                "OtherTeam": 4
+                "OtherTeam": 0
               },
               {
                 "Result": "W",
@@ -13063,7 +13342,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -13072,7 +13351,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 175,
-                "OtherTeam": 0
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -13099,85 +13378,14 @@
               "Correct30s": 4,
               "FootnoteIndex": null
             }
-          },
-          {
-            "CoachName": "Angeline Ramesh",
-            "Quizzers": [
-              1,
-              7,
-              9
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 225,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 205,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "C2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "C2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 260,
-                "OtherTeam": 0
-              },
-              null
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
-            "Name": "Wobbly Worship Warrior(s)",
-            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
-            "ChurchName": "First at Firewheel",
-            "City": "Garland",
-            "State": "TX",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 0,
-              "WinPercentage": 100,
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 900,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 225.0,
-              "AverageCorrect": 11.5,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 17,
-              "Correct20s": 23,
-              "Correct30s": 6,
-              "FootnoteIndex": null
-            }
           }
         ],
         "RankedTeams": [
-          4,
-          2,
-          3,
           0,
-          1
+          3,
+          4,
+          1,
+          2
         ],
         "TeamFootnotes": [],
         "Quizzers": [
@@ -13206,7 +13414,7 @@
             }
           },
           {
-            "TeamName": "Wobbly Worship Warrior(s)",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_d4c1a2db02df469c844408dce4140bc0",
             "Name": "Abigail Pradeep",
@@ -13350,7 +13558,7 @@
             }
           },
           {
-            "TeamName": "Wobbly Worship Warrior(s)",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_a953843da6474517572908dbafc02107",
             "Name": "Grace Joseph",
@@ -13398,7 +13606,7 @@
             }
           },
           {
-            "TeamName": "Wobbly Worship Warrior(s)",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_2b4d5d2b3edf4f9dbba15a2fc215b5d3",
             "Name": "Jayden Ramesh",
@@ -13673,6 +13881,30 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 2,
                 "State": "Completed",
@@ -13685,36 +13917,36 @@
                 "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
               }
             ]
           },
           {
             "Name": "C2",
             "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
@@ -13726,32 +13958,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 3,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -13810,16 +14018,17 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-Championship-League-4-Feb-2026",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": "Bob Roller",
             "Quizzers": [
-              5,
               8,
-              16
+              10,
+              13,
+              25
             ],
             "Matches": [
               {
@@ -13829,7 +14038,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 60,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -13838,7 +14047,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 25,
-                "OtherTeam": 5
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -13847,7 +14056,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 2
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -13865,7 +14074,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 4
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -13896,9 +14105,9 @@
           {
             "CoachName": "Ann-Marie Morgan",
             "Quizzers": [
-              12,
-              13,
-              17
+              19,
+              20,
+              26
             ],
             "Matches": [
               {
@@ -13908,7 +14117,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 290,
-                "OtherTeam": 5
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -13917,7 +14126,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 185,
-                "OtherTeam": 2
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -13926,7 +14135,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 200,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -13944,7 +14153,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 265,
-                "OtherTeam": 3
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -13973,90 +14182,14 @@
             }
           },
           {
-            "CoachName": "Camden Haney",
+            "CoachName": "John Sullivan",
             "Quizzers": [
               1,
               3,
-              10
-            ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 75,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 200,
-                "OtherTeam": 5
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_0585933f-e2f8-4f4a-a9b1-18b5c66b7bc0",
-            "Name": "Team Camden",
-            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
-            "ChurchName": "Trinity Church",
-            "City": "Cedar Hill",
-            "State": "TX",
-            "Scores": {
-              "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 700,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 140.0,
-              "AverageCorrect": 9.0,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 74,
-              "Correct10s": 19,
-              "Correct20s": 19,
-              "Correct30s": 7,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "John Sullivan",
-            "Quizzers": [
-              2,
-              7,
-              9
+              11,
+              14,
+              22,
+              24
             ],
             "Matches": [
               {
@@ -14075,7 +14208,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 225,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -14084,7 +14217,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 180,
-                "OtherTeam": 5
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -14093,7 +14226,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 55,
-                "OtherTeam": 2
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -14135,7 +14268,10 @@
             "Quizzers": [
               0,
               4,
-              6
+              7,
+              9,
+              12,
+              16
             ],
             "Matches": [
               {
@@ -14145,7 +14281,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 135,
-                "OtherTeam": 2
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -14154,7 +14290,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -14172,7 +14308,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 220,
-                "OtherTeam": 5
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -14212,9 +14348,10 @@
           {
             "CoachName": "Noah Claunch",
             "Quizzers": [
-              11,
-              14,
-              15
+              6,
+              18,
+              21,
+              23
             ],
             "Matches": [
               {
@@ -14242,7 +14379,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 85,
-                "OtherTeam": 3
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -14251,7 +14388,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 100,
-                "OtherTeam": 4
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -14260,7 +14397,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 2
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -14287,14 +14424,94 @@
               "Correct30s": 0,
               "FootnoteIndex": null
             }
+          },
+          {
+            "CoachName": "Camden Haney",
+            "Quizzers": [
+              2,
+              5,
+              15,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0585933f-e2f8-4f4a-a9b1-18b5c66b7bc0",
+            "Name": "Team Sarah",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 700,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 140.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 19,
+              "Correct20s": 19,
+              "Correct30s": 7,
+              "FootnoteIndex": 0
+            }
           }
         ],
         "RankedTeams": [
           1,
-          4,
           3,
           2,
           5,
+          4,
           0
         ],
         "TeamFootnotes": [
@@ -14329,7 +14546,31 @@
             }
           },
           {
-            "TeamName": "Team Camden",
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_141",
+            "Name": "Andrew Pickrell",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Sarah",
             "YearsQuizzing": null,
             "Id": "q_36fd00b908254dd5a6c29b5cc39219a7",
             "Name": "Andrew Pickrell",
@@ -14377,7 +14618,31 @@
             }
           },
           {
-            "TeamName": "Team Camden",
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_151",
+            "Name": "Anna Pickrell",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Sarah",
             "YearsQuizzing": null,
             "Id": "q_7a30693a8fa644b0418108d791e69f7c",
             "Name": "Asher Claunch",
@@ -14398,6 +14663,30 @@
               "Correct20s": 11,
               "Correct30s": 4,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team Noah",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_131",
+            "Name": "Benjamin Ahime",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -14473,6 +14762,30 @@
             }
           },
           {
+            "TeamName": "First Assembly of God (Longview) #1",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_14",
+            "Name": "Emmanuel Tarekegn",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Team John",
             "YearsQuizzing": null,
             "Id": "q_1609b790c94c4f856d4808ddfaae51da",
@@ -14494,6 +14807,30 @@
               "Correct20s": 16,
               "Correct30s": 5,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_149",
+            "Name": "Gigi Wallace",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -14545,7 +14882,55 @@
             }
           },
           {
-            "TeamName": "Team Camden",
+            "TeamName": "Team Sarah",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_158",
+            "Name": "Jadon Sheomangal",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_150",
+            "Name": "Joseph Lee",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Team Sarah",
             "YearsQuizzing": null,
             "Id": "q_9b326ae185e84dd4417b08d791e69f7c",
             "Name": "Joseph Lee",
@@ -14665,6 +15050,30 @@
             }
           },
           {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_140",
+            "Name": "Naaman Deemy",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
             "TeamName": "Team Noah",
             "YearsQuizzing": null,
             "Id": "q_b0350d08bb8043b556a508dcd4fa6052",
@@ -14686,6 +15095,30 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_142",
+            "Name": "Omari Ihimekpen",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -14738,24 +15171,33 @@
           }
         ],
         "RankedQuizzers": [
-          12,
-          6,
+          19,
+          9,
+          11,
+          26,
+          5,
           7,
+          2,
+          20,
+          25,
+          14,
+          21,
+          18,
+          8,
           17,
           3,
-          4,
-          1,
-          13,
-          16,
-          9,
-          14,
-          11,
-          5,
-          10,
-          2,
-          15,
+          23,
           0,
-          8
+          1,
+          4,
+          6,
+          10,
+          12,
+          13,
+          15,
+          16,
+          22,
+          24
         ],
         "QuizzerFootnotes": [
           {
@@ -14768,67 +15210,6 @@
           {
             "Name": "A1",
             "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 3,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              }
-            ]
-          },
-          {
-            "Name": "A2",
-            "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
@@ -14848,8 +15229,69 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -14861,7 +15303,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 2,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -14870,7 +15312,15 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -14878,22 +15328,14 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 5,
+                "Team2": 4,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 5,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -14953,8 +15395,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-Contender-League-4-Feb-2026",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -14963,7 +15405,8 @@
               3,
               4,
               5,
-              13
+              6,
+              17
             ],
             "Matches": [
               null,
@@ -15034,9 +15477,10 @@
             "Quizzers": [
               0,
               2,
-              8,
-              11,
-              14
+              9,
+              13,
+              15,
+              18
             ],
             "Matches": [
               {
@@ -15106,8 +15550,8 @@
             "CoachName": "Sherri Byers",
             "Quizzers": [
               1,
-              9,
-              10
+              12,
+              14
             ],
             "Matches": [
               {
@@ -15150,7 +15594,7 @@
             ],
             "CurrentMatchId": null,
             "Id": "t_5355265d-2a6e-424c-bcec-d78e701514dc",
-            "Name": "I Don’t Know How Else To Help You",
+            "Name": "I Don't Know How Else To Help You",
             "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
             "ChurchName": "Oaks Church",
             "City": "Red Oak",
@@ -15176,8 +15620,8 @@
           {
             "CoachName": "Claude Zeli",
             "Quizzers": [
-              7,
-              12
+              8,
+              16
             ],
             "Matches": [
               {
@@ -15246,9 +15690,11 @@
           {
             "CoachName": "Tony Deemy",
             "Quizzers": [
-              6,
-              15,
-              16
+              7,
+              10,
+              11,
+              19,
+              20
             ],
             "Matches": [
               {
@@ -15349,7 +15795,7 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_2395236bab6d4c8add1308d744f7f6e4",
             "Name": "Alyssa Dixon",
@@ -15469,6 +15915,30 @@
             }
           },
           {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_42",
+            "Name": "Chizaram Iwuogaranya",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
             "TeamName": "Team TD",
             "YearsQuizzing": null,
             "Id": "q_f902959eb4ee4d03c04b08dc4dd60d93",
@@ -15541,7 +16011,55 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_167",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_168",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_121",
             "Name": "Hannah Lapusan",
@@ -15565,7 +16083,31 @@
             }
           },
           {
-            "TeamName": "I Don’t Know How Else To Help You",
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_25",
+            "Name": "Iliya Constant",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
             "YearsQuizzing": null,
             "Id": "q_7344d82e5ca64e95faa408d97f98c6a0",
             "Name": "John Pettis",
@@ -15734,23 +16276,27 @@
           }
         ],
         "RankedQuizzers": [
-          15,
-          7,
-          16,
-          1,
-          9,
-          10,
-          12,
+          19,
           8,
+          20,
+          1,
+          12,
+          14,
+          16,
+          9,
           5,
-          6,
+          7,
           4,
           0,
           2,
           3,
+          6,
+          10,
           11,
           13,
-          14
+          15,
+          17,
+          18
         ],
         "QuizzerFootnotes": [
           {
@@ -15907,8 +16453,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "TBQ-XP-League-4-Feb-2026",
-        "LastUpdated": "2/14/26 7:17 PM",
-        "DatabaseLastUpdated": "2026-02-14T15:49:25.7607169+00:00",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -15925,7 +16471,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 80,
-                "OtherTeam": 5
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -15934,7 +16480,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 0,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -15943,7 +16489,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 20,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -15952,7 +16498,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -15961,7 +16507,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 50,
-                "OtherTeam": 2
+                "OtherTeam": 3
               }
             ],
             "CurrentMatchId": null,
@@ -15990,6 +16536,85 @@
             }
           },
           {
+            "CoachName": "Angeline Ramesh",
+            "Quizzers": [
+              1,
+              6,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
+            "Name": "Built Different(Eph. 2 Edition)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 136.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 13,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "CoachName": "Jennifer Lapusan",
             "Quizzers": [
               0,
@@ -16006,7 +16631,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 110,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -16024,7 +16649,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 120,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -16033,7 +16658,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 115,
-                "OtherTeam": 5
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -16042,7 +16667,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 105,
-                "OtherTeam": 4
+                "OtherTeam": 5
               }
             ],
             "CurrentMatchId": null,
@@ -16086,7 +16711,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 135,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "L",
@@ -16095,7 +16720,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 130,
-                "OtherTeam": 5
+                "OtherTeam": 1
               },
               {
                 "Result": "L",
@@ -16104,7 +16729,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 70,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "L",
@@ -16113,7 +16738,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 155,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "W",
@@ -16166,7 +16791,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 210,
-                "OtherTeam": 1
+                "OtherTeam": 2
               },
               {
                 "Result": "W",
@@ -16175,7 +16800,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 4
+                "OtherTeam": 5
               },
               {
                 "Result": "W",
@@ -16193,7 +16818,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 170,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "W",
@@ -16202,7 +16827,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 205,
-                "OtherTeam": 5
+                "OtherTeam": 1
               }
             ],
             "CurrentMatchId": null,
@@ -16245,7 +16870,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 160,
-                "OtherTeam": 2
+                "OtherTeam": 3
               },
               {
                 "Result": "L",
@@ -16254,7 +16879,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 30,
-                "OtherTeam": 3
+                "OtherTeam": 4
               },
               {
                 "Result": "L",
@@ -16263,7 +16888,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 90,
-                "OtherTeam": 5
+                "OtherTeam": 1
               },
               {
                 "Result": "W",
@@ -16281,7 +16906,7 @@
                 "State": "Completed",
                 "CurrentQuestion": null,
                 "Score": 150,
-                "OtherTeam": 1
+                "OtherTeam": 2
               }
             ],
             "CurrentMatchId": null,
@@ -16308,93 +16933,14 @@
               "Correct30s": 4,
               "FootnoteIndex": null
             }
-          },
-          {
-            "CoachName": "Angeline Ramesh",
-            "Quizzers": [
-              1,
-              6,
-              9
-            ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "C3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "C2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "C2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
-            "Name": "Wobbly Worship Warrior(s)",
-            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
-            "ChurchName": "First at Firewheel",
-            "City": "Garland",
-            "State": "TX",
-            "Scores": {
-              "Wins": 4,
-              "Losses": 1,
-              "WinPercentage": 80,
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 680,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 136.0,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
-              "Correct20s": 13,
-              "Correct30s": 10,
-              "FootnoteIndex": null
-            }
           }
         ],
         "RankedTeams": [
-          3,
-          5,
           4,
           1,
+          5,
           2,
+          3,
           0
         ],
         "TeamFootnotes": [],
@@ -16424,7 +16970,7 @@
             }
           },
           {
-            "TeamName": "Wobbly Worship Warrior(s)",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_d4c1a2db02df469c844408dce4140bc0",
             "Name": "Abigail Pradeep",
@@ -16544,7 +17090,7 @@
             }
           },
           {
-            "TeamName": "Wobbly Worship Warrior(s)",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_a953843da6474517572908dbafc02107",
             "Name": "Grace Joseph",
@@ -16616,7 +17162,7 @@
             }
           },
           {
-            "TeamName": "Wobbly Worship Warrior(s)",
+            "TeamName": "Built Different(Eph. 2 Edition)",
             "YearsQuizzing": null,
             "Id": "q_2b4d5d2b3edf4f9dbba15a2fc215b5d3",
             "Name": "Jayden Ramesh",
@@ -16945,7 +17491,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 1,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -16953,8 +17499,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 4,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -16969,15 +17523,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 1,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
+                "Team1": 3,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -16990,15 +17536,15 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 2,
+                "Team1": 5,
+                "Team2": 3,
                 "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 2,
                 "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
@@ -17006,24 +17552,24 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 4,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
+                "Team1": 1,
                 "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -17035,8 +17581,32 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -17045,30 +17615,6 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 2,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 0,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 1,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -17114,6 +17660,2610 @@
         "HasRoomCompletionMismatch": false,
         "HasScoringCompleted": true,
         "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "590a8f00-1e94-447e-8473-1e3783b3ba24",
+        "MeetId": 10,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "TBQ-Contender-League-5-Mar-2026",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "JP Brown",
+            "Quizzers": [
+              7,
+              14,
+              17,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_22d8cc39-ba0d-4e11-b3eb-d618dae6fc30",
+            "Name": "A Special Gift-First at Firewheel (Garland)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Cynthia Morgan",
+            "Quizzers": [
+              3,
+              4,
+              5,
+              6,
+              20
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_b107935b-539c-4130-bf5d-972d8da7e77a",
+            "Name": "Citizens of Heaven-First at Firewheel (Garland)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Jason Mettler",
+            "Quizzers": [
+              0,
+              2,
+              10,
+              15,
+              18,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_3aabfc1e-4c9f-4e75-871e-746934deb635",
+            "Name": "First Assembly of God (Longview) #2",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Peter Morgan",
+            "Quizzers": [
+              25,
+              26,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_419a7d95-8aa8-4b01-a1da-7d73ee4ff492",
+            "Name": "Gateway Church Midlothian (Midlothian) #2",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Sherri Byers",
+            "Quizzers": [
+              1,
+              13,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5355265d-2a6e-424c-bcec-d78e701514dc",
+            "Name": "I Don't Know How Else To Help You",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Claude Zeli",
+            "Quizzers": [
+              9,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 6
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_3cc28993-44cd-4701-b6c0-32082581593c",
+            "Name": "Mountain Crusaders",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Tony Deemy",
+            "Quizzers": [
+              8,
+              11,
+              12,
+              23,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_edb6fe35-989f-4f90-b767-1344ca41c456",
+            "Name": "Team TD",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_43c073555b92457dbfc308dc4dd60d93",
+            "Name": "Adrianna Perez",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
+            "YearsQuizzing": null,
+            "Id": "q_2395236bab6d4c8add1308d744f7f6e4",
+            "Name": "Alyssa Dixon",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_239b9412b6ce481ebe6208d97f7e73fa",
+            "Name": "Brenna Mettler",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_4a8d71a1f78d40918b0f08d89ebeb141",
+            "Name": "Chika Iwuogaranya",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_9d08ce86cfe84815e80108d73ea9b255",
+            "Name": "Chinasa Ayozie",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_517b359f0acd45f68a4408d6d6f8cec6",
+            "Name": "Chizaram Echefu",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_42",
+            "Name": "Chizaram Iwuogaranya",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Special Gift-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_225d259c031b44a22f2d08ddfaa89b9a",
+            "Name": "Christian Desalegn",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_f902959eb4ee4d03c04b08dc4dd60d93",
+            "Name": "David Andrews",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Mountain Crusaders",
+            "YearsQuizzing": null,
+            "Id": "q_e9e7992f90d941864ddc08d7372d61f4",
+            "Name": "David Zeli",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_24",
+            "Name": "Emmanuel Tarekegn",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_167",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_168",
+            "Name": "Extra",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_121",
+            "Name": "Hannah Lapusan",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Special Gift-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_c3e43674312144242f3908ddfaa89b9a",
+            "Name": "Hyabel Mekonen",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_25",
+            "Name": "Iliya Constant",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "I Don't Know How Else To Help You",
+            "YearsQuizzing": null,
+            "Id": "q_7344d82e5ca64e95faa408d97f98c6a0",
+            "Name": "John Pettis",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Special Gift-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_0c682c3da7064a6f2f5708ddfaa89b9a",
+            "Name": "Levi Abiy",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_7e275536e48046efbfc908dc4dd60d93",
+            "Name": "Livy Guerra",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Mountain Crusaders",
+            "YearsQuizzing": null,
+            "Id": "q_29257d0f207e47f24ddf08d7372d61f4",
+            "Name": "Michael Zeli",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Citizens of Heaven-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_667fcd7e52e341629205528cf6c64014",
+            "Name": "Muna Osuagwu",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #2",
+            "YearsQuizzing": null,
+            "Id": "q_f8360af6dae74904be3f08d97f7e73fa",
+            "Name": "Nathan Mettler",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "A Special Gift-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_eaea4ad9eed54b572f3308ddfaa89b9a",
+            "Name": "Nathan Sisay",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_ef9b45ace1b149578abd08d745303a93",
+            "Name": "Patrick Davis",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team TD",
+            "YearsQuizzing": null,
+            "Id": "q_e2e91e24429849556d8e08ddfaae51da",
+            "Name": "Silas Nelson",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gateway Church Midlothian (Midlothian) #2",
+            "YearsQuizzing": null,
+            "Id": "q_e3237593f11a478bb62a08dc4818fd3e",
+            "Name": "Stacey Ogbodu",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gateway Church Midlothian (Midlothian) #2",
+            "YearsQuizzing": null,
+            "Id": "q_c3a5cb6498414cd5691c08dbc7520153",
+            "Name": "Theodore Limer",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gateway Church Midlothian (Midlothian) #2",
+            "YearsQuizzing": null,
+            "Id": "q_7f2841a8a2114175f6c508d97f98c6a0",
+            "Name": "William Morgan",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:30 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "01:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "590a8f00-1e94-447e-8473-1e3783b3ba24",
+        "MeetId": 11,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "TBQ-XP-League-5-Mar-2026",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Elizabeth Van Gorp",
+            "Quizzers": [
+              11,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_8ff797b2-7bfd-423b-9661-246984bd95a7",
+            "Name": "Bethesda AG (Waxahachie)",
+            "ChurchId": "e4253224-afcd-47f8-04ba-08d74435a407",
+            "ChurchName": "Bethesda AG",
+            "City": "Waxahachie",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Angeline Ramesh",
+            "Quizzers": [
+              2,
+              7,
+              9
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_98212e6e-5b45-4d53-86ee-a7d05875d3e7",
+            "Name": "Built Different(Eph. 2 Edition)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Jennifer Lapusan",
+            "Quizzers": [
+              1,
+              6,
+              8,
+              14,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_1ceece32-30ad-43e5-80c2-d48327e1af3a",
+            "Name": "Children of Light",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Christy Quaye",
+            "Quizzers": [
+              0,
+              3,
+              5,
+              13,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              null,
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_cd08645a-bedf-4ae2-80fd-c46aec9b0dce",
+            "Name": "Gods Children through Faith",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Lena Stumper",
+            "Quizzers": [
+              4,
+              10,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ac8ddbfc-7194-4429-b95f-0825ff17354a",
+            "Name": "The Ninja Tacos",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Gods Children through Faith",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_105",
+            "Name": "Abigail Oka",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Children of Light",
+            "YearsQuizzing": null,
+            "Id": "q_b1a9791914f34e407dea08dbb0cb2340",
+            "Name": "Abigail Oka",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Built Different(Eph. 2 Edition)",
+            "YearsQuizzing": null,
+            "Id": "q_d4c1a2db02df469c844408dce4140bc0",
+            "Name": "Abigail Pradeep",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gods Children through Faith",
+            "YearsQuizzing": null,
+            "Id": "q_2030b431f83b491f2a8c08ddd42d147d",
+            "Name": "Benjamin Quaye",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Ninja Tacos",
+            "YearsQuizzing": null,
+            "Id": "q_66ee5f941ec44c6d4df208d7372d61f4",
+            "Name": "Caleb Stumper",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gods Children through Faith",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_104",
+            "Name": "Eva King",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Children of Light",
+            "YearsQuizzing": null,
+            "Id": "q_58cf9595eea3447bfac708d97f98c6a0",
+            "Name": "Eva King",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Built Different(Eph. 2 Edition)",
+            "YearsQuizzing": null,
+            "Id": "q_a953843da6474517572908dbafc02107",
+            "Name": "Grace Joseph",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Children of Light",
+            "YearsQuizzing": null,
+            "Id": "q_e0553403c78f4348dd3b08d744f7f6e4",
+            "Name": "Hannah Lapusan",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Built Different(Eph. 2 Edition)",
+            "YearsQuizzing": null,
+            "Id": "q_2b4d5d2b3edf4f9dbba15a2fc215b5d3",
+            "Name": "Jayden Ramesh",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Ninja Tacos",
+            "YearsQuizzing": null,
+            "Id": "q_fa6562718f474ece0d9208ddc9695803",
+            "Name": "Liam Diaz",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bethesda AG (Waxahachie)",
+            "YearsQuizzing": null,
+            "Id": "q_b1808d0b5b6f4b6ff48a08ddced04fe7",
+            "Name": "Maliyah Arriaga",
+            "ChurchId": "e4253224-afcd-47f8-04ba-08d74435a407",
+            "ChurchName": "Bethesda AG",
+            "City": "Waxahachie",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "The Ninja Tacos",
+            "YearsQuizzing": null,
+            "Id": "q_552945d5bfae4bce61af08d7b1899d8d",
+            "Name": "Noah Zeli",
+            "ChurchId": "5b98dff1-0fe0-4c31-3436-08d7372aff76",
+            "ChurchName": "Mountain Creek Church",
+            "City": "Dallas",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gods Children through Faith",
+            "YearsQuizzing": null,
+            "Id": "q_449ceecb34ab430fdd3108d744f7f6e4",
+            "Name": "Raegan Wirth",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Children of Light",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_114",
+            "Name": "Reagan Wirth",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Bethesda AG (Waxahachie)",
+            "YearsQuizzing": null,
+            "Id": "q_c9d99568e7cf4b99925508dd28f27dd0",
+            "Name": "Rosalie Solis",
+            "ChurchId": "e4253224-afcd-47f8-04ba-08d74435a407",
+            "ChurchName": "Bethesda AG",
+            "City": "Waxahachie",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gods Children through Faith",
+            "YearsQuizzing": null,
+            "Id": "q_f0f92dad4fd94db5dd2208d744f7f6e4",
+            "Name": "Sarah Lapusan",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Children of Light",
+            "YearsQuizzing": null,
+            "Id": "q_b5382ff773d7439502ec08d851552bae",
+            "Name": "Violet Cano",
+            "ChurchId": "70cd48b4-fd70-4b0c-9cdf-9fcf7b0738aa",
+            "ChurchName": "Oaks Church",
+            "City": "Red Oak",
+            "State": "TX",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "590a8f00-1e94-447e-8473-1e3783b3ba24",
+        "MeetId": 12,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "TBQ-Championship-League-5-Mar-2026",
+        "LastUpdated": "3/21/26 12:18 AM",
+        "DatabaseLastUpdated": "2026-03-21T00:04:51.6528951+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Bob Roller",
+            "Quizzers": [
+              8,
+              10,
+              13,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_be215ebb-51da-4c36-9aab-2091eb72e104",
+            "Name": "First Assembly of God (Longview) #1",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Ann-Marie Morgan",
+            "Quizzers": [
+              19,
+              20,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_40a2ade0-b696-4c03-a7c1-de86a60efa28",
+            "Name": "Gateway Church Midlothian (Midlothian) #1",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "John Sullivan",
+            "Quizzers": [
+              1,
+              3,
+              11,
+              14,
+              22,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_ee0f5310-bcde-4c42-8f1a-15fa3a9db1e2",
+            "Name": "Team John",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Lori Sullivan",
+            "Quizzers": [
+              0,
+              4,
+              7,
+              9,
+              12,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a4c2f718-684d-4570-afaf-d89cecf965e5",
+            "Name": "Team Lori",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Noah Claunch",
+            "Quizzers": [
+              6,
+              18,
+              21,
+              23
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 5
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e8569e64-19c0-4419-897f-289296e9762e",
+            "Name": "Team Noah",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "CoachName": "Camden Haney",
+            "Quizzers": [
+              2,
+              5,
+              15,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 3
+              },
+              {
+                "Result": null,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 4
+              },
+              {
+                "Result": null,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 2
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 0
+              },
+              {
+                "Result": null,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null,
+                "Score": null,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0585933f-e2f8-4f4a-a9b1-18b5c66b7bc0",
+            "Name": "Team Sarah",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_d55d9a5b36ea4a868aefaaa57505d349",
+            "Name": "Alex Brunken",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_141",
+            "Name": "Andrew Pickrell",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Sarah",
+            "YearsQuizzing": null,
+            "Id": "q_36fd00b908254dd5a6c29b5cc39219a7",
+            "Name": "Andrew Pickrell",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_911a6c9abaa44def3cf108dab1112043",
+            "Name": "Anna Pickrell",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_151",
+            "Name": "Anna Pickrell",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Sarah",
+            "YearsQuizzing": null,
+            "Id": "q_7a30693a8fa644b0418108d791e69f7c",
+            "Name": "Asher Claunch",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Noah",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_131",
+            "Name": "Benjamin Ahime",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_69b5a6faf0ac473f8a8808d745303a93",
+            "Name": "Benjamin Ahime",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #1",
+            "YearsQuizzing": null,
+            "Id": "q_22bf9a46bec44cc3bfb708dc4dd60d93",
+            "Name": "Blayne Constant",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_cdf2ebc81f934e2ca2de08dbcd1e8a7b",
+            "Name": "Christian Alapati",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #1",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_14",
+            "Name": "Emmanuel Tarekegn",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_1609b790c94c4f856d4808ddfaae51da",
+            "Name": "Gigi Wallace",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_149",
+            "Name": "Gigi Wallace",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ed6326d36ae94cbfd2cb08da9b2f8063",
+            "Name": "Iliya Constant",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_789d7f21cea1469f84e0e4bc8cf0c7b5",
+            "Name": "Jadon Sheomangal",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Sarah",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_158",
+            "Name": "Jadon Sheomangal",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Lori",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_150",
+            "Name": "Joseph Lee",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Sarah",
+            "YearsQuizzing": null,
+            "Id": "q_9b326ae185e84dd4417b08d791e69f7c",
+            "Name": "Joseph Lee",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Noah",
+            "YearsQuizzing": null,
+            "Id": "q_643a0d92553947148905e2c6e6b05fe0",
+            "Name": "Joshua Sullivan",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gateway Church Midlothian (Midlothian) #1",
+            "YearsQuizzing": null,
+            "Id": "q_6833d2a9450340aa544608dcd4fa6052",
+            "Name": "Josiah Lapusan",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gateway Church Midlothian (Midlothian) #1",
+            "YearsQuizzing": null,
+            "Id": "q_cd5f11e861a04e58f38408ddf069fc0f",
+            "Name": "Julian Diaz",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Noah",
+            "YearsQuizzing": null,
+            "Id": "q_52742db852c349863d5c08dab1112043",
+            "Name": "Naaman Deemy",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_140",
+            "Name": "Naaman Deemy",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team Noah",
+            "YearsQuizzing": null,
+            "Id": "q_b0350d08bb8043b556a508dcd4fa6052",
+            "Name": "Omari Ihimekpen",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Team John",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_142",
+            "Name": "Omari Ihimekpen",
+            "ChurchId": "e1b8717a-1f76-4d16-b3f6-f8e989a7723a",
+            "ChurchName": "Trinity Church",
+            "City": "Cedar Hill",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "First Assembly of God (Longview) #1",
+            "YearsQuizzing": null,
+            "Id": "q_590a8f00-1e94-447e-8473-1e3783b3ba24_13",
+            "Name": "Praise Tarekegn",
+            "ChurchId": "e4516aa4-f637-4285-9d1c-454a3683c0a4",
+            "ChurchName": "First Assembly of God",
+            "City": "Longview",
+            "State": "TX",
+            "Scores": null
+          },
+          {
+            "TeamName": "Gateway Church Midlothian (Midlothian) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b461aefa19284b39f6e908d97f98c6a0",
+            "Name": "Samantha Morgan",
+            "ChurchId": "19dd6bfb-c384-467b-87d9-63387c6c69db",
+            "ChurchName": "Gateway Church Midlothian",
+            "City": "Midlothian",
+            "State": "TX",
+            "Scores": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "A3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -17290,7 +20440,49 @@
         "Show20s": true,
         "Show30s": true
       }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
     }
   ],
-  "Freshness": "2026-02-14T19:17:58.7453232+00:00"
+  "Freshness": "2026-03-21T00:04:52.313018+00:00"
 }
