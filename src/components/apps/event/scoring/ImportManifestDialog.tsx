@@ -78,6 +78,17 @@ export default function ImportManifestDialog({
     const [isImporting, setIsImporting] = useState(false);
     const [importError, setImportError] = useState<string | null>(null);
 
+    // State for including additional registrants as quizzers
+    const [includeCoaches, setIncludeCoaches] = useState(false);
+    const [includeOfficials, setIncludeOfficials] = useState(false);
+    const [includeAttendees, setIncludeAttendees] = useState(false);
+
+    // Check if additional registrant types have any entries
+    const hasCoaches = Object.keys(manifest.CoachesAsQuizzers ?? {}).length > 0;
+    const hasOfficials = Object.keys(manifest.OfficialsAsQuizzers ?? {}).length > 0;
+    const hasAttendees = Object.keys(manifest.AttendeesAsQuizzers ?? {}).length > 0;
+    const hasAnyAdditionalRegistrants = hasCoaches || hasOfficials || hasAttendees;
+
     // Calculate stats and changes based on manifest comparison
     const { teamStats, quizzerStats, changes } = useMemo(() => {
         const teamStats: TypeStats = { total: 0, new: 0, existing: 0, unchanged: 0 };
@@ -145,13 +156,15 @@ export default function ImportManifestDialog({
             }
         }
 
-        // Process quizzers from manifest
-        for (const [, quizzer] of Object.entries(manifest.Quizzers)) {
+        // Helper function to process quizzers from any source
+        const processQuizzer = (quizzer: Quizzer, roleLabel?: string) => {
             quizzerStats.total++;
 
             const existingMatch = quizzer.RemotePersonId
                 ? existingQuizzersByRemoteId.get(quizzer.RemotePersonId)
                 : undefined;
+
+            const labelSuffix = roleLabel ? ` (${roleLabel})` : "";
 
             if (existingMatch) {
                 const hasChanges = isQuizzerChanged(quizzer, existingMatch.quizzer);
@@ -162,15 +175,15 @@ export default function ImportManifestDialog({
                         type: "quizzer",
                         action: "update",
                         description: teamName
-                            ? `Update Quizzer: ${quizzer.Name} → Team: ${teamName}`
-                            : `Update Quizzer: ${quizzer.Name}`
+                            ? `Update Quizzer: ${quizzer.Name}${labelSuffix} → Team: ${teamName}`
+                            : `Update Quizzer: ${quizzer.Name}${labelSuffix}`
                     });
                 } else {
                     quizzerStats.unchanged++;
                     changes.push({
                         type: "quizzer",
                         action: "unchanged",
-                        description: `Unchanged Quizzer: ${quizzer.Name}`
+                        description: `Unchanged Quizzer: ${quizzer.Name}${labelSuffix}`
                     });
                 }
             } else {
@@ -180,14 +193,38 @@ export default function ImportManifestDialog({
                     type: "quizzer",
                     action: "add",
                     description: teamName
-                        ? `Add Quizzer: ${quizzer.Name} → Team: ${teamName}`
-                        : `Add Quizzer: ${quizzer.Name}`
+                        ? `Add Quizzer: ${quizzer.Name}${labelSuffix} → Team: ${teamName}`
+                        : `Add Quizzer: ${quizzer.Name}${labelSuffix}`
                 });
+            }
+        };
+
+        // Process quizzers from manifest
+        for (const [, quizzer] of Object.entries(manifest.Quizzers)) {
+            processQuizzer(quizzer);
+        }
+
+        // Process additional registrants as quizzers if selected
+        if (includeCoaches && manifest.CoachesAsQuizzers) {
+            for (const [, quizzer] of Object.entries(manifest.CoachesAsQuizzers)) {
+                processQuizzer(quizzer, "Coach");
+            }
+        }
+
+        if (includeOfficials && manifest.OfficialsAsQuizzers) {
+            for (const [, quizzer] of Object.entries(manifest.OfficialsAsQuizzers)) {
+                processQuizzer(quizzer, "Official");
+            }
+        }
+
+        if (includeAttendees && manifest.AttendeesAsQuizzers) {
+            for (const [, quizzer] of Object.entries(manifest.AttendeesAsQuizzers)) {
+                processQuizzer(quizzer, "Attendee");
             }
         }
 
         return { teamStats, quizzerStats, changes };
-    }, [manifest, currentTeamsAndQuizzers]);
+    }, [manifest, currentTeamsAndQuizzers, includeCoaches, includeOfficials, includeAttendees]);
 
     // Filter changes based on import mode
     const filteredChanges = useMemo(() => {
@@ -284,8 +321,8 @@ export default function ImportManifestDialog({
                 teamIdMapping.set(manifestId, finalId);
             }
 
-            // Process quizzers
-            for (const [, quizzer] of Object.entries(manifest.Quizzers)) {
+            // Helper function to process a quizzer for import
+            const processQuizzerForImport = (quizzer: Quizzer) => {
                 let existingId: number | undefined;
                 if (shouldReuse && quizzer.RemotePersonId) {
                     existingId = existingQuizzersByRemoteId.get(quizzer.RemotePersonId);
@@ -316,6 +353,30 @@ export default function ImportManifestDialog({
                         Id: finalId,
                         TeamId: mappedTeamId
                     };
+                }
+            };
+
+            // Process quizzers
+            for (const [, quizzer] of Object.entries(manifest.Quizzers)) {
+                processQuizzerForImport(quizzer);
+            }
+
+            // Process additional registrants as quizzers if selected
+            if (includeCoaches && manifest.CoachesAsQuizzers) {
+                for (const [, quizzer] of Object.entries(manifest.CoachesAsQuizzers)) {
+                    processQuizzerForImport(quizzer);
+                }
+            }
+
+            if (includeOfficials && manifest.OfficialsAsQuizzers) {
+                for (const [, quizzer] of Object.entries(manifest.OfficialsAsQuizzers)) {
+                    processQuizzerForImport(quizzer);
+                }
+            }
+
+            if (includeAttendees && manifest.AttendeesAsQuizzers) {
+                for (const [, quizzer] of Object.entries(manifest.AttendeesAsQuizzers)) {
+                    processQuizzerForImport(quizzer);
                 }
             }
 
@@ -409,6 +470,53 @@ export default function ImportManifestDialog({
                         </div>
                     </label>
                 </div>
+
+                {/* Additional Registrants as Quizzers */}
+                {hasAnyAdditionalRegistrants && (
+                    <div className="mt-4">
+                        <p className="text-sm text-base-content/70 mb-2 font-bold">
+                            Include additional registrants as quizzers (e.g., adult quizzing):
+                        </p>
+                        <div className="flex flex-wrap gap-4 mt-0">
+                            {hasCoaches && (
+                                <label className="flex items-center gap-2 cursor-pointer mt-0">
+                                    <input
+                                        type="checkbox"
+                                        className="checkbox checkbox-primary checkbox-sm"
+                                        checked={includeCoaches}
+                                        onChange={(e) => setIncludeCoaches(e.target.checked)}
+                                        disabled={isImporting}
+                                    />
+                                    <span className="text-sm">Coaches ({Object.keys(manifest.CoachesAsQuizzers).length})</span>
+                                </label>
+                            )}
+                            {hasOfficials && (
+                                <label className="flex items-center gap-2 cursor-pointer mt-0">
+                                    <input
+                                        type="checkbox"
+                                        className="checkbox checkbox-primary checkbox-sm"
+                                        checked={includeOfficials}
+                                        onChange={(e) => setIncludeOfficials(e.target.checked)}
+                                        disabled={isImporting}
+                                    />
+                                    <span className="text-sm">Officials ({Object.keys(manifest.OfficialsAsQuizzers).length})</span>
+                                </label>
+                            )}
+                            {hasAttendees && (
+                                <label className="flex items-center gap-2 cursor-pointer mt-0">
+                                    <input
+                                        type="checkbox"
+                                        className="checkbox checkbox-primary checkbox-sm"
+                                        checked={includeAttendees}
+                                        onChange={(e) => setIncludeAttendees(e.target.checked)}
+                                        disabled={isImporting}
+                                    />
+                                    <span className="text-sm">Attendees ({Object.keys(manifest.AttendeesAsQuizzers).length})</span>
+                                </label>
+                            )}
+                        </div>
+                    </div>
+                )}
 
                 {/* Action Buttons */}
                 <div className="mt-4 mb-0 text-right gap-2 flex justify-end">

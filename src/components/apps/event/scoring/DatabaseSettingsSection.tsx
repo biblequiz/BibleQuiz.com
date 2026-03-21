@@ -250,12 +250,13 @@ export default function DatabaseSettingsSection({
                         <input
                             type="number"
                             className="input w-full"
-                            min={1}
+                            min={0}
                             max={120}
+                            step={1}
                             value={defaultMatchLengthInMinutes}
                             onChange={e => {
-                                const value = parseInt(e.target.value) || 20;
-                                setDefaultMatchLengthInMinutes(value);
+                                const parsed = parseInt(e.target.value);
+                                setDefaultMatchLengthInMinutes(isNaN(parsed) ? 20 : parsed);
                                 sharedDirtyWindowState.set(true);
                             }}
                             disabled={disabled || isSaving || isScoreKeep}
