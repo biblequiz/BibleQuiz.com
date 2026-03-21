@@ -278,6 +278,11 @@ export class OnlineDatabaseMeetSummary {
     public readonly Display!: OnlineDatabaseMeetDisplaySettings;
 
     /**
+     * Value indicating whether this is an individual tournament.
+     */
+    public readonly IsIndividualTournament!: boolean;
+
+    /**
      * Value indicating whether there are any matches without imported questions.
      */
     public readonly HasAnyMissingQuestions!: boolean;
@@ -326,7 +331,6 @@ export class OnlineDatabaseSettings {
      * Rules for the matches.
      */
     public Rules!: MatchRules | null;
-
 
     /**
      * Value indicating whether to use the custom schedule template. If false, the existing template in the database will be used.
