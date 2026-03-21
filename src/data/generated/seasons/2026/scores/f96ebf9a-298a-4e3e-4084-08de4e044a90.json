@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A League Meet #3",
-        "LastUpdated": "3/7/26 6:05 PM",
-        "DatabaseLastUpdated": "2026-03-07T17:23:46.9151583+00:00",
+        "LastUpdated": "3/21/26 6:12 AM",
+        "DatabaseLastUpdated": "2026-03-21T04:21:36.4987367+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -775,8 +775,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B Advanced Meet #3",
-        "LastUpdated": "3/7/26 6:05 PM",
-        "DatabaseLastUpdated": "2026-03-07T17:23:46.9151583+00:00",
+        "LastUpdated": "3/21/26 6:12 AM",
+        "DatabaseLastUpdated": "2026-03-21T04:21:36.4987367+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1751,8 +1751,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B Novice Meet #3",
-        "LastUpdated": "3/7/26 6:05 PM",
-        "DatabaseLastUpdated": "2026-03-07T17:23:46.9151583+00:00",
+        "LastUpdated": "3/21/26 6:12 AM",
+        "DatabaseLastUpdated": "2026-03-21T04:21:36.4987367+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -1761,7 +1761,7 @@
               1,
               5,
               7,
-              20
+              21
             ],
             "Matches": [
               {
@@ -1839,7 +1839,7 @@
             "CoachName": "Juliane Cross",
             "Quizzers": [
               0,
-              19
+              20
             ],
             "Matches": [
               {
@@ -1917,9 +1917,9 @@
             "CoachName": "Amber Meyers",
             "Quizzers": [
               4,
-              9,
               10,
-              21
+              11,
+              22
             ],
             "Matches": [
               {
@@ -1997,9 +1997,10 @@
             "CoachName": "Josh Hicks",
             "Quizzers": [
               3,
-              14,
+              9,
               15,
-              18
+              16,
+              19
             ],
             "Matches": [
               {
@@ -2076,10 +2077,10 @@
           {
             "CoachName": "Meghan Spillers",
             "Quizzers": [
-              12,
               13,
-              16,
-              17
+              14,
+              17,
+              18
             ],
             "Matches": [
               {
@@ -2159,7 +2160,7 @@
               2,
               6,
               8,
-              11
+              12
             ],
             "Matches": [
               {
@@ -2467,6 +2468,30 @@
               "Correct20s": 0,
               "Correct30s": 2,
               "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1 The 4 Wise Men",
+            "YearsQuizzing": null,
+            "Id": "q_852f5ff9-8d3d-4d85-9035-9651529dbcf3_221",
+            "Name": "Levi Belanger",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             }
           },
           {
@@ -2783,16 +2808,16 @@
           }
         ],
         "RankedQuizzers": [
-          9,
-          20,
+          10,
+          21,
           5,
-          18,
-          17,
           19,
+          18,
+          20,
           8,
-          12,
           13,
           14,
+          15,
           6,
           2,
           7,
@@ -2800,11 +2825,12 @@
           1,
           3,
           4,
-          10,
+          9,
           11,
-          15,
+          12,
           16,
-          21
+          17,
+          22
         ],
         "QuizzerFootnotes": [
           {
@@ -3002,8 +3028,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "C League Meet #3",
-        "LastUpdated": "3/7/26 6:05 PM",
-        "DatabaseLastUpdated": "2026-03-07T17:23:46.9151583+00:00",
+        "LastUpdated": "3/21/26 6:12 AM",
+        "DatabaseLastUpdated": "2026-03-21T04:21:36.4987367+00:00",
         "CompetitionType": "JBQ",
         "Teams": [
           {
@@ -4417,5 +4443,5 @@
       }
     }
   ],
-  "Freshness": "2026-03-07T17:23:47.0883933+00:00"
+  "Freshness": "2026-03-21T04:21:36.8111443+00:00"
 }
