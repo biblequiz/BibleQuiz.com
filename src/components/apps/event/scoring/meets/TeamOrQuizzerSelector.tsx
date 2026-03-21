@@ -30,9 +30,9 @@ export default function TeamOrQuizzerSelector({
     const itemLabelPlural = isIndividualTournament ? "quizzers" : "teams";
     const itemLabelCapitalized = isIndividualTournament ? "Quizzer" : "Team";
 
-    // Get available items (not yet selected)
+    // Get available items (not yet selected and not hidden)
     const availableItems = Object.entries(allItems)
-        .filter(([id]) => !selectedIds.includes(Number(id)))
+        .filter(([id, item]) => !selectedIds.includes(Number(id)) && !item.IsHidden)
         .sort(([, a], [, b]) => (a.Prefix ?? "").localeCompare(b.Prefix ?? "") || a.Name.localeCompare(b.Name));
 
     const handleAddItem = (itemId: number) => {

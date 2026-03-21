@@ -264,7 +264,7 @@ export class MeetSchedule {
     public LinkedMeetIds?: number[];
 
     /**
-     * Optional optmized schedule for the meets.
+     * Optional optimized schedule for the meets.
      */
     public OptimizedSchedule?: ScheduleTemplate;
 
