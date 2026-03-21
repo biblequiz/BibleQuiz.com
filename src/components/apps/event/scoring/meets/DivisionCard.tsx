@@ -5,6 +5,7 @@ interface Props {
     meetId: number;
     displaySettings: OnlineDatabaseMeetDisplaySettings;
     hasAnyMissingQuestions: boolean;
+    isIndividualTournament: boolean;
     isScoreKeep: boolean;
     disabled: boolean;
     isDragOver: boolean;
@@ -25,6 +26,7 @@ export default function DivisionCard({
     meetId,
     displaySettings,
     hasAnyMissingQuestions,
+    isIndividualTournament,
     isScoreKeep,
     disabled,
     isDragOver,
@@ -61,6 +63,9 @@ export default function DivisionCard({
                             classNames={["cursor-grab", "text-base-content/40"]}
                         />
                         <h3 className="card-title text-base m-0">{divisionName}</h3>
+                        {isIndividualTournament && (
+                            <span className="badge badge-secondary badge-sm">Individual Division</span>
+                        )}
                     </div>
                     {!isScoreKeep && (
                         <button
@@ -107,16 +112,18 @@ export default function DivisionCard({
                         <span className="label-text text-sm">Stats</span>
                     </label>
 
-                    <label className="label cursor-pointer gap-2 p-0">
-                        <input
-                            type="checkbox"
-                            className="checkbox checkbox-sm checkbox-primary"
-                            checked={displaySettings.ShowIndividualScores}
-                            onChange={(e) => onDisplaySettingsChange(meetId, "ShowIndividualScores", e.target.checked)}
-                            disabled={disabled || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
-                        />
-                        <span className="label-text text-sm">Individuals</span>
-                    </label>
+                    {!isIndividualTournament && (
+                        <label className="label cursor-pointer gap-2 p-0">
+                            <input
+                                type="checkbox"
+                                className="checkbox checkbox-sm checkbox-primary"
+                                checked={displaySettings.ShowIndividualScores}
+                                onChange={(e) => onDisplaySettingsChange(meetId, "ShowIndividualScores", e.target.checked)}
+                                disabled={disabled || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
+                            />
+                            <span className="label-text text-sm">Individuals</span>
+                        </label>
+                    )}
 
                     <label className="label cursor-pointer gap-2 p-0">
                         <input

@@ -234,6 +234,11 @@ export interface TeamOrQuizzerReference {
      * Name of the team or quizzer's church.
      */
     ChurchName?: string | null;
+
+    /**
+     * Value indicating whether the team or quizzer is be hidden.
+     */
+    IsHidden: boolean;
 }
 
 /**
