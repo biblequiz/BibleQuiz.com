@@ -1,0 +1,520 @@
+{
+  "EventName": "Metro A Year End",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Metro A Year End",
+        "LastUpdated": "3/21/26 4:45 PM",
+        "DatabaseLastUpdated": "2026-03-21T00:51:37.9640344+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Jermey Yates",
+            "Quizzers": [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_3117bad0-f7fb-481a-bc8d-d33b47e6b742",
+            "Name": "Bethalto",
+            "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 12,
+              "WinPercentage": 25,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 2150,
+              "PerMeetTotalPoints": [
+                485,
+                575,
+                520,
+                570
+              ],
+              "AveragePoints": 134.4,
+              "AverageCorrect": 10.3,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 130,
+              "Correct20s": 25,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Bridget Miller",
+            "Quizzers": [
+              0,
+              4,
+              8
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_fc739b19-f286-48e2-b6fb-2cefdbfa48ba",
+            "Name": "Carlinville",
+            "ChurchId": "891360fb-848f-4fab-b009-979139d2f58e",
+            "ChurchName": "First Assembly of God",
+            "City": "Carlinville",
+            "State": "IL",
+            "Scores": {
+              "Wins": 10,
+              "Losses": 6,
+              "WinPercentage": 62,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2620,
+              "PerMeetTotalPoints": [
+                795,
+                730,
+                625,
+                470
+              ],
+              "AveragePoints": 163.8,
+              "AverageCorrect": 9.4,
+              "QuizOuts": 16,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 70,
+              "Correct20s": 49,
+              "Correct30s": 31,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Kehinde Jegede",
+            "Quizzers": [
+              2,
+              5,
+              10
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_3bfc5e7d-f58e-4af9-a0d7-ec3524d59bd3",
+            "Name": "Normal",
+            "ChurchId": "c92dc539-f28e-47f4-bef0-693153ad7436",
+            "ChurchName": "First Assembly of God",
+            "City": "Normal",
+            "State": "IL",
+            "Scores": {
+              "Wins": 10,
+              "Losses": 6,
+              "WinPercentage": 62,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 2880,
+              "PerMeetTotalPoints": [
+                595,
+                625,
+                735,
+                925
+              ],
+              "AveragePoints": 180.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 26,
+              "Correct20s": 88,
+              "Correct30s": 30,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Carlinville",
+            "YearsQuizzing": null,
+            "Id": "q_b5841b17e4ae446b014c08d9ffe43770",
+            "Name": "Beau Miller",
+            "ChurchId": "891360fb-848f-4fab-b009-979139d2f58e",
+            "ChurchName": "First Assembly of God",
+            "City": "Carlinville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 605,
+              "PerMeetTotalPoints": [
+                240,
+                160,
+                100,
+                105
+              ],
+              "AveragePoints": 37.8,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 55,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethalto",
+            "YearsQuizzing": null,
+            "Id": "q_92414c963ece4e96822b08dbb0cb2340",
+            "Name": "Eliza Schneider",
+            "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Normal",
+            "YearsQuizzing": null,
+            "Id": "q_0bf4da5dc51243f716b308d9f59f42e5",
+            "Name": "Erioluwa Jegede",
+            "ChurchId": "c92dc539-f28e-47f4-bef0-693153ad7436",
+            "ChurchName": "First Assembly of God",
+            "City": "Normal",
+            "State": "IL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": [
+                145,
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 9.1,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethalto",
+            "YearsQuizzing": null,
+            "Id": "q_5cd4b8aaa3344846824608dbb0cb2340",
+            "Name": "Grace Schneider",
+            "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 970,
+              "PerMeetTotalPoints": [
+                130,
+                365,
+                185,
+                290
+              ],
+              "AveragePoints": 60.6,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 53,
+              "Correct20s": 11,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Carlinville",
+            "YearsQuizzing": null,
+            "Id": "q_2eb33553d90a45ca016b08d9ffe43770",
+            "Name": "Graeme Mahkovtz",
+            "ChurchId": "891360fb-848f-4fab-b009-979139d2f58e",
+            "ChurchName": "First Assembly of God",
+            "City": "Carlinville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                10,
+                0
+              ],
+              "AveragePoints": 0.6,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Normal",
+            "YearsQuizzing": null,
+            "Id": "q_dbd8fdb15b3b4733a34308da0ba4270e",
+            "Name": "Joanna Victor",
+            "ChurchId": "c92dc539-f28e-47f4-bef0-693153ad7436",
+            "ChurchName": "First Assembly of God",
+            "City": "Normal",
+            "State": "IL",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1590,
+              "PerMeetTotalPoints": [
+                260,
+                330,
+                400,
+                600
+              ],
+              "AveragePoints": 99.4,
+              "AverageCorrect": 5.1,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 55,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethalto",
+            "YearsQuizzing": null,
+            "Id": "q_e0dde53dd6b647d7820a08dbb0cb2340",
+            "Name": "Jon Schneider",
+            "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 750,
+              "PerMeetTotalPoints": [
+                245,
+                65,
+                180,
+                260
+              ],
+              "AveragePoints": 46.9,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 46,
+              "Correct20s": 7,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethalto",
+            "YearsQuizzing": null,
+            "Id": "q_b8d12f77a17640ea01f308d8f210b534",
+            "Name": "Kenzie Yates",
+            "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": [
+                90,
+                145,
+                140,
+                0
+              ],
+              "AveragePoints": 23.4,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 29,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Carlinville",
+            "YearsQuizzing": null,
+            "Id": "q_7d30a8f11bf44ac4013b08d9ffe43770",
+            "Name": "Madelyn Cloninger",
+            "ChurchId": "891360fb-848f-4fab-b009-979139d2f58e",
+            "ChurchName": "First Assembly of God",
+            "City": "Carlinville",
+            "State": "IL",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2005,
+              "PerMeetTotalPoints": [
+                555,
+                570,
+                515,
+                365
+              ],
+              "AveragePoints": 125.3,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 14,
+              "Correct20s": 43,
+              "Correct30s": 31,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bethalto",
+            "YearsQuizzing": null,
+            "Id": "q_b7ab0c9c92534e6fe4c908d73ea9b255",
+            "Name": "Micah Schneider",
+            "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": [
+                20,
+                0,
+                15,
+                20
+              ],
+              "AveragePoints": 3.4,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Normal",
+            "YearsQuizzing": null,
+            "Id": "q_b4ac568b77bb40405c1c08dbafc02107",
+            "Name": "Siddhaarth Karthick",
+            "ChurchId": "c92dc539-f28e-47f4-bef0-693153ad7436",
+            "ChurchName": "First Assembly of God",
+            "City": "Normal",
+            "State": "IL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1145,
+              "PerMeetTotalPoints": [
+                190,
+                295,
+                335,
+                325
+              ],
+              "AveragePoints": 71.6,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 2,
+              "Correct20s": 28,
+              "Correct30s": 21,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          5,
+          10,
+          3,
+          6,
+          0,
+          7,
+          2,
+          9,
+          4,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "Illinois League Registration October '25 (JBQ): Metro - Oct25 - A League",
+          "Illinois League Registration December '25 (JBQ): Metro - Dec25 - A League",
+          "Illinois League Registration January '26 (JBQ): January A",
+          "Illinois League Registration March '26 (JBQ): MetroA"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-21T16:45:15.5553634+00:00"
+}
