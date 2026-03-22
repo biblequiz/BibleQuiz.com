@@ -1,0 +1,965 @@
+{
+  "EventName": "MN Central Rookie B 2025-26 Cumulative",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "MN Central Rookie B 2025-26 Cumulative",
+        "LastUpdated": "3/21/26 5:34 PM",
+        "DatabaseLastUpdated": "2026-03-21T21:14:47.7830771+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Anna Sepulveda",
+            "Quizzers": [
+              0,
+              2,
+              8,
+              19
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_f332ab04-cfdd-477b-a688-c1f59ec62efd",
+            "Name": "Gospel Builders",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 6,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 690,
+              "PerMeetTotalPoints": [
+                230,
+                240,
+                220
+              ],
+              "AveragePoints": 57.5,
+              "AverageCorrect": 6.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 64,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Marissa Beaudry",
+            "Quizzers": [
+              7,
+              15,
+              18,
+              20
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_fae542ba-1955-4bb5-b982-d34573f1712d",
+            "Name": "Life Assembly of God (Saint Cloud) #2",
+            "ChurchId": "c20d9e47-4e75-4093-8921-2892053c817b",
+            "ChurchName": "Life Assembly of God",
+            "City": "Saint Cloud",
+            "State": "MN",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 12,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": [
+                25,
+                0,
+                15
+              ],
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Michelle Sanderson",
+            "Quizzers": [
+              1,
+              3,
+              5,
+              11,
+              17,
+              22
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_1d56cd71-892d-4cce-b450-651a476c4045",
+            "Name": "Ramen Noodles",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 3,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1255,
+              "PerMeetTotalPoints": [
+                415,
+                395,
+                445
+              ],
+              "AveragePoints": 104.6,
+              "AverageCorrect": 8.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 70,
+              "Correct20s": 30,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Tom Freyberger",
+            "Quizzers": [
+              6,
+              10,
+              12,
+              14,
+              21
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_e636262f-bef9-4047-a5b2-d41b0e684c60",
+            "Name": "Reese’s Pieces for Jesus",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Wins": 11,
+              "Losses": 1,
+              "WinPercentage": 92,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1520,
+              "PerMeetTotalPoints": [
+                675,
+                645,
+                200
+              ],
+              "AveragePoints": 126.7,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 62,
+              "Correct20s": 34,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Annette Wilson",
+            "Quizzers": [
+              4,
+              9,
+              13,
+              16,
+              23
+            ],
+            "Matches": null,
+            "CurrentMatchId": null,
+            "Id": "t_9cf86da0-4f19-4aed-9c37-97c781d21ada",
+            "Name": "The Waters Church (Sartell) Anchor Squad",
+            "ChurchId": "4b328021-91c8-4417-ac12-3eb80369c1c7",
+            "ChurchName": "The Waters Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 8,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "PerMeetTotalPoints": [
+                190,
+                160,
+                125
+              ],
+              "AveragePoints": 39.6,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 32,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          3,
+          2,
+          0,
+          4,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Gospel Builders",
+            "YearsQuizzing": null,
+            "Id": "q_f453cc927111480bc99808dbc909e367",
+            "Name": "Aubree Baker",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": [
+                55,
+                45,
+                10
+              ],
+              "AveragePoints": 9.2,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 9,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ramen Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_b54673194cd54c8c8b7408dbe09f162e",
+            "Name": "Aubrietta Yetzer",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": [
+                145,
+                50,
+                0
+              ],
+              "AveragePoints": 16.2,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 13,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Gospel Builders",
+            "YearsQuizzing": null,
+            "Id": "q_2094497775724751ca1508dbc909e367",
+            "Name": "Conley Smith",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": [
+                -10,
+                25,
+                45
+              ],
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ramen Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_86199f2d6275446d8b9708dbe09f162e",
+            "Name": "Elizabeth Freyberger",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": [
+                100,
+                20,
+                35
+              ],
+              "AveragePoints": 12.9,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 5,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Waters Church (Sartell) Anchor Squad",
+            "YearsQuizzing": null,
+            "Id": "q_9a6a81cc8fb7400dae9908de045d4f17",
+            "Name": "Emma Jensen",
+            "ChurchId": "4b328021-91c8-4417-ac12-3eb80369c1c7",
+            "ChurchName": "The Waters Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": [
+                30,
+                40,
+                0
+              ],
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ramen Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_093f2480c42f45668b7e08dbe09f162e",
+            "Name": "Glory Buhman",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": [
+                0,
+                40,
+                110
+              ],
+              "AveragePoints": 12.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Reese’s Pieces for Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_1a0d1df7bb9e4c12eb6c08dcfe134c2d",
+            "Name": "Gracie Towner",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": [
+                100,
+                20,
+                -20
+              ],
+              "AveragePoints": 8.3,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 11,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Assembly of God (Saint Cloud) #2",
+            "YearsQuizzing": null,
+            "Id": "q_19987617ee42452649fa08de1333a8bd",
+            "Name": "Harlem Stephenson",
+            "ChurchId": "c20d9e47-4e75-4093-8921-2892053c817b",
+            "ChurchName": "Life Assembly of God",
+            "City": "Saint Cloud",
+            "State": "MN",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Gospel Builders",
+            "YearsQuizzing": null,
+            "Id": "q_383ef561271d4bf0185108de1687ad9b",
+            "Name": "Jake Sepulveda",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": [
+                55,
+                80,
+                20
+              ],
+              "AveragePoints": 12.9,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 4,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Waters Church (Sartell) Anchor Squad",
+            "YearsQuizzing": null,
+            "Id": "q_8c29aeef287c4206ed3108dcfe134c2d",
+            "Name": "Kyla Wilson",
+            "ChurchId": "4b328021-91c8-4417-ac12-3eb80369c1c7",
+            "ChurchName": "The Waters Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": [
+                110,
+                40,
+                90
+              ],
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Reese’s Pieces for Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_ab3c75a21caf46f4d18308de194f1f33",
+            "Name": "Levi Schneider",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 850,
+              "PerMeetTotalPoints": [
+                400,
+                340,
+                110
+              ],
+              "AveragePoints": 70.8,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 34,
+              "Correct20s": 16,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Ramen Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_14",
+            "Name": "Madelyn VanArsdale",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": [
+                0,
+                15,
+                45
+              ],
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Reese’s Pieces for Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_2041fec8cca84f76d17d08de194f1f33",
+            "Name": "Micah Schneider",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 585,
+              "PerMeetTotalPoints": [
+                175,
+                285,
+                125
+              ],
+              "AveragePoints": 48.8,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 14,
+              "Correct20s": 15,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Waters Church (Sartell) Anchor Squad",
+            "YearsQuizzing": null,
+            "Id": "q_e2f64ddfc57f4b1dae8d08de045d4f17",
+            "Name": "Natalie Molitor",
+            "ChurchId": "4b328021-91c8-4417-ac12-3eb80369c1c7",
+            "ChurchName": "The Waters Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                10,
+                0,
+                0
+              ],
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Reese’s Pieces for Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_025cee0fa8bd4ffcaeda08dd3022cbc1",
+            "Name": "Olivia Bashtovoy",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                -15
+              ],
+              "AveragePoints": -1.2,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Assembly of God (Saint Cloud) #2",
+            "YearsQuizzing": null,
+            "Id": "q_acd8dabc8bf945f33b9708dd31d507dd",
+            "Name": "Olivia Schul",
+            "ChurchId": "c20d9e47-4e75-4093-8921-2892053c817b",
+            "ChurchName": "Life Assembly of God",
+            "City": "Saint Cloud",
+            "State": "MN",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": [
+                15,
+                0,
+                15
+              ],
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Waters Church (Sartell) Anchor Squad",
+            "YearsQuizzing": null,
+            "Id": "q_75f6152f99264473ed3708dcfe134c2d",
+            "Name": "Raina Hall",
+            "ChurchId": "4b328021-91c8-4417-ac12-3eb80369c1c7",
+            "ChurchName": "The Waters Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ramen Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_64eae969e0324a97d15f08de194f1f33",
+            "Name": "Reighlyn Glanz",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                85
+              ],
+              "AveragePoints": 7.1,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Assembly of God (Saint Cloud) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8655d35e1150495149ff08de1333a8bd",
+            "Name": "Rhys Jones",
+            "ChurchId": "c20d9e47-4e75-4093-8921-2892053c817b",
+            "ChurchName": "Life Assembly of God",
+            "City": "Saint Cloud",
+            "State": "MN",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Gospel Builders",
+            "YearsQuizzing": null,
+            "Id": "q_202e8988a3704324184b08de1687ad9b",
+            "Name": "SiYahn Latham",
+            "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
+            "ChurchName": "Solid Rock Family Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 365,
+              "PerMeetTotalPoints": [
+                130,
+                90,
+                145
+              ],
+              "AveragePoints": 30.4,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 41,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Assembly of God (Saint Cloud) #2",
+            "YearsQuizzing": null,
+            "Id": "q_00000000-0000-0000-0000-000000000002_8",
+            "Name": "Sophie Lutz",
+            "ChurchId": "c20d9e47-4e75-4093-8921-2892053c817b",
+            "ChurchName": "Life Assembly of God",
+            "City": "Saint Cloud",
+            "State": "MN",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                10,
+                0,
+                0
+              ],
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Reese’s Pieces for Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_d28f4241a81e49318ba308dbe09f162e",
+            "Name": "Uriah Sedler",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                0,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Ramen Noodles",
+            "YearsQuizzing": null,
+            "Id": "q_fdd605f31fc643a4eb7208dcfe134c2d",
+            "Name": "Vivian Sanderson",
+            "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
+            "ChurchName": "New Life Church of Princeton",
+            "City": "Princeton",
+            "State": "MN",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 610,
+              "PerMeetTotalPoints": [
+                170,
+                270,
+                170
+              ],
+              "AveragePoints": 50.8,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 38,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Waters Church (Sartell) Anchor Squad",
+            "YearsQuizzing": null,
+            "Id": "q_616f8b08466d413dc75e08dbdb2a87a5",
+            "Name": "Vivienne Snyder",
+            "ChurchId": "4b328021-91c8-4417-ac12-3eb80369c1c7",
+            "ChurchName": "The Waters Church",
+            "City": "Sartell",
+            "State": "MN",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": [
+                40,
+                80,
+                35
+              ],
+              "AveragePoints": 12.9,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          10,
+          22,
+          12,
+          19,
+          9,
+          1,
+          23,
+          8,
+          3,
+          5,
+          0,
+          6,
+          17,
+          4,
+          11,
+          2,
+          15,
+          13,
+          20,
+          7,
+          16,
+          18,
+          21,
+          14
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": [
+          "2026-03 Rookie B",
+          "2026-02 Rookie B",
+          "2026-01 Rookie B"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-21T21:14:47.9782107+00:00"
+}
