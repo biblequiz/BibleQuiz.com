@@ -21,7 +21,7 @@ export class AstroMeetsService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet. If 0 is given, a default will be returned.
-     * @param isIndividualTournament Value indicating whether this is an individual tournament. Only required when meetId is less than 1.
+     * @param isIndividualCompetition Value indicating whether this is an individual competition. Only required when meetId is less than 1.
      *
      * @returns Meet settings.
      */
@@ -30,7 +30,7 @@ export class AstroMeetsService {
         eventId: string,
         databaseId: string,
         meetId: number,
-        isIndividualTournament: boolean = false,
+        isIndividualCompetition: boolean = false,
     ): Promise<OnlineMeetSettings> {
         return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings>(
             auth,
@@ -38,7 +38,7 @@ export class AstroMeetsService {
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
             RemoteServiceUtility.getFilteredUrlParameters({
-                isIndividualTournament,
+                isIndividualCompetition,
             }),
         );
     }
@@ -221,10 +221,10 @@ export interface OnlineMeetSettings {
     MatchTimes?: Record<number, string | null> | null;
 
     /**
-     * Value indicating whether this meet is an individual tournament. This can only be set when the meet is created. If this is true, AllQuizzers
+     * Value indicating whether this meet is an individual competition. This can only be set when the meet is created. If this is true, AllQuizzers
      * will be populated. Otherwise, AllTeams will be populated.
      */
-    IsIndividualTournament: boolean;
+    IsIndividualCompetition: boolean;
 
     /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.
@@ -268,20 +268,15 @@ export interface OnlineMeetSchedulingSettings {
     TeamIds: number[];
 
     /**
-     * Value indicating whether this meet is an individual tournament. This can only be set when the meet is created. If this is true, OnlineMeetSettings.AllQuizzers
+     * Value indicating whether this meet is an individual competition. This can only be set when the meet is created. If this is true, OnlineMeetSettings.AllQuizzers
      * will be populated. Otherwise, OnlineMeetSettings.AllTeams will be populated.
      */
-    IsIndividualTournament: boolean;
+    IsIndividualCompetition: boolean;
 
     /**
      * Ordered list of quizzer ids for this meet (if individual competition).
      */
     QuizzerIds: number[];
-
-    /**
-     * Maximum quizzers per room for an individual tournament.
-     */
-    MaxQuizzersPerRoom: number | null;
 
     /**
      * Value indicating whether bye rounds should be included in scores.

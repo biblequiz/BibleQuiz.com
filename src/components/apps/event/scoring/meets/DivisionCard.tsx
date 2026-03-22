@@ -5,7 +5,7 @@ interface Props {
     meetId: number;
     displaySettings: OnlineDatabaseMeetDisplaySettings;
     hasAnyMissingQuestions: boolean;
-    isIndividualTournament: boolean;
+    isIndividualCompetition: boolean;
     isScoreKeep: boolean;
     disabled: boolean;
     isDragOver: boolean;
@@ -26,7 +26,7 @@ export default function DivisionCard({
     meetId,
     displaySettings,
     hasAnyMissingQuestions,
-    isIndividualTournament,
+    isIndividualCompetition,
     isScoreKeep,
     disabled,
     isDragOver,
@@ -63,7 +63,7 @@ export default function DivisionCard({
                             classNames={["cursor-grab", "text-base-content/40"]}
                         />
                         <h3 className="card-title text-base m-0">{divisionName}</h3>
-                        {isIndividualTournament && (
+                        {isIndividualCompetition && (
                             <span className="badge badge-secondary badge-sm">Individual Division</span>
                         )}
                     </div>
@@ -112,7 +112,7 @@ export default function DivisionCard({
                         <span className="label-text text-sm">Stats</span>
                     </label>
 
-                    {!isIndividualTournament && (
+                    {!isIndividualCompetition && (
                         <label className="label cursor-pointer gap-2 p-0">
                             <input
                                 type="checkbox"

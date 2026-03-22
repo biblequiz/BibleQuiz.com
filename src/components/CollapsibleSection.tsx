@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 
 interface SectionBadge {
@@ -78,6 +78,22 @@ export default function CollapsibleSection({
         return defaultOpen ?? false;
     });
 
+    // Auto-expand when a child element fires an 'invalid' event (e.g. from reportValidity()).
+    // The 'invalid' event doesn't bubble, so we must listen in capture phase.
+    const contentRef = useRef<HTMLDivElement>(null);
+    useEffect(() => {
+        const el = contentRef.current;
+        if (!el) return;
+
+        const onInvalid = () => {
+            if (!isOpen) {
+                setIsOpenAndPersist(true);
+            }
+        };
+        el.addEventListener('invalid', onInvalid, true);
+        return () => el.removeEventListener('invalid', onInvalid, true);
+    }, [isOpen]);
+
     useEffect(() => {
         if (forceOpen) {
             setIsOpenAndPersist(true);
@@ -148,7 +164,7 @@ export default function CollapsibleSection({
                 <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
                     {titleElement}
                 </div>
-                <div className="collapse-content text-sm overflow-x-auto mt-0">{children}</div>
+                <div ref={contentRef} className="collapse-content text-sm overflow-x-auto mt-0">{children}</div>
             </div>);
     }
 }

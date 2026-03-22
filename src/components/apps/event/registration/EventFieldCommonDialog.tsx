@@ -82,7 +82,7 @@ export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: 
                             addField={() => addField(getGradeField(typeId))} />
                         <EventFieldCommonCard
                             title="Individuals"
-                            description="Participant in the Individual Tournament."
+                            description="Participant in the Individual Competition."
                             restriction="Quizzers Only"
                             addField={() => {
                                 const newField: EventField = {

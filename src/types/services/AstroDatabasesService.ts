@@ -278,9 +278,9 @@ export class OnlineDatabaseMeetSummary {
     public readonly Display!: OnlineDatabaseMeetDisplaySettings;
 
     /**
-     * Value indicating whether this is an individual tournament.
+     * Value indicating whether this is an individual competition.
      */
-    public readonly IsIndividualTournament!: boolean;
+    public readonly IsIndividualCompetition!: boolean;
 
     /**
      * Value indicating whether there are any matches without imported questions.

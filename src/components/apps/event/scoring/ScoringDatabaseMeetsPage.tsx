@@ -450,7 +450,7 @@ export default function ScoringDatabaseMeetsPage() {
                                 meetId={meet.Display.Id}
                                 displaySettings={displaySettings}
                                 hasAnyMissingQuestions={meet.HasAnyMissingQuestions}
-                                isIndividualTournament={meet.IsIndividualTournament}
+                                isIndividualCompetition={meet.IsIndividualCompetition}
                                 isScoreKeep={isScoreKeep}
                                 disabled={isSaving}
                                 isDragOver={dragOverMeetId === meet.Display.Id}
@@ -485,7 +485,7 @@ export default function ScoringDatabaseMeetsPage() {
                     allMeets={currentDatabase.Meets}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={false}
-                    isIndividualTournament={currentDatabase.Meets.find(m => m.Display.Id === editingMeet.meetId)?.IsIndividualTournament || false}
+                    isIndividualCompetition={currentDatabase.Meets.find(m => m.Display.Id === editingMeet.meetId)?.IsIndividualCompetition || false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
@@ -543,7 +543,7 @@ export default function ScoringDatabaseMeetsPage() {
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}
-                    isIndividualTournament={false}
+                    isIndividualCompetition={false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
@@ -562,7 +562,7 @@ export default function ScoringDatabaseMeetsPage() {
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}
-                    isIndividualTournament={true}
+                    isIndividualCompetition={true}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />

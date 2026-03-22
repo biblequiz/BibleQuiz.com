@@ -35,7 +35,7 @@ interface Props {
     defaultMatchStartTime: string;
     isScoreKeepDatabase: boolean;
     isNew: boolean;
-    isIndividualTournament: boolean;
+    isIndividualCompetition: boolean;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
     onClose: () => void;
 }
@@ -52,7 +52,7 @@ export default function DivisionScheduleDialog({
     defaultMatchStartTime,
     isScoreKeepDatabase,
     isNew,
-    isIndividualTournament,
+    isIndividualCompetition,
     onSave,
     onClose
 }: Props) {
@@ -82,7 +82,6 @@ export default function DivisionScheduleDialog({
     const [includeByesInScores, setIncludeByesInScores] = useState(false);
     const [startingRoundOverride, setStartingRoundOverride] = useState<number | null>(null);
     const [roundCountOverride, setRoundCountOverride] = useState<number | null>(null);
-    const [maxQuizzersPerRoom, setMaxQuizzersPerRoom] = useState<number>(6);
 
     // Custom schedule state
     const [hasCustomSchedule, setHasCustomSchedule] = useState(false);
@@ -129,7 +128,7 @@ export default function DivisionScheduleDialog({
 
         const meetIdToLoad = isNew ? 0 : meetId;
 
-        AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad, isNew ? isIndividualTournament : false)
+        AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad, isNew ? isIndividualCompetition : false)
             .then(data => {
                 setSettings(data);
 
@@ -156,9 +155,6 @@ export default function DivisionScheduleDialog({
                         setIncludeByesInScores(data.Schedule.IncludeByesInScores || false);
                         setStartingRoundOverride(data.Schedule.StartingTemplateRoundOverride || null);
                         setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
-                        if (data.Schedule.MaxQuizzersPerRoom) {
-                            setMaxQuizzersPerRoom(data.Schedule.MaxQuizzersPerRoom);
-                        }
                     }
 
                     // Custom schedule from server
@@ -200,7 +196,7 @@ export default function DivisionScheduleDialog({
                 setError(err.message || "Failed to load division settings.");
                 setIsLoading(false);
             });
-    }, [auth, eventId, databaseId, meetId, isNew, isIndividualTournament]);
+    }, [auth, eventId, databaseId, meetId, isNew, isIndividualCompetition]);
 
     // Sync room count with schedule preview
     useEffect(() => {
@@ -310,11 +306,6 @@ export default function DivisionScheduleDialog({
         markScheduleOutOfDate();
     };
 
-    const handleMaxQuizzersPerRoomChange = (value: number) => {
-        setMaxQuizzersPerRoom(value);
-        markScheduleOutOfDate();
-    };
-
     const handleLinkedMeetsSave = (newLinkedMeetIds: number[]) => {
         setLinkedMeetIds(newLinkedMeetIds);
         setShowLinkedMeetsDialog(false);
@@ -344,11 +335,10 @@ export default function DivisionScheduleDialog({
 
     // Build scheduling settings object (reused across multiple operations)
     const getSchedulingSettings = (): OnlineMeetSchedulingSettings => ({
-        LinkedMeetIds: isIndividualTournament ? [] : linkedMeetIds,
-        TeamIds: isIndividualTournament ? [] : selectedTeamIds,
-        IsIndividualTournament: isIndividualTournament,
-        QuizzerIds: isIndividualTournament ? selectedQuizzerIds : [],
-        MaxQuizzersPerRoom: isIndividualTournament ? maxQuizzersPerRoom : null,
+        LinkedMeetIds: isIndividualCompetition ? [] : linkedMeetIds,
+        TeamIds: isIndividualCompetition ? [] : selectedTeamIds,
+        IsIndividualCompetition: isIndividualCompetition,
+        QuizzerIds: isIndividualCompetition ? selectedQuizzerIds : [],
         IncludeByesInScores: includeByesInScores,
         HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
         IsScheduleChanged: true,
@@ -523,9 +513,9 @@ export default function DivisionScheduleDialog({
 
     // Refresh schedule preview
     const handleRefreshPreview = async () => {
-        const minItems = isIndividualTournament ? 2 : 2;
-        const selectedCount = isIndividualTournament ? selectedQuizzerIds.length : selectedTeamIds.length;
-        const itemLabel = isIndividualTournament ? "quizzers" : "teams";
+        const minItems = isIndividualCompetition ? 2 : 2;
+        const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
+        const itemLabel = isIndividualCompetition ? "quizzers" : "teams";
         
         if (selectedCount < minItems) {
             setError(`You must assign at least two ${itemLabel} to generate a schedule.`);
@@ -609,8 +599,8 @@ export default function DivisionScheduleDialog({
             return;
         }
 
-        const selectedCount = isIndividualTournament ? selectedQuizzerIds.length : selectedTeamIds.length;
-        const itemLabel = isIndividualTournament ? "quizzers" : "teams";
+        const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
+        const itemLabel = isIndividualCompetition ? "quizzers" : "teams";
         
         if (selectedCount < 2) {
             setError(`You must assign at least two ${itemLabel}.`);
@@ -638,11 +628,10 @@ export default function DivisionScheduleDialog({
             }
 
             const updatedSchedule = hasOriginalSchedule ? undefined : {
-                LinkedMeetIds: isIndividualTournament ? [] : linkedMeetIds,
-                TeamIds: isIndividualTournament ? [] : selectedTeamIds,
-                IsIndividualTournament: isIndividualTournament,
-                QuizzerIds: isIndividualTournament ? selectedQuizzerIds : [],
-                MaxQuizzersPerRoom: isIndividualTournament ? maxQuizzersPerRoom : null,
+                LinkedMeetIds: isIndividualCompetition ? [] : linkedMeetIds,
+                TeamIds: isIndividualCompetition ? [] : selectedTeamIds,
+                IsIndividualCompetition: isIndividualCompetition,
+                QuizzerIds: isIndividualCompetition ? selectedQuizzerIds : [],
                 IncludeByesInScores: includeByesInScores,
                 HasCustomSchedule: hasCustomSchedule && !isRemovingCustomSchedule,
                 IsScheduleChanged: true,
@@ -660,7 +649,7 @@ export default function DivisionScheduleDialog({
                 MatchLengthInMinutes: matchLengthInMinutes,
                 CustomRules: useCustomRules ? customRules : null,
                 MatchTimes: matchTimes,
-                IsIndividualTournament: isIndividualTournament,
+                IsIndividualCompetition: isIndividualCompetition,
                 VersionId: settings?.VersionId || null,
                 Schedule: updatedSchedule
             };
@@ -769,8 +758,8 @@ export default function DivisionScheduleDialog({
                                     </div>
                                 </div>
 
-                                {/* Linked Meets - Not supported for individual tournaments */}
-                                {!isIndividualTournament && (
+                                {/* Linked Meets - Not supported for individual competitions */}
+                                {!isIndividualCompetition && (
                                     <div className="p-2">
                                         <button
                                             type="button"
@@ -815,12 +804,12 @@ export default function DivisionScheduleDialog({
                             <CollapsibleSection
                                 pageId="divisionScheduleDialog"
                                 elementId="teams"
-                                icon={isIndividualTournament ? "fas faUser" : "fas faUsers"}
-                                title={isIndividualTournament ? "Quizzers" : "Teams"}
+                                icon={isIndividualCompetition ? "fas faUser" : "fas faUsers"}
+                                title={isIndividualCompetition ? "Quizzers" : "Teams"}
                                 badges={[
                                     {
                                         className: "badge-info",
-                                        text: `${isIndividualTournament ? selectedQuizzerIds.length : selectedTeamIds.length} selected`
+                                        text: `${isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length} selected`
                                     },
                                     ...(hasCustomSchedule && !isRemovingCustomSchedule ? [{
                                         className: "badge-warning",
@@ -831,13 +820,13 @@ export default function DivisionScheduleDialog({
                                 allowMultipleOpen={true}
                             >
                                 <TeamOrQuizzerSelector
-                                    selectedIds={isIndividualTournament ? selectedQuizzerIds : selectedTeamIds}
-                                    allItems={isIndividualTournament ? allQuizzers : allTeams}
+                                    selectedIds={isIndividualCompetition ? selectedQuizzerIds : selectedTeamIds}
+                                    allItems={isIndividualCompetition ? allQuizzers : allTeams}
                                     disabled={isSaving}
                                     isReadOnly={!canEditScheduleSettings}
-                                    isIndividualTournament={isIndividualTournament}
+                                    isIndividualCompetition={isIndividualCompetition}
                                     allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
-                                    onIdsChange={isIndividualTournament ? handleQuizzerIdsChange : handleTeamIdsChange}
+                                    onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
                                 />
                             </CollapsibleSection>
 
@@ -851,25 +840,6 @@ export default function DivisionScheduleDialog({
                                 allowMultipleOpen={true}
                             >
                                 <div className="p-2 flex flex-wrap gap-4">
-                                    {/* Max Quizzers per Room - Only for individual tournaments */}
-                                    {isIndividualTournament && (
-                                        <div className="form-control">
-                                            <label className="label gap-2 p-0">
-                                                <span className="label-text text-sm">Max Quizzers per Room:</span>
-                                                <select
-                                                    className="select select-xs select-bordered w-20"
-                                                    value={maxQuizzersPerRoom}
-                                                    onChange={(e) => handleMaxQuizzersPerRoomChange(Number(e.target.value))}
-                                                    disabled={!canEditScheduleSettings}
-                                                >
-                                                    <option value={4}>4</option>
-                                                    <option value={6}>6</option>
-                                                    <option value={8}>8</option>
-                                                </select>
-                                            </label>
-                                        </div>
-                                    )}
-
                                     <label className="label cursor-pointer gap-2">
                                         <input
                                             type="checkbox"
@@ -1084,8 +1054,8 @@ export default function DivisionScheduleDialog({
                 </ConfirmationDialog>
             )}
 
-            {/* Linked Meets Dialog - Not for individual tournaments */}
-            {showLinkedMeetsDialog && !isIndividualTournament && (
+            {/* Linked Meets Dialog - Not for individual competitions */}
+            {showLinkedMeetsDialog && !isIndividualCompetition && (
                 <LinkedMeetsDialog
                     currentMeetId={meetId}
                     allMeets={allMeets}

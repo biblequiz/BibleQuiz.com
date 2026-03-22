@@ -92,7 +92,7 @@ export class MatchRules {
     public TimingRules?: TimingRules;
 
     /**
-     * Value indicating whether the competition is an individual tournament (i.e., team scores don't matter).
+     * Value indicating whether the competition is an individual competition (i.e., team scores don't matter).
      */
     public IsIndividualCompetition: boolean;
 

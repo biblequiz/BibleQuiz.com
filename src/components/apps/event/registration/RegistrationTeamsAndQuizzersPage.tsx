@@ -149,7 +149,7 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                         }}
                     />
                     <span>
-                        Individuals can register outside of a team (e.g. individual tournament).
+                        Individuals can register outside of a team (e.g. individual competition).
                     </span>
                 </label>
             </div>

@@ -7,7 +7,7 @@ interface Props {
     allItems: Record<number, TeamOrQuizzerReference>;
     disabled: boolean;
     isReadOnly: boolean;
-    isIndividualTournament: boolean;
+    isIndividualCompetition: boolean;
     allowAddRemove?: boolean;
     onIdsChange: (ids: number[]) => void;
 }
@@ -17,7 +17,7 @@ export default function TeamOrQuizzerSelector({
     allItems,
     disabled,
     isReadOnly,
-    isIndividualTournament,
+    isIndividualCompetition,
     allowAddRemove = true,
     onIdsChange
 }: Props) {
@@ -26,9 +26,9 @@ export default function TeamOrQuizzerSelector({
     const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
 
     // Labels based on tournament type
-    const itemLabel = isIndividualTournament ? "quizzer" : "team";
-    const itemLabelPlural = isIndividualTournament ? "quizzers" : "teams";
-    const itemLabelCapitalized = isIndividualTournament ? "Quizzer" : "Team";
+    const itemLabel = isIndividualCompetition ? "quizzer" : "team";
+    const itemLabelPlural = isIndividualCompetition ? "quizzers" : "teams";
+    const itemLabelCapitalized = isIndividualCompetition ? "Quizzer" : "Team";
 
     // Get available items (not yet selected and not hidden)
     const availableItems = Object.entries(allItems)

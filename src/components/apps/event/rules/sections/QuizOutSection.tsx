@@ -17,21 +17,32 @@ function QuizOutCard({
     state,
     onChange,
     disabled }: QuizOutCardProps) {
+    const isContentDisabled = disabled || !state.enabled;
+
     return (
         <div className="border border-base-300 rounded-lg p-3">
-            <h4 className="font-semibold mb-2">{title}</h4>
-            <div className="grid gap-4">
+            <div className="flex items-center gap-2 mb-2">
+                <h4 className="font-semibold">{title}</h4>
+            </div>
+            <div className={`grid gap-4 ${!state.enabled ? 'opacity-50' : ''}`}>
                 <div className="flex flex-wrap items-center gap-2 mt-0">
                     <div className="flex items-center gap-2 flex-wrap">
+                        <input
+                            type="checkbox"
+                            className="checkbox checkbox-sm"
+                            checked={state.enabled}
+                            onChange={e => onChange({ enabled: e.target.checked })}
+                            disabled={disabled}
+                        />
                         <label className="label">
-                            <span className="label-text text-base-content">After</span>
+                            <span className="label-text text-base-content">after</span>
                         </label>
                         <input
                             type="number"
                             className="input input-sm w-auto"
                             value={state.questions}
                             onChange={e => onChange({ questions: parseInt(e.target.value) || 0 })}
-                            disabled={disabled}
+                            disabled={isContentDisabled}
                             min={0}
                             max={20}
                             step={1}
@@ -47,7 +58,7 @@ function QuizOutCard({
                         value={state.fouls}
                         onCheckedChange={checked => onChange({ foulsEnabled: checked })}
                         onValueChange={value => onChange({ fouls: value })}
-                        disabled={disabled}
+                        disabled={isContentDisabled}
                     />
                 </div>
                 <CheckboxNumberInput
@@ -58,7 +69,7 @@ function QuizOutCard({
                     leftIndent={6}
                     onCheckedChange={checked => onChange({ bonusEnabled: checked })}
                     onValueChange={value => onChange({ bonus: value })}
-                    disabled={disabled}
+                    disabled={isContentDisabled}
                 />
             </div>
         </div>);
