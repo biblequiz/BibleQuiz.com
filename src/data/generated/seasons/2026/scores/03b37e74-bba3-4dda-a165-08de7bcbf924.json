@@ -1,0 +1,4613 @@
+{
+  "EventName": "OHIO States 2026 Saturday",
+  "DatabaseNames": {
+    "34d2b086-1dc8-4186-966c-3d52c0d8e73b": "OHIO_States_2026_Saturday"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "34d2b086-1dc8-4186-966c-3d52c0d8e73b",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Master Saturday",
+        "LastUpdated": "3/21/26 5:27 PM",
+        "DatabaseLastUpdated": "2026-03-21T14:54:56.4494501+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Matt Davis",
+            "Quizzers": [
+              6,
+              7,
+              15,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 205,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_17",
+            "Name": "(JC) Qubed",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 1,
+              "WinPercentage": 90,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1705,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 170.5,
+              "AverageCorrect": 11.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 62,
+              "Correct20s": 37,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Keith Slembarski",
+            "Quizzers": [
+              3,
+              22,
+              23,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_18",
+            "Name": "BFF's: Buzzing Fish Fillets",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 6,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.5,
+              "AverageCorrect": 8.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 39,
+              "Correct20s": 34,
+              "Correct30s": 14,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "CoachName": "David Sankiewicz",
+            "Quizzers": [
+              1,
+              4,
+              10,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_14",
+            "Name": "Bible Bros",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 7,
+              "WinPercentage": 30,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 1300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 43,
+              "Correct20s": 36,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jordon Berberick",
+            "Quizzers": [
+              0,
+              2,
+              5,
+              8,
+              20
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_5",
+            "Name": "Faith Defenders",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 6,
+              "WinPercentage": 40,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 132.0,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 48,
+              "Correct20s": 35,
+              "Correct30s": 10,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "CoachName": "Lynne Haberland",
+            "Quizzers": [
+              12,
+              13,
+              18,
+              19,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_3",
+            "Name": "Guardians of the Truth",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 5,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 139.0,
+              "AverageCorrect": 9.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 51,
+              "Correct20s": 29,
+              "Correct30s": 18,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Sam Klco",
+            "Quizzers": [
+              9,
+              11,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 165,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "P3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "P1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 180,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "P2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_7",
+            "Name": "NLT (Not Like Thomas)",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 5,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1490,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 149.0,
+              "AverageCorrect": 10.3,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 54,
+              "Correct20s": 34,
+              "Correct30s": 15,
+              "FootnoteIndex": 0
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          5,
+          4,
+          1,
+          3,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Faith Defenders",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_40",
+            "Name": "Anchor Andres",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_120",
+            "Name": "Asher Sankiewicz",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.0,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Defenders",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_30",
+            "Name": "Ava Weidenheft",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "BFF's: Buzzing Fish Fillets",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_157",
+            "Name": "Caleb Smith",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_122",
+            "Name": "Camren Carsten",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 34,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Defenders",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_38",
+            "Name": "Chase Berberick",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.5,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 6,
+              "Correct20s": 35,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "(JC) Qubed",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_146",
+            "Name": "Claire Davis",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 880,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 1,
+              "Correct20s": 21,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "(JC) Qubed",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_149",
+            "Name": "Colt Waller",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 25,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Defenders",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_39",
+            "Name": "Cuyler Berberick",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "NLT (Not Like Thomas)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_57",
+            "Name": "Dillon Weybrecht",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 44,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_121",
+            "Name": "Dominic Nijakowski",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "NLT (Not Like Thomas)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_58",
+            "Name": "Eli Workman",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Truth",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_24",
+            "Name": "Jaden Shobin",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 0,
+              "Correct20s": 16,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Guardians of the Truth",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_20",
+            "Name": "Jassen Anyidoho",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.5,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 4,
+              "Correct20s": 4,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "NLT (Not Like Thomas)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_56",
+            "Name": "Jeremiah Klco",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1005,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 100.5,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 6,
+              "Correct20s": 31,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "(JC) Qubed",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_147",
+            "Name": "Joaquin Sagastume",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 0,
+              "Correct20s": 15,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "(JC) Qubed",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_148",
+            "Name": "John Mark Angel",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.0,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 36,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_119",
+            "Name": "Kire Reichmanis",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 575,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.5,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 0,
+              "Correct20s": 34,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Truth",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_23",
+            "Name": "Liza Ryan",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Truth",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_21",
+            "Name": "Nithya Pulapa",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Faith Defenders",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_41",
+            "Name": "Reagan Hodges",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Truth",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_22",
+            "Name": "Ryan Meripe",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 435,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.5,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 16,
+              "Correct20s": 7,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "BFF's: Buzzing Fish Fillets",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_156",
+            "Name": "Tate Glassford",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 39.5,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 0,
+              "Correct20s": 21,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "BFF's: Buzzing Fish Fillets",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_155",
+            "Name": "Tim Kohring",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 585,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.5,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 0,
+              "Correct20s": 12,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "BFF's: Buzzing Fish Fillets",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_158",
+            "Name": "Zeke Magrum",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 29,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          14,
+          6,
+          5,
+          23,
+          17,
+          1,
+          21,
+          9,
+          22,
+          16,
+          13,
+          18,
+          24,
+          4,
+          7,
+          12,
+          8,
+          15,
+          0,
+          2,
+          11,
+          19,
+          3,
+          10,
+          20
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "P1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "P2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "P3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 10,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "34d2b086-1dc8-4186-966c-3d52c0d8e73b",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Achiever Saturday",
+        "LastUpdated": "3/21/26 5:27 PM",
+        "DatabaseLastUpdated": "2026-03-21T14:54:56.4494501+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Loretta Riley",
+            "Quizzers": [
+              10,
+              14,
+              15,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_9",
+            "Name": "Connection Kids A - The BaconAtors",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 975,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 195.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 20,
+              "Correct20s": 15,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Kathryn Knoll",
+            "Quizzers": [
+              3,
+              9,
+              12,
+              16,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_4",
+            "Name": "Faith Warriors",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.0,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 28,
+              "Correct20s": 6,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Javeen Pulapa",
+            "Quizzers": [
+              6,
+              20,
+              21,
+              22,
+              23,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 275,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_2",
+            "Name": "Guardians of the Kingdom",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1015,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 203.0,
+              "AverageCorrect": 12.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 30,
+              "Correct20s": 23,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jared Heller",
+            "Quizzers": [
+              7,
+              13,
+              24
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": -10,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_10",
+            "Name": "Louisville",
+            "ChurchId": null,
+            "ChurchName": "Louisville A/G",
+            "City": "Louisville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 6,
+              "Correct20s": 17,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Daniel Ward",
+            "Quizzers": [
+              2,
+              4,
+              5,
+              8,
+              19
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_15",
+            "Name": "Queen Esther's Quizzers",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 760,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 152.0,
+              "AverageCorrect": 10.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 36,
+              "Correct20s": 18,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Leah Reichmanis",
+            "Quizzers": [
+              0,
+              1,
+              11,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "G2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "G3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "G1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_13",
+            "Name": "Scripture Squad",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 650,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 23,
+              "Correct20s": 14,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Scripture Squad",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_110",
+            "Name": "Arya King",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 400,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 5,
+              "Correct20s": 13,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Scripture Squad",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_111",
+            "Name": "Aurelia Marchand",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Queen Esther's Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_129",
+            "Name": "Ava North",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_34",
+            "Name": "Bella Knoll",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Queen Esther's Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_131",
+            "Name": "Chyla Lawrence",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 29,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Queen Esther's Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_132",
+            "Name": "Claire Sokoloski",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Guardians of the Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_11",
+            "Name": "Eliza Mathew",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Louisville",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_84",
+            "Name": "Elliott Heller",
+            "ChurchId": null,
+            "ChurchName": "Louisville A/G",
+            "City": "Louisville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Queen Esther's Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_130",
+            "Name": "Genesis Smith",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_33",
+            "Name": "Greyson Gundlach",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Connection Kids A - The BaconAtors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_77",
+            "Name": "Isaac Zimmerly",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Scripture Squad",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_112",
+            "Name": "Jean-Baptiste Marchand",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_32",
+            "Name": "Joel Burns",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Louisville",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_85",
+            "Name": "John Korosy",
+            "ChurchId": null,
+            "ChurchName": "Louisville A/G",
+            "City": "Louisville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Connection Kids A - The BaconAtors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_76",
+            "Name": "Kendall Wheeler",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Connection Kids A - The BaconAtors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_75",
+            "Name": "Lucy McCorcle",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_31",
+            "Name": "Max Knoll",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Scripture Squad",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_113",
+            "Name": "Maya Peterman",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Faith Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_29",
+            "Name": "Miles Knoll",
+            "ChurchId": null,
+            "ChurchName": "Faith Church",
+            "City": "Sandusky",
+            "State": "OH",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 4,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Queen Esther's Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_128",
+            "Name": "Moriah Kohring",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 76.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 18,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_13",
+            "Name": "Nathan Mathew",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 4,
+              "Correct20s": 21,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_15",
+            "Name": "Navya Pulapa",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Guardians of the Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_12",
+            "Name": "Neorah Piyush",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 7,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Guardians of the Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_14",
+            "Name": "Nhyira Essandoh",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          },
+          {
+            "TeamName": "Louisville",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_83",
+            "Name": "Owen Heller",
+            "ChurchId": null,
+            "ChurchName": "Louisville A/G",
+            "City": "Louisville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 0,
+              "Correct20s": 17,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Connection Kids A - The BaconAtors",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_74",
+            "Name": "Peyton McCorcle",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 780,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 156.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 0,
+              "Correct20s": 15,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Guardians of the Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_16",
+            "Name": "Rihan Meripe",
+            "ChurchId": null,
+            "ChurchName": "Radiant Life Church",
+            "City": "Dublin",
+            "State": "OH",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          25,
+          20,
+          0,
+          19,
+          4,
+          24,
+          6,
+          16,
+          22,
+          18,
+          11,
+          15,
+          14,
+          17,
+          7,
+          12,
+          8,
+          2,
+          1,
+          5,
+          21,
+          3,
+          9,
+          10,
+          23,
+          26,
+          13
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "G1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "G2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "G3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "34d2b086-1dc8-4186-966c-3d52c0d8e73b",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Searcher Saturday",
+        "LastUpdated": "3/21/26 5:27 PM",
+        "DatabaseLastUpdated": "2026-03-21T14:54:56.4494501+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Adrian Blackmore",
+            "Quizzers": [
+              1,
+              2,
+              19,
+              27
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 80,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 95,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_11",
+            "Name": "Amen Avengers",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 620,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 124.0,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 16,
+              "Correct20s": 18,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Lindsay McCorcle",
+            "Quizzers": [
+              12,
+              15,
+              16
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_8",
+            "Name": "Connection Kids B - The Bacon Bits",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 13,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Brenda Hemphill",
+            "Quizzers": [
+              0,
+              3,
+              9,
+              10,
+              13,
+              18,
+              24,
+              25
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 200,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 5
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_1",
+            "Name": "Life Kids",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 510,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 102.0,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 22,
+              "Correct20s": 11,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Katie Goss",
+            "Quizzers": [
+              4,
+              8,
+              14,
+              22
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_6",
+            "Name": "PAG Kids (SKEC)",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 79.0,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 28,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Lee Nijakowski",
+            "Quizzers": [
+              7,
+              17,
+              20,
+              23,
+              28
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 5
+              },
+              {
+                "Result": "L",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_12",
+            "Name": "The Glory Gang",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.0,
+              "AverageCorrect": 6.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 27,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "CoachName": "Arron Lawrence",
+            "Quizzers": [
+              5,
+              6,
+              11,
+              21,
+              26
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 215,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "Y2",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "Y3",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 145,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "Y1",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_34d2b086-1dc8-4186-966c-3d52c0d8e73b_16",
+            "Name": "Warriors of God",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 730,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 146.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 24,
+              "Correct20s": 25,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          5,
+          0,
+          2,
+          3,
+          1,
+          4
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_9",
+            "Name": "Abby Campbell",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Amen Avengers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_93",
+            "Name": "Alex Meyer",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 6,
+              "Correct20s": 6,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Amen Avengers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_95",
+            "Name": "Archer Blackmore",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 3,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_2",
+            "Name": "Caleb Mangeri",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "PAG Kids (SKEC)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_50",
+            "Name": "Caleb Weybrecht",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_138",
+            "Name": "Chayim Lawrence",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_137",
+            "Name": "Eli Kohring",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 550,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 110.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 0,
+              "Correct20s": 25,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Glory Gang",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_101",
+            "Name": "Esther King",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 6,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "PAG Kids (SKEC)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_49",
+            "Name": "Evin Henry",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_7",
+            "Name": "Hollyn Blaze",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_4",
+            "Name": "Isaac Thomas",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 54.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 13,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_141",
+            "Name": "Jaxson Ferguson",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Connection Kids B - The Bacon Bits",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_67",
+            "Name": "Jordan Bischoff",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_5",
+            "Name": "Josiah Boone",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "PAG Kids (SKEC)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_48",
+            "Name": "Kai Workman",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 240,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Connection Kids B - The Bacon Bits",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_65",
+            "Name": "Landon Wheeler",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 53.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 7,
+              "Correct20s": 7,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Connection Kids B - The Bacon Bits",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_66",
+            "Name": "Leland Bischoff",
+            "ChurchId": null,
+            "ChurchName": "Connection Church",
+            "City": "Wooster",
+            "State": "OH",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Glory Gang",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_104",
+            "Name": "Makayla Peterman",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_8",
+            "Name": "Maria Campbell",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Amen Avengers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_92",
+            "Name": "Matthew King",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Glory Gang",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_102",
+            "Name": "Moira Nijakowski",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_140",
+            "Name": "Noah North",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "PAG Kids (SKEC)",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_47",
+            "Name": "Saoirse Henry",
+            "ChurchId": null,
+            "ChurchName": "Painesville A/G",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Glory Gang",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_103",
+            "Name": "Seraphine Marchand",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_3",
+            "Name": "Serena Mangeri",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Life Kids",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_6",
+            "Name": "Silas Blaze",
+            "ChurchId": null,
+            "ChurchName": "Life Church A/G",
+            "City": "Garrettsville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Warriors of God",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_139",
+            "Name": "Theo Angel",
+            "ChurchId": null,
+            "ChurchName": "Dayspring Church",
+            "City": "Bowling Green",
+            "State": "OH",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Amen Avengers",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_94",
+            "Name": "Yichai Marchand",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Glory Gang",
+            "YearsQuizzing": null,
+            "Id": "q_34d2b086-1dc8-4186-966c-3d52c0d8e73b_105",
+            "Name": "Zara Sankiewicz",
+            "ChurchId": null,
+            "ChurchName": "Calvary Church",
+            "City": "Toledo",
+            "State": "OH",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          6,
+          1,
+          10,
+          15,
+          14,
+          2,
+          3,
+          20,
+          19,
+          26,
+          7,
+          8,
+          28,
+          21,
+          13,
+          16,
+          12,
+          4,
+          22,
+          11,
+          23,
+          24,
+          0,
+          5,
+          9,
+          17,
+          18,
+          25,
+          27
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "Y1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "Y2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "Y3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-21T17:27:16.4251766+00:00"
+}
