@@ -160,15 +160,16 @@ export default function DivisionCard({
                         Schedule
                     </button>
 
-                    <button
-                        type="button"
-                        className="btn btn-sm btn-outline"
-                        onClick={() => onEditPlayoffs(meetId)}
-                        disabled={disabled}
-                    >
-                        <FontAwesomeIcon icon="fas faTrophy" />
-                        Playoffs
-                    </button>
+                    {!isIndividualCompetition && (
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-outline"
+                            onClick={() => onEditPlayoffs(meetId)}
+                            disabled={disabled}
+                        >
+                            <FontAwesomeIcon icon="fas faTrophy" />
+                            Playoffs
+                        </button>)}
 
                     <button
                         type="button"
@@ -180,15 +181,16 @@ export default function DivisionCard({
                         Ranking
                     </button>
 
-                    <button
-                        type="button"
-                        className="btn btn-sm btn-outline"
-                        onClick={() => onEditStats(meetId)}
-                        disabled={disabled}
-                    >
-                        <FontAwesomeIcon icon="fas faChartBar" />
-                        Stats
-                    </button>
+                    {!isIndividualCompetition && (
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-outline"
+                            onClick={() => onEditStats(meetId)}
+                            disabled={disabled}
+                        >
+                            <FontAwesomeIcon icon="fas faChartBar" />
+                            Stats
+                        </button>)}
                 </div>
             </div>
         </div>

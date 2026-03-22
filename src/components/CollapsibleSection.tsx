@@ -85,9 +85,18 @@ export default function CollapsibleSection({
         const el = contentRef.current;
         if (!el) return;
 
-        const onInvalid = () => {
+        const onInvalid = (e: Event) => {
             if (!isOpen) {
+                e.preventDefault(); // Suppress browser's failed focus attempt
                 setIsOpenAndPersist(true);
+
+                // After React re-renders with the section open, re-show the validation tooltip
+                const target = e.target;
+                if (target instanceof HTMLInputElement
+                    || target instanceof HTMLSelectElement
+                    || target instanceof HTMLTextAreaElement) {
+                    setTimeout(() => target.reportValidity(), 100);
+                }
             }
         };
         el.addEventListener('invalid', onInvalid, true);

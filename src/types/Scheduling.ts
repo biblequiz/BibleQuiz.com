@@ -89,13 +89,38 @@ export class MatchScheduledRoom {
     public QuizzerIds?: Set<number>;
 
     /**
-     * Mapping of placement to the room where the individual is supposed to go. If the place isn't present, the individual is
-     * no longer part of the competition.
+     * List of team or quizzers routed from another room.
      */
-    public PlacementRoomRouting?: Record<number, number>;
+    public RoutedTeamOrQuizzers?: Set<RankRoutedTeamOrQuizzer>;
 
     /**
      * Value indicating whether this is a bye round.
      */
     public IsByeRound: boolean;
+}
+
+/**
+ * Team or quizzer determined based on rank in a previous room.
+ */
+export class RankRoutedTeamOrQuizzer {
+
+    /**
+     * Initializes a new instance of the RankRoutedTeamOrQuizzer class.
+     * @param roomId Id for the room where the team or quizzer previously played.
+     * @param rankOrder Ranked order of the team or quizzer in the previous room.
+     */
+    constructor(roomId: number, rankOrder: number) {
+        this.RoomId = roomId;
+        this.RankOrder = rankOrder;
+    }
+
+    /**
+     * Id for the room where the team or quizzer previously played.
+     */
+    public RoomId: number;
+
+    /**
+     * Ranked order of the team or quizzer in the previous room.
+     */
+    public RankOrder: number;
 }

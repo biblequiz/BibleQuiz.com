@@ -35,7 +35,7 @@ export default function TimerRulesSection({ state, onChange, disabled = false }:
                         value={state.initial}
                         onChange={e => onChange({ initial: parseInt(e.target.value) || 0 })}
                         disabled={disabled || !state.enabled}
-                        min={1}
+                        min={0}
                         max={180}
                     />
                     <span className="label-text text-base-content">minutes</span>
