@@ -1,6 +1,8 @@
 import { useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { TeamOrQuizzerReference } from "types/Meets";
+import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
+import { getQuizzerInitialRooms } from "./IndividualSchedulePreviewTable";
 
 interface Props {
     selectedIds: number[];
@@ -9,6 +11,9 @@ interface Props {
     isReadOnly: boolean;
     isIndividualCompetition: boolean;
     allowAddRemove?: boolean;
+    schedulePreview?: OnlineMeetSchedulePreview | null;
+    roomNames?: string[];
+    isScheduleOutOfDate?: boolean;
     onIdsChange: (ids: number[]) => void;
 }
 
@@ -19,6 +24,9 @@ export default function TeamOrQuizzerSelector({
     isReadOnly,
     isIndividualCompetition,
     allowAddRemove = true,
+    schedulePreview,
+    roomNames,
+    isScheduleOutOfDate,
     onIdsChange
 }: Props) {
     // Drag state for reordering
@@ -29,6 +37,11 @@ export default function TeamOrQuizzerSelector({
     const itemLabel = isIndividualCompetition ? "quizzer" : "team";
     const itemLabelPlural = isIndividualCompetition ? "quizzers" : "teams";
     const itemLabelCapitalized = isIndividualCompetition ? "Quizzer" : "Team";
+
+    // Build quizzer initial room lookup for individual competitions
+    const quizzerInitialRooms = isIndividualCompetition && schedulePreview && roomNames
+        ? getQuizzerInitialRooms(schedulePreview, roomNames)
+        : {};
 
     // Get available items (not yet selected and not hidden)
     const availableItems = Object.entries(allItems)
@@ -133,6 +146,11 @@ export default function TeamOrQuizzerSelector({
                                     {item?.ChurchName && (
                                         <span className="text-base-content/60 text-sm ml-2">
                                             ({item.ChurchName})
+                                        </span>
+                                    )}
+                                    {isIndividualCompetition && quizzerInitialRooms[itemId] && (
+                                        <span className={`badge badge-sm ml-2 ${isScheduleOutOfDate ? "badge-warning" : "badge-ghost"}`}>
+                                            {quizzerInitialRooms[itemId]}
                                         </span>
                                     )}
                                 </span>

@@ -2,11 +2,15 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import IndividualSchedulePreviewTable from "./IndividualSchedulePreviewTable";
 
 interface Props {
     schedulePreview: OnlineMeetSchedulePreview | null;
+    isIndividualCompetition: boolean;
     selectedTeamIds: number[];
+    selectedQuizzerIds: number[];
     allTeams: Record<number, TeamOrQuizzerReference>;
+    allQuizzers: Record<number, TeamOrQuizzerReference>;
     roomNames: string[];
     includeByesInScores: boolean;
     isOutOfDate: boolean;
@@ -24,8 +28,11 @@ interface Props {
 
 export default function SchedulePreviewTable({
     schedulePreview,
+    isIndividualCompetition,
     selectedTeamIds,
+    selectedQuizzerIds,
     allTeams,
+    allQuizzers,
     roomNames,
     includeByesInScores,
     isOutOfDate,
@@ -40,27 +47,31 @@ export default function SchedulePreviewTable({
     onResetMatchTimes,
     onExportStats
 }: Props) {
+    const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
+    const itemLabelPlural = isIndividualCompetition ? "quizzers" : "teams";
     return (
         <div className="p-2">
             {/* Refresh controls */}
             <div className="flex flex-wrap items-center gap-4 mb-4">
                 {!isReadOnly && (
                     <>
-                        <label className="label cursor-pointer gap-2">
-                            <input
-                                type="checkbox"
-                                className="checkbox checkbox-sm"
-                                checked={useOptimizer}
-                                onChange={(e) => onUseOptimizerChange(e.target.checked)}
-                                disabled={disabled || isRefreshing}
-                            />
-                            <span className="label-text text-sm">Use Optimizer</span>
-                        </label>
+                        {!isIndividualCompetition && (
+                            <label className="label cursor-pointer gap-2">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox checkbox-sm"
+                                    checked={useOptimizer}
+                                    onChange={(e) => onUseOptimizerChange(e.target.checked)}
+                                    disabled={disabled || isRefreshing}
+                                />
+                                <span className="label-text text-sm">Use Optimizer</span>
+                            </label>
+                        )}
                         <button
                             type="button"
                             className={`btn btn-sm ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
                             onClick={onRefreshPreview}
-                            disabled={disabled || isRefreshing || selectedTeamIds.length < 2}
+                            disabled={disabled || isRefreshing || selectedCount < 2}
                         >
                             {isRefreshing ? (
                                 <>
@@ -88,10 +99,10 @@ export default function SchedulePreviewTable({
                 </button>
             </div>
 
-            {selectedTeamIds.length < 2 ? (
+            {selectedCount < 2 ? (
                 <div className="text-center py-4 text-base-content/60">
                     <p className="text-sm italic">
-                        Add at least 2 teams to see schedule preview.
+                        Add at least 2 {itemLabelPlural} to see schedule preview.
                     </p>
                 </div>
             ) : isOutOfDate && !schedulePreview ? (
@@ -102,92 +113,102 @@ export default function SchedulePreviewTable({
                     </div>
                 </div>
             ) : schedulePreview ? (
-                <div className="overflow-x-auto">
-                    <table className="table table-xs">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                {Object.keys(schedulePreview.Matches).map(matchId => (
-                                    <th key={matchId} className="text-center">{matchId}</th>
-                                ))}
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {selectedTeamIds.map(teamId => {
-                                const team = allTeams[teamId];
-                                return (
-                                    <tr key={teamId}>
-                                        <td className="font-medium">
-                                            {team?.Name || `Team ${teamId}`} ({team?.ChurchName || "No Church"})
-                                        </td>
-                                        {Object.entries(schedulePreview.Matches).map(([matchId, match]) => {
-                                            let roomLabel = "--";
-                                            for (const [roomId, room] of Object.entries(match.Rooms)) {
-                                                if (room.TeamIds.includes(teamId)) {
-                                                    if (room.IsByeRound && !includeByesInScores) {
-                                                        roomLabel = "--";
-                                                    } else {
-                                                        const roomIndex = Number(roomId) - 1;
-                                                        roomLabel = roomNames[roomIndex] || `R${roomId}`;
-                                                    }
-                                                    break;
-                                                }
-                                            }
-                                            return (
-                                                <td key={matchId} className="text-center">
-                                                    {roomLabel}
-                                                </td>
-                                            );
-                                        })}
-                                    </tr>
-                                );
-                            })}
-                        </tbody>
-                        <tfoot>
-                            <tr className="border-t-2 border-base-300">
-                                <td className="font-semibold">
-                                    Match Time
-                                    {!isReadOnly && (
-                                        <button
-                                            type="button"
-                                            className="btn btn-xs btn-outline ml-1"
-                                            onClick={onResetMatchTimes}
-                                            disabled={disabled || isRefreshing}
-                                            title="Reset match times"
-                                        >
-                                            <FontAwesomeIcon icon="fas faRotateLeft" />
-                                            <span>Reset Times</span>
-                                        </button>
-                                    )}
-                                </td>
-                                {Object.entries(schedulePreview.Matches).map(([matchId]) => {
-                                    const matchIdNum = Number(matchId);
-                                    const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "");
+                isIndividualCompetition ? (
+                    <IndividualSchedulePreviewTable
+                        schedulePreview={schedulePreview}
+                        selectedQuizzerIds={selectedQuizzerIds}
+                        allQuizzers={allQuizzers}
+                        roomNames={roomNames}
+                        isOutOfDate={isOutOfDate}
+                    />
+                ) : (
+                    <div className="overflow-x-auto">
+                        <table className="table table-xs">
+                            <thead>
+                                <tr>
+                                    <th>Team</th>
+                                    {Object.keys(schedulePreview.Matches).map(matchId => (
+                                        <th key={matchId} className="text-center">{matchId}</th>
+                                    ))}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {selectedTeamIds.map(teamId => {
+                                    const team = allTeams[teamId];
                                     return (
-                                        <td key={`time-${matchId}`} className="text-center">
-                                            {isReadOnly ? (
-                                                <span>{formattedValue || "--"}</span>
-                                            ) : (
-                                                <input
-                                                    type="time"
-                                                    className="input input-xs input-bordered w-20 text-center"
-                                                    defaultValue={formattedValue || ""}
-                                                    onBlur={(e) => {
-                                                        const newValue = DataTypeHelpers.formatTimeSpanAsTime(e.target.value);
-                                                        if (newValue !== formattedValue) {
-                                                            onMatchTimeChange(matchIdNum, newValue);
+                                        <tr key={teamId}>
+                                            <td className="font-medium">
+                                                {team?.Name || `Team ${teamId}`} ({team?.ChurchName || "No Church"})
+                                            </td>
+                                            {Object.entries(schedulePreview.Matches).map(([matchId, match]) => {
+                                                let roomLabel = "--";
+                                                for (const [roomId, room] of Object.entries(match.Rooms)) {
+                                                    if (room.TeamIds.includes(teamId)) {
+                                                        if (room.IsByeRound && !includeByesInScores) {
+                                                            roomLabel = "--";
+                                                        } else {
+                                                            const roomIndex = Number(roomId) - 1;
+                                                            roomLabel = roomNames[roomIndex] || `R${roomId}`;
                                                         }
-                                                    }}
-                                                    disabled={disabled || isRefreshing}
-                                                />
-                                            )}
-                                        </td>
+                                                        break;
+                                                    }
+                                                }
+                                                return (
+                                                    <td key={matchId} className="text-center">
+                                                        {roomLabel}
+                                                    </td>
+                                                );
+                                            })}
+                                        </tr>
                                     );
                                 })}
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
+                            </tbody>
+                            <tfoot>
+                                <tr className="border-t-2 border-base-300">
+                                    <td className="font-semibold">
+                                        Match Time
+                                        {!isReadOnly && (
+                                            <button
+                                                type="button"
+                                                className="btn btn-xs btn-outline ml-1"
+                                                onClick={onResetMatchTimes}
+                                                disabled={disabled || isRefreshing}
+                                                title="Reset match times"
+                                            >
+                                                <FontAwesomeIcon icon="fas faRotateLeft" />
+                                                <span>Reset Times</span>
+                                            </button>
+                                        )}
+                                    </td>
+                                    {Object.entries(schedulePreview.Matches).map(([matchId]) => {
+                                        const matchIdNum = Number(matchId);
+                                        const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "");
+                                        return (
+                                            <td key={`time-${matchId}`} className="text-center">
+                                                {isReadOnly ? (
+                                                    <span>{formattedValue || "--"}</span>
+                                                ) : (
+                                                    <input
+                                                        type="time"
+                                                        className="input input-xs input-bordered w-20 text-center"
+                                                        defaultValue={formattedValue || ""}
+                                                        onBlur={(e) => {
+                                                            const newValue = DataTypeHelpers.formatTimeSpanAsTime(e.target.value);
+                                                            if (newValue !== formattedValue) {
+                                                                onMatchTimeChange(matchIdNum, newValue);
+                                                            }
+                                                        }}
+                                                        disabled={disabled || isRefreshing}
+                                                    />
+                                                )}
+                                            </td>
+                                        );
+                                    })}
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                )
             ) : null}
         </div>
     );

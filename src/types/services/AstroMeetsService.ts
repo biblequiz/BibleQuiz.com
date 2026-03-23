@@ -1,6 +1,6 @@
 import type { AuthManager } from "../AuthManager";
 import type { MatchRules } from "../MatchRules";
-import type { ScheduleTemplate } from "../Scheduling";
+import type { RankRoutedTeamOrQuizzer, ScheduleTemplate } from "../Scheduling";
 import type { TeamOrQuizzerReference } from "../Meets";
 import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
 import {
@@ -383,6 +383,11 @@ export interface OnlineMeetScheduleRoom {
      * List of quizzer ids (if this is an individual competition).
      */
     QuizzerIds: number[];
+
+    /**
+     * List of team or quizzers routed from another room.
+     */
+    RoutedTeamOrQuizzers: RankRoutedTeamOrQuizzer[];
 
     /**
      * Value indicating whether this is a bye round.

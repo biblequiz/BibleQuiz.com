@@ -826,6 +826,9 @@ export default function DivisionScheduleDialog({
                                     isReadOnly={!canEditScheduleSettings}
                                     isIndividualCompetition={isIndividualCompetition}
                                     allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
+                                    schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
+                                    roomNames={isIndividualCompetition ? roomNames : undefined}
+                                    isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
                                     onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
                                 />
                             </CollapsibleSection>
@@ -983,8 +986,11 @@ export default function DivisionScheduleDialog({
                             >
                                 <SchedulePreviewTable
                                     schedulePreview={schedulePreview}
+                                    isIndividualCompetition={isIndividualCompetition}
                                     selectedTeamIds={selectedTeamIds}
+                                    selectedQuizzerIds={selectedQuizzerIds}
                                     allTeams={allTeams}
+                                    allQuizzers={allQuizzers}
                                     roomNames={roomNames}
                                     includeByesInScores={includeByesInScores}
                                     isOutOfDate={isScheduleOutOfDate}
