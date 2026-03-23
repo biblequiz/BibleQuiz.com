@@ -74,50 +74,6 @@ export default function IndividualSchedulePreviewTable({
 
     return (
         <div className="space-y-4">
-            {/* Quizzers with initial rooms */}
-            <div>
-                <h4 className="font-semibold text-sm mb-2">
-                    Quizzers
-                    {isOutOfDate && (
-                        <span className="badge badge-warning badge-sm ml-2">Out of date</span>
-                    )}
-                </h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {roomIds.map(roomId => {
-                        const roomIndex = roomId - 1;
-                        const roomName = roomNames[roomIndex] || `R${roomId}`;
-                        const quizzersInRoom = firstMatch
-                            ? (firstMatch.Rooms[roomId]?.QuizzerIds ?? [])
-                            : [];
-
-                        return (
-                            <div key={roomId} className="border border-base-300 rounded-lg p-2 mt-0">
-                                <div className="font-medium text-sm mb-1">Room {roomName}</div>
-                                <div className="text-xs space-y-0.5">
-                                    {quizzersInRoom.map(qId => {
-                                        const quizzer = allQuizzers[qId];
-                                        return (
-                                            <div key={qId}>
-                                                {quizzer?.Name || `Quizzer ${qId}`}
-                                                {quizzer?.ChurchName && (
-                                                    <span className="text-base-content/60 ml-1">
-                                                        ({quizzer.ChurchName})
-                                                    </span>
-                                                )}
-                                            </div>
-                                        );
-                                    })}
-                                    {quizzersInRoom.length === 0 && (
-                                        <div className="italic text-base-content/40">No quizzers</div>
-                                    )}
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-
-            {/* Schedule table: rows = rooms, columns = matches (after first) */}
             {routedMatchIds.length > 0 && (
                 <div className="overflow-x-auto">
                     <table className="table table-xs">
