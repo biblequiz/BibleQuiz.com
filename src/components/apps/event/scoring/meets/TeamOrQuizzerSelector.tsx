@@ -150,7 +150,7 @@ export default function TeamOrQuizzerSelector({
                                     )}
                                     {isIndividualCompetition && quizzerInitialRooms[itemId] && (
                                         <span className={`badge badge-sm ml-2 ${isScheduleOutOfDate ? "badge-warning" : "badge-ghost"}`}>
-                                            {quizzerInitialRooms[itemId]}
+                                            Room {quizzerInitialRooms[itemId]}
                                         </span>
                                     )}
                                 </span>

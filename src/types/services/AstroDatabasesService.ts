@@ -180,7 +180,7 @@ export class AstroDatabasesService {
     ): Promise<void> {
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
-            "POST",
+            "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
             undefined,
@@ -196,6 +196,7 @@ export class AstroDatabasesService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param form Form contents with "file" set with the schedule template file.
+     * @param isIndividualCompetition Value indicating whether the template is for an individual competition.
      *
      * @returns Parsed schedule template.
      */
@@ -204,13 +205,16 @@ export class AstroDatabasesService {
         eventId: string,
         databaseId: string,
         form: FormData,
+        isIndividualCompetition: boolean = false,
     ): Promise<ScheduleTemplate> {
         return RemoteServiceUtility.executeHttpRequest<ScheduleTemplate>(
             auth,
             "POST",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
-            null,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition
+            }),
             form,
             true,
         );

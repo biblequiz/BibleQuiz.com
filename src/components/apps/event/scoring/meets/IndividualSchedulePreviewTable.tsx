@@ -91,8 +91,8 @@ export default function IndividualSchedulePreviewTable({
                             : [];
 
                         return (
-                            <div key={roomId} className="border border-base-300 rounded-lg p-2">
-                                <div className="font-medium text-sm mb-1">{roomName}</div>
+                            <div key={roomId} className="border border-base-300 rounded-lg p-2 mt-0">
+                                <div className="font-medium text-sm mb-1">Room {roomName}</div>
                                 <div className="text-xs space-y-0.5">
                                     {quizzersInRoom.map(qId => {
                                         const quizzer = allQuizzers[qId];
