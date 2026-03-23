@@ -213,7 +213,7 @@ export class AstroDatabasesService {
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/scheduleTemplate`,
             RemoteServiceUtility.getFilteredUrlParameters({
-                isIndividualCompetition
+                isIndividualCompetition,
             }),
             form,
             true,

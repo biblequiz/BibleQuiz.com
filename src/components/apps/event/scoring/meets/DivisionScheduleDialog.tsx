@@ -365,7 +365,8 @@ export default function DivisionScheduleDialog({
                 auth,
                 eventId,
                 databaseId,
-                formData
+                formData,
+                isIndividualCompetition
             );
 
             setCustomSchedule(template);
