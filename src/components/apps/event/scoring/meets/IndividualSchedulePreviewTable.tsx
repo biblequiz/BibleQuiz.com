@@ -1,44 +1,13 @@
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
-import type { TeamOrQuizzerReference } from "types/Meets";
 
 interface Props {
     schedulePreview: OnlineMeetSchedulePreview;
-    selectedQuizzerIds: number[];
-    allQuizzers: Record<number, TeamOrQuizzerReference>;
     roomNames: string[];
-    isOutOfDate: boolean;
-}
-
-/**
- * Builds a lookup of quizzer id -> initial room name from the first match in the preview.
- */
-function getQuizzerInitialRooms(
-    schedulePreview: OnlineMeetSchedulePreview,
-    roomNames: string[]
-): Record<number, string> {
-    const matchIds = Object.keys(schedulePreview.Matches).map(Number).sort((a, b) => a - b);
-    if (matchIds.length === 0) return {};
-
-    const firstMatch = schedulePreview.Matches[matchIds[0]];
-    const result: Record<number, string> = {};
-
-    for (const [roomId, room] of Object.entries(firstMatch.Rooms)) {
-        const roomIndex = Number(roomId) - 1;
-        const roomName = roomNames[roomIndex] || `R${roomId}`;
-        for (const quizzerId of room.QuizzerIds ?? []) {
-            result[quizzerId] = roomName;
-        }
-    }
-
-    return result;
 }
 
 export default function IndividualSchedulePreviewTable({
     schedulePreview,
-    selectedQuizzerIds,
-    allQuizzers,
     roomNames,
-    isOutOfDate
 }: Props) {
     const matchIds = Object.keys(schedulePreview.Matches).map(Number).sort((a, b) => a - b);
 
@@ -50,9 +19,6 @@ export default function IndividualSchedulePreviewTable({
     const roomIds = firstMatch
         ? Object.keys(firstMatch.Rooms).map(Number).sort((a, b) => a - b)
         : [];
-
-    // Build quizzer initial room lookup
-    const quizzerInitialRooms = getQuizzerInitialRooms(schedulePreview, roomNames);
 
     /**
      * Format RoutedTeamOrQuizzers for a room in a match as "R1 - 1, R2 - 2" etc.
@@ -107,5 +73,3 @@ export default function IndividualSchedulePreviewTable({
         </div>
     );
 }
-
-export { getQuizzerInitialRooms };

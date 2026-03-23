@@ -991,7 +991,6 @@ export default function DivisionScheduleDialog({
                                     selectedTeamIds={selectedTeamIds}
                                     selectedQuizzerIds={selectedQuizzerIds}
                                     allTeams={allTeams}
-                                    allQuizzers={allQuizzers}
                                     roomNames={roomNames}
                                     includeByesInScores={includeByesInScores}
                                     isOutOfDate={isScheduleOutOfDate}

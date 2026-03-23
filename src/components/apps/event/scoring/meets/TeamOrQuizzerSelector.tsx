@@ -2,7 +2,6 @@ import { useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
-import { getQuizzerInitialRooms } from "./IndividualSchedulePreviewTable";
 
 interface Props {
     selectedIds: number[];
@@ -15,6 +14,30 @@ interface Props {
     roomNames?: string[];
     isScheduleOutOfDate?: boolean;
     onIdsChange: (ids: number[]) => void;
+}
+
+/**
+ * Builds a lookup of quizzer id -> initial room name from the first match in the preview.
+ */
+function getQuizzerInitialRooms(
+    schedulePreview: OnlineMeetSchedulePreview,
+    roomNames: string[]
+): Record<number, string> {
+    const matchIds = Object.keys(schedulePreview.Matches).map(Number).sort((a, b) => a - b);
+    if (matchIds.length === 0) return {};
+
+    const firstMatch = schedulePreview.Matches[matchIds[0]];
+    const result: Record<number, string> = {};
+
+    for (const [roomId, room] of Object.entries(firstMatch.Rooms)) {
+        const roomIndex = Number(roomId) - 1;
+        const roomName = roomNames[roomIndex] || `R${roomId}`;
+        for (const quizzerId of room.QuizzerIds ?? []) {
+            result[quizzerId] = roomName;
+        }
+    }
+
+    return result;
 }
 
 export default function TeamOrQuizzerSelector({

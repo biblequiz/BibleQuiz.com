@@ -10,7 +10,6 @@ interface Props {
     selectedTeamIds: number[];
     selectedQuizzerIds: number[];
     allTeams: Record<number, TeamOrQuizzerReference>;
-    allQuizzers: Record<number, TeamOrQuizzerReference>;
     roomNames: string[];
     includeByesInScores: boolean;
     isOutOfDate: boolean;
@@ -32,7 +31,6 @@ export default function SchedulePreviewTable({
     selectedTeamIds,
     selectedQuizzerIds,
     allTeams,
-    allQuizzers,
     roomNames,
     includeByesInScores,
     isOutOfDate,
@@ -116,10 +114,7 @@ export default function SchedulePreviewTable({
                 isIndividualCompetition ? (
                     <IndividualSchedulePreviewTable
                         schedulePreview={schedulePreview}
-                        selectedQuizzerIds={selectedQuizzerIds}
-                        allQuizzers={allQuizzers}
                         roomNames={roomNames}
-                        isOutOfDate={isOutOfDate}
                     />
                 ) : (
                     <div className="overflow-x-auto">
