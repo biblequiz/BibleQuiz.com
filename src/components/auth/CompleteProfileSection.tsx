@@ -23,7 +23,7 @@ export default function CompleteProfileSection({ }: Props) {
     const [firstName, setFirstName] = useState(existingProfile?.firstName || "");
     const [lastName, setLastName] = useState(existingProfile?.lastName || "");
     const [email, setEmail] = useState(existingProfile?.email || "");
-    const [competitionType, setCompetitionType] = useState("");
+    const [competitionType, setCompetitionType] = useState("agjbq");
     const [churchId, setChurchId] = useState("");
     const [addingChurchState, setAddingChurchState] = useState<AddingChurchState | null>(null);
     const [termsAgreed, setTermsAgreed] = useState(false);

@@ -4,6 +4,7 @@ import {
     QuizOutRule,
     ContestRules,
     TimingRules,
+    UnseatRule,
     type CompetitionType
 } from "types/MatchRules";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
@@ -16,6 +17,7 @@ export interface GeneralRulesState {
 }
 
 export interface QuizOutState {
+    enabled: boolean;
     questions: number;
     foulsEnabled: boolean;
     fouls: number;
@@ -53,11 +55,20 @@ export interface TimerRulesState {
     alert: number;
 }
 
+export interface UnseatRulesState {
+    unseatIfPositionGuaranteed: boolean;
+    topPositionsEnabled: boolean;
+    topPositions: number;
+    unseatIfAnyTop: boolean;
+    endMatchIfTopPositionsKnown: boolean;
+}
+
 export interface MatchRulesFormState {
     general: GeneralRulesState;
     quizOutForward: QuizOutState;
     quizOutBackward: QuizOutState;
     contests: ContestRulesState;
+    unseatRules: UnseatRulesState;
     questionCounts: QuestionCountsState;
     otherRules: OtherRulesState;
     timer: TimerRulesState;
@@ -70,6 +81,7 @@ export interface MatchRulesFormActions {
     setQuizOutForward: (updates: Partial<QuizOutState>) => void;
     setQuizOutBackward: (updates: Partial<QuizOutState>) => void;
     setContests: (updates: Partial<ContestRulesState>) => void;
+    setUnseatRules: (updates: Partial<UnseatRulesState>) => void;
     setQuestionCounts: (updates: Partial<QuestionCountsState>) => void;
     setOtherRules: (updates: Partial<OtherRulesState>) => void;
     setTimer: (updates: Partial<TimerRulesState>) => void;
@@ -78,8 +90,19 @@ export interface MatchRulesFormActions {
     validate: () => string | null;
 }
 
-function extractQuizOutState(rule: QuizOutRule): QuizOutState {
+function extractQuizOutState(rule: QuizOutRule | null): QuizOutState {
+    if (!rule) {
+        return {
+            enabled: false,
+            questions: 4,
+            foulsEnabled: false,
+            fouls: 3,
+            bonusEnabled: false,
+            bonus: 10
+        };
+    }
     return {
+        enabled: true,
         questions: rule.QuestionCount,
         foulsEnabled: !!rule.FoulCount,
         fouls: rule.FoulCount ?? 3,
@@ -96,6 +119,16 @@ function extractTimerState(timing?: TimingRules): TimerRulesState {
         warn: DataTypeHelpers.parseTimeSpanAsMinutes(timing?.WarnIfRemaining) ?? 5,
         alertEnabled: !!timing?.AlertIfRemaining,
         alert: DataTypeHelpers.parseTimeSpanAsMinutes(timing?.AlertIfRemaining) ?? 0
+    };
+}
+
+function extractUnseatState(rule: UnseatRule | null): UnseatRulesState {
+    return {
+        unseatIfPositionGuaranteed: rule?.UnseatIfPositionGuaranteed ?? false,
+        topPositionsEnabled: rule?.TopPositions != null && rule.TopPositions > 0,
+        topPositions: rule?.TopPositions ?? 3,
+        unseatIfAnyTop: rule?.TopPositions != null ? !rule.DetermineTopPositionOrder : true,
+        endMatchIfTopPositionsKnown: rule?.EndMatchIfTopPositionsKnown ?? false
     };
 }
 
@@ -129,6 +162,11 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         unsuccessfulFouls: initialRules.ContestRules.UnsuccessfulContestsWithoutFouls ?? 2
     });
 
+    // Unseat Rules
+    const [unseatRules, setUnseatRulesState] = useState<UnseatRulesState>(
+        extractUnseatState(initialRules.UnseatRule)
+    );
+
     // Question Counts
     const [questionCounts, setQuestionCountsState] = useState<QuestionCountsState>({
         count10s: initialRules.PointValueCounts[10] ?? 0,
@@ -154,7 +192,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
     // Track changes
     useEffect(() => {
         setHasChanges(true);
-    }, [general, quizOutForward, quizOutBackward, contests, questionCounts, otherRules, timer]);
+    }, [general, quizOutForward, quizOutBackward, contests, unseatRules, questionCounts, otherRules, timer]);
 
     // Partial update helpers
     const setGeneral = useCallback((updates: Partial<GeneralRulesState>) => {
@@ -171,6 +209,10 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
 
     const setContests = useCallback((updates: Partial<ContestRulesState>) => {
         setContestsState(prev => ({ ...prev, ...updates }));
+    }, []);
+
+    const setUnseatRules = useCallback((updates: Partial<UnseatRulesState>) => {
+        setUnseatRulesState(prev => ({ ...prev, ...updates }));
     }, []);
 
     const setQuestionCounts = useCallback((updates: Partial<QuestionCountsState>) => {
@@ -207,6 +249,8 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
             unsuccessfulFouls: rules.ContestRules.UnsuccessfulContestsWithoutFouls ?? 2
         });
 
+        setUnseatRulesState(extractUnseatState(rules.UnseatRule));
+
         setQuestionCountsState({
             count10s: rules.PointValueCounts[10] ?? 0,
             count20s: rules.PointValueCounts[20] ?? 0,
@@ -233,17 +277,25 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         newRules.QuizzersPerTeam = general.quizzersPerTeam;
         newRules.MaxTimeouts = general.maxTimeouts;
 
-        const qoForward = new QuizOutRule();
-        qoForward.QuestionCount = quizOutForward.questions;
-        qoForward.FoulCount = quizOutForward.foulsEnabled ? quizOutForward.fouls : undefined;
-        qoForward.BonusPoints = quizOutForward.bonusEnabled ? quizOutForward.bonus : 0;
-        newRules.QuizOutForward = qoForward;
+        if (quizOutForward.enabled) {
+            const qoForward = new QuizOutRule();
+            qoForward.QuestionCount = quizOutForward.questions;
+            qoForward.FoulCount = quizOutForward.foulsEnabled ? quizOutForward.fouls : undefined;
+            qoForward.BonusPoints = quizOutForward.bonusEnabled ? quizOutForward.bonus : 0;
+            newRules.QuizOutForward = qoForward;
+        } else {
+            newRules.QuizOutForward = null;
+        }
 
-        const qoBackward = new QuizOutRule();
-        qoBackward.QuestionCount = quizOutBackward.questions;
-        qoBackward.FoulCount = quizOutBackward.foulsEnabled ? quizOutBackward.fouls : undefined;
-        qoBackward.BonusPoints = quizOutBackward.bonusEnabled ? quizOutBackward.bonus : 0;
-        newRules.QuizOutBackward = qoBackward;
+        if (quizOutBackward.enabled) {
+            const qoBackward = new QuizOutRule();
+            qoBackward.QuestionCount = quizOutBackward.questions;
+            qoBackward.FoulCount = quizOutBackward.foulsEnabled ? quizOutBackward.fouls : undefined;
+            qoBackward.BonusPoints = quizOutBackward.bonusEnabled ? quizOutBackward.bonus : 0;
+            newRules.QuizOutBackward = qoBackward;
+        } else {
+            newRules.QuizOutBackward = null;
+        }
 
         const contestRules = new ContestRules();
         contestRules.ContestLabel = contests.contestLabel;
@@ -252,6 +304,14 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         contestRules.UnsuccessfulContestsWithoutFouls = contests.unsuccessfulFoulsEnabled ? contests.unsuccessfulFouls : undefined;
         contestRules.AreContestsRulings = originalRules.ContestRules.AreContestsRulings;
         newRules.ContestRules = contestRules;
+
+        // Unseat Rules
+        const unseat = new UnseatRule();
+        unseat.UnseatIfPositionGuaranteed = unseatRules.unseatIfPositionGuaranteed;
+        unseat.TopPositions = unseatRules.topPositionsEnabled ? unseatRules.topPositions : null;
+        unseat.DetermineTopPositionOrder = unseatRules.topPositionsEnabled ? !unseatRules.unseatIfAnyTop : false;
+        unseat.EndMatchIfTopPositionsKnown = unseatRules.topPositionsEnabled ? unseatRules.endMatchIfTopPositionsKnown : false;
+        newRules.UnseatRule = unseat;
 
         newRules.PointValueCounts = {
             10: questionCounts.count10s,
@@ -274,16 +334,16 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         newRules.RequiredScoreReading = originalRules.RequiredScoreReading;
 
         return newRules;
-    }, [general, quizOutForward, quizOutBackward, contests, questionCounts, otherRules, timer]);
+    }, [general, quizOutForward, quizOutBackward, contests, unseatRules, questionCounts, otherRules, timer]);
 
     // Validate rules
     const validate = useCallback((): string | null => {
         const totalQuestions = questionCounts.count10s + questionCounts.count20s + questionCounts.count30s;
 
-        if (quizOutForward.questions > totalQuestions) {
+        if (quizOutForward.enabled && quizOutForward.questions > totalQuestions) {
             return `Quiz Out Forward after ${quizOutForward.questions} question(s) exceeds the ${totalQuestions} question(s) in the match.`;
         }
-        if (quizOutBackward.questions > totalQuestions) {
+        if (quizOutBackward.enabled && quizOutBackward.questions > totalQuestions) {
             return `Quiz Out Backward after ${quizOutBackward.questions} question(s) exceeds the ${totalQuestions} question(s) in the match.`;
         }
         if (totalQuestions > 20) {
@@ -308,6 +368,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         quizOutForward,
         quizOutBackward,
         contests,
+        unseatRules,
         questionCounts,
         otherRules,
         timer,
@@ -320,6 +381,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         setQuizOutForward,
         setQuizOutBackward,
         setContests,
+        setUnseatRules,
         setQuestionCounts,
         setOtherRules,
         setTimer,

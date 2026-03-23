@@ -53,7 +53,8 @@ export default function ScoringDatabaseMeetsPage() {
 
     // Dialog state
     const [editingMeet, setEditingMeet] = useState<EditingMeet | null>(null);
-    const [isAddingNewDivision, setIsAddingNewDivision] = useState(false);
+    const [isAddingNewTeamDivision, setIsAddingNewTeamDivision] = useState(false);
+    const [isAddingNewIndividualDivision, setIsAddingNewIndividualDivision] = useState(false);
     const [confirmDelete, setConfirmDelete] = useState<DeleteConfirmation | undefined>();
 
     // Drag state
@@ -217,9 +218,14 @@ export default function ScoringDatabaseMeetsPage() {
         }
     }, [currentDatabase]);
 
-    // Add new division
-    const handleAddDivision = useCallback(() => {
-        setIsAddingNewDivision(true);
+    // Add new team division
+    const handleAddTeamDivision = useCallback(() => {
+        setIsAddingNewTeamDivision(true);
+    }, []);
+
+    // Add new individual division
+    const handleAddIndividualDivision = useCallback(() => {
+        setIsAddingNewIndividualDivision(true);
     }, []);
 
     // Delete division
@@ -310,13 +316,15 @@ export default function ScoringDatabaseMeetsPage() {
             setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
         }
         setEditingMeet(null);
-        setIsAddingNewDivision(false);
+        setIsAddingNewTeamDivision(false);
+        setIsAddingNewIndividualDivision(false);
     }, [setCurrentDatabase]);
 
     // Close dialog
     const handleDialogClose = useCallback(() => {
         setEditingMeet(null);
-        setIsAddingNewDivision(false);
+        setIsAddingNewTeamDivision(false);
+        setIsAddingNewIndividualDivision(false);
     }, []);
 
     if (!currentDatabase) {
@@ -363,15 +371,26 @@ export default function ScoringDatabaseMeetsPage() {
                         )}
                     </button>
                     {!isScoreKeep && (
-                        <button
-                            type="button"
-                            className="btn btn-primary btn-sm"
-                            onClick={handleAddDivision}
-                            disabled={isSaving}
-                        >
-                            <FontAwesomeIcon icon="fas faPlus" />
-                            Add Division
-                        </button>
+                        <>
+                            <button
+                                type="button"
+                                className="btn btn-primary btn-sm"
+                                onClick={handleAddTeamDivision}
+                                disabled={isSaving}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                                Add Team Division
+                            </button>
+                            <button
+                                type="button"
+                                className="btn btn-secondary btn-sm"
+                                onClick={handleAddIndividualDivision}
+                                disabled={isSaving}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                                Add Individual Division
+                            </button>
+                        </>
                     )}
                 </div>
             </div>
@@ -399,14 +418,24 @@ export default function ScoringDatabaseMeetsPage() {
                     <FontAwesomeIcon icon="fas faLayerGroup" classNames={["text-4xl", "mb-4"]} />
                     <p className="text-lg mb-4">No divisions have been created yet.</p>
                     {!isScoreKeep && (
-                        <button
-                            type="button"
-                            className="btn btn-primary"
-                            onClick={handleAddDivision}
-                        >
-                            <FontAwesomeIcon icon="fas faPlus" />
-                            Add Your First Division
-                        </button>
+                        <div className="flex gap-2">
+                            <button
+                                type="button"
+                                className="btn btn-primary"
+                                onClick={handleAddTeamDivision}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                                Add Team Division
+                            </button>
+                            <button
+                                type="button"
+                                className="btn btn-secondary"
+                                onClick={handleAddIndividualDivision}
+                            >
+                                <FontAwesomeIcon icon="fas faPlus" />
+                                Add Individual Division
+                            </button>
+                        </div>
                     )}
                 </div>
             ) : (
@@ -421,6 +450,7 @@ export default function ScoringDatabaseMeetsPage() {
                                 meetId={meet.Display.Id}
                                 displaySettings={displaySettings}
                                 hasAnyMissingQuestions={meet.HasAnyMissingQuestions}
+                                isIndividualCompetition={meet.IsIndividualCompetition}
                                 isScoreKeep={isScoreKeep}
                                 disabled={isSaving}
                                 isDragOver={dragOverMeetId === meet.Display.Id}
@@ -455,6 +485,7 @@ export default function ScoringDatabaseMeetsPage() {
                     allMeets={currentDatabase.Meets}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={false}
+                    isIndividualCompetition={currentDatabase.Meets.find(m => m.Display.Id === editingMeet.meetId)?.IsIndividualCompetition || false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />
@@ -499,19 +530,39 @@ export default function ScoringDatabaseMeetsPage() {
                 />
             )}
 
-            {isAddingNewDivision && (
+            {isAddingNewTeamDivision && (
                 <DivisionScheduleDialog
                     auth={auth}
                     eventId={eventId}
                     eventType={eventType}
                     databaseId={databaseId!}
                     meetId={0}
-                    meetName="New Division"
+                    meetName="New Team Division"
                     allMeets={currentDatabase.Meets}
                     defaultRules={currentDatabase.DefaultRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}
+                    isIndividualCompetition={false}
+                    onSave={handleDialogSave}
+                    onClose={handleDialogClose}
+                />
+            )}
+
+            {isAddingNewIndividualDivision && (
+                <DivisionScheduleDialog
+                    auth={auth}
+                    eventId={eventId}
+                    eventType={eventType}
+                    databaseId={databaseId!}
+                    meetId={0}
+                    meetName="New Individual Division"
+                    allMeets={currentDatabase.Meets}
+                    defaultRules={currentDatabase.DefaultRules}
+                    defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
+                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
+                    isNew={true}
+                    isIndividualCompetition={true}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
                 />

@@ -55,7 +55,8 @@ export default function CustomScheduleUploader({
         }
     };
 
-    const controlsDisabled = disabled || getSchedulingSettings().TeamIds.length === 0;
+    const scheduleSettings = getSchedulingSettings();
+    const controlsDisabled = disabled || (scheduleSettings.TeamIds.length === 0 && scheduleSettings.QuizzerIds.length === 0);
 
     return (
         <div className="p-2 space-y-3">

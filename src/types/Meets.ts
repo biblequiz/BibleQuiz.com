@@ -234,6 +234,11 @@ export interface TeamOrQuizzerReference {
      * Name of the team or quizzer's church.
      */
     ChurchName?: string | null;
+
+    /**
+     * Value indicating whether the team or quizzer is be hidden.
+     */
+    IsHidden: boolean;
 }
 
 /**
@@ -259,7 +264,7 @@ export class MeetSchedule {
     public LinkedMeetIds?: number[];
 
     /**
-     * Optional optmized schedule for the meets.
+     * Optional optimized schedule for the meets.
      */
     public OptimizedSchedule?: ScheduleTemplate;
 

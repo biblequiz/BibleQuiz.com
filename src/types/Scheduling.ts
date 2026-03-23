@@ -2,12 +2,12 @@
  * Template for building a schedule.
  */
 export class ScheduleTemplate {
-
     /**
      * Initializes a new instance of the ScheduleTemplate class.
      */
     constructor() {
         this.ByTeamCount = {};
+        this.ByQuizzerCount = {};
     }
 
     /**
@@ -15,13 +15,17 @@ export class ScheduleTemplate {
      * number of meets.
      */
     public ByTeamCount: Record<number, ScheduleTemplateMeet>;
+
+    /**
+     * Schedules for Meets indexed by number of quizzers in the meet.
+     */
+    public ByQuizzerCount: Record<number, ScheduleTemplateMeet>;
 }
 
 /**
  * Template for building the schedule of a meet.
  */
 export class ScheduleTemplateMeet {
-
     /**
      * Initializes a new instance of the ScheduleTemplateMeet class.
      */
@@ -50,7 +54,6 @@ export class ScheduleTemplateMeet {
  * Template for building the schedule of an individual match.
  */
 export class ScheduleTemplateMatch {
-    
     /**
      * Initializes a new instance of the ScheduleTemplateMatch class.
      */
@@ -68,7 +71,6 @@ export class ScheduleTemplateMatch {
  * Metadata about a scheduled match in a room.
  */
 export class MatchScheduledRoom {
-
     /**
      * Initializes a new instance of the MatchScheduledRoom class.
      */
@@ -87,13 +89,38 @@ export class MatchScheduledRoom {
     public QuizzerIds?: Set<number>;
 
     /**
-     * Mapping of placement to the room where the individual is supposed to go. If the place isn't present, the individual is
-     * no longer part of the competition.
+     * List of team or quizzers routed from another room.
      */
-    public PlacementRoomRouting?: Record<number, number>;
+    public RoutedTeamOrQuizzers?: Set<RankRoutedTeamOrQuizzer>;
 
     /**
      * Value indicating whether this is a bye round.
      */
     public IsByeRound: boolean;
+}
+
+/**
+ * Team or quizzer determined based on rank in a previous room.
+ */
+export class RankRoutedTeamOrQuizzer {
+
+    /**
+     * Initializes a new instance of the RankRoutedTeamOrQuizzer class.
+     * @param roomId Id for the room where the team or quizzer previously played.
+     * @param rankOrder Ranked order of the team or quizzer in the previous room.
+     */
+    constructor(roomId: number, rankOrder: number) {
+        this.RoomId = roomId;
+        this.RankOrder = rankOrder;
+    }
+
+    /**
+     * Id for the room where the team or quizzer previously played.
+     */
+    public RoomId: number;
+
+    /**
+     * Ranked order of the team or quizzer in the previous room.
+     */
+    public RankOrder: number;
 }

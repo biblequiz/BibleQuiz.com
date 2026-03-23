@@ -138,7 +138,7 @@ export default function ChurchLookup({
 
   return (
     <>
-      <div className={`relative flex gap-2 ${subtitle ? "mb-0" : ""}`}>
+      <div className={`relative flex gap-2 ${subtitle ? "mb-0" : "mb-2"}`}>
         <input
           type="text"
           className="input input-bordered grow"

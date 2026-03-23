@@ -1,7 +1,10 @@
 import type { AuthManager } from "../AuthManager";
 import type { Team, Quizzer } from "../Meets";
 import type { Church } from "./ChurchesService";
-import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility';
+import {
+    RemoteServiceUrlBase,
+    RemoteServiceUtility,
+} from "./RemoteServiceUtility";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -9,26 +12,26 @@ const URL_ROOT_PATH = "/api/v1.0/events";
  * Wrapper for the Astro Teams and Quizzers service.
  */
 export class AstroTeamsAndQuizzersService {
-
     /**
      * Retrieves all teams and quizzers for a database.
      *
      * @param auth AuthManager to use for authentication.
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
-     * 
+     *
      * @returns Manifest of all teams and quizzers.
      */
     public static getTeamsAndQuizzers(
         auth: AuthManager,
         eventId: string,
-        databaseId: string): Promise<OnlineTeamsAndQuizzers> {
-
+        databaseId: string,
+    ): Promise<OnlineTeamsAndQuizzers> {
         return RemoteServiceUtility.executeHttpRequest<OnlineTeamsAndQuizzers>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers`);
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers`,
+        );
     }
 
     /**
@@ -38,22 +41,23 @@ export class AstroTeamsAndQuizzersService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param changes Changes to apply to the teams and quizzers.
-     * 
+     *
      * @returns Updated manifest of all teams and quizzers.
      */
     public static updateTeamsAndQuizzers(
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        changes: OnlineTeamsAndQuizzersChanges): Promise<OnlineTeamsAndQuizzers> {
-
+        changes: OnlineTeamsAndQuizzersChanges,
+    ): Promise<OnlineTeamsAndQuizzers> {
         return RemoteServiceUtility.executeHttpRequest<OnlineTeamsAndQuizzers>(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers`,
             null,
-            changes);
+            changes,
+        );
     }
 
     /**
@@ -63,15 +67,15 @@ export class AstroTeamsAndQuizzersService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param form Form contents with "name" and "file" set with the appropriate values.
-     * 
+     *
      * @returns Manifest of teams and quizzers extracted from the report.
      */
     public static processReportForImport(
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        form: FormData): Promise<OnlineTeamsAndQuizzersImportManifest> {
-
+        form: FormData,
+    ): Promise<OnlineTeamsAndQuizzersImportManifest> {
         return RemoteServiceUtility.executeHttpRequest<OnlineTeamsAndQuizzersImportManifest>(
             auth,
             "POST",
@@ -79,7 +83,8 @@ export class AstroTeamsAndQuizzersService {
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers/processReport`,
             null,
             form,
-            true);
+            true,
+        );
     }
 }
 
@@ -147,7 +152,6 @@ export interface OnlineTeamsAndQuizzersTeam {
  * Manifest for an individual quizzer.
  */
 export interface OnlineTeamsAndQuizzersQuizzer {
-
     /**
      * Quizzer for the manifest.
      */
@@ -163,7 +167,6 @@ export interface OnlineTeamsAndQuizzersQuizzer {
  * Collection of changes to teams and quizzers within a database.
  */
 export interface OnlineTeamsAndQuizzersChanges {
-
     /**
      * Added or updated teams. If the Team.Id is found in AddedTeamIds, it will be considered added.
      */
@@ -204,7 +207,6 @@ export interface OnlineTeamsAndQuizzersChanges {
  * Manifest of imported teams and quizzers.
  */
 export interface OnlineTeamsAndQuizzersImportManifest {
-
     /**
      * Teams included in the manifest.
      */
@@ -214,4 +216,19 @@ export interface OnlineTeamsAndQuizzersImportManifest {
      * Quizzers included in the manifest.
      */
     Quizzers: Record<number, Quizzer>;
+
+    /**
+     * Coaches (as Quizzers) included in the manifest.
+     */
+    CoachesAsQuizzers: Record<number, Quizzer>;
+
+    /**
+     * Officials (as Quizzers) included in the manifest.
+     */
+    OfficialsAsQuizzers: Record<number, Quizzer>;
+
+    /**
+     * Attendees (as Quizzers) included in the manifest.
+     */
+    AttendeesAsQuizzers: Record<number, Quizzer>;
 }

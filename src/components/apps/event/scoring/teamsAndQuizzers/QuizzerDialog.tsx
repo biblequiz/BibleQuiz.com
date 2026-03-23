@@ -4,8 +4,12 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import type { Church } from "types/services/ChurchesService";
 import { PersonParentType } from "types/services/PeopleService";
+import ChurchLookup, { ChurchSearchTips, type SelectedChurch } from "components/ChurchLookup";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
+    regionId?: string;
+    districtId?: string;
     churches: Record<string, Church>;
     people: Record<string, string>;
     quizzer: Quizzer | null;
@@ -13,6 +17,7 @@ interface Props {
     excludePeopleId: string[];
     defaultTeamId?: number;
     isReadOnly: boolean;
+    onDiscoveredChurch: (church: Church) => void;
     onSave: (quizzer: Quizzer) => void;
     onCancel: () => void;
 }
@@ -23,6 +28,8 @@ interface SelectedPerson {
 }
 
 export default function QuizzerDialog({
+    regionId,
+    districtId,
     churches,
     people,
     quizzer,
@@ -30,12 +37,14 @@ export default function QuizzerDialog({
     defaultTeamId,
     excludePeopleId,
     isReadOnly,
+    onDiscoveredChurch,
     onSave,
     onCancel }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
 
+    const [church, setChurch] = useState<SelectedChurch | undefined>();
     const [person, setPerson] = useState<SelectedPerson | undefined>();
     const [isSelectingPerson, setIsSelectingPerson] = useState(false);
     const [isDefaultPersonName, setIsDefaultPersonName] = useState(true);
@@ -54,9 +63,18 @@ export default function QuizzerDialog({
             : undefined);
         setIsSelectingPerson(false);
 
-        const initialTeamId = (quizzer?.TeamId || defaultTeamId || teams[0]!.Id);
-        const initialTeam = teams.find(t => t.Id === initialTeamId);
+        // Handle case where quizzer has no team (TeamId is undefined/null)
+        const initialTeamId = quizzer?.TeamId ?? defaultTeamId;
+        const initialTeam = initialTeamId !== undefined ? teams.find(t => t.Id === initialTeamId) : undefined;
         setTeam(initialTeam);
+
+        if (quizzer?.RemoteChurchId) {
+            const initialChurch = churches[quizzer.RemoteChurchId];
+            setChurch(initialChurch ? { id: initialChurch.Id!, displayName: initialChurch.Name! } : undefined);
+        }
+        else {
+            setChurch(undefined);
+        }
 
         setName(quizzer?.Name);
         setIsDefaultPersonName(!quizzer || newPersonName === quizzer.Name);
@@ -79,8 +97,8 @@ export default function QuizzerDialog({
         updatedQuizzer.YearsQuizzing = yearsOfQuizzing;
         updatedQuizzer.TeamId = team?.Id;
         updatedQuizzer.RemotePersonId = person?.id;
-        updatedQuizzer.RemoteChurchId = team?.RemoteChurchId;
-        updatedQuizzer.ChurchName = team?.Church;
+        updatedQuizzer.RemoteChurchId = church?.id || team?.RemoteChurchId;
+        updatedQuizzer.ChurchName = church?.displayName || team?.Church;
         updatedQuizzer.IsHidden = isHidden;
 
         onSave(updatedQuizzer);
@@ -91,11 +109,6 @@ export default function QuizzerDialog({
         onCancel();
         dialogRef.current?.close();
     };
-
-    // TODO: Add the ability to select a church here. This way, the event report doesn't need the functionality.
-    //       Maybe we need an indicator on quizzers where the person/church is missing?
-    // TODO: Maybe need an indicator on Teams where the church is missing/invalid? That way it is obvious to
-    //       the user.
 
     return (
         <>
@@ -113,7 +126,51 @@ export default function QuizzerDialog({
                     </button>
 
                     <form ref={formRef} className="mt-4 space-y-4" onSubmit={handleSave}>
-                        <div className="relative flex gap-2 mt-0 mb-0">
+                        {!isReadOnly && (
+                            <>
+                                <div className="w-full">
+                                    <label className="label">
+                                        <span className="label-text font-semibold">Church</span>
+                                        <span className="label-text-alt text-error">*</span>
+                                    </label>
+                                    <select
+                                        className="select select-bordered w-full mt-0"
+                                        value={church?.id ?? ""}
+                                        onChange={e => {
+                                            const targetValue = e.target.value;
+                                            const newValue = DataTypeHelpers.isNullOrEmpty(targetValue)
+                                                ? undefined
+                                                : targetValue;
+
+                                            setChurch(newValue ? { id: newValue, displayName: churches[newValue]!.Name } : undefined);
+                                        }}
+                                        disabled={isReadOnly}
+                                        required
+                                    >
+                                        {Object.entries(churches).map(([, c]) => (
+                                            <option key={`church_${c.Id}`} value={c.Id!}>
+                                                {c.Name}
+                                            </option>
+                                        ))}
+                                        <option value="">Other</option>
+                                    </select>
+                                </div>
+
+                                {!church && (
+                                    <ChurchLookup
+                                        regionId={regionId ?? undefined}
+                                        districtId={districtId ?? undefined}
+                                        showTips={ChurchSearchTips.None}
+                                        subtitle="Selecting a church helps deduplicate when generating reports."
+                                        required={true}
+                                        disabled={isReadOnly}
+                                        onSelect={(c, info) => {
+                                            setChurch(c);
+                                            onDiscoveredChurch(info);
+                                        }}
+                                    />)}
+                            </>)}
+                        <div className={`relative flex gap-2 ${!isReadOnly ? "mt-4" : "mt-0"} mb-0`}>
                             <input
                                 type="text"
                                 className="input input-bordered grow"
@@ -128,14 +185,17 @@ export default function QuizzerDialog({
                                     type="button"
                                     className="btn btn-primary"
                                     onClick={() => setIsSelectingPerson(true)}
-                                    disabled={isSelectingPerson}
+                                    disabled={isSelectingPerson || (!team && !church)}
+                                    title={!team ? "Find a person from the selected church" : "Find a person from the team's church"}
                                 >
                                     <FontAwesomeIcon icon="fas faSearch" />
                                     Find
                                 </button>)}
                         </div>
                         <div className="mt-0 text-xs text-gray-500 italic">
-                            Selecting a person helps deduplicate when generating reports.
+                            {!team
+                                ? "Select a church to enable person lookup."
+                                : "Selecting a person helps deduplicate when generating reports."}
                         </div>
 
                         <div className="form-control w-full">
@@ -185,7 +245,6 @@ export default function QuizzerDialog({
                         <div className="form-control w-full">
                             <label className="label">
                                 <span className="label-text font-semibold">Team</span>
-                                <span className="label-text-alt text-error">*</span>
                             </label>
                             <select
                                 className="select select-bordered w-full mt-0"
@@ -194,11 +253,21 @@ export default function QuizzerDialog({
                                     const newTeamId = e.target.value
                                         ? Number(e.target.value)
                                         : undefined;
-                                    setTeam(teams.find(t => t.Id === newTeamId));
+                                    setTeam(newTeamId !== undefined ? teams.find(t => t.Id === newTeamId) : undefined);
+
+                                    if (newTeamId && !church) {
+                                        const teamChurchId = teams.find(t => t.Id === newTeamId)?.RemoteChurchId;
+                                        if (teamChurchId) {
+                                            const teamChurch = churches[teamChurchId];
+                                            if (teamChurch) {
+                                                setChurch({ id: teamChurch.Id!, displayName: teamChurch.Name! });
+                                            }
+                                        }
+                                    }
                                 }}
-                                required
                                 disabled={isReadOnly}
                             >
+                                <option value="">-- No Team --</option>
                                 {teams.map(team => {
                                     const teamChurch = team.RemoteChurchId
                                         ? churches[team.RemoteChurchId]
@@ -250,12 +319,12 @@ export default function QuizzerDialog({
                     <button onClick={handleClose}>close</button>
                 </form>
             </dialog>
-            {isSelectingPerson && team && (
+            {isSelectingPerson && (
                 <PersonLookupDialog
                     title="Find Person"
-                    description={`Find a person from ${team.Church}.`}
+                    description={`Find a person from ${church?.displayName || team?.Church}.`}
                     parentType={PersonParentType.Church}
-                    parentId={team.RemoteChurchId!}
+                    parentId={church?.id || team?.RemoteChurchId!}
                     excludeIds={new Set<string>(excludePeopleId.filter(id => id !== person?.id))}
                     onSelect={person => {
                         if (person) {

@@ -6,6 +6,7 @@ import { useMatchRulesForm } from "./hooks/useMatchRulesForm";
 import GeneralRulesSection from "./sections/GeneralRulesSection";
 import QuizOutSection from "./sections/QuizOutSection";
 import ContestRulesSection from "./sections/ContestRulesSection";
+import UnseatRulesSection from "./sections/UnseatRulesSection";
 import QuestionCountsSection from "./sections/QuestionCountsSection";
 import OtherRulesSection from "./sections/OtherRulesSection";
 import TimerRulesSection from "./sections/TimerRulesSection";
@@ -97,6 +98,12 @@ export default function MatchRulesDialog({
                             backwardState={state.quizOutBackward}
                             onForwardChange={actions.setQuizOutForward}
                             onBackwardChange={actions.setQuizOutBackward}
+                            disabled={isReadOnly}
+                        />
+
+                        <UnseatRulesSection
+                            state={state.unseatRules}
+                            onChange={actions.setUnseatRules}
                             disabled={isReadOnly}
                         />
 

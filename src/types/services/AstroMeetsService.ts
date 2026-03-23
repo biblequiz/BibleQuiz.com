@@ -1,6 +1,6 @@
 import type { AuthManager } from "../AuthManager";
 import type { MatchRules } from "../MatchRules";
-import type { ScheduleTemplate } from "../Scheduling";
+import type { RankRoutedTeamOrQuizzer, ScheduleTemplate } from "../Scheduling";
 import type { TeamOrQuizzerReference } from "../Meets";
 import type { OnlineDatabaseSummary } from "./AstroDatabasesService";
 import {
@@ -21,6 +21,7 @@ export class AstroMeetsService {
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
      * @param meetId Id for the meet. If 0 is given, a default will be returned.
+     * @param isIndividualCompetition Value indicating whether this is an individual competition. Only required when meetId is less than 1.
      *
      * @returns Meet settings.
      */
@@ -29,12 +30,16 @@ export class AstroMeetsService {
         eventId: string,
         databaseId: string,
         meetId: number,
+        isIndividualCompetition: boolean = false,
     ): Promise<OnlineMeetSettings> {
         return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition,
+            }),
         );
     }
 
@@ -216,6 +221,12 @@ export interface OnlineMeetSettings {
     MatchTimes?: Record<number, string | null> | null;
 
     /**
+     * Value indicating whether this meet is an individual competition. This can only be set when the meet is created. If this is true, AllQuizzers
+     * will be populated. Otherwise, AllTeams will be populated.
+     */
+    IsIndividualCompetition: boolean;
+
+    /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.
      * This can only be null for a new meet.
      */
@@ -230,6 +241,11 @@ export interface OnlineMeetSettings {
      * All teams for the database. This is read-only from the server.
      */
     readonly AllTeams?: Record<number, TeamOrQuizzerReference>;
+
+    /**
+     * All quizzers for the database.
+     */
+    readonly AllQuizzers?: Record<number, TeamOrQuizzerReference>;
 
     /**
      * All meets in this database where scoring has started.
@@ -247,9 +263,20 @@ export interface OnlineMeetSchedulingSettings {
     LinkedMeetIds: number[];
 
     /**
-     * Ordered list of team ids for this meet.
+     * Ordered list of team ids for this meet (if team competition).
      */
     TeamIds: number[];
+
+    /**
+     * Value indicating whether this meet is an individual competition. This can only be set when the meet is created. If this is true, OnlineMeetSettings.AllQuizzers
+     * will be populated. Otherwise, OnlineMeetSettings.AllTeams will be populated.
+     */
+    IsIndividualCompetition: boolean;
+
+    /**
+     * Ordered list of quizzer ids for this meet (if individual competition).
+     */
+    QuizzerIds: number[];
 
     /**
      * Value indicating whether bye rounds should be included in scores.
@@ -348,9 +375,19 @@ export interface OnlineMeetScheduleMatch {
  */
 export interface OnlineMeetScheduleRoom {
     /**
-     * List of team ids in this room.
+     * List of team ids (if this is a team competition).
      */
     TeamIds: number[];
+
+    /**
+     * List of quizzer ids (if this is an individual competition).
+     */
+    QuizzerIds: number[];
+
+    /**
+     * List of team or quizzers routed from another room.
+     */
+    RoutedTeamOrQuizzers: RankRoutedTeamOrQuizzer[];
 
     /**
      * Value indicating whether this is a bye round.
