@@ -210,10 +210,10 @@ export default function RoomEditor({
     };
 
     return (
-        <div className="p-2 space-y-3">
+        <div className="p-2 space-y-3 mt-0 mb-0">
             {/* Format buttons */}
             {!isReadOnly && (
-                <div className="flex flex-wrap items-center gap-2">
+                <div className="flex flex-wrap items-center gap-2 mt-0 mb-0">
                     <div className="flex items-center gap-1">
                         <label className="label-text text-xs">{getPrefixLabel()}:</label>
                         <input
@@ -228,7 +228,7 @@ export default function RoomEditor({
                     </div>
                     <button
                         type="button"
-                        className={`btn btn-xs ${format === RoomNameFormat.Numbers ? "btn-primary" : "btn-outline"}`}
+                        className={`btn btn-xs mt-0 mb-0 ${format === RoomNameFormat.Numbers ? "btn-primary" : "btn-outline"}`}
                         onClick={() => applyFormat(RoomNameFormat.Numbers)}
                         disabled={disabled || roomNames.length === 0}
                         title="Number rooms sequentially (1, 2, 3...)"
@@ -238,7 +238,7 @@ export default function RoomEditor({
                     </button>
                     <button
                         type="button"
-                        className={`btn btn-xs ${format === RoomNameFormat.Letters ? "btn-primary" : "btn-outline"}`}
+                        className={`btn btn-xs mt-0 mb-0 ${format === RoomNameFormat.Letters ? "btn-primary" : "btn-outline"}`}
                         onClick={() => applyFormat(RoomNameFormat.Letters)}
                         disabled={disabled || roomNames.length === 0}
                         title="Letter rooms sequentially (A, B, C...)"
@@ -248,7 +248,7 @@ export default function RoomEditor({
                     </button>
                     <button
                         type="button"
-                        className={`btn btn-xs ${format === RoomNameFormat.LetterNumber ? "btn-primary" : "btn-outline"}`}
+                        className={`btn btn-xs mt-0 mb-0 ${format === RoomNameFormat.LetterNumber ? "btn-primary" : "btn-outline"}`}
                         onClick={() => applyFormat(RoomNameFormat.LetterNumber)}
                         disabled={disabled || roomNames.length === 0}
                         title="Letter prefix with numbers (A1, A2, A3...)"

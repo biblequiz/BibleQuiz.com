@@ -54,7 +54,7 @@ export default function SchedulePreviewTable({
                 {!isReadOnly && (
                     <>
                         {!isIndividualCompetition && (
-                            <label className="label cursor-pointer gap-2">
+                            <label className="label cursor-pointer mt-0 mb-0 gap-2">
                                 <input
                                     type="checkbox"
                                     className="checkbox checkbox-sm"
@@ -67,7 +67,7 @@ export default function SchedulePreviewTable({
                         )}
                         <button
                             type="button"
-                            className={`btn btn-sm ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
+                            className={`btn btn-sm mt-0 mb-0 ${isOutOfDate ? "btn-warning" : "btn-outline"}`}
                             onClick={onRefreshPreview}
                             disabled={disabled || isRefreshing || selectedCount < 2}
                         >
@@ -88,7 +88,7 @@ export default function SchedulePreviewTable({
                 {/* Export Stats button is always visible - it doesn't change data */}
                 <button
                     type="button"
-                    className="btn btn-sm btn-outline"
+                    className="btn btn-sm btn-outline mt-0 mb-0"
                     onClick={onExportStats}
                     disabled={disabled || isRefreshing || !schedulePreview}
                 >
