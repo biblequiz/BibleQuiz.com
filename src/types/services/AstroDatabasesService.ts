@@ -233,7 +233,6 @@ export class AstroDatabasesService {
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        selector: OnlineDatabaseMeetSelector,
     ): Promise<Record<number, string>> {
         return RemoteServiceUtility.executeHttpRequest<Record<number, string>>(
             auth,

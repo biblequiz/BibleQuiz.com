@@ -47,10 +47,7 @@ export default function SeedFromDivisionsDialog({
         setIsLoading(true);
         setError(null);
 
-        AstroDatabasesService.getMeetsWithRanks(auth, eventId, databaseId, {
-            Individuals: isIndividualCompetition,
-            MeetIds: []
-        })
+        AstroDatabasesService.getMeetsWithRanks(auth, eventId, databaseId)
             .then(data => {
                 setMeetsWithRanks(data);
                 setIsLoading(false);
