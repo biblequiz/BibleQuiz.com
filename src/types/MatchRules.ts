@@ -232,36 +232,24 @@ export class MatchRules {
 
         // Unseat rules.
         if (rules.UnseatRule) {
-            let description = "If guaranteed";
-            let hasUnseatRule = false;
-            if (rules.UnseatRule.UnseatIfPositionGuaranteed) {
-                if (
-                    rules.UnseatRule.TopPositions &&
-                    !rules.UnseatRule.DetermineTopPositionOrder
-                ) {
-                    description += ` specific position or any top ${rules.UnseatRule.TopPositions} position`;
-                } else {
-                    description += " position";
-                }
+            const unseatRule = rules.UnseatRule;
 
-                hasUnseatRule = true;
-            } else if (rules.UnseatRule.TopPositions) {
-                description += `${rules.UnseatRule.DetermineTopPositionOrder ? "" : " any"} top ${rules.UnseatRule.TopPositions} position`;
-                hasUnseatRule = true;
+            const conditions: string[] = [];
+            if (unseatRule.UnseatIfCannotAdvance) {
+                conditions.push("cannot advance");
             }
 
-            if (hasUnseatRule) {
-                if (
-                    rules.UnseatRule.TopPositions &&
-                    rules.UnseatRule.EndMatchIfTopPositionsKnown
-                ) {
-                    description += `. Match ends early if top ${rules.UnseatRule.TopPositions} positions guaranteed.`;
-                } else {
-                    description += ".";
-                }
+            if (unseatRule.UnseatIfPositionGuaranteed) {
+                conditions.push("position guaranteed");
+            }
 
+            if (unseatRule.UnseatIfNextRoomGuaranteed) {
+                conditions.push("next room guaranteed");
+            }
+
+            if (conditions.length > 0) {
                 lines.push(
-                    `<li><b>(IC Only) Unseating:</b> ${description}</li>`,
+                    `<li><b>(IC Only) Unseating:</b> Unseat if ${conditions.join(" or ")}.${unseatRule.EndMatchIfAllNextRoomsGuaranteed ? " Match ends early if all next rooms are guaranteed." : ""}</li>`,
                 );
             }
         }
@@ -384,33 +372,31 @@ export class UnseatRule {
      * Initializes a new instance of the UnseatRule class.
      */
     constructor() {
-        this.TopPositions = null;
-        this.EndMatchIfTopPositionsKnown = false;
-        this.DetermineTopPositionOrder = false;
+        this.UnseatIfNextRoomGuaranteed = true;
+        this.UnseatIfCannotAdvance = false;
         this.UnseatIfPositionGuaranteed = false;
+        this.EndMatchIfAllNextRoomsGuaranteed = false;
     }
 
     /**
-     * Top number of positions that must be known for the match to be ended.
+     * Value indicating whether the match should end if all the next rooms are guaranteed based on MatchScheduledRoom.RoutedTeamOrQuizzers.
      */
-    public TopPositions: number | null;
+    public EndMatchIfAllNextRoomsGuaranteed: boolean;
 
     /**
-     * Value indicating whether the match should end if top TopPositions positions are known in a way that satisfies DetermineTopPositionOrder.
-     * This property is ignored if TopPositions is null or less than 1.
+     * Value indicating whether to unseat a quizzer if their next room is guaranteed.
      */
-    public EndMatchIfTopPositionsKnown: boolean;
-
-    /**
-     * Value indicating whether the specific order of TopPositions must be known for the match to be ended.
-     * This property is ignored if TopPositions is null or less than 1.
-     */
-    public DetermineTopPositionOrder: boolean;
+    public UnseatIfNextRoomGuaranteed: boolean;
 
     /**
      * Value indicating whether to unseat a quizzer if their position is guaranteed.
      */
     public UnseatIfPositionGuaranteed: boolean;
+
+    /**
+     * Value indicating whether to unseat a quizzer if they cannot advance to the next room.
+     */
+    public UnseatIfCannotAdvance: boolean;
 }
 
 /**

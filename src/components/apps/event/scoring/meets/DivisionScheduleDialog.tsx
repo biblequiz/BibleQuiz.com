@@ -820,18 +820,21 @@ export default function DivisionScheduleDialog({
                                 defaultOpen={true}
                                 allowMultipleOpen={true}
                             >
-                                <TeamOrQuizzerSelector
-                                    selectedIds={isIndividualCompetition ? selectedQuizzerIds : selectedTeamIds}
-                                    allItems={isIndividualCompetition ? allQuizzers : allTeams}
-                                    disabled={isSaving}
-                                    isReadOnly={!canEditScheduleSettings}
-                                    isIndividualCompetition={isIndividualCompetition}
-                                    allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
-                                    schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
-                                    roomNames={isIndividualCompetition ? roomNames : undefined}
-                                    isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
-                                    onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
-                                />
+                            <TeamOrQuizzerSelector
+                                selectedIds={isIndividualCompetition ? selectedQuizzerIds : selectedTeamIds}
+                                allItems={isIndividualCompetition ? allQuizzers : allTeams}
+                                disabled={isSaving}
+                                isReadOnly={!canEditScheduleSettings}
+                                isIndividualCompetition={isIndividualCompetition}
+                                allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
+                                schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
+                                roomNames={isIndividualCompetition ? roomNames : undefined}
+                                isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
+                                onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
+                                auth={isIndividualCompetition ? auth : undefined}
+                                eventId={isIndividualCompetition ? eventId : undefined}
+                                databaseId={isIndividualCompetition ? databaseId : undefined}
+                            />
                             </CollapsibleSection>
 
                             {/* Scheduling Options */}

@@ -219,6 +219,54 @@ export class AstroDatabasesService {
             true,
         );
     }
+
+    /**
+     * Retrieves a list of meets with with ranked teams or quizzers.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     *
+     * @returns List of meets that have ranks.
+     */
+    public static getMeetsWithRanks(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+    ): Promise<Record<number, string>> {
+        return RemoteServiceUtility.executeHttpRequest<Record<number, string>>(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meetsWithRanks`,
+        );
+    }
+
+    /**
+     * Retrieves a list of ranked teams or quizzers from the meets specified in selector.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param selector Selector for the meets.
+     *
+     * @returns List of ranked teams or quizzers.
+     */
+    public static getRankedTeamsOrQuizzers(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        selector: OnlineDatabaseMeetSelector,
+    ): Promise<number[]> {
+        return RemoteServiceUtility.executeHttpRequest<number[]>(
+            auth,
+            "POST",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/rankedTeamsOrQuizzers`,
+            null,
+            selector,
+        );
+    }
 }
 
 /**
@@ -391,4 +439,19 @@ export class OnlineDatabaseMeetDisplaySettings {
      * Value indicating whether question stats should be displayed.
      */
     public readonly ShowQuestionStats!: boolean;
+}
+
+/**
+ * Selector for meets within a database.
+ */
+export class OnlineDatabaseMeetSelector {
+    /**
+     * Value indicating whether to retrieve individuals.
+     */
+    public Individuals!: boolean;
+
+    /**
+     * Ids of the meets that should be retrieved (in order).
+     */
+    public MeetIds!: number[];
 }

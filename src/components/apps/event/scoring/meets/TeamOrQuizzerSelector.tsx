@@ -1,7 +1,9 @@
 import { useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import type { AuthManager } from "types/AuthManager";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
+import SeedFromDivisionsDialog from "./SeedFromDivisionsDialog";
 
 interface Props {
     selectedIds: number[];
@@ -14,6 +16,10 @@ interface Props {
     roomNames?: string[];
     isScheduleOutOfDate?: boolean;
     onIdsChange: (ids: number[]) => void;
+    // Props for seeding functionality (individual competitions only)
+    auth?: AuthManager;
+    eventId?: string;
+    databaseId?: string;
 }
 
 /**
@@ -50,11 +56,20 @@ export default function TeamOrQuizzerSelector({
     schedulePreview,
     roomNames,
     isScheduleOutOfDate,
-    onIdsChange
+    onIdsChange,
+    auth,
+    eventId,
+    databaseId
 }: Props) {
     // Drag state for reordering
     const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
     const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
+
+    // Seed dialog state
+    const [showSeedDialog, setShowSeedDialog] = useState(false);
+
+    // Check if seeding is available (individual competition with auth props)
+    const canSeed = isIndividualCompetition && auth && eventId && databaseId && !isReadOnly;
 
     // Labels based on tournament type
     const itemLabel = isIndividualCompetition ? "quizzer" : "team";
@@ -133,6 +148,30 @@ export default function TeamOrQuizzerSelector({
                 </div>
             )}
 
+            {/* Seed and Clear buttons for individual competitions */}
+            {canSeed && (
+                <div className="mb-3 flex gap-2">
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline"
+                        onClick={() => setShowSeedDialog(true)}
+                        disabled={disabled}
+                    >
+                        <FontAwesomeIcon icon="fas faSeedling" />
+                        Seed from Division(s)
+                    </button>
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline btn-error"
+                        onClick={() => onIdsChange([])}
+                        disabled={disabled || selectedIds.length === 0}
+                    >
+                        <FontAwesomeIcon icon="fas faTrash" />
+                        Clear Quizzer(s)
+                    </button>
+                </div>
+            )}
+
             {/* Selected items list */}
             {selectedIds.length === 0 ? (
                 <div className="text-center py-4 text-base-content/60">
@@ -191,6 +230,21 @@ export default function TeamOrQuizzerSelector({
                         );
                     })}
                 </div>
+            )}
+
+            {/* Seed from Divisions Dialog */}
+            {showSeedDialog && auth && eventId && databaseId && (
+                <SeedFromDivisionsDialog
+                    auth={auth}
+                    eventId={eventId}
+                    databaseId={databaseId}
+                    isIndividualCompetition={isIndividualCompetition}
+                    onSeed={(ids) => {
+                        onIdsChange(ids);
+                        setShowSeedDialog(false);
+                    }}
+                    onClose={() => setShowSeedDialog(false)}
+                />
             )}
         </div>
     );
