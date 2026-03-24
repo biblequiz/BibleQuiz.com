@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { AuthManager } from "types/AuthManager";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
@@ -192,8 +193,8 @@ export default function SeedFromDivisionsDialog({
 
     const hasSelectedMeets = selectedMeetIds.length > 0;
 
-    return (
-        <dialog ref={dialogRef} className="modal" open>
+    const dialogContent = (
+        <dialog ref={dialogRef} className="modal modal-open" open>
             <div className="modal-box w-full max-w-lg">
                 <h3 className="font-bold text-lg">
                     <FontAwesomeIcon icon="fas faSeedling" />
@@ -347,6 +348,12 @@ export default function SeedFromDivisionsDialog({
                     </button>
                 </div>
             </div>
+            <form method="dialog" className="modal-backdrop">
+                <button type="button" onClick={onClose} disabled={isSeeding}>close</button>
+            </form>
         </dialog>
     );
+
+    // Use portal to render at document.body level, escaping parent stacking contexts
+    return createPortal(dialogContent, document.body);
 }
