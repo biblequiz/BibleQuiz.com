@@ -56,11 +56,10 @@ export interface TimerRulesState {
 }
 
 export interface UnseatRulesState {
+    unseatIfNextRoomGuaranteed: boolean;
     unseatIfPositionGuaranteed: boolean;
-    topPositionsEnabled: boolean;
-    topPositions: number;
-    unseatIfAnyTop: boolean;
-    endMatchIfTopPositionsKnown: boolean;
+    unseatIfCannotAdvance: boolean;
+    endMatchIfAllNextRoomsGuaranteed: boolean;
 }
 
 export interface MatchRulesFormState {
@@ -124,11 +123,10 @@ function extractTimerState(timing?: TimingRules): TimerRulesState {
 
 function extractUnseatState(rule: UnseatRule | null): UnseatRulesState {
     return {
+        unseatIfNextRoomGuaranteed: rule?.UnseatIfNextRoomGuaranteed ?? true,
         unseatIfPositionGuaranteed: rule?.UnseatIfPositionGuaranteed ?? false,
-        topPositionsEnabled: rule?.TopPositions != null && rule.TopPositions > 0,
-        topPositions: rule?.TopPositions ?? 3,
-        unseatIfAnyTop: rule?.TopPositions != null ? !rule.DetermineTopPositionOrder : true,
-        endMatchIfTopPositionsKnown: rule?.EndMatchIfTopPositionsKnown ?? false
+        unseatIfCannotAdvance: rule?.UnseatIfCannotAdvance ?? false,
+        endMatchIfAllNextRoomsGuaranteed: rule?.EndMatchIfAllNextRoomsGuaranteed ?? false
     };
 }
 
@@ -307,10 +305,10 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
 
         // Unseat Rules
         const unseat = new UnseatRule();
+        unseat.UnseatIfNextRoomGuaranteed = unseatRules.unseatIfNextRoomGuaranteed;
         unseat.UnseatIfPositionGuaranteed = unseatRules.unseatIfPositionGuaranteed;
-        unseat.TopPositions = unseatRules.topPositionsEnabled ? unseatRules.topPositions : null;
-        unseat.DetermineTopPositionOrder = unseatRules.topPositionsEnabled ? !unseatRules.unseatIfAnyTop : false;
-        unseat.EndMatchIfTopPositionsKnown = unseatRules.topPositionsEnabled ? unseatRules.endMatchIfTopPositionsKnown : false;
+        unseat.UnseatIfCannotAdvance = unseatRules.unseatIfCannotAdvance;
+        unseat.EndMatchIfAllNextRoomsGuaranteed = unseatRules.endMatchIfAllNextRoomsGuaranteed;
         newRules.UnseatRule = unseat;
 
         newRules.PointValueCounts = {

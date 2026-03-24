@@ -384,33 +384,31 @@ export class UnseatRule {
      * Initializes a new instance of the UnseatRule class.
      */
     constructor() {
-        this.TopPositions = null;
-        this.EndMatchIfTopPositionsKnown = false;
-        this.DetermineTopPositionOrder = false;
+        this.UnseatIfNextRoomGuaranteed = true;
+        this.UnseatIfCannotAdvance = false;
         this.UnseatIfPositionGuaranteed = false;
+        this.EndMatchIfAllNextRoomsGuaranteed = false;
     }
 
     /**
-     * Top number of positions that must be known for the match to be ended.
+     * Value indicating whether the match should end if all the next rooms are guaranteed based on MatchScheduledRoom.RoutedTeamOrQuizzers.
      */
-    public TopPositions: number | null;
+    public EndMatchIfAllNextRoomsGuaranteed: boolean;
 
     /**
-     * Value indicating whether the match should end if top TopPositions positions are known in a way that satisfies DetermineTopPositionOrder.
-     * This property is ignored if TopPositions is null or less than 1.
+     * Value indicating whether to unseat a quizzer if their next room is guaranteed.
      */
-    public EndMatchIfTopPositionsKnown: boolean;
-
-    /**
-     * Value indicating whether the specific order of TopPositions must be known for the match to be ended.
-     * This property is ignored if TopPositions is null or less than 1.
-     */
-    public DetermineTopPositionOrder: boolean;
+    public UnseatIfNextRoomGuaranteed: boolean;
 
     /**
      * Value indicating whether to unseat a quizzer if their position is guaranteed.
      */
     public UnseatIfPositionGuaranteed: boolean;
+
+    /**
+     * Value indicating whether to unseat a quizzer if they cannot advance to the next room.
+     */
+    public UnseatIfCannotAdvance: boolean;
 }
 
 /**
