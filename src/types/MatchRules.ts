@@ -232,36 +232,24 @@ export class MatchRules {
 
         // Unseat rules.
         if (rules.UnseatRule) {
-            let description = "If guaranteed";
-            let hasUnseatRule = false;
-            if (rules.UnseatRule.UnseatIfPositionGuaranteed) {
-                if (
-                    rules.UnseatRule.TopPositions &&
-                    !rules.UnseatRule.DetermineTopPositionOrder
-                ) {
-                    description += ` specific position or any top ${rules.UnseatRule.TopPositions} position`;
-                } else {
-                    description += " position";
-                }
+            const unseatRule = rules.UnseatRule;
 
-                hasUnseatRule = true;
-            } else if (rules.UnseatRule.TopPositions) {
-                description += `${rules.UnseatRule.DetermineTopPositionOrder ? "" : " any"} top ${rules.UnseatRule.TopPositions} position`;
-                hasUnseatRule = true;
+            const conditions: string[] = [];
+            if (unseatRule.UnseatIfCannotAdvance) {
+                conditions.push("cannot advance");
             }
 
-            if (hasUnseatRule) {
-                if (
-                    rules.UnseatRule.TopPositions &&
-                    rules.UnseatRule.EndMatchIfTopPositionsKnown
-                ) {
-                    description += `. Match ends early if top ${rules.UnseatRule.TopPositions} positions guaranteed.`;
-                } else {
-                    description += ".";
-                }
+            if (unseatRule.UnseatIfPositionGuaranteed) {
+                conditions.push("position guaranteed");
+            }
 
+            if (unseatRule.UnseatIfNextRoomGuaranteed) {
+                conditions.push("next room guaranteed");
+            }
+
+            if (conditions.length > 0) {
                 lines.push(
-                    `<li><b>(IC Only) Unseating:</b> ${description}</li>`,
+                    `<li><b>(IC Only) Unseating:</b> Unseat if ${conditions.join(" or ")}.${unseatRule.EndMatchIfAllNextRoomsGuaranteed ? " Match ends early if all next rooms are guaranteed." : ""}</li>`,
                 );
             }
         }
