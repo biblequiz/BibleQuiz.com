@@ -46,7 +46,7 @@ export default function DivisionCard({
 
     return (
         <div
-            className={`card bg-base-100 shadow-md border ${isDragOver ? "border-primary border-2 bg-primary/10" : "border-base-300"}`}
+            className={`card bg-base-100 shadow-md border mt-0 mb-0 ${isDragOver ? "border-primary border-2 bg-primary/10" : "border-base-300"}`}
             draggable={!disabled}
             onDragStart={(e) => onDragStart(e, meetId)}
             onDragEnd={onDragEnd}
@@ -64,13 +64,13 @@ export default function DivisionCard({
                         />
                         <h3 className="card-title text-base m-0">{divisionName}</h3>
                         {isIndividualCompetition && (
-                            <span className="badge badge-secondary badge-sm">Individual Division</span>
+                            <span className="badge badge-secondary badge-sm">Individuals</span>
                         )}
                     </div>
                     {!isScoreKeep && (
                         <button
                             type="button"
-                            className="btn btn-ghost btn-xs text-error"
+                            className="btn btn-ghost btn-xs text-error mt-0"
                             onClick={() => onDelete(meetId)}
                             disabled={disabled}
                             title="Delete Division"
@@ -82,15 +82,15 @@ export default function DivisionCard({
 
                 {/* Missing Questions Warning */}
                 {hasAnyMissingQuestions && (
-                    <div role="alert" className="alert alert-warning mt-0 mb-0 w-full">
+                    <div role="alert" className="alert alert-warning mt-0 mb-2 w-full">
                         <FontAwesomeIcon icon="fas faTriangleExclamation" />
                         <span>Missing Questions</span>
                     </div>
                 )}
 
                 {/* Checkboxes Row */}
-                <div className="flex flex-wrap gap-4 mb-3">
-                    <label className="label cursor-pointer gap-2 p-0">
+                <div className="flex flex-wrap gap-4 mb-2 mt-0">
+                    <label className="label cursor-pointer gap-2 p-0 mt-0">
                         <input
                             type="checkbox"
                             className="checkbox checkbox-sm checkbox-primary"
@@ -101,42 +101,43 @@ export default function DivisionCard({
                         <span className="label-text text-sm">Visible</span>
                     </label>
 
-                    <label className="label cursor-pointer gap-2 p-0">
-                        <input
-                            type="checkbox"
-                            className="checkbox checkbox-sm checkbox-primary"
-                            checked={displaySettings.ShowScores}
-                            onChange={(e) => onDisplaySettingsChange(meetId, "ShowScores", e.target.checked)}
-                            disabled={disabled || !displaySettings.ShowSchedule}
-                        />
-                        <span className="label-text text-sm">Stats</span>
-                    </label>
-
                     {!isIndividualCompetition && (
-                        <label className="label cursor-pointer gap-2 p-0">
-                            <input
-                                type="checkbox"
-                                className="checkbox checkbox-sm checkbox-primary"
-                                checked={displaySettings.ShowIndividualScores}
-                                onChange={(e) => onDisplaySettingsChange(meetId, "ShowIndividualScores", e.target.checked)}
-                                disabled={disabled || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
-                            />
-                            <span className="label-text text-sm">Individuals</span>
-                        </label>
-                    )}
+                        <>
+                            <label className="label cursor-pointer gap-2 p-0 mt-0">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox checkbox-sm checkbox-primary"
+                                    checked={displaySettings.ShowScores}
+                                    onChange={(e) => onDisplaySettingsChange(meetId, "ShowScores", e.target.checked)}
+                                    disabled={disabled || !displaySettings.ShowSchedule}
+                                />
+                                <span className="label-text text-sm">Stats</span>
+                            </label>
 
-                    <label className="label cursor-pointer gap-2 p-0">
-                        <input
-                            type="checkbox"
-                            className="checkbox checkbox-sm checkbox-primary"
-                            checked={displaySettings.ShowQuestionStats}
-                            onChange={(e) => onDisplaySettingsChange(meetId, "ShowQuestionStats", e.target.checked)}
-                            disabled={disabled || !displaySettings.ShowSchedule}
-                        />
-                        <span className="label-text text-sm">Q Stats</span>
-                    </label>
+                            <label className="label cursor-pointer gap-2 p-0 mt-0">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox checkbox-sm checkbox-primary"
+                                    checked={displaySettings.ShowIndividualScores}
+                                    onChange={(e) => onDisplaySettingsChange(meetId, "ShowIndividualScores", e.target.checked)}
+                                    disabled={disabled || !displaySettings.ShowSchedule || !displaySettings.ShowScores}
+                                />
+                                <span className="label-text text-sm">Individuals</span>
+                            </label>
 
-                    <label className="label cursor-pointer gap-2 p-0">
+                            <label className="label cursor-pointer gap-2 p-0 mt-0">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox checkbox-sm checkbox-primary"
+                                    checked={displaySettings.ShowQuestionStats}
+                                    onChange={(e) => onDisplaySettingsChange(meetId, "ShowQuestionStats", e.target.checked)}
+                                    disabled={disabled || !displaySettings.ShowSchedule}
+                                />
+                                <span className="label-text text-sm">Q Stats</span>
+                            </label>
+                        </>)}
+
+                    <label className="label cursor-pointer gap-2 p-0 mt-0">
                         <input
                             type="checkbox"
                             className="checkbox checkbox-sm checkbox-primary"
@@ -149,10 +150,10 @@ export default function DivisionCard({
                 </div>
 
                 {/* Action Buttons Row */}
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mt-0">
                     <button
                         type="button"
-                        className="btn btn-sm btn-outline"
+                        className="btn btn-sm btn-outline mt-0"
                         onClick={() => onEditSchedule(meetId)}
                         disabled={disabled}
                     >
@@ -163,7 +164,7 @@ export default function DivisionCard({
                     {!isIndividualCompetition && (
                         <button
                             type="button"
-                            className="btn btn-sm btn-outline"
+                            className="btn btn-sm btn-outline mt-0"
                             onClick={() => onEditPlayoffs(meetId)}
                             disabled={disabled}
                         >
@@ -173,7 +174,7 @@ export default function DivisionCard({
 
                     <button
                         type="button"
-                        className="btn btn-sm btn-outline"
+                        className="btn btn-sm btn-outline mt-0"
                         onClick={() => onEditRanking(meetId)}
                         disabled={disabled}
                     >
@@ -184,7 +185,7 @@ export default function DivisionCard({
                     {!isIndividualCompetition && (
                         <button
                             type="button"
-                            className="btn btn-sm btn-outline"
+                            className="btn btn-sm btn-outline mt-0"
                             onClick={() => onEditStats(meetId)}
                             disabled={disabled}
                         >

@@ -517,7 +517,7 @@ export default function DivisionScheduleDialog({
         const minItems = isIndividualCompetition ? 2 : 2;
         const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
         const itemLabel = isIndividualCompetition ? "quizzers" : "teams";
-        
+
         if (selectedCount < minItems) {
             setError(`You must assign at least two ${itemLabel} to generate a schedule.`);
             return;
@@ -602,7 +602,7 @@ export default function DivisionScheduleDialog({
 
         const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
         const itemLabel = isIndividualCompetition ? "quizzers" : "teams";
-        
+
         if (selectedCount < 2) {
             setError(`You must assign at least two ${itemLabel}.`);
             return;
@@ -712,9 +712,9 @@ export default function DivisionScheduleDialog({
                         <form ref={formRef} className="space-y-2">
                             {/* Division Name - Always visible at top */}
                             <div className="form-control mb-4">
-                                <label className="label">
+                                <label className="label mr-4">
                                     <span className="label-text font-semibold">Division Name</span>
-                                    <span className="label-text-alt text-error">* Required</span>
+                                    <span className="label-text-alt text-error">*</span>
                                 </label>
                                 <input
                                     type="text"
@@ -739,7 +739,7 @@ export default function DivisionScheduleDialog({
                                 defaultOpen={true}
                                 allowMultipleOpen={true}
                             >
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 mt-0">
                                     <div className="form-control">
                                         <label className="label">
                                             <span className="label-text">Match Length (minutes)</span>
@@ -761,7 +761,7 @@ export default function DivisionScheduleDialog({
 
                                 {/* Linked Meets - Not supported for individual competitions */}
                                 {!isIndividualCompetition && (
-                                    <div className="p-2">
+                                    <div className="p-2 mt-0">
                                         <button
                                             type="button"
                                             className="btn btn-sm btn-outline"
@@ -820,21 +820,21 @@ export default function DivisionScheduleDialog({
                                 defaultOpen={true}
                                 allowMultipleOpen={true}
                             >
-                            <TeamOrQuizzerSelector
-                                selectedIds={isIndividualCompetition ? selectedQuizzerIds : selectedTeamIds}
-                                allItems={isIndividualCompetition ? allQuizzers : allTeams}
-                                disabled={isSaving}
-                                isReadOnly={!canEditScheduleSettings}
-                                isIndividualCompetition={isIndividualCompetition}
-                                allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
-                                schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
-                                roomNames={isIndividualCompetition ? roomNames : undefined}
-                                isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
-                                onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
-                                auth={isIndividualCompetition ? auth : undefined}
-                                eventId={isIndividualCompetition ? eventId : undefined}
-                                databaseId={isIndividualCompetition ? databaseId : undefined}
-                            />
+                                <TeamOrQuizzerSelector
+                                    selectedIds={isIndividualCompetition ? selectedQuizzerIds : selectedTeamIds}
+                                    allItems={isIndividualCompetition ? allQuizzers : allTeams}
+                                    disabled={isSaving}
+                                    isReadOnly={!canEditScheduleSettings}
+                                    isIndividualCompetition={isIndividualCompetition}
+                                    allowAddRemove={!(hasCustomSchedule && !isRemovingCustomSchedule)}
+                                    schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
+                                    roomNames={isIndividualCompetition ? roomNames : undefined}
+                                    isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
+                                    onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
+                                    auth={isIndividualCompetition ? auth : undefined}
+                                    eventId={isIndividualCompetition ? eventId : undefined}
+                                    databaseId={isIndividualCompetition ? databaseId : undefined}
+                                />
                             </CollapsibleSection>
 
                             {/* Scheduling Options */}
@@ -847,18 +847,7 @@ export default function DivisionScheduleDialog({
                                 allowMultipleOpen={true}
                             >
                                 <div className="p-2 flex flex-wrap gap-4">
-                                    <label className="label cursor-pointer gap-2">
-                                        <input
-                                            type="checkbox"
-                                            className="checkbox checkbox-sm"
-                                            checked={includeByesInScores}
-                                            onChange={(e) => handleIncludeByesChange(e.target.checked)}
-                                            disabled={!canEditScheduleSettings}
-                                        />
-                                        <span className="label-text text-sm">Include Byes in Scores</span>
-                                    </label>
-
-                                    <div className="form-control">
+                                    <div className="form-control mt-0 mb-0">
                                         <label className="label gap-2 p-0">
                                             <span className="label-text text-sm">Starting Round:</span>
                                             <select
@@ -878,7 +867,7 @@ export default function DivisionScheduleDialog({
                                         </label>
                                     </div>
 
-                                    <div className="form-control">
+                                    <div className="form-control mt-0 mb-0">
                                         <label className="label gap-2 p-0">
                                             <span className="label-text text-sm">Total Rounds:</span>
                                             <input
@@ -893,6 +882,17 @@ export default function DivisionScheduleDialog({
                                             />
                                         </label>
                                     </div>
+                                    
+                                    <label className="label cursor-pointer gap-2 mt-0 mb-0">
+                                        <input
+                                            type="checkbox"
+                                            className="checkbox checkbox-sm"
+                                            checked={includeByesInScores}
+                                            onChange={(e) => handleIncludeByesChange(e.target.checked)}
+                                            disabled={!canEditScheduleSettings}
+                                        />
+                                        <span className="label-text text-sm">Include Byes in Scores</span>
+                                    </label>
                                 </div>
                             </CollapsibleSection>
 
@@ -1017,9 +1017,9 @@ export default function DivisionScheduleDialog({
                     )}
                 </div>
 
-                <div className="mt-4 text-right gap-2 flex justify-end">
+                <div className="mt-4 text-right gap-2 flex justify-end mt-2">
                     <button
-                        className="btn btn-sm btn-primary"
+                        className="btn btn-sm btn-primary mt-0 mb-0"
                         type="button"
                         onClick={handleSave}
                         disabled={isSaving || isLoading}
@@ -1037,7 +1037,7 @@ export default function DivisionScheduleDialog({
                         )}
                     </button>
                     <button
-                        className="btn btn-sm btn-secondary"
+                        className="btn btn-sm btn-secondary mt-0 mb-0"
                         type="button"
                         onClick={handleClose}
                         disabled={isSaving}

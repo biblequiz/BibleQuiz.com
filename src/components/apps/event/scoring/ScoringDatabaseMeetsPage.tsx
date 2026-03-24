@@ -350,11 +350,11 @@ export default function ScoringDatabaseMeetsPage() {
 
             {/* Header */}
             <div className="flex flex-wrap justify-between items-center gap-4">
-                <h3 className="text-lg font-semibold">Divisions</h3>
-                <div className="flex flex-wrap gap-2">
+                <h3 className="text-lg font-semibold mb-0">Divisions</h3>
+                <div className="flex flex-wrap gap-2 mb-0">
                     <button
                         type="button"
-                        className="btn btn-success btn-sm"
+                        className="btn btn-success btn-sm mt-0 mb-0"
                         onClick={handleSaveChanges}
                         disabled={!isDirty || isSaving}
                     >
@@ -374,7 +374,7 @@ export default function ScoringDatabaseMeetsPage() {
                         <>
                             <button
                                 type="button"
-                                className="btn btn-primary btn-sm"
+                                className="btn btn-primary btn-sm mt-0 mb-0"
                                 onClick={handleAddTeamDivision}
                                 disabled={isSaving}
                             >
@@ -383,7 +383,7 @@ export default function ScoringDatabaseMeetsPage() {
                             </button>
                             <button
                                 type="button"
-                                className="btn btn-secondary btn-sm"
+                                className="btn btn-secondary btn-sm mt-0 mb-0"
                                 onClick={handleAddIndividualDivision}
                                 disabled={isSaving}
                             >
