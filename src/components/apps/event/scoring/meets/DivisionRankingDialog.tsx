@@ -205,7 +205,7 @@ export default function DivisionRankingDialog({
                 currentTeams.delete(teamId);
             }
         });
-        
+
         setRankedTeams(newRankedTeams);
         setTeamOverrideMessage("");
         setIsDirty(true);
@@ -235,7 +235,7 @@ export default function DivisionRankingDialog({
                 currentQuizzers.delete(quizzerId);
             }
         });
-        
+
         setRankedQuizzers(newRankedQuizzers);
         setQuizzerOverrideMessage("");
         setIsDirty(true);
@@ -276,8 +276,8 @@ export default function DivisionRankingDialog({
     };
 
     const renderTeamsTable = () => (
-        <div className="overflow-x-auto">
-            <table className="table table-xs table-zebra w-full">
+        <div className="overflow-x-auto mt-0">
+            <table className="table table-xs table-zebra w-full mt-0 mb-0">
                 <thead>
                     <tr>
                         {!isReadOnly && <th className="w-8"></th>}
@@ -334,8 +334,8 @@ export default function DivisionRankingDialog({
     );
 
     const renderQuizzersTable = () => (
-        <div className="overflow-x-auto">
-            <table className="table table-xs table-zebra w-full">
+        <div className="overflow-x-auto mt-0">
+            <table className="table table-xs table-zebra w-full mt-0 mb-0">
                 <thead>
                     <tr>
                         {!isReadOnly && <th className="w-8"></th>}
@@ -430,11 +430,11 @@ export default function DivisionRankingDialog({
                     {rankingSummary && !isLoading && (
                         <>
                             {/* Tabs */}
-                            <div role="tablist" className="tabs tabs-boxed mb-4">
+                            <div role="tablist" className="tabs tabs-boxed mb-0 mt-0">
                                 <button
                                     type="button"
                                     role="tab"
-                                    className={`tab ${activeTab === "teams" ? "tab-active" : ""}`}
+                                    className={`tab mb-0 mt-0 ${activeTab === "teams" ? "tab-active" : ""}`}
                                     onClick={() => setActiveTab("teams")}
                                 >
                                     <FontAwesomeIcon icon="fas faUsers" />
@@ -443,7 +443,7 @@ export default function DivisionRankingDialog({
                                 <button
                                     type="button"
                                     role="tab"
-                                    className={`tab ${activeTab === "quizzers" ? "tab-active" : ""}`}
+                                    className={`tab mb-0 mt-0 ${activeTab === "quizzers" ? "tab-active" : ""}`}
                                     onClick={() => setActiveTab("quizzers")}
                                 >
                                     <FontAwesomeIcon icon="fas faUser" />
@@ -453,18 +453,18 @@ export default function DivisionRankingDialog({
 
                             {/* Teams Tab Content */}
                             {activeTab === "teams" && (
-                                <div className="space-y-4">
+                                <div className="space-y-4 mt-0">
                                     {/* Drag hint and reset button */}
                                     {!isReadOnly && (
-                                        <div className="flex items-center gap-2">
-                                            <span className="text-sm text-base-content/60">
+                                        <div className="flex items-center gap-2 mt-0 mb-0">
+                                            <span className="text-sm text-base-content/60 mt-0 mb-0">
                                                 <FontAwesomeIcon icon="fas faGripVertical" />
                                                 <span className="ml-2">Drag rows to reorder rankings</span>
                                             </span>
                                             <div className="flex-grow"></div>
                                             <button
                                                 type="button"
-                                                className="btn btn-sm btn-ghost"
+                                                className="btn btn-sm btn-ghost mt-0 mb-0"
                                                 onClick={handleClearTeamRanking}
                                                 disabled={isSaving}
                                             >
@@ -475,24 +475,30 @@ export default function DivisionRankingDialog({
                                     )}
 
                                     {/* Teams table */}
-                                    <div className="max-h-[40vh] overflow-y-auto border rounded-lg">
+                                    <div className="max-h-[40vh] overflow-y-auto border rounded-lg mt-0 mb-0">
                                         {renderTeamsTable()}
                                     </div>
 
                                     {/* Override message */}
-                                    <div className="form-control">
+                                    <div className="form-control w-full mt-2 mb-0">
                                         <label className="label">
-                                            <span className="label-text font-medium">Override Message</span>
+                                            <span className="label-text font-medium text-sm">
+                                                Override Message
+                                            </span>
+                                            <span className="label-text-alt text-error">*</span>
                                         </label>
-                                        <textarea
-                                            className="textarea textarea-bordered h-20"
-                                            placeholder="Enter a message explaining the ranking override..."
+                                        <input
+                                            type="text"
+                                            className="input w-full mt-2 mb-0"
+                                            placeholder="Message explaining the override"
                                             value={teamOverrideMessage}
-                                            onChange={(e) => {
+                                            onChange={e => {
                                                 setTeamOverrideMessage(e.target.value);
                                                 setIsDirty(true);
                                             }}
+                                            required={!true}
                                             disabled={isReadOnly || isSaving}
+                                            maxLength={200}
                                         />
                                     </div>
                                 </div>
@@ -503,15 +509,15 @@ export default function DivisionRankingDialog({
                                 <div className="space-y-4">
                                     {/* Drag hint and reset button */}
                                     {!isReadOnly && (
-                                        <div className="flex items-center gap-2">
-                                            <span className="text-sm text-base-content/60">
+                                        <div className="flex items-center gap-2 mt-0 mb-0">
+                                            <span className="text-sm text-base-content/60 mt-0 mb-0">
                                                 <FontAwesomeIcon icon="fas faGripVertical" />
                                                 <span className="ml-2">Drag rows to reorder rankings</span>
                                             </span>
                                             <div className="flex-grow"></div>
                                             <button
                                                 type="button"
-                                                className="btn btn-sm btn-ghost"
+                                                className="btn btn-sm btn-ghost mt-0 mb-0"
                                                 onClick={handleClearQuizzerRanking}
                                                 disabled={isSaving}
                                             >
@@ -522,24 +528,30 @@ export default function DivisionRankingDialog({
                                     )}
 
                                     {/* Quizzers table */}
-                                    <div className="max-h-[40vh] overflow-y-auto border rounded-lg">
+                                    <div className="max-h-[40vh] overflow-y-auto border rounded-lg mt-0 mb-0">
                                         {renderQuizzersTable()}
                                     </div>
 
                                     {/* Override message */}
-                                    <div className="form-control">
+                                    <div className="form-control w-full mt-2 mb-0">
                                         <label className="label">
-                                            <span className="label-text font-medium">Override Message</span>
+                                            <span className="label-text font-medium text-sm">
+                                                Override Message
+                                            </span>
+                                            <span className="label-text-alt text-error">*</span>
                                         </label>
-                                        <textarea
-                                            className="textarea textarea-bordered h-20"
-                                            placeholder="Enter a message explaining the ranking override..."
-                                            value={quizzerOverrideMessage}
-                                            onChange={(e) => {
+                                        <input
+                                            type="text"
+                                            className="input w-full"
+                                            placeholder="Message explaining the override"
+                                            value={teamOverrideMessage}
+                                            onChange={e => {
                                                 setQuizzerOverrideMessage(e.target.value);
                                                 setIsDirty(true);
                                             }}
+                                            required={!true}
                                             disabled={isReadOnly || isSaving}
+                                            maxLength={200}
                                         />
                                     </div>
                                 </div>
@@ -548,10 +560,10 @@ export default function DivisionRankingDialog({
                     )}
                 </div>
 
-                <div className="mt-4 text-right gap-2 flex justify-end">
+                <div className="mt-2 text-right gap-2 flex justify-end">
                     {!isReadOnly && rankingSummary && (
                         <button
-                            className="btn btn-sm btn-primary"
+                            className="btn btn-sm btn-primary mt-0 mb-0"
                             type="button"
                             onClick={handleSave}
                             disabled={isSaving || isLoading || !isDirty}
@@ -570,7 +582,7 @@ export default function DivisionRankingDialog({
                         </button>
                     )}
                     <button
-                        className="btn btn-sm btn-secondary"
+                        className="btn btn-sm btn-secondary mt-0 mb-0"
                         type="button"
                         onClick={handleClose}
                         disabled={isSaving}

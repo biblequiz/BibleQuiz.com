@@ -191,7 +191,7 @@ export default function LinkedMeetsDialog({
                 >✕</button>
 
                 <div className="mt-4">
-                    <div className="alert alert-info mb-4">
+                    <div className="alert alert-info mb-4 mt-0">
                         <FontAwesomeIcon icon="fas faCircleInfo" />
                         <div className="text-sm">
                             <p className="font-semibold">What are Linked Divisions?</p>
@@ -243,7 +243,7 @@ export default function LinkedMeetsDialog({
                                     return (
                                         <div
                                             key={meet.id}
-                                            className={`p-3 rounded-lg border transition-all ${
+                                            className={`p-3 rounded-lg border transition-all mt-0 ${
                                                 isDragging
                                                     ? "opacity-50 border-primary bg-primary/5"
                                                     : isDragOver
@@ -344,7 +344,7 @@ export default function LinkedMeetsDialog({
                 <div className="mt-4 text-right gap-2 flex justify-end">
                     {!isReadOnly && !isLinkingLocked && (
                         <button
-                            className="btn btn-sm btn-primary"
+                            className="btn btn-sm btn-primary mt-0"
                             type="button"
                             onClick={handleSave}
                         >
@@ -353,7 +353,7 @@ export default function LinkedMeetsDialog({
                         </button>
                     )}
                     <button
-                        className="btn btn-sm btn-secondary"
+                        className="btn btn-sm btn-secondary mt-0"
                         type="button"
                         onClick={onClose}
                     >

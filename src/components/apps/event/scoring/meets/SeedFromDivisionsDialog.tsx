@@ -250,7 +250,7 @@ export default function SeedFromDivisionsDialog({
                                     </p>
                                 </div>
                             ) : (
-                                <div className="space-y-2 max-h-80 overflow-y-auto">
+                                <div className="space-y-2 max-h-80 overflow-y-auto mt-0">
                                     {sortedMeetItems.map(meet => {
                                         const isSelected = selectedMeetIds.includes(meet.id);
                                         const orderIndex = getOrderIndex(meet.id);
@@ -261,7 +261,7 @@ export default function SeedFromDivisionsDialog({
                                         return (
                                             <div
                                                 key={meet.id}
-                                                className={`p-3 rounded-lg border transition-all ${
+                                                className={`p-1 rounded-lg border transition-all mt-0 mb-0 ${
                                                     isDragging
                                                         ? "opacity-50 border-primary bg-primary/5"
                                                         : isDragOver

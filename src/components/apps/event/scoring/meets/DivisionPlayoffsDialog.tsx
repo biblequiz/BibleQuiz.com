@@ -317,7 +317,7 @@ export default function DivisionPlayoffsDialog({
                                     {!isReadOnly && playoffs.HasScoringStarted && (
                                         <button
                                             type="button"
-                                            className="btn btn-primary btn-sm mt-4"
+                                            className="btn btn-primary btn-sm mt-0"
                                             onClick={handleAddMatch}
                                         >
                                             <FontAwesomeIcon icon="fas faPlus" />
@@ -347,7 +347,7 @@ export default function DivisionPlayoffsDialog({
                                     {!isReadOnly && playoffs.HasScoringStarted && (
                                         <button
                                             type="button"
-                                            className="btn btn-outline btn-sm w-full"
+                                            className="btn btn-outline btn-sm w-full mt-2"
                                             onClick={handleAddMatch}
                                             disabled={isSaving}
                                         >
@@ -364,7 +364,7 @@ export default function DivisionPlayoffsDialog({
                 <div className="mt-4 text-right gap-2 flex justify-end">
                     {!isReadOnly && playoffs && playoffs.HasScoringStarted && (
                         <button
-                            className="btn btn-sm btn-primary"
+                            className="btn btn-sm btn-primary mt-0"
                             type="button"
                             onClick={handleSave}
                             disabled={isSaving || isLoading}
@@ -383,7 +383,7 @@ export default function DivisionPlayoffsDialog({
                         </button>
                     )}
                     <button
-                        className="btn btn-sm btn-secondary"
+                        className="btn btn-sm btn-secondary mt-0"
                         type="button"
                         onClick={handleClose}
                         disabled={isSaving}

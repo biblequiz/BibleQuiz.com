@@ -124,10 +124,10 @@ export default function TeamOrQuizzerSelector({
     };
 
     return (
-        <div className="p-2">
+        <div className="p-2 mt-0">
             {/* Add item dropdown */}
             {!isReadOnly && allowAddRemove && availableItems.length > 0 && (
-                <div className="mb-3">
+                <div className="mb-3 mt-0">
                     <select
                         className="select select-bordered select-sm w-full max-w-xs"
                         onChange={(e) => {
@@ -150,10 +150,10 @@ export default function TeamOrQuizzerSelector({
 
             {/* Seed and Clear buttons for individual competitions */}
             {canSeed && (
-                <div className="mb-3 flex gap-2">
+                <div className="mb-3 flex gap-2 mt-0">
                     <button
                         type="button"
-                        className="btn btn-sm btn-outline"
+                        className="btn btn-sm btn-outline mt-0"
                         onClick={() => setShowSeedDialog(true)}
                         disabled={disabled}
                     >
@@ -162,7 +162,7 @@ export default function TeamOrQuizzerSelector({
                     </button>
                     <button
                         type="button"
-                        className="btn btn-sm btn-outline btn-error"
+                        className="btn btn-sm btn-outline btn-error mt-0"
                         onClick={() => onIdsChange([])}
                         disabled={disabled || selectedIds.length === 0}
                     >
@@ -187,7 +187,7 @@ export default function TeamOrQuizzerSelector({
                         return (
                             <div
                                 key={itemId}
-                                className={`flex items-center gap-2 p-2 rounded-lg ${
+                                className={`flex items-center gap-2 p-1 rounded-lg mt-0 mb-0 ${
                                     isDragOver ? "bg-primary/20" : "bg-base-100"
                                 } ${isDragging ? "opacity-50" : ""}`}
                                 draggable={!isReadOnly && !disabled}

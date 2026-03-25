@@ -687,7 +687,7 @@ export default function DivisionScheduleDialog({
                 </h3>
                 <button
                     type="button"
-                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-2"
                     onClick={handleClose}
                     disabled={isSaving}
                 >✕</button>
@@ -710,15 +710,16 @@ export default function DivisionScheduleDialog({
 
                     {!isLoading && (
                         <form ref={formRef} className="space-y-2">
-                            {/* Division Name - Always visible at top */}
-                            <div className="form-control mb-4">
-                                <label className="label mr-4">
-                                    <span className="label-text font-semibold">Division Name</span>
+                            <div className="form-control w-full mt-0 mb-4">
+                                <label className="label">
+                                    <span className="label-text font-medium text-md">
+                                        Division Name
+                                    </span>
                                     <span className="label-text-alt text-error">*</span>
                                 </label>
                                 <input
                                     type="text"
-                                    className="input input-bordered"
+                                    className="input w-full"
                                     value={name}
                                     onChange={(e) => {
                                         setName(e.target.value);
@@ -882,7 +883,7 @@ export default function DivisionScheduleDialog({
                                             />
                                         </label>
                                     </div>
-                                    
+
                                     <label className="label cursor-pointer gap-2 mt-0 mb-0">
                                         <input
                                             type="checkbox"
