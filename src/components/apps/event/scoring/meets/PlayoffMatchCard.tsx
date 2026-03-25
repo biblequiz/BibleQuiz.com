@@ -38,8 +38,8 @@ export default function PlayoffMatchCard({
     const allUsedTeamIds = match.RoomSchedule.flatMap(r => r.TeamIds);
 
     return (
-        <div className="card bg-base-200 p-4">
-            <div className="flex items-center justify-between mb-3">
+        <div className="card bg-base-200 p-2 mt-2 mb-0">
+            <div className="flex items-center justify-between mb-0">
                 <h4 className="font-semibold">
                     Playoff Round {match.Id}
                 </h4>
@@ -71,7 +71,7 @@ export default function PlayoffMatchCard({
                     ];
 
                     return (
-                        <div key={`${room.Id}-${roomIndex}`} className="bg-base-100 p-3 rounded-lg">
+                        <div key={`${room.Id}-${roomIndex}`} className="bg-base-100 p-3 rounded-lg mt-0 mb-0">
                             <div className="flex items-center justify-between mb-2">
                                 <div className="flex items-center gap-2 flex-1">
                                     <span className="text-sm font-medium">Room:</span>
@@ -94,7 +94,7 @@ export default function PlayoffMatchCard({
                                         </span>
                                     )}
                                 </div>
-                                <div className="flex items-center gap-1">
+                                <div className="flex items-center gap-1 mt-0">
                                     {room.HasScoringStarted && (
                                         <span className="badge badge-warning badge-sm">
                                             Scoring Started
@@ -103,7 +103,7 @@ export default function PlayoffMatchCard({
                                     {!isReadOnly && !room.HasScoringStarted && (
                                         <button
                                             type="button"
-                                            className="btn btn-ghost btn-xs text-error"
+                                            className="btn btn-ghost btn-xs text-error mt-0"
                                             onClick={() => onRemoveRoom(matchIndex, roomIndex)}
                                             disabled={isSaving}
                                             title="Remove Room"
@@ -130,7 +130,7 @@ export default function PlayoffMatchCard({
                                     });
 
                                     return (
-                                        <div key={teamIndex} className="flex items-center gap-2">
+                                        <div key={teamIndex} className="flex items-center gap-2 mt-2 mb-0">
                                             <select
                                                 className="select select-sm select-bordered flex-1"
                                                 value={teamId ?? ""}
@@ -157,7 +157,7 @@ export default function PlayoffMatchCard({
 
                 {/* Add Room button */}
                 {!isReadOnly && hasMoreRoomsAvailable && (
-                    <div className="bg-base-100 p-3 rounded-lg border-2 border-dashed border-base-300 flex items-center justify-center min-h-[120px]">
+                    <div className="bg-base-100 p-0 mt-0 mb-0 rounded-lg border-2 border-dashed border-base-300 flex items-center justify-center min-h-[120px]">
                         <button
                             type="button"
                             className="btn btn-ghost btn-sm"

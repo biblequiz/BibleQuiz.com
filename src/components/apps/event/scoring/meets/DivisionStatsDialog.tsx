@@ -184,7 +184,7 @@ export default function DivisionStatsDialog({
                 </h3>
                 <button
                     type="button"
-                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-2 mb-0"
                     onClick={handleClose}
                     disabled={isSaving}
                 >✕</button>
@@ -227,15 +227,15 @@ export default function DivisionStatsDialog({
 
                             {/* Clear all button */}
                             {!isReadOnly && (
-                                <div className="flex items-center gap-2 mb-4">
-                                    <span className="text-sm text-base-content/60">
+                                <div className="flex items-center gap-2 mb-0 mt-0">
+                                    <span className="text-sm text-base-content/60 mt-0 mb-0">
                                         <FontAwesomeIcon icon="fas faUser" />
                                         <span className="ml-2">Quizzers ({quizzersWithOverrides.length})</span>
                                     </span>
                                     <div className="flex-grow"></div>
                                     <button
                                         type="button"
-                                        className="btn btn-sm btn-ghost"
+                                        className="btn btn-sm btn-ghost mt-0 mb-0"
                                         onClick={handleClearAllOverrides}
                                         disabled={isSaving || !hasAnyOverrides}
                                     >
@@ -246,7 +246,7 @@ export default function DivisionStatsDialog({
                             )}
 
                             {/* Quizzers table */}
-                            <div className="max-h-[50vh] overflow-y-auto border rounded-lg">
+                            <div className="max-h-[50vh] overflow-y-auto border rounded-lg mt-0 mb-2">
                                 <div className="overflow-x-auto">
                                     <table className="table table-xs table-zebra w-full">
                                         <thead>
@@ -287,10 +287,10 @@ export default function DivisionStatsDialog({
                     )}
                 </div>
 
-                <div className="mt-4 text-right gap-2 flex justify-end">
+                <div className="mt-2 text-right gap-2 flex justify-end">
                     {!isReadOnly && statsSummary && (
                         <button
-                            className="btn btn-sm btn-primary"
+                            className="btn btn-sm btn-primary mt-0 mb-0"
                             type="button"
                             onClick={handleSave}
                             disabled={isSaving || isLoading || !isDirty}
@@ -309,7 +309,7 @@ export default function DivisionStatsDialog({
                         </button>
                     )}
                     <button
-                        className="btn btn-sm btn-secondary"
+                        className="btn btn-sm btn-secondary mt-0 mb-0"
                         type="button"
                         onClick={handleClose}
                         disabled={isSaving}
