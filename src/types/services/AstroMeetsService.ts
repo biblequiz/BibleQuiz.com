@@ -286,7 +286,7 @@ export interface OnlineMeetSchedulingSettings {
     /**
      * Value indicating whether there is a custom schedule.
      */
-    readonly HasCustomSchedule: boolean;
+    HasCustomSchedule: boolean;
 
     /**
      * Value indicating whether to use the optimizer.

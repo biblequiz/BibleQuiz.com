@@ -135,7 +135,7 @@ export default function TeamOrQuizzerSelector({
                             if (itemId) handleAddItem(itemId);
                             e.target.value = "";
                         }}
-                        disabled={disabled}
+                        disabled={disabled || isReadOnly}
                         defaultValue=""
                     >
                         <option value="" disabled>Add {itemLabel}...</option>
@@ -149,7 +149,7 @@ export default function TeamOrQuizzerSelector({
             )}
 
             {/* Seed and Clear buttons for individual competitions */}
-            {canSeed && (
+            {canSeed && allowAddRemove && (
                 <div className="mb-3 flex gap-2 mt-0">
                     <button
                         type="button"
@@ -164,7 +164,7 @@ export default function TeamOrQuizzerSelector({
                         type="button"
                         className="btn btn-sm btn-outline btn-error mt-0"
                         onClick={() => onIdsChange([])}
-                        disabled={disabled || selectedIds.length === 0}
+                        disabled={disabled || selectedIds.length === 0 || isReadOnly}
                     >
                         <FontAwesomeIcon icon="fas faTrash" />
                         Clear Quizzer(s)

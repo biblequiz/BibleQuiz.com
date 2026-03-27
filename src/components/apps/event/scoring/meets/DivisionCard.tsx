@@ -143,7 +143,7 @@ export default function DivisionCard({
                             className="checkbox checkbox-sm checkbox-primary"
                             checked={displaySettings.AllowEZScore}
                             onChange={(e) => onDisplaySettingsChange(meetId, "AllowEZScore", e.target.checked)}
-                            disabled={disabled || !displaySettings.ShowSchedule}
+                            disabled={disabled}
                         />
                         <span className="label-text text-sm">EZScore</span>
                     </label>
