@@ -92,7 +92,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
 
     // Fetch current teams and quizzers when component mounts or when databaseId changes
     useEffect(() => {
-        if (databaseId && !currentTeamsAndQuizzers && !isLoadingTeamsAndQuizzers) {
+        if (databaseId && !currentTeamsAndQuizzers && !isLoadingTeamsAndQuizzers && !teamsAndQuizzersError) {
             setIsLoadingTeamsAndQuizzers(true);
             setTeamsAndQuizzersError(null);
 
@@ -106,7 +106,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     setIsLoadingTeamsAndQuizzers(false);
                 });
         }
-    }, [auth, eventId, databaseId, isLoadingTeamsAndQuizzers]);
+    }, [auth, eventId, databaseId, isLoadingTeamsAndQuizzers, teamsAndQuizzersError]);
 
     const handleImportComplete = (updated: OnlineTeamsAndQuizzers | null) => {
         setDownloadedManifest(null);
@@ -459,6 +459,23 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     }, [getMergedTeams]);
 
     if (isLoadingTeamsAndQuizzers || !currentTeamsAndQuizzers) {
+        if (teamsAndQuizzersError) {
+            return (
+                <div className="hero bg-base-300 rounded-2xl shadow-lg">
+                    <div className="hero-content text-center py-16 px-8">
+                        <div className="max-w-4xl">
+                            <h1 className="text-3xl font-bold text-base-content mb-4">
+                                <FontAwesomeIcon icon="fas faTriangleExclamation" />
+                                <span className="ml-4">Error</span>
+                            </h1>
+                            <p className="text-lg text-base-content/70 mb-8">
+                                {teamsAndQuizzersError}
+                            </p>
+                        </div>
+                    </div>
+                </div>);
+        }
+
         return (
             <div className="hero bg-base-300 rounded-2xl shadow-lg">
                 <div className="hero-content text-center py-16 px-8">
