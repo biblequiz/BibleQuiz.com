@@ -123,7 +123,7 @@ function extractTimerState(timing?: TimingRules): TimerRulesState {
 
 function extractUnseatState(rule: UnseatRule | null): UnseatRulesState {
     return {
-        unseatIfNextRoomGuaranteed: rule?.UnseatIfNextRoomGuaranteed ?? true,
+        unseatIfNextRoomGuaranteed: rule?.UnseatIfNextRoomGuaranteed ?? false,
         unseatIfPositionGuaranteed: rule?.UnseatIfPositionGuaranteed ?? false,
         unseatIfCannotAdvance: rule?.UnseatIfCannotAdvance ?? false,
         endMatchIfAllNextRoomsGuaranteed: rule?.EndMatchIfAllNextRoomsGuaranteed ?? false
