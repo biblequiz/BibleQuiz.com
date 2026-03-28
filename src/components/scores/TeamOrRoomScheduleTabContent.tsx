@@ -231,7 +231,7 @@ export default function TeamOrRoomScheduleTabContent({
                         }
 
                         if (isRoomReport && matchTeam) {
-                            cellText.push(`"${matchTeam!.Name}"`);
+                            cellText.push(`"${matchTeam!.Name}" (${matchTeam!.ChurchName})`);
                         }
 
                         if (isScheduleOnly) {
