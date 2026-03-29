@@ -1,0 +1,2400 @@
+{
+  "EventName": "2026 WNMD JBQ District Finals",
+  "DatabaseNames": {
+    "f1202173-90ef-42f3-9000-3e5d08327ef4": "2026 JBQ District Finals"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "f1202173-90ef-42f3-9000-3e5d08327ef4",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "AAA",
+        "LastUpdated": "3/28/26 6:49 PM",
+        "DatabaseLastUpdated": "2026-03-25T13:28:29.6301917+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Tom Hagen",
+            "Quizzers": [
+              3,
+              5,
+              9,
+              10,
+              15
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 3
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bd48a8848d9e4fc4b2d94b644280799d",
+            "Name": "Eau Claire Pasta Peanut Pants",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 6,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 845,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.6,
+              "AverageCorrect": 7.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 29,
+              "Correct20s": 18,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Lea Mank",
+            "Quizzers": [
+              0,
+              2,
+              8,
+              12
+            ],
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 285,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 275,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 230,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 270,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 315,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 285,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e3cb9629757443e4abd6843332dd72ef",
+            "Name": "Oak Creek The Coconut Quizzers",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Wins": 8,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 2190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 273.8,
+              "AverageCorrect": 16.5,
+              "QuizOuts": 16,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 67,
+              "Correct20s": 43,
+              "Correct30s": 22,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Lisa Olson",
+            "Quizzers": [
+              4,
+              13,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 195,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_0aab2c637d4242f9a0c4ac97b424afbf",
+            "Name": "Oak Creek You Butter Believe It",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1040,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 9.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 42,
+              "Correct20s": 27,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Linda Penke",
+            "Quizzers": [
+              1,
+              7
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 4
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 4
+              },
+              null
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_5f7b614206054bd296d31bc678f7a0ff",
+            "Name": "Plymouth Dragon Foxes",
+            "ChurchId": "f463a3ca-57a6-4505-8778-73e3fa7a0c8a",
+            "ChurchName": "Christian Life Assembly of God",
+            "City": "Plymouth",
+            "State": "WI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 7,
+              "WinPercentage": 12,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 17,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Andrea Helgerson",
+            "Quizzers": [
+              6,
+              11,
+              14,
+              16,
+              18
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 225,
+                "OtherTeam": 0
+              },
+              null,
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 255,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_e7896d09c7a7484d8674dd51dc03a3a6",
+            "Name": "Sparta Quizzing Squirrels",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 3,
+              "WinPercentage": 62,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1450,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 181.2,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 41,
+              "Correct20s": 32,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          4,
+          2,
+          0,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Oak Creek The Coconut Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_7f6b000e33e24f4aa4aa08de045d4f17",
+            "Name": "Asher Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.1,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 33,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Plymouth Dragon Foxes",
+            "YearsQuizzing": null,
+            "Id": "q_b8da70174d6d4227fa0108de67758634",
+            "Name": "Bella Pfeiffer",
+            "ChurchId": "f463a3ca-57a6-4505-8778-73e3fa7a0c8a",
+            "ChurchName": "Christian Life Assembly of God",
+            "City": "Plymouth",
+            "State": "WI",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek The Coconut Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_0fa5eb5451c543dda4b008de045d4f17",
+            "Name": "Caleb Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.9,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 20,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire Pasta Peanut Pants",
+            "YearsQuizzing": null,
+            "Id": "q_f854e2ce0a804a547cf508de04845ac9",
+            "Name": "Caleb Williams",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.2,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek You Butter Believe It",
+            "YearsQuizzing": null,
+            "Id": "q_64c64d9a48844153f82908dd5f7ffcc6",
+            "Name": "Chloe Humpa",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 49.4,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 38,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire Pasta Peanut Pants",
+            "YearsQuizzing": null,
+            "Id": "q_55dca0291f4740d4b0de08dcf82988de",
+            "Name": "Eleanor Bergeron",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta Quizzing Squirrels",
+            "YearsQuizzing": null,
+            "Id": "q_9846cb0a265344c93d5008dbd94ef9ff",
+            "Name": "Evalyn Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 0,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Plymouth Dragon Foxes",
+            "YearsQuizzing": null,
+            "Id": "q_6c784fee12d94e70773508dd4fc800d0",
+            "Name": "Gabe Wichlacz",
+            "ChurchId": "f463a3ca-57a6-4505-8778-73e3fa7a0c8a",
+            "ChurchName": "Christian Life Assembly of God",
+            "City": "Plymouth",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 0,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek The Coconut Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_c7232725b24743843e4608dc1ac804c7",
+            "Name": "Gabriel Lutter",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.6,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 13,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire Pasta Peanut Pants",
+            "YearsQuizzing": null,
+            "Id": "q_cc1c5799901444c37d2108de04845ac9",
+            "Name": "Henley Bowe",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.6,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire Pasta Peanut Pants",
+            "YearsQuizzing": null,
+            "Id": "q_951c461d136c4b4f68f708db1c497da3",
+            "Name": "Jack Paulseth",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta Quizzing Squirrels",
+            "YearsQuizzing": null,
+            "Id": "q_3aeada945f9647493d2c08dbd94ef9ff",
+            "Name": "Jeremiah Helgerson",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 900,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 112.5,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 1,
+              "Correct20s": 23,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek The Coconut Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_1ee2d8b99de94add298308daf5b040d4",
+            "Name": "Levi Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 153.1,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 1,
+              "Correct20s": 25,
+              "Correct30s": 22,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek You Butter Believe It",
+            "YearsQuizzing": null,
+            "Id": "q_89456a37bdb74895c52108dc37475357",
+            "Name": "Morgan Brooks",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 3,
+              "Correct20s": 21,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta Quizzing Squirrels",
+            "YearsQuizzing": null,
+            "Id": "q_4060b04c78d249c27baa08de04845ac9",
+            "Name": "Odin Uker",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Eau Claire Pasta Peanut Pants",
+            "YearsQuizzing": null,
+            "Id": "q_6b2d7c541b5045bc3e0308dbd94ef9ff",
+            "Name": "Oliver Bergeron",
+            "ChurchId": "62df0bdd-36f0-4b07-b973-6d5f74410dce",
+            "ChurchName": "West Ridge Church",
+            "City": "Eau Claire",
+            "State": "WI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 1,
+              "Correct20s": 16,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta Quizzing Squirrels",
+            "YearsQuizzing": null,
+            "Id": "q_777e2e4312bf4f147bd108de04845ac9",
+            "Name": "Scarlett Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek You Butter Believe It",
+            "YearsQuizzing": null,
+            "Id": "q_db3fd5988284457f018508db1c4cce3d",
+            "Name": "Stella Olson",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.1,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 1,
+              "Correct20s": 6,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Sparta Quizzing Squirrels",
+            "YearsQuizzing": null,
+            "Id": "q_3e6f3890ffdf46a63d4108dbd94ef9ff",
+            "Name": "Violet Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.2,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 31,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          12,
+          11,
+          0,
+          13,
+          4,
+          7,
+          18,
+          10,
+          15,
+          17,
+          2,
+          3,
+          8,
+          1,
+          6,
+          14,
+          5,
+          16,
+          9
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 10,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "f1202173-90ef-42f3-9000-3e5d08327ef4",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "AA",
+        "LastUpdated": "3/28/26 6:49 PM",
+        "DatabaseLastUpdated": "2026-03-25T13:28:29.6301917+00:00",
+        "CompetitionType": "JBQ",
+        "Teams": [
+          {
+            "CoachName": "Dave Thomassen",
+            "Quizzers": [
+              4,
+              5,
+              9
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 65,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 130,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 45,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_bc64dcdb983c4d3ea2f915a1ae530f03",
+            "Name": "Dallas Bible Bears",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 4,
+              "WinPercentage": 56,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 915,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.7,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 22,
+              "Correct20s": 29,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Jeff Rapp",
+            "Quizzers": [
+              0,
+              1,
+              7,
+              8,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 220,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 160,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 125,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 235,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 210,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 3
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_dccbb741ac17484eb6192c9f5b858b64",
+            "Name": "New Richmond Bible Buzzers",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1575,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 175.0,
+              "AverageCorrect": 11.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 49,
+              "Correct20s": 42,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Carrie Lutter",
+            "Quizzers": [
+              2,
+              6,
+              13
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 175,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 110,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 170,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 115,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_a15fe835ca0b4f2185430cb9d57cbdb2",
+            "Name": "Oak Creek The Sowers",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 5,
+              "WinPercentage": 44,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 125.0,
+              "AverageCorrect": 10.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 98,
+              "Correct10s": 79,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Terry Schoessow",
+            "Quizzers": [
+              3,
+              11,
+              12
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 60,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 20,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 0,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 30,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 35,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_eda8c3432e09441e84ab59ca37f27304",
+            "Name": "Portage Ask Watson",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 9,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.9,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 10,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "New Richmond Bible Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_9fb8e4d4ad464ad6699608dcf9adf9a0",
+            "Name": "Alexander Howell",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.6,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond Bible Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_9ce53320108248c71a5b08de1687ad9b",
+            "Name": "Allis Wood",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.2,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek The Sowers",
+            "YearsQuizzing": null,
+            "Id": "q_f4dd4d00f52b4add3ba608de76d70ebf",
+            "Name": "Avery Olson",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 185,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.6,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage Ask Watson",
+            "YearsQuizzing": null,
+            "Id": "q_e247f384b7174fcf6b5f08db1c497da3",
+            "Name": "Clara Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.7,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 8,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dallas Bible Bears",
+            "YearsQuizzing": null,
+            "Id": "q_29d223c566c44308b29508dd1880467e",
+            "Name": "Evelyn Juza",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Dallas Bible Bears",
+            "YearsQuizzing": null,
+            "Id": "q_5642729159394874b29608dd1880467e",
+            "Name": "Flory Thomassen",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Oak Creek The Sowers",
+            "YearsQuizzing": null,
+            "Id": "q_43ab9fb1d54e4f773bac08de76d70ebf",
+            "Name": "Isaac Lutter",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 630,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 54,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond Bible Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_8d46c469249d4a78698a08dcf9adf9a0",
+            "Name": "Jeffrey Myer",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond Bible Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_6cf5eb29808247681a5508de1687ad9b",
+            "Name": "Malachi Starkweather",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 700,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.8,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 0,
+              "Correct20s": 41,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Dallas Bible Bears",
+            "YearsQuizzing": null,
+            "Id": "q_02775b97ce4e4a15b29408dd1880467e",
+            "Name": "Roger Thomassen",
+            "ChurchId": "ede96cec-4edf-4e94-baef-3ee0d5a81cb0",
+            "ChurchName": "Assembly of God",
+            "City": "Dallas",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 840,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 16,
+              "Correct20s": 28,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "New Richmond Bible Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_f4858d4a08334580699008dcf9adf9a0",
+            "Name": "Ryan Pederson",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.1,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage Ask Watson",
+            "YearsQuizzing": null,
+            "Id": "q_1d4d9913783546d62d4b08de7d1fa56b",
+            "Name": "Tait Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.2,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Portage Ask Watson",
+            "YearsQuizzing": null,
+            "Id": "q_99f09d8a29204094980308dd5f7f0249",
+            "Name": "Watson Wenzel",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Oak Creek The Sowers",
+            "YearsQuizzing": null,
+            "Id": "q_3b1af4bf86a544d33ba008de76d70ebf",
+            "Name": "Yobeth Munoz",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.4,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          9,
+          8,
+          6,
+          10,
+          13,
+          7,
+          3,
+          2,
+          1,
+          0,
+          5,
+          11,
+          4,
+          12
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "D",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-28T22:19:02.8920712+00:00"
+}
