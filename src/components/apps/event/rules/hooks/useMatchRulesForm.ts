@@ -329,7 +329,6 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
 
         newRules.IsIndividualCompetition = originalRules.IsIndividualCompetition;
         newRules.PointValueRules = originalRules.PointValueRules;
-        newRules.RequiredScoreReading = originalRules.RequiredScoreReading;
 
         return newRules;
     }, [general, quizOutForward, quizOutBackward, contests, unseatRules, questionCounts, otherRules, timer]);
