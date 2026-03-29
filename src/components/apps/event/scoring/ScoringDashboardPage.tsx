@@ -37,7 +37,7 @@ export default function ScoringDashboardPage({ }: Props) {
                 eventType={eventType}
                 isScoreKeep={currentDatabase!.IsScoreKeep || false}
                 settings={JSON.parse(JSON.stringify(currentDatabase!.Settings))}
-                defaultRules={currentDatabase!.DefaultRules || undefined}
+                defaultRules={currentDatabase!.DefaultTeamRules || undefined}
                 onSaved={setCurrentDatabase}
                 setIsProcessing={() => { }}
             />

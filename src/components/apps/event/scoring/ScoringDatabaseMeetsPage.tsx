@@ -22,6 +22,7 @@ interface PendingDisplayChanges {
 interface EditingMeet {
     meetId: number;
     meetName: string;
+    isIndividualCompetition: boolean;
     type: "schedule" | "playoffs" | "ranking" | "stats";
 }
 
@@ -180,6 +181,7 @@ export default function ScoringDatabaseMeetsPage() {
             setEditingMeet({
                 meetId,
                 meetName: meet.Display.NameOverride || meet.Display.Name,
+                isIndividualCompetition: meet.IsIndividualCompetition,
                 type: "schedule"
             });
         }
@@ -191,6 +193,7 @@ export default function ScoringDatabaseMeetsPage() {
             setEditingMeet({
                 meetId,
                 meetName: meet.Display.NameOverride || meet.Display.Name,
+                isIndividualCompetition: meet.IsIndividualCompetition,
                 type: "playoffs"
             });
         }
@@ -202,6 +205,7 @@ export default function ScoringDatabaseMeetsPage() {
             setEditingMeet({
                 meetId,
                 meetName: meet.Display.NameOverride || meet.Display.Name,
+                isIndividualCompetition: meet.IsIndividualCompetition,
                 type: "ranking"
             });
         }
@@ -213,6 +217,7 @@ export default function ScoringDatabaseMeetsPage() {
             setEditingMeet({
                 meetId,
                 meetName: meet.Display.NameOverride || meet.Display.Name,
+                isIndividualCompetition: meet.IsIndividualCompetition,
                 type: "stats"
             });
         }
@@ -480,7 +485,7 @@ export default function ScoringDatabaseMeetsPage() {
                     databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
-                    defaultRules={currentDatabase.DefaultRules}
+                    defaultRules={editingMeet.isIndividualCompetition ? currentDatabase.DefaultIndividualRules : currentDatabase.DefaultIndividualRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     allMeets={currentDatabase.Meets}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
@@ -539,7 +544,7 @@ export default function ScoringDatabaseMeetsPage() {
                     meetId={0}
                     meetName="New Team Division"
                     allMeets={currentDatabase.Meets}
-                    defaultRules={currentDatabase.DefaultRules}
+                    defaultRules={currentDatabase.DefaultTeamRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}
@@ -558,7 +563,7 @@ export default function ScoringDatabaseMeetsPage() {
                     meetId={0}
                     meetName="New Individual Division"
                     allMeets={currentDatabase.Meets}
-                    defaultRules={currentDatabase.DefaultRules}
+                    defaultRules={currentDatabase.DefaultIndividualRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
                     isNew={true}

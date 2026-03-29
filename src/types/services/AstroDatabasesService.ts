@@ -306,7 +306,7 @@ export class OnlineDatabaseSummary {
     /**
      * Default rules for the current event's type.
      */
-    public readonly DefaultRules!: MatchRules;
+    public readonly DefaultTeamRules!: MatchRules;
 
     /**
      * Summary for meets.
