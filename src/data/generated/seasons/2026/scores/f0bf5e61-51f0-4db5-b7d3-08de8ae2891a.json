@@ -1,0 +1,1192 @@
+{
+  "EventName": "NYS TBQ District Finals 2025-2026",
+  "DatabaseNames": {
+    "971922bd-eb03-4698-a9c8-cad8f31f5f75": "TBQ_Districts_2025-2026"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "971922bd-eb03-4698-a9c8-cad8f31f5f75",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "NYS TBQ Districts",
+        "LastUpdated": "3/28/26 5:50 PM",
+        "DatabaseLastUpdated": "2026-03-28T12:46:41.8131405+00:00",
+        "CompetitionType": "TBQ",
+        "Teams": [
+          {
+            "CoachName": "Garrett Searing",
+            "Quizzers": [
+              1,
+              4,
+              8,
+              14
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 185,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 190,
+                "OtherTeam": null
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 240,
+                "OtherTeam": 1
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_2e5e7d9bf337451d989c81bdf778b09e",
+            "Name": "A Final Word",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 940,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 188.0,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 29,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Josh Osterhoudt",
+            "Quizzers": [
+              9,
+              13,
+              18,
+              21
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 55,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 70,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 40,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 120,
+                "OtherTeam": null
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 10,
+                "OtherTeam": 0
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_daae364ecf1e4da0893bdc082be66f85",
+            "Name": "Hopelessly Confused",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 295,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 59.0,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 16,
+              "Correct20s": 11,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              3,
+              16,
+              19,
+              20
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 260,
+                "OtherTeam": null
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 135,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 75,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 15,
+                "OtherTeam": 4
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_6418c58b6e4d41f5896d9a2a7d3716f6",
+            "Name": "Lets Not Get Tired",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 625,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 125.0,
+              "AverageCorrect": 7.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 15,
+              "Correct20s": 18,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              7,
+              11,
+              12,
+              15,
+              17
+            ],
+            "Matches": [
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 140,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "L",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 50,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 90,
+                "OtherTeam": 2
+              },
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 25,
+                "OtherTeam": 4
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 155,
+                "OtherTeam": null
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_7dbb2397035d4c21828ea9151b668bec",
+            "Name": "The Tabernacle",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "The Tabernacle",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 460,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 92.0,
+              "AverageCorrect": 6.4,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 16,
+              "Correct20s": 13,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "CoachName": "Nick Odle",
+            "Quizzers": [
+              0,
+              5,
+              6,
+              10
+            ],
+            "Matches": [
+              {
+                "Result": "L",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 100,
+                "OtherTeam": 0
+              },
+              {
+                "Result": "W",
+                "RoomId": 3,
+                "Room": "C",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": null
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 150,
+                "OtherTeam": 1
+              },
+              {
+                "Result": "W",
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 105,
+                "OtherTeam": 3
+              },
+              {
+                "Result": "W",
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null,
+                "Score": 85,
+                "OtherTeam": 2
+              }
+            ],
+            "CurrentMatchId": null,
+            "Id": "t_45e4df05352c475eb5100609d2de7119",
+            "Name": "Webster AG",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Webster AG",
+            "City": "Webster",
+            "State": "NY",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 109.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 5,
+              "Correct20s": 23,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedTeams": [
+          0,
+          4,
+          2,
+          3,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Webster AG",
+            "YearsQuizzing": null,
+            "Id": "q_3256549012484bffc3ae08dc4dd60d93",
+            "Name": "Aaron Hochreiter",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Webster AG",
+            "City": "Webster",
+            "State": "NY",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "A Final Word",
+            "YearsQuizzing": null,
+            "Id": "q_98ba0f297a234698c36308dc4dd60d93",
+            "Name": "Asher Gilbert",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lets Not Get Tired",
+            "YearsQuizzing": null,
+            "Id": "q_27bfcc00c3184647426308de89c12e3a",
+            "Name": "Clarice Bielby",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 13,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lets Not Get Tired",
+            "YearsQuizzing": null,
+            "Id": "q_4f24d52f1e404ea6426f08de89c12e3a",
+            "Name": "Grace Oxenford",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "A Final Word",
+            "YearsQuizzing": null,
+            "Id": "q_8b5c9368948c420ac34b08dc4dd60d93",
+            "Name": "Harper Searing",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 6,
+              "Correct20s": 12,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Webster AG",
+            "YearsQuizzing": null,
+            "Id": "q_37abe905f52549e0c3b408dc4dd60d93",
+            "Name": "Joey Hochreiter",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Webster AG",
+            "City": "Webster",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Webster AG",
+            "YearsQuizzing": null,
+            "Id": "q_48ce9c31e91a4be5811308dc4483e1e9",
+            "Name": "Johann Kim",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Webster AG",
+            "City": "Webster",
+            "State": "NY",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 510,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 102.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 2,
+              "Correct20s": 22,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": null,
+            "Id": "q_fe81bd94aebb4e78c38d08dc4dd60d93",
+            "Name": "Josh Anand",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "The Tabernacle",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 185,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 10,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "A Final Word",
+            "YearsQuizzing": null,
+            "Id": "q_3a20e4e4f9b24798c35108dc4dd60d93",
+            "Name": "Liam Torrey",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 12,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_751caa43bbcd4b3442b408de89c12e3a",
+            "Name": "Logan Torrey",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Webster AG",
+            "YearsQuizzing": null,
+            "Id": "q_7680fa903ebd49fbd73a08d8f272c07b",
+            "Name": "Luke Odle",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Webster AG",
+            "City": "Webster",
+            "State": "NY",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": null,
+            "Id": "q_4e58ed847719462c423b08de89c12e3a",
+            "Name": "Marcella Rubinas",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "The Tabernacle",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": null,
+            "Id": "q_087a0dca97414c321d6608dd6e6b2000",
+            "Name": "Mark John",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "The Tabernacle",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_df84a4b3a8f14c5042c708de89c12e3a",
+            "Name": "Mercy Gilbert",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 5,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "A Final Word",
+            "YearsQuizzing": null,
+            "Id": "q_726faf26ccad4fe7429b08de89c12e3a",
+            "Name": "Micah Gilbert",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": null,
+            "Id": "q_095ea5d0a0cc425d423508de89c12e3a",
+            "Name": "Michelle Rubinas",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "The Tabernacle",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Lets Not Get Tired",
+            "YearsQuizzing": null,
+            "Id": "q_048fc594191a4bc8427508de89c12e3a",
+            "Name": "Nia Mercedes",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": null,
+            "Id": "q_0c190009e97e45bcc38708dc4dd60d93",
+            "Name": "Peace Akinyele",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "The Tabernacle",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 6,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_ad2b6f258c8345d142a808de89c12e3a",
+            "Name": "Richard Searing",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 6,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
+            "TeamName": "Lets Not Get Tired",
+            "YearsQuizzing": null,
+            "Id": "q_7f3ad03e3f004753816708dc4483e1e9",
+            "Name": "Sam Servadio",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Lets Not Get Tired",
+            "YearsQuizzing": null,
+            "Id": "q_9e786f6410364c64428208de89c12e3a",
+            "Name": "Silas Murray",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            }
+          },
+          {
+            "TeamName": "Hopelessly Confused",
+            "YearsQuizzing": null,
+            "Id": "q_7ff7727d97a54ae7c35708dc4dd60d93",
+            "Name": "Tristan Torrey",
+            "ChurchId": "b5533017-3ac1-4d1e-a18f-1cdef6753157",
+            "ChurchName": "Calvary Chapel",
+            "City": "Seneca Falls",
+            "State": "NY",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            }
+          }
+        ],
+        "RankedQuizzers": [
+          6,
+          4,
+          2,
+          17,
+          1,
+          8,
+          18,
+          7,
+          3,
+          21,
+          13,
+          14,
+          16,
+          0,
+          10,
+          9,
+          5,
+          11,
+          12,
+          15,
+          19,
+          20
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "C",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-03-28T17:50:40.3424259+00:00"
+}
