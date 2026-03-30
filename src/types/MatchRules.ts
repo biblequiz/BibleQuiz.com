@@ -97,11 +97,6 @@ export class MatchRules {
     public IsIndividualCompetition: boolean;
 
     /**
-     * List of question numbers when the score is required to be read. If this isn't set, there are no required readings.
-     */
-    public RequiredScoreReading?: Set<number>;
-
-    /**
      * Converts a MatchRules object to a human-readable string description.
      * @param rules The MatchRules object or plain object to describe.
      * @returns A formatted string describing the rules.
