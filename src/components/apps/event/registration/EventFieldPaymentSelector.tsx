@@ -83,6 +83,7 @@ export default function EventFieldPaymentSelector({
             <div className="w-full mt-2">
                 {getScopeCheckbox(EventFieldScopes.Team, "Team")}
                 {getScopeCheckbox(EventFieldScopes.Quizzer, "Quizzer")}
+                {getScopeCheckbox(EventFieldScopes.QuizzerWithoutTeam, "Quizzer (No Team)")}
                 {getScopeCheckbox(EventFieldScopes.Coach, "Coach")}
                 {getScopeCheckbox(EventFieldScopes.Official, "Official")}
                 {getScopeCheckbox(EventFieldScopes.Attendee, "Attendee")}

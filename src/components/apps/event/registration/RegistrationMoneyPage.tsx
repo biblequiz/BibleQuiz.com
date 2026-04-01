@@ -69,6 +69,7 @@ export default function RegistrationMoneyPage({ }: Props) {
     const {
         context,
         isSaving,
+        teamsAndQuizzers,
         officialsAndAttendees,
         money,
         setMoney } = useOutletContext<RegistrationProviderContext>();
@@ -319,6 +320,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                             />
                         </EventFieldCard>
                         {getRolePaymentControl("Quizzer", PersonRole.Quizzer, rolePayment, setRolePayment)}
+                        {teamsAndQuizzers.allowIndividuals && getRolePaymentControl("Quizzer (No Team)", PersonRole.QuizzerWithoutTeam, rolePayment, setRolePayment)}
                         {getRolePaymentControl("Coach", PersonRole.Coach, rolePayment, setRolePayment)}
                         {getRolePaymentControl("Official", PersonRole.Official, rolePayment, setRolePayment)}
                         {officialsAndAttendees.allowAttendees && getRolePaymentControl("Attendee", PersonRole.Attendee, rolePayment, setRolePayment)}

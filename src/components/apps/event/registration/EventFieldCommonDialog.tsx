@@ -12,7 +12,7 @@ const getGradeField = (typeId: string) => {
         Id: null,
         ControlType: EventFieldControlType.GradeList,
         DataType: EventFieldDataType.Number,
-        Scopes: EventFieldScopes.Quizzer,
+        Scopes: EventFieldScopes.Quizzer | EventFieldScopes.QuizzerWithoutTeam,
         IsRequired: true,
         Visibility: EventFieldVisibility.ReadWrite,
         Label: "Grade",
@@ -90,7 +90,7 @@ export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: 
                                     Label: "Individuals",
                                     ControlType: EventFieldControlType.Checkbox,
                                     DataType: EventFieldDataType.Boolean,
-                                    Scopes: EventFieldScopes.Quizzer,
+                                    Scopes: EventFieldScopes.Quizzer | EventFieldScopes.QuizzerWithoutTeam,
                                     IsRequired: true,
                                     Visibility: EventFieldVisibility.ReadWrite
                                 };
@@ -107,7 +107,7 @@ export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: 
                                     Label: "T-Shirt",
                                     ControlType: EventFieldControlType.DropdownList,
                                     DataType: EventFieldDataType.Text,
-                                    Scopes: EventFieldScopes.Coach | EventFieldScopes.Official | EventFieldScopes.Quizzer,
+                                    Scopes: EventFieldScopes.Coach | EventFieldScopes.Official | EventFieldScopes.Quizzer | EventFieldScopes.QuizzerWithoutTeam,
                                     IsRequired: true,
                                     Values: ["None", "XS", "S", "M", "L", "XL", "XXL", "XXXL"],
                                     PaymentUnselectValue: "None",

@@ -958,6 +958,8 @@ export class EventField extends RemoteServiceModelBase<string> {
     switch (role) {
       case PersonRole.Quizzer:
         return EventFieldScopes.Quizzer;
+      case PersonRole.QuizzerWithoutTeam:
+        return EventFieldScopes.QuizzerWithoutTeam;
       case PersonRole.Coach:
         return EventFieldScopes.Coach;
       case PersonRole.Official:
@@ -1025,7 +1027,7 @@ export enum EventFieldScopes {
   Team = 1 << 1,
 
   /**
-   * Field will be displayed at the quizzer level.
+   * Field will be displayed at the quizzer level (with a team).
    */
   Quizzer = 1 << 2,
 
@@ -1043,6 +1045,11 @@ export enum EventFieldScopes {
    * Field will be displayed at the attendee level.
    */
   Attendee = 1 << 5,
+
+  /**
+   * Field will be displayed at the quizzer level without a team.
+   */
+  QuizzerWithoutTeam = 1 << 6,
 }
 
 /**

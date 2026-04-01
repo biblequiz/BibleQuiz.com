@@ -280,22 +280,27 @@ export enum PersonParentType {
 export enum PersonRole {
 
     /**
-     * Person can be a quizzer.
+     * Person registered as a quizzer with a team.
      */
     Quizzer = 0,
 
     /**
-     * Person can be a coach.
+     * Person registered as a coach.
      */
     Coach = 1,
 
     /**
-     * Person can be an official.
+     * Person registered as an official.
      */
     Official = 2,
 
     /**
-     * Person can be an attendee.
+     * Person registered as an attendee.
      */
     Attendee = 3,
+
+    /**
+     * Person registered as a quizzer without a team.
+     */
+    QuizzerWithoutTeam = 4,
 }

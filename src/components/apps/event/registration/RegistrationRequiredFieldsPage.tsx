@@ -20,12 +20,14 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
     const {
         context,
         isSaving,
+        teamsAndQuizzers,
         officialsAndAttendees,
         requiredFields,
         setRequiredFields } = useOutletContext<RegistrationProviderContext>();
 
     const [contactFields, setContactFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
     const [quizzerFields, setQuizzerFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
+    const [quizzerWithoutTeamFields, setQuizzerWithoutTeamFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
     const [coachFields, setCoachFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
     const [officialFields, setOfficialFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
     const [attendeeFields, setAttendeeFields] = useState<RequiredPersonFields>(RequiredPersonFields.None);
@@ -35,6 +37,9 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
         setQuizzerFields(requiredFields.roleFields[PersonRole[PersonRole.Quizzer]] ?? RequiredPersonFields.None);
         setCoachFields(requiredFields.roleFields[PersonRole[PersonRole.Coach]] ?? RequiredPersonFields.None);
         setOfficialFields(requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None);
+        if (teamsAndQuizzers.allowIndividuals) {
+            setQuizzerWithoutTeamFields(requiredFields.roleFields[PersonRole[PersonRole.QuizzerWithoutTeam]] ?? RequiredPersonFields.None);
+        }
         if (officialsAndAttendees.allowAttendees) {
             setAttendeeFields(requiredFields.roleFields[PersonRole[PersonRole.Attendee]] ?? RequiredPersonFields.None);
         }
@@ -51,6 +56,10 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                     [PersonRole[PersonRole.Coach]]: coachFields,
                     [PersonRole[PersonRole.Official]]: officialFields,
                 };
+
+                if (teamsAndQuizzers.allowIndividuals) {
+                    newRoleFields[PersonRole[PersonRole.QuizzerWithoutTeam]] = quizzerWithoutTeamFields;
+                }
 
                 if (officialsAndAttendees.allowAttendees) {
                     newRoleFields[PersonRole[PersonRole.Attendee]] = attendeeFields;
