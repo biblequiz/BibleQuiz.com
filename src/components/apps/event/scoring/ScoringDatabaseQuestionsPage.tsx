@@ -363,7 +363,7 @@ export default function ScoringDatabaseQuestionsPage() {
                 {!isReadOnly && selectedMeetId && (
                     <button
                         type="button"
-                        className="btn btn-primary btn-sm"
+                        className="btn btn-primary btn-sm mt-0"
                         onClick={() => setShowImportDialog(true)}
                     >
                         <FontAwesomeIcon icon="fas faFileImport" />
@@ -450,7 +450,6 @@ export default function ScoringDatabaseQuestionsPage() {
 
                     {/* Bottom Row: Preview and Analysis */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {/* Question Preview */}
                         <div className="card bg-base-100 shadow">
                             <div className="card-body p-4">
                                 <div className="flex justify-between items-center mb-2">
@@ -458,14 +457,14 @@ export default function ScoringDatabaseQuestionsPage() {
                                     <div className="join">
                                         <button
                                             type="button"
-                                            className={`btn btn-xs join-item ${viewMode === "plain" ? "btn-active" : ""}`}
+                                            className={`btn btn-xs join-item mt-0 mb-0 ${viewMode === "plain" ? "btn-active" : ""}`}
                                             onClick={() => setViewMode("plain")}
                                         >
                                             Plain Text
                                         </button>
                                         <button
                                             type="button"
-                                            className={`btn btn-xs join-item ${viewMode === "html" ? "btn-active" : ""}`}
+                                            className={`btn btn-xs join-item mt-0 mb-0 ${viewMode === "html" ? "btn-active" : ""}`}
                                             onClick={() => setViewMode("html")}
                                             disabled={!selectedQuestion?.HtmlText}
                                         >
@@ -476,12 +475,12 @@ export default function ScoringDatabaseQuestionsPage() {
 
                                 {selectedQuestion ? (
                                     viewMode === "plain" ? (
-                                        <div className="bg-base-200 p-3 rounded-lg text-sm font-mono whitespace-pre-wrap max-h-48 overflow-y-auto">
+                                        <div className="bg-base-200 p-3 rounded-lg text-sm font-mono whitespace-pre-wrap max-h-48 overflow-y-auto mt-0 mb-0">
                                             {selectedQuestion.PlainText || "(No text)"}
                                         </div>
                                     ) : (
                                         <div
-                                            className="bg-white p-3 rounded-lg text-sm max-h-48 overflow-y-auto prose prose-sm"
+                                            className="bg-white p-3 rounded-lg text-sm max-h-48 overflow-y-auto prose prose-sm mt-0 mb-0"
                                             dangerouslySetInnerHTML={{
                                                 __html: selectedQuestion.HtmlText || "<p>(No HTML)</p>",
                                             }}
@@ -499,9 +498,9 @@ export default function ScoringDatabaseQuestionsPage() {
                         <div className="card bg-base-100 shadow">
                             <div className="card-body p-4">
                                 <h4 className="card-title text-sm">Analysis</h4>
-                                <div className="bg-base-200 p-3 rounded-lg text-sm max-h-48 overflow-y-auto">
+                                <div className="bg-base-200 p-3 rounded-lg text-sm max-h-48 overflow-y-auto mt-0 mb-0">
                                     {analysisResult.errors.length > 0 && (
-                                        <div className="text-error mb-2">
+                                        <div className="text-error mb-2 mt-0">
                                             {analysisResult.errors.map((err, i) => (
                                                 <div key={i}>{err}</div>
                                             ))}
@@ -509,7 +508,7 @@ export default function ScoringDatabaseQuestionsPage() {
                                     )}
 
                                     {analysisResult.setCountAnalysis.map((line, i) => (
-                                        <div key={i} className="mb-1">
+                                        <div key={i} className="mb-1 mt-0">
                                             {line}
                                         </div>
                                     ))}
@@ -517,11 +516,11 @@ export default function ScoringDatabaseQuestionsPage() {
                                     {Object.keys(analysisResult.questionTypeCounts).length > 0 && (
                                         <>
                                             <div className="divider my-2"></div>
-                                            <div className="font-semibold mb-1">Avg. Counts Per Set:</div>
+                                            <div className="font-semibold mb-1 mt-0">Avg. Counts Per Set:</div>
                                             {Object.entries(analysisResult.questionTypeCounts)
                                                 .filter(([_, count]) => count > 0)
                                                 .map(([type, count]) => (
-                                                    <div key={type} className="text-xs">
+                                                    <div key={type} className="text-xs mt-0 mb-0">
                                                         {count} - {type}
                                                     </div>
                                                 ))}
@@ -555,7 +554,7 @@ export default function ScoringDatabaseQuestionsPage() {
                                             <button
                                                 key={meet.Display.Id}
                                                 type="button"
-                                                className={`btn btn-sm w-full justify-start ${isSelected ? "btn-primary" : "btn-ghost"}`}
+                                                className={`btn btn-sm w-full justify-start mt-2 mb-0 ${isSelected ? "btn-primary" : "btn-ghost"}`}
                                                 onClick={() => handleMeetSelect(meet.Display.Id)}
                                             >
                                                 <span className="truncate">

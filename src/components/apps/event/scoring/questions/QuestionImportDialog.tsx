@@ -227,7 +227,7 @@ export default function QuestionImportDialog({
                 </h3>
                 <button
                     type="button"
-                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-0 mb-0"
                     onClick={handleClose}
                     disabled={isSaving || isUploading}
                 >
@@ -237,7 +237,7 @@ export default function QuestionImportDialog({
                 <div className="mt-4 space-y-4">
                     {/* Scoring Warning Banner */}
                     {hasScoringStarted && (
-                        <div role="alert" className="alert alert-warning">
+                        <div role="alert" className="alert alert-warning mt-2 mb-2">
                             <FontAwesomeIcon icon="fas faTriangleExclamation" />
                             <div>
                                 <strong>Warning:</strong> Scoring has already started for this division.
@@ -310,34 +310,34 @@ export default function QuestionImportDialog({
                             <div className="divider">Preview of Parsed Questions</div>
 
                             {/* Summary Stats */}
-                            <div className="stats stats-vertical lg:stats-horizontal shadow w-full">
-                                <div className="stat">
-                                    <div className="stat-title">Matches</div>
-                                    <div className="stat-value text-2xl">{gridData.matchNumbers.length}</div>
+                            <div className="stats stats-vertical lg:stats-horizontal shadow w-full mb-0 mt-0">
+                                <div className="stat mb-0 mt-0">
+                                    <div className="stat-title mb-0 mt-0">Matches</div>
+                                    <div className="stat-value text-2xl mb-0 mt-0">{gridData.matchNumbers.length}</div>
                                 </div>
-                                <div className="stat">
-                                    <div className="stat-title">Questions/Match</div>
-                                    <div className="stat-value text-2xl">{questionCounts.total}</div>
+                                <div className="stat mb-0 mt-0">
+                                    <div className="stat-title mb-0 mt-0">Questions/Match</div>
+                                    <div className="stat-value text-2xl mb-0 mt-0">{questionCounts.total}</div>
                                 </div>
-                                <div className="stat">
-                                    <div className="stat-title">10-pt</div>
-                                    <div className="stat-value text-2xl">{questionCounts.tens}</div>
+                                <div className="stat mb-0 mt-0">
+                                    <div className="stat-title mb-0 mt-0">10-pt</div>
+                                    <div className="stat-value text-2xl mb-0 mt-0">{questionCounts.tens}</div>
                                 </div>
-                                <div className="stat">
-                                    <div className="stat-title">20-pt</div>
-                                    <div className="stat-value text-2xl">{questionCounts.twenties}</div>
+                                <div className="stat mb-0 mt-0">
+                                    <div className="stat-title mb-0 mt-0">20-pt</div>
+                                    <div className="stat-value text-2xl mb-0 mt-0">{questionCounts.twenties}</div>
                                 </div>
-                                <div className="stat">
-                                    <div className="stat-title">30-pt</div>
-                                    <div className="stat-value text-2xl">{questionCounts.thirties}</div>
+                                <div className="stat mb-0 mt-0">
+                                    <div className="stat-title mb-0 mt-0">30-pt</div>
+                                    <div className="stat-value text-2xl mb-0 mt-0">{questionCounts.thirties}</div>
                                 </div>
                             </div>
 
                             {/* Preview Grid */}
                             <div className="card bg-base-100 shadow">
                                 <div className="card-body p-4">
-                                    <h4 className="card-title text-sm">Question Grid Preview</h4>
-                                    <div className="overflow-x-auto max-h-64">
+                                    <h4 className="card-title text-sm mb-1">Question Grid Preview</h4>
+                                    <div className="overflow-x-auto max-h-64 mt-0 mb-0">
                                         <table className="table table-xs">
                                             <thead>
                                                 <tr>
@@ -404,7 +404,7 @@ export default function QuestionImportDialog({
                     {parsedManifest?.Set && (
                         <button
                             type="button"
-                            className="btn btn-primary btn-sm"
+                            className="btn btn-primary btn-sm mt-0 mb-0"
                             onClick={handleSaveClick}
                             disabled={isSaving || isUploading}
                         >
@@ -423,7 +423,7 @@ export default function QuestionImportDialog({
                     )}
                     <button
                         type="button"
-                        className="btn btn-secondary btn-sm"
+                        className="btn btn-secondary btn-sm mt-0 mb-0"
                         onClick={handleClose}
                         disabled={isSaving || isUploading}
                     >
