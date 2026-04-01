@@ -19,6 +19,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
         context,
         isSaving,
         general,
+        teamsAndQuizzers,
         officialsAndAttendees,
         fields,
         setFields } = useOutletContext<RegistrationProviderContext>();
@@ -77,6 +78,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                             </div>
                             <EventFieldCardBody
                                 field={field}
+                                allowIndividuals={teamsAndQuizzers.allowIndividuals}
                                 allowAttendees={officialsAndAttendees.allowAttendees}
                                 getLabelValidityMessage={newLabel => {
                                     if (newLabel) {
@@ -123,7 +125,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                                     Label: "",
                                     ControlType: EventFieldControlType.Checkbox,
                                     DataType: EventFieldDataType.Text,
-                                    Scopes: EventFieldScopes.Coach | EventFieldScopes.Official | EventFieldScopes.Quizzer,
+                                    Scopes: EventFieldScopes.Coach | EventFieldScopes.Official | EventFieldScopes.Quizzer | EventFieldScopes.QuizzerWithoutTeam,
                                     IsRequired: true,
                                     Visibility: EventFieldVisibility.ReadWrite
                                 };

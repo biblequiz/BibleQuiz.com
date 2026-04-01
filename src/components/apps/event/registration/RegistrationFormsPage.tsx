@@ -102,7 +102,7 @@ export default function RegistrationFormsPage({ }: Props) {
                                 const newForm: EventExternalForm = {
                                     Id: null,
                                     Label: "",
-                                    Roles: [PersonRole.Quizzer],
+                                    Roles: [PersonRole.Quizzer, PersonRole.QuizzerWithoutTeam],
                                     Url: "",
                                     DescriptionHtml: "",
                                     IsMinorOnly: false,

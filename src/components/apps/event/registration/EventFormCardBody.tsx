@@ -186,6 +186,7 @@ export default function EventFormCardBody({ allowAttendees, form, getLabelValidi
                 </label>
                 <div className="rounded-md border-primary border-1 border-dashed mt-0 relative p-2 mt-0">
                     {getScopeCheckbox(PersonRole.Quizzer, "Quizzer")}
+                    {getScopeCheckbox(PersonRole.QuizzerWithoutTeam, "Quizzer (No Team)")}
                     {getScopeCheckbox(PersonRole.Coach, "Coach")}
                     {getScopeCheckbox(PersonRole.Official, "Official")}
                     {allowAttendees && getScopeCheckbox(PersonRole.Attendee, "Attendee")}

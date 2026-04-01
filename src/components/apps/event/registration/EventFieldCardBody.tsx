@@ -8,6 +8,7 @@ import EventFieldValueSelector from "./EventFieldValueSelector";
 import EventFieldPaymentSelector from "./EventFieldPaymentSelector";
 
 interface Props {
+    allowIndividuals: boolean;
     allowAttendees: boolean;
     field: EventField;
     getLabelValidityMessage: (label: string) => string | null;
@@ -70,15 +71,22 @@ const controlTypeRestrictions: Record<EventFieldControlType, ControlTypeRestrict
     [EventFieldControlType.Textbox]: new ControlTypeRestrictions(true, false, false),
 };
 
-export default function EventFieldCardBody({ allowAttendees, field, getLabelValidityMessage }: Props) {
+export default function EventFieldCardBody({ allowIndividuals, allowAttendees, field, getLabelValidityMessage }: Props) {
 
     const [label, setLabel] = useState<string>(field.Label);
     const [visibility, setVisibility] = useState<EventFieldVisibility>(field.Visibility);
     const [controlType, setControlType] = useState(field.ControlType);
-    const [scopes, setScopes] = useState<EventFieldScopes>(
-        allowAttendees
-            ? field.Scopes
-            : (field.Scopes & ~EventFieldScopes.Attendee));
+    const [scopes, setScopes] = useState<EventFieldScopes>(() => {
+        let initialScopes = field.Scopes;
+        if (!allowIndividuals) {
+            initialScopes = initialScopes & ~EventFieldScopes.QuizzerWithoutTeam;
+        }
+        if (!allowAttendees) {
+            initialScopes = initialScopes & ~EventFieldScopes.Attendee;
+        }
+
+        return initialScopes;
+    });
     const [caption, setCaption] = useState<string | undefined>(field.Caption ?? undefined);
     const [isRequired, setIsRequired] = useState<boolean>(field.IsRequired);
     const [dataType, setDataType] = useState(field.DataType);
@@ -270,6 +278,7 @@ export default function EventFieldCardBody({ allowAttendees, field, getLabelVali
                 <div className="rounded-md border-primary border-1 border-dashed mt-0 relative p-2 mt-0">
                     {getScopeCheckbox(EventFieldScopes.Team, "Team", isTeamOnlyScope)}
                     {getScopeCheckbox(EventFieldScopes.Quizzer, "Quizzer", isTeamOnlyScope)}
+                    {allowIndividuals && getScopeCheckbox(EventFieldScopes.QuizzerWithoutTeam, "Quizzer (No Team)", isTeamOnlyScope)}
                     {getScopeCheckbox(EventFieldScopes.Coach, "Coach", isTeamOnlyScope)}
                     {getScopeCheckbox(EventFieldScopes.Official, "Official", isTeamOnlyScope)}
                     {allowAttendees && getScopeCheckbox(EventFieldScopes.Attendee, "Attendee", isTeamOnlyScope)}

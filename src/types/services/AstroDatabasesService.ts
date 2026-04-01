@@ -304,7 +304,7 @@ export class OnlineDatabaseSummary {
     public readonly QuizzerCount!: number;
 
     /**
-     * Default rules for the current event's type.
+     * Default rules for the current event's type for team competition.
      */
     public readonly DefaultTeamRules!: MatchRules;
 
