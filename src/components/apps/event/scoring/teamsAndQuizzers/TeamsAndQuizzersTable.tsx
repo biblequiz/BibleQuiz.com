@@ -15,6 +15,7 @@ interface Props {
     onDeleteTeam: (team: Team) => void;
     onAddTeam: () => void;
     onBulkRename: () => void;
+    onExportSeedReport: (individualCompetition: boolean) => Promise<void>;
     onEditQuizzer: (quizzer: Quizzer) => void;
     onDeleteQuizzer: (quizzer: Quizzer) => void;
     onAddQuizzer: (teamId: number) => void;
@@ -34,6 +35,7 @@ export default function TeamsAndQuizzersTable({
     onDeleteTeam,
     onAddTeam,
     onBulkRename,
+    onExportSeedReport,
     onEditQuizzer,
     onDeleteQuizzer,
     onAddQuizzer,
@@ -137,7 +139,7 @@ export default function TeamsAndQuizzersTable({
             // Convert NO_TEAM_ID sentinel to undefined
             const actualTargetTeamId = targetTeamId === NO_TEAM_ID ? undefined : targetTeamId;
             const currentTeamId = quizzer?.TeamId;
-            
+
             if (quizzer && currentTeamId !== actualTargetTeamId) {
                 onMoveQuizzer(quizzerId, currentTeamId, actualTargetTeamId);
             }
@@ -193,6 +195,24 @@ export default function TeamsAndQuizzersTable({
                                 Bulk Rename
                             </button>
                         </>)}
+                    <button
+                        type="button"
+                        className="btn btn-warning btn-sm mt-0"
+                        onClick={async () => await onExportSeedReport(false)}
+                        disabled={isSaving}
+                    >
+                        <FontAwesomeIcon icon="fas faFileExport" />
+                        Export Team Seeds
+                    </button>
+                    <button
+                        type="button"
+                        className="btn btn-warning btn-sm mt-0"
+                        onClick={async () => await onExportSeedReport(true)}
+                        disabled={isSaving}
+                    >
+                        <FontAwesomeIcon icon="fas faFileExport" />
+                        Export Individual Seeds
+                    </button>
                 </div>
             </div>
 

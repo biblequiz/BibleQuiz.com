@@ -497,17 +497,17 @@ function buildDatabaseEntry(
             },
             {
                 type: 'link' as const,
-                label: "Divisions",
-                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/meets`),
-                isCurrent: false,
-                icon: "fas faLayerGroup"
-            },
-            {
-                type: 'link' as const,
                 label: "Teams & Quizzers",
                 navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/teamsAndQuizzers`),
                 isCurrent: false,
                 icon: "fas faUserGroup"
+            },
+            {
+                type: 'link' as const,
+                label: "Divisions",
+                navigate: () => navigate(`${rootPath}/scoring/databases/${databaseId}/meets`),
+                isCurrent: false,
+                icon: "fas faLayerGroup"
             },
             {
                 type: 'link' as const,
@@ -624,12 +624,12 @@ const router = createHashRouter([
                                                 element: <ScoringDashboardPage />
                                             },
                                             {
-                                                path: "/:eventId/scoring/databases/:databaseId/meets",
-                                                element: <ScoringDatabaseMeetsPage />
-                                            },
-                                            {
                                                 path: "/:eventId/scoring/databases/:databaseId/teamsAndQuizzers",
                                                 element: <ScoringDatabaseTeamsAndQuizzersPage />
+                                            },
+                                            {
+                                                path: "/:eventId/scoring/databases/:databaseId/meets",
+                                                element: <ScoringDatabaseMeetsPage />
                                             },
                                             {
                                                 path: "/:eventId/scoring/databases/:databaseId/questions",

@@ -198,6 +198,22 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         setBulkRenameDialogOpen(true);
     };
 
+    const handleExportSeedReport = async (isIndividualCompetition: boolean) => {
+        setIsSaving(true);
+        setSaveError(null);
+        try {
+            await AstroTeamsAndQuizzersService.getSeedReport(
+                auth,
+                eventId,
+                databaseId!,
+                isIndividualCompetition);
+        } catch (err: any) {
+            setSaveError(err.message || "Failed to export seed report.");
+        } finally {
+            setIsSaving(false);
+        }
+    };
+
     const handleBulkRenameSave = (renamedTeams: Team[]) => {
         // Apply all renamed teams to pending changes
         setPendingChanges(prev => {
@@ -577,6 +593,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 onMoveQuizzer={handleMoveQuizzer}
                 onSaveChanges={handleSave}
                 onBulkRename={handleBulkRename}
+                onExportSeedReport={handleExportSeedReport}
             />
 
             {/* Dialogs */}
