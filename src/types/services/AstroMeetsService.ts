@@ -209,6 +209,11 @@ export interface OnlineMeetSettings {
     MatchLengthInMinutes: number;
 
     /**
+     * Ranking algorithm within a match.
+     */
+    MatchRanking: OnlineMeetMatchRankingType;
+
+    /**
      * Scheduling settings. If this is null, the schedule is assumed not to have changed.
      */
     Schedule?: OnlineMeetSchedulingSettings | null;
@@ -393,4 +398,19 @@ export interface OnlineMeetScheduleRoom {
      * Value indicating whether this is a bye round.
      */
     readonly IsByeRound: boolean;
+}
+
+/**
+ * Type of ranking within a match.
+ */
+export enum OnlineMeetMatchRankingType {
+    /**
+     * Rank in descending order by total points.
+     */
+    HighestPointsWins,
+
+    /**
+     * Rank by the fastest to quiz out (regardless of incorrectly answered questions).
+     */
+    FastestToQuizOutWinsIgnoringIncorrect,
 }

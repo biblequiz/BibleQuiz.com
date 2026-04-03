@@ -15,6 +15,7 @@ interface Props {
     databaseId: string;
     meetId: number;
     meetName: string;
+    isIndividualCompetition: boolean;
     isReadOnly: boolean;
     onSave: () => void;
     onClose: () => void;
@@ -28,13 +29,14 @@ export default function DivisionRankingDialog({
     databaseId,
     meetId,
     meetName,
+    isIndividualCompetition,
     isReadOnly,
     onSave,
     onClose
 }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    const [activeTab, setActiveTab] = useState<RankingTab>("teams");
+    const [activeTab, setActiveTab] = useState<RankingTab>(isIndividualCompetition ? "quizzers" : "teams");
     const [rankingSummary, setRankingSummary] = useState<OnlineMeetRankingSummary | null>(null);
     const [isLoading, setIsLoading] = useState(true);
     const [isSaving, setIsSaving] = useState(false);
@@ -429,27 +431,27 @@ export default function DivisionRankingDialog({
 
                     {rankingSummary && !isLoading && (
                         <>
-                            {/* Tabs */}
-                            <div role="tablist" className="tabs tabs-boxed mb-0 mt-0">
-                                <button
-                                    type="button"
-                                    role="tab"
-                                    className={`tab mb-0 mt-0 ${activeTab === "teams" ? "tab-active" : ""}`}
-                                    onClick={() => setActiveTab("teams")}
-                                >
-                                    <FontAwesomeIcon icon="fas faUsers" />
-                                    <span className="ml-2">Teams ({rankedTeams.length})</span>
-                                </button>
-                                <button
-                                    type="button"
-                                    role="tab"
-                                    className={`tab mb-0 mt-0 ${activeTab === "quizzers" ? "tab-active" : ""}`}
-                                    onClick={() => setActiveTab("quizzers")}
-                                >
-                                    <FontAwesomeIcon icon="fas faUser" />
-                                    <span className="ml-2">Quizzers ({rankedQuizzers.length})</span>
-                                </button>
-                            </div>
+                            {!isIndividualCompetition && (
+                                <div role="tablist" className="tabs tabs-boxed mb-0 mt-0">
+                                    <button
+                                        type="button"
+                                        role="tab"
+                                        className={`tab mb-0 mt-0 ${activeTab === "teams" ? "tab-active" : ""}`}
+                                        onClick={() => setActiveTab("teams")}
+                                    >
+                                        <FontAwesomeIcon icon="fas faUsers" />
+                                        <span className="ml-2">Teams ({rankedTeams.length})</span>
+                                    </button>
+                                    <button
+                                        type="button"
+                                        role="tab"
+                                        className={`tab mb-0 mt-0 ${activeTab === "quizzers" ? "tab-active" : ""}`}
+                                        onClick={() => setActiveTab("quizzers")}
+                                    >
+                                        <FontAwesomeIcon icon="fas faUser" />
+                                        <span className="ml-2">Quizzers ({rankedQuizzers.length})</span>
+                                    </button>
+                                </div>)}
 
                             {/* Teams Tab Content */}
                             {activeTab === "teams" && (

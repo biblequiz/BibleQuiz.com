@@ -832,9 +832,9 @@ export default function DivisionScheduleDialog({
                                     roomNames={isIndividualCompetition ? roomNames : undefined}
                                     isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
                                     onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
-                                    auth={isIndividualCompetition ? auth : undefined}
-                                    eventId={isIndividualCompetition ? eventId : undefined}
-                                    databaseId={isIndividualCompetition ? databaseId : undefined}
+                                    auth={auth}
+                                    eventId={eventId}
+                                    databaseId={databaseId}
                                 />
                             </CollapsibleSection>
 
