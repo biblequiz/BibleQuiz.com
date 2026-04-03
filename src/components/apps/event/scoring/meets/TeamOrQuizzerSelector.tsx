@@ -4,6 +4,7 @@ import type { AuthManager } from "types/AuthManager";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import SeedFromDivisionsDialog from "./SeedFromDivisionsDialog";
+import SeedFromReportDialog from "./SeedFromReportDialog";
 
 interface Props {
     selectedIds: number[];
@@ -67,9 +68,10 @@ export default function TeamOrQuizzerSelector({
 
     // Seed dialog state
     const [showSeedDialog, setShowSeedDialog] = useState(false);
+    const [showSeedReportDialog, setShowSeedReportDialog] = useState(false);
 
     // Check if seeding is available (individual competition with auth props)
-    const canSeed = isIndividualCompetition && auth && eventId && databaseId && !isReadOnly;
+    const canSeed = auth && eventId && databaseId && !isReadOnly;
 
     // Labels based on tournament type
     const itemLabel = isIndividualCompetition ? "quizzer" : "team";
@@ -126,8 +128,8 @@ export default function TeamOrQuizzerSelector({
     return (
         <div className="p-2 mt-0">
             {/* Add item dropdown */}
-            {!isReadOnly && allowAddRemove && availableItems.length > 0 && (
-                <div className="mb-3 mt-0">
+            {!isReadOnly && allowAddRemove && (
+                <div className="mb-3 mt-0 flex gap-2">
                     <select
                         className="select select-bordered select-sm w-full max-w-xs"
                         onChange={(e) => {
@@ -145,21 +147,29 @@ export default function TeamOrQuizzerSelector({
                             </option>
                         ))}
                     </select>
-                </div>
-            )}
-
-            {/* Seed and Clear buttons for individual competitions */}
-            {canSeed && allowAddRemove && (
-                <div className="mb-3 flex gap-2 mt-0">
-                    <button
-                        type="button"
-                        className="btn btn-sm btn-outline mt-0"
-                        onClick={() => setShowSeedDialog(true)}
-                        disabled={disabled}
-                    >
-                        <FontAwesomeIcon icon="fas faSeedling" />
-                        Seed from Division(s)
-                    </button>
+                    {canSeed && (
+                        <>
+                            <button
+                                type="button"
+                                className="btn btn-sm btn-outline mt-0"
+                                onClick={() => setShowSeedReportDialog(true)}
+                                disabled={disabled}
+                            >
+                                <FontAwesomeIcon icon="fas faFileImport" />
+                                Seed from File
+                            </button>
+                            {isIndividualCompetition && (
+                                <button
+                                    type="button"
+                                    className="btn btn-sm btn-outline mt-0"
+                                    onClick={() => setShowSeedDialog(true)}
+                                    disabled={disabled}
+                                >
+                                    <FontAwesomeIcon icon="fas faSeedling" />
+                                    Seed from Division(s)
+                                </button>)}
+                        </>
+                    )}
                     <button
                         type="button"
                         className="btn btn-sm btn-outline btn-error mt-0"
@@ -167,7 +177,7 @@ export default function TeamOrQuizzerSelector({
                         disabled={disabled || selectedIds.length === 0 || isReadOnly}
                     >
                         <FontAwesomeIcon icon="fas faTrash" />
-                        Clear Quizzer(s)
+                        Clear
                     </button>
                 </div>
             )}
@@ -187,9 +197,8 @@ export default function TeamOrQuizzerSelector({
                         return (
                             <div
                                 key={itemId}
-                                className={`flex items-center gap-2 p-1 rounded-lg mt-0 mb-0 ${
-                                    isDragOver ? "bg-primary/20" : "bg-base-100"
-                                } ${isDragging ? "opacity-50" : ""}`}
+                                className={`flex items-center gap-2 p-1 rounded-lg mt-0 mb-0 ${isDragOver ? "bg-primary/20" : "bg-base-100"
+                                    } ${isDragging ? "opacity-50" : ""}`}
                                 draggable={!isReadOnly && !disabled}
                                 onDragStart={(e) => handleDragStart(e, index)}
                                 onDragOver={(e) => handleDragOver(e, index)}
@@ -244,6 +253,21 @@ export default function TeamOrQuizzerSelector({
                         setShowSeedDialog(false);
                     }}
                     onClose={() => setShowSeedDialog(false)}
+                />
+            )}
+
+            {/* Seed from Report Dialog */}
+            {showSeedReportDialog && auth && eventId && databaseId && (
+                <SeedFromReportDialog
+                    auth={auth}
+                    eventId={eventId}
+                    databaseId={databaseId}
+                    isIndividualCompetition={isIndividualCompetition}
+                    onSeed={(ids) => {
+                        onIdsChange(ids);
+                        setShowSeedReportDialog(false);
+                    }}
+                    onClose={() => setShowSeedReportDialog(false)}
                 />
             )}
         </div>

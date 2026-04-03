@@ -106,6 +106,31 @@ export interface OnlineDatabaseQuestionSet {
      * Questions for each match in the meet. Key is the match number.
      */
     readonly Matches: Record<number, OnlineDatabaseQuestionMatchSet>;
+
+    /**
+     * Status of the import.
+     */
+    readonly ImportState: OnlineDatabaseQuestionSetState;
+}
+
+/**
+ * State of the question set.
+ */
+export enum OnlineDatabaseQuestionSetState {
+    /**
+     * No questions have been imported for this question set.
+     */
+    NotImported,
+
+    /**
+     * Questions have been partially imported.
+     */
+    PartiallyImported,
+
+    /**
+     * All matches have been fully imported.
+     */
+    FullyImported,
 }
 
 /**
@@ -116,6 +141,11 @@ export interface OnlineDatabaseQuestionMatchSet {
      * Questions for this match. Key is the question number.
      */
     readonly Questions: Record<number, OnlineMatchQuestion>;
+
+    /**
+     * Value indicating whether the questions for this set have been imported.
+     */
+    readonly HasImportedQuestions: boolean;
 }
 
 /**

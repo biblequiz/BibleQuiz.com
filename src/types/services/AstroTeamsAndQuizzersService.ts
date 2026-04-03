@@ -86,6 +86,64 @@ export class AstroTeamsAndQuizzersService {
             true,
         );
     }
+
+    /**
+     * Generates a seeding report that can be used to seed a meet.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param isIndividualCompetition Value indicating whether the seeding report is for an individual competition.
+     *
+     * @returns Seeding report for the database.
+     */
+    public static getSeedReport(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        isIndividualCompetition: boolean,
+    ): Promise<void> {
+        return RemoteServiceUtility.downloadFromHttpRequest(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers/seedReport`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition,
+            }),
+        );
+    }
+
+    /**
+     * Parses a seed report from a file.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param form Form contents with "file" set with the file.
+     * @param isIndividualCompetition Value indicating whether the report is for an individual competition.
+     *
+     * @returns Parsed ordered list of teams or quizzers.
+     */
+    public static parseSeedReport(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        form: FormData,
+        isIndividualCompetition: boolean = false,
+    ): Promise<number[]> {
+        return RemoteServiceUtility.executeHttpRequest<number[]>(
+            auth,
+            "POST",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers/seedReport`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition,
+            }),
+            form,
+            true,
+        );
+    }
 }
 
 /**

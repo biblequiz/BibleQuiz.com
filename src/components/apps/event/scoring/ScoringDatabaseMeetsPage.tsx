@@ -516,6 +516,7 @@ export default function ScoringDatabaseMeetsPage() {
                     databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
+                    isIndividualCompetition={editingMeet.isIndividualCompetition}
                     isReadOnly={false}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}

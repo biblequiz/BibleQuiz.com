@@ -6,6 +6,7 @@ import {
     type OnlineDatabaseQuestionSet,
     type OnlineMatchQuestion,
     MatchQuestionUsage,
+    OnlineDatabaseQuestionSetState,
 } from "types/services/AstroDatabaseQuestionsService";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
@@ -545,9 +546,8 @@ export default function ScoringDatabaseQuestionsPage() {
                                     </p>
                                 ) : (
                                     meets.map(meet => {
-                                        const hasQuestions = questionSets.some(
-                                            qs => qs.MeetId === meet.Display.Id
-                                        );
+                                        const questionState = questionSets.find(qs => qs.MeetId === meet.Display.Id)?.ImportState
+                                            ?? OnlineDatabaseQuestionSetState.NotImported;
                                         const isSelected = selectedMeetId === meet.Display.Id;
 
                                         return (
@@ -560,9 +560,9 @@ export default function ScoringDatabaseQuestionsPage() {
                                                 <span className="truncate">
                                                     {meet.Display.NameOverride || meet.Display.Name}
                                                 </span>
-                                                {hasQuestions && (
+                                                {questionState !== OnlineDatabaseQuestionSetState.NotImported && (
                                                     <FontAwesomeIcon
-                                                        icon="fas faCheck"
+                                                        icon={`fas ${questionState === OnlineDatabaseQuestionSetState.FullyImported ? "faCheck" : "faHourglass"}`}
                                                         classNames={["text-success", "ml-auto"]}
                                                     />
                                                 )}
