@@ -128,7 +128,7 @@ export default function TeamOrQuizzerSelector({
     return (
         <div className="p-2 mt-0">
             {/* Add item dropdown */}
-            {!isReadOnly && allowAddRemove && availableItems.length > 0 && (
+            {!isReadOnly && allowAddRemove && (
                 <div className="mb-3 mt-0 flex gap-2">
                     <select
                         className="select select-bordered select-sm w-full max-w-xs"
@@ -168,17 +168,17 @@ export default function TeamOrQuizzerSelector({
                                     <FontAwesomeIcon icon="fas faSeedling" />
                                     Seed from Division(s)
                                 </button>)}
-                            <button
-                                type="button"
-                                className="btn btn-sm btn-outline btn-error mt-0"
-                                onClick={() => onIdsChange([])}
-                                disabled={disabled || selectedIds.length === 0 || isReadOnly}
-                            >
-                                <FontAwesomeIcon icon="fas faTrash" />
-                                Clear
-                            </button>
                         </>
                     )}
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline btn-error mt-0"
+                        onClick={() => onIdsChange([])}
+                        disabled={disabled || selectedIds.length === 0 || isReadOnly}
+                    >
+                        <FontAwesomeIcon icon="fas faTrash" />
+                        Clear
+                    </button>
                 </div>
             )}
 

@@ -9,7 +9,8 @@ import {
     AstroMeetsService,
     type OnlineMeetSettings,
     type OnlineMeetSchedulingSettings,
-    type OnlineMeetSchedulePreview
+    type OnlineMeetSchedulePreview,
+    OnlineMeetMatchRankingType
 } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import type { MatchRules } from "types/MatchRules";
@@ -93,6 +94,9 @@ export default function DivisionScheduleDialog({
     const [customRules, setCustomRules] = useState<MatchRules | null>(null);
     const [isEditingRules, setIsEditingRules] = useState(false);
 
+    // Match ranking state (for individual competitions)
+    const [matchRanking, setMatchRanking] = useState<OnlineMeetMatchRankingType>(OnlineMeetMatchRankingType.HighestPointsWins);
+
     // Optimizer state
     const [useOptimizer, setUseOptimizer] = useState(false);
 
@@ -145,6 +149,11 @@ export default function DivisionScheduleDialog({
                 if (data.CustomRules) {
                     setUseCustomRules(true);
                     setCustomRules(data.CustomRules);
+                }
+
+                // Match ranking (for individual competitions)
+                if (data.MatchRanking !== undefined) {
+                    setMatchRanking(data.MatchRanking);
                 }
 
                 if (data.Schedule) {
@@ -648,6 +657,7 @@ export default function DivisionScheduleDialog({
                 Name: name.trim(),
                 RoomNames: roomNames,
                 MatchLengthInMinutes: matchLengthInMinutes,
+                MatchRanking: matchRanking ?? OnlineMeetMatchRankingType.HighestPointsWins,
                 CustomRules: useCustomRules ? customRules : null,
                 MatchTimes: matchTimes,
                 IsIndividualCompetition: isIndividualCompetition,
@@ -741,8 +751,8 @@ export default function DivisionScheduleDialog({
                                 allowMultipleOpen={true}
                             >
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 mt-0">
-                                    <div className="form-control">
-                                        <label className="label">
+                                <div className="form-control mt-0 mb-0">
+                                        <label className="label mt-0 mb-0">
                                             <span className="label-text">Match Length (minutes)</span>
                                         </label>
                                         <input
@@ -758,6 +768,25 @@ export default function DivisionScheduleDialog({
                                             max={120}
                                         />
                                     </div>
+                                    {isIndividualCompetition && (
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label mt-0 mb-0">
+                                                <span className="label-text">Match Ranking</span>
+                                            </label>
+                                            <select
+                                                className="select select-bordered mt-0 mb-0"
+                                                value={matchRanking}
+                                                onChange={(e) => {
+                                                    setMatchRanking(Number(e.target.value) as OnlineMeetMatchRankingType);
+                                                    setIsDirty(true);
+                                                }}
+                                                disabled={!canEditScheduleSettings}
+                                            >
+                                                <option value={OnlineMeetMatchRankingType.HighestPointsWins}>Highest Points Wins</option>
+                                                <option value={OnlineMeetMatchRankingType.FastestToQuizOutWinsIgnoringIncorrect}>Fastest to Quiz Out</option>
+                                            </select>
+                                        </div>
+                                    )}
                                 </div>
 
                                 {/* Linked Meets - Not supported for individual competitions */}
