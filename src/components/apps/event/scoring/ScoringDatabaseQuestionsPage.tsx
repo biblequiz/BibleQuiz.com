@@ -11,7 +11,6 @@ import {
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
 import QuestionImportDialog from "./questions/QuestionImportDialog";
-import QStatsTabContent from "components/scores/QStatsTabContent";
 
 /**
  * Question type patterns to search for in question text.
