@@ -1,7 +1,7 @@
 {
   "EventName": "OH Meet #3",
   "DatabaseNames": {
-    "3ee8000d-e991-418e-9526-f37d19573665": "Jan_26_OH_Meet_3"
+    "3ee8000d-e991-418e-9526-f37d19573665": "OHStateFinals"
   },
   "Report": {
     "Meets": [
@@ -12,15 +12,16 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Jan 26 OH Meet # 3 Championship",
-        "LastUpdated": "1/17/26 6:24 PM",
-        "DatabaseLastUpdated": "2026-01-17T04:05:23.1148235+00:00",
+        "LastUpdated": "4/4/26 6:08 PM",
+        "DatabaseLastUpdated": "2026-04-04T17:04:25.5785377+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": "Sam Klco",
             "Quizzers": [
               3,
-              4
+              4,
+              5
             ],
             "Matches": [
               {
@@ -63,9 +64,9 @@
               null
             ],
             "CurrentMatchId": null,
-            "Id": "t_9f08307c-bcbc-4edf-a831-8b787354bbbb",
+            "Id": "t_3ee8000de991418e9526f37d19573665_3",
             "Name": "Painesville Assembly of God (And Sarah is our mother)",
-            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
@@ -91,7 +92,7 @@
             "CoachName": "Jessica Rogers",
             "Quizzers": [
               1,
-              5
+              6
             ],
             "Matches": [
               null,
@@ -134,9 +135,9 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_0f49ae1c-335a-41db-8379-104124a66dbe",
+            "Id": "t_3ee8000de991418e9526f37d19573665_4",
             "Name": "Painesville Assembly of God #1",
-            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
@@ -163,7 +164,7 @@
             "Quizzers": [
               0,
               2,
-              6
+              7
             ],
             "Matches": [
               {
@@ -206,9 +207,9 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_7e357ce7-368d-4489-b7ea-3e2828623654",
+            "Id": "t_3ee8000de991418e9526f37d19573665_6",
             "Name": "Radiant Quizzers-1",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -248,7 +249,7 @@
             "YearsQuizzing": null,
             "Id": "q_2c073f455a574a37bd4508d8cc562a24",
             "Name": "Caleb Karthik",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -272,7 +273,7 @@
             "YearsQuizzing": null,
             "Id": "q_b3131a40948444fb958308ddfc3ef602",
             "Name": "Eli Cullins",
-            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
@@ -296,7 +297,7 @@
             "YearsQuizzing": null,
             "Id": "q_d108ac126634413ca33e08db3b8adc45",
             "Name": "Evan Ryan",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -320,7 +321,7 @@
             "YearsQuizzing": null,
             "Id": "q_7fd8afe62bcd4115f92608dd6fe50b30",
             "Name": "Jeremiah Klco",
-            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
@@ -344,7 +345,7 @@
             "YearsQuizzing": null,
             "Id": "q_39c697fcfc9c4c230b0608dce5ae031e",
             "Name": "Justin Klco",
-            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
@@ -364,11 +365,35 @@
             }
           },
           {
+            "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
+            "YearsQuizzing": null,
+            "Id": "q_3ee8000de991418e9526f37d19573665_22",
+            "Name": "Keira Rogers",
+            "ChurchId": null,
+            "ChurchName": "Painesville Assembly of God",
+            "City": "Painesville",
+            "State": "OH",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            }
+          },
+          {
             "TeamName": "Painesville Assembly of God #1",
             "YearsQuizzing": null,
             "Id": "q_380d0001b1544599992d8d04f4f73987",
             "Name": "Keira Rogers",
-            "ChurchId": "d4d439e1-3636-4057-8fad-f046ba0d05d5",
+            "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
@@ -392,7 +417,7 @@
             "YearsQuizzing": null,
             "Id": "q_45aead74e162467fb24508d6d70ba173",
             "Name": "Nathan Nimako",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -413,12 +438,13 @@
           }
         ],
         "RankedQuizzers": [
-          6,
+          7,
           4,
           3,
           2,
           0,
           1,
+          6,
           5
         ],
         "QuizzerFootnotes": [
@@ -485,7 +511,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -541,8 +567,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Jan 26 Meet # 3 Contender",
-        "LastUpdated": "1/17/26 6:24 PM",
-        "DatabaseLastUpdated": "2026-01-17T04:05:23.1148235+00:00",
+        "LastUpdated": "4/4/26 6:08 PM",
+        "DatabaseLastUpdated": "2026-04-04T17:04:25.5785377+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -593,9 +619,9 @@
               null
             ],
             "CurrentMatchId": null,
-            "Id": "t_820aab78-4f86-48fd-9003-6a837bee482d",
+            "Id": "t_3ee8000de991418e9526f37d19573665_1",
             "Name": "Flying Pigs",
-            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
+            "ChurchId": null,
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
@@ -666,9 +692,9 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_eddaeee4-41ac-41d4-a709-8271d94dca86",
+            "Id": "t_3ee8000de991418e9526f37d19573665_2",
             "Name": "Life Church Assembly of God (Garrettsville) #1",
-            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
+            "ChurchId": null,
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
@@ -737,9 +763,9 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_d6687be8-1be8-4a82-9b18-5e93066e1037",
+            "Id": "t_3ee8000de991418e9526f37d19573665_5",
             "Name": "Radiant Quizzers",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -774,7 +800,7 @@
             "YearsQuizzing": null,
             "Id": "q_39b15f61465c4c59770308dd3433f194",
             "Name": "April Campbell",
-            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
+            "ChurchId": null,
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
@@ -798,7 +824,7 @@
             "YearsQuizzing": null,
             "Id": "q_f515ab62061540eb76c608de2c3f75fd",
             "Name": "Camille Denny",
-            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
+            "ChurchId": null,
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
@@ -822,7 +848,7 @@
             "YearsQuizzing": null,
             "Id": "q_7626343991334745626608da2316c5d3",
             "Name": "Gavin Swamidass",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -846,7 +872,7 @@
             "YearsQuizzing": null,
             "Id": "q_0e6f248a13a84e13770808dd3433f194",
             "Name": "Hannah Mangeri",
-            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
+            "ChurchId": null,
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
@@ -870,7 +896,7 @@
             "YearsQuizzing": null,
             "Id": "q_2d8fc7610edc421e9cab08dcde30b60d",
             "Name": "Jackson McCorcle",
-            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
+            "ChurchId": null,
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
@@ -894,7 +920,7 @@
             "YearsQuizzing": null,
             "Id": "q_0347e0b3e9114e7276ff08dd3433f194",
             "Name": "Jeremiah Mangeri",
-            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
+            "ChurchId": null,
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
@@ -918,7 +944,7 @@
             "YearsQuizzing": null,
             "Id": "q_17087374ec59484193ba08dc4b3901c6",
             "Name": "Lloys Anyidoho",
-            "ChurchId": "0516a9eb-360f-414a-9b84-3795bf4cb2d1",
+            "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
@@ -942,7 +968,7 @@
             "YearsQuizzing": null,
             "Id": "q_ce9eee25d33b41259ca408dcde30b60d",
             "Name": "MaKenzie Zimmerly",
-            "ChurchId": "ad5a12ac-f511-45cd-90ef-829480479a61",
+            "ChurchId": null,
             "ChurchName": "Connection Church",
             "City": "Wooster",
             "State": "OH",
@@ -966,7 +992,7 @@
             "YearsQuizzing": null,
             "Id": "q_6196562be6c645bf76fa08dd3433f194",
             "Name": "Micah Mangeri",
-            "ChurchId": "238e4f2a-ef06-425c-b670-60e770e8ea2a",
+            "ChurchId": null,
             "ChurchName": "Life Church Assembly of God",
             "City": "Garrettsville",
             "State": "OH",
@@ -1061,7 +1087,7 @@
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs..",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -1142,5 +1168,5 @@
       }
     }
   ],
-  "Freshness": "2026-01-17T18:24:26.0427621+00:00"
+  "Freshness": "2026-04-04T17:04:26.1705687+00:00"
 }
