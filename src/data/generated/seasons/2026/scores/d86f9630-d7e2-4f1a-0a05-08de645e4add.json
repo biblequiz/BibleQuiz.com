@@ -1,7 +1,7 @@
 {
   "EventName": "OH Meet #4",
   "DatabaseNames": {
-    "3ee8000d-e991-418e-9526-f37d19573665": "Jan_26_OH_Meet_3"
+    "3ee8000d-e991-418e-9526-f37d19573665": "OHStateFinals"
   },
   "Report": {
     "Meets": [
@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Feb 26 OH Meet # 4 Contender",
-        "LastUpdated": "2/14/26 8:37 PM",
-        "DatabaseLastUpdated": "2026-02-14T14:05:31.1929248+00:00",
+        "LastUpdated": "4/4/26 6:08 PM",
+        "DatabaseLastUpdated": "2026-04-04T17:04:26.5829585+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
@@ -64,7 +64,7 @@
               null
             ],
             "CurrentMatchId": null,
-            "Id": "t_3ee8000d-e991-418e-9526-f37d19573665_1",
+            "Id": "t_3ee8000de991418e9526f37d19573665_1",
             "Name": "Flying Pigs",
             "ChurchId": null,
             "ChurchName": "Connection Church",
@@ -137,7 +137,7 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_3ee8000d-e991-418e-9526-f37d19573665_2",
+            "Id": "t_3ee8000de991418e9526f37d19573665_2",
             "Name": "Life Church Assembly of God (Garrettsville) #1",
             "ChurchId": null,
             "ChurchName": "Life Church Assembly of God",
@@ -208,7 +208,7 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_3ee8000d-e991-418e-9526-f37d19573665_5",
+            "Id": "t_3ee8000de991418e9526f37d19573665_5",
             "Name": "Radiant Quizzers",
             "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
@@ -588,16 +588,14 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Feb 26 OH Meet # 4 Championship",
-        "LastUpdated": "2/14/26 8:37 PM",
-        "DatabaseLastUpdated": "2026-02-14T14:05:31.1929248+00:00",
+        "LastUpdated": "4/4/26 6:08 PM",
+        "DatabaseLastUpdated": "2026-04-04T17:04:26.5829585+00:00",
         "CompetitionType": "TBQ",
         "Teams": [
           {
             "CoachName": "Sam Klco",
             "Quizzers": [
-              2,
-              3,
-              4
+              2
             ],
             "Matches": [
               {
@@ -656,7 +654,7 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_3ee8000d-e991-418e-9526-f37d19573665_3",
+            "Id": "t_3ee8000de991418e9526f37d19573665_3",
             "Name": "Painesville Assembly of God (And Sarah is our mother)",
             "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
@@ -671,12 +669,12 @@
               "TotalPoints": 970,
               "PerMeetTotalPoints": null,
               "AveragePoints": 161.7,
-              "AverageCorrect": 9.0,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 76,
-              "Correct10s": 23,
-              "Correct20s": 21,
-              "Correct30s": 10,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": null
             }
           },
@@ -685,7 +683,7 @@
             "Quizzers": [
               0,
               1,
-              5
+              3
             ],
             "Matches": [
               {
@@ -744,7 +742,7 @@
               }
             ],
             "CurrentMatchId": null,
-            "Id": "t_3ee8000d-e991-418e-9526-f37d19573665_6",
+            "Id": "t_3ee8000de991418e9526f37d19573665_6",
             "Name": "Radiant Quizzers-1",
             "ChurchId": null,
             "ChurchName": "Radiant Life Church Assembly of God",
@@ -785,7 +783,7 @@
             "City": "Dublin",
             "State": "OH",
             "Scores": {
-              "Rank": 5,
+              "Rank": 3,
               "IsTie": true,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
@@ -809,7 +807,7 @@
             "City": "Dublin",
             "State": "OH",
             "Scores": {
-              "Rank": 4,
+              "Rank": 2,
               "IsTie": false,
               "TotalPoints": 145,
               "PerMeetTotalPoints": null,
@@ -826,62 +824,14 @@
           {
             "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
             "YearsQuizzing": null,
-            "Id": "q_7fd8afe62bcd4115f92608dd6fe50b30",
-            "Name": "Jeremiah Klco",
-            "ChurchId": null,
-            "ChurchName": "Painesville Assembly of God",
-            "City": "Painesville",
-            "State": "OH",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 355,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 59.2,
-              "AverageCorrect": 4.5,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 21,
-              "Correct20s": 6,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
-            "YearsQuizzing": null,
-            "Id": "q_39c697fcfc9c4c230b0608dce5ae031e",
-            "Name": "Justin Klco",
-            "ChurchId": null,
-            "ChurchName": "Painesville Assembly of God",
-            "City": "Painesville",
-            "State": "OH",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 595,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 99.2,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 0,
-              "Correct20s": 15,
-              "Correct30s": 10,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Painesville Assembly of God (And Sarah is our mother)",
-            "YearsQuizzing": null,
-            "Id": "q_3ee8000d-e991-418e-9526-f37d19573665_22",
+            "Id": "q_3ee8000de991418e9526f37d19573665_22",
             "Name": "Keira Rogers",
             "ChurchId": null,
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesville",
             "State": "OH",
             "Scores": {
-              "Rank": 5,
+              "Rank": 3,
               "IsTie": false,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
@@ -921,11 +871,9 @@
           }
         ],
         "RankedQuizzers": [
-          5,
           3,
-          2,
           1,
-          4,
+          2,
           0
         ],
         "QuizzerFootnotes": [
@@ -1073,5 +1021,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-14T20:37:18.3528685+00:00"
+  "Freshness": "2026-04-04T17:04:26.9103184+00:00"
 }
