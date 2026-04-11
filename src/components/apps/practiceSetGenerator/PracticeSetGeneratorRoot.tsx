@@ -56,11 +56,10 @@ export default function PracticeSetGeneratorRoot({ questions }: PracticeSetGener
     useEffect(() => {
         if (filterRules.length > 0) {
             const config = { ...practiceSetConfig, filterRules };
-            setPracticeSetConfig(config);
             const newResult = generatePracticeSet(questions, config);
             setResult(newResult);
         }
-    }, [filterRules, practiceSetConfig, questions]);
+    }, [filterRules, questions]);
 
     const handleTemplateSelect = (template: any) => {
         const newRules: FilterRule[] = [
@@ -79,6 +78,7 @@ export default function PracticeSetGeneratorRoot({ questions }: PracticeSetGener
             maxQuestions: template.maxQuestions ?? undefined,
             randomize: template.randomize ?? false,
             sortBy: template.randomize ? 'random' : 'questionId',
+            randomSeed: template.randomize ? Date.now() : undefined,
         }));
         setActiveTab('preview');
     };
