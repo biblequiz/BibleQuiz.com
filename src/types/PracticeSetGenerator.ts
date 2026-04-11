@@ -198,6 +198,9 @@ export interface PracticeSetConfig {
     /** Include metadata in output */
     includeMetadata?: boolean;
     
+    /** Bold question text in display */
+    boldQuestionText?: boolean;
+    
     /** Export format preferences */
     exportFormat?: {
         includeSolution?: boolean;

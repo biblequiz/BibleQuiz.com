@@ -3,7 +3,6 @@
  * Allows configuring output options and export settings
  */
 
-import { useState } from 'react';
 import type { PracticeSetConfig } from 'types/PracticeSetGenerator';
 
 interface PracticeSetConfigPanelProps {
@@ -12,30 +11,25 @@ interface PracticeSetConfigPanelProps {
 }
 
 export default function PracticeSetConfigPanel({ config, onChange }: PracticeSetConfigPanelProps) {
-    const [expanded, setExpanded] = useState(false);
-
     const handleChange = (updates: Partial<PracticeSetConfig>) => {
         onChange({ ...config, ...updates });
     };
 
     return (
-        <div className="collapse collapse-arrow border border-base-300 mb-4">
-            <input
-                type="checkbox"
-                checked={expanded}
-                onChange={e => setExpanded(e.target.checked)}
-            />
-            <div className="collapse-title font-semibold">⚙️ Advanced Settings</div>
-            <div className="collapse-content">
-                <div className="space-y-4">
+        <div className="screen-only mb-4 text-sm md:text-base">
+            <div className="collapse collapse-arrow border border-base-300" tabIndex={0}>
+                <input type="checkbox" />
+                <div className="collapse-title font-semibold">⚙️ Advanced Settings</div>
+                <div className="collapse-content p-3 md:p-4">
+                    <div className="space-y-3 md:space-y-4">
                     {/* Set Name */}
                     <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-semibold">Practice Set Name</span>
+                        <label className="label py-2 md:py-3">
+                            <span className="label-text text-sm md:text-base font-semibold">Practice Set Name</span>
                         </label>
                         <input
                             type="text"
-                            className="input input-bordered"
+                            className="input input-bordered input-sm md:input-md"
                             value={config.name}
                             onChange={e => handleChange({ name: e.target.value })}
                         />
@@ -43,31 +37,31 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
 
                     {/* Description */}
                     <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-semibold">Description (optional)</span>
+                        <label className="label py-2 md:py-3">
+                            <span className="label-text text-sm md:text-base font-semibold">Description (optional)</span>
                         </label>
                         <textarea
-                            className="textarea textarea-bordered"
+                            className="textarea textarea-bordered textarea-sm md:textarea-md"
                             value={config.description || ''}
                             onChange={e => handleChange({ description: e.target.value })}
                             placeholder="E.g., Practice set for advanced learners"
                         />
                     </div>
 
-                    <div className="divider">Output Options</div>
+                    <div className="divider my-2 md:my-3">Output Options</div>
 
                     {/* Max Questions */}
                     <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-semibold">Maximum Questions</span>
-                            <span className="label-text-alt text-gray-500">
+                        <label className="label py-2">
+                            <span className="label-text text-sm md:text-base font-semibold">Maximum Questions</span>
+                            <span className="label-text-alt text-xs md:text-sm text-gray-500">
                                 (leave blank for all)
                             </span>
                         </label>
                         <input
                             type="number"
                             min="1"
-                            className="input input-bordered"
+                            className="input input-bordered input-sm md:input-md"
                             value={config.maxQuestions || ''}
                             onChange={e =>
                                 handleChange({
@@ -79,11 +73,11 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
 
                     {/* Sorting */}
                     <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-semibold">Sort Questions By</span>
+                        <label className="label py-2">
+                            <span className="label-text text-sm md:text-base font-semibold">Sort Questions By</span>
                         </label>
                         <select
-                            className="select select-bordered"
+                            className="select select-bordered select-sm md:select-md"
                             value={config.sortBy || 'questionId'}
                             onChange={e =>
                                 handleChange({
@@ -101,11 +95,11 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
                     {/* Randomization */}
                     {config.maxQuestions && config.maxQuestions > 0 && (
                         <>
-                            <label className="label cursor-pointer">
-                                <span className="label-text">Randomize selection</span>
+                            <label className="label cursor-pointer py-2">
+                                <span className="label-text text-sm md:text-base">Randomize selection</span>
                                 <input
                                     type="checkbox"
-                                    className="checkbox"
+                                    className="checkbox checkbox-sm md:checkbox-md"
                                     checked={config.randomize || false}
                                     onChange={e => handleChange({ randomize: e.target.checked })}
                                 />
@@ -113,8 +107,8 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
 
                             {config.randomize && (
                                 <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text text-sm">
+                                    <label className="label py-2">
+                                        <span className="label-text text-xs md:text-sm">
                                             Random Seed (for reproducibility)
                                         </span>
                                     </label>
@@ -136,16 +130,16 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
                         </>
                     )}
 
-                    <div className="divider">PDF Export Options</div>
+                    <div className="divider my-2 md:my-3">PDF Export Options</div>
 
                     {/* PDF Layout */}
                     <div className="form-control">
-                        <label className="label">
-                            <span className="label-text font-semibold">PDF Layout</span>
+                        <label className="label py-2">
+                            <span className="label-text text-sm md:text-base font-semibold">PDF Layout</span>
                         </label>
                         <select
-                            className="select select-bordered"
-                            value={config.exportFormat?.pdfLayout || 'standard'}
+                            className="select select-bordered select-sm md:select-md"
+                            value={config.exportFormat?.pdfLayout || 'compact'}
                             onChange={e =>
                                 handleChange({
                                     exportFormat: {
@@ -155,18 +149,18 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
                                 })
                             }
                         >
-                            <option value="compact">Compact (more questions per page)</option>
-                            <option value="standard">Standard (balanced)</option>
-                            <option value="detailed">Detailed (more whitespace)</option>
+                            <option value="compact">Compact (12-14 per page)</option>
+                            <option value="standard">Standard (8-10 per page)</option>
+                            <option value="detailed">Detailed (5-7 per page)</option>
                         </select>
                     </div>
 
                     {/* Include Solutions */}
-                    <label className="label cursor-pointer">
-                        <span className="label-text">Include answer key/solutions</span>
+                    <label className="label cursor-pointer py-2">
+                        <span className="label-text text-sm md:text-base">Include answer key/solutions</span>
                         <input
                             type="checkbox"
-                            className="checkbox"
+                            className="checkbox checkbox-sm md:checkbox-md"
                             checked={config.exportFormat?.includeSolution || false}
                             onChange={e =>
                                 handleChange({
@@ -180,15 +174,16 @@ export default function PracticeSetConfigPanel({ config, onChange }: PracticeSet
                     </label>
 
                     {/* Include Metadata */}
-                    <label className="label cursor-pointer">
-                        <span className="label-text">Include question metadata (complexity, word count)</span>
+                    <label className="label cursor-pointer py-2">
+                        <span className="label-text text-sm md:text-base">Include question metadata (complexity, word count)</span>
                         <input
                             type="checkbox"
-                            className="checkbox"
+                            className="checkbox checkbox-sm md:checkbox-md"
                             checked={config.includeMetadata || false}
                             onChange={e => handleChange({ includeMetadata: e.target.checked })}
                         />
                     </label>
+                </div>
                 </div>
             </div>
         </div>

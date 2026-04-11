@@ -13,7 +13,6 @@ import type {
 import { generatePracticeSet } from 'utils/questionFiltering';
 import QuestionFilterBuilder from './QuestionFilterBuilder';
 import PracticeSetPreview from './PracticeSetPreview';
-import PracticeSetConfigPanel from './PracticeSetConfigPanel';
 import TemplateSelector from './TemplateSelector';
 
 export interface PracticeSetGeneratorRootProps {
@@ -95,10 +94,8 @@ export default function PracticeSetGeneratorRoot({ questions }: PracticeSetGener
 
     const handleConfigUpdate = (config: PracticeSetConfig) => {
         setPracticeSetConfig(config);
-        if (config.filterRules.length > 0) {
-            const newResult = generatePracticeSet(questions, config);
-            setResult(newResult);
-        }
+        const newResult = generatePracticeSet(questions, config);
+        setResult(newResult);
     };
 
     const handleClearRules = () => {
@@ -163,11 +160,13 @@ export default function PracticeSetGeneratorRoot({ questions }: PracticeSetGener
                 <div role="tabpanel" className="tab-content p-4">
                     {activeTab === 'preview' && result && (
                         <div>
-                            <PracticeSetConfigPanel
-                                config={practiceSetConfig}
-                                onChange={handleConfigUpdate}
-                            />
-                            <PracticeSetPreview result={result} config={practiceSetConfig} />
+                            <button
+                                className="btn btn-outline btn-sm mb-4"
+                                onClick={() => setActiveTab('templates')}
+                            >
+                                ← Back to Templates
+                            </button>
+                            <PracticeSetPreview result={result} config={practiceSetConfig} onConfigChange={handleConfigUpdate} />
                         </div>
                     )}
                     {activeTab === 'preview' && !result && (
