@@ -1,5 +1,22 @@
 {
   "jbq": {
+    "districts/arkansas/": {
+      "id": "e70e8b8d-fb1a-4909-9e8f-08de7e34ffab",
+      "season": 2026,
+      "name": "2026 JBQ Arkansas District Finals",
+      "regionId": "2aaaf954-2b05-4357-9825-c2733aa03b5a",
+      "districtId": "01e5d0ec-41a6-431a-8fb9-0ad9f727be17",
+      "scope": "district",
+      "scopeLabel": "Arkansas District",
+      "dates": "Apr 11, 2026",
+      "startDate": "04/11/2026",
+      "endDate": "04/11/2026",
+      "registrationDates": "Closed",
+      "locationName": "Legacy Church",
+      "locationCity": "Hot Springs, AR",
+      "isVisible": true,
+      "isReport": false
+    },
     "districts/minnesota/": {
       "id": "d321999f-d4b9-4b81-4ef9-08de89116a62",
       "season": 2026,
@@ -250,6 +267,24 @@
       "registrationDates": "Closed",
       "locationName": "Journey Church",
       "locationCity": "Rapid City, SD",
+      "isVisible": true,
+      "isReport": false
+    },
+    "districts/southern-california/": {
+      "id": "f0149457-2a74-43c4-165e-08de97d2c8fc",
+      "season": 2026,
+      "name": "2026 TBQ Southern California District Finals",
+      "regionId": "247f245d-eb6b-4b28-bd95-36f94af92f33",
+      "districtId": "551074c4-5fd9-4c79-9f1c-77c30db7097f",
+      "scope": "district",
+      "scopeLabel": "Southern California District",
+      "dates": "Apr 11, 2026",
+      "startDate": "04/11/2026",
+      "endDate": "04/11/2026",
+      "registrationDates": "Closes Apr 11, 2026",
+      "registrationEndDate": "04/11/2026",
+      "locationName": "OCCEC",
+      "locationCity": "Irvine, CA",
       "isVisible": true,
       "isReport": false
     },
