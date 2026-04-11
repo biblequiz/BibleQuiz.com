@@ -1,0 +1,39 @@
+---
+// Practice Set Generator Astro Wrapper
+// Loads questions from JSON file and renders the React component
+import type { Question } from 'types/PracticeSetGenerator';
+import PracticeSetGeneratorRoot from './PracticeSetGeneratorRoot';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Load the analyzed questions data
+let questions: Question[] = [];
+try {
+    // Path: from src/components/apps/practiceSetGenerator/ -> ../../../ -> src/data/generated/
+    const questionsPath = join(__dirname, '../../../data/generated/jbq-questions-analyzed.json');
+    console.log('📂 Loading questions from:', questionsPath);
+    const questionsData = JSON.parse(readFileSync(questionsPath, 'utf-8'));
+    questions = questionsData?.questions || [];
+    console.log(`✅ Loaded ${questions.length} questions`);
+    if (questions.length === 0) {
+        console.warn('⚠️ No questions found. Run "npm run process-questions" to generate question metadata from the Excel file.');
+    }
+} catch (error) {
+    console.warn('⚠️ Could not load generated questions metadata. Run "npm run process-questions" first.');
+    console.log('Error details:', error instanceof Error ? error.message : error);
+}
+---
+
+<div class="practice-set-generator-app">
+    <PracticeSetGeneratorRoot client:load questions={questions} />
+</div>
+
+<style is:global>
+    .practice-set-generator-app {
+        @apply w-full;
+    }
+</style>
