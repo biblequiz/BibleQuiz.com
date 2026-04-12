@@ -1,0 +1,1771 @@
+{
+  "EventName": "Emerald City Tournament 2026",
+  "DatabaseNames": {
+    "31d84647-9bda-4ef5-be65-57ec4ee4d028": "Emerald City - 2026"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "31d84647-9bda-4ef5-be65-57ec4ee4d028",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Championship",
+        "LastUpdated": "4/11/26 11:36 PM",
+        "DatabaseLastUpdated": "2026-04-10T07:35:46.1651986+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Kevin Gallo",
+            "Quizzers": [
+              7,
+              11,
+              19
+            ],
+            "Id": "t_929b5edd33754e50910f1b57e6ba5ef2",
+            "Name": "Fiery Arrows",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 1,
+              "WinPercentage": 90,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1910,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 191.0,
+              "AverageCorrect": 9.8,
+              "QuizOuts": 17,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 39,
+              "Correct20s": 43,
+              "Correct30s": 16,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 225,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Brian Brookbank",
+            "Quizzers": [
+              1,
+              6,
+              16
+            ],
+            "Id": "t_123fd9d5e4134ce8b207ce8ede175fd7",
+            "Name": "New Life Church (Colorado Springs) #1",
+            "ChurchId": "6eea01b4-ca0b-4004-dacf-08d9d53a07df",
+            "ChurchName": "New Life Church",
+            "City": "Colorado Springs",
+            "State": "CO",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 3,
+              "WinPercentage": 70,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 156.0,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 36,
+              "Correct20s": 38,
+              "Correct30s": 19,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 145,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kara Gallo",
+            "Quizzers": [
+              3,
+              17,
+              20
+            ],
+            "Id": "t_cfa7422309934a8b82f0c56e3dcce13b",
+            "Name": "O Sleepers",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 9,
+              "WinPercentage": 10,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 4.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 53,
+              "Correct10s": 25,
+              "Correct20s": 13,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Brent Ellwein",
+            "Quizzers": [
+              2,
+              5,
+              13,
+              14
+            ],
+            "Id": "t_4f8ad4b943d74f44a23a0e984169c28a",
+            "Name": "Psalms, Hymns and Spiritual Songs",
+            "ChurchId": "e671ca7f-ed94-4892-a64a-cc5b5de50dc8",
+            "ChurchName": "Spokane Valley Assembly of God",
+            "City": "Spokane Valley",
+            "State": "WA",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 3,
+              "WinPercentage": 70,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1850,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 185.0,
+              "AverageCorrect": 10.9,
+              "QuizOuts": 14,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 42,
+              "Correct20s": 49,
+              "Correct30s": 18,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 155,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 250,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 135,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Dominic Singarayan",
+            "Quizzers": [
+              0,
+              8,
+              10,
+              12
+            ],
+            "Id": "t_206b6f1279214075b16c1820a2b20b4c",
+            "Name": "STA Team - 2",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 8,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 585,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.5,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 36,
+              "Correct20s": 18,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -15,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Godline Abraham",
+            "Quizzers": [
+              4,
+              9,
+              15,
+              18
+            ],
+            "Id": "t_d7db3dc983ce4bcca8e6c4d3a0da6f03",
+            "Name": "STA Team -1",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 6,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.5,
+              "AverageCorrect": 9.7,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 42,
+              "Correct20s": 46,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "STA Team - 2",
+            "YearsQuizzing": null,
+            "Id": "q_59b9d69d7b4a4d58c50708dbdb2a87a5",
+            "Name": "Angela Faith David",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 15,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "New Life Church (Colorado Springs) #1",
+            "YearsQuizzing": null,
+            "Id": "q_0458524a504e4ef37a7108d9d5426c6a",
+            "Name": "Caleb Brookbank",
+            "ChurchId": "6eea01b4-ca0b-4004-dacf-08d9d53a07df",
+            "ChurchName": "New Life Church",
+            "City": "Colorado Springs",
+            "State": "CO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 590,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 59.0,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 11,
+              "Correct20s": 20,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Psalms, Hymns and Spiritual Songs",
+            "YearsQuizzing": null,
+            "Id": "q_12818e74b60c4f5a9f8b08d9f5a7a481",
+            "Name": "Courtney Ellwein",
+            "ChurchId": "e671ca7f-ed94-4892-a64a-cc5b5de50dc8",
+            "ChurchName": "Spokane Valley Assembly of God",
+            "City": "Spokane Valley",
+            "State": "WA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 6,
+              "Correct20s": 20,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "O Sleepers",
+            "YearsQuizzing": null,
+            "Id": "q_a643cc5db0f046ed859308d6d184fe58",
+            "Name": "Daniel Benston",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 7,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team -1",
+            "YearsQuizzing": null,
+            "Id": "q_3efb1f8a662146f38b3708dc478f31c5",
+            "Name": "Danny Dominic",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 25,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Psalms, Hymns and Spiritual Songs",
+            "YearsQuizzing": null,
+            "Id": "q_7d9ee93a157443c991e408dbd414c39b",
+            "Name": "Emily Ellwein",
+            "ChurchId": "e671ca7f-ed94-4892-a64a-cc5b5de50dc8",
+            "ChurchName": "Spokane Valley Assembly of God",
+            "City": "Spokane Valley",
+            "State": "WA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.5,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 19,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "New Life Church (Colorado Springs) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b8dea0940b8d43807a6d08d9d5426c6a",
+            "Name": "Hadassah Brookbank",
+            "ChurchId": "6eea01b4-ca0b-4004-dacf-08d9d53a07df",
+            "ChurchName": "New Life Church",
+            "City": "Colorado Springs",
+            "State": "CO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 940,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 15,
+              "Correct20s": 18,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fiery Arrows",
+            "YearsQuizzing": null,
+            "Id": "q_0c1d132f849345e2c63008dd51e29fc1",
+            "Name": "Jeremy Ubbala",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 23,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team - 2",
+            "YearsQuizzing": null,
+            "Id": "q_936ebcaabf744c4521a808dcf2c0d571",
+            "Name": "Jessica Sharon Jerry",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team -1",
+            "YearsQuizzing": null,
+            "Id": "q_6f06b1ac87124674c7f808dbc909e367",
+            "Name": "Jeyden Hansel Clement",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 860,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 4,
+              "Correct20s": 31,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team - 2",
+            "YearsQuizzing": null,
+            "Id": "q_41847aa9f1864dafc50208dbdb2a87a5",
+            "Name": "Joanna Prabin Paul",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 8,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fiery Arrows",
+            "YearsQuizzing": null,
+            "Id": "q_5be495b2d92d4135d66f08d8700b9096",
+            "Name": "Johan Kallem",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 16,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team - 2",
+            "YearsQuizzing": null,
+            "Id": "q_604b8c10ca5a47fc218c08dcf2c0d571",
+            "Name": "Josh Samuel",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Psalms, Hymns and Spiritual Songs",
+            "YearsQuizzing": null,
+            "Id": "q_2fe58390866d4950ac4d08dab68a0866",
+            "Name": "Madilyn Ellwein",
+            "ChurchId": "e671ca7f-ed94-4892-a64a-cc5b5de50dc8",
+            "ChurchName": "Spokane Valley Assembly of God",
+            "City": "Spokane Valley",
+            "State": "WA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 655,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.5,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 16,
+              "Correct20s": 19,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Psalms, Hymns and Spiritual Songs",
+            "YearsQuizzing": null,
+            "Id": "q_366cb3aa8a7e40f722b108dcf2c0d571",
+            "Name": "Paitynn Thomas",
+            "ChurchId": "e671ca7f-ed94-4892-a64a-cc5b5de50dc8",
+            "ChurchName": "Spokane Valley Assembly of God",
+            "City": "Spokane Valley",
+            "State": "WA",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team -1",
+            "YearsQuizzing": null,
+            "Id": "q_92aabc610ba741ef8d9808dbf54d9ad5",
+            "Name": "Rithik Mohan",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.5,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "New Life Church (Colorado Springs) #1",
+            "YearsQuizzing": null,
+            "Id": "q_13a7f0bdc618496fc5b908de4bea1516",
+            "Name": "Samuel Brookbank",
+            "ChurchId": "6eea01b4-ca0b-4004-dacf-08d9d53a07df",
+            "ChurchName": "New Life Church",
+            "City": "Colorado Springs",
+            "State": "CO",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "O Sleepers",
+            "YearsQuizzing": null,
+            "Id": "q_fe9feeea68ad48ab3fce08d791e69f7c",
+            "Name": "Sannidhi Tammala",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.0,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 9,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA Team -1",
+            "YearsQuizzing": null,
+            "Id": "q_301096bebafd48a2c4ec08dbdb2a87a5",
+            "Name": "Sherwin Karthik Karthik Babu",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 13,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fiery Arrows",
+            "YearsQuizzing": null,
+            "Id": "q_a0bd4435b8244268856608d6d184fe58",
+            "Name": "Yatin Mokana",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1295,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 129.5,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 0,
+              "Correct20s": 35,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "O Sleepers",
+            "YearsQuizzing": null,
+            "Id": "q_09f13972ffaa466c3fd408d791e69f7c",
+            "Name": "Yavin Mokana",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.5,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 9,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          19,
+          6,
+          9,
+          2,
+          13,
+          1,
+          0,
+          7,
+          5,
+          11,
+          4,
+          18,
+          17,
+          10,
+          12,
+          3,
+          14,
+          20,
+          16,
+          8,
+          15
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "A3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "04:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "04:40 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "05:20 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "06:00 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "09:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "10:20 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": "01:30 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 10,
+            "MatchTime": "02:10 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-04-11T23:36:41.4409479+00:00"
+}
