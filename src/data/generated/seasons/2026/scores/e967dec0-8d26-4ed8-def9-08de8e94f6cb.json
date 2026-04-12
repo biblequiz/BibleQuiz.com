@@ -1,0 +1,2981 @@
+{
+  "EventName": "NC JBQ District Finals",
+  "DatabaseNames": {
+    "53521905-0f3f-48c5-879f-f0a77686151c": "2026_JBQ_District_Finals"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "53521905-0f3f-48c5-879f-f0a77686151c",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Masters",
+        "LastUpdated": "4/11/26 6:52 PM",
+        "DatabaseLastUpdated": "2026-04-09T21:47:34.997703+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Gloria Bryant",
+            "Quizzers": [
+              3,
+              8,
+              11,
+              12
+            ],
+            "Id": "t_bed61325623845b98c3522a2f54bd58c",
+            "Name": "Askewville Bethel Assembly of God (Askewville) #1",
+            "ChurchId": "f7c6a46f-6ea0-4594-b3f2-180f4dc07cbe",
+            "ChurchName": "Askewville Bethel Assembly of God",
+            "City": "Askewville",
+            "State": "NC",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 8,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.6,
+              "AverageCorrect": 4.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 24,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -20,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Felicita Joel",
+            "Quizzers": [
+              1,
+              5,
+              9,
+              10
+            ],
+            "Id": "t_7384d2e9253d4959bc3e6d89ed1fcf4f",
+            "Name": "CICF Chosen Generation",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Wins": 8,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1710,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 213.8,
+              "AverageCorrect": 13.5,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 55,
+              "Correct20s": 35,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 250,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 270,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Rachel Manohar",
+            "Quizzers": [
+              2,
+              4,
+              6
+            ],
+            "Id": "t_0d0dfe5f8d5a4095a33015e2090f6e62",
+            "Name": "Gangs of Galilee",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 2,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1645,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 205.6,
+              "AverageCorrect": 12.2,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 42,
+              "Correct20s": 38,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 270,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 265,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 255,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 145,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Preethi Livingstone",
+            "Quizzers": [
+              7,
+              13,
+              14,
+              15
+            ],
+            "Id": "t_9c5cfcc246f24ababf93da1400464e48",
+            "Name": "God With Us, Immanuel Assembly of God",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1425,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 178.1,
+              "AverageCorrect": 11.5,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 49,
+              "Correct20s": 36,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 265,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 310,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 265,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kevin Rawls",
+            "Quizzers": [
+              0,
+              16
+            ],
+            "Id": "t_e4ff68b5add446cc83dc50009488c60b",
+            "Name": "Rise Church",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 6,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 725,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.6,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 20,
+              "Correct20s": 17,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "M2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Rise Church",
+            "YearsQuizzing": null,
+            "Id": "q_06e3dee0586644ac617008dbafc02107",
+            "Name": "Ally Rawls",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.4,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 9,
+              "Correct20s": 14,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Chosen Generation",
+            "YearsQuizzing": null,
+            "Id": "q_5f95181b6a0b4d31126608dbd8a053bd",
+            "Name": "Caleb Teeter",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 970,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 121.2,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 2,
+              "Correct20s": 28,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gangs of Galilee",
+            "YearsQuizzing": null,
+            "Id": "q_af6d07d449d544070e2508dce09cedfe",
+            "Name": "Daryl Theophilus Jeba Sahariya",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 685,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.6,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 19,
+              "Correct20s": 25,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Askewville Bethel Assembly of God (Askewville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ed74a3baaa794a1aaf8708dcdc383362",
+            "Name": "Graham Hoggard",
+            "ChurchId": "f7c6a46f-6ea0-4594-b3f2-180f4dc07cbe",
+            "ChurchName": "Askewville Bethel Assembly of God",
+            "City": "Askewville",
+            "State": "NC",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.8,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gangs of Galilee",
+            "YearsQuizzing": null,
+            "Id": "q_41d52b29f4f74971224a08dce10bdcd7",
+            "Name": "Hadasha Vasanth",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 825,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.1,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 19,
+              "Correct20s": 6,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Chosen Generation",
+            "YearsQuizzing": null,
+            "Id": "q_e3aa53ebe977402069e408dbafc02107",
+            "Name": "Jaden Vincent",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 295,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.9,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 24,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gangs of Galilee",
+            "YearsQuizzing": null,
+            "Id": "q_0a5df050c48742b3225c08dce10bdcd7",
+            "Name": "Jonathan Jonah",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.9,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 4,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God With Us, Immanuel Assembly of God",
+            "YearsQuizzing": null,
+            "Id": "q_50849dd21a644dddad2908de045d4f17",
+            "Name": "Joshua Aadith Ratheesh",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.2,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 40,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Askewville Bethel Assembly of God (Askewville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_963fd7414ddf40bfaf8c08dcdc383362",
+            "Name": "Jude Hoggard",
+            "ChurchId": "f7c6a46f-6ea0-4594-b3f2-180f4dc07cbe",
+            "ChurchName": "Askewville Bethel Assembly of God",
+            "City": "Askewville",
+            "State": "NC",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 47,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Chosen Generation",
+            "YearsQuizzing": null,
+            "Id": "q_6b18a8e122784a74b87708dcdc0949ca",
+            "Name": "Karunia Thomas",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 405,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.6,
+              "AverageCorrect": 4.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 29,
+              "Correct20s": 1,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Chosen Generation",
+            "YearsQuizzing": null,
+            "Id": "q_51078c8a93cb4b44a10c08de9453ec96",
+            "Name": "Lena Chin",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Askewville Bethel Assembly of God (Askewville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a8122cd3a28c4807c5d608ddfeee20fa",
+            "Name": "Lexi Hill",
+            "ChurchId": "f7c6a46f-6ea0-4594-b3f2-180f4dc07cbe",
+            "ChurchName": "Askewville Bethel Assembly of God",
+            "City": "Askewville",
+            "State": "NC",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Askewville Bethel Assembly of God (Askewville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8f90b870ec0a42b044e508db3be7ef2f",
+            "Name": "Luke Hoggard",
+            "ChurchId": "f7c6a46f-6ea0-4594-b3f2-180f4dc07cbe",
+            "ChurchName": "Askewville Bethel Assembly of God",
+            "City": "Askewville",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.9,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 0,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God With Us, Immanuel Assembly of God",
+            "YearsQuizzing": null,
+            "Id": "q_e5f0cf8b500f46acbee108dbc2ad911e",
+            "Name": "Mira Karthik",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God With Us, Immanuel Assembly of God",
+            "YearsQuizzing": null,
+            "Id": "q_f084cf3d3a3248dbbecd08dbc2ad911e",
+            "Name": "Nathalie Livingstone",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 590,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.8,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 27,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God With Us, Immanuel Assembly of God",
+            "YearsQuizzing": null,
+            "Id": "q_a2b5186d70c34feadd0f08dce092d0a5",
+            "Name": "Selena Vijay",
+            "ChurchId": "a13884fc-2599-4921-9e02-94f965cbd58f",
+            "ChurchName": "Immanuel Assembly of God",
+            "City": "Durham",
+            "State": "NC",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.9,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 8,
+              "Correct20s": 9,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rise Church",
+            "YearsQuizzing": null,
+            "Id": "q_17fc1661406c4541f34308ddf069fc0f",
+            "Name": "Simon Hall",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.2,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          4,
+          2,
+          14,
+          0,
+          15,
+          7,
+          9,
+          5,
+          16,
+          6,
+          12,
+          3,
+          10,
+          8,
+          13,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "M1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "M2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 10,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "53521905-0f3f-48c5-879f-f0a77686151c",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Searcher",
+        "LastUpdated": "4/11/26 6:52 PM",
+        "DatabaseLastUpdated": "2026-04-09T21:47:34.997703+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Patrick Johnson Jesudass",
+            "Quizzers": [
+              4,
+              11,
+              12,
+              15
+            ],
+            "Id": "t_d14683cd0b84410c8cf71a4e7def5b78",
+            "Name": "Bible Bees",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 134.2,
+              "AverageCorrect": 9.7,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 34,
+              "Correct20s": 24,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Patrick Vincent",
+            "Quizzers": [
+              3,
+              6,
+              16,
+              18
+            ],
+            "Id": "t_6a7470b9336d478184fc2aa6df501da1",
+            "Name": "CICF Bible Blazers",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 209.2,
+              "AverageCorrect": 14.2,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 53,
+              "Correct20s": 32,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 250,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Anitha Jasmin John Manoharan",
+            "Quizzers": [
+              10,
+              13,
+              24
+            ],
+            "Id": "t_5462131b0bf44ad3b7a74c4bf07a3bcf",
+            "Name": "CICF Royals",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 189.2,
+              "AverageCorrect": 14.2,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 52,
+              "Correct20s": 33,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 270,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 270,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Amanda Powell",
+            "Quizzers": [
+              1,
+              5,
+              9,
+              14
+            ],
+            "Id": "t_dea9e13267924a4c8b6caab3f88d3a06",
+            "Name": "First Christian Church (Roanoke Rapids) Bible Busters",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.8,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 16,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Pam Dickerson",
+            "Quizzers": [
+              20,
+              21,
+              22
+            ],
+            "Id": "t_f9b15af867ba4294969e8651f4b2bb8a",
+            "Name": "First Christian Church (RR) Guardians of the Gospel",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 31,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sugania Valas Xavier",
+            "Quizzers": [
+              17,
+              19,
+              23
+            ],
+            "Id": "t_bc32d5e95deb44eb9cb7d52b4d756f35",
+            "Name": "Kingdom Seekers",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 940,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 156.7,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 37,
+              "Correct20s": 29,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Greg Hall",
+            "Quizzers": [
+              0,
+              2,
+              7,
+              8
+            ],
+            "Id": "t_b5b7aa9de3d547939b22e81074f54a2b",
+            "Name": "Rise Church",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.3,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 18,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          0,
+          5,
+          4,
+          6,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Rise Church",
+            "YearsQuizzing": null,
+            "Id": "q_d5b88017c2c2488f02d508dcd424e3c7",
+            "Name": "Addyson Whitley",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (Roanoke Rapids) Bible Busters",
+            "YearsQuizzing": null,
+            "Id": "q_472eb29fef074676efce08ddff6180fc",
+            "Name": "Alex Tzompaxtle",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rise Church",
+            "YearsQuizzing": null,
+            "Id": "q_0e671185a3ea4826ec5208dbd94ee1c8",
+            "Name": "Bella Rawls",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Bible Blazers",
+            "YearsQuizzing": null,
+            "Id": "q_7468d3bd5fef42803d7908dbd94ef9ff",
+            "Name": "Brie Chin",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_b9da9bc91d164193225008dce10bdcd7",
+            "Name": "Britt Patrick",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.3,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 32,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (Roanoke Rapids) Bible Busters",
+            "YearsQuizzing": null,
+            "Id": "q_7151f074536548c5efbc08ddff6180fc",
+            "Name": "Carlos Diaz",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Bible Blazers",
+            "YearsQuizzing": null,
+            "Id": "q_734b811b9add419cfe6208ddfee5ce2e",
+            "Name": "Daniel Austin Kamalraj",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 550,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.7,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 21,
+              "Correct20s": 15,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rise Church",
+            "YearsQuizzing": null,
+            "Id": "q_8e8978e652b94f48eca708dbd94ee1c8",
+            "Name": "Eva Hall",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 15,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rise Church",
+            "YearsQuizzing": null,
+            "Id": "q_ee6ca938fd594056f36b08ddf069fc0f",
+            "Name": "Greyson Phillips",
+            "ChurchId": "c289ae65-8836-48f5-8ff9-0a3b8828d66e",
+            "ChurchName": "Church on the Rise",
+            "City": "Rocky Mount",
+            "State": "NC",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (Roanoke Rapids) Bible Busters",
+            "YearsQuizzing": null,
+            "Id": "q_309dc83fa0be487defc808ddff6180fc",
+            "Name": "Harper Langley",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Royals",
+            "YearsQuizzing": null,
+            "Id": "q_acfbd882f86e41bdb83608dcdc0949ca",
+            "Name": "Hrehaan Saravanan",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 435,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 72.5,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 15,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_bccb1ee697cd4127228508dce10bdcd7",
+            "Name": "Jadlyn Carol Jacob Gavaskar",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_90109fc7b06d4bac225608dce10bdcd7",
+            "Name": "Jaselyn Miracle Jacob Gavaskar",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Royals",
+            "YearsQuizzing": null,
+            "Id": "q_f6c33989dea442013d9108dbd94ef9ff",
+            "Name": "Jason Matthew Madhanraj",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 14,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (Roanoke Rapids) Bible Busters",
+            "YearsQuizzing": null,
+            "Id": "q_148f8b9805a34faeefc208ddff6180fc",
+            "Name": "Jason Powell",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 10,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_f6efb059354441ba0e2908dce09cedfe",
+            "Name": "Jeril Cyrus Jeba Sahariya",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.8,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 2,
+              "Correct20s": 24,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Bible Blazers",
+            "YearsQuizzing": null,
+            "Id": "q_65c755d3dc17444d3d6d08dbd94ef9ff",
+            "Name": "Jeryl Defina Jobus",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 570,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 95.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 20,
+              "Correct20s": 16,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_c006f483078e483b0e2208dce09cedfe",
+            "Name": "Joanna Jeswanth",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.8,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Bible Blazers",
+            "YearsQuizzing": null,
+            "Id": "q_679f1c61cbbb47b53d7308dbd94ef9ff",
+            "Name": "Joanna Vincent",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_1fd951268c2d4201c29608ddfeee20fa",
+            "Name": "Kaitlyn Zahra Parthiban",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.8,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (RR) Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_c04512a8fad14c66efaa08ddff6180fc",
+            "Name": "Luke Wynne",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 20,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (RR) Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_22754eb5e30d4273efa308ddff6180fc",
+            "Name": "Olivia Bishop",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 9,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Christian Church (RR) Guardians of the Gospel",
+            "YearsQuizzing": null,
+            "Id": "q_ac90e18f6989466cefa608ddff6180fc",
+            "Name": "Priya Angles",
+            "ChurchId": "5c2880fd-3e55-4dd2-dea6-08ddfefd6d96",
+            "ChurchName": "First Christian Church",
+            "City": "Roanoke Rapids",
+            "State": "NC",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_f9fe3acf47ed449a0e1d08dce09cedfe",
+            "Name": "Riyaa Prabu",
+            "ChurchId": "3107f125-969a-4a4a-afe2-08dce0b9235b",
+            "ChurchName": "Multiply Church India",
+            "City": "Concord",
+            "State": "NC",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 660,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 110.0,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 5,
+              "Correct20s": 29,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CICF Royals",
+            "YearsQuizzing": null,
+            "Id": "q_2e902781a0b345a6b83c08dcdc0949ca",
+            "Name": "Shidiksha Saravanan",
+            "ChurchId": "3de9c10b-d40f-4b4d-ae67-b09454970d01",
+            "ChurchName": "Charlotte Indian Christian Fellowship (CICF)",
+            "City": "Charlotte",
+            "State": "NC",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.3,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 23,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          23,
+          16,
+          6,
+          24,
+          15,
+          10,
+          20,
+          4,
+          13,
+          7,
+          21,
+          19,
+          17,
+          18,
+          9,
+          14,
+          3,
+          5,
+          22,
+          0,
+          8,
+          1,
+          2,
+          11,
+          12
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "S1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "S2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "S3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-04-11T18:52:46.7314484+00:00"
+}
