@@ -171,6 +171,11 @@ td.current-question-bottom {
     display: none;
 }
 
+/* Screen-only utility: hidden when printing */
+.screen-only {
+    display: block;
+}
+
 @media print {
     .show-on-print {
         display: unset;
@@ -182,6 +187,10 @@ td.current-question-bottom {
 
     .hide-on-print {
         display: none;
+    }
+
+    .screen-only {
+        display: none !important;
     }
 
     .show-if-single-item-page {

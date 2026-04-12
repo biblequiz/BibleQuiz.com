@@ -6,12 +6,15 @@
     "node": ">=18.20.8"
   },
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "build:ci": "astro check --typescript && astro build",
+    "dev": "node scripts/process-questions.mjs && astro dev",
+    "start": "node scripts/process-questions.mjs && astro dev",
+    "build": "node scripts/process-questions.mjs && astro check && astro build",
+    "build:ci": "node scripts/process-questions.mjs && astro check --typescript && astro build",
     "check": "astro check",
     "preview": "astro preview",
+    "process-questions": "node scripts/process-questions.mjs",
+    "test": "vitest",
+    "debug": "node scripts/debug-practice-set.mjs",
     "astro": "astro"
   },
   "dependencies": {
@@ -44,7 +47,8 @@
     "react-simple-wysiwyg": "^3.4.1",
     "sharp": "^0.32.5",
     "starlight-blog": "^0.23.2",
-    "tailwindcss": "^4.1.7"
+    "tailwindcss": "^4.1.7",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
@@ -53,6 +57,7 @@
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "starlight-links-validator": "^0.16.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.4"
   }
 }
