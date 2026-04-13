@@ -71,7 +71,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                 if (null == match) {
                                                     // This is a bye.
                                                     return (
-                                                        <td key={matchKey}>
+                                                        <td key={matchKey} className="text-center">
                                                             --
                                                         </td>);
                                                 }
@@ -81,7 +81,12 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
                                                     : event.Report.Meets[match.LinkedMeet];
 
                                                 const matchId = resolvedMeet.Matches![m].Id;
-                                                const roomId = resolvedMeet.Teams![match.Team1].Matches![m]!.RoomId;
+                                                const roomId = resolvedMeet.IsIndividualCompetition
+                                                    ? ((match.Quizzers?.length ?? 0) > 0 ? resolvedMeet.Quizzers![0].Matches![m]!.RoomId : room.RoomId)
+                                                    : resolvedMeet.Teams![match.Team1!].Matches![m]!.RoomId;
+                                                if (roomId === null) {
+                                                    return null;
+                                                }
 
                                                 let iconName: string;
                                                 let iconClasses: string[] = [];
