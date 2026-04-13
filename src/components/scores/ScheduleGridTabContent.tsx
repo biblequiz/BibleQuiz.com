@@ -52,6 +52,11 @@ export default function ScheduleGridTabContent({
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
 
+                // Individual competition don't have a schedule grid view as the quizzer and room views show the full schedule.
+                if (meet.IsIndividualCompetition) {
+                    return null;
+                }
+
                 const key = `schedulegrid_${meet.DatabaseId}_${meet.MeetId}`;
                 if (meet.IsCombinedReport || !meet.Matches) {
                     return null;

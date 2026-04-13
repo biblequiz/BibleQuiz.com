@@ -3,7 +3,7 @@ import { EventScoringReport, ScoringReportMeet, ScoringReportTeamMatch, ScoringR
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type MeetReference } from "utils/SharedState";
 import CollapsableMeetSection from "components/scores/CollapsableMeetSection";
-import type { ScoringReportRoomMatch, ScoringReportTeam } from 'types/EventScoringReport';
+import type { ScoringReportQuizzer, ScoringReportRoomMatch, ScoringReportTeam, ScoringReportQuizzerMatch } from 'types/EventScoringReport';
 import RoomDialogLink from './RoomDialogLink';
 import { isTabActive } from "utils/Tabs";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
@@ -132,7 +132,7 @@ export default function TeamOrRoomScheduleTabContent({
                 const isRoomReport = type === "Room";
                 const tabItems = isRoomReport
                     ? meet.Rooms
-                    : meet.Teams;
+                    : (meet.IsIndividualCompetition ? meet.Quizzers : meet.Teams);
                 if (!tabItems) {
                     return null;
                 }
@@ -148,12 +148,12 @@ export default function TeamOrRoomScheduleTabContent({
 
                 let teamCardCount = 0;
 
-                const teamCards = tabItems.map((cardItem: ScoringReportTeam | ScoringReportRoom, tabIndex: number) => {
+                const teamCards = tabItems.map((cardItem: ScoringReportTeam | ScoringReportQuizzer | ScoringReportRoom, tabIndex: number) => {
                     const cardKey = `${key}_card_${tabIndex}`;
 
                     // Build the list of quizzers.
                     let quizzerNames: string[] | null = null;;
-                    if (!isRoomReport && (cardItem as ScoringReportTeam).Quizzers.length > 0) {
+                    if (!isRoomReport && !meet.IsIndividualCompetition && (cardItem as ScoringReportTeam).Quizzers.length > 0) {
 
                         quizzerNames = [];
 
@@ -165,8 +165,10 @@ export default function TeamOrRoomScheduleTabContent({
                     let teamCardHighlightColor: string = "";
                     let teamCardHighlightTextColor: string = "";
                     if (!isPrinting && !isRoomReport) {
-                        const isFavorite = favorites?.teamIds.has((cardItem as ScoringReportTeam).Id) || false;
-                        if (eventFilters?.highlightTeamId === (cardItem as ScoringReportTeam).Id) {
+                        const isFavorite = meet.IsIndividualCompetition
+                            ? favorites?.quizzerIds.has((cardItem as ScoringReportQuizzer).Id) || false
+                            : favorites?.teamIds.has((cardItem as ScoringReportTeam).Id) || false;
+                        if (eventFilters?.highlightTeamId === (cardItem as ScoringReportTeam | ScoringReportQuizzer).Id) {
                             teamCardHighlightColor = "bg-yellow-200";
                             teamCardHighlightTextColor = "text-accent-content";
                         }
@@ -188,41 +190,70 @@ export default function TeamOrRoomScheduleTabContent({
                         : `${teamCardHighlightColor || "bg-base-100"} shadow-sm`;
 
                     let hasAnyMatchItems = false;
-                    const matchItems = cardItem.Matches!.map((matchItem: ScoringReportTeamMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
+                    const matchItems = cardItem.Matches!.map((matchItem: ScoringReportTeamMatch | ScoringReportQuizzerMatch | ScoringReportRoomMatch | null, matchIndex: number) => {
                         const matchKey = `${key}_matches_${matchIndex}`;
                         if (null == matchItem) {
                             return (<li key={matchKey} className="ml-6">BYE</li>);
                         }
 
-                        const resolvedMeet = !meet.HasLinkedMeets || 
+                        const resolvedMeet = !meet.HasLinkedMeets ||
                             (!(matchItem as ScoringReportRoomMatch).LinkedMeet && (matchItem as ScoringReportRoomMatch).LinkedMeet !== 0)
                             ? meet
                             : event.Report.Meets[(matchItem as ScoringReportRoomMatch).LinkedMeet!];
 
                         const resolvedMatch = resolvedMeet.Matches![matchIndex];
-                        let matchTeam: ScoringReportTeam | null = null;
+                        let matchTeamOrQuizzer: ScoringReportTeam | ScoringReportQuizzer | null = null;
                         let shouldHighlightSearchResult = false;
                         let shouldHighlightFavorite = false;
-                        let match: ScoringReportTeamMatch | null = null;
+                        let match: ScoringReportTeamMatch | ScoringReportQuizzerMatch | ScoringReportRoomMatch | null = null;
                         if (matchItem && isRoomReport) {
-                            matchTeam = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1];
-                            if (matchTeam) {
-                                match = matchTeam.Matches![matchIndex];
-                                shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeam?.Id;
-                                shouldHighlightFavorite = favorites?.teamIds.has(matchTeam?.Id) ?? false;
+                            if (resolvedMeet.IsIndividualCompetition) {
+                                if ((matchItem as ScoringReportRoomMatch).Quizzers?.length ?? 0 > 0) {
+                                    matchTeamOrQuizzer = resolvedMeet.Quizzers![(matchItem as ScoringReportRoomMatch).Quizzers![0]];
+                                    if (resolvedMeet.IsIndividualCompetition) {
+                                        for (const quizzerId of (matchItem as ScoringReportRoomMatch).Quizzers!) {
+                                            const quizzer = resolvedMeet.Quizzers![quizzerId];
+                                            if (eventFilters?.highlightQuizzerId === quizzer.Id) {
+                                                shouldHighlightSearchResult = true;
+                                            }
+
+                                            if (favorites?.quizzerIds.has(quizzer.Id)) {
+                                                shouldHighlightFavorite = true;
+                                            }
+
+                                            if (shouldHighlightFavorite || shouldHighlightSearchResult) {
+                                                break;
+                                            }
+                                        }
+                                    }
+                                }
+                                else {
+                                    match = matchItem;
+                                }
                             }
                             else {
+                                matchTeamOrQuizzer = resolvedMeet.Teams![(matchItem as ScoringReportRoomMatch).Team1!];
+                            }
+                            if (matchTeamOrQuizzer) {
+                                match = matchTeamOrQuizzer.Matches![matchIndex];
+                                if (!resolvedMeet.IsIndividualCompetition) {
+                                    shouldHighlightSearchResult = eventFilters?.highlightTeamId === matchTeamOrQuizzer?.Id;
+                                    shouldHighlightFavorite = favorites?.teamIds.has(matchTeamOrQuizzer?.Id) ?? false;
+                                }
+                            }
+                            else if (!resolvedMeet.IsIndividualCompetition || !isRoomReport) {
                                 match = null;
                             }
                         }
                         else {
-                            match = matchItem as ScoringReportTeamMatch | null;
+                            match = matchItem as ScoringReportTeamMatch | ScoringReportQuizzerMatch | null;
                         }
 
                         const isLiveMatch = null != match && null != match.CurrentQuestion;
-                        const isScheduleOnly = !hasRanking ||
-                            (!isLiveMatch &&
-                                ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined));
+                        const isScheduleOnly = !meet.IsIndividualCompetition &&
+                            (!hasRanking ||
+                                (!isLiveMatch &&
+                                    ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined)));
 
                         // Determine the prefix before each match.
                         let cellText = [];
@@ -230,15 +261,58 @@ export default function TeamOrRoomScheduleTabContent({
                             cellText.push(`Playoff ${resolvedMatch.PlayoffIndex}: `);
                         }
 
-                        if (isRoomReport && matchTeam) {
-                            cellText.push(`"${matchTeam!.Name}" (${matchTeam!.ChurchName})`);
+                        if (isRoomReport && matchTeamOrQuizzer) {
+                            cellText.push(`"${matchTeamOrQuizzer!.Name}" (${matchTeamOrQuizzer!.ChurchName})`);
                         }
 
-                        if (isScheduleOnly) {
+                        if (meet.IsIndividualCompetition) {
+                            const quizzerMatch = match as ScoringReportQuizzerMatch;
+                            if (!isRoomReport && !isLiveMatch && quizzerMatch.Rank) {
+                                cellText.push(`${ordinalWithSuffix(quizzerMatch.Rank)} Place in Room ${quizzerMatch!.Room}`);
+                                if (quizzerMatch.NextRoom) {
+                                    cellText.push(`(Move to Room ${quizzerMatch.NextRoom})`);
+                                }
+                            }
+                            else if (quizzerMatch?.OtherQuizzers?.length ?? 0 > 0) {
+                                const quizzerNames = [];
+                                for (const otherQuizzerId of quizzerMatch.OtherQuizzers!) {
+                                    const otherQuizzer = resolvedMeet.Quizzers![otherQuizzerId];
+                                    if (otherQuizzer) {
+                                        if (otherQuizzer.ChurchName) {
+                                            quizzerNames.push(`"${otherQuizzer.Name}" (${otherQuizzer.ChurchName})`);
+                                        }
+                                        else {
+                                            quizzerNames.push(otherQuizzer.Name);
+                                        }
+                                    }
+                                }
+
+                                if (quizzerNames.length > 0) {
+                                    cellText.push(`vs. ${quizzerNames.join(", ")}`);
+                                }
+
+                                if (!isRoomReport) {
+                                    cellText.push(`in ${quizzerMatch!.Room}`);
+                                    const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
+                                    if (matchTime) {
+                                        cellText.push(`@ ${matchTime}`);
+                                    }
+                                }
+                            }
+                            else if (isRoomReport && ((matchItem as ScoringReportRoomMatch).RankedTeamsOrQuizzers?.length ?? 0) > 0) {
+                                const routes = [];
+                                for (const route of (matchItem as ScoringReportRoomMatch).RankedTeamsOrQuizzers!) {
+                                    routes.push(`${ordinalWithSuffix(route.Rank)} from ${meet.Rooms![route.Room].Name}`);
+                                }
+
+                                cellText.push(routes.join(", "));
+                            }
+                        }
+                        else if (isScheduleOnly) {
                             cellText.push("vs.");
                         }
                         else {
-                            switch (match?.Result) {
+                            switch ((match as ScoringReportTeamMatch)?.Result) {
                                 case "W":
                                     cellText.push(`${isRoomReport ? 'w' : 'W'}on against`);
                                     break;
@@ -246,7 +320,7 @@ export default function TeamOrRoomScheduleTabContent({
                                     cellText.push(`${isRoomReport ? 'l' : 'L'}ost to`);
                                     break;
                                 default:
-                                    if (!match?.CurrentQuestion && null != match?.Score) {
+                                    if (!match?.CurrentQuestion && null != (match as ScoringReportTeamMatch)?.Score) {
                                         cellText.push(`${isRoomReport ? 'p' : 'P'}layed`);
                                     }
                                     else if (isLiveMatch) {
@@ -257,53 +331,56 @@ export default function TeamOrRoomScheduleTabContent({
                         }
 
                         // Append the other team name and scores.
-                        if (null != match?.OtherTeam) {
+                        if (!meet.IsIndividualCompetition) {
+                            const matchTeam = match as ScoringReportTeamMatch;
+                            if (null != matchTeam?.OtherTeam) {
 
-                            const otherTeam = resolvedMeet.Teams![match.OtherTeam];
-                            if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
-                                shouldHighlightSearchResult = true;
-                            }
+                                const otherTeam = resolvedMeet.Teams![matchTeam.OtherTeam];
+                                if (!shouldHighlightSearchResult && eventFilters?.highlightTeamId == otherTeam.Id) {
+                                    shouldHighlightSearchResult = true;
+                                }
 
-                            if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
-                                shouldHighlightFavorite = true;
-                            }
-                            cellText.push(`"${otherTeam.Name} (${otherTeam.ChurchName})"`);
-                            if (!isScheduleOnly) {
-                                if (isLiveMatch) {
-                                    if (!isRoomReport) {
-                                        cellText.push(`in ${match.Room}`);
+                                if (!shouldHighlightFavorite && (favorites?.teamIds.has(otherTeam.Id) ?? false)) {
+                                    shouldHighlightFavorite = true;
+                                }
+                                cellText.push(`"${otherTeam.Name} (${otherTeam.ChurchName})"`);
+                                if (!isScheduleOnly) {
+                                    if (isLiveMatch) {
+                                        if (!isRoomReport) {
+                                            cellText.push(`in ${matchTeam.Room}`);
+                                        }
+                                    }
+                                    else {
+                                        cellText.push(`${matchTeam.Score} to ${otherTeam.Matches![matchIndex]!.Score}`);
                                     }
                                 }
-                                else {
-                                    cellText.push(`${match.Score} to ${otherTeam.Matches![matchIndex]!.Score}`);
+                            }
+                            else {
+
+                                cellText.push("\"BYE TEAM\"");
+
+                                if (matchTeam?.Score != null) {
+                                    cellText.push(`\"BYE TEAM\" ${matchTeam.Score}`);
                                 }
                             }
-                        }
-                        else {
 
-                            cellText.push("\"BYE TEAM\"");
+                            // Add the scheduled room and time.
+                            if (isScheduleOnly) {
+                                if (!isRoomReport) {
+                                    cellText.push(`in ${(match as ScoringReportTeamMatch | ScoringReportQuizzerMatch)!.Room}`);
+                                }
 
-                            if (match?.Score != null) {
-                                cellText.push(`\"BYE TEAM\" ${match!.Score}`);
+                                const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
+                                if (matchTime) {
+                                    cellText.push(`@ ${matchTime}`);
+                                }
+                                if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                                    cellText.push(`(${resolvedMeet.Name})`);
+                                }
                             }
-                        }
-
-                        // Add the scheduled room and time.
-                        if (isScheduleOnly) {
-                            if (!isRoomReport) {
-                                cellText.push(`in ${match!.Room}`);
-                            }
-
-                            const matchTime = resolvedMeet.Matches![matchIndex].MatchTime;
-                            if (matchTime) {
-                                cellText.push(`@ ${matchTime}`);
-                            }
-                            if (isRoomReport && resolvedMeet.HasLinkedMeets) {
+                            else if (isRoomReport && resolvedMeet.HasLinkedMeets) {
                                 cellText.push(`(${resolvedMeet.Name})`);
                             }
-                        }
-                        else if (isRoomReport && resolvedMeet.HasLinkedMeets) {
-                            cellText.push(`(${resolvedMeet.Name})`);
                         }
 
                         // Determine the highlight color (if any).
@@ -339,12 +416,12 @@ export default function TeamOrRoomScheduleTabContent({
                                 {!isScheduleOnly && (
                                     <RoomDialogLink
                                         id={matchKey}
-                                        label={`Match ${resolvedMatch.Id} in ${match!.Room} @ ${resolvedMeet.Name}`}
+                                        label={`Match ${resolvedMatch.Id} in ${isRoomReport ? (cardItem as ScoringReportRoom).Name : (match as ScoringReportTeamMatch | ScoringReportQuizzerMatch).Room} @ ${resolvedMeet.Name}`}
                                         eventId={eventId}
                                         databaseId={resolvedMeet.DatabaseId}
                                         meetId={resolvedMeet.MeetId}
                                         matchId={resolvedMatch.Id}
-                                        roomId={match!.RoomId}>
+                                        roomId={isRoomReport ? (cardItem as ScoringReportRoom).RoomId : (match as ScoringReportTeamMatch | ScoringReportQuizzerMatch).RoomId}>
                                         {cellHtml}
                                         {isLiveMatch && (
                                             <>
@@ -371,13 +448,13 @@ export default function TeamOrRoomScheduleTabContent({
                             key={cardKey}>
                             <div className="card-body">
                                 <p className="text-sm mb-0 font-bold">
-                                    {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type="team" id={(cardItem as ScoringReportTeam).Id} />&nbsp;</>)}
-                                    {(cardItem as ScoringReportTeam).ChurchName}
+                                    {!isRoomReport && (<><ToggleTeamOrQuizzerFavoriteButton type={meet.IsIndividualCompetition ? "quizzer" : "team"} id={(cardItem as ScoringReportTeam | ScoringReportQuizzer).Id} />&nbsp;</>)}
+                                    {meet.IsIndividualCompetition ? (cardItem as ScoringReportQuizzer).Name : (cardItem as ScoringReportTeam).ChurchName}
                                 </p>
                                 <p className="subtitle italic mt-0">
-                                    {(cardItem as ScoringReportTeam).Name}
+                                    {meet.IsIndividualCompetition ? (cardItem as ScoringReportQuizzer).ChurchName : (cardItem as ScoringReportTeam).Name}
                                 </p>
-                                {!isRoomReport && hasRanking && (
+                                {!isRoomReport && hasRanking && !meet.IsIndividualCompetition && (
                                     <>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
@@ -401,7 +478,7 @@ export default function TeamOrRoomScheduleTabContent({
                                 <ol className={`mt-0 schedule-list ${teamCardHighlightColor} ${teamCardHighlightTextColor}`}>
                                     {matchItems}
                                 </ol>
-                                {!isRoomReport && (
+                                {!isRoomReport && !meet.IsIndividualCompetition && (
                                     <div className="text-xs mt-0">
                                         {(cardItem as ScoringReportTeam).CoachName && (
                                             <p className="text-xs">
@@ -443,7 +520,7 @@ export default function TeamOrRoomScheduleTabContent({
 
                         {teamCardCount === 0 && (
                             <div className="text-center text-sm italic mt-4">
-                                No favorite teams found.
+                                No favorite {meet.IsIndividualCompetition ? "quizzers" : "teams"} found.
                             </div>
                         )}
                     </CollapsableMeetSection >);
