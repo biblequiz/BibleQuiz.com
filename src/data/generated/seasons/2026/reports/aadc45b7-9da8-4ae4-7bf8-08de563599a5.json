@@ -10,98 +10,100 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "MN Central Experienced 2025-26 Cumulative",
-        "LastUpdated": "2/21/26 6:22 PM",
-        "DatabaseLastUpdated": "2026-02-21T21:18:35.4720995+00:00",
+        "LastUpdated": "3/21/26 5:34 PM",
+        "DatabaseLastUpdated": "2026-03-21T21:14:47.7830771+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Jamie Farnsworth",
             "Quizzers": [
-              3,
-              7,
+              0,
+              4,
               8,
-              9
+              9,
+              10
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_dca4bf6a-71de-4a58-960e-72b72ea265aa",
+            "Id": "t_dca4bf6a71de4a58960e72b72ea265aa",
             "Name": "Abundant Life Church (Hibbing) #1",
             "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
             "ChurchName": "Abundant Life Church",
             "City": "Hibbing",
             "State": "MN",
             "Scores": {
-              "Wins": 7,
-              "Losses": 5,
-              "WinPercentage": 58,
+              "Wins": 10,
+              "Losses": 6,
+              "WinPercentage": 62,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 1880,
+              "TotalPoints": 2830,
               "PerMeetTotalPoints": [
+                950,
                 725,
                 380,
                 775
               ],
-              "AveragePoints": 156.7,
-              "AverageCorrect": 10.3,
-              "QuizOuts": 13,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 70,
-              "Correct20s": 40,
-              "Correct30s": 14,
+              "AveragePoints": 176.9,
+              "AverageCorrect": 11.1,
+              "QuizOuts": 18,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 95,
+              "Correct20s": 57,
+              "Correct30s": 25,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "John Spillers",
             "Quizzers": [
-              2,
-              4,
+              3,
               5,
               6,
-              12
+              7,
+              13
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_09ca78a1-e44b-410c-a4b8-3713fbc9f8c7",
+            "Id": "t_09ca78a1e44b410ca4b83713fbc9f8c7",
             "Name": "Bible Scholars",
             "ChurchId": "c956e88e-d567-492b-649a-08dacbe8f432",
             "ChurchName": "Solid Rock Family Church",
             "City": "Sartell",
             "State": "MN",
             "Scores": {
-              "Wins": 11,
-              "Losses": 1,
-              "WinPercentage": 92,
+              "Wins": 14,
+              "Losses": 2,
+              "WinPercentage": 88,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 3040,
+              "TotalPoints": 3940,
               "PerMeetTotalPoints": [
+                900,
                 980,
                 1180,
                 880
               ],
-              "AveragePoints": 253.3,
-              "AverageCorrect": 15.2,
-              "QuizOuts": 19,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 86,
-              "Correct20s": 67,
-              "Correct30s": 29,
+              "AveragePoints": 246.2,
+              "AverageCorrect": 14.9,
+              "QuizOuts": 25,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 114,
+              "Correct20s": 89,
+              "Correct30s": 35,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Karen Freyberger",
             "Quizzers": [
-              0,
               1,
-              10,
-              11
+              2,
+              11,
+              12
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_dc925fb7-d5cb-4987-b6ca-8b7c1474b256",
+            "Id": "t_dc925fb7d5cb4987b6ca8b7c1474b256",
             "Name": "Mac 'N Jesus",
             "ChurchId": "f8e02397-91e0-48a9-9215-a52c59d3d768",
             "ChurchName": "New Life Church of Princeton",
@@ -109,25 +111,28 @@
             "State": "MN",
             "Scores": {
               "Wins": 0,
-              "Losses": 12,
+              "Losses": 16,
               "WinPercentage": 0,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 440,
+              "TotalPoints": 520,
               "PerMeetTotalPoints": [
+                80,
                 150,
                 70,
                 220
               ],
-              "AveragePoints": 36.7,
-              "AverageCorrect": 3.0,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 2.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 22,
-              "Correct20s": 11,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 28,
+              "Correct20s": 13,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -138,6 +143,37 @@
         "TeamFootnotes": [],
         "Quizzers": [
           {
+            "TeamName": "Abundant Life Church (Hibbing) #1",
+            "YearsQuizzing": null,
+            "Id": "q_80018460aa1341fe135808dbdb177eb6",
+            "Name": "Bennett White",
+            "ChurchId": "b7e3a5d7-5397-4ca9-9977-3e1d8b365f2c",
+            "ChurchName": "Abundant Life Church",
+            "City": "Hibbing",
+            "State": "MN",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                0,
+                null,
+                null,
+                null
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Mac 'N Jesus",
             "YearsQuizzing": null,
             "Id": "q_c17da7cb43ee4c3e8b6f08dbe09f162e",
@@ -147,23 +183,26 @@
             "City": "Princeton",
             "State": "MN",
             "Scores": {
-              "Rank": 9,
+              "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 190,
+              "TotalPoints": 260,
               "PerMeetTotalPoints": [
+                70,
                 120,
                 0,
                 70
               ],
-              "AveragePoints": 15.8,
+              "AveragePoints": 16.2,
               "AverageCorrect": 1.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 9,
-              "Correct20s": 4,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 12,
+              "Correct20s": 6,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Mac 'N Jesus",
@@ -177,21 +216,24 @@
             "Scores": {
               "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 25,
+              "TotalPoints": 35,
               "PerMeetTotalPoints": [
+                10,
                 30,
                 -5,
                 0
               ],
-              "AveragePoints": 2.1,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 2.2,
+              "AverageCorrect": 0.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 5,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bible Scholars",
@@ -205,21 +247,24 @@
             "Scores": {
               "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": 25,
               "PerMeetTotalPoints": [
+                15,
                 10,
                 0,
                 0
               ],
-              "AveragePoints": 0.8,
-              "AverageCorrect": 0.1,
+              "AveragePoints": 1.6,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Abundant Life Church (Hibbing) #1",
@@ -233,21 +278,24 @@
             "Scores": {
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 430,
+              "TotalPoints": 605,
               "PerMeetTotalPoints": [
+                175,
                 175,
                 0,
                 255
               ],
-              "AveragePoints": 35.8,
-              "AverageCorrect": 3.1,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 31,
+              "AveragePoints": 37.8,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 47,
               "Correct20s": 6,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bible Scholars",
@@ -261,21 +309,24 @@
             "Scores": {
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 335,
+              "TotalPoints": 415,
               "PerMeetTotalPoints": [
+                80,
                 105,
                 145,
                 85
               ],
-              "AveragePoints": 27.9,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 1,
+              "AveragePoints": 25.9,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 2,
               "QuestionCorrectPercentage": 76,
-              "Correct10s": 37,
+              "Correct10s": 46,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bible Scholars",
@@ -287,23 +338,26 @@
             "City": "Sartell",
             "State": "MN",
             "Scores": {
-              "Rank": 1,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 1290,
+              "TotalPoints": 1635,
               "PerMeetTotalPoints": [
+                345,
                 445,
                 450,
                 395
               ],
-              "AveragePoints": 107.5,
+              "AveragePoints": 102.2,
               "AverageCorrect": 5.7,
-              "QuizOuts": 10,
+              "QuizOuts": 13,
               "QuestionCorrectPercentage": 89,
-              "Correct10s": 39,
+              "Correct10s": 56,
               "Correct20s": 1,
-              "Correct30s": 28,
+              "Correct30s": 34,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bible Scholars",
@@ -315,23 +369,26 @@
             "City": "Sartell",
             "State": "MN",
             "Scores": {
-              "Rank": 2,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 1270,
+              "TotalPoints": 1730,
               "PerMeetTotalPoints": [
+                460,
                 430,
                 520,
                 320
               ],
-              "AveragePoints": 105.8,
-              "AverageCorrect": 5.3,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 89,
+              "AveragePoints": 108.1,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 91,
               "Correct10s": 1,
-              "Correct20s": 63,
+              "Correct20s": 85,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Abundant Life Church (Hibbing) #1",
@@ -345,21 +402,24 @@
             "Scores": {
               "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 245,
+              "TotalPoints": 380,
               "PerMeetTotalPoints": [
+                135,
                 15,
                 210,
                 20
               ],
-              "AveragePoints": 20.4,
-              "AverageCorrect": 1.4,
+              "AveragePoints": 23.8,
+              "AverageCorrect": 1.6,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 8,
-              "Correct20s": 8,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 12,
+              "Correct20s": 13,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Abundant Life Church (Hibbing) #1",
@@ -373,21 +433,24 @@
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 830,
+              "TotalPoints": 1410,
               "PerMeetTotalPoints": [
+                580,
                 415,
                 0,
                 415
               ],
-              "AveragePoints": 69.2,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 3,
-              "Correct20s": 22,
-              "Correct30s": 13,
+              "AveragePoints": 88.1,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 5,
+              "Correct20s": 32,
+              "Correct30s": 24,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Abundant Life Church (Hibbing) #1",
@@ -401,21 +464,24 @@
             "Scores": {
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 375,
+              "TotalPoints": 435,
               "PerMeetTotalPoints": [
+                60,
                 120,
                 170,
                 85
               ],
-              "AveragePoints": 31.2,
-              "AverageCorrect": 2.7,
+              "AveragePoints": 27.2,
+              "AverageCorrect": 2.3,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 97,
-              "Correct10s": 28,
-              "Correct20s": 4,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 31,
+              "Correct20s": 6,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Mac 'N Jesus",
@@ -427,23 +493,26 @@
             "City": "Princeton",
             "State": "MN",
             "Scores": {
-              "Rank": 8,
+              "Rank": 9,
               "IsTie": false,
               "TotalPoints": 215,
               "PerMeetTotalPoints": [
                 0,
+                0,
                 75,
                 140
               ],
-              "AveragePoints": 17.9,
-              "AverageCorrect": 1.5,
+              "AveragePoints": 13.4,
+              "AverageCorrect": 1.1,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 69,
               "Correct10s": 10,
               "Correct20s": 6,
               "Correct30s": 2,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Mac 'N Jesus",
@@ -461,6 +530,7 @@
               "PerMeetTotalPoints": [
                 null,
                 null,
+                null,
                 10
               ],
               "AveragePoints": 2.5,
@@ -471,7 +541,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bible Scholars",
@@ -487,38 +559,43 @@
               "IsTie": false,
               "TotalPoints": 135,
               "PerMeetTotalPoints": [
+                0,
                 -10,
                 65,
                 80
               ],
-              "AveragePoints": 11.2,
-              "AverageCorrect": 0.9,
+              "AveragePoints": 8.4,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 85,
               "Correct10s": 8,
               "Correct20s": 2,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
-          5,
+          7,
           6,
-          8,
-          3,
           9,
           4,
-          7,
           10,
-          0,
-          12,
-          11,
+          5,
+          8,
           1,
-          2
+          11,
+          13,
+          12,
+          2,
+          3,
+          0
         ],
         "QuizzerFootnotes": [],
         "MeetNames": [
+          "2026-03 Experienced",
           "2026-02 Experienced",
           "2026-01 Experienced",
           "2025-11 Experienced"
@@ -556,5 +633,5 @@
       }
     }
   ],
-  "Freshness": "2026-02-21T21:23:16.6058376+00:00"
+  "Freshness": "2026-03-21T21:14:47.9782107+00:00"
 }
