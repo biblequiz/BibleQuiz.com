@@ -7,6 +7,7 @@ import type { ScoringReportQuizzer, ScoringReportRoomMatch, ScoringReportTeam, S
 import RoomDialogLink from './RoomDialogLink';
 import { isTabActive } from "utils/Tabs";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export interface Props {
     type: "Team" | "Room";
@@ -18,23 +19,6 @@ export interface Props {
     schedulesTabId: string;
     selectedMeets?: MeetReference[];
 };
-
-function ordinalWithSuffix(number: number): string {
-    const tens = number % 10;
-    const hundreds = number % 100;
-
-    if (tens == 1 && hundreds != 11) {
-        return number + "st";
-    }
-    else if (tens == 2 && hundreds != 12) {
-        return number + "nd";
-    }
-    else if (tens == 3 && hundreds != 13) {
-        return number + "rd";
-    }
-
-    return number + "th";
-}
 
 /**
 * Create a Acronym for the ChurchName
@@ -250,10 +234,9 @@ export default function TeamOrRoomScheduleTabContent({
                         }
 
                         const isLiveMatch = null != match && null != match.CurrentQuestion;
-                        const isScheduleOnly = !meet.IsIndividualCompetition &&
-                            (!hasRanking ||
-                                (!isLiveMatch &&
-                                    ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined)));
+                        const isScheduleOnly = meet.IsIndividualCompetition
+                            ? !isLiveMatch && ((isRoomReport && ((matchItem as ScoringReportRoomMatch).Quizzers?.length ?? 0) === 0) || (!isRoomReport && ((matchItem as ScoringReportQuizzerMatch).OtherQuizzers?.length ?? 0) === 0))
+                            : !hasRanking || (!isLiveMatch && ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined));
 
                         // Determine the prefix before each match.
                         let cellText = [];
@@ -268,7 +251,7 @@ export default function TeamOrRoomScheduleTabContent({
                         if (meet.IsIndividualCompetition) {
                             const quizzerMatch = match as ScoringReportQuizzerMatch;
                             if (!isRoomReport && !isLiveMatch && quizzerMatch.Rank) {
-                                cellText.push(`${ordinalWithSuffix(quizzerMatch.Rank)} Place in Room ${quizzerMatch!.Room}`);
+                                cellText.push(`${DataTypeHelpers.ordinalWithSuffix(quizzerMatch.Rank)} Place in Room ${quizzerMatch!.Room}`);
                                 if (quizzerMatch.NextRoom) {
                                     cellText.push(`(Move to Room ${quizzerMatch.NextRoom})`);
                                 }
@@ -302,7 +285,7 @@ export default function TeamOrRoomScheduleTabContent({
                             else if (isRoomReport && ((matchItem as ScoringReportRoomMatch).RankedTeamsOrQuizzers?.length ?? 0) > 0) {
                                 const routes = [];
                                 for (const route of (matchItem as ScoringReportRoomMatch).RankedTeamsOrQuizzers!) {
-                                    routes.push(`${ordinalWithSuffix(route.Rank)} from ${meet.Rooms![route.Room].Name}`);
+                                    routes.push(`${DataTypeHelpers.ordinalWithSuffix(route.Rank)} from ${meet.Rooms![route.Room].Name}`);
                                 }
 
                                 cellText.push(routes.join(", "));
@@ -458,7 +441,7 @@ export default function TeamOrRoomScheduleTabContent({
                                     <>
                                         <div className="columns-4">
                                             <div className="text-center team-card-right-border">
-                                                <span className="text-lg font-bold">{ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />
+                                                <span className="text-lg font-bold">{DataTypeHelpers.ordinalWithSuffix((cardItem as ScoringReportTeam).Scores!.Rank)}{(cardItem as ScoringReportTeam).Scores!.IsTie ? '*' : ''}</span><br />
                                                 <i className="subtitle">PLACE</i>
                                             </div>
                                             <div className="text-center team-card-right-border">

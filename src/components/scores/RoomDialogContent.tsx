@@ -201,23 +201,31 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                 </tr>)}
             <tr className="border-none">
                 <td className="border-none pt-0 pb-0" colSpan={totalColumns}>
-                    {team.TotalPoints} : {team.Name} ( {team.ChurchName} )<br />
-                    <b>Timeouts:</b> {team.Timeouts} of {report.Rules.MaxTimeouts}
-                    {report.IsCompleted && (
-                        <>&nbsp;- <span className="done">[ COMPLETED ]</span></>)}<br />
-                    {successfulContest.hasContestType && (
+                    {report.IsIndividualCompetition && (
                         <>
-                            <span className="font-bold">{unsuccessfulContest.hasContestType ? "Successful " : ""}{report.Rules.ContestRules.ContestLabel}</span>&nbsp;
-                            {team.SuccessfulContests}{successfulContest.numberSuffix}
-                            <br />
-                        </>)}
-                    {unsuccessfulContest.hasContestType && (
+                            <b>{team == report.RedTeam ? "RED TEAM" : "GREEN TEAM"}</b>
+                        </>
+                    )}
+                    {!report.IsIndividualCompetition && (
                         <>
-                            <span className="font-bold">{unsuccessfulContest.hasContestType ? "Unsuccessful " : ""}{report.Rules.ContestRules.ContestLabel}</span>&nbsp;
-                            {team.UnsuccessfulContests}{unsuccessfulContest.numberSuffix}
-                            <br />
+                            {team.TotalPoints} : {team.Name} ( {team.ChurchName} )<br />
+                            <b>Timeouts:</b> {team.Timeouts} of {report.Rules.MaxTimeouts}
+                            {report.IsCompleted && (
+                                <>&nbsp;- <span className="done">[ COMPLETED ]</span></>)}<br />
+                            {successfulContest.hasContestType && (
+                                <>
+                                    <span className="font-bold">{unsuccessfulContest.hasContestType ? "Successful " : ""}{report.Rules.ContestRules.ContestLabel}</span>&nbsp;
+                                    {team.SuccessfulContests}{successfulContest.numberSuffix}
+                                    <br />
+                                </>)}
+                            {unsuccessfulContest.hasContestType && (
+                                <>
+                                    <span className="font-bold">{unsuccessfulContest.hasContestType ? "Unsuccessful " : ""}{report.Rules.ContestRules.ContestLabel}</span>&nbsp;
+                                    {team.UnsuccessfulContests}{unsuccessfulContest.numberSuffix}
+                                    <br />
+                                </>)}
+                            &nbsp;
                         </>)}
-                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -226,6 +234,8 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                 <td className="font-bold">Total</td>
                 <td className="font-bold">Fouls</td>
                 <td className="font-bold">QO</td>
+                {report.IsIndividualCompetition && (
+                    <td className="font-bold">Pl</td>)}
                 {Array.from({ length: report.TotalQuestionCount }, (_, q) => {
 
                     let pointClass = "";
@@ -289,6 +299,10 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                         <td className={`text-center ${quizOutClass}`}>
                             {quizzer.QuizzedOutState === QuizzedOutState[QuizzedOutState.NotQuizzedOut] ? (<>&nbsp;</>) : "*"}
                         </td>
+                        {report.IsIndividualCompetition && (
+                            <td className={`text-center ${quizOutClass}`}>
+                                {quizzer.RankedOrder ? <>{quizzer.RankedOrder}</> : (<>&nbsp;</>)}
+                            </td>)}
                         {Array.from({ length: report.TotalQuestionCount }, (_, q) => {
                             const points = quizzer.Questions[q + 1];
 
@@ -314,7 +328,9 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                             }
 
                             if (!report.IsCompleted && report.CurrentQuestion == q + 1) {
-                                pointClass += " current-question-middle";
+                                pointClass += report.IsIndividualCompetition && index === team.Quizzers.length - 1
+                                    ? " current-question-bottom"
+                                    : " current-question-middle";
                             }
                             else {
                                 pointClass += " border border-gray-300";
@@ -327,26 +343,27 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                         })}
                     </tr>);
             })}
-            <tr className={swapRowClass()}>
-                <td className="font-bold">&nbsp;</td>
-                <td className="font-bold">TEAM TOTALS</td>
-                <td className="text-center">
-                    {formatPoints(team.TotalPoints, true)}
-                </td>
-                <td className="text-center">
-                    {formatPoints(team.TotalFoulPoints, false)}
-                </td>
-                <td className="text-center">
-                    &nbsp;
-                </td>
-                {Array.from({ length: report.TotalQuestionCount }, (_, q) => {
-                    const currentCellClass = !report.IsCompleted && report.CurrentQuestion == q + 1
-                        ? "current-question-bottom"
-                        : "border border-gray-300";
+            {!report.IsIndividualCompetition && (
+                <tr className={swapRowClass()}>
+                    <td className="font-bold">&nbsp;</td>
+                    <td className="font-bold">TEAM TOTALS</td>
+                    <td className="text-center">
+                        {formatPoints(team.TotalPoints, true)}
+                    </td>
+                    <td className="text-center">
+                        {formatPoints(team.TotalFoulPoints, false)}
+                    </td>
+                    <td className="text-center">
+                        &nbsp;
+                    </td>
+                    {Array.from({ length: report.TotalQuestionCount }, (_, q) => {
+                        const currentCellClass = !report.IsCompleted && report.CurrentQuestion == q + 1
+                            ? "current-question-bottom"
+                            : "border border-gray-300";
 
-                    return (
-                        <td key={`${primaryRowClass}-total-${q}`} className={currentCellClass}>&nbsp;</td>);
-                })}
-            </tr>
+                        return (
+                            <td key={`${primaryRowClass}-total-${q}`} className={currentCellClass}>&nbsp;</td>);
+                    })}
+                </tr>)}
         </tbody >);
 }

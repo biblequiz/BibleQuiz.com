@@ -1,5 +1,4 @@
-import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch } from "types/EventScoringReport";
-
+import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch, ScoringReportQuizzer, ScoringReportQuizzerMatch, ScoringReportMatchState } from "types/EventScoringReport";
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type MeetReference } from "utils/SharedState";
 import CollapsableMeetSection from './CollapsableMeetSection';
@@ -8,6 +7,7 @@ import { EventScoringReport } from "types/EventScoringReport";
 import { isTabActive } from "utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export interface Props {
     eventId: string;
@@ -52,11 +52,6 @@ export default function ScheduleGridTabContent({
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
 
-                // Individual competition don't have a schedule grid view as the quizzer and room views show the full schedule.
-                if (meet.IsIndividualCompetition) {
-                    return null;
-                }
-
                 const key = `schedulegrid_${meet.DatabaseId}_${meet.MeetId}`;
                 if (meet.IsCombinedReport || !meet.Matches) {
                     return null;
@@ -69,15 +64,15 @@ export default function ScheduleGridTabContent({
                     }
                 }
 
-                let teams: ScoringReportTeam[] | number[];
-                let hasRankedTeams: boolean;
-                if (meet.RankedTeams && (!isPrinting || printStats)) {
-                    teams = meet.RankedTeams;
-                    hasRankedTeams = true;
+                let teamsOrQuizzers: ScoringReportTeam[] | ScoringReportQuizzer[] | number[];
+                let hasRankedTeamsOrQuizzers: boolean;
+                if (!meet.IsIndividualCompetition && meet.RankedTeams && (!isPrinting || printStats)) {
+                    teamsOrQuizzers = meet.RankedTeams;
+                    hasRankedTeamsOrQuizzers = true;
                 }
                 else {
-                    teams = meet.Teams || [];
-                    hasRankedTeams = false;
+                    teamsOrQuizzers = (meet.IsIndividualCompetition ? meet.Quizzers : meet.Teams) || [];
+                    hasRankedTeamsOrQuizzers = false;
                 }
 
                 let hasAnyMatchTimes = false;
@@ -89,22 +84,29 @@ export default function ScheduleGridTabContent({
                     }
                 }
 
-                const footerColSpan = hasRankedTeams ? 6 : 1;
+                const footerColSpan = hasRankedTeamsOrQuizzers ? 6 : 1;
                 const forceOpen = eventFilters?.openMeetDatabaseId === meet.DatabaseId &&
                     eventFilters.openMeetMeetId === meet.MeetId;
 
-                let teamRowCount = 0;
+                let teamOrQuizzerRowCount = 0;
 
-                const teamRows = teams.map((teamId: ScoringReportTeam | number, teamIndex: number) => {
-                    const team = hasRankedTeams
-                        ? meet.Teams![teamId as number]
-                        : teamId as ScoringReportTeam;
+                const teamOrQuizzerRows = teamsOrQuizzers.map((teamOrQuizzerId: ScoringReportTeam | ScoringReportQuizzer | number, teamOrQuizzerIndex: number) => {
+                    const teamOrQuizzer = hasRankedTeamsOrQuizzers
+                        ? meet.Teams![teamOrQuizzerId as number]
+                        : teamOrQuizzerId as ScoringReportTeam;
 
                     let highlightColor: string = "";
                     let highlightTextColor: string = "";
                     if (!isPrinting) {
-                        const isFavorite = favorites?.teamIds.has(team.Id) ?? false;
-                        if (eventFilters?.highlightTeamId === team.Id) {
+                        const isFavorite = meet.IsIndividualCompetition
+                            ? favorites?.quizzerIds.has(teamOrQuizzer.Id) ?? false
+                            : favorites?.teamIds.has(teamOrQuizzer.Id) ?? false;
+
+                        const isHighlighted = meet.IsIndividualCompetition
+                            ? eventFilters?.highlightQuizzerId === teamOrQuizzer.Id
+                            : eventFilters?.highlightTeamId === teamOrQuizzer.Id;
+
+                        if (isHighlighted) {
                             highlightColor = "bg-yellow-200";
                             highlightTextColor = "text-accent-content";
                         }
@@ -118,30 +120,30 @@ export default function ScheduleGridTabContent({
                         }
                     }
 
-                    teamRowCount++;
+                    teamOrQuizzerRowCount++;
 
                     return (
                         <tr
-                            key={`${key}_teams_${teamIndex}`}
+                            key={`${key}_teams_${teamOrQuizzerIndex}`}
                             id={highlightColor && forceOpen ? scrollToViewElementId : undefined}
                             className={`hover:bg-base-300 ${highlightColor} ${highlightTextColor}`}>
-                            {hasRankedTeams && (
+                            {hasRankedTeamsOrQuizzers && (
                                 <td className="text-right">
-                                    {team.Scores!.Rank}{team.Scores!.IsTie ? '*' : ''}
+                                    {teamOrQuizzer.Scores!.Rank}{teamOrQuizzer.Scores!.IsTie ? '*' : ''}
                                 </td>)}
                             <td className="pl-0">
-                                <ToggleTeamOrQuizzerFavoriteButton type="team" id={team.Id} />&nbsp;<span className="font-bold">{team.ChurchName}</span><br />
-                                <span className="italic">{team.Name}</span>
+                                <ToggleTeamOrQuizzerFavoriteButton type={meet.IsIndividualCompetition ? "quizzer" : "team"} id={teamOrQuizzer.Id} />&nbsp;<span className="font-bold">{meet.IsIndividualCompetition ? teamOrQuizzer.Name : teamOrQuizzer.ChurchName}</span><br />
+                                <span className="italic">{meet.IsIndividualCompetition ? teamOrQuizzer.ChurchName : teamOrQuizzer.Name}</span>
                             </td>
-                            {hasRankedTeams && (
+                            {hasRankedTeamsOrQuizzers && (
                                 <>
-                                    <td className="text-right">{team.Scores!.Wins}</td>
-                                    <td className="text-right">{team.Scores!.Losses}</td>
-                                    <td className="text-right">{team.Scores!.TotalPoints}</td>
-                                    <td className="text-right">{team.Scores!.AveragePoints}</td>
+                                    <td className="text-right">{teamOrQuizzer.Scores!.Wins}</td>
+                                    <td className="text-right">{teamOrQuizzer.Scores!.Losses}</td>
+                                    <td className="text-right">{teamOrQuizzer.Scores!.TotalPoints}</td>
+                                    <td className="text-right">{teamOrQuizzer.Scores!.AveragePoints}</td>
                                 </>)}
-                            {team.Matches!.map((match: ScoringReportTeamMatch | null, matchIndex: number) => {
-                                const matchKey = `${key}_teams_${teamIndex}match_${teamIndex}_matches_${matchIndex}`;
+                            {teamOrQuizzer.Matches!.map((match: ScoringReportTeamMatch | ScoringReportQuizzerMatch | null, matchIndex: number) => {
+                                const matchKey = `${key}_teams_${teamOrQuizzerIndex}match_${teamOrQuizzerIndex}_matches_${matchIndex}`;
                                 if (null == match) {
                                     return (<td key={matchKey}>--</td>);
                                 }
@@ -152,22 +154,31 @@ export default function ScheduleGridTabContent({
                                 const resolvedMatch = resolvedMeet.Matches![matchIndex];
 
                                 let badgeClass: string;
-                                switch (match.Result) {
-                                    case "W":
-                                        badgeClass = "badge-outline badge-primary";
-                                        break;
-                                    case "L":
-                                        badgeClass = "badge-error";
-                                        break;
-                                    default:
-                                        badgeClass = "badge-ghost";
-                                        break;
+                                if (meet.IsIndividualCompetition) {
+                                    badgeClass = "badge-ghost";
                                 }
+                                else {
+                                    switch ((match as ScoringReportTeamMatch).Result) {
+                                        case "W":
+                                            badgeClass = "badge-outline badge-primary";
+                                            break;
+                                        case "L":
+                                            badgeClass = "badge-error";
+                                            break;
+                                        default:
+                                            badgeClass = "badge-ghost";
+                                            break;
+                                    }
+                                }
+
+                                const hasScore = meet.IsIndividualCompetition
+                                    ? ((match as ScoringReportQuizzerMatch).OtherQuizzers?.length ?? 0) > 0
+                                    : (match as ScoringReportTeamMatch).Score != null;
 
                                 return (
                                     <td className="text-center" key={matchKey}>
-                                        {!isLiveMatch && match.Score == null && (<span>{match.Room}</span>)}
-                                        {(isLiveMatch || match.Score != null) && (
+                                        {!isLiveMatch && !hasScore && (<span>{match.Room}</span>)}
+                                        {(isLiveMatch || hasScore) && (
                                             <RoomDialogLink
                                                 id={matchKey}
                                                 label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`}
@@ -182,14 +193,18 @@ export default function ScheduleGridTabContent({
                                                         <br />
                                                         <span className="italic">#{match.CurrentQuestion}</span>
                                                     </>)}
-                                                {!isLiveMatch && hasRankedTeams && match.Score != null && (
+                                                {!isLiveMatch && hasRankedTeamsOrQuizzers && hasScore && (
                                                     <>
                                                         <br />
                                                         <span className={`badge badge-xs ${badgeClass}`}>
-                                                            {match.Score}
+                                                            {(match as ScoringReportTeamMatch).Score}
                                                         </span>
                                                     </>
                                                 )}
+                                                {!isLiveMatch && meet.IsIndividualCompetition && match.State === ScoringReportMatchState.Completed && (match as ScoringReportQuizzerMatch).Rank && (
+                                                    <span className="badge badge-sm badge-warning ml-2">
+                                                        {DataTypeHelpers.ordinalWithSuffix((match as ScoringReportQuizzerMatch).Rank!)}
+                                                    </span>)}
                                             </RoomDialogLink>)}
                                     </td>
                                 )
@@ -201,7 +216,7 @@ export default function ScheduleGridTabContent({
                     {
                         className: "badge-lg badge-soft badge-primary",
                         icon: "fas faPeopleGroup",
-                        text: teamRowCount.toString()
+                        text: teamOrQuizzerRowCount.toString()
                     }];
 
                 return (
@@ -220,9 +235,9 @@ export default function ScheduleGridTabContent({
                         <table className="table table-s table-nowrap">
                             <thead>
                                 <tr>
-                                    {hasRankedTeams && <th className="text-right">#</th>}
-                                    <th className="pl-0">Team</th>
-                                    {hasRankedTeams &&
+                                    {hasRankedTeamsOrQuizzers && <th className="text-right">#</th>}
+                                    <th className="pl-0">{meet.IsIndividualCompetition ? "Quizzer" : "Team"}</th>
+                                    {hasRankedTeamsOrQuizzers &&
                                         (<>
                                             <th className="text-right">W</th>
                                             <th className="text-right">L</th>
@@ -236,11 +251,11 @@ export default function ScheduleGridTabContent({
                                 </tr>
                             </thead>
                             <tbody>
-                                {teamRows}
-                                {teamRowCount === 0 && (
+                                {teamOrQuizzerRows}
+                                {teamOrQuizzerRowCount === 0 && (
                                     <tr>
                                         <td colSpan={footerColSpan + meet.Matches.length} className="text-center text-sm italic">
-                                            No favorite teams found.
+                                            No favorite {meet.IsIndividualCompetition ? "quizzers" : "teams"} found.
                                         </td>
                                     </tr>)}
                             </tbody>
@@ -255,7 +270,7 @@ export default function ScheduleGridTabContent({
                                     </tr>
                                 </tfoot>)}
                         </table>
-                        {teamRowCount === 0 && (
+                        {teamOrQuizzerRowCount === 0 && !meet.IsIndividualCompetition && (
                             <table className="table table-s table-nowrap page-break-before">
                                 <thead>
                                     <tr>

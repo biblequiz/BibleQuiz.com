@@ -1,4 +1,4 @@
-import {MatchRules} from 'types/MatchRules';
+import { MatchRules } from "types/MatchRules";
 
 /**
  * Report of scores for a specific match in a specific room.
@@ -105,6 +105,11 @@ export class RoomScoringReport {
     public readonly RemainingPoints!: Record<number, number>;
 
     /**
+     * Value indicating whether this is an individual competition.
+     */
+    public readonly IsIndividualCompetition!: boolean;
+
+    /**
      * Rules for the match.
      */
     public readonly Rules!: MatchRules;
@@ -119,21 +124,20 @@ export class RoomScoringReport {
  * Team's scores for a specific match in a specific room.
  */
 export class RoomScoringReportTeam {
+    /**
+     * Id for the team within the database. This will be null for individual competition.
+     */
+    public readonly Id!: number | null;
 
     /**
-     * Id for the team within the database.
+     * Name of the team. This will be null for individual competition.
      */
-    public readonly Id!: number;
+    public readonly Name!: string | null;
 
     /**
-     * Name of the team.
+     * Name of the church. This will be null for individual competition.
      */
-    public readonly Name!: string;
-
-    /**
-     * Name of the church.
-     */
-    public readonly ChurchName!: string;
+    public readonly ChurchName!: string | null;
 
     /**
      * Total points for the team.
@@ -166,26 +170,20 @@ export class RoomScoringReportTeam {
     public readonly UnsuccessfulContests!: number;
 
     /**
-     * Value indicating whether this match is verified.
-     */
-    public readonly IsVerified!: boolean;
-
-    /**
-     * Quizzers associated with this team.
+     * Quizzers associated with this team (for team competition) or color (for individual competition).
      */
     public readonly Quizzers!: RoomScoringReportQuizzer[];
 
     /**
-     * Mapping of question number to the points assigned for this team.
+     * Mapping of question number to the points assigned for this team. This will be null for individual competition.
      */
-    public readonly Questions!: Record<number, number>;
+    public readonly Questions!: Record<number, number> | null;
 }
 
 /**
  * Quizzer's scores for a specific match in a specific room.
  */
 export class RoomScoringReportQuizzer {
-
     /**
      * Id for the quizzer within the database.
      */
@@ -195,6 +193,11 @@ export class RoomScoringReportQuizzer {
      * Name of the quizzer.
      */
     public readonly Name!: string;
+
+    /**
+     * Name of the church.
+     */
+    public readonly ChurchName!: string;
 
     /**
      * Position of the quizzer. If null, the quizzer isn't seated.
@@ -240,13 +243,18 @@ export class RoomScoringReportQuizzer {
      * Mapping of question number to the points assigned for this quizzer.
      */
     public readonly Questions!: Record<number, number>;
+
+    /**
+     * Ranking of the quizzer within the room. This will be null if the rank has not yet been guaranteed or if this room
+     * was calculated prior to this property being added.
+     */
+    public readonly RankedOrder!: number | null;
 }
 
 /**
  * Status of a quizzer's quizzing out.
  */
 export enum QuizzedOutState {
-    
     /**
      * Quizzer is not quizzed out.
      */
