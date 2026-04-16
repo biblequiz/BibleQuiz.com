@@ -250,10 +250,9 @@ export default function TeamOrRoomScheduleTabContent({
                         }
 
                         const isLiveMatch = null != match && null != match.CurrentQuestion;
-                        const isScheduleOnly = !meet.IsIndividualCompetition &&
-                            (!hasRanking ||
-                                (!isLiveMatch &&
-                                    ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined)));
+                        const isScheduleOnly = meet.IsIndividualCompetition
+                            ? !isLiveMatch && ((isRoomReport && ((matchItem as ScoringReportRoomMatch).Quizzers?.length ?? 0) === 0) || (!isRoomReport && ((matchItem as ScoringReportQuizzerMatch).OtherQuizzers?.length ?? 0) === 0))
+                            : !hasRanking || (!isLiveMatch && ((match as ScoringReportTeamMatch)?.Score === null || (match as ScoringReportTeamMatch)?.Score === undefined));
 
                         // Determine the prefix before each match.
                         let cellText = [];

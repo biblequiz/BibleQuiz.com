@@ -122,8 +122,7 @@ export default function DivisionScheduleDialog({
     const canEditName = !isSaving;
     const canEditRoomNames = !isScoreKeepDatabase && !hasScoringStarted && !isSaving;
     const canEditScheduleSettings = !isScoreKeepDatabase && !hasScoringStarted && !isSaving;
-    // For LinkedMeetsDialog - show divisions but don't allow changes if ScoreKeep or scoring started
-    const isLinkedMeetsReadOnly = isScoreKeepDatabase || hasScoringStarted;
+    const isLinkedMeetsReadOnly = isScoreKeepDatabase || hasScoringStarted || hasCustomSchedule;
 
     // Load meet settings on mount (call getMeet with 0 for new divisions to get defaults)
     useEffect(() => {
@@ -714,7 +713,7 @@ export default function DivisionScheduleDialog({
                         <div role="alert" className="alert alert-error">
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
                             <span className="font-bold">Error:</span>
-                            <span>{error}</span>
+                            {error.indexOf('<') === -1 ? (<span>{error}</span>) : (<span dangerouslySetInnerHTML={{ __html: error }} />)}
                         </div>
                     )}
 
@@ -751,7 +750,7 @@ export default function DivisionScheduleDialog({
                                 allowMultipleOpen={true}
                             >
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 mt-0">
-                                <div className="form-control mt-0 mb-0">
+                                    <div className="form-control mt-0 mb-0">
                                         <label className="label mt-0 mb-0">
                                             <span className="label-text">Match Length (minutes)</span>
                                         </label>
@@ -877,41 +876,45 @@ export default function DivisionScheduleDialog({
                                 allowMultipleOpen={true}
                             >
                                 <div className="p-2 flex flex-wrap gap-4">
-                                    <div className="form-control mt-0 mb-0">
-                                        <label className="label gap-2 p-0">
-                                            <span className="label-text text-sm">Starting Round:</span>
-                                            <select
-                                                className="select select-xs select-bordered w-20"
-                                                value={startingRoundOverride ?? ""}
-                                                onChange={(e) => handleStartingRoundChange(e.target.value)}
-                                                disabled={!canEditScheduleSettings}
-                                            >
-                                                <option value="">1</option>
-                                                {(() => {
-                                                    const totalRounds = roundCountOverride ?? (schedulePreview ? Object.keys(schedulePreview.Matches || {}).length : 0);
-                                                    return Array.from({ length: totalRounds }, (_, i) => i + 1).map(num => (
-                                                        <option key={num} value={num}>{num}</option>
-                                                    ));
-                                                })()}
-                                            </select>
-                                        </label>
-                                    </div>
+                                    {!hasCustomSchedule && (
+                                        <>
+                                            <div className="form-control mt-0 mb-0">
+                                                <label className="label gap-2 p-0">
+                                                    <span className="label-text text-sm">Starting Round:</span>
+                                                    <select
+                                                        className="select select-xs select-bordered w-20"
+                                                        value={startingRoundOverride ?? ""}
+                                                        onChange={(e) => handleStartingRoundChange(e.target.value)}
+                                                        disabled={!canEditScheduleSettings}
+                                                    >
+                                                        <option value="">1</option>
+                                                        {(() => {
+                                                            const totalRounds = roundCountOverride ?? (schedulePreview ? Object.keys(schedulePreview.Matches || {}).length : 0);
+                                                            return Array.from({ length: totalRounds }, (_, i) => i + 1).map(num => (
+                                                                <option key={num} value={num}>{num}</option>
+                                                            ));
+                                                        })()}
+                                                    </select>
+                                                </label>
+                                            </div>
 
-                                    <div className="form-control mt-0 mb-0">
-                                        <label className="label gap-2 p-0">
-                                            <span className="label-text text-sm">Total Rounds:</span>
-                                            <input
-                                                type="number"
-                                                className="input input-xs input-bordered w-16"
-                                                value={roundCountOverride ?? ""}
-                                                onChange={(e) => handleRoundCountChange(e.target.value)}
-                                                disabled={!canEditScheduleSettings}
-                                                min={1}
-                                                step={1}
-                                                placeholder=""
-                                            />
-                                        </label>
-                                    </div>
+                                            <div className="form-control mt-0 mb-0">
+                                                <label className="label gap-2 p-0">
+                                                    <span className="label-text text-sm">Total Rounds:</span>
+                                                    <input
+                                                        type="number"
+                                                        className="input input-xs input-bordered w-16"
+                                                        value={roundCountOverride ?? ""}
+                                                        onChange={(e) => handleRoundCountChange(e.target.value)}
+                                                        disabled={!canEditScheduleSettings}
+                                                        min={1}
+                                                        step={1}
+                                                        placeholder=""
+                                                    />
+                                                </label>
+                                            </div>
+                                        </>
+                                    )}
 
                                     <label className="label cursor-pointer gap-2 mt-0 mb-0">
                                         <input
