@@ -1,5 +1,4 @@
-import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch, ScoringReportQuizzer, ScoringReportQuizzerMatch } from "types/EventScoringReport";
-
+import { ScoringReportMeet, ScoringReportTeam, ScoringReportTeamMatch, ScoringReportMeetMatch, ScoringReportQuizzer, ScoringReportQuizzerMatch, ScoringReportMatchState } from "types/EventScoringReport";
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState, sharedEventScoringReportFilterState, showFavoritesOnlyToggle, type MeetReference } from "utils/SharedState";
 import CollapsableMeetSection from './CollapsableMeetSection';
@@ -8,6 +7,7 @@ import { EventScoringReport } from "types/EventScoringReport";
 import { isTabActive } from "utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export interface Props {
     eventId: string;
@@ -201,6 +201,10 @@ export default function ScheduleGridTabContent({
                                                         </span>
                                                     </>
                                                 )}
+                                                {!isLiveMatch && meet.IsIndividualCompetition && match.State === ScoringReportMatchState.Completed && (match as ScoringReportQuizzerMatch).Rank && (
+                                                    <span className="badge badge-sm badge-warning ml-2">
+                                                        {DataTypeHelpers.ordinalWithSuffix((match as ScoringReportQuizzerMatch).Rank!)}
+                                                    </span>)}
                                             </RoomDialogLink>)}
                                     </td>
                                 )
