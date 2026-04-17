@@ -92,9 +92,9 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
         return ALL_TAGS.find(t => t.id === id);
     }, []);
 
-    // Generate name from tags
-    const generateNameFromTags = useCallback((team: Team, tags: SelectedTag[]): string => {
-        if (tags.length === 0) return team.Name;
+    // Generate text from tags
+    const generateTextFromTags = useCallback((team: Team, tags: SelectedTag[], fallbackValue: string): string => {
+        if (tags.length === 0) return fallbackValue;
 
         let result: string[] = [];
         let lastWasData = false;
@@ -126,49 +126,59 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
             }
         }
 
-        return result.join('').trim() || team.Name;
+        return result.join('').trim() || fallbackValue;
     }, [getTagConfig]);
 
-    // Apply naming scheme to all teams
-    const applyNamingScheme = useCallback(() => {
+    type ApplySchemeTarget = "name" | "church";
+
+    // Apply scheme to all teams (team name or church name)
+    const applyScheme = useCallback((target: ApplySchemeTarget) => {
         if (selectedTags.length === 0) return;
 
-        // Generate initial names based on current teamPreviews order
-        const generatedNames: { teamId: number; name: string; orderIndex: number }[] = teamPreviews.map((preview, index) => ({
-            teamId: preview.team.Id,
-            name: generateNameFromTags(preview.team, selectedTags),
-            orderIndex: index,
-        }));
+        const getFallbackValue = (team: Team): string => {
+            return target === "name" ? (team.Name || "") : (team.Church || "");
+        };
 
-        // Find duplicates and add suffixes based on order in the table
-        const nameCounts: Record<string, { teamId: number; orderIndex: number }[]> = {};
-        generatedNames.forEach(item => {
-            if (!nameCounts[item.name]) {
-                nameCounts[item.name] = [];
-            }
-            nameCounts[item.name].push({ teamId: item.teamId, orderIndex: item.orderIndex });
+        setTeamPreviews(prev => {
+            // Generate initial values based on current teamPreviews order
+            const generatedValues: { teamId: number; value: string; orderIndex: number }[] = prev.map((preview, index) => ({
+                teamId: preview.team.Id,
+                value: generateTextFromTags(preview.team, selectedTags, getFallbackValue(preview.team)),
+                orderIndex: index,
+            }));
+
+            // Find duplicates and add suffixes based on order in the table
+            const valueCounts: Record<string, { teamId: number; orderIndex: number }[]> = {};
+            generatedValues.forEach(item => {
+                if (!valueCounts[item.value]) {
+                    valueCounts[item.value] = [];
+                }
+                valueCounts[item.value].push({ teamId: item.teamId, orderIndex: item.orderIndex });
+            });
+
+            // Sort duplicate teams by their order index and assign suffixes
+            const finalValues: Record<number, string> = {};
+            Object.entries(valueCounts).forEach(([value, teams]) => {
+                if (teams.length === 1) {
+                    finalValues[teams[0].teamId] = value;
+                } else {
+                    // Sort by order index (position in table) and add suffix
+                    teams.sort((a, b) => a.orderIndex - b.orderIndex);
+                    teams.forEach((team, index) => {
+                        finalValues[team.teamId] = `${value} #${index + 1}`;
+                    });
+                }
+            });
+
+            // Update previews
+            return prev.map(preview => {
+                const finalValue = finalValues[preview.team.Id] ?? getFallbackValue(preview.team);
+                return target === "name"
+                    ? { ...preview, finalName: finalValue }
+                    : { ...preview, finalChurch: finalValue };
+            });
         });
-
-        // Sort duplicate teams by their order index and assign suffixes
-        const finalNames: Record<number, string> = {};
-        Object.entries(nameCounts).forEach(([name, teams]) => {
-            if (teams.length === 1) {
-                finalNames[teams[0].teamId] = name;
-            } else {
-                // Sort by order index (position in table) and add suffix
-                teams.sort((a, b) => a.orderIndex - b.orderIndex);
-                teams.forEach((team, index) => {
-                    finalNames[team.teamId] = `${name} #${index + 1}`;
-                });
-            }
-        });
-
-        // Update previews
-        setTeamPreviews(prev => prev.map(preview => ({
-            ...preview,
-            finalName: finalNames[preview.team.Id] || preview.team.Name,
-        })));
-    }, [selectedTags, teamPreviews, generateNameFromTags]);
+    }, [selectedTags, generateTextFromTags]);
 
     // Reset to original names
     const handleResetToOriginal = () => {
@@ -215,6 +225,11 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
     // Remove tag from scheme
     const handleRemoveTag = (instanceId: number) => {
         setSelectedTags(selectedTags.filter(t => t.instanceId !== instanceId));
+    };
+
+    const handleClearTags = () => {
+        setSelectedTags([]);
+        setDraggedTagIndex(null);
     };
 
     // Drag and drop for reordering tags
@@ -320,7 +335,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
 
     return (
         <dialog ref={dialogRef} className="modal" onClose={handleClose} open>
-            <div className="modal-box w-full max-w-5xl max-h-[90vh]">
+            <div className="modal-box w-full max-w-5xl max-h-[120vh]">
                 <h3 className="font-bold text-lg">Bulk Rename Teams</h3>
                 <button
                     type="button"
@@ -400,11 +415,32 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                         <button
                             type="button"
                             className="btn btn-sm btn-info mt-0"
-                            onClick={applyNamingScheme}
+                            onClick={() => applyScheme("name")}
                             disabled={selectedTags.length === 0}
+                            title="Apply scheme to team name"
                         >
                             <FontAwesomeIcon icon="fas faWandMagicSparkles" />
-                            Apply Scheme
+                            Apply to Team
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-info mt-0"
+                            onClick={() => applyScheme("church")}
+                            disabled={selectedTags.length === 0}
+                            title="Apply scheme to church name"
+                        >
+                            <FontAwesomeIcon icon="fas faWandMagicSparkles" />
+                            Apply to Church
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-secondary mt-0"
+                            onClick={handleClearTags}
+                            disabled={selectedTags.length === 0}
+                            title="Clear naming scheme tags"
+                        >
+                            <FontAwesomeIcon icon="fas faEraser" />
+                            Clear Tags
                         </button>
                         <button
                             type="button"
@@ -422,7 +458,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
 
                     {/* Teams Preview Table */}
                     <div className="divider mt-2 mb-2"></div>
-                    <div className="overflow-auto max-h-64 -webkit-overflow-scrolling-touch border border-base-300 rounded-lg">
+                    <div className="overflow-auto max-h-80 -webkit-overflow-scrolling-touch border border-base-300 rounded-lg">
                         <table className="table table-zebra table-sm w-full">
                             <thead className="bg-base-200">
                                 <tr>

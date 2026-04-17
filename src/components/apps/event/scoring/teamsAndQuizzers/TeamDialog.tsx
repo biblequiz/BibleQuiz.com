@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { Team } from "types/Meets";
+import { ContactInfo, Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
 import type { AddingChurchState } from "components/ChurchSettingsDialog";
@@ -17,6 +17,11 @@ interface Props {
     onCancel: () => void;
     onDiscoveredChurch: (church: Church) => void;
 }
+
+const trimOrUndefined = (value: string | undefined): string | undefined => {
+    const trimmed = value?.trim();
+    return trimmed ? trimmed : undefined;
+};
 
 export default function TeamDialog({
     regionId,
@@ -40,6 +45,14 @@ export default function TeamDialog({
     const [addingChurchState, setAddingChurchState] = useState<AddingChurchState | null>(null);
     const [isHidden, setIsHidden] = useState<boolean>(false);
 
+    const [primaryContactName, setPrimaryContactName] = useState<string | undefined>(undefined);
+    const [primaryContactPhone, setPrimaryContactPhone] = useState<string | undefined>(undefined);
+    const [primaryContactEmail, setPrimaryContactEmail] = useState<string | undefined>(undefined);
+
+    const [coachName, setCoachName] = useState<string | undefined>(undefined);
+    const [coachPhone, setCoachPhone] = useState<string | undefined>(undefined);
+    const [coachEmail, setCoachEmail] = useState<string | undefined>(undefined);
+
     const knownChurches = Object.values(churches)
         .sort((a, b) => a.Name.localeCompare(b.Name));
 
@@ -57,6 +70,15 @@ export default function TeamDialog({
         setChurchName(team?.Church);
         setIsDefaultChurchName(!team?.Church || !newChurch || newChurch.Name === team?.Church);
         setIsHidden(team?.IsHidden || false);
+
+        setPrimaryContactName(team?.PrimaryContact?.Name);
+        setPrimaryContactPhone(team?.PrimaryContact?.Phone);
+        setPrimaryContactEmail(team?.PrimaryContact?.Email);
+
+        setCoachName(team?.Coach?.Name);
+        setCoachPhone(team?.Coach?.Phone);
+        setCoachEmail(team?.Coach?.Email);
+
         setAddingChurchState(null);
     }, [team]);
 
@@ -73,10 +95,20 @@ export default function TeamDialog({
         updatedTeam.Name = name!.trim();
         updatedTeam.League = league!.trim().toUpperCase();
         updatedTeam.RemoteChurchId = church!.Id!;
-        updatedTeam.Church = churchName!.trim();
-        updatedTeam.City = church!.PhysicalAddress?.City || undefined;
-        updatedTeam.State = church!.PhysicalAddress?.State || undefined;
+        updatedTeam.Church = trimOrUndefined(churchName!.trim());
+        updatedTeam.City = trimOrUndefined(church!.PhysicalAddress?.City);
+        updatedTeam.State = trimOrUndefined(church!.PhysicalAddress?.State);
         updatedTeam.IsHidden = isHidden;
+
+        updatedTeam.PrimaryContact = updatedTeam.PrimaryContact ?? new ContactInfo();
+        updatedTeam.PrimaryContact.Name = trimOrUndefined(primaryContactName);
+        updatedTeam.PrimaryContact.Phone = trimOrUndefined(primaryContactPhone);
+        updatedTeam.PrimaryContact.Email = trimOrUndefined(primaryContactEmail);
+
+        updatedTeam.Coach = updatedTeam.Coach ?? new ContactInfo();
+        updatedTeam.Coach.Name = trimOrUndefined(coachName);
+        updatedTeam.Coach.Phone = trimOrUndefined(coachPhone);
+        updatedTeam.Coach.Email = trimOrUndefined(coachEmail);
 
         onSave(updatedTeam);
         dialogRef.current?.close();
@@ -207,6 +239,104 @@ export default function TeamDialog({
                                 required
                                 disabled={isReadOnly}
                             />
+                        </div>
+
+                        <div className="divider my-2">Primary Contact</div>
+
+                        <div className="form-control w-full mt-0">
+                            <label className="label">
+                                <span className="label-text font-medium">Name</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full"
+                                placeholder="Primary Contact Name"
+                                value={primaryContactName ?? ""}
+                                maxLength={100}
+                                onChange={e => setPrimaryContactName(e.target.value)}
+                                disabled={isReadOnly}
+                            />
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="form-control w-full mt-0">
+                                <label className="label">
+                                    <span className="label-text font-medium">Phone</span>
+                                </label>
+                                <input
+                                    type="tel"
+                                    className="input input-bordered w-full"
+                                    placeholder="Primary Contact Phone"
+                                    value={primaryContactPhone ?? ""}
+                                    maxLength={40}
+                                    onChange={e => setPrimaryContactPhone(e.target.value)}
+                                    disabled={isReadOnly}
+                                />
+                            </div>
+
+                            <div className="form-control w-full mt-0">
+                                <label className="label">
+                                    <span className="label-text font-medium">Email</span>
+                                </label>
+                                <input
+                                    type="email"
+                                    className="input input-bordered w-full"
+                                    placeholder="Primary Contact Email"
+                                    value={primaryContactEmail ?? ""}
+                                    maxLength={120}
+                                    onChange={e => setPrimaryContactEmail(e.target.value)}
+                                    disabled={isReadOnly}
+                                />
+                            </div>
+                        </div>
+
+                        <div className="divider my-2">Coach</div>
+
+                        <div className="form-control w-full mt-0">
+                            <label className="label">
+                                <span className="label-text font-medium">Name</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full"
+                                placeholder="Coach Name"
+                                value={coachName ?? ""}
+                                maxLength={100}
+                                onChange={e => setCoachName(e.target.value)}
+                                disabled={isReadOnly}
+                            />
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="form-control w-full mt-0">
+                                <label className="label">
+                                    <span className="label-text font-medium">Phone</span>
+                                </label>
+                                <input
+                                    type="tel"
+                                    className="input input-bordered w-full"
+                                    placeholder="Coach Phone"
+                                    value={coachPhone ?? ""}
+                                    maxLength={40}
+                                    onChange={e => setCoachPhone(e.target.value)}
+                                    disabled={isReadOnly}
+                                />
+                            </div>
+
+                            <div className="form-control w-full mt-0">
+                                <label className="label">
+                                    <span className="label-text font-medium">Email</span>
+                                </label>
+                                <input
+                                    type="email"
+                                    className="input input-bordered w-full"
+                                    placeholder="Coach Email"
+                                    value={coachEmail ?? ""}
+                                    maxLength={120}
+                                    onChange={e => setCoachEmail(e.target.value)}
+                                    disabled={isReadOnly}
+                                />
+                            </div>
                         </div>
 
                         <div className="form-control mt-2">
