@@ -415,22 +415,22 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                         <button
                             type="button"
                             className="btn btn-sm btn-info mt-0"
-                            onClick={() => applyScheme("name")}
-                            disabled={selectedTags.length === 0}
-                            title="Apply scheme to team name"
-                        >
-                            <FontAwesomeIcon icon="fas faWandMagicSparkles" />
-                            Apply to Team
-                        </button>
-                        <button
-                            type="button"
-                            className="btn btn-sm btn-info mt-0"
                             onClick={() => applyScheme("church")}
                             disabled={selectedTags.length === 0}
                             title="Apply scheme to church name"
                         >
                             <FontAwesomeIcon icon="fas faWandMagicSparkles" />
                             Apply to Church
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-info mt-0"
+                            onClick={() => applyScheme("name")}
+                            disabled={selectedTags.length === 0}
+                            title="Apply scheme to team name"
+                        >
+                            <FontAwesomeIcon icon="fas faWandMagicSparkles" />
+                            Apply to Team
                         </button>
                         <button
                             type="button"
@@ -463,10 +463,9 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                             <thead className="bg-base-200">
                                 <tr>
                                     <th>&nbsp;</th>
-                                    <th>Original Name</th>
-                                    <th>Original Church</th>
-                                    <th>Final Name</th>
-                                    <th>Final Church</th>
+                                    <th>Registered Names</th>
+                                    <th>Church Name</th>
+                                    <th>Team Name</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -487,18 +486,8 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                                             />
                                         </td>
                                         <td className="text-base-content/70">
-                                            {preview.team.OriginalName || preview.team.Name}
-                                        </td>
-                                        <td className="text-base-content/70">
-                                            {preview.team.OriginalChurchName || preview.team.Church || '-'}
-                                        </td>
-                                        <td>
-                                            <input
-                                                type="text"
-                                                className="input input-bordered input-sm w-full"
-                                                value={preview.finalName}
-                                                onChange={(e) => handleNameChange(preview.team.Id, e.target.value)}
-                                            />
+                                            <b>{preview.team.OriginalChurchName || preview.team.Church || '-'}</b><br />
+                                            <i>{preview.team.OriginalName || preview.team.Name}</i>
                                         </td>
                                         <td>
                                             <input
@@ -506,6 +495,14 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
                                                 className="input input-bordered input-sm w-full"
                                                 value={preview.finalChurch}
                                                 onChange={(e) => handleChurchChange(preview.team.Id, e.target.value)}
+                                            />
+                                        </td>
+                                        <td>
+                                            <input
+                                                type="text"
+                                                className="input input-bordered input-sm w-full"
+                                                value={preview.finalName}
+                                                onChange={(e) => handleNameChange(preview.team.Id, e.target.value)}
                                             />
                                         </td>
                                     </tr>
