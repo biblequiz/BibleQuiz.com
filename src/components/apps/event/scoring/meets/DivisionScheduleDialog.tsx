@@ -782,7 +782,7 @@ export default function DivisionScheduleDialog({
                                                 disabled={!canEditScheduleSettings}
                                             >
                                                 <option value={OnlineMeetMatchRankingType.HighestPointsWins}>Highest Points Wins</option>
-                                                <option value={OnlineMeetMatchRankingType.FastestToQuizOutWinsIgnoringIncorrect}>Fastest to Quiz Out</option>
+                                                <option value={OnlineMeetMatchRankingType.FastestToQuizOut}>Fastest to Quiz Out</option>
                                             </select>
                                         </div>
                                     )}
