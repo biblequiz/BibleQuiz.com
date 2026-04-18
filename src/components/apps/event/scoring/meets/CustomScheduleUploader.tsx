@@ -1,18 +1,13 @@
 import { useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import type { AuthManager } from "types/AuthManager";
-import { AstroMeetsService, type OnlineMeetSchedulingSettings } from "types/services/AstroMeetsService";
 
 interface Props {
     hasCustomSchedule: boolean;
     isUploading: boolean;
     disabled: boolean;
     isReadOnly: boolean;
-    auth: AuthManager;
-    eventId: string;
-    databaseId: string;
-    meetId: number;
-    getSchedulingSettings: () => OnlineMeetSchedulingSettings;
+    exportDisabled?: boolean;
+    onExport: () => Promise<void>;
     onUpload: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onRemove: () => void;
 }
@@ -22,11 +17,8 @@ export default function CustomScheduleUploader({
     isUploading,
     disabled,
     isReadOnly,
-    auth,
-    eventId,
-    databaseId,
-    meetId,
-    getSchedulingSettings,
+    exportDisabled = false,
+    onExport,
     onUpload,
     onRemove
 }: Props) {
@@ -38,8 +30,7 @@ export default function CustomScheduleUploader({
         setIsExporting(true);
         setExportError(null);
         try {
-            const settings = getSchedulingSettings();
-            await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId, settings);
+            await onExport();
         } catch (err: any) {
             setExportError(err.message || "Failed to export schedule.");
         } finally {
@@ -55,8 +46,7 @@ export default function CustomScheduleUploader({
         }
     };
 
-    const scheduleSettings = getSchedulingSettings();
-    const controlsDisabled = disabled || (scheduleSettings.TeamIds.length === 0 && scheduleSettings.QuizzerIds.length === 0);
+    const controlsDisabled = disabled || exportDisabled;
 
     return (
         <div className="p-2 space-y-3">

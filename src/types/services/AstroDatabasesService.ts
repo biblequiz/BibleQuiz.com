@@ -390,9 +390,9 @@ export class OnlineDatabaseSettings {
     public Rules!: MatchRules | null;
 
     /**
-     * Value indicating whether to use the custom schedule template. If false, the existing template in the database will be used.
+     * Value indicating whether there is a custom schedule.
      */
-    public UseCustomSchedule!: boolean;
+    public HasCustomSchedule!: boolean;
 
     /**
      * New custom schedule template for the database (only honored if IsScheduleChanged is true). Server always returns null for this,

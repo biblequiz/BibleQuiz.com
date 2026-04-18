@@ -167,11 +167,7 @@ export default function DivisionScheduleDialog({
                     // Custom schedule from server
                     const hasCustom = data.Schedule.HasCustomSchedule || false;
                     setHasCustomSchedule(hasCustom);
-
-                    // Use optimizer
-                    if (data.Schedule.UseOptimizer) {
-                        setUseOptimizer(true);
-                    }
+                    setUseOptimizer(data.Schedule.UseOptimizer);
                 }
 
                 if (data.MatchTimes && data.Preview && !isNew) {
@@ -982,11 +978,11 @@ export default function DivisionScheduleDialog({
                                     isUploading={isUploadingSchedule}
                                     disabled={isSaving}
                                     isReadOnly={!canEditScheduleSettings}
-                                    auth={auth}
-                                    eventId={eventId}
-                                    databaseId={databaseId}
-                                    meetId={meetId}
-                                    getSchedulingSettings={getSchedulingSettings}
+                                    exportDisabled={selectedTeamIds.length === 0 && selectedQuizzerIds.length === 0}
+                                    onExport={async () => {
+                                        const settings = getSchedulingSettings();
+                                        await AstroMeetsService.getScheduleTemplate(auth, eventId, databaseId, meetId, settings);
+                                    }}
                                     onUpload={handleUploadSchedule}
                                     onRemove={handleRemoveCustomSchedule}
                                 />
