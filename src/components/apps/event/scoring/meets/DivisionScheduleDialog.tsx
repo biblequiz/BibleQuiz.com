@@ -688,11 +688,14 @@ export default function DivisionScheduleDialog({
     return (
         <dialog ref={dialogRef} className="modal" open>
             <div className="modal-box w-full max-w-4xl max-h-[90vh]">
-                <h3 className="font-bold text-lg">
+                <h3 className="font-bold text-lg flex items-center flex-wrap gap-2">
                     <FontAwesomeIcon icon="fas faCalendarDays" />
-                    <span className="ml-2">
+                    <span>
                         {isNew ? "Add Division" : `Edit Division - ${meetName}`}
                     </span>
+                    {hasScoringStarted && (
+                        <span className="badge badge-warning badge-sm">Scoring Started</span>
+                    )}
                 </h3>
                 <button
                     type="button"

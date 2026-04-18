@@ -1,3 +1,4 @@
+import { useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
@@ -47,6 +48,28 @@ export default function SchedulePreviewTable({
 }: Props) {
     const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
     const itemLabelPlural = isIndividualCompetition ? "quizzers" : "teams";
+    const [draftMatchTimes, setDraftMatchTimes] = useState<Record<number, string>>({});
+
+    const handleDraftTimeChange = (matchId: number, value: string) => {
+        setDraftMatchTimes(prev => ({
+            ...prev,
+            [matchId]: value
+        }));
+    };
+
+    const handleDraftTimeBlur = (matchId: number, value: string, currentValue: string | null) => {
+        const newValue = DataTypeHelpers.formatTimeSpanAsTime(value);
+        if (newValue !== currentValue) {
+            onMatchTimeChange(matchId, newValue);
+        }
+
+        setDraftMatchTimes(prev => {
+            const next = { ...prev };
+            delete next[matchId];
+            return next;
+        });
+    };
+
     return (
         <div className="p-2">
             {/* Refresh controls */}
@@ -177,7 +200,8 @@ export default function SchedulePreviewTable({
                                     </td>
                                     {Object.entries(schedulePreview.Matches).map(([matchId]) => {
                                         const matchIdNum = Number(matchId);
-                                        const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "");
+                                        const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "") || "";
+                                        const inputValue = draftMatchTimes[matchIdNum] ?? formattedValue;
                                         return (
                                             <td key={`time-${matchId}`} className="text-center">
                                                 {isReadOnly ? (
@@ -186,12 +210,10 @@ export default function SchedulePreviewTable({
                                                     <input
                                                         type="time"
                                                         className="input input-xs input-bordered w-20 text-center"
-                                                        defaultValue={formattedValue || ""}
+                                                        value={inputValue}
+                                                        onChange={(e) => handleDraftTimeChange(matchIdNum, e.target.value)}
                                                         onBlur={(e) => {
-                                                            const newValue = DataTypeHelpers.formatTimeSpanAsTime(e.target.value);
-                                                            if (newValue !== formattedValue) {
-                                                                onMatchTimeChange(matchIdNum, newValue);
-                                                            }
+                                                            handleDraftTimeBlur(matchIdNum, e.target.value, matchTimes[matchIdNum] ?? null);
                                                         }}
                                                         disabled={disabled || isRefreshing}
                                                     />
