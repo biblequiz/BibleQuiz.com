@@ -4,6 +4,7 @@ import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesSer
 
 interface Props {
     currentMeetId: number;
+    currentMeetName?: string;
     allMeets: OnlineDatabaseMeetSummary[];
     linkedMeetIds: number[];
     meetsWithScores: number[];
@@ -19,6 +20,7 @@ interface Props {
  */
 export default function LinkedMeetsDialog({
     currentMeetId,
+    currentMeetName,
     allMeets,
     linkedMeetIds,
     meetsWithScores,
@@ -147,15 +149,28 @@ export default function LinkedMeetsDialog({
 
     // Build the unified list of all meets for display
     // Linked meets first (in their order), then available meets alphabetically
-    const allMeetItems = allMeets.map(meet => ({
-        id: meet.Display.Id,
-        name: meet.Display.NameOverride || meet.Display.Name,
-        isCurrent: meet.Display.Id === currentMeetId,
-        isLinkedToAnother: meet.LinkedMeetGroupId && 
-            !linkedMeetIds.includes(meet.Display.Id) &&
-            linkedMeetIds.length > 0,
-        hasScores: meetsWithScoresSet.has(meet.Display.Id)
-    }));
+    const currentMeetInAllMeets = allMeets.some(meet => meet.Display.Id === currentMeetId);
+    
+    const allMeetItems = [
+        // Include a synthetic entry for the current meet if it's not in allMeets (new division case)
+        ...(!currentMeetInAllMeets ? [{
+            id: currentMeetId,
+            name: currentMeetName || "New Division",
+            isCurrent: true,
+            isLinkedToAnother: false,
+            hasScores: false
+        }] : []),
+        // Map all existing meets
+        ...allMeets.map(meet => ({
+            id: meet.Display.Id,
+            name: meet.Display.NameOverride || meet.Display.Name,
+            isCurrent: meet.Display.Id === currentMeetId,
+            isLinkedToAnother: meet.LinkedMeetGroupId && 
+                !linkedMeetIds.includes(meet.Display.Id) &&
+                linkedMeetIds.length > 0,
+            hasScores: meetsWithScoresSet.has(meet.Display.Id)
+        }))
+    ];
 
     // Sort: checked items first (in their order), then unchecked alphabetically
     const sortedMeetItems = [...allMeetItems].sort((a, b) => {

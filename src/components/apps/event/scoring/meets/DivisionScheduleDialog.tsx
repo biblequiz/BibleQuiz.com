@@ -721,19 +721,19 @@ export default function DivisionScheduleDialog({
                     disabled={isSaving}
                 >✕</button>
 
+                {error && (
+                    <div role="alert" className="alert alert-error">
+                        <FontAwesomeIcon icon="fas faCircleExclamation" />
+                        <span className="font-bold">Error:</span>
+                        {error.indexOf('<') === -1 ? (<span>{error}</span>) : (<span dangerouslySetInnerHTML={{ __html: error }} />)}
+                    </div>
+                )}
+
                 <div className="mt-4 overflow-y-auto max-h-[65vh]">
                     {isLoading && (
                         <div className="flex items-center justify-center py-8">
                             <span className="loading loading-spinner loading-lg"></span>
                             <span className="ml-4">Loading division settings...</span>
-                        </div>
-                    )}
-
-                    {error && (
-                        <div role="alert" className="alert alert-error">
-                            <FontAwesomeIcon icon="fas faCircleExclamation" />
-                            <span className="font-bold">Error:</span>
-                            {error.indexOf('<') === -1 ? (<span>{error}</span>) : (<span dangerouslySetInnerHTML={{ __html: error }} />)}
                         </div>
                     )}
 
@@ -1132,6 +1132,7 @@ export default function DivisionScheduleDialog({
             {showLinkedMeetsDialog && !isIndividualCompetition && (
                 <LinkedMeetsDialog
                     currentMeetId={meetId}
+                    currentMeetName={name}
                     allMeets={allMeets}
                     linkedMeetIds={linkedMeetIds}
                     meetsWithScores={settings?.AllMeetsWithScores ?? []}
