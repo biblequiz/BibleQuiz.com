@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 
@@ -29,6 +29,20 @@ export default function LinkedMeetsDialog({
     onClose
 }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Handle Escape key to close dialog without propagating to parent
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") {
+                e.preventDefault();
+                e.stopPropagation();
+                onClose();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+        return () => document.removeEventListener("keydown", handleKeyDown);
+    }, [onClose]);
 
     // Initialize selected meets as an ordered array - honor API order exactly
     // The API includes current meet in the list, so use it as-is

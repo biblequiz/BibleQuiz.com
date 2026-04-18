@@ -507,7 +507,7 @@ export default function DivisionScheduleDialog({
     // Handle Escape key to close dialog
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving) {
+            if (e.key === "Escape" && !isSaving && !showLinkedMeetsDialog) {
                 e.preventDefault();
                 handleClose();
             }
@@ -515,7 +515,7 @@ export default function DivisionScheduleDialog({
 
         document.addEventListener("keydown", handleKeyDown);
         return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving]);
+    }, [handleClose, isSaving, showLinkedMeetsDialog]);
 
     // Export schedule stats
     const handleExportStats = async () => {
