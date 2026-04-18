@@ -218,6 +218,7 @@ export class RemoteServiceUtility {
      * @param urlParameters URL parameters to be included in the request.
      * @param suggestedFileName Suggested file name for the downloaded file.
      * @param data Data (if any) to submit.
+     * @param alwaysIncludeData Value indicating whether to always include the data in the request, even if it is null or undefined.
      */
     public static downloadFromHttpRequest(
         auth: AuthManager | null,
@@ -226,7 +227,8 @@ export class RemoteServiceUtility {
         path: string,
         urlParameters?: URLSearchParams | null,
         suggestedFileName?: string,
-        data?: any): Promise<void> {
+        data?: any,
+        alwaysIncludeData?: boolean): Promise<void> {
 
         return new Promise<void>(async (resolve, reject) => {
             this.executeHttpRequestCore(
@@ -235,7 +237,9 @@ export class RemoteServiceUtility {
                 service,
                 path,
                 urlParameters,
-                data)
+                data,
+                undefined,
+                alwaysIncludeData)
                 .then(response => {
                     response.blob()
                         .then(blob => {
@@ -330,7 +334,8 @@ export class RemoteServiceUtility {
         path: string,
         urlParameters?: URLSearchParams | null,
         data?: any,
-        isMultipartForm?: boolean): Promise<Response> {
+        isMultipartForm?: boolean,
+        alwaysIncludeData?: boolean): Promise<Response> {
 
         const url = this.buildUrl(service, path, urlParameters);
 
@@ -359,7 +364,7 @@ export class RemoteServiceUtility {
                 }
             }
 
-            if (data) {
+            if (data || alwaysIncludeData) {
                 if (isMultipartForm) {
                     fetchOptions.body = data;
                 }

@@ -8,6 +8,8 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
 import { MatchRules } from "types/MatchRules";
 import MatchRulesDialog from "../rules/MatchRulesDialog";
+import CustomScheduleUploader from "./meets/CustomScheduleUploader";
+import { ScheduleTemplate } from "types/Scheduling";
 
 interface Props {
     auth: AuthManager;
@@ -68,6 +70,12 @@ export default function DatabaseSettingsSection({
     const [rules, setRules] = useState<MatchRules | undefined>(settings?.Rules || undefined);
     const [isEditingRules, setIsEditingRules] = useState<boolean>(false);
 
+    // Custom schedule state
+    const [hasCustomSchedule, setHasCustomSchedule] = useState<boolean>(settings?.HasCustomSchedule ?? false);
+    const [customSchedule, setCustomSchedule] = useState<ScheduleTemplate | null>(settings?.Schedule ?? null);
+    const [isScheduleChanged, setIsScheduleChanged] = useState<boolean>(false);
+    const [isUploadingSchedule, setIsUploadingSchedule] = useState<boolean>(false);
+
     const formRef = useRef<HTMLFormElement>(null);
     const hasChanges = useStore(sharedDirtyWindowState);
 
@@ -91,6 +99,9 @@ export default function DatabaseSettingsSection({
         updatedSettings.DefaultMatchLengthInMinutes = defaultMatchLengthInMinutes!;
         updatedSettings.ContactInfo = contactInfo!;
         updatedSettings.Rules = rules ?? settings?.Rules ?? null;
+        updatedSettings.HasCustomSchedule = hasCustomSchedule;
+        updatedSettings.Schedule = customSchedule;
+        updatedSettings.IsScheduleChanged = isScheduleChanged;
 
         setIsSaving(true);
         setSavingError(null);
@@ -133,8 +144,59 @@ export default function DatabaseSettingsSection({
             setDefaultMatchStartTime(settings.DefaultMatchStartTime);
             setDefaultMatchLengthInMinutes(settings.DefaultMatchLengthInMinutes);
             setContactInfo(settings.ContactInfo);
+            setHasCustomSchedule(settings.HasCustomSchedule ?? false);
+            setCustomSchedule(settings.Schedule ?? null);
+            setIsScheduleChanged(false);
         }
     }, [settings]);
+
+    // Custom schedule handlers
+    const handleExportSchedule = async () => {
+        if (!settings?.DatabaseId) return;
+
+        await AstroDatabasesService.getScheduleTemplate(
+            auth,
+            eventId,
+            settings.DatabaseId,
+            customSchedule);
+    };
+
+    const handleUploadSchedule = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        if (!file || !settings?.DatabaseId) return;
+
+        setIsUploadingSchedule(true);
+        setSavingError(null);
+
+        try {
+            const formData = new FormData();
+            formData.append("file", file);
+
+            const template = await AstroDatabasesService.parseScheduleTemplate(
+                auth,
+                eventId,
+                settings.DatabaseId,
+                formData,
+                false // Not individual competition for database-level
+            );
+
+            setCustomSchedule(template);
+            setIsScheduleChanged(true);
+            setHasCustomSchedule(true);
+            sharedDirtyWindowState.set(true);
+        } catch (err: any) {
+            setSavingError(err.message || "Failed to parse schedule file.");
+        } finally {
+            setIsUploadingSchedule(false);
+        }
+    };
+
+    const handleRemoveCustomSchedule = () => {
+        setCustomSchedule(null);
+        setHasCustomSchedule(false);
+        setIsScheduleChanged(true);
+        sharedDirtyWindowState.set(true);
+    };
 
     return (
         <>
@@ -278,6 +340,24 @@ export default function DatabaseSettingsSection({
                             <FontAwesomeIcon icon="fas faPencil" />
                             Edit Default Rules for Database
                         </button>
+                    </div>)}
+
+                {settings?.DatabaseId && !isScoreKeep && (
+                    <div className="form-control w-full mt-0 border border-base-500 rounded-lg p-4">
+                        <div className="flex items-center gap-2 mb-2">
+                            <FontAwesomeIcon icon="fas faFileExcel" />
+                            <span className="font-medium text-sm">Custom Schedule Template</span>
+                        </div>
+                        <CustomScheduleUploader
+                            hasCustomSchedule={hasCustomSchedule}
+                            isUploading={isUploadingSchedule}
+                            disabled={disabled || isSaving}
+                            isReadOnly={isScoreKeep}
+                            exportDisabled={false}
+                            onExport={handleExportSchedule}
+                            onUpload={handleUploadSchedule}
+                            onRemove={handleRemoveCustomSchedule}
+                        />
                     </div>)}
 
                 <button

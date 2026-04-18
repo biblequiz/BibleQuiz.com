@@ -176,7 +176,7 @@ export class AstroDatabasesService {
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        template: ScheduleTemplate,
+        template: ScheduleTemplate | null,
     ): Promise<void> {
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
@@ -186,6 +186,7 @@ export class AstroDatabasesService {
             undefined,
             undefined,
             template ?? null,
+            true,
         );
     }
 
@@ -390,15 +391,20 @@ export class OnlineDatabaseSettings {
     public Rules!: MatchRules | null;
 
     /**
-     * Value indicating whether to use the custom schedule template. If false, the existing template in the database will be used.
+     * Value indicating whether there is a custom schedule.
      */
-    public UseCustomSchedule!: boolean;
+    public HasCustomSchedule!: boolean;
 
     /**
-     * New custom schedule template for the database. This is only used if UseCustomSchedule is true. Server always returns null for this,
-     * but UseCustomSchedule indicates whether there is a value on the server.
+     * New custom schedule template for the database (only honored if IsScheduleChanged is true). Server always returns null for this,
+     * but HasCustomSchedule indicates whether there is a value on the server.
      */
     public Schedule!: ScheduleTemplate | null;
+
+    /**
+     * Value indicating whether Schedule is changed and should be saved on the server.
+     */
+    public IsScheduleChanged!: boolean;
 }
 
 /**
