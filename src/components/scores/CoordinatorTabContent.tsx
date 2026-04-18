@@ -82,7 +82,7 @@ export default function CoordinatorTabContent({ eventId, event }: EventScoresPro
 
                                                 const matchId = resolvedMeet.Matches![m].Id;
                                                 const roomId = resolvedMeet.IsIndividualCompetition
-                                                    ? ((match.Quizzers?.length ?? 0) > 0 ? resolvedMeet.Quizzers![0].Matches![m]!.RoomId : room.RoomId)
+                                                    ? room.RoomId
                                                     : resolvedMeet.Teams![match.Team1!].Matches![m]!.RoomId;
                                                 if (roomId === null) {
                                                     return null;
