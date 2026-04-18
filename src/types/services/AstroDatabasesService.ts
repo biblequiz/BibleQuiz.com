@@ -395,10 +395,15 @@ export class OnlineDatabaseSettings {
     public UseCustomSchedule!: boolean;
 
     /**
-     * New custom schedule template for the database. This is only used if UseCustomSchedule is true. Server always returns null for this,
-     * but UseCustomSchedule indicates whether there is a value on the server.
+     * New custom schedule template for the database (only honored if IsScheduleChanged is true). Server always returns null for this,
+     * but HasCustomSchedule indicates whether there is a value on the server.
      */
     public Schedule!: ScheduleTemplate | null;
+
+    /**
+     * Value indicating whether Schedule is changed and should be saved on the server.
+     */
+    public IsScheduleChanged!: boolean;
 }
 
 /**

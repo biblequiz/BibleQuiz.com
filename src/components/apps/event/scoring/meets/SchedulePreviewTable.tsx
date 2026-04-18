@@ -18,6 +18,7 @@ interface Props {
     disabled: boolean;
     isReadOnly: boolean;
     useOptimizer: boolean;
+    showMatchTimes: boolean;
     matchTimes: Record<number, string | null>;
     onUseOptimizerChange: (value: boolean) => void;
     onRefreshPreview: () => void;
@@ -39,6 +40,7 @@ export default function SchedulePreviewTable({
     disabled,
     isReadOnly,
     useOptimizer,
+    showMatchTimes,
     matchTimes,
     onUseOptimizerChange,
     onRefreshPreview,
@@ -181,48 +183,49 @@ export default function SchedulePreviewTable({
                                     );
                                 })}
                             </tbody>
-                            <tfoot>
-                                <tr className="border-t-2 border-base-300">
-                                    <td className="font-semibold">
-                                        Match Time
-                                        {!isReadOnly && (
-                                            <button
-                                                type="button"
-                                                className="btn btn-xs btn-outline ml-1"
-                                                onClick={onResetMatchTimes}
-                                                disabled={disabled || isRefreshing}
-                                                title="Reset match times"
-                                            >
-                                                <FontAwesomeIcon icon="fas faRotateLeft" />
-                                                <span>Reset Times</span>
-                                            </button>
-                                        )}
-                                    </td>
-                                    {Object.entries(schedulePreview.Matches).map(([matchId]) => {
-                                        const matchIdNum = Number(matchId);
-                                        const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "") || "";
-                                        const inputValue = draftMatchTimes[matchIdNum] ?? formattedValue;
-                                        return (
-                                            <td key={`time-${matchId}`} className="text-center">
-                                                {isReadOnly ? (
-                                                    <span>{formattedValue || "--"}</span>
-                                                ) : (
-                                                    <input
-                                                        type="time"
-                                                        className="input input-xs input-bordered w-20 text-center"
-                                                        value={inputValue}
-                                                        onChange={(e) => handleDraftTimeChange(matchIdNum, e.target.value)}
-                                                        onBlur={(e) => {
-                                                            handleDraftTimeBlur(matchIdNum, e.target.value, matchTimes[matchIdNum] ?? null);
-                                                        }}
-                                                        disabled={disabled || isRefreshing}
-                                                    />
-                                                )}
-                                            </td>
-                                        );
-                                    })}
-                                </tr>
-                            </tfoot>
+                            {showMatchTimes && (
+                                <tfoot>
+                                    <tr className="border-t-2 border-base-300">
+                                        <td className="font-semibold">
+                                            Match Time
+                                            {!isReadOnly && (
+                                                <button
+                                                    type="button"
+                                                    className="btn btn-xs btn-outline ml-1"
+                                                    onClick={onResetMatchTimes}
+                                                    disabled={disabled || isRefreshing}
+                                                    title="Reset match times"
+                                                >
+                                                    <FontAwesomeIcon icon="fas faRotateLeft" />
+                                                    <span>Reset Times</span>
+                                                </button>
+                                            )}
+                                        </td>
+                                        {Object.entries(schedulePreview.Matches).map(([matchId]) => {
+                                            const matchIdNum = Number(matchId);
+                                            const formattedValue = DataTypeHelpers.formatTimeSpanAsTime(matchTimes[matchIdNum] ?? "") || "";
+                                            const inputValue = draftMatchTimes[matchIdNum] ?? formattedValue;
+                                            return (
+                                                <td key={`time-${matchId}`} className="text-center">
+                                                    {isReadOnly ? (
+                                                        <span>{formattedValue || "--"}</span>
+                                                    ) : (
+                                                        <input
+                                                            type="time"
+                                                            className="input input-xs input-bordered w-20 text-center"
+                                                            value={inputValue}
+                                                            onChange={(e) => handleDraftTimeChange(matchIdNum, e.target.value)}
+                                                            onBlur={(e) => {
+                                                                handleDraftTimeBlur(matchIdNum, e.target.value, matchTimes[matchIdNum] ?? null);
+                                                            }}
+                                                            disabled={disabled || isRefreshing}
+                                                        />
+                                                    )}
+                                                </td>
+                                            );
+                                        })}
+                                    </tr>
+                                </tfoot>)}
                         </table>
                     </div>
                 )
