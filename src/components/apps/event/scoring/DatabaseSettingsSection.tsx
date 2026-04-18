@@ -154,13 +154,11 @@ export default function DatabaseSettingsSection({
     const handleExportSchedule = async () => {
         if (!settings?.DatabaseId) return;
 
-        const template: ScheduleTemplate = customSchedule ?? new ScheduleTemplate();
         await AstroDatabasesService.getScheduleTemplate(
             auth,
             eventId,
             settings.DatabaseId,
-            template
-        );
+            customSchedule);
     };
 
     const handleUploadSchedule = async (e: React.ChangeEvent<HTMLInputElement>) => {

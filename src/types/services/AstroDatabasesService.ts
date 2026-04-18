@@ -176,7 +176,7 @@ export class AstroDatabasesService {
         auth: AuthManager,
         eventId: string,
         databaseId: string,
-        template: ScheduleTemplate,
+        template: ScheduleTemplate | null,
     ): Promise<void> {
         return RemoteServiceUtility.downloadFromHttpRequest(
             auth,
@@ -186,6 +186,7 @@ export class AstroDatabasesService {
             undefined,
             undefined,
             template ?? null,
+            true,
         );
     }
 
