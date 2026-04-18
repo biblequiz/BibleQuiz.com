@@ -410,7 +410,7 @@ export enum OnlineMeetMatchRankingType {
     HighestPointsWins,
 
     /**
-     * Rank by the fastest to quiz out (regardless of incorrectly answered questions).
+     * Rank by the fastest to quiz out.
      */
-    FastestToQuizOutWinsIgnoringIncorrect,
+    FastestToQuizOut,
 }
