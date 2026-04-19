@@ -167,7 +167,7 @@ export default function DivisionScheduleDialog({
                     // Custom schedule from server
                     const hasCustom = data.Schedule.HasCustomSchedule || false;
                     setHasCustomSchedule(hasCustom);
-                    setUseOptimizer(data.Schedule.UseOptimizer);
+                    setUseOptimizer(!isIndividualCompetition && data.Schedule.UseOptimizer);
                 }
 
                 if (data.MatchTimes && data.Preview && !isNew) {
