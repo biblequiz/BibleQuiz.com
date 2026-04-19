@@ -284,6 +284,9 @@ function RoomDialogTeamTable({ primaryRowClass, team, addSpace, report }: TableP
                     case QuizzedOutState[QuizzedOutState.QuizzedOutBackward]:
                         quizOutClass = "strike-out";
                         break;
+                    case QuizzedOutState[QuizzedOutState.Unseated]:
+                        quizOutClass = "unseated";
+                        break;
                 }
 
                 return (

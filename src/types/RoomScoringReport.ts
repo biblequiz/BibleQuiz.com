@@ -245,8 +245,8 @@ export class RoomScoringReportQuizzer {
     public readonly Questions!: Record<number, number>;
 
     /**
-     * Ranking of the quizzer within the room. This will be null if the rank has not yet been guaranteed or if this room
-     * was calculated prior to this property being added.
+     * Ranking of the quizzer within the room. This will be null if the quizzer wasn't actually competing or if this room was calculated prior
+     * to this property being added.
      */
     public readonly RankedOrder!: number | null;
 }
@@ -269,4 +269,9 @@ export enum QuizzedOutState {
      * Quizzer quizzed out backward.
      */
     QuizzedOutBackward = "QuizzedOutBackward",
+
+    /**
+     * Quizzer was unseated as they either couldn't be beaten or they could no longer catch the top position(s).
+     */
+    Unseated = "Unseated",
 }
