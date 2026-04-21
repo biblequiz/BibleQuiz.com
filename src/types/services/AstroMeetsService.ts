@@ -413,4 +413,9 @@ export enum OnlineMeetMatchRankingType {
      * Rank by the fastest to quiz out.
      */
     FastestToQuizOut,
+
+    /**
+     * Rank by the fastest to the top score in the room.
+     */
+    FastestToTopScore,
 }

@@ -343,8 +343,8 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         if (quizOutBackward.enabled && quizOutBackward.questions > totalQuestions) {
             return `Quiz Out Backward after ${quizOutBackward.questions} question(s) exceeds the ${totalQuestions} question(s) in the match.`;
         }
-        if (totalQuestions > 20) {
-            return "Scoring software doesn't currently support more than 20 questions.";
+        if (totalQuestions > 30) {
+            return "Scoring software doesn't currently support more than 30 questions.";
         }
         if (timer.enabled) {
             if (timer.warnEnabled && timer.initial < timer.warn) {
