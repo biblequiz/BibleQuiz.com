@@ -18,6 +18,7 @@ export class MatchRules {
         this.FoulPoints = 5;
         this.MaxTimeouts = 3;
         this.ContestRules = new ContestRules();
+        this.RereadCount = 1;
         this.IsIndividualCompetition = false;
     }
 
@@ -87,6 +88,11 @@ export class MatchRules {
     public ContestRules: ContestRules;
 
     /**
+     * Number of times an incorrectly answered question can be reread.
+     */
+    public RereadCount: number;
+
+    /**
      * Rules for timing.
      */
     public TimingRules?: TimingRules;
@@ -119,7 +125,7 @@ export class MatchRules {
                     return `${count} x ${points} (${incorrectPoints} Incorrect)`;
                 })
                 .join(", ");
-            lines.push(`<li><b>Questions:</b> ${questionsDisplay}</li>`);
+            lines.push(`<li><b>Questions:</b> ${questionsDisplay} (reread ${rules.RereadCount} time(s))</li>`);
         }
 
         // Point value rules
@@ -240,6 +246,10 @@ export class MatchRules {
 
             if (unseatRule.UnseatIfNextRoomGuaranteed) {
                 conditions.push("next room guaranteed");
+            }
+
+            if (unseatRule.UnseatIfMaxScore !== null && unseatRule.UnseatIfMaxScore !== undefined) {
+                conditions.push(`at least ${unseatRule.UnseatIfMaxScore} points`);
             }
 
             if (conditions.length > 0) {
@@ -392,6 +402,11 @@ export class UnseatRule {
      * Value indicating whether to unseat a quizzer if they cannot advance to the next room.
      */
     public UnseatIfCannotAdvance: boolean;
+
+    /**
+     * Unseat the quizzer if their score is at least this value.
+     */
+    public UnseatIfMaxScore?: number | null;
 }
 
 /**
