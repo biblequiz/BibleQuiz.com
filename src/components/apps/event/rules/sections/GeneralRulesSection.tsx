@@ -18,7 +18,7 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
             defaultOpen={true}
             allowMultipleOpen={true}
         >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-0 p-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-0 p-2">
                 <div className="form-control w-full mt-0">
                     <label className="label">
                         <span className="label-text font-medium">Competition Abbreviation</span>
@@ -78,6 +78,23 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
                         max={10}
                         required
                     />
+                </div>
+                <div className="form-control w-full mt-0">
+                    <label className="label">
+                        <span className="label-text font-medium">Max. Rereads</span>
+                        <span className="label-text-alt text-error">*</span>
+                    </label>
+                    <select
+                        className="select w-full mt-0 mb-0"
+                        value={state.rereadCount}
+                        onChange={e => onChange({ rereadCount: parseInt(e.target.value) })}
+                        disabled={disabled}
+                        required
+                    >
+                        <option value={0}>0</option>
+                        <option value={1}>1</option>
+                        <option value={2}>2</option>
+                    </select>
                 </div>
             </div>
         </CollapsibleSection>

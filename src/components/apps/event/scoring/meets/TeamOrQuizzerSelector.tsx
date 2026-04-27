@@ -125,6 +125,15 @@ export default function TeamOrQuizzerSelector({
         setDragOverIndex(null);
     };
 
+    const handleRandomize = () => {
+        const shuffled = [...selectedIds];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        onIdsChange(shuffled);
+    };
+
     return (
         <div className="p-2 mt-0">
             {/* Add item dropdown */}
@@ -170,6 +179,15 @@ export default function TeamOrQuizzerSelector({
                                 </button>)}
                         </>
                     )}
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-outline mt-0"
+                        onClick={handleRandomize}
+                        disabled={disabled || selectedIds.length <= 1 || isReadOnly}
+                    >
+                        <FontAwesomeIcon icon="fas faShuffle" />
+                        Randomize
+                    </button>
                     <button
                         type="button"
                         className="btn btn-sm btn-outline btn-error mt-0"

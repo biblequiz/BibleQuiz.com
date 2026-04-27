@@ -32,7 +32,7 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
                             onChange={e => onChange({ count10s: parseInt(e.target.value) || 0 })}
                             disabled={disabled}
                             min={0}
-                            max={20}
+                            max={30}
                             step={1}
                         />
                     </div>
@@ -47,7 +47,7 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
                             onChange={e => onChange({ count20s: parseInt(e.target.value) || 0 })}
                             disabled={disabled}
                             min={0}
-                            max={20}
+                            max={30}
                             step={1}
                         />
                     </div>
@@ -62,7 +62,7 @@ export default function QuestionCountsSection({ state, onChange, disabled = fals
                             onChange={e => onChange({ count30s: parseInt(e.target.value) || 0 })}
                             disabled={disabled}
                             min={0}
-                            max={20}
+                            max={30}
                             step={1}
                         />
                     </div>

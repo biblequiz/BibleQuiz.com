@@ -1,0 +1,1172 @@
+{
+  "EventName": "West Florida 2026 Network Final",
+  "DatabaseNames": {
+    "aedda713-5a03-4577-ac5e-0d185e5b798c": "2026_WFL_Network_Finals"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "aedda713-5a03-4577-ac5e-0d185e5b798c",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2026 West Florida Network Finals",
+        "LastUpdated": "4/11/26 3:53 PM",
+        "DatabaseLastUpdated": "2026-04-11T14:12:13.5404642+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Erika Womble",
+            "Quizzers": [
+              9,
+              12,
+              13,
+              20
+            ],
+            "Id": "t_365ea74457384d0ab391bf691870d24e",
+            "Name": "Carmel Quizzers",
+            "ChurchId": "e85c74b9-73b4-468f-b46c-8bcdaf63d448",
+            "ChurchName": "Carmel Assembly of God",
+            "City": "Bonifay",
+            "State": "FL",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 21,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ann Black",
+            "Quizzers": [
+              8,
+              10,
+              15,
+              21
+            ],
+            "Id": "t_3fd00c7494544f749abb357ffab78575",
+            "Name": "CIA Christians In Action",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 102.5,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 15,
+              "Correct20s": 10,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Omar Hanson",
+            "Quizzers": [
+              2,
+              14,
+              17
+            ],
+            "Id": "t_f17d0ef541754b66ae98cd9e07304589",
+            "Name": "God's Masterpiece",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 16,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kaitlyn Hicks",
+            "Quizzers": [
+              1,
+              3,
+              4,
+              19
+            ],
+            "Id": "t_788d5e46bf8d48c686531e8f0b2c6b12",
+            "Name": "Good News Crew",
+            "ChurchId": "bc0c367e-ae4b-4431-8229-321e4cf6b9d7",
+            "ChurchName": "Evangel Worship Center Assembly of God",
+            "City": "Marianna",
+            "State": "FL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Renee Lunsford",
+            "Quizzers": [
+              0,
+              5,
+              6,
+              7,
+              11,
+              16,
+              18
+            ],
+            "Id": "t_a68c6f14caac41a483e69d562ef4987a",
+            "Name": "More Than Conquerors",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 286.2,
+              "AverageCorrect": 17.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 33,
+              "Correct20s": 24,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 305,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 275,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 335,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          4,
+          1,
+          0,
+          3,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_d49c2b3b9e594fc2a11708dd6a45f98a",
+            "Name": "Ava Daughty",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News Crew",
+            "YearsQuizzing": null,
+            "Id": "q_97c571b4136a48a84b2e08de1e1489a6",
+            "Name": "Ava James",
+            "ChurchId": "bc0c367e-ae4b-4431-8229-321e4cf6b9d7",
+            "ChurchName": "Evangel Worship Center Assembly of God",
+            "City": "Marianna",
+            "State": "FL",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_211bd83c32db447cb3fa08dd5f7febbb",
+            "Name": "Ava Manning",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 12,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News Crew",
+            "YearsQuizzing": null,
+            "Id": "q_87de4d2cb7e645fa364e08ddf5f7cb28",
+            "Name": "Brayson Callaway",
+            "ChurchId": "bc0c367e-ae4b-4431-8229-321e4cf6b9d7",
+            "ChurchName": "Evangel Worship Center Assembly of God",
+            "City": "Marianna",
+            "State": "FL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News Crew",
+            "YearsQuizzing": null,
+            "Id": "q_8a0ea4a9ba9d47f01aaf08de916a79fd",
+            "Name": "Brooks Ballard",
+            "ChurchId": "bc0c367e-ae4b-4431-8229-321e4cf6b9d7",
+            "ChurchName": "Evangel Worship Center Assembly of God",
+            "City": "Marianna",
+            "State": "FL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_980371f0a7a14dd92cce08dc5db74629",
+            "Name": "Conley Burdge",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_d722bcb6ada74e2f2cc808dc5db74629",
+            "Name": "Daniel Bottini",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.8,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 17,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_d097a110b4ce40512cc208dc5db74629",
+            "Name": "Dorothy Lunsford",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CIA Christians In Action",
+            "YearsQuizzing": null,
+            "Id": "q_7461a29896744b72cfa308dc5be0be98",
+            "Name": "Elijah Manning (Eli)",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.8,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Carmel Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_bcfad5b858a1407e14bb08dd6ff6e677",
+            "Name": "Jasper Jenkins",
+            "ChurchId": "e85c74b9-73b4-468f-b46c-8bcdaf63d448",
+            "ChurchName": "Carmel Assembly of God",
+            "City": "Bonifay",
+            "State": "FL",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CIA Christians In Action",
+            "YearsQuizzing": null,
+            "Id": "q_d2cc3054b80c40d0b3f508dd5f7febbb",
+            "Name": "Jaynie Jimenez",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_289a07d5051943b5d17608de1fc083f0",
+            "Name": "Jihoon Lee",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Carmel Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_61231604e2484d5c14b508dd6ff6e677",
+            "Name": "JoHannah Jenkins",
+            "ChurchId": "e85c74b9-73b4-468f-b46c-8bcdaf63d448",
+            "ChurchName": "Carmel Assembly of God",
+            "City": "Bonifay",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Carmel Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_a6b702fc3cf44787cecf08dc5be0be98",
+            "Name": "Jonah Jenkins",
+            "ChurchId": "e85c74b9-73b4-468f-b46c-8bcdaf63d448",
+            "ChurchName": "Carmel Assembly of God",
+            "City": "Bonifay",
+            "State": "FL",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 14,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_943a0511e2b14468b3f008dd5f7febbb",
+            "Name": "Josie Tomczyk",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CIA Christians In Action",
+            "YearsQuizzing": null,
+            "Id": "q_5c402f0ade764884b3ff08dd5f7febbb",
+            "Name": "Lilianna Jeska",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_03d2773ec49c4622a11108dd6a45f98a",
+            "Name": "Luke Baldwin",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 585,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 146.2,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 0,
+              "Correct20s": 14,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Masterpiece",
+            "YearsQuizzing": null,
+            "Id": "q_dc57bd4471fe42516c8008dddb1f3eb3",
+            "Name": "Rain Burge",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "More Than Conquerors",
+            "YearsQuizzing": null,
+            "Id": "q_d596e16cb9ca44fcb1df08ddf3d12f3b",
+            "Name": "Reagan Burdge",
+            "ChurchId": "37a07c41-ca32-4ce2-8c49-96431fe0946c",
+            "ChurchName": "Freedom Church First Assembly of God",
+            "City": "Tallahassee",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News Crew",
+            "YearsQuizzing": null,
+            "Id": "q_aedda7135a034577ac5e0d185e5b798c_32",
+            "Name": "Saylor James",
+            "ChurchId": "bc0c367e-ae4b-4431-8229-321e4cf6b9d7",
+            "ChurchName": "Evangel Worship Center Assembly of God",
+            "City": "Marianna",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Carmel Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_a6fb2462961d41ff832708d871541bc3",
+            "Name": "Taylor Womble",
+            "ChurchId": "e85c74b9-73b4-468f-b46c-8bcdaf63d448",
+            "ChurchName": "Carmel Assembly of God",
+            "City": "Bonifay",
+            "State": "FL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CIA Christians In Action",
+            "YearsQuizzing": null,
+            "Id": "q_97780448d9b44d6ccfa508dc5be0be98",
+            "Name": "Thaddaeus Jeska (Thad)",
+            "ChurchId": "0666c15c-8b4f-4171-84a3-ff4fcaf49f1d",
+            "ChurchName": "Emerald Coast Church",
+            "City": "Fort Walton Beach",
+            "State": "FL",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          16,
+          8,
+          6,
+          13,
+          5,
+          7,
+          2,
+          3,
+          9,
+          14,
+          1,
+          10,
+          4,
+          21,
+          0,
+          11,
+          12,
+          15,
+          17,
+          18,
+          19,
+          20
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-04-11T15:53:02.413901+00:00"
+}

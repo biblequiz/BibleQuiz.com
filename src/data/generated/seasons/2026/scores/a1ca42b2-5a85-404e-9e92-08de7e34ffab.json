@@ -12,9 +12,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Championship - League Meet 5",
-        "LastUpdated": "3/14/26 6:32 PM",
-        "DatabaseLastUpdated": "2026-03-14T15:22:00.5681372+00:00",
+        "LastUpdated": "4/11/26 3:50 AM",
+        "DatabaseLastUpdated": "2026-04-11T00:48:45.964694+00:00",
         "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": null,
@@ -22,64 +23,7 @@
               3,
               8
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 2
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_1",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_1",
             "Name": "Calvary Church - A",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -101,7 +45,64 @@
               "Correct20s": 18,
               "Correct30s": 17,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -109,64 +110,7 @@
               7,
               9
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 115,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_2",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_2",
             "Name": "Calvary Church - B",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -188,7 +132,64 @@
               "Correct20s": 19,
               "Correct30s": 8,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -196,64 +197,7 @@
               0,
               2
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 205,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 105,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_3",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_3",
             "Name": "Calvary Church - C",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -275,7 +219,64 @@
               "Correct20s": 21,
               "Correct30s": 2,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 135,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -285,64 +286,7 @@
               5,
               6
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "A",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 110,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_4",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_4",
             "Name": "Stone Church",
             "ChurchId": null,
             "ChurchName": "Orland Park",
@@ -364,7 +308,64 @@
               "Correct20s": 22,
               "Correct30s": 5,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -378,7 +379,7 @@
           {
             "TeamName": "Calvary Church - C",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_12",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_12",
             "Name": "Aaron Malgireddy",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -397,12 +398,14 @@
               "Correct20s": 11,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Stone Church",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_31",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_31",
             "Name": "Elie Abdelnour",
             "ChurchId": null,
             "ChurchName": "Orland Park",
@@ -421,12 +424,14 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Calvary Church - C",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_4",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_4",
             "Name": "Elizabeth Siony",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -445,12 +450,14 @@
               "Correct20s": 10,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Calvary Church - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_6",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_6",
             "Name": "Extra-2",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -469,12 +476,14 @@
               "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Stone Church",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_29",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_29",
             "Name": "Favor Oladeji",
             "ChurchId": null,
             "ChurchName": "Orland Park",
@@ -493,12 +502,14 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Stone Church",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_32",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_32",
             "Name": "Gabby Wick",
             "ChurchId": null,
             "ChurchName": "Orland Park",
@@ -517,12 +528,14 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Stone Church",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_30",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_30",
             "Name": "Nathan Muchowicz",
             "ChurchId": null,
             "ChurchName": "Orland Park",
@@ -541,12 +554,14 @@
               "Correct20s": 20,
               "Correct30s": 5,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Calvary Church - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_3",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_3",
             "Name": "Nathan Raj",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -565,12 +580,14 @@
               "Correct20s": 10,
               "Correct30s": 2,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Calvary Church - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_2",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_2",
             "Name": "Shaylee Powell",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -589,12 +606,14 @@
               "Correct20s": 13,
               "Correct30s": 17,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Calvary Church - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_11",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_11",
             "Name": "Timothy Harris",
             "ChurchId": null,
             "ChurchName": "Naperville",
@@ -613,7 +632,9 @@
               "Correct20s": 9,
               "Correct30s": 6,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
@@ -644,6 +665,8 @@
                 "LinkedMeet": null,
                 "Team1": 3,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -652,6 +675,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -660,6 +685,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -668,6 +695,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -676,6 +705,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -684,6 +715,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -697,6 +730,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -705,6 +740,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -713,6 +750,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -721,6 +760,8 @@
                 "LinkedMeet": null,
                 "Team1": 3,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -729,6 +770,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -737,6 +780,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -801,9 +846,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender - League Meet 5",
-        "LastUpdated": "3/14/26 6:32 PM",
-        "DatabaseLastUpdated": "2026-03-14T15:22:00.5681372+00:00",
+        "LastUpdated": "4/11/26 3:50 AM",
+        "DatabaseLastUpdated": "2026-04-11T00:48:45.964694+00:00",
         "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": null,
@@ -813,64 +859,7 @@
               5,
               6
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 2
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_5",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_5",
             "Name": "Carlinville First - A",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -892,7 +881,64 @@
               "Correct20s": 15,
               "Correct30s": 2,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -901,64 +947,7 @@
               2,
               9
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 260,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 195,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 175,
-                "OtherTeam": 3
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_7",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_7",
             "Name": "Carlinville First - B",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -980,7 +969,64 @@
               "Correct20s": 33,
               "Correct30s": 6,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 260,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -989,64 +1035,7 @@
               10,
               11
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 60,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_10",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_10",
             "Name": "Cornerstone - A",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1068,7 +1057,64 @@
               "Correct20s": 22,
               "Correct30s": 6,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -1077,64 +1123,7 @@
               8,
               12
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 120,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 80,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 15,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": -35,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_11323170-0ffa-4e61-b20c-cef7b29b2e20_12",
+            "Id": "t_113231700ffa4e61b20ccef7b29b2e20_12",
             "Name": "Cornerstone - B",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1156,7 +1145,64 @@
               "Correct20s": 9,
               "Correct30s": 2,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -35,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -1175,7 +1221,7 @@
           {
             "TeamName": "Carlinville First - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_40",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_40",
             "Name": "Anna Cloninger",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1194,12 +1240,14 @@
               "Correct20s": 15,
               "Correct30s": 5,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville First - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_38",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_38",
             "Name": "Ben Schuette",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1218,12 +1266,14 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville First - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_57",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_57",
             "Name": "Bethany Cloninger",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1242,12 +1292,14 @@
               "Correct20s": 18,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville First - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_39",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_39",
             "Name": "Braden Bowker",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1266,12 +1318,14 @@
               "Correct20s": 8,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Cornerstone - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_88",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_88",
             "Name": "Caroline Nitecki",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1290,12 +1344,14 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville First - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_56",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_56",
             "Name": "Ethan Cloninger",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1314,12 +1370,14 @@
               "Correct20s": 5,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville First - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_59",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_59",
             "Name": "Ethan Schuette",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1338,12 +1396,14 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Cornerstone - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_84",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_84",
             "Name": "Hadassah Hobson",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1362,12 +1422,14 @@
               "Correct20s": 4,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Cornerstone - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_86",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_86",
             "Name": "Hannah Hobson",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1386,12 +1448,14 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville First - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_58",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_58",
             "Name": "Malia Bowker",
             "ChurchId": null,
             "ChurchName": "Carlinville",
@@ -1410,12 +1474,14 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Cornerstone - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_87",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_87",
             "Name": "Savannah Nitecki",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1434,12 +1500,14 @@
               "Correct20s": 10,
               "Correct30s": 5,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Cornerstone - A",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_83",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_83",
             "Name": "Titus Cloninger",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1458,12 +1526,14 @@
               "Correct20s": 8,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Cornerstone - B",
             "YearsQuizzing": null,
-            "Id": "q_11323170-0ffa-4e61-b20c-cef7b29b2e20_85",
+            "Id": "q_113231700ffa4e61b20ccef7b29b2e20_85",
             "Name": "Zion Hobson",
             "ChurchId": null,
             "ChurchName": "Bethalto",
@@ -1482,7 +1552,9 @@
               "Correct20s": 7,
               "Correct30s": 2,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
@@ -1511,6 +1583,8 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1519,6 +1593,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1527,6 +1603,8 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1535,6 +1613,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1543,6 +1623,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1551,6 +1633,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1564,6 +1648,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1572,6 +1658,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1580,6 +1668,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1588,6 +1678,8 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1596,6 +1688,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1604,6 +1698,8 @@
                 "LinkedMeet": null,
                 "Team1": 2,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1693,5 +1789,5 @@
       }
     }
   ],
-  "Freshness": "2026-03-14T18:32:17.8417781+00:00"
+  "Freshness": "2026-04-11T00:48:46.4723927+00:00"
 }

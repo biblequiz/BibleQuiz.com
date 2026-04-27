@@ -61,6 +61,11 @@ export default function StatsTabContent({
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
 
+                // Individual competition don't have a stats view as quizzer scores cannot be compared between matches.
+                if (meet.IsIndividualCompetition) {
+                    return null;
+                }
+
                 if (selectedMeets && selectedMeets.length > 0) {
                     const selectedMeetRef = selectedMeets.find(
                         m => m.databaseId === meet.DatabaseId && m.meetId === meet.MeetId);

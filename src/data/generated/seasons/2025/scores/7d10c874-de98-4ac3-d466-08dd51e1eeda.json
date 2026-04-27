@@ -1,0 +1,2683 @@
+{
+  "EventName": "MIJBQ 2025 State Finals Master Division",
+  "DatabaseNames": {
+    "3b2e94b9-d4ca-43c0-a3ed-06dd9eb0e689": "MIJBQ_2025_Master_league_State_Finals",
+    "852f5ff9-8d3d-4d85-9035-9651529dbcf3": "SouthWest_2026"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "3b2e94b9-d4ca-43c0-a3ed-06dd9eb0e689",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2025 Master League State Finals",
+        "LastUpdated": "4/2/25 3:10 PM",
+        "DatabaseLastUpdated": "2025-04-03T02:32:48.915377+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Korinne King",
+            "Quizzers": [
+              4,
+              6,
+              14
+            ],
+            "Id": "t_eb5c08f8589e40a2af5c9b609eab3bbe",
+            "Name": "A Living & Holy Sacrifice",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null,
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Paul Chapman",
+            "Quizzers": [
+              0,
+              7,
+              13,
+              22
+            ],
+            "Id": "t_f8fc983d81d8472bb85e2abf59e1b59e",
+            "Name": "All in the Family",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jun Chen",
+            "Quizzers": [
+              2,
+              8,
+              9,
+              10,
+              11,
+              17,
+              21
+            ],
+            "Id": "t_a5f0dd65be714ef3bda316452a4b0076",
+            "Name": "JBQ Koalas",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Rick Harr",
+            "Quizzers": [
+              1,
+              5,
+              12,
+              15,
+              18,
+              19
+            ],
+            "Id": "t_bfb8b17d27274ba7b9899e0d9a3896e0",
+            "Name": "Journey Life Church (Holt) #1",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "ROY MILLS",
+            "Quizzers": [
+              3,
+              16,
+              20,
+              23
+            ],
+            "Id": "t_53a9dae90e25473ca1b3b378db15cda2",
+            "Name": "Not Those Kids",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_db953d3b3f824fc31aee08dc25f7bba1",
+            "Name": "Abigail Usman",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8639d094d1c54e25a58308dd6a45f98a",
+            "Name": "Adelaide Blevins",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_43e7829d27ba497a932108dd5453051f",
+            "Name": "Ayden Clemente",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_c4ba81ac5c5143ffe3bd08dd6bc45088",
+            "Name": "Barrett Ward",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_57669f4b089e47471dbf08dd6e6b2000",
+            "Name": "Brooklyn Warf",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7a88c0de73b744d4b35f08dd439aeab0",
+            "Name": "Chloe Meyers",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_3e51c70bc36247157eab08db0ac77150",
+            "Name": "Coby Vandercook",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_1af94a2c04b64d994a9508db2721723e",
+            "Name": "David Song",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_91f82fbc4da64462247b08dc609df86d",
+            "Name": "Dylan Clemente",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_a5ddaedc889b43f2930f08dd5453051f",
+            "Name": "Eliora Chen",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_6b12c9e7cae042a3934508dd5453051f",
+            "Name": "Elliot Chen",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_c96ba509a87d4dff1adb08dc25f7bba1",
+            "Name": "Emily Cioaca",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_5b121482a4c240f9f61408dd5f7ffcc6",
+            "Name": "Emmeline Blevins",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_d0f6571d2b4d4b614a9008db2721723e",
+            "Name": "Henry Yatooma",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_71b42c31d26c47f5f4b808dd5b8c5103",
+            "Name": "Jacob King",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8378d5ad6323471df8f708d8f2259de8",
+            "Name": "JJ Burns",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_f9b2ae21026b4b3be3c308dd6bc45088",
+            "Name": "Jonah Simon",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_e7c1c26ae8fe423092cd08dd5453051f",
+            "Name": "Joseph Oyekoya",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_10c8279877e64371f62808dd5f7ffcc6",
+            "Name": "Lily Meyers",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_728b77e0e3dd416fa57d08dd6a45f98a",
+            "Name": "Olivia Burns",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_cbb2985470cf47ebe3b708dd6bc45088",
+            "Name": "Raphael Gideon",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_950a149b6581481b927e08dd5453051f",
+            "Name": "Sharon Joshlyn",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_c6352b101d274bda5df908da1b51e388",
+            "Name": "Truitt Jundt",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_9c8fa0652bb44130e3a708dd6bc45088",
+            "Name": "William Ward",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": "11:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": "12:20 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 10,
+            "MatchTime": "12:45 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "852f5ff9-8d3d-4d85-9035-9651529dbcf3",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2025 Master League State Finals",
+        "LastUpdated": "4/19/26 12:26 AM",
+        "DatabaseLastUpdated": "2026-01-28T04:50:08.8160647+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Korinne King",
+            "Quizzers": [
+              4,
+              6,
+              14
+            ],
+            "Id": "t_eb5c08f8589e40a2af5c9b609eab3bbe",
+            "Name": "A Living & Holy Sacrifice",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 5,
+              "WinPercentage": 38,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 143.8,
+              "AverageCorrect": 9.1,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 30,
+              "Correct20s": 31,
+              "Correct30s": 12,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 250,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 125,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Paul Chapman",
+            "Quizzers": [
+              0,
+              7,
+              13,
+              23
+            ],
+            "Id": "t_f8fc983d81d8472bb85e2abf59e1b59e",
+            "Name": "All in the Family",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 4,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 158.8,
+              "AverageCorrect": 11.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 42,
+              "Correct20s": 33,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 225,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jun Chen",
+            "Quizzers": [
+              2,
+              8,
+              9,
+              10,
+              11,
+              17,
+              22
+            ],
+            "Id": "t_a5f0dd65be714ef3bda316452a4b0076",
+            "Name": "JBQ Koalas",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 5,
+              "WinPercentage": 38,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 795,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.4,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 33,
+              "Correct20s": 17,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Rick Harr",
+            "Quizzers": [
+              1,
+              5,
+              12,
+              15,
+              18,
+              20
+            ],
+            "Id": "t_bfb8b17d27274ba7b9899e0d9a3896e0",
+            "Name": "Journey Life Church (Holt) #1",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 5,
+              "WinPercentage": 38,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 950,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.8,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 40,
+              "Correct20s": 23,
+              "Correct30s": 11,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "ROY MILLS",
+            "Quizzers": [
+              3,
+              16,
+              19,
+              21,
+              24
+            ],
+            "Id": "t_53a9dae90e25473ca1b3b378db15cda2",
+            "Name": "Not Those Kids",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 1,
+              "WinPercentage": 88,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 172.5,
+              "AverageCorrect": 11.9,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 47,
+              "Correct20s": 35,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          4,
+          1,
+          0,
+          3,
+          2
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_db953d3b3f824fc31aee08dc25f7bba1",
+            "Name": "Abigail Usman",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.4,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 3,
+              "Correct20s": 16,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8639d094d1c54e25a58308dd6a45f98a",
+            "Name": "Adelaide Blevins",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.8,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 14,
+              "Correct20s": 2,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_43e7829d27ba497a932108dd5453051f",
+            "Name": "Ayden Clemente",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_c4ba81ac5c5143ffe3bd08dd6bc45088",
+            "Name": "Barrett Ward",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.2,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_57669f4b089e47471dbf08dd6e6b2000",
+            "Name": "Brooklyn Warf",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7a88c0de73b744d4b35f08dd439aeab0",
+            "Name": "Chloe Meyers",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_3e51c70bc36247157eab08db0ac77150",
+            "Name": "Coby Vandercook",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 845,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.6,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 1,
+              "Correct20s": 26,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_1af94a2c04b64d994a9508db2721723e",
+            "Name": "David Song",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.1,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 25,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_91f82fbc4da64462247b08dc609df86d",
+            "Name": "Dylan Clemente",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_a5ddaedc889b43f2930f08dd5453051f",
+            "Name": "Eliora Chen",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 535,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.9,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 0,
+              "Correct20s": 16,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_6b12c9e7cae042a3934508dd5453051f",
+            "Name": "Elliot Chen",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.1,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_c96ba509a87d4dff1adb08dc25f7bba1",
+            "Name": "Emily Cioaca",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_5b121482a4c240f9f61408dd5f7ffcc6",
+            "Name": "Emmeline Blevins",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.2,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_d0f6571d2b4d4b614a9008db2721723e",
+            "Name": "Henry Yatooma",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.6,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 13,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "A Living & Holy Sacrifice",
+            "YearsQuizzing": null,
+            "Id": "q_71b42c31d26c47f5f4b808dd5b8c5103",
+            "Name": "Jacob King",
+            "ChurchId": "009fbd64-250a-4d9e-923d-32f2b18c0bc0",
+            "ChurchName": "Compelled Church",
+            "City": "Temperance",
+            "State": "MI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.6,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 63,
+              "Correct10s": 22,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8378d5ad6323471df8f708d8f2259de8",
+            "Name": "JJ Burns",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 5,
+              "Correct20s": 15,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_f9b2ae21026b4b3be3c308dd6bc45088",
+            "Name": "Jonah Simon",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_e7c1c26ae8fe423092cd08dd5453051f",
+            "Name": "Joseph Oyekoya",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_10c8279877e64371f62808dd5f7ffcc6",
+            "Name": "Lily Meyers",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.6,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_5f95a69d977542f25efb08dd38b93b05",
+            "Name": "Neva Ward",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.6,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Journey Life Church (Holt) #1",
+            "YearsQuizzing": null,
+            "Id": "q_728b77e0e3dd416fa57d08dd6a45f98a",
+            "Name": "Olivia Burns",
+            "ChurchId": "0cbb5b3f-560b-4f65-a19e-349d6d233853",
+            "ChurchName": "Journey Life Church",
+            "City": "Holt",
+            "State": "MI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.6,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 19,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_cbb2985470cf47ebe3b708dd6bc45088",
+            "Name": "Raphael Gideon",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 450,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.2,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 0,
+              "Correct20s": 18,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "JBQ Koalas",
+            "YearsQuizzing": null,
+            "Id": "q_950a149b6581481b927e08dd5453051f",
+            "Name": "Sharon Joshlyn",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "All in the Family",
+            "YearsQuizzing": null,
+            "Id": "q_c6352b101d274bda5df908da1b51e388",
+            "Name": "Truitt Jundt",
+            "ChurchId": "9b920fcf-25a5-441b-bc73-3f6e203186c6",
+            "ChurchName": "Brightmoor Christian Church",
+            "City": "Novi",
+            "State": "MI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.6,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 1,
+              "Correct20s": 15,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Those Kids",
+            "YearsQuizzing": null,
+            "Id": "q_9c8fa0652bb44130e3a708dd6bc45088",
+            "Name": "William Ward",
+            "ChurchId": "bcf446fe-8db6-493a-a8a4-f59fa0a54645",
+            "ChurchName": "Lakeside Assembly of God",
+            "City": "Shelby Township",
+            "State": "MI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 525,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.6,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 0,
+              "Correct20s": 17,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          6,
+          9,
+          24,
+          0,
+          21,
+          23,
+          15,
+          1,
+          20,
+          19,
+          14,
+          7,
+          22,
+          16,
+          13,
+          4,
+          3,
+          11,
+          10,
+          5,
+          12,
+          2,
+          8,
+          17,
+          18
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 8,
+            "MatchTime": "11:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 9,
+            "MatchTime": "12:20 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 10,
+            "MatchTime": "12:45 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-04-18T23:31:24.3373029+00:00"
+}

@@ -81,6 +81,23 @@ export default function UnseatRulesSection({ state, onChange, disabled = false }
                         </span>
                     </label>
                 </div>
+
+                <div className="form-control w-full max-w-xs mt-2">
+                    <label className="label">
+                        <span className="label-text font-medium">Unseat if score:</span>
+                    </label>
+                    <input
+                        type="number"
+                        className="input w-full"
+                        value={state.unseatIfMaxScore ?? ""}
+                        onChange={e => {
+                            const value = e.target.value;
+                            onChange({ unseatIfMaxScore: value === "" ? null : parseInt(value) });
+                        }}
+                        disabled={disabled}
+                        placeholder="Optional Number of Points"
+                    />
+                </div>
             </div>
         </CollapsibleSection>
     );

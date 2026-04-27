@@ -1,0 +1,1062 @@
+{
+  "EventName": "2026 WNMD TBQ District Finals",
+  "DatabaseNames": {
+    "0a3bbb83-cde5-4676-b969-3bdc79e853bc": "2026 TBQ District Finals"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "0a3bbb83-cde5-4676-b969-3bdc79e853bc",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Championship",
+        "LastUpdated": "4/11/26 6:23 PM",
+        "DatabaseLastUpdated": "2026-04-11T14:13:07.7883701+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Ryan Langner",
+            "Quizzers": [
+              4,
+              5,
+              7,
+              14
+            ],
+            "Id": "t_53c9cb16621f4eef863d2acca793922d",
+            "Name": "Boscobel \"Go Eat PanCakes Please\"",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
+            "ChurchName": "Boscobel Assembly of God",
+            "City": "Boscobel",
+            "State": "WI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.2,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 15,
+              "Correct20s": 14,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Christopher Mank",
+            "Quizzers": [
+              8,
+              11
+            ],
+            "Id": "t_8fbafbb071cd4e0585afa9a6c00a3c79",
+            "Name": "Oak Creek \"Batch of Dough\"",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 224.2,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 20,
+              "Correct20s": 25,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Don Batty",
+            "Quizzers": [
+              1,
+              2,
+              12,
+              13,
+              15
+            ],
+            "Id": "t_be8c16c9cd344b71af0d76327d28a07c",
+            "Name": "Portage \"Surely You Remember\"",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 430,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.7,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 20,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Joshua Abbott",
+            "Quizzers": [
+              0,
+              3,
+              6,
+              9,
+              10,
+              16
+            ],
+            "Id": "t_618ae81c359441278f80ddcfe2c1bb19",
+            "Name": "Sparta \"Immature like Children\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 675,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 112.5,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 27,
+              "Correct20s": 17,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Sparta \"Immature like Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_3476d0cefaf44a069345b42904bafd9e",
+            "Name": "Ava Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Surely You Remember\"",
+            "YearsQuizzing": null,
+            "Id": "q_780923aad615415466c908d7a0284b34",
+            "Name": "Ava Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 14,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Surely You Remember\"",
+            "YearsQuizzing": null,
+            "Id": "q_e66564914fff479c00da08d9cd6f31c9",
+            "Name": "Brenna Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 5,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Immature like Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_03ce532b136a469a063908d8f2259de9",
+            "Name": "Eiliyah Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Boscobel \"Go Eat PanCakes Please\"",
+            "YearsQuizzing": null,
+            "Id": "q_ec5db26617fb4f3afac108ddfee5ce2e",
+            "Name": "Eli Ngahlem",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
+            "ChurchName": "Boscobel Assembly of God",
+            "City": "Boscobel",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Boscobel \"Go Eat PanCakes Please\"",
+            "YearsQuizzing": null,
+            "Id": "q_b8f47d721da14079fabc08ddfee5ce2e",
+            "Name": "Ella VandeHei",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
+            "ChurchName": "Boscobel Assembly of God",
+            "City": "Boscobel",
+            "State": "WI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 8,
+              "Correct20s": 8,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Immature like Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_5581b3626c024675063408d8f2259de9",
+            "Name": "Isabella Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.2,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Boscobel \"Go Eat PanCakes Please\"",
+            "YearsQuizzing": null,
+            "Id": "q_264ca28772a84a4dd1b408dce3c3a8b7",
+            "Name": "Kameron Langner",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
+            "ChurchName": "Boscobel Assembly of God",
+            "City": "Boscobel",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oak Creek \"Batch of Dough\"",
+            "YearsQuizzing": null,
+            "Id": "q_1ee2d8b99de94add298308daf5b040d4",
+            "Name": "Levi Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.8,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 19,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Immature like Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_3c8dee9cc60e4dc4063e08d8f2259de9",
+            "Name": "Libby Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Immature like Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_292632c2ff374e03062a08d8f2259de9",
+            "Name": "Lucas Abbott",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oak Creek \"Batch of Dough\"",
+            "YearsQuizzing": null,
+            "Id": "q_8759654677cd47b9c33b08d8f272c07b",
+            "Name": "Lucas Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 1,
+              "Correct20s": 17,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Surely You Remember\"",
+            "YearsQuizzing": null,
+            "Id": "q_9a74549d6ab54d5d6b5008db1c497da3",
+            "Name": "Noah Martens",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Surely You Remember\"",
+            "YearsQuizzing": null,
+            "Id": "q_c9e8f656cd324c966b5508db1c497da3",
+            "Name": "Nolan Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Boscobel \"Go Eat PanCakes Please\"",
+            "YearsQuizzing": null,
+            "Id": "q_8cc0549163404284fab308ddfee5ce2e",
+            "Name": "Sam VandeHei",
+            "ChurchId": "5df87a05-9c58-46ea-869c-7b7ff0c14371",
+            "ChurchName": "Boscobel Assembly of God",
+            "City": "Boscobel",
+            "State": "WI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.5,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Surely You Remember\"",
+            "YearsQuizzing": null,
+            "Id": "q_72ffe61b6b8f429d6b5a08db1c497da3",
+            "Name": "Silas Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint Assembly of God",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Immature like Children\"",
+            "YearsQuizzing": null,
+            "Id": "q_d30a29315ff14cff16e808da165f544a",
+            "Name": "Will Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 12,
+              "Correct20s": 6,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          11,
+          8,
+          1,
+          16,
+          10,
+          5,
+          14,
+          2,
+          6,
+          0,
+          3,
+          4,
+          7,
+          9,
+          12,
+          15,
+          13
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-04-11T18:23:57.2992424+00:00"
+}

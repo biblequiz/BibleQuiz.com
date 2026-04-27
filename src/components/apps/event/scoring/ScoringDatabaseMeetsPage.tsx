@@ -426,7 +426,7 @@ export default function ScoringDatabaseMeetsPage() {
                         <div className="flex gap-2">
                             <button
                                 type="button"
-                                className="btn btn-primary"
+                                className="btn btn-primary mt-0"
                                 onClick={handleAddTeamDivision}
                             >
                                 <FontAwesomeIcon icon="fas faPlus" />
@@ -434,7 +434,7 @@ export default function ScoringDatabaseMeetsPage() {
                             </button>
                             <button
                                 type="button"
-                                className="btn btn-secondary"
+                                className="btn btn-secondary mt-0"
                                 onClick={handleAddIndividualDivision}
                             >
                                 <FontAwesomeIcon icon="fas faPlus" />

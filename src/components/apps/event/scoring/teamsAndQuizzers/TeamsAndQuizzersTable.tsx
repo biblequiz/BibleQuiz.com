@@ -229,8 +229,8 @@ export default function TeamsAndQuizzersTable({
                             <tr>
                                 <th className="w-8"></th>
                                 <th className="w-16">League</th>
-                                <th>Name</th>
-                                <th>Church</th>
+                                <th>Church Name</th>
+                                <th>Team Name</th>
                                 <th className="w-32 text-center">Actions</th>
                             </tr>
                         </thead>
@@ -361,6 +361,7 @@ function TeamRow({
                 <td className="text-center font-mono">
                     {team.League || "-"}
                 </td>
+                <td>{team.Church || "-"}</td>
                 <td onClick={onToggleExpand}>
                     <span className="font-medium">{team.Name}</span>
                     {team.IsHidden && (
@@ -371,7 +372,6 @@ function TeamRow({
                         {quizzers.length}
                     </span>
                 </td>
-                <td>{team.Church || "-"}</td>
                 <td>
                     <div className="flex justify-center gap-1">
                         {!isReadOnly && (

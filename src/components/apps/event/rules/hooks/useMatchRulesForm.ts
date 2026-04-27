@@ -14,6 +14,7 @@ export interface GeneralRulesState {
     competitionFullName: string;
     quizzersPerTeam: number;
     maxTimeouts: number;
+    rereadCount: number;
 }
 
 export interface QuizOutState {
@@ -60,6 +61,7 @@ export interface UnseatRulesState {
     unseatIfPositionGuaranteed: boolean;
     unseatIfCannotAdvance: boolean;
     endMatchIfAllNextRoomsGuaranteed: boolean;
+    unseatIfMaxScore: number | null;
 }
 
 export interface MatchRulesFormState {
@@ -126,7 +128,8 @@ function extractUnseatState(rule: UnseatRule | null): UnseatRulesState {
         unseatIfNextRoomGuaranteed: rule?.UnseatIfNextRoomGuaranteed ?? false,
         unseatIfPositionGuaranteed: rule?.UnseatIfPositionGuaranteed ?? false,
         unseatIfCannotAdvance: rule?.UnseatIfCannotAdvance ?? false,
-        endMatchIfAllNextRoomsGuaranteed: rule?.EndMatchIfAllNextRoomsGuaranteed ?? false
+        endMatchIfAllNextRoomsGuaranteed: rule?.EndMatchIfAllNextRoomsGuaranteed ?? false,
+        unseatIfMaxScore: rule?.UnseatIfMaxScore ?? null
     };
 }
 
@@ -136,7 +139,8 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         competitionName: initialRules.CompetitionName,
         competitionFullName: initialRules.CompetitionFullName || "",
         quizzersPerTeam: initialRules.QuizzersPerTeam,
-        maxTimeouts: initialRules.MaxTimeouts
+        maxTimeouts: initialRules.MaxTimeouts,
+        rereadCount: initialRules?.RereadCount === undefined || initialRules?.RereadCount === null ? 1 : initialRules.RereadCount
     });
 
     // Quiz Out Forward
@@ -231,7 +235,8 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
             competitionName: rules.CompetitionName,
             competitionFullName: rules.CompetitionFullName || "",
             quizzersPerTeam: rules.QuizzersPerTeam,
-            maxTimeouts: rules.MaxTimeouts
+            maxTimeouts: rules.MaxTimeouts,
+            rereadCount: rules.RereadCount ?? 1
         });
 
         setQuizOutForwardState(extractQuizOutState(rules.QuizOutForward));
@@ -274,6 +279,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         newRules.Type = defaultType;
         newRules.QuizzersPerTeam = general.quizzersPerTeam;
         newRules.MaxTimeouts = general.maxTimeouts;
+        newRules.RereadCount = general.rereadCount;
 
         if (quizOutForward.enabled) {
             const qoForward = new QuizOutRule();
@@ -309,6 +315,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         unseat.UnseatIfPositionGuaranteed = unseatRules.unseatIfPositionGuaranteed;
         unseat.UnseatIfCannotAdvance = unseatRules.unseatIfCannotAdvance;
         unseat.EndMatchIfAllNextRoomsGuaranteed = unseatRules.endMatchIfAllNextRoomsGuaranteed;
+        unseat.UnseatIfMaxScore = unseatRules.unseatIfMaxScore;
         newRules.UnseatRule = unseat;
 
         newRules.PointValueCounts = {
@@ -343,8 +350,8 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         if (quizOutBackward.enabled && quizOutBackward.questions > totalQuestions) {
             return `Quiz Out Backward after ${quizOutBackward.questions} question(s) exceeds the ${totalQuestions} question(s) in the match.`;
         }
-        if (totalQuestions > 20) {
-            return "Scoring software doesn't currently support more than 20 questions.";
+        if (totalQuestions > 30) {
+            return "Scoring software doesn't currently support more than 30 questions.";
         }
         if (timer.enabled) {
             if (timer.warnEnabled && timer.initial < timer.warn) {

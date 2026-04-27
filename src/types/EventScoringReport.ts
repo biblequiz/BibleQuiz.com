@@ -45,22 +45,22 @@ export class EventScoringReportTeamOrQuizzerDisplay {
     /**
      * Value indicating whether average correctly answered question should be displayed.
      */
-    public readonly ShowAverageCorrect !: boolean;
+    public readonly ShowAverageCorrect!: boolean;
 
     /**
      * Value indicating whether the 10-point column should be displayed.
      */
-    public readonly Show10s !: boolean;
+    public readonly Show10s!: boolean;
 
     /**
      * Value indicating whether the 20-point column should be displayed.
      */
-    public readonly Show20s  !: boolean;
+    public readonly Show20s!: boolean;
 
     /**
      * Value indicating whether the 30-point column should be displayed.
      */
-    public readonly Show30s  !: boolean;
+    public readonly Show30s!: boolean;
 }
 
 /**
@@ -118,6 +118,11 @@ export class ScoringReportMeet {
     public readonly CompetitionType!: string;
 
     /**
+     * Value indicating whether this is an individual competition.
+     */
+    public readonly IsIndividualCompetition!: boolean;
+
+    /**
      * List of teams ordered by name for the report. If this is null, teams weren't
      * included in the report.
      */
@@ -127,7 +132,7 @@ export class ScoringReportMeet {
      * Ranked order of indices into Teams representing the team's placement. If this is null,
      * scores aren't enabled.
      */
-    public readonly RankedTeams !: number[] | null;
+    public readonly RankedTeams!: number[] | null;
 
     /**
      * List of footnotes for the teams. If this is null, scores aren't enabled.
@@ -200,7 +205,7 @@ export class ScoringReportMeet {
     /**
      * Message regarding scoring progress.
      */
-    public readonly ScoringProgressMessage!: string | null;;
+    public readonly ScoringProgressMessage!: string | null;
 
     /**
      * Value indicating whether there is a mismatch in the number of matches all rooms have completed if this is a combined meet due to linked meets.
@@ -297,10 +302,38 @@ export abstract class ScoringReportScoreBase {
 }
 
 /**
+ * Base class for matches within a ScoringReportMeet.
+ */
+export abstract class ScoringReportItemMatchBase {
+    /**
+     * Id for the of the room.
+     */
+    public readonly RoomId!: number;
+
+    /**
+     * Name of the room for the match.
+     */
+    public readonly Room!: string;
+
+    /**
+     * State of the match.
+     */
+    public readonly State!: ScoringReportMatchState;
+
+    /**
+     * If the match has started and is actively in progress, this will be the
+     * current question. Otherwise, it will be null.
+     */
+    public readonly CurrentQuestion!: number | null;
+}
+
+/**
  * Base class for items within a ScoringReportMeet
  */
-export abstract class ScoringReportItemBase<T extends ScoringReportScoreBase> {
-
+export abstract class ScoringReportItemBase<
+    TScore extends ScoringReportScoreBase,
+    TMatch extends ScoringReportItemMatchBase,
+> {
     /**
      * Unique identifier for this team or quizzer within the event.
      */
@@ -322,14 +355,25 @@ export abstract class ScoringReportItemBase<T extends ScoringReportScoreBase> {
     public readonly City!: string;
 
     /**
-     * Name of the team or quizzer's state.
+     * Team or quizzer's state.
      */
     public readonly State!: string;
 
     /**
      * Scores for the team or quizzer. If this is null, scores aren't enabled.
      */
-    public readonly Scores!: T | null;
+    public readonly Scores!: TScore | null;
+
+    /**
+     * Scheduled matches for the team or quizzer. If there is a null value in the array,
+     * that match was an unscored bye. This property can be null.
+     */
+    public readonly Matches!: (TMatch | null)[] | null;
+
+    /**
+     * Id for the current match (if the team or quizzer is actively playing in a match).
+     */
+    public readonly CurrentMatchId!: number | null;
 }
 
 /**
@@ -355,14 +399,15 @@ export class ScoringReportTeamScore extends ScoringReportScoreBase {
 /**
  * Scoring information for a quizzer within a ScoringReport.
  */
-export class ScoringReportQuizzerScore extends ScoringReportScoreBase {
-}
+export class ScoringReportQuizzerScore extends ScoringReportScoreBase {}
 
 /**
  * Team within a ScoringReport.
  */
-export class ScoringReportTeam extends ScoringReportItemBase<ScoringReportTeamScore> {
-
+export class ScoringReportTeam extends ScoringReportItemBase<
+    ScoringReportTeamScore,
+    ScoringReportTeamMatch
+> {
     /**
      * Name of the team's coach.
      */
@@ -373,48 +418,16 @@ export class ScoringReportTeam extends ScoringReportItemBase<ScoringReportTeamSc
      * against the quizzer from the ScoringReportMeet.Quizzers.
      */
     public readonly Quizzers!: number[];
-
-    /**
-     * Scheduled matches for the team. If there is a null value in the array, that match was an
-     * unscored bye. This property may be null.
-     */
-    public readonly Matches!: (ScoringReportTeamMatch | null)[] | null;
-
-    /**
-     * Id for the current match (if the team is actively playing in a match).
-     */
-    public readonly CurrentMatchId!: number | null;
 }
 
 /**
  * Match for a team within a ScoringReport.
  */
-export class ScoringReportTeamMatch {
+export class ScoringReportTeamMatch extends ScoringReportItemMatchBase {
     /**
      * Character representing the result of the match ('W', 'L', null).
      */
     public readonly Result!: string | null;
-
-    /**
-     * Id for the of the match.
-     */
-    public readonly RoomId!: number;
-
-    /**
-     * Name of the room for the match.
-     */
-    public readonly Room!: string;
-
-    /**
-     * State of the match.
-     */
-    public readonly State!: ScoringReportMatchState;
-
-    /**
-     * If the match has started and is actively in progress, this will be the
-     * current question. Otherwise, it will be null.
-     */
-    public readonly CurrentQuestion!: number | null;
 
     /**
      * Score for the team in the match. If this is null, scores aren't enabled.
@@ -426,6 +439,27 @@ export class ScoringReportTeamMatch {
      * team scheduled for this match.
      */
     public readonly OtherTeam!: number | null;
+}
+
+/**
+ * Match for a quizzer within a ScoringReport.
+ */
+export class ScoringReportQuizzerMatch extends ScoringReportItemMatchBase {
+    /**
+     * Rank within the room (if determined).
+     */
+    public readonly Rank!: number | null;
+
+    /**
+     * Name of the next room for this quizzer. If the State is Completed and this is null,
+     * the quizzer is not advancing. For all other states, this property will be null.
+     */
+    public readonly NextRoom!: string | null;
+
+    /**
+     * Other quizzers competing in this room.
+     */
+    public readonly OtherQuizzers!: number[];
 }
 
 /**
@@ -445,7 +479,7 @@ export enum ScoringReportMatchState {
     /**
      * Match is completed.
      */
-    Completed = "Completed"
+    Completed = "Completed",
 }
 
 /**
@@ -466,9 +500,12 @@ export class ScoringReportFootnote {
 /**
  * Quizzer within a ScoringReport.
  */
-export class ScoringReportQuizzer extends ScoringReportItemBase<ScoringReportQuizzerScore> {
+export class ScoringReportQuizzer extends ScoringReportItemBase<
+    ScoringReportQuizzerScore,
+    ScoringReportQuizzerMatch
+> {
     /**
-     * Name of the quizzer's team.
+     * Name of the quizzer's team. This will be null for individual competition.
      */
     public readonly TeamName!: string;
 
@@ -482,6 +519,11 @@ export class ScoringReportQuizzer extends ScoringReportItemBase<ScoringReportQui
  * Room for a meet within a ScoringReport.
  */
 export class ScoringReportRoom {
+    /**
+     * Id of the room.
+     */
+    public readonly RoomId!: number;
+
     /**
      * Name of the room.
      */
@@ -510,14 +552,24 @@ export class ScoringReportRoomMatch {
     public readonly LinkedMeet!: number | null;
 
     /**
-     * Id of the first team for this match.
+     * Id of the first team for this match. If this is null, it is an individual competition.
      */
-    public readonly Team1!: number;
+    public readonly Team1!: number | null;
 
     /**
-     * Id for the second team for this match. If this is null, it is a bye.
+     * Id for the second team for this match. If this is null, it is a bye or it is an individual competition.
      */
     public readonly Team2!: number | null;
+
+    /**
+     * List of quizzer ids in this room. This will be null for team competition.
+     */
+    public readonly Quizzers!: number[] | null;
+
+    /**
+     * List of ranked teams or quizzers from the previous match scheduled for this room. This will be null if Team1 or Quizzers is populated.
+     */
+    public readonly RankedTeamsOrQuizzers!: ScoringReportRoomRank[] | null;
 
     /**
      * State of the match.
@@ -585,6 +637,21 @@ export class ScoringReportMeetMatch {
      * If this is null, stats weren't included.
      */
     public readonly RegularQuestionStats!: ScoringReportQuestionStat[] | null;
+}
+
+/**
+ * Rank for a team or quizzer within a room.
+ */
+export class ScoringReportRoomRank {
+    /**
+     * Index of the room where the team or quizzer played.
+     */
+    public readonly Room!: number;
+
+    /**
+     * Rank of the team or quizzer within the room.
+     */
+    public readonly Rank!: number;
 }
 
 /**
