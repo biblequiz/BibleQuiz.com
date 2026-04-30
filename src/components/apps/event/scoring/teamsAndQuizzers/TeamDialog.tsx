@@ -93,7 +93,7 @@ export default function TeamDialog({
             ? { ...team }
             : new Team();
         updatedTeam.Name = name!.trim();
-        updatedTeam.League = league!.trim().toUpperCase();
+        updatedTeam.League = (league ?? "").trim().toUpperCase();
         updatedTeam.RemoteChurchId = church!.Id!;
         updatedTeam.Church = trimOrUndefined(churchName!.trim());
         updatedTeam.City = trimOrUndefined(church!.PhysicalAddress?.City);
@@ -156,7 +156,6 @@ export default function TeamDialog({
                         <div className="form-control w-full mt-0">
                             <label className="label">
                                 <span className="label-text font-semibold">Division Abbreviation</span>
-                                <span className="label-text-alt text-error">*</span>
                             </label>
                             <input
                                 type="text"
@@ -167,7 +166,6 @@ export default function TeamDialog({
                                 maxLength={1}
                                 pattern="[A-Z]"
                                 title="Single uppercase alphabetic character"
-                                required
                                 disabled={isReadOnly}
                             />
                         </div>
