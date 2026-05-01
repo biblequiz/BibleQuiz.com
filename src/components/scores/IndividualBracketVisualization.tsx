@@ -92,37 +92,17 @@ export default function IndividualBracketVisualization({
 
     return (
         <div className="bracket-visualization">
-            {/* Legend */}
-            <div className="mb-4 flex flex-wrap gap-4 text-sm">
-                <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 border-2 border-info rounded"></div>
-                    <span>In Progress</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 border border-success rounded"></div>
-                    <span>Completed</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <div className="w-4 h-4 border border-base-300 rounded"></div>
-                    <span>Not Started</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <span className="badge badge-warning badge-sm">1st</span>
-                    <span>= Place in room</span>
-                </div>
-            </div>
-
             {/* Bracket container */}
             <div className="overflow-x-auto pb-4">
                 <div className="flex gap-8 min-w-max">
                     {columns.map((col) => (
                         <div 
                             key={`col-${col.matchIndex}`}
-                            className="flex flex-col gap-4"
+                            className="flex flex-col gap-4 mt-0 mb-0"
                         >
                             {/* Column header */}
                             <div className="text-center">
-                                <span className="badge badge-lg badge-primary">
+                                <span className="badge badge-lg badge-primary mt-0 mb-0">
                                     {col.matchLabel}
                                 </span>
                             </div>

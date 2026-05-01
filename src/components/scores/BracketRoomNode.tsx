@@ -155,12 +155,12 @@ export default function BracketRoomNode({
         <div
             data-room-index={roomIndex}
             data-match-index={matchIndex}
-            className={`card card-compact bg-base-100 shadow-sm border ${stateClass} cursor-pointer hover:shadow-md transition-shadow min-w-48`}
+            className={`card card-compact bg-base-100 shadow-sm border ${stateClass} cursor-pointer hover:shadow-md transition-shadow min-w-48 mt-0 mb-0`}
             onClick={onClick}
         >
             <div className="card-body p-2">
                 <div className="flex justify-between items-center">
-                    <h4 className="card-title text-sm font-bold">{roomName}</h4>
+                    <h4 className="card-title text-sm font-bold">Room {roomName}</h4>
                     {stateBadge}
                 </div>
                 <ul className="text-xs space-y-1">
