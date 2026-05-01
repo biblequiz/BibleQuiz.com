@@ -81,6 +81,20 @@ export default function IndividualGridTabContent({
 
     return (
         <div className="bracket-visualization">
+            <div className="mb-4 flex flex-wrap gap-4 text-sm">
+                <div className="flex items-center gap-2 mt-0 mb-0">
+                    <div className="w-4 h-4 border-2 border-info rounded"></div>
+                    <span>In Progress</span>
+                </div>
+                <div className="flex items-center gap-2 mt-0 mb-0">
+                    <div className="w-4 h-4 border border-success rounded"></div>
+                    <span>Completed</span>
+                </div>
+                <div className="flex items-center gap-2 mt-0 mb-0">
+                    <div className="w-4 h-4 border border-base-300 rounded"></div>
+                    <span>Not Started</span>
+                </div>
+            </div>
             <div className="overflow-x-auto pb-4">
                 <div className="flex gap-3 min-w-max pl-2 pr-2">
                     {columns.map((col, colIndex) => (
