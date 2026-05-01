@@ -8,7 +8,7 @@ import { isTabActive } from "utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import IndividualBracketVisualization from "./IndividualBracketVisualization";
+import IndividualGridTabContent from "./IndividualGridTabContent";
 
 export interface Props {
     eventId: string;
@@ -67,7 +67,7 @@ export default function ScheduleGridTabContent({
 
                 if (meet.IsIndividualCompetition) {
                     return (
-                        <IndividualBracketVisualization
+                        <IndividualGridTabContent
                             key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
                             eventId={eventId}
                             meet={meet}

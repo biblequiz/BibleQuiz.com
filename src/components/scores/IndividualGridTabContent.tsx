@@ -23,7 +23,7 @@ interface BracketColumn {
  * Main bracket visualization component for individual competitions.
  * Displays rooms organized by match (round).
  */
-export default function IndividualBracketVisualization({
+export default function IndividualGridTabContent({
     eventId,
     meet,
 }: IndividualBracketVisualizationProps) {
