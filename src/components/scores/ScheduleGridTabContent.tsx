@@ -68,6 +68,7 @@ export default function ScheduleGridTabContent({
                 if (meet.IsIndividualCompetition) {
                     return (
                         <IndividualBracketVisualization
+                            key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
                             meet={meet}
                             onRoomClick={(roomIndex, matchIndex) => {
                                 console.log(`Room clicked: ${roomIndex}, Match clicked: ${matchIndex}`);

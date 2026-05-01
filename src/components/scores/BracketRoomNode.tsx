@@ -68,17 +68,25 @@ export default function BracketRoomNode({
     const participants: { key: string; display: string; isPlaceholder: boolean }[] = [];
 
     if (isBye || !roomMatch) {
-        participants.push({ key: "bye", display: "BYE", isPlaceholder: true });
+        participants.push({ key: `${matchIndex}-${roomIndex}-bye`, display: "BYE", isPlaceholder: true });
     } else if (roomMatch.Quizzers && roomMatch.Quizzers.length > 0) {
-        // Resolved quizzers - show actual names
-        for (const quizzerId of roomMatch.Quizzers) {
+        // Resolved quizzers - show actual names (use Set to prevent duplicates)
+        const seenQuizzerIds = new Set<number>();
+        for (let i = 0; i < roomMatch.Quizzers.length; i++) {
+            const quizzerId = roomMatch.Quizzers[i];
+            // Skip if we've already seen this quizzer
+            if (seenQuizzerIds.has(quizzerId)) {
+                continue;
+            }
+            seenQuizzerIds.add(quizzerId);
+            
             const quizzer = meet.Quizzers?.[quizzerId];
             if (quizzer) {
                 const displayName = quizzer.ChurchName 
                     ? `${quizzer.Name} (${quizzer.ChurchName})`
                     : quizzer.Name;
                 participants.push({
-                    key: `q-${quizzerId}`,
+                    key: `${matchIndex}-${roomIndex}-q-${i}-${quizzerId}`,
                     display: displayName,
                     isPlaceholder: false
                 });
@@ -86,17 +94,18 @@ export default function BracketRoomNode({
         }
     } else if (roomMatch.RankedTeamsOrQuizzers && roomMatch.RankedTeamsOrQuizzers.length > 0) {
         // Unresolved - show placeholders like "1st from Room 1"
-        for (const route of roomMatch.RankedTeamsOrQuizzers) {
+        for (let i = 0; i < roomMatch.RankedTeamsOrQuizzers.length; i++) {
+            const route = roomMatch.RankedTeamsOrQuizzers[i];
             const sourceRoom = meet.Rooms?.[route.Room];
             const sourceRoomName = sourceRoom?.Name || `Room ${route.Room + 1}`;
             participants.push({
-                key: `r-${route.Room}-${route.Rank}`,
+                key: `${matchIndex}-${roomIndex}-r-${i}-${route.Room}-${route.Rank}`,
                 display: `${DataTypeHelpers.ordinalWithSuffix(route.Rank)} from ${sourceRoomName}`,
                 isPlaceholder: true
             });
         }
     } else {
-        participants.push({ key: "tbd", display: "TBD", isPlaceholder: true });
+        participants.push({ key: `${matchIndex}-${roomIndex}-tbd`, display: "TBD", isPlaceholder: true });
     }
 
     return (

@@ -29,8 +29,8 @@ export default function IndividualBracketVisualization({
     onRoomClick
 }: IndividualBracketVisualizationProps) {
     const containerRef = useRef<HTMLDivElement>(null);
-    const [roomElements, setRoomElements] = useState<Map<string, HTMLDivElement>>(new Map());
-    const [forceUpdate, setForceUpdate] = useState(0);
+    const roomElementsRef = useRef<Map<string, HTMLDivElement>>(new Map());
+    const [connectorsKey, setConnectorsKey] = useState(0);
 
     // Build the bracket structure: group rooms by match
     const columns = useMemo<BracketColumn[]>(() => {
@@ -110,25 +110,24 @@ export default function IndividualBracketVisualization({
         return conns;
     }, [columns]);
 
-    // Track room element refs
-    const handleRoomRef = useCallback((matchIndex: number, roomIndex: number) => {
+    // Create ref callback for room elements - stores in ref, not state
+    const createRoomRefCallback = useCallback((matchIndex: number, roomIndex: number) => {
+        const key = `${matchIndex}-${roomIndex}`;
         return (element: HTMLDivElement | null) => {
-            const key = `${matchIndex}-${roomIndex}`;
-            setRoomElements(prev => {
-                const next = new Map(prev);
-                if (element) {
-                    next.set(key, element);
-                } else {
-                    next.delete(key);
-                }
-                return next;
-            });
+            if (element) {
+                roomElementsRef.current.set(key, element);
+            } else {
+                roomElementsRef.current.delete(key);
+            }
         };
     }, []);
 
-    // Force recalculation of connectors after initial render
+    // Force recalculation of connectors after initial render and when columns change
     useEffect(() => {
-        const timer = setTimeout(() => setForceUpdate(f => f + 1), 100);
+        // Small delay to ensure DOM elements are rendered
+        const timer = setTimeout(() => {
+            setConnectorsKey(k => k + 1);
+        }, 50);
         return () => clearTimeout(timer);
     }, [columns]);
 
@@ -201,7 +200,7 @@ export default function IndividualBracketVisualization({
                                         roomMatch={room.roomMatch}
                                         meet={meet}
                                         onClick={() => onRoomClick?.(room.roomIndex, col.matchIndex)}
-                                        onRef={handleRoomRef(col.matchIndex, room.roomIndex)}
+                                        onRef={createRoomRefCallback(col.matchIndex, room.roomIndex)}
                                     />
                                 ))}
                             </div>
@@ -211,10 +210,10 @@ export default function IndividualBracketVisualization({
 
                 {/* Connector lines overlay */}
                 <BracketConnectors
-                    key={forceUpdate}
+                    key={connectorsKey}
                     connections={connections}
                     containerRef={containerRef}
-                    roomElements={roomElements}
+                    roomElements={roomElementsRef.current}
                 />
             </div>
         </div>
