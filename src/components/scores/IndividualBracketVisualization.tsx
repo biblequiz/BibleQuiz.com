@@ -37,7 +37,7 @@ export default function IndividualBracketVisualization({
             const match = meet.Matches[matchIndex];
             const matchLabel = match.PlayoffIndex != null 
                 ? `Playoff ${match.PlayoffIndex}` 
-                : `Match ${match.Id}`;
+                : `Round ${match.Id}`;
 
             // Find all rooms that have matches for this match index
             const roomsInMatch: BracketColumn["rooms"] = [];
@@ -95,10 +95,10 @@ export default function IndividualBracketVisualization({
             {/* Bracket container */}
             <div className="overflow-x-auto pb-4">
                 <div className="flex gap-8 min-w-max">
-                    {columns.map((col) => (
+                    {columns.map((col, colIndex) => (
                         <div 
                             key={`col-${col.matchIndex}`}
-                            className="flex flex-col gap-4 mt-0 mb-0"
+                            className={`flex flex-col gap-4 mt-0 mb-0 ${colIndex < columns.length - 1 ? 'border-r border-base-300 pr-8' : ''}`}
                         >
                             {/* Column header */}
                             <div className="text-center">

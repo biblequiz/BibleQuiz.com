@@ -1,3 +1,4 @@
+import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScoringReport";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
@@ -21,24 +22,37 @@ export interface BracketRoomNodeProps {
 interface ParticipantDisplay {
     key: string;
     name: string;
+    churchName?: string;
     rank: number | null;
+    nextRoom: string | null;
     isPlaceholder: boolean;
+    isInProgress: boolean;
 }
 
 /**
- * Gets the badge color class based on rank position
+ * Gets the badge color class based on rank position and advancement status
+ * @param rank The rank position (1st, 2nd, etc.)
+ * @param hasNextRoom Whether the quizzer advances to another room (null if unknown/in-progress)
+ * @param isCompleted Whether the match is completed
  */
-function getRankBadgeClass(rank: number): string {
-    switch (rank) {
-        case 1:
-            return "badge-warning"; // Gold for 1st
-        case 2:
-            return "badge-neutral"; // Silver for 2nd
-        case 3:
-            return "badge-accent"; // Bronze for 3rd
-        default:
-            return "badge-ghost"; // Default for others
+function getRankBadgeClass(
+    rank: number | null,
+    hasNextRoom: boolean | null,
+    isCompleted: boolean): string {
+    if (!isCompleted || rank === null) {
+        return "badge-primary";
     }
+
+    // Completed match logic
+    if (rank === 1 || rank === 2) {
+        return "badge-warning";
+    }
+
+    if (hasNextRoom === true) {
+        return "badge-success";
+    }
+
+    return "badge-neutral";
 }
 
 /**
@@ -57,26 +71,19 @@ export default function BracketRoomNode({
     // Determine match state and styling
     let stateClass = "border-base-300";
     let stateBadge: React.ReactNode = null;
-    
+
     if (roomMatch) {
         switch (roomMatch.State) {
             case "InProgress":
                 stateClass = "border-info border-2";
                 stateBadge = (
-                    <span className="badge badge-info badge-sm">
-                        <i className="fas fa-satellite-dish mr-1"></i>
-                        Q{roomMatch.CurrentQuestion}
-                    </span>
-                );
+                    <span>
+                        <FontAwesomeIcon icon="fas faSatelliteDish" />&nbsp;#{roomMatch.CurrentQuestion}
+                    </span>);
                 break;
             case "Completed":
                 stateClass = "border-success";
-                stateBadge = (
-                    <span className="badge badge-success badge-sm">
-                        <i className="fas fa-check mr-1"></i>
-                        Done
-                    </span>
-                );
+                stateBadge = <FontAwesomeIcon icon="fas faCheck" classNames={["text-success"]} />;
                 break;
             default:
                 stateClass = "border-base-300";
@@ -87,30 +94,40 @@ export default function BracketRoomNode({
     // Build the list of participants to display
     const participants: ParticipantDisplay[] = [];
 
+    const isCompleted = roomMatch?.State === "Completed";
+    const isInProgress = roomMatch?.State === "InProgress";
+
     if (isBye || !roomMatch) {
-        participants.push({ key: `${matchIndex}-${roomIndex}-bye`, name: "BYE", rank: null, isPlaceholder: true });
+        participants.push({
+            key: `${matchIndex}-${roomIndex}-bye`,
+            name: "BYE",
+            rank: null,
+            nextRoom: null,
+            isPlaceholder: true,
+            isInProgress: false
+        });
     } else if (roomMatch.Quizzers && roomMatch.Quizzers.length > 0) {
         // Resolved quizzers - show actual names with rank if match is completed
         const seenQuizzerIds = new Set<number>();
-        const isCompleted = roomMatch.State === "Completed";
-        
+
         // Build list of quizzers with their ranks for sorting
-        const quizzerData: { quizzerId: number; quizzer: any; rank: number | null }[] = [];
-        
+        const quizzerData: { quizzerId: number; quizzer: any; rank: number | null; nextRoom: string | null }[] = [];
+
         for (let i = 0; i < roomMatch.Quizzers.length; i++) {
             const quizzerId = roomMatch.Quizzers[i];
             if (seenQuizzerIds.has(quizzerId)) continue;
             seenQuizzerIds.add(quizzerId);
-            
+
             const quizzer = meet.Quizzers?.[quizzerId];
             if (quizzer) {
-                // Get the rank from the quizzer's match data if completed
+                // Get the rank and next room from the quizzer's match data
                 const quizzerMatch = quizzer.Matches?.[matchIndex];
                 const rank = isCompleted && quizzerMatch?.Rank ? quizzerMatch.Rank : null;
-                quizzerData.push({ quizzerId, quizzer, rank });
+                const nextRoom = isCompleted ? quizzerMatch?.NextRoom ?? null : null;
+                quizzerData.push({ quizzerId, quizzer, rank, nextRoom: nextRoom });
             }
         }
-        
+
         // Sort by rank if completed, otherwise keep original order
         if (isCompleted) {
             quizzerData.sort((a, b) => {
@@ -120,61 +137,98 @@ export default function BracketRoomNode({
                 return a.rank - b.rank;
             });
         }
-        
+
         for (let i = 0; i < quizzerData.length; i++) {
-            const { quizzerId, quizzer, rank } = quizzerData[i];
-            const name = quizzer.ChurchName 
-                ? `${quizzer.Name} (${quizzer.ChurchName})`
-                : quizzer.Name;
-            
+            const { quizzerId, quizzer, rank, nextRoom } = quizzerData[i];
+
             participants.push({
                 key: `${matchIndex}-${roomIndex}-q-${i}-${quizzerId}`,
-                name,
+                name: quizzer.Name,
+                churchName: quizzer.ChurchName,
                 rank,
-                isPlaceholder: false
+                nextRoom,
+                isPlaceholder: false,
+                isInProgress
             });
         }
     } else if (roomMatch.RankedTeamsOrQuizzers && roomMatch.RankedTeamsOrQuizzers.length > 0) {
-        // Unresolved - show placeholders like "1st from Room 1"
         for (let i = 0; i < roomMatch.RankedTeamsOrQuizzers.length; i++) {
             const route = roomMatch.RankedTeamsOrQuizzers[i];
             const sourceRoom = meet.Rooms?.[route.Room];
             const sourceRoomName = sourceRoom?.Name || `Room ${route.Room + 1}`;
             participants.push({
                 key: `${matchIndex}-${roomIndex}-r-${i}-${route.Room}-${route.Rank}`,
-                name: `${DataTypeHelpers.ordinalWithSuffix(route.Rank)} from ${sourceRoomName}`,
-                rank: null,
-                isPlaceholder: true
+                name: sourceRoomName,
+                rank: route.Rank,
+                nextRoom: null,
+                isPlaceholder: true,
+                isInProgress: false
             });
         }
     } else {
-        participants.push({ key: `${matchIndex}-${roomIndex}-tbd`, name: "TBD", rank: null, isPlaceholder: true });
+        participants.push({
+            key: `${matchIndex}-${roomIndex}-tbd`,
+            name: "TBD",
+            rank: null,
+            nextRoom: null,
+            isPlaceholder: true,
+            isInProgress: false
+        });
     }
 
     return (
         <div
+            data-label={label}
+            data-event-id={eventId}
+            data-database-id={databaseId}
+            data-meet-id={meetId}
+            data-match-id={matchId}
+            data-room-id={roomId}
             data-room-index={roomIndex}
             data-match-index={matchIndex}
             className={`card card-compact bg-base-100 shadow-sm border ${stateClass} cursor-pointer hover:shadow-md transition-shadow min-w-48 mt-0 mb-0`}
             onClick={onClick}
         >
             <div className="card-body p-2">
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center mb-0">
                     <h4 className="card-title text-sm font-bold">Room {roomName}</h4>
                     {stateBadge}
                 </div>
-                <ul className="text-xs space-y-1">
-                    {participants.map((p) => (
-                        <li 
+                <ul className="text-xs space-y-1 mb-0 mt-0">
+                    {participants.map((p, i) => (
+                        <li
                             key={p.key}
-                            className={`flex items-center gap-1 ${p.isPlaceholder ? "italic text-base-content/60" : ""}`}
+                            className={`flex items-center gap-1 ${p.isPlaceholder ? "italic text-base-content/60" : ""} ${i > 0 ? "border-t border-primary" : ""} pt-1`}
+                            style={{ marginLeft: "unset" }}
                         >
-                            {p.rank !== null && (
-                                <span className={`badge badge-xs ${getRankBadgeClass(p.rank)}`}>
-                                    {DataTypeHelpers.ordinalWithSuffix(p.rank)}
-                                </span>
+                            {p.isPlaceholder && p.rank !== null ? (
+                                <>
+                                    <span className={`badge badge-sm ${getRankBadgeClass(p.rank, true, true)}`}>
+                                        {DataTypeHelpers.ordinalWithSuffix(p.rank)}
+                                    </span>
+                                    <span>from Room {p.name}</span>
+                                </>
+                            ) : !p.isPlaceholder ? (
+                                <>
+                                    <span className={`badge badge-sm ${getRankBadgeClass(p.rank, !!p.nextRoom, true)}`}>
+                                        {p.rank === null ? "?" : DataTypeHelpers.ordinalWithSuffix(p.rank)}
+                                    </span>
+                                    <span>{p.name}
+                                        {p.churchName && (
+                                            <>
+                                                <br />
+                                                <i>{p.churchName}</i>
+                                            </>)}
+                                        {p.nextRoom && (
+                                            <>
+                                                <br />
+                                                <b><i>Move to Room {p.nextRoom}</i></b>
+                                            </>)}
+                                    </span>
+                                </>
+                            ) : (
+                                <span>{p.name}</span>
                             )}
-                            <span className={p.rank !== null ? "" : ""}>{p.name}</span>
                         </li>
                     ))}
                 </ul>
