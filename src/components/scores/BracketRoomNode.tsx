@@ -42,7 +42,7 @@ function getRankBadgeClass(
     }
 
     if (hasNextRoom === true) {
-        return "badge-success";
+        return "badge-success text-black";
     }
 
     return "badge-neutral";
