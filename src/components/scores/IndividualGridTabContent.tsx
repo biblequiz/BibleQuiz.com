@@ -3,9 +3,7 @@ import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScori
 import BracketRoomNode from "./BracketRoomNode";
 
 export interface IndividualBracketVisualizationProps {
-    /** Event id used for room dialog links */
     eventId: string;
-    /** The meet data containing rooms, matches, and quizzers */
     meet: ScoringReportMeet;
 }
 
@@ -19,14 +17,11 @@ interface BracketColumn {
     }[];
 }
 
-/**
- * Main bracket visualization component for individual competitions.
- * Displays rooms organized by match (round).
- */
 export default function IndividualGridTabContent({
     eventId,
     meet,
 }: IndividualBracketVisualizationProps) {
+
     // Build the bracket structure: group rooms by match
     const columns = useMemo<BracketColumn[]>(() => {
         if (!meet.Matches || !meet.Rooms) return [];
@@ -35,8 +30,8 @@ export default function IndividualGridTabContent({
 
         for (let matchIndex = 0; matchIndex < meet.Matches.length; matchIndex++) {
             const match = meet.Matches[matchIndex];
-            const matchLabel = match.PlayoffIndex != null 
-                ? `Playoff ${match.PlayoffIndex}` 
+            const matchLabel = match.PlayoffIndex != null
+                ? `Playoff ${match.PlayoffIndex}`
                 : `Round ${match.Id}`;
 
             // Find all rooms that have matches for this match index
@@ -73,12 +68,7 @@ export default function IndividualGridTabContent({
     }, [meet]);
 
     if (!meet.IsIndividualCompetition) {
-        return (
-            <div className="alert alert-warning">
-                <i className="fas fa-exclamation-triangle"></i>
-                <span>Bracket visualization is only available for individual competitions.</span>
-            </div>
-        );
+        return null;
     }
 
     if (columns.length === 0) {
@@ -86,8 +76,7 @@ export default function IndividualGridTabContent({
             <div className="alert alert-info">
                 <i className="fas fa-info-circle"></i>
                 <span>No bracket data available for this meet.</span>
-            </div>
-        );
+            </div>);
     }
 
     return (
@@ -95,7 +84,7 @@ export default function IndividualGridTabContent({
             <div className="overflow-x-auto pb-4">
                 <div className="flex gap-3 min-w-max pl-2 pr-2">
                     {columns.map((col, colIndex) => (
-                        <div 
+                        <div
                             key={`col-${col.matchIndex}`}
                             className={`flex flex-col gap-4 mt-0 mb-0 ${colIndex < columns.length - 1 ? 'border-r border-base-500 pr-3' : ''}`}
                         >
@@ -105,7 +94,6 @@ export default function IndividualGridTabContent({
                                 </span>
                             </div>
 
-                            {/* Rooms in this column */}
                             <div className="flex flex-col gap-3 justify-center flex-1">
                                 {col.rooms.map((room) => (
                                     <BracketRoomNode

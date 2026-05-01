@@ -3,19 +3,12 @@ import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScori
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export interface BracketRoomNodeProps {
-    /** Event id used by room dialog */
     eventId: string;
-    /** Room index within the meet */
     roomIndex: number;
-    /** Room name */
     roomName: string;
-    /** Match index (0-based) */
     matchIndex: number;
-    /** The room match data */
     roomMatch: ScoringReportRoomMatch | null;
-    /** The meet containing quizzer data */
     meet: ScoringReportMeet;
-    /** Whether this room is a bye */
     isBye?: boolean;
 }
 
@@ -242,6 +235,5 @@ export default function BracketRoomNode({
                     ))}
                 </ul>
             </div>
-        </div>
-    );
+        </div>);
 }
