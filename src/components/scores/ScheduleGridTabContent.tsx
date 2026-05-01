@@ -69,10 +69,8 @@ export default function ScheduleGridTabContent({
                     return (
                         <IndividualBracketVisualization
                             key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
+                            eventId={eventId}
                             meet={meet}
-                            onRoomClick={(roomIndex, matchIndex) => {
-                                console.log(`Room clicked: ${roomIndex}, Match clicked: ${matchIndex}`);
-                            }}
                         />);
                 }
 

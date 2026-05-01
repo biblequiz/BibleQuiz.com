@@ -3,6 +3,8 @@ import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScori
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export interface BracketRoomNodeProps {
+    /** Event id used by room dialog */
+    eventId: string;
     /** Room index within the meet */
     roomIndex: number;
     /** Room name */
@@ -15,8 +17,6 @@ export interface BracketRoomNodeProps {
     meet: ScoringReportMeet;
     /** Whether this room is a bye */
     isBye?: boolean;
-    /** Callback when room is clicked */
-    onClick?: () => void;
 }
 
 interface ParticipantDisplay {
@@ -55,19 +55,26 @@ function getRankBadgeClass(
     return "badge-neutral";
 }
 
+declare global {
+    interface Window {
+        openRoomDialog: (event: any) => void;
+    }
+}
+
 /**
  * Displays a single room as a card in the bracket visualization.
  * Shows quizzers (resolved names or placeholders from routing).
  */
 export default function BracketRoomNode({
+    eventId,
     roomIndex,
     roomName,
     matchIndex,
     roomMatch,
     meet,
-    isBye,
-    onClick
+    isBye
 }: BracketRoomNodeProps) {
+
     // Determine match state and styling
     let stateClass = "border-base-300";
     let stateBadge: React.ReactNode = null;
@@ -176,18 +183,20 @@ export default function BracketRoomNode({
         });
     }
 
+    const matchId = meet.Matches?.[matchIndex]?.Id;
+
     return (
         <div
-            data-label={label}
+            data-label={`Match ${matchId} in ${roomName} @ ${meet.Name}`}
             data-event-id={eventId}
-            data-database-id={databaseId}
-            data-meet-id={meetId}
+            data-database-id={meet.DatabaseId}
+            data-meet-id={meet.MeetId}
             data-match-id={matchId}
-            data-room-id={roomId}
+            data-room-id={meet.Rooms?.[roomIndex]?.RoomId}
             data-room-index={roomIndex}
             data-match-index={matchIndex}
             className={`card card-compact bg-base-100 shadow-sm border ${stateClass} cursor-pointer hover:shadow-md transition-shadow min-w-48 mt-0 mb-0`}
-            onClick={onClick}
+            onClick={e => isCompleted || isInProgress ? window.openRoomDialog(e) : undefined}
         >
             <div className="card-body p-2">
                 <div className="flex justify-between items-center mb-0">

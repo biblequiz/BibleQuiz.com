@@ -3,10 +3,10 @@ import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScori
 import BracketRoomNode from "./BracketRoomNode";
 
 export interface IndividualBracketVisualizationProps {
+    /** Event id used for room dialog links */
+    eventId: string;
     /** The meet data containing rooms, matches, and quizzers */
     meet: ScoringReportMeet;
-    /** Callback when a room is clicked */
-    onRoomClick?: (roomIndex: number, matchIndex: number) => void;
 }
 
 interface BracketColumn {
@@ -24,8 +24,8 @@ interface BracketColumn {
  * Displays rooms organized by match (round).
  */
 export default function IndividualBracketVisualization({
+    eventId,
     meet,
-    onRoomClick
 }: IndividualBracketVisualizationProps) {
     // Build the bracket structure: group rooms by match
     const columns = useMemo<BracketColumn[]>(() => {
@@ -92,15 +92,13 @@ export default function IndividualBracketVisualization({
 
     return (
         <div className="bracket-visualization">
-            {/* Bracket container */}
             <div className="overflow-x-auto pb-4">
-                <div className="flex gap-8 min-w-max">
+                <div className="flex gap-3 min-w-max pl-2 pr-2">
                     {columns.map((col, colIndex) => (
                         <div 
                             key={`col-${col.matchIndex}`}
-                            className={`flex flex-col gap-4 mt-0 mb-0 ${colIndex < columns.length - 1 ? 'border-r border-base-300 pr-8' : ''}`}
+                            className={`flex flex-col gap-4 mt-0 mb-0 ${colIndex < columns.length - 1 ? 'border-r border-base-500 pr-3' : ''}`}
                         >
-                            {/* Column header */}
                             <div className="text-center">
                                 <span className="badge badge-lg badge-primary mt-0 mb-0">
                                     {col.matchLabel}
@@ -112,12 +110,12 @@ export default function IndividualBracketVisualization({
                                 {col.rooms.map((room) => (
                                     <BracketRoomNode
                                         key={`room-${col.matchIndex}-${room.roomIndex}`}
+                                        eventId={eventId}
                                         roomIndex={room.roomIndex}
                                         roomName={room.roomName}
                                         matchIndex={col.matchIndex}
                                         roomMatch={room.roomMatch}
                                         meet={meet}
-                                        onClick={() => onRoomClick?.(room.roomIndex, col.matchIndex)}
                                     />
                                 ))}
                             </div>
