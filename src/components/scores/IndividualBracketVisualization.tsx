@@ -1,7 +1,6 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useMemo } from "react";
 import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScoringReport";
 import BracketRoomNode from "./BracketRoomNode";
-import BracketConnectors, { type BracketConnection } from "./BracketConnectors";
 
 export interface IndividualBracketVisualizationProps {
     /** The meet data containing rooms, matches, and quizzers */
@@ -22,16 +21,12 @@ interface BracketColumn {
 
 /**
  * Main bracket visualization component for individual competitions.
- * Displays rooms organized by match (round) with connector lines showing advancement paths.
+ * Displays rooms organized by match (round).
  */
 export default function IndividualBracketVisualization({
     meet,
     onRoomClick
 }: IndividualBracketVisualizationProps) {
-    const containerRef = useRef<HTMLDivElement>(null);
-    const roomElementsRef = useRef<Map<string, HTMLDivElement>>(new Map());
-    const [connectorsKey, setConnectorsKey] = useState(0);
-
     // Build the bracket structure: group rooms by match
     const columns = useMemo<BracketColumn[]>(() => {
         if (!meet.Matches || !meet.Rooms) return [];
@@ -77,60 +72,6 @@ export default function IndividualBracketVisualization({
         return cols;
     }, [meet]);
 
-    // Build connections based on RankedTeamsOrQuizzers routing
-    const connections = useMemo<BracketConnection[]>(() => {
-        const conns: BracketConnection[] = [];
-
-        for (const col of columns) {
-            for (const room of col.rooms) {
-                if (room.roomMatch?.RankedTeamsOrQuizzers) {
-                    for (const route of room.roomMatch.RankedTeamsOrQuizzers) {
-                        // Find the source match index - it should be the previous match
-                        // where this room exists
-                        const prevColIndex = columns.findIndex(c => c.matchIndex === col.matchIndex) - 1;
-                        if (prevColIndex >= 0) {
-                            const prevCol = columns[prevColIndex];
-                            // Check if the source room exists in the previous column
-                            const sourceRoomExists = prevCol.rooms.some(r => r.roomIndex === route.Room);
-                            if (sourceRoomExists) {
-                                conns.push({
-                                    sourceRoomIndex: route.Room,
-                                    sourceMatchIndex: prevCol.matchIndex,
-                                    destRoomIndex: room.roomIndex,
-                                    destMatchIndex: col.matchIndex,
-                                    rank: route.Rank
-                                });
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        return conns;
-    }, [columns]);
-
-    // Create ref callback for room elements - stores in ref, not state
-    const createRoomRefCallback = useCallback((matchIndex: number, roomIndex: number) => {
-        const key = `${matchIndex}-${roomIndex}`;
-        return (element: HTMLDivElement | null) => {
-            if (element) {
-                roomElementsRef.current.set(key, element);
-            } else {
-                roomElementsRef.current.delete(key);
-            }
-        };
-    }, []);
-
-    // Force recalculation of connectors after initial render and when columns change
-    useEffect(() => {
-        // Small delay to ensure DOM elements are rendered
-        const timer = setTimeout(() => {
-            setConnectorsKey(k => k + 1);
-        }, 50);
-        return () => clearTimeout(timer);
-    }, [columns]);
-
     if (!meet.IsIndividualCompetition) {
         return (
             <div className="alert alert-warning">
@@ -166,16 +107,13 @@ export default function IndividualBracketVisualization({
                     <span>Not Started</span>
                 </div>
                 <div className="flex items-center gap-2">
-                    <div className="badge badge-sm bg-base-200">1</div>
-                    <span>Rank advancing</span>
+                    <span className="badge badge-warning badge-sm">1st</span>
+                    <span>= Place in room</span>
                 </div>
             </div>
 
             {/* Bracket container */}
-            <div 
-                ref={containerRef}
-                className="relative overflow-x-auto overflow-y-visible pb-4"
-            >
+            <div className="overflow-x-auto pb-4">
                 <div className="flex gap-8 min-w-max">
                     {columns.map((col) => (
                         <div 
@@ -200,21 +138,12 @@ export default function IndividualBracketVisualization({
                                         roomMatch={room.roomMatch}
                                         meet={meet}
                                         onClick={() => onRoomClick?.(room.roomIndex, col.matchIndex)}
-                                        onRef={createRoomRefCallback(col.matchIndex, room.roomIndex)}
                                     />
                                 ))}
                             </div>
                         </div>
                     ))}
                 </div>
-
-                {/* Connector lines overlay */}
-                <BracketConnectors
-                    key={connectorsKey}
-                    connections={connections}
-                    containerRef={containerRef}
-                    roomElements={roomElementsRef.current}
-                />
             </div>
         </div>
     );
