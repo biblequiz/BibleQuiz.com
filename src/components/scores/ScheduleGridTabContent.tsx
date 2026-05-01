@@ -8,6 +8,7 @@ import { isTabActive } from "utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import IndividualGridTabContent from "./IndividualGridTabContent";
 
 export interface Props {
     eventId: string;
@@ -62,6 +63,15 @@ export default function ScheduleGridTabContent({
                     if (!selectedMeetRef) {
                         return null;
                     }
+                }
+
+                if (meet.IsIndividualCompetition) {
+                    return (
+                        <IndividualGridTabContent
+                            key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
+                            eventId={eventId}
+                            meet={meet}
+                        />);
                 }
 
                 let teamsOrQuizzers: ScoringReportTeam[] | ScoringReportQuizzer[] | number[];

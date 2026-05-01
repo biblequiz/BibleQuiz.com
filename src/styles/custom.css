@@ -332,3 +332,45 @@ select.rsw-dd {
 div.main-frame {
     padding-top: 56px;
 }
+
+/* Bracket Visualization Styles */
+.bracket-visualization {
+    position: relative;
+}
+
+.bracket-visualization .bracket-room-node {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bracket-visualization .bracket-room-node:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure connector SVG doesn't interfere with room interactions */
+.bracket-visualization svg {
+    z-index: 0;
+}
+
+.bracket-visualization .flex > div {
+    z-index: 1;
+}
+
+/* Print styles for bracket */
+@media print {
+    .bracket-visualization {
+        overflow: visible !important;
+    }
+    
+    .bracket-visualization svg path {
+        stroke: #333 !important;
+    }
+    
+    .bracket-visualization svg circle {
+        fill: #eee !important;
+    }
+    
+    .bracket-visualization svg text {
+        fill: #333 !important;
+    }
+}

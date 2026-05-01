@@ -56,7 +56,7 @@ export default function PointValueCountSelector({
             <legend className="fieldset-legend">{label}</legend>
             {allowManual && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                    <label className="label text-wrap">
+                    <label className="label text-wrap mt-0 mb-0">
                         <input
                             type="radio"
                             name={`point-value-ordering-${id}`}
@@ -69,7 +69,7 @@ export default function PointValueCountSelector({
                             Random Ordering
                         </span>
                     </label>
-                    <label className="label text-wrap">
+                    <label className="label text-wrap mt-0 mb-0">
                         <input
                             type="radio"
                             name={`point-value-ordering-${id}`}

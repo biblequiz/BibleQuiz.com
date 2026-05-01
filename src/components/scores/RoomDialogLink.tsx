@@ -38,8 +38,8 @@ export default function RoomDialogLink({ id, label, eventId, databaseId, meetId,
             data-match-id={matchId}
             data-room-id={roomId}
             onClick={e => window.openRoomDialog(e)}
-            onMouseOver={e => (e.currentTarget.style.textDecorationColor = "var(--accent-focus)",e.currentTarget.style.fontWeight="bold" ) }
-            onMouseOut={e => (e.currentTarget.style.color = "var(--accent-content)", e.currentTarget.style.fontWeight="normal") }
+            onMouseOver={e => (e.currentTarget.style.textDecorationColor = "var(--accent-focus)", e.currentTarget.style.fontWeight = "bold")}
+            onMouseOut={e => (e.currentTarget.style.color = "var(--accent-content)", e.currentTarget.style.fontWeight = "normal")}
         >
             {children}
         </a>
