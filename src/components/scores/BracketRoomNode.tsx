@@ -189,7 +189,7 @@ export default function BracketRoomNode({
             data-room-index={roomIndex}
             data-match-index={matchIndex}
             className={`card card-compact bg-base-100 shadow-sm border ${stateClass} cursor-pointer hover:shadow-md transition-shadow min-w-48 mt-0 mb-0`}
-            onClick={e => isCompleted || isInProgress ? window.openRoomDialog(e) : undefined}
+            onClick={e => roomMatch?.Quizzers && roomMatch?.Quizzers.length > 0 ? window.openRoomDialog(e) : undefined}
         >
             <div className="card-body p-2">
                 <div className="flex justify-between items-center mb-0">
