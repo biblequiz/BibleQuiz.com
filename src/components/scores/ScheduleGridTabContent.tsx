@@ -8,6 +8,7 @@ import { isTabActive } from "utils/Tabs";
 import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import IndividualBracketVisualization from "./IndividualBracketVisualization";
 
 export interface Props {
     eventId: string;
@@ -62,6 +63,16 @@ export default function ScheduleGridTabContent({
                     if (!selectedMeetRef) {
                         return null;
                     }
+                }
+
+                if (meet.IsIndividualCompetition) {
+                    return (
+                        <IndividualBracketVisualization
+                            meet={meet}
+                            onRoomClick={(roomIndex, matchIndex) => {
+                                console.log(`Room clicked: ${roomIndex}, Match clicked: ${matchIndex}`);
+                            }}
+                        />);
                 }
 
                 let teamsOrQuizzers: ScoringReportTeam[] | ScoringReportQuizzer[] | number[];
