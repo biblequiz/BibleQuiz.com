@@ -1,5 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScoringReport";
+import type { ScoringReportMeet, ScoringReportQuizzer, ScoringReportRoomMatch } from "types/EventScoringReport";
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 export interface BracketRoomNodeProps {
@@ -10,10 +11,15 @@ export interface BracketRoomNodeProps {
     roomMatch: ScoringReportRoomMatch | null;
     meet: ScoringReportMeet;
     isBye?: boolean;
+    isPrinting: boolean;
+    highlightQuizzerId: string | null;
+    favorites: TeamAndQuizzerFavorites | null;
+    showOnlyFavorites: boolean;
 }
 
 interface ParticipantDisplay {
     key: string;
+    id?: string;
     name: string;
     churchName?: string;
     rank: number | null;
@@ -65,7 +71,11 @@ export default function BracketRoomNode({
     matchIndex,
     roomMatch,
     meet,
-    isBye
+    isBye,
+    isPrinting,
+    favorites,
+    highlightQuizzerId,
+    showOnlyFavorites
 }: BracketRoomNodeProps) {
 
     // Determine match state and styling
@@ -111,7 +121,7 @@ export default function BracketRoomNode({
         const seenQuizzerIds = new Set<number>();
 
         // Build list of quizzers with their ranks for sorting
-        const quizzerData: { quizzerId: number; quizzer: any; rank: number | null; nextRoom: string | null }[] = [];
+        const quizzerData: { quizzerId: number; quizzer: ScoringReportQuizzer; rank: number | null; nextRoom: string | null }[] = [];
 
         for (let i = 0; i < roomMatch.Quizzers.length; i++) {
             const quizzerId = roomMatch.Quizzers[i];
@@ -143,6 +153,7 @@ export default function BracketRoomNode({
 
             participants.push({
                 key: `${matchIndex}-${roomIndex}-q-${i}-${quizzerId}`,
+                id: quizzer.Id,
                 name: quizzer.Name,
                 churchName: quizzer.ChurchName,
                 rank,
@@ -197,42 +208,64 @@ export default function BracketRoomNode({
                     {stateBadge}
                 </div>
                 <ul className="text-xs space-y-1 mb-0 mt-0">
-                    {participants.map((p, i) => (
-                        <li
-                            key={p.key}
-                            className={`flex items-center gap-1 ${p.isPlaceholder ? "italic text-base-content/60" : ""} ${i > 0 ? "border-t border-primary" : ""} pt-1`}
-                            style={{ marginLeft: "unset" }}
-                        >
-                            {p.isPlaceholder && p.rank !== null ? (
-                                <>
-                                    <span className={`badge badge-sm ${getRankBadgeClass(p.rank, true, true)}`}>
-                                        {DataTypeHelpers.ordinalWithSuffix(p.rank)}
-                                    </span>
-                                    <span>from Room {p.name}</span>
-                                </>
-                            ) : !p.isPlaceholder ? (
-                                <>
-                                    <span className={`badge badge-sm ${getRankBadgeClass(p.rank, !!p.nextRoom, true)}`}>
-                                        {p.rank === null ? "?" : DataTypeHelpers.ordinalWithSuffix(p.rank)}
-                                    </span>
-                                    <span>{p.name}
-                                        {p.churchName && (
-                                            <>
-                                                <br />
-                                                <i>{p.churchName}</i>
-                                            </>)}
-                                        {p.nextRoom && (
-                                            <>
-                                                <br />
-                                                <b><i>Move to Room {p.nextRoom}</i></b>
-                                            </>)}
-                                    </span>
-                                </>
-                            ) : (
-                                <span>{p.name}</span>
-                            )}
-                        </li>
-                    ))}
+                    {participants.map((p, i) => {
+
+                        let highlightColor: string = "";
+                        let highlightTextColor: string = "";
+                        if (!isPrinting && p.id) {
+                            const isFavorite = favorites?.quizzerIds.has(p.id);
+                            const isHighlighted = highlightQuizzerId === p.id;
+
+                            if (isHighlighted) {
+                                highlightColor = "bg-yellow-200";
+                                highlightTextColor = "text-accent-content";
+                            }
+                            else if (isFavorite) {
+                                highlightColor = "bg-accent-300";
+                                highlightTextColor = "text-accent-content";
+                            }
+
+                            if (showOnlyFavorites && !isFavorite) {
+                                return null;
+                            }
+                        }
+
+                        return (
+                            <li
+                                key={p.key}
+                                className={`flex items-center gap-1 ${p.isPlaceholder ? "italic text-base-content/60" : ""} ${i > 0 ? "border-t border-primary" : ""} pt-1 pl-2 pr-2 pb-1 ${highlightColor}`}
+                                style={{ marginLeft: "unset" }}
+                            >
+                                {p.isPlaceholder && p.rank !== null ? (
+                                    <>
+                                        <span className={`badge badge-sm ${getRankBadgeClass(p.rank, true, true)}`}>
+                                            {DataTypeHelpers.ordinalWithSuffix(p.rank)}
+                                        </span>
+                                        <span>from Room {p.name}</span>
+                                    </>
+                                ) : !p.isPlaceholder ? (
+                                    <>
+                                        <span className={`badge badge-sm ${getRankBadgeClass(p.rank, !!p.nextRoom, true)}`}>
+                                            {p.rank === null ? "?" : DataTypeHelpers.ordinalWithSuffix(p.rank)}
+                                        </span>
+                                        <span className={highlightTextColor}>{p.name}
+                                            {p.churchName && (
+                                                <>
+                                                    <br />
+                                                    <i>{p.churchName}</i>
+                                                </>)}
+                                            {p.nextRoom && (
+                                                <>
+                                                    <br />
+                                                    <b><i>Move to Room {p.nextRoom}</i></b>
+                                                </>)}
+                                        </span>
+                                    </>
+                                ) : (
+                                    <span className={highlightTextColor}>{p.name}</span>
+                                )}
+                            </li>);
+                    })}
                 </ul>
             </div>
         </div>);

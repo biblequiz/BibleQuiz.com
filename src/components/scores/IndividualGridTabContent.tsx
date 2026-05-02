@@ -1,10 +1,15 @@
 import { useMemo } from "react";
 import type { ScoringReportMeet, ScoringReportRoomMatch } from "types/EventScoringReport";
 import BracketRoomNode from "./BracketRoomNode";
+import type { TeamAndQuizzerFavorites } from "types/TeamAndQuizzerFavorites";
 
 export interface IndividualBracketVisualizationProps {
     eventId: string;
     meet: ScoringReportMeet;
+    isPrinting: boolean;
+    highlightQuizzerId: string | null;
+    favorites: TeamAndQuizzerFavorites | null;
+    showOnlyFavorites: boolean;
 }
 
 interface BracketColumn {
@@ -20,6 +25,10 @@ interface BracketColumn {
 export default function IndividualGridTabContent({
     eventId,
     meet,
+    isPrinting,
+    favorites,
+    highlightQuizzerId,
+    showOnlyFavorites
 }: IndividualBracketVisualizationProps) {
 
     // Build the bracket structure: group rooms by match
@@ -118,6 +127,10 @@ export default function IndividualGridTabContent({
                                         matchIndex={col.matchIndex}
                                         roomMatch={room.roomMatch}
                                         meet={meet}
+                                        isPrinting={isPrinting}
+                                        favorites={favorites}
+                                        highlightQuizzerId={highlightQuizzerId}
+                                        showOnlyFavorites={showOnlyFavorites}
                                     />
                                 ))}
                             </div>

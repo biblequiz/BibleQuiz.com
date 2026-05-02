@@ -65,15 +65,6 @@ export default function ScheduleGridTabContent({
                     }
                 }
 
-                if (meet.IsIndividualCompetition) {
-                    return (
-                        <IndividualGridTabContent
-                            key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
-                            eventId={eventId}
-                            meet={meet}
-                        />);
-                }
-
                 let teamsOrQuizzers: ScoringReportTeam[] | ScoringReportQuizzer[] | number[];
                 let hasRankedTeamsOrQuizzers: boolean;
                 if (!meet.IsIndividualCompetition && meet.RankedTeams && (!isPrinting || printStats)) {
@@ -101,6 +92,13 @@ export default function ScheduleGridTabContent({
                 let teamOrQuizzerRowCount = 0;
 
                 const teamOrQuizzerRows = teamsOrQuizzers.map((teamOrQuizzerId: ScoringReportTeam | ScoringReportQuizzer | number, teamOrQuizzerIndex: number) => {
+
+                    teamOrQuizzerRowCount++;
+                    
+                    if (meet.IsIndividualCompetition) {
+                        return null;
+                    }
+
                     const teamOrQuizzer = hasRankedTeamsOrQuizzers
                         ? meet.Teams![teamOrQuizzerId as number]
                         : teamOrQuizzerId as ScoringReportTeam;
@@ -129,8 +127,6 @@ export default function ScheduleGridTabContent({
                             return null;
                         }
                     }
-
-                    teamOrQuizzerRowCount++;
 
                     return (
                         <tr
@@ -242,44 +238,55 @@ export default function ScheduleGridTabContent({
                         onOpen={forceOpen ? handleSectionOpened : undefined}
                         key={key}>
 
-                        <table className="table table-s table-nowrap">
-                            <thead>
-                                <tr>
-                                    {hasRankedTeamsOrQuizzers && <th className="text-right">#</th>}
-                                    <th className="pl-0">{meet.IsIndividualCompetition ? "Quizzer" : "Team"}</th>
-                                    {hasRankedTeamsOrQuizzers &&
-                                        (<>
-                                            <th className="text-right">W</th>
-                                            <th className="text-right">L</th>
-                                            <th className="text-right">Total</th>
-                                            <th className="text-right">Avg</th>
-                                        </>)}
-                                    {meet.Matches.map((match: ScoringReportMeetMatch) => (
-                                        <th className="text-center" key={`${key}_matchheader_${match.Id}`}>
-                                            {null != match.PlayoffIndex ? `P${match.PlayoffIndex}` : match.Id}
-                                        </th>))}
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {teamOrQuizzerRows}
-                                {teamOrQuizzerRowCount === 0 && (
-                                    <tr>
-                                        <td colSpan={footerColSpan + meet.Matches.length} className="text-center text-sm italic">
-                                            No favorite {meet.IsIndividualCompetition ? "quizzers" : "teams"} found.
-                                        </td>
-                                    </tr>)}
-                            </tbody>
-                            {hasAnyMatchTimes && (
-                                <tfoot>
-                                    <tr>
-                                        <th colSpan={footerColSpan}>Planned Start Time for Match</th>
-                                        {meet.Matches.map((match: ScoringReportMeetMatch, matchIndex: number) => (
-                                            <th className="text-center" key={`${key}_footer_${matchIndex}`}>
-                                                {match.MatchTime ? match.MatchTime : "--"}
-                                            </th>))}
-                                    </tr>
-                                </tfoot>)}
-                        </table>
+                        {meet.IsIndividualCompetition ? (
+                            <IndividualGridTabContent
+                                key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
+                                eventId={eventId}
+                                meet={meet}
+                                isPrinting={isPrinting ?? false}
+                                favorites={favorites}
+                                highlightQuizzerId={eventFilters?.highlightQuizzerId}
+                                showOnlyFavorites={showOnlyFavorites}
+                            />)
+                            : (
+                                <table className="table table-s table-nowrap">
+                                    <thead>
+                                        <tr>
+                                            {hasRankedTeamsOrQuizzers && <th className="text-right">#</th>}
+                                            <th className="pl-0">Team</th>
+                                            {hasRankedTeamsOrQuizzers &&
+                                                (<>
+                                                    <th className="text-right">W</th>
+                                                    <th className="text-right">L</th>
+                                                    <th className="text-right">Total</th>
+                                                    <th className="text-right">Avg</th>
+                                                </>)}
+                                            {meet.Matches.map((match: ScoringReportMeetMatch) => (
+                                                <th className="text-center" key={`${key}_matchheader_${match.Id}`}>
+                                                    {null != match.PlayoffIndex ? `P${match.PlayoffIndex}` : match.Id}
+                                                </th>))}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {teamOrQuizzerRows}
+                                        {teamOrQuizzerRowCount === 0 && (
+                                            <tr>
+                                                <td colSpan={footerColSpan + meet.Matches.length} className="text-center text-sm italic">
+                                                    No favorite teams found.
+                                                </td>
+                                            </tr>)}
+                                    </tbody>
+                                    {hasAnyMatchTimes && (
+                                        <tfoot>
+                                            <tr>
+                                                <th colSpan={footerColSpan}>Planned Start Time for Match</th>
+                                                {meet.Matches.map((match: ScoringReportMeetMatch, matchIndex: number) => (
+                                                    <th className="text-center" key={`${key}_footer_${matchIndex}`}>
+                                                        {match.MatchTime ? match.MatchTime : "--"}
+                                                    </th>))}
+                                            </tr>
+                                        </tfoot>)}
+                                </table>)}
                         {teamOrQuizzerRowCount === 0 && !meet.IsIndividualCompetition && (
                             <table className="table table-s table-nowrap page-break-before">
                                 <thead>
