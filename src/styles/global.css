@@ -6,3 +6,86 @@
 @import 'tailwindcss/utilities.css' layer(utilities);
 
 @plugin "daisyui";
+
+/* Fix for mobile TOC - reset DaisyUI styles that interfere with Starlight */
+mobile-starlight-toc,
+#starlight__mobile-toc,
+details#starlight__mobile-toc {
+    display: block !important;
+    grid-template-rows: unset !important;
+    border-radius: unset !important;
+    isolation: unset !important;
+    overflow: visible !important;
+    position: static !important;
+    width: auto !important;
+    list-style: none !important;
+}
+
+#starlight__mobile-toc > summary,
+details#starlight__mobile-toc > summary {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    grid-template-rows: unset !important;
+    grid-auto-flow: unset !important;
+    grid-row-start: unset !important;
+    grid-column-start: unset !important;
+    list-style: none !important;
+    list-style-type: none !important;
+}
+
+/* Remove bullet/marker from summary */
+#starlight__mobile-toc > summary::marker,
+details#starlight__mobile-toc > summary::-webkit-details-marker {
+    display: none !important;
+    content: none !important;
+}
+
+/* Remove any ::before pseudo-element bullets from DaisyUI */
+#starlight__mobile-toc::before,
+#starlight__mobile-toc > summary::before,
+#starlight__mobile-toc .toggle::before,
+details#starlight__mobile-toc::before,
+details#starlight__mobile-toc > summary::before {
+    display: none !important;
+    content: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+#starlight__mobile-toc .toggle {
+    flex-shrink: 0 !important;
+    width: auto !important;
+    max-width: fit-content !important;
+    list-style: none !important;
+    list-style-type: none !important;
+}
+
+/* Ensure the caret icon is visible and properly sized */
+#starlight__mobile-toc .toggle .caret,
+#starlight__mobile-toc .toggle svg,
+#starlight__mobile-toc .toggle svg.caret,
+details#starlight__mobile-toc .toggle .caret,
+details#starlight__mobile-toc .toggle svg {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 16px !important;
+    height: 16px !important;
+    min-width: 16px !important;
+    min-height: 16px !important;
+    flex-shrink: 0 !important;
+    --sl-icon-size: 16px !important;
+}
+
+#starlight__mobile-toc .display-current {
+    min-width: 0 !important;
+    flex: 1 !important;
+}
+
+/* Reset DaisyUI collapse styles on mobile TOC dropdown */
+#starlight__mobile-toc .dropdown {
+    display: block !important;
+    grid-template-rows: unset !important;
+}

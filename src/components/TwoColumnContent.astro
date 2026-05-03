@@ -1,3 +1,29 @@
-<div class="lg:sl-flex">
-	<div class="main-pane"><slot /></div>
-</div>
+---
+import Default from '@astrojs/starlight/components/TwoColumnContent.astro';
+
+interface TocItem {
+    children: TocItem[];
+}
+
+function hasMultipleItems(items: TocItem[]): boolean {
+    if (items.length > 1) return true;
+    if (items.length === 1 && items[0].children.length > 0) return true;
+    return false;
+}
+
+const { toc } = Astro.locals.starlightRoute;
+
+// Override starlightRoute.toc to be falsy if there's only a single item
+// This will make the default component skip rendering the right sidebar
+if (toc && !hasMultipleItems(toc.items)) {
+    Astro.locals.starlightRoute = {
+        ...Astro.locals.starlightRoute,
+        toc: undefined
+    };
+}
+---
+
+<Default {...Astro.props}>
+    <slot />
+    <slot name="right-sidebar" slot="right-sidebar" />
+</Default>
