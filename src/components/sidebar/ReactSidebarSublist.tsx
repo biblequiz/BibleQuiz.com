@@ -64,6 +64,11 @@ export default function ReactSidebarSublist({
                                         <FontAwesomeIcon icon={entry.icon} classNames={iconClassNames} />
                                     )}
                                     <span>{entry.label}</span>
+                                    {entry.badge && (
+                                        <div className={`badge badge-${entry.badge.variant}`}>
+                                            {entry.badge.text}
+                                        </div>
+                                    )}
                                 </a>
                             </div>
                         )
