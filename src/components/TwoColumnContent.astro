@@ -5,13 +5,13 @@ interface TocItem {
     children: TocItem[];
 }
 
-const { toc } = Astro.locals.starlightRoute;
-
 function hasMultipleItems(items: TocItem[]): boolean {
     if (items.length > 1) return true;
     if (items.length === 1 && items[0].children.length > 0) return true;
     return false;
 }
+
+const { toc } = Astro.locals.starlightRoute;
 
 // Override starlightRoute.toc to be falsy if there's only a single item
 // This will make the default component skip rendering the right sidebar
