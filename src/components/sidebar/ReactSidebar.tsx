@@ -17,8 +17,7 @@ export interface ReactSidebarManifest {
 }
 
 export interface ReactSidebarBadge {
-    variant: string;
-    class: string;
+    variant: 'info' | 'warning' | 'success' | 'error' | 'primary' | 'secondary' | 'neutral';
     text: string;
 }
 
@@ -29,6 +28,7 @@ export interface ReactSidebarLink {
     icon?: string;
     iconClass?: string[];
     attrs?: any;
+    badge?: ReactSidebarBadge;
     navigate: () => void | Promise<void>;
 }
 
