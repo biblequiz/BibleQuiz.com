@@ -135,11 +135,12 @@ export default defineConfig({
                 Header: "./src/components/Header.astro",
                 Footer: "./src/components/Footer.astro",
                 MobileMenuToggle: "./src/components/MobileMenuToggle.astro",
+                MobileTableOfContents: "./src/components/MobileTableOfContents.astro",
                 PageFrame: "./src/components/PageFrame.astro",
                 PageTitle: "./src/components/PageTitle.astro",
                 Sidebar: "./src/components/sidebar/Sidebar.astro",
-                TwoColumnContent: "./src/components/TwoColumnContent.astro",
                 SocialIcons: "./src/components/SocialIcons.astro",
+                TwoColumnContent: "./src/components/TwoColumnContent.astro",
             },
             lastUpdated: true,
             pagefind: {

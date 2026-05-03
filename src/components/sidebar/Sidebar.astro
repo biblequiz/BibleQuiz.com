@@ -185,12 +185,10 @@ if (
 ) {
     sidebarIndex.potentialParentPage.isCurrent = true;
 }
-
-const { toc } = Astro.locals.starlightRoute;
 ---
 
 <SidebarPersister>
-    <SidebarSublist sublist={filteredSidebar} toc={toc?.items || []} />
+    <SidebarSublist sublist={filteredSidebar} />
 </SidebarPersister>
 
 <div class="lg:sl-hidden">

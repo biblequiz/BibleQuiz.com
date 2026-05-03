@@ -1,3 +1,12 @@
+/* Fix for single-item TOC: When TwoColumnContent hides the right sidebar,
+   make the main pane take full width using CSS :has() selector */
+@media (min-width: 72rem) {
+    [data-has-sidebar][data-has-toc] .lg\:sl-flex:not(:has(.right-sidebar-container)) .main-pane {
+        width: 100%;
+        --sl-content-margin-inline: auto;
+    }
+}
+
 /* Dark mode colors. */
 :root {
     --sl-content-width: 100%;

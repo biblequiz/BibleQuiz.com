@@ -1,0 +1,92 @@
+---
+/**
+ * Custom MobileTableOfContents override to fix DaisyUI style conflicts.
+ * This component wraps the default Starlight MobileTableOfContents and adds
+ * custom styling to prevent DaisyUI from interfering with the mobile TOC.
+ */
+import Default from '@astrojs/starlight/components/MobileTableOfContents.astro';
+---
+
+<div class="mobile-toc-wrapper">
+    <Default {...Astro.props} />
+</div>
+
+<style>
+    /* Scoped styles that will apply to the wrapper and global styles for descendants */
+    .mobile-toc-wrapper {
+        display: contents;
+    }
+</style>
+
+<style is:global>
+    /* Fix for mobile TOC - using direct ID selectors for maximum specificity */
+    
+    /* Target the details element directly */
+    details#starlight__mobile-toc {
+        display: block !important;
+        grid-template-rows: unset !important;
+        border-radius: unset !important;
+        isolation: unset !important;
+        overflow: visible !important;
+        position: static !important;
+        width: auto !important;
+        list-style: none !important;
+    }
+
+    /* Target the summary element */
+    details#starlight__mobile-toc > summary {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+        grid-template-rows: unset !important;
+        grid-auto-flow: unset !important;
+        grid-row-start: unset !important;
+        grid-column-start: unset !important;
+        list-style: none !important;
+        list-style-type: none !important;
+    }
+
+    /* Remove bullet/marker from summary */
+    details#starlight__mobile-toc > summary::marker,
+    details#starlight__mobile-toc > summary::-webkit-details-marker {
+        display: none !important;
+        content: none !important;
+    }
+
+    /* Ensure the toggle displays correctly as a flex container */
+    details#starlight__mobile-toc .toggle {
+        display: flex !important;
+        flex-shrink: 0 !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 1rem !important;
+        justify-content: space-between !important;
+        border: 1px solid var(--sl-color-gray-5) !important;
+        border-radius: 0.5rem !important;
+        padding-block: 0.5rem !important;
+        padding-inline-start: 0.75rem !important;
+        padding-inline-end: 0.5rem !important;
+        line-height: 1 !important;
+        background-color: var(--sl-color-black) !important;
+        color: var(--sl-color-white) !important;
+        user-select: none !important;
+        cursor: pointer !important;
+        list-style: none !important;
+    }
+
+    details#starlight__mobile-toc .display-current {
+        min-width: 0 !important;
+        flex: 1 !important;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+        color: var(--sl-color-white) !important;
+    }
+
+    /* Reset DaisyUI collapse styles on mobile TOC dropdown */
+    details#starlight__mobile-toc .dropdown {
+        display: block !important;
+        grid-template-rows: unset !important;
+    }
+</style>
