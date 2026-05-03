@@ -107,10 +107,6 @@ export default defineConfig({
                 {
                     label: "Manage Events",
                     collapsed: true,
-                    badge: {
-                        text: "ALPHA",
-                        variant: "caution"
-                    },
                     items: [
                         {
                             label: "All Events & Reports",

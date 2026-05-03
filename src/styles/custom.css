@@ -1,7 +1,15 @@
-/* Fix for single-item TOC: When TwoColumnContent hides the right sidebar,
-   make the main pane take full width using CSS :has() selector */
+/* Fix for pages without TOC: make content full width when no right sidebar */
 @media (min-width: 72rem) {
+    /* Case 1: TOC is explicitly disabled via frontmatter (no data-has-toc attribute) */
+    [data-has-sidebar]:not([data-has-toc]) .lg\:sl-flex .main-pane {
+        --sl-content-width: 100%;
+        width: 100%;
+        --sl-content-margin-inline: auto;
+    }
+    
+    /* Case 2: TOC exists but is hidden due to single item (no right-sidebar-container) */
     [data-has-sidebar][data-has-toc] .lg\:sl-flex:not(:has(.right-sidebar-container)) .main-pane {
+        --sl-content-width: 100%;
         width: 100%;
         --sl-content-margin-inline: auto;
     }
