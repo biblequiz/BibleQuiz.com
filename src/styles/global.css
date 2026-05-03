@@ -42,6 +42,18 @@ details#starlight__mobile-toc > summary::-webkit-details-marker {
     content: none !important;
 }
 
+/* Remove any ::before pseudo-element bullets from DaisyUI */
+#starlight__mobile-toc::before,
+#starlight__mobile-toc > summary::before,
+#starlight__mobile-toc .toggle::before,
+details#starlight__mobile-toc::before,
+details#starlight__mobile-toc > summary::before {
+    display: none !important;
+    content: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
 #starlight__mobile-toc .toggle {
     flex-shrink: 0 !important;
     width: auto !important;
@@ -50,11 +62,21 @@ details#starlight__mobile-toc > summary::-webkit-details-marker {
     list-style-type: none !important;
 }
 
-/* Ensure the caret icon is visible */
-#starlight__mobile-toc .toggle .caret {
+/* Ensure the caret icon is visible and properly sized */
+#starlight__mobile-toc .toggle .caret,
+#starlight__mobile-toc .toggle svg,
+#starlight__mobile-toc .toggle svg.caret,
+details#starlight__mobile-toc .toggle .caret,
+details#starlight__mobile-toc .toggle svg {
     display: inline-block !important;
     visibility: visible !important;
     opacity: 1 !important;
+    width: 16px !important;
+    height: 16px !important;
+    min-width: 16px !important;
+    min-height: 16px !important;
+    flex-shrink: 0 !important;
+    --sl-icon-size: 16px !important;
 }
 
 #starlight__mobile-toc .display-current {
