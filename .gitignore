@@ -21,6 +21,9 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# Wiki sync temp directory
+.wiki-temp/
+
 # Jekyll .gitignore
 *.gem
 .bundle

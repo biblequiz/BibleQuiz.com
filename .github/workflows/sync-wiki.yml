@@ -1,0 +1,87 @@
+# Wiki Sync Workflow
+#
+# Syncs content from the GitHub Wiki to the main repository.
+# Runs daily and can be manually triggered.
+#
+# Security considerations:
+# - All actions pinned to specific commit SHAs
+# - Minimal permissions granted
+# - No third-party actions for git operations
+# - Uses official github-actions[bot] identity
+
+name: Sync Wiki
+
+on:
+  schedule:
+    # Run daily at 6:00 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+# Minimal permissions - only what's needed
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Sync Wiki Content
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Pin to specific commit SHA for security
+      # actions/checkout v4.1.1 - https://github.com/actions/checkout/releases/tag/v4.1.1
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        with:
+          # Fetch full history for accurate change detection
+          fetch-depth: 0
+      
+      # Pin to specific commit SHA for security
+      # actions/setup-node v4.0.1 - https://github.com/actions/setup-node/releases/tag/v4.0.1
+      - name: Setup Node.js
+        uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8
+        with:
+          node-version: '20'
+      
+      - name: Run wiki sync script
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/sync-wiki.mjs
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet HEAD -- src/content/docs/wiki public/assets/wiki; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in wiki content."
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in wiki content."
+          fi
+      
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          # Configure git with official github-actions bot identity
+          # This is GitHub's official bot account (ID: 41898282)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage wiki content changes
+          git add src/content/docs/wiki/ public/assets/wiki/
+          
+          # Check if there's anything to commit
+          if git diff --staged --quiet; then
+            echo "No staged changes to commit."
+            exit 0
+          fi
+          
+          # Commit with descriptive message
+          git commit -m "Sync wiki content
+
+          Automated sync of GitHub Wiki content.
+          
+          Triggered by: ${{ github.event_name }}
+          Run ID: ${{ github.run_id }}"
+          
+          # Push changes
+          git push
