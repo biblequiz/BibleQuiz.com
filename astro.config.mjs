@@ -100,6 +100,11 @@ export default defineConfig({
                     slug: "privacy",
                 },
                 {
+                    label: "Wiki",
+                    collapsed: true,
+                    autogenerate: { directory: "wiki" },
+                },
+                {
                     label: "Manage Events",
                     collapsed: true,
                     badge: {
