@@ -143,7 +143,6 @@ export default defineConfig({
                 PageFrame: "./src/components/PageFrame.astro",
                 PageTitle: "./src/components/PageTitle.astro",
                 Sidebar: "./src/components/sidebar/Sidebar.astro",
-                TwoColumnContent: "./src/components/TwoColumnContent.astro",
                 SocialIcons: "./src/components/SocialIcons.astro",
             },
             lastUpdated: true,
