@@ -144,6 +144,7 @@ export default defineConfig({
                 PageTitle: "./src/components/PageTitle.astro",
                 Sidebar: "./src/components/sidebar/Sidebar.astro",
                 SocialIcons: "./src/components/SocialIcons.astro",
+                TwoColumnContent: "./src/components/TwoColumnContent.astro",
             },
             lastUpdated: true,
             pagefind: {
