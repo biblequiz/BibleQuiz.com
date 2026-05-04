@@ -14,8 +14,8 @@ const {
     hidePageTitleOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
 
-import EditLink from "virtual:starlight/components/EditLink";
-import LastUpdated from "virtual:starlight/components/LastUpdated";
+import EditLink from '@astrojs/starlight/components/EditLink.astro';
+import LastUpdated from '@astrojs/starlight/components/LastUpdated.astro';
 import ExcelExportButton from "./scores/ExcelExportButton.astro";
 import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
