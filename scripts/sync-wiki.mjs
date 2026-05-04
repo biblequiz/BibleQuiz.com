@@ -161,7 +161,7 @@ function extractExistingSidebar(existingContent) {
     const fm = fmMatch[1];
 
     // Find the sidebar key and capture it with all indented children
-    const sidebarMatch = fm.match(/^(sidebar:[\s\S]*?)(?=^\S|$)/m);
+    const sidebarMatch = fm.match(/^(sidebar:.*(?:\n[ \t]+.*)*)/m);
     if (!sidebarMatch) return null;
 
     return sidebarMatch[1].trimEnd();
