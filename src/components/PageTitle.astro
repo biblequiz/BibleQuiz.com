@@ -14,6 +14,8 @@ const {
     hidePageTitleOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
 
+import EditLink from "virtual:starlight/components/EditLink";
+import LastUpdated from "virtual:starlight/components/LastUpdated";
 import ExcelExportButton from "./scores/ExcelExportButton.astro";
 import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
@@ -34,7 +36,20 @@ if (!resolvedEventType) {
         resolvedEventType = "tbq";
     }
 }
+
+const isWiki = Astro.request.url
+    ? new URL(Astro.request.url).pathname.startsWith("/wiki/")
+    : false;
 ---
+
+{
+    isWiki && (
+        <div class="wiki-meta sl-flex w-full items-center justify-between text-sm">
+            <EditLink />
+            <LastUpdated />
+        </div>
+    )
+}
 
 {hidePageTitle && <div id="_top_hide_parent_id" />}
 {

@@ -338,6 +338,11 @@ h1.page-title {
     /* Allow the text to take up remaining space */
 }
 
+/* Ensure wiki metadata (Edit link, Last updated) is visible on all screen sizes */
+.wiki-meta {
+    display: flex !important;
+}
+
 /* Rich Text Editor adjustments */
 button.rsw-btn,
 select.rsw-dd {

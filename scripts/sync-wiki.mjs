@@ -148,14 +148,35 @@ function convertImagePaths(content) {
 }
 
 /**
+ * Extract the sidebar block from existing MDX frontmatter, if present.
+ * Returns the raw YAML lines (e.g. "sidebar:\n    order: 1\n") or null.
+ */
+function extractExistingSidebar(existingContent) {
+    if (!existingContent) return null;
+
+    // Match the frontmatter block between the first pair of ---
+    const fmMatch = existingContent.match(/^---\n([\s\S]*?)\n---/);
+    if (!fmMatch) return null;
+
+    const fm = fmMatch[1];
+
+    // Find the sidebar key and capture it with all indented children
+    const sidebarMatch = fm.match(/^(sidebar:[\s\S]*?)(?=^\S|$)/m);
+    if (!sidebarMatch) return null;
+
+    return sidebarMatch[1].trimEnd();
+}
+
+/**
  * Generate MDX frontmatter
  */
-function generateFrontmatter(title, originalFilename) {
+function generateFrontmatter(title, originalFilename, existingSidebar) {
     const editPath = originalFilename.replace(/\.md$/, '');
-    
+    const sidebarBlock = existingSidebar ? `\n${existingSidebar}` : '';
+
     return `---
 title: "${title.replace(/"/g, '\\"')}"
-editUrl: https://github.com/${process.env.GITHUB_REPOSITORY || 'biblequiz/BibleQuiz.com'}/wiki/${editPath}/_edit
+editUrl: https://github.com/${process.env.GITHUB_REPOSITORY || 'biblequiz/BibleQuiz.com'}/wiki/${editPath}/_edit${sidebarBlock}
 ---
 
 `;
@@ -180,10 +201,7 @@ function processMarkdownFile(filepath, filename) {
     
     // Convert image paths
     content = convertImagePaths(content);
-    
-    // Generate frontmatter
-    const frontmatter = generateFrontmatter(title, filename);
-    
+
     // Determine output filename
     let outputFilename;
     if (filename.toLowerCase() === 'home.md') {
@@ -191,6 +209,17 @@ function processMarkdownFile(filepath, filename) {
     } else {
         outputFilename = toSlug(filename.replace(/\.md$/, '')) + '.mdx';
     }
+
+    // Preserve existing sidebar frontmatter from the output file if present
+    const outputPath = join(WIKI_CONTENT_DIR, outputFilename);
+    const existingContent = existsSync(outputPath) ? readFileSync(outputPath, 'utf-8') : null;
+    const existingSidebar = extractExistingSidebar(existingContent);
+    if (existingSidebar) {
+        console.log(`  Preserving sidebar frontmatter for: ${outputFilename}`);
+    }
+
+    // Generate frontmatter
+    const frontmatter = generateFrontmatter(title, filename, existingSidebar);
     
     return {
         filename: outputFilename,
@@ -296,6 +325,10 @@ async function syncWiki() {
     // Clone wiki
     const cloned = cloneWikiRepo(wikiUrl);
     if (!cloned) {
+        mkdirSync(WIKI_CONTENT_DIR, { recursive: true });
+        mkdirSync(WIKI_ASSETS_DIR, { recursive: true });
+        console.log('\nCleaning up generated wiki content because no wiki pages were found...');
+        cleanupOldContent([], []);
         console.log('\nNo wiki content to sync.');
         process.exit(0);
     }
