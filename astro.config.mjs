@@ -143,6 +143,9 @@ export default defineConfig({
                 SocialIcons: "./src/components/SocialIcons.astro",
                 TwoColumnContent: "./src/components/TwoColumnContent.astro",
             },
+            editLink: {
+                baseUrl: 'https://github.com/biblequiz/BibleQuiz.com/edit/main/'
+            },
             lastUpdated: true,
             pagefind: {
                 ranking: {
