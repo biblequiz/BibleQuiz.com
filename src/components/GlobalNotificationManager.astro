@@ -48,4 +48,26 @@ import GlobalStatusToast from './GlobalStatusToast';
     window.addEventListener("beforeunload", beforeUnloadHandler);
     window.addEventListener("error", unhandledExceptionHandler);
     window.addEventListener("unhandledrejection", unhandledRejectionHandler);
+
+    // Privacy Policy Notice
+    const PRIVACY_POLICY_VERSION = "2026-05-06";
+    const PRIVACY_POLICY_STORAGE_KEY = `privacyPolicyDismissed_${PRIVACY_POLICY_VERSION}`;
+
+    const showPrivacyPolicyNotice = () => {
+        const dismissed = localStorage.getItem(PRIVACY_POLICY_STORAGE_KEY);
+        if (!dismissed) {
+            sharedGlobalStatusToast.set({
+                type: "info",
+                title: "Privacy Policy Updated",
+                message: "Our Privacy Policy has been updated effective May 6, 2026. Please review the changes at /privacy. Click the X to dismiss this notice.",
+                keepOpen: true,
+                onDismiss: () => {
+                    localStorage.setItem(PRIVACY_POLICY_STORAGE_KEY, "true");
+                },
+            });
+        }
+    };
+
+    // Show privacy policy notice on page load
+    showPrivacyPolicyNotice();
 </script>

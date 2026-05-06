@@ -1,5 +1,5 @@
 import { useStore } from "@nanostores/react";
-import { sharedGlobalStatusToast } from 'utils/SharedState';
+import { sharedGlobalStatusToast, type GlobalToastMessage } from 'utils/SharedState';
 import { useEffect } from "react";
 import FontAwesomeIcon from './FontAwesomeIcon';
 
@@ -19,9 +19,25 @@ export default function GlobalStatusToast({ }: Props) {
         return null;
     }
 
+    const handleDismiss = () => {
+        if (toastState.onDismiss) {
+            toastState.onDismiss();
+        }
+        sharedGlobalStatusToast.set(null);
+    };
+
     return (
         <div className="toast toast-top toast-center top-20">
-            <div className={`alert alert-${toastState.type || "info"} flex flex-col`}>
+            <div className={`alert alert-${toastState.type || "info"} flex flex-col relative`}>
+                {toastState.keepOpen && (
+                    <button
+                        className="btn btn-ghost btn-xs absolute top-1 right-1"
+                        onClick={handleDismiss}
+                        aria-label="Dismiss"
+                    >
+                        <FontAwesomeIcon icon="fas faXmark" />
+                    </button>
+                )}
                 <b>{toastState.title.toUpperCase()}</b>
                 <p className="text-sm">
                     {toastState.icon && <><FontAwesomeIcon icon={toastState.icon} classNames={["mr-2"]} />&nbsp;</>}
