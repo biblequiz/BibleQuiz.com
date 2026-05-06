@@ -175,6 +175,7 @@ export interface GlobalToastMessage {
     keepOpen?: boolean;
     icon?: string;
     showLoading?: boolean;
+    onDismiss?: () => void;
 }
 
 export const sharedGlobalStatusToast = atom<GlobalToastMessage | null>(null);
