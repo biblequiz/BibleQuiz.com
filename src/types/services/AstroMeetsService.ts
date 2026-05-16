@@ -323,6 +323,73 @@ export interface OnlineMeetSchedulingSettings {
      * Override for the number of rounds from the template.
      */
     TemplateRoundCountOverride?: number | null;
+
+    /**
+     * Minimum number of quizzers in a room during an individual competition.
+     */
+    MinQuizzersPerRoom?: number | null;
+
+    /**
+     * Desired number of quizzers in a room during an individual competition.
+     */
+    DesiredQuizzersPerRoom?: number | null;
+
+    /**
+     * Maximum number of quizzers in a room during an individual competition.
+     */
+    MaxQuizzersPerRoom?: number | null;
+
+    /**
+     * Maximum number of quizzers in the semi-final room during an individual competition.
+     */
+    MaxQuizzersPerSemiFinalRoom?: number | null;
+
+    /**
+     * Room assignment strategy for quizzers during an individual competition.
+     */
+    QuizzerRoomAssignment?: OnlineQuizzerRoomAssignmentStrategy | null;
+
+    /**
+     * Room optimization strategy for quizzers during an individual competition.
+     */
+    QuizzerRoomOptimization?: OnlineQuizzerRoomOptimizationStrategy | null;
+}
+
+/**
+ * Controls how logical rooms in each round are mapped to physical room labels.
+ */
+export enum OnlineQuizzerRoomAssignmentStrategy {
+    /**
+     * Always use the first N physical rooms each round (A, B, C, ...).
+     * Minimizes the number of rooms in use but can cause back-to-back
+     * same-room assignments for players as the bracket shrinks.
+     */
+    Compact,
+
+    /**
+     * Spread the active rooms evenly across the full pool of available
+     * physical rooms each round. The N rooms needed are picked by
+     * distributing them as evenly as possible across the M total rooms,
+     * so every physical room gets roughly equal use over the tournament
+     * and no player is forced back into the same room in consecutive rounds.
+     */
+    Spread,
+}
+
+/**
+ * Selects the room decomposition strategy used during generation.
+ */
+export enum OnlineQuizzerRoomOptimizationStrategy {
+
+    /**
+     * Prefer fewer rooms to reduce total rounds.
+     */
+    MinRounds,
+
+    /**
+     * Prefer smaller room sizes even if this increases round count.
+     */
+    PreferSmallerRooms,
 }
 
 /**
