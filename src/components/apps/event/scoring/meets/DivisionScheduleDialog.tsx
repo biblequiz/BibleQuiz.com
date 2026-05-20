@@ -10,7 +10,9 @@ import {
     type OnlineMeetSettings,
     type OnlineMeetSchedulingSettings,
     type OnlineMeetSchedulePreview,
-    OnlineMeetMatchRankingType
+    OnlineMeetMatchRankingType,
+    OnlineQuizzerRoomAssignmentStrategy,
+    OnlineQuizzerRoomOptimizationStrategy
 } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import type { MatchRules } from "types/MatchRules";
@@ -97,6 +99,14 @@ export default function DivisionScheduleDialog({
     // Match ranking state (for individual competitions)
     const [matchRanking, setMatchRanking] = useState<OnlineMeetMatchRankingType>(OnlineMeetMatchRankingType.HighestPointsWins);
 
+    // Individual competition scheduling options
+    const [minQuizzersPerRoom, setMinQuizzersPerRoom] = useState<number>(4);
+    const [desiredQuizzersPerRoom, setDesiredQuizzersPerRoom] = useState<number>(6);
+    const [maxQuizzersPerRoom, setMaxQuizzersPerRoom] = useState<number>(8);
+    const [maxQuizzersPerSemiFinalRoom, setMaxQuizzersPerSemiFinalRoom] = useState<number | null>(null);
+    const [quizzerRoomAssignment, setQuizzerRoomAssignment] = useState<OnlineQuizzerRoomAssignmentStrategy>(OnlineQuizzerRoomAssignmentStrategy.Spread);
+    const [quizzerRoomOptimization, setQuizzerRoomOptimization] = useState<OnlineQuizzerRoomOptimizationStrategy>(OnlineQuizzerRoomOptimizationStrategy.MinRounds);
+
     // Optimizer state
     const [useOptimizer, setUseOptimizer] = useState(false);
 
@@ -162,6 +172,26 @@ export default function DivisionScheduleDialog({
                         setIncludeByesInScores(data.Schedule.IncludeByesInScores || false);
                         setStartingRoundOverride(data.Schedule.StartingTemplateRoundOverride || null);
                         setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
+
+                        // Individual competition scheduling options
+                        if (data.Schedule.MinQuizzersPerRoom !== undefined && data.Schedule.MinQuizzersPerRoom !== null) {
+                            setMinQuizzersPerRoom(data.Schedule.MinQuizzersPerRoom);
+                        }
+                        if (data.Schedule.DesiredQuizzersPerRoom !== undefined && data.Schedule.DesiredQuizzersPerRoom !== null) {
+                            setDesiredQuizzersPerRoom(data.Schedule.DesiredQuizzersPerRoom);
+                        }
+                        if (data.Schedule.MaxQuizzersPerRoom !== undefined && data.Schedule.MaxQuizzersPerRoom !== null) {
+                            setMaxQuizzersPerRoom(data.Schedule.MaxQuizzersPerRoom);
+                        }
+                        if (data.Schedule.MaxQuizzersPerSemiFinalRoom !== undefined) {
+                            setMaxQuizzersPerSemiFinalRoom(data.Schedule.MaxQuizzersPerSemiFinalRoom);
+                        }
+                        if (data.Schedule.QuizzerRoomAssignment !== undefined && data.Schedule.QuizzerRoomAssignment !== null) {
+                            setQuizzerRoomAssignment(data.Schedule.QuizzerRoomAssignment);
+                        }
+                        if (data.Schedule.QuizzerRoomOptimization !== undefined && data.Schedule.QuizzerRoomOptimization !== null) {
+                            setQuizzerRoomOptimization(data.Schedule.QuizzerRoomOptimization);
+                        }
                     }
 
                     // Custom schedule from server
@@ -349,7 +379,15 @@ export default function DivisionScheduleDialog({
         OptimizedSchedule: null,
         StartingTemplateRoundOverride: startingRoundOverride,
         TemplateRoundCountOverride: roundCountOverride,
-        UseOptimizer: useOptimizer
+        UseOptimizer: useOptimizer,
+        ...(isIndividualCompetition ? {
+            MinQuizzersPerRoom: minQuizzersPerRoom,
+            DesiredQuizzersPerRoom: desiredQuizzersPerRoom,
+            MaxQuizzersPerRoom: maxQuizzersPerRoom,
+            MaxQuizzersPerSemiFinalRoom: maxQuizzersPerSemiFinalRoom,
+            QuizzerRoomAssignment: quizzerRoomAssignment,
+            QuizzerRoomOptimization: quizzerRoomOptimization
+        } : {})
     });
 
     // Custom schedule handlers
@@ -910,25 +948,26 @@ export default function DivisionScheduleDialog({
                                 <div className="p-2 flex flex-wrap gap-4">
                                     {!hasCustomSchedule && (
                                         <>
-                                            <div className="form-control mt-0 mb-0">
-                                                <label className="label gap-2 p-0">
-                                                    <span className="label-text text-sm">Starting Round:</span>
-                                                    <select
-                                                        className="select select-xs select-bordered w-20"
-                                                        value={startingRoundOverride ?? ""}
-                                                        onChange={(e) => handleStartingRoundChange(e.target.value)}
-                                                        disabled={!canEditScheduleSettings}
-                                                    >
-                                                        <option value="">1</option>
-                                                        {(() => {
-                                                            const totalRounds = roundCountOverride ?? (schedulePreview ? Object.keys(schedulePreview.Matches || {}).length : 0);
-                                                            return Array.from({ length: totalRounds }, (_, i) => i + 1).map(num => (
-                                                                <option key={num} value={num}>{num}</option>
-                                                            ));
-                                                        })()}
-                                                    </select>
-                                                </label>
-                                            </div>
+                                            {!isIndividualCompetition && (
+                                                <div className="form-control mt-0 mb-0">
+                                                    <label className="label gap-2 p-0">
+                                                        <span className="label-text text-sm">Starting Round:</span>
+                                                        <select
+                                                            className="select select-xs select-bordered w-20"
+                                                            value={startingRoundOverride ?? ""}
+                                                            onChange={(e) => handleStartingRoundChange(e.target.value)}
+                                                            disabled={!canEditScheduleSettings}
+                                                        >
+                                                            <option value="">1</option>
+                                                            {(() => {
+                                                                const totalRounds = roundCountOverride ?? (schedulePreview ? Object.keys(schedulePreview.Matches || {}).length : 0);
+                                                                return Array.from({ length: totalRounds }, (_, i) => i + 1).map(num => (
+                                                                    <option key={num} value={num}>{num}</option>
+                                                                ));
+                                                            })()}
+                                                        </select>
+                                                    </label>
+                                                </div>)}
 
                                             <div className="form-control mt-0 mb-0">
                                                 <label className="label gap-2 p-0">
@@ -948,17 +987,155 @@ export default function DivisionScheduleDialog({
                                         </>
                                     )}
 
-                                    <label className="label cursor-pointer gap-2 mt-0 mb-0">
-                                        <input
-                                            type="checkbox"
-                                            className="checkbox checkbox-sm"
-                                            checked={includeByesInScores}
-                                            onChange={(e) => handleIncludeByesChange(e.target.checked)}
-                                            disabled={!canEditScheduleSettings}
-                                        />
-                                        <span className="label-text text-sm">Include Byes in Scores</span>
-                                    </label>
+                                    {!isIndividualCompetition && (
+                                        <label className="label cursor-pointer gap-2 mt-0 mb-0">
+                                            <input
+                                                type="checkbox"
+                                                className="checkbox checkbox-sm"
+                                                checked={includeByesInScores}
+                                                onChange={(e) => handleIncludeByesChange(e.target.checked)}
+                                                disabled={!canEditScheduleSettings}
+                                            />
+                                            <span className="label-text text-sm">Include Byes in Scores</span>
+                                        </label>)}
                                 </div>
+
+                                {isIndividualCompetition && (
+                                    <div className="p-2 flex flex-wrap gap-4 border-t border-base-300 mt-2 pt-4">
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label gap-2 p-0">
+                                                <span className="label-text text-sm">Min Quizzers per Room:</span>
+                                                <select
+                                                    className="select select-xs select-bordered w-20"
+                                                    value={minQuizzersPerRoom}
+                                                    onChange={(e) => {
+                                                        const newMin = Number(e.target.value);
+                                                        setMinQuizzersPerRoom(newMin);
+                                                        // Adjust dependent values if needed
+                                                        if (desiredQuizzersPerRoom < newMin) {
+                                                            setDesiredQuizzersPerRoom(newMin);
+                                                        }
+                                                        if (maxQuizzersPerRoom < newMin) {
+                                                            setMaxQuizzersPerRoom(newMin);
+                                                        }
+                                                        if (maxQuizzersPerSemiFinalRoom !== null && maxQuizzersPerSemiFinalRoom < newMin) {
+                                                            setMaxQuizzersPerSemiFinalRoom(newMin);
+                                                        }
+                                                        markScheduleOutOfDate();
+                                                    }}
+                                                    disabled={!canEditScheduleSettings}
+                                                >
+                                                    {Array.from({ length: maxQuizzersPerRoom - 1 }, (_, i) => i + 2).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ))}
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label gap-2 p-0">
+                                                <span className="label-text text-sm">Desired Quizzers per Room:</span>
+                                                <select
+                                                    className="select select-xs select-bordered w-20"
+                                                    value={desiredQuizzersPerRoom}
+                                                    onChange={(e) => {
+                                                        setDesiredQuizzersPerRoom(Number(e.target.value));
+                                                        markScheduleOutOfDate();
+                                                    }}
+                                                    disabled={!canEditScheduleSettings}
+                                                >
+                                                    {Array.from({ length: maxQuizzersPerRoom - minQuizzersPerRoom + 1 }, (_, i) => i + minQuizzersPerRoom).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ))}
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label gap-2 p-0">
+                                                <span className="label-text text-sm">Max Quizzers per Room:</span>
+                                                <select
+                                                    className="select select-xs select-bordered w-20"
+                                                    value={maxQuizzersPerRoom}
+                                                    onChange={(e) => {
+                                                        const newMax = Number(e.target.value);
+                                                        setMaxQuizzersPerRoom(newMax);
+                                                        // Adjust dependent values if needed
+                                                        if (desiredQuizzersPerRoom > newMax) {
+                                                            setDesiredQuizzersPerRoom(newMax);
+                                                        }
+                                                        if (maxQuizzersPerSemiFinalRoom !== null && maxQuizzersPerSemiFinalRoom > newMax) {
+                                                            setMaxQuizzersPerSemiFinalRoom(newMax);
+                                                        }
+                                                        markScheduleOutOfDate();
+                                                    }}
+                                                    disabled={!canEditScheduleSettings}
+                                                >
+                                                    {Array.from({ length: 8 - minQuizzersPerRoom + 1 }, (_, i) => i + minQuizzersPerRoom).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ))}
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label gap-2 p-0">
+                                                <span className="label-text text-sm">Max Quizzers per Semi-Final Room:</span>
+                                                <select
+                                                    className="select select-xs select-bordered w-24"
+                                                    value={maxQuizzersPerSemiFinalRoom ?? ""}
+                                                    onChange={(e) => {
+                                                        const val = e.target.value;
+                                                        setMaxQuizzersPerSemiFinalRoom(val === "" ? null : Number(val));
+                                                        markScheduleOutOfDate();
+                                                    }}
+                                                    disabled={!canEditScheduleSettings}
+                                                >
+                                                    <option value="">Default</option>
+                                                    {Array.from({ length: maxQuizzersPerRoom - minQuizzersPerRoom + 1 }, (_, i) => i + minQuizzersPerRoom).map(num => (
+                                                        <option key={num} value={num}>{num}</option>
+                                                    ))}
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label gap-2 p-0">
+                                                <span className="label-text text-sm">Room Assignment Strategy:</span>
+                                                <select
+                                                    className="select select-xs select-bordered w-28"
+                                                    value={quizzerRoomAssignment}
+                                                    onChange={(e) => {
+                                                        setQuizzerRoomAssignment(Number(e.target.value) as OnlineQuizzerRoomAssignmentStrategy);
+                                                        markScheduleOutOfDate();
+                                                    }}
+                                                    disabled={!canEditScheduleSettings}
+                                                >
+                                                    <option value={OnlineQuizzerRoomAssignmentStrategy.Compact}>Compact</option>
+                                                    <option value={OnlineQuizzerRoomAssignmentStrategy.Spread}>Spread</option>
+                                                </select>
+                                            </label>
+                                        </div>
+
+                                        <div className="form-control mt-0 mb-0">
+                                            <label className="label gap-2 p-0">
+                                                <span className="label-text text-sm">Room Optimization Strategy:</span>
+                                                <select
+                                                    className="select select-xs select-bordered w-40"
+                                                    value={quizzerRoomOptimization}
+                                                    onChange={(e) => {
+                                                        setQuizzerRoomOptimization(Number(e.target.value) as OnlineQuizzerRoomOptimizationStrategy);
+                                                        markScheduleOutOfDate();
+                                                    }}
+                                                    disabled={!canEditScheduleSettings}
+                                                >
+                                                    <option value={OnlineQuizzerRoomOptimizationStrategy.MinRounds}>Fewest Rounds</option>
+                                                    <option value={OnlineQuizzerRoomOptimizationStrategy.PreferSmallerRooms}>Smaller Rooms</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
+                                )}
                             </CollapsibleSection>
 
                             {/* Custom Schedule */}
