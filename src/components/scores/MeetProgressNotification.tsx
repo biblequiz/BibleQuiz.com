@@ -18,7 +18,9 @@ function getAlertInfo(
         : meet.ScoringProgressMessage;
 
     if (!meet.RankedTeams || !progressMessage || progressMessage.length === 0) {
-        return null;
+        if (!meet.IsIndividualCompetition) {
+            return null;
+        }
     }
 
     const hasScoringCompleted = showCombinedState && meet.CombinedName
