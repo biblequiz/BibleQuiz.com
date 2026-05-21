@@ -11,7 +11,7 @@ interface Props {
 
 function getAlertInfo(
     meet: ScoringReportMeet,
-    showCombinedState: boolean | undefined): { icon: string | null, alertClassName: string | null, message: string } | null {
+    showCombinedState: boolean | undefined): { icon: string | null, alertClassName: string | null, message: string | null } | null {
 
     const progressMessage = showCombinedState && meet.CombinedName
         ? meet.ScoringProgressMessageForCombined
