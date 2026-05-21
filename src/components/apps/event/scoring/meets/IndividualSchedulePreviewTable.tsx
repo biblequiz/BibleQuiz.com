@@ -1,4 +1,15 @@
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
+
+/**
+ * Gets the badge color class based on rank position
+ */
+function getRankBadgeClass(rank: number): string {
+    if (rank === 1 || rank === 2) {
+        return "badge-warning";
+    }
+    return "badge-success text-black";
+}
 
 interface Props {
     schedulePreview: OnlineMeetSchedulePreview;
@@ -21,9 +32,9 @@ export default function IndividualSchedulePreviewTable({
         : [];
 
     /**
-     * Format RoutedTeamOrQuizzers for a room in a match as "R1 - 1, R2 - 2" etc.
+     * Format RoutedTeamOrQuizzers for a room in a match with rank badges
      */
-    const formatRoutedQuizzers = (matchId: number, roomId: number): string => {
+    const formatRoutedQuizzers = (matchId: number, roomId: number): React.ReactNode => {
         const match = schedulePreview.Matches[matchId];
         if (!match) return "--";
 
@@ -33,9 +44,16 @@ export default function IndividualSchedulePreviewTable({
         const routed = room.RoutedTeamOrQuizzers;
         if (!routed || routed.length === 0) return "--";
 
-        return routed
-            .map(r => `R${r.RoomId} - ${r.RankOrder}`)
-            .join(", ");
+        return routed.map((r, idx) => (
+            <div className="mt-1">
+                <span key={`quizzer-${matchId}-${roomId}-${idx}`} className="whitespace-nowrap">
+                    <span className={`badge badge-sm ${getRankBadgeClass(r.RankOrder)}`}>
+                        {DataTypeHelpers.ordinalWithSuffix(r.RankOrder)}
+                    </span>
+                    <span className="ml-1">from Room {roomNames[r.RoomId - 1]}</span>
+                </span>
+                {idx < routed.length - 1 && <br />}
+            </div>));
     };
 
     return (

@@ -10,6 +10,7 @@ import type { EventScoresProps } from "utils/Scores";
 import { isTabActive } from "utils/Tabs";
 import ToggleTeamOrQuizzerFavoriteButton from './ToggleTeamOrQuizzerFavoriteButton';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import IndividualGridTabContent from "./IndividualGridTabContent";
 
 function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] | null, hasTie: boolean): JSX.Element {
     return (
@@ -29,6 +30,7 @@ function formatFootnotes(keyPrefix: string, footnotes: ScoringReportFootnote[] |
 }
 
 export default function StatsTabContent({
+    eventId,
     event,
     isPrinting,
     printingStatsFormat,
@@ -60,11 +62,6 @@ export default function StatsTabContent({
     return (
         <>
             {event.Report.Meets.map((meet: ScoringReportMeet) => {
-
-                // Individual competition don't have a stats view as quizzer scores cannot be compared between matches.
-                if (meet.IsIndividualCompetition) {
-                    return null;
-                }
 
                 if (selectedMeets && selectedMeets.length > 0) {
                     const selectedMeetRef = selectedMeets.find(
@@ -238,6 +235,14 @@ export default function StatsTabContent({
                     });
                 }
 
+                if (meet.IsIndividualCompetition) {
+                    sectionBadges.push({
+                        className: "badge-lg badge-soft badge-info",
+                        icon: "fas faPerson",
+                        text: meet.Quizzers!.length.toString()
+                    });
+                }
+
                 return (
                     <CollapsableMeetSection
                         meet={meet}
@@ -250,76 +255,87 @@ export default function StatsTabContent({
                         badges={sectionBadges}
                         onOpen={forceOpen ? handleSectionOpened : undefined}
                         key={`stats_${meet.DatabaseId}_${meet.MeetId}`}>
+                        {meet.IsIndividualCompetition ? (
+                            <IndividualGridTabContent
+                                key={`ic_${meet.DatabaseId}_${meet.MeetId}`}
+                                eventId={eventId}
+                                meet={meet}
+                                isPrinting={isPrinting ?? false}
+                                favorites={favorites ?? null}
+                                highlightQuizzerId={eventFilters?.highlightQuizzerId}
+                                showOnlyFavorites={showOnlyFavorites}
+                            />) : (
+                            <>
+                                {rankedTeams && (
+                                    <div>
+                                        <MeetProgressNotification meet={meet} />
+                                        <p className="text-lg"><b>Teams</b></p>
+                                        <table className="table table-s table-nowrap">
+                                            <thead>
+                                                <tr>
+                                                    <th className="text-right">#</th>
+                                                    <th className="pl-0">Team (Church)</th>
+                                                    <th className="text-right">W</th>
+                                                    <th className="text-right">L</th>
+                                                    <th className="text-right">W%</th>
+                                                    <th className="text-right">Total</th>
+                                                    <th className="text-right">Avg</th>
+                                                    <th className="text-right">QO</th>
+                                                    <th className="text-right">Q%</th>
+                                                    <th className="text-right">30s</th>
+                                                    <th className="text-right">20s</th>
+                                                    <th className="text-right">10s</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {rankedTeams}
+                                                {teamCount === 0 && (
+                                                    <tr>
+                                                        <td colSpan={12} className="text-center">No favorite teams found.</td>
+                                                    </tr>
+                                                )}
+                                            </tbody>
+                                        </table>
+                                        {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_teamfoot`, meet.TeamFootnotes, hasTeamTie)}
+                                    </div>)}
+                                {hasRankedQuizzers && (
+                                    <div className={hasRankedTeams && hasRankedQuizzers && isPrinting ? "page-break-before" : ""}>
+                                        <p className="text-lg"><b>Quizzers</b></p>
+                                        <table className="table table-s table-nowrap">
+                                            <thead>
+                                                <tr>
+                                                    <th className="text-right">#</th>
+                                                    <th className="pl-0">Quizzer</th>
+                                                    <th>Team (Church)</th>
+                                                    {meet.ShowYearsQuizzing && (
+                                                        <th className="text-right">Yrs</th>)}
+                                                    <th className="text-right">Total</th>
+                                                    <th className="text-right">Avg</th>
+                                                    <th className="text-right">QO</th>
+                                                    <th className="text-right">Q%</th>
+                                                    <th className="text-right">30s</th>
+                                                    <th className="text-right">20s</th>
+                                                    <th className="text-right">10s</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {rankedQuizzers}
+                                                {quizzerCount === 0 && (
+                                                    <tr>
+                                                        <td colSpan={12} className="text-center">No favorite quizzers found.</td>
+                                                    </tr>
+                                                )}
+                                            </tbody>
+                                        </table>
+                                        {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_quizzerfoot`, meet.QuizzerFootnotes, hasQuizzerTie)}
+                                    </div>)}
 
-                        {rankedTeams && (
-                            <div>
-                                <MeetProgressNotification meet={meet} />
-                                <p className="text-lg"><b>Teams</b></p>
-                                <table className="table table-s table-nowrap">
-                                    <thead>
-                                        <tr>
-                                            <th className="text-right">#</th>
-                                            <th className="pl-0">Team (Church)</th>
-                                            <th className="text-right">W</th>
-                                            <th className="text-right">L</th>
-                                            <th className="text-right">W%</th>
-                                            <th className="text-right">Total</th>
-                                            <th className="text-right">Avg</th>
-                                            <th className="text-right">QO</th>
-                                            <th className="text-right">Q%</th>
-                                            <th className="text-right">30s</th>
-                                            <th className="text-right">20s</th>
-                                            <th className="text-right">10s</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {rankedTeams}
-                                        {teamCount === 0 && (
-                                            <tr>
-                                                <td colSpan={12} className="text-center">No favorite teams found.</td>
-                                            </tr>
-                                        )}
-                                    </tbody>
-                                </table>
-                                {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_teamfoot`, meet.TeamFootnotes, hasTeamTie)}
-                            </div>)}
-                        {hasRankedQuizzers && (
-                            <div className={hasRankedTeams && hasRankedQuizzers && isPrinting ? "page-break-before" : ""}>
-                                <p className="text-lg"><b>Quizzers</b></p>
-                                <table className="table table-s table-nowrap">
-                                    <thead>
-                                        <tr>
-                                            <th className="text-right">#</th>
-                                            <th className="pl-0">Quizzer</th>
-                                            <th>Team (Church)</th>
-                                            {meet.ShowYearsQuizzing && (
-                                                <th className="text-right">Yrs</th>)}
-                                            <th className="text-right">Total</th>
-                                            <th className="text-right">Avg</th>
-                                            <th className="text-right">QO</th>
-                                            <th className="text-right">Q%</th>
-                                            <th className="text-right">30s</th>
-                                            <th className="text-right">20s</th>
-                                            <th className="text-right">10s</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {rankedQuizzers}
-                                        {quizzerCount === 0 && (
-                                            <tr>
-                                                <td colSpan={12} className="text-center">No favorite quizzers found.</td>
-                                            </tr>
-                                        )}
-                                    </tbody>
-                                </table>
-                                {formatFootnotes(`${meet.DatabaseId}_${meet.MeetId}_quizzerfoot`, meet.QuizzerFootnotes, hasQuizzerTie)}
-                            </div>)}
-
-                        {!rankedTeams && !rankedQuizzers && (
-                            <div className="text-lg text-center italic">
-                                <FontAwesomeIcon icon="fas faHourglassHalf" classNames={["mr-2"]} />
-                                <span>Stats will be available once scoring has started and there's at least one completed match.</span>
-                            </div>)}
+                                {!rankedTeams && !rankedQuizzers && (
+                                    <div className="text-lg text-center italic">
+                                        <FontAwesomeIcon icon="fas faHourglassHalf" classNames={["mr-2"]} />
+                                        <span>Stats will be available once scoring has started and there's at least one completed match.</span>
+                                    </div>)}
+                            </>)}
                     </CollapsableMeetSection>);
             })}
         </>);

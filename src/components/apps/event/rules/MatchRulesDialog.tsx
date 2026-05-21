@@ -64,7 +64,7 @@ export default function MatchRulesDialog({
 
     return (
         <dialog ref={dialogRef} className="modal" open>
-            <div className="modal-box w-full max-w-3xl">
+            <div className="modal-box w-full max-w-3xl max-h-[90vh] overflow-y-auto">
                 <h3 className="font-bold text-lg">Edit Rules</h3>
                 <button
                     type="button"
@@ -163,5 +163,8 @@ export default function MatchRulesDialog({
                     </button>
                 </div>
             </div>
+            <form method="dialog" className="modal-backdrop">
+                <button onClick={() => { onSelect(null); dialogRef.current?.close(); }}>close</button>
+            </form>
         </dialog>);
 }

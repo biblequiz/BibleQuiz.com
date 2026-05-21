@@ -11,14 +11,16 @@ interface Props {
 
 function getAlertInfo(
     meet: ScoringReportMeet,
-    showCombinedState: boolean | undefined): { icon: string | null, alertClassName: string | null, message: string } | null {
+    showCombinedState: boolean | undefined): { icon: string | null, alertClassName: string | null, message: string | null } | null {
 
     const progressMessage = showCombinedState && meet.CombinedName
         ? meet.ScoringProgressMessageForCombined
         : meet.ScoringProgressMessage;
 
     if (!meet.RankedTeams || !progressMessage || progressMessage.length === 0) {
-        return null;
+        if (!meet.IsIndividualCompetition) {
+            return null;
+        }
     }
 
     const hasScoringCompleted = showCombinedState && meet.CombinedName
