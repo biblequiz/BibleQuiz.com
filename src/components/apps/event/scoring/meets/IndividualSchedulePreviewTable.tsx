@@ -1,3 +1,4 @@
+import type { TeamOrQuizzerReference } from "types/Meets";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
@@ -12,18 +13,17 @@ function getRankBadgeClass(rank: number): string {
 }
 
 interface Props {
+    allQuizzers: Record<number, TeamOrQuizzerReference>;
     schedulePreview: OnlineMeetSchedulePreview;
     roomNames: string[];
 }
 
 export default function IndividualSchedulePreviewTable({
+    allQuizzers,
     schedulePreview,
     roomNames,
 }: Props) {
     const matchIds = Object.keys(schedulePreview.Matches).map(Number).sort((a, b) => a - b);
-
-    // Matches after the first one (which defines initial rooms)
-    const routedMatchIds = matchIds.slice(1);
 
     // Room ids from the first match (defines the rooms)
     const firstMatch = matchIds.length > 0 ? schedulePreview.Matches[matchIds[0]] : null;
@@ -40,6 +40,19 @@ export default function IndividualSchedulePreviewTable({
 
         const room = match.Rooms[roomId];
         if (!room) return "--";
+
+        const quizzers = room.QuizzerIds;
+        if (quizzers?.length > 0) {
+            return quizzers.map((quizzerId) => {
+                const quizzer = allQuizzers[quizzerId];
+                return (
+                    <div key={`${matchId}-${roomId}-${quizzerId}`} className="mt-1">
+                        <span className="whitespace-nowrap">
+                            {quizzer.Name}
+                        </span>
+                    </div>);
+            });
+        }
 
         const routed = room.RoutedTeamOrQuizzers;
         if (!routed || routed.length === 0) return "--";
@@ -58,13 +71,13 @@ export default function IndividualSchedulePreviewTable({
 
     return (
         <div className="space-y-4">
-            {routedMatchIds.length > 0 && (
+            {matchIds.length > 0 && (
                 <div className="overflow-x-auto">
                     <table className="table table-xs">
                         <thead>
                             <tr>
                                 <th>Room</th>
-                                {routedMatchIds.map(matchId => (
+                                {matchIds.map(matchId => (
                                     <th key={matchId} className="text-center">{matchId}</th>
                                 ))}
                             </tr>
@@ -76,7 +89,7 @@ export default function IndividualSchedulePreviewTable({
                                 return (
                                     <tr key={roomId}>
                                         <td className="font-medium">{roomName}</td>
-                                        {routedMatchIds.map(matchId => (
+                                        {matchIds.map(matchId => (
                                             <td key={matchId} className="text-center text-xs">
                                                 {formatRoutedQuizzers(matchId, roomId)}
                                             </td>

@@ -118,6 +118,7 @@ export default function DivisionScheduleDialog({
     const [showLinkedMeetsDialog, setShowLinkedMeetsDialog] = useState(false);
     const [isDirty, setIsDirty] = useState(false);
     const [showCloseConfirmation, setShowCloseConfirmation] = useState(false);
+    const [isSchedulePreviewFullscreen, setIsSchedulePreviewFullscreen] = useState(false);
 
     // All available teams/quizzers from the database
     const [allTeams, setAllTeams] = useState<Record<number, TeamOrQuizzerReference>>({});
@@ -542,10 +543,12 @@ export default function DivisionScheduleDialog({
         }
     }, [isDirty, onClose]);
 
-    // Handle Escape key to close dialog
+    // Handle Escape key to close dialog (only when schedule preview is not in fullscreen)
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving && !showLinkedMeetsDialog) {
+            // Don't handle Escape if schedule preview is in fullscreen mode
+            // (the SchedulePreviewTable component handles it internally)
+            if (e.key === "Escape" && !isSaving && !showLinkedMeetsDialog && !isSchedulePreviewFullscreen) {
                 e.preventDefault();
                 handleClose();
             }
@@ -553,7 +556,7 @@ export default function DivisionScheduleDialog({
 
         document.addEventListener("keydown", handleKeyDown);
         return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving, showLinkedMeetsDialog]);
+    }, [handleClose, isSaving, showLinkedMeetsDialog, isSchedulePreviewFullscreen]);
 
     // Export schedule stats
     const handleExportStats = async () => {
@@ -1236,6 +1239,7 @@ export default function DivisionScheduleDialog({
                                     selectedTeamIds={selectedTeamIds}
                                     selectedQuizzerIds={selectedQuizzerIds}
                                     allTeams={allTeams}
+                                    allQuizzers={allQuizzers}
                                     roomNames={roomNames}
                                     includeByesInScores={includeByesInScores}
                                     isOutOfDate={isScheduleOutOfDate}
@@ -1254,6 +1258,7 @@ export default function DivisionScheduleDialog({
                                     onMatchTimeChange={handleMatchTimeChange}
                                     onResetMatchTimes={handleResetMatchTimes}
                                     onExportStats={handleExportStats}
+                                    onFullscreenChange={setIsSchedulePreviewFullscreen}
                                 />
                             </CollapsibleSection>
                         </form>
