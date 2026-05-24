@@ -49,6 +49,7 @@ export default function ScoringDatabaseLiveScoresPage({ }: Props) {
                     error: null
                 });
 
+                setIsReloading(false);
                 setIsLoading(false);
                 setLoadError(null);;
             })
