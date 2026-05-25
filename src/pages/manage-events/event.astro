@@ -3,6 +3,7 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 import EventRoot from "components/apps/event/EventRoot";
+import RoomDialog from "components/scores/RoomDialog.astro";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Manage My Event",
@@ -17,4 +18,5 @@ const frontmatter: StarlightPageFrontmatter = {
         <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
     </div>
     <EventRoot client:only="react" />
+    <RoomDialog />
 </StarlightPage>
