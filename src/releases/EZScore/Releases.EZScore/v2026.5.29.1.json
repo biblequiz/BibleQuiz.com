@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4Tvui0",
   "tag_name": "v2026.5.29.1",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Fixed Individual Competition Bugs",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-05-29T04:37:03Z",
+  "updated_at": "2026-05-29T04:39:44Z",
   "published_at": "2026-05-29T04:36:55Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.5.29.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.5.29.1",
-  "body": "Latest version of EZScore"
+  "body": "Introduced two fixes for Individual Competitions:\r\n1. `Fastest to Quiz Out Ranking` didn't correctly differentiate between two different quizzed out quizzers with the same score.\r\n2. Questions aren't normalized to the minimum point value if they are less than the regular question count."
 }
