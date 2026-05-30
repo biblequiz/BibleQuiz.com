@@ -58,7 +58,7 @@ export default function EventLookupDialog({
             const excludeIds = new Set<string>(excludeEventIds ?? []);
 
             if (eventCache?.events && eventCache.season === season) {
-                setAllEvents(eventCache!.events.filter(e => !excludeIds.has(e.id)));
+                setAllEvents(eventCache!.events.filter(e => !excludeIds.has(e.id) && !e.isReport));
             }
             else {
                 AstroEventsService.getOwnedEvents(
@@ -107,7 +107,7 @@ export default function EventLookupDialog({
 
             if (normalizedSearchText &&
                 !event.searchableName.includes(normalizedSearchText) &&
-                event.searchableLocation && !event.searchableLocation.includes(normalizedSearchText)) {
+                (!event.searchableLocation || !event.searchableLocation.includes(normalizedSearchText))) {
                 continue;
             }
 
@@ -120,7 +120,7 @@ export default function EventLookupDialog({
 
     return (
         <dialog ref={dialogRef} className="modal" open>
-            <div className="modal-box w-full max-w-3xl">
+            <div className="modal-box w-full max-w-3xl max-h-[90vh] overflow-y-auto">
                 <h3 className="font-bold text-lg">Select an Event</h3>
                 <button
                     type="button"
