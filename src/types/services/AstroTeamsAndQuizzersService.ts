@@ -115,6 +115,36 @@ export class AstroTeamsAndQuizzersService {
     }
 
     /**
+     * Generates a ranked seeding report that can be used to seed a meet.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param rankedMeetIds List of ranked meet ids.
+     * @param isIndividualCompetition Value indicating whether the seeding report is for an individual competition.
+     *
+     * @returns Seeding report for the database.
+     */
+    public static getRankedSeedReport(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        rankedMeetIds: number[],
+        isIndividualCompetition: boolean,
+    ): Promise<void> {
+        return RemoteServiceUtility.downloadFromHttpRequest(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/teamsAndQuizzers/rankedSeedReport`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                rankedMeetIds: rankedMeetIds.join(","),
+                isIndividualCompetition,
+            }),
+        );
+    }
+
+    /**
      * Parses a seed report from a file.
      *
      * @param auth AuthManager to use for authentication.

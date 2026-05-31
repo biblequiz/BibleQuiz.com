@@ -57,12 +57,12 @@ export default function UnseatRulesSection({ state, onChange, disabled = false }
                         <input
                             type="checkbox"
                             className="checkbox checkbox-sm checkbox-info"
-                            checked={state.endMatchIfAllNextRoomsGuaranteed}
-                            onChange={e => onChange({ endMatchIfAllNextRoomsGuaranteed: e.target.checked })}
+                            checked={state.endMatchIfTopPositionsGuaranteed}
+                            onChange={e => onChange({ endMatchIfTopPositionsGuaranteed: e.target.checked })}
                             disabled={disabled}
                         />
                         <span className="label-text text-base-content">
-                            End match if top position(s) guaranteed
+                            End match if top 2 guaranteed (except final). Ties for other positions broken arbitrarily.
                         </span>
                     </label>
                 </div>

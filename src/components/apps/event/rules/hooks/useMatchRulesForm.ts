@@ -60,7 +60,7 @@ export interface UnseatRulesState {
     unseatIfNextRoomGuaranteed: boolean;
     unseatIfPositionGuaranteed: boolean;
     unseatIfCannotAdvance: boolean;
-    endMatchIfAllNextRoomsGuaranteed: boolean;
+    endMatchIfTopPositionsGuaranteed: boolean;
     unseatIfMaxScore: number | null;
 }
 
@@ -128,7 +128,7 @@ function extractUnseatState(rule: UnseatRule | null): UnseatRulesState {
         unseatIfNextRoomGuaranteed: rule?.UnseatIfNextRoomGuaranteed ?? false,
         unseatIfPositionGuaranteed: rule?.UnseatIfPositionGuaranteed ?? false,
         unseatIfCannotAdvance: rule?.UnseatIfCannotAdvance ?? false,
-        endMatchIfAllNextRoomsGuaranteed: rule?.EndMatchIfAllNextRoomsGuaranteed ?? false,
+        endMatchIfTopPositionsGuaranteed: rule?.EndMatchIfTopPositionsGuaranteed ?? false,
         unseatIfMaxScore: rule?.UnseatIfMaxScore ?? null
     };
 }
@@ -314,7 +314,7 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         unseat.UnseatIfNextRoomGuaranteed = unseatRules.unseatIfNextRoomGuaranteed;
         unseat.UnseatIfPositionGuaranteed = unseatRules.unseatIfPositionGuaranteed;
         unseat.UnseatIfCannotAdvance = unseatRules.unseatIfCannotAdvance;
-        unseat.EndMatchIfAllNextRoomsGuaranteed = unseatRules.endMatchIfAllNextRoomsGuaranteed;
+        unseat.EndMatchIfTopPositionsGuaranteed = unseatRules.endMatchIfTopPositionsGuaranteed;
         unseat.UnseatIfMaxScore = unseatRules.unseatIfMaxScore;
         newRules.UnseatRule = unseat;
 

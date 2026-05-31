@@ -44,6 +44,37 @@ export class AstroMeetsService {
     }
 
     /**
+     * Parses a seed report from a file containing multiple divisions.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param form Form contents with "file" set with the file.
+     * @param isIndividualCompetition Value indicating whether the report is for an individual competition.
+     *
+     * @returns Parsed ordered list of teams or quizzers.
+     */
+    public static parseSeedReport(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        form: FormData,
+        isIndividualCompetition: boolean = false,
+    ): Promise<OnlineMeetSettings[]> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings[]>(
+            auth,
+            "POST",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/0/seedReport`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition,
+            }),
+            form,
+            true,
+        );
+    }
+
+    /**
      * Retrieves the current custom schedule template as a file for the meet.
      *
      * @param auth AuthManager to use for authentication.
@@ -80,7 +111,6 @@ export class AstroMeetsService {
      * @param databaseId Id for the database.
      * @param meetId Id for the meet. Use 0 or negative for a new meet.
      * @param settings Settings for the meet.
-     * @param useOptimizer Value indicating whether to use the optimizer when refreshing the schedule.
      *
      * @returns Updated database summary.
      */
@@ -90,14 +120,39 @@ export class AstroMeetsService {
         databaseId: string,
         meetId: number,
         settings: OnlineMeetSettings,
-        useOptimizer: boolean = false,
     ): Promise<OnlineDatabaseSummary> {
         return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
-            RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
+            undefined,
+            settings,
+        );
+    }
+
+    /**
+     * Creates multiple meets.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param settings Settings for the meets.
+     *
+     * @returns Updated database summary.
+     */
+    public static bulkCreateMeets(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        settings: OnlineMeetSettings[],
+    ): Promise<OnlineDatabaseSummary> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
+            auth,
+            "PUT",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/0/bulk`,
+            undefined,
             settings,
         );
     }
@@ -224,12 +279,6 @@ export interface OnlineMeetSettings {
      * If all times follow the default pattern, send null to let the server use defaults.
      */
     MatchTimes?: Record<number, string | null> | null;
-
-    /**
-     * Value indicating whether this meet is an individual competition. This can only be set when the meet is created. If this is true, AllQuizzers
-     * will be populated. Otherwise, AllTeams will be populated.
-     */
-    IsIndividualCompetition: boolean;
 
     /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.

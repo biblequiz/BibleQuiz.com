@@ -9,6 +9,33 @@ interface Props {
     eventId: string;
     databaseId: string;
     isIndividualCompetition: boolean;
+    /**
+     * Operating mode for the dialog.
+     * - "seed" (default): The selected meet ids are resolved into ranked team/quizzer ids via
+     *   AstroDatabasesService.getRankedTeamsOrQuizzers, and the resulting ids are passed to onSeed.
+     * - "selectIds": The selected meet ids are passed to onSeed directly without any server round-trip.
+     */
+    mode?: "seed" | "selectIds";
+    /**
+     * Override for the dialog title. Defaults to "Seed from Division(s)".
+     */
+    title?: string;
+    /**
+     * Override for the submit button label. Defaults to "Seed" (or "Working..." while running).
+     */
+    submitLabel?: string;
+    /**
+     * Override for the icon shown on the submit button. Defaults to "fas faSeedling".
+     */
+    submitIcon?: string;
+    /**
+     * Override for the alert title. Defaults to "Seed Quizzers from Rankings".
+     */
+    alertTitle?: string;
+    /**
+     * Override for the alert body. Defaults to the seed-from-rankings description.
+     */
+    alertDescription?: string;
     onSeed: (ids: number[]) => void;
     onClose: () => void;
 }
@@ -22,6 +49,12 @@ export default function SeedFromDivisionsDialog({
     eventId,
     databaseId,
     isIndividualCompetition,
+    mode = "seed",
+    title,
+    submitLabel,
+    submitIcon,
+    alertTitle,
+    alertDescription,
     onSeed,
     onClose
 }: Props) {
@@ -47,7 +80,7 @@ export default function SeedFromDivisionsDialog({
         setIsLoading(true);
         setError(null);
 
-        AstroDatabasesService.getMeetsWithRanks(auth, eventId, databaseId)
+        AstroDatabasesService.getMeetsWithRanks(auth, eventId, databaseId, isIndividualCompetition)
             .then(data => {
                 setMeetsWithRanks(data);
                 setIsLoading(false);
@@ -57,6 +90,20 @@ export default function SeedFromDivisionsDialog({
                 setIsLoading(false);
             });
     }, [auth, eventId, databaseId, isIndividualCompetition]);
+
+    // Handle Escape key to close dialog without propagating to parent dialogs.
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape" && !isSeeding) {
+                e.preventDefault();
+                e.stopPropagation();
+                onClose();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+        return () => document.removeEventListener("keydown", handleKeyDown);
+    }, [onClose, isSeeding]);
 
     // Get the order of a meet in the selected list
     const getOrderIndex = (meetId: number): number => {
@@ -143,6 +190,14 @@ export default function SeedFromDivisionsDialog({
             return;
         }
 
+        // In "selectIds" mode, the caller wants the raw selected meet ids without any
+        // server-side resolution. This is used by callers such as the bulk-add flow
+        // where the meet ids feed into a separate template generation step.
+        if (mode === "selectIds") {
+            onSeed([...selectedMeetIds]);
+            return;
+        }
+
         setIsSeeding(true);
         setError(null);
 
@@ -190,12 +245,19 @@ export default function SeedFromDivisionsDialog({
 
     const hasSelectedMeets = selectedMeetIds.length > 0;
 
+    const resolvedTitle = title ?? "Seed from Division(s)";
+    const resolvedSubmitLabel = submitLabel ?? "Seed";
+    const resolvedSubmitWorkingLabel = submitLabel ? `${submitLabel}...` : "Seeding...";
+    const resolvedSubmitIcon = submitIcon ?? "fas faSeedling";
+    const resolvedAlertTitle = alertTitle ?? "Seed Quizzers from Rankings";
+    const resolvedAlertDescription = alertDescription ?? "Select divisions to seed quizzers based on their rankings. The order of divisions determines the priority when combining rankings.";
+
     const dialogContent = (
         <dialog ref={dialogRef} className="modal modal-open" open>
             <div className="modal-box w-full max-w-lg">
                 <h3 className="font-bold text-lg">
-                    <FontAwesomeIcon icon="fas faSeedling" />
-                    <span className="ml-2">Seed from Division(s)</span>
+                    <FontAwesomeIcon icon={resolvedSubmitIcon} />
+                    <span className="ml-2">{resolvedTitle}</span>
                 </h3>
                 <button
                     type="button"
@@ -208,12 +270,8 @@ export default function SeedFromDivisionsDialog({
                     <div className="alert alert-info mb-4">
                         <FontAwesomeIcon icon="fas faCircleInfo" />
                         <div className="text-sm">
-                            <p className="font-semibold">Seed Quizzers from Rankings</p>
-                            <p>
-                                Select divisions to seed quizzers based on their rankings.
-                                The order of divisions determines the priority when combining
-                                rankings.
-                            </p>
+                            <p className="font-semibold">{resolvedAlertTitle}</p>
+                            <p>{resolvedAlertDescription}</p>
                             {hasSelectedMeets && (
                                 <p className="mt-1 text-info-content/80">
                                     <FontAwesomeIcon icon="fas faGripVertical" classNames={["mr-1"]} />
@@ -326,12 +384,12 @@ export default function SeedFromDivisionsDialog({
                         {isSeeding ? (
                             <>
                                 <span className="loading loading-spinner loading-sm"></span>
-                                Seeding...
+                                {resolvedSubmitWorkingLabel}
                             </>
                         ) : (
                             <>
-                                <FontAwesomeIcon icon="fas faSeedling" />
-                                Seed
+                                <FontAwesomeIcon icon={resolvedSubmitIcon} />
+                                {resolvedSubmitLabel}
                             </>
                         )}
                     </button>
