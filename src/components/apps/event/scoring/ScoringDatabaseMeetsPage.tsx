@@ -13,6 +13,7 @@ import DivisionScheduleDialog from "./meets/DivisionScheduleDialog";
 import DivisionPlayoffsDialog from "./meets/DivisionPlayoffsDialog";
 import DivisionRankingDialog from "./meets/DivisionRankingDialog";
 import DivisionStatsDialog from "./meets/DivisionStatsDialog";
+import BulkAddDivisionsDialog from "./meets/BulkAddDivisionsDialog";
 import ConfirmationDialog from "components/ConfirmationDialog";
 
 interface PendingDisplayChanges {
@@ -56,6 +57,7 @@ export default function ScoringDatabaseMeetsPage() {
     const [editingMeet, setEditingMeet] = useState<EditingMeet | null>(null);
     const [isAddingNewTeamDivision, setIsAddingNewTeamDivision] = useState(false);
     const [isAddingNewIndividualDivision, setIsAddingNewIndividualDivision] = useState(false);
+    const [isBulkAddingTeamDivisions, setIsBulkAddingTeamDivisions] = useState(false);
     const [confirmDelete, setConfirmDelete] = useState<DeleteConfirmation | undefined>();
 
     // Drag state
@@ -388,6 +390,15 @@ export default function ScoringDatabaseMeetsPage() {
                             </button>
                             <button
                                 type="button"
+                                className="btn btn-accent btn-sm mt-0 mb-0"
+                                onClick={() => setIsBulkAddingTeamDivisions(true)}
+                                disabled={isSaving}
+                            >
+                                <FontAwesomeIcon icon="fas faFileImport" />
+                                Bulk Add Team Divisions
+                            </button>
+                            <button
+                                type="button"
                                 className="btn btn-secondary btn-sm mt-0 mb-0"
                                 onClick={handleAddIndividualDivision}
                                 disabled={isSaving}
@@ -571,6 +582,25 @@ export default function ScoringDatabaseMeetsPage() {
                     isIndividualCompetition={true}
                     onSave={handleDialogSave}
                     onClose={handleDialogClose}
+                />
+            )}
+
+            {isBulkAddingTeamDivisions && (
+                <BulkAddDivisionsDialog
+                    auth={auth}
+                    eventId={eventId}
+                    eventType={eventType}
+                    databaseId={databaseId!}
+                    allMeets={currentDatabase.Meets}
+                    defaultRules={currentDatabase.DefaultTeamRules}
+                    defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
+                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
+                    onSave={(updatedDatabase) => {
+                        setCurrentDatabase(updatedDatabase);
+                        setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
+                        setIsBulkAddingTeamDivisions(false);
+                    }}
+                    onClose={() => setIsBulkAddingTeamDivisions(false)}
                 />
             )}
 

@@ -39,6 +39,20 @@ interface Props {
     isScoreKeepDatabase: boolean;
     isNew: boolean;
     isIndividualCompetition: boolean;
+    /**
+     * Optional pre-loaded meet settings to seed the dialog with. When provided, the dialog
+     * will skip the AstroMeetsService.getMeet call and use these settings directly. This is
+     * used by callers like the bulk-add flow that need to edit a meet that does not yet
+     * exist on the server.
+     */
+    initialSettings?: OnlineMeetSettings | null;
+    /**
+     * Optional callback for in-memory saves. When provided, the Save button will assemble
+     * the OnlineMeetSettings as usual but invoke this callback with the result instead of
+     * calling AstroMeetsService.createOrUpdateMeet. The dialog will then close (via onClose).
+     * The onSave callback will not be invoked in this case.
+     */
+    onSaveInMemory?: (updatedSettings: OnlineMeetSettings) => void;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
     onClose: () => void;
 }
@@ -56,6 +70,8 @@ export default function DivisionScheduleDialog({
     isScoreKeepDatabase,
     isNew,
     isIndividualCompetition,
+    initialSettings,
+    onSaveInMemory,
     onSave,
     onClose
 }: Props) {
@@ -139,98 +155,138 @@ export default function DivisionScheduleDialog({
         setIsLoading(true);
         setError(null);
 
+        /**
+         * Populates dialog state from a fully-formed OnlineMeetSettings object. Shared between
+         * the server-load path and the in-memory (initialSettings) path so that both behave
+         * consistently. When loading from initialSettings, treatAsServerLoad is false so that
+         * the dialog will not assume there is an existing schedule on the server.
+         */
+        const applySettings = (data: OnlineMeetSettings, treatAsServerLoad: boolean) => {
+            setSettings(data);
+
+            if (treatAsServerLoad && !isNew) {
+                setName(data.Name);
+            } else {
+                // For in-memory edits (initialSettings) we always honor the provided name,
+                // even when isNew is true (new divisions in the bulk flow have a real name).
+                if (data.Name) {
+                    setName(data.Name);
+                }
+            }
+
+            setRoomNames(data.RoomNames || []);
+            setMatchLengthInMinutes(data.MatchLengthInMinutes);
+            setAllTeams(data.AllTeams || {});
+            setAllQuizzers(data.AllQuizzers || {});
+
+            // Custom rules
+            if (data.CustomRules) {
+                setUseCustomRules(true);
+                setCustomRules(data.CustomRules);
+            }
+
+            // Match ranking (for individual competitions)
+            if (data.MatchRanking !== undefined) {
+                setMatchRanking(data.MatchRanking);
+            }
+
+            if (data.Schedule) {
+                // For in-memory edits we always seed from the provided schedule, even
+                // when isNew is true - the bulk flow generates real selections for "new" meets.
+                const seedScheduleSelections = !isNew || !treatAsServerLoad;
+                if (seedScheduleSelections) {
+                    setSelectedTeamIds(data.Schedule.TeamIds || []);
+                    setSelectedQuizzerIds(data.Schedule.QuizzerIds || []);
+                    setLinkedMeetIds(data.Schedule.LinkedMeetIds || []);
+                    setIncludeByesInScores(data.Schedule.IncludeByesInScores || false);
+                    setStartingRoundOverride(data.Schedule.StartingTemplateRoundOverride || null);
+                    setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
+
+                    // Individual competition scheduling options
+                    if (data.Schedule.MinQuizzersPerRoom !== undefined && data.Schedule.MinQuizzersPerRoom !== null) {
+                        setMinQuizzersPerRoom(data.Schedule.MinQuizzersPerRoom);
+                    }
+                    if (data.Schedule.DesiredQuizzersPerRoom !== undefined && data.Schedule.DesiredQuizzersPerRoom !== null) {
+                        setDesiredQuizzersPerRoom(data.Schedule.DesiredQuizzersPerRoom);
+                    }
+                    if (data.Schedule.MaxQuizzersPerRoom !== undefined && data.Schedule.MaxQuizzersPerRoom !== null) {
+                        setMaxQuizzersPerRoom(data.Schedule.MaxQuizzersPerRoom);
+                    }
+                    if (data.Schedule.MaxQuizzersPerSemiFinalRoom !== undefined) {
+                        setMaxQuizzersPerSemiFinalRoom(data.Schedule.MaxQuizzersPerSemiFinalRoom);
+                    }
+                    if (data.Schedule.QuizzerRoomAssignment !== undefined && data.Schedule.QuizzerRoomAssignment !== null) {
+                        setQuizzerRoomAssignment(data.Schedule.QuizzerRoomAssignment);
+                    }
+                    if (data.Schedule.QuizzerRoomOptimization !== undefined && data.Schedule.QuizzerRoomOptimization !== null) {
+                        setQuizzerRoomOptimization(data.Schedule.QuizzerRoomOptimization);
+                    }
+                }
+
+                // Custom schedule from server
+                const hasCustom = data.Schedule.HasCustomSchedule || false;
+                setHasCustomSchedule(hasCustom);
+                if (data.Schedule.CustomSchedule) {
+                    setCustomSchedule(data.Schedule.CustomSchedule);
+                }
+                setUseOptimizer(!isIndividualCompetition && !!data.Schedule.UseOptimizer);
+            }
+
+            // Only honor a preloaded preview when this is a server load for an existing
+            // meet. In-memory edits start out of date so the preview is regenerated.
+            if (treatAsServerLoad && data.MatchTimes && data.Preview && !isNew) {
+                setSchedulePreview(data.Preview);
+                setIsScheduleOutOfDate(false);
+                setHasOriginalSchedule(true);
+
+                // Initialize match times from the preview
+                const initialMatchTimes: Record<number, string | null> = {};
+                let initialShowMatchTimes = false;
+                for (const [matchId, matchTime] of Object.entries(data.MatchTimes)) {
+                    initialShowMatchTimes = initialShowMatchTimes || !!matchTime;
+                    initialMatchTimes[Number(matchId)] = matchTime;
+                }
+
+                setMatchTimes(initialMatchTimes);
+                setShowMatchTimes(initialShowMatchTimes);
+            } else if (data.MatchTimes) {
+                // Even for in-memory edits, honor explicit match times the caller supplied.
+                const initialMatchTimes: Record<number, string | null> = {};
+                let initialShowMatchTimes = false;
+                for (const [matchId, matchTime] of Object.entries(data.MatchTimes)) {
+                    initialShowMatchTimes = initialShowMatchTimes || !!matchTime;
+                    initialMatchTimes[Number(matchId)] = matchTime;
+                }
+
+                setMatchTimes(initialMatchTimes);
+                setShowMatchTimes(initialShowMatchTimes);
+            }
+
+            // Store which meets have scores
+            setMeetsWithScores(data.AllMeetsWithScores || []);
+
+            // Store the initial match length for comparison
+            setPrevMatchLengthInMinutes(data.MatchLengthInMinutes);
+
+            setIsLoading(false);
+        };
+
+        // When initialSettings is provided, skip the server load entirely. This is used
+        // by callers like the bulk-add flow that want to edit a not-yet-persisted meet.
+        if (initialSettings) {
+            applySettings(initialSettings, false);
+            return;
+        }
+
         const meetIdToLoad = isNew ? 0 : meetId;
 
         AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad, isNew ? isIndividualCompetition : false)
-            .then(data => {
-                setSettings(data);
-
-                if (!isNew) {
-                    setName(data.Name);
-                }
-
-                setRoomNames(data.RoomNames || []);
-                setMatchLengthInMinutes(data.MatchLengthInMinutes);
-                setAllTeams(data.AllTeams || {});
-                setAllQuizzers(data.AllQuizzers || {});
-
-                // Custom rules
-                if (data.CustomRules) {
-                    setUseCustomRules(true);
-                    setCustomRules(data.CustomRules);
-                }
-
-                // Match ranking (for individual competitions)
-                if (data.MatchRanking !== undefined) {
-                    setMatchRanking(data.MatchRanking);
-                }
-
-                if (data.Schedule) {
-                    if (!isNew) {
-                        setSelectedTeamIds(data.Schedule.TeamIds || []);
-                        setSelectedQuizzerIds(data.Schedule.QuizzerIds || []);
-                        setLinkedMeetIds(data.Schedule.LinkedMeetIds || []);
-                        setIncludeByesInScores(data.Schedule.IncludeByesInScores || false);
-                        setStartingRoundOverride(data.Schedule.StartingTemplateRoundOverride || null);
-                        setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
-
-                        // Individual competition scheduling options
-                        if (data.Schedule.MinQuizzersPerRoom !== undefined && data.Schedule.MinQuizzersPerRoom !== null) {
-                            setMinQuizzersPerRoom(data.Schedule.MinQuizzersPerRoom);
-                        }
-                        if (data.Schedule.DesiredQuizzersPerRoom !== undefined && data.Schedule.DesiredQuizzersPerRoom !== null) {
-                            setDesiredQuizzersPerRoom(data.Schedule.DesiredQuizzersPerRoom);
-                        }
-                        if (data.Schedule.MaxQuizzersPerRoom !== undefined && data.Schedule.MaxQuizzersPerRoom !== null) {
-                            setMaxQuizzersPerRoom(data.Schedule.MaxQuizzersPerRoom);
-                        }
-                        if (data.Schedule.MaxQuizzersPerSemiFinalRoom !== undefined) {
-                            setMaxQuizzersPerSemiFinalRoom(data.Schedule.MaxQuizzersPerSemiFinalRoom);
-                        }
-                        if (data.Schedule.QuizzerRoomAssignment !== undefined && data.Schedule.QuizzerRoomAssignment !== null) {
-                            setQuizzerRoomAssignment(data.Schedule.QuizzerRoomAssignment);
-                        }
-                        if (data.Schedule.QuizzerRoomOptimization !== undefined && data.Schedule.QuizzerRoomOptimization !== null) {
-                            setQuizzerRoomOptimization(data.Schedule.QuizzerRoomOptimization);
-                        }
-                    }
-
-                    // Custom schedule from server
-                    const hasCustom = data.Schedule.HasCustomSchedule || false;
-                    setHasCustomSchedule(hasCustom);
-                    setUseOptimizer(!isIndividualCompetition && data.Schedule.UseOptimizer);
-                }
-
-                if (data.MatchTimes && data.Preview && !isNew) {
-                    setSchedulePreview(data.Preview);
-                    setIsScheduleOutOfDate(false);
-                    setHasOriginalSchedule(true);
-
-                    // Initialize match times from the preview
-                    const initialMatchTimes: Record<number, string | null> = {};
-                    let initialShowMatchTimes = false;
-                    for (const [matchId, matchTime] of Object.entries(data.MatchTimes)) {
-                        initialShowMatchTimes = initialShowMatchTimes || !!matchTime;
-                        initialMatchTimes[Number(matchId)] = matchTime;
-                    }
-
-                    setMatchTimes(initialMatchTimes);
-                    setShowMatchTimes(initialShowMatchTimes);
-                }
-
-                // Store which meets have scores
-                setMeetsWithScores(data.AllMeetsWithScores || []);
-
-                // Store the initial match length for comparison
-                setPrevMatchLengthInMinutes(data.MatchLengthInMinutes);
-
-                setIsLoading(false);
-            })
+            .then(data => applySettings(data, true))
             .catch(err => {
                 setError(err.message || "Failed to load division settings.");
                 setIsLoading(false);
             });
-    }, [auth, eventId, databaseId, meetId, isNew, isIndividualCompetition]);
+    }, [auth, eventId, databaseId, meetId, isNew, isIndividualCompetition, initialSettings]);
 
     // Sync room count with schedule preview
     useEffect(() => {
@@ -543,20 +599,31 @@ export default function DivisionScheduleDialog({
         }
     }, [isDirty, onClose]);
 
-    // Handle Escape key to close dialog (only when schedule preview is not in fullscreen)
+    // Handle Escape key to close dialog (only when no nested dialog or fullscreen UI is open).
+    // We always stopPropagation so the Escape doesn't bubble up to a parent dialog (e.g. the
+    // bulk-add dialog) when this dialog is hosted as a nested editor.
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
             // Don't handle Escape if schedule preview is in fullscreen mode
-            // (the SchedulePreviewTable component handles it internally)
-            if (e.key === "Escape" && !isSaving && !showLinkedMeetsDialog && !isSchedulePreviewFullscreen) {
+            // (the SchedulePreviewTable component handles it internally), or if a nested
+            // dialog (linked meets, rules editor, close confirmation) is currently open.
+            if (
+                e.key === "Escape"
+                && !isSaving
+                && !showLinkedMeetsDialog
+                && !isEditingRules
+                && !showCloseConfirmation
+                && !isSchedulePreviewFullscreen
+            ) {
                 e.preventDefault();
+                e.stopPropagation();
                 handleClose();
             }
         };
 
         document.addEventListener("keydown", handleKeyDown);
         return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving, showLinkedMeetsDialog, isSchedulePreviewFullscreen]);
+    }, [handleClose, isSaving, showLinkedMeetsDialog, isEditingRules, showCloseConfirmation, isSchedulePreviewFullscreen]);
 
     // Export schedule stats
     const handleExportStats = async () => {
@@ -706,7 +773,15 @@ export default function DivisionScheduleDialog({
                 OptimizedSchedule: isRemovingCustomSchedule ? null : finalPreview?.OptimizedSchedule,
                 StartingTemplateRoundOverride: startingRoundOverride,
                 TemplateRoundCountOverride: roundCountOverride,
-                UseOptimizer: useOptimizer
+                UseOptimizer: useOptimizer,
+                ...(isIndividualCompetition ? {
+                    MinQuizzersPerRoom: minQuizzersPerRoom,
+                    DesiredQuizzersPerRoom: desiredQuizzersPerRoom,
+                    MaxQuizzersPerRoom: maxQuizzersPerRoom,
+                    MaxQuizzersPerSemiFinalRoom: maxQuizzersPerSemiFinalRoom,
+                    QuizzerRoomAssignment: quizzerRoomAssignment,
+                    QuizzerRoomOptimization: quizzerRoomOptimization
+                } : {})
             };
 
             // Build the settings to save
@@ -721,6 +796,15 @@ export default function DivisionScheduleDialog({
                 VersionId: settings?.VersionId || null,
                 Schedule: updatedSchedule
             };
+
+            // When the caller wants an in-memory save (e.g. bulk-add flow), invoke the
+            // in-memory callback and close without making any server request. The caller
+            // is responsible for persisting the resulting OnlineMeetSettings later.
+            if (onSaveInMemory) {
+                onSaveInMemory(meetSettings);
+                dialogRef.current?.close();
+                return;
+            }
 
             const result = await AstroMeetsService.createOrUpdateMeet(
                 auth,
