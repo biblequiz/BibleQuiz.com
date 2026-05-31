@@ -58,6 +58,7 @@ export default function ScoringDatabaseMeetsPage() {
     const [isAddingNewTeamDivision, setIsAddingNewTeamDivision] = useState(false);
     const [isAddingNewIndividualDivision, setIsAddingNewIndividualDivision] = useState(false);
     const [isBulkAddingTeamDivisions, setIsBulkAddingTeamDivisions] = useState(false);
+    const [isBulkAddingIndividualDivisions, setIsBulkAddingIndividualDivisions] = useState(false);
     const [confirmDelete, setConfirmDelete] = useState<DeleteConfirmation | undefined>();
 
     // Drag state
@@ -406,6 +407,15 @@ export default function ScoringDatabaseMeetsPage() {
                                 <FontAwesomeIcon icon="fas faPlus" />
                                 Add Individual Division
                             </button>
+                            <button
+                                type="button"
+                                className="btn btn-accent btn-sm mt-0 mb-0"
+                                onClick={() => setIsBulkAddingIndividualDivisions(true)}
+                                disabled={isSaving}
+                            >
+                                <FontAwesomeIcon icon="fas faFileImport" />
+                                Bulk Add Individual Divisions
+                            </button>
                         </>
                     )}
                 </div>
@@ -585,22 +595,26 @@ export default function ScoringDatabaseMeetsPage() {
                 />
             )}
 
-            {isBulkAddingTeamDivisions && (
+            {(isBulkAddingTeamDivisions || isBulkAddingIndividualDivisions) && (
                 <BulkAddDivisionsDialog
                     auth={auth}
                     eventId={eventId}
                     eventType={eventType}
                     databaseId={databaseId!}
                     allMeets={currentDatabase.Meets}
-                    defaultRules={currentDatabase.DefaultTeamRules}
+                    defaultRules={isBulkAddingIndividualDivisions ? currentDatabase.DefaultIndividualRules : currentDatabase.DefaultTeamRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
-                    isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
+                    isIndividualCompetition={isBulkAddingIndividualDivisions}
                     onSave={(updatedDatabase) => {
                         setCurrentDatabase(updatedDatabase);
                         setMeetOrder(updatedDatabase.Meets.map(m => m.Display.Id));
                         setIsBulkAddingTeamDivisions(false);
+                        setIsBulkAddingIndividualDivisions(false);
                     }}
-                    onClose={() => setIsBulkAddingTeamDivisions(false)}
+                    onClose={() => {
+                        setIsBulkAddingTeamDivisions(false);
+                        setIsBulkAddingIndividualDivisions(false);
+                    }}
                 />
             )}
 

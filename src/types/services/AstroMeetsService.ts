@@ -44,6 +44,37 @@ export class AstroMeetsService {
     }
 
     /**
+     * Parses a seed report from a file containing multiple divisions.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param form Form contents with "file" set with the file.
+     * @param isIndividualCompetition Value indicating whether the report is for an individual competition.
+     *
+     * @returns Parsed ordered list of teams or quizzers.
+     */
+    public static parseSeedReport(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        form: FormData,
+        isIndividualCompetition: boolean = false,
+    ): Promise<OnlineMeetSettings[]> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings[]>(
+            auth,
+            "POST",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/0/seedReport`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition,
+            }),
+            form,
+            true,
+        );
+    }
+
+    /**
      * Retrieves the current custom schedule template as a file for the meet.
      *
      * @param auth AuthManager to use for authentication.
@@ -80,7 +111,6 @@ export class AstroMeetsService {
      * @param databaseId Id for the database.
      * @param meetId Id for the meet. Use 0 or negative for a new meet.
      * @param settings Settings for the meet.
-     * @param useOptimizer Value indicating whether to use the optimizer when refreshing the schedule.
      *
      * @returns Updated database summary.
      */
@@ -90,14 +120,39 @@ export class AstroMeetsService {
         databaseId: string,
         meetId: number,
         settings: OnlineMeetSettings,
-        useOptimizer: boolean = false,
     ): Promise<OnlineDatabaseSummary> {
         return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
             auth,
             "PUT",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}`,
-            RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
+            undefined,
+            settings,
+        );
+    }
+
+    /**
+     * Creates multiple meets.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     * @param settings Settings for the meets.
+     *
+     * @returns Updated database summary.
+     */
+    public static bulkCreateMeets(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+        settings: OnlineMeetSettings[],
+    ): Promise<OnlineDatabaseSummary> {
+        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
+            auth,
+            "PUT",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/0/bulk`,
+            undefined,
             settings,
         );
     }
@@ -179,90 +234,6 @@ export class AstroMeetsService {
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/${meetId}/schedule/stats`,
             RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
             undefined,
-            settings,
-        );
-    }
-
-    /**
-     * Retrieves a bulk seeding template Excel file for the specified source meets.
-     * The template can then be filled out and uploaded via parseBulkSeedTemplate
-     * to create multiple divisions at once.
-     *
-     * @param auth AuthManager to use for authentication.
-     * @param eventId Id for the event.
-     * @param databaseId Id for the database.
-     * @param sourceMeetIds Ids of the source meets to seed from (in priority order).
-     */
-    public static getBulkSeedTemplate(
-        auth: AuthManager,
-        eventId: string,
-        databaseId: string,
-        sourceMeetIds: number[],
-    ): Promise<void> {
-        return RemoteServiceUtility.downloadFromHttpRequest(
-            auth,
-            "POST",
-            RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/bulkSeedTemplate`,
-            undefined,
-            undefined,
-            { MeetIds: sourceMeetIds },
-            true,
-        );
-    }
-
-    /**
-     * Parses an uploaded bulk seeding template file into an array of meet settings
-     * that can be edited in memory and then saved using bulkCreateOrUpdateMeets.
-     *
-     * @param auth AuthManager to use for authentication.
-     * @param eventId Id for the event.
-     * @param databaseId Id for the database.
-     * @param form Form contents with "file" set with the bulk seed template file.
-     *
-     * @returns Parsed list of meet settings.
-     */
-    public static parseBulkSeedTemplate(
-        auth: AuthManager,
-        eventId: string,
-        databaseId: string,
-        form: FormData,
-    ): Promise<OnlineMeetSettings[]> {
-        return RemoteServiceUtility.executeHttpRequest<OnlineMeetSettings[]>(
-            auth,
-            "POST",
-            RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/bulkSeedTemplate/parse`,
-            undefined,
-            form,
-            true,
-        );
-    }
-
-    /**
-     * Creates or updates multiple meets in a single request.
-     *
-     * @param auth AuthManager to use for authentication.
-     * @param eventId Id for the event.
-     * @param databaseId Id for the database.
-     * @param settings Settings for each meet. Use a null/0 VersionId for new meets.
-     * @param useOptimizer Value indicating whether to use the optimizer when refreshing schedules.
-     *
-     * @returns Updated database summary.
-     */
-    public static bulkCreateOrUpdateMeets(
-        auth: AuthManager,
-        eventId: string,
-        databaseId: string,
-        settings: OnlineMeetSettings[],
-        useOptimizer: boolean = false,
-    ): Promise<OnlineDatabaseSummary> {
-        return RemoteServiceUtility.executeHttpRequest<OnlineDatabaseSummary>(
-            auth,
-            "PUT",
-            RemoteServiceUrlBase.Registration,
-            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meets/bulk`,
-            RemoteServiceUtility.getFilteredUrlParameters({ o: useOptimizer }),
             settings,
         );
     }

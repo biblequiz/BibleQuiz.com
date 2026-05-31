@@ -8,6 +8,7 @@ import { AstroMeetsService, type OnlineMeetSettings } from "types/services/Astro
 import type { MatchRules } from "types/MatchRules";
 import SeedFromDivisionsDialog from "./SeedFromDivisionsDialog";
 import DivisionScheduleDialog from "./DivisionScheduleDialog";
+import { AstroTeamsAndQuizzersService } from "types/services/AstroTeamsAndQuizzersService";
 
 interface Props {
     auth: AuthManager;
@@ -17,7 +18,7 @@ interface Props {
     allMeets: OnlineDatabaseMeetSummary[];
     defaultRules: MatchRules;
     defaultMatchStartTime: string;
-    isScoreKeepDatabase: boolean;
+    isIndividualCompetition: boolean;
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
     onClose: () => void;
 }
@@ -41,7 +42,7 @@ export default function BulkAddDivisionsDialog({
     allMeets,
     defaultRules,
     defaultMatchStartTime,
-    isScoreKeepDatabase,
+    isIndividualCompetition,
     onSave,
     onClose
 }: Props) {
@@ -121,7 +122,7 @@ export default function BulkAddDivisionsDialog({
         setError(null);
         setIsDownloadingTemplate(true);
         try {
-            await AstroMeetsService.getBulkSeedTemplate(auth, eventId, databaseId, sourceMeetIds);
+            await AstroTeamsAndQuizzersService.getRankedSeedReport(auth, eventId, databaseId, sourceMeetIds, isIndividualCompetition);
         } catch (err: any) {
             setError(err.message || "Failed to download the bulk seeding template.");
         } finally {
@@ -148,11 +149,12 @@ export default function BulkAddDivisionsDialog({
         try {
             const formData = new FormData();
             formData.append("file", file);
-            const result = await AstroMeetsService.parseBulkSeedTemplate(
+            const result = await AstroMeetsService.parseSeedReport(
                 auth,
                 eventId,
                 databaseId,
                 formData,
+                isIndividualCompetition,
             );
             setParsedDivisions(result);
             setIsDirty(true);
@@ -197,7 +199,7 @@ export default function BulkAddDivisionsDialog({
         setError(null);
         setIsSaving(true);
         try {
-            const result = await AstroMeetsService.bulkCreateOrUpdateMeets(
+            const result = await AstroMeetsService.bulkCreateMeets(
                 auth,
                 eventId,
                 databaseId,
@@ -426,7 +428,7 @@ export default function BulkAddDivisionsDialog({
                     submitLabel="Download Template"
                     submitIcon="fas faDownload"
                     alertTitle="Export Bulk Seeding Template"
-                    alertDescription="Select the divisions whose teams should be used to seed the new divisions. The order determines the priority when combining seedings across divisions."
+                    alertDescription={`Select the divisions whose ${isIndividualCompetition ? "quizzers" : "teams"} should be used to seed the new divisions. The order determines the priority when combining seedings across divisions.`}
                     onSeed={handleSeedSelected}
                     onClose={() => setShowSeedDialog(false)}
                 />
@@ -445,7 +447,7 @@ export default function BulkAddDivisionsDialog({
                     allMeets={allMeets}
                     defaultRules={defaultRules}
                     defaultMatchStartTime={defaultMatchStartTime}
-                    isScoreKeepDatabase={isScoreKeepDatabase}
+                    isScoreKeepDatabase={false}
                     isNew={true}
                     isIndividualCompetition={editingDivision.IsIndividualCompetition}
                     initialSettings={editingDivision}

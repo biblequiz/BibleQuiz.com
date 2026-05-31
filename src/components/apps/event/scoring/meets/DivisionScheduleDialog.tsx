@@ -811,8 +811,7 @@ export default function DivisionScheduleDialog({
                 eventId,
                 databaseId,
                 meetId,
-                meetSettings,
-                useOptimizer
+                meetSettings
             );
 
             onSave(result);

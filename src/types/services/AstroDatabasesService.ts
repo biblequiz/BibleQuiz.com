@@ -227,6 +227,7 @@ export class AstroDatabasesService {
      * @param auth AuthManager to use for authentication.
      * @param eventId Id for the event.
      * @param databaseId Id for the database.
+     * @param isIndividualCompetition Value indicating whether to include team or individual competitions.
      *
      * @returns List of meets that have ranks.
      */
@@ -234,12 +235,16 @@ export class AstroDatabasesService {
         auth: AuthManager,
         eventId: string,
         databaseId: string,
+        isIndividualCompetition: boolean,
     ): Promise<Record<number, string>> {
         return RemoteServiceUtility.executeHttpRequest<Record<number, string>>(
             auth,
             "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/meetsWithRanks`,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                isIndividualCompetition,
+            }),
         );
     }
 
