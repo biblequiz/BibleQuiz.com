@@ -232,25 +232,12 @@ export default function DivisionScheduleDialog({
                 setUseOptimizer(!isIndividualCompetition && !!data.Schedule.UseOptimizer);
             }
 
-            // Only honor a preloaded preview when this is a server load for an existing
-            // meet. In-memory edits start out of date so the preview is regenerated.
-            if (treatAsServerLoad && data.MatchTimes && data.Preview && !isNew) {
+            if ((!treatAsServerLoad || !isNew) && data.MatchTimes && data.Preview) {
                 setSchedulePreview(data.Preview);
                 setIsScheduleOutOfDate(false);
-                setHasOriginalSchedule(true);
+                setHasOriginalSchedule(treatAsServerLoad);
 
                 // Initialize match times from the preview
-                const initialMatchTimes: Record<number, string | null> = {};
-                let initialShowMatchTimes = false;
-                for (const [matchId, matchTime] of Object.entries(data.MatchTimes)) {
-                    initialShowMatchTimes = initialShowMatchTimes || !!matchTime;
-                    initialMatchTimes[Number(matchId)] = matchTime;
-                }
-
-                setMatchTimes(initialMatchTimes);
-                setShowMatchTimes(initialShowMatchTimes);
-            } else if (data.MatchTimes) {
-                // Even for in-memory edits, honor explicit match times the caller supplied.
                 const initialMatchTimes: Record<number, string | null> = {};
                 let initialShowMatchTimes = false;
                 for (const [matchId, matchTime] of Object.entries(data.MatchTimes)) {
@@ -784,7 +771,7 @@ export default function DivisionScheduleDialog({
                 } : {})
             };
 
-            // Build the settings to save
+            // Build the settings to save.
             const meetSettings: OnlineMeetSettings = {
                 Name: name.trim(),
                 RoomNames: roomNames,
@@ -792,7 +779,6 @@ export default function DivisionScheduleDialog({
                 MatchRanking: matchRanking ?? OnlineMeetMatchRankingType.HighestPointsWins,
                 CustomRules: useCustomRules ? customRules : null,
                 MatchTimes: matchTimes,
-                IsIndividualCompetition: isIndividualCompetition,
                 VersionId: settings?.VersionId || null,
                 Schedule: updatedSchedule
             };
@@ -801,6 +787,12 @@ export default function DivisionScheduleDialog({
             // in-memory callback and close without making any server request. The caller
             // is responsible for persisting the resulting OnlineMeetSettings later.
             if (onSaveInMemory) {
+                // Since the object will be reused in-memory, the properties supplied by the server must also be populated.
+                (meetSettings as any).Preview = schedulePreview;
+                (meetSettings as any).AllTeams = initialSettings?.AllTeams;
+                (meetSettings as any).AllQuizzers = initialSettings?.AllQuizzers;
+                (meetSettings as any).AllMeetsWithScores = initialSettings?.AllMeetsWithScores;
+
                 onSaveInMemory(meetSettings);
                 dialogRef.current?.close();
                 return;
@@ -945,7 +937,7 @@ export default function DivisionScheduleDialog({
                                     )}
                                 </div>
 
-                                {!isIndividualCompetition && (
+                                {(!isIndividualCompetition && !onSaveInMemory) && (
                                     <div className="p-2 mt-0">
                                         <button
                                             type="button"

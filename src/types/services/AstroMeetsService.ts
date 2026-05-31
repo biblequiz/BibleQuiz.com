@@ -281,12 +281,6 @@ export interface OnlineMeetSettings {
     MatchTimes?: Record<number, string | null> | null;
 
     /**
-     * Value indicating whether this meet is an individual competition. This can only be set when the meet is created. If this is true, AllQuizzers
-     * will be populated. Otherwise, AllTeams will be populated.
-     */
-    IsIndividualCompetition: boolean;
-
-    /**
      * Version id for the meet. This is used to determine if someone else changed the meet since it was last loaded.
      * This can only be null for a new meet.
      */

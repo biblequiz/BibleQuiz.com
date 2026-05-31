@@ -72,7 +72,7 @@ export default function BulkAddDivisionsDialog({
         if (!schedule) {
             return 0;
         }
-        return settings.IsIndividualCompetition
+        return isIndividualCompetition
             ? (schedule.QuizzerIds?.length ?? 0)
             : (schedule.TeamIds?.length ?? 0);
     };
@@ -220,7 +220,7 @@ export default function BulkAddDivisionsDialog({
             <div className="modal-box w-full max-w-3xl max-h-[90vh]">
                 <h3 className="font-bold text-lg flex items-center gap-2">
                     <FontAwesomeIcon icon="fas faFileImport" />
-                    <span>Bulk Add Team Divisions</span>
+                    <span>Bulk Add {isIndividualCompetition ? "Individual" : "Team"} Divisions</span>
                 </h3>
                 <button
                     type="button"
@@ -323,8 +323,8 @@ export default function BulkAddDivisionsDialog({
                                             <div className="font-medium truncate">{division.Name || "(Unnamed)"}</div>
                                             <div className="text-xs text-base-content/70 mt-1 flex flex-wrap gap-2">
                                                 <span>
-                                                    <FontAwesomeIcon icon={division.IsIndividualCompetition ? "fas faUser" : "fas faUsers"} classNames={["mr-1"]} />
-                                                    {getTeamOrQuizzerCount(division)} {division.IsIndividualCompetition ? "quizzers" : "teams"}
+                                                    <FontAwesomeIcon icon={isIndividualCompetition ? "fas faUser" : "fas faUsers"} classNames={["mr-1"]} />
+                                                    {getTeamOrQuizzerCount(division)} {isIndividualCompetition ? "quizzers" : "teams"}
                                                 </span>
                                                 <span>
                                                     <FontAwesomeIcon icon="fas faDoorOpen" classNames={["mr-1"]} />
@@ -422,7 +422,7 @@ export default function BulkAddDivisionsDialog({
                     auth={auth}
                     eventId={eventId}
                     databaseId={databaseId}
-                    isIndividualCompetition={false}
+                    isIndividualCompetition={isIndividualCompetition}
                     mode="selectIds"
                     title="Select Source Divisions"
                     submitLabel="Download Template"
@@ -449,7 +449,7 @@ export default function BulkAddDivisionsDialog({
                     defaultMatchStartTime={defaultMatchStartTime}
                     isScoreKeepDatabase={false}
                     isNew={true}
-                    isIndividualCompetition={editingDivision.IsIndividualCompetition}
+                    isIndividualCompetition={isIndividualCompetition}
                     initialSettings={editingDivision}
                     onSaveInMemory={handleDivisionEditSave}
                     // onSave is not used in in-memory mode but is required by the prop type.
