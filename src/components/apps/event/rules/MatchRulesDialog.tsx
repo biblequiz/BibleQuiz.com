@@ -63,7 +63,18 @@ export default function MatchRulesDialog({
     const validationError = actions.validate();
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog 
+            ref={dialogRef} 
+            className="modal" 
+            open
+            onKeyDown={(e) => {
+                if (e.key === 'Escape') {
+                    e.stopPropagation();
+                    onSelect(null);
+                    dialogRef.current?.close();
+                }
+            }}
+        >
             <div className="modal-box w-full max-w-3xl max-h-[90vh] overflow-y-auto">
                 <h3 className="font-bold text-lg">Edit Rules</h3>
                 <button
