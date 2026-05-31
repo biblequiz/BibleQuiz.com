@@ -63,9 +63,9 @@ export default function MatchRulesDialog({
     const validationError = actions.validate();
 
     return (
-        <dialog 
-            ref={dialogRef} 
-            className="modal" 
+        <dialog
+            ref={dialogRef}
+            className="modal"
             open
             onKeyDown={(e) => {
                 if (e.key === 'Escape') {

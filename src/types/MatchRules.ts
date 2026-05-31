@@ -252,9 +252,16 @@ export class MatchRules {
                 conditions.push(`at least ${unseatRule.UnseatIfMaxScore} points`);
             }
 
-            if (conditions.length > 0) {
+            const conditionsText = conditions.length > 0 
+                ? ` Unseat if ${conditions.join(" or ")}.`
+                : "";
+            const lineSuffix = unseatRule.EndMatchIfTopPositionsGuaranteed
+                ? " Match ends early if top position(s) are guaranteed (except final match). Ties for other positions broken arbitrarily."
+                : "";
+
+            if (conditionsText || lineSuffix) {
                 lines.push(
-                    `<li><b>(IC Only) Unseating:</b> Unseat if ${conditions.join(" or ")}.${unseatRule.EndMatchIfAllNextRoomsGuaranteed ? " Match ends early if all next rooms are guaranteed." : ""}</li>`,
+                    `<li><b>(IC Only) Unseating:</b>${conditionsText}${lineSuffix}</li>`,
                 );
             }
         }
@@ -377,16 +384,16 @@ export class UnseatRule {
      * Initializes a new instance of the UnseatRule class.
      */
     constructor() {
-        this.UnseatIfNextRoomGuaranteed = true;
+        this.UnseatIfNextRoomGuaranteed = false;
         this.UnseatIfCannotAdvance = false;
         this.UnseatIfPositionGuaranteed = false;
-        this.EndMatchIfAllNextRoomsGuaranteed = false;
+        this.EndMatchIfTopPositionsGuaranteed = false;
     }
 
     /**
-     * Value indicating whether the match should end if all the next rooms are guaranteed based on MatchScheduledRoom.RoutedTeamOrQuizzers.
+     * Value indicating whether the match should end if top position(s) are guaranteed (except final). Other ties will be broken arbitrarily.
      */
-    public EndMatchIfAllNextRoomsGuaranteed: boolean;
+    public EndMatchIfTopPositionsGuaranteed: boolean;
 
     /**
      * Value indicating whether to unseat a quizzer if their next room is guaranteed.

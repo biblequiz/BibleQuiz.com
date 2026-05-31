@@ -267,7 +267,7 @@ export default function DivisionScheduleDialog({
 
         const meetIdToLoad = isNew ? 0 : meetId;
 
-        AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad, isNew ? isIndividualCompetition : false)
+        AstroMeetsService.getMeet(auth, eventId, databaseId, meetIdToLoad, isIndividualCompetition)
             .then(data => applySettings(data, true))
             .catch(err => {
                 setError(err.message || "Failed to load division settings.");
