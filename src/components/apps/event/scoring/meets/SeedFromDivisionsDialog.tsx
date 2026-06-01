@@ -92,17 +92,18 @@ export default function SeedFromDivisionsDialog({
     }, [auth, eventId, databaseId, isIndividualCompetition]);
 
     // Handle Escape key to close dialog without propagating to parent dialogs.
+    // Use stopImmediatePropagation to prevent other listeners on document from firing.
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
             if (e.key === "Escape" && !isSeeding) {
                 e.preventDefault();
-                e.stopPropagation();
+                e.stopImmediatePropagation();
                 onClose();
             }
         };
 
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
+        document.addEventListener("keydown", handleKeyDown, { capture: true });
+        return () => document.removeEventListener("keydown", handleKeyDown, { capture: true });
     }, [onClose, isSeeding]);
 
     // Get the order of a meet in the selected list
