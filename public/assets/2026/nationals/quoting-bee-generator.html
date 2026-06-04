@@ -1,9 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Bible Quiz Quoting Bee Generator</title>
+        <title>Bible Quiz Quoting Bee Generator &mdash; Year 7</title>
         <style>
             * {
                 box-sizing: border-box;
@@ -251,6 +251,15 @@
                 padding-right: 6px !important;
             }
             @media print {
+                @page {
+                    margin: 1.2cm 1.4cm;
+                    @top-center {
+                        content: none;
+                    }
+                    @bottom-center {
+                        content: counter(page);
+                    }
+                }
                 body {
                     background: #fff;
                     font-size: 10.5pt;
@@ -276,6 +285,9 @@
                 .ph {
                     display: block !important;
                 }
+                .ph2 {
+                    display: block !important;
+                }
                 .shell {
                     padding: 0.5rem;
                 }
@@ -284,13 +296,16 @@
                 display: none;
                 font-size: 14pt;
                 font-weight: bold;
-                margin-bottom: 6px;
+                margin-bottom: 4px;
+                text-align: center;
             }
             .ph2 {
                 display: none;
                 font-size: 10pt;
                 font-style: italic;
                 margin-bottom: 10px;
+                color: #444;
+                text-align: center;
             }
         </style>
     </head>
@@ -299,7 +314,7 @@
             <div class="no-print">
                 <h1>Bible Quiz Quoting Bee Generator</h1>
                 <p class="sub">
-                    New Living Translation &nbsp;&middot;&nbsp;
+                    New Living Translation &nbsp;&middot;&nbsp; Year 7:
                     Galatians, Ephesians, Philippians, Colossians, Philemon
                 </p>
             </div>
@@ -317,8 +332,7 @@
                         id="chap-from"
                         placeholder="from"
                         min="1"
-                    />
-                    <span style="color: #aaa; font-size: 13px">&ndash;</span>
+                    /><span style="color: #aaa; font-size: 13px">&ndash;</span>
                     <input
                         type="number"
                         id="chap-to"
@@ -380,7 +394,12 @@
                     </div>
                 </div>
                 <div style="margin-top: 14px">
-                    <button class="genbtn" id="genbtn" onclick="generate()">
+                    <button
+                        class="genbtn"
+                        id="genbtn"
+                        onclick="generate()"
+                        type="button"
+                    >
                         Generate sheet
                     </button>
                     <button
@@ -388,6 +407,7 @@
                         id="printbtn"
                         onclick="window.print()"
                         style="display: none"
+                        type="button"
                     >
                         &#9112; Print / Save PDF
                     </button>
@@ -411,14 +431,18 @@
                     [
                         1,
                         3,
-                        "May God our Father and the Lord Jesus Christ give you grace and peace.",
+                        "May God the Father and our Lord Jesus Christ give you grace and peace.",
                     ],
                     [
                         1,
                         4,
                         "Jesus gave his life for our sins, just as God our Father planned, in order to rescue us from this evil world in which we live.",
                     ],
-                    [1, 5, "All glory to God forever and ever! Amen."],
+                    [
+                        1,
+                        5,
+                        "All glory to God forever and ever! Amen. There Is Only One Good News",
+                    ],
                     [
                         1,
                         6,
@@ -432,7 +456,7 @@
                     [
                         1,
                         8,
-                        "Let God's curse fall on anyone, including us or even an angel from heaven, who preaches a different kind of Good News than the one we preached to you.",
+                        "Let God\u2019s curse fall on anyone, including us or even an angel from heaven, who preaches a different kind of Good News than the one we preached to you.",
                     ],
                     [
                         1,
@@ -442,7 +466,7 @@
                     [
                         1,
                         10,
-                        "Obviously, I'm not trying to win the approval of people, but of God. If pleasing people were my goal, I would not be Christ's servant.",
+                        "Obviously, I\u2019m not trying to win the approval of people, but of God. If pleasing people were my goal, I would not be Christ\u2019s servant. Paul\u2019s Message Comes from Christ",
                     ],
                     [
                         1,
@@ -457,7 +481,7 @@
                     [
                         1,
                         13,
-                        "You know what I was like when I followed the Jewish religion\u2014how I violently persecuted God's church. I did my best to destroy it.",
+                        "You know what I was like when I followed the Jewish religion\u2014how I violently persecuted God\u2019s church. I did my best to destroy it.",
                     ],
                     [
                         1,
@@ -487,7 +511,7 @@
                     [
                         1,
                         19,
-                        "The only other apostle I met at that time was James, the Lord's brother.",
+                        "The only other apostle I met at that time was James, the Lord\u2019s brother.",
                     ],
                     [
                         1,
@@ -502,14 +526,18 @@
                     [
                         1,
                         22,
-                        "And still the churches in Christ that are in Judea didn't know me personally.",
+                        "And still the churches in Christ that are in Judea didn\u2019t know me personally.",
                     ],
                     [
                         1,
                         23,
-                        'All they knew was that people were saying, "The one who used to persecute us is now preaching the very faith he tried to destroy!"',
+                        "All they knew was that people were saying, \u201cThe one who used to persecute us is now preaching the very faith he tried to destroy!\u201d",
                     ],
-                    [1, 24, "And they praised God because of me."],
+                    [
+                        1,
+                        24,
+                        "And they praised God because of me. The Apostles Accept Paul",
+                    ],
                     [
                         2,
                         1,
@@ -558,7 +586,7 @@
                     [
                         2,
                         10,
-                        "They only asked us to remember the poor, and I have been eager to do that.",
+                        "Their only suggestion was that we keep on helping the poor, which I have always been eager to do. Paul Confronts Peter",
                     ],
                     [
                         2,
@@ -568,27 +596,27 @@
                     [
                         2,
                         12,
-                        "When he first arrived, he ate with the Gentile believers, who were not circumcised. But afterward, when some friends of James came, Peter wouldn't eat with the Gentiles anymore. He was afraid of criticism from these people who insisted on the necessity of circumcision.",
+                        "When he first arrived, he ate with the Gentile believers, who were not circumcised. But afterward, when some friends of James came, Peter wouldn\u2019t eat with the Gentiles anymore. He was afraid of criticism from these people who insisted on the necessity of circumcision.",
                     ],
                     [
                         2,
                         13,
-                        "As a result, other Jewish believers followed Peter's hypocrisy, and even Barnabas was led astray by their hypocrisy.",
+                        "As a result, other Jewish believers followed Peter\u2019s hypocrisy, and even Barnabas was led astray by their hypocrisy.",
                     ],
                     [
                         2,
                         14,
-                        'When I saw that they were not following the truth of the gospel message, I said to Peter in front of all the others, "Since you, a Jew by birth, have discarded the Jewish laws and are living like a Gentile, why are you now trying to make these Gentiles follow the Jewish traditions?"',
+                        "When I saw that they were not following the truth of the gospel message, I said to Peter in front of all the others, \u201cSince you, a Jew by birth, have discarded the Jewish laws and are living like a Gentile, why are you now trying to make these Gentiles follow the Jewish traditions?",
                     ],
                     [
                         2,
                         15,
-                        "You and I are Jews by birth, not 'sinners' like the Gentiles.",
+                        "\u201cYou and I are Jews by birth, not \u2018sinners\u2019 like the Gentiles.",
                     ],
                     [
                         2,
                         16,
-                        "Yet we know that a person is made right with God by faith in Jesus Christ, not by obeying the law. And we have believed in Christ Jesus, so that we might be made right with God because of our faith in Christ, not because we have obeyed the law. For no one will ever be made right with God by obeying the law.",
+                        "Yet we know that a person is made right with God by faith in Jesus Christ, not by obeying the law. And we have believed in Christ Jesus, so that we might be made right with God because of our faith in Christ, not because we have obeyed the law. For no one will ever be made right with God by obeying the law.\u201d",
                     ],
                     [
                         2,
@@ -613,17 +641,17 @@
                     [
                         2,
                         21,
-                        "I do not treat the grace of God as meaningless. For if keeping the law could make us right with God, then there was no need for Christ to die.",
+                        "I do not treat the grace of God as meaningless. For if keeping the law could make us right with God, then there was no need for Christ to die. The Law and Faith in Christ",
                     ],
                     [
                         3,
                         1,
-                        "Oh, foolish Galatians! Who has cast an evil spell on you? For the meaning of Jesus Christ's death was made as clear to you as if you had seen a picture of his death on the cross.",
+                        "Oh, foolish Galatians! Who has cast an evil spell on you? For the meaning of Jesus Christ\u2019s death was made as clear to you as if you had seen a picture of his death on the cross.",
                     ],
                     [
                         3,
                         2,
-                        "Let me ask you this one question: Did you receive the Holy Spirit by obeying the law of Moses? Of course not! You received the Spirit because you believed the message you heard.",
+                        "Let me ask you this one question: Did you receive the Holy Spirit by obeying the law of Moses? Of course not! You received the Spirit because you believed the message you heard about Christ.",
                     ],
                     [
                         3,
@@ -643,7 +671,7 @@
                     [
                         3,
                         6,
-                        'In the same way, "Abraham believed God, and God counted him as righteous because of his faith."',
+                        "In the same way, \u201cAbraham believed God, and God counted him as righteous because of his faith.\u201d",
                     ],
                     [
                         3,
@@ -653,7 +681,7 @@
                     [
                         3,
                         8,
-                        'What\'s more, the Scriptures looked forward to this time when God would make the Gentiles right in his sight because of their faith. God proclaimed this good news to Abraham long ago when he said, "All nations will be blessed through you."',
+                        "What\u2019s more, the Scriptures looked forward to this time when God would make the Gentiles right in his sight because of their faith. God proclaimed this good news to Abraham long ago when he said, \u201cAll nations will be blessed through you.\u201d",
                     ],
                     [
                         3,
@@ -663,47 +691,47 @@
                     [
                         3,
                         10,
-                        'But those who depend on the law to make them right with God are under his curse, for the Scriptures say, "Cursed is everyone who does not observe and obey all the commands that are written in God\'s Book of the Law."',
+                        "But those who depend on the law to make them right with God are under his curse, for the Scriptures say, \u201cCursed is everyone who does not observe and obey all the commands that are written in God\u2019s Book of the Law.\u201d",
                     ],
                     [
                         3,
                         11,
-                        'So it is clear that no one can be made right with God by trying to keep the law. For the Scriptures say, "It is through faith that a righteous person has life."',
+                        "So it is clear that no one can be made right with God by trying to keep the law. For the Scriptures say, \u201cIt is through faith that a righteous person has life.\u201d",
                     ],
                     [
                         3,
                         12,
-                        'This way of faith is very different from the way of law, which says, "It is through obeying the law that a person has life."',
+                        "This way of faith is very different from the way of law, which says, \u201cIt is through obeying the law that a person has life.\u201d",
                     ],
                     [
                         3,
                         13,
-                        'But Christ has rescued us from the curse pronounced by the law. When he was hung on the cross, he took upon himself the curse for our wrongdoing. For it is written in the Scriptures, "Cursed is everyone who is hung on a tree."',
+                        "But Christ has rescued us from the curse pronounced by the law. When he was hung on the cross, he took upon himself the curse for our wrongdoing. For it is written in the Scriptures, \u201cCursed is everyone who is hung on a tree.\u201d",
                     ],
                     [
                         3,
                         14,
-                        "Through Christ Jesus, God has blessed the Gentiles with the same blessing he promised to Abraham, so that we who are believers might receive the promised Holy Spirit through faith.",
+                        "Through Christ Jesus, God has blessed the Gentiles with the same blessing he promised to Abraham, so that we who are believers might receive the promised Holy Spirit through faith. The Law and God\u2019s Promise",
                     ],
                     [
                         3,
                         15,
-                        "Dear brothers and sisters, here's an example from everyday life. Just as no one can set aside or amend an irrevocable agreement, so it is in this case.",
+                        "Dear brothers and sisters, here\u2019s an example from everyday life. Just as no one can set aside or amend an irrevocable agreement, so it is in this case.",
                     ],
                     [
                         3,
                         16,
-                        'God gave the promises to Abraham and his child. And notice that the Scripture doesn\'t say "to his children," as if it meant many descendants. Rather, it says "to his child"\u2014and that, of course, means Christ.',
+                        "God gave the promises to Abraham and his child. And notice that the Scripture doesn\u2019t say \u201cto his children,\u201d as if it meant many descendants. Rather, it says \u201cto his child\u201d\u2014and that, of course, means Christ.",
                     ],
                     [
                         3,
                         17,
-                        "This is what I am trying to say: The agreement God made with Abraham could not be canceled 430 years later when God gave the law to Moses. God would have been breaking his promise.",
+                        "This is what I am trying to say: The agreement God made with Abraham could not be canceled 430 years later when God gave the law to Moses. God would be breaking his promise.",
                     ],
                     [
                         3,
                         18,
-                        "For if the inheritance could be received by keeping the law, then it would not be the result of accepting God's promise. But God graciously gave it to Abraham as a promise.",
+                        "For if the inheritance could be received by keeping the law, then it would not be the result of accepting God\u2019s promise. But God graciously gave it to Abraham as a promise.",
                     ],
                     [
                         3,
@@ -718,12 +746,12 @@
                     [
                         3,
                         21,
-                        "Is there a conflict, then, between God's law and God's promises? Absolutely not! If the law could give us new life, we could be made right with God by obeying it.",
+                        "Is there a conflict, then, between God\u2019s law and God\u2019s promises? Absolutely not! If the law could give us new life, we could be made right with God by obeying it.",
                     ],
                     [
                         3,
                         22,
-                        "But the Scriptures declare that we are all prisoners of sin, so we receive God's promise of freedom only by believing in Jesus Christ.",
+                        "But the Scriptures declare that we are all prisoners of sin, so we receive God\u2019s promise of freedom only by believing in Jesus Christ. God\u2019s Children through Faith",
                     ],
                     [
                         3,
@@ -758,7 +786,7 @@
                     [
                         3,
                         29,
-                        "And now that you belong to Christ, you are the true children of Abraham. You are his heirs, and God's promise to Abraham belongs to you.",
+                        "And now that you belong to Christ, you are the true children of Abraham. You are his heirs, and God\u2019s promise to Abraham belongs to you.",
                     ],
                     [
                         4,
@@ -773,7 +801,7 @@
                     [
                         4,
                         3,
-                        "And that's the way it was with us before Christ came. We were like children; we were slaves to the basic spiritual principles of this world.",
+                        "And that\u2019s the way it was with us before Christ came. We were like children; we were slaves to the basic spiritual principles of this world.",
                     ],
                     [
                         4,
@@ -788,12 +816,12 @@
                     [
                         4,
                         6,
-                        'And because we are his children, God has sent the Spirit of his Son into our hearts, prompting us to call out, "Abba, Father."',
+                        "And because we are his children, God has sent the Spirit of his Son into our hearts, prompting us to call out, \u201cAbba, Father.\u201d",
                     ],
                     [
                         4,
                         7,
-                        "Now you are no longer a slave but God's own child. And since you are his child, God has made you his heir.",
+                        "Now you are no longer a slave but God\u2019s own child. And since you are his child, God has made you his heir. Paul\u2019s Concern for the Galatians",
                     ],
                     [
                         4,
@@ -803,7 +831,7 @@
                     [
                         4,
                         9,
-                        "So now that you know God (or should I say, now that God knows you), why do you want to go back again and become slaves to the weak and useless spiritual principles of this world?",
+                        "So now that you know God (or should I say, now that God knows you), why do you want to go back again and become slaves once more to the weak and useless spiritual principles of this world?",
                     ],
                     [
                         4,
@@ -848,17 +876,17 @@
                     [
                         4,
                         18,
-                        "If someone is eager to do good things for you, that's all right; but let them do it all the time, not just when I'm with you.",
+                        "If someone is eager to do good things for you, that\u2019s all right; but let them do it all the time, not just when I\u2019m with you.",
                     ],
                     [
                         4,
                         19,
-                        "Oh, my dear children! I feel as if I'm going through labor pains for you again, and they will continue until Christ is fully developed in your lives.",
+                        "Oh, my dear children! I feel as if I\u2019m going through labor pains for you again, and they will continue until Christ is fully developed in your lives.",
                     ],
                     [
                         4,
                         20,
-                        "I wish I were with you right now so I could change my tone. But at this distance I don't know how else to help you.",
+                        "I wish I were with you right now so I could change my tone. But at this distance I don\u2019t know how else to help you. Abraham\u2019s Two Children",
                     ],
                     [
                         4,
@@ -873,12 +901,12 @@
                     [
                         4,
                         23,
-                        "The son of the slave wife was born in a human attempt to bring about the fulfillment of God's promise. But the son of the freeborn wife was born as God's own fulfillment of his promise.",
+                        "The son of the slave wife was born in a human attempt to bring about the fulfillment of God\u2019s promise. But the son of the freeborn wife was born as God\u2019s own fulfillment of his promise.",
                     ],
                     [
                         4,
                         24,
-                        "These two women serve as an illustration of God's two covenants. The first woman, Hagar, represents Mount Sinai where people received the law that enslaved them.",
+                        "These two women serve as an illustration of God\u2019s two covenants. The first woman, Hagar, represents Mount Sinai where people received the law that enslaved them.",
                     ],
                     [
                         4,
@@ -893,7 +921,7 @@
                     [
                         4,
                         27,
-                        'As Isaiah said, "Rejoice, O childless woman, you who have never given birth! Break into a joyful shout, you who have never been in labor! For the desolate woman now has more children than the woman who lives with her husband!"',
+                        "As Isaiah said, \u201cRejoice, O childless woman, you who have never given birth! Break into a joyful shout, you who have never been in labor! For the desolate woman now has more children than the woman who lives with her husband!\u201d",
                     ],
                     [
                         4,
@@ -908,17 +936,17 @@
                     [
                         4,
                         30,
-                        'But what do the Scriptures say about that? "Get rid of the slave and her son, for the son of the slave woman will not share the inheritance with the free woman\'s son."',
+                        "But what do the Scriptures say about that? \u201cGet rid of the slave and her son, for the son of the slave woman will not share the inheritance with the free woman\u2019s son.\u201d",
                     ],
                     [
                         4,
                         31,
-                        "So, dear brothers and sisters, we are not children of the slave woman; we are children of the free woman.",
+                        "So, dear brothers and sisters, we are not children of the slave woman; we are children of the free woman. Freedom in Christ",
                     ],
                     [
                         5,
                         1,
-                        "So Christ has truly set us free. Now make sure that you stay free, and don't get tied up again in slavery to the law.",
+                        "So Christ has truly set us free. Now make sure that you stay free, and don\u2019t get tied up again in slavery to the law.",
                     ],
                     [
                         5,
@@ -928,12 +956,12 @@
                     [
                         5,
                         3,
-                        "I'll say it again. If you are trying to find favor with God by being circumcised, you must obey every regulation in the whole law of Moses.",
+                        "I\u2019ll say it again. If you are trying to find favor with God by being circumcised, you must obey every regulation in the whole law of Moses.",
                     ],
                     [
                         5,
                         4,
-                        "For if you are trying to make yourselves right with God by keeping the law, you have been cut off from Christ! You have fallen away from God's grace.",
+                        "For if you are trying to make yourselves right with God by keeping the law, you have been cut off from Christ! You have fallen away from God\u2019s grace.",
                     ],
                     [
                         5,
@@ -953,7 +981,7 @@
                     [
                         5,
                         8,
-                        "It certainly isn't God, for he is the one who called you to freedom.",
+                        "It certainly isn\u2019t God, for he is the one who called you to freedom.",
                     ],
                     [
                         5,
@@ -978,22 +1006,22 @@
                     [
                         5,
                         13,
-                        "For you have been called to live in freedom, my brothers and sisters. But don't use your freedom to satisfy your sinful nature. Instead, use your freedom to serve one another in love.",
+                        "For you have been called to live in freedom, my brothers and sisters. But don\u2019t use your freedom to satisfy your sinful nature. Instead, use your freedom to serve one another in love.",
                     ],
                     [
                         5,
                         14,
-                        'For the whole law can be summed up in this one command: "Love your neighbor as yourself."',
+                        "For the whole law can be summed up in this one command: \u201cLove your neighbor as yourself.\u201d",
                     ],
                     [
                         5,
                         15,
-                        "But if you are always biting and devouring one another, watch out! Beware of destroying one another.",
+                        "But if you are always biting and devouring one another, watch out! Beware of destroying one another. Living by the Spirit\u2019s Power",
                     ],
                     [
                         5,
                         16,
-                        "So I say, let the Holy Spirit guide your lives. Then you won't be doing what your sinful nature craves.",
+                        "So I say, let the Holy Spirit guide your lives. Then you won\u2019t be doing what your sinful nature craves.",
                     ],
                     [
                         5,
@@ -1038,12 +1066,12 @@
                     [
                         5,
                         25,
-                        "Since we are living by the Spirit, let us follow the Spirit's leading in every part of our lives.",
+                        "Since we are living by the Spirit, let us follow the Spirit\u2019s leading in every part of our lives.",
                     ],
                     [
                         5,
                         26,
-                        "Let us not become conceited, or provoke one another, or be jealous of one another.",
+                        "Let us not become conceited, or provoke one another, or be jealous of one another. We Harvest What We Plant",
                     ],
                     [
                         6,
@@ -1053,7 +1081,7 @@
                     [
                         6,
                         2,
-                        "Share each other's burdens, and in this way obey the law of Christ.",
+                        "Share each other\u2019s burdens, and in this way obey the law of Christ.",
                     ],
                     [
                         6,
@@ -1063,7 +1091,7 @@
                     [
                         6,
                         4,
-                        "Pay careful attention to your own work, for then you will get the satisfaction of a job well done, and you won't need to compare yourself to anyone else.",
+                        "Pay careful attention to your own work, for then you will get the satisfaction of a job well done, and you won\u2019t need to compare yourself to anyone else.",
                     ],
                     [6, 5, "For we are each responsible for our own conduct."],
                     [
@@ -1074,7 +1102,7 @@
                     [
                         6,
                         7,
-                        "Don't be misled\u2014you cannot mock the justice of God. You will always harvest what you plant.",
+                        "Don\u2019t be misled\u2014you cannot mock the justice of God. You will always harvest what you plant.",
                     ],
                     [
                         6,
@@ -1084,64 +1112,64 @@
                     [
                         6,
                         9,
-                        "So let's not get tired of doing what is good. At just the right time we will reap a harvest of blessing if we don't give up.",
+                        "So let\u2019s not get tired of doing what is good. At just the right time we will reap a harvest of blessing if we don\u2019t give up.",
                     ],
                     [
                         6,
                         10,
-                        "Therefore, whenever we have the opportunity, we should do good to everyone\u2014especially to those in the family of faith.",
+                        "Therefore, whenever we have the opportunity, we should do good to everyone\u2014especially to those in the family of faith. Paul\u2019s Final Advice",
                     ],
                     [
                         6,
                         11,
-                        "NOTICE WHAT LARGE LETTERS I USE AS I WRITE THESE CLOSING WORDS IN MY OWN HANDWRITING.",
+                        "Notice what large letters i use as i write these closing words in my own handwriting.",
                     ],
                     [
                         6,
                         12,
-                        "Those who are trying to force you to be circumcised want to look good to others. They don't want to be persecuted for teaching that the cross of Christ alone can save.",
+                        "Those who are trying to force you to be circumcised want to look good to others. They don\u2019t want to be persecuted for teaching that the cross of Christ alone can save.",
                     ],
                     [
                         6,
                         13,
-                        "And even those who advocate circumcision don't keep the whole law themselves. They only want you to be circumcised so they can boast about it and claim you as their disciples.",
+                        "And even those who advocate circumcision don\u2019t keep the whole law themselves. They only want you to be circumcised so they can boast about it and claim you as their disciples.",
                     ],
                     [
                         6,
                         14,
-                        "As for me, may I never boast about anything except the cross of our Lord Jesus Christ. Because of that cross, my interest in this world has been crucified, and the world's interest in me has also died.",
+                        "As for me, may I never boast about anything except the cross of our Lord Jesus Christ. Because of that cross, my interest in this world has been crucified, and the world\u2019s interest in me has also died.",
                     ],
                     [
                         6,
                         15,
-                        "It doesn't matter whether we have been circumcised or not. What counts is whether we have been transformed into a new creation.",
+                        "It doesn\u2019t matter whether we have been circumcised or not. What counts is whether we have been transformed into a new creation.",
                     ],
                     [
                         6,
                         16,
-                        "May God's peace and mercy be upon all who live by this principle; they are the new people of God.",
+                        "May God\u2019s peace and mercy be upon all who live by this principle; they are the new people of God.",
                     ],
                     [
                         6,
                         17,
-                        "From now on, don't let anyone trouble me with these things. For I bear on my body the scars that show I belong to Jesus.",
+                        "From now on, don\u2019t let anyone trouble me with these things. For I bear on my body the scars that show I belong to Jesus.",
                     ],
                     [
                         6,
                         18,
-                        "Dear brothers and sisters, may the grace of our Lord Jesus Christ be with your spirit. Amen.",
+                        "Dear brothers and sisters, may the grace of our Lord Jesus Christ be with your spirit. Amen. Greetings from Paul",
                     ],
                 ],
                 ephesians: [
                     [
                         1,
                         1,
-                        "This letter is from Paul, chosen by the will of God to be an apostle of Christ Jesus. I am writing to God's holy people in Ephesus, who are faithful followers of Christ Jesus.",
+                        "This letter is from Paul, chosen by the will of God to be an apostle of Christ Jesus. I am writing to God\u2019s holy people in Ephesus, who are faithful followers of Christ Jesus.",
                     ],
                     [
                         1,
                         2,
-                        "May God our Father and the Lord Jesus Christ give you grace and peace.",
+                        "May God our Father and the Lord Jesus Christ give you grace and peace. Spiritual Blessings",
                     ],
                     [
                         1,
@@ -1191,7 +1219,7 @@
                     [
                         1,
                         12,
-                        "God's purpose was that we Jews who were the first to trust in Christ would bring praise and glory to God.",
+                        "God\u2019s purpose was that we Jews who were the first to trust in Christ would bring praise and glory to God.",
                     ],
                     [
                         1,
@@ -1201,12 +1229,12 @@
                     [
                         1,
                         14,
-                        "The Spirit is God's guarantee that he will give us the inheritance he promised and that he has purchased us to be his own people. He did this so we would praise and glorify him.",
+                        "The Spirit is God\u2019s guarantee that he will give us the inheritance he promised and that he has purchased us to be his own people. He did this so we would praise and glorify him. Paul\u2019s Prayer for Spiritual Wisdom",
                     ],
                     [
                         1,
                         15,
-                        "Ever since I first heard of your strong faith in the Lord Jesus and your love for God's people everywhere,",
+                        "Ever since I first heard of your strong faith in the Lord Jesus and your love for God\u2019s people everywhere,",
                     ],
                     [
                         1,
@@ -1226,12 +1254,12 @@
                     [
                         1,
                         19,
-                        "I also pray that you will understand the incredible greatness of God's power for us who believe him. This is the same mighty power",
+                        "I also pray that you will understand the incredible greatness of God\u2019s power for us who believe him. This is the same mighty power",
                     ],
                     [
                         1,
                         20,
-                        "that raised Christ from the dead and seated him in the place of honor at God's right hand in the heavenly realms.",
+                        "that raised Christ from the dead and seated him in the place of honor at God\u2019s right hand in the heavenly realms.",
                     ],
                     [
                         1,
@@ -1246,7 +1274,7 @@
                     [
                         1,
                         23,
-                        "And the church is his body; it is made full and complete by Christ, who fills all things everywhere with himself.",
+                        "And the church is his body; it is made full and complete by Christ, who fills all things everywhere with himself. Made Alive with Christ",
                     ],
                     [
                         2,
@@ -1261,7 +1289,7 @@
                     [
                         2,
                         3,
-                        "All of us used to live that way, following the passionate desires and inclinations of our sinful nature. By our very nature we were subject to God's anger, just like everyone else.",
+                        "All of us used to live that way, following the passionate desires and inclinations of our sinful nature. By our very nature we were subject to God\u2019s anger, just like everyone else.",
                     ],
                     [
                         2,
@@ -1271,7 +1299,7 @@
                     [
                         2,
                         5,
-                        "that even though we were dead because of our sins, he gave us life when he raised Christ from the dead. (It is only by God's grace that you have been saved!)",
+                        "that even though we were dead because of our sins, he gave us life when he raised Christ from the dead. (It is only by God\u2019s grace that you have been saved!)",
                     ],
                     [
                         2,
@@ -1286,7 +1314,7 @@
                     [
                         2,
                         8,
-                        "God saved you by his grace when you believed. And you can't take credit for this; it is a gift from God.",
+                        "God saved you by his grace when you believed. And you can\u2019t take credit for this; it is a gift from God.",
                     ],
                     [
                         2,
@@ -1296,12 +1324,12 @@
                     [
                         2,
                         10,
-                        "For we are God's masterpiece. He has created us anew in Christ Jesus, so we can do the good things he planned for us long ago.",
+                        "For we are God\u2019s masterpiece. He has created us anew in Christ Jesus, so we can do the good things he planned for us long ago. Oneness and Peace in Christ",
                     ],
                     [
                         2,
                         11,
-                        'Don\'t forget that you Gentiles used to be outsiders. You were called "uncircumcised heathens" by the Jews, who were proud of their circumcision, even though it affected only their bodies and not their hearts.',
+                        "Don\u2019t forget that you Gentiles used to be outsiders. You were called \u201cuncircumcised heathens\u201d by the Jews, who were proud of their circumcision, even though it affected only their bodies and not their hearts.",
                     ],
                     [
                         2,
@@ -1336,12 +1364,12 @@
                     [
                         2,
                         18,
-                        "Now all of us can come to the Father through the same Holy Spirit because of what Christ has done for us.",
+                        "Now all of us can come to the Father through the same Holy Spirit because of what Christ has done for us. A Temple for the Lord",
                     ],
                     [
                         2,
                         19,
-                        "So now you Gentiles are no longer strangers and foreigners. You are citizens along with all of God's holy people. You are members of God's family.",
+                        "So now you Gentiles are no longer strangers and foreigners. You are citizens along with all of God\u2019s holy people. You are members of God\u2019s family.",
                     ],
                     [
                         2,
@@ -1356,12 +1384,12 @@
                     [
                         2,
                         22,
-                        "Through him you Gentiles are also being made part of this dwelling where God lives by his Spirit.",
+                        "Through him you Gentiles are also being made part of this dwelling where God lives by his Spirit. God\u2019s Mysterious Plan Revealed",
                     ],
                     [
                         3,
                         1,
-                        "When I think of all this, I, Paul, a prisoner of Christ Jesus for the benefit of you Gentiles\u2014",
+                        "When I think of all this, I, Paul, a prisoner of Christ Jesus for the benefit of you Gentiles . . .",
                     ],
                     [
                         3,
@@ -1386,17 +1414,17 @@
                     [
                         3,
                         6,
-                        "And this is God's plan: Both Gentiles and Jews who believe the Good News share equally in the riches inherited by God's children. Both are part of the same body, and both enjoy the promise of blessings because they belong to Christ Jesus.",
+                        "And this is God\u2019s plan: Both Gentiles and Jews who believe the Good News share equally in the riches inherited by God\u2019s children. Both are part of the same body, and both enjoy the promise of blessings because they belong to Christ Jesus.",
                     ],
                     [
                         3,
                         7,
-                        "By God's grace and mighty power, I have been given the privilege of serving him by spreading this Good News.",
+                        "By God\u2019s grace and mighty power, I have been given the privilege of serving him by spreading this Good News.",
                     ],
                     [
                         3,
                         8,
-                        "Though I am the least deserving of all God's people, he graciously gave me the privilege of telling the Gentiles about the endless treasures available to them in Christ.",
+                        "Though I am the least deserving of all God\u2019s people, he graciously gave me the privilege of telling the Gentiles about the endless treasures available to them in Christ.",
                     ],
                     [
                         3,
@@ -1406,7 +1434,7 @@
                     [
                         3,
                         10,
-                        "God's purpose in all this was to use the church to display his wisdom in its rich variety to all the unseen rulers and authorities in the heavenly places.",
+                        "God\u2019s purpose in all this was to use the church to display his wisdom in its rich variety to all the unseen rulers and authorities in the heavenly places.",
                     ],
                     [
                         3,
@@ -1416,12 +1444,12 @@
                     [
                         3,
                         12,
-                        "Because of Christ and our faith in him, we can now come boldly and confidently into God's presence.",
+                        "Because of Christ and our faith in him, we can now come boldly and confidently into God\u2019s presence.",
                     ],
                     [
                         3,
                         13,
-                        "So please don't lose heart because of my trials here. I am suffering for you, so you should feel honored.",
+                        "So please don\u2019t lose heart because of my trials here. I am suffering for you, so you should feel honored. Paul\u2019s Prayer for Spiritual Growth",
                     ],
                     [
                         3,
@@ -1441,12 +1469,12 @@
                     [
                         3,
                         17,
-                        "Then Christ will make his home in your hearts as you trust in him. Your roots will grow down into God's love and keep you strong.",
+                        "Then Christ will make his home in your hearts as you trust in him. Your roots will grow down into God\u2019s love and keep you strong.",
                     ],
                     [
                         3,
                         18,
-                        "And may you have the power to understand, as all God's people should, how wide, how long, how high, and how deep his love is.",
+                        "And may you have the power to understand, as all God\u2019s people should, how wide, how long, how high, and how deep his love is.",
                     ],
                     [
                         3,
@@ -1461,7 +1489,7 @@
                     [
                         3,
                         21,
-                        "Glory to him in the church and in Christ Jesus through all generations forever and ever! Amen.",
+                        "Glory to him in the church and in Christ Jesus through all generations forever and ever! Amen. Unity in the Body",
                     ],
                     [
                         4,
@@ -1471,7 +1499,7 @@
                     [
                         4,
                         2,
-                        "Always be humble and gentle. Be patient with each other, making allowance for each other's faults because of your love.",
+                        "Always be humble and gentle. Be patient with each other, making allowance for each other\u2019s faults because of your love.",
                     ],
                     [
                         4,
@@ -1497,12 +1525,12 @@
                     [
                         4,
                         8,
-                        'That is why the Scriptures say, "When he ascended to the heights, he led a crowd of captives and gave gifts to his people."',
+                        "That is why the Scriptures say, \u201cWhen he ascended to the heights, he led a crowd of captives and gave gifts to his people.\u201d",
                     ],
                     [
                         4,
                         9,
-                        'Notice that it says "he ascended." This clearly means that Christ also descended to our lowly world.',
+                        "Notice that it says \u201che ascended.\u201d This clearly means that Christ also descended to our lowly world.",
                     ],
                     [
                         4,
@@ -1517,17 +1545,17 @@
                     [
                         4,
                         12,
-                        "Their responsibility is to equip God's people to do his work and build up the church, the body of Christ.",
+                        "Their responsibility is to equip God\u2019s people to do his work and build up the church, the body of Christ.",
                     ],
                     [
                         4,
                         13,
-                        "This will continue until we all come to such unity in our faith and knowledge of God's Son that we will be mature in the Lord, measuring up to the full and complete standard of Christ.",
+                        "This will continue until we all come to such unity in our faith and knowledge of God\u2019s Son that we will be mature in the Lord, measuring up to the full and complete standard of Christ.",
                     ],
                     [
                         4,
                         14,
-                        "Then we will no longer be immature like children. We won't be tossed and blown about by every wind of new teaching. We will not be influenced when people try to trick us with lies so clever they sound like the truth.",
+                        "Then we will no longer be immature like children. We won\u2019t be tossed and blown about by every wind of new teaching. We will not be influenced when people try to trick us with lies so clever they sound like the truth.",
                     ],
                     [
                         4,
@@ -1537,12 +1565,12 @@
                     [
                         4,
                         16,
-                        "He makes the whole body fit together perfectly. As each part does its own special work, it helps the other parts grow, so that the whole body is healthy and growing and full of love.",
+                        "He makes the whole body fit together perfectly. As each part does its own special work, it helps the other parts grow, so that the whole body is healthy and growing and full of love. Living as Children of Light",
                     ],
                     [
                         4,
                         17,
-                        "With the Lord's authority I say this: Live no longer as the Gentiles do, for they are hopelessly confused.",
+                        "With the Lord\u2019s authority I say this: Live no longer as the Gentiles do, for they are hopelessly confused.",
                     ],
                     [
                         4,
@@ -1554,7 +1582,11 @@
                         19,
                         "They have no sense of shame. They live for lustful pleasure and eagerly practice every kind of impurity.",
                     ],
-                    [4, 20, "But that isn't what you learned about Christ."],
+                    [
+                        4,
+                        20,
+                        "But that isn\u2019t what you learned about Christ.",
+                    ],
                     [
                         4,
                         21,
@@ -1583,7 +1615,7 @@
                     [
                         4,
                         26,
-                        "And \"don't sin by letting anger control you.\" Don't let the sun go down while you are still angry,",
+                        "And \u201cdon\u2019t sin by letting anger control you.\u201d Don\u2019t let the sun go down while you are still angry,",
                     ],
                     [4, 27, "for anger gives a foothold to the devil."],
                     [
@@ -1594,12 +1626,12 @@
                     [
                         4,
                         29,
-                        "Don't use foul or abusive language. Let everything you say be good and helpful, so that your words will be an encouragement to those who hear them.",
+                        "Don\u2019t use foul or abusive language. Let everything you say be good and helpful, so that your words will be an encouragement to those who hear them.",
                     ],
                     [
                         4,
                         30,
-                        "And do not bring sorrow to God's Holy Spirit by the way you live. Remember, he has identified you as his own, guaranteeing that you will be saved on the day of redemption.",
+                        "And do not bring sorrow to God\u2019s Holy Spirit by the way you live. Remember, he has identified you as his own, guaranteeing that you will be saved on the day of redemption.",
                     ],
                     [
                         4,
@@ -1609,7 +1641,7 @@
                     [
                         4,
                         32,
-                        "Instead, be kind to each other, tenderhearted, forgiving one another, just as God through Christ has forgiven you.",
+                        "Instead, be kind to each other, tenderhearted, forgiving one another, just as God through Christ has forgiven you. Living in the Light",
                     ],
                     [
                         5,
@@ -1624,7 +1656,7 @@
                     [
                         5,
                         3,
-                        "Let there be no sexual immorality, impurity, or greed among you. Such sins have no place among God's people.",
+                        "Let there be no sexual immorality, impurity, or greed among you. Such sins have no place among God\u2019s people.",
                     ],
                     [
                         5,
@@ -1639,9 +1671,13 @@
                     [
                         5,
                         6,
-                        "Don't be fooled by those who try to excuse these sins, for the anger of God will fall on all who disobey him.",
+                        "Don\u2019t be fooled by those who try to excuse these sins, for the anger of God will fall on all who disobey him.",
                     ],
-                    [5, 7, "Don't participate in the things these people do."],
+                    [
+                        5,
+                        7,
+                        "Don\u2019t participate in the things these people do.",
+                    ],
                     [
                         5,
                         8,
@@ -1671,12 +1707,12 @@
                     [
                         5,
                         14,
-                        'for the light makes everything visible. This is why it is said, "Awake, O sleeper, rise up from the dead, and Christ will give you light."',
+                        "for the light makes everything visible. This is why it is said, \u201cAwake, O sleeper, rise up from the dead, and Christ will give you light.\u201d Living by the Spirit\u2019s Power",
                     ],
                     [
                         5,
                         15,
-                        "So be careful how you live. Don't live like fools, but like those who are wise.",
+                        "So be careful how you live. Don\u2019t live like fools, but like those who are wise.",
                     ],
                     [
                         5,
@@ -1686,12 +1722,12 @@
                     [
                         5,
                         17,
-                        "Don't act thoughtlessly, but understand what the Lord wants you to do.",
+                        "Don\u2019t act thoughtlessly, but understand what the Lord wants you to do.",
                     ],
                     [
                         5,
                         18,
-                        "Don't be drunk with wine, because that will ruin your life. Instead, be filled with the Holy Spirit,",
+                        "Don\u2019t be drunk with wine, because that will ruin your life. Instead, be filled with the Holy Spirit,",
                     ],
                     [
                         5,
@@ -1701,7 +1737,7 @@
                     [
                         5,
                         20,
-                        "And give thanks for everything to God the Father in the name of our Lord Jesus Christ.",
+                        "And give thanks for everything to God the Father in the name of our Lord Jesus Christ. Spirit-Guided Relationships: Wives and Husbands",
                     ],
                     [
                         5,
@@ -1731,7 +1767,7 @@
                     [
                         5,
                         26,
-                        "to make her holy and clean, washed by the cleansing of God's word.",
+                        "to make her holy and clean, washed by the cleansing of God\u2019s word.",
                     ],
                     [
                         5,
@@ -1752,7 +1788,7 @@
                     [
                         5,
                         31,
-                        'As the Scriptures say, "A man leaves his father and mother and is joined to his wife, and the two are united into one."',
+                        "As the Scriptures say, \u201cA man leaves his father and mother and is joined to his wife, and the two are united into one.\u201d",
                     ],
                     [
                         5,
@@ -1762,7 +1798,7 @@
                     [
                         5,
                         33,
-                        "So again I say, each man must love his wife as he loves himself, and the wife must respect her husband.",
+                        "So again I say, each man must love his wife as he loves himself, and the wife must respect her husband. Children and Parents",
                     ],
                     [
                         6,
@@ -1772,17 +1808,17 @@
                     [
                         6,
                         2,
-                        '"Honor your father and mother." This is the first commandment with a promise:',
+                        "\u201cHonor your father and mother.\u201d This is the first commandment with a promise:",
                     ],
                     [
                         6,
                         3,
-                        'If you honor your father and mother, "things will go well for you, and you will have a long life on the earth."',
+                        "If you honor your father and mother, \u201cthings will go well for you, and you will have a long life on the earth.\u201d",
                     ],
                     [
                         6,
                         4,
-                        "Fathers, do not provoke your children to anger by the way you treat them. Rather, bring them up with the discipline and instruction that comes from the Lord.",
+                        "Fathers, do not provoke your children to anger by the way you treat them. Rather, bring them up with the discipline and instruction that comes from the Lord. Slaves and Masters",
                     ],
                     [
                         6,
@@ -1807,7 +1843,7 @@
                     [
                         6,
                         9,
-                        "Masters, treat your slaves in the same way. Don't threaten them; remember, you both have the same Master in heaven, and he has no favorites.",
+                        "Masters, treat your slaves in the same way. Don\u2019t threaten them; remember, you both have the same Master in heaven, and he has no favorites. The Whole Armor of God",
                     ],
                     [
                         6,
@@ -1817,7 +1853,7 @@
                     [
                         6,
                         11,
-                        "Put on all of God's armor so that you will be able to stand firm against all strategies of the devil.",
+                        "Put on all of God\u2019s armor so that you will be able to stand firm against all strategies of the devil.",
                     ],
                     [
                         6,
@@ -1827,12 +1863,12 @@
                     [
                         6,
                         13,
-                        "Therefore, put on every piece of God's armor so you will be able to resist the enemy in the time of evil. Then after the battle you will still be standing firm.",
+                        "Therefore, put on every piece of God\u2019s armor so you will be able to resist the enemy in the time of evil. Then after the battle you will still be standing firm.",
                     ],
                     [
                         6,
                         14,
-                        "Stand your ground, putting on the belt of truth and the body armor of God's righteousness.",
+                        "Stand your ground, putting on the belt of truth and the body armor of God\u2019s righteousness.",
                     ],
                     [
                         6,
@@ -1857,44 +1893,29 @@
                     [
                         6,
                         19,
-                        "And pray for me, too. Ask God to give me the right words so I can boldly explain God's mysterious plan that the Good News is for Jews and Gentiles alike.",
+                        "And pray for me, too. Ask God to give me the right words so I can boldly explain God\u2019s mysterious plan that the Good News is for Jews and Gentiles alike.",
                     ],
                     [
                         6,
                         20,
-                        "I am in chains now, still preaching this message as God's ambassador. So pray that I will keep on speaking boldly for him, as I should.",
+                        "I am in chains now, still preaching this message as God\u2019s ambassador. So pray that I will keep on speaking boldly for him, as I should. Final Greetings",
                     ],
                     [
                         6,
                         21,
-                        "To bring you up to date, Tychicus will give you a full report about what I am doing and how I am getting along. He is a beloved brother and faithful helper in the Lord's work.",
-                    ],
-                    [
-                        6,
-                        22,
-                        "I am sending him to you for this very purpose\u2014to let you know how we are doing and to encourage you.",
-                    ],
-                    [
-                        6,
-                        23,
-                        "Peace be with you, dear brothers and sisters, and may God the Father and the Lord Jesus Christ give you love with faithfulness.",
-                    ],
-                    [
-                        6,
-                        24,
-                        "May God's grace be eternally upon all who love our Lord Jesus Christ.",
+                        "To bring you up to date, Tychicus will give you a full report about what I am doing and how I am getting along. He is a beloved brother and faithful helper in the Lord\u2019s work. 22 I have sent him to you for this very purpose\u2014to let you know how we are doing and to encourage you. 23 Peace be with you, dear brothers and sisters, and may God the Father and the Lord Jesus Christ give you love with faithfulness. 24 May God\u2019s grace be eternally upon all who love our Lord Jesus Christ. Greetings from Paul",
                     ],
                 ],
                 philippians: [
                     [
                         1,
                         1,
-                        "This letter is from Paul and Timothy, slaves of Christ Jesus. I am writing to all of God's holy people in Philippi who belong to Christ Jesus, including the church leaders and deacons.",
+                        "This letter is from Paul and Timothy, slaves of Christ Jesus. I am writing to all of God\u2019s holy people in Philippi who belong to Christ Jesus, including the church leaders and deacons.",
                     ],
                     [
                         1,
                         2,
-                        "May God our Father and the Lord Jesus Christ give you grace and peace.",
+                        "May God our Father and the Lord Jesus Christ give you grace and peace. Paul\u2019s Thanksgiving and Prayer",
                     ],
                     [
                         1,
@@ -1934,12 +1955,12 @@
                     [
                         1,
                         10,
-                        "For I want you to understand what really matters, so that you may live pure and blameless lives until the day of Christ's return.",
+                        "For I want you to understand what really matters, so that you may live pure and blameless lives until the day of Christ\u2019s return.",
                     ],
                     [
                         1,
                         11,
-                        "May you always be filled with the fruit of your salvation\u2014the righteous character produced in your life by Jesus Christ\u2014for this will bring much glory and praise to God.",
+                        "May you always be filled with the fruit of your salvation\u2014the righteous character produced in your life by Jesus Christ\u2014for this will bring much glory and praise to God. Paul\u2019s Joy That Christ Is Preached",
                     ],
                     [
                         1,
@@ -1954,12 +1975,12 @@
                     [
                         1,
                         14,
-                        "And because of my imprisonment, most of the believers here have gained confidence and boldly speak God's message without fear.",
+                        "And because of my imprisonment, most of the believers here have gained confidence and boldly speak God\u2019s message without fear.",
                     ],
                     [
                         1,
                         15,
-                        "It's true that some are preaching out of jealousy and rivalry. But others preach about Christ with pure motives.",
+                        "It\u2019s true that some are preaching out of jealousy and rivalry. But others preach about Christ with pure motives.",
                     ],
                     [
                         1,
@@ -1974,12 +1995,12 @@
                     [
                         1,
                         18,
-                        "But that doesn't matter. Whether their motives are false or genuine, the message about Christ is being preached either way, so I rejoice. And I will continue to rejoice.",
+                        "But that doesn\u2019t matter. Whether their motives are false or genuine, the message about Christ is being preached either way, so I rejoice. And I will continue to rejoice.",
                     ],
                     [
                         1,
                         19,
-                        "For I know that as you pray for me and the Spirit of Jesus Christ helps me, this will lead to my deliverance.",
+                        "For I know that as you pray for me and the Spirit of Jesus Christ helps me, this will lead to my deliverance. Paul\u2019s Life for Christ",
                     ],
                     [
                         1,
@@ -1994,12 +2015,12 @@
                     [
                         1,
                         22,
-                        "But if I live, I can do more fruitful work for Christ. So I really don't know which is better.",
+                        "But if I live, I can do more fruitful work for Christ. So I really don\u2019t know which is better.",
                     ],
                     [
                         1,
                         23,
-                        "I'm torn between two desires: I long to go and be with Christ, which would be far better for me.",
+                        "I\u2019m torn between two desires: I long to go and be with Christ, which would be far better for me.",
                     ],
                     [
                         1,
@@ -2014,7 +2035,7 @@
                     [
                         1,
                         26,
-                        "And when I come to you again, you will have even more reason to take pride in Christ Jesus because of what he is doing through me.",
+                        "And when I come to you again, you will have even more reason to take pride in Christ Jesus because of what he is doing through me. Live as Citizens of Heaven",
                     ],
                     [
                         1,
@@ -2024,7 +2045,7 @@
                     [
                         1,
                         28,
-                        "Don't be intimidated in any way by your enemies. This will be a sign to them that they are going to be destroyed, but that you are going to be saved, even by God himself.",
+                        "Don\u2019t be intimidated in any way by your enemies. This will be a sign to them that they are going to be destroyed, but that you are going to be saved, even by God himself.",
                     ],
                     [
                         1,
@@ -2034,7 +2055,7 @@
                     [
                         1,
                         30,
-                        "We are in this struggle together. You have seen my struggle in the past, and you know that I am still in the midst of it.",
+                        "We are in this struggle together. You have seen my struggle in the past, and you know that I am still in the midst of it. Have the Attitude of Christ",
                     ],
                     [
                         2,
@@ -2049,12 +2070,12 @@
                     [
                         2,
                         3,
-                        "Don't be selfish; don't try to impress others. Be humble, thinking of others as better than yourselves.",
+                        "Don\u2019t be selfish; don\u2019t try to impress others. Be humble, thinking of others as better than yourselves.",
                     ],
                     [
                         2,
                         4,
-                        "Don't look out only for your own interests, but take an interest in others, too.",
+                        "Don\u2019t look out only for your own interests, but take an interest in others, too.",
                     ],
                     [
                         2,
@@ -2074,7 +2095,7 @@
                     [
                         2,
                         8,
-                        "he humbled himself in obedience to God and died a criminal's death on a cross.",
+                        "he humbled himself in obedience to God and died a criminal\u2019s death on a cross.",
                     ],
                     [
                         2,
@@ -2089,7 +2110,7 @@
                     [
                         2,
                         11,
-                        "and every tongue declare that Jesus Christ is Lord, to the glory of God the Father.",
+                        "and every tongue declare that Jesus Christ is Lord, to the glory of God the Father. Shine Brightly for Christ",
                     ],
                     [
                         2,
@@ -2110,7 +2131,7 @@
                     [
                         2,
                         16,
-                        "Hold firmly to the word of life; then, on the day of Christ's return, I will be proud that I did not run the race in vain and that my work was not useless.",
+                        "Hold firmly to the word of life; then, on the day of Christ\u2019s return, I will be proud that I did not run the race in vain and that my work was not useless.",
                     ],
                     [
                         2,
@@ -2120,7 +2141,7 @@
                     [
                         2,
                         18,
-                        "Yes, you should rejoice, and I will share your joy.",
+                        "Yes, you should rejoice, and I will share your joy. Paul Commends Timothy",
                     ],
                     [
                         2,
@@ -2150,7 +2171,7 @@
                     [
                         2,
                         24,
-                        "And I have confidence from the Lord that I myself will come to see you soon.",
+                        "And I have confidence from the Lord that I myself will come to see you soon. Paul Commends Epaphroditus",
                     ],
                     [
                         2,
@@ -2170,17 +2191,17 @@
                     [
                         2,
                         28,
-                        "So I am all the more eager to send him back to you, for I know you will be glad to see him, and then I will not be so worried about you.",
+                        "So I am all the more anxious to send him back to you, for I know you will be glad to see him, and then I will not be so worried about you.",
                     ],
                     [
                         2,
                         29,
-                        "Welcome him in the Lord's love and with great joy, and give him the honor that people like him deserve.",
+                        "Welcome him in the Lord\u2019s love and with great joy, and give him the honor that people like him deserve.",
                     ],
                     [
                         2,
                         30,
-                        "For he risked his life for the work of Christ, and he was at the point of death while doing for me what you couldn't do from far away.",
+                        "For he risked his life for the work of Christ, and he was at the point of death while doing for me what you couldn\u2019t do from far away. The Priceless Value of Knowing Christ",
                     ],
                     [
                         3,
@@ -2225,7 +2246,7 @@
                     [
                         3,
                         9,
-                        "and become one with him. I no longer count on my own righteousness through obeying the law; rather, I become righteous through faith in Christ. For God's way of making us right with himself depends on faith.",
+                        "and become one with him. I no longer count on my own righteousness through obeying the law; rather, I become righteous through faith in Christ. For God\u2019s way of making us right with himself depends on faith.",
                     ],
                     [
                         3,
@@ -2235,12 +2256,12 @@
                     [
                         3,
                         11,
-                        "so that one way or another I will experience the resurrection from the dead!",
+                        "so that one way or another I will experience the resurrection from the dead! Pressing toward the Goal",
                     ],
                     [
                         3,
                         12,
-                        "I don't mean to say that I have already achieved these things or that I have already reached perfection. But I press on to possess that perfection for which Christ Jesus first possessed me.",
+                        "I don\u2019t mean to say that I have already achieved these things or that I have already reached perfection. But I press on to possess that perfection for which Christ Jesus first possessed me.",
                     ],
                     [
                         3,
@@ -2290,7 +2311,7 @@
                     [
                         4,
                         1,
-                        "Therefore, my dear brothers and sisters, stay true to the Lord. I love you and long to see you, dear friends, for you are my joy and the crown I receive for my work.",
+                        "Therefore, my dear brothers and sisters, stay true to the Lord. I love you and long to see you, dear friends, for you are my joy and the crown I receive for my work. Words of Encouragement",
                     ],
                     [
                         4,
@@ -2315,12 +2336,12 @@
                     [
                         4,
                         6,
-                        "Don't worry about anything; instead, pray about everything. Tell God what you need, and thank him for all he has done.",
+                        "Don\u2019t worry about anything; instead, pray about everything. Tell God what you need, and thank him for all he has done.",
                     ],
                     [
                         4,
                         7,
-                        "Then you will experience God's peace, which exceeds anything we can understand. His peace will guard your hearts and minds as you live in Christ Jesus.",
+                        "Then you will experience God\u2019s peace, which exceeds anything we can understand. His peace will guard your hearts and minds as you live in Christ Jesus.",
                     ],
                     [
                         4,
@@ -2330,12 +2351,12 @@
                     [
                         4,
                         9,
-                        "Keep putting into practice all you learned and received from me\u2014everything you heard from me and saw me doing. Then the God of peace will be with you.",
+                        "Keep putting into practice all you learned and received from me\u2014everything you heard from me and saw me doing. Then the God of peace will be with you. Paul\u2019s Thanks for Their Gifts",
                     ],
                     [
                         4,
                         10,
-                        "How I praise the Lord that you are concerned about me again. I know you have always been concerned for me, but you didn't have the chance to help me.",
+                        "How I praise the Lord that you are concerned about me again. I know you have always been concerned for me, but you didn\u2019t have the chance to help me.",
                     ],
                     [
                         4,
@@ -2370,7 +2391,7 @@
                     [
                         4,
                         17,
-                        "I don't say this because I want a gift from you. Rather, I want you to receive a reward that will last for eternity.",
+                        "I don\u2019t say this because I want a gift from you. Rather, I want you to receive a reward for your kindness.",
                     ],
                     [
                         4,
@@ -2385,22 +2406,22 @@
                     [
                         4,
                         20,
-                        "Now all glory to God our Father forever and ever! Amen.",
+                        "Now all glory to God our Father forever and ever! Amen. Paul\u2019s Final Greetings",
                     ],
                     [
                         4,
                         21,
-                        "Give my greetings to each of God's holy people\u2014all who belong to Christ Jesus. The brothers who are with me send you their greetings.",
+                        "Give my greetings to each of God\u2019s holy people\u2014all who belong to Christ Jesus. The brothers who are with me send you their greetings.",
                     ],
                     [
                         4,
                         22,
-                        "And all the rest of God's people send you greetings, too, especially those in Caesar's household.",
+                        "And all the rest of God\u2019s people send you greetings, too, especially those in Caesar\u2019s household.",
                     ],
                     [
                         4,
                         23,
-                        "May the grace of the Lord Jesus Christ be with your spirit.",
+                        "May the grace of the Lord Jesus Christ be with your spirit. Greetings from Paul",
                     ],
                 ],
                 colossians: [
@@ -2412,7 +2433,7 @@
                     [
                         1,
                         2,
-                        "We are writing to God's holy people in the city of Colossae, who are faithful brothers and sisters in Christ. May God our Father give you grace and peace.",
+                        "We are writing to God\u2019s holy people in the city of Colosse, who are faithful brothers and sisters in Christ. May God our Father give you grace and peace. Paul\u2019s Thanksgiving and Prayer",
                     ],
                     [
                         1,
@@ -2422,7 +2443,7 @@
                     [
                         1,
                         4,
-                        "For we have heard of your faith in Christ Jesus and your love for all of God's people,",
+                        "For we have heard of your faith in Christ Jesus and your love for all of God\u2019s people,",
                     ],
                     [
                         1,
@@ -2432,12 +2453,12 @@
                     [
                         1,
                         6,
-                        "This same Good News that came to you is going out all over the world. It is bearing fruit everywhere by changing lives, just as it changed your lives from the day you first heard and understood the truth about God's wonderful grace.",
+                        "This same Good News that came to you is going out all over the world. It is bearing fruit everywhere by changing lives, just as it changed your lives from the day you first heard and understood the truth about God\u2019s wonderful grace.",
                     ],
                     [
                         1,
                         7,
-                        "You learned about the Good News from Epaphras, our beloved co-worker. He is Christ's faithful servant, and he is helping us on your behalf.",
+                        "You learned about the Good News from Epaphras, our beloved co-worker. He is Christ\u2019s faithful servant, and he is helping us on your behalf.",
                     ],
                     [
                         1,
@@ -2469,7 +2490,11 @@
                         13,
                         "For he has rescued us from the kingdom of darkness and transferred us into the Kingdom of his dear Son,",
                     ],
-                    [1, 14, "who purchased our freedom and forgave our sins."],
+                    [
+                        1,
+                        14,
+                        "who purchased our freedom and forgave our sins. Christ Is Supreme",
+                    ],
                     [
                         1,
                         15,
@@ -2478,7 +2503,7 @@
                     [
                         1,
                         16,
-                        "for through him God created everything in the heavenly realms and on earth. He made the things we can see and the things we can't see\u2014such as thrones, kingdoms, rulers, and authorities in the unseen world. Everything was created through him and for him.",
+                        "for through him God created everything in the heavenly realms and on earth. He made the things we can see and the things we can\u2019t see\u2014 such as thrones, kingdoms, rulers, and authorities in the unseen world. Everything was created through him and for him.",
                     ],
                     [
                         1,
@@ -2498,7 +2523,7 @@
                     [
                         1,
                         20,
-                        "and through him God reconciled everything to himself. He made peace with everything in heaven and on earth by means of Christ's blood on the cross.",
+                        "and through him God reconciled everything to himself. He made peace with everything in heaven and on earth by means of Christ\u2019s blood on the cross.",
                     ],
                     [
                         1,
@@ -2513,7 +2538,7 @@
                     [
                         1,
                         23,
-                        "But you must continue to believe this truth and stand firmly in it. Don't drift away from the assurance you received when you heard the Good News. The Good News has been preached all over the world, and I, Paul, have been appointed as God's servant to proclaim it.",
+                        "But you must continue to believe this truth and stand firmly in it. Don\u2019t drift away from the assurance you received when you heard the Good News. The Good News has been preached all over the world, and I, Paul, have been appointed as God\u2019s servant to proclaim it. Paul\u2019s Work for the Church",
                     ],
                     [
                         1,
@@ -2528,7 +2553,7 @@
                     [
                         1,
                         26,
-                        "This message was kept secret for centuries and generations past, but now it has been revealed to God's people.",
+                        "This message was kept secret for centuries and generations past, but now it has been revealed to God\u2019s people.",
                     ],
                     [
                         1,
@@ -2543,7 +2568,7 @@
                     [
                         1,
                         29,
-                        "That's why I work and struggle so hard, depending on Christ's mighty power that works within me.",
+                        "That\u2019s why I work and struggle so hard, depending on Christ\u2019s mighty power that works within me.",
                     ],
                     [
                         2,
@@ -2553,7 +2578,7 @@
                     [
                         2,
                         2,
-                        "I want them to be encouraged and knit together by strong ties of love. I want them to have complete confidence that they understand God's mysterious plan, which is Christ himself.",
+                        "I want them to be encouraged and knit together by strong ties of love. I want them to have complete confidence that they understand God\u2019s mysterious plan, which is Christ himself.",
                     ],
                     [
                         2,
@@ -2568,7 +2593,7 @@
                     [
                         2,
                         5,
-                        "For though I am far away from you, my heart is with you. And I rejoice that you are living as you should and that your faith in Christ is strong.",
+                        "For though I am far away from you, my heart is with you. And I rejoice that you are living as you should and that your faith in Christ is strong. Freedom from Rules and New Life in Christ",
                     ],
                     [
                         2,
@@ -2583,7 +2608,7 @@
                     [
                         2,
                         8,
-                        "Don't let anyone capture you with empty philosophies and high-sounding nonsense that come from human thinking and from the spiritual powers of this world, rather than from Christ.",
+                        "Don\u2019t let anyone capture you with empty philosophies and high-sounding nonsense that come from human thinking and from the spiritual powers of this world, rather than from Christ.",
                     ],
                     [
                         2,
@@ -2598,7 +2623,7 @@
                     [
                         2,
                         11,
-                        'When you came to Christ, you were "circumcised," but not by a physical procedure. Christ performed a spiritual circumcision\u2014the cutting away of your sinful nature.',
+                        "When you came to Christ, you were \u201ccircumcised,\u201d but not by a physical procedure. Christ performed a spiritual circumcision\u2014the cutting away of your sinful nature.",
                     ],
                     [
                         2,
@@ -2623,7 +2648,7 @@
                     [
                         2,
                         16,
-                        "So don't let anyone condemn you for what you eat or drink, or for not celebrating certain holy days or new moon ceremonies or Sabbaths.",
+                        "So don\u2019t let anyone condemn you for what you eat or drink, or for not celebrating certain holy days or new moon ceremonies or Sabbaths.",
                     ],
                     [
                         2,
@@ -2633,7 +2658,7 @@
                     [
                         2,
                         18,
-                        "Don't let anyone condemn you by insisting on pious self-denial or the worship of angels, saying they have had visions about these things. Their sinful minds have made them proud,",
+                        "Don\u2019t let anyone condemn you by insisting on pious self-denial or the worship of angels, saying they have had visions about these things. Their sinful minds have made them proud,",
                     ],
                     [
                         2,
@@ -2645,7 +2670,11 @@
                         20,
                         "You have died with Christ, and he has set you free from the spiritual powers of this world. So why do you keep on following the rules of the world, such as,",
                     ],
-                    [2, 21, "\"Don't handle! Don't taste! Don't touch!\"?"],
+                    [
+                        2,
+                        21,
+                        "\u201cDon\u2019t handle! Don\u2019t taste! Don\u2019t touch!\u201d?",
+                    ],
                     [
                         2,
                         22,
@@ -2654,12 +2683,12 @@
                     [
                         2,
                         23,
-                        "These rules may seem wise because they require strong devotion, pious self-denial, and severe bodily discipline. But they provide no help in conquering a person's evil desires.",
+                        "These rules may seem wise because they require strong devotion, pious self-denial, and severe bodily discipline. But they provide no help in conquering a person\u2019s evil desires. Living the New Life",
                     ],
                     [
                         3,
                         1,
-                        "Since you have been raised to new life with Christ, set your sights on the realities of heaven, where Christ sits in the place of honor at God's right hand.",
+                        "Since you have been raised to new life with Christ, set your sights on the realities of heaven, where Christ sits in the place of honor at God\u2019s right hand.",
                     ],
                     [
                         3,
@@ -2679,7 +2708,7 @@
                     [
                         3,
                         5,
-                        "So put to death the sinful, earthly things lurking within you. Have nothing to do with sexual immorality, impurity, lust, and evil desires. Don't be greedy, for a greedy person is an idolater, worshiping the things of this world.",
+                        "So put to death the sinful, earthly things lurking within you. Have nothing to do with sexual immorality, impurity, lust, and evil desires. Don\u2019t be greedy, for a greedy person is an idolater, worshiping the things of this world.",
                     ],
                     [
                         3,
@@ -2699,7 +2728,7 @@
                     [
                         3,
                         9,
-                        "Don't lie to each other, for you have stripped off your old sinful nature and all its wicked deeds.",
+                        "Don\u2019t lie to each other, for you have stripped off your old sinful nature and all its wicked deeds.",
                     ],
                     [
                         3,
@@ -2709,7 +2738,7 @@
                     [
                         3,
                         11,
-                        "In this new life, it doesn't matter if you are a Jew or a Gentile, circumcised or uncircumcised, barbaric, uncivilized, slave, or free. Christ is all that matters, and he lives in all of us.",
+                        "In this new life, it doesn\u2019t matter if you are a Jew or a Gentile, circumcised or uncircumcised, barbaric, uncivilized, slave, or free. Christ is all that matters, and he lives in all of us.",
                     ],
                     [
                         3,
@@ -2719,7 +2748,7 @@
                     [
                         3,
                         13,
-                        "Make allowance for each other's faults, and forgive anyone who offends you. Remember, the Lord forgave you, so you must forgive others.",
+                        "Make allowance for each other\u2019s faults, and forgive anyone who offends you. Remember, the Lord forgave you, so you must forgive others.",
                     ],
                     [
                         3,
@@ -2739,7 +2768,7 @@
                     [
                         3,
                         17,
-                        "And whatever you do or say, do it as a representative of the Lord Jesus, giving thanks through him to God the Father.",
+                        "And whatever you do or say, do it as a representative of the Lord Jesus, giving thanks through him to God the Father. Instructions for Christian Households",
                     ],
                     [
                         3,
@@ -2784,7 +2813,7 @@
                     [
                         4,
                         1,
-                        "Masters, be just and fair to your slaves. Remember that you also have a Master\u2014in heaven.",
+                        "Masters, be just and fair to your slaves. Remember that you also have a Master\u2014in heaven. An Encouragement for Prayer",
                     ],
                     [
                         4,
@@ -2809,12 +2838,12 @@
                     [
                         4,
                         6,
-                        "Let your conversation be gracious and attractive so that you will have the right response for everyone.",
+                        "Let your conversation be gracious and attractive so that you will have the right response for everyone. Paul\u2019s Final Instructions and Greetings",
                     ],
                     [
                         4,
                         7,
-                        "Tychicus will give you a full report about how I am getting along. He is a beloved brother and faithful helper who serves with me in the Lord's work.",
+                        "Tychicus will give you a full report about how I am getting along. He is a beloved brother and faithful helper who serves with me in the Lord\u2019s work.",
                     ],
                     [
                         4,
@@ -2824,12 +2853,12 @@
                     [
                         4,
                         9,
-                        "I am also sending Onesimus, a faithful and beloved brother, one of your own people. He and Tychicus will tell you everything that's happening here.",
+                        "I am also sending Onesimus, a faithful and beloved brother, one of your own people. He and Tychicus will tell you everything that\u2019s happening here.",
                     ],
                     [
                         4,
                         10,
-                        "Aristarchus, who is in prison with me, sends you his greetings, and so does Mark, Barnabas's cousin. As you were instructed before, make Mark welcome if he comes your way.",
+                        "Aristarchus, who is in prison with me, sends you his greetings, and so does Mark, Barnabas\u2019s cousin. As you were instructed before, make Mark welcome if he comes your way.",
                     ],
                     [
                         4,
@@ -2864,12 +2893,12 @@
                     [
                         4,
                         17,
-                        'And say to Archippus, "Be sure to carry out the ministry the Lord gave you."',
+                        "And say to Archippus, \u201cBe sure to carry out the ministry the Lord gave you.\u201d",
                     ],
                     [
                         4,
                         18,
-                        "HERE IS MY GREETING IN MY OWN HANDWRITING\u2014PAUL. Remember my chains. May God's grace be with you.",
+                        "HERE IS MY GREETING IN MY OWN HANDWRITING\u2014PAUL. Remember my chains. May God\u2019s grace be with you. Greetings from Paul",
                     ],
                 ],
                 philemon: [
@@ -2886,7 +2915,7 @@
                     [
                         1,
                         3,
-                        "May God our Father and the Lord Jesus Christ give you grace and peace.",
+                        "May God our Father and the Lord Jesus Christ give you grace and peace. Paul\u2019s Thanksgiving and Prayer",
                     ],
                     [
                         1,
@@ -2896,7 +2925,7 @@
                     [
                         1,
                         5,
-                        "because I keep hearing about your faith in the Lord Jesus and your love for all of God's people.",
+                        "because I keep hearing about your faith in the Lord Jesus and your love for all of God\u2019s people.",
                     ],
                     [
                         1,
@@ -2906,7 +2935,7 @@
                     [
                         1,
                         7,
-                        "Your love has given me much joy and comfort, my brother, for your kindness has often refreshed the hearts of God's people.",
+                        "Your love has given me much joy and comfort, my brother, for your kindness has often refreshed the hearts of God\u2019s people. Paul\u2019s Appeal for Onesimus",
                     ],
                     [
                         1,
@@ -2926,7 +2955,7 @@
                     [
                         1,
                         11,
-                        "Onesimus hasn't been of much use to you in the past, but now he is very useful to both of us.",
+                        "Onesimus hasn\u2019t been of much use to you in the past, but now he is very useful to both of us.",
                     ],
                     [
                         1,
@@ -2941,7 +2970,7 @@
                     [
                         1,
                         14,
-                        "But I didn't want to do anything without your consent. I wanted you to help because you were willing, not because you were forced.",
+                        "But I didn\u2019t want to do anything without your consent. I wanted you to help because you were willing, not because you were forced.",
                     ],
                     [
                         1,
@@ -2951,7 +2980,7 @@
                     [
                         1,
                         16,
-                        "He is no longer like a slave to you. He is better than a slave, for he is a dear brother, especially to me. Now he will mean much more to you, both as a man and as a brother in the Lord.",
+                        "He is no longer like a slave to you. He is more than a slave, for he is a beloved brother, especially to me. Now he will mean much more to you, both as a man and as a brother in the Lord.",
                     ],
                     [
                         1,
@@ -2966,12 +2995,12 @@
                     [
                         1,
                         19,
-                        "I, PAUL, WRITE THIS WITH MY OWN HAND: I WILL REPAY IT. AND I WON'T MENTION THAT YOU OWE ME YOUR VERY SOUL!",
+                        "I, PAUL, WRITE THIS WITH MY OWN HAND: I WILL REPAY IT. AND I WON\u2019T MENTION THAT YOU OWE ME YOUR VERY SOUL!",
                     ],
                     [
                         1,
                         20,
-                        "Yes, my brother, please do me this favor for the Lord's sake. Give me this encouragement in Christ.",
+                        "Yes, my brother, please do me this favor for the Lord\u2019s sake. Give me this encouragement in Christ.",
                     ],
                     [
                         1,
@@ -2981,7 +3010,7 @@
                     [
                         1,
                         22,
-                        "One more thing\u2014please prepare a guest room for me, for I am hoping that God will answer your prayers and let me return to you soon.",
+                        "One more thing\u2014please prepare a guest room for me, for I am hoping that God will answer your prayers and let me return to you soon. Paul\u2019s Final Greetings",
                     ],
                     [
                         1,
@@ -3017,7 +3046,7 @@
             ];
             var PRESETS = [
                 {
-                    label: "All Material",
+                    label: "All Year 7 (Gal, Eph, Php, Col, Phm)",
                     books: [
                         "galatians",
                         "ephesians",
@@ -3046,7 +3075,6 @@
                 { label: "Philemon only", books: ["philemon"] },
                 { label: "Custom (use checkboxes below)", books: null },
             ];
-
             var VERSE_INDEX = [];
             (function () {
                 var gi = 0;
@@ -3068,7 +3096,6 @@
                     }
                 }
             })();
-
             var selectedBooks = [
                 "galatians",
                 "ephesians",
@@ -3077,44 +3104,39 @@
                 "philemon",
             ];
             var activePreset = 0;
-
             function inSelected(bk) {
                 return selectedBooks.indexOf(bk) !== -1;
             }
-
             function wordCount(text) {
-                var words = text.trim().split(/\s+/);
-                var count = 0;
-                for (var i = 0; i < words.length; i++) {
-                    if (words[i].length > 0) count++;
+                var w = text.trim().split(/\s+/),
+                    n = 0;
+                for (var i = 0; i < w.length; i++) {
+                    if (w[i].length > 0) n++;
                 }
-                return count;
+                return n;
             }
-
             function shuffleArray(arr) {
                 var a = arr.slice();
                 for (var i = a.length - 1; i > 0; i--) {
                     var j = Math.floor(Math.random() * (i + 1));
-                    var tmp = a[i];
+                    var t = a[i];
                     a[i] = a[j];
-                    a[j] = tmp;
+                    a[j] = t;
                 }
                 return a;
             }
-
             function shuffleWithSpacing(pool, gap1, gap2) {
                 if (pool.length <= 1) return pool.slice();
-                var maxAttempts = 300;
-                for (var attempt = 0; attempt < maxAttempts; attempt++) {
-                    var shuffled = shuffleArray(pool);
-                    var result = [];
-                    var used = {};
-                    var stuck = false;
+                for (var attempt = 0; attempt < 300; attempt++) {
+                    var sh = shuffleArray(pool),
+                        result = [],
+                        used = {},
+                        stuck = false;
                     while (result.length < pool.length) {
-                        var pos = result.length;
-                        var candidates = [];
-                        for (var k = 0; k < shuffled.length; k++) {
-                            var sv = shuffled[k];
+                        var pos = result.length,
+                            cands = [];
+                        for (var k = 0; k < sh.length; k++) {
+                            var sv = sh[k];
                             if (used[sv.key]) continue;
                             var ok = true;
                             if (
@@ -3132,16 +3154,14 @@
                                 ) < gap2
                             )
                                 ok = false;
-                            if (ok) candidates.push(sv);
+                            if (ok) cands.push(sv);
                         }
-                        if (candidates.length === 0) {
+                        if (cands.length === 0) {
                             stuck = true;
                             break;
                         }
                         var pick =
-                            candidates[
-                                Math.floor(Math.random() * candidates.length)
-                            ];
+                            cands[Math.floor(Math.random() * cands.length)];
                         result.push(pick);
                         used[pick.key] = true;
                     }
@@ -3151,7 +3171,6 @@
                 fb.isFallback = true;
                 return fb;
             }
-
             function renderPresets() {
                 var g = document.getElementById("preset-grid");
                 g.innerHTML = "";
@@ -3175,7 +3194,6 @@
                     })(PRESETS[i], i);
                 }
             }
-
             function renderBooks() {
                 var g = document.getElementById("book-grid");
                 g.innerHTML = "";
@@ -3207,7 +3225,6 @@
                     })(BOOK_ORDER[bi]);
                 }
             }
-
             function generate() {
                 var btn = document.getElementById("genbtn");
                 btn.disabled = true;
@@ -3225,7 +3242,6 @@
                     btn.textContent = "Regenerate";
                 }, 20);
             }
-
             function doGenerate() {
                 var minW = parseInt(document.getElementById("minw").value) || 1;
                 var maxW =
@@ -3241,13 +3257,11 @@
                     parseInt(document.getElementById("chap-to").value) || 999;
                 var single = selectedBooks.length === 1;
                 var res = document.getElementById("results");
-
                 if (selectedBooks.length === 0) {
                     res.innerHTML =
                         '<div class="warn">Please select at least one book.</div>';
                     return;
                 }
-
                 var pool = [];
                 for (var i = 0; i < VERSE_INDEX.length; i++) {
                     var v = VERSE_INDEX[i];
@@ -3258,7 +3272,6 @@
                     if (wds < minW || wds > maxW) continue;
                     pool.push(v);
                 }
-
                 if (pool.length === 0) {
                     res.innerHTML =
                         '<div class="warn">No verses matched your filters. Try adjusting the word count range (currently ' +
@@ -3268,7 +3281,6 @@
                         " words).</div>";
                     return;
                 }
-
                 var shuffled = shuffleWithSpacing(pool, gap1, gap2);
                 var isFallback = !!shuffled.isFallback;
                 var booksLabel = [];
@@ -3278,56 +3290,56 @@
                 }
                 var booksStr = booksLabel.join(", ");
                 var displayTitle = title || "Bible Quiz Quoting Bee";
-
                 var html = '<div class="no-print" style="margin-bottom:12px">';
-                if (isFallback) {
+                if (isFallback)
                     html +=
-                        '<div class="warn">Warning: spacing constraints could not be fully satisfied after 300 attempts - using basic shuffle. Try reducing the gap values (e.g. gap1=30, gap2=15).</div>';
-                }
-                html += '<div class="statbar">';
+                        '<div class="warn">Warning: spacing constraints could not be fully satisfied - using basic shuffle. Try reducing gap values.</div>';
                 html +=
-                    "<span><strong>" +
+                    '<div class="statbar"><span><strong>' +
                     shuffled.length +
-                    "</strong> verses</span>";
-                html +=
-                    "<span>Words: <strong>" +
+                    "</strong> verses</span><span>Words: <strong>" +
                     minW +
                     "-" +
                     maxW +
-                    "</strong></span>";
+                    "</strong></span><span>Gap i/i+1: <strong>min " +
+                    gap1 +
+                    "</strong></span><span>Gap i/i+2: <strong>min " +
+                    gap2 +
+                    "</strong></span></div>";
                 html +=
-                    "<span>Gap i/i+1: <strong>min " + gap1 + "</strong></span>";
-                html +=
-                    "<span>Gap i/i+2: <strong>min " + gap2 + "</strong></span>";
-                html += "</div>";
-                html +=
-                    '<button class="printbtn" onclick="window.print()">Print / Save PDF</button>';
-                html += "</div>";
+                    '<button class="printbtn" onclick="window.print()">Print / Save PDF</button></div>';
                 html += '<div class="ph">' + displayTitle + "</div>";
                 html +=
                     '<div class="ph2">' +
                     booksStr +
                     " - New Living Translation</div>";
-                html += '<table class="vtable"><thead><tr>';
                 html +=
-                    '<th class="num">#</th><th style="width:145px">Reference</th><th>Verse Text (NLT)</th>';
-                html += "</tr></thead><tbody>";
+                    '<table class="vtable"><thead><tr><th class="num">#</th><th style="width:145px">Reference</th><th>Verse Text (NLT)</th></tr></thead><tbody>';
                 for (var si = 0; si < shuffled.length; si++) {
                     var sv = shuffled[si];
-                    var text = sv.text.replace(/\[[a-zA-Z]\]/g, "").trim();
-                    var row = si % 2 === 1 ? ' style="background:#faf8f4"' : "";
-                    html += "<tr>";
-                    html += '<td class="num"' + row + ">" + (si + 1) + "</td>";
-                    html += '<td class="ref"' + row + ">" + sv.ref + "</td>";
-                    html += "<td" + row + ">" + text + "</td>";
-                    html += "</tr>";
+                    var text = sv.text.replace(/\[[a-zA-Z0-9]\]/g, "").trim();
+                    var even =
+                        si % 2 === 1 ? ' style="background:#faf8f4"' : "";
+                    html +=
+                        '<tr><td class="num"' +
+                        even +
+                        ">" +
+                        (si + 1) +
+                        '</td><td class="ref"' +
+                        even +
+                        ">" +
+                        sv.ref +
+                        "</td><td" +
+                        even +
+                        ">" +
+                        text +
+                        "</td></tr>";
                 }
                 html += "</tbody></table>";
                 res.innerHTML = html;
                 document.getElementById("printbtn").style.display =
                     "inline-block";
             }
-
             renderPresets();
             renderBooks();
         </script>
