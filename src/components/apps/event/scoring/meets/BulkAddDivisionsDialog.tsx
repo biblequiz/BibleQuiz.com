@@ -63,6 +63,10 @@ export default function BulkAddDivisionsDialog({
     const [editingIndex, setEditingIndex] = useState<number | null>(null);
     const [showCloseConfirmation, setShowCloseConfirmation] = useState(false);
 
+    // Drag state for reordering divisions
+    const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
+    const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
+
     /**
      * Counts the teams (or quizzers, for individual competitions) included in a
      * parsed OnlineMeetSettings object so the list can show a brief summary.
@@ -186,6 +190,45 @@ export default function BulkAddDivisionsDialog({
         setParsedDivisions(prev => prev.filter((_, i) => i !== index));
         setIsDirty(true);
     };
+
+    // Drag and drop handlers for reordering divisions
+    const handleDragStart = useCallback((e: React.DragEvent, index: number) => {
+        setDraggedIndex(index);
+        e.dataTransfer.effectAllowed = "move";
+        e.dataTransfer.setData("text/plain", index.toString());
+    }, []);
+
+    const handleDragEnd = useCallback(() => {
+        setDraggedIndex(null);
+        setDragOverIndex(null);
+    }, []);
+
+    const handleDragOver = useCallback((e: React.DragEvent, index: number) => {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = "move";
+        setDragOverIndex(index);
+    }, []);
+
+    const handleDragLeave = useCallback(() => {
+        setDragOverIndex(null);
+    }, []);
+
+    const handleDrop = useCallback((e: React.DragEvent, targetIndex: number) => {
+        e.preventDefault();
+        if (draggedIndex === null || draggedIndex === targetIndex) {
+            setDraggedIndex(null);
+            setDragOverIndex(null);
+            return;
+        }
+
+        const newDivisions = [...parsedDivisions];
+        const [movedDivision] = newDivisions.splice(draggedIndex, 1);
+        newDivisions.splice(targetIndex, 0, movedDivision);
+        setParsedDivisions(newDivisions);
+        setIsDirty(true);
+        setDraggedIndex(null);
+        setDragOverIndex(null);
+    }, [draggedIndex, parsedDivisions]);
 
     /**
      * Saves all parsed divisions in a single bulk request, then closes the dialog.
@@ -314,12 +357,33 @@ export default function BulkAddDivisionsDialog({
                             </div>
                         ) : (
                             <div className="space-y-2">
-                                {parsedDivisions.map((division, index) => (
+                                {parsedDivisions.map((division, index) => {
+                                    const isDragging = draggedIndex === index;
+                                    const isDragOver = dragOverIndex === index && draggedIndex !== index;
+                                    const canDrag = !isSaving && !isUploading && !isDownloadingTemplate;
+
+                                    return (
                                     <div
                                         key={`${index}-${division.Name}`}
-                                        className="flex items-center justify-between gap-2 p-3 bg-base-200 rounded-lg"
+                                        draggable={canDrag}
+                                        onDragStart={(e) => handleDragStart(e, index)}
+                                        onDragEnd={handleDragEnd}
+                                        onDragOver={(e) => handleDragOver(e, index)}
+                                        onDragLeave={handleDragLeave}
+                                        onDrop={(e) => handleDrop(e, index)}
+                                        className={`flex items-center justify-between gap-2 p-3 bg-base-200 rounded-lg
+                                            ${canDrag ? "cursor-grab active:cursor-grabbing" : ""}
+                                            ${isDragging ? "opacity-50" : ""}
+                                            ${isDragOver ? "bg-primary/30 border-t-2 border-primary" : ""}
+                                        `}
                                     >
-                                        <div className="flex-1 min-w-0">
+                                        <div className="flex items-center gap-2 flex-1 min-w-0">
+                                            {canDrag && (
+                                                <span className="text-base-content/40">
+                                                    <FontAwesomeIcon icon="fas faGripVertical" />
+                                                </span>
+                                            )}
+                                            <div className="flex-1 min-w-0">
                                             <div className="font-medium truncate">{division.Name || "(Unnamed)"}</div>
                                             <div className="text-xs text-base-content/70 mt-1 flex flex-wrap gap-2">
                                                 <span>
@@ -330,6 +394,7 @@ export default function BulkAddDivisionsDialog({
                                                     <FontAwesomeIcon icon="fas faDoorOpen" classNames={["mr-1"]} />
                                                     {division.RoomNames?.length ?? 0} room{(division.RoomNames?.length ?? 0) === 1 ? "" : "s"}
                                                 </span>
+                                            </div>
                                             </div>
                                         </div>
                                         <div className="flex gap-1">
@@ -352,7 +417,8 @@ export default function BulkAddDivisionsDialog({
                                             </button>
                                         </div>
                                     </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         )}
                     </div>

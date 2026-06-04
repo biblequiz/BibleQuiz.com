@@ -3,6 +3,7 @@ import type { Person } from 'types/services/PeopleService';
 import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
@@ -72,13 +73,13 @@ export class UserAccountProfile {
         this.personId = personId;
         this.displayName = displayName;
         this.type = type;
-        this.organizationPermission = organizationPermission;
+        this.organizationPermission =organizationPermission;
         this.regionPermissions = regionPermissions;
-        this.districtPermissions = districtPermissions;
-        this.churchPermissions = churchPermissions;
-        this.eventPermissions = eventPermissions;
+        this.districtPermissions =  districtPermissions;
+        this.churchPermissions = DataTypeHelpers.normalizeToSet(churchPermissions);
+        this.eventPermissions = DataTypeHelpers.normalizeToSet(eventPermissions);
         this.canCreateEvents = canCreateEvents;
-        this.canManageEvents = canCreateEvents || (eventPermissions !== null && eventPermissions.size > 0);
+        this.canManageEvents = canCreateEvents || (this.eventPermissions !== null && this.eventPermissions.size > 0);
         this.isPayoutManager = isPayoutManager;
         this.authTokenProfile = authTokenProfile;
     }
