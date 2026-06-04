@@ -500,4 +500,21 @@ export class DataTypeHelpers {
 
         return number + "th";
     }
+
+    /**
+     * Normalizes a list to a Set.
+     * @param value Potential set.
+     * @returns Normalized set.
+     */
+    public static normalizeToSet<T>(value: Set<T> | T[] | null | undefined): Set<T> | null {
+        if (!value) {
+            return null;
+        }
+
+        if (value instanceof Set) {
+            return value;
+        }
+
+        return new Set<T>(value);
+    }
 }
