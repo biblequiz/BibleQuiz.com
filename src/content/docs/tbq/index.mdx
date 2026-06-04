@@ -1,7 +1,7 @@
 ---
 title: "Teen Bible Quiz"
 description: |
-        Teen Bible Quiz (TBQ) is a long-standing discipleship ministry that helps teenagers engage deeply with God’s Word through competitive, team-based Bible memorization.eventType: tbq
+    Teen Bible Quiz (TBQ) is a long-standing discipleship ministry that helps teenagers engage deeply with God’s Word through competitive, team-based Bible memorization.eventType: tbq
 showSeasonButtons: true
 eventType: tbq
 tableOfContents: false
@@ -14,7 +14,7 @@ sidebar:
 
 import { LinkButton, CardGrid, LinkCard } from "@astrojs/starlight/components";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import ScripturePortionCover from 'components/ScripturePortionCover.astro';
+import ScripturePortionCover from "components/ScripturePortionCover.astro";
 
 <div class="flex flex-col md:flex-row md:items-center gap-1 md:gap-2">
   <span class="font-bold text-lg">New to Bible Quiz?</span>
@@ -36,7 +36,7 @@ import ScripturePortionCover from 'components/ScripturePortionCover.astro';
        </div>
       `}
       >
-    </LinkCard> 
+    </LinkCard>
 
     <LinkCard title="Awards and Scholarships " icon="document" class="h-full flex flex-col"
       href="https://biblequiz.com/tbq/scholarships"
@@ -50,12 +50,12 @@ import ScripturePortionCover from 'components/ScripturePortionCover.astro';
       `}
       >
     </LinkCard>
-    <LinkCard title="Official Rules , Cheat Sheets & Score Sheets" icon="seti:json" class="h-full flex flex-col"
+    <LinkCard title="Official Rules, Cheat Sheets & Score Sheets" icon="seti:json" class="h-full flex flex-col"
       href="/tbq/downloads"
       description={`
       <div class="flex items-center justify-center gap-3 flex-1">
-        <img src="/assets/logos/tbq/tbq-logo.png" alt=Rules " class="h-24" href="/tbq" />
-        Official Rules of TBQ and Cheat Sheets and other  out t out Free and Paid questions and other resources for your team practices.
+        <img src="/assets/logos/tbq/tbq-logo.png" alt="Rules" class="h-24" />
+        Official Rules of TBQ, cheat sheets, score sheets, and other resources for your team practices.
       </div>
       `}
       >
@@ -75,9 +75,9 @@ import ScripturePortionCover from 'components/ScripturePortionCover.astro';
       description= {`
       <div class="flex items-center justify-center gap-3 flex-1">
       <img src="/assets/images/social-media.png" alt="Social Media" class="h-24" />
-      <span>Subsribe to Bible Quiz News Letter for up-to-date news, information and events. 
+      <span>Subsribe to Bible Quiz News Letter for up-to-date news, information and events.
       <br/><br/>Be part of our faceboook group<a href="https://www.facebook.com/groups/agbiblequiz" class="inline-flex items-center gap-1 text-blue-600 hover:underline">#agbiblequiz</a>
-      </span> 
+      </span>
       </div>
       `}
       >
@@ -92,4 +92,5 @@ import ScripturePortionCover from 'components/ScripturePortionCover.astro';
       `}
       >
     </LinkCard>
+
 </CardGrid>
