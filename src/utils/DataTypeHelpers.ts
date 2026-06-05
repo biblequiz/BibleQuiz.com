@@ -514,7 +514,17 @@ export class DataTypeHelpers {
         if (value instanceof Set) {
             return value;
         }
+        else if (Array.isArray(value)) {
+            return new Set<T>(value);
+        }
 
-        return new Set<T>(value);
+        // Assume it is a different object to be converted to a set.
+        const result = new Set<T>();
+        for (const key of Object.keys(value)) {
+            const item = (value as any)[key];
+            result.add(item);
+        }
+
+        return result;
     }
 }

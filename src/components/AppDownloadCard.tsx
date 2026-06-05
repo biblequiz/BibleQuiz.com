@@ -62,7 +62,7 @@ export default async function AppDownloadCard({ product, platform }: Props) {
 
     return (
         <div
-            className={`card w-full md:w-80 card-sm shadow-sm border-1 border-solid mt-0`}
+            className={`card w-full md:w-77 card-sm shadow-sm border-1 border-solid mt-0`}
         >
             <div className="card-body items-center">
                 <h2 className="card-title mb-0 mt-0">

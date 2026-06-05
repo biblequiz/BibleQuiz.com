@@ -73,9 +73,9 @@ export class UserAccountProfile {
         this.personId = personId;
         this.displayName = displayName;
         this.type = type;
-        this.organizationPermission =organizationPermission;
+        this.organizationPermission = organizationPermission;
         this.regionPermissions = regionPermissions;
-        this.districtPermissions =  districtPermissions;
+        this.districtPermissions = districtPermissions;
         this.churchPermissions = DataTypeHelpers.normalizeToSet(churchPermissions);
         this.eventPermissions = DataTypeHelpers.normalizeToSet(eventPermissions);
         this.canCreateEvents = canCreateEvents;
