@@ -1,0 +1,20 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import RegistrationRoot from "components/apps/registration/RegistrationRoot";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Event Registration",
+    hidePageTitle: true,
+    hideAdsOnPrint: true,
+    pagefind: false
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="registration-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
+    </div>
+    <RegistrationRoot client:only="react" />
+</StarlightPage>
