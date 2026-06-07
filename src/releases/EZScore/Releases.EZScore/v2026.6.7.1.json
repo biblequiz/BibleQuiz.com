@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4UAgbr",
   "tag_name": "v2026.6.7.1",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Update Ranking in EZScore",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-06-07T21:17:47Z",
+  "updated_at": "2026-06-07T21:19:15Z",
   "published_at": "2026-06-07T21:17:39Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.6.7.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.6.7.1",
-  "body": "Latest version of EZScore"
+  "body": "EZScore wasn't correctly calculating the best possible rank internally, which resulted in `Announce Winners` always showing a tie for all positions when ranking for fastest quiz out. This release addresses the issue."
 }
