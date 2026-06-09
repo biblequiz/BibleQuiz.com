@@ -3,7 +3,7 @@ import { AuthManager } from "types/AuthManager";
 import { Church, ChurchesService, ChurchResultFilter } from "types/services/ChurchesService";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ChurchSettingsDialog from "components/ChurchSettingsDialog";
-import { useEscapeToClose } from "./hooks/useEscapeToClose";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {

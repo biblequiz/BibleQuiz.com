@@ -14,7 +14,7 @@ import {
 } from "types/services/RegistrationService";
 import type { Church } from "types/services/ChurchesService";
 import RegistrationFieldsGrid from "./RegistrationFieldsGrid";
-import { useEscapeToClose } from "./hooks/useEscapeToClose";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
