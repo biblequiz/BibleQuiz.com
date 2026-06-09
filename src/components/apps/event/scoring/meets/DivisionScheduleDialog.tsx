@@ -2,6 +2,7 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import CollapsibleSection from "components/CollapsibleSection";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary, OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
@@ -587,30 +588,14 @@ export default function DivisionScheduleDialog({
     }, [isDirty, onClose]);
 
     // Handle Escape key to close dialog (only when no nested dialog or fullscreen UI is open).
-    // We always stopPropagation so the Escape doesn't bubble up to a parent dialog (e.g. the
-    // bulk-add dialog) when this dialog is hosted as a nested editor.
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            // Don't handle Escape if schedule preview is in fullscreen mode
-            // (the SchedulePreviewTable component handles it internally), or if a nested
-            // dialog (linked meets, rules editor, close confirmation) is currently open.
-            if (
-                e.key === "Escape"
-                && !isSaving
-                && !showLinkedMeetsDialog
-                && !isEditingRules
-                && !showCloseConfirmation
-                && !isSchedulePreviewFullscreen
-            ) {
-                e.preventDefault();
-                e.stopPropagation();
-                handleClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving, showLinkedMeetsDialog, isEditingRules, showCloseConfirmation, isSchedulePreviewFullscreen]);
+    // The schedule preview's fullscreen mode is handled inside SchedulePreviewTable.
+    useEscapeToClose(
+        handleClose,
+        isSaving
+            || showLinkedMeetsDialog
+            || isEditingRules
+            || showCloseConfirmation
+            || isSchedulePreviewFullscreen);
 
     // Export schedule stats
     const handleExportStats = async () => {

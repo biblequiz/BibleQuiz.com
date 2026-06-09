@@ -1,7 +1,8 @@
-import { useRef } from "react";
+import { useCallback, useRef } from "react";
 import type { EventInfo } from "types/EventTypes";
 import { type MatchRules } from "types/MatchRules";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import { useMatchRulesForm } from "./hooks/useMatchRulesForm";
 import GeneralRulesSection from "./sections/GeneralRulesSection";
 import QuizOutSection from "./sections/QuizOutSection";
@@ -62,18 +63,18 @@ export default function MatchRulesDialog({
     // Get validation error on demand for display
     const validationError = actions.validate();
 
+    // Handle Escape key to close dialog without selecting any rules.
+    const handleEscapeClose = useCallback(() => {
+        onSelect(null);
+        dialogRef.current?.close();
+    }, [onSelect]);
+    useEscapeToClose(handleEscapeClose);
+
     return (
         <dialog
             ref={dialogRef}
             className="modal"
             open
-            onKeyDown={(e) => {
-                if (e.key === 'Escape') {
-                    e.stopPropagation();
-                    onSelect(null);
-                    dialogRef.current?.close();
-                }
-            }}
         >
             <div className="modal-box w-full max-w-3xl max-h-[90vh] overflow-y-auto">
                 <h3 className="font-bold text-lg">Edit Rules</h3>

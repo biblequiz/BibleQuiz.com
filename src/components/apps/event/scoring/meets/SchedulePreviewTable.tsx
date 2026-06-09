@@ -1,6 +1,7 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { OnlineMeetSchedulePreview } from "types/services/AstroMeetsService";
 import type { TeamOrQuizzerReference } from "types/Meets";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
@@ -65,22 +66,12 @@ export default function SchedulePreviewTable({
         onFullscreenChange?.(newValue);
     }, [isFullscreen, onFullscreenChange]);
 
-    // Handle Escape key to exit fullscreen
-    useEffect(() => {
-        if (!isFullscreen) return;
-
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape") {
-                e.preventDefault();
-                e.stopPropagation();
-                setIsFullscreen(false);
-                onFullscreenChange?.(false);
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown, true);
-        return () => document.removeEventListener("keydown", handleKeyDown, true);
-    }, [isFullscreen, onFullscreenChange]);
+    // Handle Escape key to exit fullscreen (only active while in fullscreen mode).
+    const handleExitFullscreen = useCallback(() => {
+        setIsFullscreen(false);
+        onFullscreenChange?.(false);
+    }, [onFullscreenChange]);
+    useEscapeToClose(handleExitFullscreen, !isFullscreen);
 
     const handleDraftTimeChange = (matchId: number, value: string) => {
         setDraftMatchTimes(prev => ({

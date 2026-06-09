@@ -1,6 +1,7 @@
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import {
     DatabasesService,
@@ -63,17 +64,8 @@ export default function AwardTemplatesDialog({
         }
     }, [isProcessing, hasNestedDialog, localOutput, onClose]);
 
-    // Handle Escape key to close dialog (only when no nested dialog is open)
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isProcessing && !hasNestedDialog) {
-                e.preventDefault();
-                handleClose();
-            }
-        };
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isProcessing, hasNestedDialog]);
+    // Handle Escape key to close dialog (only when no nested dialog is open).
+    useEscapeToClose(handleClose, isProcessing || hasNestedDialog);
 
     // Get database templates and personal templates
     const databaseTemplates = localOutput.AllTemplates.filter(t => t.IsDatabase);
