@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 import {
@@ -224,18 +225,8 @@ export default function DivisionPlayoffsDialog({
         }
     }, [isDirty, isReadOnly, onClose]);
 
-    // Handle Escape key to close dialog
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving) {
-                e.preventDefault();
-                handleClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving]);
+    // Handle Escape key to close dialog.
+    useEscapeToClose(handleClose, isSaving);
 
     const handleSave = async () => {
         if (!playoffs) return;

@@ -1,6 +1,7 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import { AstroTeamsAndQuizzersService } from "types/services/AstroTeamsAndQuizzersService";
 
@@ -31,19 +32,7 @@ export default function SeedFromReportDialog({
     const [isUploading, setIsUploading] = useState(false);
 
     // Handle Escape key to close dialog without propagating to parent dialogs.
-    // Use stopImmediatePropagation to prevent other listeners on document from firing.
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isUploading) {
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                onClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown, { capture: true });
-        return () => document.removeEventListener("keydown", handleKeyDown, { capture: true });
-    }, [onClose, isUploading]);
+    useEscapeToClose(onClose, isUploading);
     const [error, setError] = useState<string | null>(null);
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
 

@@ -1,6 +1,7 @@
-import { useRef, useState, useCallback, useEffect, useMemo } from "react";
+import { useRef, useState, useCallback, useMemo } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import {
     AstroDatabaseQuestionsService,
@@ -205,18 +206,8 @@ export default function QuestionImportDialog({
         }
     }, [parsedManifest, isSaving, onClose]);
 
-    // Handle Escape key
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving && !isUploading) {
-                e.preventDefault();
-                handleClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving, isUploading]);
+    // Handle Escape key.
+    useEscapeToClose(handleClose, isSaving || isUploading);
 
     return (
         <dialog ref={dialogRef} className="modal" open>

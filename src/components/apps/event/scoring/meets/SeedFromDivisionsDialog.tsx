@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
 
@@ -92,19 +93,7 @@ export default function SeedFromDivisionsDialog({
     }, [auth, eventId, databaseId, isIndividualCompetition]);
 
     // Handle Escape key to close dialog without propagating to parent dialogs.
-    // Use stopImmediatePropagation to prevent other listeners on document from firing.
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSeeding) {
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                onClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown, { capture: true });
-        return () => document.removeEventListener("keydown", handleKeyDown, { capture: true });
-    }, [onClose, isSeeding]);
+    useEscapeToClose(onClose, isSeeding);
 
     // Get the order of a meet in the selected list
     const getOrderIndex = (meetId: number): number => {

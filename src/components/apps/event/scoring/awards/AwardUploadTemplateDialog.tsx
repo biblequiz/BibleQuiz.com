@@ -1,5 +1,6 @@
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import { DatabasesService, AwardType, type DatabaseAwardsTemplate } from "types/services/DatabasesService";
 
@@ -40,18 +41,8 @@ export default function AwardUploadTemplateDialog({
         }
     }, [isSaving, onClose]);
 
-    // Handle Escape key to close dialog
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving) {
-                e.preventDefault();
-                e.stopPropagation();
-                handleClose();
-            }
-        };
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving]);
+    // Handle Escape key to close dialog.
+    useEscapeToClose(handleClose, isSaving);
 
     // Handle file selection
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {

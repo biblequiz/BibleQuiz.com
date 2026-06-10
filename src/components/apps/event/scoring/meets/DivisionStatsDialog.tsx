@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import {
     AstroMeetStatsService,
@@ -99,18 +100,8 @@ export default function DivisionStatsDialog({
         }
     }, [isDirty, isReadOnly, onClose]);
 
-    // Handle Escape key to close dialog
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving) {
-                e.preventDefault();
-                handleClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving]);
+    // Handle Escape key to close dialog.
+    useEscapeToClose(handleClose, isSaving);
 
     // Handle match override change
     const handleMatchOverrideChange = useCallback((quizzerId: number, value: string) => {
