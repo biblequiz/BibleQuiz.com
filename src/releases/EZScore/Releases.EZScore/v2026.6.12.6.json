@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4ULvP9",
   "tag_name": "v2026.6.12.6",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Fix Announce Winners Button for Team Competition",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-06-12T14:20:08Z",
+  "updated_at": "2026-06-12T14:22:41Z",
   "published_at": "2026-06-12T14:19:58Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.6.12.6",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.6.12.6",
-  "body": "Latest version of EZScore"
+  "body": "The `Announce Winners` button would show a `NullReferenceException`. This release addresses the issue."
 }
