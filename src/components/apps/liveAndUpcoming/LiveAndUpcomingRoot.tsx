@@ -52,64 +52,64 @@ function renderEventSection(
         ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type, false, typeFilterOverride))
         : events;
 
+    const seasonLinkElement = seasonLink && (
+        <a
+            className="card live-events-card w-90 card-sm shadow-sm border-2 border-solid mt-4 relative"
+            href={seasonLink}
+            target="_self">
+            <div className="card-body p-2 pl-4">
+                <div className="mt-3">
+                    <h2 className="card-title">
+                        Past {typeFilterOverride?.toUpperCase()} Events for {currentSeason} Season
+                    </h2>
+                    <p className="text-base mt-1">
+                        Search through the full list of past events across the current season.
+                    </p>
+                </div>
+                <FontAwesomeIcon
+                    icon="fas faArrowRight"
+                    classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
+                />
+            </div>
+        </a>);
+
     return (
         <div className="mt-4">
             <div className={`badge badge-${titleClass} text-md p-4 mt-0`}>
                 <FontAwesomeIcon icon={`fas ${icon}`} />
                 <span className="font-bold">{title}</span>
             </div>
-            {seasonLink && (
-                <a
-                    className="card live-events-card w-90 card-sm shadow-sm border-2 border-solid mt-4 relative"
-                    href={seasonLink}
-                    target="_self">
-                    <div className="card-body p-2 pl-4">
-                        <div className="mt-3">
-                            <h2 className="card-title">
-                                Past {typeFilterOverride?.toUpperCase()} Events for {currentSeason} Season
-                            </h2>
-                            <p className="text-base mt-1">
-                                Search through the full list of past events across the current season.
-                            </p>
-                        </div>
-                        <FontAwesomeIcon
-                            icon="fas faArrowRight"
-                            classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
-                        />
-                    </div>
-                </a>)}
-            {!seasonLink && (
-                <>
-                    {filteredEvents.length > 0 && (
-                        <div className="flex flex-wrap gap-4">
-                            {filteredEvents.map(event => {
-                                return (
-                                    <EventCard
-                                        key={event.info.id}
-                                        info={{
-                                            type: event.type,
-                                            urlSlug: event.urlSlug,
-                                            event: event.info,
-                                            isNationals: event.isNationals,
-                                            isRegistrationOpen: event.isRegistrationOpen
-                                        }}
-                                        isLive={isLive}
-                                    />
-                                );
-                            })}
-                        </div>)}
-                    {filteredEvents.length === 0 && (
-                        <div role="alert" className="alert alert-info alert-outline">
-                            <FontAwesomeIcon icon="far faLightbulb" />
-                            <span className="text-base-content">
-                                No events match your filter criteria. Click the
-                                <div className="border-1 p-1 rounded-md inline-block ml-1 mr-1">
-                                    <FontAwesomeIcon icon="fas faFilterCircleXmark" />&nbsp;
-                                    Reset Search Filters</div> button above
-                                to clear all filters.
-                            </span>
-                        </div>)}
-                </>)}
+            {filteredEvents.length > 0 && (
+                <div className="flex flex-wrap gap-4">
+                    {filteredEvents.map(event => {
+                        return (
+                            <EventCard
+                                key={event.info.id}
+                                info={{
+                                    type: event.type,
+                                    urlSlug: event.urlSlug,
+                                    event: event.info,
+                                    isNationals: event.isNationals,
+                                    isRegistrationOpen: event.isRegistrationOpen
+                                }}
+                                isLive={isLive}
+                            />
+                        );
+                    })}
+                    {seasonLinkElement}
+                </div>)}
+            {filteredEvents.length === 0 && seasonLinkElement && seasonLinkElement}
+            {(filteredEvents.length === 0 && !seasonLinkElement) && (
+                <div role="alert" className="alert alert-info alert-outline">
+                    <FontAwesomeIcon icon="far faLightbulb" />
+                    <span className="text-base-content">
+                        No events match your filter criteria. Click the
+                        <div className="border-1 p-1 rounded-md inline-block ml-1 mr-1">
+                            <FontAwesomeIcon icon="fas faFilterCircleXmark" />&nbsp;
+                            Reset Search Filters</div> button above
+                        to clear all filters.
+                    </span>
+                </div>)}
         </div>);
 }
 
