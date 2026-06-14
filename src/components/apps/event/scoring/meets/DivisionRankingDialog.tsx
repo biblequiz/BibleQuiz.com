@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import type { ScoringReportTeam, ScoringReportQuizzer } from "types/EventScoringReport";
 import {
@@ -88,18 +89,8 @@ export default function DivisionRankingDialog({
         }
     }, [isDirty, isReadOnly, onClose]);
 
-    // Handle Escape key to close dialog
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape" && !isSaving) {
-                e.preventDefault();
-                handleClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving]);
+    // Handle Escape key to close dialog.
+    useEscapeToClose(handleClose, isSaving);
 
     // Team drag handlers
     const handleTeamDragStart = useCallback((e: React.DragEvent, index: number) => {

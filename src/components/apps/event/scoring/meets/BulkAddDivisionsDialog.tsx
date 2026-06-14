@@ -1,7 +1,8 @@
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useCallback } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary, OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 import { AstroMeetsService, type OnlineMeetSettings } from "types/services/AstroMeetsService";
@@ -93,25 +94,9 @@ export default function BulkAddDivisionsDialog({
     }, [isDirty, onClose]);
 
     // Escape key handler - only closes the bulk dialog when no nested dialog is open.
-    // We also stopPropagation so this Escape doesn't bubble further up the DOM.
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (
-                e.key === "Escape"
-                && !isSaving
-                && !isUploading
-                && !isDownloadingTemplate
-                && !isAnyNestedDialogOpen
-            ) {
-                e.preventDefault();
-                e.stopPropagation();
-                handleClose();
-            }
-        };
-
-        document.addEventListener("keydown", handleKeyDown);
-        return () => document.removeEventListener("keydown", handleKeyDown);
-    }, [handleClose, isSaving, isUploading, isDownloadingTemplate, isAnyNestedDialogOpen]);
+    useEscapeToClose(
+        handleClose,
+        isSaving || isUploading || isDownloadingTemplate || isAnyNestedDialogOpen);
 
     /**
      * Triggered when the user has selected a set of source divisions in the
