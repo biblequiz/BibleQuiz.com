@@ -7,7 +7,7 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
     /** Section title displayed above the card deck. */
-    title: string;
+    title?: string;
 
     /** Icon to display next to the title. */
     icon: string;
@@ -101,12 +101,13 @@ export default function PersonCardDeck({
     };
 
     return (
-        <section className="mt-4">
-            <h3 className="text-lg font-semibold mb-2 mt-0 flex items-center gap-2">
-                <FontAwesomeIcon icon={icon} />
-                <span>{title}</span>
-                <span className="badge badge-neutral">{people.length}</span>
-            </h3>
+        <section className={title ? "mt-4" : "mt-0"}>
+            {title && (
+                <h3 className="text-lg font-semibold mb-2 mt-0 flex items-center gap-2">
+                    <FontAwesomeIcon icon={icon} />
+                    <span>{title}</span>
+                    <span className="badge badge-neutral">{people.length}</span>
+                </h3>)}
             <div className="flex flex-wrap gap-3">
                 {people.map((person, index) => {
 
@@ -114,7 +115,6 @@ export default function PersonCardDeck({
                         ? `${person.Person?.FirstName ?? ""} ${person.Person?.LastName ?? ""}`.trim()
                         : "(Unnamed)";
 
-                    const roleLabel = PersonRole[person.Role];
                     const fieldRows = renderFieldRows(person);
 
                     // Officials have additional metadata to surface.
@@ -124,15 +124,18 @@ export default function PersonCardDeck({
                         const preferences = (official.RolePreferences ?? [])
                             .map(p => OfficialRole[p])
                             .join(", ");
+                        const divisionLabel = official.DivisionId
+                            ? event.Divisions?.find(d => d.Id === official.DivisionId)?.Label ?? official.DivisionId
+                            : null;
                         officialMetadata = (
                             <>
                                 {preferences && (
                                     <li className="text-sm text-base-content/70 truncate">
                                         <span className="font-medium">Roles:</span> {preferences}
                                     </li>)}
-                                {official.DivisionId && (
+                                {divisionLabel && (
                                     <li className="text-sm text-base-content/70 truncate">
-                                        <span className="font-medium">Division:</span> {official.DivisionId}
+                                        <span className="font-medium">Division:</span> {divisionLabel}
                                     </li>)}
                             </>);
                     }
@@ -148,9 +151,6 @@ export default function PersonCardDeck({
                                     <h4 className="card-title text-base mt-0">
                                         {personName}
                                     </h4>
-                                    <span className="badge badge-info badge-sm">
-                                        {roleLabel}
-                                    </span>
                                 </div>
                                 <ul className="m-0 p-0 list-none">
                                     {officialMetadata}
@@ -171,7 +171,7 @@ export default function PersonCardDeck({
                         className="card card-sm w-72 border-2 border-dashed border-base-300 hover:border-primary hover:bg-base-200 transition-colors flex items-center justify-center text-base-content/70 mt-0"
                         onClick={onAdd}
                         style={{ minHeight: "8rem" }}>
-                        <div className="card-body items-center text-center p-3">
+                        <div className="card-body items-center justify-center text-center p-3 h-full">
                             <FontAwesomeIcon icon="fas faPlus" classNames={["text-2xl"]} />
                             <span className="font-medium">{addLabel}</span>
                         </div>

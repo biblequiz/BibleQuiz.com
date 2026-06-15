@@ -268,7 +268,7 @@ export default function RegistrationPersonDialog({
                                         {officialRoleOptions.map(officialRole => {
                                             const isChecked = rolePreferences.includes(officialRole);
                                             return (
-                                                <label key={`role-${officialRole}`} className="label cursor-pointer gap-2">
+                                                <label key={`role-${officialRole}`} className="label cursor-pointer gap-2 mt-0">
                                                     <input
                                                         type="checkbox"
                                                         className="checkbox checkbox-info checkbox-sm"

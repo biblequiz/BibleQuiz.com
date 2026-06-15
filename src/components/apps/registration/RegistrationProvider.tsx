@@ -1,12 +1,22 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
-import { Church, ChurchesService } from "types/services/ChurchesService";
-import { EventInfo, EventsService } from "types/services/EventsService";
+import { Church, ChurchesService, ChurchResultFilter } from "types/services/ChurchesService";
+import { EventInfo, EventRegistrationStatus, EventsService, type EventRestrictions } from "types/services/EventsService";
 import { Registration, RegistrationService } from "types/services/RegistrationService";
+import { sharedDirtyWindowState } from "utils/SharedState";
 
 interface Props {
+}
+
+/**
+ * Per-section editability flags derived from event restrictions.
+ */
+export interface SectionEditability {
+    teams: boolean;
+    officials: boolean;
+    attendees: boolean;
 }
 
 /**
@@ -22,11 +32,23 @@ export interface RegistrationProviderContext {
     /** Loaded event metadata. */
     event: EventInfo;
 
+    /** Whether the current user is the event owner (server-computed). */
+    isEventOwner: boolean;
+
     /** Currently-selected church, or null if none has been picked yet. */
     church: Church | null;
 
     /** Setter to change the currently-selected church (also updates URL). */
     setChurch: (church: Church | null) => void;
+
+    /** List of churches the user administers (for quick-select). */
+    userChurches: Church[];
+
+    /** Add a church to the user's local list (after authorization). */
+    addUserChurch: (church: Church) => void;
+
+    /** Whether the user's churches are still loading. */
+    isLoadingUserChurches: boolean;
 
     /** Existing registration for the selected church, or null if not yet registered. */
     registration: Registration | null;
@@ -34,11 +56,38 @@ export interface RegistrationProviderContext {
     /** Setter to update the current registration (after a save). */
     setRegistration: (registration: Registration | null) => void;
 
+    /** Current registration version for optimistic locking. */
+    registrationVersion: number;
+
+    /** Update the version after a team CUD operation. */
+    setRegistrationVersion: (version: number) => void;
+
     /**
      * Forces the church + registration to be reloaded from the server.
      * Useful after saving a sub-entity (team, person, etc.) so the totals refresh.
      */
     reloadRegistration: () => Promise<void>;
+
+    /** Whether registration is editable (not closed / not in past). */
+    isEditable: boolean;
+
+    /** Per-section editability flags. */
+    sectionEditability: SectionEditability;
+
+    /** Error message when loading the church's registration (e.g. permission denied). */
+    churchPermissionError: string | null;
+
+    /** Whether there are unsaved changes to people (officials/quizzers/attendees). */
+    isDirty: boolean;
+
+    /** Mark the registration as having unsaved people changes. */
+    setDirty: (dirty: boolean) => void;
+
+    /** Whether a save operation is in progress. */
+    isSaving: boolean;
+
+    /** Trigger a batch save for people (officials/individuals/attendees). */
+    saveRegistration: () => Promise<void>;
 }
 
 export default function RegistrationProvider({ }: Props) {
@@ -55,8 +104,21 @@ export default function RegistrationProvider({ }: Props) {
     const [church, setChurchState] = useState<Church | null>(null);
     const [isLoadingChurch, setIsLoadingChurch] = useState<boolean>(churchIdFromUrl !== null);
 
+    const [userChurches, setUserChurches] = useState<Church[]>([]);
+    const [isLoadingUserChurches, setIsLoadingUserChurches] = useState<boolean>(true);
+
     const [registration, setRegistration] = useState<Registration | null>(null);
+    const [registrationVersion, setRegistrationVersion] = useState<number>(0);
     const [isLoadingRegistration, setIsLoadingRegistration] = useState<boolean>(false);
+    const [churchPermissionError, setChurchPermissionError] = useState<string | null>(null);
+
+    const [isDirty, setDirtyState] = useState<boolean>(false);
+    const [isSaving, setIsSaving] = useState<boolean>(false);
+
+    const setDirty = useCallback((dirty: boolean) => {
+        setDirtyState(dirty);
+        sharedDirtyWindowState.set(dirty);
+    }, []);
 
     // Load the event.
     useEffect(() => {
@@ -83,6 +145,26 @@ export default function RegistrationProvider({ }: Props) {
                 }
             });
     }, [eventId, auth]);
+
+    // Load the user's churches for quick-select.
+    useEffect(() => {
+        setIsLoadingUserChurches(true);
+        ChurchesService.getChurches(
+            auth,
+            100,
+            0,
+            null,
+            null,
+            null,
+            ChurchResultFilter.IncludeDirectAuthorized)
+            .then(page => {
+                setUserChurches(page.Items ?? []);
+                setIsLoadingUserChurches(false);
+            })
+            .catch(() => {
+                setIsLoadingUserChurches(false);
+            });
+    }, [auth]);
 
     // Load the church from the URL parameter (if any).
     useEffect(() => {
@@ -112,6 +194,7 @@ export default function RegistrationProvider({ }: Props) {
     // Setter that also updates the URL so the church is sticky.
     const setChurch = (newChurch: Church | null): void => {
         setChurchState(newChurch);
+        setChurchPermissionError(null);
 
         if (!eventId) {
             return;
@@ -130,20 +213,26 @@ export default function RegistrationProvider({ }: Props) {
     const reloadRegistration = async (): Promise<void> => {
         if (!eventId || !church?.Id) {
             setRegistration(null);
+            setChurchPermissionError(null);
             return;
         }
 
         setIsLoadingRegistration(true);
+        setChurchPermissionError(null);
 
         try {
             const loadedRegistration = await RegistrationService
                 .getRegistrationByChurchId(auth, eventId, church.Id);
 
             setRegistration(loadedRegistration);
+            setRegistrationVersion(loadedRegistration?.Version ?? 0);
         }
         catch (error: any) {
             if (error?.statusCode === 404) {
                 setRegistration(null);
+                setChurchPermissionError(
+                    "You do not have permission to register for this church. " +
+                    "Please select a different church or contact the event coordinator.");
             }
             else {
                 setLoadingError(error?.message || "An error occurred while loading the registration.");
@@ -157,6 +246,57 @@ export default function RegistrationProvider({ }: Props) {
     useEffect(() => {
         reloadRegistration();
     }, [eventId, church?.Id]);
+
+    // Batch save for people (officials/individuals/attendees).
+    const saveRegistration = async (): Promise<void> => {
+        if (!registration || !eventId || !church?.Id) {
+            return;
+        }
+
+        setIsSaving(true);
+        try {
+            const updatedRegistration = await RegistrationService.createOrUpdateChurch(auth, registration);
+
+            // Preserve teams since they aren't included in this endpoint.
+            (updatedRegistration as any).Teams = registration.Teams;
+
+            setRegistration(updatedRegistration);
+            setRegistrationVersion(updatedRegistration.Version);
+            setDirty(false);
+        }
+        finally {
+            setIsSaving(false);
+        }
+    };
+
+    // Compute editability from event state.
+    const computeEditability = (): { isEditable: boolean; sectionEditability: SectionEditability } => {
+        if (!event) {
+            return { isEditable: false, sectionEditability: { teams: false, officials: false, attendees: false } };
+        }
+
+        // Event owners bypass all restrictions.
+        if (event.IsOwner) {
+            return { isEditable: true, sectionEditability: { teams: true, officials: true, attendees: true } };
+        }
+
+        const status = event.RegistrationStatus;
+        if (status === EventRegistrationStatus.AlreadyClosed) {
+            return { isEditable: false, sectionEditability: { teams: false, officials: false, attendees: false } };
+        }
+
+        const restrictions: EventRestrictions | null = event.RegistrationRestrictions ?? null;
+        return {
+            isEditable: true,
+            sectionEditability: {
+                teams: restrictions?.CanTeamsChange !== false,
+                officials: restrictions?.CanOfficialsChange !== false,
+                attendees: restrictions?.CanAttendeesChange !== false,
+            }
+        };
+    };
+
+    const { isEditable, sectionEditability } = computeEditability();
 
     const isLoading = isLoadingEvent || isLoadingChurch || isLoadingRegistration;
 
@@ -208,11 +348,26 @@ export default function RegistrationProvider({ }: Props) {
         auth,
         eventId: eventId!,
         event,
+        isEventOwner: event.IsOwner,
         church,
         setChurch,
+        userChurches,
+        addUserChurch: (newChurch: Church) => {
+            setUserChurches(prev => prev.some(c => c.Id === newChurch.Id) ? prev : [...prev, newChurch]);
+        },
+        isLoadingUserChurches,
         registration,
         setRegistration,
+        registrationVersion,
+        setRegistrationVersion,
         reloadRegistration,
+        isEditable,
+        sectionEditability,
+        churchPermissionError,
+        isDirty,
+        setDirty,
+        isSaving,
+        saveRegistration,
     };
 
     return <Outlet context={context} />;
