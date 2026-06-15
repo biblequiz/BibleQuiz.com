@@ -26,6 +26,7 @@ interface Props {
     allowMultipleOpen?: boolean;
     defaultOpen?: boolean;
     persistState?: boolean;
+    addTopPadding?: boolean;
     onOpen?: () => void;
     onClose?: () => void;
 };
@@ -49,7 +50,8 @@ export default function CollapsibleSection({
     defaultOpen,
     onClose,
     onOpen,
-    persistState = true }: Props) {
+    persistState = true,
+    addTopPadding = false }: Props) {
 
     const storageKey = `collapsible_${pageId}_${elementId || 'default'}`;
 
@@ -170,7 +172,7 @@ export default function CollapsibleSection({
                     checked={isOpen}
                     onChange={handleChange}
                 />
-                <div className={`collapse-title ${printSectionIndex === 0 ? "" : "pt-0"}`}>
+                <div className={`collapse-title ${printSectionIndex === 0 ? "" : (addTopPadding ? "pt-4" : "pt-0")}`}>
                     {titleElement}
                 </div>
                 <div ref={contentRef} className="collapse-content text-sm overflow-x-auto mt-0">{children}</div>
