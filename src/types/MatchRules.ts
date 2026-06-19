@@ -17,6 +17,7 @@ export class MatchRules {
         this.PointValueCounts = {};
         this.FoulPoints = 5;
         this.MaxTimeouts = 3;
+        this.FinalMatchWinnerBonus = null;
         this.ContestRules = new ContestRules();
         this.RereadCount = 1;
         this.IsIndividualCompetition = false;
@@ -81,6 +82,12 @@ export class MatchRules {
      * Number of regular timeouts as part of the match.
      */
     public MaxTimeouts: number;
+
+    /**
+     * Bonus points awarded to quizzers who have won in matches prior to the final match for individual competition.
+     * If this is null, no bonus points are awarded.
+     */
+    public FinalMatchWinnerBonus: number | null;
 
     /**
      * Rules about contesting.
@@ -252,7 +259,7 @@ export class MatchRules {
                 conditions.push(`at least ${unseatRule.UnseatIfMaxScore} points`);
             }
 
-            const conditionsText = conditions.length > 0 
+            const conditionsText = conditions.length > 0
                 ? ` Unseat if ${conditions.join(" or ")}.`
                 : "";
             const lineSuffix = unseatRule.EndMatchIfTopPositionsGuaranteed
@@ -264,6 +271,13 @@ export class MatchRules {
                     `<li><b>(IC Only) Unseating:</b>${conditionsText}${lineSuffix}</li>`,
                 );
             }
+        }
+
+        // Final match winner bonus.
+        if (rules.FinalMatchWinnerBonus && rules.FinalMatchWinnerBonus > 0) {
+            lines.push(
+                `<li><b>(IC Only) Bonus:</b> Award ${rules.FinalMatchWinnerBonus}-point bonus if the quizzer has been in top position(s) for all previous matches.</li>`,
+            );
         }
 
         // Contest rules
