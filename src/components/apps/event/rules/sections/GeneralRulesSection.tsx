@@ -96,6 +96,25 @@ export default function GeneralRulesSection({ state, onChange, disabled = false 
                         <option value={2}>2</option>
                     </select>
                 </div>
+                {state.isIndividualCompetition && (
+                    <div className="form-control w-full mt-0">
+                        <label className="label">
+                            <span className="label-text font-medium">Bonus for Winners in Finals</span>
+                        </label>
+                        <input
+                            type="number"
+                            className="input w-full"
+                            value={state.finalMatchWinnerBonus ?? ""}
+                            onChange={e => {
+                                const parsed = parseInt(e.target.value);
+                                onChange({ finalMatchWinnerBonus: isNaN(parsed) ? null : parsed });
+                            }}
+                            disabled={disabled}
+                            min={1}
+                            step={1}
+                        />
+                    </div>
+                )}
             </div>
         </CollapsibleSection>
     );

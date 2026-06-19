@@ -15,6 +15,8 @@ export interface GeneralRulesState {
     quizzersPerTeam: number;
     maxTimeouts: number;
     rereadCount: number;
+    finalMatchWinnerBonus: number | null;
+    isIndividualCompetition: boolean;
 }
 
 export interface QuizOutState {
@@ -140,7 +142,9 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         competitionFullName: initialRules.CompetitionFullName || "",
         quizzersPerTeam: initialRules.QuizzersPerTeam,
         maxTimeouts: initialRules.MaxTimeouts,
-        rereadCount: initialRules?.RereadCount === undefined || initialRules?.RereadCount === null ? 1 : initialRules.RereadCount
+        rereadCount: initialRules?.RereadCount === undefined || initialRules?.RereadCount === null ? 1 : initialRules.RereadCount,
+        finalMatchWinnerBonus: initialRules.FinalMatchWinnerBonus ?? null,
+        isIndividualCompetition: initialRules.IsIndividualCompetition ?? false
     });
 
     // Quiz Out Forward
@@ -236,7 +240,9 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
             competitionFullName: rules.CompetitionFullName || "",
             quizzersPerTeam: rules.QuizzersPerTeam,
             maxTimeouts: rules.MaxTimeouts,
-            rereadCount: rules.RereadCount ?? 1
+            rereadCount: rules.RereadCount ?? 1,
+            finalMatchWinnerBonus: rules.FinalMatchWinnerBonus ?? null,
+            isIndividualCompetition: rules.IsIndividualCompetition ?? false
         });
 
         setQuizOutForwardState(extractQuizOutState(rules.QuizOutForward));
@@ -280,6 +286,9 @@ export function useMatchRulesForm(initialRules: MatchRules): [MatchRulesFormStat
         newRules.QuizzersPerTeam = general.quizzersPerTeam;
         newRules.MaxTimeouts = general.maxTimeouts;
         newRules.RereadCount = general.rereadCount;
+        newRules.FinalMatchWinnerBonus = general.finalMatchWinnerBonus && general.finalMatchWinnerBonus > 0
+            ? general.finalMatchWinnerBonus
+            : null;
 
         if (quizOutForward.enabled) {
             const qoForward = new QuizOutRule();
