@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { DatabaseReportsService } from "types/services/DatabaseReportsService";
@@ -49,8 +50,8 @@ export default function EventReportViewDialog({
         }
     }, [eventId, reportId]);
 
-    return (
-        <dialog ref={dialogRef} className="modal" open>
+    return createPortal(
+        <dialog ref={dialogRef} className="modal z-50" open>
             <div className="modal-box w-11/12 max-w-7xl h-5/6">
                 {isLoading && (
                     <div className="flex justify-center items-center">
@@ -93,5 +94,6 @@ export default function EventReportViewDialog({
                     </button>
                 </div>
             </div>
-        </dialog>);
+        </dialog>,
+        document.body);
 }
