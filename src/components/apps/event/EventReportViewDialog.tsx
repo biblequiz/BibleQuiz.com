@@ -1,6 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useEscapeToClose } from "hooks/useEscapeToClose";
 import { DatabaseReportsService } from "types/services/DatabaseReportsService";
 
 interface Props {
@@ -49,8 +51,15 @@ export default function EventReportViewDialog({
         }
     }, [eventId, reportId]);
 
-    return (
-        <dialog ref={dialogRef} className="modal" open>
+    const handleClose = useCallback(() => {
+        onClose();
+        dialogRef.current?.close();
+    }, [onClose]);
+
+    useEscapeToClose(handleClose, isLoading);
+
+    return createPortal(
+        <dialog ref={dialogRef} className="modal z-50" open>
             <div className="modal-box w-11/12 max-w-7xl h-5/6">
                 {isLoading && (
                     <div className="flex justify-center items-center">
@@ -74,7 +83,7 @@ export default function EventReportViewDialog({
                 {html && (
                     <div className="overflow-y-auto max-h-[70vh]">
                         <div
-                            className="mt-2 mb-2"
+                            className="sl-markdown-content mt-2 mb-2"
                             dangerouslySetInnerHTML={{ __html: html }}
                         />
                     </div>)}
@@ -85,13 +94,11 @@ export default function EventReportViewDialog({
                         type="button"
                         disabled={isLoading}
                         tabIndex={1}
-                        onClick={() => {
-                            onClose();
-                            dialogRef.current?.close();
-                        }}>
+                        onClick={handleClose}>
                         Close
                     </button>
                 </div>
             </div>
-        </dialog>);
+        </dialog>,
+        document.body);
 }
