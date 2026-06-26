@@ -427,12 +427,12 @@ export default function DivisionScheduleDialog({
         StartingTemplateRoundOverride: startingRoundOverride,
         TemplateRoundCountOverride: roundCountOverride,
         UseOptimizer: useOptimizer,
+        HasDifferentRoomForFinalMatch: isIndividualCompetition ? hasDifferentRoomForFinalMatch : false,
         ...(isIndividualCompetition ? {
             MinQuizzersPerRoom: minQuizzersPerRoom,
             DesiredQuizzersPerRoom: desiredQuizzersPerRoom,
             MaxQuizzersPerRoom: maxQuizzersPerRoom,
             MaxQuizzersPerSemiFinalRoom: maxQuizzersPerSemiFinalRoom,
-            HasDifferentRoomForFinalMatch: hasDifferentRoomForFinalMatch,
             QuizzerRoomAssignment: quizzerRoomAssignment,
             QuizzerRoomOptimization: quizzerRoomOptimization
         } : {})
@@ -749,12 +749,12 @@ export default function DivisionScheduleDialog({
                 StartingTemplateRoundOverride: startingRoundOverride,
                 TemplateRoundCountOverride: roundCountOverride,
                 UseOptimizer: useOptimizer,
+                HasDifferentRoomForFinalMatch: isIndividualCompetition ? hasDifferentRoomForFinalMatch : false,
                 ...(isIndividualCompetition ? {
                     MinQuizzersPerRoom: minQuizzersPerRoom,
                     DesiredQuizzersPerRoom: desiredQuizzersPerRoom,
                     MaxQuizzersPerRoom: maxQuizzersPerRoom,
                     MaxQuizzersPerSemiFinalRoom: maxQuizzersPerSemiFinalRoom,
-                    HasDifferentRoomForFinalMatch: hasDifferentRoomForFinalMatch,
                     QuizzerRoomAssignment: quizzerRoomAssignment,
                     QuizzerRoomOptimization: quizzerRoomOptimization
                 } : {})
