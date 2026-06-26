@@ -206,6 +206,8 @@ export default function DivisionScheduleDialog({
                     setRoundCountOverride(data.Schedule.TemplateRoundCountOverride || null);
 
                     // Individual competition scheduling options
+                    setHasDifferentRoomForFinalMatch(data.Schedule.HasDifferentRoomForFinalMatch || false);
+                    
                     if (data.Schedule.MinQuizzersPerRoom !== undefined && data.Schedule.MinQuizzersPerRoom !== null) {
                         setMinQuizzersPerRoom(data.Schedule.MinQuizzersPerRoom);
                     }
@@ -966,7 +968,12 @@ export default function DivisionScheduleDialog({
                                     isReadOnly={!canEditRoomNames}
                                     isIndividualCompetition={isIndividualCompetition}
                                     hasDifferentRoomForFinalMatch={isIndividualCompetition && hasDifferentRoomForFinalMatch}
-                                    setHasDifferentRoomForFinalMatch={setHasDifferentRoomForFinalMatch}
+                                    setHasDifferentRoomForFinalMatch={v => {
+                                        setHasDifferentRoomForFinalMatch(v);
+                                        setIsScheduleOutOfDate(true);
+                                        setHasOriginalSchedule(false);
+                                        setIsDirty(true);
+                                    }}
                                     onRoomNamesChange={(newRoomNames) => {
                                         setRoomNames(newRoomNames);
                                         setIsDirty(true);

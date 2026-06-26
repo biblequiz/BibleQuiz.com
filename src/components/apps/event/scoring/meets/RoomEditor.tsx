@@ -266,7 +266,7 @@ export default function RoomEditor({
             )}
 
             {/* Room name inputs (excludes the final match room when it is being overridden for individual competition) */}
-            <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-1">
+            <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-1 mt-2">
                 {((isIndividualCompetition && hasDifferentRoomForFinalMatch) ? roomNames.slice(0, -1) : roomNames).map((roomName, index) => (
                     <input
                         key={index}
@@ -294,7 +294,7 @@ export default function RoomEditor({
                             onChange={(e) => setHasDifferentRoomForFinalMatch(e.target.checked)}
                             disabled={disabled || isReadOnly || roomNames.length === 0}
                         />
-                        <span className="label-text">Override Room for Final Match</span>
+                        <span className="label-text">Override Room Name for Final Match</span>
                     </label>
                     {hasDifferentRoomForFinalMatch && roomNames.length > 0 && (
                         <input
