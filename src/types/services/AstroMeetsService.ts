@@ -394,6 +394,12 @@ export interface OnlineMeetSchedulingSettings {
     MaxQuizzersPerSemiFinalRoom?: number | null;
 
     /**
+     * Value indicating whether the final match is held in a different room than the template indicates. This only applies
+     * to the individual competition.
+     */
+    HasDifferentRoomForFinalMatch: boolean;
+
+    /**
      * Room assignment strategy for quizzers during an individual competition.
      */
     QuizzerRoomAssignment?: OnlineQuizzerRoomAssignmentStrategy | null;

@@ -26,6 +26,7 @@ import RoomEditor, { generateRoomNamesForCount } from "./RoomEditor";
 import SchedulePreviewTable from "./SchedulePreviewTable";
 import CustomScheduleUploader from "./CustomScheduleUploader";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { useShowModal } from "hooks/useShowModal";
 
 interface Props {
     auth: AuthManager;
@@ -121,6 +122,7 @@ export default function DivisionScheduleDialog({
     const [desiredQuizzersPerRoom, setDesiredQuizzersPerRoom] = useState<number>(6);
     const [maxQuizzersPerRoom, setMaxQuizzersPerRoom] = useState<number>(8);
     const [maxQuizzersPerSemiFinalRoom, setMaxQuizzersPerSemiFinalRoom] = useState<number | null>(null);
+    const [hasDifferentRoomForFinalMatch, setHasDifferentRoomForFinalMatch] = useState<boolean>(false);
     const [quizzerRoomAssignment, setQuizzerRoomAssignment] = useState<OnlineQuizzerRoomAssignmentStrategy>(OnlineQuizzerRoomAssignmentStrategy.Spread);
     const [quizzerRoomOptimization, setQuizzerRoomOptimization] = useState<OnlineQuizzerRoomOptimizationStrategy>(OnlineQuizzerRoomOptimizationStrategy.MinRounds);
 
@@ -430,6 +432,7 @@ export default function DivisionScheduleDialog({
             DesiredQuizzersPerRoom: desiredQuizzersPerRoom,
             MaxQuizzersPerRoom: maxQuizzersPerRoom,
             MaxQuizzersPerSemiFinalRoom: maxQuizzersPerSemiFinalRoom,
+            HasDifferentRoomForFinalMatch: hasDifferentRoomForFinalMatch,
             QuizzerRoomAssignment: quizzerRoomAssignment,
             QuizzerRoomOptimization: quizzerRoomOptimization
         } : {})
@@ -592,10 +595,10 @@ export default function DivisionScheduleDialog({
     useEscapeToClose(
         handleClose,
         isSaving
-            || showLinkedMeetsDialog
-            || isEditingRules
-            || showCloseConfirmation
-            || isSchedulePreviewFullscreen);
+        || showLinkedMeetsDialog
+        || isEditingRules
+        || showCloseConfirmation
+        || isSchedulePreviewFullscreen);
 
     // Export schedule stats
     const handleExportStats = async () => {
@@ -751,6 +754,7 @@ export default function DivisionScheduleDialog({
                     DesiredQuizzersPerRoom: desiredQuizzersPerRoom,
                     MaxQuizzersPerRoom: maxQuizzersPerRoom,
                     MaxQuizzersPerSemiFinalRoom: maxQuizzersPerSemiFinalRoom,
+                    HasDifferentRoomForFinalMatch: hasDifferentRoomForFinalMatch,
                     QuizzerRoomAssignment: quizzerRoomAssignment,
                     QuizzerRoomOptimization: quizzerRoomOptimization
                 } : {})
@@ -803,8 +807,12 @@ export default function DivisionScheduleDialog({
     // Get effective rules for display
     const effectiveRules = useCustomRules && customRules ? customRules : defaultRules;
 
+    // Open the dialog in the browser's top layer so it renders above
+    // Starlight's header and sidebar.
+    useShowModal(dialogRef);
+
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-4xl max-h-[90vh]">
                 <h3 className="font-bold text-lg flex items-center flex-wrap gap-2">
                     <FontAwesomeIcon icon="fas faCalendarDays" />
@@ -956,6 +964,9 @@ export default function DivisionScheduleDialog({
                                     roomNames={roomNames}
                                     disabled={isSaving}
                                     isReadOnly={!canEditRoomNames}
+                                    isIndividualCompetition={isIndividualCompetition}
+                                    hasDifferentRoomForFinalMatch={isIndividualCompetition && hasDifferentRoomForFinalMatch}
+                                    setHasDifferentRoomForFinalMatch={setHasDifferentRoomForFinalMatch}
                                     onRoomNamesChange={(newRoomNames) => {
                                         setRoomNames(newRoomNames);
                                         setIsDirty(true);

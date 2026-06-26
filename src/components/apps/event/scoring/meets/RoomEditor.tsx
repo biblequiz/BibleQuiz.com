@@ -111,15 +111,21 @@ export function generateRoomNamesForCount(existingNames: string[], targetCount: 
 interface Props {
     roomNames: string[];
     disabled: boolean;
+    hasDifferentRoomForFinalMatch: boolean;
+    isIndividualCompetition: boolean;
     isReadOnly: boolean;
     isOutOfDate?: boolean;
+    setHasDifferentRoomForFinalMatch: (value: boolean) => void;
     onRoomNamesChange: (roomNames: string[]) => void;
 }
 
 export default function RoomEditor({
     roomNames,
     disabled,
+    isIndividualCompetition,
     isReadOnly,
+    hasDifferentRoomForFinalMatch,
+    setHasDifferentRoomForFinalMatch,
     onRoomNamesChange
 }: Props) {
     const [format, setFormat] = useState<RoomNameFormat>(RoomNameFormat.Numbers);
@@ -259,9 +265,9 @@ export default function RoomEditor({
                 </div>
             )}
 
-            {/* Room name inputs */}
+            {/* Room name inputs (excludes the final match room when it is being overridden for individual competition) */}
             <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-1">
-                {roomNames.map((roomName, index) => (
+                {((isIndividualCompetition && hasDifferentRoomForFinalMatch) ? roomNames.slice(0, -1) : roomNames).map((roomName, index) => (
                     <input
                         key={index}
                         type="text"
@@ -276,6 +282,34 @@ export default function RoomEditor({
                     />
                 ))}
             </div>
+
+            {/* Override Room for Final Match */}
+            {isIndividualCompetition && (
+                <div className="flex flex-wrap items-center gap-2 mt-0 mb-0">
+                    <label className="label cursor-pointer gap-2 justify-start mt-0 mb-0">
+                        <input
+                            type="checkbox"
+                            className="checkbox checkbox-sm"
+                            checked={hasDifferentRoomForFinalMatch}
+                            onChange={(e) => setHasDifferentRoomForFinalMatch(e.target.checked)}
+                            disabled={disabled || isReadOnly || roomNames.length === 0}
+                        />
+                        <span className="label-text">Override Room for Final Match</span>
+                    </label>
+                    {hasDifferentRoomForFinalMatch && roomNames.length > 0 && (
+                        <input
+                            type="text"
+                            className="input input-sm input-bordered w-16 text-center font-mono"
+                            value={roomNames[roomNames.length - 1]}
+                            onChange={(e) => handleRoomNameChange(roomNames.length - 1, e.target.value)}
+                            disabled={disabled || isReadOnly}
+                            maxLength={2}
+                            pattern="^[A-Z0-9][A-Z0-9\-]?$"
+                            title="1-2 uppercase alphanumeric characters or dash (cannot start with dash)"
+                            placeholder={generateRoomName(roomNames.length - 1, format, prefix)}
+                        />
+                    )}
+                </div>)}
 
             {roomNames.length === 0 && (
                 <p className="text-sm italic text-base-content/60">
