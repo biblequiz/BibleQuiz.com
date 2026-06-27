@@ -1,4 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react';
+import { useShowModal } from "hooks/useShowModal";
 import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
 import FontAwesomeIcon from './FontAwesomeIcon';
 
@@ -156,6 +157,10 @@ export default function EventListFiltersDefaultDialog({
 
   const dialogRef = useRef<HTMLDialogElement>(null);
 
+  // Promote to the browser's top layer so this dialog renders above Starlight's
+  // header/sidebar and above any parent dialog that opened it.
+  useShowModal(dialogRef);
+
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>): Promise<void> {
 
     if (!regionOrDistrict) {
@@ -177,7 +182,7 @@ export default function EventListFiltersDefaultDialog({
   };
 
   return (
-    <dialog ref={dialogRef} className="modal" open>
+    <dialog ref={dialogRef} className="modal">
       <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
         <h3 className="font-bold text-lg">Set Default Location</h3>
         <p className="mt-0">

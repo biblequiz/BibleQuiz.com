@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { AstroDatabasesService, OnlineDatabaseMeetSummary, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
@@ -40,6 +41,10 @@ export default function EventDatabaseLookupDialog({
     isDisabled }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
 
     const auth = AuthManager.useNanoStore();
 
@@ -105,7 +110,7 @@ export default function EventDatabaseLookupDialog({
             .map(d => d.meetId));
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-3xl">
                 <h3 className="font-bold text-lg">Select a {currentDatabase ? "Division" : "Database"}</h3>
                 <button

@@ -1,6 +1,7 @@
 import { useRef, useState, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import type { AuthManager } from "types/AuthManager";
 import { DatabasesService, AwardType, type DatabaseAwardsTemplate } from "types/services/DatabasesService";
 
@@ -43,6 +44,10 @@ export default function AwardUploadTemplateDialog({
 
     // Handle Escape key to close dialog.
     useEscapeToClose(handleClose, isSaving);
+
+    // Promote to the browser's top layer so this dialog stacks above the parent
+    // templates dialog that opened it.
+    useShowModal(dialogRef);
 
     // Handle file selection
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -100,7 +105,7 @@ export default function AwardUploadTemplateDialog({
         : "Upload New Template";
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-md">
                 <h3 className="font-bold text-lg mb-4">
                     <FontAwesomeIcon icon="fas faFileUpload" />

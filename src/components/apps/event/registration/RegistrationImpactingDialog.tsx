@@ -1,4 +1,5 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { useShowModal } from "hooks/useShowModal";
 
 interface Props {
     dialogRef: React.RefObject<HTMLDialogElement | null>;
@@ -11,8 +12,13 @@ export default function RegistrationImpactingDialog({
     changes,
     setDialogResult }: Props) {
 
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and any parent dialog. The parent only conditionally renders this
+    // component (it never calls showModal), so promoting here is safe.
+    useShowModal(dialogRef);
+
     return (
-        <dialog ref={dialogRef} className="modal modal-open">
+        <dialog ref={dialogRef} className="modal">
             <form method="dialog" onSubmit={() => setDialogResult(true)}>
                 <div className="modal-box w-full max-w-3xl">
                     <button

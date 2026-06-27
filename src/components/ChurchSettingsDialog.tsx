@@ -1,4 +1,5 @@
 import { useMemo, useRef, useState } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { Church, ChurchesService } from 'types/services/ChurchesService';
 import regions from 'data/regions.json';
 import districts from 'data/districts.json';
@@ -82,6 +83,11 @@ export default function ChurchSettingsDialog({
     onSave }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. showModal() puts the
+    // dialog in the top layer; the `open` attribute renders it inline.
+    useShowModal(dialogRef);
 
     const auth = AuthManager.useNanoStore();
 
@@ -173,7 +179,7 @@ export default function ChurchSettingsDialog({
     };
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                 <h3 className="font-bold text-lg">{title}</h3>
                 <form method="dialog gap-2" onSubmit={handleSubmit}>

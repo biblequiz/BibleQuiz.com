@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useShowModal } from "hooks/useShowModal";
 
 interface Props {
     title: string;
@@ -23,8 +24,14 @@ export default function ConfirmationDialog({
 
     const sizeClassName = className ? className : "w-11/12 max-w-full md:w-3/4 lg:w-1/2";
 
+    // Promote to the browser's top layer so this dialog always stacks above any
+    // parent modal that opened it. A native <dialog> only joins the top layer when
+    // opened via showModal(); the `open` attribute renders it inline (subject to
+    // ancestor stacking contexts), which fails for nested dialogs.
+    useShowModal(dialogRef);
+
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className={`modal-box ${sizeClassName}`}>
                 <h3 className="font-bold text-lg">{title}</h3>
                 <div>

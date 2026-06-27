@@ -2,6 +2,7 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import type { AuthManager } from "types/AuthManager";
 import type { ScoringReportTeam, ScoringReportQuizzer } from "types/EventScoringReport";
 import {
@@ -91,6 +92,10 @@ export default function DivisionRankingDialog({
 
     // Handle Escape key to close dialog.
     useEscapeToClose(handleClose, isSaving);
+
+    // Promote to the browser's top layer so this dialog (and its nested confirmation
+    // dialog) stack above Starlight's header/sidebar and any parent dialog.
+    useShowModal(dialogRef);
 
     // Team drag handlers
     const handleTeamDragStart = useCallback((e: React.DragEvent, index: number) => {
@@ -381,7 +386,7 @@ export default function DivisionRankingDialog({
     );
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-5xl max-h-[90vh]">
                 <h3 className="font-bold text-lg">
                     <FontAwesomeIcon icon="fas faMedal" />

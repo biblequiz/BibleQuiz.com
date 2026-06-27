@@ -1,3 +1,5 @@
+import { useRef } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import settings from 'data/generated/questionGenerator.json';
 import { DuplicateQuestionMode, QuestionLanguage, QuestionPointValueRules, QuestionPositionRequirement, QuestionSelectionCriteria, QuestionTypeFilter } from 'types/services/QuestionGeneratorService';
 import type { JbqQuestionGeneratorSettings } from 'types/QuestionGeneratorSettings';
@@ -97,13 +99,19 @@ const formatPointValueRule = (rule: QuestionPointValueRules | null) => {
 
 export default function CriteriaSummaryDialog({ criteria, onClose }: Props) {
 
+    const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
+
     const regularQuestionCounts = formatCountList(criteria.PointValueCounts);
     const regularQuestionOverride = formatPointList(criteria.RegularPointOverride);
     const substituteQuestionCounts = formatPointList(criteria.SubstituteQuestions);
     const overtimeQuestionCounts = formatCountList(criteria.OvertimeQuestions);
 
     return (
-        <dialog className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                 <h3 className="font-bold text-lg">{criteria.Title}</h3>
                 <form method="dialog" className="gap-2" onSubmit={onClose}>

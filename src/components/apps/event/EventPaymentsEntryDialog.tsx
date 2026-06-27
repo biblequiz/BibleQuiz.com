@@ -1,5 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useRef, useState } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import type { PaymentEntry } from "types/services/EventsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
@@ -18,6 +19,10 @@ export default function EventPaymentsEntryDialog({
     onDelete }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
 
     const [canSave, setCanSave] = useState<boolean>(false);
     const [date, setDate] = useState<string | undefined>(() => DataTypeHelpers.formatDate(DataTypeHelpers.parseDateOnly(entry.EntryDate), "yyyy-MM-dd")!);
@@ -55,7 +60,7 @@ export default function EventPaymentsEntryDialog({
     }
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-1/2">
                 <h3 className="font-bold text-lg">Edit Payment Entry</h3>
                 <form method="dialog gap-2" onSubmit={handleSubmit}>

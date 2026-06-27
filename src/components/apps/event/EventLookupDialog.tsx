@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { AuthManager } from 'types/AuthManager';
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
@@ -40,6 +41,10 @@ export default function EventLookupDialog({
     allowBroaderScopes = false }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
 
     const auth = AuthManager.useNanoStore();
 
@@ -119,7 +124,7 @@ export default function EventLookupDialog({
     }, [allEvents, searchText, regionId, districtId]);
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-3xl max-h-[90vh] overflow-y-auto">
                 <h3 className="font-bold text-lg">Select an Event</h3>
                 <button

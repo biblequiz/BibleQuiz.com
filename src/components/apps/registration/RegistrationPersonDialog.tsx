@@ -15,6 +15,7 @@ import {
 import type { Church } from "types/services/ChurchesService";
 import RegistrationFieldsGrid from "./RegistrationFieldsGrid";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
@@ -116,6 +117,10 @@ export default function RegistrationPersonDialog({
     // The dialog can be Escape-closed unless a nested lookup dialog is up.
     useEscapeToClose(() => onClose(null), isShowingLookup);
 
+    // Promote to the browser's top layer so this dialog (and its nested person lookup)
+    // stack above Starlight's header/sidebar and any parent dialog.
+    useShowModal(dialogRef);
+
     const scope = getScopeForRole(role);
     const roleLabel = PersonRole[role];
 
@@ -202,7 +207,7 @@ export default function RegistrationPersonDialog({
 
     return (
         <>
-            <dialog ref={dialogRef} className="modal" open>
+            <dialog ref={dialogRef} className="modal">
                 <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                     <h3 className="font-bold text-lg flex items-center gap-2">
                         <FontAwesomeIcon icon="fas faUser" />

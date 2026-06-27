@@ -3,6 +3,7 @@ import type { EventInfo } from "types/EventTypes";
 import { type MatchRules } from "types/MatchRules";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import { useMatchRulesForm } from "./hooks/useMatchRulesForm";
 import GeneralRulesSection from "./sections/GeneralRulesSection";
 import QuizOutSection from "./sections/QuizOutSection";
@@ -70,11 +71,16 @@ export default function MatchRulesDialog({
     }, [onSelect]);
     useEscapeToClose(handleEscapeClose);
 
+    // Promote to the browser's top layer so this dialog stacks above the parent
+    // dialog that opened it. A native <dialog> only joins the top layer via
+    // showModal(); the `open` attribute renders it inline and would appear behind
+    // a top-layer parent dialog.
+    useShowModal(dialogRef);
+
     return (
         <dialog
             ref={dialogRef}
             className="modal"
-            open
         >
             <div className="modal-box w-full max-w-3xl max-h-[90vh] overflow-y-auto">
                 <h3 className="font-bold text-lg">Edit Rules</h3>

@@ -2,6 +2,7 @@ import { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import type { AuthManager } from "types/AuthManager";
 import {
     AstroMeetStatsService,
@@ -103,6 +104,10 @@ export default function DivisionStatsDialog({
     // Handle Escape key to close dialog.
     useEscapeToClose(handleClose, isSaving);
 
+    // Promote to the browser's top layer so this dialog (and its nested confirmation
+    // dialog) stack above Starlight's header/sidebar and any parent dialog.
+    useShowModal(dialogRef);
+
     // Handle match override change
     const handleMatchOverrideChange = useCallback((quizzerId: number, value: string) => {
         setQuizzerOverrides(prev => {
@@ -167,7 +172,7 @@ export default function DivisionStatsDialog({
     const hasAnyOverrides = Object.keys(quizzerOverrides).length > 0;
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-4xl max-h-[90vh]">
                 <h3 className="font-bold text-lg">
                     <FontAwesomeIcon icon="fas faChartBar" />
