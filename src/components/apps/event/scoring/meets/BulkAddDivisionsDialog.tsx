@@ -2,8 +2,7 @@ import { useRef, useState, useCallback } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary, OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 import { AstroMeetsService, type OnlineMeetSettings } from "types/services/AstroMeetsService";
@@ -94,15 +93,15 @@ export default function BulkAddDivisionsDialog({
         }
     }, [isDirty, onClose]);
 
-    // Escape key handler - only closes the bulk dialog when no nested dialog is open.
-    useEscapeToClose(
-        handleClose,
-        isSaving || isUploading || isDownloadingTemplate || isAnyNestedDialogOpen);
-
     // Promote to the browser's top layer so this dialog (and its nested seed, schedule,
     // and confirmation dialogs) stack above Starlight's header/sidebar and any parent.
-    // The portal escapes stacking contexts; showModal() provides the top layer.
-    useShowModal(dialogRef);
+    // The portal escapes stacking contexts; showModal() provides the top layer. Escape
+    // only closes the bulk dialog when no nested dialog is open and nothing is in
+    // progress.
+    useModalDialog(
+        dialogRef,
+        handleClose,
+        isSaving || isUploading || isDownloadingTemplate || isAnyNestedDialogOpen);
 
     /**
      * Triggered when the user has selected a set of source divisions in the

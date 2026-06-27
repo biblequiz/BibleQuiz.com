@@ -1,8 +1,7 @@
 import { useRef, useState, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import {
     DatabasesService,
@@ -65,13 +64,11 @@ export default function AwardTemplatesDialog({
         }
     }, [isProcessing, hasNestedDialog, localOutput, onClose]);
 
-    // Handle Escape key to close dialog (only when no nested dialog is open).
-    useEscapeToClose(handleClose, isProcessing || hasNestedDialog);
-
     // Promote to the browser's top layer so this dialog (and its nested dialogs)
     // stack above Starlight's header/sidebar and any parent dialog. showModal() puts
-    // it in the top layer; the `open` attribute would render it inline.
-    useShowModal(dialogRef);
+    // it in the top layer; the `open` attribute would render it inline. Escape
+    // closes the dialog (only when no nested dialog is open and not processing).
+    useModalDialog(dialogRef, handleClose, isProcessing || hasNestedDialog);
 
     // Get database templates and personal templates
     const databaseTemplates = localOutput.AllTemplates.filter(t => t.IsDatabase);

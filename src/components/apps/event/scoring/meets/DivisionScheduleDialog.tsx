@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import CollapsibleSection from "components/CollapsibleSection";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary, OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
@@ -26,7 +26,6 @@ import RoomEditor, { generateRoomNamesForCount } from "./RoomEditor";
 import SchedulePreviewTable from "./SchedulePreviewTable";
 import CustomScheduleUploader from "./CustomScheduleUploader";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import { useShowModal } from "hooks/useShowModal";
 
 interface Props {
     auth: AuthManager;
@@ -592,9 +591,12 @@ export default function DivisionScheduleDialog({
         }
     }, [isDirty, onClose]);
 
-    // Handle Escape key to close dialog (only when no nested dialog or fullscreen UI is open).
-    // The schedule preview's fullscreen mode is handled inside SchedulePreviewTable.
-    useEscapeToClose(
+    // Open the dialog in the browser's top layer so it renders above Starlight's
+    // header and sidebar. Escape closes the dialog only when no nested dialog or
+    // fullscreen UI is open; the schedule preview's fullscreen mode is handled
+    // inside SchedulePreviewTable.
+    useModalDialog(
+        dialogRef,
         handleClose,
         isSaving
         || showLinkedMeetsDialog
@@ -808,10 +810,6 @@ export default function DivisionScheduleDialog({
 
     // Get effective rules for display
     const effectiveRules = useCustomRules && customRules ? customRules : defaultRules;
-
-    // Open the dialog in the browser's top layer so it renders above
-    // Starlight's header and sidebar.
-    useShowModal(dialogRef);
 
     return (
         <dialog ref={dialogRef} className="modal">
