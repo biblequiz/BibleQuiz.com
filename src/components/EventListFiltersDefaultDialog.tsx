@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react';
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
 import FontAwesomeIcon from './FontAwesomeIcon';
 
@@ -158,8 +158,9 @@ export default function EventListFiltersDefaultDialog({
   const dialogRef = useRef<HTMLDialogElement>(null);
 
   // Promote to the browser's top layer so this dialog renders above Starlight's
-  // header/sidebar and above any parent dialog that opened it.
-  useShowModal(dialogRef);
+  // header/sidebar and above any parent dialog that opened it. Escape cancels
+  // the dialog, matching the Cancel button.
+  useModalDialog(dialogRef, () => onClose());
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>): Promise<void> {
 

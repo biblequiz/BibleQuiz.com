@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 
 interface Props {
     title: string;
@@ -27,8 +27,15 @@ export default function ConfirmationDialog({
     // Promote to the browser's top layer so this dialog always stacks above any
     // parent modal that opened it. A native <dialog> only joins the top layer when
     // opened via showModal(); the `open` attribute renders it inline (subject to
-    // ancestor stacking contexts), which fails for nested dialogs.
-    useShowModal(dialogRef);
+    // ancestor stacking contexts), which fails for nested dialogs. Escape dismisses
+    // the dialog, matching the "No" button.
+    useModalDialog(dialogRef, () => {
+        if (onNo) {
+            onNo();
+        }
+
+        dialogRef.current?.close();
+    });
 
     return (
         <dialog ref={dialogRef} className="modal">

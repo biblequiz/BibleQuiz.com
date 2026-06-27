@@ -1,5 +1,5 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 
 interface Props {
     dialogRef: React.RefObject<HTMLDialogElement | null>;
@@ -14,8 +14,9 @@ export default function RegistrationFormsPageFieldsDialog({
 
     // Promote to the browser's top layer so this dialog renders above Starlight's
     // header/sidebar and any parent dialog. The parent only conditionally renders this
-    // component (it never calls showModal), so promoting here is safe.
-    useShowModal(dialogRef);
+    // component (it never calls showModal), so promoting here is safe. Escape cancels
+    // the dialog, matching the Cancel button.
+    useModalDialog(dialogRef, () => setDialogResult(false));
 
     return (
         <dialog ref={dialogRef} className="modal">

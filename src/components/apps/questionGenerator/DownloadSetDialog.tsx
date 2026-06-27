@@ -1,6 +1,6 @@
 import { AuthManager } from 'types/AuthManager';
 import { useState, useRef } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { QuestionGeneratorService, QuestionOutputFormat, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
@@ -18,10 +18,6 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
 
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
-
     const [isDownloading, setIsDownloading] = useState<boolean>(false);
     const [title, setTitle] = useState<string>("Generated");
     const [font, setFont] = useState<string>(DEFAULT_FONT);
@@ -30,6 +26,11 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
     const [seed, setSeed] = useState<string | null>(criteria.Seed);
 
     const [latestError, setLatestError] = useState<string | null>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape closes the
+    // dialog (disabled while downloading to match the buttons).
+    useModalDialog(dialogRef, onClose, isDownloading);
 
     const handleDownload = async (event: React.MouseEvent<HTMLButtonElement>, format: QuestionOutputFormat) => {
         event.preventDefault();

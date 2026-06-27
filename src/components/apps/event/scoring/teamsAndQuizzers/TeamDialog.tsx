@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { ContactInfo, Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
@@ -36,10 +36,6 @@ export default function TeamDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
-
-    // Promote to the browser's top layer so this dialog (and its nested church dialog)
-    // stack above Starlight's header/sidebar and any parent dialog.
-    useShowModal(dialogRef);
 
     const [name, setName] = useState<string | undefined>(undefined);
     const [league, setLeague] = useState<string | undefined>(undefined);
@@ -123,6 +119,12 @@ export default function TeamDialog({
         onCancel();
         dialogRef.current?.close();
     };
+
+    // Promote to the browser's top layer so this dialog (and its nested church dialog)
+    // stack above Starlight's header/sidebar and any parent dialog. Escape cancels
+    // this dialog, but is disabled while the nested "Add Church" dialog is open so
+    // that the nested dialog is dismissed first.
+    useModalDialog(dialogRef, handleClose, addingChurchState !== null);
 
     return (
         <>

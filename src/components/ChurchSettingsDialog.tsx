@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { Church, ChurchesService } from 'types/services/ChurchesService';
 import regions from 'data/regions.json';
 import districts from 'data/districts.json';
@@ -84,11 +84,6 @@ export default function ChurchSettingsDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it. showModal() puts the
-    // dialog in the top layer; the `open` attribute renders it inline.
-    useShowModal(dialogRef);
-
     const auth = AuthManager.useNanoStore();
 
     const { validDistricts, validDistrictsByState, validStates } = useMemo(() => {
@@ -138,6 +133,18 @@ export default function ChurchSettingsDialog({
 
     const [isSaving, setIsSaving] = useState(false);
     const [savingError, setSavingError] = useState<string | null>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape cancels
+    // the dialog (disabled while saving to match the buttons).
+    useModalDialog(
+        dialogRef,
+        () => {
+            addState?.onCompleted(null);
+            onSave(null);
+        },
+        isSaving,
+    );
     const [name, setName] = useState(church?.Name || "");
     const [streetAddress, setStreetAddress] = useState(church?.PhysicalAddress?.StreetAddress || "");
     const [city, setCity] = useState(church?.PhysicalAddress?.City || "");
