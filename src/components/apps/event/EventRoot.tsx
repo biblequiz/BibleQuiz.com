@@ -43,7 +43,6 @@ import EventPaymentsReceiptPage from './EventPaymentsReceiptPage';
 import EventReportsPage from './EventReportsPage';
 import EventReportsProvider from './EventReportsProvider';
 import EventReportSettingsPage from './report/EventReportSettingsPage';
-import DebugEventPage from './DebugEventPage';
 import type { OnlineDatabaseSummary } from 'types/services/AstroDatabasesService';
 
 interface Props {
@@ -55,7 +54,6 @@ const SCORES_GROUP_ID = "scores";
 const DATABASE_GROUP_ID_PREFIX = "db-";
 const DATABASE_LOADING_ID = DATABASE_GROUP_ID_PREFIX + "loading";
 const PERMISSIONS_ID = "permissions";
-const DEBUG_ID = "debug";
 const REGISTRATIONS_ID = "registrations";
 const PAYMENTS_ID = "payments";
 const PAYMENTS_RECEIPT_ID = "payments-receipt";
@@ -363,16 +361,6 @@ function buildSidebar(
         };
         sidebarEntries.push(cloneEntry);
 
-        const debugEntry: ReactSidebarLink =
-        {
-            type: 'link' as const,
-            label: "Help & Debug",
-            navigate: () => navigate(`${rootEventPath}/debug`),
-            isCurrent: false,
-            icon: "fas faCircleQuestion"
-        };
-        sidebarEntries.push(debugEntry);
-
         const deleteEntry: ReactSidebarLink =
         {
             type: 'link' as const,
@@ -406,9 +394,6 @@ function buildSidebar(
                 break;
             case CLONE_ID:
                 currentPage = cloneEntry;
-                break;
-            case DEBUG_ID:
-                currentPage = debugEntry;
                 break;
             case DELETE_ID:
                 currentPage = deleteEntry;
@@ -709,11 +694,6 @@ const router = createHashRouter([
                                 path: "/:eventId/permissions",
                                 id: PERMISSIONS_ID,
                                 element: <EventPermissionsPage />
-                            },
-                            {
-                                path: "/:eventId/debug",
-                                id: DEBUG_ID,
-                                element: <DebugEventPage />
                             },
                             {
                                 path: "/:eventId/delete",
