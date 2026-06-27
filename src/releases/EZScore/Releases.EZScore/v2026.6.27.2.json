@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4UmccD",
   "tag_name": "v2026.6.27.2",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Add warning when there is a bye round",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-06-27T05:07:43Z",
+  "updated_at": "2026-06-27T18:27:00Z",
   "published_at": "2026-06-27T05:07:36Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 118980623,
       "digest": "sha256:f3e1123769e8f9103ac7c5528b4553f1e4f8c5ccd5589c595a48ffdba057ca11",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-06-27T05:07:36Z",
       "updated_at": "2026-06-27T05:07:40Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.EZScore/releases/download/v2026.6.27.2/com.biblequiz.ezscore.android.apk"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 100364364,
       "digest": "sha256:380671fceadb7de0e70d78a14f536e6206fb272a6188a3de0fbd804fc4c87efe",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-06-27T05:07:40Z",
       "updated_at": "2026-06-27T05:07:43Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.EZScore/releases/download/v2026.6.27.2/com.biblequiz.ezscore.windows.msixbundle"
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.6.27.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.6.27.2",
-  "body": "Latest version of EZScore"
+  "body": ""
 }
