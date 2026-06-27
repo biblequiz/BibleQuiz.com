@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4UaPJ9",
   "tag_name": "v2026.6.20.11",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Add warning when there is a bye round",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-06-20T23:39:59Z",
+  "updated_at": "2026-06-27T05:08:29Z",
   "published_at": "2026-06-20T23:39:51Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 118980623,
       "digest": "sha256:2d02e1b561d7a194361d25cf182ce0116e49dac90e15208e564f459db13c6e17",
-      "download_count": 0,
+      "download_count": 14,
       "created_at": "2026-06-20T23:39:52Z",
       "updated_at": "2026-06-20T23:39:56Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.EZScore/releases/download/v2026.6.20.11/com.biblequiz.ezscore.android.apk"
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.6.20.11",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.6.20.11",
-  "body": "Latest version of EZScore"
+  "body": "Introduce a warning when a room is in a bye, but has more matches."
 }
