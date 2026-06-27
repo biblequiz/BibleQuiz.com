@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import type { AuthManager } from "types/AuthManager";
 import type { OnlineDatabaseSummary, OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 import { AstroMeetsService, type OnlineMeetSettings } from "types/services/AstroMeetsService";
@@ -97,6 +98,11 @@ export default function BulkAddDivisionsDialog({
     useEscapeToClose(
         handleClose,
         isSaving || isUploading || isDownloadingTemplate || isAnyNestedDialogOpen);
+
+    // Promote to the browser's top layer so this dialog (and its nested seed, schedule,
+    // and confirmation dialogs) stack above Starlight's header/sidebar and any parent.
+    // The portal escapes stacking contexts; showModal() provides the top layer.
+    useShowModal(dialogRef);
 
     /**
      * Triggered when the user has selected a set of source divisions in the
@@ -244,7 +250,7 @@ export default function BulkAddDivisionsDialog({
     const editingDivision = editingIndex !== null ? parsedDivisions[editingIndex] : null;
 
     const dialogContent = (
-        <dialog ref={dialogRef} className="modal modal-open" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-3xl max-h-[90vh]">
                 <h3 className="font-bold text-lg flex items-center gap-2">
                     <FontAwesomeIcon icon="fas faFileImport" />

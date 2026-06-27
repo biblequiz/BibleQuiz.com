@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import type { AuthManager } from "types/AuthManager";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
 
@@ -94,6 +95,11 @@ export default function SeedFromDivisionsDialog({
 
     // Handle Escape key to close dialog without propagating to parent dialogs.
     useEscapeToClose(onClose, isSeeding);
+
+    // Promote to the browser's top layer so this dialog stacks above the parent
+    // schedule dialog that opened it. The portal escapes stacking contexts, but only
+    // showModal() places the dialog in the top layer above a top-layer parent.
+    useShowModal(dialogRef);
 
     // Get the order of a meet in the selected list
     const getOrderIndex = (meetId: number): number => {
@@ -243,7 +249,7 @@ export default function SeedFromDivisionsDialog({
     const resolvedAlertDescription = alertDescription ?? "Select divisions to seed quizzers based on their rankings. The order of divisions determines the priority when combining rankings.";
 
     const dialogContent = (
-        <dialog ref={dialogRef} className="modal modal-open" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-lg">
                 <h3 className="font-bold text-lg">
                     <FontAwesomeIcon icon={resolvedSubmitIcon} />

@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
+import { useShowModal } from "hooks/useShowModal";
 import type { AuthManager } from "types/AuthManager";
 import { AstroTeamsAndQuizzersService } from "types/services/AstroTeamsAndQuizzersService";
 
@@ -33,6 +34,11 @@ export default function SeedFromReportDialog({
 
     // Handle Escape key to close dialog without propagating to parent dialogs.
     useEscapeToClose(onClose, isUploading);
+
+    // Promote to the browser's top layer so this dialog stacks above the parent
+    // schedule dialog that opened it. The portal escapes stacking contexts, but only
+    // showModal() places the dialog in the top layer above a top-layer parent.
+    useShowModal(dialogRef);
     const [error, setError] = useState<string | null>(null);
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
 
@@ -82,7 +88,7 @@ export default function SeedFromReportDialog({
     };
 
     const dialogContent = (
-        <dialog ref={dialogRef} className="modal modal-open" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-lg">
                 <h3 className="font-bold text-lg">
                     <FontAwesomeIcon icon="fas faFileImport" />

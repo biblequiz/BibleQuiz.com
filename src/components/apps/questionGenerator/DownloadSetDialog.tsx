@@ -1,5 +1,6 @@
 import { AuthManager } from 'types/AuthManager';
 import { useState, useRef } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { QuestionGeneratorService, QuestionOutputFormat, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import FormatSelector, { DEFAULT_COLUMN, DEFAULT_FONT, DEFAULT_SIZE } from './FormatSelector';
@@ -14,7 +15,12 @@ interface Props {
 export default function DownloadSetDialog({ criteria, onClose }: Props) {
 
     const auth = AuthManager.useNanoStore();
+    const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
 
     const [isDownloading, setIsDownloading] = useState<boolean>(false);
     const [title, setTitle] = useState<string>("Generated");
@@ -65,7 +71,7 @@ export default function DownloadSetDialog({ criteria, onClose }: Props) {
     };
 
     return (
-        <dialog className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                 <h3 className="font-bold text-xl">Save as Template</h3>
                 <div role="alert" className="alert alert-warning block">

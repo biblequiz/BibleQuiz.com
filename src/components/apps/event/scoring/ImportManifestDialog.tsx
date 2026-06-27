@@ -1,4 +1,5 @@
 import { useRef, useState, useMemo, useEffect } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { AuthManager } from "types/AuthManager";
 import {
@@ -74,6 +75,11 @@ export default function ImportManifestDialog({
 }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
+
     const [importMode, setImportMode] = useState<ImportMode>(ImportMode.Reuse);
     const [isImporting, setIsImporting] = useState(false);
     const [importError, setImportError] = useState<string | null>(null);
@@ -415,7 +421,7 @@ export default function ImportManifestDialog({
     };
 
     return (
-        <dialog ref={dialogRef} className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             {importError && (
                 <div role="alert" className="alert alert-error">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />

@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect, useCallback } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 
@@ -62,6 +63,10 @@ let nextInstanceId = 0;
 
 export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
 
     // Filter out hidden teams
     const visibleTeams = teams.filter(t => !t.IsHidden);
@@ -334,7 +339,7 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
     const availableDataTags = DATA_TAGS.filter(t => !selectedTags.some(st => st.id === t.id));
 
     return (
-        <dialog ref={dialogRef} className="modal" onClose={handleClose} open>
+        <dialog ref={dialogRef} className="modal" onClose={handleClose}>
             <div className="modal-box w-full max-w-5xl max-h-[120vh]">
                 <h3 className="font-bold text-lg">Bulk Rename Teams</h3>
                 <button

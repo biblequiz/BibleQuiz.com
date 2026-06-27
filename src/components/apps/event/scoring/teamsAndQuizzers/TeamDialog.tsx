@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { ContactInfo, Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
@@ -35,6 +36,10 @@ export default function TeamDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
+
+    // Promote to the browser's top layer so this dialog (and its nested church dialog)
+    // stack above Starlight's header/sidebar and any parent dialog.
+    useShowModal(dialogRef);
 
     const [name, setName] = useState<string | undefined>(undefined);
     const [league, setLeague] = useState<string | undefined>(undefined);
@@ -121,7 +126,7 @@ export default function TeamDialog({
 
     return (
         <>
-            <dialog ref={dialogRef} className="modal" onClose={handleClose} open>
+            <dialog ref={dialogRef} className="modal" onClose={handleClose}>
                 <div className="modal-box w-full max-w-2xl">
                     <h3 className="font-bold text-lg">
                         {team ? "Edit Team" : "Add Team"}

@@ -1,5 +1,6 @@
 import { AuthManager } from 'types/AuthManager';
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { useShowModal } from "hooks/useShowModal";
 import { QuestionGeneratorService, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import { sharedGlobalStatusToast } from "utils/SharedState";
@@ -13,6 +14,11 @@ interface Props {
 export default function SaveAsTemplateDialog({ templateId, criteria, onClose }: Props) {
 
     const auth = AuthManager.useNanoStore();
+    const dialogRef = useRef<HTMLDialogElement>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it.
+    useShowModal(dialogRef);
 
     const [title, setTitle] = useState<string>(criteria.Title || "");
     const [overwrite, setOverwrite] = useState<boolean>(false);
@@ -47,7 +53,7 @@ export default function SaveAsTemplateDialog({ templateId, criteria, onClose }: 
     };
 
     return (
-        <dialog className="modal" open>
+        <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                 <h3 className="font-bold text-xl">Save as Template</h3>
                 <form method="dialog" className="gap-2" onSubmit={handleSubmit}>
