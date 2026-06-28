@@ -41,9 +41,9 @@ export default function EventSummaryProvider({ }: Props) {
                     }
                 });
         }
-    }, [context]);
+    }, [context.auth, context.eventId]);
 
-    if (isLoading) {
+    if (isLoading || (!eventSummary && !loadingError)) {
         return (
             <div className="hero bg-base-300 rounded-2xl shadow-lg">
                 <div className="hero-content text-center py-16 px-8">

@@ -277,6 +277,50 @@ export class EventsService {
         tid: teamId
       }));
   }
+
+  /**
+   * Gets the URL for downloading the Excel registration report.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * @param churchId Id for the church (optional, to filter to a single church).
+   * @returns Promise that resolves when the download starts.
+   */
+  public static downloadExcelReport(
+    auth: AuthManager,
+    eventId: string,
+    churchId?: string): Promise<void> {
+
+    return RemoteServiceUtility.downloadFromHttpRequest(
+      auth,
+      "GET",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/Excel`,
+      RemoteServiceUtility.getFilteredUrlParameters({
+        cid: churchId
+      }));
+  }
+
+  /**
+   * Downloads the ScoreKeep file.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param eventId Id for the event.
+   * @returns Promise that resolves when the download starts.
+   */
+  public static downloadScoreKeepFile(
+    auth: AuthManager,
+    eventId: string): Promise<void> {
+
+    return RemoteServiceUtility.downloadFromHttpRequest(
+      auth,
+      "GET",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/${eventId}/ScoreKeep`,
+      RemoteServiceUtility.getFilteredUrlParameters({
+        f: "xlsx"
+      }));
+  }
 }
 
 /**
