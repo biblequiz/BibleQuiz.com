@@ -73,59 +73,51 @@ export default function IndividualInitialRoomsTabContent({
                         forceOpen={false}
                         badges={sectionBadges}
                         key={key}>
-                        <div className="grid grid-cols-2 gap-4">
-                            {(() => {
-                                const midpoint = Math.ceil(quizzers.length / 2);
-                                const leftColumn = quizzers.slice(0, midpoint);
-                                const rightColumn = quizzers.slice(midpoint);
-                                return (
-                                    <>
-                                        <table className="table table-s table-nowrap mt-0">
-                                            <thead>
-                                                <tr>
-                                                    <th className="pl-0">Name</th>
-                                                    <th className="pl-0">Room</th>
+                        {(() => {
+                            const midpoint = Math.ceil(quizzers.length / 2);
+                            const leftColumn = quizzers.slice(0, midpoint);
+                            const rightColumn = quizzers.slice(midpoint);
+                            const rows = Math.max(leftColumn.length, rightColumn.length);
+                            return (
+                                <table className="table table-s table-nowrap mt-0 w-full">
+                                    <thead>
+                                        <tr>
+                                            <th className="pl-0 w-[35%]">Name</th>
+                                            <th className="pl-0 w-[15%]">Room</th>
+                                            <th className="pl-0 w-[35%]">Name</th>
+                                            <th className="pl-0 w-[15%]">Room</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {Array.from({ length: rows }).map((_, index) => {
+                                            const left = leftColumn[index];
+                                            const right = rightColumn[index];
+                                            return (
+                                                <tr key={`quizzer_row_${index}`} className="mt-0 mb-0">
+                                                    <td className="mt-0 mb-0">
+                                                        {left && (
+                                                            <>
+                                                                <b>{left.name}</b><br />
+                                                                {left.churchName}
+                                                            </>
+                                                        )}
+                                                    </td>
+                                                    <td className="mt-0 mb-0">{left?.roomName}</td>
+                                                    <td className="mt-0 mb-0">
+                                                        {right && (
+                                                            <>
+                                                                <b>{right.name}</b><br />
+                                                                {right.churchName}
+                                                            </>
+                                                        )}
+                                                    </td>
+                                                    <td className="mt-0 mb-0">{right?.roomName}</td>
                                                 </tr>
-                                            </thead>
-                                            <tbody>
-                                                {leftColumn.map((q, index) => (
-                                                    <tr key={`quizzer_left_${index}`} className="mt-0 mb-0">
-                                                        <td className="mt-0 mb-0">
-                                                            <b>{q.name}</b><br />
-                                                            {q.churchName}
-                                                        </td>
-                                                        <td className="mt-0 mb-0">
-                                                            {q.roomName}
-                                                        </td>
-                                                    </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
-                                        <table className="table table-s table-nowrap mt-0">
-                                            <thead>
-                                                <tr>
-                                                    <th className="pl-0">Name</th>
-                                                    <th className="pl-0">Room</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {rightColumn.map((q, index) => (
-                                                    <tr key={`quizzer_right_${index}`} className="mt-0 mb-0">
-                                                        <td className="mt-0 mb-0">
-                                                            <b>{q.name}</b><br />
-                                                            {q.churchName}
-                                                        </td>
-                                                        <td className="mt-0 mb-0">
-                                                            {q.roomName}
-                                                        </td>
-                                                    </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
-                                    </>
-                                );
-                            })()}
-                        </div>
+                                            );
+                                        })}
+                                    </tbody>
+                                </table>);
+                        })()}
                     </CollapsableMeetSection>);
             })}
         </>);
