@@ -85,6 +85,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                 meetId: meet.MeetId,
                 label: meet.Name,
                 isCombinedReport: meet.IsCombinedReport,
+                isIndividualCompetition: meet.IsIndividualCompetition,
                 hasRanking: meet.RankedTeams || meet.RankedQuizzers ? true : false,
             } as MeetReference;
         });
@@ -95,8 +96,18 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
     }
 
     let hasRanking: boolean = false;
+    let hasIndividualCompetition: boolean = false;
     const resolvedMeetFields = resolvedMeets.map((meet: MeetReference, index: number) => {
         const isChecked = selectedMeets == null || selectedMeets.has(`${meet.databaseId}_${meet.meetId}`);
+
+        if (meet.isIndividualCompetition) {
+            hasIndividualCompetition = true;
+        }
+
+        if (outputType === OutputType.IndividualInitialRooms &&
+            !meet.isIndividualCompetition) {
+            return null;
+        }
 
         if (meet.hasRanking) {
             hasRanking = true;
@@ -157,7 +168,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                 <FontAwesomeIcon icon="fas faPrint" />&nbsp;Print {eventName}
             </p>
             <form method="dialog">
-                <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
                     <legend className="fieldset-legend">Type</legend>
                     {hasRanking && (
                         <label className="label">
@@ -208,51 +219,65 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                             <FontAwesomeIcon icon="fas faBorderAll" />&nbsp;Schedule Grid
                         </span>
                     </label>
+                    {hasIndividualCompetition && (
+                        <label className="label">
+                            <input
+                                type="radio"
+                                name="output-type"
+                                className="radio radio-info"
+                                value={OutputType.IndividualInitialRooms}
+                                checked={outputType === OutputType.IndividualInitialRooms}
+                                onChange={handleOutputTypeChange} />
+                            <span className="text-sm">
+                                <FontAwesomeIcon icon="fas faUser" />&nbsp;Initial Rooms (Individuals)
+                            </span>
+                        </label>)}
                 </fieldset>
-                <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                    <legend className="fieldset-legend">Format</legend>
-                    {outputType === OutputType.Stats && (
-                        <>
-                            <label className="label">
-                                <input
-                                    type="checkbox"
-                                    className="checkbox checkbox-info"
-                                    value={StatsFormat.TeamsAndQuizzers}
-                                    checked={statsFormat === StatsFormat.TeamsAndQuizzers}
-                                    onChange={handleStatsFormatChange} />
-                                Teams and Quizzers
-                            </label>
-                            {statsFormat !== StatsFormat.TeamsAndQuizzers && (
+                {outputType !== OutputType.IndividualInitialRooms && (
+                    <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                        <legend className="fieldset-legend">Format</legend>
+                        {outputType === OutputType.Stats && (
+                            <>
                                 <label className="label">
                                     <input
                                         type="checkbox"
-                                        name="stats-format"
-                                        className="toggle text-base-content"
-                                        value={StatsFormat.TeamsOnly}
-                                        checked={statsFormat === StatsFormat.TeamsOnly}
+                                        className="checkbox checkbox-info"
+                                        value={StatsFormat.TeamsAndQuizzers}
+                                        checked={statsFormat === StatsFormat.TeamsAndQuizzers}
                                         onChange={handleStatsFormatChange} />
-                                    {statsFormat === StatsFormat.QuizzersOnly ? "Quizzers" : "Teams"} Only
-                                </label>)}
-                        </>)}
-                    {singleOrMultipleLabel && (
-                        <label className="label">
-                            <input
-                                type="checkbox"
-                                className="toggle text-base-content"
-                                checked={showSinglePerPage}
-                                onChange={handleShowSinglePerPageChanged} />
-                            {singleOrMultipleLabel} per Page
-                        </label>)}
-                    {outputType !== OutputType.Stats && outputType !== OutputType.RoomSchedule && (
-                        <label className="label">
-                            <input
-                                type="checkbox"
-                                className="toggle text-base-content"
-                                checked={includeStats}
-                                onChange={handleIncludeStatsChanged} />
-                            {includeStats ? "Stats and Schedule" : "Schedule Only"}
-                        </label>)}
-                </fieldset>
+                                    Teams and Quizzers
+                                </label>
+                                {statsFormat !== StatsFormat.TeamsAndQuizzers && (
+                                    <label className="label">
+                                        <input
+                                            type="checkbox"
+                                            name="stats-format"
+                                            className="toggle text-base-content"
+                                            value={StatsFormat.TeamsOnly}
+                                            checked={statsFormat === StatsFormat.TeamsOnly}
+                                            onChange={handleStatsFormatChange} />
+                                        {statsFormat === StatsFormat.QuizzersOnly ? "Quizzers" : "Teams"} Only
+                                    </label>)}
+                            </>)}
+                        {singleOrMultipleLabel && (
+                            <label className="label">
+                                <input
+                                    type="checkbox"
+                                    className="toggle text-base-content"
+                                    checked={showSinglePerPage}
+                                    onChange={handleShowSinglePerPageChanged} />
+                                {singleOrMultipleLabel} per Page
+                            </label>)}
+                        {outputType !== OutputType.Stats && outputType !== OutputType.RoomSchedule && (
+                            <label className="label">
+                                <input
+                                    type="checkbox"
+                                    className="toggle text-base-content"
+                                    checked={includeStats}
+                                    onChange={handleIncludeStatsChanged} />
+                                {includeStats ? "Stats and Schedule" : "Schedule Only"}
+                            </label>)}
+                    </fieldset>)}
                 <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 md:grid-cols-3 gap-4">
                     <legend className="fieldset-legend">Meets</legend>
                     {resolvedMeetFields}
