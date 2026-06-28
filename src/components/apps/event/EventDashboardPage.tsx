@@ -30,28 +30,6 @@ export default function EventDashboardPage({ }: Props) {
 
     return (
         <>
-            <button
-                type="button"
-                className="card live-events-card w-full md:w-258 card-sm shadow-sm border-2 mb-2 border-solid relative cursor-pointer"
-                onClick={() => navigate(`${rootUrl}/debug`)}
-            >
-                <div className="card-body p-2 pl-4">
-                    <div className="flex items-start gap-4">
-                        <div className="flex-1 mt-2 pr-6 text-left">
-                            <h2 className="card-title mb-0 mt-0">
-                                <FontAwesomeIcon icon="fas faCircleQuestion" /> Help & Debug
-                            </h2>
-                            <p className="text-base mt-1">
-                                Use this page to figure out why your event isn't behaving as expected.
-                            </p>
-                        </div>
-                        <FontAwesomeIcon
-                            icon="fas faArrowRight"
-                            classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
-                        />
-                    </div>
-                </div>
-            </button>
             <div className="flex flex-wrap gap-2 mt-0">
                 <button
                     type="button"

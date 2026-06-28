@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
@@ -32,14 +31,11 @@ export default function LinkedMeetsDialog({
 }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    // Handle Escape key to close dialog without propagating to parent.
-    useEscapeToClose(onClose);
-
     // Promote to the browser's top layer so this dialog stacks above the parent
     // schedule dialog that opened it. A native <dialog> only joins the top layer via
     // showModal(); the `open` attribute renders it inline and would appear behind the
-    // top-layer parent.
-    useShowModal(dialogRef);
+    // top-layer parent. Escape closes the dialog.
+    useModalDialog(dialogRef, onClose);
 
     // Initialize selected meets as an ordered array - honor API order exactly
     // The API includes current meet in the list, so use it as-is

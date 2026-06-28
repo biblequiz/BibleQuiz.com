@@ -1,8 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import { AstroDatabasesService } from "types/services/AstroDatabasesService";
 
@@ -93,13 +92,11 @@ export default function SeedFromDivisionsDialog({
             });
     }, [auth, eventId, databaseId, isIndividualCompetition]);
 
-    // Handle Escape key to close dialog without propagating to parent dialogs.
-    useEscapeToClose(onClose, isSeeding);
-
     // Promote to the browser's top layer so this dialog stacks above the parent
     // schedule dialog that opened it. The portal escapes stacking contexts, but only
-    // showModal() places the dialog in the top layer above a top-layer parent.
-    useShowModal(dialogRef);
+    // showModal() places the dialog in the top layer above a top-layer parent. Escape
+    // closes the dialog (disabled while seeding).
+    useModalDialog(dialogRef, onClose, isSeeding);
 
     // Get the order of a meet in the selected list
     const getOrderIndex = (meetId: number): number => {

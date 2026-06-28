@@ -1,8 +1,7 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import type { ScoringReportTeam, ScoringReportQuizzer } from "types/EventScoringReport";
 import {
@@ -90,12 +89,10 @@ export default function DivisionRankingDialog({
         }
     }, [isDirty, isReadOnly, onClose]);
 
-    // Handle Escape key to close dialog.
-    useEscapeToClose(handleClose, isSaving);
-
     // Promote to the browser's top layer so this dialog (and its nested confirmation
-    // dialog) stack above Starlight's header/sidebar and any parent dialog.
-    useShowModal(dialogRef);
+    // dialog) stack above Starlight's header/sidebar and any parent dialog. Escape
+    // closes the dialog (disabled while saving).
+    useModalDialog(dialogRef, handleClose, isSaving);
 
     // Team drag handlers
     const handleTeamDragStart = useCallback((e: React.DragEvent, index: number) => {

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { AstroDatabasesService, OnlineDatabaseMeetSummary, OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
@@ -42,10 +42,6 @@ export default function EventDatabaseLookupDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
-
     const auth = AuthManager.useNanoStore();
 
     const [allDatabases, setAllDatabases] = useState<OnlineDatabaseSummary[] | undefined>();
@@ -54,6 +50,11 @@ export default function EventDatabaseLookupDialog({
     const [isLoading, setIsLoading] = useState(false);
     const [isAssigning, setIsAssigning] = useState(false);
     const [loadingOrSavingError, setLoadingOrSavingError] = useState<string | null>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape cancels
+    // the dialog (disabled while loading/assigning to match the buttons).
+    useModalDialog(dialogRef, () => onSelect(null), isLoading || isAssigning);
 
     useEffect(() => {
         setIsLoading(true);

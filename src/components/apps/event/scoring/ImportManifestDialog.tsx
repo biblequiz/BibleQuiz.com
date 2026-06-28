@@ -1,5 +1,5 @@
 import { useRef, useState, useMemo, useEffect } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { AuthManager } from "types/AuthManager";
 import {
@@ -75,10 +75,6 @@ export default function ImportManifestDialog({
 }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
-
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
 
     const [importMode, setImportMode] = useState<ImportMode>(ImportMode.Reuse);
     const [isImporting, setIsImporting] = useState(false);
@@ -419,6 +415,11 @@ export default function ImportManifestDialog({
         onComplete(null);
         dialogRef.current?.close();
     };
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape cancels
+    // the dialog (disabled while importing to match the buttons).
+    useModalDialog(dialogRef, handleCancel, isImporting);
 
     return (
         <dialog ref={dialogRef} className="modal">

@@ -1,6 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useRef, useState } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { PaymentEntry } from "types/services/EventsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
@@ -21,8 +21,9 @@ export default function EventPaymentsEntryDialog({
     const dialogRef = useRef<HTMLDialogElement>(null);
 
     // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
+    // header/sidebar and above any parent dialog that opened it. Escape cancels
+    // the dialog, matching the Cancel button.
+    useModalDialog(dialogRef, () => onClose(undefined));
 
     const [canSave, setCanSave] = useState<boolean>(false);
     const [date, setDate] = useState<string | undefined>(() => DataTypeHelpers.formatDate(DataTypeHelpers.parseDateOnly(entry.EntryDate), "yyyy-MM-dd")!);

@@ -69,6 +69,7 @@ export interface MeetReference {
     meetId: number;
     label: string;
     isCombinedReport: boolean;
+    isIndividualCompetition: boolean;
     hasRanking: boolean;
 };
 
@@ -77,6 +78,7 @@ export enum OutputType {
     TeamSchedule,
     RoomSchedule,
     ScheduleGrid,
+    IndividualInitialRooms,
 };
 
 export enum StatsFormat {

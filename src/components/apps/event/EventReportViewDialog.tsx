@@ -2,8 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { DatabaseReportsService } from "types/services/DatabaseReportsService";
 
 interface Props {
@@ -57,12 +56,11 @@ export default function EventReportViewDialog({
         dialogRef.current?.close();
     }, [onClose]);
 
-    useEscapeToClose(handleClose, isLoading);
-
     // Promote to the browser's top layer so this dialog renders above Starlight's
     // header/sidebar and any parent dialog. showModal() handles the top layer; the
-    // portal escapes stacking contexts but isn't sufficient on its own.
-    useShowModal(dialogRef);
+    // portal escapes stacking contexts but isn't sufficient on its own. Escape
+    // closes the dialog (disabled while loading).
+    useModalDialog(dialogRef, handleClose, isLoading);
 
     return createPortal(
         <dialog ref={dialogRef} className="modal z-50">

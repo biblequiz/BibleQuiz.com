@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect, useCallback } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 
@@ -63,10 +63,6 @@ let nextInstanceId = 0;
 
 export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props) {
     const dialogRef = useRef<HTMLDialogElement>(null);
-
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
 
     // Filter out hidden teams
     const visibleTeams = teams.filter(t => !t.IsHidden);
@@ -334,6 +330,11 @@ export default function BulkTeamRenameDialog({ teams, onSave, onCancel }: Props)
         onCancel();
         dialogRef.current?.close();
     };
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape cancels
+    // the dialog, matching the Cancel button.
+    useModalDialog(dialogRef, handleClose);
 
     // Get available data tags (not yet selected)
     const availableDataTags = DATA_TAGS.filter(t => !selectedTags.some(st => st.id === t.id));

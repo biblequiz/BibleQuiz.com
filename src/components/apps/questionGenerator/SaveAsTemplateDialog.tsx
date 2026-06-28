@@ -1,6 +1,6 @@
 import { AuthManager } from 'types/AuthManager';
 import { useState, useRef } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { QuestionGeneratorService, QuestionSelectionCriteria } from 'types/services/QuestionGeneratorService';
 import FontAwesomeIcon from "../../FontAwesomeIcon";
 import { sharedGlobalStatusToast } from "utils/SharedState";
@@ -16,13 +16,14 @@ export default function SaveAsTemplateDialog({ templateId, criteria, onClose }: 
     const auth = AuthManager.useNanoStore();
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
-
     const [title, setTitle] = useState<string>(criteria.Title || "");
     const [overwrite, setOverwrite] = useState<boolean>(false);
     const [isSaving, setIsSaving] = useState<boolean>(false);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape closes the
+    // dialog (disabled while saving to match the buttons).
+    useModalDialog(dialogRef, () => onClose(null), isSaving);
     
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();

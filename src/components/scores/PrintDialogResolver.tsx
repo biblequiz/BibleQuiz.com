@@ -9,6 +9,7 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import StatsTabContent from "components/scores/StatsTabContent";
 import ScheduleGridTabContent from "components/scores/ScheduleGridTabContent";
 import TeamOrRoomScheduleTabContent from "components/scores/TeamOrRoomScheduleTabContent";
+import IndividualInitialRoomsTabContent from "./IndividualInitialRoomsTabContent";
 
 interface Props {
     eventId: string;
@@ -102,6 +103,17 @@ export default function PrintDialogResolver({
                         schedulesTabId={scheduleGridTabId}
                         isPrinting={true}
                         printStats={printDialogState.includeStats}
+                        selectedMeets={printDialogState.selectedMeets}
+                    />
+                </div>);
+        }
+
+        case OutputType.IndividualInitialRooms: {
+            return (
+                <div className="hide-if-not-print-screen">
+                    <IndividualInitialRoomsTabContent
+                        event={event || undefined}
+                        isPrinting={true}
                         selectedMeets={printDialogState.selectedMeets}
                     />
                 </div>);

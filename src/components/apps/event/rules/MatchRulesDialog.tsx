@@ -2,8 +2,7 @@ import { useCallback, useRef } from "react";
 import type { EventInfo } from "types/EventTypes";
 import { type MatchRules } from "types/MatchRules";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { useMatchRulesForm } from "./hooks/useMatchRulesForm";
 import GeneralRulesSection from "./sections/GeneralRulesSection";
 import QuizOutSection from "./sections/QuizOutSection";
@@ -69,13 +68,12 @@ export default function MatchRulesDialog({
         onSelect(null);
         dialogRef.current?.close();
     }, [onSelect]);
-    useEscapeToClose(handleEscapeClose);
 
     // Promote to the browser's top layer so this dialog stacks above the parent
     // dialog that opened it. A native <dialog> only joins the top layer via
     // showModal(); the `open` attribute renders it inline and would appear behind
-    // a top-layer parent dialog.
-    useShowModal(dialogRef);
+    // a top-layer parent dialog. Escape closes the dialog without selecting rules.
+    useModalDialog(dialogRef, handleEscapeClose);
 
     return (
         <dialog

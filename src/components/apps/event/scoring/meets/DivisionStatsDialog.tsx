@@ -1,8 +1,7 @@
 import { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import {
     AstroMeetStatsService,
@@ -101,12 +100,10 @@ export default function DivisionStatsDialog({
         }
     }, [isDirty, isReadOnly, onClose]);
 
-    // Handle Escape key to close dialog.
-    useEscapeToClose(handleClose, isSaving);
-
     // Promote to the browser's top layer so this dialog (and its nested confirmation
-    // dialog) stack above Starlight's header/sidebar and any parent dialog.
-    useShowModal(dialogRef);
+    // dialog) stack above Starlight's header/sidebar and any parent dialog. Escape
+    // closes the dialog (disabled while saving).
+    useModalDialog(dialogRef, handleClose, isSaving);
 
     // Handle match override change
     const handleMatchOverrideChange = useCallback((quizzerId: number, value: string) => {

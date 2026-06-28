@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { Quizzer, Team } from "types/Meets";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import PersonLookupDialog from "components/PersonLookupDialog";
@@ -44,10 +44,6 @@ export default function QuizzerDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
     const formRef = useRef<HTMLFormElement>(null);
-
-    // Promote to the browser's top layer so this dialog (and its nested person lookup)
-    // stack above Starlight's header/sidebar and any parent dialog.
-    useShowModal(dialogRef);
 
     const [church, setChurch] = useState<SelectedChurch | undefined>();
     const [person, setPerson] = useState<SelectedPerson | undefined>();
@@ -114,6 +110,12 @@ export default function QuizzerDialog({
         onCancel();
         dialogRef.current?.close();
     };
+
+    // Promote to the browser's top layer so this dialog (and its nested person lookup)
+    // stack above Starlight's header/sidebar and any parent dialog. Escape cancels
+    // this dialog, but is disabled while the nested person lookup is open so that
+    // the nested dialog is dismissed first.
+    useModalDialog(dialogRef, handleClose, isSelectingPerson);
 
     return (
         <>

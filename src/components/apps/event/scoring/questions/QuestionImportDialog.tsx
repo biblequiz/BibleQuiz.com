@@ -1,8 +1,7 @@
 import { useRef, useState, useCallback, useMemo } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import {
     AstroDatabaseQuestionsService,
@@ -207,12 +206,9 @@ export default function QuestionImportDialog({
         }
     }, [parsedManifest, isSaving, onClose]);
 
-    // Handle Escape key.
-    useEscapeToClose(handleClose, isSaving || isUploading);
-
-    // Open the dialog in the browser's top layer so it renders above
-    // Starlight's header and sidebar.
-    useShowModal(dialogRef);
+    // Open the dialog in the browser's top layer so it renders above Starlight's
+    // header and sidebar. Escape closes the dialog (disabled while saving/uploading).
+    useModalDialog(dialogRef, handleClose, isSaving || isUploading);
 
     return (
         <dialog ref={dialogRef} className="modal">

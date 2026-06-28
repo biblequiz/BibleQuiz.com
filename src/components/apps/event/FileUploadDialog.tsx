@@ -1,5 +1,5 @@
 import { useRef, useState, useCallback } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 
 interface Props {
@@ -16,10 +16,6 @@ export default function FileUploadDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
-
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
 
     const [selectedFile, setSelectedFile] = useState<File | null>(null);
     const [isUploading, setIsUploading] = useState(false);
@@ -101,6 +97,11 @@ export default function FileUploadDialog({
         onReadyForUpload(null);
         dialogRef.current?.close();
     };
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape cancels
+    // the dialog (disabled while uploading to match the buttons).
+    useModalDialog(dialogRef, handleCancel, isUploading);
 
     const formatFileSize = (bytes: number): string => {
         if (bytes < 1024) return `${bytes} B`;

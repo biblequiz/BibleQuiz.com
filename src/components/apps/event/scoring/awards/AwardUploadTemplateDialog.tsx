@@ -1,7 +1,6 @@
 import { useRef, useState, useCallback } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import type { AuthManager } from "types/AuthManager";
 import { DatabasesService, AwardType, type DatabaseAwardsTemplate } from "types/services/DatabasesService";
 
@@ -42,12 +41,10 @@ export default function AwardUploadTemplateDialog({
         }
     }, [isSaving, onClose]);
 
-    // Handle Escape key to close dialog.
-    useEscapeToClose(handleClose, isSaving);
-
     // Promote to the browser's top layer so this dialog stacks above the parent
-    // templates dialog that opened it.
-    useShowModal(dialogRef);
+    // templates dialog that opened it. Escape closes the dialog (disabled while
+    // saving).
+    useModalDialog(dialogRef, handleClose, isSaving);
 
     // Handle file selection
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {

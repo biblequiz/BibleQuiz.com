@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useShowModal } from "hooks/useShowModal";
+import { useModalDialog } from "hooks/useModalDialog";
 import { Church } from 'types/services/ChurchesService';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { AuthManager } from 'types/AuthManager';
@@ -119,10 +119,6 @@ export default function PersonLookupDialog({
 
     const dialogRef = useRef<HTMLDialogElement>(null);
 
-    // Promote to the browser's top layer so this dialog renders above Starlight's
-    // header/sidebar and above any parent dialog that opened it.
-    useShowModal(dialogRef);
-
     const auth = AuthManager.useNanoStore();
 
     const [intermediateSearchText, setIntermediateSearchText] = useState<string | undefined>(undefined);
@@ -133,6 +129,11 @@ export default function PersonLookupDialog({
     const [isLoading, setIsLoading] = useState(false);
     const [isAssigning, setIsAssigning] = useState(false);
     const [loadingOrSavingError, setLoadingOrSavingError] = useState<string | null>(null);
+
+    // Promote to the browser's top layer so this dialog renders above Starlight's
+    // header/sidebar and above any parent dialog that opened it. Escape closes
+    // the dialog (disabled while loading/assigning to match the buttons).
+    useModalDialog(dialogRef, () => onSelect(null), isLoading || isAssigning);
 
     useEffect(() => {
         const newPageNumber = currentPageNumber ?? 0;
