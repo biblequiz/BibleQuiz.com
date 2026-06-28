@@ -89,11 +89,13 @@ function calculateFieldTotal(
 
 /** Mobile card for churches */
 function ChurchCard({
+    eventId,
     church,
     summary,
     isHighlighted,
     onEdit,
 }: {
+    eventId: string;
     church: EventChurchSummary;
     summary: EventSummary;
     isHighlighted: boolean;
@@ -149,14 +151,25 @@ function ChurchCard({
                         {summary.HasPaymentBalance && (
                             <p><strong>Paid:</strong> {formatPayment(Math.max(0, church.PaymentBalance))}</p>
                         )}
-                        <button
-                            type="button"
-                            className="btn btn-primary btn-xs mt-2"
-                            onClick={onEdit}
-                        >
-                            <FontAwesomeIcon icon="fas faPenToSquare" classNames={["mr-1"]} />
-                            Edit Registration
-                        </button>
+                        <div className="flex gap-2 mt-2">
+                            <button
+                                type="button"
+                                className="btn btn-primary btn-xs"
+                                onClick={onEdit}
+                            >
+                                <FontAwesomeIcon icon="fas faPenToSquare" classNames={["mr-1"]} />
+                                Edit Registration
+                            </button>
+                            {summary.HasPayment && (
+                                <a
+                                    href={`#/${eventId}/summary/payments/${church.Id}`}
+                                    className="btn btn-outline btn-xs"
+                                >
+                                    <FontAwesomeIcon icon="fas faDollarSign" classNames={["mr-1"]} />
+                                    Payments
+                                </a>
+                            )}
+                        </div>
                     </div>
                 )}
             </div>
@@ -576,6 +589,9 @@ export default function EventRegistrationsPage({ }: Props) {
                                                 <th className="text-center">Paid</th>
                                             )}
                                             <th className="text-center">Edit</th>
+                                            {summary.HasPaymentBalance && (
+                                                <th className="text-center">$</th>
+                                            )}
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -619,6 +635,17 @@ export default function EventRegistrationsPage({ }: Props) {
                                                         <FontAwesomeIcon icon="fas faPenToSquare" />
                                                     </button>
                                                 </td>
+                                                {summary.HasPaymentBalance && (
+                                                    <td className="text-center">
+                                                        <a
+                                                            href={`#/${eventId}/summary/payments/${church.Id}`}
+                                                            className="btn btn-outline btn-xs"
+                                                            title="Edit Payments"
+                                                        >
+                                                            <FontAwesomeIcon icon="fas faDollarSign" />
+                                                        </a>
+                                                    </td>
+                                                )}
                                             </tr>
                                         ))}
                                     </tbody>
@@ -638,6 +665,7 @@ export default function EventRegistrationsPage({ }: Props) {
                                                 <td className="text-center">{formatPayment(churchTotals.balance)}</td>
                                             )}
                                             <td></td>
+                                            {summary.HasPaymentBalance && <td></td>}
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -652,6 +680,7 @@ export default function EventRegistrationsPage({ }: Props) {
                                         summary={summary}
                                         isHighlighted={isHighlighted(church.LastModified, highlightDate)}
                                         onEdit={() => handleEditChurch(church.Id)}
+                                        eventId={eventId}
                                     />
                                 ))}
                                 <TotalsCard>
