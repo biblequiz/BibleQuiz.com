@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOKAneSM4UoNdK",
   "tag_name": "v2026.6.29.2",
   "target_commitish": "ebbd26899bde6fae8bf1bcff9fbd4037783ac769",
-  "name": "New CoachApp Release",
+  "name": "Correct Import Issue for Questions",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:52Z",
-  "updated_at": "2026-06-29T05:59:05Z",
+  "updated_at": "2026-06-29T06:01:19Z",
   "published_at": "2026-06-29T05:58:51Z",
   "assets": [
     {
@@ -71,9 +71,45 @@
       "created_at": "2026-06-29T05:58:51Z",
       "updated_at": "2026-06-29T05:59:05Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.CoachApp/releases/download/v2026.6.29.2/com.biblequiz.coachapp.windows.msixbundle"
+    },
+    {
+      "url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/releases/assets/460824319",
+      "id": 460824319,
+      "node_id": "RA_kwDOKAneSM4bd57_",
+      "name": "com.nwtech.biblequiz.coachapp.mac.pkg",
+      "label": "",
+      "uploader": {
+        "login": "michsco",
+        "id": 15827689,
+        "node_id": "MDQ6VXNlcjE1ODI3Njg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15827689?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/michsco",
+        "html_url": "https://github.com/michsco",
+        "followers_url": "https://api.github.com/users/michsco/followers",
+        "following_url": "https://api.github.com/users/michsco/following{/other_user}",
+        "gists_url": "https://api.github.com/users/michsco/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/michsco/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/michsco/subscriptions",
+        "organizations_url": "https://api.github.com/users/michsco/orgs",
+        "repos_url": "https://api.github.com/users/michsco/repos",
+        "events_url": "https://api.github.com/users/michsco/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/michsco/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "content_type": "application/octet-stream",
+      "state": "uploaded",
+      "size": 138385763,
+      "digest": "sha256:304b65e9c976f310b976338964e431d1fce0a3f2562b97fa1b8fc602e0f5213a",
+      "download_count": 0,
+      "created_at": "2026-06-29T05:59:05Z",
+      "updated_at": "2026-06-29T05:59:14Z",
+      "browser_download_url": "https://github.com/biblequiz/Releases.CoachApp/releases/download/v2026.6.29.2/com.nwtech.biblequiz.coachapp.mac.pkg"
     }
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/tarball/v2026.6.29.2",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/zipball/v2026.6.29.2",
-  "body": "Latest version of CoachApp"
+  "body": "Coach's App populates the point value when importing questions, which causes a warning."
 }
