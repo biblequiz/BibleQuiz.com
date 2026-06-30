@@ -30,9 +30,12 @@ export default function PlayoffMatchCard({
 }: Props) {
     // Get rooms already used in this match (for filtering available rooms)
     const usedRoomIds = match.RoomSchedule.map(r => r.Id);
+    const availableRoomIds = Object.keys(rooms)
+        .map(id => Number(id))
+        .filter(id => !usedRoomIds.includes(id) || usedRoomIds.includes(id));
 
     // Check if there are more rooms available to add
-    const hasMoreRoomsAvailable = match.AvailableRooms.some(roomId => !usedRoomIds.includes(roomId));
+    const hasMoreRoomsAvailable = availableRoomIds.some(roomId => !usedRoomIds.includes(roomId));
 
     // Get all team IDs used across all rooms in this match (for filtering team options)
     const allUsedTeamIds = match.RoomSchedule.flatMap(r => r.TeamIds);
@@ -60,7 +63,7 @@ export default function PlayoffMatchCard({
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {match.RoomSchedule.map((room, roomIndex) => {
                     // Available rooms for this dropdown: current room + unused rooms
-                    const availableRoomsForSelect = match.AvailableRooms.filter(
+                    const availableRoomsForSelect = availableRoomIds.filter(
                         roomId => roomId === room.Id || !usedRoomIds.includes(roomId)
                     );
 

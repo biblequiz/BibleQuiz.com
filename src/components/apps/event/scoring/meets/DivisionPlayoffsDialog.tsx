@@ -145,7 +145,8 @@ export default function DivisionPlayoffsDialog({
         const usedRoomIds = roomSchedule.map(r => r.Id);
 
         // Find first available room not already used
-        const availableRoomId = match.AvailableRooms.find(roomId => !usedRoomIds.includes(roomId));
+        const availableRooms = Object.keys(playoffs.Rooms).map(Number);
+        const availableRoomId = availableRooms.find(roomId => !usedRoomIds.includes(roomId));
         if (availableRoomId === undefined) return; // No more rooms available
 
         roomSchedule.push({
