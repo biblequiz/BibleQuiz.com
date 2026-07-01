@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { PersonPermissionScope } from 'types/services/PermissionsService';
-import type { UserAccountProfile } from 'types/AuthManager';
 import regionsData from 'data/regions.json';
 import districtsData from 'data/districts.json';
 
@@ -35,7 +34,6 @@ interface Props {
     checkboxStates: CheckboxStates;
     onCheckboxChange: (key: keyof CheckboxStates) => void;
     currentScope: PersonPermissionScope | null;
-    userProfile: UserAccountProfile;
 }
 
 export default function SearchAndFilterBar({
@@ -47,8 +45,7 @@ export default function SearchAndFilterBar({
     onDistrictChange,
     checkboxStates,
     onCheckboxChange,
-    currentScope,
-    userProfile
+    currentScope
 }: Props) {
     const [regions, setRegions] = useState<Region[]>([]);
     const [districts, setDistricts] = useState<District[]>([]);
@@ -75,10 +72,9 @@ export default function SearchAndFilterBar({
 
     const showDistrictControls = currentScope === PersonPermissionScope.Church || 
         currentScope === PersonPermissionScope.Region ||
-        currentScope === PersonPermissionScope.District ||
-        currentScope === null;
+        currentScope === PersonPermissionScope.District;
 
-    const showCheckboxes = currentScope !== null;
+    const showCheckboxes = currentScope === PersonPermissionScope.Church || currentScope === null;
 
     return (
         <div className="space-y-4 bg-base-200 p-4 rounded-lg">
@@ -101,8 +97,8 @@ export default function SearchAndFilterBar({
             {/* Region and District Selection */}
             {showDistrictControls && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {/* Region dropdown - hidden for District scope only */}
-                    {!isDistrictScope && (
+                    {/* Region dropdown - hidden for District scope and People scope */}
+                    {!isDistrictScope && currentScope !== null && (
                         <label className="form-control">
                             <div className="label">
                                 <span className="label-text">Region</span>
@@ -124,8 +120,8 @@ export default function SearchAndFilterBar({
                         </label>
                     )}
 
-                    {/* District dropdown - required for District scope, optional for Church scope */}
-                    {!isRegionScope && (
+                    {/* District dropdown - hidden for Region scope and People scope */}
+                    {!isRegionScope && currentScope !== null && (
                         <label className="form-control">
                             <div className="label">
                                 <span className="label-text">District</span>
@@ -200,16 +196,7 @@ export default function SearchAndFilterBar({
                                     checked={checkboxStates.allDistricts}
                                     onChange={() => onCheckboxChange('allDistricts')}
                                 />
-                                <span className="label-text text-sm">All districts</span>
-                            </label>
-                            <label className="label cursor-pointer gap-2">
-                                <input
-                                    type="checkbox"
-                                    className="checkbox checkbox-sm"
-                                    checked={checkboxStates.unapprovedOnly}
-                                    onChange={() => onCheckboxChange('unapprovedOnly')}
-                                />
-                                <span className="label-text text-sm">Unapproved only</span>
+                                <span className="label-text text-sm">Search in all districts</span>
                             </label>
                             <label className="label cursor-pointer gap-2">
                                 <input
@@ -220,17 +207,15 @@ export default function SearchAndFilterBar({
                                 />
                                 <span className="label-text text-sm">Potential duplicates</span>
                             </label>
-                            {userProfile.organizationPermission && (
-                                <label className="label cursor-pointer gap-2">
-                                    <input
-                                        type="checkbox"
-                                        className="checkbox checkbox-sm"
-                                        checked={checkboxStates.usersOnly}
-                                        onChange={() => onCheckboxChange('usersOnly')}
-                                    />
-                                    <span className="label-text text-sm">Users only</span>
-                                </label>
-                            )}
+                            <label className="label cursor-pointer gap-2">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox checkbox-sm"
+                                    checked={checkboxStates.usersOnly}
+                                    onChange={() => onCheckboxChange('usersOnly')}
+                                />
+                                <span className="label-text text-sm">Users only</span>
+                            </label>
                         </>
                     )}
                 </div>

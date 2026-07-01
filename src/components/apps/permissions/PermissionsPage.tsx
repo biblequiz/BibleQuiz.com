@@ -134,7 +134,6 @@ export default function PermissionsPage({ }: Props) {
                 checkboxStates={checkboxStates}
                 onCheckboxChange={handleCheckboxChange}
                 currentScope={currentScope}
-                userProfile={userProfile}
             />
 
             {/* Content based on scope */}
