@@ -119,7 +119,9 @@ export default function RegistrationPersonDialog({
     useModalDialog(dialogRef, () => onClose(null), isShowingLookup);
 
     const scope = getScopeForRole(role);
-    const roleLabel = PersonRole[role];
+    const roleLabel = role === PersonRole.QuizzerWithoutTeam
+        ? "Quizzer (No Team)"
+        : PersonRole[role];
 
     const isDuplicate = (candidatePersonId: string | null): boolean => {
         if (!candidatePersonId) {
@@ -233,7 +235,7 @@ export default function RegistrationPersonDialog({
                                 <span className="label-text font-medium text-sm">Person</span>
                                 <span className="label-text-alt text-error">*</span>
                             </label>
-                            <div className="join w-full">
+                            <div className="join w-full mt-0 mb-0">
                                 <input
                                     type="text"
                                     className="input input-bordered join-item w-full"
@@ -353,7 +355,7 @@ export default function RegistrationPersonDialog({
 
             {isShowingLookup && (
                 <PersonLookupDialog
-                    title={`Find ${roleLabel}`}
+                    title={`Find a ${roleLabel}`}
                     description={`Select an existing person from ${church.Name} to register as a ${roleLabel}, or close this dialog and they'll need to be created in the People section first.`}
                     parentType={PersonParentType.Church}
                     parentId={church.Id ?? undefined}

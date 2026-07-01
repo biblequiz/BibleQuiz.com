@@ -379,7 +379,7 @@ export default function RegistrationProvider({ }: Props) {
                 isSaving: isSavingRegistration,
                 context: {
                     rootEventUrl: rootUrl,
-                    registrationLink: info ? `https://registration.biblequiz.com/#/Registration/${info.Id}` : null,
+                    registrationLink: info ? `https://biblequiz.com/register/#/${info.Id}` : null,
                     isNewEvent: !info,
                     hasRegistrations: info?.HasAnyRegistrations || false,
                     saveRegistration: async () => {

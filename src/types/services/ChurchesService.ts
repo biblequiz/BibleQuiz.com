@@ -123,7 +123,7 @@ export class ChurchesService {
      * @param auth AuthManager to use for authentication.
      * @param id Identifier for the church.
      */
-    public static  authorizeChurch(
+    public static authorizeChurch(
         auth: AuthManager,
         id: string): Promise<AuthorizationResult> {
 

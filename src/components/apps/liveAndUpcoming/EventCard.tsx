@@ -28,7 +28,7 @@ export default function EventCard({
     const cardLink = urlFormatter ? urlFormatter(info.event) : (
         (isLive || info.isNationals || !info.isRegistrationOpen)
             ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
-            : `https://registration.biblequiz.com/#/Registration/${info.event.id}`);
+            : `https://biblequiz.com/register/#/${info.event.id}`);
 
     let locationLabel: string | null = null;
     if (info && info.event) {

@@ -255,6 +255,8 @@ export default function RegistrationProvider({ }: Props) {
 
         setIsSaving(true);
         try {
+            registration.Attendees ??= [];
+
             const updatedRegistration = await RegistrationService.createOrUpdateChurch(auth, registration);
 
             // Preserve teams since they aren't included in this endpoint.
