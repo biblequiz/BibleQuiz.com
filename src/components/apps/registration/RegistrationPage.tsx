@@ -686,7 +686,7 @@ export default function RegistrationPage() {
             {/* Person Dialog */}
             {editingPerson && church && (
                 <RegistrationPersonDialog
-                    title={editingPerson.person ? "Edit Person" : `Add ${PersonRole[editingPerson.role]}`}
+                    title={editingPerson.person ? "Edit Person" : "Add Person"}
                     event={event}
                     church={church}
                     existingPerson={editingPerson.person}

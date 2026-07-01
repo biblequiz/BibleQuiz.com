@@ -404,7 +404,7 @@ export default function EventRegistrationsPage({ }: Props) {
     };
 
     const handleEditChurch = (churchId: string) => {
-        window.location.href = `/#/register/${eventId}/${churchId}`;
+        window.location.href = `/register/#/${eventId}/${churchId}`;
     };
 
     // Calculate totals
@@ -433,6 +433,10 @@ export default function EventRegistrationsPage({ }: Props) {
     const attendeesPaymentTotal = summary.Attendees?.reduce((sum, p) => sum + p.CalculatedPayment, 0) ?? 0;
 
     const hasAttendees = summary.Attendees !== null && summary.Attendees !== undefined;
+
+    const teamsCount = summary.TeamDivisions
+        ? summary.TeamDivisions.reduce((sum, div) => sum + div.Teams.length, 0)
+        : summary.Teams.length;
 
     return (
         <div className="flex flex-col gap-4">
@@ -703,14 +707,17 @@ export default function EventRegistrationsPage({ }: Props) {
                     <h2 className="text-xl font-semibold mb-2 mt-0">
                         <FontAwesomeIcon icon="fas faPeopleGroup" classNames={["mr-2"]} />
                         Teams
-                        <span className="badge badge-neutral ml-2">{summary.Teams.length}</span>
+                        <span className="badge badge-neutral ml-2">{teamsCount}</span>
                     </h2>
 
                     {summary.TeamDivisions ? (
                         // Render by division
                         summary.TeamDivisions.map(division => (
                             <div key={division.Id} className="mb-4">
-                                <h3 className="text-lg font-medium mb-2 mt-0 italic">{division.Name} Division</h3>
+                                <h3 className="text-lg font-medium mb-2 mt-0 italic">
+                                    {division.Name} Division
+                                    <span className="badge badge-neutral ml-2">{division.Teams.length}</span>
+                                </h3>
                                 {renderTeamsTable(division.Teams, summary, highlightDate)}
                             </div>
                         ))

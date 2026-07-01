@@ -426,21 +426,25 @@ export default function RegistrationReceipt({
         includeDetails,
         0);
 
-    costTotal += appendPeopleSectionRowsAndCalculateTotal(
-        rows,
-        "Officials",
-        eventSummary.OfficialFields,
-        eventSummary.Officials.filter(person => person.ChurchId === churchSummary.Id),
-        includeDetails,
-        0);
+    if (eventSummary.Officials) {
+        costTotal += appendPeopleSectionRowsAndCalculateTotal(
+            rows,
+            "Officials",
+            eventSummary.OfficialFields,
+            eventSummary.Officials.filter(person => person.ChurchId === churchSummary.Id),
+            includeDetails,
+            0);
+    }
 
-    costTotal += appendPeopleSectionRowsAndCalculateTotal(
-        rows,
-        "Attendees",
-        eventSummary.AttendeeFields,
-        eventSummary.Attendees.filter(person => person.ChurchId === churchSummary.Id),
-        includeDetails,
-        0);
+    if (eventSummary.Attendees) {
+        costTotal += appendPeopleSectionRowsAndCalculateTotal(
+            rows,
+            "Attendees",
+            eventSummary.AttendeeFields,
+            eventSummary.Attendees.filter(person => person.ChurchId === churchSummary.Id),
+            includeDetails,
+            0);
+    }
 
     appendValidationErrorRows(
         rows,
