@@ -219,6 +219,27 @@ export class RegistrationService {
             }),
             entries);
     }
+
+    /**
+     * Generate a URL for the church to pay for their registration.
+     * 
+     * @param eventId Id for the event.
+     * @param churchId Id for the church.
+     * 
+     * @returns URL for the church to pay for their registration.
+     */
+    public static getPayLink(
+        eventId: string,
+        churchId: string): string {
+
+        return RemoteServiceUtility.buildUrl(
+            RemoteServiceUrlBase.Registration,
+            "/api/Registration/Pay",
+            RemoteServiceUtility.getFilteredUrlParameters({
+                eid: eventId,
+                cid: churchId,
+            }));
+    }
 }
 
 /**

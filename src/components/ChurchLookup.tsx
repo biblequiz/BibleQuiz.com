@@ -151,7 +151,7 @@ export default function ChurchLookup({
             setSelectError("You are not authorized to select this church.");
           }
         })
-        .catch((error) => {
+        .catch(() => {
           setIsSelecting(false);
           setSelectError("An error occurred while authorizing the church.");
         });

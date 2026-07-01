@@ -515,8 +515,13 @@ export default function RegistrationPage() {
                                     )}
                                 </div>
                                 <div className="flex gap-2 mt-2">
-                                    {event.TrackPayments && registration.PaymentBalance > 0 && (
-                                        <button type="button" className="btn btn-sm btn-primary m-0">
+                                    {(event.TrackPayments && Math.max(0, registration.CalculatedPayment - registration.PendingPaymentBalance - registration.PaymentBalance) > 0) && (
+                                        <button
+                                            type="button"
+                                            className="btn btn-sm btn-primary m-0"
+                                            onClick={() => {
+                                                window.location.href = RegistrationService.getPayLink(eventId, registration.ChurchId);
+                                            }}>
                                             <FontAwesomeIcon icon="fas faCreditCard" classNames={["mr-1"]} />
                                             Pay Now
                                         </button>

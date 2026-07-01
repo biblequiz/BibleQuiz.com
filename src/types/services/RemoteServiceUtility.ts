@@ -300,7 +300,7 @@ export class RemoteServiceUtility {
      * @param urlParameters URL parameters to be included in the request.
      * @returns The fully constructed URL.
      */
-    private static buildUrl(
+    public static buildUrl(
         service: RemoteServiceUrlBase,
         path: string,
         urlParameters: URLSearchParams | null | undefined): string {
