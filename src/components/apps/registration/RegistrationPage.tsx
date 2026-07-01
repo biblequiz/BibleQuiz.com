@@ -225,7 +225,10 @@ export default function RegistrationPage() {
                     icon="fas faChurch"
                     title="Church"
                     defaultOpen={!church}
-                    badges={church ? [{ className: "badge-lg badge-soft badge-success", icon: "fas faCheck", text: church.Name }] : []}
+                    forceOpen={!church}
+                    badges={church
+                        ? [{ className: "badge-lg badge-soft badge-success", icon: "fas faCheck", text: church.Name }]
+                        : [{ className: "badge-lg badge-soft badge-warning", icon: "fas faTriangleExclamation", text: "Church required" }]}
                     addTopPadding={true}
                 >
                     {/* Permission error */}
@@ -233,6 +236,18 @@ export default function RegistrationPage() {
                         <div role="alert" className="alert alert-error mb-2">
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
                             <span>{churchPermissionError}</span>
+                        </div>
+                    )}
+
+                    {/* No church selected prompt */}
+                    {!church && (
+                        <div role="alert" className="alert alert-warning mb-2">
+                            <FontAwesomeIcon icon="fas faChurch" />
+                            <div>
+                                <div className="text-md font-bold mt-0 mb-0">
+                                    Choose one of your churches below or search for a different church to get started.
+                                </div>
+                            </div>
                         </div>
                     )}
 
@@ -280,9 +295,13 @@ export default function RegistrationPage() {
                     {showChurchSearch && (
                         <div className="mt-2 p-2 border border-base-300 rounded-lg">
                             <ChurchLookup
-                                onSelect={(_selected, info) => {
+                                onSelect={(_selected, info, authorized) => {
                                     setChurch(info);
                                     setShowChurchSearch(false);
+
+                                    if (authorized) {
+                                        addUserChurch(info);
+                                    }
                                 }}
                                 showTips={ChurchSearchTips.Basic}
                                 allowAdd={!isEventOwner ? {
@@ -475,19 +494,19 @@ export default function RegistrationPage() {
                             >
                                 <div className="flex flex-wrap gap-4 items-center">
                                     {event.CalculatePayment && (
-                                        <div className="stat p-2">
+                                        <div className="stat p-2 pb-0 pt-0 mt-0 mb-0">
                                             <div className="stat-title text-xs">Total Cost</div>
                                             <div className="stat-value text-lg">${registration.CalculatedPayment?.toFixed(2) ?? "0.00"}</div>
                                         </div>
                                     )}
                                     {event.TrackPayments && (
                                         <>
-                                            <div className="stat p-2">
+                                            <div className="stat p-2 pt-0 pb-0 mt-0 mb-0">
                                                 <div className="stat-title text-xs">Balance Due</div>
                                                 <div className="stat-value text-lg text-error">${registration.PaymentBalance?.toFixed(2) ?? "0.00"}</div>
                                             </div>
                                             {registration.PendingPaymentBalance > 0 && (
-                                                <div className="stat p-2">
+                                                <div className="stat p-2 pt-0 pb-0 mt-0 mb-0">
                                                     <div className="stat-title text-xs">Pending</div>
                                                     <div className="stat-value text-lg text-warning">${registration.PendingPaymentBalance.toFixed(2)}</div>
                                                 </div>

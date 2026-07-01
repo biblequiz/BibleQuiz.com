@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
-import { Church, ChurchesService, ChurchResultFilter } from 'types/services/ChurchesService.ts';
+import { AuthorizationResultState, Church, ChurchesService, ChurchResultFilter } from 'types/services/ChurchesService.ts';
 import { type RemoteServicePage, type RemoteServiceError } from 'types/services/RemoteServiceUtility.ts';
 import Pagination from './Pagination.tsx';
 import LoadingPlaceholder from './LoadingPlaceholder.tsx';
@@ -33,7 +33,7 @@ interface Props {
   showTips?: ChurchSearchTips;
   allowAdd?: AddChurchConfig;
   subtitle?: string;
-  onSelect: (church: SelectedChurch, info: Church) => void;
+  onSelect: (church: SelectedChurch, info: Church, authorized: boolean) => void;
 }
 
 interface ChurchSearchState {
@@ -62,6 +62,8 @@ export default function ChurchLookup({
   const [searchText, setSearchText] = useState(currentChurch?.displayName || "");
   const [searchState, setSearchState] = useState(null as ChurchSearchState | null);
   const [isAdding, setIsAdding] = useState(false);
+  const [isSelecting, setIsSelecting] = useState(false);
+  const [selectError, setSelectError] = useState<string | undefined>(undefined);
 
   useEffect(() => {
     if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
@@ -129,11 +131,34 @@ export default function ChurchLookup({
 
   function selectChurch(church: Church): void {
     const displayName = `${church.Name}, ${church.PhysicalAddress.City}, ${church.PhysicalAddress.State}`;
+    const selectChurch = (authorized: boolean) => {
+      setSearchText(displayName);
+      setSearchState(null); // Clear search state after selection
 
-    setSearchText(displayName);
-    setSearchState(null); // Clear search state after selection
+      onSelect({ id: church.Id!, displayName }, church, authorized);
+    };
 
-    onSelect({ id: church.Id!, displayName }, church);
+    if (allowAdd?.authorizeChurch) {
+      setIsSelecting(true);
+      
+      ChurchesService.authorizeChurch(authManager, church.Id!)
+        .then((result) => {
+          setIsSelecting(false);
+          if (result.State === AuthorizationResultState.Authorized) {
+            selectChurch(true);
+          }
+          else {
+            setSelectError("You are not authorized to select this church.");
+          }
+        })
+        .catch((error) => {
+          setIsSelecting(false);
+          setSelectError("An error occurred while authorizing the church.");
+        });
+    }
+    else {
+      selectChurch(false);
+    }
   }
 
   return (
@@ -175,11 +200,11 @@ export default function ChurchLookup({
             <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" className="mt-0" />)}
           {!searchState.isLoading && (
             <>
-              {searchState.error && (
+              {(searchState.error || selectError) && (
                 <div role="alert" className="alert alert-error mt-0 w-full">
                   <FontAwesomeIcon icon="fas faCircleExclamation" />
                   <div>
-                    <b>Error: </b> {searchState.error.message}
+                    <b>Error: </b> {searchState.error?.message || selectError}
                   </div>
                 </div>)}
               {searchState.page && (
@@ -200,6 +225,7 @@ export default function ChurchLookup({
                                     type="button"
                                     className="btn btn-primary btn-sm"
                                     onClick={() => selectChurch(church)}
+                                    disabled={isSelecting}
                                   >
                                     Select
                                   </button>
