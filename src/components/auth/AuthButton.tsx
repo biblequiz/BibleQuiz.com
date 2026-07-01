@@ -57,6 +57,10 @@ export default function AuthButton({ type }: Props) {
         }
 
         const displayName = userProfile.displayName || "Unknown User";
+        const hasPermissions = !!userProfile.organizationPermission ||
+            (userProfile.regionPermissions && Object.keys(userProfile.regionPermissions).length > 0) ||
+            (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
+            (userProfile.churchPermissions && userProfile.churchPermissions.size > 0);
 
         buttonElement = (
             <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
@@ -67,6 +71,16 @@ export default function AuthButton({ type }: Props) {
                     tabIndex={0}
                     className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
+                    {hasPermissions && (
+                        <li>
+                            <a
+                                href="/admin/permissions"
+                                className="text-base-content">
+                                <FontAwesomeIcon icon="fas faShieldHalved" />
+                                Permissions
+                            </a>
+                        </li>
+                    )}
                     <li>
                         <a
                             className="text-base-content"
