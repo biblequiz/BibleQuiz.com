@@ -395,25 +395,22 @@ export default function TeamOrRoomScheduleTabContent({
                                 className={`ml-6 ${matchHighlightColor} ${matchHighlightTextColor}`}
                                 value={matchIndex + 1}
                             >
-                                {isScheduleOnly && (<>{cellHtml}</>)}
-                                {!isScheduleOnly && (
-                                    <RoomDialogLink
-                                        id={matchKey}
-                                        label={`Match ${resolvedMatch.Id} in ${isRoomReport ? (cardItem as ScoringReportRoom).Name : (match as ScoringReportTeamMatch | ScoringReportQuizzerMatch).Room} @ ${resolvedMeet.Name}`}
-                                        eventId={eventId}
-                                        databaseId={resolvedMeet.DatabaseId}
-                                        meetId={resolvedMeet.MeetId}
-                                        matchId={resolvedMatch.Id}
-                                        roomId={isRoomReport ? (cardItem as ScoringReportRoom).RoomId : (match as ScoringReportTeamMatch | ScoringReportQuizzerMatch).RoomId}>
-                                        {cellHtml}
-                                        {isLiveMatch && (
-                                            <>
-                                                <br />
-                                                <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
-                                            </>
-                                        )}
-                                    </RoomDialogLink>
-                                )}
+                                <RoomDialogLink
+                                    id={matchKey}
+                                    label={`Match ${resolvedMatch.Id} in ${isRoomReport ? (cardItem as ScoringReportRoom).Name : (match as ScoringReportTeamMatch | ScoringReportQuizzerMatch).Room} @ ${resolvedMeet.Name}`}
+                                    eventId={eventId}
+                                    databaseId={resolvedMeet.DatabaseId}
+                                    meetId={resolvedMeet.MeetId}
+                                    matchId={resolvedMatch.Id}
+                                    roomId={isRoomReport ? (cardItem as ScoringReportRoom).RoomId : (match as ScoringReportTeamMatch | ScoringReportQuizzerMatch).RoomId}>
+                                    {cellHtml}
+                                    {isLiveMatch && (
+                                        <>
+                                            <br />
+                                            <i className="fas fa-satellite-dish"></i>&nbsp;Question #{match!.CurrentQuestion}
+                                        </>
+                                    )}
+                                </RoomDialogLink>
                             </li>
                         );
                     });
