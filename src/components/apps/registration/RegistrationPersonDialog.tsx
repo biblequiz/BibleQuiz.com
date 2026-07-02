@@ -360,6 +360,9 @@ export default function RegistrationPersonDialog({
                     parentType={PersonParentType.Church}
                     parentId={church.Id ?? undefined}
                     eventId={event.Id ?? undefined}
+                    allowParentChange={!event.IsOfficial}
+                    newEntityLabel={roleLabel}
+                    requiredFields={event.RequiredRoleFields[role]}
                     currentParent={church}
                     onSelect={handleSelectExistingPerson}
                 />)}

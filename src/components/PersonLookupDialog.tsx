@@ -113,6 +113,8 @@ export default function PersonLookupDialog({
     excludeWithScope = false,
     parentType = PersonParentType.Organization,
     parentId,
+    allowParentChange,
+    newEntityLabel,
     excludePeopleWithoutEmail = false,
     includeOnlyUsers = false,
     includeAllUsers = false }: Props) {
@@ -128,18 +130,21 @@ export default function PersonLookupDialog({
     const [pageCount, setPageCount] = useState<number>(0);
     const [isLoading, setIsLoading] = useState(false);
     const [isAssigning, setIsAssigning] = useState(false);
+    const [isAdding, setIsAdding] = useState(false);
     const [loadingOrSavingError, setLoadingOrSavingError] = useState<string | null>(null);
 
     // Promote to the browser's top layer so this dialog renders above Starlight's
     // header/sidebar and above any parent dialog that opened it. Escape closes
     // the dialog (disabled while loading/assigning to match the buttons).
-    useModalDialog(dialogRef, () => onSelect(null), isLoading || isAssigning);
+    useModalDialog(
+        dialogRef,
+        () => onSelect(null), isLoading || isAssigning || isAdding);
 
     useEffect(() => {
         const newPageNumber = currentPageNumber ?? 0;
         setIsLoading(true);
 
-        if (!isLoading && !isAssigning) {
+        if (!isLoading && !isAssigning && !isAdding) {
             PeopleService.getPeople(
                 auth,
                 15,
@@ -212,7 +217,7 @@ export default function PersonLookupDialog({
                                         setSearchText(intermediateSearchText);
                                     }
                                 }}
-                                disabled={isLoading || isAssigning} />
+                                disabled={isLoading || isAssigning || isAdding} />
                             {(intermediateSearchText?.length ?? 0) > 0 && (
                                 <button
                                     className="btn btn-ghost btn-xs"
@@ -225,12 +230,12 @@ export default function PersonLookupDialog({
                         </label>
                     </div>
                 </div>
-                {(isLoading || isAssigning) && (
+                {(isLoading || isAssigning || isAdding) && (
                     <div className="flex justify-center items-center">
                         <span className="loading loading-spinner loading-xl"></span>&nbsp;
-                        {isLoading ? "Loading people ..." : "Selecting person ..."}
+                        {isLoading ? "Loading people ..." : isAssigning ? "Selecting person ..." : "Adding person ..."}
                     </div>)}
-                {(!isLoading && !isAssigning) && (
+                {(!isLoading && !isAssigning && !isAdding) && (
                     <>
                         <div className="mt-4">
                             {people && people.length > 0 && (
@@ -259,14 +264,23 @@ export default function PersonLookupDialog({
                             currentPage={currentPageNumber ?? 0}
                             pages={pageCount ?? 0}
                             setPage={setCurrentPageNumber}
-                            isLoading={isLoading || isAssigning} />
+                            isLoading={isLoading || isAssigning || isAdding} />
                     </>)}
-                <div className="mt-4 text-right">
+                <div className="mt-4 text-right gap-2">
+                    {newEntityLabel && (
+                        <button
+                            className="btn btn-primary mt-0 mr-2"
+                            type="button"
+                            disabled={isLoading || isAssigning || isAdding}
+                            tabIndex={2}
+                            onClick={() => setIsAdding(true)}>
+                            <FontAwesomeIcon icon="fas faPlus" />&nbsp;New {newEntityLabel}
+                        </button>)}
                     <button
                         className="btn btn-warning mt-0"
                         type="button"
-                        disabled={isLoading || isAssigning}
-                        tabIndex={2}
+                        disabled={isLoading || isAssigning || isAdding}
+                        tabIndex={3}
                         onClick={() => {
                             onSelect(null);
                             dialogRef.current?.close();
