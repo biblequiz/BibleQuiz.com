@@ -72,7 +72,8 @@ export default function SearchAndFilterBar({
 
     const showDistrictControls = currentScope === PersonPermissionScope.Church || 
         currentScope === PersonPermissionScope.Region ||
-        currentScope === PersonPermissionScope.District;
+        currentScope === PersonPermissionScope.District ||
+        currentScope === null;
 
     const showCheckboxes = currentScope === PersonPermissionScope.Church || currentScope === null;
 
@@ -120,8 +121,8 @@ export default function SearchAndFilterBar({
                         </label>
                     )}
 
-                    {/* District dropdown - hidden for Region scope and People scope */}
-                    {!isRegionScope && currentScope !== null && (
+                    {/* District dropdown - shown for Church, District, and People scopes */}
+                    {!isRegionScope && (
                         <label className="form-control">
                             <div className="label">
                                 <span className="label-text">District</span>
@@ -134,7 +135,7 @@ export default function SearchAndFilterBar({
                                 disabled={checkboxStates.allDistricts && !isDistrictScope}
                                 required={isDistrictScope}
                             >
-                                {isDistrictScope ? (
+                                {isDistrictScope || currentScope === null ? (
                                     allDistricts.map(d => (
                                         <option key={d.id} value={d.id}>{d.name}</option>
                                     ))
