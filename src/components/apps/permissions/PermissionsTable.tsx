@@ -6,7 +6,7 @@ import type { Person } from 'types/services/PeopleService';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ConfirmationDialog from 'components/ConfirmationDialog';
 import PersonLookupDialog from 'components/PersonLookupDialog';
-import PaginationControl from './PaginationControl';
+import Pagination from 'components/Pagination';
 import { formatCompetitionType } from 'utils/CompetitionTypeFormatter';
 
 interface Props {
@@ -157,7 +157,7 @@ export default function PermissionsTable({
             </div>
 
             {pageCount > 1 && (
-                <PaginationControl
+                <Pagination
                     currentPage={pageNumber}
                     pages={pageCount}
                     setPage={setPageNumber}

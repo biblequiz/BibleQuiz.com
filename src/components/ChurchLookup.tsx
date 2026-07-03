@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { AuthorizationResultState, Church, ChurchesService, ChurchResultFilter } from 'types/services/ChurchesService.ts';
 import { type RemoteServicePage, type RemoteServiceError } from 'types/services/RemoteServiceUtility.ts';
-import Pagination from './Pagination.tsx';
 import LoadingPlaceholder from './LoadingPlaceholder.tsx';
 import { AuthManager } from 'types/AuthManager.ts';
 import type { AddingChurchState } from './ChurchSettingsDialog.tsx';
@@ -45,6 +44,68 @@ interface ChurchSearchState {
   page: RemoteServicePage<Church> | null;
   pageSize: number;
   error: RemoteServiceError | null;
+}
+
+interface SearchResultsPaginationProps {
+  currentPage: number;
+  pageCount: number;
+  pageSize: number;
+  setPageSettings: (pageNumber: number, pageSize: number) => void;
+}
+
+function SearchResultsPagination({ currentPage, pageCount, pageSize, setPageSettings }: SearchResultsPaginationProps) {
+  if (currentPage <= 1 && pageCount <= 1) {
+    return null;
+  }
+
+  return (
+    <div className="my-2">
+      <div className="flex items-center gap-2">
+        <button
+          className="btn btn-primary btn-sm"
+          onClick={() => setPageSettings(currentPage - 1, pageSize)}
+          disabled={currentPage <= 1}
+        >
+          {'<'}
+        </button>
+        <span className="flex items-center whitespace-nowrap gap-1">
+          <select
+            value={currentPage}
+            onChange={(e) => setPageSettings(Number(e.target.value), pageSize)}
+            className="select select-sm select-bordered"
+          >
+            {Array.from({ length: pageCount }, (_, index) => (
+              <option key={`pagination_page_${index + 1}`} value={index + 1}>
+                {index + 1}
+              </option>
+            ))}
+          </select>
+          &nbsp;of {pageCount}
+        </span>
+        <button
+          className="btn btn-primary btn-sm mt-0"
+          onClick={() => setPageSettings(currentPage + 1, pageSize)}
+          disabled={currentPage >= pageCount}
+        >
+          {'>'}
+        </button>
+        <span className="flex items-center whitespace-nowrap gap-1">
+          <select
+            value={pageSize}
+            onChange={(e) => setPageSettings(1, Number(e.target.value))}
+            className="select select-sm select-bordered"
+          >
+            {[10, 20, 30, 40, 50].map((size) => (
+              <option key={`pagination_size_${size}`} value={size}>
+                {size}
+              </option>
+            ))}
+          </select>
+          per Page
+        </span>
+      </div>
+    </div>
+  );
 }
 
 export default function ChurchLookup({
@@ -244,7 +305,7 @@ export default function ChurchLookup({
                               </tr>))}
                           </tbody>
                         </table>
-                        <Pagination
+                        <SearchResultsPagination
                           currentPage={searchState.pageNumber + 1}
                           pageCount={searchState.page.PageCount!}
                           pageSize={searchState.pageSize}

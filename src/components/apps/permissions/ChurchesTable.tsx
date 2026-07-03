@@ -7,7 +7,7 @@ import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ChurchSettingsDialog from 'components/ChurchSettingsDialog';
 import ConfirmationDialog from 'components/ConfirmationDialog';
 import PersonLookupDialog from 'components/PersonLookupDialog';
-import PaginationControl from './PaginationControl';
+import Pagination from 'components/Pagination';
 
 interface Props {
     searchText: string;
@@ -219,7 +219,7 @@ export default function ChurchesTable({
             </div>
 
             {pageCount > 1 && (
-                <PaginationControl
+                <Pagination
                     currentPage={pageNumber}
                     pages={pageCount}
                     setPage={setPageNumber}

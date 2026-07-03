@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { useModalDialog } from "hooks/useModalDialog";
-import { useEscapeToClose } from "hooks/useEscapeToClose";
 import { Church } from 'types/services/ChurchesService';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { AuthManager } from 'types/AuthManager';
@@ -8,7 +7,7 @@ import { PeopleService, Person, PersonParentType } from "types/services/PeopleSe
 import { RequiredPersonFields } from "types/services/EventsService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import PersonCard from "./PersonCard";
-import PaginationControl from "./apps/event/PaginationControl";
+import Pagination from "./Pagination";
 import PersonDialog from "./PersonDialog";
 import ChurchLookup, { ChurchSearchTips } from "./ChurchLookup";
 
@@ -295,7 +294,7 @@ export default function PersonLookupDialog({
                                         </span>
                                     </div>)}
                             </div>
-                            <PaginationControl
+                            <Pagination
                                 currentPage={currentPageNumber ?? 0}
                                 pages={pageCount ?? 0}
                                 setPage={setCurrentPageNumber}

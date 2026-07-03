@@ -1,61 +1,110 @@
+import { useEffect, useRef, useState } from 'react';
+import FontAwesomeIcon from 'components/FontAwesomeIcon';
+
 interface Props {
     currentPage: number;
-    pageCount: number;
-    pageSize: number;
-    setPageSettings: (pageNumber: number, pageSize: number) => void;
+    pages: number;
+    setPage: (page: number) => void;
+    isLoading: boolean;
 }
 
-export default function Pagination({ currentPage, pageCount, pageSize, setPageSettings }: Props) {
+export default function Pagination({
+    currentPage,
+    pages,
+    setPage,
+    isLoading
+}: Props) {
+    const containerRef = useRef<HTMLDivElement>(null);
+    const [maxButtons, setMaxButtons] = useState(10);
 
-    if (currentPage <= 1 && pageCount <= 1) {
-        return null; // No pagination needed
+    useEffect(() => {
+        const updateMaxButtons = () => {
+            if (!containerRef.current) return;
+
+            const containerWidth = containerRef.current.offsetWidth;
+            const buttonWidth = 36;
+            const availableButtons = Math.floor(containerWidth / (buttonWidth + 4));
+            setMaxButtons(Math.max(3, Math.min(15, availableButtons)));
+        };
+
+        updateMaxButtons();
+        window.addEventListener('resize', updateMaxButtons);
+        return () => window.removeEventListener('resize', updateMaxButtons);
+    }, []);
+
+    if (pages <= 1) {
+        return null;
     }
 
+    const getPageNumbers = (): (number | null)[] => {
+        if (pages <= maxButtons) {
+            return Array.from({ length: pages }, (_, index) => index + 1);
+        }
+
+        const result: (number | null)[] = [];
+        const current = currentPage + 1;
+
+        result.push(1);
+
+        if (current > maxButtons / 2 + 1) {
+            result.push(null);
+        }
+
+        const start = Math.max(2, current - Math.floor(maxButtons / 3));
+        const end = Math.min(pages - 1, current + Math.floor(maxButtons / 3));
+
+        for (let pageNumber = start; pageNumber <= end; pageNumber++) {
+            result.push(pageNumber);
+        }
+
+        if (current < pages - maxButtons / 2) {
+            result.push(null);
+        }
+
+        result.push(pages);
+
+        return result;
+    };
+
     return (
-        <div className="my-2">
-            <div className="flex items-center gap-2">
+        <div ref={containerRef} className="flex justify-center mt-4">
+            <div className="join">
                 <button
-                    className="btn btn-primary btn-sm"
-                    onClick={() => setPageSettings(currentPage - 1, pageSize)}
-                    disabled={currentPage <= 1}
+                    className="join-item btn btn-sm"
+                    onClick={() => setPage(Math.max(0, currentPage - 1))}
+                    disabled={currentPage === 0 || isLoading}
                 >
-                    {"<"}
+                    <FontAwesomeIcon icon="fas faChevronLeft" />
                 </button>
-                <span className="flex items-center whitespace-nowrap gap-1">
-                    <select
-                        value={currentPage}
-                        onChange={(e) => setPageSettings(Number(e.target.value), pageSize)}
-                        className="select select-sm select-bordered"
-                    >
-                        {Array.from({ length: pageCount }, (_, i) => (
-                            <option key={`pagination_page_${i + 1}`} value={i + 1}>
-                                {i + 1}
-                            </option>
-                        ))}
-                    </select>
-                    &nbsp;of {pageCount}
-                </span>
+
+                {getPageNumbers().map((pageNumber, index) =>
+                    pageNumber === null ? (
+                        <button
+                            key={`ellipsis-${index}`}
+                            className="join-item btn btn-sm btn-disabled"
+                            disabled
+                        >
+                            ...
+                        </button>
+                    ) : (
+                        <button
+                            key={pageNumber}
+                            className={`join-item btn btn-sm ${pageNumber - 1 === currentPage ? 'btn-active' : ''}`}
+                            onClick={() => setPage(pageNumber - 1)}
+                            disabled={isLoading}
+                        >
+                            {pageNumber}
+                        </button>
+                    )
+                )}
+
                 <button
-                    className="btn btn-primary btn-sm mt-0"
-                    onClick={() => setPageSettings(currentPage + 1, pageSize)}
-                    disabled={currentPage >= pageCount}
+                    className="join-item btn btn-sm"
+                    onClick={() => setPage(Math.min(pages - 1, currentPage + 1))}
+                    disabled={currentPage === pages - 1 || isLoading}
                 >
-                    {">"}
+                    <FontAwesomeIcon icon="fas faChevronRight" />
                 </button>
-                <span className="flex items-center whitespace-nowrap gap-1">
-                    <select
-                        value={pageSize}
-                        onChange={(e) => setPageSettings(1, Number(e.target.value))}
-                        className="select select-sm select-bordered"
-                    >
-                        {[10, 20, 30, 40, 50].map((s) => (
-                            <option key={`pagination_size_${s}`} value={s}>
-                                {s}
-                            </option>
-                        ))}
-                    </select>
-                    per Page
-                </span>
             </div>
         </div>
     );

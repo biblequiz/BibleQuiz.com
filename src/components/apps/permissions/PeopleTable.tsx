@@ -5,7 +5,7 @@ import type { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ConfirmationDialog from 'components/ConfirmationDialog';
 import PersonDialog from 'components/PersonDialog';
-import PaginationControl from './PaginationControl';
+import Pagination from 'components/Pagination';
 
 interface Props {
     searchText: string;
@@ -154,7 +154,7 @@ export default function PeopleTable({
 
             {
                 pageCount > 1 && (
-                    <PaginationControl
+                    <Pagination
                         currentPage={pageNumber}
                         pages={pageCount}
                         setPage={setPageNumber}
