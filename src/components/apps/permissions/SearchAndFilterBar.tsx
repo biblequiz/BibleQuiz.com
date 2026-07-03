@@ -59,29 +59,30 @@ export default function SearchAndFilterBar({
                 Filter
             </legend>
             <div className="flex flex-wrap gap-2 mt-0 mb-0">
-                <label className="input input-sm mt-0 max-w-2xl">
-                    <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
-                    <input
-                        type="text"
-                        className="grow"
-                        placeholder="Name or Location"
-                        value={intermediateSearchText ?? ""}
-                        onChange={e => setIntermediateSearchText(e.target.value)}
-                        onKeyDown={e => {
-                            if (e.key === 'Enter') {
-                                onSearchChange(intermediateSearchText ?? "");
-                            }
-                        }} />
-                    {(intermediateSearchText?.length ?? 0) > 0 && (
-                        <button
-                            className="btn btn-ghost btn-xs"
-                            onClick={() => {
-                                setIntermediateSearchText(undefined);
-                                onSearchChange("");
-                            }}>
-                            <FontAwesomeIcon icon="fas faCircleXmark" />
-                        </button>)}
-                </label>
+                {(currentScope === PersonPermissionScope.Church || currentScope === null) && (
+                    <label className="input input-sm mt-0 max-w-2xl">
+                        <FontAwesomeIcon icon="fas faSearch" classNames={["h-[1em]", "opacity-50"]} />
+                        <input
+                            type="text"
+                            className="grow"
+                            placeholder="Name or Location"
+                            value={intermediateSearchText ?? ""}
+                            onChange={e => setIntermediateSearchText(e.target.value)}
+                            onKeyDown={e => {
+                                if (e.key === 'Enter') {
+                                    onSearchChange(intermediateSearchText ?? "");
+                                }
+                            }} />
+                        {(intermediateSearchText?.length ?? 0) > 0 && (
+                            <button
+                                className="btn btn-ghost btn-xs"
+                                onClick={() => {
+                                    setIntermediateSearchText(undefined);
+                                    onSearchChange("");
+                                }}>
+                                <FontAwesomeIcon icon="fas faCircleXmark" />
+                            </button>)}
+                    </label>)}
                 {showDistrictControls && (
                     <select
                         className="select select-sm mt-0 w-auto"
