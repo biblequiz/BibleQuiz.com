@@ -18,6 +18,7 @@ interface Props {
     canImpersonate: boolean;
     onMergeSelect?: (person: Person) => void;
     currentMergePersonId?: string | null;
+    refreshToken?: number;
 }
 
 export default function PeopleTable({
@@ -30,7 +31,8 @@ export default function PeopleTable({
     auth,
     canImpersonate,
     onMergeSelect,
-    currentMergePersonId
+    currentMergePersonId,
+    refreshToken = 0
 }: Props) {
     const [people, setPeople] = useState<Person[]>([]);
     const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -43,7 +45,7 @@ export default function PeopleTable({
 
     useEffect(() => {
         loadPeople();
-    }, [searchText, districtId, allDistricts, unapprovedOnly, potentialDuplicates, usersOnly, pageNumber, auth]);
+    }, [searchText, districtId, allDistricts, unapprovedOnly, potentialDuplicates, usersOnly, pageNumber, auth, refreshToken]);
 
     const loadPeople = async () => {
         setIsLoading(true);

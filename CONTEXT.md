@@ -65,6 +65,7 @@
 - Merge submission uses two steps: review dialog first, then final irreversible confirmation modal.
 - After successful merge, refresh local state in-place (preserve filters/page position) rather than full-page reload.
 - Changing the survivor selector overwrites previously selected field values with the newly computed defaults.
+- Review dialog includes a Reset to Defaults action that recomputes all field selections from current defaults.
 
 ### Impersonation
 

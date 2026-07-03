@@ -44,6 +44,8 @@ export default function PermissionsPage({ }: Props) {
     const [mergeSecondPerson, setMergeSecondPerson] = useState<Person | null>(null);
     const [mergeFirstChurch, setMergeFirstChurch] = useState<Church | null>(null);
     const [mergeSecondChurch, setMergeSecondChurch] = useState<Church | null>(null);
+    const [peopleRefreshToken, setPeopleRefreshToken] = useState(0);
+    const [churchesRefreshToken, setChurchesRefreshToken] = useState(0);
 
     // Check authorization
     if (!auth || !userProfile) {
@@ -175,7 +177,7 @@ export default function PermissionsPage({ }: Props) {
                                 secondItem={mergeSecondChurch}
                                 onClear={(item) => handleClearMerge('church', item)}
                                 auth={auth}
-                                onMergeComplete={() => window.location.reload()}
+                                onMergeComplete={() => setChurchesRefreshToken(prev => prev + 1)}
                             />
                         )}
                         <ChurchesTable
@@ -188,6 +190,7 @@ export default function PermissionsPage({ }: Props) {
                             canMergeAndImpersonate={canMergeAndImpersonate}
                             onMergeSelect={handleMergeChurch}
                             currentMergeChurchId={mergeFirstChurch?.Id || mergeSecondChurch?.Id}
+                            refreshToken={churchesRefreshToken}
                         />
                     </>
                 )}
@@ -200,7 +203,7 @@ export default function PermissionsPage({ }: Props) {
                             secondItem={mergeSecondPerson}
                             onClear={(item) => handleClearMerge('people', item)}
                             auth={auth}
-                            onMergeComplete={() => window.location.reload()}
+                            onMergeComplete={() => setPeopleRefreshToken(prev => prev + 1)}
                         />
                         <PeopleTable
                             searchText={searchText}
@@ -213,6 +216,7 @@ export default function PermissionsPage({ }: Props) {
                             canImpersonate={canMergeAndImpersonate}
                             onMergeSelect={handleMergePerson}
                             currentMergePersonId={mergeFirstPerson?.Id || mergeSecondPerson?.Id}
+                            refreshToken={peopleRefreshToken}
                         />
                     </>
                 )}

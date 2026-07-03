@@ -22,7 +22,7 @@ export default function ScopeSelector({ currentScope, onScopeChange, userProfile
                     onClick={() => onScopeChange(PersonPermissionScope.Organization)}
                 >
                     <FontAwesomeIcon icon="fas faGlobe" />
-                    Organization
+                    Administrators
                 </button>
             )}
 
@@ -32,7 +32,7 @@ export default function ScopeSelector({ currentScope, onScopeChange, userProfile
                     onClick={() => onScopeChange(PersonPermissionScope.Region)}
                 >
                     <FontAwesomeIcon icon="fas faMap" />
-                    Region
+                    Regions
                 </button>
             )}
 
@@ -42,7 +42,7 @@ export default function ScopeSelector({ currentScope, onScopeChange, userProfile
                     onClick={() => onScopeChange(PersonPermissionScope.District)}
                 >
                     <FontAwesomeIcon icon="fas faMapPin" />
-                    District
+                    Districts
                 </button>
             )}
 
@@ -52,7 +52,7 @@ export default function ScopeSelector({ currentScope, onScopeChange, userProfile
                     onClick={() => onScopeChange(PersonPermissionScope.Church)}
                 >
                     <FontAwesomeIcon icon="fas faChurch" />
-                    Church
+                    Churches
                 </button>
             )}
 

@@ -19,6 +19,7 @@ interface Props {
     canMergeAndImpersonate: boolean;
     onMergeSelect?: (church: Church) => void;
     currentMergeChurchId?: string | null;
+    refreshToken?: number;
 }
 
 export default function ChurchesTable({
@@ -30,7 +31,8 @@ export default function ChurchesTable({
     auth,
     canMergeAndImpersonate,
     onMergeSelect,
-    currentMergeChurchId
+    currentMergeChurchId,
+    refreshToken = 0
 }: Props) {
     const [churches, setChurches] = useState<Church[]>([]);
     const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -51,7 +53,7 @@ export default function ChurchesTable({
 
     useEffect(() => {
         loadChurches();
-    }, [searchText, districtId, allDistricts, potentialDuplicates, manuallyAdded, pageNumber, auth]);
+    }, [searchText, districtId, allDistricts, potentialDuplicates, manuallyAdded, pageNumber, auth, refreshToken]);
 
     const loadChurches = async () => {
         setIsLoading(true);
