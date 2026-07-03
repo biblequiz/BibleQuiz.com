@@ -361,8 +361,11 @@ export default function RegistrationPersonDialog({
                     parentId={church.Id ?? undefined}
                     eventId={event.Id ?? undefined}
                     allowParentChange={!event.IsOfficial}
+                    newParentRegionId={event.RegionId ?? undefined}
+                    newParentDistrictId={event.DistrictId ?? undefined}
                     newEntityLabel={roleLabel}
                     requiredFields={event.RequiredRoleFields[role]}
+                    hideOptionalFieldsOnPersonPage={true}
                     currentParent={church}
                     onSelect={handleSelectExistingPerson}
                 />)}

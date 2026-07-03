@@ -151,7 +151,7 @@ export default function ScheduleGridTabContent({
                             {teamOrQuizzer.Matches!.map((match: ScoringReportTeamMatch | ScoringReportQuizzerMatch | null, matchIndex: number) => {
                                 const matchKey = `${key}_teams_${teamOrQuizzerIndex}match_${teamOrQuizzerIndex}_matches_${matchIndex}`;
                                 if (null == match) {
-                                    return (<td key={matchKey}>--</td>);
+                                    return (<td key={matchKey} className="text-center">--</td>);
                                 }
 
                                 const isLiveMatch = null != match.CurrentQuestion;
