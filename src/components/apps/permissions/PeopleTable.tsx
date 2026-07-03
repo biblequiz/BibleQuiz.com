@@ -4,6 +4,7 @@ import { AuthService } from 'types/services/AuthService';
 import type { AuthManager } from 'types/AuthManager';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ConfirmationDialog from 'components/ConfirmationDialog';
+import PersonDialog from 'components/PersonDialog';
 import PaginationControl from './PaginationControl';
 
 interface Props {
@@ -38,6 +39,7 @@ export default function PeopleTable({
     const [pageCount, setPageCount] = useState<number>(0);
     const [impersonatingId, setImpersonatingId] = useState<string | undefined>(undefined);
     const [showConfirmation, setShowConfirmation] = useState<boolean>(false);
+    const [editingPerson, setEditingPerson] = useState<Person | null>(null);
 
     useEffect(() => {
         loadPeople();
@@ -96,13 +98,15 @@ export default function PeopleTable({
                             <th>First Name</th>
                             <th>Last Name</th>
                             <th>Church</th>
+                            {canImpersonate && <th>&nbsp;</th>}
+                            <th>&nbsp;</th>
                             <th>&nbsp;</th>
                         </tr>
                     </thead>
                     <tbody>
                         {people.length === 0 ? (
                             <tr>
-                                <td colSpan={4} className="text-center text-base-content/60">
+                                <td colSpan={canImpersonate ? 6 : 5} className="text-center text-base-content/60">
                                     No people found
                                 </td>
                             </tr>
@@ -112,20 +116,24 @@ export default function PeopleTable({
                                     <td>{person.FirstName}</td>
                                     <td>{person.LastName}</td>
                                     <td>{person.CurrentChurch?.Name}</td>
+                                    {canImpersonate && (
+                                        <td className="text-right">
+                                            {person.IsUser && (
+                                                <button
+                                                    className="btn btn-secondary btn-sm mt-0 mb-0"
+                                                    onClick={() => {
+                                                        if (person.Id) {
+                                                            setImpersonatingId(person.Id);
+                                                            setShowConfirmation(true);
+                                                        }
+                                                    }}
+                                                    title="Impersonate"
+                                                >
+                                                    <FontAwesomeIcon icon="fas faUserSecret" />
+                                                </button>)}
+                                        </td>
+                                    )}
                                     <td className="text-right">
-                                        {canImpersonate && person.IsUser && (
-                                            <button
-                                                className="btn btn-secondary btn-sm mr-2"
-                                                onClick={() => {
-                                                    if (person.Id) {
-                                                        setImpersonatingId(person.Id);
-                                                        setShowConfirmation(true);
-                                                    }
-                                                }}
-                                                title="Impersonate"
-                                            >
-                                                <FontAwesomeIcon icon="fas faUserSecret" />
-                                            </button>)}
                                         <button
                                             className={`btn btn-sm text-white mt-0 mb-0 ${currentMergePersonId === person.Id
                                                 ? 'btn-warning'
@@ -134,6 +142,15 @@ export default function PeopleTable({
                                             title="Select for merge"
                                         >
                                             <FontAwesomeIcon icon="fas faCompressAlt" />
+                                        </button>
+                                    </td>
+                                    <td className="text-right">
+                                        <button
+                                            className="btn btn-ghost btn-sm mt-0 mb-0"
+                                            onClick={() => setEditingPerson(person)}
+                                            title="Edit person settings"
+                                        >
+                                            <FontAwesomeIcon icon="fas faCog" />
                                         </button>
                                     </td>
                                 </tr>
@@ -149,6 +166,22 @@ export default function PeopleTable({
                     pages={pageCount}
                     setPage={setPageNumber}
                     isLoading={isLoading}
+                />
+            )}
+
+            {/* Person Settings Dialog */}
+            {editingPerson && (
+                <PersonDialog
+                    title="Update Person"
+                    existingPerson={editingPerson}
+                    parentType={PersonParentType.District}
+                    parentId={allDistricts ? null : (districtId ?? null)}
+                    onClose={(updatedPerson) => {
+                        setEditingPerson(null);
+                        if (updatedPerson) {
+                            loadPeople();
+                        }
+                    }}
                 />
             )}
 

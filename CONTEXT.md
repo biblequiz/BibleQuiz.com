@@ -25,6 +25,7 @@
 - **Add** — Grant new Administrator permissions at the current scope
 - **Modify** — Change the competition type restriction
 - **Remove** — Delete existing permissions
+- **Edit Person** — At People scope, edit a person's profile details (including church assignment)
 - **Merge** — Combine duplicate churches (at Church scope) or duplicate people (at People scope)
 - **Impersonate** — Become another user (People scope only, requires Organization admin without competition type restriction)
 

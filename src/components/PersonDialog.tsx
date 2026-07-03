@@ -395,12 +395,12 @@ export default function PersonDialog({
 
                     {showChurch && (
                         <div className="w-full">
-                            <label className="label">
+                            <label className="label mt-0 mb-0">
                                 <span className="label-text font-semibold">Church</span>
                                 <span className="label-text-alt text-error">*</span>
                             </label>
                             {churchId ? (
-                                <div className="flex items-center gap-2">
+                                <div className="flex items-center gap-2 mt-0">
                                     <span className="input input-bordered flex-1 flex items-center text-sm">
                                         {churchDisplay}
                                     </span>

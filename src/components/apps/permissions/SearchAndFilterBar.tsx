@@ -155,7 +155,7 @@ export default function SearchAndFilterBar({
 
             {/* Checkboxes */}
             {showCheckboxes && (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-0 mb-0">
                     {currentScope === PersonPermissionScope.Church && (
                         <>
                             <label className="label cursor-pointer gap-2">
