@@ -129,6 +129,7 @@ export default function MergePanel({
     const [isMerging, setIsMerging] = useState(false);
     const [survivorSource, setSurvivorSource] = useState<MergeSource>('first');
     const [selectedSources, setSelectedSources] = useState<Record<string, MergeSource>>({});
+    const [manualOverrides, setManualOverrides] = useState<Record<string, string>>({});
     const [showAllFields, setShowAllFields] = useState(false);
     const [validationErrors, setValidationErrors] = useState<string[]>([]);
     const [error, setError] = useState<string | undefined>(undefined);
@@ -324,7 +325,38 @@ export default function MergePanel({
         }
 
         setSelectedSources(nextSelections);
+        setManualOverrides({});
         setValidationErrors([]);
+    };
+
+    const getOverride = (key: string): string | undefined => {
+        const value = manualOverrides[key];
+        if (value == null) return undefined;
+        return value;
+    };
+
+    const updateOverride = (key: string, value: string) => {
+        setManualOverrides(prev => {
+            const next = { ...prev };
+            if (value.length === 0) {
+                delete next[key];
+            } else {
+                next[key] = value;
+            }
+
+            return next;
+        });
+    };
+
+    const applyStringOverride = (key: string, baseValue: string): string => {
+        const override = getOverride(key);
+        return override == null ? baseValue : override;
+    };
+
+    const applyNullableStringOverride = (key: string, baseValue: string | null): string | null => {
+        const override = getOverride(key);
+        if (override == null) return baseValue;
+        return DataTypeHelpers.trimToNull(override);
     };
 
     const resolvedSourceFor = (fieldKey: string): MergeSource => {
@@ -404,11 +436,26 @@ export default function MergePanel({
             const losingId = survivorSource === 'first' ? secondPerson.Id : firstPerson.Id;
             const resolved: Person = { ...survivor };
 
-            resolved.FirstName = resolveBySource(firstPerson.FirstName, secondPerson.FirstName, resolvedSourceFor('firstName'));
-            resolved.LastName = resolveBySource(firstPerson.LastName, secondPerson.LastName, resolvedSourceFor('lastName'));
-            resolved.Email = resolveBySource(firstPerson.Email, secondPerson.Email, resolvedSourceFor('email'));
-            resolved.DateOfBirth = resolveBySource(firstPerson.DateOfBirth, secondPerson.DateOfBirth, resolvedSourceFor('dateOfBirth'));
-            resolved.PhoneNumber = resolveBySource(firstPerson.PhoneNumber, secondPerson.PhoneNumber, resolvedSourceFor('phoneNumber'));
+            resolved.FirstName = applyStringOverride(
+                'firstName',
+                resolveBySource(firstPerson.FirstName, secondPerson.FirstName, resolvedSourceFor('firstName'))
+            );
+            resolved.LastName = applyStringOverride(
+                'lastName',
+                resolveBySource(firstPerson.LastName, secondPerson.LastName, resolvedSourceFor('lastName'))
+            );
+            resolved.Email = applyNullableStringOverride(
+                'email',
+                resolveBySource(firstPerson.Email, secondPerson.Email, resolvedSourceFor('email'))
+            );
+            resolved.DateOfBirth = applyNullableStringOverride(
+                'dateOfBirth',
+                resolveBySource(firstPerson.DateOfBirth, secondPerson.DateOfBirth, resolvedSourceFor('dateOfBirth'))
+            );
+            resolved.PhoneNumber = applyNullableStringOverride(
+                'phoneNumber',
+                resolveBySource(firstPerson.PhoneNumber, secondPerson.PhoneNumber, resolvedSourceFor('phoneNumber'))
+            );
 
             const churchSource = resolvedSourceFor('currentChurch');
             resolved.CurrentChurch = churchSource === 'first' ? firstPerson.CurrentChurch : secondPerson.CurrentChurch;
@@ -417,6 +464,38 @@ export default function MergePanel({
             const addressSource = resolvedSourceFor('address');
             const sourceAddress = addressSource === 'first' ? firstPerson.PhysicalAddress : secondPerson.PhysicalAddress;
             resolved.PhysicalAddress = sourceAddress ? { ...sourceAddress } : null;
+
+            const addressStreet = getOverride('addressStreet');
+            const addressCity = getOverride('addressCity');
+            const addressState = getOverride('addressState');
+            const addressZip = getOverride('addressZip');
+            if (addressStreet != null || addressCity != null || addressState != null || addressZip != null) {
+                const existingAddress = resolved.PhysicalAddress ?? {
+                    StreetAddress: '',
+                    City: '',
+                    State: '',
+                    ZipCode: null
+                };
+
+                if (addressStreet != null) {
+                    existingAddress.StreetAddress = addressStreet;
+                }
+
+                if (addressCity != null) {
+                    existingAddress.City = addressCity;
+                }
+
+                if (addressState != null) {
+                    existingAddress.State = addressState;
+                }
+
+                if (addressZip != null) {
+                    const parsedZip = parseInt(addressZip.replace(/\D/g, ''), 10);
+                    existingAddress.ZipCode = Number.isNaN(parsedZip) ? null : parsedZip;
+                }
+
+                resolved.PhysicalAddress = existingAddress;
+            }
 
             return {
                 type: 'people' as const,
@@ -431,8 +510,14 @@ export default function MergePanel({
             const losingId = survivorSource === 'first' ? secondChurch.Id : firstChurch.Id;
             const resolved: Church = { ...survivor };
 
-            resolved.Name = resolveBySource(firstChurch.Name, secondChurch.Name, resolvedSourceFor('name'));
-            resolved.DistrictId = resolveBySource(firstChurch.DistrictId, secondChurch.DistrictId, resolvedSourceFor('districtId'));
+            resolved.Name = applyStringOverride(
+                'name',
+                resolveBySource(firstChurch.Name, secondChurch.Name, resolvedSourceFor('name'))
+            );
+            resolved.DistrictId = applyStringOverride(
+                'districtId',
+                resolveBySource(firstChurch.DistrictId, secondChurch.DistrictId, resolvedSourceFor('districtId'))
+            );
 
             const addressSource = resolvedSourceFor('address');
             const sourceAddress = addressSource === 'first' ? firstChurch.PhysicalAddress : secondChurch.PhysicalAddress;
@@ -442,6 +527,24 @@ export default function MergePanel({
                 State: '',
                 ZipCode: null
             });
+
+            const addressStreet = getOverride('addressStreet');
+            const addressCity = getOverride('addressCity');
+            const addressState = getOverride('addressState');
+            const addressZip = getOverride('addressZip');
+            if (addressStreet != null) {
+                resolved.PhysicalAddress.StreetAddress = addressStreet;
+            }
+            if (addressCity != null) {
+                resolved.PhysicalAddress.City = addressCity;
+            }
+            if (addressState != null) {
+                resolved.PhysicalAddress.State = addressState;
+            }
+            if (addressZip != null) {
+                const parsedZip = parseInt(addressZip.replace(/\D/g, ''), 10);
+                resolved.PhysicalAddress.ZipCode = Number.isNaN(parsedZip) ? null : parsedZip;
+            }
 
             return {
                 type: 'church' as const,
@@ -698,6 +801,7 @@ export default function MergePanel({
                         <div className="mt-4 max-h-[50vh] overflow-y-auto space-y-3">
                             {visibleFields.map(field => {
                                 const selectedSource = resolvedSourceFor(field.key);
+                                const manualValue = getOverride(field.key) ?? '';
                                 return (
                                     <div key={field.key} className="border border-base-300 rounded-lg p-3">
                                         <div className="font-semibold mb-2">{field.label}</div>
@@ -727,6 +831,68 @@ export default function MergePanel({
                                                 </div>
                                             </button>
                                         </div>
+
+                                        {['firstName', 'lastName', 'email', 'phoneNumber', 'name', 'districtId'].includes(field.key) && (
+                                            <div className="mt-3">
+                                                <label className="label mt-0 mb-0">
+                                                    <span className="label-text text-xs">Manual Override</span>
+                                                </label>
+                                                <input
+                                                    type={field.key === 'email' ? 'email' : 'text'}
+                                                    className="input input-bordered input-sm w-full"
+                                                    value={manualValue}
+                                                    onChange={event => updateOverride(field.key, event.target.value)}
+                                                    placeholder="Leave empty to use selected source value"
+                                                />
+                                            </div>
+                                        )}
+
+                                        {field.key === 'dateOfBirth' && (
+                                            <div className="mt-3">
+                                                <label className="label mt-0 mb-0">
+                                                    <span className="label-text text-xs">Manual Override</span>
+                                                </label>
+                                                <input
+                                                    type="date"
+                                                    className="input input-bordered input-sm w-full"
+                                                    value={manualValue}
+                                                    onChange={event => updateOverride(field.key, event.target.value)}
+                                                />
+                                            </div>
+                                        )}
+
+                                        {field.key === 'address' && (
+                                            <div className="mt-3 grid grid-cols-1 md:grid-cols-4 gap-2">
+                                                <input
+                                                    type="text"
+                                                    className="input input-bordered input-sm"
+                                                    value={getOverride('addressStreet') ?? ''}
+                                                    onChange={event => updateOverride('addressStreet', event.target.value)}
+                                                    placeholder="Street override"
+                                                />
+                                                <input
+                                                    type="text"
+                                                    className="input input-bordered input-sm"
+                                                    value={getOverride('addressCity') ?? ''}
+                                                    onChange={event => updateOverride('addressCity', event.target.value)}
+                                                    placeholder="City override"
+                                                />
+                                                <input
+                                                    type="text"
+                                                    className="input input-bordered input-sm"
+                                                    value={getOverride('addressState') ?? ''}
+                                                    onChange={event => updateOverride('addressState', event.target.value)}
+                                                    placeholder="State override"
+                                                />
+                                                <input
+                                                    type="text"
+                                                    className="input input-bordered input-sm"
+                                                    value={getOverride('addressZip') ?? ''}
+                                                    onChange={event => updateOverride('addressZip', event.target.value)}
+                                                    placeholder="Zip override"
+                                                />
+                                            </div>
+                                        )}
                                     </div>
                                 );
                             })}
