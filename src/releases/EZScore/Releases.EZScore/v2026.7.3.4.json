@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4UxOPi",
   "tag_name": "v2026.7.3.4",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Addressed Stability Issues",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-07-03T06:34:41Z",
+  "updated_at": "2026-07-03T06:35:45Z",
   "published_at": "2026-07-03T06:34:31Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.7.3.4",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.7.3.4",
-  "body": "Latest version of EZScore"
+  "body": "The grid control was causing the Android version of the application to crash sporadically. This change replaces the control with a near identical solution with better stability for both display and crashes."
 }
