@@ -1,5 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
-import { useModalDialog } from 'hooks/useModalDialog';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { PeopleService } from 'types/services/PeopleService';
 import { ChurchesService } from 'types/services/ChurchesService';
 import type { AuthManager } from 'types/AuthManager';
@@ -137,14 +136,21 @@ export default function MergePanel({
 
     const hasMergeSelection = !!canShow && !!firstItem && !!secondItem;
 
-    useModalDialog(
-        reviewDialogRef,
-        () => {
-            setIsReviewing(false);
-            setValidationErrors([]);
-        },
-        !isReviewing || isMerging || isConfirming
-    );
+    useEffect(() => {
+        const dialog = reviewDialogRef.current;
+        if (!dialog) return;
+
+        if (isReviewing) {
+            if (!dialog.open) {
+                dialog.showModal();
+            }
+            return;
+        }
+
+        if (dialog.open) {
+            dialog.close();
+        }
+    }, [isReviewing]);
 
     const isPeopleMerge = mergeType === 'people';
     const firstPerson = isPeopleMerge ? (firstItem as Person) : null;
@@ -531,8 +537,8 @@ export default function MergePanel({
                     </h3>
                     <p className="text-sm text-base-content/70 mb-4">
                         {mergeType === 'people'
-                            ? 'Select two people from the list below, then review survivor and field values before final confirmation.'
-                            : 'Select two churches from the list below, then review survivor and field values before final confirmation.'}
+                            ? 'Select two people from the list below, then review merged field values before final confirmation.'
+                            : 'Select two churches from the list below, then review merged field values before final confirmation.'}
                     </p>
 
                     {error && (
@@ -604,13 +610,20 @@ export default function MergePanel({
             </div>
 
             {isReviewing && (
-                <dialog ref={reviewDialogRef} className="modal">
+                <dialog
+                    ref={reviewDialogRef}
+                    className="modal"
+                    onClose={() => {
+                        setIsReviewing(false);
+                        setValidationErrors([]);
+                    }}
+                >
                     <div className="modal-box w-11/12 max-w-5xl">
                         <h3 className="font-bold text-lg">
                             Merge Review: {mergeType === 'people' ? 'People' : 'Churches'}
                         </h3>
                         <p className="text-sm text-base-content/70 mt-2">
-                            Choose the survivor and per-field values before merging.
+                            Choose the merged and per-field values before merging.
                         </p>
 
                         {(error || validationErrors.length > 0) && (
@@ -626,7 +639,7 @@ export default function MergePanel({
                         )}
 
                         <div className="mt-4 p-3 bg-base-200 rounded-lg">
-                            <div className="font-semibold">Survivor</div>
+                            <div className="font-semibold">Merged Fields</div>
                             <div className="join w-full mt-2" role="radiogroup" aria-label="Survivor">
                                 <button
                                     type="button"
@@ -664,17 +677,17 @@ export default function MergePanel({
                             <div className="text-sm text-base-content/70">
                                 {unchangedFieldCount > 0 ? `${unchangedFieldCount} unchanged field${unchangedFieldCount === 1 ? '' : 's'} hidden` : 'All fields currently shown'}
                             </div>
-                            <div className="flex gap-2">
+                            <div className="flex gap-2 mt-0 mb-0">
                                 <button
                                     type="button"
-                                    className="btn btn-ghost btn-sm"
+                                    className="btn btn-ghost btn-sm mt-0 mb-0"
                                     onClick={() => setShowAllFields(prev => !prev)}
                                 >
                                     {showAllFields ? 'Hide Unchanged Fields' : 'Show All Fields'}
                                 </button>
                                 <button
                                     type="button"
-                                    className="btn btn-ghost btn-sm"
+                                    className="btn btn-ghost btn-sm mt-0 mb-0"
                                     onClick={() => recomputeDefaults(survivorSource)}
                                 >
                                     Reset to Defaults
@@ -688,7 +701,7 @@ export default function MergePanel({
                                 return (
                                     <div key={field.key} className="border border-base-300 rounded-lg p-3">
                                         <div className="font-semibold mb-2">{field.label}</div>
-                                        <div className="join w-full" role="radiogroup" aria-label={field.label}>
+                                        <div className="join w-full mt-0 mb-0" role="radiogroup" aria-label={field.label}>
                                             <button
                                                 type="button"
                                                 role="radio"
@@ -722,7 +735,15 @@ export default function MergePanel({
                         <div className="modal-action">
                             <button
                                 type="button"
-                                className="btn btn-ghost"
+                                className="btn btn-primary mt-0 mb-0"
+                                onClick={handleContinueToConfirmation}
+                                disabled={isMerging}
+                            >
+                                Continue
+                            </button>
+                            <button
+                                type="button"
+                                className="btn btn-ghost mt-0 mb-0"
                                 onClick={() => {
                                     setIsReviewing(false);
                                     setValidationErrors([]);
@@ -730,14 +751,6 @@ export default function MergePanel({
                                 disabled={isMerging}
                             >
                                 Cancel
-                            </button>
-                            <button
-                                type="button"
-                                className="btn btn-primary"
-                                onClick={handleContinueToConfirmation}
-                                disabled={isMerging}
-                            >
-                                Continue
                             </button>
                         </div>
                     </div>
@@ -756,7 +769,7 @@ export default function MergePanel({
                         ⚠️ This action CANNOT be undone. Any changes made as part of merging cannot be reversed.
                     </p>
                     <p className="mb-4">
-                        <strong>{mergeSummary.survivor}</strong> will keep the merged record, and <strong>{mergeSummary.merged}</strong> will be merged into it.
+                        <strong>{mergeSummary.survivor}</strong> will keep all records and <strong>{mergeSummary.merged}</strong> will be merged into it.
                     </p>
                     <p>Are you sure you want to continue?</p>
                 </ConfirmationDialog>
