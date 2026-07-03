@@ -70,7 +70,7 @@ export default function Pagination({
         <div ref={containerRef} className="flex justify-center mt-4">
             <div className="join">
                 <button
-                    className="join-item btn btn-sm"
+                    className="join-item btn btn-sm mt-0 mb-0"
                     onClick={() => setPage(Math.max(0, currentPage - 1))}
                     disabled={currentPage === 0 || isLoading}
                 >
@@ -81,7 +81,7 @@ export default function Pagination({
                     pageNumber === null ? (
                         <button
                             key={`ellipsis-${index}`}
-                            className="join-item btn btn-sm btn-disabled"
+                            className="join-item btn btn-sm btn-disabled mt-0 mb-0"
                             disabled
                         >
                             ...
@@ -99,7 +99,7 @@ export default function Pagination({
                 )}
 
                 <button
-                    className="join-item btn btn-sm"
+                    className="join-item btn btn-sm mt-0 mb-0"
                     onClick={() => setPage(Math.min(pages - 1, currentPage + 1))}
                     disabled={currentPage === pages - 1 || isLoading}
                 >

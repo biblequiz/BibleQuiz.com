@@ -5,7 +5,7 @@ import type { Person } from 'types/services/PeopleService';
 import type { Church } from 'types/services/ChurchesService';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ScopeSelector from './ScopeSelector';
-import SearchAndFilterBar from './SearchAndFilterBar';
+import SearchAndFilterBar, { DEFAULT_DISTRICT_ID, DEFAULT_REGION_ID } from './SearchAndFilterBar';
 import PermissionsTable from './PermissionsTable';
 import ChurchesTable from './ChurchesTable';
 import PeopleTable from './PeopleTable';
@@ -31,8 +31,8 @@ export default function PermissionsPage({ }: Props) {
     
     // Search and filter state
     const [searchText, setSearchText] = useState<string>('');
-    const [selectedRegion, setSelectedRegion] = useState<string | undefined>(undefined);
-    const [selectedDistrict, setSelectedDistrict] = useState<string | undefined>(undefined);
+    const [selectedRegion, setSelectedRegion] = useState<string | undefined>(DEFAULT_REGION_ID);
+    const [selectedDistrict, setSelectedDistrict] = useState<string | undefined>(DEFAULT_DISTRICT_ID);
     const [checkboxStates, setCheckboxStates] = useState({
         allDistricts: false,
         unapprovedOnly: false,
