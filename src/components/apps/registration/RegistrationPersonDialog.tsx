@@ -356,7 +356,6 @@ export default function RegistrationPersonDialog({
             {isShowingLookup && (
                 <PersonLookupDialog
                     title={`Find a ${roleLabel}`}
-                    description={`Select an existing person from ${church.Name} to register as a ${roleLabel}, or close this dialog and they'll need to be created in the People section first.`}
                     parentType={PersonParentType.Church}
                     parentId={church.Id ?? undefined}
                     eventId={event.Id ?? undefined}
@@ -364,7 +363,7 @@ export default function RegistrationPersonDialog({
                     newParentRegionId={event.RegionId ?? undefined}
                     newParentDistrictId={event.DistrictId ?? undefined}
                     newEntityLabel={roleLabel}
-                    requiredFields={event.RequiredRoleFields[role]}
+                    requiredFields={event.RequiredRoleFields[PersonRole[role]]}
                     hideOptionalFieldsOnPersonPage={true}
                     currentParent={church}
                     onSelect={handleSelectExistingPerson}

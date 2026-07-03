@@ -156,7 +156,7 @@ export class Person extends RemoteServiceModelBase<string> {
     /**
      * Gets or sets the e-mail address for this person.
      */
-    public Email!: string;
+    public Email!: string | null;
 
     /**
      * Gets or sets the phone number for this person.

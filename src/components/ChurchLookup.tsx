@@ -32,6 +32,7 @@ interface Props {
   currentChurch?: SelectedChurch | null;
   showTips?: ChurchSearchTips;
   allowAdd?: AddChurchConfig;
+  startWithSearch?: boolean;
   subtitle?: string;
   onSelect: (church: SelectedChurch, info: Church, authorized: boolean) => void;
 }
@@ -55,7 +56,8 @@ export default function ChurchLookup({
   currentChurch,
   subtitle,
   onSelect,
-  allowAdd }: Props) {
+  allowAdd,
+  startWithSearch = true }: Props) {
 
   const authManager = AuthManager.useNanoStore();
 
@@ -66,8 +68,13 @@ export default function ChurchLookup({
   const [selectError, setSelectError] = useState<string | undefined>(undefined);
 
   useEffect(() => {
-    if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
-      startSearch(searchState?.pageNumber, searchState?.pageSize);
+    if (startWithSearch && searchText && searchText.trim() !== "") {
+      if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
+        startSearch(searchState?.pageNumber, searchState?.pageSize);
+      }
+    }
+    else {
+      setSearchState(null);
     }
   }, [regionId, districtId]);
 
@@ -140,7 +147,7 @@ export default function ChurchLookup({
 
     if (allowAdd?.authorizeChurch) {
       setIsSelecting(true);
-      
+
       ChurchesService.authorizeChurch(authManager, church.Id!)
         .then((result) => {
           setIsSelecting(false);
@@ -189,12 +196,12 @@ export default function ChurchLookup({
         <div className="mt-0 mb-2 text-xs text-gray-500 italic">
           {subtitle}
         </div>)}
-      {!disabled && !isAdding && (
+      {!disabled && !isAdding && showTips !== ChurchSearchTips.None && (
         <span className="text-xs">
           Enter <b>Name</b> (e.g., "Cedar Park"), <b>City & State</b> (e.g., "Seattle, WA"), or <b>both</b> (e.g., "Cedar Park, Bothell, WA"), and then click <b>Search</b>.
         </span>)}
       {searchState && (
-        <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative mt-2 flex gap-2">
+        <fieldset className="fieldset border-base-300 rounded-box w-full border p-2 relative mt-2 flex gap-2">
           <legend className="fieldset-legend">Church Search Results</legend>
           {searchState.isLoading && (
             <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" className="mt-0" />)}

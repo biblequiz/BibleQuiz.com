@@ -190,7 +190,7 @@ export default function PersonDialog({
         }
         person.FirstName = firstName.trim();
         person.LastName = lastName.trim();
-        person.Email = DataTypeHelpers.trimToNull(email) ?? "";
+        person.Email = DataTypeHelpers.trimToNull(email);
         person.DateOfBirth = showBirthdate
             ? DataTypeHelpers.trimToNull(dateOfBirth)
             : (existingPerson?.DateOfBirth ?? null);
@@ -201,12 +201,27 @@ export default function PersonDialog({
         person.CurrentChurch = church;
 
         if (showAddress) {
-            const address = new Address();
-            address.StreetAddress = street.trim();
-            address.City = city.trim();
-            address.State = addressState;
-            address.ZipCode = zip ? parseInt(zip.replace(/\D/g, ""), 10) : null;
-            person.PhysicalAddress = address;
+            const streetValue = DataTypeHelpers.trimToNull(street);
+            const cityValue = DataTypeHelpers.trimToNull(city);
+            const stateValue = DataTypeHelpers.trimToNull(addressState);
+            const zipValue = zip ? parseInt(zip.replace(/\D/g, ""), 10) : null;
+            if (streetValue || cityValue || stateValue || zipValue) {
+                if (!streetValue || !cityValue || !stateValue || !zipValue) {
+                    setIsSaving(false);
+                    setValidationError("Please fill in all address fields or leave them all blank.");
+                    return;
+                }
+
+                const address = new Address();
+                address.StreetAddress = streetValue;
+                address.City = cityValue;
+                address.State = stateValue;
+                address.ZipCode = zipValue;
+                person.PhysicalAddress = address;
+            }
+            else {
+                person.PhysicalAddress = null;
+            }
         } else {
             person.PhysicalAddress = existingPerson?.PhysicalAddress ?? null;
         }
