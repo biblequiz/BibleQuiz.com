@@ -8,6 +8,8 @@ import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ConfirmationDialog from 'components/ConfirmationDialog';
 import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 import { sharedGlobalStatusToast } from 'utils/SharedState';
+import districts from 'data/districts.json';
+import type { DistrictInfo } from 'types/RegionAndDistricts';
 
 interface Props {
     canShow: boolean;
@@ -41,6 +43,17 @@ interface NormalizedAddress {
 
 const EMPTY_LABEL = 'Empty';
 const ZIP_CODE_PATTERN = /^\d{5}$/;
+const DISTRICTS = districts as DistrictInfo[];
+const DISTRICT_NAME_BY_ID: Record<string, string> = {};
+for (const district of DISTRICTS) {
+    DISTRICT_NAME_BY_ID[district.id] = district.name;
+}
+
+function formatDistrictDisplay(districtId: string | null | undefined): string {
+    const normalizedDistrictId = normalizeString(districtId);
+    if (!normalizedDistrictId) return EMPTY_LABEL;
+    return DISTRICT_NAME_BY_ID[normalizedDistrictId] ?? normalizedDistrictId;
+}
 
 function normalizeString(value: string | null | undefined): string | null {
     return DataTypeHelpers.trimToNull(value);
@@ -274,8 +287,8 @@ export default function MergePanel({
                 {
                     key: 'districtId',
                     label: 'District',
-                    firstDisplay: normalizeString(firstChurch.DistrictId) ?? EMPTY_LABEL,
-                    secondDisplay: normalizeString(secondChurch.DistrictId) ?? EMPTY_LABEL,
+                    firstDisplay: formatDistrictDisplay(firstChurch.DistrictId),
+                    secondDisplay: formatDistrictDisplay(secondChurch.DistrictId),
                     firstIsEmpty: !normalizeString(firstChurch.DistrictId),
                     secondIsEmpty: !normalizeString(secondChurch.DistrictId),
                     isEqual: normalizeString(firstChurch.DistrictId) === normalizeString(secondChurch.DistrictId),
@@ -725,9 +738,6 @@ export default function MergePanel({
                         <h3 className="font-bold text-lg">
                             Merge Review: {mergeType === 'people' ? 'People' : 'Churches'}
                         </h3>
-                        <p className="text-sm text-base-content/70 mt-2">
-                            Choose the merged and per-field values before merging.
-                        </p>
 
                         {(error || validationErrors.length > 0) && (
                             <div role="alert" className="alert alert-error mt-4">
@@ -839,7 +849,7 @@ export default function MergePanel({
                                             </button>
                                         </div>
 
-                                        {['firstName', 'lastName', 'email', 'phoneNumber', 'name', 'districtId'].includes(field.key) && (
+                                        {['firstName', 'lastName', 'email', 'phoneNumber', 'name'].includes(field.key) && (
                                             <div className="mt-3">
                                                 <label className="label mt-0 mb-0">
                                                     <span className="label-text text-xs">Manual Override</span>
@@ -851,6 +861,26 @@ export default function MergePanel({
                                                     onChange={event => updateOverride(field.key, event.target.value)}
                                                     placeholder="Leave empty to use selected source value"
                                                 />
+                                            </div>
+                                        )}
+
+                                        {field.key === 'districtId' && (
+                                            <div className="mt-3">
+                                                <label className="label mt-0 mb-0">
+                                                    <span className="label-text text-xs">Manual Override</span>
+                                                </label>
+                                                <select
+                                                    className="select select-bordered select-sm w-full"
+                                                    value={getOverride('districtId') ?? ''}
+                                                    onChange={event => updateOverride('districtId', event.target.value)}
+                                                >
+                                                    <option value="">Use selected source value</option>
+                                                    {DISTRICTS.map(district => (
+                                                        <option key={district.id} value={district.id}>
+                                                            {district.name}
+                                                        </option>
+                                                    ))}
+                                                </select>
                                             </div>
                                         )}
 
