@@ -89,12 +89,12 @@ export default function MergePanel({
                         </div>
                     )}
 
-                    <div className="space-y-3">
-                        <div>
-                            <label className="label">
+                    <div className="space-y-3 mt-0 mb-0">
+                        <div className="mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
                                 <span className="label-text">First {mergeType === 'people' ? 'Person' : 'Church'}</span>
                             </label>
-                            <div className="input-group">
+                            <div className="input-group mt-0 mb-0">
                                 <input
                                     type="text"
                                     value={getItemDisplay(firstItem)}
@@ -111,11 +111,11 @@ export default function MergePanel({
                             </div>
                         </div>
 
-                        <div>
-                            <label className="label">
+                        <div className="mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
                                 <span className="label-text">Second {mergeType === 'people' ? 'Person' : 'Church'}</span>
                             </label>
-                            <div className="input-group">
+                            <div className="input-group mt-0 mb-0">
                                 <input
                                     type="text"
                                     value={getItemDisplay(secondItem)}
