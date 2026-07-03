@@ -93,7 +93,7 @@ function getFieldDefault(
     return fallback;
 }
 
-function formatItemDisplay(item: Person | Church | null): string {
+function formatItemDisplay(item: Person | Church | null | undefined): string {
     if (!item) return '';
     if ('CurrentChurch' in item) {
         return `${(item as Person).FirstName ?? ''} ${(item as Person).LastName ?? ''}`.trim();
@@ -135,7 +135,7 @@ export default function MergePanel({
     const [error, setError] = useState<string | undefined>(undefined);
     const reviewDialogRef = useRef<HTMLDialogElement>(null);
 
-    if (!canShow || !firstItem || !secondItem) return null;
+    const hasMergeSelection = !!canShow && !!firstItem && !!secondItem;
 
     useModalDialog(
         reviewDialogRef,
@@ -143,7 +143,7 @@ export default function MergePanel({
             setIsReviewing(false);
             setValidationErrors([]);
         },
-        isMerging || isConfirming
+        !isReviewing || isMerging || isConfirming
     );
 
     const isPeopleMerge = mergeType === 'people';
@@ -516,6 +516,10 @@ export default function MergePanel({
             setIsMerging(false);
         }
     };
+
+    if (!hasMergeSelection) {
+        return null;
+    }
 
     return (
         <>
