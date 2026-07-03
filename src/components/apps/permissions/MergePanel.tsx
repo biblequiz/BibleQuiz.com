@@ -78,8 +78,8 @@ export default function MergePanel({
                     </h3>
                     <p className="text-sm text-base-content/70 mb-4">
                         {mergeType === 'people'
-                            ? 'Select two people from the list below to merge them. The first person will keep all records from both.'
-                            : 'Select two churches from the list below to merge them. The first church will keep all records from both.'}
+                            ? 'Select two people from the list below to merge them. The merged person will keep all records from both.'
+                            : 'Select two churches from the list below to merge them. The merged church will keep all records from both.'}
                     </p>
 
                     {error && (
