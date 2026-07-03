@@ -111,18 +111,22 @@ export default function ChurchesTable({
         setViewingPermissionsChurchId(null);
         setViewingPermissionsChurchName('');
         setChurchPermissions([]);
+        setShowAddPermissionDialog(false);
+        setAddingPermissionToChurchId(null);
+        setSelectedPermissionPerson(null);
+        setSelectedPermissionCompetitionType(null);
         setPermissionDialogError(undefined);
         setIsProcessingDialog(false);
     };
 
-    const handleAddPermissionToChurch = async () => {
-        if (!selectedPermissionPerson || !addingPermissionToChurchId) return;
+    const handleAddPermissionToChurch = async (person: Person) => {
+        if (!addingPermissionToChurchId) return;
         try {
             await PermissionsService.createOrUpdate(
                 auth,
                 PersonPermissionScope.Church,
                 PersonPermissionType.Administrator,
-                selectedPermissionPerson.Id || '',
+                person.Id || '',
                 selectedPermissionCompetitionType,
                 undefined,
                 addingPermissionToChurchId
@@ -252,7 +256,7 @@ export default function ChurchesTable({
                             yesLabel="Close"
                             onYes={handleClosePermissionsDialog}
                             noLabel={undefined}
-                            onNo={() => {}}
+                            onNo={handleClosePermissionsDialog}
                         >
                             <div className="space-y-4 max-h-96 overflow-y-auto">
                                 {permissionDialogError && (
@@ -321,8 +325,14 @@ export default function ChurchesTable({
                                 parentType={PersonParentType.Church}
                                 parentId={addingPermissionToChurchId}
                                 onSelect={(person) => {
+                                    if (!person) {
+                                        setShowAddPermissionDialog(false);
+                                        setSelectedPermissionPerson(null);
+                                        return;
+                                    }
+
                                     setSelectedPermissionPerson(person);
-                                    handleAddPermissionToChurch();
+                                    void handleAddPermissionToChurch(person);
                                 }}
                             />
                         )
