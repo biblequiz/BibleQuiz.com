@@ -46,6 +46,7 @@ export default function ChurchesTable({
     const [addingPermissionToChurchId, setAddingPermissionToChurchId] = useState<string | null>(null);
     const [selectedPermissionPerson, setSelectedPermissionPerson] = useState<Person | null>(null);
     const [selectedPermissionCompetitionType, setSelectedPermissionCompetitionType] = useState<string | null>(null);
+    const [isProcessingDialog, setIsProcessingDialog] = useState<boolean>(false);
     const [permissionDialogError, setPermissionDialogError] = useState<string>();
 
     useEffect(() => {
@@ -109,6 +110,7 @@ export default function ChurchesTable({
         setViewingPermissionsChurchName('');
         setChurchPermissions([]);
         setPermissionDialogError(undefined);
+        setIsProcessingDialog(false);
     };
 
     const handleAddPermissionToChurch = async () => {
@@ -137,11 +139,14 @@ export default function ChurchesTable({
     };
 
     const handleRemovePermission = async (permissionId: string) => {
+        setIsProcessingDialog(true);
         try {
             await PermissionsService.delete(auth, permissionId);
             setChurchPermissions(prev => prev.filter(p => p.Id !== permissionId));
+            setIsProcessingDialog(false);
         } catch (err) {
             setPermissionDialogError((err as any).message || 'Failed to remove permission');
+            setIsProcessingDialog(false);
         }
     };
 
@@ -294,7 +299,7 @@ export default function ChurchesTable({
                                                         onClick={() => {
                                                             if (perm.Id) handleRemovePermission(perm.Id);
                                                         }}
-                                                        disabled={permissionsLoading}
+                                                        disabled={permissionsLoading || isProcessingDialog}
                                                     >
                                                         <FontAwesomeIcon icon="fas faTrash" />
                                                     </button>
