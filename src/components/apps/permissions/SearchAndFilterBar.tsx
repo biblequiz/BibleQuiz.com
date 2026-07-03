@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { PersonPermissionScope } from 'types/services/PermissionsService';
 import regionsData from 'data/regions.json';
 import districtsData from 'data/districts.json';
+import FontAwesomeIcon from 'components/FontAwesomeIcon';
 
 interface Region {
     id: string;
@@ -47,6 +48,7 @@ export default function SearchAndFilterBar({
     onCheckboxChange,
     currentScope
 }: Props) {
+    const [intermediateSearchText, setIntermediateSearchText] = useState<string>(searchText);
     const [regions, setRegions] = useState<Region[]>([]);
     const [districts, setDistricts] = useState<District[]>([]);
     const [allDistricts, setAllDistricts] = useState<District[]>([]);
@@ -70,7 +72,7 @@ export default function SearchAndFilterBar({
         }
     }, [selectedRegion, isDistrictScope]);
 
-    const showDistrictControls = currentScope === PersonPermissionScope.Church || 
+    const showDistrictControls = currentScope === PersonPermissionScope.Church ||
         currentScope === PersonPermissionScope.Region ||
         currentScope === PersonPermissionScope.District ||
         currentScope === null;
@@ -79,20 +81,26 @@ export default function SearchAndFilterBar({
 
     return (
         <div className="space-y-4 bg-base-200 p-4 rounded-lg">
-            {/* Search */}
-            <div>
-                <label className="form-control">
-                    <div className="label">
-                        <span className="label-text">Search</span>
-                    </div>
-                    <input
-                        type="text"
-                        placeholder="Search by name or location"
-                        className="input input-bordered"
-                        value={searchText}
-                        onChange={(e) => onSearchChange(e.target.value)}
-                    />
-                </label>
+            <div className="join w-full mt-0 mb-0">
+                <input
+                    type="text"
+                    className="input input-bordered join-item w-full"
+                    value={intermediateSearchText}
+                    onChange={e => setIntermediateSearchText(e.target.value)}
+                    onKeyDown={e => {
+                        if (e.key === 'Enter') {
+                            onSearchChange(intermediateSearchText);
+                        }
+                    }}
+                    placeholder="Search by name or location"
+                />
+                <button
+                    type="button"
+                    className="btn btn-info join-item mt-0"
+                    onClick={() => onSearchChange(intermediateSearchText)}>
+                    <FontAwesomeIcon icon="fas faMagnifyingGlass" />
+                    Find
+                </button>
             </div>
 
             {/* Region and District Selection */}

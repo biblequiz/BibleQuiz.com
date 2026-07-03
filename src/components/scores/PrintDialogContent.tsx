@@ -279,7 +279,7 @@ export default function PrintDialogContent({ eventId, eventName, meets }: Props)
                             </label>)}
                     </fieldset>)}
                 <fieldset className="fieldset bg-base-100 border-base-300 rounded-box border p-4 pt-0 grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <legend className="fieldset-legend">Meets</legend>
+                    <legend className="fieldset-legend">Divisions</legend>
                     {resolvedMeetFields}
                 </fieldset>
             </form>

@@ -1,9 +1,10 @@
-import { useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useModalDialog } from "hooks/useModalDialog";
 import { Church, ChurchesService } from 'types/services/ChurchesService';
 import regions from 'data/regions.json';
 import districts from 'data/districts.json';
 import FontAwesomeIcon from './FontAwesomeIcon';
+import ConfirmationDialog from './ConfirmationDialog';
 import type { DistrictInfo, RegionInfo } from 'types/RegionAndDistricts';
 import type { Address } from 'types/services/models/Address';
 import { AuthManager } from 'types/AuthManager';
@@ -128,28 +129,66 @@ export default function ChurchSettingsDialog({
         };
     }, [manifest]);
 
-    const [state, setState] = useState(() => church?.PhysicalAddress?.State || addState?.state || validStates[0]);
+    const initialState = church?.PhysicalAddress?.State || addState?.state || validStates[0];
+    const initialDistrictId = church?.DistrictId || addState?.districtId || validDistrictsByState[initialState]?.[0]?.id;
+
+    const [state, setState] = useState(() => initialState);
     const allowedDistricts = validDistrictsByState[state];
 
     const [isSaving, setIsSaving] = useState(false);
+    const [showCloseConfirmation, setShowCloseConfirmation] = useState(false);
     const [savingError, setSavingError] = useState<string | null>(null);
+
+    const [name, setName] = useState(church?.Name || "");
+    const [streetAddress, setStreetAddress] = useState(church?.PhysicalAddress?.StreetAddress || "");
+    const [city, setCity] = useState(church?.PhysicalAddress?.City || "");
+    const [zipCode, setZipCode] = useState(church?.PhysicalAddress?.ZipCode || null);
+    const [districtId, setDistrictId] = useState(initialDistrictId);
+
+    const isDirty =
+        name !== (church?.Name || "") ||
+        streetAddress !== (church?.PhysicalAddress?.StreetAddress || "") ||
+        city !== (church?.PhysicalAddress?.City || "") ||
+        state !== initialState ||
+        zipCode !== (church?.PhysicalAddress?.ZipCode || null) ||
+        districtId !== initialDistrictId;
+
+    const closeWithoutSaving = useCallback(() => {
+        addState?.onCompleted(null);
+        onSave(null);
+        dialogRef.current?.close();
+    }, [addState, onSave]);
+
+    const handleClose = useCallback(() => {
+        if (isDirty) {
+            setShowCloseConfirmation(true);
+            return;
+        }
+
+        closeWithoutSaving();
+    }, [closeWithoutSaving, isDirty]);
+
+    useEffect(() => {
+        if (!isDirty) {
+            return;
+        }
+
+        const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+            event.preventDefault();
+        };
+
+        window.addEventListener('beforeunload', handleBeforeUnload);
+        return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+    }, [isDirty]);
 
     // Promote to the browser's top layer so this dialog renders above Starlight's
     // header/sidebar and above any parent dialog that opened it. Escape cancels
     // the dialog (disabled while saving to match the buttons).
     useModalDialog(
         dialogRef,
-        () => {
-            addState?.onCompleted(null);
-            onSave(null);
-        },
-        isSaving,
+        handleClose,
+        isSaving || showCloseConfirmation,
     );
-    const [name, setName] = useState(church?.Name || "");
-    const [streetAddress, setStreetAddress] = useState(church?.PhysicalAddress?.StreetAddress || "");
-    const [city, setCity] = useState(church?.PhysicalAddress?.City || "");
-    const [zipCode, setZipCode] = useState(church?.PhysicalAddress?.ZipCode || null);
-    const [districtId, setDistrictId] = useState(church?.DistrictId || addState?.districtId || allowedDistricts[0]?.id);
 
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>): Promise<void> {
         event.preventDefault();
@@ -186,7 +225,8 @@ export default function ChurchSettingsDialog({
     };
 
     return (
-        <dialog ref={dialogRef} className="modal">
+        <>
+            <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                 <h3 className="font-bold text-lg">{title}</h3>
                 <form method="dialog gap-2" onSubmit={handleSubmit}>
@@ -339,16 +379,26 @@ export default function ChurchSettingsDialog({
                             type="button"
                             disabled={isSaving}
                             tabIndex={2}
-                            onClick={() => {
-                                addState?.onCompleted(null);
-                                onSave(null);
-                                dialogRef.current?.close();
-                            }}>
+                            onClick={handleClose}>
                             <FontAwesomeIcon icon="fas faMinusCircle" />
                             Cancel
                         </button>
                     </div>
                 </form>
             </div>
-        </dialog>);
+        </dialog>
+
+            {showCloseConfirmation && (
+                <ConfirmationDialog
+                    title="Discard Changes?"
+                    yesLabel="Discard"
+                    noLabel="Keep Editing"
+                    onYes={closeWithoutSaving}
+                    onNo={() => setShowCloseConfirmation(false)}
+                    className="w-full max-w-md"
+                >
+                    <p>You have unsaved changes. Discard them and close this dialog?</p>
+                </ConfirmationDialog>
+            )}
+        </>);
 }

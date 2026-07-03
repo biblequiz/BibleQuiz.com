@@ -187,10 +187,10 @@ export default function ChurchesTable({
                                         </button>
                                         {canMergeAndImpersonate && (
                                             <button
-                                                className={`btn btn-sm text-white mt-0 mb-0 ${
+                                                className={`btn btn-sm mt-0 mb-0 ${
                                                     currentMergeChurchId === church.Id
                                                         ? 'btn-warning'
-                                                        : 'btn-outline'
+                                                        : 'btn-primary'
                                                 }`}
                                                 onClick={() => onMergeSelect?.(church)}
                                                 title="Select for merge"

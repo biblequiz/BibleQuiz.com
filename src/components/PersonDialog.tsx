@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useModalDialog } from "hooks/useModalDialog";
 import { AuthManager } from "types/AuthManager";
 import { PeopleService, Person, PersonParentType } from "types/services/PeopleService";
@@ -7,6 +7,7 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { Church } from "types/services/ChurchesService";
 import { Address } from "types/services/models/Address";
 import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
+import ConfirmationDialog from "components/ConfirmationDialog";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import stateData from "data/stateRegionsAndDistricts.json";
 
@@ -143,6 +144,7 @@ export default function PersonDialog({
     });
 
     const [isSaving, setIsSaving] = useState(false);
+    const [showCloseConfirmation, setShowCloseConfirmation] = useState(false);
     const [validationError, setValidationError] = useState<string | null>(null);
 
     const showEmail = shouldShow(requiredFields, RequiredPersonFields.Email, hideOptionalFields);
@@ -162,7 +164,50 @@ export default function PersonDialog({
     const churchDistrictId =
         parentType === PersonParentType.District ? (parentId ?? undefined) : newParentDistrictId;
 
-    useModalDialog(dialogRef, () => onClose(null), isSaving);
+    const isDirty =
+        firstName !== (existingPerson?.FirstName ?? "") ||
+        lastName !== (existingPerson?.LastName ?? "") ||
+        email !== (existingPerson?.Email ?? "") ||
+        dateOfBirth !== toInputDate(existingPerson?.DateOfBirth) ||
+        phoneNumber !== (existingPerson?.PhoneNumber ?? "") ||
+        street !== (existingPerson?.PhysicalAddress?.StreetAddress ?? "") ||
+        city !== (existingPerson?.PhysicalAddress?.City ?? "") ||
+        addressState !== (existingPerson?.PhysicalAddress?.State ?? "") ||
+        zip !== (
+            existingPerson?.PhysicalAddress?.ZipCode != null
+                ? DataTypeHelpers.formatZipCode(existingPerson.PhysicalAddress.ZipCode)
+                : ""
+        ) ||
+        churchId !== initialChurchId;
+
+    const closeWithoutSaving = useCallback(() => {
+        onClose(null);
+        dialogRef.current?.close();
+    }, [onClose]);
+
+    const handleClose = useCallback(() => {
+        if (isDirty) {
+            setShowCloseConfirmation(true);
+            return;
+        }
+
+        closeWithoutSaving();
+    }, [closeWithoutSaving, isDirty]);
+
+    useEffect(() => {
+        if (!isDirty) {
+            return;
+        }
+
+        const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+            event.preventDefault();
+        };
+
+        window.addEventListener("beforeunload", handleBeforeUnload);
+        return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+    }, [isDirty]);
+
+    useModalDialog(dialogRef, handleClose, isSaving || showCloseConfirmation);
 
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>): Promise<void> => {
         event.preventDefault();
@@ -240,37 +285,38 @@ export default function PersonDialog({
     const today = new Date().toISOString().split("T")[0];
 
     return (
-        <dialog ref={dialogRef} className="modal">
-            <div className="modal-box w-full max-w-2xl">
-                <h3 className="font-bold text-lg">{title}</h3>
-                <button
-                    type="button"
-                    className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-2"
-                    onClick={() => { onClose(null); dialogRef.current?.close(); }}
-                >✕</button>
+        <>
+            <dialog ref={dialogRef} className="modal">
+                <div className="modal-box w-full max-w-2xl">
+                    <h3 className="font-bold text-lg">{title}</h3>
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 mt-2"
+                        onClick={handleClose}
+                    >✕</button>
 
-                {validationError && (
-                    <div role="alert" className="alert alert-error mt-4 mb-0 w-full">
-                        <FontAwesomeIcon icon="fas faCircleExclamation" />
-                        <span><b>Error: </b>{validationError}</span>
-                    </div>
-                )}
+                    {validationError && (
+                        <div role="alert" className="alert alert-error mt-4 mb-0 w-full">
+                            <FontAwesomeIcon icon="fas faCircleExclamation" />
+                            <span><b>Error: </b>{validationError}</span>
+                        </div>
+                    )}
 
-                <form ref={formRef} className="mt-4 space-y-4" onSubmit={handleSubmit}>
-                    <div className="w-full">
-                        <label className="label">
-                            <span className="label-text font-semibold">First Name</span>
-                            <span className="label-text-alt text-error">*</span>
-                        </label>
-                        <input
-                            type="text"
-                            className="input input-bordered w-full mt-0"
-                            value={firstName}
-                            onChange={e => setFirstName(e.target.value)}
-                            required
-                            disabled={isSaving}
-                        />
-                    </div>
+                    <form ref={formRef} className="mt-4 space-y-4" onSubmit={handleSubmit}>
+                        <div className="w-full">
+                            <label className="label">
+                                <span className="label-text font-semibold">First Name</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
+                            <input
+                                type="text"
+                                className="input input-bordered w-full mt-0"
+                                value={firstName}
+                                onChange={e => setFirstName(e.target.value)}
+                                required
+                                disabled={isSaving}
+                            />
+                        </div>
 
                     <div className="w-full">
                         <label className="label">
@@ -431,27 +477,41 @@ export default function PersonDialog({
                         </div>
                     )}
 
-                    <div className="flex justify-end gap-2 pt-2">
-                        <button
-                            type="submit"
-                            className="btn btn-primary mt-0 mb-0"
-                            disabled={isSaving}
-                        >
-                            {isSaving
-                                ? (<><span className="loading loading-spinner loading-xs"></span> Saving...</>)
-                                : (<><FontAwesomeIcon icon="fas faFloppyDisk" classNames={["mr-1"]} /> Save</>)}
-                        </button>
-                        <button
-                            type="button"
-                            className="btn btn-warning mt-0 mb-0"
-                            onClick={() => { onClose(null); dialogRef.current?.close(); }}
-                            disabled={isSaving}
-                        >
-                            Cancel
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </dialog>
+                        <div className="flex justify-end gap-2 pt-2">
+                            <button
+                                type="submit"
+                                className="btn btn-primary mt-0 mb-0"
+                                disabled={isSaving}
+                            >
+                                {isSaving
+                                    ? (<><span className="loading loading-spinner loading-xs"></span> Saving...</>)
+                                    : (<><FontAwesomeIcon icon="fas faFloppyDisk" classNames={["mr-1"]} /> Save</>)}
+                            </button>
+                            <button
+                                type="button"
+                                className="btn btn-warning mt-0 mb-0"
+                                onClick={handleClose}
+                                disabled={isSaving}
+                            >
+                                Cancel
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </dialog>
+
+            {showCloseConfirmation && (
+                <ConfirmationDialog
+                    title="Discard Changes?"
+                    yesLabel="Discard"
+                    noLabel="Keep Editing"
+                    onYes={closeWithoutSaving}
+                    onNo={() => setShowCloseConfirmation(false)}
+                    className="w-full max-w-md"
+                >
+                    <p>You have unsaved changes. Discard them and close this dialog?</p>
+                </ConfirmationDialog>
+            )}
+        </>
     );
 }

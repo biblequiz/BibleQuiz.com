@@ -98,8 +98,6 @@ export default function PeopleTable({
                             <th>First Name</th>
                             <th>Last Name</th>
                             <th>Church</th>
-                            {canImpersonate && <th>&nbsp;</th>}
-                            <th>&nbsp;</th>
                             <th>&nbsp;</th>
                         </tr>
                     </thead>
@@ -116,26 +114,22 @@ export default function PeopleTable({
                                     <td>{person.FirstName}</td>
                                     <td>{person.LastName}</td>
                                     <td>{person.CurrentChurch?.Name}</td>
-                                    {canImpersonate && (
-                                        <td className="text-right">
-                                            {person.IsUser && (
-                                                <button
-                                                    className="btn btn-secondary btn-sm mt-0 mb-0"
-                                                    onClick={() => {
-                                                        if (person.Id) {
-                                                            setImpersonatingId(person.Id);
-                                                            setShowConfirmation(true);
-                                                        }
-                                                    }}
-                                                    title="Impersonate"
-                                                >
-                                                    <FontAwesomeIcon icon="fas faUserSecret" />
-                                                </button>)}
-                                        </td>
-                                    )}
                                     <td className="text-right">
+                                        {canImpersonate && person.IsUser && (
+                                            <button
+                                                className="btn btn-secondary btn-sm mt-0 mb-0 mr-2"
+                                                onClick={() => {
+                                                    if (person.Id) {
+                                                        setImpersonatingId(person.Id);
+                                                        setShowConfirmation(true);
+                                                    }
+                                                }}
+                                                title="Impersonate"
+                                            >
+                                                <FontAwesomeIcon icon="fas faUserSecret" />
+                                            </button>)}
                                         <button
-                                            className={`btn btn-sm text-white mt-0 mb-0 ${currentMergePersonId === person.Id
+                                            className={`btn btn-sm text-white mr-2 mt-0 mb-0 ${currentMergePersonId === person.Id
                                                 ? 'btn-warning'
                                                 : 'btn-primary'}`}
                                             onClick={() => onMergeSelect?.(person)}
@@ -143,8 +137,6 @@ export default function PeopleTable({
                                         >
                                             <FontAwesomeIcon icon="fas faCompressAlt" />
                                         </button>
-                                    </td>
-                                    <td className="text-right">
                                         <button
                                             className="btn btn-ghost btn-sm mt-0 mb-0"
                                             onClick={() => setEditingPerson(person)}
@@ -160,53 +152,58 @@ export default function PeopleTable({
                 </table>
             </div>
 
-            {pageCount > 1 && (
-                <PaginationControl
-                    currentPage={pageNumber}
-                    pages={pageCount}
-                    setPage={setPageNumber}
-                    isLoading={isLoading}
-                />
-            )}
+            {
+                pageCount > 1 && (
+                    <PaginationControl
+                        currentPage={pageNumber}
+                        pages={pageCount}
+                        setPage={setPageNumber}
+                        isLoading={isLoading}
+                    />
+                )
+            }
 
             {/* Person Settings Dialog */}
-            {editingPerson && (
-                <PersonDialog
-                    title="Update Person"
-                    existingPerson={editingPerson}
-                    parentType={PersonParentType.District}
-                    parentId={allDistricts ? null : (districtId ?? null)}
-                    onClose={(updatedPerson) => {
-                        setEditingPerson(null);
-                        if (updatedPerson) {
-                            loadPeople();
-                        }
-                    }}
-                />
-            )}
+            {
+                editingPerson && (
+                    <PersonDialog
+                        title="Update Person"
+                        existingPerson={editingPerson}
+                        parentType={PersonParentType.District}
+                        parentId={allDistricts ? null : (districtId ?? null)}
+                        onClose={(updatedPerson) => {
+                            setEditingPerson(null);
+                            if (updatedPerson) {
+                                loadPeople();
+                            }
+                        }}
+                    />
+                )
+            }
 
             {/* Impersonation Confirmation */}
-            {showConfirmation && (
-                <ConfirmationDialog
-                    title="Confirm Impersonation"
-                    yesLabel="Impersonate"
-                    onYes={handleImpersonate}
-                    noLabel="Cancel"
-                    onNo={() => {
-                        setShowConfirmation(false);
-                        setImpersonatingId(undefined);
-                    }}
-                >
-                    <p>Impersonating a person means you will be accessing the system as if you were that person, including any permissions and behaviors with the following exceptions:</p>
-                    <ul className="list-disc list-inside space-y-1 my-2">
-                        <li>Your name will appear in any logs.</li>
-                        <li>A button will appear in the banner to allow impersonation to stop at any time.</li>
-                        <li>Unable to impersonate another user.</li>
-                        <li>Cannot make changes to permissions of users.</li>
-                    </ul>
-                    <p>Are you sure you want to continue?</p>
-                </ConfirmationDialog>
-            )}
-        </div>
-    );
+            {
+                showConfirmation && (
+                    <ConfirmationDialog
+                        title="Confirm Impersonation"
+                        yesLabel="Impersonate"
+                        onYes={handleImpersonate}
+                        noLabel="Cancel"
+                        onNo={() => {
+                            setShowConfirmation(false);
+                            setImpersonatingId(undefined);
+                        }}
+                    >
+                        <p>Impersonating a person means you will be accessing the system as if you were that person, including any permissions and behaviors with the following exceptions:</p>
+                        <ul className="list-disc list-inside space-y-1 my-2">
+                            <li>Your name will appear in any logs.</li>
+                            <li>A button will appear in the banner to allow impersonation to stop at any time.</li>
+                            <li>Unable to impersonate another user.</li>
+                            <li>Cannot make changes to permissions of users.</li>
+                        </ul>
+                        <p>Are you sure you want to continue?</p>
+                    </ConfirmationDialog>
+                )
+            }
+        </div>);
 }
