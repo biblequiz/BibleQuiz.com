@@ -741,6 +741,13 @@ export default function MergePanel({
                             </div>
                         )}
 
+                        {isMerging && (
+                            <div role="status" className="alert alert-info mt-4">
+                                <span className="loading loading-spinner loading-sm"></span>
+                                <span>Merging {mergeType === 'people' ? 'People' : 'Churches'}...</span>
+                            </div>
+                        )}
+
                         <div className="mt-4 p-3 bg-base-200 rounded-lg">
                             <div className="font-semibold">Merged Fields</div>
                             <div className="join w-full mt-2" role="radiogroup" aria-label="Survivor">
@@ -926,11 +933,17 @@ export default function MergePanel({
             {isConfirming && (
                 <ConfirmationDialog
                     title={`Merge ${mergeType === 'people' ? 'People' : 'Churches'}`}
-                    yesLabel="Merge"
+                    yesLabel={isMerging ? `Merging ${mergeType === 'people' ? 'People' : 'Churches'}...` : 'Merge'}
                     onYes={handleMerge}
                     noLabel="Cancel"
                     onNo={() => setIsConfirming(false)}
                 >
+                    {isMerging && (
+                        <div role="status" className="alert alert-info mt-2 mb-3">
+                            <span className="loading loading-spinner loading-sm"></span>
+                            <span>Merging {mergeType === 'people' ? 'People' : 'Churches'}...</span>
+                        </div>
+                    )}
                     <p className="font-bold mb-2">
                         ⚠️ This action CANNOT be undone. Any changes made as part of merging cannot be reversed.
                     </p>
