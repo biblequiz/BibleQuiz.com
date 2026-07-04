@@ -81,9 +81,9 @@ export default function AuthButton({ type }: Props) {
                     className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
                     {authManager.isImpersonating && (
-                        <li>
+                        <li className="text-base-content">
                             <a
-                                className="text-error"
+                                className="text-base-content"
                                 onClick={() => {
                                     authManager.stopImpersonating()
                                         .then(() => window.location.assign('/'))
