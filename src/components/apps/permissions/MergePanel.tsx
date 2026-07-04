@@ -5,10 +5,12 @@ import type { AuthManager } from 'types/AuthManager';
 import type { Person } from 'types/services/PeopleService';
 import type { Church } from 'types/services/ChurchesService';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
+import ChurchLookup, { ChurchSearchTips } from 'components/ChurchLookup';
 import ConfirmationDialog from 'components/ConfirmationDialog';
 import { DataTypeHelpers } from 'utils/DataTypeHelpers';
 import { sharedGlobalStatusToast } from 'utils/SharedState';
 import districts from 'data/districts.json';
+import stateData from 'data/stateRegionsAndDistricts.json';
 import type { DistrictInfo } from 'types/RegionAndDistricts';
 
 interface Props {
@@ -21,7 +23,8 @@ interface Props {
     onMergeComplete?: () => void;
 }
 
-type MergeSource = 'first' | 'second';
+type CandidateSource = 'first' | 'second';
+type MergeSource = CandidateSource | 'manual';
 
 interface MergeFieldDefinition {
     key: string;
@@ -31,7 +34,7 @@ interface MergeFieldDefinition {
     firstIsEmpty: boolean;
     secondIsEmpty: boolean;
     isEqual: boolean;
-    defaultSource: MergeSource;
+    defaultSource: CandidateSource;
 }
 
 interface NormalizedAddress {
@@ -44,10 +47,21 @@ interface NormalizedAddress {
 const EMPTY_LABEL = 'Empty';
 const ZIP_CODE_PATTERN = /^\d{5}$/;
 const DISTRICTS = districts as DistrictInfo[];
+const PERSON_ADDRESS_STATES = (stateData as Array<{ code: string }>).map(state => state.code);
 const DISTRICT_NAME_BY_ID: Record<string, string> = {};
+const DISTRICTS_BY_STATE: Record<string, DistrictInfo[]> = {};
 for (const district of DISTRICTS) {
     DISTRICT_NAME_BY_ID[district.id] = district.name;
+    for (const state of district.states) {
+        const existing = DISTRICTS_BY_STATE[state];
+        if (existing) {
+            existing.push(district);
+        } else {
+            DISTRICTS_BY_STATE[state] = [district];
+        }
+    }
 }
+const CHURCH_ADDRESS_STATES = Object.keys(DISTRICTS_BY_STATE).sort();
 
 function formatDistrictDisplay(districtId: string | null | undefined): string {
     const normalizedDistrictId = normalizeString(districtId);
@@ -98,8 +112,8 @@ function formatAddress(address: NormalizedAddress): string {
 function getFieldDefault(
     firstIsEmpty: boolean,
     secondIsEmpty: boolean,
-    fallback: MergeSource
-): MergeSource {
+    fallback: CandidateSource
+): CandidateSource {
     if (firstIsEmpty && !secondIsEmpty) return 'second';
     if (!firstIsEmpty && secondIsEmpty) return 'first';
     return fallback;
@@ -128,6 +142,28 @@ function isChurchValueEmpty(church: Church | null | undefined): boolean {
     return !normalizeString(church?.Id ?? null);
 }
 
+function toInputDate(date: string | null | undefined): string {
+    if (!date) return '';
+    const parsed = DataTypeHelpers.parseDateOnly(date);
+    if (!parsed) return '';
+    const year = parsed.getFullYear();
+    const month = String(parsed.getMonth() + 1).padStart(2, '0');
+    const day = String(parsed.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+function hasOwnValue(values: Record<string, string>, key: string): boolean {
+    return Object.prototype.hasOwnProperty.call(values, key);
+}
+
+function formatSuccessMessage(mergeType: Props['mergeType'], item: Person | Church): string {
+    return `Successfully merged ${mergeType === 'people' ? 'person' : 'church'} ${formatItemDisplay(item)}.`;
+}
+
+function normalizeComparableAddress(address: Person['PhysicalAddress'] | Church['PhysicalAddress'] | null | undefined): NormalizedAddress {
+    return normalizeAddress(address);
+}
+
 export default function MergePanel({
     canShow,
     mergeType,
@@ -140,10 +176,12 @@ export default function MergePanel({
     const [isReviewing, setIsReviewing] = useState(false);
     const [isConfirming, setIsConfirming] = useState(false);
     const [isMerging, setIsMerging] = useState(false);
-    const [survivorSource, setSurvivorSource] = useState<MergeSource>('first');
+    const [survivorSource, setSurvivorSource] = useState<CandidateSource>('first');
     const [selectedSources, setSelectedSources] = useState<Record<string, MergeSource>>({});
     const [manualOverrides, setManualOverrides] = useState<Record<string, string>>({});
+    const [manualChurch, setManualChurch] = useState<Church | null | undefined>(undefined);
     const [showAllFields, setShowAllFields] = useState(false);
+    const [showDiscardConfirmation, setShowDiscardConfirmation] = useState(false);
     const [validationErrors, setValidationErrors] = useState<string[]>([]);
     const [error, setError] = useState<string | undefined>(undefined);
     const panelRef = useRef<HTMLDivElement>(null);
@@ -336,13 +374,15 @@ export default function MergePanel({
         return [];
     }, [isPeopleMerge, firstPerson, secondPerson, firstChurch, secondChurch]);
 
-    const fieldDefinitions = useMemo(
-        () => defaultFieldDefinitions.map(field => ({
+    const getFieldDefinitionsForSurvivor = (nextSurvivor: CandidateSource) => defaultFieldDefinitions.map(field => ({
             ...field,
             defaultSource: field.key === 'address'
                 ? field.defaultSource
-                : getFieldDefault(field.firstIsEmpty, field.secondIsEmpty, survivorSource)
-        })),
+                : getFieldDefault(field.firstIsEmpty, field.secondIsEmpty, nextSurvivor)
+        }));
+
+    const fieldDefinitions = useMemo(
+        () => getFieldDefinitionsForSurvivor(survivorSource),
         [defaultFieldDefinitions, survivorSource]
     );
 
@@ -353,57 +393,165 @@ export default function MergePanel({
 
     const unchangedFieldCount = fieldDefinitions.filter(field => field.isEqual).length;
 
-    const recomputeDefaults = (nextSurvivor: MergeSource) => {
+    const clearValidationErrors = () => {
+        setValidationErrors([]);
+    };
+
+    const getDefaultSelections = (nextSurvivor: CandidateSource): Record<string, MergeSource> => {
         const nextSelections: Record<string, MergeSource> = {};
-        for (const field of defaultFieldDefinitions) {
-            nextSelections[field.key] = field.key === 'address'
-                ? field.defaultSource
-                : getFieldDefault(field.firstIsEmpty, field.secondIsEmpty, nextSurvivor);
+        for (const field of getFieldDefinitionsForSurvivor(nextSurvivor)) {
+            nextSelections[field.key] = field.defaultSource;
         }
 
+        return nextSelections;
+    };
+
+    const recomputeDefaults = (nextSurvivor: CandidateSource) => {
+        const nextSelections = getDefaultSelections(nextSurvivor);
         setSelectedSources(nextSelections);
         setManualOverrides({});
+        setManualChurch(undefined);
         setValidationErrors([]);
     };
 
     const getOverride = (key: string): string | undefined => {
-        const value = manualOverrides[key];
-        if (value == null) return undefined;
-        return value;
+        if (!hasOwnValue(manualOverrides, key)) return undefined;
+        return manualOverrides[key];
     };
 
     const updateOverride = (key: string, value: string) => {
+        clearValidationErrors();
+        setManualOverrides(prev => ({
+            ...prev,
+            [key]: value
+        }));
+    };
+
+    const resolvedSourceFor = (fieldKey: string, nextSurvivor: CandidateSource = survivorSource, sourceSelections: Record<string, MergeSource> = selectedSources): MergeSource => {
+        const field = getFieldDefinitionsForSurvivor(nextSurvivor).find(item => item.key === fieldKey);
+        if (!field) return 'first';
+        return sourceSelections[fieldKey] ?? field.defaultSource;
+    };
+
+    const resolveBySource = <T,>(firstValue: T, secondValue: T, source: CandidateSource): T => {
+        return source === 'first' ? firstValue : secondValue;
+    };
+
+    const getCandidateChurch = (source: CandidateSource): Church | null => (
+        source === 'first' ? firstPerson?.CurrentChurch ?? null : secondPerson?.CurrentChurch ?? null
+    );
+
+    const getCandidateAddress = (source: CandidateSource): Person['PhysicalAddress'] | Church['PhysicalAddress'] | null => {
+        if (isPeopleMerge) {
+            return source === 'first' ? firstPerson?.PhysicalAddress ?? null : secondPerson?.PhysicalAddress ?? null;
+        }
+
+        return source === 'first' ? firstChurch?.PhysicalAddress ?? null : secondChurch?.PhysicalAddress ?? null;
+    };
+
+    const getCandidateFieldValue = (fieldKey: string, source: CandidateSource): string => {
+        if (isPeopleMerge && firstPerson && secondPerson) {
+            switch (fieldKey) {
+                case 'firstName':
+                    return resolveBySource(firstPerson.FirstName ?? '', secondPerson.FirstName ?? '', source);
+                case 'lastName':
+                    return resolveBySource(firstPerson.LastName ?? '', secondPerson.LastName ?? '', source);
+                case 'email':
+                    return resolveBySource(firstPerson.Email ?? '', secondPerson.Email ?? '', source) ?? '';
+                case 'dateOfBirth':
+                    return toInputDate(resolveBySource(firstPerson.DateOfBirth, secondPerson.DateOfBirth, source));
+                case 'phoneNumber':
+                    return resolveBySource(firstPerson.PhoneNumber ?? '', secondPerson.PhoneNumber ?? '', source) ?? '';
+                default:
+                    return '';
+            }
+        }
+
+        if (!isPeopleMerge && firstChurch && secondChurch) {
+            switch (fieldKey) {
+                case 'name':
+                    return resolveBySource(firstChurch.Name ?? '', secondChurch.Name ?? '', source);
+                case 'districtId':
+                    return resolveBySource(firstChurch.DistrictId ?? '', secondChurch.DistrictId ?? '', source);
+                default:
+                    return '';
+            }
+        }
+
+        return '';
+    };
+
+    const updateAddressStateOverride = (value: string) => {
+        clearValidationErrors();
         setManualOverrides(prev => {
-            const next = { ...prev };
-            if (value.length === 0) {
-                delete next[key];
-            } else {
-                next[key] = value;
+            const next: Record<string, string> = {
+                ...prev,
+                addressState: value
+            };
+
+            if (!isPeopleMerge && resolvedSourceFor('districtId') === 'manual') {
+                const districtId = hasOwnValue(next, 'districtId') ? next.districtId : '';
+                if (districtId && value && !(DISTRICTS_BY_STATE[value] ?? []).some(district => district.id === districtId)) {
+                    next.districtId = '';
+                }
             }
 
             return next;
         });
     };
 
-    const applyStringOverride = (key: string, baseValue: string): string => {
-        const override = getOverride(key);
-        return override == null ? baseValue : override;
+    const prefillManualField = (fieldKey: string, source: CandidateSource) => {
+        if (fieldKey === 'currentChurch') {
+            setManualChurch(prev => prev === undefined ? getCandidateChurch(source) : prev);
+            return;
+        }
+
+        if (fieldKey === 'address') {
+            setManualOverrides(prev => {
+                if (
+                    hasOwnValue(prev, 'addressStreet') ||
+                    hasOwnValue(prev, 'addressCity') ||
+                    hasOwnValue(prev, 'addressState') ||
+                    hasOwnValue(prev, 'addressZip')
+                ) {
+                    return prev;
+                }
+
+                const address = normalizeAddress(getCandidateAddress(source));
+                return {
+                    ...prev,
+                    addressStreet: address.street ?? '',
+                    addressCity: address.city ?? '',
+                    addressState: address.state ?? '',
+                    addressZip: address.zip == null ? '' : DataTypeHelpers.formatZipCode(address.zip)
+                };
+            });
+            return;
+        }
+
+        setManualOverrides(prev => {
+            if (hasOwnValue(prev, fieldKey)) {
+                return prev;
+            }
+
+            return {
+                ...prev,
+                [fieldKey]: getCandidateFieldValue(fieldKey, source)
+            };
+        });
     };
 
-    const applyNullableStringOverride = (key: string, baseValue: string | null): string | null => {
-        const override = getOverride(key);
-        if (override == null) return baseValue;
-        return DataTypeHelpers.trimToNull(override);
-    };
+    const updateSelectedSource = (fieldKey: string, source: MergeSource) => {
+        clearValidationErrors();
+        if (source === 'manual') {
+            const currentSource = resolvedSourceFor(fieldKey);
+            prefillManualField(fieldKey, currentSource === 'manual' ? 'first' : currentSource);
+        }
 
-    const resolvedSourceFor = (fieldKey: string): MergeSource => {
-        const field = fieldDefinitions.find(item => item.key === fieldKey);
-        if (!field) return 'first';
-        return selectedSources[fieldKey] ?? field.defaultSource;
-    };
-
-    const resolveBySource = <T,>(firstValue: T, secondValue: T, source: MergeSource): T => {
-        return source === 'first' ? firstValue : secondValue;
+        setSelectedSources(prev => ({
+            ...prev,
+            [fieldKey]: source
+        }));
     };
 
     const validatePerson = (person: Person): string[] => {
@@ -464,74 +612,84 @@ export default function MergePanel({
             }
         }
 
+        const districtId = normalizeString(church.DistrictId);
+        if (districtId && address.state) {
+            const district = DISTRICTS.find(item => item.id === districtId);
+            if (district && !district.states.includes(address.state)) {
+                errors.push('District must match the selected state.');
+            }
+        }
+
         return errors;
     };
 
-    const buildResolvedMerge = () => {
+    const buildResolvedMerge = (
+        nextSurvivor: CandidateSource = survivorSource,
+        sourceSelections: Record<string, MergeSource> = selectedSources,
+        overrides: Record<string, string> = manualOverrides,
+        manualChurchSelection: Church | null | undefined = manualChurch
+    ) => {
+        const sourceFor = (fieldKey: string): MergeSource => resolvedSourceFor(fieldKey, nextSurvivor, sourceSelections);
+        const getStateOverride = (key: string): string | undefined => (
+            hasOwnValue(overrides, key) ? overrides[key] : undefined
+        );
+
         if (isPeopleMerge && firstPerson && secondPerson) {
-            const survivor = survivorSource === 'first' ? firstPerson : secondPerson;
-            const losingId = survivorSource === 'first' ? secondPerson.Id : firstPerson.Id;
+            const survivor = nextSurvivor === 'first' ? firstPerson : secondPerson;
+            const losingId = nextSurvivor === 'first' ? secondPerson.Id : firstPerson.Id;
             const resolved: Person = { ...survivor };
 
-            resolved.FirstName = applyStringOverride(
-                'firstName',
-                resolveBySource(firstPerson.FirstName, secondPerson.FirstName, resolvedSourceFor('firstName'))
-            );
-            resolved.LastName = applyStringOverride(
-                'lastName',
-                resolveBySource(firstPerson.LastName, secondPerson.LastName, resolvedSourceFor('lastName'))
-            );
-            resolved.Email = applyNullableStringOverride(
-                'email',
-                resolveBySource(firstPerson.Email, secondPerson.Email, resolvedSourceFor('email'))
-            );
-            resolved.DateOfBirth = applyNullableStringOverride(
-                'dateOfBirth',
-                resolveBySource(firstPerson.DateOfBirth, secondPerson.DateOfBirth, resolvedSourceFor('dateOfBirth'))
-            );
-            resolved.PhoneNumber = applyNullableStringOverride(
-                'phoneNumber',
-                resolveBySource(firstPerson.PhoneNumber, secondPerson.PhoneNumber, resolvedSourceFor('phoneNumber'))
-            );
+            const firstNameSource = sourceFor('firstName');
+            resolved.FirstName = firstNameSource === 'manual'
+                ? (getStateOverride('firstName') ?? '')
+                : resolveBySource(firstPerson.FirstName, secondPerson.FirstName, firstNameSource);
 
-            const churchSource = resolvedSourceFor('currentChurch');
-            resolved.CurrentChurch = churchSource === 'first' ? firstPerson.CurrentChurch : secondPerson.CurrentChurch;
+            const lastNameSource = sourceFor('lastName');
+            resolved.LastName = lastNameSource === 'manual'
+                ? (getStateOverride('lastName') ?? '')
+                : resolveBySource(firstPerson.LastName, secondPerson.LastName, lastNameSource);
+
+            const emailSource = sourceFor('email');
+            resolved.Email = emailSource === 'manual'
+                ? DataTypeHelpers.trimToNull(getStateOverride('email') ?? '')
+                : resolveBySource(firstPerson.Email, secondPerson.Email, emailSource);
+
+            const dateOfBirthSource = sourceFor('dateOfBirth');
+            resolved.DateOfBirth = dateOfBirthSource === 'manual'
+                ? DataTypeHelpers.trimToNull(getStateOverride('dateOfBirth') ?? '')
+                : resolveBySource(firstPerson.DateOfBirth, secondPerson.DateOfBirth, dateOfBirthSource);
+
+            const phoneSource = sourceFor('phoneNumber');
+            resolved.PhoneNumber = phoneSource === 'manual'
+                ? DataTypeHelpers.trimToNull(getStateOverride('phoneNumber') ?? '')
+                : resolveBySource(firstPerson.PhoneNumber, secondPerson.PhoneNumber, phoneSource);
+
+            const churchSource = sourceFor('currentChurch');
+            resolved.CurrentChurch = churchSource === 'manual'
+                ? (manualChurchSelection ?? null)
+                : (churchSource === 'first' ? firstPerson.CurrentChurch : secondPerson.CurrentChurch);
             resolved.CurrentChurchId = resolved.CurrentChurch?.Id ?? null;
 
-            const addressSource = resolvedSourceFor('address');
-            const sourceAddress = addressSource === 'first' ? firstPerson.PhysicalAddress : secondPerson.PhysicalAddress;
-            resolved.PhysicalAddress = sourceAddress ? { ...sourceAddress } : null;
-
-            const addressStreet = getOverride('addressStreet');
-            const addressCity = getOverride('addressCity');
-            const addressState = getOverride('addressState');
-            const addressZip = getOverride('addressZip');
-            if (addressStreet != null || addressCity != null || addressState != null || addressZip != null) {
-                const existingAddress = resolved.PhysicalAddress ?? {
-                    StreetAddress: '',
-                    City: '',
-                    State: '',
-                    ZipCode: null
-                };
-
-                if (addressStreet != null) {
-                    existingAddress.StreetAddress = addressStreet;
+            const addressSource = sourceFor('address');
+            if (addressSource === 'manual') {
+                const street = getStateOverride('addressStreet') ?? '';
+                const city = getStateOverride('addressCity') ?? '';
+                const state = getStateOverride('addressState') ?? '';
+                const zipText = getStateOverride('addressZip') ?? '';
+                const parsedZip = parseInt(zipText.replace(/\D/g, ''), 10);
+                if (!street && !city && !state && !zipText) {
+                    resolved.PhysicalAddress = null;
+                } else {
+                    resolved.PhysicalAddress = {
+                        StreetAddress: street,
+                        City: city,
+                        State: state,
+                        ZipCode: Number.isNaN(parsedZip) ? null : parsedZip
+                    };
                 }
-
-                if (addressCity != null) {
-                    existingAddress.City = addressCity;
-                }
-
-                if (addressState != null) {
-                    existingAddress.State = addressState;
-                }
-
-                if (addressZip != null) {
-                    const parsedZip = parseInt(addressZip.replace(/\D/g, ''), 10);
-                    existingAddress.ZipCode = Number.isNaN(parsedZip) ? null : parsedZip;
-                }
-
-                resolved.PhysicalAddress = existingAddress;
+            } else {
+                const sourceAddress = addressSource === 'first' ? firstPerson.PhysicalAddress : secondPerson.PhysicalAddress;
+                resolved.PhysicalAddress = sourceAddress ? { ...sourceAddress } : null;
             }
 
             return {
@@ -543,44 +701,41 @@ export default function MergePanel({
         }
 
         if (!isPeopleMerge && firstChurch && secondChurch) {
-            const survivor = survivorSource === 'first' ? firstChurch : secondChurch;
-            const losingId = survivorSource === 'first' ? secondChurch.Id : firstChurch.Id;
+            const survivor = nextSurvivor === 'first' ? firstChurch : secondChurch;
+            const losingId = nextSurvivor === 'first' ? secondChurch.Id : firstChurch.Id;
             const resolved: Church = { ...survivor };
 
-            resolved.Name = applyStringOverride(
-                'name',
-                resolveBySource(firstChurch.Name, secondChurch.Name, resolvedSourceFor('name'))
-            );
-            resolved.DistrictId = applyStringOverride(
-                'districtId',
-                resolveBySource(firstChurch.DistrictId, secondChurch.DistrictId, resolvedSourceFor('districtId'))
-            );
+            const nameSource = sourceFor('name');
+            resolved.Name = nameSource === 'manual'
+                ? (getStateOverride('name') ?? '')
+                : resolveBySource(firstChurch.Name, secondChurch.Name, nameSource);
 
-            const addressSource = resolvedSourceFor('address');
-            const sourceAddress = addressSource === 'first' ? firstChurch.PhysicalAddress : secondChurch.PhysicalAddress;
-            resolved.PhysicalAddress = sourceAddress ? { ...sourceAddress } : ({
-                StreetAddress: '',
-                City: '',
-                State: '',
-                ZipCode: null
-            });
+            const districtSource = sourceFor('districtId');
+            resolved.DistrictId = districtSource === 'manual'
+                ? (getStateOverride('districtId') ?? '')
+                : resolveBySource(firstChurch.DistrictId, secondChurch.DistrictId, districtSource);
 
-            const addressStreet = getOverride('addressStreet');
-            const addressCity = getOverride('addressCity');
-            const addressState = getOverride('addressState');
-            const addressZip = getOverride('addressZip');
-            if (addressStreet != null) {
-                resolved.PhysicalAddress.StreetAddress = addressStreet;
-            }
-            if (addressCity != null) {
-                resolved.PhysicalAddress.City = addressCity;
-            }
-            if (addressState != null) {
-                resolved.PhysicalAddress.State = addressState;
-            }
-            if (addressZip != null) {
-                const parsedZip = parseInt(addressZip.replace(/\D/g, ''), 10);
-                resolved.PhysicalAddress.ZipCode = Number.isNaN(parsedZip) ? null : parsedZip;
+            const addressSource = sourceFor('address');
+            if (addressSource === 'manual') {
+                const street = getStateOverride('addressStreet') ?? '';
+                const city = getStateOverride('addressCity') ?? '';
+                const state = getStateOverride('addressState') ?? '';
+                const zipText = getStateOverride('addressZip') ?? '';
+                const parsedZip = parseInt(zipText.replace(/\D/g, ''), 10);
+                resolved.PhysicalAddress = {
+                    StreetAddress: street,
+                    City: city,
+                    State: state,
+                    ZipCode: Number.isNaN(parsedZip) ? null : parsedZip
+                };
+            } else {
+                const sourceAddress = addressSource === 'first' ? firstChurch.PhysicalAddress : secondChurch.PhysicalAddress;
+                resolved.PhysicalAddress = sourceAddress ? { ...sourceAddress } : ({
+                    StreetAddress: '',
+                    City: '',
+                    State: '',
+                    ZipCode: null
+                });
             }
 
             return {
@@ -594,13 +749,108 @@ export default function MergePanel({
         return null;
     };
 
+    const toComparableMerge = (mergeData: ReturnType<typeof buildResolvedMerge>) => {
+        if (!mergeData) return null;
+
+        if (mergeData.type === 'people') {
+            return {
+                type: mergeData.type,
+                losingId: mergeData.losingId ?? null,
+                survivorId: mergeData.resolved.Id ?? null,
+                firstName: normalizeString(mergeData.resolved.FirstName),
+                lastName: normalizeString(mergeData.resolved.LastName),
+                email: normalizeString(mergeData.resolved.Email),
+                dateOfBirth: normalizeString(mergeData.resolved.DateOfBirth),
+                phoneNumber: normalizeString(mergeData.resolved.PhoneNumber),
+                currentChurchId: normalizeString(mergeData.resolved.CurrentChurchId),
+                address: normalizeComparableAddress(mergeData.resolved.PhysicalAddress)
+            };
+        }
+
+        return {
+            type: mergeData.type,
+            losingId: mergeData.losingId ?? null,
+            survivorId: mergeData.resolved.Id ?? null,
+            name: normalizeString(mergeData.resolved.Name),
+            districtId: normalizeString(mergeData.resolved.DistrictId),
+            address: normalizeComparableAddress(mergeData.resolved.PhysicalAddress)
+        };
+    };
+
+    const defaultMergeData = useMemo(
+        () => buildResolvedMerge(survivorSource, getDefaultSelections(survivorSource), {}, undefined),
+        [survivorSource, defaultFieldDefinitions, firstPerson, secondPerson, firstChurch, secondChurch]
+    );
+
+    const currentMergeData = useMemo(
+        () => buildResolvedMerge(),
+        [survivorSource, selectedSources, manualOverrides, manualChurch, defaultFieldDefinitions, firstPerson, secondPerson, firstChurch, secondChurch]
+    );
+
+    const isReviewDirty = useMemo(
+        () => JSON.stringify(toComparableMerge(currentMergeData)) !== JSON.stringify(toComparableMerge(defaultMergeData)),
+        [currentMergeData, defaultMergeData]
+    );
+
+    const resolvedChurchAddressState = useMemo(() => {
+        if (isPeopleMerge || currentMergeData?.type !== 'church') {
+            return null;
+        }
+
+        return normalizeString(currentMergeData.resolved.PhysicalAddress?.State);
+    }, [currentMergeData, isPeopleMerge]);
+
+    const availableManualDistricts = useMemo(() => {
+        if (isPeopleMerge || !resolvedChurchAddressState) {
+            return DISTRICTS;
+        }
+
+        return DISTRICTS_BY_STATE[resolvedChurchAddressState] ?? [];
+    }, [isPeopleMerge, resolvedChurchAddressState]);
+
     const mergeSummary = {
         survivor: survivorSource === 'first' ? formatItemDisplay(firstItem) : formatItemDisplay(secondItem),
         merged: survivorSource === 'first' ? formatItemDisplay(secondItem) : formatItemDisplay(firstItem)
     };
 
+    const closeReview = () => {
+        setShowDiscardConfirmation(false);
+        setIsReviewing(false);
+        setValidationErrors([]);
+        setShowAllFields(false);
+    };
+
+    const requestReviewClose = () => {
+        if (isMerging) return;
+        if (isReviewDirty) {
+            setShowDiscardConfirmation(true);
+            return;
+        }
+
+        closeReview();
+    };
+
+    useEffect(() => {
+        if (!isReviewing || isMerging || showDiscardConfirmation) {
+            return;
+        }
+
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key !== 'Escape') {
+                return;
+            }
+
+            event.preventDefault();
+            event.stopPropagation();
+            requestReviewClose();
+        };
+
+        document.addEventListener('keydown', handleKeyDown, { capture: true });
+        return () => document.removeEventListener('keydown', handleKeyDown, { capture: true });
+    }, [isReviewing, isMerging, showDiscardConfirmation, isReviewDirty]);
+
     const handleContinueToConfirmation = () => {
-        const mergeData = buildResolvedMerge();
+        const mergeData = currentMergeData;
         if (!mergeData) return;
 
         if (mergeData.errors.length > 0) {
@@ -613,7 +863,7 @@ export default function MergePanel({
     };
 
     const handleMerge = async () => {
-        const mergeData = buildResolvedMerge();
+        const mergeData = currentMergeData;
         if (!mergeData) return;
         if (mergeData.errors.length > 0) {
             setValidationErrors(mergeData.errors);
@@ -624,17 +874,6 @@ export default function MergePanel({
         setIsMerging(true);
         setError(undefined);
         try {
-            let firstSourceCount = 0;
-            let secondSourceCount = 0;
-            for (const field of fieldDefinitions) {
-                const source = resolvedSourceFor(field.key);
-                if (source === 'first') {
-                    firstSourceCount++;
-                } else {
-                    secondSourceCount++;
-                }
-            }
-
             if (mergeData.type === 'people') {
                 await PeopleService.update(auth, mergeData.resolved, mergeData.losingId);
             } else {
@@ -645,14 +884,13 @@ export default function MergePanel({
                 type: 'success',
                 title: 'Merge Complete',
                 icon: 'fas faCircleCheck',
-                message: `${mergeSummary.survivor} kept the merged record from ${mergeSummary.merged}. Selected values: ${firstSourceCount} from First, ${secondSourceCount} from Second.`,
+                message: formatSuccessMessage(mergeType, mergeData.resolved),
                 timeout: 10000
             });
 
             setIsConfirming(false);
-            setIsReviewing(false);
+            closeReview();
             setValidationErrors([]);
-            setShowAllFields(false);
             onClear('all');
             onMergeComplete?.();
         } catch (err) {
@@ -753,8 +991,15 @@ export default function MergePanel({
                 <dialog
                     ref={reviewDialogRef}
                     className="modal"
+                    onClick={event => {
+                        if (event.target === event.currentTarget) {
+                            requestReviewClose();
+                        }
+                    }}
                     onClose={() => {
-                        setIsReviewing(false);
+                        if (isReviewing) {
+                            setIsReviewing(false);
+                        }
                         setValidationErrors([]);
                     }}
                 >
@@ -852,7 +1097,7 @@ export default function MergePanel({
                                                 role="radio"
                                                 aria-checked={selectedSource === 'first'}
                                                 className={`join-item btn flex-1 h-auto min-h-0 py-2 px-3 ${selectedSource === 'first' ? 'btn-primary' : 'btn-outline'}`}
-                                                onClick={() => setSelectedSources(prev => ({ ...prev, [field.key]: 'first' }))}
+                                                onClick={() => updateSelectedSource(field.key, 'first')}
                                             >
                                                 <div className="w-full text-left">
                                                     <span className="badge badge-sm mb-1">First</span>
@@ -864,42 +1109,54 @@ export default function MergePanel({
                                                 role="radio"
                                                 aria-checked={selectedSource === 'second'}
                                                 className={`join-item btn flex-1 h-auto min-h-0 py-2 px-3 ${selectedSource === 'second' ? 'btn-primary' : 'btn-outline'}`}
-                                                onClick={() => setSelectedSources(prev => ({ ...prev, [field.key]: 'second' }))}
+                                                onClick={() => updateSelectedSource(field.key, 'second')}
                                             >
                                                 <div className="w-full text-left">
                                                     <span className="badge badge-sm mb-1">Second</span>
                                                     <div className="whitespace-normal break-words">{field.secondDisplay}</div>
                                                 </div>
                                             </button>
+                                            <button
+                                                type="button"
+                                                role="radio"
+                                                aria-checked={selectedSource === 'manual'}
+                                                className={`join-item btn flex-1 h-auto min-h-0 py-2 px-3 ${selectedSource === 'manual' ? 'btn-primary' : 'btn-outline'}`}
+                                                onClick={() => updateSelectedSource(field.key, 'manual')}
+                                            >
+                                                <div className="w-full text-left">
+                                                    <span className="badge badge-sm mb-1">Manual</span>
+                                                    <div className="whitespace-normal break-words">Enter a custom value</div>
+                                                </div>
+                                            </button>
                                         </div>
 
-                                        {['firstName', 'lastName', 'email', 'phoneNumber', 'name'].includes(field.key) && (
+                                        {selectedSource === 'manual' && ['firstName', 'lastName', 'email', 'phoneNumber', 'name'].includes(field.key) && (
                                             <div className="mt-3">
                                                 <label className="label mt-0 mb-0">
-                                                    <span className="label-text text-xs">Manual Override</span>
+                                                    <span className="label-text text-xs">Manual Entry</span>
                                                 </label>
                                                 <input
                                                     type={field.key === 'email' ? 'email' : 'text'}
                                                     className="input input-bordered input-sm w-full"
                                                     value={manualValue}
                                                     onChange={event => updateOverride(field.key, event.target.value)}
-                                                    placeholder="Leave empty to use selected source value"
+                                                    placeholder="Enter a custom value"
                                                 />
                                             </div>
                                         )}
 
-                                        {field.key === 'districtId' && (
+                                        {selectedSource === 'manual' && field.key === 'districtId' && (
                                             <div className="mt-3">
                                                 <label className="label mt-0 mb-0">
-                                                    <span className="label-text text-xs">Manual Override</span>
+                                                    <span className="label-text text-xs">Manual Entry</span>
                                                 </label>
                                                 <select
                                                     className="select select-bordered select-sm w-full"
                                                     value={getOverride('districtId') ?? ''}
                                                     onChange={event => updateOverride('districtId', event.target.value)}
                                                 >
-                                                    <option value="">Use selected source value</option>
-                                                    {DISTRICTS.map(district => (
+                                                    <option value="">Select District</option>
+                                                    {availableManualDistricts.map(district => (
                                                         <option key={district.id} value={district.id}>
                                                             {district.name}
                                                         </option>
@@ -908,10 +1165,10 @@ export default function MergePanel({
                                             </div>
                                         )}
 
-                                        {field.key === 'dateOfBirth' && (
+                                        {selectedSource === 'manual' && field.key === 'dateOfBirth' && (
                                             <div className="mt-3">
                                                 <label className="label mt-0 mb-0">
-                                                    <span className="label-text text-xs">Manual Override</span>
+                                                    <span className="label-text text-xs">Manual Entry</span>
                                                 </label>
                                                 <input
                                                     type="date"
@@ -922,7 +1179,42 @@ export default function MergePanel({
                                             </div>
                                         )}
 
-                                        {field.key === 'address' && (
+                                        {selectedSource === 'manual' && field.key === 'currentChurch' && (
+                                            <div className="mt-3">
+                                                <label className="label mt-0 mb-0">
+                                                    <span className="label-text text-xs">Manual Entry</span>
+                                                </label>
+                                                {manualChurch ? (
+                                                    <div className="flex items-center gap-2 mt-0">
+                                                        <span className="input input-bordered input-sm flex-1 flex items-center text-sm">
+                                                            {formatChurchValue(manualChurch)}
+                                                        </span>
+                                                        <button
+                                                            type="button"
+                                                            className="btn btn-ghost btn-sm"
+                                                            title="Clear church"
+                                                            onClick={() => {
+                                                                clearValidationErrors();
+                                                                setManualChurch(null);
+                                                            }}
+                                                        >
+                                                            <FontAwesomeIcon icon="fas faXmark" />
+                                                        </button>
+                                                    </div>
+                                                ) : (
+                                                    <ChurchLookup
+                                                        showTips={ChurchSearchTips.None}
+                                                        required={true}
+                                                        onSelect={(_, churchInfo) => {
+                                                            clearValidationErrors();
+                                                            setManualChurch(churchInfo);
+                                                        }}
+                                                    />
+                                                )}
+                                            </div>
+                                        )}
+
+                                        {selectedSource === 'manual' && field.key === 'address' && (
                                             <div className="mt-3 grid grid-cols-1 md:grid-cols-4 gap-2">
                                                 <input
                                                     type="text"
@@ -938,24 +1230,25 @@ export default function MergePanel({
                                                     onChange={event => updateOverride('addressCity', event.target.value)}
                                                     placeholder="City override"
                                                 />
-                                                <input
-                                                    type="text"
-                                                    className="input input-bordered input-sm"
+                                                <select
+                                                    className="select select-bordered select-sm"
                                                     value={getOverride('addressState') ?? ''}
-                                                    onChange={event => updateOverride('addressState', event.target.value)}
-                                                    placeholder="State override"
-                                                    minLength={2}
-                                                    maxLength={2}
-                                                />
+                                                    onChange={event => updateAddressStateOverride(event.target.value)}
+                                                >
+                                                    <option value="">State</option>
+                                                    {(isPeopleMerge ? PERSON_ADDRESS_STATES : CHURCH_ADDRESS_STATES).map(state => (
+                                                        <option key={state} value={state}>{state}</option>
+                                                    ))}
+                                                </select>
                                                 <input
                                                     type="text"
                                                     className="input input-bordered input-sm"
                                                     value={getOverride('addressZip') ?? ''}
                                                     onChange={event => updateOverride('addressZip', event.target.value)}
-                                                    placeholder="Zip override"
+                                                    placeholder="Zip"
                                                     minLength={5}
                                                     maxLength={5}
-                                                    pattern="[0-9]*"
+                                                    pattern="[0-9]{5}"
                                                 />
                                             </div>
                                         )}
@@ -976,10 +1269,7 @@ export default function MergePanel({
                             <button
                                 type="button"
                                 className="btn btn-ghost mt-0 mb-0"
-                                onClick={() => {
-                                    setIsReviewing(false);
-                                    setValidationErrors([]);
-                                }}
+                                onClick={requestReviewClose}
                                 disabled={isMerging}
                             >
                                 Cancel
@@ -1010,6 +1300,19 @@ export default function MergePanel({
                         <strong>{mergeSummary.survivor}</strong> will keep all records and <strong>{mergeSummary.merged}</strong> will be merged into it.
                     </p>
                     <p>Are you sure you want to continue?</p>
+                </ConfirmationDialog>
+            )}
+
+            {showDiscardConfirmation && (
+                <ConfirmationDialog
+                    title="Discard Merge Changes?"
+                    yesLabel="Discard"
+                    noLabel="Keep Editing"
+                    onYes={closeReview}
+                    onNo={() => setShowDiscardConfirmation(false)}
+                    className="w-full max-w-md"
+                >
+                    <p>You have unsaved merge-review changes. Discard them and close this dialog?</p>
                 </ConfirmationDialog>
             )}
         </>

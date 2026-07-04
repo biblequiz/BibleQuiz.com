@@ -56,11 +56,30 @@
 - People and church merge parity ship together in the same release.
 
 **Merge selector UX**
-- Use a two-option segmented selector per field (first candidate vs second candidate), not a plain drop-down.
+- Use a three-option segmented selector per field (first candidate vs second candidate vs manual entry), not a plain drop-down.
 - Show source badges for each side (First, Second).
+- Manual entry reuses the original field semantics for that field type rather than generic free-text inputs.
 - Support keyboard navigation with radio-group style semantics.
 - Long values should remain readable (wrapping/truncation with hover reveal as needed).
-- Address uses one combined selector (First address vs Second address), with resolved street/city/state/zip shown as read-only preview.
+- Address uses one combined selector (First address vs Second address vs Manual Entry).
+- Address manual entry reveals editable street/city/state/zip controls only when Manual Entry is selected for that field.
+- Equal fields remain hidden by default; manual entry for those fields is available after explicitly showing unchanged fields.
+- Person church manual entry uses the same church-selection behavior as PersonDialog, not free-text church naming.
+- Church district manual entry allows choosing any valid district in the system.
+- Church manual entry preserves the original state-to-district constraint: state selection limits valid district choices.
+- Manual-entry values persist while toggling between source options within the same review session.
+- Person manual address may be completely blank or fully complete; church manual address must be fully complete.
+- For optional person fields, a blank manual-entry value clears the field.
+- The first switch into manual entry prefills from the field's currently selected source value.
+- Manual entry does not bypass required-field validation; required fields must still resolve to valid values.
+- Merge success feedback uses a generalized completion message rather than per-source selection counts.
+- Merge review is dirty only when the resolved merge result differs from the current computed defaults; presentational toggles do not make it dirty.
+- Dirty merge review uses discard confirmation on all close paths.
+- Changing the survivor resets field selections and manual-entry values to fresh defaults for that survivor choice.
+- Reset to Defaults fully restores the current survivor's computed defaults and clears dirty state.
+- Merge review validation runs on Continue rather than on every edit.
+- Validation errors clear when the user makes a relevant edit after a failed Continue attempt.
+- Entering manual mode without changing the resolved value does not make merge review dirty.
 - Candidate picking stays in the panel; field-level merge decisions happen in a dedicated merge-review dialog.
 - Merge submission uses two steps: review dialog first, then final irreversible confirmation modal.
 - After successful merge, refresh local state in-place (preserve filters/page position) rather than full-page reload.
