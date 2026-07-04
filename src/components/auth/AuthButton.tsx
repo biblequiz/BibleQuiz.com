@@ -22,14 +22,7 @@ export default function AuthButton({ type }: Props) {
     const userProfile = authManager.userProfile;
     let buttonElement: JSX.Element;
     if (authManager.popupType === PopupType.LoginRequired) {
-        buttonElement = (
-            <button
-                className="btn btn-primary mt-0 mb-0"
-                onClick={() => {
-                    authManager.login();
-                }}>
-                Sign In or Sign-Up
-            </button>);
+        return null;
     }
     else if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
         buttonElement = (
@@ -103,7 +96,7 @@ export default function AuthButton({ type }: Props) {
                 </ul>
             </div>);
     }
-    else if (type === AuthButtonType.ProtectedRoute) {
+    else {
         buttonElement = (
             <button
                 className="btn btn-primary mt-0 mb-0"
@@ -113,9 +106,6 @@ export default function AuthButton({ type }: Props) {
                 }}>
                 Sign In or Sign-Up
             </button>);
-    }
-    else {
-        return null;
     }
 
     if (isMobile) {

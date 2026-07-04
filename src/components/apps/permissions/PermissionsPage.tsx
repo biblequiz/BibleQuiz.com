@@ -1,9 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { AuthManager } from 'types/AuthManager';
 import { PersonPermissionScope } from 'types/services/PermissionsService';
 import type { Person } from 'types/services/PeopleService';
 import type { Church } from 'types/services/ChurchesService';
-import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ScopeSelector from './ScopeSelector';
 import SearchAndFilterBar, { DEFAULT_DISTRICT_ID, DEFAULT_REGION_ID } from './SearchAndFilterBar';
 import PermissionsTable from './PermissionsTable';
@@ -18,14 +17,6 @@ export default function PermissionsPage({ }: Props) {
     const authManager = AuthManager.useNanoStore();
     const auth = authManager;
     const userProfile = authManager.userProfile;
-
-    // Hide the loading fallback once React component mounts
-    useEffect(() => {
-        const fallback = document.getElementById('permissions-fallback');
-        if (fallback) {
-            fallback.style.display = 'none';
-        }
-    }, []);
 
     const [currentScope, setCurrentScope] = useState<PersonPermissionScope | null>(PersonPermissionScope.Church);
     
@@ -47,31 +38,13 @@ export default function PermissionsPage({ }: Props) {
     const [peopleRefreshToken, setPeopleRefreshToken] = useState(0);
     const [churchesRefreshToken, setChurchesRefreshToken] = useState(0);
 
-    // Check authorization
-    if (!auth || !userProfile) {
-        return (
-            <div role="alert" className="alert alert-error">
-                <FontAwesomeIcon icon="fas faCircleExclamation" />
-                <span>Authentication required</span>
-            </div>
-        );
+    // ProtectedRoute handles auth, profile completion, and permission checks.
+    if (!userProfile) {
+        return null;
     }
 
-    const hasPermissions = !!userProfile.organizationPermission ||
-        (userProfile.regionPermissions && Object.keys(userProfile.regionPermissions).length > 0) ||
-        (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
-        (userProfile.churchPermissions && userProfile.churchPermissions.size > 0);
     const hasOrganizationPermission = userProfile.organizationPermission !== null;
     const canMergeAndImpersonate = hasOrganizationPermission && !userProfile.organizationPermission?.Restriction;
-
-    if (!hasPermissions) {
-        return (
-            <div role="alert" className="alert alert-warning">
-                <FontAwesomeIcon icon="fas faTriangleExclamation" />
-                <span>You do not have permission to access this page.</span>
-            </div>
-        );
-    }
 
     type CheckboxKey = keyof typeof checkboxStates;
 
