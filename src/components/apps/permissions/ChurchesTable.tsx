@@ -18,7 +18,7 @@ interface Props {
     auth: AuthManager;
     canMergeAndImpersonate: boolean;
     onMergeSelect?: (church: Church) => void;
-    currentMergeChurchId?: string | null;
+    currentMergeChurchIds?: string[];
     refreshToken?: number;
 }
 
@@ -31,7 +31,7 @@ export default function ChurchesTable({
     auth,
     canMergeAndImpersonate,
     onMergeSelect,
-    currentMergeChurchId,
+    currentMergeChurchIds = [],
     refreshToken = 0
 }: Props) {
     const [churches, setChurches] = useState<Church[]>([]);
@@ -199,7 +199,7 @@ export default function ChurchesTable({
                                         {canMergeAndImpersonate && (
                                             <button
                                                 className={`btn btn-sm mt-0 mb-0 ${
-                                                    currentMergeChurchId === church.Id
+                                                    currentMergeChurchIds.includes(church.Id ?? '')
                                                         ? 'btn-warning'
                                                         : 'btn-primary'
                                                 }`}

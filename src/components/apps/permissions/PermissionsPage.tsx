@@ -84,37 +84,64 @@ export default function PermissionsPage({ }: Props) {
 
     const handleMergePerson = (person: Person) => {
         if (mergeFirstPerson?.Id === person.Id) {
-            setMergeFirstPerson(null);
+            setMergeFirstPerson(mergeSecondPerson);
+            setMergeSecondPerson(null);
         } else if (mergeSecondPerson?.Id === person.Id) {
             setMergeSecondPerson(null);
         } else if (!mergeFirstPerson) {
             setMergeFirstPerson(person);
         } else if (!mergeSecondPerson) {
             setMergeSecondPerson(person);
+        } else {
+            setMergeSecondPerson(person);
         }
     };
 
     const handleMergeChurch = (church: Church) => {
         if (mergeFirstChurch?.Id === church.Id) {
-            setMergeFirstChurch(null);
+            setMergeFirstChurch(mergeSecondChurch);
+            setMergeSecondChurch(null);
         } else if (mergeSecondChurch?.Id === church.Id) {
             setMergeSecondChurch(null);
         } else if (!mergeFirstChurch) {
             setMergeFirstChurch(church);
         } else if (!mergeSecondChurch) {
             setMergeSecondChurch(church);
+        } else {
+            setMergeSecondChurch(church);
         }
     };
 
     const handleClearMerge = (type: 'people' | 'church', item: 'first' | 'second' | 'all') => {
         if (type === 'people') {
-            if (item === 'first' || item === 'all') setMergeFirstPerson(null);
-            if (item === 'second' || item === 'all') setMergeSecondPerson(null);
+            if (item === 'all') {
+                setMergeFirstPerson(null);
+                setMergeSecondPerson(null);
+            } else if (item === 'first') {
+                setMergeFirstPerson(mergeSecondPerson);
+                setMergeSecondPerson(null);
+            } else if (item === 'second') {
+                setMergeSecondPerson(null);
+            }
         } else {
-            if (item === 'first' || item === 'all') setMergeFirstChurch(null);
-            if (item === 'second' || item === 'all') setMergeSecondChurch(null);
+            if (item === 'all') {
+                setMergeFirstChurch(null);
+                setMergeSecondChurch(null);
+            } else if (item === 'first') {
+                setMergeFirstChurch(mergeSecondChurch);
+                setMergeSecondChurch(null);
+            } else if (item === 'second') {
+                setMergeSecondChurch(null);
+            }
         }
     };
+
+    const currentMergePersonIds = [mergeFirstPerson?.Id, mergeSecondPerson?.Id].filter(
+        (id): id is string => !!id
+    );
+    const currentMergeChurchIds = [mergeFirstChurch?.Id, mergeSecondChurch?.Id].filter(
+        (id): id is string => !!id
+    );
 
     return (
         <div className="space-y-6">
@@ -189,7 +216,7 @@ export default function PermissionsPage({ }: Props) {
                             auth={auth}
                             canMergeAndImpersonate={canMergeAndImpersonate}
                             onMergeSelect={handleMergeChurch}
-                            currentMergeChurchId={mergeFirstChurch?.Id || mergeSecondChurch?.Id}
+                            currentMergeChurchIds={currentMergeChurchIds}
                             refreshToken={churchesRefreshToken}
                         />
                     </>
@@ -215,7 +242,7 @@ export default function PermissionsPage({ }: Props) {
                             auth={auth}
                             canImpersonate={canMergeAndImpersonate}
                             onMergeSelect={handleMergePerson}
-                            currentMergePersonId={mergeFirstPerson?.Id || mergeSecondPerson?.Id}
+                            currentMergePersonIds={currentMergePersonIds}
                             refreshToken={peopleRefreshToken}
                         />
                     </>

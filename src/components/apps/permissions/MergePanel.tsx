@@ -146,9 +146,33 @@ export default function MergePanel({
     const [showAllFields, setShowAllFields] = useState(false);
     const [validationErrors, setValidationErrors] = useState<string[]>([]);
     const [error, setError] = useState<string | undefined>(undefined);
+    const panelRef = useRef<HTMLDivElement>(null);
     const reviewDialogRef = useRef<HTMLDialogElement>(null);
+    const previousPairKeyRef = useRef<string | null>(null);
 
     const hasMergeSelection = !!canShow && !!firstItem && !!secondItem;
+    const pairKey = hasMergeSelection
+        ? `${mergeType}:${firstItem?.Id ?? ''}:${secondItem?.Id ?? ''}`
+        : null;
+
+    useEffect(() => {
+        if (!pairKey) {
+            previousPairKeyRef.current = null;
+            return;
+        }
+
+        if (previousPairKeyRef.current === pairKey) {
+            return;
+        }
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        panelRef.current?.scrollIntoView({
+            behavior: prefersReducedMotion ? 'auto' : 'smooth',
+            block: 'center',
+            inline: 'nearest'
+        });
+        previousPairKeyRef.current = pairKey;
+    }, [pairKey]);
 
     useEffect(() => {
         const dialog = reviewDialogRef.current;
@@ -645,7 +669,7 @@ export default function MergePanel({
 
     return (
         <>
-            <div className="card bg-base-200 shadow-md">
+            <div ref={panelRef} className="card bg-base-200 shadow-md">
                 <div className="card-body">
                     <h3 className="card-title">
                         <FontAwesomeIcon icon="fas faCompressAlt" />
@@ -920,6 +944,8 @@ export default function MergePanel({
                                                     value={getOverride('addressState') ?? ''}
                                                     onChange={event => updateOverride('addressState', event.target.value)}
                                                     placeholder="State override"
+                                                    minLength={2}
+                                                    maxLength={2}
                                                 />
                                                 <input
                                                     type="text"
@@ -927,6 +953,9 @@ export default function MergePanel({
                                                     value={getOverride('addressZip') ?? ''}
                                                     onChange={event => updateOverride('addressZip', event.target.value)}
                                                     placeholder="Zip override"
+                                                    minLength={5}
+                                                    maxLength={5}
+                                                    pattern="[0-9]*"
                                                 />
                                             </div>
                                         )}

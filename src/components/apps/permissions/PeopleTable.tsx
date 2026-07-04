@@ -17,7 +17,7 @@ interface Props {
     auth: AuthManager;
     canImpersonate: boolean;
     onMergeSelect?: (person: Person) => void;
-    currentMergePersonId?: string | null;
+    currentMergePersonIds?: string[];
     refreshToken?: number;
 }
 
@@ -31,7 +31,7 @@ export default function PeopleTable({
     auth,
     canImpersonate,
     onMergeSelect,
-    currentMergePersonId,
+    currentMergePersonIds = [],
     refreshToken = 0
 }: Props) {
     const [people, setPeople] = useState<Person[]>([]);
@@ -131,7 +131,7 @@ export default function PeopleTable({
                                                 <FontAwesomeIcon icon="fas faUserSecret" />
                                             </button>)}
                                         <button
-                                            className={`btn btn-sm text-white mr-2 mt-0 mb-0 ${currentMergePersonId === person.Id
+                                            className={`btn btn-sm text-white mr-2 mt-0 mb-0 ${currentMergePersonIds.includes(person.Id ?? '')
                                                 ? 'btn-warning'
                                                 : 'btn-primary'}`}
                                             onClick={() => onMergeSelect?.(person)}
