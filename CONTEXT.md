@@ -96,6 +96,7 @@ When impersonating:
 - A stop button appears in the banner to end impersonation
 - Cannot impersonate another user while impersonating
 - Cannot modify permissions while impersonating
+- Permissions administration is unavailable until impersonation is stopped
 
 Navigation after impersonation: Redirect to homepage (`/`) to refresh and load impersonated user's context.
 

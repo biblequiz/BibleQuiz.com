@@ -75,6 +75,7 @@ export default function PeopleTable({
         if (!impersonatingId) return;
         try {
             await AuthService.impersonate(auth, impersonatingId);
+            await auth.startImpersonating(impersonatingId);
             window.location.assign('/');
         } catch (err) {
             setError((err as any).message || 'Failed to impersonate user');
