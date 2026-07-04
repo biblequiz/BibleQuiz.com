@@ -46,7 +46,6 @@ export default function ChurchesTable({
     const [permissionsLoading, setPermissionsLoading] = useState(false);
     const [showAddPermissionDialog, setShowAddPermissionDialog] = useState(false);
     const [addingPermissionToChurchId, setAddingPermissionToChurchId] = useState<string | null>(null);
-    const [selectedPermissionPerson, setSelectedPermissionPerson] = useState<Person | null>(null);
     const [selectedPermissionCompetitionType, setSelectedPermissionCompetitionType] = useState<string | null>(null);
     const [isProcessingDialog, setIsProcessingDialog] = useState<boolean>(false);
     const [permissionDialogError, setPermissionDialogError] = useState<string>();
@@ -113,7 +112,6 @@ export default function ChurchesTable({
         setChurchPermissions([]);
         setShowAddPermissionDialog(false);
         setAddingPermissionToChurchId(null);
-        setSelectedPermissionPerson(null);
         setSelectedPermissionCompetitionType(null);
         setPermissionDialogError(undefined);
         setIsProcessingDialog(false);
@@ -132,7 +130,6 @@ export default function ChurchesTable({
                 addingPermissionToChurchId
             );
             setShowAddPermissionDialog(false);
-            setSelectedPermissionPerson(null);
             setSelectedPermissionCompetitionType(null);
             setPermissionDialogError(undefined);
             // Reload permissions for the church
@@ -327,11 +324,9 @@ export default function ChurchesTable({
                                 onSelect={(person) => {
                                     if (!person) {
                                         setShowAddPermissionDialog(false);
-                                        setSelectedPermissionPerson(null);
                                         return;
                                     }
 
-                                    setSelectedPermissionPerson(person);
                                     void handleAddPermissionToChurch(person);
                                 }}
                             />
