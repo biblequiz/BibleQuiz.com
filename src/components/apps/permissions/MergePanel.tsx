@@ -922,7 +922,7 @@ export default function MergePanel({
                     {error && (
                         <div role="alert" className="alert alert-error mb-4">
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
-                            <span>{error}</span>
+                            <div dangerouslySetInnerHTML={{ __html: error }} />
                         </div>
                     )}
 
@@ -1012,7 +1012,7 @@ export default function MergePanel({
                             <div role="alert" className="alert alert-error mt-4">
                                 <FontAwesomeIcon icon="fas faCircleExclamation" />
                                 <div>
-                                    {error && <div>{error}</div>}
+                                    {error && <div dangerouslySetInnerHTML={{ __html: error }} />}
                                     {validationErrors.map(validationError => (
                                         <div key={validationError}>{validationError}</div>
                                     ))}
