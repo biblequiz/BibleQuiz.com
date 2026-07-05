@@ -25,7 +25,7 @@ export default function PermissionCard({
                 <div className="w-full mt-0">
                     <button
                         type="button"
-                        className="btn btn-error text-white w-full mt-0 mb-0 pt-1 pb-1"
+                        className="btn btn-error text-white w-full mt-0 mb-0 pt-1 pb-1 shrink-0"
                         onClick={() => onRemove()}
                         disabled={isRemoving}>
                         <FontAwesomeIcon icon="fas faTrash" />
