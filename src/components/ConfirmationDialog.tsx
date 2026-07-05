@@ -21,6 +21,7 @@ export default function ConfirmationDialog({
     className }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
+    const closeActionRef = useRef<'yes' | 'no' | null>(null);
 
     const sizeClassName = className ? className : "w-11/12 max-w-full md:w-3/4 lg:w-1/2";
 
@@ -30,31 +31,40 @@ export default function ConfirmationDialog({
     // ancestor stacking contexts), which fails for nested dialogs. Escape dismisses
     // the dialog, matching the "No" button.
     useModalDialog(dialogRef, () => {
-        if (onNo) {
-            onNo();
-        }
-
+        closeActionRef.current = 'no';
         dialogRef.current?.close();
     });
 
+    const handleDialogClose = () => {
+        const action = closeActionRef.current;
+        closeActionRef.current = null;
+
+        if (action === 'yes') {
+            onYes();
+            return;
+        }
+
+        // Treat "no" and implicit closes (backdrop/native close) as cancellation.
+        if (onNo) {
+            onNo();
+        }
+    };
+
     return (
-        <dialog ref={dialogRef} className="modal">
+        <dialog ref={dialogRef} className="modal" onClose={handleDialogClose}>
             <div className={`modal-box ${sizeClassName}`}>
                 <h3 className="font-bold text-lg">{title}</h3>
                 <div>
                     {children}
                 </div>
                 <div className="mt-2 text-center">
-                    <form method="dialog gap-2">
+                    <div className="inline-flex gap-2">
                         <button
                             className="btn btn-primary mr-2 mt-0"
                             type="button"
                             tabIndex={1}
                             onClick={() => {
-                                if (onYes) {
-                                    onYes();
-                                }
-
+                                closeActionRef.current = 'yes';
                                 dialogRef.current?.close();
                             }}>
                             {yesLabel || "Yes"}
@@ -65,15 +75,12 @@ export default function ConfirmationDialog({
                                 type="button"
                                 tabIndex={2}
                                 onClick={() => {
-                                    if (onNo) {
-                                        onNo();
-                                    }
-
+                                    closeActionRef.current = 'no';
                                     dialogRef.current?.close();
                                 }}>
                                 {noLabel || "No"}
                             </button>)}
-                    </form>
+                    </div>
                 </div>
             </div>
         </dialog>);

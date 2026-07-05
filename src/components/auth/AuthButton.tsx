@@ -2,6 +2,7 @@ import FontAwesomeIcon from "../FontAwesomeIcon";
 import { AuthManager, PopupType, UserProfileType } from 'types/AuthManager';
 import ConfirmationDialog from "../ConfirmationDialog";
 import type { JSX } from "react";
+import { sharedGlobalStatusToast } from "utils/SharedState";
 
 export enum AuthButtonType {
     Desktop,
@@ -25,10 +26,16 @@ export default function AuthButton({ type }: Props) {
         return null;
     }
     else if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
+        const busyLabel = authManager.popupType === PopupType.Logout
+            ? "Logging Out"
+            : authManager.popupType === PopupType.Login
+                ? "Logging In"
+                : "Refreshing Profile";
+
         buttonElement = (
             <>
                 <div className={`w-${isMobile ? "full" : "24 text-xs"} text-center`}>
-                    <div>{authManager.popupType === PopupType.Logout ? "Logging Out" : "Logging In"}</div>
+                    <div>{busyLabel}</div>
                     <progress className="progress"></progress>
                     {type === AuthButtonType.ProtectedRoute && (
                         <span className="italic">Sometimes this takes 10+ seconds ...</span>
@@ -57,16 +64,61 @@ export default function AuthButton({ type }: Props) {
         }
 
         const displayName = userProfile.displayName || "Unknown User";
+        const hasPermissions = !authManager.isImpersonating && (!!userProfile.organizationPermission ||
+            (userProfile.regionPermissions && Object.keys(userProfile.regionPermissions).length > 0) ||
+            (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
+            (userProfile.churchPermissions && userProfile.churchPermissions.size > 0));
+        const buttonClassName = authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
+        const buttonLabel = authManager.isImpersonating ? `Impersonating: ${displayName}` : displayName;
 
         buttonElement = (
             <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
-                <div tabIndex={0} role="button" className="btn btn-primary m-1">
-                    <FontAwesomeIcon icon="fas faUser" />&nbsp;{displayName}
+                <div tabIndex={0} role="button" className={buttonClassName}>
+                    <FontAwesomeIcon icon={authManager.isImpersonating ? "fas faUserSecret" : "fas faUser"} />&nbsp;{buttonLabel}
                 </div>
                 <ul
                     tabIndex={0}
                     className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
+                    <li>
+                        <a
+                            href="/admin/profile"
+                            className="text-base-content">
+                            <FontAwesomeIcon icon="fas faIdCard" />
+                            My Profile
+                        </a>
+                    </li>
+                    {authManager.isImpersonating && (
+                        <li className="text-base-content">
+                            <a
+                                className="text-base-content"
+                                onClick={() => {
+                                    authManager.stopImpersonating()
+                                        .then(() => window.location.assign('/'))
+                                        .catch(error => {
+                                            sharedGlobalStatusToast.set({
+                                                type: "error",
+                                                title: "Unable to Stop Impersonating",
+                                                message: (error as Error)?.message || "An error occurred while stopping impersonation.",
+                                                timeout: 10000,
+                                            });
+                                        });
+                                }}>
+                                <FontAwesomeIcon icon="fas faUserSlash" />
+                                Stop Impersonating
+                            </a>
+                        </li>
+                    )}
+                    {hasPermissions && (
+                        <li>
+                            <a
+                                href="/admin/permissions"
+                                className="text-base-content">
+                                <FontAwesomeIcon icon="fas faShieldHalved" />
+                                Permissions
+                            </a>
+                        </li>
+                    )}
                     <li>
                         <a
                             className="text-base-content"
@@ -82,7 +134,7 @@ export default function AuthButton({ type }: Props) {
                 </ul>
             </div>);
     }
-    else if (type === AuthButtonType.ProtectedRoute) {
+    else {
         buttonElement = (
             <button
                 className="btn btn-primary mt-0 mb-0"
@@ -92,9 +144,6 @@ export default function AuthButton({ type }: Props) {
                 }}>
                 Sign In or Sign-Up
             </button>);
-    }
-    else {
-        return null;
     }
 
     if (isMobile) {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import FontAwesomeIcon from './FontAwesomeIcon';
 import { AuthorizationResultState, Church, ChurchesService, ChurchResultFilter } from 'types/services/ChurchesService.ts';
 import { type RemoteServicePage, type RemoteServiceError } from 'types/services/RemoteServiceUtility.ts';
-import Pagination from './Pagination.tsx';
 import LoadingPlaceholder from './LoadingPlaceholder.tsx';
 import { AuthManager } from 'types/AuthManager.ts';
 import type { AddingChurchState } from './ChurchSettingsDialog.tsx';
@@ -32,6 +31,7 @@ interface Props {
   currentChurch?: SelectedChurch | null;
   showTips?: ChurchSearchTips;
   allowAdd?: AddChurchConfig;
+  startWithSearch?: boolean;
   subtitle?: string;
   onSelect: (church: SelectedChurch, info: Church, authorized: boolean) => void;
 }
@@ -46,6 +46,68 @@ interface ChurchSearchState {
   error: RemoteServiceError | null;
 }
 
+interface SearchResultsPaginationProps {
+  currentPage: number;
+  pageCount: number;
+  pageSize: number;
+  setPageSettings: (pageNumber: number, pageSize: number) => void;
+}
+
+function SearchResultsPagination({ currentPage, pageCount, pageSize, setPageSettings }: SearchResultsPaginationProps) {
+  if (currentPage <= 1 && pageCount <= 1) {
+    return null;
+  }
+
+  return (
+    <div className="my-2">
+      <div className="flex items-center gap-2">
+        <button
+          className="btn btn-primary btn-sm"
+          onClick={() => setPageSettings(currentPage - 1, pageSize)}
+          disabled={currentPage <= 1}
+        >
+          {'<'}
+        </button>
+        <span className="flex items-center whitespace-nowrap gap-1">
+          <select
+            value={currentPage}
+            onChange={(e) => setPageSettings(Number(e.target.value), pageSize)}
+            className="select select-sm select-bordered"
+          >
+            {Array.from({ length: pageCount }, (_, index) => (
+              <option key={`pagination_page_${index + 1}`} value={index + 1}>
+                {index + 1}
+              </option>
+            ))}
+          </select>
+          &nbsp;of {pageCount}
+        </span>
+        <button
+          className="btn btn-primary btn-sm mt-0"
+          onClick={() => setPageSettings(currentPage + 1, pageSize)}
+          disabled={currentPage >= pageCount}
+        >
+          {'>'}
+        </button>
+        <span className="flex items-center whitespace-nowrap gap-1">
+          <select
+            value={pageSize}
+            onChange={(e) => setPageSettings(1, Number(e.target.value))}
+            className="select select-sm select-bordered"
+          >
+            {[10, 20, 30, 40, 50].map((size) => (
+              <option key={`pagination_size_${size}`} value={size}>
+                {size}
+              </option>
+            ))}
+          </select>
+          per Page
+        </span>
+      </div>
+    </div>
+  );
+}
+
 export default function ChurchLookup({
   regionId,
   districtId,
@@ -55,7 +117,8 @@ export default function ChurchLookup({
   currentChurch,
   subtitle,
   onSelect,
-  allowAdd }: Props) {
+  allowAdd,
+  startWithSearch = true }: Props) {
 
   const authManager = AuthManager.useNanoStore();
 
@@ -66,8 +129,13 @@ export default function ChurchLookup({
   const [selectError, setSelectError] = useState<string | undefined>(undefined);
 
   useEffect(() => {
-    if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
-      startSearch(searchState?.pageNumber, searchState?.pageSize);
+    if (startWithSearch && searchText && searchText.trim() !== "") {
+      if (searchState?.regionId !== regionId || searchState?.districtId !== districtId) {
+        startSearch(searchState?.pageNumber, searchState?.pageSize);
+      }
+    }
+    else {
+      setSearchState(null);
     }
   }, [regionId, districtId]);
 
@@ -140,7 +208,7 @@ export default function ChurchLookup({
 
     if (allowAdd?.authorizeChurch) {
       setIsSelecting(true);
-      
+
       ChurchesService.authorizeChurch(authManager, church.Id!)
         .then((result) => {
           setIsSelecting(false);
@@ -163,7 +231,7 @@ export default function ChurchLookup({
 
   return (
     <>
-      <div className={`relative flex gap-2 ${subtitle ? "mb-0" : "mb-2"}`}>
+      <div className={`relative flex gap-2 ${subtitle ? "mb-0" : "mb-2"} mt-0`}>
         <input
           type="text"
           className="input input-bordered grow"
@@ -189,12 +257,12 @@ export default function ChurchLookup({
         <div className="mt-0 mb-2 text-xs text-gray-500 italic">
           {subtitle}
         </div>)}
-      {!disabled && !isAdding && (
+      {!disabled && !isAdding && showTips !== ChurchSearchTips.None && (
         <span className="text-xs">
           Enter <b>Name</b> (e.g., "Cedar Park"), <b>City & State</b> (e.g., "Seattle, WA"), or <b>both</b> (e.g., "Cedar Park, Bothell, WA"), and then click <b>Search</b>.
         </span>)}
       {searchState && (
-        <fieldset className="fieldset border-base-300 rounded-box w-full border p-4 relative mt-2 flex gap-2">
+        <fieldset className="fieldset border-base-300 rounded-box w-full border p-2 relative mt-2 flex gap-2">
           <legend className="fieldset-legend">Church Search Results</legend>
           {searchState.isLoading && (
             <LoadingPlaceholder text="Searching ..." spinnerSize="sm" textSize="sm" className="mt-0" />)}
@@ -237,7 +305,7 @@ export default function ChurchLookup({
                               </tr>))}
                           </tbody>
                         </table>
-                        <Pagination
+                        <SearchResultsPagination
                           currentPage={searchState.pageNumber + 1}
                           pageCount={searchState.page.PageCount!}
                           pageSize={searchState.pageSize}

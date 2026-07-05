@@ -20,7 +20,7 @@ import QuizzerDialog from "./teamsAndQuizzers/QuizzerDialog";
 import StatsDialog, { type QuizzerStats, type TeamStats } from "./teamsAndQuizzers/StatsDialog";
 import BulkTeamRenameDialog from "./teamsAndQuizzers/BulkTeamRenameDialog";
 import ConfirmationDialog from "components/ConfirmationDialog";
-import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
+import { AstroDatabasesService, type OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
 }
@@ -61,6 +61,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
     const [currentTeamsAndQuizzers, setCurrentTeamsAndQuizzers] = useState<OnlineTeamsAndQuizzers | null>(null);
     const [isLoadingTeamsAndQuizzers, setIsLoadingTeamsAndQuizzers] = useState(false);
     const [teamsAndQuizzersError, setTeamsAndQuizzersError] = useState<string | null>(null);
+    const [isDownloadingPhotoShow, setIsDownloadingPhotoShow] = useState(false);
 
     // UI state
     const [isSaved, setIsSaved] = useState(false);
@@ -419,6 +420,33 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
         markDirty();
     };
 
+    // Download handlers.
+    const handleDownloadPhotoExcel = () => {
+        setIsDownloadingPhotoShow(true);
+        AstroDatabasesService
+            .downloadPhotoShowExcelFile(auth, eventId, databaseId!)
+            .then(() => {
+                setIsDownloadingPhotoShow(false);
+            })
+            .catch(error => {
+                setIsDownloadingPhotoShow(false);
+                setTeamsAndQuizzersError(error.message || "An error occured while downloading the Excel file for the Photo Show.");
+            });
+    };
+
+    const handleDownloadPhotoText = () => {
+        setIsDownloadingPhotoShow(true);
+        AstroDatabasesService
+            .downloadPhotoShowTextFile(auth, eventId, databaseId!)
+            .then(() => {
+                setIsDownloadingPhotoShow(false);
+            })
+            .catch(error => {
+                setIsDownloadingPhotoShow(false);
+                setTeamsAndQuizzersError(error.message || "An error occured while downloading the text file for the Photo Show.");
+            });
+    };
+
     // Save all changes
     const handleSave = async () => {
         if (!currentTeamsAndQuizzers || !databaseId) return;
@@ -536,8 +564,7 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                     <div>
                         <b>Error: </b> {teamsAndQuizzersError}
                     </div>
-                </div>
-            )}
+                </div>)}
             {downloadedManifest && (
                 <ImportManifestDialog
                     manifest={downloadedManifest}
@@ -595,6 +622,26 @@ export default function ScoringDatabaseTeamsAndQuizzersPage({ }: Props) {
                 onBulkRename={handleBulkRename}
                 onExportSeedReport={handleExportSeedReport}
             />
+
+            <div className="w-full mt-0 mb-0 flex flex-wrap gap-2 text-right">
+                <button
+                    type="button"
+                    className="btn btn-success btn-sm m-0"
+                    onClick={handleDownloadPhotoText}
+                    disabled={isDownloadingPhotoShow}>
+                    <FontAwesomeIcon icon="fas faCamera" />
+                    Download Text (Photo Show)
+                </button>
+
+                <button
+                    type="button"
+                    className="btn btn-primary btn-sm m-0"
+                    onClick={handleDownloadPhotoExcel}
+                    disabled={isDownloadingPhotoShow}>
+                    <FontAwesomeIcon icon="fas faPhotoFilm" />
+                    Download Excel (Photo Show)
+                </button>
+            </div>
 
             {/* Dialogs */}
             {teamDialogOpen && (

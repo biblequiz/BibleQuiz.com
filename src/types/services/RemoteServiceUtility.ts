@@ -347,6 +347,10 @@ export class RemoteServiceUtility {
                 headers: {},
             };
 
+            if (service === RemoteServiceUrlBase.Registration) {
+                fetchOptions.credentials = "include";
+            }
+
             let accessToken: string | null;
             if (auth) {
                 try {

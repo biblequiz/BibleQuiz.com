@@ -1,11 +1,13 @@
 import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
 import type { Person } from 'types/services/PeopleService';
+import { AuthService } from './services/AuthService';
 import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
+const IMPERSONATION_STORAGE_KEY = "auth-impersonation--";
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
 
 // Initialize the MSAL client and active account. This happens in the background so that
@@ -36,6 +38,24 @@ interface AuthManagerReactState {
      * Current user profile.
      */
     profile: UserAccountProfile | null;
+
+    /**
+     * Current impersonation state.
+     */
+    impersonation: ImpersonationState | null;
+}
+
+interface ImpersonationState {
+
+    /**
+     * Id of the user currently being impersonated.
+     */
+    impersonatedId: string;
+
+    /**
+     * Original profile to restore when impersonation stops.
+     */
+    originalProfile: UserAccountProfile | null;
 }
 
 /**
@@ -339,15 +359,19 @@ export class AuthManager {
     private constructor() {
 
         let initialProfile: UserAccountProfile | null;
+        let initialImpersonation: ImpersonationState | null;
         if (AuthManager.isPersistenceSupported()) {
             initialProfile = AuthManager.parseProfile(localStorage.getItem(PROFILE_STORAGE_KEY));
+            initialImpersonation = AuthManager.parseImpersonationState(localStorage.getItem(IMPERSONATION_STORAGE_KEY));
             AuthManager.registerProfileChangeListener();
         } else {
             initialProfile = null;
+            initialImpersonation = null;
         }
 
         const store = map({
             profile: initialProfile,
+            impersonation: initialImpersonation,
             popupType: PopupType.None,
             isRetrievingProfile: false,
         } as AuthManagerReactState);
@@ -387,6 +411,13 @@ export class AuthManager {
      */
     public get userProfile(): UserAccountProfile | null {
         return this.getNanoState().get().profile;
+    }
+
+    /**
+     * Value indicating whether the user is currently impersonating another user.
+     */
+    public get isImpersonating(): boolean {
+        return this.getNanoState().get().impersonation !== null;
     }
 
     /**
@@ -494,9 +525,11 @@ export class AuthManager {
             })
             .then(() => {
                 AuthManager.saveProfile(null);
+                AuthManager.saveImpersonationState(null);
 
                 const state = this.getNanoState();
                 state.setKey("popupType", PopupType.None);
+                state.setKey("impersonation", null);
                 state.setKey("profile", null);
             })
             .catch((error) => {
@@ -580,6 +613,59 @@ export class AuthManager {
     }
 
     /**
+     * Stores impersonation state locally and refreshes the active profile.
+     * @param impersonatedId Id of the user being impersonated.
+     */
+    public async startImpersonating(impersonatedId: string): Promise<void> {
+        const originalProfile = this.userProfile;
+        if (!originalProfile) {
+            throw new Error("A signed-in profile is required before impersonation can start.");
+        }
+
+        const accessToken = await this.getLatestAccessToken();
+        if (!accessToken) {
+            throw new Error("No access token available to start impersonation.");
+        }
+
+        this.getNanoState().setKey("isRetrievingProfile", true);
+        await this.retrieveRemoteProfile(accessToken, originalProfile.authTokenProfile ?? null);
+
+        const impersonationState: ImpersonationState = {
+            impersonatedId,
+            originalProfile,
+        };
+
+        AuthManager.saveImpersonationState(impersonationState);
+        this.getNanoState().setKey("impersonation", impersonationState);
+    }
+
+    /**
+     * Stops impersonation and restores the original active profile.
+     */
+    public async stopImpersonating(): Promise<void> {
+        const state = this.getNanoState();
+        const impersonation = state.get().impersonation;
+        if (!impersonation) {
+            return;
+        }
+
+        state.setKey("isRetrievingProfile", true);
+        try {
+            await AuthService.impersonate(this, null);
+
+            AuthManager.saveImpersonationState(null);
+            AuthManager.saveProfile(impersonation.originalProfile);
+
+            state.setKey("impersonation", null);
+            state.setKey("popupType", PopupType.None);
+            state.setKey("profile", impersonation.originalProfile);
+        }
+        finally {
+            state.setKey("isRetrievingProfile", false);
+        }
+    }
+
+    /**
      * Enable the login window to appear if required by the background refresh.
      */
     public showLoginWindowFromBackground(): void {
@@ -629,42 +715,50 @@ export class AuthManager {
     private async retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {
-
-        const response = await fetch(
-            "https://registration.biblequiz.com/api/v1.0/users/profile",
-            {
-                method: "GET",
-                headers: {
-                    "Authorization": `Bearer ${accessToken}`,
-                }
-            });
-
-        const remoteProfile = await response.json() as RemoteUserProfile;
-
-        const newProfile = new UserAccountProfile(
-            remoteProfile.PersonId,
-            remoteProfile.Name,
-            remoteProfile.Type,
-            remoteProfile.OrganizationPermission ?? null,
-            remoteProfile.RegionPermissions ?? null,
-            remoteProfile.DistrictPermissions ?? null,
-            remoteProfile.ChurchPermissions ?? null,
-            remoteProfile.EventPermissions ?? null,
-            remoteProfile.CanCreateEvents ?? false,
-            remoteProfile.IsPayoutManager ?? false,
-            tokenProfile);
-
-        AuthManager.saveProfile(newProfile);
-
         const state = this.getNanoState();
-        state.setKey("popupType", PopupType.None);
-        state.setKey("isRetrievingProfile", false);
-        state.setKey("profile", newProfile);
+        try {
+            const response = await fetch(
+                "https://registration.biblequiz.com/api/v1.0/users/profile",
+                {
+                    method: "GET",
+                    credentials: "include",
+                    headers: {
+                        "Authorization": `Bearer ${accessToken}`,
+                    }
+                });
 
-        if (this._accessTokenResolve) {
-            this._accessTokenResolve(accessToken);
-            this._accessTokenResolve = null;
-            this._accessTokenReject = null;
+            if (!response.ok) {
+                throw new Error("Unable to retrieve the latest user profile.");
+            }
+
+            const remoteProfile = await response.json() as RemoteUserProfile;
+
+            const newProfile = new UserAccountProfile(
+                remoteProfile.PersonId,
+                remoteProfile.Name,
+                remoteProfile.Type,
+                remoteProfile.OrganizationPermission ?? null,
+                remoteProfile.RegionPermissions ?? null,
+                remoteProfile.DistrictPermissions ?? null,
+                remoteProfile.ChurchPermissions ?? null,
+                remoteProfile.EventPermissions ?? null,
+                remoteProfile.CanCreateEvents ?? false,
+                remoteProfile.IsPayoutManager ?? false,
+                tokenProfile);
+
+            AuthManager.saveProfile(newProfile);
+
+            state.setKey("popupType", PopupType.None);
+            state.setKey("profile", newProfile);
+
+            if (this._accessTokenResolve) {
+                this._accessTokenResolve(accessToken);
+                this._accessTokenResolve = null;
+                this._accessTokenReject = null;
+            }
+        }
+        finally {
+            state.setKey("isRetrievingProfile", false);
         }
     }
 
@@ -707,23 +801,23 @@ export class AuthManager {
 
         if (serialized) {
             const serializedProfile = JSON.parse(serialized) as SerializedAccountProfile;
-            if (serializedProfile) {
-                return new UserAccountProfile(
-                    serializedProfile.personId,
-                    serializedProfile.displayName,
-                    serializedProfile.type,
-                    serializedProfile.organizationPermission ?? null,
-                    serializedProfile.regionPermissions ?? null,
-                    serializedProfile.districtPermissions ?? null,
-                    serializedProfile.churchPermissions ?? null,
-                    serializedProfile.eventPermissions ?? null,
-                    serializedProfile.canCreateEvents ?? false,
-                    serializedProfile.isPayoutManager ?? false,
-                    serializedProfile.authTokenProfile);
-            }
+            return AuthManager.deserializeProfile(serializedProfile);
         }
 
         return null;
+    }
+
+    private static parseImpersonationState(serialized: string | null): ImpersonationState | null {
+
+        if (!serialized) {
+            return null;
+        }
+
+        const parsed = JSON.parse(serialized) as SerializedImpersonationState;
+        return {
+            impersonatedId: parsed.impersonatedId,
+            originalProfile: AuthManager.deserializeProfile(parsed.originalProfile),
+        };
     }
 
     private static saveProfile(profile: UserAccountProfile | null) {
@@ -733,25 +827,69 @@ export class AuthManager {
         }
 
         if (profile) {
-
-            const serializedProfile: SerializedAccountProfile = {
-                personId: profile.personId,
-                displayName: profile.displayName,
-                type: profile.type,
-                organizationPermission: profile.organizationPermission,
-                regionPermissions: profile.regionPermissions,
-                districtPermissions: profile.districtPermissions,
-                churchPermissions: profile.churchPermissions,
-                eventPermissions: profile.eventPermissions,
-                canCreateEvents: profile.canCreateEvents,
-                isPayoutManager: profile.isPayoutManager,
-                authTokenProfile: profile.authTokenProfile
-            };
-
-            localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(serializedProfile));
+            localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(AuthManager.serializeProfile(profile)));
         } else {
             localStorage.removeItem(PROFILE_STORAGE_KEY);
         }
+    }
+
+    private static saveImpersonationState(impersonation: ImpersonationState | null): void {
+
+        if (!AuthManager.isPersistenceSupported()) {
+            return;
+        }
+
+        if (impersonation) {
+            const serialized: SerializedImpersonationState = {
+                impersonatedId: impersonation.impersonatedId,
+                originalProfile: AuthManager.serializeProfile(impersonation.originalProfile),
+            };
+
+            localStorage.setItem(IMPERSONATION_STORAGE_KEY, JSON.stringify(serialized));
+        } else {
+            localStorage.removeItem(IMPERSONATION_STORAGE_KEY);
+        }
+    }
+
+    private static serializeProfile(profile: UserAccountProfile | null): SerializedAccountProfile | null {
+
+        if (!profile) {
+            return null;
+        }
+
+        return {
+            personId: profile.personId,
+            displayName: profile.displayName,
+            type: profile.type,
+            organizationPermission: profile.organizationPermission,
+            regionPermissions: profile.regionPermissions,
+            districtPermissions: profile.districtPermissions,
+            churchPermissions: profile.churchPermissions,
+            eventPermissions: profile.eventPermissions,
+            canCreateEvents: profile.canCreateEvents,
+            isPayoutManager: profile.isPayoutManager,
+            authTokenProfile: profile.authTokenProfile,
+        };
+    }
+
+    private static deserializeProfile(serializedProfile: SerializedAccountProfile | null | undefined): UserAccountProfile | null {
+
+        if (!serializedProfile) {
+            return null;
+        }
+
+        return new UserAccountProfile(
+            serializedProfile.personId,
+            serializedProfile.displayName,
+            serializedProfile.type,
+            serializedProfile.organizationPermission ?? null,
+            serializedProfile.regionPermissions ?? null,
+            serializedProfile.districtPermissions ?? null,
+            serializedProfile.churchPermissions ?? null,
+            serializedProfile.eventPermissions ?? null,
+            serializedProfile.canCreateEvents ?? false,
+            serializedProfile.isPayoutManager ?? false,
+            serializedProfile.authTokenProfile);
     }
 
     private static registerProfileChangeListener(): void {
@@ -768,6 +906,13 @@ export class AuthManager {
                     AuthManager._instance.getNanoState().setKey(
                         "profile",
                         AuthManager.parseProfile(event.newValue));
+                }
+
+                if (event.key === IMPERSONATION_STORAGE_KEY) {
+                    console.log("Detected impersonation change in another tab.");
+                    AuthManager._instance.getNanoState().setKey(
+                        "impersonation",
+                        AuthManager.parseImpersonationState(event.newValue));
                 }
             });
     }
@@ -966,4 +1111,9 @@ interface SerializedAccountProfile {
     isPayoutManager: boolean;
     authTokenProfile: AuthTokenProfile | null;
     hasDisplayedSignUpDialog?: boolean;
+}
+
+interface SerializedImpersonationState {
+    impersonatedId: string;
+    originalProfile: SerializedAccountProfile | null;
 }

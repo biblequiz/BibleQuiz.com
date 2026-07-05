@@ -94,7 +94,7 @@ export default function ScheduleGridTabContent({
                 const teamOrQuizzerRows = teamsOrQuizzers.map((teamOrQuizzerId: ScoringReportTeam | ScoringReportQuizzer | number, teamOrQuizzerIndex: number) => {
 
                     teamOrQuizzerRowCount++;
-                    
+
                     if (meet.IsIndividualCompetition) {
                         return null;
                     }
@@ -151,7 +151,7 @@ export default function ScheduleGridTabContent({
                             {teamOrQuizzer.Matches!.map((match: ScoringReportTeamMatch | ScoringReportQuizzerMatch | null, matchIndex: number) => {
                                 const matchKey = `${key}_teams_${teamOrQuizzerIndex}match_${teamOrQuizzerIndex}_matches_${matchIndex}`;
                                 if (null == match) {
-                                    return (<td key={matchKey}>--</td>);
+                                    return (<td key={matchKey} className="text-center">--</td>);
                                 }
 
                                 const isLiveMatch = null != match.CurrentQuestion;
@@ -183,35 +183,33 @@ export default function ScheduleGridTabContent({
 
                                 return (
                                     <td className="text-center" key={matchKey}>
-                                        {!isLiveMatch && !hasScore && (<span>{match.Room}</span>)}
-                                        {(isLiveMatch || hasScore) && (
-                                            <RoomDialogLink
-                                                id={matchKey}
-                                                label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`}
-                                                eventId={eventId}
-                                                databaseId={resolvedMeet.DatabaseId}
-                                                meetId={resolvedMeet.MeetId}
-                                                matchId={resolvedMatch.Id}
-                                                roomId={match.RoomId}>
-                                                {match.Room}
-                                                {isLiveMatch && (
-                                                    <>
-                                                        <br />
-                                                        <span className="italic">#{match.CurrentQuestion}</span>
-                                                    </>)}
-                                                {!isLiveMatch && hasRankedTeamsOrQuizzers && hasScore && (
-                                                    <>
-                                                        <br />
-                                                        <span className={`badge badge-xs ${badgeClass}`}>
-                                                            {(match as ScoringReportTeamMatch).Score}
-                                                        </span>
-                                                    </>
-                                                )}
-                                                {!isLiveMatch && meet.IsIndividualCompetition && match.State === ScoringReportMatchState.Completed && (match as ScoringReportQuizzerMatch).Rank && (
-                                                    <span className="badge badge-sm badge-warning ml-2">
-                                                        {DataTypeHelpers.ordinalWithSuffix((match as ScoringReportQuizzerMatch).Rank!)}
-                                                    </span>)}
-                                            </RoomDialogLink>)}
+                                        <RoomDialogLink
+                                            id={matchKey}
+                                            label={`Match ${resolvedMatch.Id} in ${match.Room} @ ${resolvedMeet.Name}`}
+                                            eventId={eventId}
+                                            databaseId={resolvedMeet.DatabaseId}
+                                            meetId={resolvedMeet.MeetId}
+                                            matchId={resolvedMatch.Id}
+                                            roomId={match.RoomId}>
+                                            {match.Room}
+                                            {isLiveMatch && (
+                                                <>
+                                                    <br />
+                                                    <span className="italic">#{match.CurrentQuestion}</span>
+                                                </>)}
+                                            {!isLiveMatch && hasRankedTeamsOrQuizzers && hasScore && (
+                                                <>
+                                                    <br />
+                                                    <span className={`badge badge-xs ${badgeClass}`}>
+                                                        {(match as ScoringReportTeamMatch).Score}
+                                                    </span>
+                                                </>
+                                            )}
+                                            {!isLiveMatch && meet.IsIndividualCompetition && match.State === ScoringReportMatchState.Completed && (match as ScoringReportQuizzerMatch).Rank && (
+                                                <span className="badge badge-sm badge-warning ml-2">
+                                                    {DataTypeHelpers.ordinalWithSuffix((match as ScoringReportQuizzerMatch).Rank!)}
+                                                </span>)}
+                                        </RoomDialogLink>
                                     </td>
                                 )
                             })}

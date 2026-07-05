@@ -125,7 +125,7 @@ export default function EventPaymentsEntryDialog({
                     </div>
                     <div className="mt-4 text-right">
                         <button
-                            className="btn btn-primary mr-2 mt-0 btn-sm"
+                            className="btn btn-primary mr-2 mt-0 btn-sm shrink-0"
                             type="submit"
                             tabIndex={1}
                             disabled={!canSave}>
@@ -133,7 +133,7 @@ export default function EventPaymentsEntryDialog({
                             Apply
                         </button>
                         <button
-                            className="btn btn-error mr-2 mt-0 btn-sm"
+                            className="btn btn-error mr-2 mt-0 btn-sm shrink-0"
                             type="button"
                             tabIndex={2}
                             onClick={() => {
@@ -144,7 +144,7 @@ export default function EventPaymentsEntryDialog({
                             Remove Entry
                         </button>
                         <button
-                            className="btn btn-warning mt-0 btn-sm"
+                            className="btn btn-warning mt-0 btn-sm shrink-0"
                             type="button"
                             tabIndex={3}
                             onClick={() => {

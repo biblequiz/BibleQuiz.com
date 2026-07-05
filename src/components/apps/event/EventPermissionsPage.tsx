@@ -3,8 +3,8 @@ import { useOutletContext } from "react-router-dom";
 import { PermissionsService, PersonPermissionScope, PersonPermissionType, type PersonPermission } from "types/services/PermissionsService";
 import type { EventProviderContext } from "./EventProvider";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import Pagination from "components/Pagination";
 import PermissionCard from "./PermissionCard";
-import PaginationControl from "./PaginationControl";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import { PersonParentType } from "types/services/PeopleService";
@@ -143,7 +143,7 @@ export default function EventPermissionsPage({ }: Props) {
                         </span>
                     </div>)}
             </div>
-            <PaginationControl
+            <Pagination
                 currentPage={pageNumber ?? 0}
                 pages={pageCount ?? 0}
                 setPage={setPageNumber}

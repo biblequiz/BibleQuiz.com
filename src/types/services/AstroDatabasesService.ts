@@ -222,6 +222,58 @@ export class AstroDatabasesService {
     }
 
     /**
+     * Retrieves the photo show Excel file for visible quizzers.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     *
+     * @returns Photo show Excel file.
+     */
+    public static downloadPhotoShowExcelFile(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+    ): Promise<void> {
+        return RemoteServiceUtility.downloadFromHttpRequest(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/photoShow/xlsx`,
+            undefined,
+            undefined,
+            undefined,
+            true,
+        );
+    }
+
+    /**
+     * Retrieves the photo show text file for visible quizzers.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param databaseId Id for the database.
+     *
+     * @returns Photo show text file.
+     */
+    public static downloadPhotoShowTextFile(
+        auth: AuthManager,
+        eventId: string,
+        databaseId: string,
+    ): Promise<void> {
+        return RemoteServiceUtility.downloadFromHttpRequest(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/${eventId}/databases/${databaseId}/photoShow/txt`,
+            undefined,
+            undefined,
+            undefined,
+            true,
+        );
+    }
+
+    /**
      * Retrieves a list of meets with with ranked teams or quizzers.
      *
      * @param auth AuthManager to use for authentication.
