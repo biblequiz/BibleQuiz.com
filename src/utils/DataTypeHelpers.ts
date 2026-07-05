@@ -324,7 +324,7 @@ export class DataTypeHelpers {
             return null;
         }
 
-        if (parsedDate.getMonth() >= 8) {
+        if (parsedDate.getMonth() > 7 || (parsedDate.getMonth() === 7 && parsedDate.getDate() >= 10)) {
             return parsedDate.getFullYear() + 1;
         } else {
             return parsedDate.getFullYear();
