@@ -80,6 +80,14 @@ export default function AuthButton({ type }: Props) {
                     tabIndex={0}
                     className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
+                    <li>
+                        <a
+                            href="/admin/profile"
+                            className="text-base-content">
+                            <FontAwesomeIcon icon="fas faIdCard" />
+                            My Profile
+                        </a>
+                    </li>
                     {authManager.isImpersonating && (
                         <li className="text-base-content">
                             <a

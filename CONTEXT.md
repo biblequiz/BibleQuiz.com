@@ -1,5 +1,13 @@
 # BibleQuiz.com Domain Context
 
+## People & Identity
+
+**Person** — The registration system record for an individual. Stores personal details (first name, last name, email, date of birth, phone, address, church assignment), competition type preference, and notification settings. Managed via the People API. A Person may or may not be a user.
+
+**Account Profile** — The browser-side representation of the authenticated session. Derived from the auth token and a profile API call; not stored server-side. Contains the linked Person ID, display name, permission grants, and session state. Distinct from Person: Account Profile is about auth and permissions, Person is about identity and registration data.
+
+**Competition Type** — Currently two values: JBQ (Junior Bible Quiz, id `agjbq`) and TBQ (Teen Bible Quiz, id `agtbq`). Used to restrict permissions and set a person's default event type preference. Not expected to expand.
+
 ## Permissions & Administration
 
 ### Core Concepts

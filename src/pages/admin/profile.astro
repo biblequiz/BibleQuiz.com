@@ -1,0 +1,19 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import ProfileProtectedApp from "components/apps/profile/ProfileProtectedApp";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "My Profile",
+    hidePageTitle: false,
+    pagefind: false
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="profile-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
+    </div>
+    <ProfileProtectedApp client:only="react" />
+</StarlightPage>
