@@ -13,14 +13,19 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "East vs. West",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": null,
-            "Quizzers": [],
+            "Quizzers": [
+              0,
+              4,
+              5,
+              6
+            ],
             "Id": "t_c3f5c8dd75f54c88a7222fd0db1da972_38",
             "Name": "East",
             "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
@@ -28,38 +33,43 @@
             "City": "Waxhaw",
             "State": "NC",
             "Scores": {
-              "Wins": 0,
+              "Wins": 1,
               "Losses": 0,
-              "WinPercentage": 0,
+              "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 0,
+              "TotalPoints": 175,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "AveragePoints": 175.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 2,
+              "Correct20s": 4,
+              "Correct30s": 2,
               "FootnoteIndex": null
             },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 175,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "BR",
-                "State": "InProgress",
-                "CurrentQuestion": 12
+                "State": "Completed",
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 0
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
-            "Quizzers": [],
+            "Quizzers": [
+              1,
+              2,
+              3,
+              7
+            ],
             "Id": "t_c3f5c8dd75f54c88a7222fd0db1da972_39",
             "Name": "West",
             "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
@@ -68,33 +78,33 @@
             "State": "WA",
             "Scores": {
               "Wins": 0,
-              "Losses": 0,
+              "Losses": 1,
               "WinPercentage": 0,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 0,
+              "TotalPoints": 25,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 4.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 1,
               "FootnoteIndex": null
             },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 25,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "BR",
-                "State": "InProgress",
-                "CurrentQuestion": 12
+                "State": "Completed",
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 0
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -102,9 +112,232 @@
           1
         ],
         "TeamFootnotes": [],
-        "Quizzers": [],
-        "RankedQuizzers": [],
-        "QuizzerFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "East",
+            "YearsQuizzing": null,
+            "Id": "q_e4f10d03f948401b56e808d8bd7dce8f",
+            "Name": "Alyssa Ramsey",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "East",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "West",
+            "YearsQuizzing": null,
+            "Id": "q_1609b790c94c4f856d4808ddfaae51da",
+            "Name": "Gigi Wallace",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "West",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "West",
+            "YearsQuizzing": null,
+            "Id": "q_9a0e826596e9484cc54608de4beea8af",
+            "Name": "Hadassah Brookbank",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "West",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "West",
+            "YearsQuizzing": null,
+            "Id": "q_8759654677cd47b9c33b08d8f272c07b",
+            "Name": "Lucas Mank",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "West",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "East",
+            "YearsQuizzing": null,
+            "Id": "q_45aead74e162467fb24508d6d70ba173",
+            "Name": "Nathan Nimako",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "East",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "East",
+            "YearsQuizzing": null,
+            "Id": "q_d16d212ea5644e2f1eb908da10795bb6",
+            "Name": "Sarah Ciampa",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "East",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "East",
+            "YearsQuizzing": null,
+            "Id": "q_8fb1d418fc314724984e3e658426beef",
+            "Name": "Steve Joy",
+            "ChurchId": "c9777862-1987-4fa8-d0fd-08d8f31ef912",
+            "ChurchName": "East",
+            "City": "Waxhaw",
+            "State": "NC",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "West",
+            "YearsQuizzing": null,
+            "Id": "q_a0bd4435b8244268856608d6d184fe58",
+            "Name": "Yatin Mokana",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "West",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          0,
+          5,
+          6,
+          1,
+          3,
+          7,
+          2
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -112,21 +345,21 @@
             "Name": "BR",
             "Matches": [
               {
-                "CurrentQuestion": 12,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
         "TeamRankingAwardsLabel": "Excellence",
-        "QuizzerRankingLabel": null,
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
         "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
@@ -137,8 +370,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "Scoring Started",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -152,7 +385,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "Championship",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -9687,7 +9920,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "Challenger",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -14502,7 +14735,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "A Group",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -17139,7 +17372,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "B Group",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -18899,7 +19132,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "C Group",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -20653,7 +20886,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "D Group",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -22033,7 +22266,7 @@
         "HasLinkedMeets": true,
         "HasQuestionStats": false,
         "Name": "E Group",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -23348,7 +23581,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Individual Division",
-        "LastUpdated": "7/4/26 2:18 PM",
+        "LastUpdated": "7/9/26 8:13 PM",
         "DatabaseLastUpdated": "2026-07-04T14:19:23.615882+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": true,
@@ -35037,5 +35270,5 @@
       }
     }
   ],
-  "Freshness": "2026-07-04T14:19:24.3849914+00:00"
+  "Freshness": "2026-07-09T20:12:17.5470657+00:00"
 }
