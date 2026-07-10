@@ -19,6 +19,10 @@ export default function AuthButton({ type }: Props) {
     const authManager = AuthManager.useNanoStore();
 
     const isMobile = type !== AuthButtonType.Desktop;
+    const isActiveViewportForType =
+        type === AuthButtonType.ProtectedRoute ||
+        (typeof window !== "undefined" &&
+            window.matchMedia(type === AuthButtonType.Desktop ? "(min-width: 1024px)" : "(max-width: 1023px)").matches);
 
     const userProfile = authManager.userProfile;
     let buttonElement: JSX.Element;
@@ -41,7 +45,7 @@ export default function AuthButton({ type }: Props) {
                         <span className="italic">Sometimes this takes 10+ seconds ...</span>
                     )}
                 </div>
-                {authManager.popupType === PopupType.LoginConfirmationDialog && (
+                {authManager.popupType === PopupType.LoginConfirmationDialog && isActiveViewportForType && (
                     <div className="text-base-content">
                         <ConfirmationDialog
                             title="Sign-In Required"

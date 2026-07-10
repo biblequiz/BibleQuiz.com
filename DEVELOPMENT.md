@@ -23,6 +23,20 @@ npm run dev
 
 The development server runs at `http://localhost:4321` by default.
 
+## App Insights Telemetry Setup
+
+Client-side error telemetry is sent to Azure Application Insights from deployed builds only.
+
+Set these Cloudflare Pages environment variables for the project:
+
+- `PUBLIC_APPINSIGHTS_CONNECTION_STRING` - Connection string for the single production telemetry environment.
+
+Behavior:
+
+- Local development (`npm run dev`) does not send telemetry by default.
+- Deployed builds send global `window.error` and `unhandledrejection` exceptions with redaction applied.
+- Telemetry build metadata uses the package version.
+
 ### Before Submitting Changes
 
 Always run a production build to catch any errors:
