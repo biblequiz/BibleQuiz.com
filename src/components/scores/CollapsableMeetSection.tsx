@@ -57,6 +57,25 @@ export default function CollapsableMeetSection({
                 <b>Last Updated:</b> {formatLastUpdated(meet)}</span>
         </div>);
 
+    const clearForcedOpenFilterForMeet = () => {
+        const currentFilters = sharedEventScoringReportFilterState.get();
+        if (!currentFilters) {
+            return;
+        }
+
+        const isCurrentMeetForcedOpen = currentFilters.openMeetDatabaseId === meet.DatabaseId
+            && currentFilters.openMeetMeetId === meet.MeetId;
+        if (!isCurrentMeetForcedOpen) {
+            return;
+        }
+
+        sharedEventScoringReportFilterState.set({
+            ...currentFilters,
+            openMeetDatabaseId: null,
+            openMeetMeetId: null,
+        });
+    };
+
     return (
         <CollapsibleSection
             pageId={pageId}
@@ -71,16 +90,17 @@ export default function CollapsableMeetSection({
             badges={badges}
             forceOpen={forceOpen}
             persistState={true}
-            onOpen={onOpen}
-            onClose={() => {
-                const currentFilters = sharedEventScoringReportFilterState.get();
-                if (forceOpen && currentFilters) {
-                    const newState = { ...currentFilters };
-                    newState.openMeetDatabaseId = null;
-                    newState.openMeetMeetId = null;
-                    sharedEventScoringReportFilterState.set(newState);
+            onOpen={() => {
+                if (onOpen) {
+                    onOpen();
                 }
-            }}>
+
+                if (forceOpen) {
+                    // Treat force-open as one-shot behavior so the user can close manually after auto-open.
+                    clearForcedOpenFilterForMeet();
+                }
+            }}
+            onClose={clearForcedOpenFilterForMeet}>
             {children}
         </CollapsibleSection>);
 };
