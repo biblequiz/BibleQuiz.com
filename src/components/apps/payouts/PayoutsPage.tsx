@@ -12,6 +12,7 @@ import {
 } from "types/services/PayoutsService";
 import { AuthManager } from "types/AuthManager";
 import { useModalDialog } from "hooks/useModalDialog";
+import stateData from "data/stateRegionsAndDistricts.json";
 
 interface EditingState {
     event: EventPayoutSummary;
@@ -204,129 +205,147 @@ function PayoutEntryDialog({
         <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-11/12 max-w-full md:w-4/5 lg:w-2/3">
                 <h3 className="font-bold text-lg">{title}</h3>
-                <form className="space-y-3" onSubmit={handleSave}>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-                        <label className="form-control">
-                            <span className="label-text">Entry Date</span>
+                <form className="mt-4 space-y-3" onSubmit={handleSave}>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-0 mb-0">
+                        <div className="w-full mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
+                                <span className="label-text font-semibold">Entry Date</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
                             <input
                                 type="date"
-                                className="input input-sm input-bordered mt-0 mb-0"
+                                className="input input-bordered w-full mt-0 mb-0"
                                 value={entryDate}
                                 onChange={e => setEntryDate(e.target.value)}
                                 required
                             />
-                        </label>
-                        <label className="form-control">
-                            <span className="label-text">Amount</span>
+                        </div>
+                        <div className="w-full mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
+                                <span className="label-text font-semibold">Amount</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
                             <input
                                 type="number"
                                 step="0.01"
-                                className="input input-sm input-bordered mt-0 mb-0"
+                                className="input input-bordered w-full mt-0 mb-0"
                                 value={amount}
                                 onChange={e => setAmount(e.target.value)}
                                 required
                             />
-                        </label>
-                        <label className="form-control">
-                            <span className="label-text">Site Fees</span>
+                        </div>
+                        <div className="w-full mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
+                                <span className="label-text font-semibold">Site Fees</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
                             <input
                                 type="number"
                                 step="0.01"
-                                className="input input-sm input-bordered mt-0 mb-0"
+                                className="input input-bordered w-full mt-0 mb-0"
                                 value={siteFees}
                                 onChange={e => setSiteFees(e.target.value)}
                                 required
                             />
-                        </label>
+                        </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                        <label className="form-control">
-                            <span className="label-text">Payee Name</span>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-0 mb-0">
+                        <div className="w-full mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
+                                <span className="label-text font-semibold">Payee Name</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
                             <input
                                 type="text"
-                                className="input input-sm input-bordered mt-0 mb-0"
+                                className="input input-bordered w-full mt-0 mb-0"
                                 maxLength={100}
                                 value={payeeName}
                                 onChange={e => setPayeeName(e.target.value)}
                                 required
                             />
-                        </label>
-                        <label className="form-control">
-                            <span className="label-text">Payee Email</span>
+                        </div>
+                        <div className="w-full mt-0 mb-0">
+                            <label className="label mt-0 mb-0">
+                                <span className="label-text font-semibold">Payee Email</span>
+                                <span className="label-text-alt text-error">*</span>
+                            </label>
                             <input
                                 type="email"
-                                className="input input-sm input-bordered mt-0 mb-0"
+                                className="input input-bordered w-full mt-0 mb-0"
                                 maxLength={150}
                                 value={payeeEmail}
                                 onChange={e => setPayeeEmail(e.target.value)}
                                 required
                             />
-                        </label>
+                        </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-12 gap-2">
-                        <label className="form-control md:col-span-6">
-                            <span className="label-text">Street Address</span>
-                            <input
-                                type="text"
-                                className="input input-sm input-bordered mt-0 mb-0"
-                                value={streetAddress}
-                                onChange={e => setStreetAddress(e.target.value)}
-                            />
+                    <div className="w-full">
+                        <label className="label mt-0 mb-0">
+                            <span className="label-text font-semibold">Address</span>
+                            <span className="label-text-alt text-error">*</span>
                         </label>
-                        <label className="form-control md:col-span-3">
-                            <span className="label-text">City</span>
-                            <input
-                                type="text"
-                                className="input input-sm input-bordered mt-0 mb-0"
-                                value={city}
-                                onChange={e => setCity(e.target.value)}
-                                required
-                            />
-                        </label>
-                        <label className="form-control md:col-span-1">
-                            <span className="label-text">State</span>
-                            <input
-                                type="text"
-                                className="input input-sm input-bordered mt-0 mb-0"
-                                maxLength={2}
-                                value={state}
-                                onChange={e => setState(e.target.value.toUpperCase())}
-                            />
-                        </label>
-                        <label className="form-control md:col-span-2">
-                            <span className="label-text">Zip</span>
-                            <input
-                                type="text"
-                                className="input input-sm input-bordered mt-0 mb-0"
-                                pattern="[0-9]{5}"
-                                maxLength={5}
-                                value={zipCode}
-                                onChange={e => setZipCode(e.target.value)}
-                                required
-                            />
-                        </label>
+                        <input
+                            type="text"
+                            className="input input-bordered w-full mt-0 mb-0"
+                            placeholder="Street Address"
+                            value={streetAddress}
+                            onChange={e => setStreetAddress(e.target.value)}
+                        />
                     </div>
 
-                    <label className="form-control">
-                        <span className="label-text">Notes</span>
+                    <div className="grid grid-cols-4 gap-2">
+                        <input
+                            type="text"
+                            className="input input-bordered w-full mt-0 mb-0 col-span-2"
+                            placeholder="City"
+                            value={city}
+                            onChange={e => setCity(e.target.value)}
+                            required
+                        />
+                        <select
+                            className="select select-bordered w-full mt-0 mb-0"
+                            value={state}
+                            onChange={e => setState(e.target.value)}
+                        >
+                            <option value=""></option>
+                            {stateData.map(s => (
+                                <option key={s.code} value={s.code}>{s.code}</option>
+                            ))}
+                        </select>
+                        <input
+                            type="text"
+                            className="input input-bordered w-full mt-0 mb-0"
+                            pattern="[0-9]{5}"
+                            maxLength={5}
+                            placeholder="Zip"
+                            value={zipCode}
+                            onChange={e => setZipCode(e.target.value)}
+                            required
+                        />
+                    </div>
+
+                    <div className="w-full">
+                        <label className="label mt-0 mb-0">
+                            <span className="label-text font-semibold">Notes</span>
+                        </label>
                         <textarea
-                            className="textarea textarea-sm textarea-bordered mt-0 mb-0"
+                            className="textarea textarea-bordered w-full mt-0 mb-0"
                             value={notes}
                             onChange={e => setNotes(e.target.value)}
                             rows={3}
                         />
-                    </label>
+                    </div>
 
-                    <div className="modal-action">
-                        <button type="submit" className="btn btn-primary btn-sm mt-0 mb-0" disabled={!canSave}>
+                    <div className="flex justify-end gap-2 pt-2">
+                        <button type="submit" className="btn btn-primary mt-0 mb-0" disabled={!canSave}>
                             <FontAwesomeIcon icon="fas faCheck" />
                             Save
                         </button>
                         <button
                             type="button"
-                            className="btn btn-warning btn-sm mt-0 mb-0"
+                            className="btn btn-warning mt-0 mb-0"
                             onClick={attemptCancel}
                             disabled={isSaving}
                         >
