@@ -1,51 +1,27 @@
 ---
 import GlobalStatusToast from './GlobalStatusToast';
+import packageJson from '../../package.json';
+
+const packageVersion = packageJson.version ?? "unknown";
+const appInsightsConnectionString = import.meta.env.PUBLIC_APPINSIGHTS_CONNECTION_STRING ?? "";
 ---
 
 <GlobalStatusToast client:only="react" />
 
+<script is:inline define:vars={{ packageVersion, appInsightsConnectionString }}>
+    window.__bqGlobalTelemetryConfig = {
+        packageVersion,
+        appInsightsConnectionString,
+    };
+</script>
+
 <script>
-    import {
-        sharedGlobalStatusToast,
-        sharedDirtyWindowState,
-    } from "../utils/SharedState";
+    import { setupGlobalNotificationManager } from "../utils/setupGlobalNotificationManager";
 
-    const showGlobalToast = (title: string, message: string) => {
-        sharedGlobalStatusToast.set({
-            type: "error",
-            title: title,
-            message: message,
-        });
+    const config = window.__bqGlobalTelemetryConfig ?? {
+        packageVersion: "unknown",
+        appInsightsConnectionString: "",
     };
 
-    const beforeUnloadHandler = (event: BeforeUnloadEvent) => {
-        if (sharedDirtyWindowState.get()) {
-            event.preventDefault();
-        }
-    };
-
-    const unhandledExceptionHandler = (event: ErrorEvent) => {
-        showGlobalToast(
-            "Unhandled Error",
-            `An unhandled error occurred: ${event.message} at ${event.filename}:${event.lineno}`,
-        );
-    };
-
-    const unhandledRejectionHandler = (event: PromiseRejectionEvent) => {
-        let title: string;
-        let message: string;
-        if (event.reason && event.reason.message) {
-            title = "Error";
-            message = event.reason.message;
-        } else {
-            title = "Unhandled Error";
-            message = event.reason?.toString() ?? "Unknown error";
-        }
-
-        showGlobalToast(title, `${message}`);
-    };
-
-    window.addEventListener("beforeunload", beforeUnloadHandler);
-    window.addEventListener("error", unhandledExceptionHandler);
-    window.addEventListener("unhandledrejection", unhandledRejectionHandler);
+    setupGlobalNotificationManager(config);
 </script>
