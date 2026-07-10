@@ -68,6 +68,7 @@ export default function AuthButton({ type }: Props) {
             (userProfile.regionPermissions && Object.keys(userProfile.regionPermissions).length > 0) ||
             (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
             (userProfile.churchPermissions && userProfile.churchPermissions.size > 0));
+        const canManagePayouts = !authManager.isImpersonating && userProfile.isPayoutManager;
         const buttonClassName = authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
         const buttonLabel = authManager.isImpersonating ? `Impersonating: ${displayName}` : displayName;
 
@@ -116,6 +117,16 @@ export default function AuthButton({ type }: Props) {
                                 className="text-base-content">
                                 <FontAwesomeIcon icon="fas faShieldHalved" />
                                 Permissions
+                            </a>
+                        </li>
+                    )}
+                    {canManagePayouts && (
+                        <li>
+                            <a
+                                href="/admin/payouts"
+                                className="text-base-content">
+                                <FontAwesomeIcon icon="fas faSackDollar" />
+                                Payout Manager
                             </a>
                         </li>
                     )}

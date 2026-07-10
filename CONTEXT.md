@@ -112,6 +112,8 @@ Navigation after impersonation: Redirect to homepage (`/`) to refresh and load i
 
 **Menu item visibility** — "Permissions" appears in the user menu only if the user has at least **Church-level** administrative permissions.
 
+**Payout Manager** — A season-level finance workflow for reconciling payouts and site fees across events. Access is controlled by the dedicated `isPayoutManager` account-profile capability (not by scope-based administrator permissions).
+
 **Page access** — The Permissions page is protected; only accessible to users with at least Church-level admin permissions.
 
 **Merge & Impersonate visibility** — Only shown/enabled for users with **Organization-level** permissions **without** a competition type restriction.

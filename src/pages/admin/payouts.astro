@@ -1,0 +1,19 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import PayoutsProtectedApp from "components/apps/payouts/PayoutsProtectedApp";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Payout Manager",
+    hidePageTitle: false,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="payouts-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
+    </div>
+    <PayoutsProtectedApp client:only="react" />
+</StarlightPage>
