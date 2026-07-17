@@ -192,7 +192,7 @@ export default function RegistrationPage() {
                             )}
                             {isEventOwner && (
                                 <a
-                                    href={`/manage-events/event/#/${eventId}`}
+                                    href={`/manage-events/event/#/${eventId}/dashboard`}
                                     className="btn btn-sm btn-outline m-0"
                                 >
                                     <FontAwesomeIcon icon="fas faPenToSquare" classNames={["mr-1"]} />
