@@ -1,0 +1,13 @@
+---
+import ResourceCatalog from "./ResourceCatalog.astro";
+import { getResources, type Program } from "utils/Resources";
+
+interface Props {
+    program: Exclude<Program, "shared">;
+}
+
+const { program } = Astro.props;
+const resources = await getResources({ program });
+---
+
+<ResourceCatalog resources={resources} />

@@ -2,14 +2,14 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
-
-import { CardGrid, LinkCard } from "@astrojs/starlight/components";
 import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
 
 const frontmatter: StarlightPageFrontmatter = {
-    title: "Home Page",
+    title: "Events & Scores",
+    description:
+        "Follow live scores, view recent results, or register for an upcoming Bible Quiz event.",
     template: "doc",
-    hidePageTitle: true,
+    tableOfContents: false,
     sidebar: {
         order: 1,
         attrs: {
@@ -18,104 +18,18 @@ const frontmatter: StarlightPageFrontmatter = {
     },
 };
 ---
+
 <StarlightPage frontmatter={frontmatter}>
-    <div
-        style="display: flex; flex-direction: column"
-        class="home-flex-container mb-0"
-    >
-        <h1
-            id="type-label"
-            class="page-title mb-4 flex items-start gap-4"
-            style="display:none"
-        >
-            <div class="shrink-0">
-                <img
-                    src={`/assets/logos/jbq/jbq-logo.png`}
-                    alt="Junior Bible Quiz"
-                    width="72"
-                    height="72"
-                    class="event-icon"
-                    id="jbq-title-icon"
-                    style="display:none; object-fit: contain; object-position: center;"
-                />
-                <img
-                    src={`/assets/logos/tbq/tbq-logo.png`}
-                    alt="Teen Bible Quiz"
-                    width="72"
-                    height="72"
-                    class="event-icon"
-                    id="tbq-title-icon"
-                    style="display:none; object-fit: contain; object-position: top;"
-                />
-            </div>
-            <div class="text-md">LIVE & UPCOMING EVENTS</div>
-        </h1>
-        <div class="m-0" id="type-card-deck">
-            <CardGrid>
-                <LinkCard
-                    title="Junior Bible Quiz (JBQ)"
-                    href="/jbq"
-                    description={`
-                    <div class="flex items-start gap-4 text-sm">
-                            <img src="/assets/logos/jbq/jbq-logo.png" alt="JBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
-                            <div>An exciting program for kids in grades 1-6 that helps them grow in faith by learning the Bible from Genesis to Revelation. Using a 576-question 'Fact-Pak', children memorize key facts about Scripture and put their knowledge to the test through fun, fast-paced competitions.</div>
-                    </div>`}
-                />
-
-                <LinkCard
-                    title="Teen Bible Quiz (TBQ)"
-                    href="/tbq"
-                    description={`
-                    <div class="flex items-start gap-4 text-sm">
-                            <img src="/assets/logos/tbq/tbq-logo.png" alt="TBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
-                            <div>Teen Bible Quiz helps middle and high school students grow in faith by memorizing and mastering New Testament books. Through competition at local, regional, and national tournaments, students develop spiritual maturity, critical thinking skills, and lifelong friendships — along with opportunities to earn scholarships.</div>
-                    </div>`}
-                />
-            </CardGrid><!--
-            <a href="/tbq/seasons/2026/nationals/" class="mt-4 block">
-                <img
-                    src="/assets/2026/nationals/2026-tbq-tucson.jpg"
-                    alt="2026 AG Teen Bible Quiz National Finals in Tucson"
-                    class="max-h-[400px] w-full object-contain"
-                />
-            </a> -->
-        </div>
-        <div class="mt-0" style="flex: 1">
-            <LiveAndUpcomingApp />
-        </div>
-    </div>
-
-    <script>
-        const titleElement = document.getElementById("type-label");
-        const cardDeckElement = document.getElementById("type-card-deck");
-        const jbqIcon = document.getElementById("jbq-title-icon");
-        const tbqIcon = document.getElementById("tbq-title-icon");
-
-        function updateTitleDisplay() {
-            if (titleElement && cardDeckElement && jbqIcon && tbqIcon) {
-                const type = new URLSearchParams(window.location.search).get(
-                    "type",
-                );
-
-                if (type) {
-                    const isTbq = type.toLowerCase() === "tbq";
-                    jbqIcon.style.display = isTbq ? "none" : "";
-                    tbqIcon.style.display = isTbq ? "" : "none";
-                    titleElement.style.display = "";
-                    cardDeckElement.style.display = "none";
-                } else {
-                    titleElement.style.display = "none";
-                    cardDeckElement.style.display = "";
-                }
-            }
-        }
-
-        // Initial load
-        updateTitleDisplay();
-
-        // Listen for URL changes from the toggle buttons
-        window.addEventListener("popstate", updateTitleDisplay);
-        // Listen for custom event from React component
-        window.addEventListener("typeChanged", updateTitleDisplay);
-    </script>
+    <p class="event-list-introduction">
+        Follow live scores, view recent results, or register for an upcoming
+        event. Use the filters to narrow the list by Program or location.
+    </p>
+    <LiveAndUpcomingApp />
 </StarlightPage>
+
+<style>
+    .event-list-introduction {
+        margin-top: 0;
+        font-size: var(--sl-text-lg);
+    }
+</style>

@@ -3,79 +3,57 @@
 import MobileMenuToggle from "components/MobileMenuToggle.astro";
 
 const { hasSidebar } = Astro.locals.starlightRoute;
+const pathname = Astro.url.pathname.toLowerCase();
+const isWorkspace =
+    pathname.startsWith("/manage-events/event") ||
+    pathname.startsWith("/manage-events/report");
+const showWorkspaceSidebar = hasSidebar && isWorkspace;
 ---
 
-<div class="page sl-flex">
-	<header class="header hide-on-print"><slot name="header" /></header>
-	{
-		hasSidebar && (
-			<nav class="sidebar print:hidden" aria-label={Astro.locals.t('sidebarNav.accessibleLabel')}>
-				<MobileMenuToggle />
-				<div id="starlight__sidebar" class="sidebar-pane">
-					<div class="sidebar-content sl-flex">
-						<slot name="sidebar" />
-					</div>
-				</div>
-			</nav>
-		)
-	}
-	<div class="main-frame"><slot /></div>
+<div class:list={["page", "sl-flex", { workspace: showWorkspaceSidebar }]}>
+    <header class="header hide-on-print"><slot name="header" /></header>
+    {
+        showWorkspaceSidebar && (
+            <nav
+                class="sidebar print:hidden"
+                aria-label="Event administration"
+            >
+                <MobileMenuToggle />
+                <div id="starlight__sidebar" class="sidebar-pane">
+                    <div class="sidebar-content sl-flex">
+                        <slot name="sidebar" />
+                    </div>
+                </div>
+            </nav>
+        )
+    }
+    <div class="main-frame"><slot /></div>
 </div>
 
 <style>
-	@layer starlight.core {
-		.page {
-			flex-direction: column;
-			min-height: 100vh;
-		}
+    @layer starlight.core {
+        .page {
+            --sl-content-inline-start: 0rem;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
-		.header {
-			z-index: var(--sl-z-index-navbar);
-			position: fixed;
-			inset-inline-start: 0;
-			inset-block-start: 0;
-			width: 100%;
-			height: var(--sl-nav-height);
-			border-bottom: 1px solid var(--sl-color-hairline-shade);
-			padding: var(--sl-nav-pad-y) var(--sl-nav-pad-x);
-			padding-inline-end: var(--sl-nav-pad-x);
-			background-color: var(--sl-color-bg-nav);
-		}
+        .header {
+            z-index: var(--sl-z-index-navbar);
+            position: fixed;
+            inset-inline-start: 0;
+            inset-block-start: 0;
+            width: 100%;
+            height: var(--sl-nav-height);
+            border-bottom: 1px solid var(--sl-color-hairline-shade);
+            padding: var(--sl-nav-pad-y) var(--sl-nav-pad-x);
+            background-color: var(--sl-color-bg-nav);
+        }
 
-		:global([data-has-sidebar]) .header {
-			padding-inline-end: calc(
-				var(--sl-nav-gap) + var(--sl-nav-pad-x) + var(--sl-menu-button-size)
-			);
-		}
-
-		.sidebar-pane {
-			visibility: var(--sl-sidebar-visibility, hidden);
-			position: fixed;
-			z-index: var(--sl-z-index-menu);
-			inset-block: var(--sl-nav-height) 0;
-			inset-inline-start: 0;
-			width: 100%;
-			background-color: var(--sl-color-black);
-			overflow-y: auto;
-		}
-
-		:global([aria-expanded='true']) ~ .sidebar-pane {
-			--sl-sidebar-visibility: visible;
-		}
-
-		.sidebar-content {
-			height: 100%;
-			min-height: max-content;
-			padding: 1rem var(--sl-sidebar-pad-x) 0;
-			flex-direction: column;
-			gap: 1rem;
-		}
-
-        @media (min-width: 64rem) {
-            .sidebar-content::after {
-                content: "";
-                padding-bottom: 1px;
-            }
+        .workspace .header {
+            padding-inline-end: calc(
+                var(--sl-nav-pad-x) + var(--sl-menu-button-size) + 0.5rem
+            );
         }
 
         .main-frame {
@@ -84,22 +62,48 @@ const { hasSidebar } = Astro.locals.starlightRoute;
             );
         }
 
-        @media (min-width: 64rem) {
-            .main-frame {
-                padding-inline-start: var(--sl-content-inline-start);
-            }
+        .sidebar-pane {
+            visibility: var(--sl-sidebar-visibility, hidden);
+            position: fixed;
+            z-index: var(--sl-z-index-menu);
+            inset-block: var(--sl-nav-height) 0;
+            inset-inline-start: 0;
+            width: 100%;
+            background-color: var(--sl-color-black);
+            overflow-y: auto;
         }
 
-		@media (min-width: 64rem) {
-			:global([data-has-sidebar]) .header {
-				padding-inline-end: var(--sl-nav-pad-x);
-			}
-			.sidebar-pane {
-				--sl-sidebar-visibility: visible;
-				width: var(--sl-sidebar-width);
-				background-color: var(--sl-color-bg-sidebar);
-				border-inline-end: 1px solid var(--sl-color-hairline-shade);
-			}
-		}
-	}
+        :global([aria-expanded="true"]) ~ .sidebar-pane {
+            --sl-sidebar-visibility: visible;
+        }
+
+        .sidebar-content {
+            height: 100%;
+            min-height: max-content;
+            padding: 1rem var(--sl-sidebar-pad-x) 0;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        @media (min-width: 64rem) {
+            .workspace .header {
+                padding-inline-end: var(--sl-nav-pad-x);
+            }
+
+            .workspace {
+                --sl-content-inline-start: var(--sl-sidebar-width);
+            }
+
+            .workspace .main-frame {
+                padding-inline-start: var(--sl-sidebar-width);
+            }
+
+            .workspace .sidebar-pane {
+                --sl-sidebar-visibility: visible;
+                width: var(--sl-sidebar-width);
+                border-inline-end: 1px solid var(--sl-color-hairline-shade);
+                background-color: var(--sl-color-bg-sidebar);
+            }
+        }
+    }
 </style>

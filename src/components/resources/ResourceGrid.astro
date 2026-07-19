@@ -1,0 +1,40 @@
+---
+import ResourceCard from "./ResourceCard.astro";
+import type { ResourceViewModel } from "utils/Resources";
+
+interface Props {
+    resources: ResourceViewModel[];
+    emptyMessage?: string;
+}
+
+const {
+    resources,
+    emptyMessage = "No resources match these filters.",
+} = Astro.props;
+---
+
+{
+    resources.length > 0 ? (
+        <div class="resource-grid">
+            {resources.map((resource) => <ResourceCard resource={resource} />)}
+        </div>
+    ) : (
+        <p class="resource-empty">{emptyMessage}</p>
+    )
+}
+
+<style>
+    .resource-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .resource-empty {
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.75rem;
+        padding: 1rem;
+        background: var(--sl-color-gray-7);
+    }
+</style>

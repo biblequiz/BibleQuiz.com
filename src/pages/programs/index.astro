@@ -1,0 +1,33 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Bible Quiz Programs",
+    description: "Choose Junior Bible Quiz or Teen Bible Quiz.",
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <p class="lead">
+        BibleQuiz.com serves two Programs with different audiences, seasons, and
+        Resource collections.
+    </p>
+    <CardGrid>
+        <LinkCard
+            title="Junior Bible Quiz (JBQ)"
+            href="/jbq/"
+            description="For children in grades 1-6, with resources focused on parents, coaches, and event coordinators."
+        />
+        <LinkCard
+            title="Teen Bible Quiz (TBQ)"
+            href="/tbq/"
+            description="For middle and high school students, with extensive quizzer, coach, competition, and historical resources."
+        />
+    </CardGrid>
+</StarlightPage>
+
+<style>.lead { font-size: var(--sl-text-lg); }</style>

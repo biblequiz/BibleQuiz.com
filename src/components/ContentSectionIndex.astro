@@ -1,0 +1,123 @@
+---
+import { getCollection } from "astro:content";
+import { getContentHref } from "utils/Resources";
+
+interface Props {
+    prefix: string;
+}
+
+const normalizedPrefix = Astro.props.prefix.toLowerCase().replace(/^\/|\/$/g, "");
+const entries = (await getCollection("docs"))
+    .filter((entry) => {
+        const id = entry.id.toLowerCase();
+        if (id === normalizedPrefix || id === `${normalizedPrefix}/index`) {
+            return false;
+        }
+
+        if (!id.startsWith(`${normalizedPrefix}/`)) {
+            return false;
+        }
+
+        return !(
+            typeof entry.data.sidebar === "object" &&
+            entry.data.sidebar.hidden
+        );
+    })
+    .map((entry) => {
+        const sidebar =
+            typeof entry.data.sidebar === "object"
+                ? entry.data.sidebar
+                : undefined;
+        const relativeId = entry.id
+            .toLowerCase()
+            .slice(normalizedPrefix.length + 1);
+        const segments = relativeId.split("/");
+        return {
+            group:
+                segments.length > 1
+                    ? segments[0].replace(/-/g, " ")
+                    : "Resources",
+            label: sidebar?.label ?? entry.data.title,
+            order: sidebar?.order ?? 0,
+            href: getContentHref(entry.id),
+            description: entry.data.description,
+        };
+    })
+    .sort(
+        (left, right) =>
+            left.group.localeCompare(right.group) ||
+            left.order - right.order ||
+            left.label.localeCompare(right.label),
+    );
+const groups = entries.reduce((result, entry) => {
+    const groupEntries = result.get(entry.group) ?? [];
+    groupEntries.push(entry);
+    result.set(entry.group, groupEntries);
+    return result;
+}, new Map<string, typeof entries>());
+---
+
+<div class="section-groups">
+    {
+        Array.from(groups.entries()).map(([group, groupEntries]) => (
+            <section>
+                {groups.size > 1 && <h2 class="capitalize">{group}</h2>}
+                <div class="section-grid">
+                    {groupEntries.map((entry) => (
+                        <a href={entry.href}>
+                            <strong>{entry.label}</strong>
+                            {entry.description && <span>{entry.description}</span>}
+                        </a>
+                    ))}
+                </div>
+            </section>
+        ))
+    }
+</div>
+
+<style>
+    .section-groups,
+    .section-groups section {
+        margin-top: 0;
+    }
+
+    .section-groups section + section {
+        margin-top: 2rem;
+    }
+
+    .capitalize {
+        text-transform: capitalize;
+    }
+
+    .section-grid {
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(min(100%, 16rem), 1fr)
+        );
+        gap: 0.75rem;
+        margin-top: 0.75rem;
+    }
+
+    .section-grid a {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.65rem;
+        padding: 0.9rem;
+        color: var(--sl-color-text);
+        text-decoration: none;
+    }
+
+    .section-grid a:hover,
+    .section-grid a:focus-visible {
+        border-color: var(--sl-color-accent);
+        background: var(--sl-color-gray-7);
+    }
+
+    .section-grid span {
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-sm);
+    }
+</style>

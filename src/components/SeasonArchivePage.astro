@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content";
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+interface Props {
+    program: "jbq" | "tbq";
+    title: string;
+}
+
+const { program, title } = Astro.props;
+const pattern = new RegExp(
+    `^${program}/seasons/(\\d{4})(?:/index)?$`,
+    "i",
+);
+const seasons = (await getCollection("docs"))
+    .map((entry) => {
+        const match = entry.id.match(pattern);
+        return match
+            ? {
+                  year: Number(match[1]),
+                  title: entry.data.title,
+                  href: `/${program}/seasons/${match[1]}/`,
+              }
+            : null;
+    })
+    .filter((season): season is NonNullable<typeof season> => season !== null)
+    .sort((left, right) => right.year - left.year);
+const frontmatter: StarlightPageFrontmatter = {
+    title,
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <p>Browse seasons in reverse chronological order.</p>
+    <div class="season-grid">
+        {
+            seasons.map((season) => (
+                <a href={season.href}>
+                    <strong>{season.year}</strong>
+                    <span>{season.title}</span>
+                </a>
+            ))
+        }
+    </div>
+</StarlightPage>
+
+<style>
+    .season-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        gap: 0.75rem;
+    }
+
+    .season-grid a {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.65rem;
+        padding: 0.9rem;
+        color: var(--sl-color-text);
+        text-decoration: none;
+    }
+
+    .season-grid a:hover,
+    .season-grid a:focus-visible {
+        border-color: var(--sl-color-accent);
+        background: var(--sl-color-gray-7);
+    }
+
+    .season-grid span {
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-sm);
+    }
+</style>

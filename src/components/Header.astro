@@ -1,112 +1,539 @@
 ---
 import config from "virtual:starlight/user-config";
-
 // @ts-ignore
 import Search from "virtual:starlight/components/Search";
 // @ts-ignore
 import SiteTitle from "virtual:starlight/components/SiteTitle";
-import SocialIcons from "./SocialIcons.astro";
 // @ts-ignore
 import ThemeSelect from "virtual:starlight/components/ThemeSelect";
 import AuthButton, { AuthButtonType } from "./auth/AuthButton";
+import AdminButton from "./auth/AdminButton";
 import GlobalNotificationManager from "./GlobalNotificationManager.astro";
+import {
+    publicNavigationMenus,
+    type NavigationMenu,
+} from "data/siteNavigation";
+import { getResources } from "utils/Resources";
 
-/**
- * Render the `Search` component if Pagefind is enabled or the default search component has been overridden.
- */
 const shouldRenderSearch =
     config.pagefind ||
     config.components.Search !== "@astrojs/starlight/components/Search.astro";
+const currentPath = Astro.url.pathname.toLowerCase();
+const resources = await getResources();
+const featuredJbqResources = resources
+    .filter(
+        (resource) =>
+            resource.featured &&
+            (resource.programs.includes("jbq") ||
+                resource.programs.includes("shared")),
+    )
+    .slice(0, 5);
+const featuredTbqResources = resources
+    .filter(
+        (resource) =>
+            resource.featured &&
+            (resource.programs.includes("tbq") ||
+                resource.programs.includes("shared")),
+    )
+    .slice(0, 5);
+const featuredTools = resources
+    .filter(
+        (resource) =>
+            resource.featured && resource.topics.includes("tools"),
+    )
+    .slice(0, 5);
+const navigationMenus: NavigationMenu[] = [
+    ...publicNavigationMenus,
+    {
+        label: "Resources",
+        href: "/resources/",
+        columns: [
+            {
+                label: "Junior Bible Quiz",
+                links: [
+                    ...featuredJbqResources.map((resource) => ({
+                        label: resource.title,
+                        href: resource.href,
+                    })),
+                    { label: "Past Seasons", href: "/jbq/seasons/" },
+                ],
+            },
+            {
+                label: "Teen Bible Quiz",
+                links: [
+                    ...featuredTbqResources.map((resource) => ({
+                        label: resource.title,
+                        href: resource.href,
+                    })),
+                    { label: "Past Seasons", href: "/tbq/seasons/" },
+                ],
+            },
+            {
+                label: "Tools & Downloads",
+                links: [
+                    ...featuredTools.map((resource) => ({
+                        label: resource.title,
+                        href: resource.href,
+                    })),
+                    {
+                        label: "All Tools & Downloads",
+                        href: "/resources/downloads/",
+                    },
+                ],
+            },
+        ],
+    },
+];
 ---
 
 <GlobalNotificationManager />
 
-<div class="header">
-    <div class="title-wrapper sl-flex">
+<div class="site-header">
+    <div class="title-wrapper">
         <SiteTitle />
     </div>
-    <div class="sl-flex print:hidden">
-        {shouldRenderSearch && <Search />}
-    </div>
-    <div class="sl-hidden lg:sl-flex print:hidden right-group">
-        <div class="sl-flex social-icons">
-            <SocialIcons />
+
+    <nav class="desktop-navigation" aria-label="Primary">
+        <a href="/" aria-current={currentPath === "/" ? "page" : undefined}>
+            Events &amp; Scores
+        </a>
+        {
+            navigationMenus.map((menu) => (
+                <details class="mega-menu">
+                    <summary>{menu.label}</summary>
+                    <div class="mega-menu-panel">
+                        <a class="menu-landing-link" href={menu.href}>
+                            All {menu.label}
+                        </a>
+                        <div class="mega-menu-columns">
+                            {menu.columns.map((column) => (
+                                <section>
+                                    <h2>{column.label}</h2>
+                                    <ul>
+                                        {column.links.map((link) => (
+                                            <li>
+                                                <a href={link.href}>
+                                                    <strong>{link.label}</strong>
+                                                    {link.description && (
+                                                        <span>{link.description}</span>
+                                                    )}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </section>
+                            ))}
+                        </div>
+                    </div>
+                </details>
+            ))
+        }
+        <a class="register-link" href="/?registration=open">Register</a>
+    </nav>
+
+    <div class="header-actions">
+        {shouldRenderSearch && <div class="search-wrapper"><Search /></div>}
+        <div class="theme-wrapper"><ThemeSelect /></div>
+        <div class="admin-wrapper">
+            <AdminButton client:only="react" />
         </div>
-        <ThemeSelect />
-        <AuthButton type={AuthButtonType.Desktop} client:only="react" />
+        <div class="account-wrapper account-desktop">
+            <AuthButton
+                type={AuthButtonType.Desktop}
+                compact
+                client:only="react"
+            />
+        </div>
+        <div class="account-wrapper account-mobile">
+            <AuthButton
+                type={AuthButtonType.Mobile}
+                compact
+                alignEnd
+                client:only="react"
+            />
+        </div>
+
+        <details class="mobile-navigation">
+            <summary aria-label="Open site navigation">
+                <span class="menu-open" aria-hidden="true">☰</span>
+                <span class="menu-close" aria-hidden="true">×</span>
+            </summary>
+            <nav class="mobile-navigation-panel" aria-label="Mobile primary">
+                <a class="mobile-primary-link" href="/">Events &amp; Scores</a>
+                {
+                    navigationMenus.map((menu) => (
+                        <details>
+                            <summary>{menu.label}</summary>
+                            <a class="mobile-menu-landing" href={menu.href}>
+                                All {menu.label}
+                            </a>
+                            {menu.columns.map((column) => (
+                                <section>
+                                    <h2>{column.label}</h2>
+                                    {column.links.map((link) => (
+                                        <a href={link.href}>{link.label}</a>
+                                    ))}
+                                </section>
+                            ))}
+                        </details>
+                    ))
+                }
+                <a class="mobile-register-link" href="/?registration=open">
+                    Register
+                </a>
+                <div class="mobile-admin-link">
+                    <AdminButton client:only="react" />
+                </div>
+            </nav>
+        </details>
     </div>
 </div>
 
+<script>
+    const menus = document.querySelectorAll<HTMLDetailsElement>(
+        ".mega-menu, .mobile-navigation",
+    );
+
+    document.addEventListener("click", (event) => {
+        const target = event.target as Node;
+        menus.forEach((menu) => {
+            if (menu.open && !menu.contains(target)) {
+                menu.open = false;
+            }
+        });
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            menus.forEach((menu) => {
+                menu.open = false;
+            });
+        }
+    });
+</script>
+
 <style>
     @layer starlight.core {
-        .header {
+        .site-header {
             display: flex;
-            gap: var(--sl-nav-gap);
-            justify-content: space-between;
             align-items: center;
+            gap: 1rem;
             height: 100%;
-        }
-
-        .title-wrapper {
-            /* Prevent long titles overflowing and covering the search and menu buttons on narrow viewports. */
-            overflow: clip;
-            /* Avoid clipping focus ring around link inside title wrapper. */
-            padding: 0.25rem;
-            margin: -0.25rem;
             min-width: 0;
         }
 
-        .right-group,
-        .social-icons {
-            gap: 1rem;
-            align-items: center;
-        }
-        .social-icons::after {
-            content: "";
-            height: 2rem;
-            border-inline-end: 1px solid var(--sl-color-gray-5);
+        .title-wrapper {
+            flex: 0 0 auto;
+            min-width: 0;
         }
 
-        @media (min-width: 50rem) {
-            :global(:root[data-has-sidebar]) {
-                --__sidebar-pad: calc(2 * var(--sl-nav-pad-x));
+        .desktop-navigation {
+            display: none;
+            align-items: center;
+            gap: 0.2rem;
+            margin-inline-start: auto;
+        }
+
+        .desktop-navigation > a,
+        .mega-menu > summary {
+            border-radius: 0.45rem;
+            padding: 0.6rem 0.7rem;
+            color: var(--sl-color-text);
+            font-size: var(--sl-text-sm);
+            font-weight: 700;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .desktop-navigation > a:hover,
+        .desktop-navigation > a:focus-visible,
+        .mega-menu > summary:hover,
+        .mega-menu > summary:focus-visible,
+        .mega-menu[open] > summary {
+            background: var(--sl-color-gray-6);
+        }
+
+        .desktop-navigation .register-link {
+            margin-inline-start: 0.3rem;
+            padding-inline: 1rem;
+            background: var(--sl-color-accent);
+            color: var(--sl-color-black);
+        }
+
+        .mega-menu {
+            position: relative;
+        }
+
+        .mega-menu > summary {
+            cursor: pointer;
+            list-style: none;
+        }
+
+        .mega-menu > summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .mega-menu > summary::after {
+            content: "⌄";
+            margin-inline-start: 0.3rem;
+            font-size: 0.75rem;
+        }
+
+        .mega-menu[open] > summary::after {
+            content: "⌃";
+        }
+
+        .mega-menu-panel {
+            position: fixed;
+            z-index: calc(var(--sl-z-index-navbar) - 1);
+            top: var(--sl-nav-height);
+            left: 50%;
+            width: min(68rem, calc(100vw - 3rem));
+            max-height: calc(100vh - var(--sl-nav-height) - 2rem);
+            transform: translateX(-50%);
+            border: 1px solid var(--sl-color-hairline);
+            border-radius: 0 0 0.8rem 0.8rem;
+            padding: 1.25rem;
+            background: var(--sl-color-gray-6);
+            box-shadow: var(--sl-shadow-lg);
+            overflow-y: auto;
+        }
+
+        .menu-landing-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--sl-color-accent-high);
+            font-weight: 700;
+        }
+
+        .mega-menu-columns {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(min(100%, 15rem), 1fr)
+            );
+            gap: 1.5rem;
+        }
+
+        .mega-menu-columns section {
+            margin: 0;
+        }
+
+        .mega-menu-columns section + section {
+            border-inline-start: 1px solid var(--sl-color-hairline);
+            padding-inline-start: 1.5rem;
+        }
+
+        .mega-menu-columns h2 {
+            margin: 0 0 0.6rem;
+            color: var(--sl-color-gray-2);
+            font-size: var(--sl-text-sm);
+            text-transform: uppercase;
+        }
+
+        .mega-menu-columns ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .mega-menu-columns li + li {
+            margin-top: 0.25rem;
+        }
+
+        .mega-menu-columns a {
+            display: flex;
+            flex-direction: column;
+            border-radius: 0.4rem;
+            padding: 0.55rem;
+            color: var(--sl-color-text);
+            text-decoration: none;
+        }
+
+        .mega-menu-columns a:hover,
+        .mega-menu-columns a:focus-visible {
+            background: var(--sl-color-gray-6);
+        }
+
+        .mega-menu-columns a span {
+            color: var(--sl-color-gray-3);
+            font-size: var(--sl-text-xs);
+            font-weight: 400;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-inline-start: auto;
+        }
+
+        .search-wrapper {
+            display: block;
+            min-width: 0;
+        }
+
+        .theme-wrapper {
+            display: none;
+        }
+
+        .admin-wrapper {
+            display: none;
+        }
+
+        .account-wrapper {
+            max-width: 7rem;
+        }
+
+        .account-desktop {
+            display: none;
+        }
+
+        .account-wrapper :global([role="button"]),
+        .account-wrapper :global(button) {
+            max-width: 100%;
+            margin: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .mobile-navigation {
+            position: relative;
+        }
+
+        .mobile-navigation > summary {
+            display: grid;
+            place-items: center;
+            border-radius: 0.45rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--sl-color-gray-6);
+            color: var(--sl-color-text);
+            cursor: pointer;
+            font-size: 1.4rem;
+            list-style: none;
+        }
+
+        .mobile-navigation > summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .mobile-navigation .menu-close,
+        .mobile-navigation[open] .menu-open {
+            display: none;
+        }
+
+        .mobile-navigation[open] .menu-close {
+            display: inline;
+        }
+
+        .mobile-navigation-panel {
+            position: fixed;
+            z-index: calc(var(--sl-z-index-navbar) - 1);
+            inset: var(--sl-nav-height) 0 0;
+            padding: 1rem;
+            background: var(--sl-color-gray-6);
+            overflow-y: auto;
+        }
+
+        .mobile-navigation-panel > a,
+        .mobile-navigation-panel > details {
+            display: block;
+            border-bottom: 1px solid var(--sl-color-hairline);
+            margin: 0;
+        }
+
+        .mobile-navigation-panel a,
+        .mobile-navigation-panel summary {
+            color: var(--sl-color-text);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .mobile-primary-link,
+        .mobile-navigation-panel > details > summary {
+            display: block;
+            padding: 1rem 0.4rem;
+        }
+
+        .mobile-navigation-panel > details > summary {
+            cursor: pointer;
+        }
+
+        .mobile-navigation-panel section {
+            margin: 0 0 0.8rem;
+            padding-inline-start: 0.75rem;
+        }
+
+        .mobile-navigation-panel h2 {
+            margin: 0.5rem 0;
+            color: var(--sl-color-gray-3);
+            font-size: var(--sl-text-xs);
+            text-transform: uppercase;
+        }
+
+        .mobile-navigation-panel section a,
+        .mobile-menu-landing {
+            display: block;
+            border-radius: 0.35rem;
+            padding: 0.55rem 0.75rem;
+        }
+
+        .mobile-navigation-panel section a:hover,
+        .mobile-navigation-panel section a:focus-visible,
+        .mobile-menu-landing:hover,
+        .mobile-menu-landing:focus-visible {
+            background: var(--sl-color-gray-6);
+        }
+
+        .mobile-register-link {
+            margin-top: 1rem;
+            border: 0 !important;
+            border-radius: 0.45rem;
+            padding: 0.85rem !important;
+            background: var(--sl-color-accent);
+            color: var(--sl-color-black) !important;
+            text-align: center;
+        }
+
+        @media (min-width: 64rem) {
+            .desktop-navigation {
+                display: flex;
             }
-            :global(:root:not([data-has-toc])) {
-                --__toc-width: 0rem;
+
+            .theme-wrapper {
+                display: block;
             }
-            .header {
-                --__sidebar-width: max(
-                    0rem,
-                    var(--sl-content-inline-start, 0rem) - var(--sl-nav-pad-x)
-                );
-                --__main-column-fr: calc(
-                    (
-                            100% + var(--__sidebar-pad, 0rem) -
-                                var(--__toc-width, var(--sl-sidebar-width)) -
-                                (2 * var(--__toc-width, var(--sl-nav-pad-x))) -
-                                var(--sl-content-inline-start, 0rem) -
-                                var(--sl-content-width)
-                        ) / 2
-                );
-                display: grid;
-                grid-template-columns:
-        /* 1 (site title): runs up until the main content column’s left edge or the width of the title, whichever is the largest  */
-                    minmax(
-                        calc(
-                            var(--__sidebar-width) +
-                                max(
-                                    0rem,
-                                    var(--__main-column-fr) - var(--sl-nav-gap)
-                                )
-                        ),
-                        auto
-                    )
-                    /* 2 (search box): all free space that is available. */
-                    1fr
-                    /* 3 (right items): use the space that these need. */
-                    auto;
-                align-content: center;
+
+            .admin-wrapper {
+                display: block;
             }
+
+            .search-wrapper {
+                display: block;
+            }
+
+            .mobile-navigation {
+                display: none;
+            }
+
+            .account-wrapper {
+                max-width: 13rem;
+            }
+
+            .account-desktop {
+                display: block;
+            }
+
+            .account-mobile {
+                display: none;
+            }
+        }
+
+        .mobile-admin-link :global(.btn) {
+            width: 100%;
+            justify-content: center;
         }
     }
 </style>

@@ -42,15 +42,19 @@ function renderEventSection(
     typeFilterOverride: string | undefined,
     isLive: boolean,
     currentSeason?: number,
-    seasonLink?: string) {
+    seasonLink?: string,
+    registrationOnly = false) {
 
     if (events.length === 0) {
         return null;
     }
 
-    const filteredEvents = eventFilters
-        ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type, false, typeFilterOverride))
+    const matchingEvents = registrationOnly
+        ? events.filter(event => event.isRegistrationOpen)
         : events;
+    const filteredEvents = eventFilters
+        ? matchingEvents.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type, false, typeFilterOverride))
+        : matchingEvents;
 
     const seasonLinkElement = seasonLink && (
         <a
@@ -138,6 +142,9 @@ export default function LiveAndUpcomingRoot({
     const urlType = useMemo(() => {
         return urlParameters.get('type') || undefined;
     }, [urlParameters]);
+    const registrationOnly = useMemo(
+        () => urlParameters.get('registration') === 'open',
+        [urlParameters]);
 
     const { liveEvents, upcomingEvents, recentEvents } = useMemo(
         () => {
@@ -248,6 +255,15 @@ export default function LiveAndUpcomingRoot({
 
     return (
         <div ref={eventListRef} style={{ display: "none" }}>
+            {registrationOnly && (
+                <div role="status" className="alert alert-info mb-4">
+                    <FontAwesomeIcon icon="fas faUserPen" />
+                    <span>Showing upcoming events with registration currently open.</span>
+                    <a className="btn btn-sm" href={urlType ? `/?type=${urlType}` : "/"}>
+                        Show All Events
+                    </a>
+                </div>
+            )}
             {urlType && (
                 <div className="mb-4 flex items-center justify-between">
                     <div className="join">
@@ -269,7 +285,7 @@ export default function LiveAndUpcomingRoot({
                 districts={districts}
                 allowTypeFilter={!urlType}
             />
-            {renderEventSection(
+            {!registrationOnly && renderEventSection(
                 "LIVE EVENTS",
                 "success",
                 "faTowerBroadcast",
@@ -278,6 +294,17 @@ export default function LiveAndUpcomingRoot({
                 urlType,
                 true)}
             {renderEventSection(
+                registrationOnly ? "REGISTRATION OPEN" : "COMING UP",
+                registrationOnly ? "warning" : "primary",
+                "faCalendarDays",
+                upcomingEvents,
+                eventFilters,
+                urlType,
+                false,
+                undefined,
+                undefined,
+                registrationOnly)}
+            {!registrationOnly && renderEventSection(
                 "JUST HAPPENED",
                 "info",
                 "faClockRotateLeft",
@@ -287,13 +314,5 @@ export default function LiveAndUpcomingRoot({
                 true,
                 currentSeason,
                 urlType ? currentSeasonLinks[urlType] : undefined)}
-            {renderEventSection(
-                "COMING UP",
-                "primary",
-                "faCalendarDays",
-                upcomingEvents,
-                eventFilters,
-                urlType,
-                false)}
         </div>);
 }

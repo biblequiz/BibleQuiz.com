@@ -1,0 +1,49 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { LinkButton } from "@astrojs/starlight/components";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import ResourceGrid from "components/resources/ResourceGrid.astro";
+import { getResources } from "utils/Resources";
+
+const jbqResources = await getResources({ program: "jbq", featured: true });
+const tbqResources = await getResources({ program: "tbq", featured: true });
+const toolResources = await getResources({ topic: "tools" });
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Resources",
+    description: "Browse Bible Quiz resources by Program, audience, or topic.",
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="resource-heading">
+        <h2>Junior Bible Quiz</h2>
+        <LinkButton href="/jbq/">All JBQ resources</LinkButton>
+    </div>
+    <ResourceGrid resources={jbqResources} />
+
+    <div class="resource-heading">
+        <h2>Teen Bible Quiz</h2>
+        <LinkButton href="/tbq/">All TBQ resources</LinkButton>
+    </div>
+    <ResourceGrid resources={tbqResources} />
+
+    <div class="resource-heading">
+        <h2>Tools &amp; Downloads</h2>
+        <LinkButton href="/resources/downloads/">Open catalog</LinkButton>
+    </div>
+    <ResourceGrid resources={toolResources.slice(0, 6)} />
+</StarlightPage>
+
+<style>
+    .resource-heading {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 2.5rem;
+    }
+    .resource-heading h2 { margin: 0; }
+</style>

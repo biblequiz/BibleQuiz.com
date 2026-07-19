@@ -1,0 +1,26 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Find Resources for You",
+    description: "Start with your role, then choose a Bible Quiz Program.",
+    tableOfContents: false,
+};
+const audiences = [
+    ["Quizzers", "/for-you/quizzers/", "Study, compete, and follow results."],
+    ["Parents", "/for-you/parents/", "Understand the Program, register, and follow scores."],
+    ["Coaches", "/for-you/coaches/", "Train Quizzers and prepare for competition."],
+    ["Event Coordinators", "/for-you/event-coordinators/", "Register, administer, score, and report events."],
+] as const;
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <CardGrid>
+        {audiences.map(([title, href, description]) => (
+            <LinkCard title={title} href={href} description={description} />
+        ))}
+    </CardGrid>
+</StarlightPage>

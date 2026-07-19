@@ -12,9 +12,11 @@ export enum AuthButtonType {
 
 interface Props {
     type: AuthButtonType;
+    compact?: boolean;
+    alignEnd?: boolean;
 }
 
-export default function AuthButton({ type }: Props) {
+export default function AuthButton({ type, compact = false, alignEnd = false }: Props) {
 
     const authManager = AuthManager.useNanoStore();
 
@@ -68,16 +70,13 @@ export default function AuthButton({ type }: Props) {
         }
 
         const displayName = userProfile.displayName || "Unknown User";
-        const hasPermissions = !authManager.isImpersonating && (!!userProfile.organizationPermission ||
-            (userProfile.regionPermissions && Object.keys(userProfile.regionPermissions).length > 0) ||
-            (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
-            (userProfile.churchPermissions && userProfile.churchPermissions.size > 0));
-        const canManagePayouts = !authManager.isImpersonating && userProfile.isPayoutManager;
         const buttonClassName = authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
-        const buttonLabel = authManager.isImpersonating ? `Impersonating: ${displayName}` : displayName;
+        const buttonLabel = authManager.isImpersonating
+            ? `Impersonating: ${displayName}`
+            : displayName;
 
         buttonElement = (
-            <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
+            <div className={`dropdown dropdown-${alignEnd || !isMobile ? "end" : "start"}`}>
                 <div tabIndex={0} role="button" className={buttonClassName}>
                     <FontAwesomeIcon icon={authManager.isImpersonating ? "fas faUserSecret" : "fas faUser"} />&nbsp;{buttonLabel}
                 </div>
@@ -114,26 +113,6 @@ export default function AuthButton({ type }: Props) {
                             </a>
                         </li>
                     )}
-                    {hasPermissions && (
-                        <li>
-                            <a
-                                href="/admin/permissions"
-                                className="text-base-content">
-                                <FontAwesomeIcon icon="fas faShieldHalved" />
-                                Permissions
-                            </a>
-                        </li>
-                    )}
-                    {canManagePayouts && (
-                        <li>
-                            <a
-                                href="/admin/payouts"
-                                className="text-base-content">
-                                <FontAwesomeIcon icon="fas faSackDollar" />
-                                Payout Manager
-                            </a>
-                        </li>
-                    )}
                     <li>
                         <a
                             className="text-base-content"
@@ -157,7 +136,7 @@ export default function AuthButton({ type }: Props) {
                 onClick={() => {
                     authManager.login();
                 }}>
-                Sign In or Sign-Up
+                {compact ? "Sign In" : "Sign In or Sign-Up"}
             </button>);
     }
 

@@ -1,8 +1,14 @@
 # BibleQuiz.com Navigation Migration Plan
 
-**Status:** Proposed for review  
+**Status:** Implemented on `users/michsco/nav`; ready for preview feedback
 **Scope:** Public navigation, content discovery, page actions, authenticated Admin navigation, and migration/cutover  
 **Constraints:** Existing public URLs remain stable. Implementation occurs on a feature branch deployed to a dedicated review domain; merging to `main` is the production cutover.
+
+## Implementation handoff
+
+The feature branch contains the new public shell, frontmatter-driven Resource model, Program and audience hubs, combined event/registration actions, capability-based Admin entry points, workspace sidebar, content-authoring documentation, and restored discovery for existing TBQ Training and History content. Wiki is intentionally excluded.
+
+Routine validation passes with `npm run check`. The remaining migration work is the preview-domain feedback cycle, comprehensive manual viewport/accessibility/authorization checks, any refinements found during feedback, and the merge-to-`main` cutover described in Phases 5 and 6.
 
 ## Outcome
 
@@ -23,7 +29,8 @@ This is an information-architecture and application-shell migration. The visual 
 9. **Public and Admin navigation solve different problems.** Public pages use global top navigation. The dense Admin workspace uses contextual side navigation and in-section tabs.
 10. **Actions are not navigation.** Common commands such as Register, Download Excel, and Print appear as labeled controls. Rare commands move to More.
 11. **Maintainability is a deliverable.** Shared behavior uses explicit typed models and reusable components. The design must remain understandable and safely editable by a developer without relying on an AI agent.
-12. **Preview before cutover.** Deploy the feature branch to a dedicated domain, gather informal feedback, address findings, then merge to `main` to switch production.
+12. **Frontmatter remains the content-authoring interface.** Contributors classify and promote content by editing the page frontmatter they already use. Routine content changes do not require editing TypeScript or understanding component internals.
+13. **Preview before cutover.** Deploy the feature branch to a dedicated domain, gather informal feedback, address findings, then merge to `main` to switch production.
 
 ## Proposed information architecture
 
@@ -62,9 +69,9 @@ The global Register action should focus or filter the same list to registration-
 
 - Terms and Privacy
 - Social links and contact
-- Optional repeated links to News, Wiki, and Subscribe
+- Optional repeated links to News and Subscribe
 
-News, Wiki, Subscribe, Apps, and Quizzer Search live under Resources. Apps and Quizzer Search also appear as shortcuts on relevant Program and audience guides.
+News, Subscribe, Apps, and Quizzer Search live under Resources. Apps and Quizzer Search also appear as shortcuts on relevant Program and audience guides. The unused Wiki is excluded from the replacement navigation.
 
 ### Program landing pages
 
@@ -106,6 +113,8 @@ Resource organization is faceted rather than a single exclusive tree. For exampl
 
 Each placement points to the same canonical Resource definition and destination.
 
+The canonical definition lives with the content in MDX frontmatter. It is not copied into a central TypeScript list.
+
 Candidate groupings:
 
 | Shared grouping | JBQ examples | TBQ examples |
@@ -114,7 +123,7 @@ Candidate groupings:
 | Learn and train | Question Generator, rules | Quizzer, coach, and official training; questions; writers’ tips |
 | Tools & Downloads | Apps, Question Generator, rules | Apps, Quizzer Search, rules, forms, scoresheets, downloads |
 | History and archive | Past seasons | Past seasons, Nationals history, awards, records |
-| Community | News, Wiki, Subscribe | News, Wiki, Subscribe, scholarships, products, links |
+| Community | News, Subscribe | News, Subscribe, scholarships, products, links |
 
 These are starting labels, not a requirement to create empty JBQ categories.
 
@@ -135,6 +144,42 @@ The catalog should support:
 Current season pages may still explain a file in context. They should render or reference the same Resource definition rather than repeat URLs, titles, and metadata manually.
 
 Not every file under `public/assets` belongs in the primary catalog. Historical event artifacts and newsletter PDFs remain discoverable in their archive context unless explicitly promoted.
+
+### Content authoring model
+
+Extend the existing Starlight docs frontmatter schema with one optional `resource` object. A normal page remains a Resource by linking to itself; a metadata page may point directly to a file or external URL.
+
+```yaml
+---
+title: "2026 JBQ Official Rules"
+description: "The current official Junior Bible Quiz rules."
+resource:
+  programs: [jbq]
+  audiences: [parent, coach, event-coordinator]
+  topics: [rules, learn, tools]
+  format: pdf
+  href: /assets/2026/2026-jbq-rules.pdf
+  season: 2026
+  current: true
+  featured: true
+  actionLabel: Download PDF
+---
+```
+
+Rules:
+
+- `title` and `description` continue to use standard page frontmatter.
+- `resource` is optional; pages without it behave as they do today.
+- `href` is optional and defaults to the page URL.
+- `resource.label` and `resource.order` are optional. Existing `sidebar.label` and `sidebar.order` remain the fallback so intentional names and ordering survive the migration.
+- Programs, audiences, and topics are arrays because a Resource may appear in multiple places.
+- Enumerated values are documented and validated by the content schema.
+- Current/featured flags affect discovery, not the canonical URL.
+- Content contributors never edit navigation components to add a Resource.
+
+For a page that explains several related files, such as the TBQ rules page, the catalog links to the explanatory page. Use separate lightweight MDX metadata entries only when individual files need independent titles, filters, or promotion.
+
+See [Content and Resource Authoring](./navigation-content-authoring.md) for the contributor workflow and examples.
 
 ## Visual proposal
 
@@ -249,7 +294,8 @@ The detailed grouping must be checked against permissions and current route beha
 | Question Generator listed only under JBQ | One canonical Resource surfaced under JBQ Learn & Train and Tools |
 | `/tbq/downloads` catch-all and JBQ direct rules link | Shared Tools & Downloads catalog with Program/topic filters; existing URLs remain valid |
 | Repeated hard-coded download metadata | Typed Resource definitions rendered by shared components |
-| Subscribe, News, Wiki | Resources |
+| Subscribe and News | Resources |
+| Wiki | Excluded from the replacement navigation for now |
 | Terms and Privacy | Footer |
 | Event title icon buttons | Labeled page action bar |
 
@@ -257,16 +303,23 @@ The detailed grouping must be checked against permissions and current route beha
 
 ### 1. Typed navigation model
 
-Create a small set of typed, human-readable manifests rather than one oversized configuration:
+Use two kinds of maintainable source data:
 
-- Public navigation: links, groups, mega-menu columns, desktop/mobile labels
-- Resources: canonical ID, title, destination, Programs, audiences, topics, season, format, and featured placements
-- Admin navigation: runtime capability requirements and workspace groups
+- Developer-owned manifests for the small, stable application shell: public navigation labels/groups and Admin capability/workspace groups
+- Contributor-owned docs frontmatter for Resources: title, destination, Programs, audiences, topics, season, format, and featured placement
 
-Derive repeated views from these models. Do not duplicate the same link metadata in mega menus, hub pages, audience guides, and download pages.
+Load Resource metadata through Astro’s content collection APIs and derive repeated views from it. Do not duplicate the same link metadata in mega menus, hub pages, audience guides, and download pages.
 
 Do not reuse the current autogenerated Starlight sidebar as the global navigation source.
 Do not infer important labels or categories from directory names when they can be declared explicitly.
+Do not require content contributors to edit files under `src/data` or `src/components`.
+
+Existing page-level `sidebar` frontmatter is not removed in bulk. During migration:
+
+1. Preserve `sidebar.label` and `sidebar.order` as fallback author metadata.
+2. Map intentional groups and ordering into the new hubs before retiring autogenerated sidebar trees.
+3. Add `resource.label` or `resource.order` only when the new context needs to differ.
+4. Remove obsolete sidebar-only icons, collapse settings, or placeholders only after their behavior has an explicit replacement.
 
 ### 2. Application shell
 
@@ -283,6 +336,16 @@ Reuse the existing Pagefind search integration rather than creating a second sea
 
 Keep component contracts narrow and explicit. Avoid cross-component DOM-ID lookups, duplicated conditional logic, and hidden mutations between Astro and React. Complex business rules should have named helpers and focused tests.
 
+Add one focused Resource query module that:
+
+- reads `getCollection("docs")`
+- selects entries with `data.resource`
+- resolves a default page URL when `resource.href` is absent
+- filters by Program, audience, topic, current, and featured status
+- applies deterministic display ordering
+
+Components receive already-resolved Resource view models; they do not scan content or reinterpret frontmatter independently.
+
 ### 3. Hub and guide pages
 
 Add:
@@ -298,13 +361,28 @@ These pages curate existing destinations rather than duplicating content.
 Archive discovery must preserve the current reverse-chronological season ordering and current/next-season behavior that is presently implemented in the custom sidebar.
 Program, audience, topic, and download views should reuse the same Resource data and rendering components.
 
-### 4. Page actions
+### 4. Contributor documentation
+
+Add a concise authoring guide that covers:
+
+- updating an existing page
+- marking a page as a Resource
+- linking a Resource directly to a file
+- assigning multiple Programs, audiences, and topics
+- promoting current or featured content
+- adding a lightweight metadata page for a standalone download
+- running `npm run check`
+- common schema errors and how to correct them
+
+Include copyable examples near the content they describe. Keep the vocabulary lists in one documented location matching the schema enums.
+
+### 5. Page actions
 
 Create a reusable page-action contract and migrate the generated event page first. Remove DOM-ID coupling between `EventScoringReportLoader` and icon-only Astro buttons where practical; actions should receive explicit loading and command state.
 
 Then inventory other hidden or icon-only actions and migrate them using the same component.
 
-### 5. Admin navigation
+### 6. Admin navigation
 
 Separate global Admin entry points from selected-event navigation:
 
@@ -313,7 +391,7 @@ Separate global Admin entry points from selected-event navigation:
 - Reuse a single Admin sidebar renderer rather than injecting React entries into the public Starlight sidebar.
 - Preserve current hash routes, unsaved-change blockers, authorization checks, and browser back/forward behavior.
 
-### 6. URL and link preservation
+### 7. URL and link preservation
 
 Before changing navigation, generate a baseline inventory of:
 
@@ -322,6 +400,8 @@ Before changing navigation, generate a baseline inventory of:
 - Admin page routes and hash routes
 - Download and external links
 - Resource definitions and every place each one should be surfaced
+- Existing frontmatter fields and contributor workflows that must remain simple
+- Existing sidebar labels, ordering, grouping, hidden entries, and external-link overrides
 
 After migration:
 
@@ -336,24 +416,29 @@ After migration:
 - Export the current route set and navigation tree.
 - Inventory actions, especially icon-only and menu-hidden commands.
 - Inventory current downloads, forms, rules, scoresheets, graphics, videos, and external files; identify canonical and archived items.
+- Identify which existing pages become canonical Resource entries and which raw files need lightweight metadata pages.
+- Export and review existing sidebar labels/order before changing or deleting sidebar configuration.
 - Classify every current destination as global, Program, audience, Resource, Admin, Profile, or footer.
 - Resolve the meaningful audience/Program matrix.
 - Record authorization rules for every Admin destination.
 - Define screenshot acceptance at desktop, tablet, and mobile widths.
 
-**Exit:** Every current link and action has a target location or an explicit retirement decision.
+**Exit:** Every current link and action has a target location or an explicit retirement decision, and every promoted Resource has an author-maintained frontmatter source.
 
 ### Phase 1: Navigation foundation
 
-- Add the typed public-navigation, Resource, and Admin-navigation models.
+- Extend `content.config.ts` with the optional Resource frontmatter schema.
+- Add the developer-owned public-navigation and Admin-navigation models.
+- Add the content-collection Resource query module.
 - Add shared Resource cards, grids, filters, and placement selectors.
+- Add the contributor authoring guide before migrating content.
 - Build Programs, For You, and Resources landing pages.
 - Add mega-menu and mobile-drawer components behind the preview branch.
 - Add breadcrumbs and active-state logic.
 - Keep current URLs and content unchanged.
 - Extract the React event workspace navigation into its Admin-specific shell before removing the public sidebar.
 
-**Exit:** Public destinations are reachable through the new shell in the preview deployment.
+**Exit:** Public destinations are reachable through the new shell in the preview deployment, and a contributor can add a Resource by editing only MDX frontmatter.
 
 ### Phase 2: Public layout migration
 
@@ -363,6 +448,8 @@ After migration:
 - Update Program pages and build audience guides.
 - Add Resource shortcuts and archive discovery.
 - Replace the TBQ-only downloads page with the shared Tools & Downloads experience and add JBQ rules/download discovery.
+- Migrate existing Resources incrementally by adding frontmatter; do not copy their metadata into TypeScript.
+- Preserve existing sidebar labels/order as fallback until each section’s new ordering is reviewed.
 - Move Terms and Privacy to the footer.
 - Confirm search remains prominent.
 
@@ -414,6 +501,7 @@ After migration:
 - Component tests for navigation state and capability visibility where existing test infrastructure supports them
 - Tests for action loading, success, and failure states
 - Tests that Resource filtering and multiple placements resolve to one canonical definition
+- Schema tests or fixtures covering valid and invalid Resource frontmatter
 
 ### Manual
 
@@ -423,6 +511,8 @@ After migration:
 - JBQ and TBQ content discovery
 - Question Generator and rules discoverable through every intended category without duplicated definitions
 - Tools & Downloads filters, current-season labels, file types, and external downloads
+- A content contributor can add or reclassify a Resource using a documented frontmatter-only change
+- Existing intentional sidebar labels and order are reflected in the replacement views
 - Home/Event List access from every public page
 - Registration-open filtering and event-level Register actions
 - Persistent Sign In/Profile access at every supported viewport
@@ -446,6 +536,7 @@ After migration:
 | Resource appears in multiple places and becomes inconsistent | One typed canonical definition with derived placements |
 | Download catalog becomes an uncurated asset dump | Explicit metadata and promotion; historical files remain in archive context |
 | Refactor becomes difficult to maintain | Small typed models, shared components, named helpers, tests, and documented extension points |
+| Content updates require developer knowledge | Optional validated frontmatter, copyable examples, and no TypeScript changes for routine content work |
 | Preview differs from production | Feature-branch domain uses the production environment shape; merge to `main` is the only cutover |
 
 ## Rollback
@@ -458,6 +549,7 @@ After migration:
 
 - Final meaningful audience/Program matrix
 - Final Resource labels after the content inventory
+- Final documented Program, audience, topic, and format vocabulary
 - Which low-frequency event commands belong in More
 - Exact Admin module grouping after route and permission review
 - Final visual tokens and responsive breakpoints
