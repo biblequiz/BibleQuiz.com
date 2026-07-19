@@ -297,13 +297,6 @@ summary.tocSummary {
     line-height: var(--sl-line-height-headings);
 }
 
-/* a11y fix for https://github.com/withastro/starlight/issues/487 */
-.live-events-card a::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-}
-
 /* Hover state */
 .live-events-card:hover {
     background: var(--sl-color-gray-7, var(--sl-color-gray-6));

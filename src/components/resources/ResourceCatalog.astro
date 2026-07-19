@@ -1,0 +1,199 @@
+---
+import ResourceGrid from "./ResourceGrid.astro";
+import type { ResourceViewModel } from "utils/Resources";
+
+interface Props {
+    resources: ResourceViewModel[];
+}
+
+const { resources } = Astro.props;
+---
+
+<div class="resource-catalog">
+    <div class="catalog-filters" aria-label="Resource filters">
+        <fieldset>
+            <legend>Program</legend>
+            <button type="button" class="filter-active" data-program="all">All</button>
+            <button type="button" data-program="jbq">JBQ</button>
+            <button type="button" data-program="tbq">TBQ</button>
+        </fieldset>
+        <fieldset>
+            <legend>Topic</legend>
+            <button type="button" class="filter-active" data-topic="all">All</button>
+            <button type="button" data-topic="rules">Rules</button>
+            <button type="button" data-topic="questions">Questions</button>
+            <button type="button" data-topic="forms">Forms</button>
+            <button type="button" data-topic="scoresheets">Scoresheets</button>
+            <button type="button" data-topic="apps">Apps</button>
+            <button type="button" data-topic="learn">Learn &amp; Train</button>
+            <button type="button" data-topic="tools">Tools</button>
+            <button type="button" data-topic="graphics">Graphics</button>
+            <button type="button" data-topic="history">History</button>
+        </fieldset>
+        <label class="catalog-search">
+            <span>Search</span>
+            <input type="search" placeholder="Search tools and downloads" />
+        </label>
+    </div>
+    <ResourceGrid resources={resources} />
+    <p class="no-results" hidden>No resources match the selected filters.</p>
+</div>
+
+<script>
+    document.querySelectorAll<HTMLElement>(".resource-catalog").forEach((catalog) => {
+        const params = new URLSearchParams(window.location.search);
+        let program = params.get("program") ?? "all";
+        let topic = params.get("topic") ?? "all";
+        let search = "";
+
+        const applyFilters = () => {
+            let visibleCount = 0;
+            catalog.querySelectorAll<HTMLElement>(".resource-card").forEach((card) => {
+                const programs = (card.dataset.programs ?? "").split(",");
+                const topics = (card.dataset.topics ?? "").split(",");
+                const searchText = card.dataset.search ?? "";
+                const showProgram =
+                    program === "all" ||
+                    programs.includes(program) ||
+                    programs.includes("shared");
+                const showTopic = topic === "all" || topics.includes(topic);
+                const showSearch = search === "" || searchText.includes(search);
+                const visible = showProgram && showTopic && showSearch;
+                card.hidden = !visible;
+                if (visible) visibleCount++;
+            });
+
+            const noResults = catalog.querySelector<HTMLElement>(".no-results");
+            if (noResults) noResults.hidden = visibleCount > 0;
+        };
+
+        catalog.querySelectorAll<HTMLButtonElement>("[data-program]").forEach((button) => {
+            button.addEventListener("click", () => {
+                program = button.dataset.program ?? "all";
+                catalog.querySelectorAll("[data-program]").forEach((item) =>
+                    item.classList.remove("filter-active"));
+                button.classList.add("filter-active");
+                applyFilters();
+            });
+        });
+
+        catalog.querySelectorAll<HTMLButtonElement>("[data-topic]").forEach((button) => {
+            button.addEventListener("click", () => {
+                topic = button.dataset.topic ?? "all";
+                catalog.querySelectorAll("[data-topic]").forEach((item) =>
+                    item.classList.remove("filter-active"));
+                button.classList.add("filter-active");
+                applyFilters();
+            });
+        });
+
+        const selectedProgram = catalog.querySelector<HTMLButtonElement>(
+            `[data-program="${program}"]`,
+        );
+        if (selectedProgram) {
+            catalog.querySelectorAll("[data-program]").forEach((item) =>
+                item.classList.remove("filter-active"));
+            selectedProgram.classList.add("filter-active");
+        } else {
+            program = "all";
+        }
+
+        const selectedTopic = catalog.querySelector<HTMLButtonElement>(
+            `[data-topic="${topic}"]`,
+        );
+        if (selectedTopic) {
+            catalog.querySelectorAll("[data-topic]").forEach((item) =>
+                item.classList.remove("filter-active"));
+            selectedTopic.classList.add("filter-active");
+        } else {
+            topic = "all";
+        }
+
+        const searchInput =
+            catalog.querySelector<HTMLInputElement>('input[type="search"]');
+        searchInput?.addEventListener("input", () => {
+            search = searchInput.value.trim().toLowerCase();
+            applyFilters();
+        });
+
+        applyFilters();
+    });
+</script>
+
+<style>
+    .catalog-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.75rem;
+        padding: 1rem;
+        background: var(--sl-color-bg);
+    }
+
+    fieldset {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .catalog-search {
+        display: flex;
+        flex: 1 1 16rem;
+        flex-direction: column;
+        gap: 0.35rem;
+        min-width: min(100%, 16rem);
+    }
+
+    .catalog-search span {
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-xs);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .catalog-search input {
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.4rem;
+        padding: 0.55rem 0.7rem;
+        background: var(--sl-color-bg);
+        color: var(--sl-color-text);
+    }
+
+    legend {
+        width: 100%;
+        margin-bottom: 0.35rem;
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-xs);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    button {
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.4rem;
+        padding: 0.45rem 0.7rem;
+        background: var(--sl-color-bg);
+        color: var(--sl-color-text);
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    button:hover,
+    button:focus-visible,
+    button.filter-active {
+        border-color: var(--sl-color-accent);
+        background: var(--sl-color-accent);
+        color: var(--sl-color-black);
+    }
+
+    .no-results {
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.75rem;
+        padding: 1rem;
+    }
+</style>

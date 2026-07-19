@@ -1,5 +1,4 @@
 import EventScopeBadge from "components/EventScopeBadge";
-import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { EventInfo } from "types/EventTypes";
 
 interface Props {
@@ -25,10 +24,19 @@ export default function EventCard({
     showHiddenBadge = false,
     urlFormatter }: Props) {
 
-    const cardLink = urlFormatter ? urlFormatter(info.event) : (
-        (isLive || info.isNationals || !info.isRegistrationOpen)
-            ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
-            : `https://biblequiz.com/register/#/${info.event.id}`);
+    const publicEventLink =
+        `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`;
+    const primaryLink = urlFormatter
+        ? urlFormatter(info.event)
+        : publicEventLink;
+    const primaryLabel = urlFormatter
+        ? info.event.isReport
+            ? "Manage Report"
+            : "Manage Event"
+        : isLive
+            ? "View Live Scores"
+            : "View Event";
+    const registrationLink = `/register/#/${info.event.id}`;
 
     let locationLabel: string | null = null;
     if (info && info.event) {
@@ -46,10 +54,8 @@ export default function EventCard({
     }
 
     return (
-        <a
-            className="card live-events-card w-90 card-sm shadow-sm border-2 border-solid mt-0 relative"
-            href={cardLink}
-            target={cardLink.startsWith("http") ? "_blank" : "_self"}>
+        <article
+            className="card live-events-card w-90 card-sm shadow-sm border-2 border-solid mt-0 relative">
             <div className="card-body p-2 pl-4">
                 {info && (
                     <div className="flex items-start gap-4">
@@ -67,7 +73,7 @@ export default function EventCard({
                             )}
                             <EventScopeBadge scope={info.event.scope} label={info.event.scopeLabel ?? ""} />
                             {info.isRegistrationOpen && (
-                                <span className="badge badge-neutral">Registration</span>
+                                <span className="badge badge-warning">Registration Open</span>
                             )}
                             <h2 className="card-title mb-0 mt-1">
                                 {info.event.name}
@@ -76,19 +82,16 @@ export default function EventCard({
                             {locationLabel && <p className="text-gray-500 italic m-0">{locationLabel}</p>}
                         </div>
                     </div>)}
-                {!info && (
-                    <div className="mt-3">
-                        <h2 className="card-title">
-                            More Live & Upcoming Events
-                        </h2>
-                        <p className="text-base mt-1">
-                            Search through the full list of live and upcoming events across Junior and Teen Bible Quiz.
-                        </p>
-                    </div>)}
-                <FontAwesomeIcon
-                    icon="fas faArrowRight"
-                    classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
-                />
+                <div className="card-actions mt-3 justify-end">
+                    <a className="btn btn-outline btn-sm" href={primaryLink}>
+                        {primaryLabel}
+                    </a>
+                    {!urlFormatter && info.isRegistrationOpen && (
+                        <a className="btn btn-primary btn-sm" href={registrationLink}>
+                            Register
+                        </a>
+                    )}
+                </div>
             </div>
-        </a>);
+        </article>);
 }

@@ -1,0 +1,18 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import ResourceCatalog from "components/resources/ResourceCatalog.astro";
+import { getResources } from "utils/Resources";
+
+const resources = await getResources();
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Tools & Downloads",
+    description: "Find current rules, forms, scoresheets, questions, apps, and other useful resources.",
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <ResourceCatalog resources={resources} />
+</StarlightPage>

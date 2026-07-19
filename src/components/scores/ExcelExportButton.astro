@@ -10,8 +10,9 @@ const { isLoaded } = Astro.props as Props;
 
 <button
     id="excel-export-button"
-    class="btn btn-warning cursor-pointer hide-on-print"
+    class="btn btn-warning cursor-pointer hide-on-print whitespace-nowrap"
     disabled={!isLoaded}
 >
     <FontAwesomeIcon icon="fas faFileExcel" />
+    <span>Download Excel</span>
 </button>

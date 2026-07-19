@@ -1,0 +1,21 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import AdminHome from "components/apps/admin/AdminHome";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Admin",
+    description: "Open the BibleQuiz.com tools available to your account.",
+    tableOfContents: false,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="admin-fallback" class="flex items-center justify-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading
+        Admin tools ...
+    </div>
+    <AdminHome client:only="react" />
+</StarlightPage>

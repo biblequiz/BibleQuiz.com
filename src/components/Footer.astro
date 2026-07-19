@@ -6,10 +6,24 @@ const {
     hideFooterOnPrint,
     hideAdsOnPrint,
 } = Astro.locals.starlightRoute.entry.data;
+import { footerLinks } from "data/siteNavigation";
 ---
 
 <footer class={`sl-flex ${hideFooterOnPrint ? "hide-on-print": ""}`}>
     <Pagination />
+
+    <nav class="footer-navigation" aria-label="Footer">
+        {
+            footerLinks.map((column) => (
+                <section>
+                    <h2>{column.label}</h2>
+                    {column.links.map((link) => (
+                        <a href={link.href}>{link.label}</a>
+                    ))}
+                </section>
+            ))
+        }
+    </nav>
 
     <div class={`grid grid-cols-2 lg:flex lg:justify-center gap-4 ${hideAdsOnPrint ? "hide-on-print" : ""}`}>
         <div class="flex justify-center">
@@ -65,6 +79,35 @@ const {
         footer {
             flex-direction: column;
             gap: 1.5rem;
+        }
+
+        .footer-navigation {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(min(100%, 10rem), 1fr)
+            );
+            gap: 1.5rem;
+            border-block: 1px solid var(--sl-color-hairline);
+            padding-block: 1.5rem;
+        }
+
+        .footer-navigation section {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin: 0;
+        }
+
+        .footer-navigation h2 {
+            margin: 0 0 0.25rem;
+            font-size: var(--sl-text-sm);
+            text-transform: uppercase;
+        }
+
+        .footer-navigation a {
+            color: var(--sl-color-gray-2);
+            font-size: var(--sl-text-sm);
         }
         .meta {
             gap: 0.75rem 3rem;

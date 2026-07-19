@@ -1,0 +1,69 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+interface Props {
+    title: string;
+    description: string;
+    jbqHref?: string;
+    jbqDescription?: string;
+    tbqHref?: string;
+    tbqDescription?: string;
+}
+
+const {
+    title,
+    description,
+    jbqHref,
+    jbqDescription,
+    tbqHref,
+    tbqDescription,
+} = Astro.props;
+const frontmatter: StarlightPageFrontmatter = {
+    title,
+    description,
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <p class="lead">{description}</p>
+    <CardGrid>
+        {
+            jbqHref && (
+                <LinkCard
+                    title="Junior Bible Quiz"
+                    href={jbqHref}
+                    description={jbqDescription ?? "Explore JBQ resources."}
+                />
+            )
+        }
+        {
+            tbqHref && (
+                <LinkCard
+                    title="Teen Bible Quiz"
+                    href={tbqHref}
+                    description={tbqDescription ?? "Explore TBQ resources."}
+                />
+            )
+        }
+    </CardGrid>
+    {(!jbqHref || !tbqHref) && (
+        <p class="availability-note">
+            Only Program paths with meaningful content are shown.
+        </p>
+    )}
+</StarlightPage>
+
+<style>
+    .lead {
+        font-size: var(--sl-text-lg);
+    }
+
+    .availability-note {
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-sm);
+    }
+</style>

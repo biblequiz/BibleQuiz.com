@@ -78,7 +78,7 @@ const isWiki = Astro.request.url
                             class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
                             href={`/?type=${eventType}`}
                         >
-                            Live & Upcoming Events
+                            Events & Scores
                         </a>
                         <a
                             class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
@@ -90,9 +90,9 @@ const isWiki = Astro.request.url
                 )}
             </div>
             {eventType && eventId && (
-                <span>
-                    <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
+                <span class="page-actions hide-on-print" aria-label="Page actions">
                     <ExcelExportButton isLoaded={eventIsLoaded ?? false} />
+                    <PrintDialogButton isLoaded={eventIsLoaded ?? false} />
                     <ToggleFavoritesOnlyButton
                         isLoaded={eventIsLoaded ?? false}
                         client:only="react"
@@ -143,3 +143,19 @@ const isWiki = Astro.request.url
         }
     }
 </script>
+
+<style>
+    .page-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.5rem;
+    }
+
+    @media (max-width: 50rem) {
+        .page-actions {
+            width: 100%;
+            justify-content: flex-start;
+        }
+    }
+</style>

@@ -163,6 +163,14 @@ const filteredSidebar = [
     { type: "authButton", entries: [] },
     ...filterOutAuthors(Astro.locals.starlightRoute.sidebar),
 ];
+const isWorkspace =
+    Astro.url.pathname.toLowerCase().startsWith("/manage-events/event") ||
+    Astro.url.pathname.toLowerCase().startsWith("/manage-events/report");
+const renderedSidebar = isWorkspace
+    ? filteredSidebar.filter(
+          (entry) => entry.type === "group" && entry.label === "Manage Events",
+      )
+    : filteredSidebar;
 
 // Sort the sidebar and build the index.
 const sidebarIndex: SidebarIndex = {
@@ -176,7 +184,7 @@ const sidebarIndex: SidebarIndex = {
     nextPlaceholderIndex: null,
 };
 
-sortSeasonsAndIndexSidebar(filteredSidebar, sidebarIndex);
+sortSeasonsAndIndexSidebar(renderedSidebar, sidebarIndex);
 
 // Check if the current page hasn't been identified, set the parent as the current page.
 if (
@@ -188,7 +196,7 @@ if (
 ---
 
 <SidebarPersister>
-    <SidebarSublist sublist={filteredSidebar} />
+    <SidebarSublist sublist={renderedSidebar} />
 </SidebarPersister>
 
 <div class="lg:sl-hidden">

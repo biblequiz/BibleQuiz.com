@@ -1,118 +1,17 @@
 ---
-title: "Downloads & Forms"
+title: "Tools & Downloads"
+description: "Rules, forms, scoresheets, apps, questions, and other Teen Bible Quiz tools."
 date: 2016-05-02
 sidebar:
-    order: -98
-    attrs:
-        icon: fas faArrowCircleDown
+  order: -98
+  attrs:
+    icon: fas faArrowCircleDown
 ---
 
-import { LinkButton } from "@astrojs/starlight/components";
+import ProgramResourceCatalog from "components/resources/ProgramResourceCatalog.astro";
 
-### Rules
+The catalog below is generated from Resource frontmatter across the site. A
+Resource can appear here and in training, Program, or audience pages without
+duplicating its definition.
 
-Download the official rules for the 2025-2026 season below.
-
-<LinkButton href="/tbq/seasons/2026/rules/" icon="open-book" iconPlacement="start">Official Rules</LinkButton>
-
-### Bible Quiz Cheat Sheet
-
-The fastest way to learn about Bible Quiz and a must-have for new teams at their first match!
-
-<LinkButton
-    href="/assets/2024/2024-tbq-cheat-sheet.pdf"
-    icon="seti:pdf"
-    iconPlacement="start"
->
-    Download Cheat Sheet
-</LinkButton>
-
----
-
-## Coaching App
-
-Designed for coaches to keep score, lookup answers, research data, see the latest rulebook, see the online score, and get an online schedule for any online registered competition on BibleQuiz.com.
-
-<LinkButton href="/apps">Download for Free</LinkButton>
-
-## Scoresheets
-
-### Paper Scoresheet
-
-The tested-and-true paper scoresheet has been a classic in Bible Quiz for decades.
-
-<LinkButton
-    href="/assets/2025/free-paper-scoresheet.pdf"
-    icon="seti:pdf"
-    iconPlacement="start"
->
-    Download Scoresheet
-</LinkButton>
-
-### Excel Scoresheet
-
-A free spreadsheet for tracking scores in a match.
-
-<LinkButton
-    href="/assets/2025/free-excel-scoresheet-v34.xls"
-    icon="seti:xls"
-    iconPlacement="start"
->
-    Download Excel File
-</LinkButton>
-
----
-
-## Graphics
-
-### Bible Quiz Logo
-
-<img src="/assets/logos/tbq/tbq-logo.png" width="300" />
-
-<LinkButton
-    href="/assets/logos/tbq/tbq-logos.zip"
-    icon="download"
-    iconPlacement="start"
->
-    Download Logo Pack
-</LinkButton>
-
----
-
-## Videos
-
-### Promo: 15 Minutes a Day
-
-![](/assets/images/download-video-15-minutes-a-day.jpg)
-
-<LinkButton
-    href="https://drive.google.com/file/d/1HqJsgHlyLT-G-0Ir32BzjMNs4AgjewtC/view?usp=sharing"
-    icon="download"
-    iconPlacement="start"
->
-    Download
-</LinkButton>
-
-### Promo: Palm of Your Hand
-
-![](/assets/images/download-video-palm-of-your-hand.jpg)
-
-<LinkButton
-    href="https://drive.google.com/file/d/17Lg2J1CBuL66NuzUrwJCX2vSLZ2LbNDX/view?usp=sharing"
-    icon="download"
-    iconPlacement="start"
->
-    Download
-</LinkButton>
-
-### Promo: Therefore I Run
-
-![](/assets/images/download-video-promo-therefore-i-run.jpg)
-
-<LinkButton
-    href="https://drive.google.com/open?id=1uU3XdXI2CAroXMdkgUNeHIbNQM5JbFk8"
-    icon="download"
-    iconPlacement="start"
->
-    Download
-</LinkButton>
+<ProgramResourceCatalog program="tbq" />

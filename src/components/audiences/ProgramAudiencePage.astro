@@ -1,0 +1,58 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { LinkButton } from "@astrojs/starlight/components";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import ResourceGrid from "components/resources/ResourceGrid.astro";
+import {
+    getResources,
+    type Program,
+    type ResourceAudience,
+} from "utils/Resources";
+
+interface Props {
+    program: Exclude<Program, "shared">;
+    audience: ResourceAudience;
+    title: string;
+    description: string;
+}
+
+const { program, audience, title, description } = Astro.props;
+const resources = await getResources({ program, audience });
+const frontmatter: StarlightPageFrontmatter = {
+    title,
+    description,
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <p class="lead">{description}</p>
+    <div class="quick-actions">
+        <LinkButton href={`/?type=${program}`}>Events &amp; Scores</LinkButton>
+        <LinkButton href={`/?type=${program}&registration=open`} variant="secondary">
+            Registration Open
+        </LinkButton>
+        <LinkButton href={`/${program}/`} variant="minimal">
+            Program Overview
+        </LinkButton>
+    </div>
+    <h2>Recommended resources</h2>
+    <ResourceGrid
+        resources={resources}
+        emptyMessage="No additional resources are currently assigned to this path."
+    />
+</StarlightPage>
+
+<style>
+    .lead {
+        font-size: var(--sl-text-lg);
+    }
+
+    .quick-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+        margin-block: 1.5rem;
+    }
+</style>

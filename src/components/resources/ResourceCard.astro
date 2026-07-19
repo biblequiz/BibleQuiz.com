@@ -1,0 +1,122 @@
+---
+import type { ResourceViewModel } from "utils/Resources";
+import {
+    audienceLabels,
+    programLabels,
+    topicLabels,
+} from "utils/Resources";
+
+interface Props {
+    resource: ResourceViewModel;
+}
+
+const { resource } = Astro.props;
+const isExternal = /^https?:\/\//.test(resource.href);
+const actionLabel =
+    resource.actionLabel ??
+    (resource.format === "page" || resource.format === "app"
+        ? "Open Resource"
+        : "Download");
+---
+
+<article
+    class="resource-card"
+    data-programs={resource.programs.join(",")}
+    data-topics={resource.topics.join(",")}
+    data-search={`${resource.title} ${resource.description ?? ""}`.toLowerCase()}
+>
+    <div class="resource-tags" aria-label="Resource categories">
+        {resource.programs.map((program) => (
+            <span class={`resource-tag program-${program}`}>
+                {programLabels[program]}
+            </span>
+        ))}
+        {resource.topics.map((topic) => (
+            <span class="resource-tag">{topicLabels[topic]}</span>
+        ))}
+        {resource.current && <span class="resource-tag current">Current</span>}
+    </div>
+    <h2>{resource.title}</h2>
+    {resource.description && <p>{resource.description}</p>}
+    {resource.audiences.length > 0 && (
+        <p class="audiences">
+            For {resource.audiences.map((audience) => audienceLabels[audience]).join(", ")}
+        </p>
+    )}
+    <a
+        class="btn btn-primary"
+        href={resource.href}
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "noreferrer" : undefined}
+    >
+        {actionLabel}
+    </a>
+</article>
+
+<style>
+    .resource-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 0;
+        border: 1px solid var(--sl-color-hairline);
+        border-radius: 0.75rem;
+        padding: 1.25rem;
+        background: var(--sl-color-bg);
+        box-shadow: var(--sl-shadow-sm);
+    }
+
+    .resource-card[hidden] {
+        display: none;
+    }
+
+    .resource-card h2,
+    .resource-card p {
+        margin: 0;
+    }
+
+    .resource-card h2 {
+        font-size: var(--sl-text-xl);
+    }
+
+    .resource-card .audiences {
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-sm);
+    }
+
+    .resource-card .btn {
+        align-self: flex-start;
+        margin-top: auto;
+    }
+
+    .resource-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .resource-tag {
+        border-radius: 999px;
+        padding: 0.2rem 0.55rem;
+        background: var(--sl-color-gray-6);
+        color: var(--sl-color-gray-2);
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .resource-tag.program-jbq {
+        background: #fff0bd;
+        color: #674f00;
+    }
+
+    .resource-tag.program-tbq {
+        background: #dce9f7;
+        color: #24588f;
+    }
+
+    .resource-tag.current {
+        background: #d9f3e5;
+        color: #17653b;
+    }
+</style>
