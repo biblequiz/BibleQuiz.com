@@ -8,36 +8,9 @@
 
 **Competition Type** — Currently two values: JBQ (Junior Bible Quiz, id `agjbq`) and TBQ (Teen Bible Quiz, id `agtbq`). Used to restrict permissions and set a person's default event type preference. Not expected to expand.
 
-**Program** — The visitor-facing identity of Junior Bible Quiz (JBQ) or Teen Bible Quiz (TBQ). Use Program in public content and navigation; reserve Competition Type for internal registration and authorization concepts.
-
-## Website Audiences
-
-**Quizzer** — A young person who studies and competes in a Bible Quiz Program. Quizzers are the primary TBQ audience.
-_Avoid_: Participant, student
-
-**Parent** — A parent or guardian supporting a Quizzer. Parents are the primary JBQ audience and may visit TBQ primarily to follow scores.
-_Avoid_: Participant
-
-**Coach** — A person who trains and leads Quizzers.
-_Avoid_: Leader, participant
-
-**Event Coordinator** — A person who organizes or administers a Bible Quiz event and its reporting.
-_Avoid_: Event manager, participant
-
-**Resource** — Reference, learning, or tool content associated with one or more Programs, audiences, and topics. A Resource may be discoverable through multiple paths while retaining one canonical destination.
-_Avoid_: Static content, library
-
-**Downloadable Resource** — A Resource whose primary artifact is a file or externally hosted download, such as rules, forms, scoresheets, questions, graphics, or videos.
-_Avoid_: Download
-
-**Event List** — The shared public list for discovering live, upcoming, and recent events. It is the entry point for both public scores and event registration.
-_Avoid_: Scores page, registration list
-
 ## Permissions & Administration
 
 ### Core Concepts
-
-**Admin Area** — A signed-in work area containing capability-based tools. Access to the area does not imply Administrator permission; each tool, such as Manage Events, Permissions, or Payouts, appears only when the person is authorized to use it.
 
 **Permission Scope** — The hierarchical level at which administrative permissions are granted:
 - **Organization** — System-wide admin
