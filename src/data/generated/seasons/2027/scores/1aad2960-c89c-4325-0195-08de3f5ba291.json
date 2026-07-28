@@ -1,0 +1,951 @@
+{
+  "EventName": "Test Bible Quiz Event",
+  "DatabaseNames": {
+    "46adcb43-e023-45b8-a5e6-2669fc587e75": "Michael's Database",
+    "b01adfb6-b6d7-48db-a0b5-924b5947484e": "Test Individual Tournament"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "46adcb43-e023-45b8-a5e6-2669fc587e75",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Demo",
+        "LastUpdated": "7/18/26 3:47 PM",
+        "DatabaseLastUpdated": "2026-07-18T15:47:34.8556736+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              6,
+              7,
+              8
+            ],
+            "Id": "t_46adcb43e02345b8a5e62669fc587e75_11",
+            "Name": "Alpine, NJ",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Iheoma Nwaigbo",
+            "Quizzers": [
+              0,
+              12
+            ],
+            "Id": "t_8c73bc98447b4a68b9062268a97f15fe",
+            "Name": "Burlington, NJ #2",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2,
+              9
+            ],
+            "Id": "t_46adcb43e02345b8a5e62669fc587e75_12",
+            "Name": "South Amboy, NJ,",
+            "ChurchId": null,
+            "ChurchName": "LOJ",
+            "City": "South Amboy, NJ",
+            "State": null,
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "esther vellore",
+            "Quizzers": [
+              3,
+              4,
+              5
+            ],
+            "Id": "t_36cc0d6740034e91a42b9c5578349517",
+            "Name": "Westfield, NJ #1",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ashok Vellore",
+            "Quizzers": [
+              10,
+              11
+            ],
+            "Id": "t_2b880971638149bb98471d726d52c3ce",
+            "Name": "Westfield, NJ #2",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Burlington, NJ #2",
+            "YearsQuizzing": null,
+            "Id": "q_9a8ad4cc70a2413395ca08da9f41af4d",
+            "Name": "Alexis Mwaniki",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "South Amboy, NJ,",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43e02345b8a5e62669fc587e75_102",
+            "Name": "Irenah Joel",
+            "ChurchId": null,
+            "ChurchName": "LOJ",
+            "City": "South Amboy, NJ",
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "South Amboy, NJ,",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43e02345b8a5e62669fc587e75_101",
+            "Name": "Jeshuran Paul",
+            "ChurchId": null,
+            "ChurchName": "LOJ",
+            "City": "South Amboy, NJ",
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Westfield, NJ #1",
+            "YearsQuizzing": null,
+            "Id": "q_62e58cd933c2418387fb08d745303a93",
+            "Name": "Joanna Bollam",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Westfield, NJ #1",
+            "YearsQuizzing": null,
+            "Id": "q_9bad3dfc8ed643e4880208d745303a93",
+            "Name": "Joha Pilli",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Westfield, NJ #1",
+            "YearsQuizzing": null,
+            "Id": "q_d893b1d69ba74715884808d745303a93",
+            "Name": "Lisa Rachel Dayala",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Alpine, NJ",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43e02345b8a5e62669fc587e75_92",
+            "Name": "Quizzer-1",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Alpine, NJ",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43e02345b8a5e62669fc587e75_93",
+            "Name": "Quizzer-2",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Alpine, NJ",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43e02345b8a5e62669fc587e75_94",
+            "Name": "Quizzer-3",
+            "ChurchId": null,
+            "ChurchName": "First A/G",
+            "City": "Alpine",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "South Amboy, NJ,",
+            "YearsQuizzing": null,
+            "Id": "q_46adcb43e02345b8a5e62669fc587e75_103",
+            "Name": "Rachel Godson",
+            "ChurchId": null,
+            "ChurchName": "LOJ",
+            "City": "South Amboy, NJ",
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Westfield, NJ #2",
+            "YearsQuizzing": null,
+            "Id": "q_93b3fdbcaef842bca26190bfffeb4452",
+            "Name": "Sahil Vupulla",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Westfield, NJ #2",
+            "YearsQuizzing": null,
+            "Id": "q_33583b76dd1e4d9b523408dbafc02107",
+            "Name": "Samrudh Ganta",
+            "ChurchId": "aa6723bb-50bb-4bad-ab4e-4bd7b630f526",
+            "ChurchName": "United Evangelical Christian Fellowship",
+            "City": "Westfield",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Burlington, NJ #2",
+            "YearsQuizzing": null,
+            "Id": "q_e5f04bb68262418b95c408da9f41af4d",
+            "Name": "Victoria Fadare",
+            "ChurchId": "42f24c72-6dac-48ec-aa34-7696a9adb1f8",
+            "ChurchName": "Fountain of Life Center",
+            "City": "Burlington",
+            "State": "NJ",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "46adcb43-e023-45b8-a5e6-2669fc587e75",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Test Utica",
+        "LastUpdated": "7/18/26 3:47 PM",
+        "DatabaseLastUpdated": "2026-07-18T15:47:34.8556736+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Carolyn Bielby",
+            "Quizzers": [
+              0,
+              2,
+              3
+            ],
+            "Id": "t_06f357d0b1164044b0306a397431c6d9",
+            "Name": "Utica, NY #2",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tammy Hoffmann",
+            "Quizzers": [
+              1,
+              4
+            ],
+            "Id": "t_0e7afeb006a74791a4abb3e8c177b9f8",
+            "Name": "Utica, NY #3",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 1,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Utica, NY #2",
+            "YearsQuizzing": null,
+            "Id": "q_1716853a737344dff2de08ddf069fc0f",
+            "Name": "Andrea Coello",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Utica, NY #3",
+            "YearsQuizzing": null,
+            "Id": "q_24506b756061407fca3108dbdb2a87a5",
+            "Name": "Charlotte Bielby",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Utica, NY #2",
+            "YearsQuizzing": null,
+            "Id": "q_46a281e8acd04420af5808dab68a0866",
+            "Name": "Claire Cook",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Utica, NY #2",
+            "YearsQuizzing": null,
+            "Id": "q_618ec9aa648d4f24af5e08dab68a0866",
+            "Name": "Eliana Oxenford",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Utica, NY #3",
+            "YearsQuizzing": null,
+            "Id": "q_7f132b2960ca4415487308dbafc02107",
+            "Name": "Ian Horn",
+            "ChurchId": "34779b4d-0fac-4c90-a024-dc6195647ca2",
+            "ChurchName": "Redeemer Church",
+            "City": "Utica",
+            "State": "NY",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-07-18T15:47:44.3745009+00:00"
+}
