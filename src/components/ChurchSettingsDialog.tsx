@@ -9,7 +9,6 @@ import type { DistrictInfo, RegionInfo } from 'types/RegionAndDistricts';
 import type { Address } from 'types/services/models/Address';
 import { AuthManager } from 'types/AuthManager';
 import type { RemoteServiceError } from 'types/services/RemoteServiceUtility';
-import { manifest } from "astro:ssr-manifest";
 
 export interface AddingChurchState {
     districtId: string | null;
@@ -127,7 +126,7 @@ export default function ChurchSettingsDialog({
             validDistrictsByState: districtsByState,
             validStates: Array.from(states).sort()
         };
-    }, [manifest]);
+    }, [filterToDistrictId, filterToRegionId]);
 
     const initialState = church?.PhysicalAddress?.State || addState?.state || validStates[0];
     const initialDistrictId = church?.DistrictId || addState?.districtId || validDistrictsByState[initialState]?.[0]?.id;

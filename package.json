@@ -15,9 +15,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.3.0",
-    "@astrojs/starlight": "^0.34.3",
-    "@astrojs/starlight-tailwind": "^4.0.1",
+    "@astrojs/react": "^6.0.3",
+    "@astrojs/starlight": "^0.41.7",
+    "@astrojs/starlight-tailwind": "^5.0.0",
     "@azure/msal-browser": "^4.16.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
@@ -29,12 +29,11 @@
     "@types/qrcode": "^1.5.5",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
-    "astro": "^5.8.0",
+    "astro": "^7.2.3",
     "daisyui": "^5.0.37",
     "date-fns": "^4.1.0",
     "fast-glob": "^3.3.3",
     "font-awesome": "^4.7.0",
-    "font-awesome-astro": "^0.0.6",
     "fuse.js": "^7.1.0",
     "marked": "^15.0.12",
     "nanostores": "^1.0.1",
@@ -43,8 +42,8 @@
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.8.2",
     "react-simple-wysiwyg": "^3.4.1",
-    "sharp": "^0.32.5",
-    "starlight-blog": "^0.23.2",
+    "sharp": "^0.35.3",
+    "starlight-blog": "^0.29.0",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
@@ -53,7 +52,7 @@
     "@types/qrcode": "^1.5.5",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
-    "starlight-links-validator": "^0.16.0",
+    "starlight-links-validator": "^0.25.3",
     "typescript": "^5.9.2"
   }
 }

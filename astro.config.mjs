@@ -76,12 +76,12 @@ export default defineConfig({
                 {
                     label: "Junior Bible Quiz (JBQ)",
                     collapsed: true,
-                    autogenerate: { directory: "jbq" }
+                    items: [{ autogenerate: { directory: "jbq" } }]
                 },
                 {
                     label: "Teen Bible Quiz (TBQ)",
                     collapsed: true,
-                    autogenerate: { directory: "tbq" },
+                    items: [{ autogenerate: { directory: "tbq" } }],
                 },
                 {
                     label: "Quizzer Search",
@@ -102,7 +102,7 @@ export default defineConfig({
                 {
                     label: "Wiki",
                     collapsed: true,
-                    autogenerate: { directory: "wiki" },
+                    items: [{ autogenerate: { directory: "wiki" } }],
                 },
                 {
                     label: "Manage Events",
