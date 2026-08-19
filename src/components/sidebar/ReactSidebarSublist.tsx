@@ -1,7 +1,8 @@
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
-import { Icons } from "node_modules/@astrojs/starlight/components/Icons.ts";
 import type { ReactSidebarEntry, ReactSidebarLink } from './ReactSidebar';
 import "./sidebar-sublist.css";
+
+const RIGHT_CARET_ICON = '<path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/>';
 
 interface Props {
     keyPrefix: string;
@@ -97,7 +98,7 @@ export default function ReactSidebarSublist({
                                             style={{ fontSize: "1.25rem" }}
                                             viewBox="0 0 24 24"
                                             fill="currentColor"
-                                            dangerouslySetInnerHTML={{ __html: Icons["right-caret"] }}>
+                                            dangerouslySetInnerHTML={{ __html: RIGHT_CARET_ICON }}>
                                         </svg>
                                     </summary>
                                     <ReactSidebarSublist
