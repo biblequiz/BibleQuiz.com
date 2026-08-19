@@ -53,7 +53,7 @@
             flex-shrink: 0;
         }
 
-        :global([dir="rtl"]) .caret {
+        [dir="rtl"] .caret {
             transform: rotateZ(180deg);
         }
 
