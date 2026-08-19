@@ -120,7 +120,7 @@ export default function AuthButton({ type }: Props) {
                                 href="/admin/permissions"
                                 className="text-base-content">
                                 <FontAwesomeIcon icon="fas faShieldHalved" />
-                                Permissions
+                                Perms. &amp; People
                             </a>
                         </li>
                     )}
