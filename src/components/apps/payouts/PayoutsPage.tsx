@@ -383,7 +383,7 @@ export default function PayoutsPage() {
 
     const currentSeason = useMemo(() => defaultCurrentSeason(), []);
     const seasonOptions = useMemo(
-        () => [currentSeason - 1, currentSeason, currentSeason + 1],
+        () => [currentSeason - 2, currentSeason - 1, currentSeason, currentSeason + 1],
         [currentSeason],
     );
 
