@@ -27,7 +27,14 @@ export default function AuthButton({ type }: Props) {
     const userProfile = authManager.userProfile;
     let buttonElement: JSX.Element;
     if (authManager.popupType === PopupType.LoginRequired) {
-        return null;
+        buttonElement = (
+            <button
+                className="btn btn-primary mt-0 mb-0"
+                onClick={() => {
+                    authManager.login();
+                }}>
+                Sign In Again
+            </button>);
     }
     else if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
         const busyLabel = authManager.popupType === PopupType.Logout
