@@ -40,7 +40,6 @@ export default function PeopleTable({
     const [pageNumber, setPageNumber] = useState<number>(0);
     const [pageCount, setPageCount] = useState<number>(0);
     const [impersonatingId, setImpersonatingId] = useState<string | undefined>(undefined);
-    const [impersonatingName, setImpersonatingName] = useState<string | undefined>(undefined);
     const [showConfirmation, setShowConfirmation] = useState<boolean>(false);
     const [editingPerson, setEditingPerson] = useState<Person | null>(null);
 
@@ -73,7 +72,7 @@ export default function PeopleTable({
     };
 
     const handleImpersonate = async () => {
-        if (!impersonatingId || !impersonatingName) return;
+        if (!impersonatingId) return;
         try {
             await AuthService.impersonate(auth, impersonatingId);
             await auth.startImpersonating(impersonatingId);
@@ -125,7 +124,6 @@ export default function PeopleTable({
                                                 onClick={() => {
                                                     if (person.Id) {
                                                         setImpersonatingId(person.Id);
-                                                        setImpersonatingName(`${person.FirstName} ${person.LastName}`);
                                                         setShowConfirmation(true);
                                                     }
                                                 }}
@@ -197,7 +195,6 @@ export default function PeopleTable({
                         onNo={() => {
                             setShowConfirmation(false);
                             setImpersonatingId(undefined);
-                            setImpersonatingName(undefined);
                         }}
                     >
                         <p>Impersonating a person means you will be accessing the system as if you were that person, including any permissions and behaviors with the following exceptions:</p>
