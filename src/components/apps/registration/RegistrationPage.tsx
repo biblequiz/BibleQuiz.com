@@ -697,6 +697,7 @@ export default function RegistrationPage() {
                     eventId={eventId}
                     team={editingTeam}
                     onClose={(result) => {
+                        setDirty(isDirty);
                         setEditingTeam(null);
                         setIsAddingTeam(false);
                         if (result) {
