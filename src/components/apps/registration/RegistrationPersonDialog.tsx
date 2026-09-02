@@ -3,6 +3,7 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import { Person, PersonParentType, PersonRole } from "types/services/PeopleService";
 import {
+    EventFieldControlType,
     EventFieldScopes,
     type EventInfo,
 } from "types/services/EventsService";
@@ -148,8 +149,27 @@ export default function RegistrationPersonDialog({
             return;
         }
 
+        const gradeFields = (event.Fields ?? []).filter(field =>
+            field.ControlType === EventFieldControlType.GradeList &&
+            DataTypeHelpers.hasEnumFlag(field.Scopes, scope));
+
         setLinkedPerson(selected);
         setPersonId(selected.Id ?? null);
+        if (gradeFields.length > 0) {
+            setFieldValues(currentValues => {
+                const updatedValues = { ...currentValues };
+                gradeFields.forEach(field => {
+                    const fieldId = field.Id ?? `field-${field.Label}`;
+                    if (selected.CurrentGrade === null) {
+                        delete updatedValues[fieldId];
+                    }
+                    else {
+                        updatedValues[fieldId] = selected.CurrentGrade.toString();
+                    }
+                });
+                return updatedValues;
+            });
+        }
         setValidationError(null);
     };
 

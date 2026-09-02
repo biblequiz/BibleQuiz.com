@@ -27,10 +27,13 @@ export default function EventFieldControl({
     controlNamePrefix = "",
     recalculateCostHandler }: Props) {
 
-    const [controlValue, setControlValue] = useState<string | undefined>(value);
+    const [exampleValue, setExampleValue] = useState<string | undefined>(value);
+    const controlValue = isExampleOnly ? exampleValue : value;
     const updateControlValue = (newValue: string) => {
-        setControlValue(newValue);
-        if (!isExampleOnly && setValue) {
+        if (isExampleOnly) {
+            setExampleValue(newValue);
+        }
+        else if (setValue) {
             setValue(newValue);
             sharedDirtyWindowState.set(true);
 
