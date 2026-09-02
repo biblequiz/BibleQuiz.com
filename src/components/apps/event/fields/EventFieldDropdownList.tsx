@@ -52,15 +52,20 @@ export default function EventFieldDropdownList({
         <select
             name={`${controlNamePrefix}${field.Label}`}
             className="select select-bordered w-full mt-0"
-            value={value}
+            value={value ?? ""}
             onChange={e => setValue(e.target.value)}
             disabled={isDisabled}
             required={field.IsRequired && !isExampleOnly}
         >
             {field.ControlType === EventFieldControlType.GradeList
                 ? getGradeListOptions(field)
-                : (field.Values ?? []).map((value) => (
-                    <option key={value} value={value}>{value}</option>))}
+                : <>
+                    {!isExampleOnly && (
+                        <option value="" disabled={field.IsRequired}></option>
+                    )}
+                    {(field.Values ?? []).map((value) => (
+                        <option key={value} value={value}>{value}</option>))}
+                </>}
         </select>);
 
     if (field.Caption?.length ?? 0 > 0) {
