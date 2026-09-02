@@ -25,10 +25,18 @@ export default function AuthButton({ type }: Props) {
             window.matchMedia(type === AuthButtonType.Desktop ? "(min-width: 1024px)" : "(max-width: 1023px)").matches);
 
     const userProfile = authManager.userProfile;
-    const hasActivePopup = authManager.popupType !== PopupType.None &&
-        authManager.popupType !== PopupType.LoginRequired;
     let buttonElement: JSX.Element;
-    if (hasActivePopup || authManager.isRetrievingProfile) {
+    if (authManager.popupType === PopupType.LoginRequired) {
+        buttonElement = (
+            <button
+                className="btn btn-primary mt-0 mb-0"
+                onClick={() => {
+                    authManager.login();
+                }}>
+                Sign In Again
+            </button>);
+    }
+    else if (authManager.popupType != PopupType.None || authManager.isRetrievingProfile) {
         const busyLabel = authManager.popupType === PopupType.Logout
             ? "Logging Out"
             : authManager.popupType === PopupType.Login
@@ -137,7 +145,7 @@ export default function AuthButton({ type }: Props) {
                         <a
                             className="text-base-content"
                             onClick={() => {
-                                if (!hasActivePopup) {
+                                if (authManager.popupType == PopupType.None) {
                                     authManager.logout();
                                 }
                             }}>
@@ -152,7 +160,7 @@ export default function AuthButton({ type }: Props) {
         buttonElement = (
             <button
                 className="btn btn-primary mt-0 mb-0"
-                disabled={hasActivePopup}
+                disabled={authManager.popupType != PopupType.None}
                 onClick={() => {
                     authManager.login();
                 }}>

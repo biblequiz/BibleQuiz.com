@@ -21,7 +21,7 @@ export default function EventRegistrationBanner({ eventId }: Props) {
                 </p>
                 <a
                     className="btn btn-secondary btn-sm"
-                    href={`https://biblequiz.com/register/#/${eventId}`}
+                    href={`/register/#/${eventId}`}
                     target="_blank">
                     <FontAwesomeIcon icon="fas faPenToSquare" />&nbsp;Register for this Event
                 </a>
