@@ -5,7 +5,7 @@ import { AuthManager } from "types/AuthManager";
 import { Church, ChurchesService, ChurchResultFilter } from "types/services/ChurchesService";
 import { EventInfo, EventRegistrationStatus, EventsService, type EventRestrictions } from "types/services/EventsService";
 import { Registration, RegistrationService } from "types/services/RegistrationService";
-import { sharedDirtyWindowState } from "utils/SharedState";
+import { sharedDirtyWindowState, sharedGlobalStatusToast } from "utils/SharedState";
 
 interface Props {
 }
@@ -224,8 +224,27 @@ export default function RegistrationProvider({ }: Props) {
             const loadedRegistration = await RegistrationService
                 .getRegistrationByChurchId(auth, eventId, church.Id);
 
-            setRegistration(loadedRegistration);
-            setRegistrationVersion(loadedRegistration?.Version ?? 0);
+            const currentRegistration = loadedRegistration ?? Object.assign(new Registration(), {
+                Id: null,
+                EventId: eventId,
+                EventDescription: event?.Name ?? "",
+                ChurchId: church.Id,
+                ChurchName: church.Name,
+                ChurchLocation: "",
+                Officials: [],
+                Individuals: [],
+                Attendees: [],
+                Teams: [],
+                Forms: [],
+                CurrentUser: null,
+                CalculatedPayment: 0,
+                PaymentBalance: 0,
+                PendingPaymentBalance: 0,
+                Version: 0,
+            });
+
+            setRegistration(currentRegistration);
+            setRegistrationVersion(currentRegistration.Version ?? 0);
         }
         catch (error: any) {
             if (error?.statusCode === 404) {
@@ -263,8 +282,17 @@ export default function RegistrationProvider({ }: Props) {
             (updatedRegistration as any).Teams = registration.Teams;
 
             setRegistration(updatedRegistration);
-            setRegistrationVersion(updatedRegistration.Version);
+            setRegistrationVersion(updatedRegistration.Version ?? 0);
             setDirty(false);
+        }
+        catch (error) {
+            sharedGlobalStatusToast.set({
+                type: "error",
+                title: "Unable to Save Registration",
+                message: (error as Error)?.message || "An error occurred while saving the registration.",
+                isHtmlMessage: true,
+                timeout: 10000,
+            });
         }
         finally {
             setIsSaving(false);
