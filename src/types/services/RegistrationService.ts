@@ -161,7 +161,7 @@ export class RegistrationService {
             RemoteServiceUtility.getFilteredUrlParameters({
                 eid: eventId,
                 cid: churchId,
-                ver: version
+                ver: version === 0 ? null : version
             }),
             team);
     }
