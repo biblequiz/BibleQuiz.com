@@ -193,8 +193,8 @@ export default function RegistrationTeamDialog({
                                     value={divisionId}
                                     onChange={e => setDivisionId(e.target.value)}
                                     disabled={isSaving || isDeleting}
+                                    required
                                 >
-                                    <option value="" disabled>— None —</option>
                                     {event.Divisions.map(d => (
                                         <option key={d.Id} value={d.Id!}>{d.Label}</option>
                                     ))}

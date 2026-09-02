@@ -177,6 +177,7 @@ export interface GlobalToastMessage {
     keepOpen?: boolean;
     icon?: string;
     showLoading?: boolean;
+    isHtmlMessage?: boolean;
     onDismiss?: () => void;
 }
 

@@ -128,6 +128,10 @@ export class RegistrationService {
         auth: AuthManager,
         registration: Registration): Promise<Registration> {
 
+        if (registration.Version === 0) {
+            registration.Version = null;
+        }
+
         return RemoteServiceUtility.executeHttpRequest<Registration>(
             auth,
             "PUT",
@@ -161,7 +165,7 @@ export class RegistrationService {
             RemoteServiceUtility.getFilteredUrlParameters({
                 eid: eventId,
                 cid: churchId,
-                ver: version
+                ver: version === 0 ? null : version
             }),
             team);
     }
@@ -318,9 +322,10 @@ export class Registration extends RemoteServiceModelBase<string> {
     public readonly PendingPaymentBalance!: number;
 
     /**
-     * Gets or sets the current version of the registration.
+     * Gets or sets the current version of the registration. This value will be null if
+     * the registration doesn't exist on the server.
      */
-    public Version!: number;
+    public Version!: number | null;
 }
 
 /**

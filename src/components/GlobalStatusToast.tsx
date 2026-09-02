@@ -42,7 +42,8 @@ export default function GlobalStatusToast({ }: Props) {
                 <p className="text-sm">
                     {toastState.icon && <><FontAwesomeIcon icon={toastState.icon} classNames={["mr-2"]} />&nbsp;</>}
                     {toastState.showLoading && <><span className="loading loading-spinner loading-md"></span>&nbsp;</>}
-                    {toastState.message}
+                    {toastState.isHtmlMessage && <span dangerouslySetInnerHTML={{ __html: toastState.message }} />}
+                    {!toastState.isHtmlMessage && toastState.message}
                 </p>
             </div>
         </div>);

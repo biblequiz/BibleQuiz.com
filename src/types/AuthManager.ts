@@ -5,6 +5,7 @@ import { AsyncLock } from 'utils/AsyncLock';
 import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { RemoteServiceUrlBase, RemoteServiceUtility } from "./services/RemoteServiceUtility";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const IMPERSONATION_STORAGE_KEY = "auth-impersonation--";
@@ -525,11 +526,9 @@ export class AuthManager {
             })
             .then(() => {
                 AuthManager.saveProfile(null);
-                AuthManager.saveImpersonationState(null);
 
                 const state = this.getNanoState();
                 state.setKey("popupType", PopupType.None);
-                state.setKey("impersonation", null);
                 state.setKey("profile", null);
             })
             .catch((error) => {
@@ -718,7 +717,10 @@ export class AuthManager {
         const state = this.getNanoState();
         try {
             const response = await fetch(
-                "https://registration.biblequiz.com/api/v1.0/users/profile",
+                RemoteServiceUtility.buildUrl(
+                    RemoteServiceUrlBase.Registration,
+                    "api/v1.0/users/profile",
+                    null),
                 {
                     method: "GET",
                     credentials: "include",
