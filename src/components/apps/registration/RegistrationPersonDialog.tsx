@@ -160,7 +160,11 @@ export default function RegistrationPersonDialog({
                 const updatedValues = { ...currentValues };
                 gradeFields.forEach(field => {
                     const fieldId = field.Id ?? `field-${field.Label}`;
-                    if (selected.CurrentGrade === null) {
+                    const minGrade = Math.max(field.MinNumberValue ?? 0, 0);
+                    const maxGrade = Math.min(field.MaxNumberValue ?? 13, 13);
+                    if (selected.CurrentGrade === null ||
+                        selected.CurrentGrade < minGrade ||
+                        selected.CurrentGrade > maxGrade) {
                         delete updatedValues[fieldId];
                     }
                     else {
