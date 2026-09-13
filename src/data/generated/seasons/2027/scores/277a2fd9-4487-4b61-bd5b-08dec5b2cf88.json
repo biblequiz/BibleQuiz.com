@@ -1,0 +1,690 @@
+{
+  "EventName": "West Texas District JBQ Season Registration 2026-2027",
+  "DatabaseNames": {
+    "75612b39-9d9d-4f2a-9183-0782ff1ac96c": "WTX_JBQ_26-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "75612b39-9d9d-4f2a-9183-0782ff1ac96c",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "WTX South Meet 1 26-27",
+        "LastUpdated": "9/12/26 3:12 PM",
+        "DatabaseLastUpdated": "2026-09-11T16:14:35.7936475+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "John Harris",
+            "Quizzers": [
+              0,
+              1,
+              9,
+              13,
+              14
+            ],
+            "Id": "t_39308e01727c483d8d1ddc5ec68fd7a5",
+            "Name": "Calvary Assembly of God (Midland) #1",
+            "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Midland",
+            "State": "TX",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Cindy Guerra",
+            "Quizzers": [
+              5,
+              6
+            ],
+            "Id": "t_bbe4f0ceae014339983cb0cd4354e713",
+            "Name": "OFA Butterflies",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": [
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tonya Thurlby",
+            "Quizzers": [
+              4,
+              7,
+              10
+            ],
+            "Id": "t_1879e8861ddd455db7c6ab55659100fe",
+            "Name": "OFA Legacy",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Karime Jimenez",
+            "Quizzers": [
+              2,
+              12
+            ],
+            "Id": "t_0c1fbda67541493e96b902438f8e6092",
+            "Name": "OFA Warriors",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Chain Navarro",
+            "Quizzers": [
+              3,
+              8,
+              11,
+              15
+            ],
+            "Id": "t_c79b27a09fe24c7b92d8c8f7dd47e9f3",
+            "Name": "Revival Squad",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Calvary Assembly of God (Midland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b6323e588d014ae5f97508dd45eeb8cc",
+            "Name": "Charles Roberson",
+            "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Midland",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Calvary Assembly of God (Midland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_e704b0abec59431db96e08dde97d3109",
+            "Name": "Colton Robertson",
+            "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Midland",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_473fe9cc6e514be2f21208dde44dc889",
+            "Name": "Diana Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_9d3d1992c22d471eaf6608dde9509179",
+            "Name": "Ezra Pena",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_d1a66b30a6e64e73f21d08dde44dc889",
+            "Name": "Faith Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Butterflies",
+            "YearsQuizzing": null,
+            "Id": "q_65cda3def74f45d5f1e808dde44dc889",
+            "Name": "Gabriella Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Butterflies",
+            "YearsQuizzing": null,
+            "Id": "q_28c3e8aec44a4de268ff08df08d7e9db",
+            "Name": "Izabella Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_b0461e0d584d469725e608ddea676075",
+            "Name": "Jayleen Zepeda",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_775676ec601c45cf7c4508df0e8be302",
+            "Name": "Leiah Torres",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Calvary Assembly of God (Midland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7cd1c61a80d2445c658f08df0388d2b1",
+            "Name": "Mackenzie Sanders",
+            "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Midland",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_234c51c43b874b0469b208df08d7e9db",
+            "Name": "Melissa Torres",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_55ba4e9746d649cc7c6108df0e8be302",
+            "Name": "Nayeli Castillo",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_12a0874e3d194d0ebd2508dcfa81fbd4",
+            "Name": "Saidey Harlow",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Calvary Assembly of God (Midland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ff7f1150bc4d4352f97208dd45eeb8cc",
+            "Name": "Sam Sirois",
+            "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Midland",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Calvary Assembly of God (Midland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_15db5bb0445042ed658a08df0388d2b1",
+            "Name": "Wyatt Sanders",
+            "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
+            "ChurchName": "Calvary Assembly of God",
+            "City": "Midland",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_3d450a83e1c44346af6f08dde9509179",
+            "Name": "Zoelee Maya",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:55 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-09-12T15:12:32.5391765+00:00"
+}
