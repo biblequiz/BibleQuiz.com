@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import PersonDialog from "components/PersonDialog";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import { Person, PersonParentType, PersonRole } from "types/services/PeopleService";
 import {
@@ -112,12 +113,15 @@ export default function RegistrationPersonDialog({
     });
 
     const [isShowingLookup, setIsShowingLookup] = useState<boolean>(false);
+    const [isEditingRequiredDetails, setIsEditingRequiredDetails] = useState<boolean>(false);
     const [validationError, setValidationError] = useState<string | null>(null);
 
     // Promote to the browser's top layer so this dialog (and its nested person lookup)
     // stack above Starlight's header/sidebar and any parent dialog. The dialog can be
     // Escape-closed unless a nested lookup dialog is up (so the lookup closes first).
-    useModalDialog(dialogRef, () => onClose(null), isShowingLookup);
+    useModalDialog(
+        dialogRef,
+        () => onClose(null), isShowingLookup || isEditingRequiredDetails);
 
     const scope = getScopeForRole(role);
     const roleLabel = role === PersonRole.QuizzerWithoutTeam
@@ -281,6 +285,14 @@ export default function RegistrationPersonDialog({
                                 <p className="text-sm text-base-content/70 mt-1">
                                     <FontAwesomeIcon icon="fas faEnvelope" /> {linkedPerson.Email}
                                 </p>)}
+                            {linkedPerson && !readOnly && (
+                                <button
+                                    type="button"
+                                    className="btn btn-outline btn-sm mt-2"
+                                    onClick={() => setIsEditingRequiredDetails(true)}>
+                                    <FontAwesomeIcon icon="fas faPen" />
+                                    Edit Required Details (e.g., Name, DOB, etc.)
+                                </button>)}
                         </div>
 
                         {role === PersonRole.Official && (
@@ -391,6 +403,25 @@ export default function RegistrationPersonDialog({
                     hideOptionalFieldsOnPersonPage={true}
                     currentParent={church}
                     onSelect={handleSelectExistingPerson}
+                />)}
+
+            {isEditingRequiredDetails && linkedPerson && (
+                <PersonDialog
+                    title="Edit Required Details"
+                    existingPerson={linkedPerson}
+                    parentType={PersonParentType.Church}
+                    parentId={church.Id}
+                    eventId={event.Id}
+                    requiredFields={event.RequiredRoleFields[PersonRole[role]]}
+                    hideOptionalFields={true}
+                    currentChurch={church}
+                    onClose={(person) => {
+                        setIsEditingRequiredDetails(false);
+                        if (person) {
+                            setLinkedPerson(person);
+                            setPersonId(person.Id ?? null);
+                        }
+                    }}
                 />)}
         </>);
 }

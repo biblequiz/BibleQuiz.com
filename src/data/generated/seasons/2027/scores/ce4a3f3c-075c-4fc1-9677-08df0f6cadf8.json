@@ -1,0 +1,705 @@
+{
+  "EventName": "West Texas District JBQ 2026-2027 South Meet 1",
+  "DatabaseNames": {
+    "2e7cb04a-f92e-4f47-b904-ae1c119c5902": "WTX_JBQ_South_26-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "2e7cb04a-f92e-4f47-b904-ae1c119c5902",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "WTX South Meet 1 26-27 Beginner",
+        "LastUpdated": "9/12/26 5:16 PM",
+        "DatabaseLastUpdated": "2026-09-12T14:03:39.590454+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Cindy Guerra",
+            "Quizzers": [
+              3,
+              4
+            ],
+            "Id": "t_bbe4f0ceae014339983cb0cd4354e713",
+            "Name": "OFA Butterflies",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tonya Thurlby",
+            "Quizzers": [
+              2,
+              5,
+              7
+            ],
+            "Id": "t_1879e8861ddd455db7c6ab55659100fe",
+            "Name": "OFA Legacy",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 400,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 36,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Karime Jimenez",
+            "Quizzers": [
+              0,
+              9
+            ],
+            "Id": "t_0c1fbda67541493e96b902438f8e6092",
+            "Name": "OFA Warriors",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Chain Navarro",
+            "Quizzers": [
+              1,
+              6,
+              8,
+              10
+            ],
+            "Id": "t_c79b27a09fe24c7b92d8c8f7dd47e9f3",
+            "Name": "Revival Squad",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.0,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 33,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "OFA Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_473fe9cc6e514be2f21208dde44dc889",
+            "Name": "Diana Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_9d3d1992c22d471eaf6608dde9509179",
+            "Name": "Ezra Pena",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_d1a66b30a6e64e73f21d08dde44dc889",
+            "Name": "Faith Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": true,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Butterflies",
+            "YearsQuizzing": null,
+            "Id": "q_65cda3def74f45d5f1e808dde44dc889",
+            "Name": "Gabriella Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Butterflies",
+            "YearsQuizzing": null,
+            "Id": "q_28c3e8aec44a4de268ff08df08d7e9db",
+            "Name": "Izabella Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_b0461e0d584d469725e608ddea676075",
+            "Name": "Jayleen Zepeda",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_775676ec601c45cf7c4508df0e8be302",
+            "Name": "Leiah Torres",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy",
+            "YearsQuizzing": null,
+            "Id": "q_234c51c43b874b0469b208df08d7e9db",
+            "Name": "Melissa Torres",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": true,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_55ba4e9746d649cc7c6108df0e8be302",
+            "Name": "Nayeli Castillo",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_12a0874e3d194d0ebd2508dcfa81fbd4",
+            "Name": "Saidey Harlow",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival Squad",
+            "YearsQuizzing": null,
+            "Id": "q_3d450a83e1c44346af6f08dde9509179",
+            "Name": "Zoelee Maya",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          2,
+          1,
+          7,
+          3,
+          10,
+          9,
+          6,
+          8,
+          5,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-09-12T17:16:21.7921683+00:00"
+}
