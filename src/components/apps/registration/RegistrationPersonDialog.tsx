@@ -119,7 +119,9 @@ export default function RegistrationPersonDialog({
     // Promote to the browser's top layer so this dialog (and its nested person lookup)
     // stack above Starlight's header/sidebar and any parent dialog. The dialog can be
     // Escape-closed unless a nested lookup dialog is up (so the lookup closes first).
-    useModalDialog(dialogRef, () => onClose(null), isShowingLookup || isEditingRequiredDetails);
+    useModalDialog(
+        dialogRef,
+        () => onClose(null), isShowingLookup || isEditingRequiredDetails);
 
     const scope = getScopeForRole(role);
     const roleLabel = role === PersonRole.QuizzerWithoutTeam
