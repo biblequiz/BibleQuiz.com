@@ -1,4 +1,4 @@
-import { LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
+import { BrowserCacheLocation, LogLevel, PublicClientApplication, type AccountInfo, type AuthenticationResult, type IPublicClientApplication } from "@azure/msal-browser";
 import type { Person } from 'types/services/PeopleService';
 import { AuthService } from './services/AuthService';
 import { AsyncLock } from 'utils/AsyncLock';
@@ -920,9 +920,19 @@ export class AuthManager {
     }
 
     private static isPersistenceSupported(): boolean {
-        return typeof window === "undefined" || !window.localStorage
-            ? false
-            : true;
+        if (typeof window === "undefined") {
+            return false;
+        }
+
+        try {
+            const storage = window.localStorage;
+            const probeKey = "auth-storage-probe--";
+            storage.setItem(probeKey, probeKey);
+            storage.removeItem(probeKey);
+            return true;
+        } catch {
+            return false;
+        }
     }
 
     private async getInitializedClient(skipLock: boolean = false): Promise<IPublicClientApplication> {
@@ -953,7 +963,9 @@ export class AuthManager {
                     navigateToLoginRequestUrl: false, // If "true", will navigate back to the original request location before processing the auth code response.
                 },
                 cache: {
-                    cacheLocation: "localStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
+                    cacheLocation: AuthManager.isPersistenceSupported()
+                        ? BrowserCacheLocation.LocalStorage
+                        : BrowserCacheLocation.MemoryStorage,
                     storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge or want better persistence
                     secureCookies: true, // Set this to "true" to enable secure cookies in browsers that support it (e.g., Chrome, Firefox, Edge). This is recommended for production environments.
                     claimsBasedCachingEnabled: true, // Enable claims-based caching for better token management

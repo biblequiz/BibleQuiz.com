@@ -51,6 +51,11 @@ interface Props {
     excludeIds?: Set<string>;
 
     /**
+     * Hides excluded people instead of showing them as disabled.
+     */
+    hideExcluded?: boolean;
+
+    /**
      * Indicates a permission scope that should be excluded.
      */
     excludeWithScope?: boolean;
@@ -112,6 +117,7 @@ export default function PersonLookupDialog({
     onSelect,
     eventId,
     excludeIds,
+    hideExcluded = false,
     excludeWithScope = false,
     parentType = PersonParentType.Organization,
     parentId,
@@ -194,6 +200,10 @@ export default function PersonLookupDialog({
         }
     }, [searchText, currentPageNumber, currentParentChurch]);
 
+    const visiblePeople = people?.filter(
+        person => !hideExcluded || !excludeIds?.has(person.Id!),
+    );
+
     return (
         <>
             <dialog ref={dialogRef} className="modal">
@@ -272,9 +282,9 @@ export default function PersonLookupDialog({
                     {(!isLoading && !isAssigning && !isAdding) && (
                         <>
                             <div className="mt-4">
-                                {people && people.length > 0 && (
+                                {visiblePeople && visiblePeople.length > 0 && (
                                     <div className="flex flex-wrap gap-4">
-                                        {people.map(person => {
+                                        {visiblePeople.map(person => {
                                             return (
                                                 <PersonCard
                                                     key={`person_${person.Id}`}
@@ -286,7 +296,7 @@ export default function PersonLookupDialog({
                                                     isDisabled={excludeIds && excludeIds.has(person.Id!)} />);
                                         })}
                                     </div>)}
-                                {!people || people.length === 0 && (
+                                {!visiblePeople || visiblePeople.length === 0 && (
                                     <div role="alert" className="alert alert-info alert-outline">
                                         <FontAwesomeIcon icon="far faLightbulb" />
                                         <span className="text-base-content">
