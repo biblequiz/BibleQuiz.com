@@ -81,7 +81,14 @@ export default defineConfig({
                 {
                     label: "Teen Bible Quiz (TBQ)",
                     collapsed: true,
-                    items: [{ autogenerate: { directory: "tbq" } }],
+                    items: [
+                        {
+                            label: "Season Awards",
+                            link: "tbq/season-awards/",
+                            attrs: { icon: "fas faAward" },
+                        },
+                        { autogenerate: { directory: "tbq" } },
+                    ],
                 },
                 {
                     label: "Quizzer Search",

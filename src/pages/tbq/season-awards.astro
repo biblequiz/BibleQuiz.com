@@ -1,0 +1,25 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import SeasonAwardsProtectedApp from "components/apps/season-awards/SeasonAwardsProtectedApp";
+import districts from "data/districts.json";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Season Awards",
+    hidePageTitle: false,
+    tableOfContents: false,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="season-awards-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Season Awards ...
+    </div>
+    <SeasonAwardsProtectedApp
+        client:only="react"
+        districts={districts}
+        loadingElementId="season-awards-fallback"
+    />
+</StarlightPage>
