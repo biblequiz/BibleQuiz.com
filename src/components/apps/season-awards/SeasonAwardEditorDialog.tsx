@@ -42,6 +42,13 @@ function getToday(): string {
     return DataTypeHelpers.formatDate(DataTypeHelpers.nowDateOnly, "yyyy-MM-dd") ?? "";
 }
 
+function formatDateForInput(value: string): string {
+    return DataTypeHelpers.formatDate(
+        DataTypeHelpers.parseDateOnly(value),
+        "yyyy-MM-dd",
+    ) ?? "";
+}
+
 function createEntry(witnessName: string, includeTime: boolean): OnlinePersonSeasonAwardEntry {
     return {
         WitnessName: witnessName,
@@ -68,7 +75,7 @@ function EntryFields({ entry, today, includeTime = false, onChange }: EntryField
                 <input
                     type="date"
                     className="input input-bordered w-full"
-                    value={entry.OccurredOn.substring(0, 10)}
+                    value={formatDateForInput(entry.OccurredOn)}
                     max={today}
                     required
                     onChange={(event) => onChange({ ...entry, OccurredOn: event.target.value })}
@@ -108,8 +115,8 @@ function validateEntry(
         return `${label} requires a witness.`;
     }
 
-    const occurredOn = entry.OccurredOn.substring(0, 10);
-    if (!DataTypeHelpers.parseDateOnly(occurredOn)) {
+    const occurredOn = formatDateForInput(entry.OccurredOn);
+    if (!occurredOn) {
         return `${label} requires a valid occurrence date.`;
     }
     if (occurredOn > today) {
