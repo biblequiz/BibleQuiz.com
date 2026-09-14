@@ -60,7 +60,7 @@ function createEntry(witnessName: string, includeTime: boolean): OnlinePersonSea
 function EntryFields({ entry, today, includeTime = false, onChange }: EntryFieldsProps) {
     return (
         <div className="grid gap-3 md:grid-cols-2 mt-3 pl-6">
-            <label className="form-control w-full">
+            <label className="form-control w-full mt-0">
                 <span className="label-text mb-1">Witness</span>
                 <input
                     type="text"
@@ -70,7 +70,7 @@ function EntryFields({ entry, today, includeTime = false, onChange }: EntryField
                     onChange={(event) => onChange({ ...entry, WitnessName: event.target.value })}
                 />
             </label>
-            <label className="form-control w-full">
+            <label className="form-control w-full mt-0">
                 <span className="label-text mb-1">Occurred On</span>
                 <input
                     type="date"
@@ -82,11 +82,11 @@ function EntryFields({ entry, today, includeTime = false, onChange }: EntryField
                 />
             </label>
             {includeTime && (
-                <label className="form-control w-full md:col-span-2">
-                    <span className="label-text mb-1">Time Spent</span>
+                <label className="form-control w-full md:col-span-2 mt-0">
+                    <span className="label-text mb-1">Time Spent&nbsp;&nbsp;</span>
                     <input
                         type="time"
-                        className="input input-bordered w-full max-w-xs"
+                        className="input input-bordered w-full max-w-xs mt-0"
                         value={DataTypeHelpers.formatTimeSpanAsTime(entry.TimeSpent) ?? "00:00"}
                         required
                         onChange={(event) => {
@@ -198,7 +198,7 @@ export default function SeasonAwardEditorDialog({
     return (
         <dialog ref={dialogRef} className="modal">
             <div className="modal-box w-full max-w-4xl">
-                <h2 className="text-xl font-bold mt-0">Season Awards: {draft.PersonName}</h2>
+                <h2 className="text-xl font-bold mt-0">Season Awards for {draft.PersonName}</h2>
                 <p className="mt-1 mb-4 opacity-75">
                     {draft.ChurchName}{draft.ChurchLocation ? `, ${draft.ChurchLocation}` : ""}
                 </p>
@@ -220,8 +220,8 @@ export default function SeasonAwardEditorDialog({
                 )}
 
                 <fieldset className="fieldset border-base-300 rounded-box border p-4">
-                    <legend className="fieldset-legend text-base">National Memorization</legend>
-                    <div className="space-y-4">
+                    <legend className="fieldset-legend text-base">National Memorization Award (NMA)</legend>
+                    <div className="space-y-4 mt-0 mb-0">
                         {Object.entries(draft.NationalMemorization).map(([key, entry]) => (
                             <div key={key}>
                                 <label className="flex items-center gap-2 font-medium cursor-pointer">
@@ -259,8 +259,8 @@ export default function SeasonAwardEditorDialog({
                 </fieldset>
 
                 <fieldset className="fieldset border-base-300 rounded-box border p-4 mt-4">
-                    <legend className="fieldset-legend text-base">Master Memorization</legend>
-                    <label className="flex items-center gap-2 font-medium cursor-pointer">
+                    <legend className="fieldset-legend text-base">Master Memorization Award (MMA)</legend>
+                    <label className="flex items-center gap-2 font-medium cursor-pointer mt-0 mb-0">
                         <input
                             type="checkbox"
                             className="checkbox checkbox-sm"
@@ -284,8 +284,8 @@ export default function SeasonAwardEditorDialog({
                 </fieldset>
 
                 <fieldset className="fieldset border-base-300 rounded-box border p-4 mt-4">
-                    <legend className="fieldset-legend text-base">Discipleship</legend>
-                    <label className="flex items-center gap-2 font-medium cursor-pointer">
+                    <legend className="fieldset-legend text-base">Discipleship Award</legend>
+                    <label className="flex items-center gap-2 font-medium cursor-pointer mt-0 mb-0">
                         <input
                             type="checkbox"
                             className="checkbox checkbox-sm"
@@ -308,11 +308,11 @@ export default function SeasonAwardEditorDialog({
                 </fieldset>
 
                 <div className="modal-action">
-                    <button type="button" className="btn btn-warning mt-0" disabled={isSaving} onClick={onClose}>Cancel</button>
                     <button type="button" className="btn btn-primary mt-0" disabled={isSaving} onClick={() => void save()}>
                         {isSaving && <span className="loading loading-spinner loading-sm"></span>}
                         Save
                     </button>
+                    <button type="button" className="btn btn-warning mt-0" disabled={isSaving} onClick={onClose}>Cancel</button>
                 </div>
             </div>
         </dialog>

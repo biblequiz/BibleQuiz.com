@@ -6,10 +6,15 @@ import SeasonAwardsProtectedApp from "components/apps/season-awards/SeasonAwards
 import districts from "data/districts.json";
 
 const frontmatter: StarlightPageFrontmatter = {
-    title: "Season Awards",
+    title: "Manage Season Awards",
     hidePageTitle: false,
     tableOfContents: false,
     pagefind: false,
+    sidebar: {
+        label: "Manage Season Awards1",
+        order: -97,
+        attrs: { icon: "fas faAward" }
+    }
 };
 ---
 

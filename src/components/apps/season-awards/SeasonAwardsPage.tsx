@@ -1,19 +1,16 @@
 import { useEffect, useState } from "react";
+import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import { AuthManager } from "types/AuthManager";
 import { filterToAuthorizedDistricts, type DistrictInfo } from "types/RegionAndDistricts";
-import {
-    Church,
-    ChurchesService,
-} from "types/services/ChurchesService";
+import type { Church } from "types/services/ChurchesService";
 import {
     AstroPeopleSeasonAwardsService,
     type OnlinePersonSeasonAward,
 } from "types/services/AstroPeopleSeasonAwardsService";
 import { PersonParentType, type Person } from "types/services/PeopleService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import OtherChurchDialog from "./OtherChurchDialog";
 import SeasonAwardEditorDialog from "./SeasonAwardEditorDialog";
 
 interface Props {
@@ -22,18 +19,8 @@ interface Props {
 
 type AwardScope = "district" | "church";
 
-const OTHER_CHURCH_VALUE = "__other__";
-
 function getErrorMessage(error: unknown): string {
     return error instanceof Error ? error.message : "Unknown error";
-}
-
-function getChurchDisplayName(church: Church): string {
-    const location = [church.PhysicalAddress?.City, church.PhysicalAddress?.State]
-        .filter(Boolean)
-        .join(", ");
-
-    return location ? `${church.Name}, ${location}` : church.Name;
 }
 
 function getCurrentSeason(): number {
@@ -58,10 +45,7 @@ export default function SeasonAwardsPage({ districts }: Props) {
 
     const [scope, setScope] = useState<AwardScope>(hasDistrictScope ? "district" : "church");
     const [selectedDistrictId, setSelectedDistrictId] = useState<string>(authorizedDistricts[0]?.id ?? "");
-    const [directChurches, setDirectChurches] = useState<Church[]>([]);
     const [selectedChurch, setSelectedChurch] = useState<Church | null>(null);
-    const [isLoadingChurches, setIsLoadingChurches] = useState(hasDirectChurches);
-    const [showOtherChurch, setShowOtherChurch] = useState(false);
     const [awards, setAwards] = useState<OnlinePersonSeasonAward[]>([]);
     const [searchText, setSearchText] = useState("");
     const [isLoading, setIsLoading] = useState(false);
@@ -70,40 +54,6 @@ export default function SeasonAwardsPage({ districts }: Props) {
     const [showPersonLookup, setShowPersonLookup] = useState(false);
     const [editingAward, setEditingAward] = useState<OnlinePersonSeasonAward | null>(null);
     const [isLoadingEditor, setIsLoadingEditor] = useState(false);
-
-    useEffect(() => {
-        const churchIds = Array.from(profile?.churchPermissions ?? []);
-        if (churchIds.length === 0) {
-            setDirectChurches([]);
-            setIsLoadingChurches(false);
-            return;
-        }
-
-        let isCurrent = true;
-        setIsLoadingChurches(true);
-        Promise.all(churchIds.map((churchId) => ChurchesService.getChurch(auth, churchId)))
-            .then((churches) => {
-                if (!isCurrent) {
-                    return;
-                }
-
-                const sortedChurches = churches.sort((left, right) =>
-                    getChurchDisplayName(left).localeCompare(getChurchDisplayName(right)));
-                setDirectChurches(sortedChurches);
-                setSelectedChurch((current) => current ?? sortedChurches[0] ?? null);
-                setIsLoadingChurches(false);
-            })
-            .catch((loadError: unknown) => {
-                if (isCurrent) {
-                    setError(`Unable to load churches: ${getErrorMessage(loadError)}`);
-                    setIsLoadingChurches(false);
-                }
-            });
-
-        return () => {
-            isCurrent = false;
-        };
-    }, [profile]);
 
     useEffect(() => {
         const parentId = scope === "district" ? selectedDistrictId : selectedChurch?.Id;
@@ -198,7 +148,7 @@ export default function SeasonAwardsPage({ districts }: Props) {
                         </button>
                     )}
                 </div>
-                <span className="font-semibold">{season} Season</span>
+                <span className="font-semibold mt-0 mb-0">{season} Season</span>
             </div>
 
             {scope === "district" && (
@@ -217,31 +167,18 @@ export default function SeasonAwardsPage({ districts }: Props) {
             )}
 
             {scope === "church" && (
-                <label className="form-control w-full max-w-xl">
+                <div className="w-full max-w-xl">
                     <span className="label-text font-semibold mb-1">Church</span>
-                    <select
-                        className="select select-bordered w-full"
-                        value={selectedChurch?.Id ?? ""}
-                        disabled={isLoadingChurches}
-                        onChange={(event) => {
-                            if (event.target.value === OTHER_CHURCH_VALUE) {
-                                setShowOtherChurch(true);
-                                return;
-                            }
-
-                            setSelectedChurch(directChurches.find((church) => church.Id === event.target.value) ?? selectedChurch);
-                        }}
-                    >
-                        {!selectedChurch && <option value="">Select a church</option>}
-                        {selectedChurch?.Id && !directChurches.some((church) => church.Id === selectedChurch.Id) && (
-                            <option value={selectedChurch.Id}>{getChurchDisplayName(selectedChurch)}</option>
-                        )}
-                        {directChurches.map((church) => church.Id && (
-                            <option key={church.Id} value={church.Id}>{getChurchDisplayName(church)}</option>
-                        ))}
-                        {hasDistrictScope && <option value={OTHER_CHURCH_VALUE}>Other...</option>}
-                    </select>
-                </label>
+                    <ChurchLookup
+                        currentChurch={selectedChurch?.Id ? {
+                            id: selectedChurch.Id,
+                            displayName: selectedChurch.Name,
+                        } : null}
+                        showTips={ChurchSearchTips.Basic}
+                        startWithSearch={false}
+                        onSelect={(_, church) => setSelectedChurch(church)}
+                    />
+                </div>
             )}
 
             <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
@@ -345,17 +282,6 @@ export default function SeasonAwardsPage({ districts }: Props) {
                         </tbody>
                     </table>
                 </div>
-            )}
-
-            {showOtherChurch && (
-                <OtherChurchDialog
-                    districts={authorizedDistricts}
-                    onSelect={(church) => {
-                        setSelectedChurch(church);
-                        setShowOtherChurch(false);
-                    }}
-                    onClose={() => setShowOtherChurch(false)}
-                />
             )}
 
             {showPersonLookup && activeParentId && (
