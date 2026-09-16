@@ -423,6 +423,12 @@ export default function EventRegistrationsPage({ }: Props) {
         }
     }
 
+    // Teams are returned either grouped into TeamDivisions or flat in Teams, never both,
+    // so the unused one is null. Count whichever shape came back.
+    const teamsCount = summary.TeamDivisions
+        ? summary.TeamDivisions.reduce((sum, div) => sum + div.Teams.length, 0)
+        : (summary.Teams?.length ?? 0);
+
     const quizzersCount = summary.QuizzersAndCoaches.filter(
         p => p.Role === PersonRole.Quizzer || p.Role === PersonRole.QuizzerWithoutTeam
     ).length;
@@ -703,7 +709,7 @@ export default function EventRegistrationsPage({ }: Props) {
                     <h2 className="text-xl font-semibold mb-2 mt-0">
                         <FontAwesomeIcon icon="fas faPeopleGroup" classNames={["mr-2"]} />
                         Teams
-                        <span className="badge badge-neutral ml-2">{summary.Teams.length}</span>
+                        <span className="badge badge-neutral ml-2">{teamsCount}</span>
                     </h2>
 
                     {summary.TeamDivisions ? (
@@ -716,7 +722,7 @@ export default function EventRegistrationsPage({ }: Props) {
                         ))
                     ) : (
                         // Render all teams together
-                        renderTeamsTable(summary.Teams, summary, highlightDate)
+                        renderTeamsTable(summary.Teams ?? [], summary, highlightDate)
                     )}
                 </section>
             )}
