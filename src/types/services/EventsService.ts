@@ -1350,7 +1350,7 @@ export class EventSummary {
   /**
     * Gets the summary of teams registered (if there are no divisions) for this event (may be null).
     */
-  public readonly Teams!: EventTeamSummary[];
+  public readonly Teams!: EventTeamSummary[] | null;
 
   /**
    * Gets the ordered list of fields for teams.
