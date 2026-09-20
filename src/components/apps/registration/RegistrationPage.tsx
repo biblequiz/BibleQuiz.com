@@ -68,6 +68,20 @@ export default function RegistrationPage() {
     const [isStartingPayment, setIsStartingPayment] = useState(false);
     const [startPaymentError, setStartPaymentError] = useState<string | null>(null);
 
+    // The button stays disabled once the browser starts navigating to the payment processor, but a back
+    // navigation can restore this page from the browser's cache with that state intact, which would leave
+    // the button spinning and unusable. Re-enable it whenever the page is restored.
+    useEffect(() => {
+        const handlePageShow = (pageEvent: PageTransitionEvent) => {
+            if (pageEvent.persisted) {
+                setIsStartingPayment(false);
+            }
+        };
+
+        window.addEventListener("pageshow", handlePageShow);
+        return () => window.removeEventListener("pageshow", handlePageShow);
+    }, []);
+
     // Load payment entries for event owners
     useEffect(() => {
         if (isEventOwner && event?.TrackPayments && church?.Id && !paymentEntriesLoaded) {
@@ -539,8 +553,10 @@ export default function RegistrationPage() {
                                                     );
 
                                                     window.location.href = paymentLink.Url;
-                                                } catch (err) {
-                                                    setStartPaymentError(err instanceof Error ? err.message : "Failed to start the payment");
+                                                } catch (err: any) {
+                                                    // The services reject with a RemoteServiceError object rather than an
+                                                    // Error instance, so the message has to be read off whatever was thrown.
+                                                    setStartPaymentError(err?.message || "Failed to start the payment");
                                                     setIsStartingPayment(false);
                                                 }
                                             }}>
