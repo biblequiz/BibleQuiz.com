@@ -225,25 +225,75 @@ export class RegistrationService {
     }
 
     /**
-     * Generate a URL for the church to pay for their registration.
-     * 
+     * Starts a payment and retrieves the URL the browser must navigate to in order to complete it.
+     *
+     * The `/Pay` endpoint cannot be used from this site. It responds with a redirect, so it has to be
+     * invoked as a top-level browser navigation, which carries no authorization header and therefore
+     * authenticates anonymously and fails with a 401.
+     *
+     * @param auth AuthManager to use for authentication.
      * @param eventId Id for the event.
      * @param churchId Id for the church.
-     * 
-     * @returns URL for the church to pay for their registration.
+     * @param returnUrl URL the payment processor returns the browser to once the payment completes (optional).
+     *
+     * @returns Link for the church to pay for their registration.
      */
-    public static getPayLink(
+    public static startPayment(
+        auth: AuthManager,
         eventId: string,
-        churchId: string): string {
+        churchId: string,
+        returnUrl?: string): Promise<PaymentLink> {
 
-        return RemoteServiceUtility.buildUrl(
+        return RemoteServiceUtility.executeHttpRequest<PaymentLink>(
+            auth,
+            "GET",
             RemoteServiceUrlBase.Registration,
-            "/api/Registration/Pay",
+            `${URL_ROOT_PATH}/PayLink`,
             RemoteServiceUtility.getFilteredUrlParameters({
                 eid: eventId,
                 cid: churchId,
+                ru: returnUrl,
             }));
     }
+
+    /**
+     * Reconciles the registration's payment entries against the payment processor.
+     *
+     * Call this when returning from checkout. Without it the completed charge stays on the registration as a
+     * pending balance until the server's periodic reconciliation catches up, which reads as a failed payment
+     * on the receipt the church lands on.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param churchId Id for the church.
+     */
+    public static reconcilePayments(
+        auth: AuthManager,
+        eventId: string,
+        churchId: string): Promise<RemoteServicePage<Registration>> {
+
+        return RemoteServiceUtility.executeHttpRequest<RemoteServicePage<Registration>>(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            URL_ROOT_PATH,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                eid: eventId,
+                cid: churchId,
+                rp: true,
+            }));
+    }
+}
+
+/**
+ * Link the browser must navigate to in order to complete a payment.
+ */
+export interface PaymentLink {
+
+    /**
+     * URL of the external payment processor.
+     */
+    Url: string;
 }
 
 /**

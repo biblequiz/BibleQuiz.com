@@ -64,6 +64,24 @@ export default function RegistrationPage() {
     const [paymentEntriesError, setPaymentEntriesError] = useState<string | null>(null);
     const [paymentEntriesDirty, setPaymentEntriesDirty] = useState(false);
 
+    // Checkout state for the church paying its own registration
+    const [isStartingPayment, setIsStartingPayment] = useState(false);
+    const [startPaymentError, setStartPaymentError] = useState<string | null>(null);
+
+    // The button stays disabled once the browser starts navigating to the payment processor, but a back
+    // navigation can restore this page from the browser's cache with that state intact, which would leave
+    // the button spinning and unusable. Re-enable it whenever the page is restored.
+    useEffect(() => {
+        const handlePageShow = (pageEvent: PageTransitionEvent) => {
+            if (pageEvent.persisted) {
+                setIsStartingPayment(false);
+            }
+        };
+
+        window.addEventListener("pageshow", handlePageShow);
+        return () => window.removeEventListener("pageshow", handlePageShow);
+    }, []);
+
     // Load payment entries for event owners
     useEffect(() => {
         if (isEventOwner && event?.TrackPayments && church?.Id && !paymentEntriesLoaded) {
@@ -519,10 +537,34 @@ export default function RegistrationPage() {
                                         <button
                                             type="button"
                                             className="btn btn-sm btn-primary m-0"
-                                            onClick={() => {
-                                                window.location.href = RegistrationService.getPayLink(eventId, registration.ChurchId);
+                                            disabled={isStartingPayment}
+                                            onClick={async () => {
+                                                setIsStartingPayment(true);
+                                                setStartPaymentError(null);
+                                                try {
+                                                    // Send the browser back to the receipt once the payment completes.
+                                                    // "paid" tells the receipt to reconcile before it renders.
+                                                    const returnUrl = `${window.location.origin}${window.location.pathname}#/${eventId}/${registration.ChurchId}/Receipt?paid=1`;
+                                                    const paymentLink = await RegistrationService.startPayment(
+                                                        auth,
+                                                        eventId,
+                                                        registration.ChurchId,
+                                                        returnUrl
+                                                    );
+
+                                                    window.location.href = paymentLink.Url;
+                                                } catch (err: any) {
+                                                    // The services reject with a RemoteServiceError object rather than an
+                                                    // Error instance, so the message has to be read off whatever was thrown.
+                                                    setStartPaymentError(err?.message || "Failed to start the payment");
+                                                    setIsStartingPayment(false);
+                                                }
                                             }}>
-                                            <FontAwesomeIcon icon="fas faCreditCard" classNames={["mr-1"]} />
+                                            {isStartingPayment ? (
+                                                <span className="loading loading-spinner loading-xs mr-1"></span>
+                                            ) : (
+                                                <FontAwesomeIcon icon="fas faCreditCard" classNames={["mr-1"]} />
+                                            )}
                                             Pay Now
                                         </button>
                                     )}
@@ -534,6 +576,11 @@ export default function RegistrationPage() {
                                         View Receipt
                                     </a>
                                 </div>
+                                {startPaymentError && (
+                                    <div className="alert alert-error alert-sm mt-2">
+                                        <span className="text-sm">{startPaymentError}</span>
+                                    </div>
+                                )}
 
                                 {/* Payment Entries Management (Event Owners Only) */}
                                 {event.TrackPayments && isEventOwner && (
