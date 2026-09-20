@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Sep A Div",
-        "LastUpdated": "9/19/26 5:50 PM",
-        "DatabaseLastUpdated": "2026-09-17T11:46:46.6857822+00:00",
+        "LastUpdated": "9/20/26 6:01 PM",
+        "DatabaseLastUpdated": "2026-09-20T17:13:59.6761037+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -867,8 +867,8 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 26,
-              "IsTie": false,
+              "Rank": 25,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -893,7 +893,7 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 24,
+              "Rank": 23,
               "IsTie": false,
               "TotalPoints": 20,
               "PerMeetTotalPoints": null,
@@ -971,7 +971,7 @@
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
-              "Rank": 26,
+              "Rank": 25,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -997,7 +997,7 @@
             "City": "Trenton",
             "State": "MO",
             "Scores": {
-              "Rank": 22,
+              "Rank": 21,
               "IsTie": false,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
@@ -1023,18 +1023,18 @@
             "City": "BRADDYVILLE",
             "State": "IA",
             "Scores": {
-              "Rank": 19,
+              "Rank": 25,
               "IsTie": false,
-              "TotalPoints": 65,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.8,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 71,
-              "Correct10s": 3,
-              "Correct20s": 1,
-              "Correct30s": 1,
-              "FootnoteIndex": null
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1049,7 +1049,7 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 26,
+              "Rank": 25,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1101,7 +1101,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": false,
               "TotalPoints": 60,
               "PerMeetTotalPoints": null,
@@ -1231,7 +1231,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 25,
+              "Rank": 24,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -1259,15 +1259,15 @@
             "Scores": {
               "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 405,
+              "TotalPoints": 470,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 67.5,
-              "AverageCorrect": 4.5,
+              "AveragePoints": 78.3,
+              "AverageCorrect": 5.2,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 19,
-              "Correct20s": 5,
-              "Correct30s": 3,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 21,
+              "Correct20s": 6,
+              "Correct30s": 4,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -1335,7 +1335,7 @@
             "City": "Independence",
             "State": "MO",
             "Scores": {
-              "Rank": 26,
+              "Rank": 25,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1413,7 +1413,7 @@
             "City": "Kansas City",
             "State": "MO",
             "Scores": {
-              "Rank": 21,
+              "Rank": 20,
               "IsTie": false,
               "TotalPoints": 55,
               "PerMeetTotalPoints": null,
@@ -1439,7 +1439,7 @@
             "City": "Raytown",
             "State": "MO",
             "Scores": {
-              "Rank": 26,
+              "Rank": 25,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1491,7 +1491,7 @@
             "City": "Trenton",
             "State": "MO",
             "Scores": {
-              "Rank": 23,
+              "Rank": 22,
               "IsTie": false,
               "TotalPoints": 30,
               "PerMeetTotalPoints": null,
@@ -1621,7 +1621,7 @@
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
-              "Rank": 26,
+              "Rank": 25,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1683,13 +1683,13 @@
           10,
           13,
           30,
-          6,
           9,
           21,
           5,
           24,
           1,
           14,
+          6,
           0,
           4,
           7,
@@ -2074,8 +2074,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Sep B Div",
-        "LastUpdated": "9/19/26 5:50 PM",
-        "DatabaseLastUpdated": "2026-09-17T11:46:46.6857822+00:00",
+        "LastUpdated": "9/20/26 6:01 PM",
+        "DatabaseLastUpdated": "2026-09-20T17:13:59.6761037+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -5281,8 +5281,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Sep PW Div",
-        "LastUpdated": "9/19/26 5:50 PM",
-        "DatabaseLastUpdated": "2026-09-17T11:46:46.6857822+00:00",
+        "LastUpdated": "9/20/26 6:01 PM",
+        "DatabaseLastUpdated": "2026-09-20T17:13:59.6761037+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -6212,5 +6212,5 @@
       }
     }
   ],
-  "Freshness": "2026-09-19T17:50:33.6117481+00:00"
+  "Freshness": "2026-09-20T17:14:00.4572945+00:00"
 }
