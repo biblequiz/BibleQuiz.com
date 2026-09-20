@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { useOutletContext } from "react-router-dom";
+import { useOutletContext, useSearchParams } from "react-router-dom";
 import type { RegistrationProviderContext } from "./RegistrationProvider";
 import RegistrationReceipt from "./RegistrationReceipt";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { RegistrationService } from "types/services/RegistrationService";
 import {
     EventsService,
     type EventChurchSummary,
@@ -12,6 +13,10 @@ import {
 
 export default function RegistrationReceiptPage() {
     const { auth, eventId, church, isEditable } = useOutletContext<RegistrationProviderContext>();
+    const [searchParams] = useSearchParams();
+
+    // Set by the return URL handed to the payment processor, so this is the landing after a checkout.
+    const isReturningFromPayment = searchParams.get("paid") === "1";
 
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -25,13 +30,25 @@ export default function RegistrationReceiptPage() {
             return;
         }
 
+        const churchId = church.Id;
+
         setIsLoading(true);
         setError(null);
 
-        EventsService.getEventSummary(auth, eventId, church.Id)
+        // Reconcile first when returning from checkout, otherwise the charge that was just completed still
+        // shows as a pending balance until the server's periodic reconciliation catches up.
+        const reconciled = isReturningFromPayment
+            ? RegistrationService.reconcilePayments(auth, eventId, churchId).catch(() => {
+                // The periodic reconciliation is the backstop, so a failure here only costs a stale balance.
+                // Don't block the receipt on it.
+            })
+            : Promise.resolve();
+
+        reconciled
+            .then(() => EventsService.getEventSummary(auth, eventId, churchId))
             .then(summary => {
                 setEventSummary(summary);
-                const matchingChurch = summary.Churches?.find(c => c.Id === church!.Id) ?? null;
+                const matchingChurch = summary.Churches?.find(c => c.Id === churchId) ?? null;
                 setChurchSummary(matchingChurch);
                 setIsLoading(false);
             })
@@ -39,7 +56,7 @@ export default function RegistrationReceiptPage() {
                 setError(err?.message || "An error occurred loading the receipt.");
                 setIsLoading(false);
             });
-    }, [auth, eventId, church?.Id]);
+    }, [auth, eventId, church?.Id, isReturningFromPayment]);
 
     if (isLoading) {
         return (

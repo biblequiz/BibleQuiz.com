@@ -255,6 +255,34 @@ export class RegistrationService {
                 ru: returnUrl,
             }));
     }
+
+    /**
+     * Reconciles the registration's payment entries against the payment processor.
+     *
+     * Call this when returning from checkout. Without it the completed charge stays on the registration as a
+     * pending balance until the server's periodic reconciliation catches up, which reads as a failed payment
+     * on the receipt the church lands on.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param eventId Id for the event.
+     * @param churchId Id for the church.
+     */
+    public static reconcilePayments(
+        auth: AuthManager,
+        eventId: string,
+        churchId: string): Promise<RemoteServicePage<Registration>> {
+
+        return RemoteServiceUtility.executeHttpRequest<RemoteServicePage<Registration>>(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            URL_ROOT_PATH,
+            RemoteServiceUtility.getFilteredUrlParameters({
+                eid: eventId,
+                cid: churchId,
+                rp: true,
+            }));
+    }
 }
 
 /**

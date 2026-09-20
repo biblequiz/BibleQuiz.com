@@ -529,7 +529,8 @@ export default function RegistrationPage() {
                                                 setStartPaymentError(null);
                                                 try {
                                                     // Send the browser back to the receipt once the payment completes.
-                                                    const returnUrl = `${window.location.origin}${window.location.pathname}#/${eventId}/${registration.ChurchId}/Receipt`;
+                                                    // "paid" tells the receipt to reconcile before it renders.
+                                                    const returnUrl = `${window.location.origin}${window.location.pathname}#/${eventId}/${registration.ChurchId}/Receipt?paid=1`;
                                                     const paymentLink = await RegistrationService.startPayment(
                                                         auth,
                                                         eventId,
