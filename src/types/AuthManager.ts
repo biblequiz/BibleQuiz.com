@@ -210,7 +210,7 @@ export class UserAccountProfile {
     public hasUnrestrictedOrganizationPermission() {
 
         return this.organizationPermission !== null &&
-            UserAccountProfile.getCompetitionTypeRestriction(this.organizationPermission) === null;
+            UserAccountProfile.isUnrestricted(this.organizationPermission);
     }
 
     /**
@@ -279,37 +279,36 @@ export class UserAccountProfile {
             return false;
         }
 
-        const restrictedTo = UserAccountProfile.getCompetitionTypeRestriction(permission);
-        if (!restrictedTo) {
-            return true;
+        if (permission.CompetitionTypeId) {
+            return permission.CompetitionTypeId === competitionTypeId;
         }
 
-        return restrictedTo === competitionTypeId;
+        // Profiles cached before the service sent the competition type id carry the restriction
+        // enum instead, which can only name JBQ and TBQ.
+        switch (permission.Restriction) {
+            case UserPermissionRestriction.JbqOnly:
+                return competitionTypeId === "agjbq";
+            case UserPermissionRestriction.TbqOnly:
+                return competitionTypeId === "agtbq";
+            case null:
+            case undefined:
+                return true;
+            default:
+                // Restricted to a competition type this bundle cannot name, so it matches nothing
+                // rather than being read as unrestricted.
+                return false;
+        }
     }
 
     /**
-     * Gets the id of the competition type a permission is restricted to, or null when it covers
-     * every type.
+     * Determines whether a permission covers every competition type.
      *
      * @param permission Permission to check.
      */
-    private static getCompetitionTypeRestriction(
-        permission: RemoteUserPermission): string | null {
+    private static isUnrestricted(
+        permission: RemoteUserPermission): boolean {
 
-        if (permission.CompetitionTypeId) {
-            return permission.CompetitionTypeId;
-        }
-
-        // Profiles cached before the service started sending the competition type id only carry
-        // the two restrictions the old enum could express.
-        switch (permission.Restriction) {
-            case UserPermissionRestriction.JbqOnly:
-                return "agjbq";
-            case UserPermissionRestriction.TbqOnly:
-                return "agtbq";
-            default:
-                return null;
-        }
+        return !permission.CompetitionTypeId && !permission.Restriction;
     }
 }
 
@@ -327,6 +326,11 @@ enum UserPermissionRestriction {
      * Restrict to TBQ objects.
      */
     TbqOnly = "TbqOnly",
+
+    /**
+     * Restrict to a competition type the restriction cannot name.
+     */
+    Unsupported = "Unsupported",
 }
 
 /**
