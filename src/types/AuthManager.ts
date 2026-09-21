@@ -9,8 +9,11 @@ import { RemoteServiceUrlBase, RemoteServiceUtility } from "./services/RemoteSer
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const IMPERSONATION_STORAGE_KEY = "auth-impersonation--";
-const PROFILE_MAX_AGE_MS = 5 * 60 * 1000;
 const BACKGROUND_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+
+// Deliberately below the interval: the tick renews the token before it checks the profile, so a
+// max age equal to the interval is never quite reached and the refresh lands on alternate ticks.
+const PROFILE_MAX_AGE_MS = BACKGROUND_REFRESH_INTERVAL_MS - (30 * 1000);
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
 
 // Initialize the MSAL client and active account. This happens in the background so that
@@ -88,8 +91,8 @@ export class UserAccountProfile {
         organizationPermission: RemoteUserPermission | null,
         regionPermissions: Record<string, RemoteUserPermission | null> | null,
         districtPermissions: Record<string, RemoteUserPermission | null> | null,
-        churchPermissions: Set<string> | null,
-        eventPermissions: Set<string> | null,
+        churchPermissions: Set<string> | string[] | null,
+        eventPermissions: Set<string> | string[] | null,
         canCreateEvents: boolean,
         isPayoutManager: boolean,
         authTokenProfile: AuthTokenProfile | null,
@@ -658,8 +661,9 @@ export class AuthManager {
                 accessToken,
                 currentProfile.authTokenProfile ?? null);
 
-            if (!AuthManager.isProfileIdle(state.get())) {
-                // One of those flows started while the profile was being retrieved.
+            if (!AuthManager.isProfileIdle(state.get()) || this.userProfile !== currentProfile) {
+                // One of those flows ran while the profile was being retrieved, so the response is
+                // already out of date - a completed sign-out would otherwise be undone by it.
                 return;
             }
 
@@ -955,8 +959,14 @@ export class AuthManager {
             organizationPermission: profile.organizationPermission,
             regionPermissions: profile.regionPermissions,
             districtPermissions: profile.districtPermissions,
-            churchPermissions: profile.churchPermissions,
-            eventPermissions: profile.eventPermissions,
+            // JSON.stringify turns a Set into {}, which reads back as an empty set and silently
+            // drops the user's church and event permissions.
+            churchPermissions: profile.churchPermissions === null
+                ? null
+                : [...profile.churchPermissions],
+            eventPermissions: profile.eventPermissions === null
+                ? null
+                : [...profile.eventPermissions],
             canCreateEvents: profile.canCreateEvents,
             isPayoutManager: profile.isPayoutManager,
             authTokenProfile: profile.authTokenProfile,
@@ -1215,8 +1225,8 @@ interface SerializedAccountProfile {
     organizationPermission: RemoteUserPermission | null;
     regionPermissions: Record<string, RemoteUserPermission | null> | null;
     districtPermissions: Record<string, RemoteUserPermission | null> | null;
-    churchPermissions: Set<string> | null;
-    eventPermissions: Set<string> | null;
+    churchPermissions: string[] | null;
+    eventPermissions: string[] | null;
     canCreateEvents: boolean;
     isPayoutManager: boolean;
     authTokenProfile: AuthTokenProfile | null;
