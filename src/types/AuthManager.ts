@@ -191,12 +191,12 @@ export class UserAccountProfile {
     /**
      * Checks if the current user has organization-level permission.
      * 
-     * @param minimumRestriction Minimum restriction on the permission.
+     * @param competitionTypeId Id of the competition type the permission must allow.
      */
     public hasOrganizationPermission(
-        minimumRestriction: string | null) {
+        competitionTypeId: string | null) {
 
-        if (UserAccountProfile.hasMinimumRestriction(this.organizationPermission, minimumRestriction)) {
+        if (UserAccountProfile.allowsCompetitionType(this.organizationPermission, competitionTypeId)) {
             return true;
         }
 
@@ -204,16 +204,26 @@ export class UserAccountProfile {
     }
 
     /**
+     * Checks if the current user administers the organization without a competition-type
+     * restriction, which is what the permission tooling requires before merging or impersonating.
+     */
+    public hasUnrestrictedOrganizationPermission() {
+
+        return this.organizationPermission !== null &&
+            UserAccountProfile.getCompetitionTypeRestriction(this.organizationPermission) === null;
+    }
+
+    /**
      * Checks if the current user has region-level permission.
      * 
      * @param regionId Id for the region.
-     * @param minimumRestriction Minimum restriction on the permission.
+     * @param competitionTypeId Id of the competition type the permission must allow.
      */
     public hasRegionPermission(
         regionId: string,
-        minimumRestriction: string | null) {
+        competitionTypeId: string | null) {
 
-        if (this.hasOrganizationPermission(minimumRestriction)) {
+        if (this.hasOrganizationPermission(competitionTypeId)) {
             return true;
         }
 
@@ -221,7 +231,7 @@ export class UserAccountProfile {
             return false;
         }
 
-        if (UserAccountProfile.hasMinimumRestriction(this.regionPermissions[regionId], minimumRestriction)) {
+        if (UserAccountProfile.allowsCompetitionType(this.regionPermissions[regionId], competitionTypeId)) {
             return true;
         }
 
@@ -233,14 +243,14 @@ export class UserAccountProfile {
      * 
      * @param districtId Id for the district.
      * @param regionId Id for the region.
-     * @param minimumRestriction Minimum restriction on the permission.
+     * @param competitionTypeId Id of the competition type the permission must allow.
      */
     public hasDistrictPermission(
         districtId: string,
         regionId: string,
-        minimumRestriction: string | null) {
+        competitionTypeId: string | null) {
 
-        if (this.hasRegionPermission(regionId, minimumRestriction)) {
+        if (this.hasRegionPermission(regionId, competitionTypeId)) {
             return true;
         }
 
@@ -248,33 +258,57 @@ export class UserAccountProfile {
             return false;
         }
 
-        if (UserAccountProfile.hasMinimumRestriction(this.districtPermissions[districtId], minimumRestriction)) {
+        if (UserAccountProfile.allowsCompetitionType(this.districtPermissions[districtId], competitionTypeId)) {
             return true;
         }
 
         return false;
     }
 
-    private static hasMinimumRestriction(
+    /**
+     * Determines whether a permission covers the supplied competition type.
+     *
+     * @param permission Permission to check, which is absent when the user has none.
+     * @param competitionTypeId Id of the competition type the permission must allow.
+     */
+    private static allowsCompetitionType(
         permission: RemoteUserPermission | null | undefined,
-        minimumRestriction: string | null): boolean {
+        competitionTypeId: string | null): boolean {
 
         if (!permission) {
             return false;
         }
 
-        const currentRestriction = permission.Restriction;
-        if (!currentRestriction) {
+        const restrictedTo = UserAccountProfile.getCompetitionTypeRestriction(permission);
+        if (!restrictedTo) {
             return true;
         }
 
-        switch (minimumRestriction) {
-            case "agjbq":
-                return currentRestriction === UserPermissionRestriction.JbqOnly;
-            case "agtbq":
-                return currentRestriction === UserPermissionRestriction.TbqOnly;
+        return restrictedTo === competitionTypeId;
+    }
+
+    /**
+     * Gets the id of the competition type a permission is restricted to, or null when it covers
+     * every type.
+     *
+     * @param permission Permission to check.
+     */
+    private static getCompetitionTypeRestriction(
+        permission: RemoteUserPermission): string | null {
+
+        if (permission.CompetitionTypeId) {
+            return permission.CompetitionTypeId;
+        }
+
+        // Profiles cached before the service started sending the competition type id only carry
+        // the two restrictions the old enum could express.
+        switch (permission.Restriction) {
+            case UserPermissionRestriction.JbqOnly:
+                return "agjbq";
+            case UserPermissionRestriction.TbqOnly:
+                return "agtbq";
             default:
-                return false;
+                return null;
         }
     }
 }
@@ -1206,7 +1240,15 @@ class RemoteUserProfile {
 class RemoteUserPermission {
 
     /**
+     * Id of the competition type to which the permission is restricted (if any).
+     */
+    public readonly CompetitionTypeId?: string | null;
+
+    /**
      * Restriction on the permission (if any).
+     *
+     * Superseded by CompetitionTypeId, which covers every competition type rather than only JBQ
+     * and TBQ. Profiles cached before the service sent the id still carry it.
      */
     public readonly Restriction!: UserPermissionRestriction | null;
 }
