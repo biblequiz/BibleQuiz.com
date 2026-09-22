@@ -43,8 +43,7 @@ export default function PermissionsPage({ }: Props) {
         return null;
     }
 
-    const hasOrganizationPermission = userProfile.organizationPermission !== null;
-    const canMergeAndImpersonate = hasOrganizationPermission && !userProfile.organizationPermission?.Restriction;
+    const canMergeAndImpersonate = userProfile.hasUnrestrictedOrganizationPermission();
 
     type CheckboxKey = keyof typeof checkboxStates;
 

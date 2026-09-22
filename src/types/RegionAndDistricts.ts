@@ -24,7 +24,7 @@ export interface DistrictInfo {
  * 
  * @param auth Manager for auth.
  * @param regions List of all regions.
- * @param eventType Type of event for the region.
+ * @param eventType Id of the competition type the permission must allow.
  * @param includeId Id to include regardless of permissions.
  * @returns Filtered list of regions.
  */
@@ -51,7 +51,7 @@ export function filterToAuthorizedRegions(
  * 
  * @param auth Manager for auth.
  * @param districts List of all districts.
- * @param eventType Type of event for the district.
+ * @param eventType Id of the competition type the permission must allow.
  * @param includeId Id to include regardless of permissions.
  * @returns Filtered list of districts.
  */
