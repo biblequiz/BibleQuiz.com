@@ -204,6 +204,33 @@ export class UserAccountProfile {
     }
 
     /**
+     * Checks whether any of the user's permissions allows the supplied competition type, at any
+     * scope. Used to default a picker to a type the user can actually run.
+     *
+     * @param competitionTypeId Id of the competition type the permission must allow.
+     */
+    public allowsAnyCompetitionType(competitionTypeId: string) {
+
+        if (UserAccountProfile.allowsCompetitionType(this.organizationPermission, competitionTypeId)) {
+            return true;
+        }
+
+        for (const permissions of [this.regionPermissions, this.districtPermissions]) {
+            if (!permissions) {
+                continue;
+            }
+
+            for (const permission of Object.values(permissions)) {
+                if (UserAccountProfile.allowsCompetitionType(permission, competitionTypeId)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    /**
      * Checks if the current user administers the organization without a competition-type
      * restriction, which is what the permission tooling requires before merging or impersonating.
      */

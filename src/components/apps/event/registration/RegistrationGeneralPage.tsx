@@ -1,6 +1,6 @@
 import { useOutletContext } from "react-router-dom";
 import type { RegistrationProviderContext } from "../RegistrationProvider";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import AddressSelector from "../AddressSelector";
 import type { Address } from "types/services/models/Address";
 import RichTextEditor from "components/RichTextEditor";
@@ -12,6 +12,9 @@ import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
 }
+
+// The competition types the drop-down offers, in the order it offers them.
+const COMPETITION_TYPE_IDS = ["agjbq", "agtbq"];
 
 export interface RegistrationGeneralInfo {
     name: string;
@@ -45,11 +48,68 @@ export default function RegistrationGeneralPage({ }: Props) {
         officialsAndAttendees,
         setOfficialsAndAttendees } = useOutletContext<RegistrationProviderContext>();
 
+    // The types the user can actually run. An admin restricted to a type this drop-down doesn't
+    // offer would otherwise be left with no options at all in a required field, so in that case
+    // every type stays on offer and the service decides.
+    const runnableTypeIds = useMemo(
+        () => {
+            const allowed = COMPETITION_TYPE_IDS.filter(
+                id => auth.userProfile?.allowsAnyCompetitionType(id) ?? false);
+            return allowed.length === 0 ? COMPETITION_TYPE_IDS : allowed;
+        },
+        [auth]);
+
     const [name, setName] = useState(general?.name || "");
     const [description, setDescription] = useState(general?.description || "");
-    const [typeId, setTypeId] = useState(general?.typeId || "");
-    const [allowJbqEvents, setAllowJbqEvents] = useState<boolean>(true);
-    const [allowTbqEvents, setAllowTbqEvents] = useState<boolean>(true);
+
+    // A new event starts on the first type the user can run. Defaulting to an empty id while the
+    // drop-down displayed JBQ left a restricted admin with an empty district list and no way out
+    // of it: the district list drives which types are offered, and re-selecting the type already
+    // on display fires no change event.
+    const [typeId, setTypeId] = useState(() => general?.typeId || runnableTypeIds[0]);
+
+    // Only narrowed up front for a new event, so the type of an existing one stays editable
+    // exactly as it was until a district or region change recomputes these.
+    const [allowJbqEvents, setAllowJbqEvents] = useState<boolean>(
+        () => !isNewEvent || runnableTypeIds.includes("agjbq"));
+    const [allowTbqEvents, setAllowTbqEvents] = useState<boolean>(
+        () => !isNewEvent || runnableTypeIds.includes("agtbq"));
+
+    // Everything a competition type implies. The drop-down only fires its change handler when the
+    // value the user picks differs from the one on display, so a defaulted type has to come
+    // through here too or the event keeps the defaults of a type it isn't.
+    const applyCompetitionType = (newTypeId: string, isUserChange: boolean) => {
+
+        setTypeId(newTypeId);
+        setEventType(newTypeId);
+
+        const isJbq = newTypeId === "agjbq";
+
+        setTeamsAndQuizzers({
+            ...teamsAndQuizzers,
+            minTeamMembers: isJbq ? 1 : 2,
+            maxTeamMembers: isJbq ? 8 : 6,
+            requireTeamCoaches: isJbq
+        });
+
+        setOfficialsAndAttendees({
+            ...officialsAndAttendees,
+            allowTimekeepers: isJbq
+        });
+
+        if (isUserChange) {
+            sharedDirtyWindowState.set(true);
+        }
+    };
+
+    // Apply the defaulted type once, without marking the untouched form dirty.
+    useEffect(
+        () => {
+            if (isNewEvent && !general?.typeId) {
+                applyCompetitionType(typeId, false);
+            }
+        },
+        []);
     const [startDate, setStartDate] = useState(general?.startDate || "");
     const [endDate, setEndDate] = useState(general?.endDate || "");
     const [registrationStartDate, setRegistrationStartDate] = useState(general?.registrationStartDate || "");
@@ -120,26 +180,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                         name="type"
                         className="select select-bordered w-full mt-0"
                         value={typeId || "agjbq"}
-                        onChange={e => {
-                            setTypeId(e.target.value);
-                            setEventType(e.target.value);
-
-                            const isJbq = e.target.value === "agjbq";
-
-                            setTeamsAndQuizzers({
-                                ...teamsAndQuizzers,
-                                minTeamMembers: isJbq ? 1 : 2,
-                                maxTeamMembers: isJbq ? 8 : 6,
-                                requireTeamCoaches: isJbq
-                            });
-
-                            setOfficialsAndAttendees({
-                                ...officialsAndAttendees,
-                                allowTimekeepers: isJbq
-                            });
-
-                            sharedDirtyWindowState.set(true);
-                        }}
+                        onChange={e => applyCompetitionType(e.target.value, true)}
                         disabled={isTypeReadOnly}
                         required={!isTypeReadOnly}
                     >
