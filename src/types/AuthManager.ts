@@ -587,6 +587,13 @@ export class AuthManager {
                             forceRefresh: false, // Allow cached tokens
                         });
 
+                    if (this.getNanoState().get().popupType === PopupType.LoginRequired) {
+                        // An earlier background renewal failed and left this set. A token is
+                        // available again, so stop asking the user to sign in - and unblock the
+                        // background profile refresh, which treats any popup as "not idle".
+                        this.getNanoState().setKey("popupType", PopupType.None);
+                    }
+
                     resolve(tokenResponse.accessToken);
                 }
                 catch (error: any) {
@@ -661,9 +668,13 @@ export class AuthManager {
                 accessToken,
                 currentProfile.authTokenProfile ?? null);
 
-            if (!AuthManager.isProfileIdle(state.get()) || this.userProfile !== currentProfile) {
+            if (!AuthManager.isProfileIdle(state.get()) ||
+                this.userProfile !== currentProfile ||
+                !AuthManager.hasStoredProfile()) {
                 // One of those flows ran while the profile was being retrieved, so the response is
-                // already out of date - a completed sign-out would otherwise be undone by it.
+                // already out of date. The stored profile is checked as well because a sign-out in
+                // another tab is only seen here once its storage event is delivered, which can
+                // land after this response.
                 return;
             }
 
@@ -1023,6 +1034,19 @@ export class AuthManager {
 
     private static isProfileIdle(state: AuthManagerReactState): boolean {
         return state.popupType === PopupType.None && !state.isRetrievingProfile;
+    }
+
+    private static hasStoredProfile(): boolean {
+        if (!AuthManager.isPersistenceSupported()) {
+            // Nothing is shared between tabs, so there is nothing to contradict.
+            return true;
+        }
+
+        try {
+            return localStorage.getItem(PROFILE_STORAGE_KEY) !== null;
+        } catch {
+            return true;
+        }
     }
 
     private static isPersistenceSupported(): boolean {
