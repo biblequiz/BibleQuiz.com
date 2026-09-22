@@ -9,6 +9,11 @@ import { RemoteServiceUrlBase, RemoteServiceUtility } from "./services/RemoteSer
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const IMPERSONATION_STORAGE_KEY = "auth-impersonation--";
+const BACKGROUND_REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+
+// Deliberately below the interval: the tick renews the token before it checks the profile, so a
+// max age equal to the interval is never quite reached and the refresh lands on alternate ticks.
+const PROFILE_MAX_AGE_MS = BACKGROUND_REFRESH_INTERVAL_MS - (30 * 1000);
 const TOKEN_SCOPES = ["offline_access", "openid", "profile", "1058ea35-28ff-4b8a-953a-269f36d90235/.default"];
 
 // Initialize the MSAL client and active account. This happens in the background so that
@@ -77,6 +82,7 @@ export class UserAccountProfile {
      * @param canCreateEvents Value indicating whether the user can create events.
      * @param isPayoutManager Value indicating if the user is a payout manager.
      * @param authTokenProfile Profile from the auth token.
+     * @param retrievedAt Time (in epoch milliseconds) the profile was retrieved from the service.
      */
     public constructor(
         personId: string | null,
@@ -85,11 +91,12 @@ export class UserAccountProfile {
         organizationPermission: RemoteUserPermission | null,
         regionPermissions: Record<string, RemoteUserPermission | null> | null,
         districtPermissions: Record<string, RemoteUserPermission | null> | null,
-        churchPermissions: Set<string> | null,
-        eventPermissions: Set<string> | null,
+        churchPermissions: Set<string> | string[] | null,
+        eventPermissions: Set<string> | string[] | null,
         canCreateEvents: boolean,
         isPayoutManager: boolean,
-        authTokenProfile: AuthTokenProfile | null) {
+        authTokenProfile: AuthTokenProfile | null,
+        retrievedAt: number) {
 
         this.personId = personId;
         this.displayName = displayName;
@@ -103,6 +110,7 @@ export class UserAccountProfile {
         this.canManageEvents = canCreateEvents || (this.eventPermissions !== null && this.eventPermissions.size > 0);
         this.isPayoutManager = isPayoutManager;
         this.authTokenProfile = authTokenProfile;
+        this.retrievedAt = retrievedAt;
     }
 
     /**
@@ -164,6 +172,21 @@ export class UserAccountProfile {
      * Profile from the auth token (if the user has one).
      */
     public readonly authTokenProfile: AuthTokenProfile | null;
+
+    /**
+     * Time (in epoch milliseconds) at which the profile was retrieved from the service. Permissions
+     * are granted and revoked remotely, so a cached profile goes stale and has to be refreshed.
+     */
+    public readonly retrievedAt: number;
+
+    /**
+     * Determines whether the profile is older than the supplied age.
+     *
+     * @param maxAgeMs Maximum age (in milliseconds) for which the profile is considered current.
+     */
+    public isStale(maxAgeMs: number = PROFILE_MAX_AGE_MS): boolean {
+        return (Date.now() - this.retrievedAt) >= maxAgeMs;
+    }
 
     /**
      * Checks if the current user has organization-level permission.
@@ -449,7 +472,8 @@ export class AuthManager {
                 currentProfile.eventPermissions ?? null,
                 currentProfile.canCreateEvents ?? false,
                 currentProfile.isPayoutManager ?? false,
-                currentProfile.authTokenProfile ?? null);
+                currentProfile.authTokenProfile ?? null,
+                currentProfile.retrievedAt);
             AuthManager.saveProfile(newProfile);
 
             this.getNanoState().setKey("profile", newProfile);
@@ -563,6 +587,13 @@ export class AuthManager {
                             forceRefresh: false, // Allow cached tokens
                         });
 
+                    if (this.getNanoState().get().popupType === PopupType.LoginRequired) {
+                        // An earlier background renewal failed and left this set. A token is
+                        // available again, so stop asking the user to sign in - and unblock the
+                        // background profile refresh, which treats any popup as "not idle".
+                        this.getNanoState().setKey("popupType", PopupType.None);
+                    }
+
                     resolve(tokenResponse.accessToken);
                 }
                 catch (error: any) {
@@ -595,8 +626,64 @@ export class AuthManager {
                     else {
                         this.getNanoState().setKey("popupType", PopupType.LoginRequired);
                     }
+
+                    if (isBackground) {
+                        // Nothing will resolve the promise on behalf of a background caller, so it
+                        // has to be settled here or the caller waits forever (holding the lock).
+                        resolve(null);
+                    }
                 }
             });
+    }
+
+    /**
+     * Refreshes the cached profile from the service if it is older than the supplied age.
+     *
+     * Permissions are granted and revoked remotely, so a browser that stays signed in would
+     * otherwise keep the profile it captured when the user logged in. This runs quietly in the
+     * background: it never prompts for sign-in, and a failure leaves the cached profile in place.
+     *
+     * @param maxAgeMs Maximum age (in milliseconds) for which the cached profile is kept.
+     */
+    public async refreshRemoteProfileIfStale(maxAgeMs: number = PROFILE_MAX_AGE_MS): Promise<void> {
+
+        const currentProfile = this.userProfile;
+        if (!currentProfile || !currentProfile.isStale(maxAgeMs)) {
+            return;
+        }
+
+        const state = this.getNanoState();
+        if (!AuthManager.isProfileIdle(state.get())) {
+            // A sign-in, sign-out or impersonation change is in flight and owns the profile.
+            return;
+        }
+
+        try {
+            const accessToken = await this.getLatestAccessToken(true);
+            if (!accessToken) {
+                return;
+            }
+
+            const newProfile = await this.fetchRemoteProfile(
+                accessToken,
+                currentProfile.authTokenProfile ?? null);
+
+            if (!AuthManager.isProfileIdle(state.get()) ||
+                this.userProfile !== currentProfile ||
+                !AuthManager.hasStoredProfile()) {
+                // One of those flows ran while the profile was being retrieved, so the response is
+                // already out of date. The stored profile is checked as well because a sign-out in
+                // another tab is only seen here once its storage event is delivered, which can
+                // land after this response.
+                return;
+            }
+
+            AuthManager.saveProfile(newProfile);
+            state.setKey("profile", newProfile);
+        } catch (error) {
+            // Leave the cached profile in place. The next refresh will try again.
+            console.log("Background profile refresh failed:", error);
+        }
     }
 
     /**
@@ -679,18 +766,27 @@ export class AuthManager {
     }
 
     /**
-     * Set up periodic token refresh to prevent expiration
+     * Set up the periodic token and profile refresh to prevent expiration and stale permissions.
      */
     private setupPeriodicTokenRefresh(): void {
 
         // Delay setup to allow the static instance to be fully constructed.
         setTimeout(() => {
-            // Renew the token once.
-            this.renewTokenWithoutError();
+            // Renew the token and refresh the profile once for this page load.
+            this.runBackgroundRefresh();
 
-            // Refresh token every 30 minutes (tokens typically last 1 hour)
-            setInterval(this.renewTokenWithoutError, 5 * 60 * 1000); // 30 minutes
+            // Renew the token every 5 minutes (tokens typically last 1 hour). The arrow function
+            // is required so the interval runs against the instance instead of the global scope.
+            setInterval(() => this.runBackgroundRefresh(), BACKGROUND_REFRESH_INTERVAL_MS);
         }, 5);
+    }
+
+    /**
+     * Renews the access token and refreshes the cached profile when it has gone stale.
+     */
+    private async runBackgroundRefresh(): Promise<void> {
+        await this.renewTokenWithoutError();
+        await this.refreshRemoteProfileIfStale();
     }
 
     private async renewTokenWithoutError(): Promise<void> {
@@ -711,42 +807,50 @@ export class AuthManager {
         }
     }
 
+    private async fetchRemoteProfile(
+        accessToken: string,
+        tokenProfile: AuthTokenProfile | null): Promise<UserAccountProfile> {
+
+        const response = await fetch(
+            RemoteServiceUtility.buildUrl(
+                RemoteServiceUrlBase.Registration,
+                "api/v1.0/users/profile",
+                null),
+            {
+                method: "GET",
+                credentials: "include",
+                headers: {
+                    "Authorization": `Bearer ${accessToken}`,
+                }
+            });
+
+        if (!response.ok) {
+            throw new Error("Unable to retrieve the latest user profile.");
+        }
+
+        const remoteProfile = await response.json() as RemoteUserProfile;
+
+        return new UserAccountProfile(
+            remoteProfile.PersonId,
+            remoteProfile.Name,
+            remoteProfile.Type,
+            remoteProfile.OrganizationPermission ?? null,
+            remoteProfile.RegionPermissions ?? null,
+            remoteProfile.DistrictPermissions ?? null,
+            remoteProfile.ChurchPermissions ?? null,
+            remoteProfile.EventPermissions ?? null,
+            remoteProfile.CanCreateEvents ?? false,
+            remoteProfile.IsPayoutManager ?? false,
+            tokenProfile,
+            Date.now());
+    }
+
     private async retrieveRemoteProfile(
         accessToken: string,
         tokenProfile: AuthTokenProfile | null): Promise<void> {
         const state = this.getNanoState();
         try {
-            const response = await fetch(
-                RemoteServiceUtility.buildUrl(
-                    RemoteServiceUrlBase.Registration,
-                    "api/v1.0/users/profile",
-                    null),
-                {
-                    method: "GET",
-                    credentials: "include",
-                    headers: {
-                        "Authorization": `Bearer ${accessToken}`,
-                    }
-                });
-
-            if (!response.ok) {
-                throw new Error("Unable to retrieve the latest user profile.");
-            }
-
-            const remoteProfile = await response.json() as RemoteUserProfile;
-
-            const newProfile = new UserAccountProfile(
-                remoteProfile.PersonId,
-                remoteProfile.Name,
-                remoteProfile.Type,
-                remoteProfile.OrganizationPermission ?? null,
-                remoteProfile.RegionPermissions ?? null,
-                remoteProfile.DistrictPermissions ?? null,
-                remoteProfile.ChurchPermissions ?? null,
-                remoteProfile.EventPermissions ?? null,
-                remoteProfile.CanCreateEvents ?? false,
-                remoteProfile.IsPayoutManager ?? false,
-                tokenProfile);
+            const newProfile = await this.fetchRemoteProfile(accessToken, tokenProfile);
 
             AuthManager.saveProfile(newProfile);
 
@@ -866,11 +970,18 @@ export class AuthManager {
             organizationPermission: profile.organizationPermission,
             regionPermissions: profile.regionPermissions,
             districtPermissions: profile.districtPermissions,
-            churchPermissions: profile.churchPermissions,
-            eventPermissions: profile.eventPermissions,
+            // JSON.stringify turns a Set into {}, which reads back as an empty set and silently
+            // drops the user's church and event permissions.
+            churchPermissions: profile.churchPermissions === null
+                ? null
+                : [...profile.churchPermissions],
+            eventPermissions: profile.eventPermissions === null
+                ? null
+                : [...profile.eventPermissions],
             canCreateEvents: profile.canCreateEvents,
             isPayoutManager: profile.isPayoutManager,
             authTokenProfile: profile.authTokenProfile,
+            retrievedAt: profile.retrievedAt,
         };
     }
 
@@ -891,7 +1002,9 @@ export class AuthManager {
             serializedProfile.eventPermissions ?? null,
             serializedProfile.canCreateEvents ?? false,
             serializedProfile.isPayoutManager ?? false,
-            serializedProfile.authTokenProfile);
+            serializedProfile.authTokenProfile,
+            // A profile cached before this field existed is always treated as stale.
+            serializedProfile.retrievedAt ?? 0);
     }
 
     private static registerProfileChangeListener(): void {
@@ -917,6 +1030,23 @@ export class AuthManager {
                         AuthManager.parseImpersonationState(event.newValue));
                 }
             });
+    }
+
+    private static isProfileIdle(state: AuthManagerReactState): boolean {
+        return state.popupType === PopupType.None && !state.isRetrievingProfile;
+    }
+
+    private static hasStoredProfile(): boolean {
+        if (!AuthManager.isPersistenceSupported()) {
+            // Nothing is shared between tabs, so there is nothing to contradict.
+            return true;
+        }
+
+        try {
+            return localStorage.getItem(PROFILE_STORAGE_KEY) !== null;
+        } catch {
+            return true;
+        }
     }
 
     private static isPersistenceSupported(): boolean {
@@ -1119,11 +1249,12 @@ interface SerializedAccountProfile {
     organizationPermission: RemoteUserPermission | null;
     regionPermissions: Record<string, RemoteUserPermission | null> | null;
     districtPermissions: Record<string, RemoteUserPermission | null> | null;
-    churchPermissions: Set<string> | null;
-    eventPermissions: Set<string> | null;
+    churchPermissions: string[] | null;
+    eventPermissions: string[] | null;
     canCreateEvents: boolean;
     isPayoutManager: boolean;
     authTokenProfile: AuthTokenProfile | null;
+    retrievedAt?: number;
     hasDisplayedSignUpDialog?: boolean;
 }
 
