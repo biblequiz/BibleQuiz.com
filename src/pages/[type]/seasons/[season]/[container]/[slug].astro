@@ -171,7 +171,8 @@ const today: Date = new Date();
 today.setHours(0, 0, 0, 0);
 
 const date = DataTypeHelpers.parseDateOnly(eventInfo.registrationEndDate)!;
-const isRegistrationOpen = date && date > today;
+// Registration stays open through the end of the closing day.
+const isRegistrationOpen = date && date >= today;
 
 // Find the label for the scope.
 const frontmatter: StarlightPageFrontmatter = {
