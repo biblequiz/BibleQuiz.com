@@ -204,7 +204,8 @@ export default function LiveAndUpcomingRoot({
                                 isUpcoming = startDate > today;
                                 if (event.registrationEndDate) {
                                     const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
-                                    eventItem.isRegistrationOpen = date > today;
+                                    // Registration stays open through the end of the closing day.
+                                    eventItem.isRegistrationOpen = date >= today;
                                 }
                             }
 
