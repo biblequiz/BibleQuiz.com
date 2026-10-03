@@ -355,11 +355,19 @@ export default function RegistrationPage() {
                                         >
                                             <div className="card-body p-3">
                                                 <h3 className="card-title text-sm m-0">{team.Name}</h3>
-                                                {team.DivisionId && event.Divisions?.length > 0 && (
-                                                    <p className="text-xs m-0 opacity-70">
-                                                        {event.Divisions.find(d => d.Id === team.DivisionId)?.Label ?? ""}
-                                                    </p>
-                                                )}
+                                                {event.Divisions?.length > 0 && (() => {
+                                                    const divisionLabel = team.DivisionId
+                                                        ? event.Divisions.find(d => d.Id === team.DivisionId)?.Label
+                                                        : undefined;
+                                                    return divisionLabel
+                                                        ? <p className="text-xs m-0 opacity-70">{divisionLabel}</p>
+                                                        : (
+                                                            <p className="text-xs m-0 text-warning font-semibold">
+                                                                <FontAwesomeIcon icon="fas faTriangleExclamation" classNames={["mr-1"]} />
+                                                                Select a division
+                                                            </p>
+                                                        );
+                                                })()}
                                                 <p className="text-xs m-0">
                                                     <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
                                                     {team.People?.length ?? 0} quizzer{(team.People?.length ?? 0) !== 1 ? "s" : ""}
