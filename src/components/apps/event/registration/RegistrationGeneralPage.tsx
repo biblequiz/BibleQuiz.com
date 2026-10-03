@@ -184,8 +184,9 @@ export default function RegistrationGeneralPage({ }: Props) {
                         disabled={isTypeReadOnly}
                         required={!isTypeReadOnly}
                     >
-                        {allowJbqEvents && <option value="agjbq">Junior Bible Quiz (JBQ)</option>}
-                        {allowTbqEvents && <option value="agtbq">Teen Bible Quiz (TBQ)</option>}
+                        {/* Always render the current type so the display can't drift from what will be saved. */}
+                        {(allowJbqEvents || typeId === "agjbq") && <option value="agjbq">Junior Bible Quiz (JBQ)</option>}
+                        {(allowTbqEvents || typeId === "agtbq") && <option value="agtbq">Teen Bible Quiz (TBQ)</option>}
                     </select>
                 </div>
             </div>

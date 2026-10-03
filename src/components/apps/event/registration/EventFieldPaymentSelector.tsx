@@ -93,9 +93,11 @@ export default function EventFieldPaymentSelector({
                 <select
                     name={`paymentexceptions_${fieldLabel}`}
                     className="select select-bordered w-1/2 mt-0"
-                    value={paymentInfo.paymentUnselectValue ?? undefined}
-                    onChange={e => setPaymentInfo({ ...paymentInfo, paymentUnselectValue: e.target.value })}
+                    value={paymentInfo.paymentUnselectValue ?? ""}
+                    onChange={e => setPaymentInfo({ ...paymentInfo, paymentUnselectValue: e.target.value || null })}
                 >
+                    {/* No exception (null) charges for every value; without this option the first value only looked selected. */}
+                    <option value="">(no exception)</option>
                     {possibleValues.map((value) => (
                         <option
                             key={`possible_${fieldLabel}_${value}`}

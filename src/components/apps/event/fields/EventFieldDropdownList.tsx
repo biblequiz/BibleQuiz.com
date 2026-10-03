@@ -48,6 +48,22 @@ export default function EventFieldDropdownList({
     isDisabled = false,
     controlNamePrefix = "" }: Props) {
 
+    // A saved value can stop being offered (e.g. the admin edited the values or grade range). Show it as-is so the
+    // display matches what will be saved; otherwise the browser displays a different option while the old value is kept.
+    const isGradeList = field.ControlType === EventFieldControlType.GradeList;
+    let isStaleValue = false;
+    if (value) {
+        if (isGradeList) {
+            const grade = parseInt(value);
+            isStaleValue = isNaN(grade) ||
+                grade.toString() !== value ||
+                grade < Math.max(field.MinNumberValue ?? 0, 0) ||
+                grade > Math.min(field.MaxNumberValue ?? 13, 13);
+        } else {
+            isStaleValue = !(field.Values ?? []).includes(value);
+        }
+    }
+
     const control = (
         <select
             name={`${controlNamePrefix}${field.Label}`}
@@ -57,7 +73,10 @@ export default function EventFieldDropdownList({
             disabled={isDisabled}
             required={field.IsRequired && !isExampleOnly}
         >
-            {field.ControlType === EventFieldControlType.GradeList
+            {isStaleValue && (
+                <option value={value}>{value} (no longer offered)</option>
+            )}
+            {isGradeList
                 ? getGradeListOptions(field)
                 : <>
                     {!isExampleOnly && (

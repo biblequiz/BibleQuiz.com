@@ -92,7 +92,7 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
     const [dataType, setDataType] = useState(field.DataType);
     const [minNumber, setMinNumber] = useState<number | null>(field.MinNumberValue ?? null);
     const [maxNumber, setMaxNumber] = useState<number | null>(field.MaxNumberValue ?? null);
-    const [maxCount, setMaxCount] = useState<number>(0);
+    const [maxCount, setMaxCount] = useState<number>(field.MaxCount ?? 0);
     const [values, setValues] = useState<string[]>(field.Values ?? []);
     const [paymentScopes, setPaymentScopes] = useState<EventFieldScopes>(field.PaymentScopes ?? EventFieldScopes.None);
 
@@ -336,7 +336,7 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                                 <span> - </span>
                                 <select
                                     className="select select-info w-auto mt-0"
-                                    value={maxNumber ?? 12}
+                                    value={maxNumber ?? 13}
                                     onChange={e => {
                                         const newMaxValue: EventFieldDataType = parseInt(e.target.value);
                                         setMaxNumber(newMaxValue);
@@ -345,9 +345,10 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                                         sharedDirtyWindowState.set(true);
                                     }}
                                     required>
-                                    {Array.from({ length: 13 }, (_, i) => (
+                                    {/* Grade lists run through 13 ("A") when no max is saved, so it has to be offered here too. */}
+                                    {Array.from({ length: 14 }, (_, i) => (
                                         <option key={`max_${i}`} value={i} disabled={minNumber !== null && i < minNumber}>
-                                            {i == 0 ? "K" : i}
+                                            {i == 0 ? "K" : i == 13 ? "A" : i}
                                         </option>))}
                                 </select>
                             </div>)}
@@ -411,7 +412,8 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                                 const newMaxCount: number = parseInt(e.target.value);
                                 setMaxCount(newMaxCount);
 
-                                field.MaxCount = newMaxCount;
+                                // "No Limit" is stored as null; a 0 would disable every checkbox.
+                                field.MaxCount = newMaxCount > 0 ? newMaxCount : null;
                                 sharedDirtyWindowState.set(true);
                             }}
                             required>
