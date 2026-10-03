@@ -37,7 +37,9 @@ export default function RegistrationTeamDialog({
     const dialogRef = useRef<HTMLDialogElement>(null);
 
     const [teamName, setTeamName] = useState(team?.Name ?? "");
-    const [divisionId, setDivisionId] = useState(team?.DivisionId ?? "");
+    // Only keep a division that still exists; otherwise the select shows the placeholder so the user must pick one.
+    const [divisionId, setDivisionId] = useState(() =>
+        team?.DivisionId && event.Divisions?.some(d => d.Id === team.DivisionId) ? team.DivisionId : "");
     const [people, setPeople] = useState<RegistrationPerson[]>(team?.People ?? []);
     const [fields, setFields] = useState<Record<string, string | null>>(team?.Fields ?? {});
     const [isSaving, setIsSaving] = useState(false);
@@ -57,6 +59,11 @@ export default function RegistrationTeamDialog({
     const handleSave = async () => {
         if (!teamName.trim()) {
             setError("Team name is required.");
+            return;
+        }
+
+        if (event.Divisions?.length > 0 && !divisionId) {
+            setError("Division is required.");
             return;
         }
 
@@ -195,6 +202,7 @@ export default function RegistrationTeamDialog({
                                     disabled={isSaving || isDeleting}
                                     required
                                 >
+                                    <option value="" disabled>Select a division…</option>
                                     {event.Divisions.map(d => (
                                         <option key={d.Id} value={d.Id!}>{d.Label}</option>
                                     ))}
