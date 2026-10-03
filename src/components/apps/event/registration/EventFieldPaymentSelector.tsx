@@ -31,7 +31,19 @@ export default function EventFieldPaymentSelector({
     allowedScopes }: Props) {
 
     const [cost, setCost] = useState<number>(paymentInfo.paymentIfSelected);
+    const [unselectValue, setUnselectValue] = useState<string | null>(paymentInfo.paymentUnselectValue);
     const [overrides, setOverrides] = useState<EventFieldPaymentOverride[]>(paymentInfo.paymentOverrides);
+
+    // The parent doesn't re-render after a change, so its paymentInfo goes stale; always save from local state
+    // or an earlier edit (e.g. the cost) is reverted by a later one.
+    const savePaymentInfo = (changes: Partial<FieldPaymentInfo>) => {
+        setPaymentInfo({
+            paymentIfSelected: cost,
+            paymentUnselectValue: unselectValue,
+            paymentOverrides: overrides,
+            ...changes
+        });
+    };
 
     const getScopeCheckbox = (scope: EventFieldScopes, labelText: string) => {
 
@@ -69,7 +81,7 @@ export default function EventFieldPaymentSelector({
                         onChange={e => setCost(parseFloat(e.target.value))}
                         onBlur={e => {
                             e.preventDefault();
-                            setPaymentInfo({ ...paymentInfo, paymentIfSelected: cost });
+                            savePaymentInfo({ paymentIfSelected: cost });
                         }}
                         min={-10000}
                         max={10000}
@@ -93,9 +105,15 @@ export default function EventFieldPaymentSelector({
                 <select
                     name={`paymentexceptions_${fieldLabel}`}
                     className="select select-bordered w-1/2 mt-0"
-                    value={paymentInfo.paymentUnselectValue ?? undefined}
-                    onChange={e => setPaymentInfo({ ...paymentInfo, paymentUnselectValue: e.target.value })}
+                    value={unselectValue ?? ""}
+                    onChange={e => {
+                        const newValue = e.target.value || null;
+                        setUnselectValue(newValue);
+                        savePaymentInfo({ paymentUnselectValue: newValue });
+                    }}
                 >
+                    {/* No exception (null) charges for every value; without this option the first value only looked selected. */}
+                    <option value="">(no exception)</option>
                     {possibleValues.map((value) => (
                         <option
                             key={`possible_${fieldLabel}_${value}`}
@@ -110,7 +128,7 @@ export default function EventFieldPaymentSelector({
                     overrides={overrides}
                     setOverrides={newOverrides => {
                         setOverrides(newOverrides);
-                        setPaymentInfo({ ...paymentInfo, paymentOverrides: newOverrides });
+                        savePaymentInfo({ paymentOverrides: newOverrides });
                     }}
                 />
             </div>

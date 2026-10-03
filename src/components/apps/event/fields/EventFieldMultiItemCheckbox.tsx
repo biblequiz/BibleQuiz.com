@@ -47,7 +47,7 @@ export default function EventFieldMultiItemCheckbox({
                             type="checkbox"
                             name={`${controlNamePrefix}${field.Label}`}
                             className="checkbox checkbox-sm checkbox-info"
-                            disabled={isDisabled || (!isChecked && field.MaxCount != null && checkedItems.size >= field.MaxCount)}
+                            disabled={isDisabled || (!isChecked && (field.MaxCount ?? 0) > 0 && checkedItems.size >= field.MaxCount!)}
                             checked={isChecked}
                             value={fieldValue}
                             onChange={handleChange}
