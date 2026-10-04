@@ -1,0 +1,2047 @@
+{
+  "EventName": "Alabama October Meet",
+  "DatabaseNames": {
+    "f3d1f801-d2b9-45a8-b51f-146fbddfd2c2": "ALA_JBQ_26-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "f3d1f801-d2b9-45a8-b51f-146fbddfd2c2",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "October Achiever White",
+        "LastUpdated": "10/3/26 5:14 PM",
+        "DatabaseLastUpdated": "2026-10-02T11:10:52.7770249+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Christine Penhale",
+            "Quizzers": [
+              4,
+              5,
+              7,
+              8
+            ],
+            "Id": "t_2ec21eec826f4465a6aa0bf6f86f2fcd",
+            "Name": "Acts Quiz Kids - Christian Life Fellowship (Calera)",
+            "ChurchId": "cf8a9b46-6240-43b8-8ab0-888c2beffb2c",
+            "ChurchName": "Christian Life Fellowship",
+            "City": "Calera",
+            "State": "AL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.3,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 15,
+              "Correct20s": 10,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Micah Brown",
+            "Quizzers": [
+              2
+            ],
+            "Id": "t_78358c380b884fe990e76a737eea1ff4",
+            "Name": "E. B.",
+            "ChurchId": "c0cea98c-c809-437b-bbb8-f912f2c79856",
+            "ChurchName": "Evangel Church",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.2,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 2,
+              "Correct20s": 16,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Marshall Trotter",
+            "Quizzers": [
+              1,
+              3
+            ],
+            "Id": "t_b51a2f9025234ca3821a10bad09486c2",
+            "Name": "Giant Slayers",
+            "ChurchId": "26c3459a-57fe-4451-b835-0ad9b45e1b8e",
+            "ChurchName": "Georgetown Assembly of God",
+            "City": "Wilmer",
+            "State": "AL",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 27,
+              "Correct20s": 13,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "David Sowers",
+            "Quizzers": [
+              0,
+              6,
+              9
+            ],
+            "Id": "t_43e6f51d76c94418b0b4f357938006da",
+            "Name": "Sacred Fire - First Assembly of God (Montgomery)",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1640,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 273.3,
+              "AverageCorrect": 15.7,
+              "QuizOuts": 13,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 47,
+              "Correct20s": 30,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 290,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 330,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 290,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 255,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Sacred Fire - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_9e0ae84b5b8e4e09ca7108d8f272c07b",
+            "Name": "Dallas Grant",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.8,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 23,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Giant Slayers",
+            "YearsQuizzing": null,
+            "Id": "q_252ae94e82644aaf495408dbafc02107",
+            "Name": "Easton Trotter",
+            "ChurchId": "26c3459a-57fe-4451-b835-0ad9b45e1b8e",
+            "ChurchName": "Georgetown Assembly of God",
+            "City": "Wilmer",
+            "State": "AL",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.2,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "E. B.",
+            "YearsQuizzing": null,
+            "Id": "q_fa68e14a4f9a47e4b37b08dbc4eedeac",
+            "Name": "Evangeline Brown",
+            "ChurchId": "c0cea98c-c809-437b-bbb8-f912f2c79856",
+            "ChurchName": "Evangel Church",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.2,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 2,
+              "Correct20s": 16,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Giant Slayers",
+            "YearsQuizzing": null,
+            "Id": "q_155b4befaa934b4f495c08dbafc02107",
+            "Name": "Grayson Trotter",
+            "ChurchId": "26c3459a-57fe-4451-b835-0ad9b45e1b8e",
+            "ChurchName": "Georgetown Assembly of God",
+            "City": "Wilmer",
+            "State": "AL",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.8,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 9,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Acts Quiz Kids - Christian Life Fellowship (Calera)",
+            "YearsQuizzing": null,
+            "Id": "q_e4c4be1dd43849f5a87008dbc830490b",
+            "Name": "Joshua Craft",
+            "ChurchId": "cf8a9b46-6240-43b8-8ab0-888c2beffb2c",
+            "ChurchName": "Christian Life Fellowship",
+            "City": "Calera",
+            "State": "AL",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 400,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.7,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 12,
+              "Correct20s": 10,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Acts Quiz Kids - Christian Life Fellowship (Calera)",
+            "YearsQuizzing": null,
+            "Id": "q_69461cf757a7445564fa08de1996bbf5",
+            "Name": "Josie Smiley",
+            "ChurchId": "cf8a9b46-6240-43b8-8ab0-888c2beffb2c",
+            "ChurchName": "Christian Life Fellowship",
+            "City": "Calera",
+            "State": "AL",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sacred Fire - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_ba3520b91f0e4e75caa008d8f272c07b",
+            "Name": "Julian Espinosa",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 930,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 155.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 0,
+              "Correct20s": 19,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Acts Quiz Kids - Christian Life Fellowship (Calera)",
+            "YearsQuizzing": null,
+            "Id": "q_72f04efafa494acb6cbe08dcc5bf303b",
+            "Name": "Kate Craft",
+            "ChurchId": "cf8a9b46-6240-43b8-8ab0-888c2beffb2c",
+            "ChurchName": "Christian Life Fellowship",
+            "City": "Calera",
+            "State": "AL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Acts Quiz Kids - Christian Life Fellowship (Calera)",
+            "YearsQuizzing": null,
+            "Id": "q_6d8f311dd19d422c3a7108dee444c68a",
+            "Name": "Lucy Parden",
+            "ChurchId": "cf8a9b46-6240-43b8-8ab0-888c2beffb2c",
+            "ChurchName": "Christian Life Fellowship",
+            "City": "Calera",
+            "State": "AL",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sacred Fire - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_28f00142af644eb746b108dbafc02107",
+            "Name": "Madison Adair",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.5,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          6,
+          2,
+          0,
+          4,
+          3,
+          9,
+          1,
+          7,
+          8,
+          5
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:05 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "f3d1f801-d2b9-45a8-b51f-146fbddfd2c2",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "October Beginner/Searcher Blue",
+        "LastUpdated": "10/3/26 5:14 PM",
+        "DatabaseLastUpdated": "2026-10-02T11:10:52.7770249+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Jackson Simmons",
+            "Quizzers": [
+              3,
+              6,
+              14,
+              15,
+              16,
+              20
+            ],
+            "Id": "t_0d28f5a09d0c4ae9aecc482d0c54520f",
+            "Name": "Bible Nerds",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.8,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 16,
+              "Correct20s": 5,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 50,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Amy Lewis",
+            "Quizzers": [
+              5,
+              9,
+              18,
+              22
+            ],
+            "Id": "t_dad88bc575b949dca834840fe1d4df48",
+            "Name": "First Assembly of God (Jackson) #1",
+            "ChurchId": "7d289381-27d2-452b-aa5d-74c8a0753bb3",
+            "ChurchName": "First Assembly of God",
+            "City": "Jackson",
+            "State": "AL",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 550,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 137.5,
+              "AverageCorrect": 10.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 28,
+              "Correct20s": 11,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 115,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Shailace Davis",
+            "Quizzers": [
+              0,
+              2,
+              11
+            ],
+            "Id": "t_546a1dce8d7c424b995b8fcee44a6cd4",
+            "Name": "Girl Power - First Assembly of God (Montgomery)",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 610,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 152.5,
+              "AverageCorrect": 10.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 24,
+              "Correct20s": 18,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Torrie Davis",
+            "Quizzers": [
+              4,
+              8,
+              10,
+              13,
+              17
+            ],
+            "Id": "t_c9df445d16d74320b1619ef6f375c25a",
+            "Name": "Good News - First Assembly of God (Montgomery)",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 10,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": -25,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tandy Williams",
+            "Quizzers": [
+              1,
+              7,
+              12,
+              19,
+              21
+            ],
+            "Id": "t_c3bfc5210f6a4753a8d447c29eacd9db",
+            "Name": "PCF KIDS",
+            "ChurchId": "06ebfe5c-5156-41b0-b87d-c68307b0e5ea",
+            "ChurchName": "First Assembly of God",
+            "City": "Phenix City",
+            "State": "AL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 111.3,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 15,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          0,
+          4,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Girl Power - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_d2c76ff8bd2d433c46d508dbafc02107",
+            "Name": "Abbi Ingram",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.8,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 6,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF KIDS",
+            "YearsQuizzing": null,
+            "Id": "q_c158b72af7ae4d39330508dee444c68a",
+            "Name": "Andi Casey",
+            "ChurchId": "06ebfe5c-5156-41b0-b87d-c68307b0e5ea",
+            "ChurchName": "First Assembly of God",
+            "City": "Phenix City",
+            "State": "AL",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Girl Power - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_1d590a6611a244f8fcb008dccab8b5fe",
+            "Name": "Anni Ingram",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Nerds",
+            "YearsQuizzing": null,
+            "Id": "q_4ce82f2566564ee1b48f08dde9509179",
+            "Name": "Caleb Cheathem",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_7c8a0b0a3fb942afea6c08df022a6534",
+            "Name": "Cara McInvale",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Assembly of God (Jackson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_6eafdaa00e74478e6ef808de4a48eb77",
+            "Name": "Cooper Roberts",
+            "ChurchId": "7d289381-27d2-452b-aa5d-74c8a0753bb3",
+            "ChurchName": "First Assembly of God",
+            "City": "Jackson",
+            "State": "AL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Nerds",
+            "YearsQuizzing": null,
+            "Id": "q_89d744b3410c477bb9f808dccac0cba7",
+            "Name": "Cooper Walton",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF KIDS",
+            "YearsQuizzing": null,
+            "Id": "q_904b32271cde40536d2308dcc5bf303b",
+            "Name": "Daniel Walters",
+            "ChurchId": "06ebfe5c-5156-41b0-b87d-c68307b0e5ea",
+            "ChurchName": "First Assembly of God",
+            "City": "Phenix City",
+            "State": "AL",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 405,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.3,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 5,
+              "Correct20s": 15,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_306bfd488be744e6ea7808df022a6534",
+            "Name": "Devanta Grant",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Assembly of God (Jackson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_55015827ab3b4bbb6efb08de4a48eb77",
+            "Name": "Eli Richardson",
+            "ChurchId": "7d289381-27d2-452b-aa5d-74c8a0753bb3",
+            "ChurchName": "First Assembly of God",
+            "City": "Jackson",
+            "State": "AL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_223aed48535e429d46b708dbafc02107",
+            "Name": "Ever Martinez Cardona",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Girl Power - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_47282db8a9da4dfa46e708dbafc02107",
+            "Name": "Isabella Espinosa",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.8,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 8,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF KIDS",
+            "YearsQuizzing": null,
+            "Id": "q_05471babeaf24b3532f608dee444c68a",
+            "Name": "Isabella Singleton",
+            "ChurchId": "06ebfe5c-5156-41b0-b87d-c68307b0e5ea",
+            "ChurchName": "First Assembly of God",
+            "City": "Phenix City",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_f627424298a6424eea7208df022a6534",
+            "Name": "Kai Davis",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Nerds",
+            "YearsQuizzing": null,
+            "Id": "q_325b536a4e9c4adc25e408df1a4c4c50",
+            "Name": "Kenton Price",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Nerds",
+            "YearsQuizzing": null,
+            "Id": "q_efc80632622546d3510f08dbafc02107",
+            "Name": "Khloe Walton",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.3,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 11,
+              "Correct20s": 4,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Nerds",
+            "YearsQuizzing": null,
+            "Id": "q_0a58285dc14340c225ea08df1a4c4c50",
+            "Name": "Kirkland Price",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good News - First Assembly of God (Montgomery)",
+            "YearsQuizzing": null,
+            "Id": "q_4a86020df30947b9ea7e08df022a6534",
+            "Name": "Levi Spoon",
+            "ChurchId": "90b50dcb-42c2-4c23-96a9-4f1a066d92e2",
+            "ChurchName": "First Assembly of God",
+            "City": "Montgomery",
+            "State": "AL",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Assembly of God (Jackson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_75ce36b61d574a646ef608de4a48eb77",
+            "Name": "Mason Roberts",
+            "ChurchId": "7d289381-27d2-452b-aa5d-74c8a0753bb3",
+            "ChurchName": "First Assembly of God",
+            "City": "Jackson",
+            "State": "AL",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 12,
+              "Correct20s": 9,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF KIDS",
+            "YearsQuizzing": null,
+            "Id": "q_f6cb54c2c1dd441b32e708dee444c68a",
+            "Name": "Olivia Walters",
+            "ChurchId": "06ebfe5c-5156-41b0-b87d-c68307b0e5ea",
+            "ChurchName": "First Assembly of God",
+            "City": "Phenix City",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Nerds",
+            "YearsQuizzing": null,
+            "Id": "q_dbac058ddb0a411925de08df1a4c4c50",
+            "Name": "Tripp Scott",
+            "ChurchId": "a20d19e1-4418-4a62-8b12-654b8568631d",
+            "ChurchName": "First Assembly of God",
+            "City": "Clanton",
+            "State": "AL",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF KIDS",
+            "YearsQuizzing": null,
+            "Id": "q_6b512eb66d0c48226d1708dcc5bf303b",
+            "Name": "Vivianna Patterson",
+            "ChurchId": "06ebfe5c-5156-41b0-b87d-c68307b0e5ea",
+            "ChurchName": "First Assembly of God",
+            "City": "Phenix City",
+            "State": "AL",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "First Assembly of God (Jackson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_5c3c719265f04d186eff08de4a48eb77",
+            "Name": "Walker Eady",
+            "ChurchId": "7d289381-27d2-452b-aa5d-74c8a0753bb3",
+            "ChurchName": "First Assembly of God",
+            "City": "Jackson",
+            "State": "AL",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.8,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          18,
+          7,
+          11,
+          15,
+          0,
+          2,
+          22,
+          17,
+          6,
+          1,
+          13,
+          5,
+          9,
+          4,
+          3,
+          8,
+          10,
+          12,
+          14,
+          16,
+          19,
+          21,
+          20
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-03T17:14:23.5961411+00:00"
+}
