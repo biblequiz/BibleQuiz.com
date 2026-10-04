@@ -1,0 +1,5672 @@
+{
+  "EventName": "JBQ Springfield MO Section - 2026-2027 Regular Season",
+  "DatabaseNames": {
+    "2601522f-d0b3-4f22-872f-474210fc70a0": "JBQ_Springfield_Section_-_2026-2027"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "2601522f-d0b3-4f22-872f-474210fc70a0",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Oct A League 2026",
+        "LastUpdated": "10/3/26 4:21 PM",
+        "DatabaseLastUpdated": "2026-10-01T12:44:42.3271898+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Jill Williams",
+            "Quizzers": [
+              1,
+              6,
+              11,
+              13,
+              15
+            ],
+            "Id": "t_250bbdf52e294c9792a02f8b6d46a581",
+            "Name": "Bible Bros",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 830,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 138.3,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 27,
+              "Correct20s": 21,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Lisa Ramsey",
+            "Quizzers": [
+              0,
+              3,
+              7,
+              12
+            ],
+            "Id": "t_3eb99f5b87b043f7a29eb098670942d5",
+            "Name": "Delulu in the Solulu",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 200.0,
+              "AverageCorrect": 11.7,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 33,
+              "Correct20s": 23,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kitina Braithwaite",
+            "Quizzers": [
+              2,
+              4,
+              10
+            ],
+            "Id": "t_a8da1924385a4233b615e7b25e3ee28e",
+            "Name": "Praise Bible Thunder",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 980,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 163.3,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 18,
+              "Correct20s": 23,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 135,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jackie Leitch",
+            "Quizzers": [
+              5,
+              8,
+              9,
+              14
+            ],
+            "Id": "t_7e4335a5996c4e77a7aa5ec31463675d",
+            "Name": "The \"A\" Team",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 635,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.8,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 38,
+              "Correct20s": 12,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Delulu in the Solulu",
+            "YearsQuizzing": null,
+            "Id": "q_81b700bdc7a749ac6e2b08ddf523e127",
+            "Name": "Brianna Ramsey",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 825,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 137.5,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 0,
+              "Correct20s": 21,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_f33c93dc502c4533547908ddf59b789d",
+            "Name": "Carter Brown",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Praise Bible Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_3507575dc7ea44fd6cd608dbb0cb2340",
+            "Name": "Connor Jefferson",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.2,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 15,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Delulu in the Solulu",
+            "YearsQuizzing": null,
+            "Id": "q_4a74cf4fa5e6465a6e3108ddf523e127",
+            "Name": "Connor Ramsey",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 28,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Praise Bible Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_c289900582914ccd814208dcdb19fbaa",
+            "Name": "Declan Bishop",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 700,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 116.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 1,
+              "Correct20s": 17,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The \"A\" Team",
+            "YearsQuizzing": null,
+            "Id": "q_7ea9559ca23449ac754c08dbb0cb2340",
+            "Name": "Dominic Dougherty",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 59.2,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 17,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_66a9b4696c984cad209e08da9275ed7d",
+            "Name": "Ethan Eddington",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.8,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 8,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Delulu in the Solulu",
+            "YearsQuizzing": null,
+            "Id": "q_4364ec6b5c4e482e6e2508ddf523e127",
+            "Name": "Garrett Johnson",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The \"A\" Team",
+            "YearsQuizzing": null,
+            "Id": "q_0cfce869a42f440281cd08da929026bd",
+            "Name": "Grayson Leitch",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The \"A\" Team",
+            "YearsQuizzing": null,
+            "Id": "q_7006358cdb6b4bcc81b508da929026bd",
+            "Name": "Greyson Bennett",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 21,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Praise Bible Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_67b287ccedc04baa6cca08dbb0cb2340",
+            "Name": "Haven McNamer",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_bc0716fb606d42d41a6008d9743bb104",
+            "Name": "Judah Williams",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Delulu in the Solulu",
+            "YearsQuizzing": null,
+            "Id": "q_2e72fbe2f0bd48b46d9a08ddf523e127",
+            "Name": "Keriella Brown",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_8acf65b085f54e2a20a408da9275ed7d",
+            "Name": "Michael Peters",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 69.2,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 14,
+              "Correct20s": 7,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The \"A\" Team",
+            "YearsQuizzing": null,
+            "Id": "q_e3d4d05e1e1e4c7453c008df198bd612",
+            "Name": "Ollie Bennett",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros",
+            "YearsQuizzing": null,
+            "Id": "q_7d7e59b6e11f4afd729908dbb0cb2340",
+            "Name": "Rowan Bell",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          4,
+          13,
+          5,
+          3,
+          9,
+          6,
+          2,
+          11,
+          12,
+          15,
+          10,
+          1,
+          7,
+          8,
+          14
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "2601522f-d0b3-4f22-872f-474210fc70a0",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Oct Rookie League 2026",
+        "LastUpdated": "10/3/26 4:21 PM",
+        "DatabaseLastUpdated": "2026-10-01T12:44:42.3271898+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Leah McNack",
+            "Quizzers": [
+              0,
+              1,
+              5,
+              6,
+              14
+            ],
+            "Id": "t_3d29baa98cdc4225a855a6c314aa3e36",
+            "Name": "Bible Bulldogs",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 26,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Brant Maschino",
+            "Quizzers": [
+              2,
+              3,
+              10,
+              11,
+              12,
+              15
+            ],
+            "Id": "t_9ad0ce07da6644e79051f12171909e64",
+            "Name": "Rambling Rookies",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 6.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Caleb Slater",
+            "Quizzers": [
+              4,
+              7,
+              8,
+              9,
+              13
+            ],
+            "Id": "t_06d76c3c7f414cca944f10a4a3c554c4",
+            "Name": "Winners of Christ",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 555,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 138.8,
+              "AverageCorrect": 12.8,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 51,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "R1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Bible Bulldogs",
+            "YearsQuizzing": null,
+            "Id": "q_f87a0cb9549449ba11e308df1a4c4c50",
+            "Name": "Alivia McNack",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bulldogs",
+            "YearsQuizzing": null,
+            "Id": "q_f5ed20b922c74ea411d708df1a4c4c50",
+            "Name": "Blakely Anderson",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rambling Rookies",
+            "YearsQuizzing": null,
+            "Id": "q_2483ca7b05d040efb0dd08ddf3d12f3b",
+            "Name": "Calvin Brushwood",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rambling Rookies",
+            "YearsQuizzing": null,
+            "Id": "q_05af6ebf6a65422fbe3e08dcde3788ee",
+            "Name": "Clementine Cederblom",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.8,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Winners of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_e1b11d17ff6a4e28115108df1a4c4c50",
+            "Name": "Elijah Batten",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bulldogs",
+            "YearsQuizzing": null,
+            "Id": "q_4e0d85f125b74dea11e908df1a4c4c50",
+            "Name": "Elly Sadler",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bulldogs",
+            "YearsQuizzing": null,
+            "Id": "q_4910a7b977704bee11dd08df1a4c4c50",
+            "Name": "Emilia Nadtochayev",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Winners of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_fd9467efb64c4db7114508df1a4c4c50",
+            "Name": "John Robinson",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Winners of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_cb95e6ac2ac84a03118108df1a4c4c50",
+            "Name": "Judah Sadler",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Winners of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_1f0a5d24ca8a493a6e0d08ddf523e127",
+            "Name": "Liam McNutt",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rambling Rookies",
+            "YearsQuizzing": null,
+            "Id": "q_2eb777d202ef4233da1808df18ab8d81",
+            "Name": "Lizzie Bennett",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rambling Rookies",
+            "YearsQuizzing": null,
+            "Id": "q_6165e428c21d46ebda1208df18ab8d81",
+            "Name": "Malachi Bieber",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rambling Rookies",
+            "YearsQuizzing": null,
+            "Id": "q_54dc08127b5d4146b0e908ddf3d12f3b",
+            "Name": "McKenzie Dougherty",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Winners of Christ",
+            "YearsQuizzing": null,
+            "Id": "q_743846dac61344fc117b08df1a4c4c50",
+            "Name": "Ryker Slater",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.8,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 23,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bulldogs",
+            "YearsQuizzing": null,
+            "Id": "q_ac45964ef26b419411ef08df1a4c4c50",
+            "Name": "Seraphina Miniaci",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rambling Rookies",
+            "YearsQuizzing": null,
+            "Id": "q_9d636f787b474b97d9f408df18ab8d81",
+            "Name": "Thomas Walsh",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          13,
+          0,
+          6,
+          3,
+          11,
+          2,
+          4,
+          15,
+          9,
+          1,
+          5,
+          8,
+          10,
+          12,
+          14
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "R1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "2601522f-d0b3-4f22-872f-474210fc70a0",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Oct JBQ Basics 2026",
+        "LastUpdated": "10/3/26 4:21 PM",
+        "DatabaseLastUpdated": "2026-10-01T12:44:42.3271898+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Kadie Savage",
+            "Quizzers": [
+              4,
+              7,
+              8,
+              12
+            ],
+            "Id": "t_40357556f50944bbb63ea37471df23fe",
+            "Name": "Life360 WestGate #2",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 50,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 50,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kara Savage",
+            "Quizzers": [
+              0,
+              2,
+              11
+            ],
+            "Id": "t_6d23d4bfa04b44ac844da81f9cf14d6c",
+            "Name": "Life360 WestGate #3",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tami Evans",
+            "Quizzers": [
+              3,
+              5,
+              6,
+              15
+            ],
+            "Id": "t_852d47c332174ec5b606bdbd5c629e7b",
+            "Name": "Mighty Mustard Seeds",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 20,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Heather Saleske",
+            "Quizzers": [
+              1,
+              9,
+              13
+            ],
+            "Id": "t_38672868fde44e70aac8c31070d8351a",
+            "Name": "Praise Quizzing Unicorns",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 26,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Amber Bell",
+            "Quizzers": [
+              10,
+              14
+            ],
+            "Id": "t_e369c91b654f478eb92e17225f065a92",
+            "Name": "The Cute Praying Puppies",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.5,
+              "AverageCorrect": 6.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "J2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          3,
+          4,
+          2,
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Life360 WestGate #3",
+            "YearsQuizzing": null,
+            "Id": "q_254ec2649b8f47d7daee08df18ab8d81",
+            "Name": "Amaya Williams",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Praise Quizzing Unicorns",
+            "YearsQuizzing": null,
+            "Id": "q_bf8d3df4c4944c3a513008df13f04493",
+            "Name": "Arielle Fish",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #3",
+            "YearsQuizzing": null,
+            "Id": "q_b74bf580524f47dbdae808df18ab8d81",
+            "Name": "Braylee Dunhee",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Mustard Seeds",
+            "YearsQuizzing": null,
+            "Id": "q_6d1a5e34cf1a462a0bd508df1a4c4c50",
+            "Name": "Ellie McBain",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #2",
+            "YearsQuizzing": null,
+            "Id": "q_294307414f974acd35c808ddf5f7cb28",
+            "Name": "Harper Savage",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Mustard Seeds",
+            "YearsQuizzing": null,
+            "Id": "q_7500570738a8433d0be108df1a4c4c50",
+            "Name": "Heith Hankins",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Mustard Seeds",
+            "YearsQuizzing": null,
+            "Id": "q_6633a6e1839e4bd60be708df1a4c4c50",
+            "Name": "Hezekiah Dobson",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #2",
+            "YearsQuizzing": null,
+            "Id": "q_e0139bac82284fa635d108ddf5f7cb28",
+            "Name": "Jonah Monroe",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #2",
+            "YearsQuizzing": null,
+            "Id": "q_ddd2d28369d14dd3dad208df18ab8d81",
+            "Name": "Leah Wilson",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Praise Quizzing Unicorns",
+            "YearsQuizzing": null,
+            "Id": "q_a67ec777c82b4f18513608df13f04493",
+            "Name": "Lilly Saleske",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": true,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Cute Praying Puppies",
+            "YearsQuizzing": null,
+            "Id": "q_5b2f509dab2a4a2f53bb08ddf59b789d",
+            "Name": "Rhea Bell",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #3",
+            "YearsQuizzing": null,
+            "Id": "q_c8efcb48beb64451daf408df18ab8d81",
+            "Name": "River Kowalski",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #2",
+            "YearsQuizzing": null,
+            "Id": "q_ebca950d259948e035d608ddf5f7cb28",
+            "Name": "Rosalie Lopez Savage",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Praise Quizzing Unicorns",
+            "YearsQuizzing": null,
+            "Id": "q_9870edab0dcc4148515f08df13f04493",
+            "Name": "Sadie Callahan",
+            "ChurchId": "18033893-881e-49bc-8f2e-4038a15b68af",
+            "ChurchName": "Praise Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Cute Praying Puppies",
+            "YearsQuizzing": null,
+            "Id": "q_1b5ae973095048ff53c108ddf59b789d",
+            "Name": "Sterling Brown",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Mustard Seeds",
+            "YearsQuizzing": null,
+            "Id": "q_5f4872f5675341b90bdb08df1a4c4c50",
+            "Name": "Tommy Dodson",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          14,
+          1,
+          10,
+          6,
+          9,
+          8,
+          15,
+          2,
+          4,
+          13,
+          11,
+          12,
+          0,
+          3,
+          5,
+          7
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "J1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "J2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "2601522f-d0b3-4f22-872f-474210fc70a0",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Oct B League 2026",
+        "LastUpdated": "10/3/26 4:21 PM",
+        "DatabaseLastUpdated": "2026-10-01T12:44:42.3271898+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Charity Fahlstrom",
+            "Quizzers": [
+              2,
+              45,
+              50
+            ],
+            "Id": "t_22f78206df4a4357baccc176cca22ef1",
+            "Name": "Fat Cows of Bashan",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 635,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 105.8,
+              "AverageCorrect": 6.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 17,
+              "Correct20s": 15,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 10,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 6,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Mark Fry",
+            "Quizzers": [
+              9,
+              18,
+              26,
+              42,
+              46,
+              52
+            ],
+            "Id": "t_3c80dd0581214676ba8e58a526570780",
+            "Name": "KidsNOW Quizraelites",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 134.2,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 15,
+              "Correct20s": 27,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 9,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jennifer Downs",
+            "Quizzers": [
+              11,
+              13,
+              21,
+              37,
+              40,
+              49
+            ],
+            "Id": "t_24f8bd4086304c97bbdc00b377109431",
+            "Name": "Kings Ozark (Ozark) #1",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1030,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 206.0,
+              "AverageCorrect": 11.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 24,
+              "Correct20s": 22,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 4,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 290,
+                "OtherTeam": 8,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ashton Haven",
+            "Quizzers": [
+              4,
+              14,
+              25,
+              31,
+              34,
+              39
+            ],
+            "Id": "t_44d73745485a4094a7610b9ee201650f",
+            "Name": "Life360 WestGate #1",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 69.2,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 27,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 10,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 8,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 9,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "McKenzie Gore",
+            "Quizzers": [
+              5,
+              17,
+              24,
+              48
+            ],
+            "Id": "t_72ac901dcd434c2daa3baf03bf32cc3c",
+            "Name": "Marshfield Assembly of God (Marshfield) #1",
+            "ChurchId": "b933ed93-7c4f-43e2-9bdb-6d8c50ad22d6",
+            "ChurchName": "Marshfield Assembly of God",
+            "City": "Marshfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 875,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 145.8,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 16,
+              "Correct20s": 25,
+              "Correct30s": 7,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 2,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Krista Eddington",
+            "Quizzers": [
+              1,
+              15,
+              16,
+              27
+            ],
+            "Id": "t_7ef4ec4397db4c1ebf84a6aa80065080",
+            "Name": "Mighty Quizzers",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 79.0,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 30,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 8,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 9,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Paula Hammons",
+            "Quizzers": [
+              0,
+              22,
+              30,
+              35,
+              44
+            ],
+            "Id": "t_6fa7bccee83646858f887510f4f2f66e",
+            "Name": "Pick Up Your Cross",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.0,
+              "AverageCorrect": 6.4,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 28,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 10,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 9,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sherry Mattix",
+            "Quizzers": [
+              7,
+              8,
+              10,
+              43
+            ],
+            "Id": "t_b56fe4bc55324807bccd4dc50732bbac",
+            "Name": "Seymour Life Church (Seymour)",
+            "ChurchId": "05efe914-d4f8-4068-adbc-897332c083cb",
+            "ChurchName": "Seymour Life Church",
+            "City": "Seymour",
+            "State": "MO",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 20,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 8,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 10,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Carolyn Hoskins",
+            "Quizzers": [
+              12,
+              19,
+              32,
+              51
+            ],
+            "Id": "t_ff4df041266d4c349b5626140ea35371",
+            "Name": "The Hope Boys",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 20,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 9,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 2,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Benjamin Miller",
+            "Quizzers": [
+              6,
+              20,
+              23,
+              38,
+              41,
+              47
+            ],
+            "Id": "t_d76add0c872a4059877b49da93451826",
+            "Name": "The Wise Guys & Gals (GCA Branson) #1",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 590,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.3,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 31,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 8,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 10,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 5,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Karen Cerce",
+            "Quizzers": [
+              3,
+              28,
+              29,
+              33,
+              36
+            ],
+            "Id": "t_d956c2287a654739b1fe2422a71fd998",
+            "Name": "Wind Riders",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 20,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 9,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          4,
+          2,
+          1,
+          9,
+          8,
+          5,
+          6,
+          10,
+          3,
+          7
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Pick Up Your Cross",
+            "YearsQuizzing": null,
+            "Id": "q_8eb2e495fc5a455311b908df1a4c4c50",
+            "Name": "Addie Anderson",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_e1387ba9a65c492d55b008dcd4fa6052",
+            "Name": "Andrew Eddington",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 29.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fat Cows of Bashan",
+            "YearsQuizzing": null,
+            "Id": "q_6cdca7f5dbf7401ac48908df128e180c",
+            "Name": "Audrey Schmidly",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Wind Riders",
+            "YearsQuizzing": null,
+            "Id": "q_db3010d22a974bf3d9b808df18ab8d81",
+            "Name": "Azaliah Beiber",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #1",
+            "YearsQuizzing": null,
+            "Id": "q_702329779692413d36bc08ddf5f7cb28",
+            "Name": "Bennett Kowalski",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Marshfield Assembly of God (Marshfield) #1",
+            "YearsQuizzing": null,
+            "Id": "q_3a368d495e80477bfdd508da9f446774",
+            "Name": "Carys Reid",
+            "ChurchId": "b933ed93-7c4f-43e2-9bdb-6d8c50ad22d6",
+            "ChurchName": "Marshfield Assembly of God",
+            "City": "Marshfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 780,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 4,
+              "Correct20s": 25,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wise Guys & Gals (GCA Branson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_f9f27b7ab98945ea9a0708dcd4f08ea8",
+            "Name": "Chloe Pingleton",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 22,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seymour Life Church (Seymour)",
+            "YearsQuizzing": null,
+            "Id": "q_a2a126f472844e24d1fa08da9b2f8063",
+            "Name": "Colten Pharris",
+            "ChurchId": "05efe914-d4f8-4068-adbc-897332c083cb",
+            "ChurchName": "Seymour Life Church",
+            "City": "Seymour",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 19,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seymour Life Church (Seymour)",
+            "YearsQuizzing": null,
+            "Id": "q_d25ebc108c764e2681eb08dcdb19fbaa",
+            "Name": "David Williams",
+            "ChurchId": "05efe914-d4f8-4068-adbc-897332c083cb",
+            "ChurchName": "Seymour Life Church",
+            "City": "Seymour",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KidsNOW Quizraelites",
+            "YearsQuizzing": null,
+            "Id": "q_76c19c66f2db40e40b4b08ddf3458d70",
+            "Name": "Duncan Thompson",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seymour Life Church (Seymour)",
+            "YearsQuizzing": null,
+            "Id": "q_6a573834f09243e181e508dcdb19fbaa",
+            "Name": "Elijah Williams",
+            "ChurchId": "05efe914-d4f8-4068-adbc-897332c083cb",
+            "ChurchName": "Seymour Life Church",
+            "City": "Seymour",
+            "State": "MO",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kings Ozark (Ozark) #1",
+            "YearsQuizzing": null,
+            "Id": "q_1f79ad31e3ad40c077b908df08d7e9db",
+            "Name": "Everett Vonch",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hope Boys",
+            "YearsQuizzing": null,
+            "Id": "q_372a17f310354ca16e0108ddf523e127",
+            "Name": "Ezra Hall",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kings Ozark (Ozark) #1",
+            "YearsQuizzing": null,
+            "Id": "q_da9527f7bf064f5877ca08df08d7e9db",
+            "Name": "Georgia Downs",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #1",
+            "YearsQuizzing": null,
+            "Id": "q_ff9da1d94015438c35f408ddf5f7cb28",
+            "Name": "Gideon Hilburn",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_cc78039889a2460e72f808dbb0cb2340",
+            "Name": "Grace Walker",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 10,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_7b4f95784d79481c544e08ddf59b789d",
+            "Name": "Greyson Brown",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Marshfield Assembly of God (Marshfield) #1",
+            "YearsQuizzing": null,
+            "Id": "q_22dcfac62376438cc06c08df128e180c",
+            "Name": "Hallie Brewer",
+            "ChurchId": "b933ed93-7c4f-43e2-9bdb-6d8c50ad22d6",
+            "ChurchName": "Marshfield Assembly of God",
+            "City": "Marshfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KidsNOW Quizraelites",
+            "YearsQuizzing": null,
+            "Id": "q_2302088460dc42343d4308dc496c0fc4",
+            "Name": "Hudson McBain",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hope Boys",
+            "YearsQuizzing": null,
+            "Id": "q_577194948c114b4f119a08df1a4c4c50",
+            "Name": "Ian Ward",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 52,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -4.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 29,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wise Guys & Gals (GCA Branson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a87c838f25d942d41c7808df1a4c4c50",
+            "Name": "Jackson Pingleton",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kings Ozark (Ozark) #1",
+            "YearsQuizzing": null,
+            "Id": "q_735ce0f9e0654aa177b708df08d7e9db",
+            "Name": "James Werner",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Rank": 50,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pick Up Your Cross",
+            "YearsQuizzing": null,
+            "Id": "q_bd503e90b25f46bb11cb08df1a4c4c50",
+            "Name": "Jessica Miniaci",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 49,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wise Guys & Gals (GCA Branson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_3003f8b643bf4e661c5808df1a4c4c50",
+            "Name": "Josiah Smith",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 45,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Marshfield Assembly of God (Marshfield) #1",
+            "YearsQuizzing": null,
+            "Id": "q_9c081bc558e841b1c07208df128e180c",
+            "Name": "Karsyn Brewer",
+            "ChurchId": "b933ed93-7c4f-43e2-9bdb-6d8c50ad22d6",
+            "ChurchName": "Marshfield Assembly of God",
+            "City": "Marshfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 48,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #1",
+            "YearsQuizzing": null,
+            "Id": "q_d67d601aeae2405135dc08ddf5f7cb28",
+            "Name": "Kingston Monroe",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KidsNOW Quizraelites",
+            "YearsQuizzing": null,
+            "Id": "q_a989167e1abe45590b5508ddf3458d70",
+            "Name": "Korben Kindred",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.2,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mighty Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_196ed767d69340dd72e608dbb0cb2340",
+            "Name": "Lane Bell",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Wind Riders",
+            "YearsQuizzing": null,
+            "Id": "q_e4f0d7a400414755d9a708df18ab8d81",
+            "Name": "Lucas Bieber",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Wind Riders",
+            "YearsQuizzing": null,
+            "Id": "q_dc373e7ec7b6412f81e508da929026bd",
+            "Name": "Lulu Cederblom",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pick Up Your Cross",
+            "YearsQuizzing": null,
+            "Id": "q_e51b5c55cc7c49866d9308ddf523e127",
+            "Name": "Lydia Robison",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.0,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #1",
+            "YearsQuizzing": null,
+            "Id": "q_bbca2e3dd15a470535ca08ddf5f7cb28",
+            "Name": "Marie Hilburn",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 53,
+              "IsTie": false,
+              "TotalPoints": -30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hope Boys",
+            "YearsQuizzing": null,
+            "Id": "q_fe0b0413df4d4db011a008df1a4c4c50",
+            "Name": "Marshall Sadler",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Wind Riders",
+            "YearsQuizzing": null,
+            "Id": "q_1b96983887b64559d98c08df18ab8d81",
+            "Name": "Mary Walsh",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #1",
+            "YearsQuizzing": null,
+            "Id": "q_65fb2b3e9b3b444135cd08ddf5f7cb28",
+            "Name": "Maverick Havens",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 51,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pick Up Your Cross",
+            "YearsQuizzing": null,
+            "Id": "q_53a332aae3104b4311bf08df1a4c4c50",
+            "Name": "Mia Kraft",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 0,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Wind Riders",
+            "YearsQuizzing": null,
+            "Id": "q_b2f6e17c8f51442c1ca308d9743bb104",
+            "Name": "Miley Cerce",
+            "ChurchId": "71d56227-8787-4054-b5c9-8a22ab1de662",
+            "ChurchName": "Life360 Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": true,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kings Ozark (Ozark) #1",
+            "YearsQuizzing": null,
+            "Id": "q_c49773e0761843c277bc08df08d7e9db",
+            "Name": "Miriam Elson",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 54.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wise Guys & Gals (GCA Branson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_690da991bdee48461c5d08df1a4c4c50",
+            "Name": "Moriah Smith",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 WestGate #1",
+            "YearsQuizzing": null,
+            "Id": "q_28084ed1dd30430535e808ddf5f7cb28",
+            "Name": "Nolan Monroe",
+            "ChurchId": "81968bad-39a9-4593-b0f7-c4046f027e3c",
+            "ChurchName": "Life360 WestGate Campus",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 16,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kings Ozark (Ozark) #1",
+            "YearsQuizzing": null,
+            "Id": "q_054699d130dc474077c508df08d7e9db",
+            "Name": "Parker Zimmerman",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 465,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 8,
+              "Correct20s": 12,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wise Guys & Gals (GCA Branson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_6f6fe66ba7ca491a1c6208df1a4c4c50",
+            "Name": "Preslee Evans",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KidsNOW Quizraelites",
+            "YearsQuizzing": null,
+            "Id": "q_e9ee91d330e945db3d4d08dc496c0fc4",
+            "Name": "Riley Clay",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seymour Life Church (Seymour)",
+            "YearsQuizzing": null,
+            "Id": "q_24cfd459b99d45fa81f108dcdb19fbaa",
+            "Name": "Rose Williams",
+            "ChurchId": "05efe914-d4f8-4068-adbc-897332c083cb",
+            "ChurchName": "Seymour Life Church",
+            "City": "Seymour",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pick Up Your Cross",
+            "YearsQuizzing": null,
+            "Id": "q_c45639ae20a6490e11c508df1a4c4c50",
+            "Name": "Ruby Hill",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fat Cows of Bashan",
+            "YearsQuizzing": null,
+            "Id": "q_0fbeeeb9995847d7c47808df128e180c",
+            "Name": "Samuel Fahlstrom",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KidsNOW Quizraelites",
+            "YearsQuizzing": null,
+            "Id": "q_d20e62f6d3ed4358f3a408df029052ca",
+            "Name": "Sarah Hankins",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.2,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wise Guys & Gals (GCA Branson) #1",
+            "YearsQuizzing": null,
+            "Id": "q_e331e99099324d5694b108ddfc3ef602",
+            "Name": "Sawyer Riutzel",
+            "ChurchId": "53ab1da7-f6c9-4881-8c29-d3b838fefc3a",
+            "ChurchName": "Grace Community Church",
+            "City": "Branson",
+            "State": "MO",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Marshfield Assembly of God (Marshfield) #1",
+            "YearsQuizzing": null,
+            "Id": "q_70382378131b43eec03f08df128e180c",
+            "Name": "Sydney Moore",
+            "ChurchId": "b933ed93-7c4f-43e2-9bdb-6d8c50ad22d6",
+            "ChurchName": "Marshfield Assembly of God",
+            "City": "Marshfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kings Ozark (Ozark) #1",
+            "YearsQuizzing": null,
+            "Id": "q_946825e7b1f741ef77c008df08d7e9db",
+            "Name": "Theodore Elson",
+            "ChurchId": "fb20f2c5-bf61-4dc1-4c46-08df08e219e3",
+            "ChurchName": "Kings Ozark",
+            "City": "Ozark",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fat Cows of Bashan",
+            "YearsQuizzing": null,
+            "Id": "q_8908a687d93a4ab2c48308df128e180c",
+            "Name": "Victoria Fahlstrom",
+            "ChurchId": "ccf2c2af-c286-40dc-ca88-08d7b8b2bce5",
+            "ChurchName": "Impact Bible Quiz",
+            "City": "Nixa",
+            "State": "MO",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 500,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 3,
+              "Correct20s": 15,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hope Boys",
+            "YearsQuizzing": null,
+            "Id": "q_15e8448b5ef34af16ddd08ddf523e127",
+            "Name": "Walker Batten",
+            "ChurchId": "c024f835-ef4d-49e6-7d0e-08ddf4d8be7d",
+            "ChurchName": "Hope Church",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 54.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KidsNOW Quizraelites",
+            "YearsQuizzing": null,
+            "Id": "q_2ebe664b61ed476c3d5208dc496c0fc4",
+            "Name": "Weston Shaulis",
+            "ChurchId": "c0d2d206-ef8d-4520-85b5-8cfeaf7bcc75",
+            "ChurchName": "Oak Grove Assembly of God",
+            "City": "Springfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 705,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 117.5,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 3,
+              "Correct20s": 27,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          5,
+          52,
+          6,
+          40,
+          50,
+          29,
+          30,
+          49,
+          51,
+          37,
+          7,
+          4,
+          39,
+          15,
+          1,
+          45,
+          27,
+          17,
+          12,
+          26,
+          44,
+          47,
+          46,
+          11,
+          35,
+          42,
+          3,
+          36,
+          10,
+          28,
+          38,
+          23,
+          0,
+          2,
+          8,
+          9,
+          13,
+          14,
+          16,
+          18,
+          20,
+          25,
+          32,
+          33,
+          41,
+          43,
+          48,
+          24,
+          22,
+          21,
+          34,
+          19,
+          31
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 10,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 10,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 8,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "B3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 10,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 4,
+            "Name": "B4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 10,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 5,
+            "Name": "B5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 10,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 8,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-03T16:21:56.7626192+00:00"
+}
