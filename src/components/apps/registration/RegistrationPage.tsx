@@ -368,10 +368,22 @@ export default function RegistrationPage() {
                                                             </p>
                                                         );
                                                 })()}
-                                                <p className="text-xs m-0">
-                                                    <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
-                                                    {team.People?.length ?? 0} quizzer{(team.People?.length ?? 0) !== 1 ? "s" : ""}
-                                                </p>
+                                                {(() => {
+                                                    const coachCount = team.People?.filter(p => p.Role === PersonRole.Coach).length ?? 0;
+                                                    const quizzerCount = (team.People?.length ?? 0) - coachCount;
+                                                    return (
+                                                        <p className="text-xs m-0">
+                                                            <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
+                                                            {quizzerCount} quizzer{quizzerCount !== 1 ? "s" : ""}
+                                                            {coachCount > 0 && (
+                                                                <>
+                                                                    <FontAwesomeIcon icon="fas faChalkboardUser" classNames={["ml-2", "mr-1"]} />
+                                                                    {coachCount} coach{coachCount !== 1 ? "es" : ""}
+                                                                </>
+                                                            )}
+                                                        </p>
+                                                    );
+                                                })()}
                                                 {event.CalculatePayment && (
                                                     <p className="text-xs m-0 font-semibold">
                                                         ${team.CalculatedPayment?.toFixed(2) ?? "0.00"}
@@ -751,6 +763,7 @@ export default function RegistrationPage() {
                     church={church}
                     eventId={eventId}
                     team={editingTeam}
+                    otherTeams={(registration?.Teams ?? []).filter(t => !editingTeam || t.Id !== editingTeam.Id)}
                     onClose={(result) => {
                         setDirty(isDirty);
                         setEditingTeam(null);

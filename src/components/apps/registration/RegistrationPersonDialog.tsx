@@ -149,7 +149,7 @@ export default function RegistrationPersonDialog({
         }
 
         if (isDuplicate(selected.Id ?? null)) {
-            setValidationError(`${selected.FirstName} ${selected.LastName} is already registered as a ${roleLabel}.`);
+            setValidationError(`${selected.FirstName} ${selected.LastName} is already registered as a ${roleLabel}, or is already on this team.`);
             return;
         }
 
@@ -191,7 +191,7 @@ export default function RegistrationPersonDialog({
         }
 
         if (isDuplicate(personId)) {
-            setValidationError(`This person is already registered as a ${roleLabel}.`);
+            setValidationError(`This person is already registered as a ${roleLabel}, or is already on this team.`);
             return;
         }
 
