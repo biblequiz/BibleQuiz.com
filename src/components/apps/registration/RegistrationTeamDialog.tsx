@@ -10,6 +10,7 @@ import {
     type EventInfo,
 } from "types/services/EventsService";
 import {
+    IdRolePair,
     RegistrationPerson,
     RegistrationService,
     RegistrationTeam,
@@ -45,7 +46,15 @@ export default function RegistrationTeamDialog({
     const [isSaving, setIsSaving] = useState(false);
     const [isDeleting, setIsDeleting] = useState(false);
     const [error, setError] = useState<string | null>(null);
-    const [editingPerson, setEditingPerson] = useState<RegistrationPerson | null | "new">(null);
+    const [editingPerson, setEditingPerson] = useState<{ person: RegistrationPerson | null; role: PersonRole } | null>(null);
+
+    // Coaches and quizzers share the team's People list; the role tells them apart.
+    const quizzers = people.filter(p => p.Role !== PersonRole.Coach);
+    const coaches = people.filter(p => p.Role === PersonRole.Coach);
+
+    // The same person can be both a quizzer and a coach, so people are matched on role and id.
+    const isSamePerson = (a: RegistrationPerson, b: RegistrationPerson) =>
+        a.PersonId === b.PersonId && a.Role === b.Role;
 
     useEscapeToClose(() => onClose(null), isSaving || isDeleting || editingPerson !== null);
 
@@ -122,17 +131,19 @@ export default function RegistrationTeamDialog({
     };
 
     const handlePersonDialogClose = (result: RegistrationPerson | "delete" | null) => {
+        const edited = editingPerson?.person ?? null;
         setEditingPerson(null);
 
-        if (result === "delete" && editingPerson && editingPerson !== "new") {
-            setPeople(prev => prev.filter(p => p.PersonId !== (editingPerson as RegistrationPerson).PersonId));
+        if (result === "delete" && edited) {
+            setPeople(prev => prev.filter(p => !isSamePerson(p, edited)));
             return;
         }
 
         if (!result || result === "delete") return;
 
         setPeople(prev => {
-            const existing = prev.findIndex(p => p.PersonId === result.PersonId);
+            // Replace the person being edited, even if a different person was picked for them.
+            const existing = prev.findIndex(p => isSamePerson(p, edited ?? result));
             if (existing >= 0) {
                 const copy = [...prev];
                 copy[existing] = result;
@@ -230,17 +241,33 @@ export default function RegistrationTeamDialog({
                             event={event}
                             scope={EventFieldScopes.Quizzer}
                             addLabel="Add Quizzer"
-                            people={people}
+                            people={quizzers}
                             isEditable={!isSaving && !isDeleting}
-                            onEdit={person => setEditingPerson(person)}
-                            onAdd={() => setEditingPerson("new")}
+                            onEdit={person => setEditingPerson({ person, role: PersonRole.Quizzer })}
+                            onAdd={() => setEditingPerson({ person: null, role: PersonRole.Quizzer })}
                             emptyMessage="No quizzers added yet."
                         />
                         {event.MaxTeamMembers > 0 && (
                             <p className="text-xs text-base-content/60 mt-1">
-                                {people.length} / {event.MaxTeamMembers} quizzers
+                                {quizzers.length} / {event.MaxTeamMembers} quizzers
                             </p>
                         )}
+                    </div>
+
+                    {/* Coaches */}
+                    <div>
+                        <PersonCardDeck
+                            title="Coaches"
+                            icon="fas faChalkboardUser"
+                            event={event}
+                            scope={EventFieldScopes.Coach}
+                            addLabel="Add Coach"
+                            people={coaches}
+                            isEditable={!isSaving && !isDeleting}
+                            onEdit={person => setEditingPerson({ person, role: PersonRole.Coach })}
+                            onAdd={() => setEditingPerson({ person: null, role: PersonRole.Coach })}
+                            emptyMessage={event.RequireTeamCoaches ? "Each team must have at least one coach." : "No coaches added yet."}
+                        />
                     </div>
                 </div>
 
@@ -291,12 +318,12 @@ export default function RegistrationTeamDialog({
             {/* Nested Person Dialog */}
             {editingPerson !== null && (
                 <RegistrationPersonDialog
-                    title={editingPerson === "new" ? "Add Quizzer" : "Edit Quizzer"}
+                    title={`${editingPerson.person ? "Edit" : "Add"} ${editingPerson.role === PersonRole.Coach ? "Coach" : "Quizzer"}`}
                     event={event}
                     church={church}
-                    existingPerson={editingPerson === "new" ? null : editingPerson}
-                    role={PersonRole.Quizzer}
-                    existingPeopleIds={new Set(people.map(p => p.PersonId))}
+                    existingPerson={editingPerson.person}
+                    role={editingPerson.role}
+                    existingPeopleIds={new Set(people.map(p => IdRolePair.generateKey(p.PersonId, p.Role)))}
                     onClose={handlePersonDialogClose}
                 />
             )}
