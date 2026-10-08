@@ -24,6 +24,8 @@ interface Props {
     church: Church;
     eventId: string;
     team: RegistrationTeam | null;
+    /** The church's other teams, so a person can't be put in the same role on two teams. */
+    otherTeams: RegistrationTeam[];
     onClose: (result: RegistrationTeamResult | null) => void;
 }
 
@@ -32,6 +34,7 @@ export default function RegistrationTeamDialog({
     church,
     eventId,
     team,
+    otherTeams,
     onClose,
 }: Props) {
     const auth = AuthManager.useNanoStore();
@@ -52,9 +55,15 @@ export default function RegistrationTeamDialog({
     const quizzers = people.filter(p => p.Role !== PersonRole.Coach);
     const coaches = people.filter(p => p.Role === PersonRole.Coach);
 
-    // The same person can be both a quizzer and a coach, so people are matched on role and id.
-    const isSamePerson = (a: RegistrationPerson, b: RegistrationPerson) =>
-        a.PersonId === b.PersonId && a.Role === b.Role;
+    const keyOf = (p: RegistrationPerson) => IdRolePair.generateKey(p.PersonId, p.Role);
+    const isSamePerson = (a: RegistrationPerson, b: RegistrationPerson) => keyOf(a) === keyOf(b);
+
+    // Keys the person dialog treats as duplicates for the role being added. The server rejects
+    // a person who is on this team twice (in any role) or in the same role on another team.
+    const getTakenKeys = (role: PersonRole): Set<string> => new Set([
+        ...people.map(p => IdRolePair.generateKey(p.PersonId, role)),
+        ...otherTeams.flatMap(t => t.People ?? []).filter(p => p.Role === role).map(keyOf),
+    ]);
 
     useEscapeToClose(() => onClose(null), isSaving || isDeleting || editingPerson !== null);
 
@@ -73,6 +82,11 @@ export default function RegistrationTeamDialog({
 
         if (event.Divisions?.length > 0 && !divisionId) {
             setError("Division is required.");
+            return;
+        }
+
+        if (event.RequireTeamCoaches && coaches.length === 0) {
+            setError("Each team must have at least one coach.");
             return;
         }
 
@@ -323,7 +337,7 @@ export default function RegistrationTeamDialog({
                     church={church}
                     existingPerson={editingPerson.person}
                     role={editingPerson.role}
-                    existingPeopleIds={new Set(people.map(p => IdRolePair.generateKey(p.PersonId, p.Role)))}
+                    existingPeopleIds={getTakenKeys(editingPerson.role)}
                     onClose={handlePersonDialogClose}
                 />
             )}

@@ -763,6 +763,7 @@ export default function RegistrationPage() {
                     church={church}
                     eventId={eventId}
                     team={editingTeam}
+                    otherTeams={(registration?.Teams ?? []).filter(t => !editingTeam || t.Id !== editingTeam.Id)}
                     onClose={(result) => {
                         setDirty(isDirty);
                         setEditingTeam(null);
