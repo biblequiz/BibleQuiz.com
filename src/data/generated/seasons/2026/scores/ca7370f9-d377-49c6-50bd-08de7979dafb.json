@@ -1,7 +1,7 @@
 {
   "EventName": "Southern New England District - Finals 2026",
   "DatabaseNames": {
-    "fed2c555-110d-4132-868a-d2d21fca1200": "SNE-Finals-March2026"
+    "fed2c555-110d-4132-868a-d2d21fca1200": "SNE-Meet1-Oct2026"
   },
   "Report": {
     "Meets": [
@@ -12,16 +12,15 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A - Top Teams",
-        "LastUpdated": "3/14/26 4:04 PM",
-        "DatabaseLastUpdated": "2026-03-12T01:38:39.5570483+00:00",
+        "LastUpdated": "10/9/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-10-08T23:31:36.5730993+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Joe Kalaivanan",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_2aa41dba-0789-4581-acb2-2b5541865ac4",
+            "Id": "t_2aa41dba07894581acb22b5541865ac4",
             "Name": "Bethany Agawam(A) - Deep Roots New Fruits",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -43,14 +42,14 @@
               "Correct20s": 18,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Stefanie Monty",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_fb1decad-eb55-488d-8316-72e0f3a5aa88",
+            "Id": "t_fb1decadeb55488d831672e0f3a5aa88",
             "Name": "Bethany Community Church (Mendon) #1",
             "ChurchId": "96eec7b3-788a-45e4-8b28-3a7d59929aac",
             "ChurchName": "Bethany Community Church",
@@ -72,7 +71,9 @@
               "Correct20s": 16,
               "Correct30s": 15,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -106,16 +107,15 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B - Top Teams",
-        "LastUpdated": "3/14/26 4:04 PM",
-        "DatabaseLastUpdated": "2026-03-12T01:38:39.5570483+00:00",
+        "LastUpdated": "10/9/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-10-08T23:31:36.5730993+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Lisa Young",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_647563c1-b31b-4dac-84b6-4b4b28061c4e",
+            "Id": "t_647563c1b31b4dac84b64b4b28061c4e",
             "Name": "Assembly of God (Attleboro) #1",
             "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
             "ChurchName": "Assembly of God",
@@ -130,21 +130,21 @@
               "TotalPoints": 1055,
               "PerMeetTotalPoints": null,
               "AveragePoints": 175.8,
-              "AverageCorrect": 11.2,
-              "QuizOuts": 7,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 38,
-              "Correct20s": 23,
-              "Correct30s": 6,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Catherine Van Der Laan",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_b3624551-9e78-46f7-9476-87e4c23c8c2d",
+            "Id": "t_b36245519e7846f7947687e4c23c8c2d",
             "Name": "Belmont Bible Buzzers - Mount Hope (Belmont)",
             "ChurchId": "3cf6dc59-7c61-4cfe-8022-c0ca495e54f1",
             "ChurchName": "Mount Hope Christian Church",
@@ -166,14 +166,14 @@
               "Correct20s": 17,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Daniel Sanchez",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_c08e100f-0a5a-4376-9273-495580fa67a0",
+            "Id": "t_c08e100f0a5a43769273495580fa67a0",
             "Name": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -188,21 +188,21 @@
               "TotalPoints": 275,
               "PerMeetTotalPoints": null,
               "AveragePoints": 45.8,
-              "AverageCorrect": 4.8,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 29,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Luba Ciloci",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_9c38c91d-7cae-4ad7-b5ed-c4d852cc2cf8",
+            "Id": "t_9c38c91d7cae4ad7b5edc4d852cc2cf8",
             "Name": "Bethany Agawam(B2) - Bethany Bible Squad",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -217,21 +217,21 @@
               "TotalPoints": 405,
               "PerMeetTotalPoints": null,
               "AveragePoints": 67.5,
-              "AverageCorrect": 5.3,
+              "AverageCorrect": 3.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 21,
-              "Correct20s": 8,
-              "Correct30s": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 11,
+              "Correct20s": 7,
+              "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Stephen Hinnebusch",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_a144d20e-c39a-41f9-80c1-dd56e48e4dab",
+            "Id": "t_a144d20ec39a41f980c1dd56e48e4dab",
             "Name": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -246,21 +246,21 @@
               "TotalPoints": 760,
               "PerMeetTotalPoints": null,
               "AveragePoints": 126.7,
-              "AverageCorrect": 6.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 7,
-              "Correct20s": 29,
-              "Correct30s": 4,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Jennifer O'Riorden",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_dc08e86b-eaba-4f05-be7c-ba41afdea3a7",
+            "Id": "t_dc08e86beaba4f05be7cba41afdea3a7",
             "Name": "Mount Hope Church Burlington Bible Besties",
             "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
             "ChurchName": "Mount Hope Church",
@@ -275,21 +275,21 @@
               "TotalPoints": 995,
               "PerMeetTotalPoints": null,
               "AveragePoints": 165.8,
-              "AverageCorrect": 11.3,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 38,
-              "Correct20s": 24,
-              "Correct30s": 6,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Misha Levitre",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_d681e016-34a2-4b90-997f-d8761dcfffdd",
+            "Id": "t_d681e01634a24b90997fd8761dcfffdd",
             "Name": "Mount Hope Church Burlington TNT (The Nations Together)",
             "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
             "ChurchName": "Mount Hope Church",
@@ -304,14 +304,16 @@
               "TotalPoints": 720,
               "PerMeetTotalPoints": null,
               "AveragePoints": 120.0,
-              "AverageCorrect": 7.2,
+              "AverageCorrect": 5.5,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 15,
-              "Correct20s": 24,
-              "Correct30s": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 10,
+              "Correct20s": 23,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -355,9 +357,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A - Top Quizzers",
-        "LastUpdated": "3/14/26 4:04 PM",
-        "DatabaseLastUpdated": "2026-03-12T01:38:39.5570483+00:00",
+        "LastUpdated": "10/9/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-10-08T23:31:36.5730993+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": null,
         "RankedTeams": null,
         "TeamFootnotes": null,
@@ -384,7 +387,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -408,7 +413,9 @@
               "Correct20s": 16,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Community Church (Mendon) #1",
@@ -432,7 +439,9 @@
               "Correct20s": 15,
               "Correct30s": 15,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Community Church (Mendon) #1",
@@ -456,7 +465,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -480,7 +491,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Community Church (Mendon) #1",
@@ -504,7 +517,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -528,7 +543,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -552,7 +569,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
@@ -594,85 +613,14 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B - Top Quizzers",
-        "LastUpdated": "3/14/26 4:04 PM",
-        "DatabaseLastUpdated": "2026-03-12T01:38:39.5570483+00:00",
+        "LastUpdated": "10/9/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-10-08T23:31:36.5730993+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": null,
         "RankedTeams": null,
         "TeamFootnotes": null,
         "Quizzers": [
-          {
-            "TeamName": "Mount Hope Church Burlington TNT (The Nations Together)",
-            "YearsQuizzing": null,
-            "Id": "q_7f6854567b3a4659b7f508de4beea8af",
-            "Name": "Aaron Woods",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 175,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 29.2,
-              "AverageCorrect": 1.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 5,
-              "Correct20s": 1,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Assembly of God (Attleboro) #1",
-            "YearsQuizzing": null,
-            "Id": "q_b081fff1da424a93f63708de4a3be303",
-            "Name": "Amelia Dahlstrom",
-            "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
-            "ChurchName": "Assembly of God",
-            "City": "Attleboro",
-            "State": "MA",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 615,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 102.5,
-              "AverageCorrect": 5.2,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 4,
-              "Correct20s": 23,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_df0dbfb04d1e4f93b80408de4beea8af",
-            "Name": "Anjali Indipiginja",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 255,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 42.5,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 84,
-              "Correct10s": 26,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
           {
             "TeamName": "Mount Hope Church Burlington TNT (The Nations Together)",
             "YearsQuizzing": null,
@@ -683,7 +631,7 @@
             "City": "Burlington",
             "State": "MA",
             "Scores": {
-              "Rank": 4,
+              "Rank": 1,
               "IsTie": false,
               "TotalPoints": 480,
               "PerMeetTotalPoints": null,
@@ -695,7 +643,9 @@
               "Correct20s": 23,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
@@ -707,7 +657,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -719,7 +669,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Assembly of God (Attleboro) #1",
@@ -731,7 +683,7 @@
             "City": "Attleboro",
             "State": "MA",
             "Scores": {
-              "Rank": 19,
+              "Rank": 6,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -743,7 +695,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Assembly of God (Attleboro) #1",
@@ -755,7 +709,7 @@
             "City": "Attleboro",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -767,7 +721,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -779,7 +735,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 10,
+              "Rank": 4,
               "IsTie": false,
               "TotalPoints": 170,
               "PerMeetTotalPoints": null,
@@ -791,79 +747,9 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Assembly of God (Attleboro) #1",
-            "YearsQuizzing": null,
-            "Id": "q_5216546accbf47dff63908de4a3be303",
-            "Name": "Emma Dahlstrom",
-            "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
-            "ChurchName": "Assembly of God",
-            "City": "Attleboro",
-            "State": "MA",
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 430,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 71.7,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 33,
-              "Correct20s": 0,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
-            "YearsQuizzing": null,
-            "Id": "q_4d6a701c56ce4f61c63b08de2a061e1e",
-            "Name": "Ezra Aybouo",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 60,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 8,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_cb7f0d699d9941c3b7a308de4beea8af",
-            "Name": "Fiona O'Riorden",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 80,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 8,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -875,7 +761,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -887,103 +773,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
-            "YearsQuizzing": null,
-            "Id": "q_47224d80f58b42e0c68408de2a061e1e",
-            "Name": "Jonas Quinones",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 20,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
-            "YearsQuizzing": null,
-            "Id": "q_9d18f5a2a563400bc6a308de2a061e1e",
-            "Name": "Karter O'mally",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 29,
-              "IsTie": false,
-              "TotalPoints": -10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -1.7,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
-            "YearsQuizzing": null,
-            "Id": "q_38b460bb8b09416cc62f08de2a061e1e",
-            "Name": "Kayleigh Milanczuk",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": 75,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 12.5,
-              "AverageCorrect": 0.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_66a5d55e3ed54af8b7ae08de4beea8af",
-            "Name": "Kiah Libby",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 18,
-              "IsTie": false,
-              "TotalPoints": 30,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
@@ -995,7 +787,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1007,55 +799,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_f6a26c0ec6bd4988b7b308de4beea8af",
-            "Name": "Lily Doyle",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 630,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 105.0,
-              "AverageCorrect": 5.2,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 1,
-              "Correct20s": 24,
-              "Correct30s": 6,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
-            "YearsQuizzing": null,
-            "Id": "q_28360155866c46f8c5ea08de2a061e1e",
-            "Name": "Lincoln Milanczuk",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 110,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 1.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 11,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Mount Hope Church Burlington TNT (The Nations Together)",
@@ -1067,7 +813,7 @@
             "City": "Burlington",
             "State": "MA",
             "Scores": {
-              "Rank": 15,
+              "Rank": 5,
               "IsTie": false,
               "TotalPoints": 65,
               "PerMeetTotalPoints": null,
@@ -1079,31 +825,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
-            "YearsQuizzing": null,
-            "Id": "q_986bdb41d0e6473fc5c808de2a061e1e",
-            "Name": "Mark Sheliag",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 165,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 27.5,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 18,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
@@ -1115,7 +839,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1127,31 +851,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
-            "YearsQuizzing": null,
-            "Id": "q_27b54934c2194db7bc9208dd7489edd0",
-            "Name": "Melody Blake",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 730,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 121.7,
-              "AverageCorrect": 5.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 1,
-              "Correct20s": 29,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -1163,7 +865,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 5,
+              "Rank": 2,
               "IsTie": false,
               "TotalPoints": 470,
               "PerMeetTotalPoints": null,
@@ -1175,31 +877,9 @@
               "Correct20s": 15,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
-            "YearsQuizzing": null,
-            "Id": "q_2e52a442fd514aa4c5c208de2a061e1e",
-            "Name": "Nathan Sheliag",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 20,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
@@ -1211,7 +891,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 7,
+              "Rank": 3,
               "IsTie": false,
               "TotalPoints": 270,
               "PerMeetTotalPoints": null,
@@ -1223,31 +903,9 @@
               "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
-            "YearsQuizzing": null,
-            "Id": "q_f123932bbf624666c65a08de2a061e1e",
-            "Name": "Willow Milanczuk",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 17,
-              "IsTie": false,
-              "TotalPoints": 40,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 6.7,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 6,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Assembly of God (Attleboro) #1",
@@ -1259,7 +917,7 @@
             "City": "Attleboro",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1271,7 +929,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -1283,7 +943,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1295,39 +955,25 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
-          22,
-          17,
+          0,
+          9,
+          10,
+          4,
+          7,
+          2,
           1,
           3,
-          23,
-          8,
-          25,
-          2,
-          0,
-          7,
-          20,
-          18,
-          10,
-          14,
-          19,
-          9,
-          26,
-          15,
           5,
-          4,
           6,
+          8,
           11,
-          12,
-          16,
-          21,
-          24,
-          27,
-          28,
-          13
+          12
         ],
         "QuizzerFootnotes": [
           {
@@ -1358,9 +1004,10 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "SNE-Finals-March2026-A",
-        "LastUpdated": "3/14/26 4:04 PM",
-        "DatabaseLastUpdated": "2026-03-12T01:38:39.5570483+00:00",
+        "LastUpdated": "10/9/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-10-08T23:31:36.5730993+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Joe Kalaivanan",
@@ -1370,55 +1017,7 @@
               6,
               7
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 145,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 85,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_2aa41dba-0789-4581-acb2-2b5541865ac4",
+            "Id": "t_2aa41dba07894581acb22b5541865ac4",
             "Name": "Bethany Agawam(A) - Deep Roots New Fruits",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -1440,7 +1039,55 @@
               "Correct20s": 18,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 150,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 145,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Stefanie Monty",
@@ -1450,55 +1097,7 @@
               3,
               5
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 225,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 235,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 220,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_fb1decad-eb55-488d-8316-72e0f3a5aa88",
+            "Id": "t_fb1decadeb55488d831672e0f3a5aa88",
             "Name": "Bethany Community Church (Mendon) #1",
             "ChurchId": "96eec7b3-788a-45e4-8b28-3a7d59929aac",
             "ChurchName": "Bethany Community Church",
@@ -1520,7 +1119,55 @@
               "Correct20s": 16,
               "Correct30s": 15,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 225,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -1551,7 +1198,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -1575,7 +1224,9 @@
               "Correct20s": 16,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Community Church (Mendon) #1",
@@ -1599,7 +1250,9 @@
               "Correct20s": 15,
               "Correct30s": 15,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Community Church (Mendon) #1",
@@ -1623,7 +1276,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -1647,7 +1302,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Community Church (Mendon) #1",
@@ -1671,7 +1328,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -1695,7 +1354,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(A) - Deep Roots New Fruits",
@@ -1719,7 +1380,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
@@ -1741,6 +1404,7 @@
         "MeetNames": null,
         "Rooms": [
           {
+            "RoomId": 1,
             "Name": "1",
             "Matches": [
               {
@@ -1748,6 +1412,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1756,6 +1422,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1764,6 +1432,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1772,6 +1442,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -1780,6 +1452,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -1838,78 +1512,19 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "SNE-Finals-March2026-B",
-        "LastUpdated": "3/14/26 4:04 PM",
-        "DatabaseLastUpdated": "2026-03-12T01:38:39.5570483+00:00",
+        "LastUpdated": "10/9/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-10-08T23:31:36.5730993+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Lisa Young",
             "Quizzers": [
-              1,
-              5,
-              6,
-              8,
-              27
+              2,
+              3,
+              11
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 190,
-                "OtherTeam": 1
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 180,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 185,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 150,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 4
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_647563c1-b31b-4dac-84b6-4b4b28061c4e",
+            "Id": "t_647563c1b31b4dac84b64b4b28061c4e",
             "Name": "Assembly of God (Attleboro) #1",
             "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
             "ChurchName": "Assembly of God",
@@ -1924,82 +1539,82 @@
               "TotalPoints": 1055,
               "PerMeetTotalPoints": null,
               "AveragePoints": 175.8,
-              "AverageCorrect": 11.2,
-              "QuizOuts": 7,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 38,
-              "Correct20s": 23,
-              "Correct30s": 6,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 150,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Catherine Van Der Laan",
             "Quizzers": [
-              7,
-              11,
-              23,
-              28
+              4,
+              5,
+              9,
+              12
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 3
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 75,
-                "OtherTeam": 6
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_b3624551-9e78-46f7-9476-87e4c23c8c2d",
+            "Id": "t_b36245519e7846f7947687e4c23c8c2d",
             "Name": "Belmont Bible Buzzers - Mount Hope (Belmont)",
             "ChurchId": "3cf6dc59-7c61-4cfe-8022-c0ca495e54f1",
             "ChurchName": "Mount Hope Christian Church",
@@ -2021,75 +1636,72 @@
               "Correct20s": 17,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Daniel Sanchez",
             "Quizzers": [
-              4,
-              18,
-              20,
-              24
+              1
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 45,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 40,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 30,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 4
-              },
-              null
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_c08e100f-0a5a-4376-9273-495580fa67a0",
+            "Id": "t_c08e100f0a5a43769273495580fa67a0",
             "Name": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -2104,83 +1716,80 @@
               "TotalPoints": 275,
               "PerMeetTotalPoints": null,
               "AveragePoints": 45.8,
-              "AverageCorrect": 4.8,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 29,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Luba Ciloci",
             "Quizzers": [
-              9,
-              12,
-              14,
-              21,
-              25
+              8,
+              10
             ],
-            "Matches": [
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 65,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 35,
-                "OtherTeam": 0
-              },
-              null,
-              {
-                "Result": "L",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 130,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 55,
-                "OtherTeam": 6
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 25,
-                "OtherTeam": 5
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_9c38c91d-7cae-4ad7-b5ed-c4d852cc2cf8",
+            "Id": "t_9c38c91d7cae4ad7b5edc4d852cc2cf8",
             "Name": "Bethany Agawam(B2) - Bethany Bible Squad",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -2195,82 +1804,79 @@
               "TotalPoints": 405,
               "PerMeetTotalPoints": null,
               "AveragePoints": 67.5,
-              "AverageCorrect": 5.3,
+              "AverageCorrect": 3.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 21,
-              "Correct20s": 8,
-              "Correct30s": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 11,
+              "Correct20s": 7,
+              "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Stephen Hinnebusch",
             "Quizzers": [
-              13,
-              16,
-              22,
-              26
+              6
             ],
-            "Matches": [
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 125,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 1
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 6
-              },
-              null,
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 135,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 140,
-                "OtherTeam": 0
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_a144d20e-c39a-41f9-80c1-dd56e48e4dab",
+            "Id": "t_a144d20ec39a41f980c1dd56e48e4dab",
             "Name": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
             "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
             "ChurchName": "Bethany Assembly of God",
@@ -2285,82 +1891,77 @@
               "TotalPoints": 760,
               "PerMeetTotalPoints": null,
               "AveragePoints": 126.7,
-              "AverageCorrect": 6.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 7,
-              "Correct20s": 29,
-              "Correct30s": 4,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "CoachName": "Jennifer O'Riorden",
-            "Quizzers": [
-              2,
-              10,
-              15,
-              17
-            ],
+            },
             "Matches": [
               {
-                "Result": "W",
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 5,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 170,
-                "OtherTeam": 4
+                "CurrentQuestion": null
               },
               {
-                "Result": "L",
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 95,
-                "OtherTeam": 6
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
               },
               null,
               {
                 "Result": "W",
+                "Score": 135,
+                "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 155,
-                "OtherTeam": 1
+                "CurrentQuestion": null
               },
               {
-                "Result": "W",
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 0,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 165,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 200,
-                "OtherTeam": 3
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": null,
-            "Id": "t_dc08e86b-eaba-4f05-be7c-ba41afdea3a7",
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jennifer O'Riorden",
+            "Quizzers": [],
+            "Id": "t_dc08e86beaba4f05be7cba41afdea3a7",
             "Name": "Mount Hope Church Burlington Bible Besties",
             "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
             "ChurchName": "Mount Hope Church",
@@ -2375,81 +1976,80 @@
               "TotalPoints": 995,
               "PerMeetTotalPoints": null,
               "AveragePoints": 165.8,
-              "AverageCorrect": 11.3,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 38,
-              "Correct20s": 24,
-              "Correct30s": 6,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Misha Levitre",
             "Quizzers": [
               0,
-              3,
-              19
+              7
             ],
-            "Matches": [
-              null,
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 100,
-                "OtherTeam": 5
-              },
-              {
-                "Result": "W",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 210,
-                "OtherTeam": 2
-              },
-              {
-                "Result": "L",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 50,
-                "OtherTeam": 4
-              },
-              {
-                "Result": "L",
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 70,
-                "OtherTeam": 0
-              },
-              {
-                "Result": "W",
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 200,
-                "OtherTeam": 3
-              },
-              {
-                "Result": "W",
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null,
-                "Score": 90,
-                "OtherTeam": 1
-              }
-            ],
-            "CurrentMatchId": null,
-            "Id": "t_d681e016-34a2-4b90-997f-d8761dcfffdd",
+            "Id": "t_d681e01634a24b90997fd8761dcfffdd",
             "Name": "Mount Hope Church Burlington TNT (The Nations Together)",
             "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
             "ChurchName": "Mount Hope Church",
@@ -2464,14 +2064,72 @@
               "TotalPoints": 720,
               "PerMeetTotalPoints": null,
               "AveragePoints": 120.0,
-              "AverageCorrect": 7.2,
+              "AverageCorrect": 5.5,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 15,
-              "Correct20s": 24,
-              "Correct30s": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 10,
+              "Correct20s": 23,
+              "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -2493,78 +2151,6 @@
           {
             "TeamName": "Mount Hope Church Burlington TNT (The Nations Together)",
             "YearsQuizzing": null,
-            "Id": "q_7f6854567b3a4659b7f508de4beea8af",
-            "Name": "Aaron Woods",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 175,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 29.2,
-              "AverageCorrect": 1.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 5,
-              "Correct20s": 1,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Assembly of God (Attleboro) #1",
-            "YearsQuizzing": null,
-            "Id": "q_b081fff1da424a93f63708de4a3be303",
-            "Name": "Amelia Dahlstrom",
-            "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
-            "ChurchName": "Assembly of God",
-            "City": "Attleboro",
-            "State": "MA",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 615,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 102.5,
-              "AverageCorrect": 5.2,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 4,
-              "Correct20s": 23,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_df0dbfb04d1e4f93b80408de4beea8af",
-            "Name": "Anjali Indipiginja",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 255,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 42.5,
-              "AverageCorrect": 4.3,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 84,
-              "Correct10s": 26,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington TNT (The Nations Together)",
-            "YearsQuizzing": null,
             "Id": "q_39b51ad10a2e4d61b7fa08de4beea8af",
             "Name": "Ben Levitre",
             "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
@@ -2572,7 +2158,7 @@
             "City": "Burlington",
             "State": "MA",
             "Scores": {
-              "Rank": 4,
+              "Rank": 1,
               "IsTie": false,
               "TotalPoints": 480,
               "PerMeetTotalPoints": null,
@@ -2584,7 +2170,9 @@
               "Correct20s": 23,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
@@ -2596,7 +2184,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2608,7 +2196,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Assembly of God (Attleboro) #1",
@@ -2620,7 +2210,7 @@
             "City": "Attleboro",
             "State": "MA",
             "Scores": {
-              "Rank": 19,
+              "Rank": 6,
               "IsTie": false,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
@@ -2632,7 +2222,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Assembly of God (Attleboro) #1",
@@ -2644,7 +2236,7 @@
             "City": "Attleboro",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2656,7 +2248,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -2668,7 +2262,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 10,
+              "Rank": 4,
               "IsTie": false,
               "TotalPoints": 170,
               "PerMeetTotalPoints": null,
@@ -2680,79 +2274,9 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Assembly of God (Attleboro) #1",
-            "YearsQuizzing": null,
-            "Id": "q_5216546accbf47dff63908de4a3be303",
-            "Name": "Emma Dahlstrom",
-            "ChurchId": "2c3a37b1-24a9-4ac1-87b3-31c5ecc465ad",
-            "ChurchName": "Assembly of God",
-            "City": "Attleboro",
-            "State": "MA",
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 430,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 71.7,
-              "AverageCorrect": 5.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 33,
-              "Correct20s": 0,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
-            "YearsQuizzing": null,
-            "Id": "q_4d6a701c56ce4f61c63b08de2a061e1e",
-            "Name": "Ezra Aybouo",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 60,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 8,
-              "Correct20s": 1,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_cb7f0d699d9941c3b7a308de4beea8af",
-            "Name": "Fiona O'Riorden",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 13,
-              "IsTie": false,
-              "TotalPoints": 80,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 13.3,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 8,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -2764,7 +2288,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2776,103 +2300,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
-            "YearsQuizzing": null,
-            "Id": "q_47224d80f58b42e0c68408de2a061e1e",
-            "Name": "Jonas Quinones",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 20,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
-            "YearsQuizzing": null,
-            "Id": "q_9d18f5a2a563400bc6a308de2a061e1e",
-            "Name": "Karter O'mally",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 29,
-              "IsTie": false,
-              "TotalPoints": -10,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": -1.7,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
-            "YearsQuizzing": null,
-            "Id": "q_38b460bb8b09416cc62f08de2a061e1e",
-            "Name": "Kayleigh Milanczuk",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 14,
-              "IsTie": false,
-              "TotalPoints": 75,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 12.5,
-              "AverageCorrect": 0.7,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_66a5d55e3ed54af8b7ae08de4beea8af",
-            "Name": "Kiah Libby",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 18,
-              "IsTie": false,
-              "TotalPoints": 30,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
@@ -2884,7 +2314,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -2896,55 +2326,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Mount Hope Church Burlington Bible Besties",
-            "YearsQuizzing": null,
-            "Id": "q_f6a26c0ec6bd4988b7b308de4beea8af",
-            "Name": "Lily Doyle",
-            "ChurchId": "81ea51fa-f13a-42d4-a03b-abeed6493fa8",
-            "ChurchName": "Mount Hope Church",
-            "City": "Burlington",
-            "State": "MA",
-            "Scores": {
-              "Rank": 2,
-              "IsTie": false,
-              "TotalPoints": 630,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 105.0,
-              "AverageCorrect": 5.2,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 1,
-              "Correct20s": 24,
-              "Correct30s": 6,
-              "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
-            "YearsQuizzing": null,
-            "Id": "q_28360155866c46f8c5ea08de2a061e1e",
-            "Name": "Lincoln Milanczuk",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 110,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 1.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 11,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Mount Hope Church Burlington TNT (The Nations Together)",
@@ -2956,7 +2340,7 @@
             "City": "Burlington",
             "State": "MA",
             "Scores": {
-              "Rank": 15,
+              "Rank": 5,
               "IsTie": false,
               "TotalPoints": 65,
               "PerMeetTotalPoints": null,
@@ -2968,31 +2352,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
-            "YearsQuizzing": null,
-            "Id": "q_986bdb41d0e6473fc5c808de2a061e1e",
-            "Name": "Mark Sheliag",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 11,
-              "IsTie": false,
-              "TotalPoints": 165,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 27.5,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 18,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
@@ -3004,7 +2366,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3016,31 +2378,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
-            "YearsQuizzing": null,
-            "Id": "q_27b54934c2194db7bc9208dd7489edd0",
-            "Name": "Melody Blake",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 730,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 121.7,
-              "AverageCorrect": 5.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 1,
-              "Correct20s": 29,
-              "Correct30s": 4,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -3052,7 +2392,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 5,
+              "Rank": 2,
               "IsTie": false,
               "TotalPoints": 470,
               "PerMeetTotalPoints": null,
@@ -3064,31 +2404,9 @@
               "Correct20s": 15,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B1) - Good News Gladiators(GNG)",
-            "YearsQuizzing": null,
-            "Id": "q_2e52a442fd514aa4c5c208de2a061e1e",
-            "Name": "Nathan Sheliag",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 20,
-              "IsTie": true,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethany Agawam(B2) - Bethany Bible Squad",
@@ -3100,7 +2418,7 @@
             "City": "Agawam",
             "State": "MA",
             "Scores": {
-              "Rank": 7,
+              "Rank": 3,
               "IsTie": false,
               "TotalPoints": 270,
               "PerMeetTotalPoints": null,
@@ -3112,31 +2430,9 @@
               "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
-          },
-          {
-            "TeamName": "Bethany Agawam(B3) - Bethany Beez of T-Nado Truth",
-            "YearsQuizzing": null,
-            "Id": "q_f123932bbf624666c65a08de2a061e1e",
-            "Name": "Willow Milanczuk",
-            "ChurchId": "015d916e-184b-4010-800e-a6ad6da31cd7",
-            "ChurchName": "Bethany Assembly of God",
-            "City": "Agawam",
-            "State": "MA",
-            "Scores": {
-              "Rank": 17,
-              "IsTie": false,
-              "TotalPoints": 40,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 6.7,
-              "AverageCorrect": 1.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 6,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Assembly of God (Attleboro) #1",
@@ -3148,7 +2444,7 @@
             "City": "Attleboro",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3160,7 +2456,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Belmont Bible Buzzers - Mount Hope (Belmont)",
@@ -3172,7 +2470,7 @@
             "City": "Belmont",
             "State": "MA",
             "Scores": {
-              "Rank": 20,
+              "Rank": 7,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -3184,39 +2482,25 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
-          22,
-          17,
+          0,
+          9,
+          10,
+          4,
+          7,
+          2,
           1,
           3,
-          23,
-          8,
-          25,
-          2,
-          0,
-          7,
-          20,
-          18,
-          10,
-          14,
-          19,
-          9,
-          26,
-          15,
           5,
-          4,
           6,
+          8,
           11,
-          12,
-          16,
-          21,
-          24,
-          27,
-          28,
-          13
+          12
         ],
         "QuizzerFootnotes": [
           {
@@ -3227,6 +2511,7 @@
         "MeetNames": null,
         "Rooms": [
           {
+            "RoomId": 1,
             "Name": "B1",
             "Matches": [
               {
@@ -3234,6 +2519,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3242,6 +2529,8 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3250,6 +2539,8 @@
                 "LinkedMeet": null,
                 "Team1": 6,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3258,6 +2549,8 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3266,6 +2559,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3274,6 +2569,8 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3282,12 +2579,15 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
             ]
           },
           {
+            "RoomId": 2,
             "Name": "B2",
             "Matches": [
               {
@@ -3295,6 +2595,8 @@
                 "LinkedMeet": null,
                 "Team1": 3,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3303,6 +2605,8 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3311,6 +2615,8 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3319,6 +2625,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3327,6 +2635,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3335,6 +2645,8 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3343,12 +2655,15 @@
                 "LinkedMeet": null,
                 "Team1": 6,
                 "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
             ]
           },
           {
+            "RoomId": 3,
             "Name": "B3",
             "Matches": [
               {
@@ -3356,6 +2671,8 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3364,6 +2681,8 @@
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3372,6 +2691,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3380,6 +2701,8 @@
                 "LinkedMeet": null,
                 "Team1": 4,
                 "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3388,6 +2711,8 @@
                 "LinkedMeet": null,
                 "Team1": 5,
                 "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3396,6 +2721,8 @@
                 "LinkedMeet": null,
                 "Team1": 6,
                 "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
@@ -3404,6 +2731,8 @@
                 "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               }
@@ -3555,5 +2884,5 @@
       }
     }
   ],
-  "Freshness": "2026-03-14T16:04:10.1484113+00:00"
+  "Freshness": "2026-10-08T23:31:36.6316602+00:00"
 }
