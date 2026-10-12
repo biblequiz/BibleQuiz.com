@@ -4353,7 +4353,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "October 2026: Achiever",
-        "LastUpdated": "10/10/26 7:21 PM",
+        "LastUpdated": "10/11/26 11:44 PM",
         "DatabaseLastUpdated": "2026-10-10T18:28:13.2852059+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
@@ -4375,17 +4375,17 @@
             "State": "FL",
             "Scores": {
               "Wins": 1,
-              "Losses": 4,
+              "Losses": 5,
               "WinPercentage": 17,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 165,
               "PerMeetTotalPoints": null,
               "AveragePoints": 27.5,
-              "AverageCorrect": 3.7,
+              "AverageCorrect": 4.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 61,
-              "Correct10s": 18,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 20,
               "Correct20s": 2,
               "Correct30s": 2,
               "FootnoteIndex": null
@@ -4401,7 +4401,7 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
+                "Result": "L",
                 "Score": 0,
                 "OtherTeam": 1,
                 "RoomId": 3,
@@ -4465,21 +4465,21 @@
             "City": "Fort Lauderdale",
             "State": "FL",
             "Scores": {
-              "Wins": 3,
+              "Wins": 5,
               "Losses": 1,
-              "WinPercentage": 60,
+              "WinPercentage": 83,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 710,
+              "TotalPoints": 1190,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 142.0,
-              "AverageCorrect": 8.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 14,
-              "Correct20s": 22,
-              "Correct30s": 5,
-              "FootnoteIndex": 0
+              "AveragePoints": 198.3,
+              "AverageCorrect": 11.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 26,
+              "Correct20s": 35,
+              "Correct30s": 8,
+              "FootnoteIndex": null
             },
             "Matches": [
               {
@@ -4492,8 +4492,8 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": 0,
+                "Result": "W",
+                "Score": 260,
                 "OtherTeam": 0,
                 "RoomId": 3,
                 "Room": "3",
@@ -4529,16 +4529,16 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 220,
                 "OtherTeam": 6,
                 "RoomId": 2,
                 "Room": "2",
-                "State": "InProgress",
-                "CurrentQuestion": 20
+                "State": "Completed",
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 6
+            "CurrentMatchId": null
           },
           {
             "CoachName": null,
@@ -4843,7 +4843,7 @@
               "Correct10s": 35,
               "Correct20s": 16,
               "Correct30s": 12,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             },
             "Matches": [
               {
@@ -4921,18 +4921,18 @@
             "State": "FL",
             "Scores": {
               "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
+              "Losses": 3,
+              "WinPercentage": 50,
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 215,
+              "TotalPoints": 295,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 43.0,
-              "AverageCorrect": 4.4,
+              "AveragePoints": 49.2,
+              "AverageCorrect": 4.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 69,
-              "Correct10s": 12,
-              "Correct20s": 8,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 18,
+              "Correct20s": 9,
               "Correct30s": 2,
               "FootnoteIndex": null
             },
@@ -4984,16 +4984,16 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 80,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "2",
-                "State": "InProgress",
-                "CurrentQuestion": 20
+                "State": "Completed",
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 6
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -5005,12 +5005,7 @@
           0,
           2
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie broken by head-to-head record of teams."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "The Bible Squad",
@@ -5052,8 +5047,8 @@
               "IsTie": false,
               "TotalPoints": 75,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 15.0,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 83,
               "Correct10s": 3,
@@ -5074,7 +5069,7 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 2,
+              "Rank": 3,
               "IsTie": false,
               "TotalPoints": 505,
               "PerMeetTotalPoints": null,
@@ -5100,18 +5095,18 @@
             "City": "Fort Lauderdale",
             "State": "FL",
             "Scores": {
-              "Rank": 23,
+              "Rank": 16,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.0,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
-              "Correct20s": 0,
+              "Correct10s": 3,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5128,14 +5123,14 @@
             "Scores": {
               "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 95,
+              "TotalPoints": 125,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 19.0,
+              "AveragePoints": 20.8,
               "AverageCorrect": 2.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 6,
-              "Correct20s": 5,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 7,
+              "Correct20s": 6,
               "Correct30s": 0,
               "FootnoteIndex": null
             },
@@ -5152,15 +5147,15 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 25,
+              "Rank": 18,
               "IsTie": false,
-              "TotalPoints": 5,
+              "TotalPoints": 45,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 1.0,
-              "AverageCorrect": 0.4,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 40,
-              "Correct10s": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -5204,7 +5199,7 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 26,
+              "Rank": 28,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5215,7 +5210,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5232,14 +5227,14 @@
             "Scores": {
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 305,
+              "TotalPoints": 485,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 61.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 9,
-              "Correct20s": 11,
+              "AveragePoints": 80.8,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 14,
+              "Correct20s": 17,
               "Correct30s": 0,
               "FootnoteIndex": null
             },
@@ -5256,18 +5251,18 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 19,
               "IsTie": true,
-              "TotalPoints": 30,
+              "TotalPoints": 40,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 4,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5282,7 +5277,7 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 17,
+              "Rank": 19,
               "IsTie": false,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
@@ -5293,7 +5288,7 @@
               "Correct10s": 4,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5334,7 +5329,7 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 25,
               "IsTie": false,
               "TotalPoints": 30,
               "PerMeetTotalPoints": null,
@@ -5345,7 +5340,7 @@
               "Correct10s": 3,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5386,7 +5381,7 @@
             "City": "Coral Springs",
             "State": "FL",
             "Scores": {
-              "Rank": 26,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5397,7 +5392,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5464,18 +5459,18 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 20,
+              "Rank": 23,
               "IsTie": true,
-              "TotalPoints": 30,
+              "TotalPoints": 35,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.7,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 57,
-              "Correct10s": 3,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 4,
               "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5490,8 +5485,8 @@
             "City": "Coral Springs",
             "State": "FL",
             "Scores": {
-              "Rank": 24,
-              "IsTie": false,
+              "Rank": 26,
+              "IsTie": true,
               "TotalPoints": 10,
               "PerMeetTotalPoints": null,
               "AveragePoints": 1.7,
@@ -5501,7 +5496,7 @@
               "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5516,7 +5511,7 @@
             "City": "Sunrise",
             "State": "FL",
             "Scores": {
-              "Rank": 17,
+              "Rank": 19,
               "IsTie": true,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
@@ -5527,7 +5522,7 @@
               "Correct10s": 3,
               "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5543,17 +5538,17 @@
             "State": "FL",
             "Scores": {
               "Rank": 26,
-              "IsTie": true,
-              "TotalPoints": 0,
+              "IsTie": false,
+              "TotalPoints": 10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5620,18 +5615,18 @@
             "City": "Fort Lauderdale",
             "State": "FL",
             "Scores": {
-              "Rank": 34,
+              "Rank": 23,
               "IsTie": false,
-              "TotalPoints": -5,
+              "TotalPoints": 35,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -1.0,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 33,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5647,11 +5642,11 @@
             "State": "FL",
             "Scores": {
               "Rank": 16,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 10.0,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 67,
               "Correct10s": 1,
@@ -5672,7 +5667,7 @@
             "City": "South Florida",
             "State": null,
             "Scores": {
-              "Rank": 26,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5683,7 +5678,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5698,7 +5693,7 @@
             "City": "South Florida",
             "State": null,
             "Scores": {
-              "Rank": 26,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5709,7 +5704,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5724,7 +5719,7 @@
             "City": "South Florida",
             "State": null,
             "Scores": {
-              "Rank": 26,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5735,7 +5730,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5752,12 +5747,12 @@
             "Scores": {
               "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 95,
+              "TotalPoints": 80,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 15.8,
+              "AveragePoints": 13.3,
               "AverageCorrect": 1.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
+              "QuestionCorrectPercentage": 56,
               "Correct10s": 6,
               "Correct20s": 1,
               "Correct30s": 2,
@@ -5802,17 +5797,17 @@
             "City": "Fort Lauderdale",
             "State": "FL",
             "Scores": {
-              "Rank": 3,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 370,
+              "TotalPoints": 580,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 74.0,
-              "AverageCorrect": 3.2,
+              "AveragePoints": 96.7,
+              "AverageCorrect": 4.2,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
               "Correct10s": 0,
-              "Correct20s": 11,
-              "Correct30s": 5,
+              "Correct20s": 17,
+              "Correct30s": 8,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -5828,7 +5823,7 @@
             "City": "Coral Springs",
             "State": "FL",
             "Scores": {
-              "Rank": 33,
+              "Rank": 34,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -5855,17 +5850,17 @@
             "State": "FL",
             "Scores": {
               "Rank": 19,
-              "IsTie": false,
-              "TotalPoints": 30,
+              "IsTie": true,
+              "TotalPoints": 40,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 6.0,
-              "AverageCorrect": 0.6,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 3,
+              "Correct10s": 4,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5906,7 +5901,7 @@
             "City": "Coral Springs",
             "State": "FL",
             "Scores": {
-              "Rank": 26,
+              "Rank": 28,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -5917,7 +5912,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 1
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -5925,8 +5920,8 @@
         ],
         "RankedQuizzers": [
           21,
-          2,
           30,
+          2,
           8,
           16,
           15,
@@ -5939,34 +5934,30 @@
           28,
           1,
           11,
-          24,
-          10,
-          19,
-          32,
-          12,
-          9,
-          17,
           3,
-          18,
+          24,
           5,
+          10,
+          32,
+          19,
+          9,
+          23,
+          17,
+          12,
+          20,
+          18,
           7,
           14,
-          20,
           25,
           26,
           27,
           34,
           31,
-          23,
           6
         ],
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each quizzer."
-          },
-          {
-            "Symbol": "**",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -6113,13 +6104,13 @@
                 "Blockers": null
               },
               {
-                "CurrentQuestion": 20,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
                 "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -6249,9 +6240,9 @@
             "RegularQuestionStats": null
           }
         ],
-        "HasRoomCompletionMismatch": true,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "6 of 7 Match(es) Done, +1 by some Room(s)",
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -15166,5 +15157,5 @@
       }
     }
   ],
-  "Freshness": "2026-10-10T22:23:13.9053244+00:00"
+  "Freshness": "2026-10-11T23:46:24.5277616+00:00"
 }
