@@ -1,18 +1,53 @@
 import { RemoteServiceUrlBase, RemoteServiceUtility } from "types/services/RemoteServiceUtility";
 
 /**
- * Sign-in event reported to the registration server (POST api/Auth/ClientError).
+ * How far a sign-in got (matches ApiSignInClientProgressKind on the server).
  */
-export interface SignInEvent {
+export type SignInProgressKind = "Started" | "Completed";
+
+/**
+ * Progress of a sign-in, reported to POST api/Auth/ClientSignInProgress.
+ */
+export interface SignInProgress {
 
     /**
-     * Where it happened. A stage ending in ".started" or ".completed" with no error code reports progress
-     * (e.g. "loginPopup.started"); anything else is logged as an error (e.g. "loginPopup", "profile").
+     * How far the sign-in got.
+     */
+    kind: SignInProgressKind;
+
+    /**
+     * Which sign-in it is (e.g. "loginPopup").
      */
     stage: string;
 
     /**
-     * Id of the sign-in attempt, which ties its started, completed and error reports together.
+     * Id of the sign-in attempt, which ties its progress and error reports together.
+     */
+    attempt: string;
+
+    /**
+     * How long the attempt had been running, in milliseconds.
+     */
+    elapsedMs?: number;
+
+    /**
+     * Correlation id MSAL sent to the identity provider, which finds the attempt in its sign-in logs.
+     */
+    correlationId?: string | null;
+}
+
+/**
+ * Sign-in error, reported to POST api/Auth/ClientError.
+ */
+export interface SignInError {
+
+    /**
+     * Where it happened (e.g. "loginPopup", "profile").
+     */
+    stage: string;
+
+    /**
+     * Id of the sign-in attempt, which ties its progress and error reports together.
      */
     attempt: string;
 
@@ -52,16 +87,51 @@ export function createSignInAttemptId(): string {
 }
 
 /**
- * Reports a sign-in event to the registration server so a user who can't sign in leaves a trace.
- * Everything inside the sign-in popup happens on the identity provider's page, so otherwise the
- * server never hears about an attempt that fails or is abandoned.
+ * Reports the progress of a sign-in to the registration server. Everything inside the sign-in popup
+ * happens on the identity provider's page, so otherwise the server never hears about an attempt that
+ * is abandoned there.
  *
  * This never throws or rejects: a failed report must not break signing in.
  *
- * @param event Event to report.
+ * @param progress Progress to report.
  * @param accessToken Access token for the user, if signed in, so the server can log who it was.
  */
-export function reportSignInEvent(event: SignInEvent, accessToken?: string | null): void {
+export function reportSignInProgress(progress: SignInProgress, accessToken?: string | null): void {
+    post(
+        "/api/Auth/ClientSignInProgress",
+        {
+            Kind: progress.kind,
+            Stage: truncate(progress.stage, 64),
+            Attempt: truncate(progress.attempt, 32),
+            ElapsedMs: toElapsedMs(progress.elapsedMs),
+            CorrelationId: truncate(progress.correlationId, 64),
+        },
+        accessToken);
+}
+
+/**
+ * Reports a sign-in error to the registration server so a user who can't sign in leaves a trace.
+ *
+ * This never throws or rejects: a failed report must not break signing in.
+ *
+ * @param error Error to report.
+ */
+export function reportSignInError(error: SignInError): void {
+    post(
+        "/api/Auth/ClientError",
+        {
+            Stage: truncate(error.stage, 64),
+            Attempt: truncate(error.attempt, 32),
+            ElapsedMs: toElapsedMs(error.elapsedMs),
+            ErrorCode: truncate(error.errorCode, 128),
+            SubError: truncate(error.subError, 128),
+            CorrelationId: truncate(error.correlationId, 64),
+            Message: truncate(error.message, 1024),
+        },
+        null);
+}
+
+function post(path: string, body: object, accessToken: string | null | undefined): void {
     try {
         const headers: Record<string, string> = { "Content-Type": "application/json" };
         if (accessToken) {
@@ -69,26 +139,22 @@ export function reportSignInEvent(event: SignInEvent, accessToken?: string | nul
         }
 
         fetch(
-            RemoteServiceUtility.buildUrl(RemoteServiceUrlBase.Registration, "/api/Auth/ClientError", null),
+            RemoteServiceUtility.buildUrl(RemoteServiceUrlBase.Registration, path, null),
             {
                 method: "POST",
                 headers,
                 keepalive: true,
-                body: JSON.stringify({
-                    Stage: truncate(event.stage, 64),
-                    Attempt: truncate(event.attempt, 32),
-                    ElapsedMs: event.elapsedMs === undefined ? null : Math.max(0, Math.round(event.elapsedMs)),
-                    ErrorCode: truncate(event.errorCode, 128),
-                    SubError: truncate(event.subError, 128),
-                    CorrelationId: truncate(event.correlationId, 64),
-                    Message: truncate(event.message, 1024),
-                }),
+                body: JSON.stringify(body),
             })
             .catch(error => console.warn("Unable to report the sign-in event.", error));
     }
     catch (error) {
         console.warn("Unable to report the sign-in event.", error);
     }
+}
+
+function toElapsedMs(elapsedMs: number | undefined): number | null {
+    return elapsedMs === undefined ? null : Math.max(0, Math.round(elapsedMs));
 }
 
 function truncate(value: string | null | undefined, maxLength: number): string | null {

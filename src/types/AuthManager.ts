@@ -6,7 +6,7 @@ import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from "./services/RemoteServiceUtility";
-import { createSignInAttemptId, reportSignInEvent } from "utils/SignInTelemetry";
+import { createSignInAttemptId, reportSignInError, reportSignInProgress } from "utils/SignInTelemetry";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const IMPERSONATION_STORAGE_KEY = "auth-impersonation--";
@@ -563,7 +563,7 @@ export class AuthManager {
         const startedAt = Date.now();
         let stage = "loginPopup";
         let correlationId: string | null = null;
-        reportSignInEvent({ stage: "loginPopup.started", attempt });
+        reportSignInProgress({ kind: "Started", stage, attempt });
 
         return new Promise<void>((resolve) => {
             client
@@ -584,8 +584,8 @@ export class AuthManager {
                     );
 
                     correlationId = tokenResponse.correlationId ?? null;
-                    reportSignInEvent(
-                        { stage: "loginPopup.completed", attempt, elapsedMs: Date.now() - startedAt, correlationId },
+                    reportSignInProgress(
+                        { kind: "Completed", stage, attempt, elapsedMs: Date.now() - startedAt, correlationId },
                         tokenResponse.accessToken);
 
                     const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
@@ -598,7 +598,7 @@ export class AuthManager {
 
                     console.log(error);
 
-                    reportSignInEvent({
+                    reportSignInError({
                         stage,
                         attempt,
                         elapsedMs: Date.now() - startedAt,
