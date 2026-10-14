@@ -6,6 +6,7 @@ import { map, type PreinitializedMapStore } from "nanostores";
 import { useStore } from "@nanostores/react";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import { RemoteServiceUrlBase, RemoteServiceUtility } from "./services/RemoteServiceUtility";
+import { createSignInAttemptId, reportSignInEvent } from "utils/SignInTelemetry";
 
 const PROFILE_STORAGE_KEY = "auth-user-profile--";
 const IMPERSONATION_STORAGE_KEY = "auth-impersonation--";
@@ -556,6 +557,14 @@ export class AuthManager {
         state.setKey("popupType", PopupType.Login);
         state.setKey("isRetrievingProfile", true);
 
+        // Report the attempt to the server: everything in the popup happens on the identity provider's
+        // page, so a user who gets stuck there (or hits an error) would otherwise leave no trace.
+        const attempt = createSignInAttemptId();
+        const startedAt = Date.now();
+        let stage = "loginPopup";
+        let correlationId: string | null = null;
+        reportSignInEvent({ stage: "loginPopup.started", attempt });
+
         return new Promise<void>((resolve) => {
             client
                 .loginPopup({
@@ -574,14 +583,30 @@ export class AuthManager {
                         tokenResponse?.account ?? null,
                     );
 
+                    correlationId = tokenResponse.correlationId ?? null;
+                    reportSignInEvent(
+                        { stage: "loginPopup.completed", attempt, elapsedMs: Date.now() - startedAt, correlationId },
+                        tokenResponse.accessToken);
+
                     const tokenProfile = AuthManager.getAuthTokenProfile(tokenResponse.account);
 
-                    this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile)
+                    stage = "profile";
+                    return this.retrieveRemoteProfile(tokenResponse.accessToken, tokenProfile)
                         .then(resolve);
                 })
                 .catch((error) => {
 
                     console.log(error);
+
+                    reportSignInEvent({
+                        stage,
+                        attempt,
+                        elapsedMs: Date.now() - startedAt,
+                        errorCode: error?.errorCode ?? error?.name ?? null,
+                        subError: error?.subError ?? null,
+                        correlationId: error?.correlationId ?? correlationId,
+                        message: error?.errorMessage ?? error?.message ?? `${error}`,
+                    });
 
                     state.setKey("popupType", PopupType.None);
                     state.setKey("isRetrievingProfile", false);
