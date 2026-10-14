@@ -12,7 +12,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Champ League #1",
-        "LastUpdated": "10/10/26 7:46 PM",
+        "LastUpdated": "10/14/26 12:01 AM",
         "DatabaseLastUpdated": "2026-10-10T14:59:20.6261396+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -1666,7 +1666,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Contender League 1",
-        "LastUpdated": "10/10/26 7:46 PM",
+        "LastUpdated": "10/14/26 12:01 AM",
         "DatabaseLastUpdated": "2026-10-10T14:59:20.6261396+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -1962,30 +1962,30 @@
             "State": null,
             "Scores": {
               "Wins": 0,
-              "Losses": 5,
+              "Losses": 6,
               "WinPercentage": 0,
-              "Rank": 8,
+              "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 200,
+              "TotalPoints": 250,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 40.0,
+              "AveragePoints": 41.7,
               "AverageCorrect": 3.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 94,
-              "Correct10s": 11,
-              "Correct20s": 4,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 12,
+              "Correct20s": 6,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 50,
                 "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "1",
-                "State": "InProgress",
-                "CurrentQuestion": 6
+                "State": "Completed",
+                "CurrentQuestion": null
               },
               {
                 "Result": "L",
@@ -2034,7 +2034,7 @@
                 "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 0
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Joel Reddipogu",
@@ -2051,19 +2051,19 @@
             "State": null,
             "Scores": {
               "Wins": 3,
-              "Losses": 2,
-              "WinPercentage": 60,
+              "Losses": 3,
+              "WinPercentage": 50,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 805,
+              "TotalPoints": 940,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 161.0,
-              "AverageCorrect": 10.6,
-              "QuizOuts": 5,
+              "AveragePoints": 156.7,
+              "AverageCorrect": 10.2,
+              "QuizOuts": 6,
               "QuestionCorrectPercentage": 87,
-              "Correct10s": 30,
-              "Correct20s": 19,
-              "Correct30s": 4,
+              "Correct10s": 34,
+              "Correct20s": 22,
+              "Correct30s": 5,
               "FootnoteIndex": null
             },
             "Matches": [
@@ -2095,13 +2095,13 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 135,
                 "OtherTeam": 6,
                 "RoomId": 3,
                 "Room": "3",
-                "State": "InProgress",
-                "CurrentQuestion": 20
+                "State": "Completed",
+                "CurrentQuestion": null
               },
               null,
               {
@@ -2123,7 +2123,7 @@
                 "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 3
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Joel Reddipogu",
@@ -2236,31 +2236,31 @@
             "City": "Marietta",
             "State": "GA",
             "Scores": {
-              "Wins": 4,
+              "Wins": 6,
               "Losses": 0,
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 960,
+              "TotalPoints": 1295,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 240.0,
-              "AverageCorrect": 12.3,
-              "QuizOuts": 8,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 17,
-              "Correct20s": 23,
-              "Correct30s": 9,
-              "FootnoteIndex": 0
+              "AveragePoints": 215.8,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 26,
+              "Correct20s": 35,
+              "Correct30s": 10,
+              "FootnoteIndex": null
             },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 175,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "1",
-                "State": "InProgress",
-                "CurrentQuestion": 6
+                "State": "Completed",
+                "CurrentQuestion": null
               },
               {
                 "Result": "W",
@@ -2281,13 +2281,13 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 160,
                 "OtherTeam": 4,
                 "RoomId": 3,
                 "Room": "3",
-                "State": "InProgress",
-                "CurrentQuestion": 20
+                "State": "Completed",
+                "CurrentQuestion": null
               },
               {
                 "Result": "W",
@@ -2309,7 +2309,7 @@
                 "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 3
+            "CurrentMatchId": null
           },
           {
             "CoachName": "McLean Mary Francis",
@@ -2417,7 +2417,7 @@
               "Wins": 0,
               "Losses": 6,
               "WinPercentage": 0,
-              "Rank": 9,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": 380,
               "PerMeetTotalPoints": null,
@@ -2428,7 +2428,7 @@
               "Correct10s": 20,
               "Correct20s": 10,
               "Correct30s": 2,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             },
             "Matches": [
               {
@@ -2498,13 +2498,17 @@
           4,
           1,
           0,
-          3,
-          8
+          8,
+          3
         ],
         "TeamFootnotes": [
           {
             "Symbol": "*",
-            "Text": "Tie broken by comparing total points of each team."
+            "Text": "Tie broken by head-to-head record of teams."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
         "Quizzers": [
@@ -2518,7 +2522,7 @@
             "City": "Roswell",
             "State": "GA",
             "Scores": {
-              "Rank": 13,
+              "Rank": 12,
               "IsTie": false,
               "TotalPoints": 255,
               "PerMeetTotalPoints": null,
@@ -2650,14 +2654,14 @@
             "Scores": {
               "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 270,
+              "TotalPoints": 380,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 67.5,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 10,
-              "Correct20s": 5,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 15,
+              "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
             },
@@ -2676,15 +2680,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 530,
+              "TotalPoints": 730,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 132.5,
+              "AveragePoints": 121.7,
               "AverageCorrect": 5.0,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 0,
-              "Correct20s": 13,
-              "Correct30s": 7,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 1,
+              "Correct20s": 21,
+              "Correct30s": 8,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -2700,16 +2704,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 16,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 160,
+              "TotalPoints": 200,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 32.0,
-              "AverageCorrect": 2.4,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 2.3,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 92,
+              "QuestionCorrectPercentage": 93,
               "Correct10s": 9,
-              "Correct20s": 3,
+              "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
             },
@@ -2752,18 +2756,18 @@
             "City": "Marietta",
             "State": "GA",
             "Scores": {
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 160,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 185,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 40.0,
-              "AverageCorrect": 3.3,
+              "AveragePoints": 30.8,
+              "AverageCorrect": 3.0,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 65,
-              "Correct10s": 7,
-              "Correct20s": 5,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 10,
+              "Correct20s": 7,
               "Correct30s": 1,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2858,15 +2862,15 @@
             "Scores": {
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 460,
+              "TotalPoints": 570,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 92.0,
+              "AveragePoints": 95.0,
               "AverageCorrect": 4.8,
-              "QuizOuts": 4,
+              "QuizOuts": 5,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 12,
-              "Correct20s": 10,
-              "Correct30s": 2,
+              "Correct10s": 14,
+              "Correct20s": 12,
+              "Correct30s": 3,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -2908,15 +2912,15 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 15,
+              "Rank": 18,
               "IsTie": false,
-              "TotalPoints": 165,
+              "TotalPoints": 160,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 33.0,
-              "AverageCorrect": 3.0,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.7,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 75,
-              "Correct10s": 9,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 10,
               "Correct20s": 5,
               "Correct30s": 1,
               "FootnoteIndex": null
@@ -2934,16 +2938,16 @@
             "City": null,
             "State": null,
             "Scores": {
-              "Rank": 14,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": 180,
+              "TotalPoints": 210,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 36.0,
-              "AverageCorrect": 2.8,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.7,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 9,
-              "Correct20s": 4,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 10,
+              "Correct20s": 5,
               "Correct30s": 1,
               "FootnoteIndex": null
             },
@@ -2962,13 +2966,13 @@
             "Scores": {
               "Rank": 22,
               "IsTie": false,
-              "TotalPoints": 40,
+              "TotalPoints": 50,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.0,
-              "AverageCorrect": 0.6,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.7,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
+              "Correct10s": 3,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -3064,7 +3068,7 @@
             "City": "Roswell",
             "State": "GA",
             "Scores": {
-              "Rank": 18,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": 195,
               "PerMeetTotalPoints": null,
@@ -3168,7 +3172,7 @@
             "City": "Marietta",
             "State": "GA",
             "Scores": {
-              "Rank": 17,
+              "Rank": 15,
               "IsTie": false,
               "TotalPoints": 185,
               "PerMeetTotalPoints": null,
@@ -3179,7 +3183,7 @@
               "Correct10s": 8,
               "Correct20s": 3,
               "Correct30s": 1,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -3249,13 +3253,13 @@
           8,
           11,
           3,
-          9,
           0,
           16,
-          15,
           7,
           25,
+          9,
           21,
+          15,
           18,
           22,
           27,
@@ -3280,13 +3284,13 @@
             "Name": "1",
             "Matches": [
               {
-                "CurrentQuestion": 6,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -3462,22 +3466,14 @@
                 "Blockers": null
               },
               {
-                "CurrentQuestion": 20,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 6,
                 "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "InProgress",
-                "Blockers": [
-                  {
-                    "RoomId": 1,
-                    "Match": 0,
-                    "Team": 6,
-                    "State": "InProgress",
-                    "CurrentQuestion": 6
-                  }
-                ]
+                "State": "Completed",
+                "Blockers": null
               },
               {
                 "CurrentQuestion": null,
@@ -3636,9 +3632,9 @@
             "RegularQuestionStats": null
           }
         ],
-        "HasRoomCompletionMismatch": true,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "5 of 7 Match(es) Done, +2 by some Room(s)",
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -3652,7 +3648,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 League 1",
-        "LastUpdated": "10/10/26 7:46 PM",
+        "LastUpdated": "10/14/26 12:01 AM",
         "DatabaseLastUpdated": "2026-10-10T14:59:20.6261396+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -5924,5 +5920,5 @@
       }
     }
   ],
-  "Freshness": "2026-10-10T19:46:11.5187907+00:00"
+  "Freshness": "2026-10-13T22:59:35.3649782+00:00"
 }
