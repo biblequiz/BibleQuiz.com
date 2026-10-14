@@ -1,7 +1,8 @@
 {
   "EventName": "PennDel JBQ 2026-27 Western M1",
   "DatabaseNames": {
-    "acfb91ab-23ac-45af-b956-2b457732ded4": "PennDel_JBQ_2026-27_Western_M1"
+    "acfb91ab-23ac-45af-b956-2b457732ded4": "PennDel_JBQ_2026-27_Western_M1",
+    "41b1282b-13cd-4b17-b293-e19d3300bb3f": "PennDel_TBQ_2026-27_Western_M1"
   },
   "Report": {
     "Meets": [
@@ -3625,6 +3626,2619 @@
         "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "41b1282b-13cd-4b17-b293-e19d3300bb3f",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Championship M1",
+        "LastUpdated": "10/14/26 3:01 PM",
+        "DatabaseLastUpdated": "2026-10-14T13:05:41.9630321+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Kavitha Joseph Muthu",
+            "Quizzers": [
+              3,
+              10
+            ],
+            "Id": "t_e769b1ea68154cf7886eb61b0c3dbcc4",
+            "Name": "Daughters of Faith",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              1,
+              2
+            ],
+            "Id": "t_41b1282b13cd4b17b293e19d3300bb3f_12",
+            "Name": "Ghost Team",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Joseph Lemley",
+            "Quizzers": [
+              4,
+              5,
+              9
+            ],
+            "Id": "t_fdf94262ef3546d4bb56ea840361fe69",
+            "Name": "Glorious Thunder",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Barb Bradley",
+            "Quizzers": [
+              6,
+              7,
+              8
+            ],
+            "Id": "t_1436e0f996b44470801c9743bdb56f1a",
+            "Name": "The Voices In The Wilderness",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Ghost Team",
+            "YearsQuizzing": null,
+            "Id": "q_41b1282b13cd4b17b293e19d3300bb3f_101",
+            "Name": "Ay Ghost",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ghost Team",
+            "YearsQuizzing": null,
+            "Id": "q_41b1282b13cd4b17b293e19d3300bb3f_102",
+            "Name": "Bee Chost",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ghost Team",
+            "YearsQuizzing": null,
+            "Id": "q_41b1282b13cd4b17b293e19d3300bb3f_103",
+            "Name": "Cea Ghost",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Daughters of Faith",
+            "YearsQuizzing": null,
+            "Id": "q_3bb71a5a3cbe45a570d508de04845ac9",
+            "Name": "Janlyn Manova",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glorious Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_9b8883b67b734cc6b396c74e2503ca79",
+            "Name": "Joshua Spencer",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glorious Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_2da06094873b4e2acb8808df21f76ae1",
+            "Name": "JR Gibson",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Voices In The Wilderness",
+            "YearsQuizzing": null,
+            "Id": "q_0826d0b250e94060e08408ddc7f3d1e2",
+            "Name": "Levi Ferguson",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Voices In The Wilderness",
+            "YearsQuizzing": null,
+            "Id": "q_c38d7f627e4648abca2408df2279a286",
+            "Name": "Levi Webb",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Voices In The Wilderness",
+            "YearsQuizzing": null,
+            "Id": "q_809459d4b2f84da3fa1b08dac0e0e0a1",
+            "Name": "Madison Ketter",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glorious Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_6ed5546027e9444bcb8208df21f76ae1",
+            "Name": "Selah Booher",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Daughters of Faith",
+            "YearsQuizzing": null,
+            "Id": "q_a3ba2f28ce754f1bf65708df173bf83f",
+            "Name": "Sharon Joseph Muthu",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:15 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "41b1282b-13cd-4b17-b293-e19d3300bb3f",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Contender M1",
+        "LastUpdated": "10/14/26 3:01 PM",
+        "DatabaseLastUpdated": "2026-10-14T13:05:41.9630321+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Kavitha Joseph Muthu",
+            "Quizzers": [
+              3,
+              10
+            ],
+            "Id": "t_e769b1ea68154cf7886eb61b0c3dbcc4",
+            "Name": "Daughters of Faith",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              1,
+              2
+            ],
+            "Id": "t_41b1282b13cd4b17b293e19d3300bb3f_12",
+            "Name": "Ghost Team",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Joseph Lemley",
+            "Quizzers": [
+              4,
+              5,
+              9
+            ],
+            "Id": "t_fdf94262ef3546d4bb56ea840361fe69",
+            "Name": "Glorious Thunder",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Barb Bradley",
+            "Quizzers": [
+              6,
+              7,
+              8
+            ],
+            "Id": "t_1436e0f996b44470801c9743bdb56f1a",
+            "Name": "The Voices In The Wilderness",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Ghost Team",
+            "YearsQuizzing": null,
+            "Id": "q_41b1282b13cd4b17b293e19d3300bb3f_101",
+            "Name": "Ay Ghost",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ghost Team",
+            "YearsQuizzing": null,
+            "Id": "q_41b1282b13cd4b17b293e19d3300bb3f_102",
+            "Name": "Bee Chost",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ghost Team",
+            "YearsQuizzing": null,
+            "Id": "q_41b1282b13cd4b17b293e19d3300bb3f_103",
+            "Name": "Cea Ghost",
+            "ChurchId": null,
+            "ChurchName": "Ghost Church",
+            "City": null,
+            "State": null,
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Daughters of Faith",
+            "YearsQuizzing": null,
+            "Id": "q_3bb71a5a3cbe45a570d508de04845ac9",
+            "Name": "Janlyn Manova",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glorious Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_9b8883b67b734cc6b396c74e2503ca79",
+            "Name": "Joshua Spencer",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glorious Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_2da06094873b4e2acb8808df21f76ae1",
+            "Name": "JR Gibson",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Voices In The Wilderness",
+            "YearsQuizzing": null,
+            "Id": "q_0826d0b250e94060e08408ddc7f3d1e2",
+            "Name": "Levi Ferguson",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Voices In The Wilderness",
+            "YearsQuizzing": null,
+            "Id": "q_c38d7f627e4648abca2408df2279a286",
+            "Name": "Levi Webb",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Voices In The Wilderness",
+            "YearsQuizzing": null,
+            "Id": "q_809459d4b2f84da3fa1b08dac0e0e0a1",
+            "Name": "Madison Ketter",
+            "ChurchId": "3c729c66-aa3e-4147-bc3d-fc584178e92e",
+            "ChurchName": "New Day Assembly of God",
+            "City": "Upper Saint Clair",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glorious Thunder",
+            "YearsQuizzing": null,
+            "Id": "q_6ed5546027e9444bcb8208df21f76ae1",
+            "Name": "Selah Booher",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Daughters of Faith",
+            "YearsQuizzing": null,
+            "Id": "q_a3ba2f28ce754f1bf65708df173bf83f",
+            "Name": "Sharon Joseph Muthu",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:15 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "41b1282b-13cd-4b17-b293-e19d3300bb3f",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "XP5 M1",
+        "LastUpdated": "10/14/26 3:01 PM",
+        "DatabaseLastUpdated": "2026-10-14T13:05:41.9630321+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Richard Craft",
+            "Quizzers": [
+              1,
+              9,
+              11
+            ],
+            "Id": "t_606c903b17204454b5001fa1fd12bd27",
+            "Name": "Fishers of Men",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "manova C",
+            "Quizzers": [
+              10,
+              17
+            ],
+            "Id": "t_8db49171e48447ceb338de9ec9494097",
+            "Name": "Followers Of Jesus",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Deanna Doughty",
+            "Quizzers": [
+              13,
+              19,
+              20
+            ],
+            "Id": "t_2afd9d7909f8413ebe59fb98b30dc47f",
+            "Name": "Good Soil",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Marcie Craft",
+            "Quizzers": [
+              4,
+              5,
+              21
+            ],
+            "Id": "t_0f8d96e6f5304351821893a61bdd8898",
+            "Name": "Messengers of Miracles",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sara Puckett",
+            "Quizzers": [
+              0,
+              12,
+              18,
+              23
+            ],
+            "Id": "t_08c1f79503dd4908bb5e8a71b5e86b16",
+            "Name": "Roof Raisers",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Liane McDonald",
+            "Quizzers": [
+              7,
+              8,
+              16
+            ],
+            "Id": "t_687818f3a56a431f9565e6863e0d4341",
+            "Name": "The Baptizers",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Annette Holcomb",
+            "Quizzers": [
+              2,
+              3,
+              14
+            ],
+            "Id": "t_25752327d09b4c3c9105215e9d4728b5",
+            "Name": "The Net Droppers",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Doug Hartman",
+            "Quizzers": [
+              6,
+              15,
+              22
+            ],
+            "Id": "t_41fa03f86d9b4a96aff5f78d87f9c310",
+            "Name": "Three Wise Women",
+            "ChurchId": "91dc9fb8-938b-4304-9b24-28960c5c38c9",
+            "ChurchName": "First Assembly of God",
+            "City": "New Castle",
+            "State": "PA",
+            "Scores": null,
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Roof Raisers",
+            "YearsQuizzing": null,
+            "Id": "q_23da12e27e3348aa727408de04845ac9",
+            "Name": "Addison Puckett",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fishers of Men",
+            "YearsQuizzing": null,
+            "Id": "q_8106274c18824263ccfb08dbdedcd2fc",
+            "Name": "Braden Rakowski",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Net Droppers",
+            "YearsQuizzing": null,
+            "Id": "q_a14d8bfc5c0e44b0226c08dcf1812c55",
+            "Name": "Brianna Rakowski",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Net Droppers",
+            "YearsQuizzing": null,
+            "Id": "q_834ab60890f54bd4792408df274ceed9",
+            "Name": "Cheyenne O'Neill",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Messengers of Miracles",
+            "YearsQuizzing": null,
+            "Id": "q_eca623e77b2140bd74ed08df26de375d",
+            "Name": "Danae Toward",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Messengers of Miracles",
+            "YearsQuizzing": null,
+            "Id": "q_be482004638e4571228d08dcf1812c55",
+            "Name": "Danika Porter",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Three Wise Women",
+            "YearsQuizzing": null,
+            "Id": "q_eb8783837f1944f4842a08df24d69b23",
+            "Name": "Ellie Reese",
+            "ChurchId": "91dc9fb8-938b-4304-9b24-28960c5c38c9",
+            "ChurchName": "First Assembly of God",
+            "City": "New Castle",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Baptizers",
+            "YearsQuizzing": null,
+            "Id": "q_041d2ee3316d441fcd1208dbdedcd2fc",
+            "Name": "Erik McDonald",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Baptizers",
+            "YearsQuizzing": null,
+            "Id": "q_e47fe6552fe248abc1f408ddfc475f45",
+            "Name": "Ethan Bennett",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fishers of Men",
+            "YearsQuizzing": null,
+            "Id": "q_a4f8e8c1b7dd4d14ccf508dbdedcd2fc",
+            "Name": "Evan Craft",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Followers Of Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_499f319655fe442670df08de04845ac9",
+            "Name": "Hepzibah Joseph Muthu",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Fishers of Men",
+            "YearsQuizzing": null,
+            "Id": "q_fa99b200c01d40a1c1b708ddfc475f45",
+            "Name": "Jackson Stickney",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Roof Raisers",
+            "YearsQuizzing": null,
+            "Id": "q_c8beb8ef07604902728908de04845ac9",
+            "Name": "Johnny Snyder",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good Soil",
+            "YearsQuizzing": null,
+            "Id": "q_280db4686ab14467cba308df21f76ae1",
+            "Name": "Lily McCullough",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Net Droppers",
+            "YearsQuizzing": null,
+            "Id": "q_8ad7b74becb048edc1b108ddfc475f45",
+            "Name": "Logan Porter",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Three Wise Women",
+            "YearsQuizzing": null,
+            "Id": "q_04ab5cbc36b740dd842808df24d69b23",
+            "Name": "Luci Smith",
+            "ChurchId": "91dc9fb8-938b-4304-9b24-28960c5c38c9",
+            "ChurchName": "First Assembly of God",
+            "City": "New Castle",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Baptizers",
+            "YearsQuizzing": null,
+            "Id": "q_c61984028588443acd1e08dbdedcd2fc",
+            "Name": "Lydia Gundel",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Followers Of Jesus",
+            "YearsQuizzing": null,
+            "Id": "q_b691121d098447b2710308de04845ac9",
+            "Name": "Matt Manova",
+            "ChurchId": "ac39421a-fc93-4bc5-9e95-9e56c5086d8c",
+            "ChurchName": "Solid Rock Revival Church",
+            "City": "Bridgeville",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Roof Raisers",
+            "YearsQuizzing": null,
+            "Id": "q_7b9966ac32f1462b72cf08de04845ac9",
+            "Name": "Michael Snyder",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good Soil",
+            "YearsQuizzing": null,
+            "Id": "q_49787cfe89d141e6f33008ddc988132c",
+            "Name": "Myla Doughty",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Good Soil",
+            "YearsQuizzing": null,
+            "Id": "q_11f8889b93e04631cb9d08df21f76ae1",
+            "Name": "Myla Muckle",
+            "ChurchId": "72a544f4-33f9-4c64-b738-a0dd70a4aaec",
+            "ChurchName": "Central Assembly of God",
+            "City": "Houston",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Messengers of Miracles",
+            "YearsQuizzing": null,
+            "Id": "q_24d96e37565b490774f308df26de375d",
+            "Name": "Samuel Gundel",
+            "ChurchId": "a7c845b4-59f8-47ef-97ab-08c83be0cd16",
+            "ChurchName": "Evangel Heights Assembly of God",
+            "City": "Sarver",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Three Wise Women",
+            "YearsQuizzing": null,
+            "Id": "q_a03e12bb078c42a3842d08df24d69b23",
+            "Name": "Sara Matejka",
+            "ChurchId": "91dc9fb8-938b-4304-9b24-28960c5c38c9",
+            "ChurchName": "First Assembly of God",
+            "City": "New Castle",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Roof Raisers",
+            "YearsQuizzing": null,
+            "Id": "q_bb47883949434ab572c308de04845ac9",
+            "Name": "Wyatt Puckett",
+            "ChurchId": "04f2a86b-ddf2-429f-7943-08de0476bc03",
+            "ChurchName": "Fire Now Church",
+            "City": "Cherry Tree",
+            "State": "PA",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 4,
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": null,
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "12:15 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "12:45 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
       }
     ]
   },
@@ -3656,7 +6270,49 @@
         "Show20s": true,
         "Show30s": true
       }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
     }
   ],
-  "Freshness": "2026-10-03T16:30:02.9352981+00:00"
+  "Freshness": "2026-10-14T13:05:42.0776682+00:00"
 }
