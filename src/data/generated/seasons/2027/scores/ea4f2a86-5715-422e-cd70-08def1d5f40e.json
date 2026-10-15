@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Sep A Div",
-        "LastUpdated": "9/20/26 6:01 PM",
-        "DatabaseLastUpdated": "2026-09-20T17:13:59.6761037+00:00",
+        "LastUpdated": "10/15/26 3:01 AM",
+        "DatabaseLastUpdated": "2026-10-15T01:38:08.0543308+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -61,7 +61,7 @@
               {
                 "Result": "L",
                 "Score": 55,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
@@ -79,7 +79,7 @@
               {
                 "Result": "W",
                 "Score": 105,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -88,7 +88,7 @@
               {
                 "Result": "W",
                 "Score": 220,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 4,
                 "Room": "A4",
                 "State": "Completed",
@@ -97,7 +97,7 @@
               {
                 "Result": "W",
                 "Score": 175,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
@@ -151,7 +151,7 @@
               {
                 "Result": "L",
                 "Score": 100,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
@@ -161,7 +161,7 @@
               {
                 "Result": "W",
                 "Score": 260,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
@@ -179,7 +179,7 @@
               {
                 "Result": "W",
                 "Score": 180,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -188,7 +188,7 @@
               {
                 "Result": "W",
                 "Score": 210,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -233,7 +233,7 @@
               {
                 "Result": "W",
                 "Score": 210,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -242,7 +242,7 @@
               {
                 "Result": "W",
                 "Score": 200,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 4,
                 "Room": "A4",
                 "State": "Completed",
@@ -260,7 +260,7 @@
               {
                 "Result": "W",
                 "Score": 210,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 4,
                 "Room": "A4",
                 "State": "Completed",
@@ -278,7 +278,7 @@
               {
                 "Result": "W",
                 "Score": 180,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 4,
                 "Room": "A4",
                 "State": "Completed",
@@ -321,7 +321,7 @@
               {
                 "Result": "L",
                 "Score": 15,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
@@ -330,7 +330,7 @@
               {
                 "Result": "L",
                 "Score": 0,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -339,7 +339,7 @@
               {
                 "Result": "L",
                 "Score": 30,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -348,7 +348,7 @@
               {
                 "Result": "L",
                 "Score": 35,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 4,
                 "Room": "A4",
                 "State": "Completed",
@@ -373,6 +373,103 @@
                 "CurrentQuestion": null
               },
               null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Alyssa Schmid",
+            "Quizzers": [
+              2,
+              4,
+              29
+            ],
+            "Id": "t_6fa8b24e192c4798bc6ee32a19b3bc27",
+            "Name": "Hope Chapel Assembly of God (Kansas City) #1",
+            "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
+            "ChurchName": "Hope Chapel Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 635,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.7,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 18,
+              "Correct20s": 20,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "A4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 8,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "A4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
             ],
             "CurrentMatchId": null
           },
@@ -410,7 +507,7 @@
               {
                 "Result": "W",
                 "Score": 135,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -419,7 +516,7 @@
               {
                 "Result": "W",
                 "Score": 230,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 4,
                 "Room": "A4",
                 "State": "Completed",
@@ -437,7 +534,7 @@
               {
                 "Result": "W",
                 "Score": 180,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -456,7 +553,7 @@
               {
                 "Result": "W",
                 "Score": 210,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -498,7 +595,7 @@
               {
                 "Result": "L",
                 "Score": 85,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -543,7 +640,7 @@
               {
                 "Result": "L",
                 "Score": 60,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -552,7 +649,7 @@
               {
                 "Result": "L",
                 "Score": 50,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -596,7 +693,7 @@
               {
                 "Result": "L",
                 "Score": 100,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -624,7 +721,7 @@
               {
                 "Result": "W",
                 "Score": 220,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 2,
                 "Room": "A2",
                 "State": "Completed",
@@ -633,7 +730,7 @@
               {
                 "Result": "W",
                 "Score": 265,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -704,7 +801,7 @@
               {
                 "Result": "W",
                 "Score": 135,
-                "OtherTeam": 8,
+                "OtherTeam": 4,
                 "RoomId": 1,
                 "Room": "A1",
                 "State": "Completed",
@@ -713,7 +810,7 @@
               {
                 "Result": "L",
                 "Score": 80,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 3,
                 "Room": "A3",
                 "State": "Completed",
@@ -740,114 +837,17 @@
               }
             ],
             "CurrentMatchId": null
-          },
-          {
-            "CoachName": "Alyssa Schmid",
-            "Quizzers": [
-              2,
-              4,
-              29
-            ],
-            "Id": "t_6fa8b24e192c4798bc6ee32a19b3bc27",
-            "Name": "Village West Assembly of God (Kansas City) #1",
-            "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
-            "City": "Kansas City",
-            "State": "KS",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 5,
-              "WinPercentage": 29,
-              "Rank": 7,
-              "IsTie": false,
-              "TotalPoints": 635,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 90.7,
-              "AverageCorrect": 5.7,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 91,
-              "Correct10s": 18,
-              "Correct20s": 20,
-              "Correct30s": 2,
-              "FootnoteIndex": null
-            },
-            "Matches": [
-              {
-                "Result": "W",
-                "Score": 95,
-                "OtherTeam": 5,
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 75,
-                "OtherTeam": 4,
-                "RoomId": 4,
-                "Room": "A4",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 90,
-                "OtherTeam": 7,
-                "RoomId": 1,
-                "Room": "A1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 105,
-                "OtherTeam": 3,
-                "RoomId": 4,
-                "Room": "A4",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 100,
-                "OtherTeam": 6,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 85,
-                "OtherTeam": 1,
-                "RoomId": 3,
-                "Room": "A3",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 85,
-                "OtherTeam": 0,
-                "RoomId": 2,
-                "Room": "A2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              }
-            ],
-            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
           2,
-          4,
-          6,
+          5,
+          7,
           1,
           0,
-          7,
           8,
-          5,
+          4,
+          6,
           3
         ],
         "TeamFootnotes": [
@@ -910,12 +910,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #1",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #1",
             "YearsQuizzing": null,
             "Id": "q_0c16d61e9f9d4d0f8a6908de1c8546f0",
             "Name": "Amos Nyakaro",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -962,12 +962,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #1",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #1",
             "YearsQuizzing": null,
             "Id": "q_32fb259c387f4cac8a6708de1c8546f0",
             "Name": "Apollo Vang",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -1612,12 +1612,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #1",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #1",
             "YearsQuizzing": null,
             "Id": "q_733ca9d7eea545af60c208df10741b2b",
             "Name": "Thomas Connell",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -1712,8 +1712,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 6,
+                "Team1": 5,
+                "Team2": 7,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1722,7 +1722,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 6,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -1732,8 +1732,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 8,
+                "Team1": 8,
+                "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1762,8 +1762,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 5,
+                "Team1": 7,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1773,7 +1773,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 7,
+                "Team2": 8,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1788,7 +1788,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
+                "Team1": 8,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -1798,7 +1798,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 7,
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -1808,7 +1808,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 5,
                 "Team2": 0,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -1819,7 +1819,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 5,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1828,8 +1828,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 8,
+                "Team1": 7,
+                "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1849,7 +1849,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 8,
+                "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1864,8 +1864,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 5,
+                "Team1": 4,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1875,46 +1875,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 7,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 3,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 7,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 5,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
                 "Team2": 8,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -1924,8 +1884,48 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 5,
+                "Team1": 7,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 8,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1950,8 +1950,28 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 4,
-                "Team2": 8,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1970,28 +1990,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 3,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 4,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 7,
+                "Team2": 8,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2001,7 +2001,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 6,
+                "Team2": 7,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2074,8 +2074,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Sep B Div",
-        "LastUpdated": "9/20/26 6:01 PM",
-        "DatabaseLastUpdated": "2026-09-20T17:13:59.6761037+00:00",
+        "LastUpdated": "10/15/26 3:01 AM",
+        "DatabaseLastUpdated": "2026-10-15T01:38:08.0543308+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -2121,7 +2121,7 @@
               {
                 "Result": "L",
                 "Score": 0,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2148,7 +2148,7 @@
               {
                 "Result": null,
                 "Score": 0,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2166,7 +2166,7 @@
               {
                 "Result": "L",
                 "Score": 0,
-                "OtherTeam": 8,
+                "OtherTeam": 9,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2211,7 +2211,7 @@
               {
                 "Result": "W",
                 "Score": 105,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2220,7 +2220,7 @@
               {
                 "Result": "L",
                 "Score": -5,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -2229,7 +2229,7 @@
               {
                 "Result": "W",
                 "Score": 125,
-                "OtherTeam": 8,
+                "OtherTeam": 9,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2247,7 +2247,7 @@
               {
                 "Result": "W",
                 "Score": 120,
-                "OtherTeam": 9,
+                "OtherTeam": 10,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2265,7 +2265,7 @@
               {
                 "Result": "W",
                 "Score": 150,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2318,7 +2318,7 @@
               {
                 "Result": "L",
                 "Score": 20,
-                "OtherTeam": 9,
+                "OtherTeam": 10,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -2336,7 +2336,7 @@
               {
                 "Result": "L",
                 "Score": 70,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2354,7 +2354,7 @@
               {
                 "Result": "W",
                 "Score": 115,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2363,7 +2363,7 @@
               {
                 "Result": "L",
                 "Score": 40,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -2407,7 +2407,7 @@
               {
                 "Result": "L",
                 "Score": 5,
-                "OtherTeam": 9,
+                "OtherTeam": 10,
                 "RoomId": 6,
                 "Room": "B6",
                 "State": "Completed",
@@ -2416,7 +2416,7 @@
               {
                 "Result": "L",
                 "Score": 15,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2452,7 +2452,7 @@
               {
                 "Result": "L",
                 "Score": 40,
-                "OtherTeam": 8,
+                "OtherTeam": 9,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2461,7 +2461,7 @@
               {
                 "Result": "W",
                 "Score": 190,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2505,7 +2505,7 @@
               {
                 "Result": "L",
                 "Score": 30,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -2514,7 +2514,7 @@
               {
                 "Result": "L",
                 "Score": 90,
-                "OtherTeam": 8,
+                "OtherTeam": 9,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2541,7 +2541,7 @@
               {
                 "Result": "W",
                 "Score": 90,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -2550,7 +2550,7 @@
               {
                 "Result": "L",
                 "Score": 25,
-                "OtherTeam": 9,
+                "OtherTeam": 10,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -2559,9 +2559,108 @@
               {
                 "Result": "L",
                 "Score": 50,
+                "OtherTeam": 8,
+                "RoomId": 6,
+                "Room": "B6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jessica Schmid",
+            "Quizzers": [
+              3,
+              12,
+              27,
+              50,
+              51
+            ],
+            "Id": "t_88b0b778055e4b1e944f65a0ed2cbebb",
+            "Name": "Hope Chapel Assembly of God (Kansas City) #2",
+            "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
+            "ChurchName": "Hope Chapel Assembly of God",
+            "City": "Kansas City",
+            "State": "KS",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 9,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
                 "OtherTeam": 7,
                 "RoomId": 6,
                 "Room": "B6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 8,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 10,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 0,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 2,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
                 "State": "Completed",
                 "CurrentQuestion": null
               }
@@ -2622,7 +2721,7 @@
               {
                 "Result": "L",
                 "Score": 30,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -2631,7 +2730,7 @@
               {
                 "Result": "W",
                 "Score": 160,
-                "OtherTeam": 8,
+                "OtherTeam": 9,
                 "RoomId": 6,
                 "Room": "B6",
                 "State": "Completed",
@@ -2640,7 +2739,7 @@
               {
                 "Result": "L",
                 "Score": 45,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2649,7 +2748,7 @@
               {
                 "Result": "W",
                 "Score": 110,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2658,7 +2757,7 @@
               {
                 "Result": "L",
                 "Score": 30,
-                "OtherTeam": 9,
+                "OtherTeam": 10,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -2701,7 +2800,7 @@
               {
                 "Result": "W",
                 "Score": 90,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -2710,7 +2809,7 @@
               {
                 "Result": "W",
                 "Score": 105,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 6,
                 "Room": "B6",
                 "State": "Completed",
@@ -2719,7 +2818,7 @@
               {
                 "Result": "L",
                 "Score": 45,
-                "OtherTeam": 9,
+                "OtherTeam": 10,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2728,7 +2827,7 @@
               {
                 "Result": "W",
                 "Score": 100,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2746,7 +2845,7 @@
               {
                 "Result": "L",
                 "Score": 80,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2800,7 +2899,7 @@
               {
                 "Result": "L",
                 "Score": 80,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -2818,7 +2917,7 @@
               {
                 "Result": "W",
                 "Score": 240,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -2836,7 +2935,7 @@
               {
                 "Result": "W",
                 "Score": 70,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -2845,7 +2944,7 @@
               {
                 "Result": "W",
                 "Score": 160,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -2899,7 +2998,7 @@
               {
                 "Result": "W",
                 "Score": 210,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -2926,7 +3025,7 @@
               {
                 "Result": "L",
                 "Score": 60,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 6,
                 "Room": "B6",
                 "State": "Completed",
@@ -2935,7 +3034,7 @@
               {
                 "Result": "W",
                 "Score": 150,
-                "OtherTeam": 10,
+                "OtherTeam": 11,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -3017,7 +3116,7 @@
               {
                 "Result": "W",
                 "Score": 200,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 5,
                 "Room": "B5",
                 "State": "Completed",
@@ -3026,7 +3125,7 @@
               {
                 "Result": "W",
                 "Score": 160,
-                "OtherTeam": 11,
+                "OtherTeam": 5,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -3053,7 +3152,7 @@
               {
                 "Result": "W",
                 "Score": 80,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -3117,7 +3216,7 @@
               {
                 "Result": "W",
                 "Score": 40,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -3126,7 +3225,7 @@
               {
                 "Result": "L",
                 "Score": 90,
-                "OtherTeam": 6,
+                "OtherTeam": 7,
                 "RoomId": 3,
                 "Room": "B3",
                 "State": "Completed",
@@ -3135,7 +3234,7 @@
               {
                 "Result": "L",
                 "Score": 80,
-                "OtherTeam": 8,
+                "OtherTeam": 9,
                 "RoomId": 4,
                 "Room": "B4",
                 "State": "Completed",
@@ -3144,7 +3243,7 @@
               {
                 "Result": "L",
                 "Score": 25,
-                "OtherTeam": 7,
+                "OtherTeam": 8,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -3161,120 +3260,21 @@
               }
             ],
             "CurrentMatchId": null
-          },
-          {
-            "CoachName": "Jessica Schmid",
-            "Quizzers": [
-              3,
-              12,
-              27,
-              50,
-              51
-            ],
-            "Id": "t_88b0b778055e4b1e944f65a0ed2cbebb",
-            "Name": "Village West Assembly of God (Kansas City) #2",
-            "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
-            "City": "Kansas City",
-            "State": "KS",
-            "Scores": {
-              "Wins": 0,
-              "Losses": 6,
-              "WinPercentage": 0,
-              "Rank": 12,
-              "IsTie": false,
-              "TotalPoints": 0,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 1
-            },
-            "Matches": [
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 8,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 6,
-                "RoomId": 6,
-                "Room": "B6",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 7,
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 9,
-                "RoomId": 4,
-                "Room": "B4",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": null,
-                "Score": 0,
-                "OtherTeam": 0,
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 2,
-                "RoomId": 5,
-                "Room": "B5",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 3,
-                "RoomId": 3,
-                "Room": "B3",
-                "State": "Completed",
-                "CurrentQuestion": null
-              }
-            ],
-            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
-          7,
-          1,
-          9,
           8,
-          5,
-          2,
-          6,
+          1,
           10,
+          9,
+          6,
+          2,
+          7,
+          11,
           4,
           3,
           0,
-          11
+          5
         ],
         "TeamFootnotes": [
           {
@@ -3370,12 +3370,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #2",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #2",
             "YearsQuizzing": null,
             "Id": "q_ba007cb21f1d4ce39e1508df0e639fb7",
             "Name": "Anthony Connell",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -3604,12 +3604,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #2",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #2",
             "YearsQuizzing": null,
             "Id": "q_12290c9e7c9e49ed8a7008de1c8546f0",
             "Name": "Damari Ortiz",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -3994,12 +3994,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #2",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #2",
             "YearsQuizzing": null,
             "Id": "q_ceaa99271b9a4c808a8308de1c8546f0",
             "Name": "Ivory Vang",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -4361,7 +4361,7 @@
             "TeamName": "Connection Point Church (Raytown) #2",
             "YearsQuizzing": null,
             "Id": "q_fa2d40acefea412a3e2008dba675c3b5",
-            "Name": "Penelope Pucket (PJ)",
+            "Name": "Penelope (PJ) Pucket",
             "ChurchId": "b58248d5-7a6d-49d8-5690-08dba66d347b",
             "ChurchName": "Connection Point Church",
             "City": "Raytown",
@@ -4592,12 +4592,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #2",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #2",
             "YearsQuizzing": null,
             "Id": "q_1e4a3fcee61841f58a6c08de1c8546f0",
             "Name": "Sparrow Vang",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -4618,12 +4618,12 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Village West Assembly of God (Kansas City) #2",
+            "TeamName": "Hope Chapel Assembly of God (Kansas City) #2",
             "YearsQuizzing": null,
             "Id": "q_e453af09187047588a8808de1c8546f0",
             "Name": "Theodore Ortiz",
             "ChurchId": "7c7633ea-8c7d-421d-927c-1d1c83e76cb1",
-            "ChurchName": "Village West Assembly of God",
+            "ChurchName": "Hope Chapel Assembly of God",
             "City": "Kansas City",
             "State": "KS",
             "Scores": {
@@ -4767,8 +4767,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 11,
+                "Team1": 9,
+                "Team2": 5,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4777,7 +4777,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 9,
+                "Team1": 10,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4787,8 +4787,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 10,
+                "Team1": 6,
+                "Team2": 11,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4807,7 +4807,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 7,
                 "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4817,8 +4817,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 10,
+                "Team1": 8,
+                "Team2": 11,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4827,8 +4827,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 9,
-                "Team2": 5,
+                "Team1": 10,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4843,7 +4843,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 6,
                 "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4853,7 +4853,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 10,
+                "Team1": 11,
                 "Team2": 0,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4864,7 +4864,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 8,
+                "Team2": 9,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4873,7 +4873,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
+                "Team1": 8,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4884,7 +4884,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 11,
+                "Team2": 5,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4893,7 +4893,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
+                "Team1": 9,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4904,7 +4904,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 6,
+                "Team2": 7,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4929,8 +4929,18 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
+                "Team1": 9,
                 "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 5,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4949,7 +4959,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 1,
                 "Team2": 10,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -4959,18 +4969,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 9,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 6,
+                "Team1": 6,
+                "Team2": 7,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4980,7 +4980,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 3,
-                "Team2": 11,
+                "Team2": 5,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -4995,8 +4995,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 6,
+                "Team1": 8,
+                "Team2": 7,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5006,7 +5006,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 5,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5025,6 +5025,16 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 10,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 9,
                 "Team2": 11,
                 "Quizzers": null,
@@ -5035,17 +5045,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 10,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 9,
+                "Team1": 10,
                 "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -5056,7 +5056,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 10,
+                "Team2": 11,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5072,7 +5072,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 10,
+                "Team2": 11,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5081,7 +5081,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
+                "Team1": 8,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -5091,8 +5091,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 9,
-                "Team2": 6,
+                "Team1": 10,
+                "Team2": 7,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5111,8 +5111,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
-                "Team2": 5,
+                "Team1": 8,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5122,7 +5122,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 11,
+                "Team2": 5,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5131,7 +5131,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
+                "Team1": 9,
                 "Team2": 0,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -5147,7 +5147,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 9,
+                "Team1": 10,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -5157,8 +5157,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
-                "Team2": 11,
+                "Team1": 7,
+                "Team2": 5,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5177,8 +5177,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 8,
-                "Team2": 5,
+                "Team1": 9,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -5207,7 +5207,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 7,
+                "Team1": 8,
                 "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -5281,8 +5281,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Sep PW Div",
-        "LastUpdated": "9/20/26 6:01 PM",
-        "DatabaseLastUpdated": "2026-09-20T17:13:59.6761037+00:00",
+        "LastUpdated": "10/15/26 3:01 AM",
+        "DatabaseLastUpdated": "2026-10-15T01:38:08.0543308+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -5290,7 +5290,8 @@
             "CoachName": "Abbi Gondringer",
             "Quizzers": [
               0,
-              6
+              1,
+              7
             ],
             "Id": "t_da239f4d7425418a98680b1fc970d06a",
             "Name": "First Assembly of God (Trenton) #4",
@@ -5376,8 +5377,8 @@
           {
             "CoachName": "Holly Holmes",
             "Quizzers": [
-              5,
-              10
+              6,
+              11
             ],
             "Id": "t_b04bbcd357324bbebb5e51b3e4e4cd21",
             "Name": "Nodaway Valley Christian Fellowship (BRADDYVILLE)",
@@ -5463,10 +5464,10 @@
           {
             "CoachName": "Charley Bailes",
             "Quizzers": [
-              1,
-              4,
-              8,
-              9
+              2,
+              5,
+              9,
+              10
             ],
             "Id": "t_6d6cef147d6049bc898125172f7f0419",
             "Name": "Northland Christian Schools Peewees #1 - Bible Reader Stars",
@@ -5552,10 +5553,10 @@
           {
             "CoachName": "Janel Kline",
             "Quizzers": [
-              2,
               3,
-              7,
-              11
+              4,
+              8,
+              12
             ],
             "Id": "t_e7aff4a376094528ad1003895c140783",
             "Name": "Northland Christian Schools Peewees #2 - Quiz Out Queens",
@@ -5647,6 +5648,32 @@
         ],
         "TeamFootnotes": [],
         "Quizzers": [
+          {
+            "TeamName": "First Assembly of God (Trenton) #4",
+            "YearsQuizzing": null,
+            "Id": "q_4d93f6d9f6694ff692e4f23f2d45d9f7_94",
+            "Name": "Aleena Cox",
+            "ChurchId": "849d342b-a0d7-4609-b831-abcd83a0933f",
+            "ChurchName": "First Assembly of God",
+            "City": "Trenton",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
           {
             "TeamName": "First Assembly of God (Trenton) #4",
             "YearsQuizzing": null,
@@ -5840,7 +5867,7 @@
             "State": "MO",
             "Scores": {
               "Rank": 11,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -5961,18 +5988,19 @@
           }
         ],
         "RankedQuizzers": [
-          6,
-          5,
-          8,
-          3,
-          0,
-          9,
-          2,
-          10,
-          1,
-          4,
           7,
-          11
+          6,
+          9,
+          4,
+          1,
+          10,
+          3,
+          11,
+          2,
+          5,
+          0,
+          8,
+          12
         ],
         "QuizzerFootnotes": [
           {
@@ -6212,5 +6240,5 @@
       }
     }
   ],
-  "Freshness": "2026-09-20T17:14:00.4572945+00:00"
+  "Freshness": "2026-10-15T01:38:08.2828759+00:00"
 }
