@@ -4,9 +4,10 @@ interface Props {
     fields: RequiredPersonFields;
     setFields: (value: RequiredPersonFields) => void;
     includeBirthdate: boolean;
+    includeEmail?: boolean;
 }
 
-export default function EventRequiredFieldCardBody({ fields, setFields, includeBirthdate }: Props) {
+export default function EventRequiredFieldCardBody({ fields, setFields, includeBirthdate, includeEmail = true }: Props) {
 
     const getFieldCheckbox = (boxField: RequiredPersonFields, text: string) => {
 
@@ -32,7 +33,7 @@ export default function EventRequiredFieldCardBody({ fields, setFields, includeB
     return (
         <>
             <div className="w-full flex flex-col mt-0">
-                {getFieldCheckbox(RequiredPersonFields.Email, "E-mail Address")}
+                {includeEmail && getFieldCheckbox(RequiredPersonFields.Email, "E-mail Address")}
                 {getFieldCheckbox(RequiredPersonFields.PhoneNumber, "Phone Number")}
                 {includeBirthdate && getFieldCheckbox(RequiredPersonFields.DateOfBirth, "Birthdate")}
                 {getFieldCheckbox(RequiredPersonFields.Address, "Address")}

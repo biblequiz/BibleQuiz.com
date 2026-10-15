@@ -36,7 +36,8 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
         setContactFields(requiredFields.contactFields);
         setQuizzerFields(requiredFields.roleFields[PersonRole[PersonRole.Quizzer]] ?? RequiredPersonFields.None);
         setCoachFields(requiredFields.roleFields[PersonRole[PersonRole.Coach]] ?? RequiredPersonFields.None);
-        setOfficialFields(requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None);
+        // An e-mail address can't be required for officials, so drop any that's stored instead of saving it back hidden.
+        setOfficialFields((requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None) & ~RequiredPersonFields.Email);
         if (teamsAndQuizzers.allowIndividuals) {
             setQuizzerWithoutTeamFields(requiredFields.roleFields[PersonRole[PersonRole.QuizzerWithoutTeam]] ?? RequiredPersonFields.None);
         }
@@ -77,7 +78,8 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                 By default, only a person's name is required. However, there are cases where additional information
                 may be needed. For example, you may want to require an e-mail address or phone number for the coach or team contact.
                 If a person is missing one of these fields during registration, they will be required to enter them. Any updates to
-                people will require this information be added.
+                people will require this information be added. An e-mail address can't be required for officials, since teams
+                rarely have it and a made-up address is worse than none.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -119,6 +121,7 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                             sharedDirtyWindowState.set(true);
                         }}
                         includeBirthdate={true}
+                        includeEmail={false}
                     />
                 </EventFieldCard>
                 {officialsAndAttendees.allowAttendees && (

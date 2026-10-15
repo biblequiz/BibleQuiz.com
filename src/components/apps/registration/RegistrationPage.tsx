@@ -6,7 +6,6 @@ import CollapsibleSection from "components/CollapsibleSection";
 import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
 import PersonCardDeck from "./PersonCardDeck";
 import RegistrationBanner from "./RegistrationBanner";
-import RegistrationSaveBar from "./RegistrationSaveBar";
 import RegistrationTeamDialog from "./RegistrationTeamDialog";
 import { PersonRole } from "types/services/PeopleService";
 import { EventFieldScopes, EventsService, type PaymentEntry } from "types/services/EventsService";
@@ -35,15 +34,12 @@ export default function RegistrationPage() {
         addUserChurch,
         isLoadingUserChurches,
         registration,
-        setRegistration,
         registrationVersion,
         setRegistrationVersion,
         reloadRegistration,
         isEditable,
         sectionEditability,
         churchPermissionError,
-        isDirty,
-        setDirty,
         isSaving,
         saveRegistration,
     } = context;
@@ -116,10 +112,10 @@ export default function RegistrationPage() {
     const formTotal = registration?.Forms?.length ?? 0;
     const formCompleted = registration?.Forms?.filter(f => f.CompletedDate !== null).length ?? 0;
 
-    // People edit handlers.
-    const handlePersonDialogClose = (updatedPerson: RegistrationPerson | null, role: PersonRole) => {
-        setEditingPerson(null);
-        if (!updatedPerson || !registration) return;
+    // People edit handlers. Each change is saved right away (like teams), so nothing is left unsaved for a
+    // team or payment save to reload over. A rejected save throws, and the dialog shows why.
+    const handlePersonSaved = async (updatedPerson: RegistrationPerson, role: PersonRole): Promise<void> => {
+        if (!registration) return;
 
         const updateList = <T extends RegistrationPerson>(list: T[], person: T): T[] => {
             const existing = list.findIndex(p => p.PersonId === person.PersonId);
@@ -144,11 +140,10 @@ export default function RegistrationPage() {
                 break;
         }
 
-        setRegistration(updated);
-        setDirty(true);
+        await saveRegistration(updated);
     };
 
-    const handleRemovePerson = (person: RegistrationPerson, role: PersonRole) => {
+    const handleRemovePerson = async (person: RegistrationPerson, role: PersonRole): Promise<void> => {
         if (!registration) return;
 
         const updated = { ...registration } as typeof registration;
@@ -164,12 +159,11 @@ export default function RegistrationPage() {
                 break;
         }
 
-        setRegistration(updated);
-        setDirty(true);
+        await saveRegistration(updated);
     };
 
     return (
-        <div className="flex flex-col gap-2 pb-16">
+        <div className="flex flex-col gap-2">
             {/* Banner */}
             {!isEventOwner && <RegistrationBanner event={event} />}
 
@@ -747,15 +741,6 @@ export default function RegistrationPage() {
 
             </fieldset>
 
-            {/* Save Bar */}
-            {isEditable && (
-                <RegistrationSaveBar
-                    isDirty={isDirty}
-                    isSaving={isSaving}
-                    onSave={saveRegistration}
-                />
-            )}
-
             {/* Team Dialog */}
             {(editingTeam || isAddingTeam) && church && (
                 <RegistrationTeamDialog
@@ -765,7 +750,6 @@ export default function RegistrationPage() {
                     team={editingTeam}
                     otherTeams={(registration?.Teams ?? []).filter(t => !editingTeam || t.Id !== editingTeam.Id)}
                     onClose={(result) => {
-                        setDirty(isDirty);
                         setEditingTeam(null);
                         setIsAddingTeam(false);
                         if (result) {
@@ -785,14 +769,16 @@ export default function RegistrationPage() {
                     existingPerson={editingPerson.person}
                     role={editingPerson.role}
                     existingPeopleIds={new Set()}
-                    onClose={(result) => {
-                        if (result === "delete" && editingPerson.person) {
-                            handleRemovePerson(editingPerson.person, editingPerson.role);
-                        } else if (result && result !== "delete") {
-                            handlePersonDialogClose(result, editingPerson.role);
+                    onSave={async (result) => {
+                        if (result === "delete") {
+                            if (editingPerson.person) {
+                                await handleRemovePerson(editingPerson.person, editingPerson.role);
+                            }
+                        } else {
+                            await handlePersonSaved(result, editingPerson.role);
                         }
-                        setEditingPerson(null);
                     }}
+                    onClose={() => setEditingPerson(null)}
                 />
             )}
 
