@@ -55,6 +55,12 @@ interface Props {
      *   user removed the person, or null if the dialog was cancelled.
      */
     onClose: (result: RegistrationPerson | "delete" | null) => void;
+
+    /**
+     * Optional handler that saves the person (or "delete" to remove them) before the dialog closes.
+     * If it throws, the dialog stays open and shows the error's (HTML) message.
+     */
+    onSave?: (result: RegistrationPerson | "delete") => Promise<void>;
 }
 
 /** Returns the EventFieldScope to use for the supplied role. */
@@ -118,6 +124,7 @@ export default function RegistrationPersonDialog({
     existingPeopleIds,
     readOnly = false,
     onClose,
+    onSave,
 }: Props) {
 
     const dialogRef = useRef<HTMLDialogElement>(null);
@@ -146,19 +153,46 @@ export default function RegistrationPersonDialog({
     const [isShowingLookup, setIsShowingLookup] = useState<boolean>(false);
     const [isEditingRequiredDetails, setIsEditingRequiredDetails] = useState<boolean>(false);
     const [validationError, setValidationError] = useState<string | null>(null);
+    const [isSaving, setIsSaving] = useState<boolean>(false);
+    const [saveErrorHtml, setSaveErrorHtml] = useState<string | null>(null);
 
     // Promote to the browser's top layer so this dialog (and its nested person lookup)
     // stack above Starlight's header/sidebar and any parent dialog. The dialog can be
     // Escape-closed unless a nested lookup dialog is up (so the lookup closes first).
     useModalDialog(
         dialogRef,
-        () => onClose(null), isShowingLookup || isEditingRequiredDetails);
+        () => onClose(null), isShowingLookup || isEditingRequiredDetails || isSaving);
+
+    /** Saves the result (if there's a save handler) and closes the dialog once it succeeds. */
+    const complete = async (result: RegistrationPerson | "delete"): Promise<void> => {
+        if (!onSave) {
+            onClose(result);
+            return;
+        }
+
+        setIsSaving(true);
+        setSaveErrorHtml(null);
+        try {
+            await onSave(result);
+        }
+        catch (error) {
+            setSaveErrorHtml((error as Error)?.message || "An error occurred while saving the registration.");
+            setIsSaving(false);
+            return;
+        }
+
+        onClose(result);
+    };
 
     const scope = getScopeForRole(role);
     const roleLabel = role === PersonRole.QuizzerWithoutTeam
         ? "Quizzer (No Team)"
         : PersonRole[role];
-    const requiredFields = event.RequiredRoleFields?.[PersonRole[role]] ?? RequiredPersonFields.None;
+    // An e-mail address is never required for officials (the server ignores it too), even if the event has it stored.
+    const eventRequiredFields = event.RequiredRoleFields?.[PersonRole[role]] ?? RequiredPersonFields.None;
+    const requiredFields = role === PersonRole.Official
+        ? eventRequiredFields & ~RequiredPersonFields.Email
+        : eventRequiredFields;
 
     /**
      * Opens the required details editor when the person is missing a field the event requires, so it's
@@ -274,7 +308,7 @@ export default function RegistrationPersonDialog({
         // server-facing model, but we set it here for client-side rendering.
         (registrationPerson as { Person: Person }).Person = linkedPerson;
 
-        onClose(registrationPerson);
+        void complete(registrationPerson);
     };
 
     const linkedPersonDisplay = linkedPerson
@@ -301,6 +335,7 @@ export default function RegistrationPersonDialog({
                         type="button"
                         className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
                         aria-label="Close"
+                        disabled={isSaving}
                         onClick={() => onClose(null)}>
                         ✕
                     </button>
@@ -310,6 +345,16 @@ export default function RegistrationPersonDialog({
                             <FontAwesomeIcon icon="fas faCircleExclamation" />
                             <div>
                                 <b>Error: </b> {validationError}
+                            </div>
+                        </div>)}
+
+                    {saveErrorHtml && (
+                        <div role="alert" className="alert alert-error mt-2 mb-2 w-full">
+                            <FontAwesomeIcon icon="fas faCircleExclamation" />
+                            <div>
+                                <b>Unable to save: </b>
+                                {/* The server HTML-encodes the values in its messages. */}
+                                <span dangerouslySetInnerHTML={{ __html: saveErrorHtml }} />
                             </div>
                         </div>)}
 
@@ -423,20 +468,24 @@ export default function RegistrationPersonDialog({
                                 <button
                                     type="button"
                                     className="btn btn-error mr-auto mt-0"
-                                    onClick={() => onClose("delete")}>
+                                    disabled={isSaving}
+                                    onClick={() => void complete("delete")}>
                                     <FontAwesomeIcon icon="fas faTrash" />
                                     Remove
                                 </button>)}
                             <button
                                 type="submit"
                                 className="btn btn-primary mt-0"
-                                disabled={readOnly}>
-                                <FontAwesomeIcon icon="fas faCheck" />
+                                disabled={readOnly || isSaving}>
+                                {isSaving
+                                    ? <span className="loading loading-spinner loading-xs"></span>
+                                    : <FontAwesomeIcon icon="fas faCheck" />}
                                 Save
                             </button>
                             <button
                                 type="button"
                                 className="btn btn-warning mt-0"
+                                disabled={isSaving}
                                 onClick={() => onClose(null)}>
                                 Cancel
                             </button>

@@ -1,11 +1,10 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { Church, ChurchesService, ChurchResultFilter } from "types/services/ChurchesService";
 import { EventInfo, EventRegistrationStatus, EventsService, type EventRestrictions } from "types/services/EventsService";
 import { Registration, RegistrationService } from "types/services/RegistrationService";
-import { sharedDirtyWindowState, sharedGlobalStatusToast } from "utils/SharedState";
 
 interface Props {
 }
@@ -77,17 +76,15 @@ export interface RegistrationProviderContext {
     /** Error message when loading the church's registration (e.g. permission denied). */
     churchPermissionError: string | null;
 
-    /** Whether there are unsaved changes to people (officials/quizzers/attendees). */
-    isDirty: boolean;
-
-    /** Mark the registration as having unsaved people changes. */
-    setDirty: (dirty: boolean) => void;
-
     /** Whether a save operation is in progress. */
     isSaving: boolean;
 
-    /** Trigger a batch save for people (officials/individuals/attendees). */
-    saveRegistration: () => Promise<void>;
+    /**
+     * Saves the people (officials/individuals/attendees) in the updated registration right away, the same
+     * way teams are saved. Throws with the server's (HTML) message if it's rejected, leaving the current
+     * registration unchanged.
+     */
+    saveRegistration: (updatedRegistration: Registration) => Promise<void>;
 }
 
 export default function RegistrationProvider({ }: Props) {
@@ -112,13 +109,7 @@ export default function RegistrationProvider({ }: Props) {
     const [isLoadingRegistration, setIsLoadingRegistration] = useState<boolean>(false);
     const [churchPermissionError, setChurchPermissionError] = useState<string | null>(null);
 
-    const [isDirty, setDirtyState] = useState<boolean>(false);
     const [isSaving, setIsSaving] = useState<boolean>(false);
-
-    const setDirty = useCallback((dirty: boolean) => {
-        setDirtyState(dirty);
-        sharedDirtyWindowState.set(dirty);
-    }, []);
 
     // Load the event.
     useEffect(() => {
@@ -243,14 +234,6 @@ export default function RegistrationProvider({ }: Props) {
                 Version: 0,
             });
 
-            // Officials, individuals, and attendees are only saved with the Save button, but teams and payments
-            // save on their own and then reload. Keep the people that haven't been saved yet, or they're lost.
-            if (isDirty && registration?.EventId === eventId && registration?.ChurchId === church.Id) {
-                currentRegistration.Officials = registration.Officials;
-                currentRegistration.Individuals = registration.Individuals;
-                currentRegistration.Attendees = registration.Attendees;
-            }
-
             setRegistration(currentRegistration);
             setRegistrationVersion(currentRegistration.Version ?? 0);
         }
@@ -274,33 +257,23 @@ export default function RegistrationProvider({ }: Props) {
         reloadRegistration();
     }, [eventId, church?.Id]);
 
-    // Batch save for people (officials/individuals/attendees).
-    const saveRegistration = async (): Promise<void> => {
-        if (!registration || !eventId || !church?.Id) {
-            return;
+    // Save for people (officials/individuals/attendees).
+    const saveRegistration = async (updatedRegistration: Registration): Promise<void> => {
+        if (!eventId || !church?.Id) {
+            throw new Error("Select a church before registering people.");
         }
 
         setIsSaving(true);
         try {
-            registration.Attendees ??= [];
+            updatedRegistration.Attendees ??= [];
 
-            const updatedRegistration = await RegistrationService.createOrUpdateChurch(auth, registration);
+            const savedRegistration = await RegistrationService.createOrUpdateChurch(auth, updatedRegistration);
 
             // Preserve teams since they aren't included in this endpoint.
-            (updatedRegistration as any).Teams = registration.Teams;
+            (savedRegistration as any).Teams = updatedRegistration.Teams;
 
-            setRegistration(updatedRegistration);
-            setRegistrationVersion(updatedRegistration.Version ?? 0);
-            setDirty(false);
-        }
-        catch (error) {
-            sharedGlobalStatusToast.set({
-                type: "error",
-                title: "Unable to Save Registration",
-                message: (error as Error)?.message || "An error occurred while saving the registration.",
-                isHtmlMessage: true,
-                timeout: 10000,
-            });
+            setRegistration(savedRegistration);
+            setRegistrationVersion(savedRegistration.Version ?? 0);
         }
         finally {
             setIsSaving(false);
@@ -402,8 +375,6 @@ export default function RegistrationProvider({ }: Props) {
         isEditable,
         sectionEditability,
         churchPermissionError,
-        isDirty,
-        setDirty,
         isSaving,
         saveRegistration,
     };

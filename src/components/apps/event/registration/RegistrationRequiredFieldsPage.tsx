@@ -36,7 +36,8 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
         setContactFields(requiredFields.contactFields);
         setQuizzerFields(requiredFields.roleFields[PersonRole[PersonRole.Quizzer]] ?? RequiredPersonFields.None);
         setCoachFields(requiredFields.roleFields[PersonRole[PersonRole.Coach]] ?? RequiredPersonFields.None);
-        setOfficialFields(requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None);
+        // An e-mail address can't be required for officials, so drop any that's stored instead of saving it back hidden.
+        setOfficialFields((requiredFields.roleFields[PersonRole[PersonRole.Official]] ?? RequiredPersonFields.None) & ~RequiredPersonFields.Email);
         if (teamsAndQuizzers.allowIndividuals) {
             setQuizzerWithoutTeamFields(requiredFields.roleFields[PersonRole[PersonRole.QuizzerWithoutTeam]] ?? RequiredPersonFields.None);
         }
