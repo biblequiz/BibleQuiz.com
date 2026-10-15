@@ -16,6 +16,10 @@ interface Props {
     schedulePreview?: OnlineMeetSchedulePreview | null;
     roomNames?: string[];
     isScheduleOutOfDate?: boolean;
+    // Id of the division being edited (0 for a new one) and the names of all divisions, so
+    // teams or quizzers already in another division can be labeled.
+    currentMeetId?: number;
+    meetNames?: Record<number, string>;
     onIdsChange: (ids: number[]) => void;
     // Props for seeding functionality (individual competitions only)
     auth?: AuthManager;
@@ -57,6 +61,8 @@ export default function TeamOrQuizzerSelector({
     schedulePreview,
     roomNames,
     isScheduleOutOfDate,
+    currentMeetId = 0,
+    meetNames = {},
     onIdsChange,
     auth,
     eventId,
@@ -65,6 +71,12 @@ export default function TeamOrQuizzerSelector({
     // Drag state for reordering
     const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
     const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
+
+    // Add picker state. Checked ids are kept in the order they were checked, since the
+    // order of the selected list is the seed order.
+    const [isPickerOpen, setIsPickerOpen] = useState(false);
+    const [pickedIds, setPickedIds] = useState<number[]>([]);
+    const [pickerFilter, setPickerFilter] = useState("");
 
     // Seed dialog state
     const [showSeedDialog, setShowSeedDialog] = useState(false);
@@ -83,16 +95,77 @@ export default function TeamOrQuizzerSelector({
         ? getQuizzerInitialRooms(schedulePreview, roomNames)
         : {};
 
-    // Get available items (not yet selected and not hidden)
+    // Get available items (not yet selected and not hidden), with the other divisions each is already in.
+    const filterText = pickerFilter.trim().toLowerCase();
     const availableItems = Object.entries(allItems)
         .filter(([id, item]) => !selectedIds.includes(Number(id)) && !item.IsHidden)
-        .sort(([, a], [, b]) => (a.Prefix ?? "").localeCompare(b.Prefix ?? "") || a.Name.localeCompare(b.Name));
+        .filter(([, item]) => !filterText ||
+            [item.Prefix, item.Name, item.TeamName, item.ChurchName]
+                .some(text => text?.toLowerCase().includes(filterText)))
+        .map(([id, item]) => ({
+            id: Number(id),
+            item,
+            otherDivisions: (item.MeetIds ?? [])
+                .filter(meetId => meetId !== currentMeetId)
+                .map(meetId => meetNames[meetId] ?? `Division ${meetId}`)
+        }))
+        .sort((a, b) => (a.item.Prefix ?? "").localeCompare(b.item.Prefix ?? "") || a.item.Name.localeCompare(b.item.Name));
 
-    const handleAddItem = (itemId: number) => {
-        if (!selectedIds.includes(itemId)) {
-            onIdsChange([...selectedIds, itemId]);
-        }
+    // Teams or quizzers already in another division are listed last; they can still be added
+    // (e.g., for a playoff division).
+    const unassignedItems = availableItems.filter(a => a.otherDivisions.length === 0);
+    const assignedItems = availableItems.filter(a => a.otherDivisions.length > 0);
+
+    const closePicker = () => {
+        setIsPickerOpen(false);
+        setPickedIds([]);
+        setPickerFilter("");
     };
+
+    const handleTogglePicked = (itemId: number) => {
+        setPickedIds(prev => prev.includes(itemId)
+            ? prev.filter(id => id !== itemId)
+            : [...prev, itemId]);
+    };
+
+    const handleSelectAllUnassigned = () => {
+        setPickedIds(prev => [...prev, ...unassignedItems.map(a => a.id).filter(id => !prev.includes(id))]);
+    };
+
+    const handleAddPicked = () => {
+        const newIds = pickedIds.filter(id => !selectedIds.includes(id));
+        if (newIds.length > 0) {
+            onIdsChange([...selectedIds, ...newIds]);
+        }
+
+        closePicker();
+    };
+
+    const renderPickerItem = ({ id, item, otherDivisions }: typeof availableItems[number]) => (
+        <label
+            key={id}
+            className="flex items-center gap-2 px-1 py-0.5 mt-0 rounded hover:bg-base-200 cursor-pointer"
+        >
+            <input
+                type="checkbox"
+                className="checkbox checkbox-sm checkbox-primary"
+                checked={pickedIds.includes(id)}
+                onChange={() => handleTogglePicked(id)}
+                disabled={disabled}
+            />
+            <span className="flex-1">
+                {item.Prefix} {item.Name}
+                {item.ChurchName && (
+                    <span className="text-base-content/60 text-sm ml-2">({item.ChurchName})</span>
+                )}
+                {otherDivisions.length > 0 && (
+                    <span className="text-base-content/60 text-sm italic ml-2">
+                        in {otherDivisions.join(", ")}
+                    </span>
+                )}
+            </span>
+        </label>
+    );
 
     const handleRemoveItem = (itemId: number) => {
         onIdsChange(selectedIds.filter(id => id !== itemId));
@@ -139,23 +212,15 @@ export default function TeamOrQuizzerSelector({
             {/* Add item dropdown */}
             {!isReadOnly && allowAddRemove && (
                 <div className="mb-3 mt-0 flex gap-2">
-                    <select
-                        className="select select-bordered select-sm w-full max-w-xs"
-                        onChange={(e) => {
-                            const itemId = Number(e.target.value);
-                            if (itemId) handleAddItem(itemId);
-                            e.target.value = "";
-                        }}
+                    <button
+                        type="button"
+                        className={`btn btn-sm mt-0 ${isPickerOpen ? "btn-active" : "btn-outline"}`}
+                        onClick={() => isPickerOpen ? closePicker() : setIsPickerOpen(true)}
                         disabled={disabled || isReadOnly}
-                        defaultValue=""
                     >
-                        <option value="" disabled>Add {itemLabel}...</option>
-                        {availableItems.map(([id, item]) => (
-                            <option key={id} value={id}>
-                                {item.Prefix} {item.Name} {item.ChurchName ? `(${item.ChurchName})` : ""}
-                            </option>
-                        ))}
-                    </select>
+                        <FontAwesomeIcon icon="fas faPlus" />
+                        Add {itemLabelPlural}
+                    </button>
                     {canSeed && (
                         <>
                             <button
@@ -197,6 +262,61 @@ export default function TeamOrQuizzerSelector({
                         <FontAwesomeIcon icon="fas faTrash" />
                         Clear
                     </button>
+                </div>
+            )}
+
+            {/* Add picker: check any number of items, then add them all at once */}
+            {isPickerOpen && !isReadOnly && allowAddRemove && (
+                <div className="mb-3 mt-0 p-2 border border-base-300 rounded-lg">
+                    <input
+                        type="search"
+                        className="input input-bordered input-sm w-full"
+                        placeholder={`Filter ${itemLabelPlural}...`}
+                        value={pickerFilter}
+                        onChange={(e) => setPickerFilter(e.target.value)}
+                        disabled={disabled}
+                        autoFocus
+                    />
+                    <div className="max-h-64 overflow-y-auto mt-2">
+                        {availableItems.length === 0 && (
+                            <p className="text-sm italic text-base-content/60 mt-0">
+                                No {itemLabelPlural} {filterText ? "match the filter" : "left to add"}.
+                            </p>
+                        )}
+                        {unassignedItems.map(renderPickerItem)}
+                        {assignedItems.length > 0 && (
+                            <div className="text-xs font-semibold text-base-content/60 mt-2 mb-1 px-1">
+                                Already in another division
+                            </div>
+                        )}
+                        {assignedItems.map(renderPickerItem)}
+                    </div>
+                    <div className="flex gap-2 mt-2">
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-primary mt-0"
+                            onClick={handleAddPicked}
+                            disabled={disabled || pickedIds.length === 0}
+                        >
+                            Add {pickedIds.length > 0 ? `${pickedIds.length} ` : ""}{pickedIds.length === 1 ? itemLabel : itemLabelPlural}
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-outline mt-0"
+                            onClick={handleSelectAllUnassigned}
+                            disabled={disabled || unassignedItems.every(a => pickedIds.includes(a.id))}
+                        >
+                            Select All{assignedItems.length > 0 ? " Unassigned" : ""}
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-ghost mt-0"
+                            onClick={closePicker}
+                            disabled={disabled}
+                        >
+                            Cancel
+                        </button>
+                    </div>
                 </div>
             )}
 

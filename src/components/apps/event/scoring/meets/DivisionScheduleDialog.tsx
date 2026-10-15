@@ -142,6 +142,10 @@ export default function DivisionScheduleDialog({
     const [allTeams, setAllTeams] = useState<Record<number, TeamOrQuizzerReference>>({});
     const [allQuizzers, setAllQuizzers] = useState<Record<number, TeamOrQuizzerReference>>({});
 
+    // Division names by id, for labeling teams/quizzers that are already in another division.
+    const meetNames: Record<number, string> = Object.fromEntries(
+        allMeets.map(m => [m.Display.Id, m.Display.NameOverride || m.Display.Name]));
+
     // Meets with scores - used to determine if scoring has started
     const [meetsWithScores, setMeetsWithScores] = useState<number[]>([]);
 
@@ -1008,6 +1012,8 @@ export default function DivisionScheduleDialog({
                                     schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
                                     roomNames={isIndividualCompetition ? roomNames : undefined}
                                     isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
+                                    currentMeetId={isNew ? 0 : meetId}
+                                    meetNames={meetNames}
                                     onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
                                     auth={auth}
                                     eventId={eventId}

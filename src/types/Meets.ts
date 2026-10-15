@@ -239,6 +239,11 @@ export interface TeamOrQuizzerReference {
      * Value indicating whether the team or quizzer is be hidden.
      */
     IsHidden: boolean;
+
+    /**
+     * Ids of the active divisions the team or quizzer is in. Only populated when editing a division.
+     */
+    MeetIds?: number[] | null;
 }
 
 /**
