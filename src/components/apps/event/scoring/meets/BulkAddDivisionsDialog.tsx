@@ -9,6 +9,7 @@ import { AstroMeetsService, type OnlineMeetSettings } from "types/services/Astro
 import type { MatchRules } from "types/MatchRules";
 import SeedFromDivisionsDialog from "./SeedFromDivisionsDialog";
 import DivisionScheduleDialog from "./DivisionScheduleDialog";
+import type { UnsavedDivision } from "./TeamOrQuizzerSelector";
 import { AstroTeamsAndQuizzersService } from "types/services/AstroTeamsAndQuizzersService";
 
 interface Props {
@@ -247,6 +248,16 @@ export default function BulkAddDivisionsDialog({
     };
 
     const editingDivision = editingIndex !== null ? parsedDivisions[editingIndex] : null;
+
+    // The other divisions in this bulk add, so the editor labels teams/quizzers already placed in one.
+    const otherUnsavedDivisions: UnsavedDivision[] = parsedDivisions
+        .map((division, index) => ({
+            name: division.Name || `New Division ${index + 1}`,
+            ids: (isIndividualCompetition ? division.Schedule?.QuizzerIds : division.Schedule?.TeamIds) ?? [],
+            index
+        }))
+        .filter(d => d.index !== editingIndex)
+        .map(({ name, ids }) => ({ name, ids }));
 
     const dialogContent = (
         <dialog ref={dialogRef} className="modal">
@@ -507,6 +518,7 @@ export default function BulkAddDivisionsDialog({
                     isNew={true}
                     isIndividualCompetition={isIndividualCompetition}
                     initialSettings={editingDivision}
+                    unsavedDivisions={otherUnsavedDivisions}
                     onSaveInMemory={handleDivisionEditSave}
                     // onSave is not used in in-memory mode but is required by the prop type.
                     onSave={() => { /* no-op in in-memory mode */ }}

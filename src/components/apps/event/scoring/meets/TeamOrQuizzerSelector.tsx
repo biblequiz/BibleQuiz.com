@@ -16,11 +16,25 @@ interface Props {
     schedulePreview?: OnlineMeetSchedulePreview | null;
     roomNames?: string[];
     isScheduleOutOfDate?: boolean;
+    // Id of the division being edited (0 for a new one) and the names of all divisions, so
+    // teams or quizzers already in another division can be labeled.
+    currentMeetId?: number;
+    meetNames?: Record<number, string>;
+    // Other divisions that aren't saved yet (e.g., the rest of a bulk add), so their members are labeled too.
+    unsavedDivisions?: UnsavedDivision[];
     onIdsChange: (ids: number[]) => void;
     // Props for seeding functionality (individual competitions only)
     auth?: AuthManager;
     eventId?: string;
     databaseId?: string;
+}
+
+/**
+ * A division that hasn't been saved yet and the team or quizzer ids in it.
+ */
+export interface UnsavedDivision {
+    name: string;
+    ids: number[];
 }
 
 /**
@@ -57,6 +71,9 @@ export default function TeamOrQuizzerSelector({
     schedulePreview,
     roomNames,
     isScheduleOutOfDate,
+    currentMeetId = 0,
+    meetNames = {},
+    unsavedDivisions = [],
     onIdsChange,
     auth,
     eventId,
@@ -66,6 +83,11 @@ export default function TeamOrQuizzerSelector({
     const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
     const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
 
+    // Add picker state. Checking an item adds it right away, so nothing is lost if the
+    // dialog is saved while the picker is open.
+    const [isPickerOpen, setIsPickerOpen] = useState(false);
+    const [pickerFilter, setPickerFilter] = useState("");
+
     // Seed dialog state
     const [showSeedDialog, setShowSeedDialog] = useState(false);
     const [showSeedReportDialog, setShowSeedReportDialog] = useState(false);
@@ -74,7 +96,6 @@ export default function TeamOrQuizzerSelector({
     const canSeed = auth && eventId && databaseId && !isReadOnly;
 
     // Labels based on tournament type
-    const itemLabel = isIndividualCompetition ? "quizzer" : "team";
     const itemLabelPlural = isIndividualCompetition ? "quizzers" : "teams";
     const itemLabelCapitalized = isIndividualCompetition ? "Quizzer" : "Team";
 
@@ -83,16 +104,78 @@ export default function TeamOrQuizzerSelector({
         ? getQuizzerInitialRooms(schedulePreview, roomNames)
         : {};
 
-    // Get available items (not yet selected and not hidden)
-    const availableItems = Object.entries(allItems)
-        .filter(([id, item]) => !selectedIds.includes(Number(id)) && !item.IsHidden)
-        .sort(([, a], [, b]) => (a.Prefix ?? "").localeCompare(b.Prefix ?? "") || a.Name.localeCompare(b.Name));
+    // Items for the picker (everything not hidden, plus anything already selected), with the
+    // other divisions each is already in.
+    const filterText = pickerFilter.trim().toLowerCase();
+    const pickerItems = Object.entries(allItems)
+        .filter(([id, item]) => !item.IsHidden || selectedIds.includes(Number(id)))
+        .filter(([, item]) => !filterText ||
+            [item.Prefix, item.Name, item.TeamName, item.ChurchName]
+                .filter(Boolean)
+                .join(" ")
+                .toLowerCase()
+                .includes(filterText))
+        .map(([id, item]) => ({
+            id: Number(id),
+            item,
+            otherDivisions: [
+                ...(item.MeetIds ?? [])
+                    .filter(meetId => meetId !== currentMeetId)
+                    .map(meetId => meetNames[meetId] ?? `Division ${meetId}`),
+                ...unsavedDivisions
+                    .filter(d => d.ids.includes(Number(id)))
+                    .map(d => d.name)
+            ]
+        }))
+        .sort((a, b) => (a.item.Prefix ?? "").localeCompare(b.item.Prefix ?? "") || a.item.Name.localeCompare(b.item.Name));
 
-    const handleAddItem = (itemId: number) => {
-        if (!selectedIds.includes(itemId)) {
-            onIdsChange([...selectedIds, itemId]);
-        }
+    // Teams or quizzers already in another division are listed last; they can still be added
+    // (e.g., for a playoff division).
+    const unassignedItems = pickerItems.filter(a => a.otherDivisions.length === 0);
+    const assignedItems = pickerItems.filter(a => a.otherDivisions.length > 0);
+    const unselectedUnassignedIds = unassignedItems.map(a => a.id).filter(id => !selectedIds.includes(id));
+
+    const closePicker = () => {
+        setIsPickerOpen(false);
+        setPickerFilter("");
     };
+
+    // Checked items are appended in the order they're checked, since list order is the seed order.
+    const handleToggleItem = (itemId: number) => {
+        onIdsChange(selectedIds.includes(itemId)
+            ? selectedIds.filter(id => id !== itemId)
+            : [...selectedIds, itemId]);
+    };
+
+    const handleSelectAllUnassigned = () => {
+        onIdsChange([...selectedIds, ...unselectedUnassignedIds]);
+    };
+
+    const renderPickerItem = ({ id, item, otherDivisions }: typeof pickerItems[number]) => (
+        <label
+            key={id}
+            className="flex items-center gap-2 px-1 py-0.5 mt-0 rounded hover:bg-base-200 cursor-pointer"
+        >
+            <input
+                type="checkbox"
+                className="checkbox checkbox-sm checkbox-primary"
+                checked={selectedIds.includes(id)}
+                onChange={() => handleToggleItem(id)}
+                disabled={disabled}
+            />
+            <span className="flex-1">
+                {item.Prefix} {item.Name}
+                {item.ChurchName && (
+                    <span className="text-base-content/60 text-sm ml-2">({item.ChurchName})</span>
+                )}
+                {otherDivisions.length > 0 && (
+                    <span className="text-base-content/60 text-sm italic ml-2">
+                        in {otherDivisions.join(", ")}
+                    </span>
+                )}
+            </span>
+        </label>
+    );
 
     const handleRemoveItem = (itemId: number) => {
         onIdsChange(selectedIds.filter(id => id !== itemId));
@@ -139,23 +222,15 @@ export default function TeamOrQuizzerSelector({
             {/* Add item dropdown */}
             {!isReadOnly && allowAddRemove && (
                 <div className="mb-3 mt-0 flex gap-2">
-                    <select
-                        className="select select-bordered select-sm w-full max-w-xs"
-                        onChange={(e) => {
-                            const itemId = Number(e.target.value);
-                            if (itemId) handleAddItem(itemId);
-                            e.target.value = "";
-                        }}
+                    <button
+                        type="button"
+                        className={`btn btn-sm mt-0 ${isPickerOpen ? "btn-active" : "btn-outline"}`}
+                        onClick={() => isPickerOpen ? closePicker() : setIsPickerOpen(true)}
                         disabled={disabled || isReadOnly}
-                        defaultValue=""
                     >
-                        <option value="" disabled>Add {itemLabel}...</option>
-                        {availableItems.map(([id, item]) => (
-                            <option key={id} value={id}>
-                                {item.Prefix} {item.Name} {item.ChurchName ? `(${item.ChurchName})` : ""}
-                            </option>
-                        ))}
-                    </select>
+                        <FontAwesomeIcon icon="fas faPlus" />
+                        Add {itemLabelPlural}
+                    </button>
                     {canSeed && (
                         <>
                             <button
@@ -197,6 +272,52 @@ export default function TeamOrQuizzerSelector({
                         <FontAwesomeIcon icon="fas faTrash" />
                         Clear
                     </button>
+                </div>
+            )}
+
+            {/* Add picker: check any number of items, then add them all at once */}
+            {isPickerOpen && !isReadOnly && allowAddRemove && (
+                <div className="mb-3 mt-0 p-2 border border-base-300 rounded-lg">
+                    <input
+                        type="search"
+                        className="input input-bordered input-sm w-full"
+                        placeholder={`Filter ${itemLabelPlural}...`}
+                        value={pickerFilter}
+                        onChange={(e) => setPickerFilter(e.target.value)}
+                        disabled={disabled}
+                        autoFocus
+                    />
+                    <div className="max-h-64 overflow-y-auto mt-2">
+                        {pickerItems.length === 0 && (
+                            <p className="text-sm italic text-base-content/60 mt-0">
+                                No {itemLabelPlural} {filterText ? "match the filter" : "to add"}.
+                            </p>
+                        )}
+                        {unassignedItems.map(renderPickerItem)}
+                        {assignedItems.length > 0 && (
+                            <div className="text-xs font-semibold text-base-content/60 mt-2 mb-1 px-1">
+                                Already in another division
+                            </div>
+                        )}
+                        {assignedItems.map(renderPickerItem)}
+                    </div>
+                    <div className="flex gap-2 mt-2">
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-primary mt-0"
+                            onClick={closePicker}
+                        >
+                            Done
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-outline mt-0"
+                            onClick={handleSelectAllUnassigned}
+                            disabled={disabled || unselectedUnassignedIds.length === 0}
+                        >
+                            Select All{filterText ? " Shown" : ""}{assignedItems.length > 0 ? " Unassigned" : ""}
+                        </button>
+                    </div>
                 </div>
             )}
 

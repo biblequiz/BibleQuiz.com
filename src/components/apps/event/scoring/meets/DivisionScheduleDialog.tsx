@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import CollapsibleSection from "components/CollapsibleSection";
@@ -21,7 +21,7 @@ import { MatchRules as MatchRulesClass } from "types/MatchRules";
 import type { ScheduleTemplate } from "types/Scheduling";
 import LinkedMeetsDialog from "./LinkedMeetsDialog";
 import MatchRulesDialog from "../../rules/MatchRulesDialog";
-import TeamOrQuizzerSelector from "./TeamOrQuizzerSelector";
+import TeamOrQuizzerSelector, { type UnsavedDivision } from "./TeamOrQuizzerSelector";
 import RoomEditor, { generateRoomNamesForCount } from "./RoomEditor";
 import SchedulePreviewTable from "./SchedulePreviewTable";
 import CustomScheduleUploader from "./CustomScheduleUploader";
@@ -54,6 +54,11 @@ interface Props {
      * The onSave callback will not be invoked in this case.
      */
     onSaveInMemory?: (updatedSettings: OnlineMeetSettings) => void;
+    /**
+     * Optional other divisions that aren't saved yet (e.g., the rest of a bulk add), so teams or
+     * quizzers already in them are labeled like ones in saved divisions.
+     */
+    unsavedDivisions?: UnsavedDivision[];
     onSave: (updatedDatabase: OnlineDatabaseSummary) => void;
     onClose: () => void;
 }
@@ -73,6 +78,7 @@ export default function DivisionScheduleDialog({
     isIndividualCompetition,
     initialSettings,
     onSaveInMemory,
+    unsavedDivisions,
     onSave,
     onClose
 }: Props) {
@@ -141,6 +147,11 @@ export default function DivisionScheduleDialog({
     // All available teams/quizzers from the database
     const [allTeams, setAllTeams] = useState<Record<number, TeamOrQuizzerReference>>({});
     const [allQuizzers, setAllQuizzers] = useState<Record<number, TeamOrQuizzerReference>>({});
+
+    // Division names by id, for labeling teams/quizzers that are already in another division.
+    const meetNames = useMemo<Record<number, string>>(
+        () => Object.fromEntries(allMeets.map(m => [m.Display.Id, m.Display.NameOverride || m.Display.Name])),
+        [allMeets]);
 
     // Meets with scores - used to determine if scoring has started
     const [meetsWithScores, setMeetsWithScores] = useState<number[]>([]);
@@ -1008,6 +1019,9 @@ export default function DivisionScheduleDialog({
                                     schedulePreview={isIndividualCompetition ? schedulePreview : undefined}
                                     roomNames={isIndividualCompetition ? roomNames : undefined}
                                     isScheduleOutOfDate={isIndividualCompetition ? isScheduleOutOfDate : undefined}
+                                    currentMeetId={isNew ? 0 : meetId}
+                                    meetNames={meetNames}
+                                    unsavedDivisions={unsavedDivisions}
                                     onIdsChange={isIndividualCompetition ? handleQuizzerIdsChange : handleTeamIdsChange}
                                     auth={auth}
                                     eventId={eventId}
