@@ -17,7 +17,7 @@ export default function RegistrationSaveBar({ isDirty, isSaving, onSave }: Props
             <div className="max-w-5xl mx-auto flex items-center justify-between px-4 py-2">
                 <span className="text-sm text-base-content/70">
                     <FontAwesomeIcon icon="fas faCircle" classNames={["text-warning", "mr-2"]} />
-                    Unsaved changes
+                    Unsaved changes. Officials, individuals, and attendees aren't saved until you click Save.
                 </span>
                 <button
                     type="button"

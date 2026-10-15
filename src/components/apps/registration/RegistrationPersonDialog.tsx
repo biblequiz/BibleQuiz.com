@@ -6,6 +6,7 @@ import { Person, PersonParentType, PersonRole } from "types/services/PeopleServi
 import {
     EventFieldControlType,
     EventFieldScopes,
+    RequiredPersonFields,
     type EventInfo,
 } from "types/services/EventsService";
 import {
@@ -75,6 +76,36 @@ function getScopeForRole(role: PersonRole): EventFieldScopes {
 }
 
 /**
+ * Returns the labels for the required fields the person is missing. This mirrors the
+ * server's check, which otherwise only rejects the person when the whole registration is saved.
+ */
+function getMissingRequiredFields(person: Person, requiredFields: RequiredPersonFields): string[] {
+    const isRequired = (field: RequiredPersonFields) => DataTypeHelpers.hasEnumFlag(requiredFields, field);
+    const isBlank = (value: string | null | undefined) => null === DataTypeHelpers.trimToNull(value);
+
+    const missingFields: string[] = [];
+    if (isRequired(RequiredPersonFields.DateOfBirth) && isBlank(person.DateOfBirth)) {
+        missingFields.push("Birthdate");
+    }
+
+    if (isRequired(RequiredPersonFields.Email) && isBlank(person.Email)) {
+        missingFields.push("E-mail Address");
+    }
+
+    if (isRequired(RequiredPersonFields.PhoneNumber) && isBlank(person.PhoneNumber)) {
+        missingFields.push("Phone Number");
+    }
+
+    const address = person.PhysicalAddress;
+    if (isRequired(RequiredPersonFields.Address) &&
+        (!address || isBlank(address.StreetAddress) || isBlank(address.City) || isBlank(address.State) || null == address.ZipCode)) {
+        missingFields.push("Address");
+    }
+
+    return missingFields;
+}
+
+/**
  * Dialog for adding or editing a single person (quizzer, coach, individual,
  * official, or attendee) within a registration.
  */
@@ -127,6 +158,26 @@ export default function RegistrationPersonDialog({
     const roleLabel = role === PersonRole.QuizzerWithoutTeam
         ? "Quizzer (No Team)"
         : PersonRole[role];
+    const requiredFields = event.RequiredRoleFields?.[PersonRole[role]] ?? RequiredPersonFields.None;
+
+    /**
+     * Opens the required details editor when the person is missing a field the event requires, so it's
+     * caught here instead of failing the whole registration when it's saved.
+     *
+     * @returns true if the person has all of the required fields.
+     */
+    const ensureRequiredDetails = (person: Person): boolean => {
+        const missingFields = getMissingRequiredFields(person, requiredFields);
+        if (missingFields.length === 0) {
+            return true;
+        }
+
+        setValidationError(
+            `${person.FirstName} ${person.LastName} is missing information this event requires (${missingFields.join(", ")}). ` +
+            "Please add it before saving.");
+        setIsEditingRequiredDetails(true);
+        return false;
+    };
 
     const isDuplicate = (candidatePersonId: string | null): boolean => {
         if (!candidatePersonId) {
@@ -179,6 +230,7 @@ export default function RegistrationPersonDialog({
             });
         }
         setValidationError(null);
+        ensureRequiredDetails(selected);
     };
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
@@ -192,6 +244,10 @@ export default function RegistrationPersonDialog({
 
         if (isDuplicate(personId)) {
             setValidationError(`This person is already registered as a ${roleLabel}, or is already on this team.`);
+            return;
+        }
+
+        if (!ensureRequiredDetails(linkedPerson)) {
             return;
         }
 
@@ -399,7 +455,7 @@ export default function RegistrationPersonDialog({
                     newParentRegionId={event.RegionId ?? undefined}
                     newParentDistrictId={event.DistrictId ?? undefined}
                     newEntityLabel={roleLabel}
-                    requiredFields={event.RequiredRoleFields[PersonRole[role]]}
+                    requiredFields={requiredFields}
                     hideOptionalFieldsOnPersonPage={true}
                     currentParent={church}
                     onSelect={handleSelectExistingPerson}
@@ -412,7 +468,7 @@ export default function RegistrationPersonDialog({
                     parentType={PersonParentType.Church}
                     parentId={church.Id}
                     eventId={event.Id}
-                    requiredFields={event.RequiredRoleFields[PersonRole[role]]}
+                    requiredFields={requiredFields}
                     hideOptionalFields={true}
                     currentChurch={church}
                     onClose={(person) => {
@@ -420,6 +476,9 @@ export default function RegistrationPersonDialog({
                         if (person) {
                             setLinkedPerson(person);
                             setPersonId(person.Id ?? null);
+                            if (getMissingRequiredFields(person, requiredFields).length === 0) {
+                                setValidationError(null);
+                            }
                         }
                     }}
                 />)}

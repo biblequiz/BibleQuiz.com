@@ -77,7 +77,8 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                 By default, only a person's name is required. However, there are cases where additional information
                 may be needed. For example, you may want to require an e-mail address or phone number for the coach or team contact.
                 If a person is missing one of these fields during registration, they will be required to enter them. Any updates to
-                people will require this information be added.
+                people will require this information be added. An e-mail address can't be required for officials, since teams
+                rarely have it and a made-up address is worse than none.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -119,6 +120,7 @@ export default function RegistrationRequiredFieldsPage({ }: Props) {
                             sharedDirtyWindowState.set(true);
                         }}
                         includeBirthdate={true}
+                        includeEmail={false}
                     />
                 </EventFieldCard>
                 {officialsAndAttendees.allowAttendees && (

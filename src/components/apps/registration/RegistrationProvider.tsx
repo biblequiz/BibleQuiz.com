@@ -243,6 +243,14 @@ export default function RegistrationProvider({ }: Props) {
                 Version: 0,
             });
 
+            // Officials, individuals, and attendees are only saved with the Save button, but teams and payments
+            // save on their own and then reload. Keep the people that haven't been saved yet, or they're lost.
+            if (isDirty && registration?.EventId === eventId && registration?.ChurchId === church.Id) {
+                currentRegistration.Officials = registration.Officials;
+                currentRegistration.Individuals = registration.Individuals;
+                currentRegistration.Attendees = registration.Attendees;
+            }
+
             setRegistration(currentRegistration);
             setRegistrationVersion(currentRegistration.Version ?? 0);
         }
