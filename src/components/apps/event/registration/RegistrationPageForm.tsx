@@ -142,7 +142,9 @@ export default function RegistrationPageForm({
                 className={`btn btn-accent m-0`}
                 onClick={async () => {
                     if (context.registrationLink) {
-                        await navigator.clipboard.writeText(context.registrationLink);
+                        // Copy the full address so it can be shared outside the site.
+                        await navigator.clipboard.writeText(
+                            new URL(context.registrationLink, window.location.origin).href);
                     }
 
                     if (!hasCopiedLink) {
