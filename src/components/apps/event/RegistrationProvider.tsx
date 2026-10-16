@@ -379,7 +379,8 @@ export default function RegistrationProvider({ }: Props) {
                 isSaving: isSavingRegistration,
                 context: {
                     rootEventUrl: rootUrl,
-                    registrationLink: info ? `/register/#/${info.Id}` : null,
+                    // Full address on the public site, so it can be shared outside the site.
+                    registrationLink: info ? new URL(`/register/#/${info.Id}`, import.meta.env.SITE).href : null,
                     isNewEvent: !info,
                     hasRegistrations: info?.HasAnyRegistrations || false,
                     saveRegistration: async () => {
