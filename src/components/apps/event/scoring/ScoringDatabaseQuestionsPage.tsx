@@ -13,7 +13,7 @@ import type { MatchRules } from "types/MatchRules";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
 import QuestionImportDialog from "./questions/QuestionImportDialog";
-import { checkQuestionCounts } from "./questions/checkQuestionCounts";
+import { checkQuestionCounts, getMatchPointValueCounts } from "./questions/checkQuestionCounts";
 
 /**
  * Question type patterns to search for in question text.
@@ -129,30 +129,40 @@ export default function ScoringDatabaseQuestionsPage() {
         return meets.find(m => m.Display.Id === selectedMeetId) || null;
     }, [meets, selectedMeetId]);
 
-    // Load the selected division's rules: its custom rules, or the database's rules if it has none (the same rules
-    // the import uses). Undefined while loading; null if they couldn't be loaded.
-    const [selectedMeetRules, setSelectedMeetRules] = useState<MatchRules | null | undefined>(undefined);
+    // Load the selected division's custom rules once per division. The summary doesn't include them, and a context
+    // refresh shouldn't reload them.
+    const isSelectedMeetIndividual = selectedMeet?.IsIndividualCompetition ?? false;
+    const [customRules, setCustomRules] = useState<{ meetId: number; rules: MatchRules | null } | "error" | null>(null);
     useEffect(() => {
-        setSelectedMeetRules(undefined);
-        if (!selectedMeetId || !selectedMeet || !databaseId) return;
+        setCustomRules(null);
+        if (!selectedMeetId || !databaseId) return;
 
         let isCurrent = true;
-        AstroMeetsService.getMeet(auth, eventId, databaseId, selectedMeetId, selectedMeet.IsIndividualCompetition)
+        AstroMeetsService.getMeet(auth, eventId, databaseId, selectedMeetId, isSelectedMeetIndividual)
             .then(settings => {
                 if (isCurrent) {
-                    setSelectedMeetRules(settings.CustomRules ?? currentDatabase?.Settings.Rules ?? null);
+                    setCustomRules({ meetId: selectedMeetId, rules: settings.CustomRules ?? null });
                 }
             })
             .catch(() => {
                 if (isCurrent) {
-                    setSelectedMeetRules(null);
+                    setCustomRules("error");
                 }
             });
 
         return () => {
             isCurrent = false;
         };
-    }, [auth, eventId, databaseId, selectedMeetId, selectedMeet, currentDatabase]);
+    }, [auth, eventId, databaseId, selectedMeetId, isSelectedMeetIndividual]);
+
+    // The division's custom rules, or the database's rules if it has none (the same rules the import uses).
+    // Undefined while loading; null if they couldn't be loaded.
+    const databaseRules = currentDatabase?.Settings.Rules ?? null;
+    const selectedMeetRules = useMemo((): MatchRules | null | undefined => {
+        if (customRules === "error") return null;
+        if (!customRules || customRules.meetId !== selectedMeetId) return undefined;
+        return customRules.rules ?? databaseRules;
+    }, [customRules, selectedMeetId, databaseRules]);
 
     // Get the selected question
     const selectedQuestion = useMemo((): OnlineMatchQuestion | null => {
@@ -256,18 +266,25 @@ export default function ScoringDatabaseQuestionsPage() {
             }
         }
 
-        // Check each match's point value counts against the rules.
-        if (selectedMeetRules === undefined) {
-            result.setCountAnalysis.push("Checking the question counts against the rules...");
-        } else if (selectedMeetRules === null) {
-            result.setCountAnalysis.push("⚠ Couldn't load this division's rules, so the question counts weren't checked.");
-        } else {
-            const issues = checkQuestionCounts(selectedQuestionSet, selectedMeetRules);
+        // Check each match's point value counts against the rules. Errors show above the other analysis lines.
+        if (selectedMeetRules) {
+            const issues = checkQuestionCounts(selectedQuestionSet, selectedMeetRules.PointValueCounts ?? {}, "the rules require");
             if (issues.length === 0) {
                 result.setCountAnalysis.push("All question counts match the rules ✓");
             } else {
-                // Errors show above the other analysis lines.
                 result.errors.push("⚠ Question counts don't match the rules:", ...issues);
+            }
+        } else if (selectedMeetRules === undefined) {
+            result.setCountAnalysis.push("Checking the question counts against the rules...");
+        } else {
+            // Without the rules, at least check that every match has the same counts as match 1.
+            result.setCountAnalysis.push("⚠ Couldn't load this division's rules, so the counts were only compared with match 1.");
+            const firstMatchCounts = getMatchPointValueCounts(selectedQuestionSet).values().next().value;
+            const issues = firstMatchCounts
+                ? checkQuestionCounts(selectedQuestionSet, firstMatchCounts, "match 1 has")
+                : [];
+            if (issues.length > 0) {
+                result.errors.push("⚠ Question counts differ between matches:", ...issues);
             }
         }
 
@@ -602,7 +619,7 @@ export default function ScoringDatabaseQuestionsPage() {
                                         {questionCounts.total}
                                         {selectedMeetRules && (
                                             <span className="font-normal text-base-content/60">
-                                                {" "}(rules: {Object.values(selectedMeetRules.PointValueCounts ?? {}).reduce((sum, count) => sum + count, 0)})
+                                                {" "}(rules: {[10, 20, 30].reduce((sum, pointValue) => sum + (selectedMeetRules.PointValueCounts?.[pointValue] ?? 0), 0)})
                                             </span>
                                         )}
                                     </span>
@@ -630,7 +647,7 @@ export default function ScoringDatabaseQuestionsPage() {
                     meetId={selectedMeetId}
                     meetName={selectedMeet.Display.NameOverride || selectedMeet.Display.Name}
                     hasScoringStarted={selectedQuestionSet?.HasScoringStarted ?? false}
-                    rules={selectedMeetRules ?? null}
+                    rules={selectedMeetRules}
                     onSave={handleImportSave}
                     onClose={() => setShowImportDialog(false)}
                 />

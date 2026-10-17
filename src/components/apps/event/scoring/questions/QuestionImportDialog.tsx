@@ -19,8 +19,8 @@ interface Props {
     meetId: number;
     meetName: string;
     hasScoringStarted: boolean;
-    /** Rules for the division, or null if they aren't loaded. */
-    rules: MatchRules | null;
+    /** Rules for the division: undefined while loading, null if they couldn't be loaded. */
+    rules: MatchRules | null | undefined;
     onSave: (updatedSet: OnlineDatabaseQuestionSet) => void;
     onClose: () => void;
 }
@@ -94,7 +94,7 @@ export default function QuestionImportDialog({
             return [];
         }
 
-        return checkQuestionCounts(parsedManifest.Set, rules);
+        return checkQuestionCounts(parsedManifest.Set, rules.PointValueCounts ?? {}, "the rules require");
     }, [parsedManifest, rules]);
 
     // Calculate question counts summary
@@ -307,6 +307,18 @@ export default function QuestionImportDialog({
                             <div>
                                 <strong>Save Error: </strong>{saveError}
                             </div>
+                        </div>
+                    )}
+
+                    {/* Say when the counts couldn't be checked, so a missing warning isn't read as a pass */}
+                    {parsedManifest?.Set && !rules && (
+                        <div role="alert" className="alert alert-info">
+                            <FontAwesomeIcon icon="fas faCircleInfo" />
+                            <span>
+                                {rules === undefined
+                                    ? "Still loading this division's rules, so the question counts haven't been checked yet."
+                                    : "Couldn't load this division's rules, so the question counts weren't checked."}
+                            </span>
                         </div>
                     )}
 
