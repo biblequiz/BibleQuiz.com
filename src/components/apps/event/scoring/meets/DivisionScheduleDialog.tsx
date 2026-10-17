@@ -958,38 +958,6 @@ export default function DivisionScheduleDialog({
                                 )}
                             </CollapsibleSection>
 
-                            {/* Room Names */}
-                            <CollapsibleSection
-                                pageId="divisionScheduleDialog"
-                                elementId="roomNames"
-                                icon="fas faDoorOpen"
-                                title="Rooms"
-                                badges={isScheduleOutOfDate && schedulePreview ? [{
-                                    className: "badge-warning",
-                                    text: "Out of date"
-                                }] : undefined}
-                                defaultOpen={true}
-                                allowMultipleOpen={true}
-                            >
-                                <RoomEditor
-                                    roomNames={roomNames}
-                                    disabled={isSaving}
-                                    isReadOnly={!canEditRoomNames}
-                                    isIndividualCompetition={isIndividualCompetition}
-                                    hasDifferentRoomForFinalMatch={isIndividualCompetition && hasDifferentRoomForFinalMatch}
-                                    setHasDifferentRoomForFinalMatch={v => {
-                                        setHasDifferentRoomForFinalMatch(v);
-                                        setIsScheduleOutOfDate(true);
-                                        setHasOriginalSchedule(false);
-                                        setIsDirty(true);
-                                    }}
-                                    onRoomNamesChange={(newRoomNames) => {
-                                        setRoomNames(newRoomNames);
-                                        setIsDirty(true);
-                                    }}
-                                />
-                            </CollapsibleSection>
-
                             {/* Team or Quizzer Selection */}
                             <CollapsibleSection
                                 pageId="divisionScheduleDialog"
@@ -1028,6 +996,57 @@ export default function DivisionScheduleDialog({
                                     databaseId={databaseId}
                                 />
                             </CollapsibleSection>
+
+                            {/* Custom Rules */}
+                            {defaultRules && (
+                                <CollapsibleSection
+                                    pageId="divisionScheduleDialog"
+                                    elementId="customRules"
+                                    icon="fas faGavel"
+                                    title="Rules"
+                                    badges={useCustomRules ? [{
+                                        className: "badge-warning",
+                                        text: "Custom"
+                                    }] : undefined}
+                                    defaultOpen={false}
+                                    allowMultipleOpen={true}
+                                >
+                                    <div className="p-2">
+                                        <label className="label cursor-pointer gap-2 justify-start mb-3">
+                                            <input
+                                                type="checkbox"
+                                                className="checkbox checkbox-sm"
+                                                checked={useCustomRules}
+                                                onChange={(e) => handleCustomRulesChange(e.target.checked)}
+                                                disabled={!canEditScheduleSettings}
+                                            />
+                                            <span className="label-text">Use Custom Rules for this Division</span>
+                                        </label>
+
+                                        {effectiveRules && (
+                                            <div className="border border-base-300 rounded-lg p-3">
+                                                <span
+                                                    className="text-xs"
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: MatchRulesClass.toHtmlString(effectiveRules)
+                                                    }}
+                                                />
+                                                {useCustomRules && canEditScheduleSettings && (
+                                                    <button
+                                                        type="button"
+                                                        className="btn btn-sm btn-secondary mt-3 w-full"
+                                                        onClick={() => setIsEditingRules(true)}
+                                                        disabled={isSaving}
+                                                    >
+                                                        <FontAwesomeIcon icon="fas faPencil" />
+                                                        Edit Custom Rules
+                                                    </button>
+                                                )}
+                                            </div>
+                                        )}
+                                    </div>
+                                </CollapsibleSection>
+                            )}
 
                             {/* Scheduling Options */}
                             <CollapsibleSection
@@ -1229,6 +1248,25 @@ export default function DivisionScheduleDialog({
                                         </div>
                                     </div>
                                 )}
+                                {isIndividualCompetition && (
+                                    <div className="p-2 border-t border-base-300 mt-2 pt-4">
+                                        <label className="label cursor-pointer gap-2 justify-start mt-0 mb-0">
+                                            <input
+                                                type="checkbox"
+                                                className="checkbox checkbox-sm"
+                                                checked={hasDifferentRoomForFinalMatch}
+                                                onChange={(e) => {
+                                                    setHasDifferentRoomForFinalMatch(e.target.checked);
+                                                    setIsScheduleOutOfDate(true);
+                                                    setHasOriginalSchedule(false);
+                                                    setIsDirty(true);
+                                                }}
+                                                disabled={!canEditScheduleSettings || !canEditRoomNames}
+                                            />
+                                            <span className="label-text text-sm">Use a different room for the final match</span>
+                                        </label>
+                                    </div>
+                                )}
                             </CollapsibleSection>
 
                             {/* Custom Schedule */}
@@ -1258,57 +1296,6 @@ export default function DivisionScheduleDialog({
                                     onRemove={handleRemoveCustomSchedule}
                                 />
                             </CollapsibleSection>
-
-                            {/* Custom Rules */}
-                            {defaultRules && (
-                                <CollapsibleSection
-                                    pageId="divisionScheduleDialog"
-                                    elementId="customRules"
-                                    icon="fas faGavel"
-                                    title="Rules"
-                                    badges={useCustomRules ? [{
-                                        className: "badge-warning",
-                                        text: "Custom"
-                                    }] : undefined}
-                                    defaultOpen={false}
-                                    allowMultipleOpen={true}
-                                >
-                                    <div className="p-2">
-                                        <label className="label cursor-pointer gap-2 justify-start mb-3">
-                                            <input
-                                                type="checkbox"
-                                                className="checkbox checkbox-sm"
-                                                checked={useCustomRules}
-                                                onChange={(e) => handleCustomRulesChange(e.target.checked)}
-                                                disabled={!canEditScheduleSettings}
-                                            />
-                                            <span className="label-text">Use Custom Rules for this Division</span>
-                                        </label>
-
-                                        {effectiveRules && (
-                                            <div className="border border-base-300 rounded-lg p-3">
-                                                <span
-                                                    className="text-xs"
-                                                    dangerouslySetInnerHTML={{
-                                                        __html: MatchRulesClass.toHtmlString(effectiveRules)
-                                                    }}
-                                                />
-                                                {useCustomRules && canEditScheduleSettings && (
-                                                    <button
-                                                        type="button"
-                                                        className="btn btn-sm btn-secondary mt-3 w-full"
-                                                        onClick={() => setIsEditingRules(true)}
-                                                        disabled={isSaving}
-                                                    >
-                                                        <FontAwesomeIcon icon="fas faPencil" />
-                                                        Edit Custom Rules
-                                                    </button>
-                                                )}
-                                            </div>
-                                        )}
-                                    </div>
-                                </CollapsibleSection>
-                            )}
 
                             {/* Schedule Preview */}
                             <CollapsibleSection
@@ -1349,6 +1336,20 @@ export default function DivisionScheduleDialog({
                                     onResetMatchTimes={handleResetMatchTimes}
                                     onExportStats={handleExportStats}
                                     onFullscreenChange={setIsSchedulePreviewFullscreen}
+                                    roomNamesPanel={
+                                        <RoomEditor
+                                            roomNames={roomNames}
+                                            disabled={isSaving}
+                                            isReadOnly={!canEditRoomNames}
+                                            isOutOfDate={isScheduleOutOfDate}
+                                            isIndividualCompetition={isIndividualCompetition}
+                                            hasDifferentRoomForFinalMatch={isIndividualCompetition && hasDifferentRoomForFinalMatch}
+                                            onRoomNamesChange={(newRoomNames) => {
+                                                setRoomNames(newRoomNames);
+                                                setIsDirty(true);
+                                            }}
+                                        />
+                                    }
                                 />
                             </CollapsibleSection>
                         </form>
