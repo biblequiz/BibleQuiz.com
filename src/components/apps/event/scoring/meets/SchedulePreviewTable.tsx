@@ -62,9 +62,15 @@ export default function SchedulePreviewTable({
     const [draftMatchTimes, setDraftMatchTimes] = useState<Record<number, string>>({});
     const [isFullscreen, setIsFullscreen] = useState(false);
 
-    // The panel starts open when there are no rooms yet. The choice is remembered for the session.
+    // The panel always starts open when there are no rooms yet. Otherwise the last choice is
+    // remembered for the session, and it starts closed.
     const roomNamesStorageKey = "schedulePreview_roomNamesOpen";
+    const roomNamesPanelId = "schedulePreviewRoomNames";
     const [isRoomNamesOpen, setIsRoomNamesOpen] = useState<boolean>(() => {
+        if (roomNames.length === 0) {
+            return true;
+        }
+
         try {
             const raw = sessionStorage.getItem(roomNamesStorageKey);
             if (raw !== null) {
@@ -74,7 +80,7 @@ export default function SchedulePreviewTable({
             // Storage is unavailable; fall back to the default.
         }
 
-        return roomNames.length === 0;
+        return false;
     });
     const handleRoomNamesToggle = useCallback(() => {
         setIsRoomNamesOpen(prev => {
@@ -165,10 +171,14 @@ export default function SchedulePreviewTable({
                     className="btn btn-sm btn-outline mt-0 mb-0"
                     onClick={handleRoomNamesToggle}
                     aria-expanded={isRoomNamesOpen}
+                    aria-controls={roomNamesPanelId}
                     title="Show or hide the room names"
                 >
                     <FontAwesomeIcon icon="fas faDoorOpen" />
                     Room Names
+                    {isOutOfDate && roomNames.length > 0 && (
+                        <span className="badge badge-warning badge-sm">Out of date</span>
+                    )}
                     <FontAwesomeIcon icon={isRoomNamesOpen ? "fas faChevronDown" : "fas faChevronRight"} />
                 </button>
             )}
@@ -199,8 +209,12 @@ export default function SchedulePreviewTable({
 
     // Render the expandable room names panel under the toolbar
     const renderRoomNames = () => (
-        roomNamesPanel && isRoomNamesOpen ? (
-            <div className="mb-4 rounded-lg border border-base-300 bg-base-200/50">
+        roomNamesPanel ? (
+            // Hidden rather than unmounted, so the editor keeps its format and prefix while closed.
+            <div
+                id={roomNamesPanelId}
+                className={`mb-4 rounded-lg border border-base-300 bg-base-200/50 ${isRoomNamesOpen ? "" : "hidden"}`}
+            >
                 {roomNamesPanel}
             </div>
         ) : null
