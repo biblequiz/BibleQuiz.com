@@ -213,6 +213,8 @@ export default function SchedulePreviewTable({
             // Hidden rather than unmounted, so the editor keeps its format and prefix while closed.
             <div
                 id={roomNamesPanelId}
+                // An invalid room name inside a closed panel can't be focused, so open the panel to show it.
+                onInvalidCapture={() => setIsRoomNamesOpen(true)}
                 className={`mb-4 rounded-lg border border-base-300 bg-base-200/50 ${isRoomNamesOpen ? "" : "hidden"}`}
             >
                 {roomNamesPanel}

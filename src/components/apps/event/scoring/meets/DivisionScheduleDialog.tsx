@@ -1261,7 +1261,7 @@ export default function DivisionScheduleDialog({
                                                     setHasOriginalSchedule(false);
                                                     setIsDirty(true);
                                                 }}
-                                                disabled={!canEditScheduleSettings}
+                                                disabled={!canEditScheduleSettings || !canEditRoomNames}
                                             />
                                             <span className="label-text text-sm">Use a different room for the final match</span>
                                         </label>
