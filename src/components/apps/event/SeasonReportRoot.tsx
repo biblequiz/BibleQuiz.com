@@ -252,6 +252,7 @@ function buildSidebar(
                 type: 'group' as const,
                 label: "Scoring",
                 id: SCORES_GROUP_ID,
+                icon: "fas faRankingStar",
                 collapsed: true,
                 entries: [
                     {
