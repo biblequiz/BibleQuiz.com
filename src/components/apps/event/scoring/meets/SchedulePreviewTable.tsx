@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
@@ -29,6 +29,8 @@ interface Props {
     onResetMatchTimes: () => void;
     onExportStats: () => void;
     onFullscreenChange?: (isFullscreen: boolean) => void;
+    /** Room name editor, shown in an expandable panel opened by the Room Names button. */
+    roomNamesPanel?: ReactNode;
 }
 
 export default function SchedulePreviewTable({
@@ -52,12 +54,39 @@ export default function SchedulePreviewTable({
     onMatchTimeChange,
     onResetMatchTimes,
     onExportStats,
-    onFullscreenChange
+    onFullscreenChange,
+    roomNamesPanel
 }: Props) {
     const selectedCount = isIndividualCompetition ? selectedQuizzerIds.length : selectedTeamIds.length;
     const itemLabelPlural = isIndividualCompetition ? "quizzers" : "teams";
     const [draftMatchTimes, setDraftMatchTimes] = useState<Record<number, string>>({});
     const [isFullscreen, setIsFullscreen] = useState(false);
+
+    // The panel starts open when there are no rooms yet. The choice is remembered for the session.
+    const roomNamesStorageKey = "schedulePreview_roomNamesOpen";
+    const [isRoomNamesOpen, setIsRoomNamesOpen] = useState<boolean>(() => {
+        try {
+            const raw = sessionStorage.getItem(roomNamesStorageKey);
+            if (raw !== null) {
+                return raw === "true";
+            }
+        } catch {
+            // Storage is unavailable; fall back to the default.
+        }
+
+        return roomNames.length === 0;
+    });
+    const handleRoomNamesToggle = useCallback(() => {
+        setIsRoomNamesOpen(prev => {
+            const next = !prev;
+            try {
+                sessionStorage.setItem(roomNamesStorageKey, String(next));
+            } catch {
+                // Storage is unavailable; the choice just isn't remembered.
+            }
+            return next;
+        });
+    }, []);
 
     // Handle fullscreen toggle
     const handleFullscreenToggle = useCallback(() => {
@@ -130,6 +159,19 @@ export default function SchedulePreviewTable({
                     </button>
                 </>
             )}
+            {roomNamesPanel && (
+                <button
+                    type="button"
+                    className="btn btn-sm btn-outline mt-0 mb-0"
+                    onClick={handleRoomNamesToggle}
+                    aria-expanded={isRoomNamesOpen}
+                    title="Show or hide the room names"
+                >
+                    <FontAwesomeIcon icon="fas faDoorOpen" />
+                    Room Names
+                    <FontAwesomeIcon icon={isRoomNamesOpen ? "fas faChevronDown" : "fas faChevronRight"} />
+                </button>
+            )}
             {/* Export Stats button is always visible - it doesn't change data */}
             <button
                 type="button"
@@ -153,6 +195,15 @@ export default function SchedulePreviewTable({
                 </button>
             )}
         </div>
+    );
+
+    // Render the expandable room names panel under the toolbar
+    const renderRoomNames = () => (
+        roomNamesPanel && isRoomNamesOpen ? (
+            <div className="mb-4 rounded-lg border border-base-300 bg-base-200/50">
+                {roomNamesPanel}
+            </div>
+        ) : null
     );
 
     // Render the schedule content (table or individual competition view)
@@ -305,6 +356,7 @@ export default function SchedulePreviewTable({
                         </button>
                     </div>
                     {renderToolbar(true)}
+                    {renderRoomNames()}
                     {renderScheduleContent()}
                 </div>
             </div>,
@@ -335,6 +387,7 @@ export default function SchedulePreviewTable({
     return (
         <div className="p-2">
             {renderToolbar(false)}
+            {renderRoomNames()}
             {renderScheduleContent()}
         </div>
     );

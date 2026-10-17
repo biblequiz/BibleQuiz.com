@@ -115,7 +115,6 @@ interface Props {
     isIndividualCompetition: boolean;
     isReadOnly: boolean;
     isOutOfDate?: boolean;
-    setHasDifferentRoomForFinalMatch: (value: boolean) => void;
     onRoomNamesChange: (roomNames: string[]) => void;
 }
 
@@ -125,7 +124,7 @@ export default function RoomEditor({
     isIndividualCompetition,
     isReadOnly,
     hasDifferentRoomForFinalMatch,
-    setHasDifferentRoomForFinalMatch,
+    isOutOfDate,
     onRoomNamesChange
 }: Props) {
     const [format, setFormat] = useState<RoomNameFormat>(RoomNameFormat.Numbers);
@@ -283,33 +282,28 @@ export default function RoomEditor({
                 ))}
             </div>
 
-            {/* Override Room for Final Match */}
-            {isIndividualCompetition && (
+            {/* Name for the final match room (the override itself is set in Scheduling Options) */}
+            {isIndividualCompetition && hasDifferentRoomForFinalMatch && roomNames.length > 0 && (
                 <div className="flex flex-wrap items-center gap-2 mt-0 mb-0">
-                    <label className="label cursor-pointer gap-2 justify-start mt-0 mb-0">
-                        <input
-                            type="checkbox"
-                            className="checkbox checkbox-sm"
-                            checked={hasDifferentRoomForFinalMatch}
-                            onChange={(e) => setHasDifferentRoomForFinalMatch(e.target.checked)}
-                            disabled={disabled || isReadOnly || roomNames.length === 0}
-                        />
-                        <span className="label-text">Override Room Name for Final Match</span>
-                    </label>
-                    {hasDifferentRoomForFinalMatch && roomNames.length > 0 && (
-                        <input
-                            type="text"
-                            className="input input-sm input-bordered w-16 text-center font-mono"
-                            value={roomNames[roomNames.length - 1]}
-                            onChange={(e) => handleRoomNameChange(roomNames.length - 1, e.target.value)}
-                            disabled={disabled || isReadOnly}
-                            maxLength={2}
-                            pattern="^[A-Z0-9][A-Z0-9\-]?$"
-                            title="1-2 uppercase alphanumeric characters or dash (cannot start with dash)"
-                            placeholder={generateRoomName(roomNames.length - 1, format, prefix)}
-                        />
-                    )}
+                    <span className="label-text">Final match room:</span>
+                    <input
+                        type="text"
+                        className="input input-sm input-bordered w-16 text-center font-mono"
+                        value={roomNames[roomNames.length - 1]}
+                        onChange={(e) => handleRoomNameChange(roomNames.length - 1, e.target.value)}
+                        disabled={disabled || isReadOnly}
+                        maxLength={2}
+                        pattern="^[A-Z0-9][A-Z0-9\-]?$"
+                        title="1-2 uppercase alphanumeric characters or dash (cannot start with dash)"
+                        placeholder={generateRoomName(roomNames.length - 1, format, prefix)}
+                    />
                 </div>)}
+
+            {isOutOfDate && roomNames.length > 0 && (
+                <p className="text-sm italic text-base-content/60">
+                    The schedule has changed. Refresh the preview to update the rooms.
+                </p>
+            )}
 
             {roomNames.length === 0 && (
                 <p className="text-sm italic text-base-content/60">
