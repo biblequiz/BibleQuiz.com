@@ -202,6 +202,15 @@ export default function RegistrationPage() {
                                     Clone Teams
                                 </button>
                             )}
+                            {event.ArchiveLink && (
+                                <a
+                                    href={`/${event.ArchiveLink}`}
+                                    className="btn btn-sm btn-outline m-0"
+                                >
+                                    <FontAwesomeIcon icon="fas faTowerBroadcast" classNames={["mr-1"]} />
+                                    Live Scores
+                                </a>
+                            )}
                             {isEventOwner && (
                                 <a
                                     href={`/manage-events/event/#/${eventId}/dashboard`}
