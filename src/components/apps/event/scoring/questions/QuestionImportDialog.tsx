@@ -9,6 +9,8 @@ import {
     type OnlineDatabaseQuestionSetManifest,
     MatchQuestionUsage,
 } from "types/services/AstroDatabaseQuestionsService";
+import type { MatchRules } from "types/MatchRules";
+import { checkQuestionCounts } from "./checkQuestionCounts";
 
 interface Props {
     auth: AuthManager;
@@ -17,6 +19,8 @@ interface Props {
     meetId: number;
     meetName: string;
     hasScoringStarted: boolean;
+    /** Rules for the division, or null if they aren't loaded. */
+    rules: MatchRules | null;
     onSave: (updatedSet: OnlineDatabaseQuestionSet) => void;
     onClose: () => void;
 }
@@ -46,6 +50,7 @@ export default function QuestionImportDialog({
     meetId,
     meetName,
     hasScoringStarted,
+    rules,
     onSave,
     onClose,
 }: Props) {
@@ -82,6 +87,15 @@ export default function QuestionImportDialog({
 
         return { matchNumbers, questionNumbers, maxQuestions };
     }, [parsedManifest]);
+
+    // Compare each match's point value counts with the division's rules.
+    const countIssues = useMemo(() => {
+        if (!parsedManifest?.Set || !rules) {
+            return [];
+        }
+
+        return checkQuestionCounts(parsedManifest.Set, rules);
+    }, [parsedManifest, rules]);
 
     // Calculate question counts summary
     const questionCounts = useMemo(() => {
@@ -292,6 +306,22 @@ export default function QuestionImportDialog({
                             <FontAwesomeIcon icon="fas faTriangleExclamation" />
                             <div>
                                 <strong>Save Error: </strong>{saveError}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Question counts that don't match the rules */}
+                    {countIssues.length > 0 && (
+                        <div role="alert" className="alert alert-warning">
+                            <FontAwesomeIcon icon="fas faTriangleExclamation" />
+                            <div>
+                                <strong>The question counts don't match this division's rules.</strong>
+                                {" "}Check the questions and the rules before saving.
+                                <ul className="list-disc ml-5 mt-1 mb-0">
+                                    {countIssues.map((issue, i) => (
+                                        <li key={i} className="mt-0 mb-0">{issue}</li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     )}

@@ -8,9 +8,12 @@ import {
     MatchQuestionUsage,
     OnlineDatabaseQuestionSetState,
 } from "types/services/AstroDatabaseQuestionsService";
+import { AstroMeetsService } from "types/services/AstroMeetsService";
+import type { MatchRules } from "types/MatchRules";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
 import QuestionImportDialog from "./questions/QuestionImportDialog";
+import { checkQuestionCounts } from "./questions/checkQuestionCounts";
 
 /**
  * Question type patterns to search for in question text.
@@ -126,6 +129,31 @@ export default function ScoringDatabaseQuestionsPage() {
         return meets.find(m => m.Display.Id === selectedMeetId) || null;
     }, [meets, selectedMeetId]);
 
+    // Load the selected division's rules: its custom rules, or the database's rules if it has none (the same rules
+    // the import uses). Undefined while loading; null if they couldn't be loaded.
+    const [selectedMeetRules, setSelectedMeetRules] = useState<MatchRules | null | undefined>(undefined);
+    useEffect(() => {
+        setSelectedMeetRules(undefined);
+        if (!selectedMeetId || !selectedMeet || !databaseId) return;
+
+        let isCurrent = true;
+        AstroMeetsService.getMeet(auth, eventId, databaseId, selectedMeetId, selectedMeet.IsIndividualCompetition)
+            .then(settings => {
+                if (isCurrent) {
+                    setSelectedMeetRules(settings.CustomRules ?? currentDatabase?.Settings.Rules ?? null);
+                }
+            })
+            .catch(() => {
+                if (isCurrent) {
+                    setSelectedMeetRules(null);
+                }
+            });
+
+        return () => {
+            isCurrent = false;
+        };
+    }, [auth, eventId, databaseId, selectedMeetId, selectedMeet, currentDatabase]);
+
     // Get the selected question
     const selectedQuestion = useMemo((): OnlineMatchQuestion | null => {
         if (!selectedCell || !selectedQuestionSet) return null;
@@ -214,19 +242,9 @@ export default function ScoringDatabaseQuestionsPage() {
 
         if (!selectedQuestionSet) return result;
 
-        // Track point value counts per match for consistency check
-        const matchPointCounts: Map<number, Map<number, number>> = new Map();
-
-        for (const [matchNumStr, matchSet] of Object.entries(selectedQuestionSet.Matches)) {
-            const matchNum = parseInt(matchNumStr);
-            const pointCounts = new Map<number, number>();
-
+        for (const matchSet of Object.values(selectedQuestionSet.Matches)) {
             for (const question of Object.values(matchSet.Questions)) {
                 if (question.Usage === MatchQuestionUsage.Regular) {
-                    // Count point values
-                    const current = pointCounts.get(question.PointValue) || 0;
-                    pointCounts.set(question.PointValue, current + 1);
-
                     // Count question types
                     const plainText = question.PlainText?.toUpperCase() || "";
                     for (const pattern of QUESTION_TYPE_PATTERNS) {
@@ -236,40 +254,21 @@ export default function ScoringDatabaseQuestionsPage() {
                     }
                 }
             }
-
-            matchPointCounts.set(matchNum, pointCounts);
         }
 
-        // Check consistency
-        let firstCounts: Map<number, number> | null = null;
-        let isConsistent = true;
-
-        for (const [, counts] of matchPointCounts) {
-            if (!firstCounts) {
-                firstCounts = counts;
-                continue;
-            }
-
-            // Compare with first
-            if (counts.size !== firstCounts.size) {
-                isConsistent = false;
-                break;
-            }
-
-            for (const [pointValue, count] of counts) {
-                if (firstCounts.get(pointValue) !== count) {
-                    isConsistent = false;
-                    break;
-                }
-            }
-
-            if (!isConsistent) break;
-        }
-
-        if (isConsistent && firstCounts) {
-            result.setCountAnalysis.push("All set counts are consistent ✓");
+        // Check each match's point value counts against the rules.
+        if (selectedMeetRules === undefined) {
+            result.setCountAnalysis.push("Checking the question counts against the rules...");
+        } else if (selectedMeetRules === null) {
+            result.setCountAnalysis.push("⚠ Couldn't load this division's rules, so the question counts weren't checked.");
         } else {
-            result.setCountAnalysis.push("⚠ Inconsistent set counts detected");
+            const issues = checkQuestionCounts(selectedQuestionSet, selectedMeetRules);
+            if (issues.length === 0) {
+                result.setCountAnalysis.push("All question counts match the rules ✓");
+            } else {
+                // Errors show above the other analysis lines.
+                result.errors.push("⚠ Question counts don't match the rules:", ...issues);
+            }
         }
 
         // Average question type counts
@@ -279,7 +278,7 @@ export default function ScoringDatabaseQuestionsPage() {
         }
 
         return result;
-    }, [selectedQuestionSet, gridData]);
+    }, [selectedQuestionSet, gridData, selectedMeetRules]);
 
     // Handler for cell click
     const handleCellClick = useCallback((matchNumber: number, questionNumber: number) => {
@@ -577,24 +576,36 @@ export default function ScoringDatabaseQuestionsPage() {
                     {/* Question Counts */}
                     <div className="card bg-base-100 shadow">
                         <div className="card-body p-4">
-                            <h4 className="card-title text-sm">Question Counts</h4>
+                            <h4 className="card-title text-sm">Question Counts (Match 1)</h4>
                             <div className="space-y-2">
-                                <div className="flex justify-between text-sm">
-                                    <span>10-point questions:</span>
-                                    <span className="font-semibold">{questionCounts.tens}</span>
-                                </div>
-                                <div className="flex justify-between text-sm">
-                                    <span>20-point questions:</span>
-                                    <span className="font-semibold">{questionCounts.twenties}</span>
-                                </div>
-                                <div className="flex justify-between text-sm">
-                                    <span>30-point questions:</span>
-                                    <span className="font-semibold">{questionCounts.thirties}</span>
-                                </div>
+                                {[
+                                    { label: "10-point questions:", actual: questionCounts.tens, pointValue: 10 },
+                                    { label: "20-point questions:", actual: questionCounts.twenties, pointValue: 20 },
+                                    { label: "30-point questions:", actual: questionCounts.thirties, pointValue: 30 },
+                                ].map(row => (
+                                    <div key={row.pointValue} className="flex justify-between text-sm">
+                                        <span>{row.label}</span>
+                                        <span className="font-semibold">
+                                            {row.actual}
+                                            {selectedMeetRules && (
+                                                <span className="font-normal text-base-content/60">
+                                                    {" "}(rules: {selectedMeetRules.PointValueCounts?.[row.pointValue] ?? 0})
+                                                </span>
+                                            )}
+                                        </span>
+                                    </div>
+                                ))}
                                 <div className="divider my-1"></div>
                                 <div className="flex justify-between text-sm font-bold">
                                     <span>Total per match:</span>
-                                    <span>{questionCounts.total}</span>
+                                    <span>
+                                        {questionCounts.total}
+                                        {selectedMeetRules && (
+                                            <span className="font-normal text-base-content/60">
+                                                {" "}(rules: {Object.values(selectedMeetRules.PointValueCounts ?? {}).reduce((sum, count) => sum + count, 0)})
+                                            </span>
+                                        )}
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -619,6 +630,7 @@ export default function ScoringDatabaseQuestionsPage() {
                     meetId={selectedMeetId}
                     meetName={selectedMeet.Display.NameOverride || selectedMeet.Display.Name}
                     hasScoringStarted={selectedQuestionSet?.HasScoringStarted ?? false}
+                    rules={selectedMeetRules ?? null}
                     onSave={handleImportSave}
                     onClose={() => setShowImportDialog(false)}
                 />
