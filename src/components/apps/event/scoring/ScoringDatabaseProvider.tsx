@@ -122,17 +122,11 @@ export default function ScoringDatabaseProvider({ }: Props) {
 
             isElectronicScoringEnabled: !!context.info!.ScoringCode,
             enableElectronicScoring: async (scoringCode: string) => {
+                // Save a copy so the event shown on screen only changes once the save succeeds.
                 const info = context.info!;
-                const originalCode = info.ScoringCode;
-                info.ScoringCode = scoringCode;
-                try {
-                    const updated = await EventsService.update(context.auth, info);
-                    context.setLatestEvent(updated);
-                }
-                catch (err) {
-                    info.ScoringCode = originalCode;
-                    throw err;
-                }
+                const updatedInfo = Object.assign(Object.create(Object.getPrototypeOf(info)), info, { ScoringCode: scoringCode });
+                const updated = await EventsService.update(context.auth, updatedInfo);
+                context.setLatestEvent(updated);
             },
 
             currentDatabase: currentDatabase,

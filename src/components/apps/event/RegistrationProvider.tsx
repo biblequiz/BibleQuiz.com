@@ -1,7 +1,7 @@
 import { Outlet, useNavigate, useOutletContext } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import type { EventProviderContext } from "./EventProvider";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneralPage";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
@@ -175,6 +175,13 @@ export default function RegistrationProvider({ }: Props) {
         scoringCode: info?.ScoringCode ?? undefined,
         hasChangedScoring: false,
     }));
+
+    // Pick up a scoring code that was enabled elsewhere (e.g. from the Divisions page) unless it's being edited here.
+    useEffect(() => {
+        setOtherInfo(current => current.hasChangedScoring
+            ? current
+            : { ...current, allowScoring: !!info?.ScoringCode, scoringCode: info?.ScoringCode ?? undefined });
+    }, [info?.ScoringCode]);
 
     const [initializeSavingRegistration, setInitializeSavingRegistration] = useState(false);
     const [impactingChanges, setImpactingChanges] = useState<string[] | undefined>(undefined);
