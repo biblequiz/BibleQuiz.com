@@ -506,7 +506,7 @@ export default function ScoringDatabaseMeetsPage() {
                     databaseId={databaseId!}
                     meetId={editingMeet.meetId}
                     meetName={editingMeet.meetName}
-                    defaultRules={editingMeet.isIndividualCompetition ? currentDatabase.DefaultIndividualRules : currentDatabase.DefaultIndividualRules}
+                    defaultRules={editingMeet.isIndividualCompetition ? currentDatabase.DefaultIndividualRules : currentDatabase.DefaultTeamRules}
                     defaultMatchStartTime={currentDatabase.Settings.DefaultMatchStartTime}
                     allMeets={currentDatabase.Meets}
                     isScoreKeepDatabase={currentDatabase.IsScoreKeep || false}
