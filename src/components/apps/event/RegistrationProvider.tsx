@@ -171,6 +171,9 @@ export default function RegistrationProvider({ }: Props) {
     const [otherInfo, setOtherInfo] = useState(() => ({
         isHidden: info?.IsHidden || false,
         isHiddenFromLiveEvents: info?.IsHiddenFromLiveEvents || false,
+        allowScoring: !!info?.ScoringCode,
+        scoringCode: info?.ScoringCode ?? undefined,
+        hasChangedScoring: false,
     }));
 
     const [initializeSavingRegistration, setInitializeSavingRegistration] = useState(false);
@@ -331,6 +334,9 @@ export default function RegistrationProvider({ }: Props) {
 
             updatedInfo.IsHidden = otherInfo.isHidden;
             updatedInfo.IsHiddenFromLiveEvents = otherInfo.isHiddenFromLiveEvents;
+            if (otherInfo.hasChangedScoring) {
+                updatedInfo.ScoringCode = otherInfo.allowScoring ? (otherInfo.scoringCode ?? null) : null;
+            }
 
             setIsSavingRegistration(true);
             setSavingError(undefined);
