@@ -6,6 +6,7 @@ import { AstroDatabasesService, type OnlineDatabaseSummary } from "types/service
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { currentDatabaseSummaries } from "../EventRoot";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { EventsService } from "types/services/EventsService";
 
 interface Props {
 }
@@ -23,6 +24,9 @@ export interface ScoringDatabaseProviderContext {
 
     currentDatabase: OnlineDatabaseSummary | null;
     setCurrentDatabase: (database: OnlineDatabaseSummary | null) => void;
+
+    isElectronicScoringEnabled: boolean;
+    enableElectronicScoring: (scoringCode: string) => Promise<void>;
 }
 
 export default function ScoringDatabaseProvider({ }: Props) {
@@ -115,6 +119,21 @@ export default function ScoringDatabaseProvider({ }: Props) {
             eventDistrictId: context.info!.DistrictId,
             eventSeason: DataTypeHelpers.getSeasonFromDate(context.info!.StartDate),
             databaseId: databaseId,
+
+            isElectronicScoringEnabled: !!context.info!.ScoringCode,
+            enableElectronicScoring: async (scoringCode: string) => {
+                const info = context.info!;
+                const originalCode = info.ScoringCode;
+                info.ScoringCode = scoringCode;
+                try {
+                    const updated = await EventsService.update(context.auth, info);
+                    context.setLatestEvent(updated);
+                }
+                catch (err) {
+                    info.ScoringCode = originalCode;
+                    throw err;
+                }
+            },
 
             currentDatabase: currentDatabase,
             setCurrentDatabase: database => {

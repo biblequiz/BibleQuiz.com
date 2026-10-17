@@ -2,6 +2,7 @@ import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
 import RegistrationPageForm from "./RegistrationPageForm";
 import { sharedDirtyWindowState } from "utils/SharedState";
+import ElectronicScoringFields from "../ElectronicScoringFields";
 
 interface Props {
 }
@@ -9,6 +10,10 @@ interface Props {
 export interface RegistrationOtherInfo {
     isHidden: boolean;
     isHiddenFromLiveEvents: boolean;
+    allowScoring: boolean;
+    scoringCode: string | undefined;
+    /** Only write the scoring code on save if it was edited here, so a stale copy never overwrites a change made on the Scoring page. */
+    hasChangedScoring: boolean;
 }
 
 export default function RegistrationOtherPage({ }: Props) {
@@ -64,5 +69,15 @@ export default function RegistrationOtherPage({ }: Props) {
                     </span>
                 </label>
             </div>
+
+            <ElectronicScoringFields
+                enabled={other.allowScoring}
+                code={other.scoringCode}
+                disabled={isSaving}
+                onChange={(enabled, code) => {
+                    setOther({ ...other, allowScoring: enabled, scoringCode: code, hasChangedScoring: true });
+                    sharedDirtyWindowState.set(true);
+                }}
+            />
         </RegistrationPageForm>);
 }

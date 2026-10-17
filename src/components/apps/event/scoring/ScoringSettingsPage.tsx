@@ -5,6 +5,7 @@ import { sharedDirtyWindowState } from "utils/SharedState";
 import { useOutletContext } from "react-router-dom";
 import type { EventProviderContext } from "../EventProvider";
 import { EventsService } from "types/services/EventsService";
+import ElectronicScoringFields from "../ElectronicScoringFields";
 
 interface Props {
 }
@@ -88,44 +89,16 @@ export default function ScoringSettingsPage({ }: Props) {
                     </div>
                 </div>)}
 
-            <div className="w-full ml-2 mt-4 mb-0">
-                <label className="label text-wrap">
-                    <input
-                        type="checkbox"
-                        name="isHiddenFromLiveEvents"
-                        className="checkbox checkbox-sm checkbox-info"
-                        checked={allowScoring}
-                        disabled={isSaving}
-                        onChange={e => {
-                            setAllowScoring(e.target.checked);
-                            sharedDirtyWindowState.set(true);
-                        }}
-                    />
-                    <span>
-                        Enable Electronic Scoring via EZScore?
-                    </span>
-                </label>
-            </div>
-
-            <div className="form-control w-full mt-2 mb-0">
-                <label className="label">
-                    <span className="label-text font-medium text-sm">Scoring Code</span>
-                    <span className="label-text-alt text-error">*</span>
-                </label>
-                <input
-                    type="text"
-                    className="input w-full"
-                    placeholder="Scoring Code"
-                    value={scoringCode ?? ""}
-                    onChange={e => {
-                        setScoringCode(e.target.value);
-                        sharedDirtyWindowState.set(true);
-                    }}
-                    disabled={isSaving || !allowScoring}
-                    maxLength={50}
-                    required={allowScoring}
-                />
-            </div>
+            <ElectronicScoringFields
+                enabled={allowScoring}
+                code={scoringCode}
+                disabled={isSaving}
+                onChange={(enabled, code) => {
+                    setAllowScoring(enabled);
+                    setScoringCode(code);
+                    sharedDirtyWindowState.set(true);
+                }}
+            />
 
             <div className="w-full ml-2 mt-2 mb-0">
                 <label className="label text-wrap">

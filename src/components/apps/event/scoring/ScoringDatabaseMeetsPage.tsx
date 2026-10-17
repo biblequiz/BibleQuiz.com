@@ -8,6 +8,7 @@ import { AstroMeetsService } from "types/services/AstroMeetsService";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ScoringDatabaseScoreKeepAlert from "./ScoringDatabaseScoreKeepAlert";
+import ScoringDatabaseEnableScoringAlert from "./ScoringDatabaseEnableScoringAlert";
 import DivisionCard from "./meets/DivisionCard";
 import DivisionScheduleDialog from "./meets/DivisionScheduleDialog";
 import DivisionPlayoffsDialog from "./meets/DivisionPlayoffsDialog";
@@ -39,7 +40,9 @@ export default function ScoringDatabaseMeetsPage() {
         eventType,
         databaseId,
         currentDatabase,
-        setCurrentDatabase
+        setCurrentDatabase,
+        isElectronicScoringEnabled,
+        enableElectronicScoring
     } = useOutletContext<ScoringDatabaseProviderContext>();
 
     const isDirty = useStore(sharedDirtyWindowState);
@@ -66,6 +69,10 @@ export default function ScoringDatabaseMeetsPage() {
     const [dragOverMeetId, setDragOverMeetId] = useState<number | null>(null);
 
     const isScoreKeep = currentDatabase?.IsScoreKeep || false;
+
+    // Count the divisions with EZScore checked (including unsaved changes).
+    const ezScoreDivisionCount = (currentDatabase?.Meets ?? []).filter(meet =>
+        (pendingDisplayChanges[meet.Display.Id]?.AllowEZScore ?? meet.Display.AllowEZScore)).length;
 
     // Get meets in current order
     const getOrderedMeets = useCallback(() => {
@@ -437,6 +444,13 @@ export default function ScoringDatabaseMeetsPage() {
                     <span>Successfully saved changes.</span>
                 </div>
             )}
+
+            {/* Divisions that use EZScore need electronic scoring turned on for the event. */}
+            {!isElectronicScoringEnabled && ezScoreDivisionCount > 0 && (
+                <ScoringDatabaseEnableScoringAlert
+                    divisionCount={ezScoreDivisionCount}
+                    enableElectronicScoring={enableElectronicScoring}
+                />)}
 
             {/* Division Cards */}
             {orderedMeets.length === 0 ? (
