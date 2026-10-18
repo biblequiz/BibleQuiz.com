@@ -1,0 +1,1268 @@
+{
+  "EventName": "2026-27 Central ME TBQ League Meet 1",
+  "DatabaseNames": {
+    "19c3490b-5bd3-4399-8b06-01f513c0843f": "CMTBQ 26-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "19c3490b-5bd3-4399-8b06-01f513c0843f",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "XP5 Meet 1",
+        "LastUpdated": "10/17/26 5:14 PM",
+        "DatabaseLastUpdated": "2026-10-14T13:41:51.4758071+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Ruth Harris",
+            "Quizzers": [
+              3,
+              4
+            ],
+            "Id": "t_10b4dce8124a4d498d7ad615b64030f8",
+            "Name": "2000 Fully Sane Locusts",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 600,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 100.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 8,
+              "Correct30s": 7,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sean Lebida",
+            "Quizzers": [
+              6,
+              8
+            ],
+            "Id": "t_ee2294c1f6644d93bb8594bb71c31f36",
+            "Name": "Amazing Apostles",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.3,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 19,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              1,
+              2
+            ],
+            "Id": "t_6d0ef7fc23e24c9680989b7b13ad283f",
+            "Name": "Jordaan Rivah",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 780,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 19,
+              "Correct20s": 17,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Holly Lebida",
+            "Quizzers": [
+              5,
+              7,
+              9
+            ],
+            "Id": "t_ca11b10f674344fc9f45a3b279ab87b7",
+            "Name": "Rock Solid",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.2,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 23,
+              "Correct20s": 15,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "X1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "X2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Jordaan Rivah",
+            "YearsQuizzing": null,
+            "Id": "q_bbc9baaaf1d24717d6a608df21f76ae1",
+            "Name": "Addison Perry",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 113.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 8,
+              "Correct20s": 16,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jordaan Rivah",
+            "YearsQuizzing": null,
+            "Id": "q_ad93605c99ea458c920b08de2462bbf7",
+            "Name": "Braylea Guptil",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 10,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jordaan Rivah",
+            "YearsQuizzing": null,
+            "Id": "q_d3b23fd465a44ec7b0cb08de251e06b1",
+            "Name": "Edythe Little",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "2000 Fully Sane Locusts",
+            "YearsQuizzing": null,
+            "Id": "q_ba5488575cc4417db05e08de251e06b1",
+            "Name": "Emmie Godbout",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 7,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "2000 Fully Sane Locusts",
+            "YearsQuizzing": null,
+            "Id": "q_404ed216f4a74190b05808de251e06b1",
+            "Name": "Jonathan Lewis",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rock Solid",
+            "YearsQuizzing": null,
+            "Id": "q_3d9966cbbb364bf2b0fd08de251e06b1",
+            "Name": "Kylee Lebida",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 11,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Amazing Apostles",
+            "YearsQuizzing": null,
+            "Id": "q_31031479369b4f92b0e908de251e06b1",
+            "Name": "Quinton Rosner",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.2,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rock Solid",
+            "YearsQuizzing": null,
+            "Id": "q_29af8195d51b42bf928008de2462bbf7",
+            "Name": "Rayannah Rosner",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Amazing Apostles",
+            "YearsQuizzing": null,
+            "Id": "q_bdf9ae7e63fc4fcdb0f008de251e06b1",
+            "Name": "Samuel Nelson",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.2,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 12,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Rock Solid",
+            "YearsQuizzing": null,
+            "Id": "q_f7b6cd33f332431bb10908de251e06b1",
+            "Name": "Zayka Nelson",
+            "ChurchId": "ed4b0e7e-73d5-4ab4-5db0-08de251cd1e5",
+            "ChurchName": "The Rock Church",
+            "City": "Scarborough",
+            "State": "ME",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 39.2,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          3,
+          5,
+          8,
+          9,
+          6,
+          1,
+          4,
+          7,
+          2
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "X1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "X2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "19c3490b-5bd3-4399-8b06-01f513c0843f",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Contender Meet 1",
+        "LastUpdated": "10/17/26 5:14 PM",
+        "DatabaseLastUpdated": "2026-10-14T13:41:51.4758071+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              2
+            ],
+            "Id": "t_0a56aeeefe2743ad9930974f888548a9",
+            "Name": "Mason&Carolynn",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 109.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 7,
+              "Correct20s": 15,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              3
+            ],
+            "Id": "t_9e3540d5787444fd8a8e104bb28aceb0",
+            "Name": "Woodney&Baylor",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 880,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 176.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 21,
+              "Correct20s": 17,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Woodney&Baylor",
+            "YearsQuizzing": null,
+            "Id": "q_3a2ff882761b4d37b09908de251e06b1",
+            "Name": "Baylor Willey",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 17,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mason&Carolynn",
+            "YearsQuizzing": null,
+            "Id": "q_ad2a383337af4f26d6e208df21f76ae1",
+            "Name": "Carolynn Perry",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 109.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 7,
+              "Correct20s": 15,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mason&Carolynn",
+            "YearsQuizzing": null,
+            "Id": "q_b7195354482c40d6b0b008de251e06b1",
+            "Name": "Mason Little",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Woodney&Baylor",
+            "YearsQuizzing": null,
+            "Id": "q_9561d4b9809c4b14b09608de251e06b1",
+            "Name": "Woodney Parker",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 620,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 124.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 4,
+              "Correct20s": 14,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-17T17:14:30.6271175+00:00"
+}

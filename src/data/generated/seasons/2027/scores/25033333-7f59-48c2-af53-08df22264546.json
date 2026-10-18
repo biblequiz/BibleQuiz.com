@@ -1,0 +1,3763 @@
+{
+  "EventName": "NW - JBQ League 1 (26/27)",
+  "DatabaseNames": {
+    "c9a8055b-4563-4a4e-b94d-d379a8747021": "NWD_JBQ_-_2027_League_1"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "c9a8055b-4563-4a4e-b94d-d379a8747021",
+        "MeetId": 1,
+        "CombinedName": "A Level & B Level",
+        "HasLinkedMeets": true,
+        "HasQuestionStats": false,
+        "Name": "A Level",
+        "LastUpdated": "10/17/26 7:03 PM",
+        "DatabaseLastUpdated": "2026-10-17T08:20:26.8658178+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Josh Arasavelli",
+            "Quizzers": [
+              0,
+              5,
+              13
+            ],
+            "Id": "t_3af3705d0daf4fe1b64514670e5f10bc",
+            "Name": "Bellevue Neighborhood A1 - Outstanding Orcas",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 13,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sandesh Edara",
+            "Quizzers": [
+              3,
+              8,
+              14
+            ],
+            "Id": "t_a0e91fa67c124e4898f11fb200f832bc",
+            "Name": "Bellevue Neighborhood A2 - Mighty Ducks",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 224.0,
+              "AverageCorrect": 12.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 26,
+              "Correct20s": 26,
+              "Correct30s": 12,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 270,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 315,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 250,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jonah Gallo",
+            "Quizzers": [
+              4,
+              9,
+              10,
+              15
+            ],
+            "Id": "t_282ba06c7b294eebbff7e0d455512ea6",
+            "Name": "Bellevue Neighborhood A3 - Leaping Lions",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 965,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 193.0,
+              "AverageCorrect": 12.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 30,
+              "Correct20s": 23,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 265,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 225,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 135,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Baodong Liu",
+            "Quizzers": [
+              1,
+              2,
+              6
+            ],
+            "Id": "t_9bda2037aac844c0a66f9c8ace82f6a8",
+            "Name": "CP- A- Daughters of Light",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 119.0,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 27,
+              "Correct20s": 15,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 280,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Noel Devaneyan",
+            "Quizzers": [
+              7,
+              11,
+              12,
+              16
+            ],
+            "Id": "t_e0cd61d4acbb41bfbb0004f38fce5ad4",
+            "Name": "STA A - Destiny Makers",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 905,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 181.0,
+              "AverageCorrect": 10.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 23,
+              "Correct20s": 17,
+              "Correct30s": 12,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 280,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          4,
+          2,
+          3,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Bellevue Neighborhood A1 - Outstanding Orcas",
+            "YearsQuizzing": null,
+            "Id": "q_e9475f901e514a8bd7ee08d9887368eb",
+            "Name": "Abhishikth Chirumamilla",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- A- Daughters of Light",
+            "YearsQuizzing": null,
+            "Id": "q_4205e8bb6ca541f3d8a608df288347a5",
+            "Name": "Bethany Stanislause",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 2,
+              "Correct20s": 10,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- A- Daughters of Light",
+            "YearsQuizzing": null,
+            "Id": "q_7c6d7579790843f6d8b608df288347a5",
+            "Name": "Brittany Stanislause",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A2 - Mighty Ducks",
+            "YearsQuizzing": null,
+            "Id": "q_36f38e75dff44a45660d08dbafc02107",
+            "Name": "Cyril Kesireddy",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.0,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 17,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A3 - Leaping Lions",
+            "YearsQuizzing": null,
+            "Id": "q_e2446194d3a844d2ae8308daa7c729d4",
+            "Name": "Darshan Kamarajugadda",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 25,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A1 - Outstanding Orcas",
+            "YearsQuizzing": null,
+            "Id": "q_259c6f320de64118aeeb08daa7c729d4",
+            "Name": "Elizabeth Balli",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- A- Daughters of Light",
+            "YearsQuizzing": null,
+            "Id": "q_9fd7b3be194e4d7f8a0208dbb0cb2340",
+            "Name": "Esther English",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 1,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA A - Destiny Makers",
+            "YearsQuizzing": null,
+            "Id": "q_42f0fb3f7b294efbc4a608dbdb2a87a5",
+            "Name": "Gianna Prabin Paul",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 1,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A2 - Mighty Ducks",
+            "YearsQuizzing": null,
+            "Id": "q_15ab250cb8ed4de4d80d08d9887368eb",
+            "Name": "Hannah Elizabeth Bhima",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 465,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 6,
+              "Correct20s": 10,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A3 - Leaping Lions",
+            "YearsQuizzing": null,
+            "Id": "q_b90f6fda18b64961ae8908daa7c729d4",
+            "Name": "Leo Rayarala",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A3 - Leaping Lions",
+            "YearsQuizzing": null,
+            "Id": "q_42e3e9ad147c493faeae08daa7c729d4",
+            "Name": "Manoah Surapaneni",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 535,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 107.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 0,
+              "Correct20s": 17,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA A - Destiny Makers",
+            "YearsQuizzing": null,
+            "Id": "q_db5efe821f7d45d2ed6f08dbd94ee1c8",
+            "Name": "Nathania Naveen",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA A - Destiny Makers",
+            "YearsQuizzing": null,
+            "Id": "q_43ce709d25d94fcb672f08de2c5fabf1",
+            "Name": "Neville Mathew Naveen",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 113.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 5,
+              "Correct20s": 10,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A1 - Outstanding Orcas",
+            "YearsQuizzing": null,
+            "Id": "q_17c37ec5120f4273749e08de04845ac9",
+            "Name": "Praneeth Yalavarthy",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A2 - Mighty Ducks",
+            "YearsQuizzing": null,
+            "Id": "q_1f4ad94a541f43fba95108d9ce610cb9",
+            "Name": "Samara Chepuri",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 465,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 3,
+              "Correct20s": 15,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood A3 - Leaping Lions",
+            "YearsQuizzing": null,
+            "Id": "q_4a4c3603df264d18aec008daa7c729d4",
+            "Name": "Sean Edara",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 34.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 4,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA A - Destiny Makers",
+            "YearsQuizzing": null,
+            "Id": "q_a2a6f6aa2ae84c0dc47e08dbdb2a87a5",
+            "Name": "Shaelyn Raj",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 10,
+              "Correct20s": 3,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          12,
+          10,
+          8,
+          14,
+          1,
+          4,
+          2,
+          16,
+          3,
+          15,
+          6,
+          5,
+          7,
+          13,
+          0,
+          11,
+          9
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 1,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 1,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 1,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 1,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "A3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 1,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": 1,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": true,
+        "ScoringProgressMessageForCombined": "All Room(s) Reported",
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "c9a8055b-4563-4a4e-b94d-d379a8747021",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": true,
+        "HasQuestionStats": false,
+        "Name": "B Level",
+        "LastUpdated": "10/17/26 7:03 PM",
+        "DatabaseLastUpdated": "2026-10-17T08:20:26.8658178+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Talitha Konda",
+            "Quizzers": [
+              1,
+              7,
+              8
+            ],
+            "Id": "t_5fc80f7087594cde9eae38365e7b7d95",
+            "Name": "Bellevue Neighborhood B1 - Marvelous Mantas",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.8,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 22,
+              "Correct20s": 7,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Olivia Moses",
+            "Quizzers": [
+              2,
+              5,
+              6
+            ],
+            "Id": "t_1b4828b5cabf470cb7b52c2985b51e40",
+            "Name": "CP- B-Crowned in Christ",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 16,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Angeline Mckenzie",
+            "Quizzers": [
+              0,
+              3,
+              4
+            ],
+            "Id": "t_aa97fd9be3b249cc8072b2d22811fd6f",
+            "Name": "STA B - Kingdom Seekers",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 865,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 216.3,
+              "AverageCorrect": 12.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 19,
+              "Correct20s": 22,
+              "Correct30s": 10,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "A3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "STA B - Kingdom Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_6c0d1eba783e4dca1e5f08dc016c4318",
+            "Name": "Daniel McKenzie",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 120.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 7,
+              "Correct20s": 9,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood B1 - Marvelous Mantas",
+            "YearsQuizzing": null,
+            "Id": "q_4f5c7876be354efbaec608daa7c729d4",
+            "Name": "Enosh Battagani",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.3,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 6,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- B-Crowned in Christ",
+            "YearsQuizzing": null,
+            "Id": "q_cf74f771281b49617a1a08df26de375d",
+            "Name": "Eva Rapaka",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA B - Kingdom Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_3b1539a0fe1c4530ed6108dbd94ee1c8",
+            "Name": "Hansel Noel",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 11,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA B - Kingdom Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_ee6ebbec64d64d44aed608dcdc383362",
+            "Name": "Isabella Dhas",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 1,
+              "Correct20s": 12,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- B-Crowned in Christ",
+            "YearsQuizzing": null,
+            "Id": "q_c382f54460764f5d283408dac1dfd992",
+            "Name": "Kaycie Dever",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 6,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- B-Crowned in Christ",
+            "YearsQuizzing": null,
+            "Id": "q_1f8a8b8426424352ab3608dc53e1935e",
+            "Name": "Keziah Rodriguez",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.8,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 6,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood B1 - Marvelous Mantas",
+            "YearsQuizzing": null,
+            "Id": "q_acff16e944c844e9aeb408daa7c729d4",
+            "Name": "Mahima Bandaru",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.3,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 8,
+              "Correct20s": 3,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood B1 - Marvelous Mantas",
+            "YearsQuizzing": null,
+            "Id": "q_baeedbd521094c4ecc0408dbdedcd2fc",
+            "Name": "Manas Surapaneni",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.3,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          4,
+          7,
+          6,
+          3,
+          5,
+          1,
+          8,
+          2
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "c9a8055b-4563-4a4e-b94d-d379a8747021",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "C Level",
+        "LastUpdated": "10/17/26 7:03 PM",
+        "DatabaseLastUpdated": "2026-10-17T08:20:26.8658178+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Subha Arasavelli",
+            "Quizzers": [
+              0,
+              1,
+              2,
+              9
+            ],
+            "Id": "t_17208ca7cbc54f078d0615272c0c4631",
+            "Name": "Bellevue Neighborhood C1 - Silver Swallows",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 6.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 25,
+              "Correct20s": 15,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 135,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Alyssa Sturgeon",
+            "Quizzers": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              15,
+              17
+            ],
+            "Id": "t_c6c6199f676c4ff993e34152c1b3c220",
+            "Name": "Quiz Ninjas",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1060,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 176.7,
+              "AverageCorrect": 10.5,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 33,
+              "Correct20s": 21,
+              "Correct30s": 9,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 235,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Naveen Emerald",
+            "Quizzers": [
+              10,
+              11,
+              16
+            ],
+            "Id": "t_6c9f128133d342bd83711dc5a138ef61",
+            "Name": "STA C - Bible Bees",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 955,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 159.2,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 27,
+              "Correct20s": 21,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 155,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 160,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Prashant Dhas",
+            "Quizzers": [
+              8,
+              12,
+              13,
+              14
+            ],
+            "Id": "t_2782a6f742d441edbed9837b4d6510bb",
+            "Name": "STA C - Word Warriors",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 220.0,
+              "AverageCorrect": 12.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 32,
+              "Correct20s": 24,
+              "Correct30s": 17,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 155,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 225,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 300,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Bellevue Neighborhood C1 - Silver Swallows",
+            "YearsQuizzing": null,
+            "Id": "q_8d9dd4d7103543b7b2d708dd08b90e65",
+            "Name": "Abigail Chang",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood C1 - Silver Swallows",
+            "YearsQuizzing": null,
+            "Id": "q_05f4636cceb44d51746308de04845ac9",
+            "Name": "Anayah Randir",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 2,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood C1 - Silver Swallows",
+            "YearsQuizzing": null,
+            "Id": "q_04edabaea77b4b347dea08dd340127af",
+            "Name": "Annika Gadepaka",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_ccb7caf4147c493e208208dcf2c0d571",
+            "Name": "Claire McCutcheon",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_6916949b196248e6cc7708df288347a5",
+            "Name": "Dalton Vaughn",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": -25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -4.2,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_a27849ff66a8404c6bd108de04845ac9",
+            "Name": "Daniel McCutcheon",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_f1981d9ea5b142aecc7108df288347a5",
+            "Name": "Ember Sturgeon",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.8,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 27,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_9c9f20551d284957c91d08df288347a5",
+            "Name": "Evelyn Owings",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_725150ab737b47bbc47908dbdb2a87a5",
+            "Name": "Innila Vinoth",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood C1 - Silver Swallows",
+            "YearsQuizzing": null,
+            "Id": "q_a5c5fe1273be4f36ab9608dcdc383362",
+            "Name": "Keerthana Chirumamilla",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 44.2,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 22,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_d32ab98bfc9b49051e3608dc016c4318",
+            "Name": "Kriston Anand",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 670,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 111.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 3,
+              "Correct20s": 19,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_d73bbdc151fc44831e6408dc016c4318",
+            "Name": "Micah Jay",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.5,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 24,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_48a838ec200f4d4fadcc08dcdc383362",
+            "Name": "Nikhil Vijay Kumar",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.7,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 10,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_8fc3092afcb446d6add208dcdc383362",
+            "Name": "Nivin Vijay Kumar",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 230,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.3,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 15,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_6892abc83764407f1e6908dc016c4318",
+            "Name": "Oliver Gem Prince",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 0,
+              "Correct20s": 14,
+              "Correct30s": 16,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_dfa5b65416d742ce20ae08dcf2c0d571",
+            "Name": "Paisley Owings",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA C - Bible Bees",
+            "YearsQuizzing": null,
+            "Id": "q_d8b567cdd6244401c48808dbdb2a87a5",
+            "Name": "Samuel Ranjith",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quiz Ninjas",
+            "YearsQuizzing": null,
+            "Id": "q_c51417ce117447dacc6b08df288347a5",
+            "Name": "Zoe Sturgeon",
+            "ChurchId": "aab99f23-a159-4737-a4c0-f31ece09a7eb",
+            "ChurchName": "Columbia Heights Assembly of God",
+            "City": "Longview",
+            "State": "WA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 690,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 2,
+              "Correct20s": 18,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          14,
+          17,
+          10,
+          6,
+          11,
+          9,
+          13,
+          12,
+          1,
+          2,
+          3,
+          8,
+          15,
+          5,
+          7,
+          16,
+          0,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "c9a8055b-4563-4a4e-b94d-d379a8747021",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "D/E Level",
+        "LastUpdated": "10/17/26 7:03 PM",
+        "DatabaseLastUpdated": "2026-10-17T08:20:26.8658178+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Madelyn Gallo",
+            "Quizzers": [
+              4,
+              5,
+              7,
+              13
+            ],
+            "Id": "t_225ef8c1d8c14b79aa36fc152eea399f",
+            "Name": "Bellevue Neighborhood D1 - Flying Fish",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 21,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Leslie Dever",
+            "Quizzers": [
+              1,
+              2,
+              8,
+              10
+            ],
+            "Id": "t_550ddc6aaa964972b3dd3dd24e7bd564",
+            "Name": "CP- E- Kingdom Knights",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 695,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.8,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 30,
+              "Correct20s": 20,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Roselin Sukhi",
+            "Quizzers": [
+              0,
+              9,
+              12
+            ],
+            "Id": "t_803babbf7588459280c7b7520c754bc6",
+            "Name": "STA D - Little Lambs",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 186.7,
+              "AverageCorrect": 11.2,
+              "QuizOuts": 13,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 35,
+              "Correct20s": 32,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jenita Naveen",
+            "Quizzers": [
+              3,
+              6,
+              11
+            ],
+            "Id": "t_eb8fca21f30d47dc849cb10de736c764",
+            "Name": "STA E - Cornerstone Crew",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 550,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.7,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 31,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "STA D - Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_6ff7507b41be4415a37008dc206486a9",
+            "Name": "Adelene RajPrasanth",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 53.3,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- E- Kingdom Knights",
+            "YearsQuizzing": null,
+            "Id": "q_95a28ceb1837490ff74c08de88ea6252",
+            "Name": "Elijah Rodriguez",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.8,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 3,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- E- Kingdom Knights",
+            "YearsQuizzing": null,
+            "Id": "q_8d5308034008400bd9ad08df288347a5",
+            "Name": "Enzo Kurniawan",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 18,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA E - Cornerstone Crew",
+            "YearsQuizzing": null,
+            "Id": "q_69694ef913154aafcd4908df288347a5",
+            "Name": "Immanuel Sam Prince",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.2,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 13,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood D1 - Flying Fish",
+            "YearsQuizzing": null,
+            "Id": "q_8fc175e7378b43fa745108de04845ac9",
+            "Name": "Isaac David Bhima",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood D1 - Flying Fish",
+            "YearsQuizzing": null,
+            "Id": "q_67f51fbd394e4409d9e408df288347a5",
+            "Name": "Ivon Samuel",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 54.2,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 10,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA E - Cornerstone Crew",
+            "YearsQuizzing": null,
+            "Id": "q_8c396a71e8bf41db670e08de2c5fabf1",
+            "Name": "Joel Bharath",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood D1 - Flying Fish",
+            "YearsQuizzing": null,
+            "Id": "q_2622c31f29a647d1745d08de04845ac9",
+            "Name": "Jonah Ashriel Manchala",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.2,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- E- Kingdom Knights",
+            "YearsQuizzing": null,
+            "Id": "q_bf5024d400704eebb7c908dcdc0949ca",
+            "Name": "Joseph  (Zeke) Rodriguez",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 9,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA D - Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_a4330ec646e44fedaf3308dd08b90e65",
+            "Name": "Liana Dhas",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 13,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "CP- E- Kingdom Knights",
+            "YearsQuizzing": null,
+            "Id": "q_2712c506154440017a2b08df26de375d",
+            "Name": "Nathaniel Downs",
+            "ChurchId": "4d6ded63-0e3f-4b2d-b085-0b282441398b",
+            "ChurchName": "Cedar Park AG",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA E - Cornerstone Crew",
+            "YearsQuizzing": null,
+            "Id": "q_3810fab8282f4864cd4f08df288347a5",
+            "Name": "Nehemiah Naveen",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "STA D - Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_30840bd0f7534ae9688608de2c5fabf1",
+            "Name": "Nolan Mathew Naveen",
+            "ChurchId": "1c8cd284-8b0b-4503-3eb5-08dbafc645c3",
+            "ChurchName": "Seattle Tamil Assembly Church",
+            "City": "Bothell",
+            "State": "WA",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bellevue Neighborhood D1 - Flying Fish",
+            "YearsQuizzing": null,
+            "Id": "q_41181f75dfdb4334d20808df288347a5",
+            "Name": "Sthuthi Tammalla",
+            "ChurchId": "69860d9b-eacb-4984-8c44-741369ed7e99",
+            "ChurchName": "Bellevue Neighborhood Church",
+            "City": "Bellevue",
+            "State": "WA",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          9,
+          12,
+          3,
+          8,
+          5,
+          0,
+          2,
+          11,
+          1,
+          13,
+          4,
+          7,
+          6,
+          10
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "E1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "E2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "10:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-17T19:03:58.1087442+00:00"
+}
