@@ -1,0 +1,523 @@
+{
+  "EventName": "2026-27 Central ME JBQ League Meet 1",
+  "DatabaseNames": {
+    "4fd9121f-bf78-49d5-90bb-e8502234dfdf": "CMJBQ 26-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "4fd9121f-bf78-49d5-90bb-e8502234dfdf",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "JBQ Meet 1",
+        "LastUpdated": "10/17/26 4:26 PM",
+        "DatabaseLastUpdated": "2026-10-14T13:24:51.5288248+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              3,
+              4,
+              9
+            ],
+            "Id": "t_6e0fe755ec7045b282b0263a6d4fb422",
+            "Name": "Dear brothers & sisters",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.7,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 14,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Cindy Waller",
+            "Quizzers": [
+              0,
+              1,
+              5,
+              6,
+              7,
+              8
+            ],
+            "Id": "t_49ae23b2c465455fb7d0a6c3ce015f30",
+            "Name": "KVAG Kids",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 12,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 35,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "J1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_facde9ceecf046ea91ee08de2462bbf7",
+            "Name": "Calvin Gilbert",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_4fd9121fbf7849d590bbe8502234dfdf_16",
+            "Name": "CiCi Dearman",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dear brothers & sisters",
+            "YearsQuizzing": null,
+            "Id": "q_5f391dba6b6f479e5b1408de4bdd2498",
+            "Name": "Dexter Churchill",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dear brothers & sisters",
+            "YearsQuizzing": null,
+            "Id": "q_89facbf48f5c4d10925108de2462bbf7",
+            "Name": "Ebonie Quimby",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dear brothers & sisters",
+            "YearsQuizzing": null,
+            "Id": "q_514a7adbe7d1420fd67b08df21f76ae1",
+            "Name": "Emmalyn Perry",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_4dd0a2d5e940401391d608de2462bbf7",
+            "Name": "Emmy Booker",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_d94e5e9985734e4d91e808de2462bbf7",
+            "Name": "Jordan Gilbert",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_3a4998415d1249da9b7308df0e639fb7",
+            "Name": "Landon Booker",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "KVAG Kids",
+            "YearsQuizzing": null,
+            "Id": "q_78a75a280cca459c91e208de2462bbf7",
+            "Name": "Micah Gilbert",
+            "ChurchId": "b07acaba-6fee-4623-bfdd-24ac8487a3cb",
+            "ChurchName": "Kennebec Valley Assembly of God",
+            "City": "Chelsea",
+            "State": "ME",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dear brothers & sisters",
+            "YearsQuizzing": null,
+            "Id": "q_26b46ace34cb4f4f924508de2462bbf7",
+            "Name": "Spencer Little",
+            "ChurchId": "0b40c909-2a0f-4929-5da3-08de251cd1e5",
+            "ChurchName": "Charleston Church",
+            "City": "Charleston",
+            "State": "ME",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          5,
+          4,
+          9,
+          6,
+          3,
+          0,
+          1,
+          2,
+          7,
+          8
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "J1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-17T16:26:28.7424481+00:00"
+}
