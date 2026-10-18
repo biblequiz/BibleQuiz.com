@@ -1,0 +1,3807 @@
+{
+  "EventName": "North Texas 2026-2027 JBQ Team Registration",
+  "DatabaseNames": {
+    "e8f874eb-8942-41bf-b1bb-171789941b10": "NTX-JBQ_2026-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "e8f874eb-8942-41bf-b1bb-171789941b10",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "JBQ-Beginner-1-October-2026",
+        "LastUpdated": "10/17/26 4:53 PM",
+        "DatabaseLastUpdated": "2026-10-17T04:13:04.5177892+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Karin Beckham",
+            "Quizzers": [
+              3,
+              6,
+              8,
+              12,
+              13,
+              18
+            ],
+            "Id": "t_efa39052bd944aa48b760dc5dcdca0ab",
+            "Name": "Bible Warriors Freedom Church",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 485,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 161.7,
+              "AverageCorrect": 11.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 24,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Mary Teasdale",
+            "Quizzers": [
+              0,
+              10,
+              11,
+              15,
+              17,
+              19
+            ],
+            "Id": "t_c2b3005f10ad4502a2655a31b59a0672",
+            "Name": "G  JAM team-First at Firewheel (Garland)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.7,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Cassandra Gaglione",
+            "Quizzers": [
+              2,
+              4,
+              7
+            ],
+            "Id": "t_16f01173ff1c4776a3f911ed32c4b319",
+            "Name": "Seekers of the Word",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.7,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 16,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Edwin K",
+            "Quizzers": [
+              1,
+              5,
+              9,
+              14,
+              16,
+              20
+            ],
+            "Id": "t_0a54429d13f247b194a3356f4e2f84dc",
+            "Name": "Zion - Kingdom Kids",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 500,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 166.7,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 24,
+              "Correct20s": 12,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "G  JAM team-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_d5db6e167b3c41b91b2a08de2c21fed1",
+            "Name": "Abigail Olumesi",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.7,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Kingdom Kids",
+            "YearsQuizzing": null,
+            "Id": "q_7df02c5954114eb83d7708de03583f4f",
+            "Name": "Ashley Petson",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seekers of the Word",
+            "YearsQuizzing": null,
+            "Id": "q_db3091ff5a3241aefcb308dd4fb5bfff",
+            "Name": "Avery Longstreet",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Warriors Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_4093f5a3c0d44220644108dd4982b962",
+            "Name": "Braden Hall",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seekers of the Word",
+            "YearsQuizzing": null,
+            "Id": "q_b15700917f2d47c61f1208dbee83da9f",
+            "Name": "Brian Braddy",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Kingdom Kids",
+            "YearsQuizzing": null,
+            "Id": "q_d79cc5c97e2d446adfd908dce092d0a5",
+            "Name": "Caleb Samuel",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Warriors Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_a4c089bf9e0e41a5642908dd4982b962",
+            "Name": "Cayson Liss",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.3,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Seekers of the Word",
+            "YearsQuizzing": null,
+            "Id": "q_b5f129985773426bfca208dd4fb5bfff",
+            "Name": "Colette Gaglione",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.7,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 12,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Warriors Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_bcd8423ed68649ad17a308df1a4c4c50",
+            "Name": "Daniela Monico",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Kingdom Kids",
+            "YearsQuizzing": null,
+            "Id": "q_15ecc3b5922b46563d6508de03583f4f",
+            "Name": "Ezra Babu",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "G  JAM team-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_6650413575b84ab01b3b08de2c21fed1",
+            "Name": "Gabriel Sekpe",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": -25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -8.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "G  JAM team-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_df5b8f4678c948aa1b4108de2c21fed1",
+            "Name": "Gideon Sekpe",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Warriors Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_7166c13595654b57643b08dd4982b962",
+            "Name": "Haven Pliant",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Warriors Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_14684112392e42f300ee08de6dc3f5cb",
+            "Name": "Isla Nelson",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Kingdom Kids",
+            "YearsQuizzing": null,
+            "Id": "q_2a1a195017c342d33d8308de03583f4f",
+            "Name": "Ivanna Edwin",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 81.7,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 10,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "G  JAM team-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_7f63630a707c4d0e204608df1a4c4c50",
+            "Name": "Jesse Nwaro",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Kingdom Kids",
+            "YearsQuizzing": null,
+            "Id": "q_16b0f0bac7314f463d7108de03583f4f",
+            "Name": "Jordan Varghese",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "G  JAM team-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_c17a8858049d4159204008df1a4c4c50",
+            "Name": "Joshua Udemba",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Warriors Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_0146825fa27841b94b3c08dcd7f62cc6",
+            "Name": "Kesler Pilant",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 205,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "G  JAM team-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_43bad29ec6614ae01b3008de2c21fed1",
+            "Name": "Malakai Sekpe",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Kingdom Kids",
+            "YearsQuizzing": null,
+            "Id": "q_7c649360512241083d7d08de03583f4f",
+            "Name": "Yohaan Edwin",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 13,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          20,
+          6,
+          14,
+          18,
+          7,
+          0,
+          2,
+          12,
+          15,
+          9,
+          1,
+          3,
+          4,
+          8,
+          13,
+          16,
+          17,
+          19,
+          5,
+          11,
+          10
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "e8f874eb-8942-41bf-b1bb-171789941b10",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "JBQ-Intermediate-October-2026",
+        "LastUpdated": "10/17/26 4:53 PM",
+        "DatabaseLastUpdated": "2026-10-17T04:13:04.5177892+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Sarah Klongpayabal",
+            "Quizzers": [
+              4,
+              7,
+              8,
+              25
+            ],
+            "Id": "t_1566d70fa4f74d82a8e364ce50bd3d25",
+            "Name": "Chain Breakers Freedom Church",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 955,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 191.0,
+              "AverageCorrect": 11.2,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 27,
+              "Correct20s": 17,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Emebet Hailu",
+            "Quizzers": [
+              0,
+              11,
+              19,
+              21,
+              22
+            ],
+            "Id": "t_21f5ce5378f640ef83ce7cb986c4f85d",
+            "Name": "Ethiopian Evangelical Baptist Church (Garland) #2",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 19,
+              "Correct20s": 21,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jomy Johnson",
+            "Quizzers": [
+              1,
+              5,
+              13,
+              15
+            ],
+            "Id": "t_3ea36f320c9f4ea0889e2ff77a42337a",
+            "Name": "God's Angels    Freedom Church",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 765,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 153.0,
+              "AverageCorrect": 9.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 98,
+              "Correct10s": 30,
+              "Correct20s": 14,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Linda Sullivan",
+            "Quizzers": [
+              2,
+              9,
+              14,
+              23,
+              24
+            ],
+            "Id": "t_ea83e72fa2bc4e86ab71cd5ee1631af3",
+            "Name": "The Armor of God-First at Firewheel (Garland)",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 165,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 61,
+              "Correct10s": 12,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -15,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -20,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Michelle Spear-Weisse",
+            "Quizzers": [
+              6,
+              12,
+              18
+            ],
+            "Id": "t_85af3e630c87401f9b15fd5ae9691930",
+            "Name": "Warriors of the Word",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 555,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 111.0,
+              "AverageCorrect": 9.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 33,
+              "Correct20s": 13,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Abin Babu",
+            "Quizzers": [
+              3,
+              10,
+              16,
+              17,
+              20
+            ],
+            "Id": "t_875eb77ac1514af6864c1eab7619f9ff",
+            "Name": "Zion - Word Warriors",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.0,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 17,
+              "Correct20s": 15,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "I1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "I3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "I2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          2,
+          5,
+          4,
+          1,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #2",
+            "YearsQuizzing": null,
+            "Id": "q_3eb5e4abe10a4dacc10708ddfc475f45",
+            "Name": "Abenezer Girma",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 29,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Angels    Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_bb8be3ea7e3f4077173a08df1a4c4c50",
+            "Name": "Alaina Koleber",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Armor of God-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_771fd625e42d458f1fd408df1a4c4c50",
+            "Name": "Angel Nwaro",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_56a89d4ec8474304dfe508dce092d0a5",
+            "Name": "Ann Kuriakose",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chain Breakers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_4aaf75fc333748beb40a08dbe3208b6b",
+            "Name": "AnnaMarie Whiston",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Angels    Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_cbf0302700cf49323d1e08ddf5f7cb28",
+            "Name": "Ashlyn Thomas",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 1,
+              "Correct20s": 14,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Warriors of the Word",
+            "YearsQuizzing": null,
+            "Id": "q_c2d7a9a7a57248b5fc9608dd4fb5bfff",
+            "Name": "Benjamin Iwuchukwu",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 17,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chain Breakers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_10e47e50b67141d61b7d08dc25f7bba1",
+            "Name": "Callie Liss",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 690,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 138.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 2,
+              "Correct20s": 15,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chain Breakers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_a1eff1c1e4e14914b41c08dbe3208b6b",
+            "Name": "Callowaye Burrow",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Armor of God-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_e8f874eb894241bfb1bb171789941b10_105",
+            "Name": "Diya Harilal",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_b2a5ade1e54b41dcdfd308dce092d0a5",
+            "Name": "Elijah Babu",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #2",
+            "YearsQuizzing": null,
+            "Id": "q_3f858f5f335341a1a03108dcde30b60d",
+            "Name": "Elizabeth Woldu",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Warriors of the Word",
+            "YearsQuizzing": null,
+            "Id": "q_691313abc6594317d2a108dce3c3a8b7",
+            "Name": "Evan Longstreet",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Angels    Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_6116e29fdd2249fb4b3608dcd7f62cc6",
+            "Name": "Hosanna Rajpaul",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Armor of God-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_456d4018929b4b9e1f5d08df1a4c4c50",
+            "Name": "Ike Udemba",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "God's Angels    Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_a119b43b4452409b552a08dbafc02107",
+            "Name": "Jayla Moffitt",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_b7b48edb0ced4d92dfcd08dce092d0a5",
+            "Name": "Jonathan Varghese",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
+              "Correct20s": 8,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_31a83ee983984ccadfc708dce092d0a5",
+            "Name": "Josiah Sabu",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 38.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 7,
+              "Correct20s": 5,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Warriors of the Word",
+            "YearsQuizzing": null,
+            "Id": "q_f6ce65b0f2244744fc9c08dd4fb5bfff",
+            "Name": "Judah Gaglione",
+            "ChurchId": "2a4b86ca-a19f-4a80-bc79-08d8e9a9a78d",
+            "ChurchName": "Encounter Church",
+            "City": "Fate",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 295,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 59.0,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 13,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #2",
+            "YearsQuizzing": null,
+            "Id": "q_3eb54580f4124346c0ea08ddfc475f45",
+            "Name": "Matthew Endale",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 19.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 8,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Zion - Word Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_7555c33ae6274383dfdf08dce092d0a5",
+            "Name": "Naomi Abraham",
+            "ChurchId": "25d8e2b5-2dd5-4586-93c3-e5f0628a1087",
+            "ChurchName": "Zion Gospel Assembly",
+            "City": "Richardson",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #2",
+            "YearsQuizzing": null,
+            "Id": "q_259f5f4ac7a94944c10108ddfc475f45",
+            "Name": "Nathan Kibret",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 365,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.0,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 10,
+              "Correct20s": 17,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8040325e4ee541b3c0fb08ddfc475f45",
+            "Name": "Nathan Yebio",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Armor of God-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_48293a702564487066f608dbe37b4974",
+            "Name": "Norbert Azubuike",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 61,
+              "Correct10s": 4,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Armor of God-First at Firewheel (Garland)",
+            "YearsQuizzing": null,
+            "Id": "q_1711d1c81eb144d31f5708df1a4c4c50",
+            "Name": "Stephanie Nwaro",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 25,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chain Breakers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_26df676489c44dd94b5008dcd7f62cc6",
+            "Name": "Warner Pilant",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 16,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          5,
+          21,
+          1,
+          18,
+          16,
+          6,
+          17,
+          25,
+          23,
+          19,
+          10,
+          2,
+          4,
+          12,
+          13,
+          8,
+          3,
+          9,
+          11,
+          14,
+          15,
+          20,
+          22,
+          0,
+          24
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "I1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "I2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "I3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "e8f874eb-8942-41bf-b1bb-171789941b10",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "JBQ-Advanced-October-2026",
+        "LastUpdated": "10/17/26 4:53 PM",
+        "DatabaseLastUpdated": "2026-10-17T04:13:04.5177892+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Hana Desta",
+            "Quizzers": [
+              2,
+              4,
+              6
+            ],
+            "Id": "t_c2b191cfb51b471ebad89ce5c296ba61",
+            "Name": "Ethiopian Evangelical Baptist Church (Garland) #1",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 490,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 122.5,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 20,
+              "Correct20s": 8,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ramesh Antony Raj",
+            "Quizzers": [
+              0,
+              1,
+              3,
+              5,
+              7,
+              8
+            ],
+            "Id": "t_df21e9cce9c34ef5b6fea68545216060",
+            "Name": "Keepers of the Command",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 655,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 163.8,
+              "AverageCorrect": 11.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 20,
+              "Correct20s": 20,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Keepers of the Command",
+            "YearsQuizzing": null,
+            "Id": "q_b83184ce351244a3f37908ddff6180fc",
+            "Name": "David Sekpe",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Keepers of the Command",
+            "YearsQuizzing": null,
+            "Id": "q_844e8c56db0c45b9006308ddfee5ce2f",
+            "Name": "Elijah Olumesi",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_52aa1f51d22349bb07ee08df1a4c4c50",
+            "Name": "Fares Gugssa",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 15,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Keepers of the Command",
+            "YearsQuizzing": null,
+            "Id": "q_d7ca00c791a74b9bf37f08ddff6180fc",
+            "Name": "Jack Sekpe",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b451560b7f0a41e1653f08dbafc02107",
+            "Name": "Luke Desalegn",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.8,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 1,
+              "Correct20s": 6,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Keepers of the Command",
+            "YearsQuizzing": null,
+            "Id": "q_5b26dca2a671402156dd08dbafc02107",
+            "Name": "Ryan Azubuike",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8789d62b7adf4aada02b08dcde30b60d",
+            "Name": "Sadok Baza",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Keepers of the Command",
+            "YearsQuizzing": null,
+            "Id": "q_1ee4f0f442b146a9f39108ddff6180fc",
+            "Name": "Wesley Sekpe",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 365,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 91.3,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 1,
+              "Correct20s": 19,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Keepers of the Command",
+            "YearsQuizzing": null,
+            "Id": "q_b8f5afa0f0514dd356e308dbafc02107",
+            "Name": "Xavier Azubuike",
+            "ChurchId": "48f81326-1d31-4c9a-8bf0-95f55b768b0f",
+            "ChurchName": "First at Firewheel",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          7,
+          4,
+          0,
+          2,
+          6,
+          1,
+          3,
+          5,
+          8
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "e8f874eb-8942-41bf-b1bb-171789941b10",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "JBQ-Beginner-2-October-2026",
+        "LastUpdated": "10/17/26 4:53 PM",
+        "DatabaseLastUpdated": "2026-10-17T04:13:04.5177892+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Merge Oluma",
+            "Quizzers": [
+              1,
+              3,
+              8,
+              9
+            ],
+            "Id": "t_a8e10d1ed97c4d68a4cd44e1bfb3db1a",
+            "Name": "Ethiopian Evangelical Baptist Church (Garland) #3",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 180.0,
+              "AverageCorrect": 13.3,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 27,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jennifer Hansel",
+            "Quizzers": [
+              0,
+              12,
+              13,
+              14
+            ],
+            "Id": "t_226899f9fe09458abf97b12ff76d3772",
+            "Name": "Garden of the Gathering",
+            "ChurchId": "1923fb22-d227-4a60-bee2-08df1a21dd0c",
+            "ChurchName": "The Gathering-Prosper",
+            "City": "Aubrey",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 10,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Nathan Beckham",
+            "Quizzers": [
+              4,
+              6,
+              7,
+              10,
+              15
+            ],
+            "Id": "t_d5300e47cdd4410fb8830c9daf0561bd",
+            "Name": "Goliath Crushers Freedom Church",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 136.7,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 30,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jordan McKnight",
+            "Quizzers": [
+              2,
+              5,
+              11,
+              16
+            ],
+            "Id": "t_06e63ef0a31a4f85ab6b287903df19bd",
+            "Name": "The Hot Tamales",
+            "ChurchId": "44c47af6-9b07-4e2d-9e5c-a1af7c52c3ac",
+            "ChurchName": "Mission Church",
+            "City": "Little Elm",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Garden of the Gathering",
+            "YearsQuizzing": null,
+            "Id": "q_4a0c4713862e4ad02fc308df1a4c4c50",
+            "Name": "Annabelle Everett",
+            "ChurchId": "1923fb22-d227-4a60-bee2-08df1a21dd0c",
+            "ChurchName": "The Gathering-Prosper",
+            "City": "Aubrey",
+            "State": "TX",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #3",
+            "YearsQuizzing": null,
+            "Id": "q_e026fbcec5dd4bf40a5d08df1a4c4c50",
+            "Name": "Asher Mihreteab",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hot Tamales",
+            "YearsQuizzing": null,
+            "Id": "q_4b79094cac9345736e3a08de02c64997",
+            "Name": "Bennett Stewart",
+            "ChurchId": "44c47af6-9b07-4e2d-9e5c-a1af7c52c3ac",
+            "ChurchName": "Mission Church",
+            "City": "Little Elm",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #3",
+            "YearsQuizzing": null,
+            "Id": "q_3f21dcc99952491c0a3f08df1a4c4c50",
+            "Name": "Eyosias Tameru",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 13,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Goliath Crushers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_b7bc1eff8d774ca24b5608dcd7f62cc6",
+            "Name": "Ezekiel Rajpaul",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hot Tamales",
+            "YearsQuizzing": null,
+            "Id": "q_8a2b2c1bdd5b4ec688f808df206b4ca3",
+            "Name": "Iolona Poke",
+            "ChurchId": "44c47af6-9b07-4e2d-9e5c-a1af7c52c3ac",
+            "ChurchName": "Mission Church",
+            "City": "Little Elm",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Goliath Crushers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_0d29bd965cb5456617d308df1a4c4c50",
+            "Name": "Jace Martinez",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Goliath Crushers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_73600a43273a426a3d1808ddf5f7cb28",
+            "Name": "Jairus Christian",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.7,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #3",
+            "YearsQuizzing": null,
+            "Id": "q_2679f493b51249d10a6308df1a4c4c50",
+            "Name": "Jerrod Traylor",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 10,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ethiopian Evangelical Baptist Church (Garland) #3",
+            "YearsQuizzing": null,
+            "Id": "q_d8dd602c41a040f80a2b08df1a4c4c50",
+            "Name": "Joseph Wube",
+            "ChurchId": "dd742893-6d50-4ba6-a28c-361f3033fd32",
+            "ChurchName": "Ethiopian Evangelical Baptist Church",
+            "City": "Garland",
+            "State": "TX",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Goliath Crushers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_3855d8fcb898466a1b8308dc25f7bba1",
+            "Name": "Josiah Hare",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 69,
+              "Correct10s": 5,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hot Tamales",
+            "YearsQuizzing": null,
+            "Id": "q_cb007278d9e54063890d08df206b4ca3",
+            "Name": "Kaleb Jenkins",
+            "ChurchId": "44c47af6-9b07-4e2d-9e5c-a1af7c52c3ac",
+            "ChurchName": "Mission Church",
+            "City": "Little Elm",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Garden of the Gathering",
+            "YearsQuizzing": null,
+            "Id": "q_d00d7b01ed0a4ff72fc708df1a4c4c50",
+            "Name": "Ketsia Mwiza",
+            "ChurchId": "1923fb22-d227-4a60-bee2-08df1a21dd0c",
+            "ChurchName": "The Gathering-Prosper",
+            "City": "Aubrey",
+            "State": "TX",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Garden of the Gathering",
+            "YearsQuizzing": null,
+            "Id": "q_e8f874eb894241bfb1bb171789941b10_247",
+            "Name": "Obed Misakabo",
+            "ChurchId": "1923fb22-d227-4a60-bee2-08df1a21dd0c",
+            "ChurchName": "The Gathering-Prosper",
+            "City": "Aubrey",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Garden of the Gathering",
+            "YearsQuizzing": null,
+            "Id": "q_e8f874eb894241bfb1bb171789941b10_248",
+            "Name": "Oyadah Misakabo",
+            "ChurchId": "1923fb22-d227-4a60-bee2-08df1a21dd0c",
+            "ChurchName": "The Gathering-Prosper",
+            "City": "Aubrey",
+            "State": "TX",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Goliath Crushers Freedom Church",
+            "YearsQuizzing": null,
+            "Id": "q_ac539cb635a04da517cd08df1a4c4c50",
+            "Name": "Selah Martinez",
+            "ChurchId": "a9969347-a564-4e26-a281-69ee1e8361d0",
+            "ChurchName": "Freedom Church",
+            "City": "Carrollton",
+            "State": "TX",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Hot Tamales",
+            "YearsQuizzing": null,
+            "Id": "q_6771ac85fcc64f576e3408de02c64997",
+            "Name": "Trip Driver",
+            "ChurchId": "44c47af6-9b07-4e2d-9e5c-a1af7c52c3ac",
+            "ChurchName": "Mission Church",
+            "City": "Little Elm",
+            "State": "TX",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          3,
+          7,
+          6,
+          16,
+          10,
+          0,
+          9,
+          4,
+          15,
+          13,
+          1,
+          2,
+          5,
+          11,
+          14,
+          12
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-17T16:53:50.9095673+00:00"
+}
