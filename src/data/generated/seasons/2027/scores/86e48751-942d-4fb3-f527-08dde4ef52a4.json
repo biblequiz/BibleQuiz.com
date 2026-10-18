@@ -8,80 +8,80 @@
     "Meets": [
       {
         "DatabaseId": "8b1c63e2-0fef-418c-a5e3-8684e292c8e3",
-        "MeetId": 1,
+        "MeetId": 4,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "C League Sept 2026",
-        "LastUpdated": "9/19/26 4:55 PM",
-        "DatabaseLastUpdated": "2026-09-19T14:42:34.6349667+00:00",
+        "Name": "A League Oct 2026",
+        "LastUpdated": "10/17/26 4:22 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:19:17.196296+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
           {
-            "CoachName": "Jessica Berry",
+            "CoachName": "Andrew Schneider",
             "Quizzers": [
-              3,
-              4
+              5,
+              6,
+              13
             ],
-            "Id": "t_ad4cbfe4bc594d0c94eee7f729ce5186",
-            "Name": "Lions of Judah",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
-            "State": "MO",
+            "Id": "t_8b1c63e20fef418ca5e38684e292c8e3_13",
+            "Name": "Cornerstone Assembly of God (Bethalto) #1",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
             "Scores": {
-              "Wins": 2,
-              "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 2,
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 270,
+              "TotalPoints": 425,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 67.5,
-              "AverageCorrect": 6.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 26,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "AveragePoints": 106.3,
+              "AverageCorrect": 6.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 12,
+              "Correct20s": 11,
+              "Correct30s": 2,
               "FootnoteIndex": null
             },
             "Matches": [
-              {
-                "Result": "W",
-                "Score": 85,
-                "OtherTeam": 2,
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
               {
                 "Result": "L",
                 "Score": 55,
                 "OtherTeam": 1,
                 "RoomId": 1,
-                "Room": "C1",
+                "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
-              null,
               {
                 "Result": "W",
-                "Score": 110,
+                "Score": 130,
                 "OtherTeam": 2,
                 "RoomId": 1,
-                "Room": "C1",
+                "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
               {
                 "Result": "L",
-                "Score": 20,
-                "OtherTeam": 1,
-                "RoomId": 1,
-                "Room": "C1",
+                "Score": 120,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
@@ -90,14 +90,14 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Eileen Jenkinson",
+            "CoachName": "Dhivya Priya Arunachalam",
             "Quizzers": [
               0,
-              2,
-              7
+              8,
+              10
             ],
-            "Id": "t_f988bc32c37640b09eceb31b184b0d64",
-            "Name": "The Blessed Bunch",
+            "Id": "t_9200871efae846b09444958a089d7fa6",
+            "Name": "Faith Champions",
             "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
             "ChurchName": "St Louis Tamil Christian Fellowship",
             "City": "Wildwood",
@@ -108,53 +108,52 @@
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 520,
+              "TotalPoints": 1135,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 130.0,
-              "AverageCorrect": 12.0,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 48,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "AveragePoints": 283.8,
+              "AverageCorrect": 16.3,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 33,
+              "Correct20s": 20,
+              "Correct30s": 12,
               "FootnoteIndex": null
             },
             "Matches": [
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 290,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 310,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
               null,
               {
                 "Result": "W",
-                "Score": 120,
-                "OtherTeam": 0,
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 120,
+                "Score": 330,
                 "OtherTeam": 2,
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              null,
-              {
-                "Result": "W",
-                "Score": 140,
-                "OtherTeam": 0,
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 140,
-                "OtherTeam": 2,
-                "RoomId": 1,
-                "Room": "C1",
+                "RoomId": 2,
+                "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null
               }
@@ -162,71 +161,211 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Lavanya Manikala",
+            "CoachName": "Amy Schaefer",
             "Quizzers": [
-              1,
-              5,
-              6
+              4,
+              11,
+              12
             ],
-            "Id": "t_112f3452b06040ae81f63ea0972aa99a",
-            "Name": "The Little Lambs",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
+            "Id": "t_d1fc6b8d10024b51adea651424cfc343",
+            "Name": "Faith Community Church (House Springs) #1",
+            "ChurchId": "e77a769b-dab8-4db2-9937-165d9b06dc19",
+            "ChurchName": "Faith Community Church",
+            "City": "House Springs",
             "State": "MO",
             "Scores": {
               "Wins": 0,
               "Losses": 4,
               "WinPercentage": 0,
-              "Rank": 3,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 310,
+              "TotalPoints": 115,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 77.5,
-              "AverageCorrect": 7.3,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 88,
-              "Correct10s": 29,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "AveragePoints": 28.8,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 1,
               "FootnoteIndex": null
             },
             "Matches": [
               {
                 "Result": "L",
-                "Score": 75,
-                "OtherTeam": 0,
-                "RoomId": 1,
-                "Room": "C1",
+                "Score": 10,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "A2",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
-              null,
               {
                 "Result": "L",
                 "Score": 60,
-                "OtherTeam": 1,
-                "RoomId": 1,
-                "Room": "C1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 85,
                 "OtherTeam": 0,
                 "RoomId": 1,
-                "Room": "C1",
+                "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
               null,
               {
                 "Result": "L",
-                "Score": 90,
+                "Score": 45,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Bob Johnson",
+            "Quizzers": [
+              2,
+              3,
+              9
+            ],
+            "Id": "t_1d5ff37d4ef640dc86cbd992d56017b3",
+            "Name": "Reach Church A",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 660,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 165.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 21,
+              "Correct20s": 13,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 40,
                 "OtherTeam": 1,
                 "RoomId": 1,
-                "Room": "C1",
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              7
+            ],
+            "Id": "t_5253f91bcfd7400fae4c358781ac7b89",
+            "Name": "Revive Church (Giant Slayers)",
+            "ChurchId": "692168da-942d-485f-9ee7-ec262ab8c490",
+            "ChurchName": "First Assembly of God",
+            "City": "De Soto",
+            "State": "MO",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 15,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "A2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A1",
                 "State": "Completed",
                 "CurrentQuestion": null
               }
@@ -236,94 +375,18 @@
         ],
         "RankedTeams": [
           1,
+          3,
+          4,
           0,
           2
         ],
         "TeamFootnotes": [],
         "Quizzers": [
           {
-            "TeamName": "The Blessed Bunch",
+            "TeamName": "Faith Champions",
             "YearsQuizzing": null,
-            "Id": "q_089642bcbbfb41a4f1d708df029052ca",
-            "Name": "Adrian leeroy Emmanuel",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
-            "State": "MO",
-            "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 20,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 2,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "The Little Lambs",
-            "YearsQuizzing": null,
-            "Id": "q_b87795fca29843f4f1eb08df029052ca",
-            "Name": "Adrian Rufus Aneez Philip",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
-            "State": "MO",
-            "Scores": {
-              "Rank": 1,
-              "IsTie": false,
-              "TotalPoints": 280,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 70.0,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 24,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": 0
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "The Blessed Bunch",
-            "YearsQuizzing": null,
-            "Id": "q_90b6f6892aca4ef7f29908dde44dc889",
-            "Name": "Andrea Jenkinson",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
-            "State": "MO",
-            "Scores": {
-              "Rank": 3,
-              "IsTie": false,
-              "TotalPoints": 220,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 55.0,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 85,
-              "Correct10s": 22,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "Lions of Judah",
-            "YearsQuizzing": null,
-            "Id": "q_640808bb15c044f0f1c808df029052ca",
-            "Name": "Arthur Kaseba Mboroma",
+            "Id": "q_fcb691dbc273457f97ca08dd5f7f0249",
+            "Name": "Abrianna Nadar",
             "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
             "ChurchName": "St Louis Tamil Christian Fellowship",
             "City": "Wildwood",
@@ -331,40 +394,14 @@
             "Scores": {
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 60,
+              "TotalPoints": 250,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 15.0,
-              "AverageCorrect": 1.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 78,
-              "Correct10s": 7,
-              "Correct20s": 0,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "Lions of Judah",
-            "YearsQuizzing": null,
-            "Id": "q_87e17c1372ac481ef2bf08dde44dc889",
-            "Name": "Charles Ngosa Mboroma",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
-            "State": "MO",
-            "Scores": {
-              "Rank": 4,
-              "IsTie": false,
-              "TotalPoints": 210,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 52.5,
-              "AverageCorrect": 4.8,
+              "AveragePoints": 62.5,
+              "AverageCorrect": 4.5,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 19,
-              "Correct20s": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 9,
               "Correct30s": 0,
               "FootnoteIndex": null
             },
@@ -372,24 +409,24 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "The Little Lambs",
+            "TeamName": "Revive Church (Giant Slayers)",
             "YearsQuizzing": null,
-            "Id": "q_c265001ef18a4abff1e608df029052ca",
-            "Name": "Hanya Manikala",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
+            "Id": "q_39139ed47a0d4285750b08dd3433f194",
+            "Name": "Bella Simmons",
+            "ChurchId": "692168da-942d-485f-9ee7-ec262ab8c490",
+            "ChurchName": "First Assembly of God",
+            "City": "De Soto",
             "State": "MO",
             "Scores": {
-              "Rank": 6,
-              "IsTie": true,
-              "TotalPoints": 20,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 145,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 5.0,
-              "AverageCorrect": 0.8,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 60,
-              "Correct10s": 3,
+              "AveragePoints": 36.3,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 14,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -398,23 +435,257 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "The Little Lambs",
+            "TeamName": "Reach Church A",
             "YearsQuizzing": null,
-            "Id": "q_d10b7a00ec5a4bd4f1e108df029052ca",
-            "Name": "Nihaaryka Manikala",
+            "Id": "q_0f21a384ecb54875964a08dd5453051f",
+            "Name": "Ben Meyer Tuter",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 145,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 12,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church A",
+            "YearsQuizzing": null,
+            "Id": "q_71ca847afc0547ce963c08dd5453051f",
+            "Name": "Caleb Johnson",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 120.0,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 12,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Faith Community Church (House Springs) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a3aac3f5f3ef44ed66ae08df0388d2b1",
+            "Name": "Clayton Schaefer",
+            "ChurchId": "e77a769b-dab8-4db2-9937-165d9b06dc19",
+            "ChurchName": "Faith Community Church",
+            "City": "House Springs",
+            "State": "MO",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_110",
+            "Name": "Eliza Schneider",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_111",
+            "Name": "Grace Schneider",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.8,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 9,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revive Church (Giant Slayers)",
+            "YearsQuizzing": null,
+            "Id": "q_74feacefe1d5457fbe0708dc3fcecc0b",
+            "Name": "Henry Slovensky",
+            "ChurchId": "692168da-942d-485f-9ee7-ec262ab8c490",
+            "ChurchName": "First Assembly of God",
+            "City": "De Soto",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Faith Champions",
+            "YearsQuizzing": null,
+            "Id": "q_c5075efc7d2d4cf47d0a08dd4981e8cf",
+            "Name": "Jeevan Thirugnanam",
             "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
             "ChurchName": "St Louis Tamil Christian Fellowship",
             "City": "Wildwood",
             "State": "MO",
             "Scores": {
-              "Rank": 8,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": 630,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
+              "AveragePoints": 157.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 11,
+              "Correct30s": 12,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church A",
+            "YearsQuizzing": null,
+            "Id": "q_c7f32adc07404f0e964f08dd5453051f",
+            "Name": "Jeremiah Burch",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.8,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Faith Champions",
+            "YearsQuizzing": null,
+            "Id": "q_1e5e3ca2b73a4f34b2b208dd5f7febbb",
+            "Name": "Jeswin Thirugnanam",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.8,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 23,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Faith Community Church (House Springs) #1",
+            "YearsQuizzing": null,
+            "Id": "q_e7ce4f27d2c141a266aa08df0388d2b1",
+            "Name": "Layne Schaefer",
+            "ChurchId": "e77a769b-dab8-4db2-9937-165d9b06dc19",
+            "ChurchName": "Faith Community Church",
+            "City": "House Springs",
+            "State": "MO",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.8,
               "AverageCorrect": 0.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
+              "QuestionCorrectPercentage": 67,
               "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
@@ -424,24 +695,50 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "The Blessed Bunch",
+            "TeamName": "Faith Community Church (House Springs) #1",
             "YearsQuizzing": null,
-            "Id": "q_58adb4a15b2d4c61f1d208df029052ca",
-            "Name": "Samyra Nadar",
-            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
-            "ChurchName": "St Louis Tamil Christian Fellowship",
-            "City": "Wildwood",
+            "Id": "q_5e478acb9e0b43ad66a508df0388d2b1",
+            "Name": "Lizzy Schaefer",
+            "ChurchId": "e77a769b-dab8-4db2-9937-165d9b06dc19",
+            "ChurchName": "Faith Community Church",
+            "City": "House Springs",
             "State": "MO",
             "Scores": {
-              "Rank": 1,
-              "IsTie": true,
-              "TotalPoints": 280,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 70.0,
-              "AverageCorrect": 6.0,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 24,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_112",
+            "Name": "Quizzer-3",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -451,14 +748,20 @@
           }
         ],
         "RankedQuizzers": [
-          1,
-          7,
-          2,
-          4,
+          8,
           3,
+          6,
+          10,
           0,
+          7,
+          1,
+          2,
+          12,
+          9,
           5,
-          6
+          11,
+          4,
+          13
         ],
         "QuizzerFootnotes": [
           {
@@ -470,18 +773,8 @@
         "Rooms": [
           {
             "RoomId": 1,
-            "Name": "C1",
+            "Name": "A1",
             "Matches": [
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
-                "Team2": 2,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
@@ -495,16 +788,6 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
                 "Team1": 0,
                 "Team2": 2,
                 "Quizzers": null,
@@ -516,6 +799,72 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "A2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
                 "Team2": 0,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -569,12 +918,6 @@
             "MatchTime": "10:40 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
-          },
-          {
-            "Id": 6,
-            "MatchTime": "11:05 AM",
-            "PlayoffIndex": null,
-            "RegularQuestionStats": null
           }
         ],
         "HasRoomCompletionMismatch": false,
@@ -588,25 +931,98 @@
       },
       {
         "DatabaseId": "8b1c63e2-0fef-418c-a5e3-8684e292c8e3",
-        "MeetId": 2,
+        "MeetId": 5,
         "CombinedName": null,
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
-        "Name": "B League Sept 2026",
-        "LastUpdated": "9/19/26 4:55 PM",
-        "DatabaseLastUpdated": "2026-09-19T14:42:34.6349667+00:00",
+        "Name": "B League Oct 2026",
+        "LastUpdated": "10/17/26 4:22 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:19:17.196296+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
+          {
+            "CoachName": "Jennifer Schneider",
+            "Quizzers": [
+              6,
+              13,
+              17,
+              20,
+              25
+            ],
+            "Id": "t_8b1c63e20fef418ca5e38684e292c8e3_14",
+            "Name": "Cornerstone Assembly of God (Bethalto) #2",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 25,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -20,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
           {
             "CoachName": "Not Sure",
             "Quizzers": [
               0,
               4,
               5,
-              13,
               15,
-              16
+              18,
+              19
             ],
             "Id": "t_162b0dc7a6024833b3faae55e1c9de8d",
             "Name": "Reach Church B",
@@ -616,53 +1032,35 @@
             "State": "MO",
             "Scores": {
               "Wins": 0,
-              "Losses": 6,
+              "Losses": 4,
               "WinPercentage": 0,
-              "Rank": 4,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 95,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 15.8,
-              "AverageCorrect": 1.7,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 1.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 67,
-              "Correct10s": 6,
-              "Correct20s": 3,
-              "Correct30s": 1,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": null
             },
             "Matches": [
               {
                 "Result": "L",
-                "Score": 20,
-                "OtherTeam": 1,
+                "Score": 5,
+                "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 40,
-                "OtherTeam": 2,
-                "RoomId": 2,
-                "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
               {
                 "Result": "L",
                 "Score": 0,
-                "OtherTeam": 3,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 10,
-                "OtherTeam": 1,
+                "OtherTeam": 4,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -670,17 +1068,18 @@
               },
               {
                 "Result": "L",
-                "Score": 20,
-                "OtherTeam": 2,
+                "Score": -25,
+                "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
+              null,
               {
                 "Result": "L",
-                "Score": 5,
-                "OtherTeam": 3,
+                "Score": 20,
+                "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -692,10 +1091,10 @@
           {
             "CoachName": "Divya Bennet",
             "Quizzers": [
-              8,
-              11,
+              9,
               12,
-              14
+              14,
+              16
             ],
             "Id": "t_bec6cbea51b64f15b03e55f7b8e911b8",
             "Name": "Scripture Seekers",
@@ -704,62 +1103,26 @@
             "City": "Wildwood",
             "State": "MO",
             "Scores": {
-              "Wins": 4,
-              "Losses": 2,
-              "WinPercentage": 67,
+              "Wins": 3,
+              "Losses": 1,
+              "WinPercentage": 75,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 835,
+              "TotalPoints": 680,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 139.2,
-              "AverageCorrect": 9.5,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 35,
-              "Correct20s": 20,
-              "Correct30s": 2,
+              "AveragePoints": 170.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 98,
+              "Correct10s": 21,
+              "Correct20s": 14,
+              "Correct30s": 5,
               "FootnoteIndex": null
             },
             "Matches": [
               {
                 "Result": "W",
-                "Score": 230,
-                "OtherTeam": 0,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 20,
-                "OtherTeam": 3,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 120,
-                "OtherTeam": 2,
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 260,
-                "OtherTeam": 0,
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 35,
+                "Score": 160,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "B2",
@@ -768,10 +1131,29 @@
               },
               {
                 "Result": "W",
-                "Score": 170,
-                "OtherTeam": 2,
+                "Score": 240,
+                "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null
               }
@@ -781,12 +1163,12 @@
           {
             "CoachName": "Christina Wisener",
             "Quizzers": [
-              6,
               7,
-              10,
-              17,
-              19,
-              20
+              8,
+              11,
+              21,
+              23,
+              24
             ],
             "Id": "t_709143aa3a5847d7a5db2ac6613bf8a5",
             "Name": "St Stephen UMC",
@@ -796,17 +1178,17 @@
             "State": "MO",
             "Scores": {
               "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
+              "Losses": 2,
+              "WinPercentage": 50,
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 100,
+              "TotalPoints": 265,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 16.7,
-              "AverageCorrect": 3.2,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 56,
-              "Correct10s": 18,
+              "AveragePoints": 66.3,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 28,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -814,16 +1196,26 @@
             "Matches": [
               {
                 "Result": "L",
-                "Score": 30,
-                "OtherTeam": 3,
+                "Score": 20,
+                "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null
               },
+              null,
               {
                 "Result": "W",
-                "Score": 45,
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "B2",
@@ -832,35 +1224,8 @@
               },
               {
                 "Result": "L",
-                "Score": -15,
-                "OtherTeam": 1,
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": -5,
-                "OtherTeam": 3,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 45,
-                "OtherTeam": 0,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 0,
-                "OtherTeam": 1,
+                "Score": 60,
+                "OtherTeam": 4,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -875,37 +1240,38 @@
               1,
               2,
               3,
-              9,
-              18
+              10,
+              22
             ],
             "Id": "t_db7e7ae5aece408d8d10bc8b3881c304",
-            "Name": "West County Assembly (Chesterfield) #1",
+            "Name": "Swords of God",
             "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
             "ChurchName": "West County Assembly",
             "City": "Chesterfield",
             "State": "MO",
             "Scores": {
-              "Wins": 6,
+              "Wins": 4,
               "Losses": 0,
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 1445,
+              "TotalPoints": 1100,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 240.8,
-              "AverageCorrect": 15.2,
-              "QuizOuts": 9,
-              "QuestionCorrectPercentage": 82,
-              "Correct10s": 44,
-              "Correct20s": 32,
-              "Correct30s": 15,
+              "AveragePoints": 275.0,
+              "AverageCorrect": 15.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 28,
+              "Correct20s": 24,
+              "Correct30s": 11,
               "FootnoteIndex": null
             },
             "Matches": [
+              null,
               {
                 "Result": "W",
-                "Score": 155,
-                "OtherTeam": 2,
+                "Score": 280,
+                "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "B2",
                 "State": "Completed",
@@ -913,8 +1279,17 @@
               },
               {
                 "Result": "W",
-                "Score": 300,
-                "OtherTeam": 1,
+                "Score": 305,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 255,
+                "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "B1",
                 "State": "Completed",
@@ -923,36 +1298,9 @@
               {
                 "Result": "W",
                 "Score": 260,
-                "OtherTeam": 0,
+                "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 295,
-                "OtherTeam": 2,
-                "RoomId": 1,
-                "Room": "B1",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 185,
-                "OtherTeam": 1,
-                "RoomId": 2,
-                "Room": "B2",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "W",
-                "Score": 250,
-                "OtherTeam": 0,
-                "RoomId": 2,
-                "Room": "B2",
                 "State": "Completed",
                 "CurrentQuestion": null
               }
@@ -961,10 +1309,11 @@
           }
         ],
         "RankedTeams": [
-          3,
-          1,
+          4,
           2,
-          0
+          3,
+          0,
+          1
         ],
         "TeamFootnotes": [],
         "Quizzers": [
@@ -978,15 +1327,15 @@
             "City": "St. Ann",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": false,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
+              "AverageCorrect": 0.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -995,7 +1344,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "West County Assembly (Chesterfield) #1",
+            "TeamName": "Swords of God",
             "YearsQuizzing": null,
             "Id": "q_c476d6ec595c4bc6915a08df0e639fb7",
             "Name": "Abidaan Chittari",
@@ -1006,22 +1355,22 @@
             "Scores": {
               "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 315,
+              "TotalPoints": 220,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 52.5,
-              "AverageCorrect": 4.2,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 19,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
               "Correct20s": 5,
-              "Correct30s": 1,
+              "Correct30s": 2,
               "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
           },
           {
-            "TeamName": "West County Assembly (Chesterfield) #1",
+            "TeamName": "Swords of God",
             "YearsQuizzing": null,
             "Id": "q_fa6333cc5b46442c915408df0e639fb7",
             "Name": "Abiraj Chittari",
@@ -1030,24 +1379,24 @@
             "City": "Chesterfield",
             "State": "MO",
             "Scores": {
-              "Rank": 1,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 575,
+              "TotalPoints": 305,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 95.8,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 12,
-              "Correct20s": 16,
-              "Correct30s": 5,
+              "AveragePoints": 76.3,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 11,
+              "Correct20s": 9,
+              "Correct30s": 1,
               "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
           },
           {
-            "TeamName": "West County Assembly (Chesterfield) #1",
+            "TeamName": "Swords of God",
             "YearsQuizzing": null,
             "Id": "q_58ca58b2fb264514916008df0e639fb7",
             "Name": "Arjun Banavath",
@@ -1056,18 +1405,18 @@
             "City": "Chesterfield",
             "State": "MO",
             "Scores": {
-              "Rank": 9,
-              "IsTie": false,
-              "TotalPoints": 75,
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 55,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 12.5,
-              "AverageCorrect": 1.0,
+              "AveragePoints": 13.8,
+              "AverageCorrect": 1.3,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
+              "QuestionCorrectPercentage": 83,
               "Correct10s": 4,
-              "Correct20s": 2,
+              "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1082,18 +1431,18 @@
             "City": "St. Ann",
             "State": "MO",
             "Scores": {
-              "Rank": 20,
+              "Rank": 13,
               "IsTie": false,
-              "TotalPoints": -15,
+              "TotalPoints": 5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -2.5,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 1.3,
+              "AverageCorrect": 0.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 40,
+              "QuestionCorrectPercentage": 67,
               "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1108,7 +1457,7 @@
             "City": "St. Ann",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1125,6 +1474,32 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_119",
+            "Name": "Charlotte Kesterson",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "St Stephen UMC",
             "YearsQuizzing": null,
             "Id": "q_56d9fae41b4745a5462908df08468957",
@@ -1134,7 +1509,7 @@
             "City": "Sedalia",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1160,18 +1535,18 @@
             "City": "Sedalia",
             "State": "MO",
             "Scores": {
-              "Rank": 8,
-              "IsTie": false,
-              "TotalPoints": 95,
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 120,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 15.8,
-              "AverageCorrect": 2.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 64,
-              "Correct10s": 13,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 12,
               "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1186,24 +1561,24 @@
             "City": "Wildwood",
             "State": "MO",
             "Scores": {
-              "Rank": 7,
+              "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 100,
+              "TotalPoints": 120,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 16.7,
-              "AverageCorrect": 1.5,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 7,
-              "Correct20s": 2,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
           },
           {
-            "TeamName": "West County Assembly (Chesterfield) #1",
+            "TeamName": "Swords of God",
             "YearsQuizzing": null,
             "Id": "q_06e8f22fba7b4f3f916608df0e639fb7",
             "Name": "Giulia Scalora (Julia)",
@@ -1212,17 +1587,17 @@
             "City": "Chesterfield",
             "State": "MO",
             "Scores": {
-              "Rank": 2,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 480,
+              "TotalPoints": 520,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 80.0,
-              "AverageCorrect": 4.5,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 77,
-              "Correct10s": 9,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 7,
               "Correct20s": 9,
-              "Correct30s": 9,
+              "Correct30s": 8,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -1238,18 +1613,18 @@
             "City": "Sedalia",
             "State": "MO",
             "Scores": {
-              "Rank": 20,
-              "IsTie": true,
-              "TotalPoints": -15,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 90,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -2.5,
-              "AverageCorrect": 0.0,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 10,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1264,17 +1639,43 @@
             "City": "Wildwood",
             "State": "MO",
             "Scores": {
-              "Rank": 3,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 460,
+              "TotalPoints": 490,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 76.7,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 3,
+              "AveragePoints": 122.5,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
               "QuestionCorrectPercentage": 96,
               "Correct10s": 6,
-              "Correct20s": 16,
-              "Correct30s": 2,
+              "Correct20s": 14,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_120",
+            "Name": "Hope Schneider",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.8,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -1290,33 +1691,7 @@
             "City": "Wildwood",
             "State": "MO",
             "Scores": {
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 275,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 45.8,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 22,
-              "Correct20s": 2,
-              "Correct30s": 0,
-              "FootnoteIndex": null
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "Reach Church B",
-            "YearsQuizzing": null,
-            "Id": "q_632c8fcdd26f45dd719508ddeb2d28c3",
-            "Name": "Jacobi Francis",
-            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
-            "ChurchName": "Reach Church",
-            "City": "St. Ann",
-            "State": "MO",
-            "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1333,6 +1708,32 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_632c8fcdd26f45dd719508ddeb2d28c3",
+            "Name": "Jacobi Francis",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.3,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Scripture Seekers",
             "YearsQuizzing": null,
             "Id": "q_8c85dc86fc1b45847d2908dd4981e8cf",
@@ -1342,7 +1743,33 @@
             "City": "Wildwood",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_121",
+            "Name": "Joel Schneider",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1368,7 +1795,7 @@
             "City": "St. Ann",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1394,33 +1821,7 @@
             "City": "St. Ann",
             "State": "MO",
             "Scores": {
-              "Rank": 6,
-              "IsTie": false,
-              "TotalPoints": 110,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 18.3,
-              "AverageCorrect": 1.3,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 4,
-              "Correct20s": 3,
-              "Correct30s": 1,
-              "FootnoteIndex": null
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "St Stephen UMC",
-            "YearsQuizzing": null,
-            "Id": "q_e89a50ce34ef499c462308df08468957",
-            "Name": "Maggie Ruth",
-            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
-            "ChurchName": "First Methodist Sedalia",
-            "City": "Sedalia",
-            "State": "MO",
-            "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1437,7 +1838,59 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "West County Assembly (Chesterfield) #1",
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_122",
+            "Name": "Lukas Sapp",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": -65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -16.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 13,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_e89a50ce34ef499c462308df08468957",
+            "Name": "Maggie Ruth",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Swords of God",
             "YearsQuizzing": null,
             "Id": "q_fc052e4901584c09916c08df0e639fb7",
             "Name": "Matea Tilden",
@@ -1446,7 +1899,7 @@
             "City": "Chesterfield",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1472,7 +1925,7 @@
             "City": "Sedalia",
             "State": "MO",
             "Scores": {
-              "Rank": 11,
+              "Rank": 14,
               "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
@@ -1500,13 +1953,39 @@
             "Scores": {
               "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 20,
+              "TotalPoints": 55,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 3.3,
-              "AverageCorrect": 0.8,
+              "AveragePoints": 13.8,
+              "AverageCorrect": 1.5,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 5,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Cornerstone Assembly of God (Bethalto) #2",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_123",
+            "Name": "Nora Schneider",
+            "ChurchId": null,
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "Bethalto",
+            "State": "IL",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -1516,27 +1995,32 @@
           }
         ],
         "RankedQuizzers": [
-          2,
-          9,
-          11,
-          1,
+          10,
           12,
-          16,
+          2,
+          1,
+          9,
           8,
-          7,
+          11,
+          16,
+          6,
+          24,
           3,
-          20,
+          25,
+          4,
           0,
           5,
-          6,
-          13,
+          7,
           14,
-          15,
           17,
           18,
           19,
-          4,
-          10
+          21,
+          22,
+          23,
+          15,
+          13,
+          20
         ],
         "QuizzerFootnotes": [
           {
@@ -1553,8 +2037,963 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
                 "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8b1c63e2-0fef-418c-a5e3-8684e292c8e3",
+        "MeetId": 6,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "C League Oct 2026",
+        "LastUpdated": "10/17/26 4:22 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:19:17.196296+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Jessica Berry",
+            "Quizzers": [
+              4,
+              5
+            ],
+            "Id": "t_ad4cbfe4bc594d0c94eee7f729ce5186",
+            "Name": "Lions of Judah",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 385,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 64.2,
+              "AverageCorrect": 6.2,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 37,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Dana Herbst",
+            "Quizzers": [
+              2,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12
+            ],
+            "Id": "t_58203e82255c43f5986ccf9fc046d553",
+            "Name": "Reach Church C",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Eileen Jenkinson",
+            "Quizzers": [
+              0,
+              3,
+              14
+            ],
+            "Id": "t_f988bc32c37640b09eceb31b184b0d64",
+            "Name": "The Blessed Bunch",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 985,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 164.2,
+              "AverageCorrect": 15.0,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 90,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 115,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Lavanya Manikala",
+            "Quizzers": [
+              1,
+              8,
+              13
+            ],
+            "Id": "t_112f3452b06040ae81f63ea0972aa99a",
+            "Name": "The Little Lambs",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 99.2,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 56,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 115,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "The Blessed Bunch",
+            "YearsQuizzing": null,
+            "Id": "q_089642bcbbfb41a4f1d708df029052ca",
+            "Name": "Adrian leeroy Emmanuel",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 195,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.5,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_b87795fca29843f4f1eb08df029052ca",
+            "Name": "Adrian Rufus Aneez Philip",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 36,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_2c883b618b1d494c5ffc08df08d7e9db",
+            "Name": "amora needtoget",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Blessed Bunch",
+            "YearsQuizzing": null,
+            "Id": "q_90b6f6892aca4ef7f29908dde44dc889",
+            "Name": "Andrea Jenkinson",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 370,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.7,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 34,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Lions of Judah",
+            "YearsQuizzing": null,
+            "Id": "q_640808bb15c044f0f1c808df029052ca",
+            "Name": "Arthur Kaseba Mboroma",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Lions of Judah",
+            "YearsQuizzing": null,
+            "Id": "q_87e17c1372ac481ef2bf08dde44dc889",
+            "Name": "Charles Ngosa Mboroma",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_32c73eae9f0b46b0719b08ddeb2d28c3",
+            "Name": "Hanna Francis",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_1ece410afaa244fa5ff608df08d7e9db",
+            "Name": "Hanna Kramer",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_c265001ef18a4abff1e608df029052ca",
+            "Name": "Hanya Manikala",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.3,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_53",
+            "Name": "Kehlani Mitchell",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 63,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_52",
+            "Name": "Micah Francis",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_39985ad2a81747ea5ff008df08d7e9db",
+            "Name": "Mila Avalos",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church C",
+            "YearsQuizzing": null,
+            "Id": "q_62c9e0bec3f84ab3718f08ddeb2d28c3",
+            "Name": "Nicolina Hamrick",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_d10b7a00ec5a4bd4f1e108df029052ca",
+            "Name": "Nihaaryka Manikala",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Blessed Bunch",
+            "YearsQuizzing": null,
+            "Id": "q_58adb4a15b2d4c61f1d208df029052ca",
+            "Name": "Samyra Nadar",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": true,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 36,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          14,
+          3,
+          5,
+          0,
+          8,
+          4,
+          9,
+          10,
+          13,
+          2,
+          7,
+          11,
+          12,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1583,8 +3022,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1603,8 +3042,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1614,13 +3053,13 @@
           },
           {
             "RoomId": 2,
-            "Name": "B2",
+            "Name": "C2",
             "Matches": [
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1639,8 +3078,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1649,8 +3088,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -1737,8 +3176,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A League Sept 2026",
-        "LastUpdated": "9/19/26 4:55 PM",
-        "DatabaseLastUpdated": "2026-09-19T14:42:34.6349667+00:00",
+        "LastUpdated": "10/17/26 4:22 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:19:17.196296+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -2337,6 +3776,1730 @@
         "ScoringProgressMessageForCombined": null,
         "ShowYearsQuizzing": false,
         "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8b1c63e2-0fef-418c-a5e3-8684e292c8e3",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B League Sept 2026",
+        "LastUpdated": "10/17/26 4:22 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:19:17.196296+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Not Sure",
+            "Quizzers": [
+              0,
+              4,
+              5,
+              13,
+              15,
+              16
+            ],
+            "Id": "t_162b0dc7a6024833b3faae55e1c9de8d",
+            "Name": "Reach Church B",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.8,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 6,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Divya Bennet",
+            "Quizzers": [
+              8,
+              11,
+              12,
+              14
+            ],
+            "Id": "t_bec6cbea51b64f15b03e55f7b8e911b8",
+            "Name": "Scripture Seekers",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 835,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 139.2,
+              "AverageCorrect": 9.5,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 35,
+              "Correct20s": 20,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 260,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Christina Wisener",
+            "Quizzers": [
+              6,
+              7,
+              10,
+              17,
+              19,
+              20
+            ],
+            "Id": "t_709143aa3a5847d7a5db2ac6613bf8a5",
+            "Name": "St Stephen UMC",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 18,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -15,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Pranathi Mothukuri",
+            "Quizzers": [
+              1,
+              2,
+              3,
+              9,
+              18
+            ],
+            "Id": "t_db7e7ae5aece408d8d10bc8b3881c304",
+            "Name": "Swords of God",
+            "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
+            "ChurchName": "West County Assembly",
+            "City": "Chesterfield",
+            "State": "MO",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1445,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 240.8,
+              "AverageCorrect": 15.2,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 44,
+              "Correct20s": 32,
+              "Correct30s": 15,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 300,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 260,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 295,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 250,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_2dc7c53cbcf94645718908ddeb2d28c3",
+            "Name": "Aariona Bryant",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Swords of God",
+            "YearsQuizzing": null,
+            "Id": "q_c476d6ec595c4bc6915a08df0e639fb7",
+            "Name": "Abidaan Chittari",
+            "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
+            "ChurchName": "West County Assembly",
+            "City": "Chesterfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 19,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Swords of God",
+            "YearsQuizzing": null,
+            "Id": "q_fa6333cc5b46442c915408df0e639fb7",
+            "Name": "Abiraj Chittari",
+            "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
+            "ChurchName": "West County Assembly",
+            "City": "Chesterfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 575,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 95.8,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 12,
+              "Correct20s": 16,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Swords of God",
+            "YearsQuizzing": null,
+            "Id": "q_58ca58b2fb264514916008df0e639fb7",
+            "Name": "Arjun Banavath",
+            "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
+            "ChurchName": "West County Assembly",
+            "City": "Chesterfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 4,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_71f89fa40a084bce5fc808df08d7e9db",
+            "Name": "Azariah Turner",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 40,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_02714c21663c4035718308ddeb2d28c3",
+            "Name": "Bella Herbst",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_56d9fae41b4745a5462908df08468957",
+            "Name": "Chelsea Wisener",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_2bbe9036e6a14384460b08df08468957",
+            "Name": "CJ Wisener",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.8,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 13,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_09764f6caf304edbf29e08dde44dc889",
+            "Name": "Diya Mathankumar",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Swords of God",
+            "YearsQuizzing": null,
+            "Id": "q_06e8f22fba7b4f3f916608df0e639fb7",
+            "Name": "Giulia (Julia) Scalora",
+            "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
+            "ChurchName": "West County Assembly",
+            "City": "Chesterfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 9,
+              "Correct20s": 9,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_41ba19c7b2e9477d461708df08468957",
+            "Name": "Greyson Ferrero",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_00dc6b7cca4040f37d2008dd4981e8cf",
+            "Name": "Hazel Ruth Terry Bennet",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 460,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 76.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 6,
+              "Correct20s": 16,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_68",
+            "Name": "Jacob Jenkinson",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 22,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_632c8fcdd26f45dd719508ddeb2d28c3",
+            "Name": "Jacobi Francis",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_8c85dc86fc1b45847d2908dd4981e8cf",
+            "Name": "Jiana Jeevagarajan",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_8b1c63e20fef418ca5e38684e292c8e3_43",
+            "Name": "Kehlani Mitchell",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Reach Church B",
+            "YearsQuizzing": null,
+            "Id": "q_a49969e6674642b05fb808df08d7e9db",
+            "Name": "Khloe Teal",
+            "ChurchId": "22eed6c2-342c-4fd1-9a81-08dd5452dc94",
+            "ChurchName": "Reach Church",
+            "City": "St. Ann",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.3,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_e89a50ce34ef499c462308df08468957",
+            "Name": "Maggie Ruth",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Swords of God",
+            "YearsQuizzing": null,
+            "Id": "q_fc052e4901584c09916c08df0e639fb7",
+            "Name": "Matea Tilden",
+            "ChurchId": "6e6459ec-8351-457b-9735-87b53fda5b5d",
+            "ChurchName": "West County Assembly",
+            "City": "Chesterfield",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_bbef352ad6da4d4c461d08df08468957",
+            "Name": "Natalie Ruth",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "St Stephen UMC",
+            "YearsQuizzing": null,
+            "Id": "q_f56352f8de7d4179461108df08468957",
+            "Name": "Noah Ruth",
+            "ChurchId": "2adae824-4449-4fd1-fc80-08d97fa26f5d",
+            "ChurchName": "First Methodist Sedalia",
+            "City": "Sedalia",
+            "State": "MO",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          2,
+          9,
+          11,
+          1,
+          12,
+          16,
+          8,
+          7,
+          3,
+          20,
+          0,
+          5,
+          6,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          4,
+          10
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "8b1c63e2-0fef-418c-a5e3-8684e292c8e3",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "C League Sept 2026",
+        "LastUpdated": "10/17/26 4:22 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:19:17.196296+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Jessica Berry",
+            "Quizzers": [
+              3,
+              4
+            ],
+            "Id": "t_ad4cbfe4bc594d0c94eee7f729ce5186",
+            "Name": "Lions of Judah",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 270,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.5,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 26,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Eileen Jenkinson",
+            "Quizzers": [
+              0,
+              2,
+              7
+            ],
+            "Id": "t_f988bc32c37640b09eceb31b184b0d64",
+            "Name": "The Blessed Bunch",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 130.0,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 48,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Lavanya Manikala",
+            "Quizzers": [
+              1,
+              5,
+              6
+            ],
+            "Id": "t_112f3452b06040ae81f63ea0972aa99a",
+            "Name": "The Little Lambs",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 310,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.5,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 29,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "The Blessed Bunch",
+            "YearsQuizzing": null,
+            "Id": "q_089642bcbbfb41a4f1d708df029052ca",
+            "Name": "Adrian leeroy Emmanuel",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_b87795fca29843f4f1eb08df029052ca",
+            "Name": "Adrian Rufus Aneez Philip",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Blessed Bunch",
+            "YearsQuizzing": null,
+            "Id": "q_90b6f6892aca4ef7f29908dde44dc889",
+            "Name": "Andrea Jenkinson",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 22,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Lions of Judah",
+            "YearsQuizzing": null,
+            "Id": "q_640808bb15c044f0f1c808df029052ca",
+            "Name": "Arthur Kaseba Mboroma",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Lions of Judah",
+            "YearsQuizzing": null,
+            "Id": "q_87e17c1372ac481ef2bf08dde44dc889",
+            "Name": "Charles Ngosa Mboroma",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_c265001ef18a4abff1e608df029052ca",
+            "Name": "Hanya Manikala",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Little Lambs",
+            "YearsQuizzing": null,
+            "Id": "q_d10b7a00ec5a4bd4f1e108df029052ca",
+            "Name": "Nihaaryka Manikala",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Blessed Bunch",
+            "YearsQuizzing": null,
+            "Id": "q_58adb4a15b2d4c61f1d208df029052ca",
+            "Name": "Samyra Nadar",
+            "ChurchId": "c69a3267-fe46-4807-4bf8-08dd4a04cca4",
+            "ChurchName": "St Louis Tamil Christian Fellowship",
+            "City": "Wildwood",
+            "State": "MO",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": true,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          7,
+          2,
+          4,
+          3,
+          0,
+          5,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
       }
     ]
   },
@@ -2382,7 +5545,49 @@
         "Show20s": true,
         "Show30s": true
       }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
     }
   ],
-  "Freshness": "2026-09-19T16:55:23.4247872+00:00"
+  "Freshness": "2026-10-17T16:22:25.8537235+00:00"
 }
