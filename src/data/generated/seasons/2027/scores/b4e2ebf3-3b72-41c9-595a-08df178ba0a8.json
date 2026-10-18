@@ -1,0 +1,1972 @@
+{
+  "EventName": "Dakota Quiz League Meet 1",
+  "DatabaseNames": {
+    "207686b7-6383-4073-a558-6f9d90cc8303": "TBQ_Meet_1_October_2026"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "207686b7-6383-4073-a558-6f9d90cc8303",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B Meet 1",
+        "LastUpdated": "10/17/26 4:42 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:16:47.579858+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              6
+            ],
+            "Id": "t_207686b763834073a5586f9d90cc8303_11",
+            "Name": "Breaking Off Heads",
+            "ChurchId": null,
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 96.7,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 13,
+              "Correct20s": 6,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 55,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              7
+            ],
+            "Id": "t_207686b763834073a5586f9d90cc8303_12",
+            "Name": "Eagerly Pushing Forward",
+            "ChurchId": null,
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 10,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              5
+            ],
+            "Id": "t_b4de9f52f37f49b6b3c1d6ef382154b4",
+            "Name": "Quite Un-Alike",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 460,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 153.3,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 4,
+              "Correct20s": 18,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              4
+            ],
+            "Id": "t_6618eee838de4274994f7c993ac674cd",
+            "Name": "Stunned Onlookers",
+            "ChurchId": "96a74e5a-30df-4289-a473-4268de76db91",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 9,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Breaking Off Heads",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_95",
+            "Name": "Becca Dye",
+            "ChurchId": null,
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Eagerly Pushing Forward",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_105",
+            "Name": "Caoimhe Howard",
+            "ChurchId": null,
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quite Un-Alike",
+            "YearsQuizzing": null,
+            "Id": "q_8bc14868a1e44ba89a4408de045d4f17",
+            "Name": "Ezekielle Gibbs",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.7,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 4,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Stunned Onlookers",
+            "YearsQuizzing": null,
+            "Id": "q_f8cc0707eac74065100008dce09cedfe",
+            "Name": "Fosuah Akowuah",
+            "ChurchId": "96a74e5a-30df-4289-a473-4268de76db91",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Stunned Onlookers",
+            "YearsQuizzing": null,
+            "Id": "q_dcda066e659a43980dba08dadcae4b0f",
+            "Name": "Kirsten Young",
+            "ChurchId": "96a74e5a-30df-4289-a473-4268de76db91",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quite Un-Alike",
+            "YearsQuizzing": null,
+            "Id": "q_38813f132ccf44d69e8a08dcde30b60d",
+            "Name": "Koldin Kaiser",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 81.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 0,
+              "Correct20s": 10,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Breaking Off Heads",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_92",
+            "Name": "Nora Dye",
+            "ChurchId": null,
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 7,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Eagerly Pushing Forward",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_104",
+            "Name": "Saoirse Howard",
+            "ChurchId": null,
+            "ChurchName": "Nebraska",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          5,
+          2,
+          6,
+          3,
+          0,
+          7,
+          4,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "207686b7-6383-4073-a558-6f9d90cc8303",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "X Meet 1",
+        "LastUpdated": "10/17/26 4:42 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:16:47.579858+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "David Sullivan",
+            "Quizzers": [
+              2,
+              10
+            ],
+            "Id": "t_7d01781c979149ae9423798247981c7f",
+            "Name": "Hired Men",
+            "ChurchId": "96a74e5a-30df-4289-a473-4268de76db91",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -15,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 75,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "TaKayla Kaiser",
+            "Quizzers": [
+              1,
+              7,
+              8
+            ],
+            "Id": "t_121ae89927474ed78a4e4b793e13044a",
+            "Name": "Not Even Worthy to Stoop",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 490,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 163.3,
+              "AverageCorrect": 8.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 10,
+              "Correct20s": 12,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sarah Aadland",
+            "Quizzers": [
+              0,
+              3,
+              5,
+              11
+            ],
+            "Id": "t_f388fd0822194f1d9196daaa52b4a2c0",
+            "Name": "Sisseton",
+            "ChurchId": "5f55dde8-67a3-42f8-bae2-b341f35dc36d",
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.3,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 8,
+              "Correct20s": 7,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Luke Storer",
+            "Quizzers": [
+              4,
+              6,
+              9
+            ],
+            "Id": "t_361f84fde0bf41cc8f4a28f407d2f0fd",
+            "Name": "Why are you interfering with us?",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Crossroads",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 405,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 135.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 13,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Sisseton",
+            "YearsQuizzing": null,
+            "Id": "q_0ebfb6232af348d3d71508df21f76ae1",
+            "Name": "Abby Spatz",
+            "ChurchId": "5f55dde8-67a3-42f8-bae2-b341f35dc36d",
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Even Worthy to Stoop",
+            "YearsQuizzing": null,
+            "Id": "q_210d9f86a1ac44c79a3808de045d4f17",
+            "Name": "Ashlyn McCormick",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Hired Men",
+            "YearsQuizzing": null,
+            "Id": "q_9361f0098b784879cf8308df21f76ae1",
+            "Name": "Daigen Howard",
+            "ChurchId": "96a74e5a-30df-4289-a473-4268de76db91",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sisseton",
+            "YearsQuizzing": null,
+            "Id": "q_db3ecb9043be48c7077f08df1a4c4c50",
+            "Name": "Daytona Cronauer",
+            "ChurchId": "5f55dde8-67a3-42f8-bae2-b341f35dc36d",
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 46.7,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 4,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Why are you interfering with us?",
+            "YearsQuizzing": null,
+            "Id": "q_c9c7995590fa40fc190808dc25f7bba1",
+            "Name": "Deborah Storer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Crossroads",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sisseton",
+            "YearsQuizzing": null,
+            "Id": "q_72c49ae6aaf54f2ed71208df21f76ae1",
+            "Name": "Ellie Spatz",
+            "ChurchId": "5f55dde8-67a3-42f8-bae2-b341f35dc36d",
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Why are you interfering with us?",
+            "YearsQuizzing": null,
+            "Id": "q_6c72c34bf250470b9ee808dcde30b60d",
+            "Name": "Ezra Storer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Crossroads",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 30.0,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Even Worthy to Stoop",
+            "YearsQuizzing": null,
+            "Id": "q_929c464394d34b4c0c6b08df1a4c4c50",
+            "Name": "Grace Ternes",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Not Even Worthy to Stoop",
+            "YearsQuizzing": null,
+            "Id": "q_57c4c9ef50114e26234408dce10bdcd7",
+            "Name": "Leah Buntain",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 330,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 110.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 2,
+              "Correct20s": 8,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Why are you interfering with us?",
+            "YearsQuizzing": null,
+            "Id": "q_f82384a4e6114b8b707208dce150465b",
+            "Name": "Nehemiah Storer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Crossroads",
+            "City": null,
+            "State": "NE",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 101.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 5,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Hired Men",
+            "YearsQuizzing": null,
+            "Id": "q_97baa71070694323101a08dce09cedfe",
+            "Name": "Noah Stein",
+            "ChurchId": "96a74e5a-30df-4289-a473-4268de76db91",
+            "ChurchName": "Bethel Assembly of God",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sisseton",
+            "YearsQuizzing": null,
+            "Id": "q_36d73e316cea4c00d71908df21f76ae1",
+            "Name": "Taylor Batie",
+            "ChurchId": "5f55dde8-67a3-42f8-bae2-b341f35dc36d",
+            "ChurchName": "Family Life Assembly of God",
+            "City": "Sisseton",
+            "State": "SD",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          9,
+          1,
+          3,
+          5,
+          6,
+          10,
+          4,
+          7,
+          11,
+          2,
+          0
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "207686b7-6383-4073-a558-6f9d90cc8303",
+        "MeetId": 4,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "A Meet 1",
+        "LastUpdated": "10/17/26 4:42 PM",
+        "DatabaseLastUpdated": "2026-10-17T14:16:47.579858+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Joshua Ternes",
+            "Quizzers": [
+              0,
+              1
+            ],
+            "Id": "t_666bde7ac6d24cc29a1813a8e3a3ef65",
+            "Name": "Bismarck/Sioux Falls Fellowship",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bismarck Home Fellowship",
+            "City": "Bismarck",
+            "State": "ND",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 158.3,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 13,
+              "Correct20s": 12,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 150,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5,
+              6,
+              7
+            ],
+            "Id": "t_207686b763834073a5586f9d90cc8303_13",
+            "Name": "Ministry Tour",
+            "ChurchId": null,
+            "ChurchName": "Less>More",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Shani Gibbs",
+            "Quizzers": [
+              4,
+              8
+            ],
+            "Id": "t_5b454146893247f493c795d4d13eeb02",
+            "Name": "Perfectly Sane",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 580,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 193.3,
+              "AverageCorrect": 8.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 12,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Rhoda McKinley",
+            "Quizzers": [
+              2,
+              3
+            ],
+            "Id": "t_834db4d3003e42f5a0d7f425701d0845",
+            "Name": "Sioux Falls",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 1,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 535,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 178.3,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 7,
+              "Correct20s": 17,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "6",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 175,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Bismarck/Sioux Falls Fellowship",
+            "YearsQuizzing": null,
+            "Id": "q_87b8f1a5e3424ecc186f08dc5bdf929f",
+            "Name": "Bennett Anderson",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bismarck Home Fellowship",
+            "City": "Bismarck",
+            "State": "ND",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bismarck/Sioux Falls Fellowship",
+            "YearsQuizzing": null,
+            "Id": "q_a757b3b039e7405f49c508dafff6a6b5",
+            "Name": "Eden Ternes",
+            "ChurchId": "fc482784-d123-4813-15df-08d9cd79f9ce",
+            "ChurchName": "Bismarck Home Fellowship",
+            "City": "Bismarck",
+            "State": "ND",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 88.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 5,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sioux Falls",
+            "YearsQuizzing": null,
+            "Id": "q_28f1fbeb719345b65f2608df0388d2b1",
+            "Name": "Hudson McCaulley",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": true,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sioux Falls",
+            "YearsQuizzing": null,
+            "Id": "q_27eee54722b04f52187408dc5bdf929f",
+            "Name": "Kaleab Alemseged",
+            "ChurchId": "31417974-8bf0-4bce-8b4a-53dd3fc1c80d",
+            "ChurchName": "LifeChange Church",
+            "City": "Sioux Falls",
+            "State": "SD",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 108.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 1,
+              "Correct20s": 12,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Perfectly Sane",
+            "YearsQuizzing": null,
+            "Id": "q_d969a025fc9147589e7e08dcde30b60d",
+            "Name": "Levi Gibbs",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 400,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 133.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 9,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ministry Tour",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_110",
+            "Name": "Quizzer-1",
+            "ChurchId": null,
+            "ChurchName": "Less>More",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ministry Tour",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_111",
+            "Name": "Quizzer-2",
+            "ChurchId": null,
+            "ChurchName": "Less>More",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 8.3,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Ministry Tour",
+            "YearsQuizzing": null,
+            "Id": "q_207686b763834073a5586f9d90cc8303_112",
+            "Name": "Quizzer-3",
+            "ChurchId": null,
+            "ChurchName": "Less>More",
+            "City": null,
+            "State": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Perfectly Sane",
+            "YearsQuizzing": null,
+            "Id": "q_5a72f6a18c894744f62808dd1ac62cc2",
+            "Name": "Zoriah Plaggemeyer",
+            "ChurchId": "7ce6d4a5-8f2e-4e2b-ac18-53509cb0382a",
+            "ChurchName": "Open Bible Church Rapid City",
+            "City": "Rapid City",
+            "State": "SD",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 6,
+              "Correct20s": 3,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          3,
+          1,
+          0,
+          2,
+          8,
+          6,
+          5,
+          7
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "6",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-17T16:42:23.2651302+00:00"
+}
