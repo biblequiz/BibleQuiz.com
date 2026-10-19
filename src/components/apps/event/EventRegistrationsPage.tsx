@@ -14,6 +14,7 @@ import {
 } from "types/services/EventsService";
 import { PersonRole } from "types/services/PeopleService";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { getRegistrationPath } from "utils/RegistrationLinks";
 
 interface Props {
 }
@@ -404,7 +405,7 @@ export default function EventRegistrationsPage({ }: Props) {
     };
 
     const handleEditChurch = (churchId: string) => {
-        window.location.href = `/#/register/${eventId}/${churchId}`;
+        window.location.href = getRegistrationPath(eventId, churchId);
     };
 
     // Calculate totals

@@ -2,11 +2,13 @@
  * Gets the path of an event's public registration page, for links within the site.
  *
  * @param eventId Id for the event.
+ * @param churchId Id for a church, to open that church's registration.
  *
  * @returns Path of the registration page.
  */
-export function getRegistrationPath(eventId: string): string {
-    return `/register/#/${eventId}`;
+export function getRegistrationPath(eventId: string, churchId?: string): string {
+    const path = `/register/#/${encodeURIComponent(eventId)}`;
+    return churchId ? `${path}/${encodeURIComponent(churchId)}` : path;
 }
 
 /**
