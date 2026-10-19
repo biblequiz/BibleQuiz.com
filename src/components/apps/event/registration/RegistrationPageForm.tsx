@@ -4,6 +4,7 @@ import type React from "react";
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCallback as sharedShouldBlockCallback } from "utils/SharedState";
+import { copyToClipboard } from "utils/Clipboard";
 
 export interface RegistrationFormContext {
     rootEventUrl: string;
@@ -146,11 +147,7 @@ export default function RegistrationPageForm({
                         return;
                     }
 
-                    try {
-                        await navigator.clipboard.writeText(context.registrationLink);
-                    } catch {
-                        // The browser blocked the clipboard, so show the address to copy by hand.
-                        window.prompt("Copy this registration link:", context.registrationLink);
+                    if (!await copyToClipboard(context.registrationLink, "Copy this registration link:")) {
                         return;
                     }
 

@@ -6,6 +6,7 @@ import { EmailMessage, EmailRecipientType, EmailResult, EmailService } from "typ
 import { PersonParentType, type Person } from "types/services/PeopleService";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { copyToClipboard } from "utils/Clipboard";
 
 interface Props {
     eventId?: string,
@@ -175,7 +176,9 @@ export default function EmailForm({
                                         const addresses = recipients
                                             .map(p => `"${p.FirstName} ${p.LastName}" <${p.Email}>`)
                                             .join("; ");
-                                        await navigator.clipboard.writeText(addresses);
+                                        if (!await copyToClipboard(addresses, "Copy these e-mail addresses:")) {
+                                            return;
+                                        }
 
                                         if (!hasCopiedAddresses) {
                                             setHasCopiedAddresses(true);
