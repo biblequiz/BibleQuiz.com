@@ -1,6 +1,7 @@
 import FontAwesomeIcon from "../FontAwesomeIcon";
 import { useStore } from "@nanostores/react";
 import { sharedEventScoringReportState } from "utils/SharedState";
+import { getRegistrationPath } from "utils/RegistrationLinks";
 
 interface Props {
     eventId: string;
@@ -21,7 +22,7 @@ export default function EventRegistrationBanner({ eventId }: Props) {
                 </p>
                 <a
                     className="btn btn-secondary btn-sm"
-                    href={`/register/#/${eventId}`}
+                    href={getRegistrationPath(eventId)}
                     target="_blank">
                     <FontAwesomeIcon icon="fas faPenToSquare" />&nbsp;Register for this Event
                 </a>

@@ -1,6 +1,7 @@
 import EventScopeBadge from "components/EventScopeBadge";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type { EventInfo } from "types/EventTypes";
+import { getRegistrationPath } from "utils/RegistrationLinks";
 
 interface Props {
     info: EventWrapper;
@@ -28,7 +29,7 @@ export default function EventCard({
     const cardLink = urlFormatter ? urlFormatter(info.event) : (
         (isLive || info.isNationals || !info.isRegistrationOpen)
             ? `/${info.type}/seasons/${info.event.season}/${info.urlSlug}`
-            : `/register/#/${info.event.id}`);
+            : getRegistrationPath(info.event.id));
 
     let locationLabel: string | null = null;
     if (info && info.event) {
