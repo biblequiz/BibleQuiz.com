@@ -7,6 +7,7 @@ import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCall
 
 export interface RegistrationFormContext {
     rootEventUrl: string;
+    /** Full address of the event's public registration page, for sharing outside the site. */
     registrationLink: string | null;
     isNewEvent: boolean;
     hasRegistrations: boolean;
@@ -142,7 +143,13 @@ export default function RegistrationPageForm({
                 className={`btn btn-accent m-0`}
                 onClick={async () => {
                     if (context.registrationLink) {
-                        await navigator.clipboard.writeText(context.registrationLink);
+                        try {
+                            await navigator.clipboard.writeText(context.registrationLink);
+                        } catch {
+                            // The browser blocked the clipboard, so show the address to copy by hand.
+                            window.prompt("Copy this registration link:", context.registrationLink);
+                            return;
+                        }
                     }
 
                     if (!hasCopiedLink) {

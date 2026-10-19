@@ -17,6 +17,7 @@ import { sharedDirtyWindowState } from "utils/SharedState";
 import type { RegistrationFormContext } from "./registration/RegistrationPageForm";
 import { Address } from "types/services/models/Address";
 import { getDefaultFieldsForNewEvent } from "./registration/EventFieldCommonDialog";
+import { getRegistrationUrl } from "utils/RegistrationLinks";
 
 interface Props {
 }
@@ -385,8 +386,7 @@ export default function RegistrationProvider({ }: Props) {
                 isSaving: isSavingRegistration,
                 context: {
                     rootEventUrl: rootUrl,
-                    // Full address on the public site, so it can be shared outside the site.
-                    registrationLink: info ? new URL(`/register/#/${info.Id}`, import.meta.env.SITE).href : null,
+                    registrationLink: info?.Id ? getRegistrationUrl(info.Id) : null,
                     isNewEvent: !info,
                     hasRegistrations: info?.HasAnyRegistrations || false,
                     saveRegistration: async () => {
