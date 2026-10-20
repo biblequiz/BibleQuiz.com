@@ -12,7 +12,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "OH Meet #1 OCT 26 Championship",
-        "LastUpdated": "10/17/26 8:07 AM",
+        "LastUpdated": "10/20/26 12:32 AM",
         "DatabaseLastUpdated": "2026-10-17T04:46:02.1600339+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -30,60 +30,76 @@
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesviile",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 198.3,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 12,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 23,
+              "Correct20s": 26,
+              "Correct30s": 11,
+              "FootnoteIndex": 0
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 215,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 200,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 200,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 185,
                 "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 240,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 150,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -102,60 +118,76 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1080,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 180.0,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 9,
+              "Correct20s": 24,
+              "Correct30s": 14,
+              "FootnoteIndex": 0
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 180,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 170,
                 "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 150,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 220,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 190,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 170,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -174,60 +206,76 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 915,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 152.5,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 18,
+              "Correct20s": 27,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 120,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 150,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 185,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 175,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 125,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 160,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -246,68 +294,94 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 24,
+              "Correct20s": 17,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 90,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 75,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 135,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 35,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 70,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 135,
                 "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "A2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
             "CurrentMatchId": null
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "Quizzers": [
           {
             "TeamName": "OH Yes!",
@@ -318,7 +392,20 @@
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesviile",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -331,7 +418,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -344,7 +444,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 655,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 109.2,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 1,
+              "Correct20s": 22,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -357,7 +470,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 10,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -370,7 +496,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -383,7 +522,20 @@
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesviile",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 20,
+              "Correct20s": 7,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -396,7 +548,20 @@
             "ChurchName": "Painesville Assembly of God",
             "City": "Painesviile",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 670,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 111.7,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 3,
+              "Correct20s": 19,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -409,7 +574,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 7,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -422,7 +600,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 65,
+              "Correct10s": 7,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -435,7 +626,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 835,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 139.2,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 0,
+              "Correct20s": 16,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -448,7 +652,20 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.8,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 9,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -461,13 +678,44 @@
             "ChurchName": "Radiant Life Church Assembly of God",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.3,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 17,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          9,
+          6,
+          2,
+          5,
+          11,
+          10,
+          3,
+          8,
+          7,
+          0,
+          1,
+          4
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -477,11 +725,11 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -491,7 +739,7 @@
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -501,7 +749,7 @@
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -511,17 +759,17 @@
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -531,7 +779,7 @@
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -547,17 +795,17 @@
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 1,
+                "Team1": 1,
+                "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -567,17 +815,17 @@
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -587,7 +835,7 @@
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -597,16 +845,16 @@
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -646,8 +894,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -661,7 +909,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "OH Meet #1 OCT 26 XP",
-        "LastUpdated": "10/17/26 8:07 AM",
+        "LastUpdated": "10/20/26 12:32 AM",
         "DatabaseLastUpdated": "2026-10-17T04:46:02.1600339+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -680,60 +928,76 @@
             "ChurchName": "Christ Love Fellowship",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 990,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 165.0,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 27,
+              "Correct20s": 27,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 145,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 180,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 210,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 115,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 200,
                 "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 140,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -752,60 +1016,76 @@
             "ChurchName": "First Assembly of God",
             "City": "Louisville",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 890,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 148.3,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 12,
+              "Correct20s": 23,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 115,
                 "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 135,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 160,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 135,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 165,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 180,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -824,60 +1104,76 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 935,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 155.8,
+              "AverageCorrect": 8.2,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 20,
+              "Correct20s": 22,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 185,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 120,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 150,
                 "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 200,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 125,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 155,
                 "OtherTeam": 3,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -896,68 +1192,89 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 15,
+              "Correct20s": 11,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 15,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 130,
                 "OtherTeam": 1,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": -5,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 10,
                 "OtherTeam": 0,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 70,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "X1",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 80,
                 "OtherTeam": 2,
                 "RoomId": 2,
                 "Room": "X2",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
             "CurrentMatchId": null
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Christ Love Fellowship",
@@ -968,7 +1285,20 @@
             "ChurchName": "Christ Love Fellowship",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -981,7 +1311,20 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -994,7 +1337,20 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 38,
+              "Correct10s": 4,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1007,7 +1363,20 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1020,7 +1389,20 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 7,
+              "Correct20s": 10,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1033,7 +1415,20 @@
             "ChurchName": "Christ Love Fellowship",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 12,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1046,7 +1441,20 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1059,7 +1467,20 @@
             "ChurchName": "First Assembly of God",
             "City": "Louisville",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 765,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 127.5,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 1,
+              "Correct20s": 21,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1072,7 +1493,20 @@
             "ChurchName": "First Assembly of God",
             "City": "Louisville",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.8,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 11,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1085,7 +1519,20 @@
             "ChurchName": "Calvary Church",
             "City": "Maumee",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.8,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 13,
+              "Correct20s": 12,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1098,7 +1545,20 @@
             "ChurchName": "First Assembly of God",
             "City": "Louisville",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1111,7 +1571,20 @@
             "ChurchName": "Christ Love Fellowship",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 615,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 102.5,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 2,
+              "Correct20s": 23,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1124,13 +1597,49 @@
             "ChurchName": "Christ Love Fellowship",
             "City": "Dublin",
             "State": "OH",
-            "Scores": null,
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 225,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 13,
+              "Correct20s": 3,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          7,
+          11,
+          9,
+          4,
+          12,
+          3,
+          5,
+          8,
+          1,
+          2,
+          6,
+          0,
+          10
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -1140,11 +1649,11 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1154,37 +1663,37 @@
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 2,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1194,7 +1703,7 @@
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -1206,21 +1715,21 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 2,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 1,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1230,17 +1739,17 @@
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
@@ -1250,26 +1759,26 @@
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 3,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -1309,8 +1818,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -1349,5 +1858,5 @@
       }
     }
   ],
-  "Freshness": "2026-10-17T08:07:40.324941+00:00"
+  "Freshness": "2026-10-20T00:42:16.7258039+00:00"
 }
