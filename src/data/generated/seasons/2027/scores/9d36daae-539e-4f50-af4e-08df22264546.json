@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "A & adv B Detroit-Metro Meet#1",
-        "LastUpdated": "10/10/26 4:46 PM",
-        "DatabaseLastUpdated": "2026-10-07T01:52:37.8451147+00:00",
+        "LastUpdated": "10/19/26 3:57 AM",
+        "DatabaseLastUpdated": "2026-10-19T03:02:11.3404911+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -91,6 +91,15 @@
                 "RoomId": 2,
                 "Room": "2",
                 "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
                 "CurrentQuestion": null
               }
             ],
@@ -173,6 +182,15 @@
                 "Room": "1",
                 "State": "Completed",
                 "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
               }
             ],
             "CurrentMatchId": null
@@ -252,6 +270,15 @@
                 "RoomId": 3,
                 "Room": "3",
                 "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "NotStarted",
                 "CurrentQuestion": null
               }
             ],
@@ -333,6 +360,15 @@
                 "Room": "3",
                 "State": "Completed",
                 "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
               }
             ],
             "CurrentMatchId": null
@@ -413,6 +449,15 @@
                 "Room": "1",
                 "State": "Completed",
                 "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
               }
             ],
             "CurrentMatchId": null
@@ -491,6 +536,15 @@
                 "RoomId": 2,
                 "Room": "2",
                 "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "NotStarted",
                 "CurrentQuestion": null
               }
             ],
@@ -1192,6 +1246,16 @@
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
               }
             ]
           },
@@ -1247,6 +1311,16 @@
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
                 "Blockers": null
               }
             ]
@@ -1304,6 +1378,16 @@
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
               }
             ]
           }
@@ -1342,11 +1426,17 @@
             "MatchTime": "10:40 AM",
             "PlayoffIndex": null,
             "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": 1,
+            "RegularQuestionStats": null
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": true,
-        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "5 of 6 Match(es) Done",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -1360,8 +1450,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B1 novice Detroit Metro Meet#1",
-        "LastUpdated": "10/10/26 4:46 PM",
-        "DatabaseLastUpdated": "2026-10-07T01:52:37.8451147+00:00",
+        "LastUpdated": "10/19/26 3:57 AM",
+        "DatabaseLastUpdated": "2026-10-19T03:02:11.3404911+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -1463,19 +1553,19 @@
             "City": "Temperance",
             "State": "MI",
             "Scores": {
-              "Wins": 2,
+              "Wins": 3,
               "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 3,
+              "WinPercentage": 60,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 400,
+              "TotalPoints": 520,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 100.0,
-              "AverageCorrect": 8.5,
+              "AveragePoints": 104.0,
+              "AverageCorrect": 8.8,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 81,
-              "Correct10s": 25,
-              "Correct20s": 7,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 33,
+              "Correct20s": 9,
               "Correct30s": 2,
               "FootnoteIndex": 0
             },
@@ -1498,7 +1588,15 @@
                 "State": "Completed",
                 "CurrentQuestion": null
               },
-              null,
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": null,
+                "RoomId": 4,
+                "Room": "By",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
               {
                 "Result": "L",
                 "Score": 120,
@@ -1535,24 +1633,32 @@
             "City": "Flint",
             "State": "MI",
             "Scores": {
-              "Wins": 2,
+              "Wins": 3,
               "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 4,
+              "WinPercentage": 60,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 385,
+              "TotalPoints": 540,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 96.3,
-              "AverageCorrect": 6.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 79,
-              "Correct10s": 12,
-              "Correct20s": 14,
+              "AveragePoints": 108.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 21,
+              "Correct20s": 18,
               "Correct30s": 1,
               "FootnoteIndex": 0
             },
             "Matches": [
-              null,
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": null,
+                "RoomId": 4,
+                "Room": "By",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
               {
                 "Result": "L",
                 "Score": 65,
@@ -1606,20 +1712,20 @@
             "City": "Novi",
             "State": "MI",
             "Scores": {
-              "Wins": 4,
+              "Wins": 5,
               "Losses": 0,
               "WinPercentage": 100,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 805,
+              "TotalPoints": 1020,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 201.3,
-              "AverageCorrect": 10.8,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 18,
-              "Correct20s": 16,
-              "Correct30s": 9,
+              "AveragePoints": 204.0,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 24,
+              "Correct20s": 19,
+              "Correct30s": 12,
               "FootnoteIndex": null
             },
             "Matches": [
@@ -1659,7 +1765,15 @@
                 "State": "Completed",
                 "CurrentQuestion": null
               },
-              null
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": null,
+                "RoomId": 4,
+                "Room": "By",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
             ],
             "CurrentMatchId": null
           },
@@ -1678,19 +1792,19 @@
             "City": "Holt",
             "State": "MI",
             "Scores": {
-              "Wins": 2,
+              "Wins": 3,
               "Losses": 2,
-              "WinPercentage": 50,
+              "WinPercentage": 60,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 320,
+              "TotalPoints": 410,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 80.0,
-              "AverageCorrect": 6.3,
+              "AveragePoints": 82.0,
+              "AverageCorrect": 6.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 83,
-              "Correct10s": 15,
-              "Correct20s": 9,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 19,
+              "Correct20s": 12,
               "Correct30s": 1,
               "FootnoteIndex": 0
             },
@@ -1722,7 +1836,15 @@
                 "State": "Completed",
                 "CurrentQuestion": null
               },
-              null,
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": null,
+                "RoomId": 4,
+                "Room": "By",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
               {
                 "Result": "W",
                 "Score": 140,
@@ -1750,20 +1872,20 @@
             "City": "Shelby Township",
             "State": "MI",
             "Scores": {
-              "Wins": 2,
+              "Wins": 3,
               "Losses": 2,
-              "WinPercentage": 50,
+              "WinPercentage": 60,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 470,
+              "TotalPoints": 595,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 117.5,
-              "AverageCorrect": 8.5,
+              "AveragePoints": 119.0,
+              "AverageCorrect": 8.6,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 87,
-              "Correct10s": 22,
-              "Correct20s": 10,
-              "Correct30s": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 28,
+              "Correct20s": 12,
+              "Correct30s": 3,
               "FootnoteIndex": 0
             },
             "Matches": [
@@ -1776,7 +1898,15 @@
                 "State": "Completed",
                 "CurrentQuestion": null
               },
-              null,
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": null,
+                "RoomId": 4,
+                "Room": "By",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
               {
                 "Result": "W",
                 "Score": 170,
@@ -1890,8 +2020,8 @@
         "RankedTeams": [
           3,
           5,
-          1,
           2,
+          1,
           4,
           0,
           6
@@ -1941,16 +2071,16 @@
             "Scores": {
               "Rank": 17,
               "IsTie": true,
-              "TotalPoints": 30,
+              "TotalPoints": 40,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 7.5,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 8.0,
+              "AverageCorrect": 0.6,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 50,
-              "Correct10s": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 1,
               "Correct20s": 2,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1976,7 +2106,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1993,16 +2123,16 @@
             "Scores": {
               "Rank": 19,
               "IsTie": false,
-              "TotalPoints": 10,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.4,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2028,7 +2158,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2071,16 +2201,16 @@
             "Scores": {
               "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 230,
+              "TotalPoints": 290,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 57.5,
+              "AveragePoints": 58.0,
               "AverageCorrect": 4.8,
               "QuizOuts": 1,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 15,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 19,
+              "Correct20s": 4,
               "Correct30s": 1,
-              "FootnoteIndex": null
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2099,7 +2229,7 @@
               "IsTie": false,
               "TotalPoints": -10,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -2.5,
+              "AveragePoints": -2.0,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
@@ -2121,15 +2251,15 @@
             "City": "Temperance",
             "State": "MI",
             "Scores": {
-              "Rank": 15,
+              "Rank": 16,
               "IsTie": false,
-              "TotalPoints": 35,
+              "TotalPoints": 45,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 8.8,
-              "AverageCorrect": 1.3,
+              "AveragePoints": 9.0,
+              "AverageCorrect": 1.2,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 56,
-              "Correct10s": 4,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 5,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2149,15 +2279,15 @@
             "Scores": {
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 595,
+              "TotalPoints": 745,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 148.8,
+              "AveragePoints": 149.0,
               "AverageCorrect": 6.0,
-              "QuizOuts": 4,
-              "QuestionCorrectPercentage": 96,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
               "Correct10s": 0,
-              "Correct20s": 15,
-              "Correct30s": 9,
+              "Correct20s": 18,
+              "Correct30s": 12,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -2184,7 +2314,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2199,18 +2329,18 @@
             "City": "Flint",
             "State": "MI",
             "Scores": {
-              "Rank": 17,
+              "Rank": 14,
               "IsTie": false,
-              "TotalPoints": 30,
+              "TotalPoints": 60,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 7.5,
-              "AverageCorrect": 0.5,
+              "AveragePoints": 12.0,
+              "AverageCorrect": 0.8,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 67,
               "Correct10s": 0,
-              "Correct20s": 2,
+              "Correct20s": 4,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2227,13 +2357,13 @@
             "Scores": {
               "Rank": 10,
               "IsTie": false,
-              "TotalPoints": 150,
+              "TotalPoints": 190,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 37.5,
-              "AverageCorrect": 3.5,
+              "AveragePoints": 38.0,
+              "AverageCorrect": 3.6,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 13,
+              "Correct10s": 17,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2279,14 +2409,14 @@
             "Scores": {
               "Rank": 8,
               "IsTie": false,
-              "TotalPoints": 170,
+              "TotalPoints": 215,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 42.5,
+              "AveragePoints": 43.0,
               "AverageCorrect": 3.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 6,
-              "Correct20s": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 7,
+              "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
             },
@@ -2305,15 +2435,15 @@
             "Scores": {
               "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 290,
+              "TotalPoints": 365,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 72.5,
-              "AverageCorrect": 4.5,
+              "AveragePoints": 73.0,
+              "AverageCorrect": 4.4,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 86,
-              "Correct10s": 9,
-              "Correct20s": 7,
-              "Correct30s": 2,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 10,
+              "Correct20s": 9,
+              "Correct30s": 3,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -2357,14 +2487,14 @@
             "Scores": {
               "Rank": 9,
               "IsTie": false,
-              "TotalPoints": 165,
+              "TotalPoints": 210,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 41.3,
-              "AverageCorrect": 3.3,
+              "AveragePoints": 42.0,
+              "AverageCorrect": 3.4,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 9,
-              "Correct20s": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 12,
+              "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
             },
@@ -2381,18 +2511,18 @@
             "City": "Holt",
             "State": "MI",
             "Scores": {
-              "Rank": 27,
-              "IsTie": false,
+              "Rank": 26,
+              "IsTie": true,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
-              "AveragePoints": -1.3,
+              "AveragePoints": -1.0,
               "AverageCorrect": 0.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 0,
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2407,7 +2537,7 @@
             "City": "Clarkston",
             "State": "MI",
             "Scores": {
-              "Rank": 12,
+              "Rank": 13,
               "IsTie": false,
               "TotalPoints": 80,
               "PerMeetTotalPoints": null,
@@ -2435,14 +2565,14 @@
             "Scores": {
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 310,
+              "TotalPoints": 390,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 77.5,
-              "AverageCorrect": 5.0,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 80,
-              "Correct10s": 7,
-              "Correct20s": 12,
+              "AveragePoints": 78.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 11,
+              "Correct20s": 14,
               "Correct30s": 1,
               "FootnoteIndex": null
             },
@@ -2461,14 +2591,14 @@
             "Scores": {
               "Rank": 11,
               "IsTie": false,
-              "TotalPoints": 115,
+              "TotalPoints": 145,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 28.8,
+              "AveragePoints": 29.0,
               "AverageCorrect": 2.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 89,
-              "Correct10s": 4,
-              "Correct20s": 3,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 5,
+              "Correct20s": 4,
               "Correct30s": 1,
               "FootnoteIndex": null
             },
@@ -2485,15 +2615,15 @@
             "City": "Flint",
             "State": "MI",
             "Scores": {
-              "Rank": 14,
+              "Rank": 12,
               "IsTie": false,
-              "TotalPoints": 45,
+              "TotalPoints": 90,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 11.3,
-              "AverageCorrect": 1.3,
+              "AveragePoints": 18.0,
+              "AverageCorrect": 2.0,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 83,
-              "Correct10s": 5,
+              "Correct10s": 10,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2511,8 +2641,8 @@
             "City": "Clarkston",
             "State": "MI",
             "Scores": {
-              "Rank": 13,
-              "IsTie": false,
+              "Rank": 14,
+              "IsTie": true,
               "TotalPoints": 60,
               "PerMeetTotalPoints": null,
               "AveragePoints": 12.0,
@@ -2522,7 +2652,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 3,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2539,13 +2669,13 @@
             "Scores": {
               "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 210,
+              "TotalPoints": 275,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 52.5,
-              "AverageCorrect": 4.8,
-              "QuizOuts": 2,
-              "QuestionCorrectPercentage": 90,
-              "Correct10s": 18,
+              "AveragePoints": 55.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 24,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -2565,16 +2695,16 @@
             "Scores": {
               "Rank": 19,
               "IsTie": true,
-              "TotalPoints": 10,
+              "TotalPoints": 20,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.5,
-              "AverageCorrect": 0.3,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.4,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "Correct10s": 2,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2600,7 +2730,7 @@
               "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": 0
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2615,7 +2745,7 @@
             "City": "Clarkston",
             "State": "MI",
             "Scores": {
-              "Rank": 16,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": 40,
               "PerMeetTotalPoints": null,
@@ -2626,7 +2756,7 @@
               "Correct10s": 4,
               "Correct20s": 0,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2652,7 +2782,7 @@
               "Correct10s": 0,
               "Correct20s": 1,
               "Correct30s": 0,
-              "FootnoteIndex": null
+              "FootnoteIndex": 1
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -2670,12 +2800,12 @@
           17,
           12,
           21,
-          19,
-          23,
           22,
+          19,
+          11,
+          23,
           8,
           27,
-          11,
           1,
           3,
           25,
@@ -2692,6 +2822,10 @@
         "QuizzerFootnotes": [
           {
             "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
             "Text": "Tie couldn't be broken by tie breaking rules."
           }
         ],
@@ -2714,8 +2848,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 2,
+                "Team1": 2,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2864,6 +2998,62 @@
                 "Blockers": null
               }
             ]
+          },
+          {
+            "RoomId": 4,
+            "Name": "By",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": null,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": null,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": null,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": null,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": null,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
           }
         ],
         "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
@@ -2918,8 +3108,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "C league Detroit-Metro Meet#1",
-        "LastUpdated": "10/10/26 4:46 PM",
-        "DatabaseLastUpdated": "2026-10-07T01:52:37.8451147+00:00",
+        "LastUpdated": "10/19/26 3:57 AM",
+        "DatabaseLastUpdated": "2026-10-19T03:02:11.3404911+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -3967,8 +4157,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "B2 novice Detroit-Metro Meet#1",
-        "LastUpdated": "10/10/26 4:46 PM",
-        "DatabaseLastUpdated": "2026-10-07T01:52:37.8451147+00:00",
+        "LastUpdated": "10/19/26 3:57 AM",
+        "DatabaseLastUpdated": "2026-10-19T03:02:11.3404911+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -5433,5 +5623,5 @@
       }
     }
   ],
-  "Freshness": "2026-10-10T16:46:11.7659914+00:00"
+  "Freshness": "2026-10-19T03:57:15.0991457+00:00"
 }
