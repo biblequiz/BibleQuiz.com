@@ -6,6 +6,7 @@ import { EmailMessage, EmailRecipientType, EmailResult, EmailService } from "typ
 import { PersonParentType, type Person } from "types/services/PeopleService";
 import PersonLookupDialog from "components/PersonLookupDialog";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { copyToClipboard } from "utils/Clipboard";
 
 interface Props {
     eventId?: string,
@@ -171,11 +172,20 @@ export default function EmailForm({
                                 <button
                                     type="button"
                                     className="btn btn-sm btn-ghost mt-0"
+                                    disabled={isDisabled || !recipients.some(p => p.Email)}
                                     onClick={async () => {
+                                        // Skip people without an e-mail, and escape the quoted display name so a name
+                                        // with a quote or backslash doesn't break the list.
                                         const addresses = recipients
-                                            .map(p => `"${p.FirstName} ${p.LastName}" <${p.Email}>`)
+                                            .filter(p => p.Email)
+                                            .map(p => {
+                                                const name = `${p.FirstName ?? ""} ${p.LastName ?? ""}`.trim().replace(/[\\"]/g, "\\$&");
+                                                return name ? `"${name}" <${p.Email}>` : `<${p.Email}>`;
+                                            })
                                             .join("; ");
-                                        await navigator.clipboard.writeText(addresses);
+                                        if (!await copyToClipboard(addresses, "Copy these e-mail addresses:")) {
+                                            return;
+                                        }
 
                                         if (!hasCopiedAddresses) {
                                             setHasCopiedAddresses(true);

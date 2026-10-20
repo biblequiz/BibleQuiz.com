@@ -143,6 +143,7 @@ def normalize_url(url: str, resolve_links: bool, timeout: float) -> str:
             r"/Registration/(?P<event_id>[0-9a-fA-F-]+)", parsed.fragment
         )
         if match:
+            # Keep in step with getRegistrationPath in src/utils/RegistrationLinks.ts.
             return f"{SITE_ORIGIN}/register/#/{match.group('event_id')}"
 
     if host in {"biblequiz.com", "www.biblequiz.com"}:
