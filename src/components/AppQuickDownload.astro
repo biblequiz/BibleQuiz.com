@@ -1,18 +1,21 @@
 ---
-// A quick download at the top of the apps page for visitors on a platform that has exactly one app
-// (Android and macOS today). Everyone else sees the page as it always was. The page is built with
-// the banners hidden, and the script reveals the one that matches the visitor's device.
+// A compact quick download at the top of the apps page for the platforms most visitors use. The page
+// is built with every banner hidden, and the script reveals the one that matches the visitor's device.
+// Other visitors (iPhone, iPad, Linux) see the page as it always was. The sections below hold the
+// full descriptions, every platform and the other apps.
 import { AppReleasePlatform, getAppReleaseManifest, type AppReleaseManifest } from "utils/AppReleases";
 
 const apps = [
-    { product: "CoachApp", name: "Coaching App" },
-    { product: "EZScore", name: "EZScore" },
-    { product: "ScoreKeep", name: "ScoreKeep" },
+    { product: "CoachApp", name: "Coaching App", about: "For coaches" },
+    { product: "EZScore", name: "EZScore", about: "Electronic score sheet" },
+    { product: "ScoreKeep", name: "ScoreKeep", about: "Meet manager" },
 ];
 
+// The apps offered at the top for each device. Windows has three apps, so it offers the two most visitors want.
 const devices = [
-    { device: "android", platform: AppReleasePlatform.Android, label: "Android" },
-    { device: "mac", platform: AppReleasePlatform.MacOS, label: "macOS" },
+    { device: "windows", platform: AppReleasePlatform.Windows, label: "Windows", featured: ["CoachApp", "EZScore"] },
+    { device: "mac", platform: AppReleasePlatform.MacOS, label: "macOS", featured: ["CoachApp"] },
+    { device: "android", platform: AppReleasePlatform.Android, label: "Android", featured: ["EZScore"] },
 ];
 
 const formatSize = (bytes: number) => `${Math.round(bytes / 1048576)} MB`;
@@ -24,49 +27,62 @@ const quick = (await Promise.all(devices.map(async (d) => {
         manifest: await getAppReleaseManifest(a.product, d.platform),
     })))).filter((a) => a.manifest);
 
-    // With several apps on a platform, the visitor still has to choose, so there is no quick download.
-    if (available.length !== 1) {
+    const items = available.filter((a) => d.featured.includes(a.product)).map((a) => {
+        const manifest = a.manifest!;
+        const main: AppReleaseManifest = manifest.stable ?? manifest.beta!;
+        const beta = manifest.beta && manifest.beta.version !== main.version ? manifest.beta : null;
+        return { app: a, main, beta };
+    });
+
+    if (items.length === 0) {
         return null;
     }
 
-    const app = available[0];
-    const manifest = app.manifest!;
-    const main: AppReleaseManifest = manifest.stable ?? manifest.beta!;
-    const beta = manifest.beta && manifest.beta.version !== main.version ? manifest.beta : null;
-    const missing = apps.filter((a) => a.product !== app.product).map((a) => a.name);
-    return { ...d, app, main, beta, missing };
+    // Apps with no version for this platform are named, so the visitor knows not to look for them.
+    const missing = apps.filter((a) => !available.some((x) => x.product === a.product)).map((a) => a.name);
+    return { ...d, items, missing };
 }))).filter((q) => q !== null);
 ---
 
 {quick.map((q) => (
     <aside class="quick-download not-content" data-quick-device={q.device} hidden>
-        <p class="quick-download__title">{q.app.name} for {q.label}</p>
-        <div class="quick-download__actions">
-            <a class="btn btn-primary" href={q.main.downloadUrl} rel="noopener noreferrer" download>
-                Download <span class="font-bold">v{q.main.version}</span>
-                <span class:list={["badge badge-soft", q.main.isBeta ? "badge-warning" : "badge-primary"]}>
-                    {q.main.isBeta ? "BETA" : "STABLE"}
-                </span>
-                <span class="quick-download__size">{formatSize(q.main.size)}</span>
-            </a>
-            {q.beta && (
-                <span class="quick-download__beta">
-                    or try the <a href={q.beta.downloadUrl} rel="noopener noreferrer" download>beta v{q.beta.version}</a>{" "}
-                    ({formatSize(q.beta.size)})
-                </span>
-            )}
+        <div class="quick-download__items">
+            {q.items.map((i) => (
+                <div class="quick-download__item">
+                    <p class="quick-download__title">
+                        {q.items.length > 1 ? i.app.name : `${i.app.name} for ${q.label}`}
+                        {q.items.length > 1 && <small>{i.app.about}</small>}
+                    </p>
+                    <div class="quick-download__actions">
+                        <a class="btn btn-primary" href={i.main.downloadUrl} rel="noopener noreferrer" download>
+                            Download <span class="font-bold">v{i.main.version}</span>
+                            <span class:list={["badge badge-soft", i.main.isBeta ? "badge-warning" : "badge-primary"]}>
+                                {i.main.isBeta ? "BETA" : "STABLE"}
+                            </span>
+                            {q.items.length === 1 && <span class="quick-download__size">{formatSize(i.main.size)}</span>}
+                        </a>
+                        {i.beta && (
+                            <span class="quick-download__beta">
+                                or try the <a href={i.beta.downloadUrl} rel="noopener noreferrer" download>beta v{i.beta.version}</a>
+                            </span>
+                        )}
+                    </div>
+                </div>
+            ))}
         </div>
-        <p class="quick-download__note">
-            {q.missing.join(" and ")} {q.missing.length === 1 ? "is" : "are"} not available for {q.label}.
-            Every download is listed below.
-        </p>
+        {q.missing.length > 0 && (
+            <p class="quick-download__note">
+                {q.missing.join(" and ")} {q.missing.length === 1 ? "is" : "are"} not available for {q.label}.
+                Every download is listed below.
+            </p>
+        )}
     </aside>
 ))}
 
 <script>
     import { detectDevice } from "utils/DetectDevice";
 
-    // Highlight the visitor's platform on the cards below (see the style block), and show the banner.
+    // Show the banner for the visitor's device, and highlight their platform on the cards below (see the style block).
     const device = detectDevice();
     const banner = document.querySelector<HTMLElement>(`[data-quick-device="${device}"]`);
     if (banner) {
@@ -78,9 +94,9 @@ const quick = (await Promise.all(devices.map(async (d) => {
 <style>
     .quick-download {
         flex-direction: column;
-        gap: 0.6rem;
-        margin-bottom: 1.5rem;
-        padding: 1.1rem 1.25rem;
+        gap: 0.5rem;
+        margin-bottom: 1.25rem;
+        padding: 0.85rem 1rem;
         border: 2px solid var(--sl-color-accent);
         border-radius: 0.75rem;
         background: var(--sl-color-accent-low);
@@ -90,19 +106,50 @@ const quick = (await Promise.all(devices.map(async (d) => {
         display: flex;
     }
 
+    .quick-download__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.5rem;
+    }
+
+    .quick-download__item {
+        display: flex;
+        flex: 1 1 15rem;
+        flex-direction: column;
+        gap: 0.4rem;
+        min-width: 0;
+    }
+
     .quick-download__title {
         margin: 0;
-        font-size: 1.35rem;
+        font-size: 1.2rem;
         font-weight: 600;
         line-height: 1.2;
         color: var(--sl-color-white);
+    }
+
+    .quick-download__title small {
+        margin-left: 0.5rem;
+        font-size: 0.85rem;
+        font-weight: 400;
+        color: var(--sl-color-gray-2);
     }
 
     .quick-download__actions {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 0.5rem 1rem;
+        gap: 0.35rem 0.75rem;
+    }
+
+    /* DaisyUI buttons are one fixed-height line, which would spill out of a narrow banner. */
+    .quick-download__actions .btn {
+        flex-wrap: wrap;
+        height: auto;
+        max-width: 100%;
+        min-height: 2.5rem;
+        padding-block: 0.35rem;
+        white-space: normal;
     }
 
     .quick-download__size {
@@ -124,11 +171,13 @@ const quick = (await Promise.all(devices.map(async (d) => {
 
 <style is:global>
     /* The visitor's platform stands out on the cards below, and the others fade back. */
+    html[data-app-device="windows"] [data-app-platform]:not([data-app-platform="windows"]),
     html[data-app-device="android"] [data-app-platform]:not([data-app-platform="android"]),
     html[data-app-device="macos"] [data-app-platform]:not([data-app-platform="macos"]) {
         opacity: 0.55;
     }
 
+    html[data-app-device="windows"] [data-app-platform="windows"],
     html[data-app-device="android"] [data-app-platform="android"],
     html[data-app-device="macos"] [data-app-platform="macos"] {
         outline: 2px solid var(--sl-color-accent);
