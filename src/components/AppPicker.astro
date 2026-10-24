@@ -1,0 +1,185 @@
+---
+// Wraps a set of AppRoleCard components. The page is built with every download in it, so it works
+// without JavaScript. The script detects the visitor's device and moves that platform's download to
+// the top of each card, puts the apps that don't run on it last, and offers a way to change the guess.
+---
+
+<div class="app-picker" data-app-picker>
+    <div class="app-picker__bar" hidden aria-live="polite">
+        <span>Showing downloads for <strong data-device-label></strong>.</span>
+        <label>
+            Not right?
+            <select class="select select-sm" data-device-select>
+                <option value="windows">Windows</option>
+                <option value="mac">macOS</option>
+                <option value="android">Android</option>
+                <option value="ios">iPhone or iPad</option>
+                <option value="other">Something else</option>
+            </select>
+        </label>
+    </div>
+    <p class="app-picker__notice" hidden></p>
+    <div class="app-picker__cards">
+        <slot />
+    </div>
+</div>
+
+<script>
+    import { detectDevice, type AppDevice } from "utils/DetectDevice";
+
+    const REGISTRATION_URL = "https://registration.biblequiz.com/";
+
+    // How each device is named in the "Showing downloads for" line and in "Not available for" messages.
+    const DEVICE_LABELS: Record<AppDevice, string> = {
+        windows: "Windows",
+        mac: "macOS",
+        android: "Android",
+        ios: "iPhone or iPad",
+        other: "this system",
+    };
+
+    function isSupported(device: AppDevice): boolean {
+        return device === "windows" || device === "mac" || device === "android";
+    }
+
+    function setUp(root: HTMLElement) {
+
+        const bar = root.querySelector<HTMLElement>(".app-picker__bar")!;
+        const label = root.querySelector<HTMLElement>("[data-device-label]")!;
+        const select = root.querySelector<HTMLSelectElement>("[data-device-select]")!;
+        const notice = root.querySelector<HTMLElement>(".app-picker__notice")!;
+        const cardsContainer = root.querySelector<HTMLElement>(".app-picker__cards")!;
+        const cards = [...root.querySelectorAll<HTMLElement>(".app-role")];
+        cards.forEach((card, index) => card.dataset.order = String(index));
+
+        function showNotice(device: AppDevice) {
+            notice.replaceChildren();
+            if (isSupported(device)) {
+                notice.hidden = true;
+                return;
+            }
+
+            if (device === "ios") {
+                notice.append(
+                    "There is no iPhone or iPad app. Registration, schedules and scores are on the website, and the apps run on Windows, macOS and Android. ");
+                const link = document.createElement("a");
+                link.href = REGISTRATION_URL;
+                link.textContent = "Open registration";
+                notice.append(link);
+            }
+            else {
+                notice.textContent = "There is no app for this system. The apps run on Windows, macOS and Android.";
+            }
+
+            notice.hidden = false;
+        }
+
+        function arrangeCard(card: HTMLElement, device: AppDevice) {
+
+            const primary = card.querySelector<HTMLElement>(".app-role__primary");
+            const unavailable = card.querySelector<HTMLElement>(".app-role__unavailable");
+            const details = card.querySelector<HTMLDetailsElement>(".app-role__others");
+            const container = card.querySelector<HTMLElement>(".app-role__rows");
+            if (!primary || !unavailable || !details || !container) {
+                return;
+            }
+
+            // Start over, so changing the device works from any earlier state.
+            const rows = [...card.querySelectorAll<HTMLElement>(".app-role__row")]
+                .sort((a, b) => Number(a.dataset.order) - Number(b.dataset.order));
+            container.append(...rows);
+            primary.hidden = true;
+            unavailable.hidden = true;
+            details.hidden = false;
+            card.classList.remove("is-unsupported");
+
+            const summary = details.querySelector("summary")!;
+            const match = rows.find((r) => r.dataset.platform === device);
+            if (match) {
+                primary.append(match);
+                summary.textContent = "Other platforms";
+                details.open = false;
+                details.hidden = rows.length === 1;
+                primary.hidden = false;
+            }
+            else {
+                unavailable.textContent =
+                    `Not available for ${DEVICE_LABELS[device]}. ${card.dataset.appName} runs on ${card.dataset.platformNames}.`;
+                unavailable.hidden = false;
+                summary.textContent = "Download for another device";
+                details.open = false;
+                card.classList.add("is-unsupported");
+            }
+        }
+
+        function apply(device: AppDevice) {
+            root.dataset.device = device;
+            label.textContent = DEVICE_LABELS[device];
+            select.value = device;
+            bar.hidden = false;
+            showNotice(device);
+            cards.forEach((card) => arrangeCard(card, device));
+
+            // Move the cards themselves (not just their visual order) so keyboard and screen reader order matches.
+            const rank = (card: HTMLElement) => card.classList.contains("is-unsupported") ? 1 : 0;
+            cardsContainer.append(...[...cards].sort((a, b) =>
+                rank(a) - rank(b) || Number(a.dataset.order) - Number(b.dataset.order)));
+        }
+
+        select.addEventListener("change", () => apply(select.value as AppDevice));
+        apply(detectDevice());
+    }
+
+    document.querySelectorAll<HTMLElement>("[data-app-picker]").forEach(setUp);
+</script>
+
+<style>
+    .app-picker {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .app-picker__bar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem 1rem;
+        padding: 0.5rem 0.9rem;
+        border: 1px solid var(--sl-color-gray-5);
+        border-radius: 0.75rem;
+        width: fit-content;
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .app-picker__bar:not([hidden]) {
+        display: flex;
+    }
+
+    .app-picker__bar label {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        white-space: nowrap;
+        color: var(--sl-color-gray-3);
+    }
+
+    .app-picker__notice {
+        margin: 0;
+        padding: 0.75rem 1rem;
+        border: 1px dashed var(--sl-color-gray-4);
+        border-radius: 0.75rem;
+    }
+
+    .app-picker__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+        gap: 1rem;
+    }
+
+    /* Apps that don't run on the visitor's device are moved last by the script and drawn with a dashed border. */
+    .app-picker__cards :global(.app-role.is-unsupported) {
+        border-style: dashed;
+    }
+</style>

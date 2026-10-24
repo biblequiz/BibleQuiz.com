@@ -6,24 +6,23 @@ sidebar:
     icon: fas faTabletAlt
 ---
 
-import { Aside, LinkButton, Card, CardGrid, Steps } from '@astrojs/starlight/components';
-import AppDownloadCardDeck from 'components/AppDownloadCardDeck';
+import { Aside, LinkButton, CardGrid, Steps } from '@astrojs/starlight/components';
+import AppPicker from 'components/AppPicker.astro';
+import AppRoleCard from 'components/AppRoleCard.astro';
 
-<Card>
+Pick the app for your role. The download for your device is shown first, and you can switch devices if we guessed wrong.
 
-    ### Coaching App
-    
+<AppPicker>
+
+<AppRoleCard product="CoachApp" title="Coaching App" subtitle="For coaches" role="Coach">
+
     Makes it easy for both JBQ and TBQ coaches to keep score, lookup answers, research data, see the
     latest rulebook, see the online score, and get an online schedule for any online registered competition
     on BibleQuiz.com. It is intended for use in conjunction with https://registration.biblequiz.com/
 
-    <AppDownloadCardDeck product="CoachApp" />
+</AppRoleCard>
 
-</Card>
-
-<Card>
-
-    ### EZScore: Electronic Score Sheet
+<AppRoleCard product="EZScore" title="EZScore" subtitle="Electronic score sheet" role="Room scorekeeper">
 
     Keeps score for each room during a Bible Quiz competition. You need to register your competitions
     on https://registration.biblequiz.com/. The schedule for the
@@ -34,32 +33,37 @@ import AppDownloadCardDeck from 'components/AppDownloadCardDeck';
         and ***strongly*** recommend them.
     </Aside>
 
-    <AppDownloadCardDeck product="EZScore" />
+    <Fragment slot="extra">
 
-    #### Training Videos
+        #### Training Videos
 
-    * [Setup and Seating](https://youtu.be/u1jXAshiqwA)
-    * [Scoring Tracking](https://youtu.be/-a2tAOe0DPk)
-    * [Closing a Match](https://youtu.be/h4KwA00jp80)
+        * [Setup and Seating](https://youtu.be/u1jXAshiqwA)
+        * [Scoring Tracking](https://youtu.be/-a2tAOe0DPk)
+        * [Closing a Match](https://youtu.be/h4KwA00jp80)
 
-</Card>
+    </Fragment>
 
-<Card>
+</AppRoleCard>
 
-    ### ScoreKeep: Meet Manager
-    
+<AppRoleCard product="ScoreKeep" title="ScoreKeep" subtitle="Meet manager" role="Meet coordinator">
+
     Manage a competition for use with EZScore and publishing scores on BibleQuiz.com. It is intended for
     use in conjunction with https://registration.biblequiz.com/
 
-    <AppDownloadCardDeck product="ScoreKeep" />
+    <Fragment slot="extra">
 
-    #### Training Videos
+        #### Training Videos
 
-    * Tablet Setup [Part 1](https://youtu.be/0ZEeuvC8u94) & [Part 2](https://youtu.be/AYCpEWIOYgA)
-    * [Add Meet and Load Questions](https://youtu.be/dG0jal8OAHQ)
-    * [Add or Move Quizzer after meet has started](https://youtu.be/eVUvARFDXpM)
-    * [Add Quizzer to Current Meet](https://youtu.be/ur4lzA_SlQY)
-</Card>
+        * Tablet Setup [Part 1](https://youtu.be/0ZEeuvC8u94) & [Part 2](https://youtu.be/AYCpEWIOYgA)
+        * [Add Meet and Load Questions](https://youtu.be/dG0jal8OAHQ)
+        * [Add or Move Quizzer after meet has started](https://youtu.be/eVUvARFDXpM)
+        * [Add Quizzer to Current Meet](https://youtu.be/ur4lzA_SlQY)
+
+    </Fragment>
+
+</AppRoleCard>
+
+</AppPicker>
 
 ## FAQ
 
