@@ -1,0 +1,3902 @@
+{
+  "EventName": "MIJBQ Southwest 2026-27",
+  "DatabaseNames": {
+    "a0701965-3fcd-4643-afce-ad67cccdb555": "MIJBQ_2026_27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "a0701965-3fcd-4643-afce-ad67cccdb555",
+        "MeetId": 7,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B League Southwest Meet#1",
+        "LastUpdated": "10/24/26 4:49 PM",
+        "DatabaseLastUpdated": "2026-10-24T13:16:08.5444049+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Randy Daugherty",
+            "Quizzers": [
+              6,
+              13,
+              16,
+              29,
+              30,
+              47
+            ],
+            "Id": "t_53ac6325116c4d6f93b2dd7d7ecfe0fa",
+            "Name": "Abundant Life Assembly",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 7,
+              "WinPercentage": 0,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 115,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.4,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 64,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -25,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 5,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 9,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              9,
+              11,
+              46
+            ],
+            "Id": "t_d3dec6427bfd4eceafeb4a90106ab553",
+            "Name": "Gods Grasshoppers",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 465,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.4,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 27,
+              "Correct20s": 8,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 7,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 8,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 6,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Veronica Cuellar",
+            "Quizzers": [
+              8,
+              14,
+              17,
+              18,
+              23
+            ],
+            "Id": "t_82116a971ba94104a992f98dbe15ae2b",
+            "Name": "The Holy Dinos",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 5,
+              "WinPercentage": 29,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 17,
+              "Correct20s": 16,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -15,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 9,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 4,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 8,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Lee Jackson",
+            "Quizzers": [
+              2,
+              19,
+              22,
+              34,
+              35
+            ],
+            "Id": "t_a8488e39973540a8a33274892e5385a1",
+            "Name": "The Holy Flames",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 800,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 114.3,
+              "AverageCorrect": 8.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 35,
+              "Correct20s": 23,
+              "Correct30s": 4,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 9,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 205,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 8,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ed Spillers",
+            "Quizzers": [
+              3,
+              12,
+              25,
+              31,
+              32,
+              37
+            ],
+            "Id": "t_59762700940a436a8550568948dbbfe0",
+            "Name": "The Trinity Children",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 555,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 79.3,
+              "AverageCorrect": 6.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 36,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": 1
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 8,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 6,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Dalee Nwimo",
+            "Quizzers": [
+              1,
+              10,
+              20,
+              21,
+              38,
+              41
+            ],
+            "Id": "t_e5f596eaeabd43ea9b4cd3fb84c08bcd",
+            "Name": "The Wave Walkers",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 975,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 139.3,
+              "AverageCorrect": 10.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 40,
+              "Correct20s": 23,
+              "Correct30s": 7,
+              "FootnoteIndex": 1
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 2,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 8,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 225,
+                "OtherTeam": 0,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 9,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jodie May",
+            "Quizzers": [
+              24,
+              39,
+              44
+            ],
+            "Id": "t_e99b90c2f5e64c33ba14039c1c79082f",
+            "Name": "Tri-unity Christian School (Grandville) #1",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 485,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 69.3,
+              "AverageCorrect": 6.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 37,
+              "Correct20s": 10,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 4,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 9,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Aimee Wieber",
+            "Quizzers": [
+              26,
+              27,
+              33,
+              45
+            ],
+            "Id": "t_b25b6d8487d54acab7f0b0f8141e8be5",
+            "Name": "Tri-unity Christian School (Grandville) #2",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 1,
+              "WinPercentage": 86,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 850,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 121.4,
+              "AverageCorrect": 10.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 49,
+              "Correct20s": 20,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 170,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 9,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 8,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Matt Curtis",
+            "Quizzers": [
+              5,
+              15,
+              42,
+              43
+            ],
+            "Id": "t_6b200d061f5c44c6b13beda4ed7b0bf0",
+            "Name": "Tri-unity Christian School (Grandville) #3",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 995,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 142.1,
+              "AverageCorrect": 9.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 38,
+              "Correct20s": 21,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 9,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 3,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Deb Hoel",
+            "Quizzers": [
+              0,
+              7,
+              28,
+              36,
+              40
+            ],
+            "Id": "t_899b3b897d0d4965ad9f84ca19372549",
+            "Name": "World Harvest Assembly (Quincy) #1",
+            "ChurchId": "733cdb48-5b2a-47db-9679-71e18af416f3",
+            "ChurchName": "World Harvest Assembly",
+            "City": "Quincy",
+            "State": "MI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 7,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -15,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 2,
+                "RoomId": 5,
+                "Room": "B5",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 8,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "B4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 50,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          7,
+          8,
+          3,
+          6,
+          4,
+          5,
+          1,
+          2,
+          9,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "World Harvest Assembly (Quincy) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7c987656fd3f4623492b08de1e1489a6",
+            "Name": "Aaron Birchfield",
+            "ChurchId": "733cdb48-5b2a-47db-9679-71e18af416f3",
+            "ChurchName": "World Harvest Assembly",
+            "City": "Quincy",
+            "State": "MI",
+            "Scores": {
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wave Walkers",
+            "YearsQuizzing": null,
+            "Id": "q_73fc331754f94372bafd08dd6748d0be",
+            "Name": "Adaleigh Nwimo",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 85.0,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 2,
+              "Correct20s": 22,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Flames",
+            "YearsQuizzing": null,
+            "Id": "q_6adca482e2954780bac408dd6748d0be",
+            "Name": "Adelina Jackson",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.6,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 8,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Trinity Children",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_115",
+            "Name": "Adres Frelix",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gods Grasshoppers",
+            "YearsQuizzing": null,
+            "Id": "q_370faf78113c43ddd3fe08de1fc083f0",
+            "Name": "Alice Allerding",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 44,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #3",
+            "YearsQuizzing": null,
+            "Id": "q_c4d0e5edc2674a54253408df1a4c4c50",
+            "Name": "Aubrielle Barrera",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.7,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 9,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Abundant Life Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_1bd1c791cf674e74b44a08de251e06b1",
+            "Name": "Azmae Dalpiaz",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "World Harvest Assembly (Quincy) #1",
+            "YearsQuizzing": null,
+            "Id": "q_3b5128d55efb47c1493708de1e1489a6",
+            "Name": "Blayden Fuller",
+            "ChurchId": "733cdb48-5b2a-47db-9679-71e18af416f3",
+            "ChurchName": "World Harvest Assembly",
+            "City": "Quincy",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 43,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Dinos",
+            "YearsQuizzing": null,
+            "Id": "q_c5096eb8d407456fbaa608dd6748d0be",
+            "Name": "Caleb Abson",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 48,
+              "IsTie": false,
+              "TotalPoints": -35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 22,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gods Grasshoppers",
+            "YearsQuizzing": null,
+            "Id": "q_30710f5c705f4ab3c59808de4beea8af",
+            "Name": "Caleb Roll",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 11.4,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wave Walkers",
+            "YearsQuizzing": null,
+            "Id": "q_579153caac554e88d66008de1fc083f0",
+            "Name": "Chessa Effraim",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 31,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gods Grasshoppers",
+            "YearsQuizzing": null,
+            "Id": "q_4cf049d1132f4fa2d40308de1fc083f0",
+            "Name": "Eli Scott",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Trinity Children",
+            "YearsQuizzing": null,
+            "Id": "q_2429a9a914fd45e932fe08df1a4c4c50",
+            "Name": "Elijah Bell",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Abundant Life Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_5312acd328d74b92b45408de251e06b1",
+            "Name": "Ella McLane",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Dinos",
+            "YearsQuizzing": null,
+            "Id": "q_96a7d6cb60b6486cb2ba08de251e06b1",
+            "Name": "Ellie Cueller",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.7,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 6,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #3",
+            "YearsQuizzing": null,
+            "Id": "q_fed6348e803249e6252e08df1a4c4c50",
+            "Name": "Emet Drzewicki",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Abundant Life Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_5751d24ab880416029f908df1a4c4c50",
+            "Name": "Hunter Tucker",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Dinos",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_133",
+            "Name": "Isa Frelix",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Dinos",
+            "YearsQuizzing": null,
+            "Id": "q_992e5d5092754bd4d6a408de1fc083f0",
+            "Name": "Isaac Alba",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Flames",
+            "YearsQuizzing": null,
+            "Id": "q_9a78ae5077bd4145bb5008dd6748d0be",
+            "Name": "Israel OBrien",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.1,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wave Walkers",
+            "YearsQuizzing": null,
+            "Id": "q_2efad0954f3240ffbad608dd6748d0be",
+            "Name": "Janessa Flowers",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 44,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -0.7,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wave Walkers",
+            "YearsQuizzing": null,
+            "Id": "q_be57602f2def4688b36108de251e06b1",
+            "Name": "Jett Long",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Flames",
+            "YearsQuizzing": null,
+            "Id": "q_fc2925fbe3464797bb4a08dd6748d0be",
+            "Name": "Jordan Cuellar",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.4,
+              "AverageCorrect": 2.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 0,
+              "Correct20s": 18,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Dinos",
+            "YearsQuizzing": null,
+            "Id": "q_60df93da59144c1fbb4408dd6748d0be",
+            "Name": "Josiah Dessouassi",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 315,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 10,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_23f54a50219148f8d6f008de1fc083f0",
+            "Name": "Josiah Veltman",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.1,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 16,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Trinity Children",
+            "YearsQuizzing": null,
+            "Id": "q_6578f53a5b104260bb5608dd6748d0be",
+            "Name": "Jr. Alvarez",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 400,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 57.1,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 31,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #2",
+            "YearsQuizzing": null,
+            "Id": "q_2317865de97d4fd0afc508dd66db43b2",
+            "Name": "Kenzie Glisson",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.3,
+              "AverageCorrect": 0.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 2,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #2",
+            "YearsQuizzing": null,
+            "Id": "q_db66f2f50ca24507afbb08dd66db43b2",
+            "Name": "Kinzlee Wieber",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 20,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "World Harvest Assembly (Quincy) #1",
+            "YearsQuizzing": null,
+            "Id": "q_6a27b8ed82864b02492908de1e1489a6",
+            "Name": "Lila Hoel",
+            "ChurchId": "733cdb48-5b2a-47db-9679-71e18af416f3",
+            "ChurchName": "World Harvest Assembly",
+            "City": "Quincy",
+            "State": "MI",
+            "Scores": {
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Abundant Life Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_caaaa931ea4a4077b44f08de251e06b1",
+            "Name": "Lilly McLane",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Abundant Life Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_4adff74f28a14592b48e08de251e06b1",
+            "Name": "Lincoln Meckley",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Trinity Children",
+            "YearsQuizzing": null,
+            "Id": "q_10cf2c2967394b38d5e208de1fc083f0",
+            "Name": "Micah Ashley",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Trinity Children",
+            "YearsQuizzing": null,
+            "Id": "q_de889ad6be374afcbb2408dd6748d0be",
+            "Name": "Michael Kruchowski",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #2",
+            "YearsQuizzing": null,
+            "Id": "q_45116bff6fb04b4aafc008dd66db43b2",
+            "Name": "Mikki Bahlke",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 220,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.4,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 62,
+              "Correct10s": 12,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Flames",
+            "YearsQuizzing": null,
+            "Id": "q_4925038841a84c2ebaab08dd6748d0be",
+            "Name": "Nahomi Dessouassi",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 46,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.4,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Holy Flames",
+            "YearsQuizzing": null,
+            "Id": "q_0abd46e07a0b45e7bb6b08dd6748d0be",
+            "Name": "Nathaniel Alvarez",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.6,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 19,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "World Harvest Assembly (Quincy) #1",
+            "YearsQuizzing": null,
+            "Id": "q_73a0f6d9598c406f493208de1e1489a6",
+            "Name": "Paisley Pickford",
+            "ChurchId": "733cdb48-5b2a-47db-9679-71e18af416f3",
+            "ChurchName": "World Harvest Assembly",
+            "City": "Quincy",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Trinity Children",
+            "YearsQuizzing": null,
+            "Id": "q_2d3017a5be3a4d50bb1e08dd6748d0be",
+            "Name": "Peyton Spillers",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.1,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 5,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wave Walkers",
+            "YearsQuizzing": null,
+            "Id": "q_849f6c523f7f47a6b2d208de251e06b1",
+            "Name": "Piper Long",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 24,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.1,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7847447c48894135d6e408de1fc083f0",
+            "Name": "Quinn May",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 1.9,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 10,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "World Harvest Assembly (Quincy) #1",
+            "YearsQuizzing": null,
+            "Id": "q_c61d64ade42e4574492e08de1e1489a6",
+            "Name": "Rachael Pickford",
+            "ChurchId": "733cdb48-5b2a-47db-9679-71e18af416f3",
+            "ChurchName": "World Harvest Assembly",
+            "City": "Quincy",
+            "State": "MI",
+            "Scores": {
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Wave Walkers",
+            "YearsQuizzing": null,
+            "Id": "q_5d941dc481fb4aacbb0308dd6748d0be",
+            "Name": "Raegan Dishaw",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 47,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.1,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #3",
+            "YearsQuizzing": null,
+            "Id": "q_027ea61cede54c84afde08dd66db43b2",
+            "Name": "Reid Curtis",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.9,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 15,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #3",
+            "YearsQuizzing": null,
+            "Id": "q_83bfea4bcfe64135afd908dd66db43b2",
+            "Name": "River Curtis",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 725,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.6,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 13,
+              "Correct20s": 19,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #1",
+            "YearsQuizzing": null,
+            "Id": "q_ffca425597e74b5824f908df1a4c4c50",
+            "Name": "Roman Clinton",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.1,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 59,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Tri-unity Christian School (Grandville) #2",
+            "YearsQuizzing": null,
+            "Id": "q_7f4c36f6c91b48aaafb608dd66db43b2",
+            "Name": "Sanai Bailey",
+            "ChurchId": "31f6959f-c744-4da0-67f7-08dd66f0e78c",
+            "ChurchName": "Tri-unity Christian School",
+            "City": "Grandville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.7,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 15,
+              "Correct20s": 3,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Gods Grasshoppers",
+            "YearsQuizzing": null,
+            "Id": "q_718ff078fd994e0fc59308de4beea8af",
+            "Name": "Sarah Roll",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.7,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 17,
+              "Correct20s": 8,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Abundant Life Assembly",
+            "YearsQuizzing": null,
+            "Id": "q_555c53e4a9ed4ee129fe08df1a4c4c50",
+            "Name": "Wyatt Tucker",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 58,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          43,
+          1,
+          25,
+          46,
+          22,
+          10,
+          23,
+          45,
+          27,
+          35,
+          33,
+          24,
+          42,
+          37,
+          44,
+          39,
+          2,
+          5,
+          26,
+          19,
+          9,
+          14,
+          6,
+          38,
+          47,
+          0,
+          28,
+          16,
+          15,
+          7,
+          3,
+          11,
+          12,
+          13,
+          17,
+          18,
+          21,
+          29,
+          30,
+          31,
+          32,
+          36,
+          40,
+          4,
+          20,
+          34,
+          41,
+          8
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 8,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 9,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "B3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 4,
+            "Name": "B4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 5,
+            "Name": "B5",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 9,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 8,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "a0701965-3fcd-4643-afce-ad67cccdb555",
+        "MeetId": 10,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Alt C League Southwest Meet#1",
+        "LastUpdated": "10/24/26 4:49 PM",
+        "DatabaseLastUpdated": "2026-10-24T13:16:08.5444049+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              3,
+              8,
+              9,
+              13
+            ],
+            "Id": "t_ff9644280de646e4af5b1986bd7eb727",
+            "Name": "Armored Bears",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 55.8,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 40,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jose & Merari Hernandez",
+            "Quizzers": [
+              0,
+              4,
+              16,
+              17,
+              18
+            ],
+            "Id": "t_d3f17559748e4e41a9f0e93ff14af03d",
+            "Name": "The Bible Lions",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 67,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.3,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 51,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Olivia O’Brien",
+            "Quizzers": [
+              1,
+              2,
+              6,
+              10,
+              12,
+              15
+            ],
+            "Id": "t_d8b3685314e94f08903428f7925dbb82",
+            "Name": "The Demon Dissolvers",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 134.2,
+              "AverageCorrect": 12.3,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 74,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kay McLane",
+            "Quizzers": [
+              5,
+              7,
+              11,
+              14
+            ],
+            "Id": "t_d1761b9eacd047c682aa7a17515a2631",
+            "Name": "The Munchkins",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "C1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "C2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "The Bible Lions",
+            "YearsQuizzing": null,
+            "Id": "q_8441a0b3ce8d437b340d08df1a4c4c50",
+            "Name": "Aislyn Arguello",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Demon Dissolvers",
+            "YearsQuizzing": null,
+            "Id": "q_6f57f8a847c84d6b33ea08df1a4c4c50",
+            "Name": "Akemi Effraim",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 48.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Demon Dissolvers",
+            "YearsQuizzing": null,
+            "Id": "q_85042a48c72a400733e408df1a4c4c50",
+            "Name": "Avia Long",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Armored Bears",
+            "YearsQuizzing": null,
+            "Id": "q_0bfdb4769e344c392f3308df1a4c4c50",
+            "Name": "Cole Hager",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Lions",
+            "YearsQuizzing": null,
+            "Id": "q_e4ca215e3c484a72b2c008de251e06b1",
+            "Name": "David Molina",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 54,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Munchkins",
+            "YearsQuizzing": null,
+            "Id": "q_c1ec95b08bfb495129c508df1a4c4c50",
+            "Name": "Elyse Meckley",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Demon Dissolvers",
+            "YearsQuizzing": null,
+            "Id": "q_2212ea455cd4444b33d208df1a4c4c50",
+            "Name": "Emeryn Effraim",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.2,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Munchkins",
+            "YearsQuizzing": null,
+            "Id": "q_81f4264954c54f66b48408de251e06b1",
+            "Name": "Evalina Dalpiaz",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Armored Bears",
+            "YearsQuizzing": null,
+            "Id": "q_1e73a85c643e47132e5e08df1a4c4c50",
+            "Name": "Evan Branham",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Armored Bears",
+            "YearsQuizzing": null,
+            "Id": "q_d49f608d69f440c52e3208df1a4c4c50",
+            "Name": "Ike Roll",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": -15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.5,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Demon Dissolvers",
+            "YearsQuizzing": null,
+            "Id": "q_0378d3bec110459b33de08df1a4c4c50",
+            "Name": "Joshua Potter",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 36,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Munchkins",
+            "YearsQuizzing": null,
+            "Id": "q_051f795a8d7149bf29ca08df1a4c4c50",
+            "Name": "Kali Tucker",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Demon Dissolvers",
+            "YearsQuizzing": null,
+            "Id": "q_fd8a7309d05c437233ae08df1a4c4c50",
+            "Name": "Leo Ortiz",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Armored Bears",
+            "YearsQuizzing": null,
+            "Id": "q_43c90174c85248ff2f1208df1a4c4c50",
+            "Name": "Lucas Hager",
+            "ChurchId": "ab326be1-ceaa-434b-ae40-620bda209e6e",
+            "ChurchName": "Nashville Assembly of God",
+            "City": "Nashville",
+            "State": "MI",
+            "Scores": {
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Munchkins",
+            "YearsQuizzing": null,
+            "Id": "q_396ae4dc65ee4b74b48908de251e06b1",
+            "Name": "Patrick McLane",
+            "ChurchId": "b2b6ffbc-7359-43b7-8b93-02140ff38899",
+            "ChurchName": "Abundant Life Assembly",
+            "City": "Brooklyn",
+            "State": "MI",
+            "Scores": {
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Demon Dissolvers",
+            "YearsQuizzing": null,
+            "Id": "q_dc189ef75725410333f008df1a4c4c50",
+            "Name": "Penelope Carrel",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.7,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Lions",
+            "YearsQuizzing": null,
+            "Id": "q_7b6c1a6e00d64e2a341308df1a4c4c50",
+            "Name": "Ximena Chavez",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Lions",
+            "YearsQuizzing": null,
+            "Id": "q_2e9fbddf77c341e3340108df1a4c4c50",
+            "Name": "Zamir Norman",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.8,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Lions",
+            "YearsQuizzing": null,
+            "Id": "q_18e194fbf95748bb340708df1a4c4c50",
+            "Name": "Zayden Norman",
+            "ChurchId": "36d75611-ecfe-4fd7-8f66-c7150c3a9962",
+            "ChurchName": "Grand Rapids First Assembly of God",
+            "City": "Grand Rapids",
+            "State": "MI",
+            "Scores": {
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 66,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          10,
+          1,
+          17,
+          8,
+          18,
+          13,
+          11,
+          6,
+          15,
+          4,
+          7,
+          16,
+          0,
+          2,
+          3,
+          5,
+          12,
+          14,
+          9
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "C1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "C2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-10-25T04:33:07.4793297+00:00"
+}
