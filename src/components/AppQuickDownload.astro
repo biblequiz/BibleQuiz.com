@@ -164,8 +164,19 @@ const quick = (await Promise.all(devices.map(async (d) => {
         color: var(--sl-color-gray-2);
     }
 
+    .quick-download__beta {
+        font-size: 0.9rem;
+    }
+
     .quick-download__beta a {
-        color: inherit;
+        color: var(--sl-color-text-accent);
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+    }
+
+    .quick-download__beta a:hover {
+        text-decoration-thickness: 2px;
     }
 </style>
 
