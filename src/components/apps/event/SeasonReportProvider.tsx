@@ -1,6 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
-import { Outlet, useParams } from "react-router-dom";
+import { Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { DatabaseReportsService, SeasonReport } from "types/services/DatabaseReportsService";
 import { NEW_ID_PLACEHOLDER } from "./EventProvider";
@@ -13,6 +13,8 @@ export default function SeasonReportProvider({ }: Props) {
 
     const auth = AuthManager.useNanoStore();
     const urlParameters = useParams();
+    const navigate = useNavigate();
+    const isDevicesPage = useLocation().pathname.endsWith("/devices");
     const reportId = urlParameters.reportId === NEW_ID_PLACEHOLDER
         ? null
         : (urlParameters.reportId || null);
@@ -116,6 +118,28 @@ export default function SeasonReportProvider({ }: Props) {
                 <span className="event-title-text">{reportTitle || report.Name}</span>
                 {isHidden && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
             </h1>
+            {reportId && (
+                <div role="tablist" className="tabs tabs-border mt-0 mb-4">
+                    <button
+                        type="button"
+                        role="tab"
+                        className={`tab mt-0 ${isDevicesPage ? "" : "tab-active"}`}
+                        onClick={() => navigate(`/${reportId}`)}
+                    >
+                        <FontAwesomeIcon icon="fas faGear" classNames={["mr-2"]} />
+                        Settings
+                    </button>
+                    <button
+                        type="button"
+                        role="tab"
+                        className={`tab mt-0 ${isDevicesPage ? "tab-active" : ""}`}
+                        onClick={() => navigate(`/${reportId}/devices`)}
+                    >
+                        <FontAwesomeIcon icon="fas faTabletScreenButton" classNames={["mr-2"]} />
+                        Devices
+                    </button>
+                </div>
+            )}
             <Outlet context={{
                 auth: auth,
                 reportId: reportId,

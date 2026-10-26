@@ -12,6 +12,7 @@ import { AuthManager } from 'types/AuthManager';
 import type { DatabaseSettings } from 'types/services/DatabasesService';
 import { createMultiReactAtom } from 'utils/MultiReactNanoStore';
 import EventReportSettingsPage from './report/EventReportSettingsPage';
+import SeasonReportDevicesPage from './report/SeasonReportDevicesPage';
 import SeasonReportProvider from './SeasonReportProvider';
 
 interface Props {
@@ -127,6 +128,12 @@ function buildSidebar(
 
     const eventId = routeParameters.eventId as string;
     const rootEventPath = eventId ? `/${eventId}` : "";
+
+    // A season report has no event, so the event links below have nowhere to go (and finding the current one from
+    // the route ids fails for the report's Devices page). Its pages are reached from the tabs under its title.
+    if (!eventId) {
+        return [];
+    }
 
     const sidebarEntries: ReactSidebarEntry[] =
         [
@@ -519,6 +526,10 @@ const router = createHashRouter([
                             {
                                 path: "/:reportId",
                                 element: <EventReportSettingsPage />
+                            },
+                            {
+                                path: "/:reportId/devices",
+                                element: <SeasonReportDevicesPage />
                             }
                         ]
                     }

@@ -1,6 +1,7 @@
 import { useRef, useMemo } from "react";
 import { format } from "date-fns";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import DeviceConfigurationDetails from "./DeviceConfigurationDetails";
 import { useModalDialog } from "hooks/useModalDialog";
 import type { OnlineDatabaseMeetSummary } from "types/services/AstroDatabasesService";
 import type {
@@ -157,6 +158,11 @@ export default function DeviceDialog({
                         )}
                     </div>
 
+                    {/* Device Configuration */}
+                    <div className="mt-4 mb-0">
+                        <h4 className="font-semibold text-sm mb-2">Device Configuration</h4>
+                        <DeviceConfigurationDetails configuration={device.Configuration} />
+                    </div>
 
                     {/* Divisions Uploaded */}
                     <div className="mt-4 mb-0">
