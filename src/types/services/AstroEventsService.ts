@@ -4,6 +4,7 @@ import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtili
 import type { EventInfo as ServiceEventInfo } from "./EventsService";
 import type { EventInfo as TypeEventInfo } from "types/EventTypes";
 import type { OnlineTeamsAndQuizzersImportManifest } from "./AstroTeamsAndQuizzersService";
+import type { ReportDevices } from "./DatabaseReportsService";
 
 const URL_ROOT_PATH = "/api/v1.0/events";
 
@@ -75,6 +76,77 @@ export class AstroEventsService {
       RemoteServiceUrlBase.Registration,
       `${URL_ROOT_PATH}/teamsAndQuizzers/${eventId}`);
   }
+
+  /**
+   * Retrieves every device used at the season's events in the organization, with the events so the devices can be
+   * sliced. Only organization administrators can call it.
+   *
+   * @param auth AuthManager to use for authentication.
+   * @param season Season of the events.
+   *
+   * @returns Devices and events of the season.
+   */
+  public static getSeasonDevices(
+    auth: AuthManager,
+    season: number): Promise<SeasonDevices> {
+
+    return RemoteServiceUtility.executeHttpRequest<SeasonDevices>(
+      auth,
+      "GET",
+      RemoteServiceUrlBase.Registration,
+      `${URL_ROOT_PATH}/seasons/${season}/devices`);
+  }
+}
+
+/**
+ * Every device used at a season's events, with the events.
+ */
+export interface SeasonDevices {
+
+  /** Season of the events. */
+  Season: number;
+
+  /** Events of the season, newest first. Each device database's EventId refers to one of these. */
+  Events: SeasonDeviceEvent[];
+
+  /** Devices used at the events (each once) and their counts for the whole season. */
+  Devices: ReportDevices;
+}
+
+/**
+ * Event within SeasonDevices.
+ */
+export interface SeasonDeviceEvent {
+
+  /** Id of the event. */
+  Id: string;
+
+  /** Name of the event. */
+  Name: string;
+
+  /** Id of the event's competition type. */
+  CompetitionTypeId: string;
+
+  /** Abbreviation of the event's competition type (e.g., "JBQ"). */
+  CompetitionType: string | null;
+
+  /** Id of the event's region (if any). */
+  RegionId: string | null;
+
+  /** Name of the event's region (if any). */
+  RegionName: string | null;
+
+  /** Id of the event's district (if any). */
+  DistrictId: string | null;
+
+  /** Name of the event's district (if any). */
+  DistrictName: string | null;
+
+  /** First day of the event, which decides the month its devices count in. */
+  StartDate: string;
+
+  /** Last day of the event. */
+  EndDate: string;
 }
 
 /**

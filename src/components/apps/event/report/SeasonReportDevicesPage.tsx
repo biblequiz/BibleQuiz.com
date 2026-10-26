@@ -2,53 +2,12 @@ import { Fragment, useEffect, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import DeviceConfigurationDetails from "../scoring/apps/DeviceConfigurationDetails";
+import DeviceCountsTable from "../../devices/DeviceCountsTable";
 import { DatabaseReportsService, type ReportDevices } from "types/services/DatabaseReportsService";
 import type { RemoteServiceError } from "types/services/RemoteServiceUtility";
 import type { EventReportsProviderContext } from "../EventReportsProvider";
 
 interface Props {
-}
-
-interface CountsTableProps {
-    title: string;
-    icon: string;
-    counts: Record<string, number>;
-    total: number;
-}
-
-/**
- * Table of counts with a bar showing each count's share of the total, largest first.
- */
-function CountsTable({ title, icon, counts, total }: CountsTableProps) {
-    const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-
-    return (
-        <div className="card bg-base-200 mt-0 mb-0">
-            <div className="card-body p-3 gap-2">
-                <h4 className="font-semibold text-sm mt-0 mb-0 flex items-center gap-2">
-                    <FontAwesomeIcon icon={icon} classNames={["text-base-content/60"]} />
-                    {title}
-                </h4>
-                <table className="table table-zebra table-sm w-full mt-0 mb-0">
-                    <tbody>
-                        {rows.map(([label, count]) => (
-                            <tr key={label}>
-                                <td className="w-1/2">{label}</td>
-                                <td className="w-1/3">
-                                    <progress
-                                        className="progress progress-primary w-full"
-                                        value={count}
-                                        max={Math.max(total, 1)}
-                                        aria-label={`${label}: ${count} of ${total}`}
-                                    ></progress>
-                                </td>
-                                <td className="text-right">{count}</td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </div>
-        </div>);
 }
 
 /**
@@ -156,9 +115,9 @@ export default function SeasonReportDevicesPage({ }: Props) {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-0 mb-4">
-                <CountsTable title="CPU Type" icon="fas faMicrochip" counts={devices.CountsByCpuType} total={total} />
-                <CountsTable title="Model" icon="fas faTabletScreenButton" counts={devices.CountsByModel} total={total} />
-                <CountsTable title="App Version" icon="fas faCodeBranch" counts={devices.CountsByAppVersion} total={total} />
+                <DeviceCountsTable title="CPU Type" icon="fas faMicrochip" counts={devices.CountsByCpuType} total={total} />
+                <DeviceCountsTable title="Model" icon="fas faTabletScreenButton" counts={devices.CountsByModel} total={total} />
+                <DeviceCountsTable title="App Version" icon="fas faCodeBranch" counts={devices.CountsByAppVersion} total={total} />
             </div>
 
             <div className="overflow-x-auto mt-0 mb-0">

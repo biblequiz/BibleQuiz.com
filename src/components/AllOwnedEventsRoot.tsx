@@ -143,14 +143,22 @@ export default function AllOwnedEventsRoot({
                 seasons={seasons}
                 allowTypeFilter={true}
             />
-            {auth.userProfile?.canCreateEvents && (
-                <div>
-                    <a
-                        type="button"
-                        className="btn btn-primary mt-0"
-                        href={`/manage-events/event/#/${NEW_ID_PLACEHOLDER}/registration/general`}>
-                        <FontAwesomeIcon icon="fas faPlus" />&nbsp;Add New Event
-                    </a>
+            {(auth.userProfile?.canCreateEvents || auth.userProfile?.organizationPermission) && (
+                <div className="flex flex-wrap gap-2">
+                    {auth.userProfile?.canCreateEvents && (
+                        <a
+                            type="button"
+                            className="btn btn-primary mt-0"
+                            href={`/manage-events/event/#/${NEW_ID_PLACEHOLDER}/registration/general`}>
+                            <FontAwesomeIcon icon="fas faPlus" />&nbsp;Add New Event
+                        </a>)}
+                    {auth.userProfile?.organizationPermission && (
+                        <a
+                            type="button"
+                            className="btn btn-outline mt-0"
+                            href={`/manage-events/devices/#/${season}`}>
+                            <FontAwesomeIcon icon="fas faTabletScreenButton" />&nbsp;Device Usage
+                        </a>)}
                 </div>)}
             <div className="mt-4">
                 {events.length > 0 && (
