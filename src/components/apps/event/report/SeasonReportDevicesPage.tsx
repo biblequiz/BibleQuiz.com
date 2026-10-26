@@ -3,6 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import DeviceConfigurationDetails from "../scoring/apps/DeviceConfigurationDetails";
 import { DatabaseReportsService, type ReportDevices } from "types/services/DatabaseReportsService";
+import type { RemoteServiceError } from "types/services/RemoteServiceUtility";
 import type { EventReportsProviderContext } from "../EventReportsProvider";
 
 interface Props {
@@ -58,6 +59,7 @@ export default function SeasonReportDevicesPage({ }: Props) {
 
     const [isLoading, setIsLoading] = useState(!!reportId);
     const [loadError, setLoadError] = useState<string | null>(null);
+    const [isNotAvailable, setIsNotAvailable] = useState(false);
     const [devices, setDevices] = useState<ReportDevices | null>(null);
     const [expandedId, setExpandedId] = useState<string | null>(null);
 
@@ -73,14 +75,24 @@ export default function SeasonReportDevicesPage({ }: Props) {
         let isCurrent = true;
         setIsLoading(true);
         setLoadError(null);
+        setIsNotAvailable(false);
         DatabaseReportsService.getSeasonReportDevices(auth, reportId)
             .then(result => {
                 if (isCurrent) {
                     setDevices(result);
                 }
             })
-            .catch(err => {
-                if (isCurrent) {
+            .catch((err: RemoteServiceError) => {
+                if (!isCurrent) {
+                    return;
+                }
+
+                // Until the Registration API with this endpoint is deployed, the route doesn't exist: a 404 with no error
+                // details. Any other error (including a 404 for a missing report, which has details) is shown.
+                if (err?.statusCode === 404 && !err.hasErrorDetails) {
+                    setIsNotAvailable(true);
+                }
+                else {
                     setLoadError(err?.message || "Unable to load the devices.");
                 }
             })
@@ -98,6 +110,15 @@ export default function SeasonReportDevicesPage({ }: Props) {
             <div className="flex items-center gap-2 mt-0 mb-0">
                 <span className="loading loading-spinner loading-md"></span>
                 <span>Loading devices ...</span>
+            </div>);
+    }
+    else if (isNotAvailable) {
+        return (
+            <div className="p-8 border border-dashed border-base-300 rounded-lg bg-base-200 text-center mt-0 mb-0">
+                <FontAwesomeIcon icon="fas faHourglassHalf" classNames={["text-4xl", "text-base-content/40", "mb-4"]} />
+                <p className="text-base-content/60">
+                    Device reporting isn't available yet. Devices will be listed here once it is.
+                </p>
             </div>);
     }
     else if (loadError) {
