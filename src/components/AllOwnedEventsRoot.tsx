@@ -143,7 +143,7 @@ export default function AllOwnedEventsRoot({
                 seasons={seasons}
                 allowTypeFilter={true}
             />
-            {(auth.userProfile?.canCreateEvents || auth.userProfile?.hasOrganizationPermission(null)) && (
+            {(auth.userProfile?.canCreateEvents || auth.userProfile?.organizationPermission) && (
                 <div className="flex flex-wrap gap-2">
                     {auth.userProfile?.canCreateEvents && (
                         <a
@@ -152,7 +152,7 @@ export default function AllOwnedEventsRoot({
                             href={`/manage-events/event/#/${NEW_ID_PLACEHOLDER}/registration/general`}>
                             <FontAwesomeIcon icon="fas faPlus" />&nbsp;Add New Event
                         </a>)}
-                    {auth.userProfile?.hasOrganizationPermission(null) && (
+                    {auth.userProfile?.organizationPermission && (
                         <a
                             type="button"
                             className="btn btn-outline mt-0"

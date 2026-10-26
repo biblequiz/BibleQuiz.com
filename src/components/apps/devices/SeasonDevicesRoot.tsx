@@ -106,7 +106,7 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
     }, [seasons]);
 
     useEffect(() => {
-        // Ignore a response that arrives after the season (or user) changed.
+        // Ignore a response that arrives after the season changed.
         let isCurrent = true;
         setIsLoading(true);
         setLoadError(null);
@@ -315,7 +315,7 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
 
                                             return (
                                                 <Fragment key={device.Id}>
-                                                    <tr className="hover">
+                                                    <tr className="hover:bg-base-300">
                                                         <td>
                                                             <button
                                                                 type="button"
@@ -369,7 +369,7 @@ export default function SeasonDevicesRoot({ seasons, loadingElementId }: Props) 
     }, [loadingElementId]);
 
     return (
-        <ProtectedRoute permissionCheck={p => p.hasOrganizationPermission(null)}>
+        <ProtectedRoute permissionCheck={p => p.organizationPermission !== null}>
             <SeasonDevicesView seasons={seasons} />
         </ProtectedRoute>);
 }

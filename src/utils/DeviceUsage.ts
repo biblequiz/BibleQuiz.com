@@ -60,13 +60,16 @@ export function filterEvents(events: SeasonDeviceEvent[], filters: DeviceEventFi
 }
 
 /**
- * Compares two app versions numerically ("2026.10.1.1" > "2026.9.1.1"). Versions that aren't numeric compare as text.
+ * Compares two app versions numerically ("2026.10.1.1" > "2026.9.1.1"). Like the server's season report, a version that
+ * isn't numeric is older than one that is; two that aren't numeric compare as text.
  */
 export function compareVersions(a: string, b: string): number {
     const aParts = a.split(".").map(p => Number(p));
     const bParts = b.split(".").map(p => Number(p));
-    if (aParts.some(isNaN) || bParts.some(isNaN)) {
-        return a.localeCompare(b);
+    const isANumeric = !aParts.some(isNaN);
+    const isBNumeric = !bParts.some(isNaN);
+    if (!isANumeric || !isBNumeric) {
+        return isANumeric === isBNumeric ? a.localeCompare(b) : (isANumeric ? 1 : -1);
     }
 
     for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
@@ -95,12 +98,14 @@ export function sliceDevices(
             continue;
         }
 
-        // Highest version of each app at these events. An API release without per-database apps falls back to the device's.
+        // Highest version of each app at these events, matching names without case as the server does. An API release
+        // without per-database apps falls back to the device's.
         const appsByName = new Map<string, OnlineDatabaseDeviceSummaryApp>();
         for (const app of databases.flatMap(d => d.Apps ?? device.Apps)) {
-            const existing = appsByName.get(app.Name);
+            const key = app.Name.toLowerCase();
+            const existing = appsByName.get(key);
             if (!existing || compareVersions(app.Version, existing.Version) > 0) {
-                appsByName.set(app.Name, app);
+                appsByName.set(key, app);
             }
         }
 
