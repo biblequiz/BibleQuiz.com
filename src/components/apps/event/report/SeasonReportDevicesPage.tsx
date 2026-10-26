@@ -34,7 +34,12 @@ function CountsTable({ title, icon, counts, total }: CountsTableProps) {
                             <tr key={label}>
                                 <td className="w-1/2">{label}</td>
                                 <td className="w-1/3">
-                                    <progress className="progress progress-primary w-full" value={count} max={Math.max(total, 1)}></progress>
+                                    <progress
+                                        className="progress progress-primary w-full"
+                                        value={count}
+                                        max={Math.max(total, 1)}
+                                        aria-label={`${label}: ${count} of ${total}`}
+                                    ></progress>
                                 </td>
                                 <td className="text-right">{count}</td>
                             </tr>
@@ -51,22 +56,41 @@ function CountsTable({ title, icon, counts, total }: CountsTableProps) {
 export default function SeasonReportDevicesPage({ }: Props) {
     const { auth, reportId } = useOutletContext<EventReportsProviderContext>();
 
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(!!reportId);
     const [loadError, setLoadError] = useState<string | null>(null);
     const [devices, setDevices] = useState<ReportDevices | null>(null);
     const [expandedId, setExpandedId] = useState<string | null>(null);
 
     useEffect(() => {
+        // A report that hasn't been saved has no devices yet.
         if (!reportId) {
+            setIsLoading(false);
+            setDevices(null);
             return;
         }
 
+        // Ignore a response that arrives after the report (or user) changed.
+        let isCurrent = true;
         setIsLoading(true);
         setLoadError(null);
         DatabaseReportsService.getSeasonReportDevices(auth, reportId)
-            .then(result => setDevices(result))
-            .catch(err => setLoadError(err?.message || "Unable to load the devices."))
-            .finally(() => setIsLoading(false));
+            .then(result => {
+                if (isCurrent) {
+                    setDevices(result);
+                }
+            })
+            .catch(err => {
+                if (isCurrent) {
+                    setLoadError(err?.message || "Unable to load the devices.");
+                }
+            })
+            .finally(() => {
+                if (isCurrent) {
+                    setIsLoading(false);
+                }
+            });
+
+        return () => { isCurrent = false; };
     }, [auth, reportId]);
 
     if (isLoading) {
@@ -80,7 +104,8 @@ export default function SeasonReportDevicesPage({ }: Props) {
         return (
             <div role="alert" className="alert alert-error mt-0 mb-0">
                 <FontAwesomeIcon icon="fas faTriangleExclamation" />
-                <span>{loadError}</span>
+                {/* RemoteServiceUtility builds its messages as HTML, as the other pages render them. */}
+                <span dangerouslySetInnerHTML={{ __html: loadError }} />
             </div>);
     }
     else if (!devices || devices.Devices.length === 0) {
@@ -139,8 +164,18 @@ export default function SeasonReportDevicesPage({ }: Props) {
                                         onClick={() => setExpandedId(isExpanded ? null : device.Id)}
                                     >
                                         <td>
-                                            <FontAwesomeIcon icon={isExpanded ? "fas faChevronDown" : "fas faChevronRight"} classNames={["mr-2", "text-base-content/60"]} />
-                                            {device.Name || "Unnamed device"}
+                                            <button
+                                                type="button"
+                                                className="btn btn-ghost btn-xs mt-0 px-1 font-normal"
+                                                aria-expanded={isExpanded}
+                                                onClick={e => {
+                                                    e.stopPropagation();
+                                                    setExpandedId(isExpanded ? null : device.Id);
+                                                }}
+                                            >
+                                                <FontAwesomeIcon icon={isExpanded ? "fas faChevronDown" : "fas faChevronRight"} classNames={["mr-1", "text-base-content/60"]} />
+                                                {device.Name || "Unnamed device"}
+                                            </button>
                                         </td>
                                         <td>{model || "—"}</td>
                                         <td>{configuration?.ProcessArchitecture || "—"}</td>

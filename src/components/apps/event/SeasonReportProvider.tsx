@@ -1,6 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
-import { Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
+import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { DatabaseReportsService, SeasonReport } from "types/services/DatabaseReportsService";
 import { NEW_ID_PLACEHOLDER } from "./EventProvider";
@@ -13,7 +13,6 @@ export default function SeasonReportProvider({ }: Props) {
 
     const auth = AuthManager.useNanoStore();
     const urlParameters = useParams();
-    const navigate = useNavigate();
     const isDevicesPage = useLocation().pathname.endsWith("/devices");
     const reportId = urlParameters.reportId === NEW_ID_PLACEHOLDER
         ? null
@@ -119,26 +118,24 @@ export default function SeasonReportProvider({ }: Props) {
                 {isHidden && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
             </h1>
             {reportId && (
-                <div role="tablist" className="tabs tabs-border mt-0 mb-4">
-                    <button
-                        type="button"
-                        role="tab"
-                        className={`tab mt-0 ${isDevicesPage ? "" : "tab-active"}`}
-                        onClick={() => navigate(`/${reportId}`)}
+                <nav aria-label="Report pages" className="tabs tabs-border mt-0 mb-4">
+                    <Link
+                        to={`/${reportId}`}
+                        className={`tab mt-0 no-underline ${isDevicesPage ? "" : "tab-active"}`}
+                        aria-current={isDevicesPage ? undefined : "page"}
                     >
                         <FontAwesomeIcon icon="fas faGear" classNames={["mr-2"]} />
                         Settings
-                    </button>
-                    <button
-                        type="button"
-                        role="tab"
-                        className={`tab mt-0 ${isDevicesPage ? "tab-active" : ""}`}
-                        onClick={() => navigate(`/${reportId}/devices`)}
+                    </Link>
+                    <Link
+                        to={`/${reportId}/devices`}
+                        className={`tab mt-0 no-underline ${isDevicesPage ? "tab-active" : ""}`}
+                        aria-current={isDevicesPage ? "page" : undefined}
                     >
                         <FontAwesomeIcon icon="fas faTabletScreenButton" classNames={["mr-2"]} />
                         Devices
-                    </button>
-                </div>
+                    </Link>
+                </nav>
             )}
             <Outlet context={{
                 auth: auth,
