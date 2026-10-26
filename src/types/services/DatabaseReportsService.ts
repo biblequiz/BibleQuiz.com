@@ -2,6 +2,7 @@
 import { RemoteServiceUrlBase, RemoteServiceUtility } from './RemoteServiceUtility'
 import type { ScoringHtmlReport } from './DatabasesService';
 import type { MeetRankingSortType } from "types/Meets";
+import type { OnlineDatabaseDeviceSummaryApp, OnlineDeviceConfiguration } from "./AstroDatabaseDevicesService";
 
 const URL_ROOT_PATH = "/api";
 
@@ -158,6 +159,23 @@ export class DatabaseReportsService {
             "GET",
             RemoteServiceUrlBase.Registration,
             `${URL_ROOT_PATH}/Events/${eventId}/${isEventReport ? "Event" : "Season"}Reports/${reportId}/Teams`);
+    }
+
+    /**
+     * Retrieves the devices that used any database in a season report, with counts by CPU type, model and app version.
+     *
+     * @param auth AuthManager to use for authentication.
+     * @param reportId Id for the season report.
+     */
+    public static getSeasonReportDevices(
+        auth: AuthManager,
+        reportId: string): Promise<ReportDevices> {
+
+        return RemoteServiceUtility.executeHttpRequest<ReportDevices>(
+            auth,
+            "GET",
+            RemoteServiceUrlBase.Registration,
+            `${URL_ROOT_PATH}/SeasonReports/${reportId}/Devices`);
     }
 
     /**
@@ -571,4 +589,63 @@ export class DatabaseReportTeamLinkMeet {
      * Value indicating whether the team is hidden.
      */
     public readonly IsHidden!: boolean;
+}
+/**
+ * Devices that used any database in a report, with counts of the kinds of device in use.
+ */
+export interface ReportDevices {
+
+    /** Each device once, however many of the report's databases it used. */
+    Devices: ReportDevice[];
+
+    /** Number of devices by CPU type (e.g., "Arm64"). Devices that didn't report it are counted as "Not reported". */
+    CountsByCpuType: Record<string, number>;
+
+    /** Number of devices by manufacturer and model. */
+    CountsByModel: Record<string, number>;
+
+    /** Number of devices by app and version. A device running two apps counts once for each. */
+    CountsByAppVersion: Record<string, number>;
+}
+
+/**
+ * Device within a report.
+ */
+export interface ReportDevice {
+
+    /** Id of the device. */
+    Id: string;
+
+    /** Name of the device, as last reported. */
+    Name: string | null;
+
+    /** Platform version of the device, as last reported. */
+    PlatformVersion: string | null;
+
+    /** Latest version of each app the device used. */
+    Apps: OnlineDatabaseDeviceSummaryApp[];
+
+    /** Most recently reported configuration of the device (null if it never reported one). */
+    Configuration: OnlineDeviceConfiguration | null;
+
+    /** Databases in the report the device used. */
+    Databases: ReportDeviceDatabase[];
+}
+
+/**
+ * Database a report device used.
+ */
+export interface ReportDeviceDatabase {
+
+    /** Id of the event. */
+    EventId: string;
+
+    /** Name of the event. */
+    EventName: string | null;
+
+    /** Id of the database. */
+    DatabaseId: string;
+
+    /** Name of the database. */
+    DatabaseName: string | null;
 }

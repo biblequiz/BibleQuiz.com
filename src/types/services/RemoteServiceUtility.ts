@@ -426,6 +426,7 @@ export class RemoteServiceUtility {
                             message,
                             statusCode: response.status,
                             mitigationCode,
+                            hasErrorDetails: !!errorDetails,
                         } as RemoteServiceError);
                         return;
                     }
@@ -492,6 +493,12 @@ export interface RemoteServiceError {
      * Mitigation code for the error, if any.
      */
     mitigationCode?: RemoteServiceMitigationCode;
+
+    /**
+     * Value indicating whether the server's response described the error. A 404 without details means the route itself
+     * doesn't exist (e.g., an API the site calls before it's deployed), rather than a missing item.
+     */
+    hasErrorDetails?: boolean;
 }
 
 /**
