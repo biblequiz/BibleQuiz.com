@@ -129,6 +129,14 @@ export default defineConfig({
                                 icon: "fas faBook"
                             }
                         },
+                        {
+                            label: "Device Usage",
+                            link: "manage-events/devices/",
+                            attrs: {
+                                hideIfNotCurrent: true,
+                                icon: "fas faTabletScreenButton"
+                            }
+                        },
                     ]
                 },
             ],

@@ -648,4 +648,10 @@ export interface ReportDeviceDatabase {
 
     /** Name of the database. */
     DatabaseName: string | null;
+
+    /**
+     * Apps the device used with this database and their versions (the users aren't included). Missing from API releases
+     * before the season Devices view.
+     */
+    Apps?: OnlineDatabaseDeviceSummaryApp[];
 }

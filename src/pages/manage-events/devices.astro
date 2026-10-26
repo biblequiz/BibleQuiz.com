@@ -1,0 +1,24 @@
+---
+import { getSeasons } from "utils/Seasons";
+import SeasonDevicesRoot from "components/apps/devices/SeasonDevicesRoot";
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+const seasons = await getSeasons(import.meta.url, 2019);
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Device Usage",
+    hidePageTitle: true,
+    tableOfContents: false,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="devices-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading
+        Page ...
+    </div>
+    <SeasonDevicesRoot client:only="react" seasons={seasons} loadingElementId="devices-fallback" />
+</StarlightPage>
