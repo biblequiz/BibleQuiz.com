@@ -132,6 +132,6 @@ export default function SeasonReportDevicesPage({ }: Props) {
                 <DeviceCountsTable title="App Version" icon="fas faCodeBranch" counts={devices.CountsByAppVersion} total={total} />
             </div>
 
-            <DeviceListTable entries={listEntries} />
+            <DeviceListTable entries={listEntries} showAllEventNames />
         </div>);
 }

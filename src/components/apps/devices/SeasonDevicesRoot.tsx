@@ -162,6 +162,9 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
     const listEntries = useMemo<DeviceListEntry[]>(
         () => sliced.map(entry => ({ ...entry, eventNames: entry.eventIds.map(id => eventsById.get(id)?.Name ?? id) })),
         [sliced, eventsById]);
+    const countsByAttribute = useMemo(
+        () => Object.fromEntries(ATTRIBUTE_TABLES.map(t => [t.attribute, countBy(sliced, t.attribute)])) as Record<DeviceAttribute, Record<string, number>>,
+        [sliced]);
 
     const changeSeason = (value: number) => {
         window.location.hash = `#/${value}`;
@@ -291,7 +294,7 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
                                         key={t.attribute}
                                         title={t.title}
                                         icon={t.icon}
-                                        counts={countBy(sliced, t.attribute)}
+                                        counts={countsByAttribute[t.attribute]}
                                         total={sliced.length}
                                         selected={attributeFilters[t.attribute] ?? null}
                                         onSelect={v => setAttributeFilter(t.attribute, v)}

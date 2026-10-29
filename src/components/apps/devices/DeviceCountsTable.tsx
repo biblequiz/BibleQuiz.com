@@ -33,13 +33,14 @@ export default function DeviceCountsTable({ title, icon, counts, total, selected
         [counts]);
     const rows = useMemo(
         () => sortRows(
-            allRows.filter(([label]) => matchesFilter(filter, [label])),
+            // The selected value stays in view, so the table always shows what the page is filtered on.
+            allRows.filter(([label]) => label === selected || matchesFilter(filter, [label])),
             sort,
             {
                 label: (a, b) => compareText(a[0], b[0]),
                 count: (a, b) => a[1] - b[1],
             }),
-        [allRows, filter, sort]);
+        [allRows, filter, sort, selected]);
 
     const onSort = (key: CountSortKey) => setSort(current => getNextSort(current, key, key === "count" ? "desc" : "asc"));
 

@@ -25,53 +25,71 @@ export interface DeviceListEntry {
 
 interface Props {
     entries: DeviceListEntry[];
+
+    /** Value indicating whether the Events column names every event, rather than counting them when there are several. */
+    showAllEventNames?: boolean;
 }
 
 type DeviceSortKey = "name" | "model" | "cpu" | "apps" | "events";
 
 const DEFAULT_SORT: SortState<DeviceSortKey> = { key: "name", direction: "asc" };
 
-function getDeviceName(entry: DeviceListEntry): string {
-    return entry.device.Name || "Unnamed device";
+/**
+ * An entry with the text its row sorts and filters on, worked out once rather than on every comparison or keystroke.
+ */
+interface DeviceRow {
+    entry: DeviceListEntry;
+    name: string;
+    appsText: string;
+    eventsText: string;
+    searchText: string[];
 }
 
-function getAppsText(entry: DeviceListEntry): string {
-    return entry.apps.map(app => `${app.Name} v${app.Version}`).join(", ");
+function toRow(entry: DeviceListEntry): DeviceRow {
+    const name = entry.device.Name || "Unnamed device";
+    const appsText = entry.apps.map(app => `${app.Name} v${app.Version}`).join(", ");
+    return {
+        entry,
+        name,
+        appsText,
+        eventsText: entry.eventNames.join(", "),
+        searchText: [
+            name,
+            appsText,
+            ...entry.values.model,
+            ...entry.values.cpu,
+            ...entry.values.os,
+            ...entry.values.screen,
+            ...entry.eventNames,
+        ],
+    };
 }
 
 /**
  * List of devices that can be sorted by any column and filtered by typing (any of the device's name, model, CPU, OS,
  * screen, app versions or events). Clicking a device shows its configuration and events.
  */
-export default function DeviceListTable({ entries }: Props) {
+export default function DeviceListTable({ entries, showAllEventNames }: Props) {
     const [sort, setSort] = useState<SortState<DeviceSortKey>>(DEFAULT_SORT);
     const [filter, setFilter] = useState("");
     const [expandedId, setExpandedId] = useState<string | null>(null);
 
+    const allRows = useMemo(() => entries.map(toRow), [entries]);
     const rows = useMemo(
         () => sortRows(
-            entries.filter(entry => matchesFilter(
-                filter,
-                [
-                    getDeviceName(entry),
-                    getAppsText(entry),
-                    ...entry.values.model,
-                    ...entry.values.cpu,
-                    ...entry.values.os,
-                    ...entry.values.screen,
-                    ...entry.eventNames,
-                ])),
+            allRows.filter(row => matchesFilter(filter, row.searchText)),
             sort,
             {
-                name: (a, b) => compareText(getDeviceName(a), getDeviceName(b)),
-                model: (a, b) => compareText(a.values.model[0], b.values.model[0]),
-                cpu: (a, b) => compareText(a.values.cpu[0], b.values.cpu[0]),
-                apps: (a, b) => compareText(getAppsText(a), getAppsText(b)),
-                events: (a, b) => a.eventNames.length - b.eventNames.length || compareText(a.eventNames.join(", "), b.eventNames.join(", ")),
+                name: (a, b) => compareText(a.name, b.name),
+                model: (a, b) => compareText(a.entry.values.model[0], b.entry.values.model[0]),
+                cpu: (a, b) => compareText(a.entry.values.cpu[0], b.entry.values.cpu[0]),
+                apps: (a, b) => compareText(a.appsText, b.appsText),
+                events: (a, b) => a.entry.eventNames.length - b.entry.eventNames.length || compareText(a.eventsText, b.eventsText),
             }),
-        [entries, filter, sort]);
+        [allRows, filter, sort]);
 
-    const onSort = (key: DeviceSortKey) => setSort(current => getNextSort(current, key));
+    // Like the counts tables, the count column starts with the most first.
+    const onSort = (key: DeviceSortKey) => setSort(current => getNextSort(current, key, key === "events" ? "desc" : "asc"));
     const toggle = (id: string) => setExpandedId(current => current === id ? null : id);
 
     return (
@@ -106,7 +124,7 @@ export default function DeviceListTable({ entries }: Props) {
                             <tr>
                                 <td colSpan={5} className="text-base-content/60">No devices match the filter.</td>
                             </tr>)}
-                        {rows.map(entry => {
+                        {rows.map(({ entry, name }) => {
                             const device = entry.device;
                             const isExpanded = expandedId === device.Id;
 
@@ -124,7 +142,7 @@ export default function DeviceListTable({ entries }: Props) {
                                                 }}
                                             >
                                                 <FontAwesomeIcon icon={isExpanded ? "fas faChevronDown" : "fas faChevronRight"} classNames={["mr-1", "text-base-content/60"]} />
-                                                {getDeviceName(entry)}
+                                                {name}
                                             </button>
                                         </td>
                                         <td>{entry.values.model[0]}</td>
@@ -135,7 +153,9 @@ export default function DeviceListTable({ entries }: Props) {
                                             ))}
                                         </td>
                                         <td title={entry.eventNames.join(", ")}>
-                                            {entry.eventNames.length === 1 ? entry.eventNames[0] : `${entry.eventNames.length} events`}
+                                            {showAllEventNames || entry.eventNames.length === 1
+                                                ? entry.eventNames.join(", ")
+                                                : `${entry.eventNames.length} events`}
                                         </td>
                                     </tr>
                                     {isExpanded && (
