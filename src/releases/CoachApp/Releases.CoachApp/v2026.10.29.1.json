@@ -31,9 +31,9 @@
   "name": "New CoachApp Release",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:52Z",
-  "updated_at": "2026-10-29T05:19:53Z",
+  "updated_at": "2026-10-29T07:01:12Z",
   "published_at": "2026-10-29T05:19:41Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 225133603,
       "digest": "sha256:7068631d93a5cfb967d509fc52124c4bdfe2a8ad35e63718cd710aa45f3d4786",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-10-29T05:19:42Z",
       "updated_at": "2026-10-29T05:19:48Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.CoachApp/releases/download/v2026.10.29.1/com.biblequiz.coachapp.windows.msixbundle"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 156804837,
       "digest": "sha256:c1d871a1fd3f26b900c6082ee4bcb463fa9e317a9b0ba256dddd7115e7f142a7",
-      "download_count": 0,
+      "download_count": 2,
       "created_at": "2026-10-29T05:19:48Z",
       "updated_at": "2026-10-29T05:19:53Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.CoachApp/releases/download/v2026.10.29.1/com.nwtech.biblequiz.coachapp.mac.pkg"
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/tarball/v2026.10.29.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.CoachApp/zipball/v2026.10.29.1",
-  "body": "Latest version of CoachApp"
+  "body": "## Faster\n- Switching rounds is much quicker, about 0.1 s instead of 1.6 s on Mac.\n- The JBQ question list is faster to filter and scroll.\n- The Mac app starts faster and downloads about 313 MB less.\n\n## Touchscreens and Mac\n- The previous/next question arrows are bigger and farther apart.\n- Per-question points (10, 20, 30 or negative) show again in the Mac score boxes.\n- Mac: Report Issue is in the navigation pane, with fixes for dark/light theme, first load and rules.\n\n## Fixes\n- **Add Match** no longer fails when a church lists the same person twice.\n- Report Issue is offered on more errors, including upgrade failures, loading an online database and PDF save errors.\n\n## Content\n- Corrected analysis for Mark.\n- NIV support for Corinthians.\n- FactPak settings now win over a CSS override.\n- A legend watermark option, and a fixed FactPak title page.\n- The FactPak Viewer is available on the site for authorized roles.\n- Current TBQ rulebooks.\n"
 }
