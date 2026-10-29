@@ -31,9 +31,9 @@
   "name": "New ScoreKeep Release",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:12:59Z",
-  "updated_at": "2026-10-29T04:44:33Z",
+  "updated_at": "2026-10-29T07:01:11Z",
   "published_at": "2026-10-29T04:44:27Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 288892987,
       "digest": "sha256:ab76fae667724858f9c2ae0466668506dc22c246eb28bc7f874bb90aedbbe353",
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2026-10-29T04:44:27Z",
       "updated_at": "2026-10-29T04:44:33Z",
       "browser_download_url": "https://github.com/biblequiz/Releases.ScoreKeep/releases/download/v2026.10.29.1/com.biblequiz.scorekeep.windows.msixbundle"
@@ -75,5 +75,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.ScoreKeep/tarball/v2026.10.29.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.ScoreKeep/zipball/v2026.10.29.1",
-  "body": "Latest version of ScoreKeep"
+  "body": "## Individual competition\n- Full support for individual tournaments: scheduling, Teams & Quizzers, quizzer selection and seating (including unseating rules), scoring, ranking, bulk seeding and Announce Winners.\n- Fixes to reports and individuals for TBQ Nationals, and to Announce Winners in team competition.\n\n## Schedules\n- Find Best Schedule, with best schedules added to the known schedules.\n- Better shared-venue optimization.\n- Initial schedule search and a stats dashboard.\n\n## Scoring accuracy and fixes\n- Team-foul scoring now recalculates correctly.\n- A warning appears when you leave a room that isn't finished.\n- Fixed a crash when completing a question.\n- Fixed scores not appearing in the grid.\n- Fixed left-to-right layout issues and the Report Issue button on Mac.\n- The device name is optional and falls back to the device ID.\n\n## Loading meets and scoring prompts\n- Time period picker and region filter for Load Meets.\n- Corrected bye and division-switch prompts, and an improved score grid.\n- Report Issue is offered on more errors.\n"
 }
