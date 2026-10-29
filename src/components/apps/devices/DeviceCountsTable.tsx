@@ -1,4 +1,7 @@
+import { useMemo, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
+import { SortableHeader, TableFilter } from "./TableControls";
+import { compareText, getNextSort, matchesFilter, sortRows, type SortState } from "utils/TableSort";
 
 interface Props {
     title: string;
@@ -13,11 +16,32 @@ interface Props {
     onSelect?: (value: string | null) => void;
 }
 
+type CountSortKey = "label" | "count";
+
+const DEFAULT_SORT: SortState<CountSortKey> = { key: "count", direction: "desc" };
+
 /**
- * Table of device counts with a bar showing each count's share of the total, largest first.
+ * Table of device counts with a bar showing each count's share of the total, largest first. The rows can be sorted by
+ * value or count and filtered by typing.
  */
 export default function DeviceCountsTable({ title, icon, counts, total, selected, onSelect }: Props) {
-    const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    const [sort, setSort] = useState<SortState<CountSortKey>>(DEFAULT_SORT);
+    const [filter, setFilter] = useState("");
+
+    const allRows = useMemo(
+        () => Object.entries(counts).sort((a, b) => b[1] - a[1] || compareText(a[0], b[0])),
+        [counts]);
+    const rows = useMemo(
+        () => sortRows(
+            allRows.filter(([label]) => matchesFilter(filter, [label])),
+            sort,
+            {
+                label: (a, b) => compareText(a[0], b[0]),
+                count: (a, b) => a[1] - b[1],
+            }),
+        [allRows, filter, sort]);
+
+    const onSort = (key: CountSortKey) => setSort(current => getNextSort(current, key, key === "count" ? "desc" : "asc"));
 
     return (
         <div className="card bg-base-200 mt-0 mb-0">
@@ -30,38 +54,52 @@ export default function DeviceCountsTable({ title, icon, counts, total, selected
                             Clear
                         </button>)}
                 </h4>
-                {rows.length === 0 ? (
+                {allRows.length === 0 ? (
                     <p className="text-sm text-base-content/60 mt-0 mb-0">No devices.</p>
                 ) : (
-                    <table className="table table-zebra table-sm w-full mt-0 mb-0">
-                        <tbody>
-                            {rows.map(([label, count]) => (
-                                <tr key={label} className={selected === label ? "bg-primary/20" : ""}>
-                                    <td className="w-1/2">
-                                        {onSelect ? (
-                                            <button
-                                                type="button"
-                                                className="link link-hover text-left mt-0"
-                                                aria-pressed={selected === label}
-                                                onClick={() => onSelect(selected === label ? null : label)}
-                                            >
-                                                {label}
-                                            </button>
-                                        ) : label}
-                                    </td>
-                                    <td className="w-1/3">
-                                        <progress
-                                            className="progress progress-primary w-full"
-                                            value={count}
-                                            max={Math.max(total, 1)}
-                                            aria-label={`${label}: ${count} of ${total}`}
-                                        ></progress>
-                                    </td>
-                                    <td className="text-right">{count}</td>
+                    <>
+                        <TableFilter value={filter} onChange={setFilter} placeholder={`Filter ${title.toLowerCase()}`} className="w-full" />
+                        <table className="table table-zebra table-sm w-full mt-0 mb-0">
+                            <thead>
+                                <tr>
+                                    <SortableHeader label={title} sortKey="label" sort={sort} onSort={onSort} className="w-1/2" />
+                                    <th className="w-1/3"><span className="sr-only">Share</span></th>
+                                    <SortableHeader label="Devices" sortKey="count" sort={sort} onSort={onSort} className="text-right" />
                                 </tr>
-                            ))}
-                        </tbody>
-                    </table>)}
+                            </thead>
+                            <tbody>
+                                {rows.length === 0 && (
+                                    <tr>
+                                        <td colSpan={3} className="text-base-content/60">No values match the filter.</td>
+                                    </tr>)}
+                                {rows.map(([label, count]) => (
+                                    <tr key={label} className={selected === label ? "bg-primary/20" : ""}>
+                                        <td>
+                                            {onSelect ? (
+                                                <button
+                                                    type="button"
+                                                    className="link link-hover text-left mt-0"
+                                                    aria-pressed={selected === label}
+                                                    onClick={() => onSelect(selected === label ? null : label)}
+                                                >
+                                                    {label}
+                                                </button>
+                                            ) : label}
+                                        </td>
+                                        <td>
+                                            <progress
+                                                className="progress progress-primary w-full"
+                                                value={count}
+                                                max={Math.max(total, 1)}
+                                                aria-label={`${label}: ${count} of ${total}`}
+                                            ></progress>
+                                        </td>
+                                        <td className="text-right">{count}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </>)}
             </div>
         </div>);
 }
