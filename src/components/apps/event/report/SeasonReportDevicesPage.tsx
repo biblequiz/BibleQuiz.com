@@ -1,10 +1,11 @@
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import DeviceConfigurationDetails from "../scoring/apps/DeviceConfigurationDetails";
 import DeviceCountsTable from "../../devices/DeviceCountsTable";
+import DeviceListTable, { type DeviceListEntry } from "../../devices/DeviceListTable";
 import { DatabaseReportsService, type ReportDevices } from "types/services/DatabaseReportsService";
 import type { RemoteServiceError } from "types/services/RemoteServiceUtility";
+import { getDeviceValues } from "utils/DeviceUsage";
 import type { EventReportsProviderContext } from "../EventReportsProvider";
 
 interface Props {
@@ -20,7 +21,6 @@ export default function SeasonReportDevicesPage({ }: Props) {
     const [loadError, setLoadError] = useState<string | null>(null);
     const [isNotAvailable, setIsNotAvailable] = useState(false);
     const [devices, setDevices] = useState<ReportDevices | null>(null);
-    const [expandedId, setExpandedId] = useState<string | null>(null);
 
     useEffect(() => {
         // A report that hasn't been saved has no devices yet.
@@ -63,6 +63,18 @@ export default function SeasonReportDevicesPage({ }: Props) {
 
         return () => { isCurrent = false; };
     }, [auth, reportId]);
+
+    const listEntries = useMemo<DeviceListEntry[]>(
+        () => (devices?.Devices ?? []).map(device => {
+            const apps = [...device.Apps].sort((a, b) => a.Name.localeCompare(b.Name));
+            return {
+                device,
+                apps,
+                values: getDeviceValues(device, apps),
+                eventNames: Array.from(new Set(device.Databases.map(d => d.EventName || d.EventId)))
+            };
+        }),
+        [devices]);
 
     if (isLoading) {
         return (
@@ -120,63 +132,6 @@ export default function SeasonReportDevicesPage({ }: Props) {
                 <DeviceCountsTable title="App Version" icon="fas faCodeBranch" counts={devices.CountsByAppVersion} total={total} />
             </div>
 
-            <div className="overflow-x-auto mt-0 mb-0">
-                <table className="table table-sm w-full mt-0 mb-0">
-                    <thead>
-                        <tr>
-                            <th>Device</th>
-                            <th>Model</th>
-                            <th>CPU</th>
-                            <th>Apps</th>
-                            <th>Events</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {devices.Devices.map(device => {
-                            const isExpanded = expandedId === device.Id;
-                            const configuration = device.Configuration;
-                            const model = [configuration?.Manufacturer, configuration?.Model].filter(v => !!v).join(" ");
-
-                            return (
-                                <Fragment key={device.Id}>
-                                    <tr
-                                        className="hover cursor-pointer"
-                                        onClick={() => setExpandedId(isExpanded ? null : device.Id)}
-                                    >
-                                        <td>
-                                            <button
-                                                type="button"
-                                                className="btn btn-ghost btn-xs mt-0 px-1 font-normal"
-                                                aria-expanded={isExpanded}
-                                                onClick={e => {
-                                                    e.stopPropagation();
-                                                    setExpandedId(isExpanded ? null : device.Id);
-                                                }}
-                                            >
-                                                <FontAwesomeIcon icon={isExpanded ? "fas faChevronDown" : "fas faChevronRight"} classNames={["mr-1", "text-base-content/60"]} />
-                                                {device.Name || "Unnamed device"}
-                                            </button>
-                                        </td>
-                                        <td>{model || "—"}</td>
-                                        <td>{configuration?.ProcessArchitecture || "—"}</td>
-                                        <td>
-                                            {device.Apps.map(app => (
-                                                <span key={app.Name} className="badge badge-sm badge-ghost mr-1">{app.Name} v{app.Version}</span>
-                                            ))}
-                                        </td>
-                                        <td>{Array.from(new Set(device.Databases.map(d => d.EventName || d.EventId))).join(", ")}</td>
-                                    </tr>
-                                    {isExpanded && (
-                                        <tr>
-                                            <td colSpan={5} className="bg-base-100">
-                                                <DeviceConfigurationDetails configuration={configuration} />
-                                            </td>
-                                        </tr>
-                                    )}
-                                </Fragment>);
-                        })}
-                    </tbody>
-                </table>
-            </div>
+            <DeviceListTable entries={listEntries} showAllEventNames />
         </div>);
 }

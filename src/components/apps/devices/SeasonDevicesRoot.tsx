@@ -1,9 +1,9 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { format } from "date-fns";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ProtectedRoute from "components/auth/ProtectedRoute";
-import DeviceConfigurationDetails from "components/apps/event/scoring/apps/DeviceConfigurationDetails";
 import DeviceCountsTable from "./DeviceCountsTable";
+import DeviceListTable, { type DeviceListEntry } from "./DeviceListTable";
 import { AuthManager } from "types/AuthManager";
 import { AstroEventsService, type SeasonDevices, type SeasonDeviceEvent } from "types/services/AstroEventsService";
 import type { RemoteServiceError } from "types/services/RemoteServiceUtility";
@@ -97,7 +97,6 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
     const [isNotAvailable, setIsNotAvailable] = useState(false);
     const [eventFilters, setEventFilters] = useState<DeviceEventFilters>(NO_EVENT_FILTERS);
     const [attributeFilters, setAttributeFilters] = useState<DeviceAttributeFilters>({});
-    const [expandedId, setExpandedId] = useState<string | null>(null);
 
     useEffect(() => {
         const onHashChange = () => setSeason(getSeasonFromHash(seasons));
@@ -160,6 +159,12 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
         () => sliceDevices(data?.Devices.Devices ?? [], slicedEventIds, attributeFilters),
         [data, slicedEventIds, attributeFilters]);
     const eventsWithDevices = useMemo(() => new Set(sliced.flatMap(d => d.eventIds)).size, [sliced]);
+    const listEntries = useMemo<DeviceListEntry[]>(
+        () => sliced.map(entry => ({ ...entry, eventNames: entry.eventIds.map(id => eventsById.get(id)?.Name ?? id) })),
+        [sliced, eventsById]);
+    const countsByAttribute = useMemo(
+        () => Object.fromEntries(ATTRIBUTE_TABLES.map(t => [t.attribute, countBy(sliced, t.attribute)])) as Record<DeviceAttribute, Record<string, number>>,
+        [sliced]);
 
     const changeSeason = (value: number) => {
         window.location.hash = `#/${value}`;
@@ -289,69 +294,14 @@ function SeasonDevicesView({ seasons }: { seasons: number[] }) {
                                         key={t.attribute}
                                         title={t.title}
                                         icon={t.icon}
-                                        counts={countBy(sliced, t.attribute)}
+                                        counts={countsByAttribute[t.attribute]}
                                         total={sliced.length}
                                         selected={attributeFilters[t.attribute] ?? null}
                                         onSelect={v => setAttributeFilter(t.attribute, v)}
                                     />))}
                             </div>
 
-                            <div className="overflow-x-auto mt-0 mb-0">
-                                <table className="table table-sm w-full mt-0 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th>Device</th>
-                                            <th>Model</th>
-                                            <th>CPU</th>
-                                            <th>Apps</th>
-                                            <th>Events</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {sliced.map(entry => {
-                                            const device = entry.device;
-                                            const isExpanded = expandedId === device.Id;
-                                            const eventNames = entry.eventIds.map(id => eventsById.get(id)?.Name ?? id);
-
-                                            return (
-                                                <Fragment key={device.Id}>
-                                                    <tr className="hover:bg-base-300">
-                                                        <td>
-                                                            <button
-                                                                type="button"
-                                                                className="btn btn-ghost btn-xs mt-0 px-1 font-normal"
-                                                                aria-expanded={isExpanded}
-                                                                onClick={() => setExpandedId(isExpanded ? null : device.Id)}
-                                                            >
-                                                                <FontAwesomeIcon icon={isExpanded ? "fas faChevronDown" : "fas faChevronRight"} classNames={["mr-1", "text-base-content/60"]} />
-                                                                {device.Name || "Unnamed device"}
-                                                            </button>
-                                                        </td>
-                                                        <td>{entry.values.model[0]}</td>
-                                                        <td>{entry.values.cpu[0]}</td>
-                                                        <td>
-                                                            {entry.apps.map(app => (
-                                                                <span key={app.Name} className="badge badge-sm badge-ghost mr-1">{app.Name} v{app.Version}</span>
-                                                            ))}
-                                                        </td>
-                                                        <td title={eventNames.join(", ")}>
-                                                            {eventNames.length === 1 ? eventNames[0] : `${eventNames.length} events`}
-                                                        </td>
-                                                    </tr>
-                                                    {isExpanded && (
-                                                        <tr>
-                                                            <td colSpan={5} className="bg-base-100">
-                                                                <DeviceConfigurationDetails configuration={device.Configuration} />
-                                                                <p className="text-sm text-base-content/70 mt-2 mb-0">
-                                                                    <span className="font-semibold">Events:</span> {eventNames.join(", ")}
-                                                                </p>
-                                                            </td>
-                                                        </tr>)}
-                                                </Fragment>);
-                                        })}
-                                    </tbody>
-                                </table>
-                            </div>
+                            <DeviceListTable entries={listEntries} />
                         </>)}
                 </>)}
         </div>);

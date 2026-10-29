@@ -141,7 +141,10 @@ export function countBy(devices: SlicedDevice[], attribute: DeviceAttribute): Re
     return counts;
 }
 
-function getDeviceValues(device: ReportDevice, apps: OnlineDatabaseDeviceSummaryApp[]): Record<DeviceAttribute, string[]> {
+/**
+ * Gets the values a device is counted by, given the apps it used.
+ */
+export function getDeviceValues(device: ReportDevice, apps: OnlineDatabaseDeviceSummaryApp[]): Record<DeviceAttribute, string[]> {
     const configuration = device.Configuration;
     const orNotReported = (value: string | null | undefined) => value && value.trim().length > 0 ? value.trim() : NOT_REPORTED;
     const join = (...values: (string | null | undefined)[]) => values.filter(v => !!v && v.trim().length > 0).join(" ");
