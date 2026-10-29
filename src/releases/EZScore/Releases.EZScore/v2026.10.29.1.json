@@ -28,12 +28,12 @@
   "node_id": "RE_kwDOJRPS8M4ZerPf",
   "tag_name": "v2026.10.29.1",
   "target_commitish": "6c7e305beb6c400f2b94db2eb4d8fc1743549c47",
-  "name": "New EZScore Release",
+  "name": "Performance Focused EZScore Release",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-10-29T04:38:54Z",
+  "updated_at": "2026-10-29T06:58:28Z",
   "published_at": "2026-10-29T04:38:46Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.10.29.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.10.29.1",
-  "body": "Latest version of EZScore"
+  "body": "We have spent some time improving the performance of EZScore on both Android and Windows.\r\n\r\nImprovements/Features:\r\n- Load time of Event is faster\r\n- Can handle more than 20 questions now without affecting performance.\r\n- Scrolling in Android version keeps in sync.\r\n- Added filter for region and timeframe to Change Database to make it easier to find your own events.\r\n- Support older devices which could not upgrade.\r\n- Report on hardware used by your events\r\n- Report Issue now immediately logs an issue in our database improving our response time."
 }
