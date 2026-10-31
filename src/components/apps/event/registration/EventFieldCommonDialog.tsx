@@ -21,6 +21,20 @@ const getGradeField = (typeId: string) => {
     } as EventField;
 }
 
+const getYearsQuizzingField = () => {
+    return {
+        Id: null,
+        ControlType: EventFieldControlType.Textbox,
+        DataType: EventFieldDataType.Number,
+        Scopes: EventFieldScopes.Quizzer | EventFieldScopes.QuizzerWithoutTeam,
+        IsRequired: true,
+        Visibility: EventFieldVisibility.ReadWrite,
+        Label: "Years Quizzing",
+        MinNumberValue: 0,
+        MaxNumberValue: 7
+    } as EventField;
+}
+
 const getMeetsExperience = () => {
     return {
         Id: null,
@@ -80,6 +94,11 @@ export default function EventFieldCommonDialog({ dialogRef, typeId, addField }: 
                             description="Grade of the quizzer."
                             restriction="Quizzers Only"
                             addField={() => addField(getGradeField(typeId))} />
+                        <EventFieldCommonCard
+                            title="Years Quizzing"
+                            description="Number of years the quizzer has been participating."
+                            restriction="Quizzers Only"
+                            addField={() => addField(getYearsQuizzingField())} />
                         <EventFieldCommonCard
                             title="Individuals"
                             description="Participant in the Individual Competition."
