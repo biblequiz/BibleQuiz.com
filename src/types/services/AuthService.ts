@@ -97,6 +97,17 @@ export class UserSignUpInfo extends RemoteServiceModelBase<string> {
      * Captcha Response for the user.
      */
     CaptchaResponse!: string | null;
+
+    /**
+     * Value indicating the sign-up came through Study Hub, so the person isn't made the church's administrator.
+     * Left off for a normal sign-up.
+     */
+    StudyHubSignUp?: boolean;
+
+    /**
+     * Study Hub address to return to afterwards. The API refuses anything that isn't https://studyhub.biblequiz.com.
+     */
+    StudyHubReturnUrl?: string | null;
 }
 
 /**
