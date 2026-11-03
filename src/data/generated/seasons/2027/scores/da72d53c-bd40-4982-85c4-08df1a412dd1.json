@@ -1,7 +1,7 @@
 {
   "EventName": "Northeast Oklahoma League Meet #1",
   "DatabaseNames": {
-    "6e1fec72-381e-42fe-9b9c-d03a0a293061": "2026-2027_NE_OK"
+    "6e1fec72-381e-42fe-9b9c-d03a0a293061": "2026-2027_NE_OK-X"
   },
   "Report": {
     "Meets": [
@@ -12,15 +12,14 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Discoverer1",
-        "LastUpdated": "11/3/26 3:01 AM",
-        "DatabaseLastUpdated": "2026-11-03T00:40:11.9839174+00:00",
+        "LastUpdated": "11/3/26 6:01 AM",
+        "DatabaseLastUpdated": "2026-11-03T03:06:46.0778594+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Celeste Freese",
             "Quizzers": [
-              7,
               12,
               16,
               18,
@@ -42,10 +41,10 @@
               "TotalPoints": 775,
               "PerMeetTotalPoints": null,
               "AveragePoints": 129.2,
-              "AverageCorrect": 11.8,
+              "AverageCorrect": 11.3,
               "QuizOuts": 8,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 71,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 68,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -113,6 +112,7 @@
             "Quizzers": [
               3,
               5,
+              7,
               8,
               13,
               19,
@@ -133,10 +133,10 @@
               "TotalPoints": 720,
               "PerMeetTotalPoints": null,
               "AveragePoints": 120.0,
-              "AverageCorrect": 12.3,
+              "AverageCorrect": 12.8,
               "QuizOuts": 5,
               "QuestionCorrectPercentage": 84,
-              "Correct10s": 74,
+              "Correct10s": 77,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -300,7 +300,7 @@
               14
             ],
             "Id": "t_68eb4a7cadac41f499ee9bfa75053664",
-            "Name": "M1A Gods Kingdom",
+            "Name": "M1A God’s Kingdom",
             "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
             "ChurchName": "First Assembly of God",
             "City": "Muskogee",
@@ -390,7 +390,7 @@
         "TeamFootnotes": [],
         "Quizzers": [
           {
-            "TeamName": "M1A Gods Kingdom",
+            "TeamName": "M1A God’s Kingdom",
             "YearsQuizzing": null,
             "Id": "q_0adff3adc9ec4d13ccbf08df21f76ae1",
             "Name": "Addison Mauhar",
@@ -442,7 +442,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "M1A Gods Kingdom",
+            "TeamName": "M1A God’s Kingdom",
             "YearsQuizzing": null,
             "Id": "q_bbd4f80d6f644116ccd008df21f76ae1",
             "Name": "Alayna Mauhar",
@@ -494,7 +494,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "M1A Gods Kingdom",
+            "TeamName": "M1A God’s Kingdom",
             "YearsQuizzing": null,
             "Id": "q_21285313ca07423def6f08ddff6180fc",
             "Name": "Ariella Staggers",
@@ -546,7 +546,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "M1A Gods Kingdom",
+            "TeamName": "M1A God’s Kingdom",
             "YearsQuizzing": null,
             "Id": "q_48d8ad54c2e9486eccca08df21f76ae1",
             "Name": "Asher Staggers",
@@ -572,7 +572,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Christian Chapel - A",
+            "TeamName": "Christian Chapel - B",
             "YearsQuizzing": null,
             "Id": "q_3a2a4691772f41e4d0de08df21f76ae1",
             "Name": "Autumn Geppelt",
@@ -650,7 +650,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "M1A Gods Kingdom",
+            "TeamName": "M1A God’s Kingdom",
             "YearsQuizzing": null,
             "Id": "q_1e302dd3917942e7ccba08df21f76ae1",
             "Name": "Caden Wright",
@@ -754,7 +754,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "M1A Gods Kingdom",
+            "TeamName": "M1A God’s Kingdom",
             "YearsQuizzing": null,
             "Id": "q_a01e0be84d3b4083ccc408df21f76ae1",
             "Name": "Jenna Cowan",
@@ -1212,17 +1212,18 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Explorer1",
-        "LastUpdated": "11/3/26 3:01 AM",
-        "DatabaseLastUpdated": "2026-11-03T00:40:11.9839174+00:00",
+        "LastUpdated": "11/3/26 6:01 AM",
+        "DatabaseLastUpdated": "2026-11-03T03:06:46.0778594+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Michelle Wagner",
             "Quizzers": [
-              7,
               8,
-              10
+              10,
+              13,
+              19
             ],
             "Id": "t_7d39dcd525e34f0f9e1aba166a9a81f8",
             "Name": "Bible Bosses (Owasso 1st Assembly)",
@@ -1297,12 +1298,12 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Beth Woods",
+            "CoachName": "Michael Woods",
             "Quizzers": [
               0,
               3,
-              9,
-              19
+              11,
+              23
             ],
             "Id": "t_d5023763999a48d48c411edaffdcbc7c",
             "Name": "Christian Chapel - C",
@@ -1377,12 +1378,13 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Cin Pu",
+            "CoachName": "Lia Lian",
             "Quizzers": [
               4,
-              12,
-              16,
-              17
+              5,
+              9,
+              15,
+              20
             ],
             "Id": "t_6d7c6bf2982a475e91b7ea4224f80291",
             "Name": "Far East Mission Church (Tulsa) #2",
@@ -1457,12 +1459,13 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Thang Thang",
+            "CoachName": "Cin Pu",
             "Quizzers": [
-              5,
-              13,
-              22,
-              23
+              6,
+              12,
+              16,
+              26,
+              27
             ],
             "Id": "t_e7aefebd03c04f83a44bd61d3351d218",
             "Name": "Far East Mission Church (Tulsa) #4",
@@ -1537,12 +1540,12 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Sian Dim",
+            "CoachName": "Mung Mung",
             "Quizzers": [
-              14,
-              15,
+              17,
               18,
-              20
+              21,
+              24
             ],
             "Id": "t_0308b1dcbc0348a18fe5ff712e595c92",
             "Name": "Far East Mission Church (Tulsa) #5",
@@ -1621,14 +1624,15 @@
             "Quizzers": [
               1,
               2,
-              6,
-              11,
-              21
+              7,
+              14,
+              22,
+              25
             ],
             "Id": "t_bdca7863128b4f3788138932bc9a2792",
             "Name": "SFAKids",
             "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
-            "ChurchName": "Assembly of God",
+            "ChurchName": "Skiatook First Assembly of God",
             "City": "Skiatook",
             "State": "OK",
             "Scores": {
@@ -1745,7 +1749,7 @@
             "Id": "q_4c6479b9c79243b683a108df24d69b23",
             "Name": "Adam Payne",
             "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
-            "ChurchName": "Assembly of God",
+            "ChurchName": "Skiatook First Assembly of God",
             "City": "Skiatook",
             "State": "OK",
             "Scores": {
@@ -1771,7 +1775,7 @@
             "Id": "q_04d01626e8fe461183a808df24d69b23",
             "Name": "Caitlyn Payne",
             "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
-            "ChurchName": "Assembly of God",
+            "ChurchName": "Skiatook First Assembly of God",
             "City": "Skiatook",
             "State": "OK",
             "Scores": {
@@ -1813,6 +1817,32 @@
               "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "YearsQuizzing": null,
+            "Id": "q_e0d60c1bc05a4316c11f08df379bdde4",
+            "Name": "Cing Muan",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -1875,7 +1905,7 @@
             "Id": "q_ac4544446bb44222839f08df24d69b23",
             "Name": "Ezekiel Wynn",
             "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
-            "ChurchName": "Assembly of God",
+            "ChurchName": "Skiatook First Assembly of God",
             "City": "Skiatook",
             "State": "OK",
             "Scores": {
@@ -1922,6 +1952,32 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "YearsQuizzing": null,
+            "Id": "q_fb0fe1339d5a44ffd23508df21f76ae1",
+            "Name": "Genesis Hatlang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Bible Bosses (Owasso 1st Assembly)",
             "YearsQuizzing": null,
             "Id": "q_0c28069e42da4e4bfab708df2157bbfb",
@@ -1932,7 +1988,7 @@
             "State": "OK",
             "Scores": {
               "Rank": 20,
-              "IsTie": false,
+              "IsTie": true,
               "TotalPoints": 0,
               "PerMeetTotalPoints": null,
               "AveragePoints": 0.0,
@@ -1974,6 +2030,32 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "Far East Mission Church (Tulsa) #4",
+            "YearsQuizzing": null,
+            "Id": "q_a4fa387acf7041b9c12a08df379bdde4",
+            "Name": "Joel Pau",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Bible Bosses (Owasso 1st Assembly)",
             "YearsQuizzing": null,
             "Id": "q_a7cf124cefcc40a6fab108df2157bbfb",
@@ -2005,7 +2087,7 @@
             "Id": "q_122c2559ea3c42d883a408df24d69b23",
             "Name": "Jonathan Payne",
             "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
-            "ChurchName": "Assembly of God",
+            "ChurchName": "Skiatook First Assembly of God",
             "City": "Skiatook",
             "State": "OK",
             "Scores": {
@@ -2130,24 +2212,24 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "TeamName": "Bible Bosses (Owasso 1st Assembly)",
             "YearsQuizzing": null,
-            "Id": "q_fb0fe1339d5a44ffd23508df21f76ae1",
-            "Name": "Mang Nuam",
-            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
-            "ChurchName": "Far East Mission Church",
-            "City": "Tulsa",
+            "Id": "q_7e7bbd2907114be670ae08ddf523e127",
+            "Name": "Micah Morgan",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
             "State": "OK",
             "Scores": {
-              "Rank": 16,
-              "IsTie": false,
-              "TotalPoints": 10,
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 2.0,
-              "AverageCorrect": 0.2,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
               "QuizOuts": 0,
-              "QuestionCorrectPercentage": 100,
-              "Correct10s": 1,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
@@ -2208,6 +2290,32 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_875097ff57764b4a810908df342f443e",
+            "Name": "Norah Ballard",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "Rank": 20,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Christian Chapel - C",
             "YearsQuizzing": null,
             "Id": "q_6b327dc822274bc9d1b208df21f76ae1",
@@ -2217,7 +2325,7 @@
             "City": "Tulsa",
             "State": "OK",
             "Scores": {
-              "Rank": 24,
+              "Rank": 28,
               "IsTie": false,
               "TotalPoints": -5,
               "PerMeetTotalPoints": null,
@@ -2265,7 +2373,7 @@
             "Id": "q_5998848005484e5483b708df24d69b23",
             "Name": "Ryker Payne",
             "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
-            "ChurchName": "Assembly of God",
+            "ChurchName": "Skiatook First Assembly of God",
             "City": "Skiatook",
             "State": "OK",
             "Scores": {
@@ -2339,30 +2447,34 @@
           }
         ],
         "RankedQuizzers": [
-          9,
-          7,
-          5,
-          12,
-          14,
-          13,
           11,
-          22,
-          20,
+          8,
+          6,
+          15,
+          17,
+          16,
+          14,
+          26,
+          24,
           1,
           3,
           0,
-          6,
-          10,
+          7,
+          13,
           2,
-          16,
-          17,
-          4,
-          15,
-          8,
+          9,
+          20,
+          5,
           18,
+          4,
+          10,
+          12,
+          19,
           21,
-          23,
-          19
+          22,
+          25,
+          27,
+          23
         ],
         "QuizzerFootnotes": [
           {
@@ -2593,8 +2705,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Master1",
-        "LastUpdated": "11/3/26 3:01 AM",
-        "DatabaseLastUpdated": "2026-11-03T00:40:11.9839174+00:00",
+        "LastUpdated": "11/3/26 6:01 AM",
+        "DatabaseLastUpdated": "2026-11-03T03:06:46.0778594+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -2950,8 +3062,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Searcher1",
-        "LastUpdated": "11/3/26 3:01 AM",
-        "DatabaseLastUpdated": "2026-11-03T00:40:11.9839174+00:00",
+        "LastUpdated": "11/3/26 6:01 AM",
+        "DatabaseLastUpdated": "2026-11-03T03:06:46.0778594+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -3157,8 +3269,8 @@
               4,
               16,
               22,
-              27,
-              30
+              28,
+              31
             ],
             "Id": "t_727fad1ee01543308d8398b23654a925",
             "Name": "Faith Force (CAG-S)",
@@ -3251,12 +3363,12 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Muan Hoih",
+            "CoachName": "Sang Nu",
             "Quizzers": [
               8,
-              26,
-              28,
-              31
+              27,
+              29,
+              32
             ],
             "Id": "t_d27e8d07cb3f49ddb8d2a9522587f01b",
             "Name": "Far East Mission Church (Tulsa) #1",
@@ -3349,12 +3461,13 @@
             "CurrentMatchId": null
           },
           {
-            "CoachName": "Lia Lian",
+            "CoachName": "Esther Khai",
             "Quizzers": [
               6,
               7,
               9,
-              23
+              23,
+              24
             ],
             "Id": "t_5221df5f41bd4000acfc9dabfe9c0e8a",
             "Name": "Far East Mission Church (Tulsa) #3",
@@ -3451,7 +3564,7 @@
             "Quizzers": [
               12,
               17,
-              29
+              30
             ],
             "Id": "t_87400e941efb4787b3dbf552491a0cd9",
             "Name": "M1A Buzzer Boyz",
@@ -3548,7 +3661,7 @@
             "Quizzers": [
               13,
               21,
-              25
+              26
             ],
             "Id": "t_bd9caa1ad0de466dae8920128b75027a",
             "Name": "The Bible Girls (Owasso 1st Assembly)",
@@ -3647,7 +3760,7 @@
               11,
               18,
               19,
-              24
+              25
             ],
             "Id": "t_a2616ebb9a6f4043827e2e26b55d9f87",
             "Name": "Word Warriors (CAG-S)",
@@ -4358,6 +4471,32 @@
           {
             "TeamName": "Far East Mission Church (Tulsa) #3",
             "YearsQuizzing": null,
+            "Id": "q_76cfc5d105eb460ec18008df379bdde4",
+            "Name": "Lun Tawisang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #3",
+            "YearsQuizzing": null,
             "Id": "q_de4e7848dac94c74d25508df21f76ae1",
             "Name": "Man Lun",
             "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
@@ -4591,23 +4730,23 @@
           }
         ],
         "RankedQuizzers": [
-          30,
+          31,
           13,
           3,
           15,
-          26,
-          28,
+          27,
+          29,
           21,
           4,
           0,
-          23,
-          31,
+          24,
+          32,
           20,
           19,
           8,
           10,
           22,
-          24,
+          25,
           9,
           2,
           5,
@@ -4620,9 +4759,10 @@
           12,
           14,
           17,
-          25,
-          27,
-          29
+          23,
+          26,
+          28,
+          30
         ],
         "QuizzerFootnotes": [
           {
@@ -5054,5 +5194,5 @@
       }
     }
   ],
-  "Freshness": "2026-11-03T00:40:12.1948352+00:00"
+  "Freshness": "2026-11-03T03:06:46.219376+00:00"
 }
