@@ -10,10 +10,20 @@ import { AuthManager } from 'types/AuthManager';
 import ChurchLookupByState from './ChurchLookupByState';
 import ChurchSettingsDialog, { type AddingChurchState } from "../ChurchSettingsDialog";
 
-interface Props {
+/**
+ * Set when signing up from Study Hub. The Registration API then creates the account and church without making the person
+ * the church's administrator.
+ */
+export interface StudyHubSignUpOptions {
+    /** Allowed Study Hub address to return to afterwards, if there is one. */
+    returnUrl: string | null;
 }
 
-export default function CompleteProfileSection({ }: Props) {
+interface Props {
+    studyHub?: StudyHubSignUpOptions;
+}
+
+export default function CompleteProfileSection({ studyHub }: Props) {
 
     const authManager = AuthManager.useNanoStore();
     useStore(sharedGlobalStatusToast);
@@ -61,6 +71,11 @@ export default function CompleteProfileSection({ }: Props) {
         newUser.Person = newPerson;
         newUser.TermsAgree = termsAgreed;
         newUser.CaptchaResponse = CloudflareTurnstile.getCaptchaResponse();
+
+        if (studyHub) {
+            newUser.StudyHubSignUp = true;
+            newUser.StudyHubReturnUrl = studyHub.returnUrl;
+        }
 
         AuthService.signUp(
             authManager,

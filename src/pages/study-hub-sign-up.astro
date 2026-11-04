@@ -1,0 +1,20 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import StudyHubSignUpRoot from "components/apps/studyHub/StudyHubSignUpRoot";
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Join Study Hub",
+    hidePageTitle: true,
+    hideAdsOnPrint: true,
+    pagefind: false
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div id="study-hub-sign-up-fallback" class="flex justify-center items-center">
+        <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
+    </div>
+    <StudyHubSignUpRoot client:only="react" />
+</StarlightPage>
