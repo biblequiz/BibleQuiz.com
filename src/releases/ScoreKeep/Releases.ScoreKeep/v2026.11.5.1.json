@@ -31,9 +31,9 @@
   "name": "New ScoreKeep Release",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:12:59Z",
-  "updated_at": "2026-11-05T02:25:25Z",
+  "updated_at": "2026-11-05T02:26:12Z",
   "published_at": "2026-11-05T02:25:16Z",
   "assets": [
     {
@@ -75,5 +75,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.ScoreKeep/tarball/v2026.11.5.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.ScoreKeep/zipball/v2026.11.5.1",
-  "body": "Latest version of ScoreKeep"
+  "body": "Fixes sign-in getting stuck: Cancel and the 5-minute timeout now release the sign-in port so you can try again without restarting, and sign-in errors say what went wrong.\n"
 }
