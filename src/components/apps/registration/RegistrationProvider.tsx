@@ -1,7 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
-import ArchivePendingBanner from "components/apps/ArchivePendingBanner";
 import { AuthManager } from "types/AuthManager";
 import { Church, ChurchesService, ChurchResultFilter } from "types/services/ChurchesService";
 import { EventInfo, EventRegistrationStatus, EventsService, type EventRestrictions } from "types/services/EventsService";
@@ -380,16 +379,5 @@ export default function RegistrationProvider({ }: Props) {
         saveRegistration,
     };
 
-    return (
-        <>
-            {event.IsOwner &&
-                <ArchivePendingBanner
-                    id={event.Id}
-                    label="event"
-                    liveVersion={event.ArchiveVersion}
-                    isMissingPending={
-                        event.PublishToArchives && event.RegistrationStatus !== EventRegistrationStatus.FutureOpen}
-                />}
-            <Outlet context={context} />
-        </>);
+    return <Outlet context={context} />;
 }

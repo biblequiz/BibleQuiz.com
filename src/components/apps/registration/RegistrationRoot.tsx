@@ -1,4 +1,3 @@
-import { ArchiveVersionsContext, type ArchiveVersionManifest } from "components/apps/ArchivePendingBanner";
 import { useEffect } from 'react';
 import { createHashRouter, RouterProvider, Outlet, useBlocker } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
@@ -84,14 +83,6 @@ const router = createHashRouter([
     }
 ]);
 
-interface RootProps {
-    /** Archive versions published with the site, embedded at build time. */
-    archiveVersions?: ArchiveVersionManifest;
-}
-
-export default function RegistrationRoot({ archiveVersions }: RootProps) {
-    return (
-        <ArchiveVersionsContext.Provider value={archiveVersions ?? null}>
-            <RouterProvider router={router} />
-        </ArchiveVersionsContext.Provider>);
+export default function RegistrationRoot() {
+    return <RouterProvider router={router} />;
 }
