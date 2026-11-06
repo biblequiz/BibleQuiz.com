@@ -382,13 +382,14 @@ export default function RegistrationProvider({ }: Props) {
 
     return (
         <>
-            <ArchivePendingBanner
-                id={event.Id}
-                label="event"
-                liveVersion={event.ArchiveVersion}
-                isMissingPending={
-                    event.PublishToArchives && event.RegistrationStatus !== EventRegistrationStatus.FutureOpen}
-            />
+            {event.IsOwner &&
+                <ArchivePendingBanner
+                    id={event.Id}
+                    label="event"
+                    liveVersion={event.ArchiveVersion}
+                    isMissingPending={
+                        event.PublishToArchives && event.RegistrationStatus !== EventRegistrationStatus.FutureOpen}
+                />}
             <Outlet context={context} />
         </>);
 }

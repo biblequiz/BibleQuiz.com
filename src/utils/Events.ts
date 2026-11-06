@@ -9,8 +9,30 @@ import { getAstroRootSourcePath, getFilesByWildcard } from "./FileSystem";
  * @param metaUrl URL for the current module.
  * @returns Events with the type and URL path (e.g., "tournaments/slug/") they are keyed by in the JSON.
  */
-export async function getAllGeneratedEvents(
-    metaUrl: string): Promise<{ type: string, urlPath: string, event: EventInfo }[]> {
+export function getAllGeneratedEvents(
+    metaUrl: string): Promise<GeneratedEvent[]> {
+
+    // Several pages need these during the same build, so read the files once.
+    generatedEventsPromise ??= loadGeneratedEvents(metaUrl);
+    return generatedEventsPromise;
+}
+
+/**
+ * Maps each generated event or report id to the archive version it was generated from (null if the entry
+ * predates versions). Embedded in pages at build time since it only changes when the archive job commits.
+ *
+ * @param metaUrl URL for the current module.
+ */
+export async function getArchiveVersions(metaUrl: string): Promise<{ [id: string]: string | null }> {
+    return Object.fromEntries(
+        (await getAllGeneratedEvents(metaUrl)).map(e => [e.event.id, e.event.archiveVersion ?? null]));
+}
+
+type GeneratedEvent = { type: string, urlPath: string, event: EventInfo };
+
+let generatedEventsPromise: Promise<GeneratedEvent[]> | null = null;
+
+async function loadGeneratedEvents(metaUrl: string): Promise<GeneratedEvent[]> {
 
     const rootSourcePath = await getAstroRootSourcePath(metaUrl);
 
@@ -22,7 +44,7 @@ export async function getAllGeneratedEvents(
         )),
     ];
 
-    const results: { type: string, urlPath: string, event: EventInfo }[] = [];
+    const results: GeneratedEvent[] = [];
     for (const eventsFilePath of eventJsonFiles) {
         const events = JSON.parse(
             await fs.readFile(eventsFilePath, "utf-8"),

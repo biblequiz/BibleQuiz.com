@@ -2,11 +2,10 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
-import { getAllGeneratedEvents } from "utils/Events";
+import { getArchiveVersions } from "utils/Events";
 import SeasonReportRoot from "components/apps/event/SeasonReportRoot";
 
-const archiveVersions = Object.fromEntries(
-    (await getAllGeneratedEvents(import.meta.url)).map(e => [e.event.id, e.event.archiveVersion ?? null]));
+const archiveVersions = await getArchiveVersions(import.meta.url);
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Manage My Report",
