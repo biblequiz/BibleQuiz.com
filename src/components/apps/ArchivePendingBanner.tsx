@@ -45,7 +45,7 @@ export default function ArchivePendingBanner({ id, label, liveVersion, isMissing
         <div role="alert" className="alert alert-info mb-2">
             <FontAwesomeIcon icon="fas faClockRotateLeft" />
             <span>
-                Updates to this {label} are pending and should be available on BibleQuiz.com in a few hours.
+                Some updates to this {label} won't appear in Upcoming & Live Events immediately. They will be available in a few hours.
             </span>
         </div>
     );
