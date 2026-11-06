@@ -2,8 +2,11 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import { getArchiveVersions } from "utils/Events";
 import EventRoot from "components/apps/event/EventRoot";
 import RoomDialog from "components/scores/RoomDialog.astro";
+
+const archiveVersions = await getArchiveVersions(import.meta.url);
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Manage My Event",
@@ -17,6 +20,6 @@ const frontmatter: StarlightPageFrontmatter = {
     <div id="event-fallback" class="flex justify-center items-center">
         <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
     </div>
-    <EventRoot client:only="react" />
+    <EventRoot client:only="react" archiveVersions={archiveVersions} />
     <RoomDialog />
 </StarlightPage>

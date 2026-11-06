@@ -5,6 +5,7 @@ import { NEW_ID_PLACEHOLDER, type EventProviderContext } from "./EventProvider";
 import { DatabaseReportsService, type EventReport, type SeasonReport } from "types/services/DatabaseReportsService";
 import type { AuthManager } from "types/AuthManager";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import ArchivePendingBanner from "components/apps/ArchivePendingBanner";
 
 interface Props {
 }
@@ -119,7 +120,20 @@ export default function EventReportsProvider({ }: Props) {
             </div>);
     }
 
+    // Only season reports are archived, so event reports never have pending changes.
+    const isArchivedReport = type === "season" && reportId
+        ? seasonReports.find(r => r.report.Id === reportId)?.report ?? null
+        : null;
+
     return (
+        <>
+        {isArchivedReport &&
+            <ArchivePendingBanner
+                id={isArchivedReport.Id}
+                label="report"
+                liveVersion={isArchivedReport.ArchiveVersion}
+                isMissingPending={isArchivedReport.IsVisible}
+            />}
         <Outlet context={{
             auth: context.auth,
             reportId: reportId,
@@ -176,5 +190,6 @@ export default function EventReportsProvider({ }: Props) {
             },
 
             forceEventListRefresh: () => setForceRefresh(true),
-        } as EventReportsProviderContext} />);
+        } as EventReportsProviderContext} />
+        </>);
 }

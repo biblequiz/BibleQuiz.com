@@ -1,3 +1,4 @@
+import { ArchiveVersionsContext, type ArchiveVersionManifest } from "components/apps/ArchivePendingBanner";
 import { createHashRouter, RouterProvider, Outlet, useNavigate, useMatches, type UIMatch, useParams, type Params, type NavigateFunction, useLocation, useBlocker } from 'react-router-dom';
 import { useStore } from '@nanostores/react';
 import { useEffect, useState } from 'react';
@@ -543,6 +544,14 @@ const router = createHashRouter([
     }
 ]);
 
-export default function SeasonReportRoot() {
-    return <RouterProvider router={router} />;
+interface RootProps {
+    /** Archive versions published with the site, embedded at build time. */
+    archiveVersions?: ArchiveVersionManifest;
+}
+
+export default function SeasonReportRoot({ archiveVersions }: RootProps) {
+    return (
+        <ArchiveVersionsContext.Provider value={archiveVersions ?? null}>
+            <RouterProvider router={router} />
+        </ArchiveVersionsContext.Provider>);
 }
