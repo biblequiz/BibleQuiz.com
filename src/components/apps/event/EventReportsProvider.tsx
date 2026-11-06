@@ -121,18 +121,18 @@ export default function EventReportsProvider({ }: Props) {
     }
 
     // Only season reports are archived, so event reports never have pending changes.
-    const archivedReport = type === "season" && reportId
+    const isArchivedReport = type === "season" && reportId
         ? seasonReports.find(r => r.report.Id === reportId)?.report ?? null
         : null;
 
     return (
         <>
-        {archivedReport &&
+        {isArchivedReport &&
             <ArchivePendingBanner
-                id={archivedReport.Id}
+                id={isArchivedReport.Id}
                 label="report"
-                liveVersion={archivedReport.ArchiveVersion}
-                isMissingPending={archivedReport.IsVisible}
+                liveVersion={isArchivedReport.ArchiveVersion}
+                isMissingPending={isArchivedReport.IsVisible}
             />}
         <Outlet context={{
             auth: context.auth,
