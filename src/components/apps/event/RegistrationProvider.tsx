@@ -6,7 +6,8 @@ import type { RegistrationGeneralInfo } from "./registration/RegistrationGeneral
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
 import type { RegistrationTeamsAndQuizzersInfo } from "./registration/RegistrationTeamsAndQuizzersPage";
 import type { RegistrationOfficialsAndAttendeesInfo } from "./registration/RegistrationOfficialsPage";
-import { EventDivision, EventExternalForm, EventInfo, EventPublishType, EventsService, RequiredPersonFields, type EventField } from "types/services/EventsService";
+import { EventDivision, EventExternalForm, EventInfo, EventPublishType, EventRegistrationStatus, EventsService, RequiredPersonFields, type EventField } from "types/services/EventsService";
+import ArchivePendingBanner from "components/apps/ArchivePendingBanner";
 import type { RegistrationRoleRequiredFields } from "./registration/RegistrationRequiredFieldsPage";
 import type { RegistrationMoneyInfo } from "./registration/RegistrationMoneyPage";
 import type { RegistrationOtherInfo } from "./registration/RegistrationOtherPage";
@@ -374,6 +375,13 @@ export default function RegistrationProvider({ }: Props) {
 
     return (
         <div className="overflow-x-auto">
+            <ArchivePendingBanner
+                id={info?.Id}
+                label="event"
+                liveVersion={info?.ArchiveVersion}
+                isMissingPending={
+                    !!info?.PublishToArchives && info.RegistrationStatus !== EventRegistrationStatus.FutureOpen}
+            />
             {savingError && (
                 <div className="alert alert-warning rounded-2xl mb-4">
                     <div
