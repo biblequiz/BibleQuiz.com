@@ -2,7 +2,11 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import { getAllGeneratedEvents } from "utils/Events";
 import RegistrationRoot from "components/apps/registration/RegistrationRoot";
+
+const archiveVersions = Object.fromEntries(
+    (await getAllGeneratedEvents(import.meta.url)).map(e => [e.event.id, e.event.archiveVersion ?? null]));
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Event Registration",
@@ -16,5 +20,5 @@ const frontmatter: StarlightPageFrontmatter = {
     <div id="registration-fallback" class="flex justify-center items-center">
         <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
     </div>
-    <RegistrationRoot client:only="react" />
+    <RegistrationRoot client:only="react" archiveVersions={archiveVersions} />
 </StarlightPage>

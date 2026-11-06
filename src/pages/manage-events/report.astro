@@ -2,7 +2,11 @@
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import { getAllGeneratedEvents } from "utils/Events";
 import SeasonReportRoot from "components/apps/event/SeasonReportRoot";
+
+const archiveVersions = Object.fromEntries(
+    (await getAllGeneratedEvents(import.meta.url)).map(e => [e.event.id, e.event.archiveVersion ?? null]));
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Manage My Report",
@@ -17,5 +21,5 @@ const frontmatter: StarlightPageFrontmatter = {
         <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading
         Page ...
     </div>
-    <SeasonReportRoot client:only="react" />
+    <SeasonReportRoot client:only="react" archiveVersions={archiveVersions} />
 </StarlightPage>

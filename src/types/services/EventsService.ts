@@ -610,6 +610,12 @@ export class EventInfo extends RemoteServiceModelBase<string> {
   public readonly ArchiveLink!: string | null;
 
   /**
+   * Gets the current archive version of the event. If it differs from the version published to the site,
+   * changes are still waiting to be archived.
+   */
+  public readonly ArchiveVersion!: string | null;
+
+  /**
    * Gets a value indicating whether this event is in the past.
    */
   public readonly IsInPast!: boolean;

@@ -18,4 +18,5 @@ export interface EventInfo {
     locationCity: string | null;
     isVisible: boolean;
     isReport: boolean;
+    archiveVersion?: string | null;
 }

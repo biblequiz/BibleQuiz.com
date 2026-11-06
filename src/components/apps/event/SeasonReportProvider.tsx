@@ -1,5 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useState } from "react";
+import ArchivePendingBanner from "components/apps/ArchivePendingBanner";
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { DatabaseReportsService, SeasonReport } from "types/services/DatabaseReportsService";
@@ -137,6 +138,12 @@ export default function SeasonReportProvider({ }: Props) {
                     </Link>
                 </nav>
             )}
+            <ArchivePendingBanner
+                id={report.Id}
+                label="report"
+                liveVersion={report.ArchiveVersion}
+                isMissingPending={report.IsVisible}
+            />
             <Outlet context={{
                 auth: auth,
                 reportId: reportId,

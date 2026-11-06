@@ -396,6 +396,12 @@ export class EventReport extends EventReportBase {
 export class SeasonReport extends EventReportBase {
 
     /**
+     * Current archive version of the report. If it differs from the version published to the site,
+     * changes are still waiting to be archived.
+     */
+    public readonly ArchiveVersion!: string | null;
+
+    /**
      * Type of competition.
      */
     public readonly CompetitionTypeId!: string;
