@@ -12,7 +12,12 @@ import { getAstroRootSourcePath, getFilesByWildcard } from "./FileSystem";
 export function getAllGeneratedEvents(
     metaUrl: string): Promise<GeneratedEvent[]> {
 
-    // Several pages need these during the same build, so read the files once.
+    // Several pages need these during the same build, so read the files once. The dev server is long-lived
+    // and the files change underneath it, so it always reads them again.
+    if (import.meta.env.DEV) {
+        return loadGeneratedEvents(metaUrl);
+    }
+
     generatedEventsPromise ??= loadGeneratedEvents(metaUrl);
     return generatedEventsPromise;
 }
