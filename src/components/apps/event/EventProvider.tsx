@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 import { Outlet, useParams } from "react-router-dom";
 import { AuthManager } from "types/AuthManager";
 import { AstroEventsService } from "types/services/AstroEventsService";
-import { EventInfo } from "types/services/EventsService";
+import { EventInfo, EventRegistrationStatus } from "types/services/EventsService";
+import ArchivePendingBanner from "components/apps/ArchivePendingBanner";
 import { currentDatabaseSummaries } from "./EventRoot";
 import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
@@ -268,6 +269,14 @@ export default function EventProvider({ }: Props) {
                 <span className="event-title-text">{eventTitle}</span>
                 {eventIsHidden && <span className="badge badge-error mr-1 text-nowrap">HIDDEN</span>}
             </h1>
+            <ArchivePendingBanner
+                id={currentEvent?.Id}
+                label="event"
+                liveVersion={currentEvent?.ArchiveVersion}
+                isMissingPending={
+                    !!currentEvent?.PublishToArchives &&
+                    currentEvent.RegistrationStatus !== EventRegistrationStatus.FutureOpen}
+            />
             <Outlet context={{
                 auth: auth,
                 eventId: eventId,
