@@ -76,11 +76,11 @@ export default function EventReportSettingsQuizzerRankSection({
             {getAveragePointRadio(30, "Rank by 30-point questions answered correctly, then by average points, then by total quiz outs.")}
             {getAveragePointRadio(
                 null,
-                "Group by years in quiz (descending), then rank by average points, then by total quiz outs.",
+                "Group by years quizzing (descending), then rank by average points, then by total quiz outs.",
                 MeetRankingSortType.Descending)}
             {getAveragePointRadio(
                 null,
-                "Group by years in quiz (ascending), then rank by average points, then by total quiz outs.",
+                "Group by years quizzing (ascending), then rank by average points, then by total quiz outs.",
                 MeetRankingSortType.Ascending)}
 
             <div className="mt-2 p-3 border border-base-500 bg-base-300 rounded-lg">

@@ -131,6 +131,7 @@ export default function EventReportSettingsSection({
 
         newReport.QuizzersRankByAverageCorrectPointValue = quizzerRank.rankByAverageCorrectPointValue;
         newReport.MatchesOverride = quizzerRank.matchesOverride;
+        newReport.QuizzersRankYearsInQuiz = quizzerRank.yearsInQuiz;
 
         newReport.QuizzerAveragePoints = quizzerPointFilter.averagePoints;
         newReport.Quizzer10Pointers = quizzerPointFilter.p10;
