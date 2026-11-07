@@ -209,6 +209,7 @@ export default function StatsTabContent({
                                     </td>)}
                                 <td className="text-right">{quizzer.Scores!.TotalPoints}</td>
                                 <td className="text-right">{quizzer.Scores!.AveragePoints ? quizzer.Scores!.AveragePoints : (<>&nbsp;</>)}</td>
+                                <td className="text-right">{quizzer.Scores!.MaxPoints ? quizzer.Scores!.MaxPoints : (<>&nbsp;</>)}</td>
                                 <td className="text-right">{quizzer.Scores!.QuizOuts ? quizzer.Scores!.QuizOuts : (<>&nbsp;</>)}</td>
                                 <td className="text-right">{quizzer.Scores!.QuestionCorrectPercentage ? (<span>{quizzer.Scores!.QuestionCorrectPercentage}%</span>) : (<>&nbsp;</>)}</td>
                                 <td className="text-right">{quizzer.Scores!.Correct30s ? quizzer.Scores!.Correct30s : (<>&nbsp;</>)}</td>
@@ -311,6 +312,7 @@ export default function StatsTabContent({
                                                         <th className="text-right">Yrs</th>)}
                                                     <th className="text-right">Total</th>
                                                     <th className="text-right">Avg</th>
+                                                    <th className="text-right">Max</th>
                                                     <th className="text-right">QO</th>
                                                     <th className="text-right">Q%</th>
                                                     <th className="text-right">30s</th>
