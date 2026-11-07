@@ -399,7 +399,13 @@ export class ScoringReportTeamScore extends ScoringReportScoreBase {
 /**
  * Scoring information for a quizzer within a ScoringReport.
  */
-export class ScoringReportQuizzerScore extends ScoringReportScoreBase {}
+export class ScoringReportQuizzerScore extends ScoringReportScoreBase {
+    /**
+     * Highest total points the quizzer earned in a single match, or null if it isn't known (for example, the
+     * scores were summarized before this value existed).
+     */
+    public readonly MaxPoints!: number | null;
+}
 
 /**
  * Team within a ScoringReport.
