@@ -1,0 +1,4859 @@
+{
+  "EventName": "Northeast Oklahoma League Meet #2",
+  "DatabaseNames": {
+    "6e1fec72-381e-42fe-9b9c-d03a0a293061": "2026-2027_NE_OK-X"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "6e1fec72-381e-42fe-9b9c-d03a0a293061",
+        "MeetId": 5,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Discoverer2",
+        "LastUpdated": "11/7/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-05T04:42:34.1821244+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Celeste Freese",
+            "Quizzers": [
+              9,
+              12,
+              13,
+              16,
+              17
+            ],
+            "Id": "t_e6b5960868864e9fb8c120966744e89d",
+            "Name": "Christian Chapel - A",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 128.8,
+              "AverageCorrect": 12.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 50,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ashlyn Walker",
+            "Quizzers": [
+              2,
+              4,
+              6,
+              7,
+              10,
+              14,
+              15
+            ],
+            "Id": "t_b62b2d941af94068a84269c30071faef",
+            "Name": "Christian Chapel - B",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 260,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 7.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 29,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Cynthia Hopfer",
+            "Quizzers": [
+              0,
+              1,
+              3,
+              5,
+              8,
+              11
+            ],
+            "Id": "t_68eb4a7cadac41f499ee9bfa75053664",
+            "Name": "M1A God’s Kingdom",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 66.3,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "D1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1,
+          2
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "M1A God’s Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_0adff3adc9ec4d13ccbf08df21f76ae1",
+            "Name": "Addison Mauhar",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A God’s Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_bbd4f80d6f644116ccd008df21f76ae1",
+            "Name": "Alayna Mauhar",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_3a6950f16421472ed19e08df21f76ae1",
+            "Name": "Alex Douglas",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A God’s Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_21285313ca07423def6f08ddff6180fc",
+            "Name": "Ariella Staggers",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_52f30dcb658d4c54d19508df21f76ae1",
+            "Name": "Arthur Eipp",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": true,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.5,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A God’s Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_48d8ad54c2e9486eccca08df21f76ae1",
+            "Name": "Asher Staggers",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_3a2a4691772f41e4d0de08df21f76ae1",
+            "Name": "Autumn Geppelt",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_733a5b5a318a4a673b7108ddfc56c036",
+            "Name": "Blair Sutton",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A God’s Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_1e302dd3917942e7ccba08df21f76ae1",
+            "Name": "Caden Wright",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 61.3,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 77,
+              "Correct10s": 24,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - A",
+            "YearsQuizzing": null,
+            "Id": "q_71264fbb657a4efad0e308df21f76ae1",
+            "Name": "Ezra Huang",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 52.5,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 18,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_eef7ceb1ac1744343b8008ddfc56c036",
+            "Name": "Irene Eipp",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A God’s Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_a01e0be84d3b4083ccc408df21f76ae1",
+            "Name": "Jenna Cowan",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - A",
+            "YearsQuizzing": null,
+            "Id": "q_227b3b15e252491f3b7608ddfc56c036",
+            "Name": "Judah Robison",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.8,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - A",
+            "YearsQuizzing": null,
+            "Id": "q_0bb0268538104ffad10208df21f76ae1",
+            "Name": "Sophia Myers",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.8,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_4664f388778a44fed1a308df21f76ae1",
+            "Name": "Tabitha Eipp",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - B",
+            "YearsQuizzing": null,
+            "Id": "q_1abd58c964d14f07d18b08df21f76ae1",
+            "Name": "Tommy Sexton",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.5,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - A",
+            "YearsQuizzing": null,
+            "Id": "q_a5cc05e8725e43a3d0fd08df21f76ae1",
+            "Name": "Winter Ahlfield",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - A",
+            "YearsQuizzing": null,
+            "Id": "q_b7ac4c973b7e45b8d0e808df21f76ae1",
+            "Name": "Zeal Bloedorn",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 31.3,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          9,
+          17,
+          15,
+          4,
+          13,
+          12,
+          10,
+          0,
+          6,
+          16,
+          1,
+          2,
+          7,
+          11,
+          14,
+          3,
+          5
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "D1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "6e1fec72-381e-42fe-9b9c-d03a0a293061",
+        "MeetId": 6,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Explorer2",
+        "LastUpdated": "11/7/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-05T04:42:34.1821244+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Michelle Wagner",
+            "Quizzers": [
+              11,
+              13,
+              15,
+              23
+            ],
+            "Id": "t_7d39dcd525e34f0f9e1aba166a9a81f8",
+            "Name": "Bible Bosses (Owasso 1st Assembly)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 730,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 104.3,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 45,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Michael Woods",
+            "Quizzers": [
+              0,
+              3,
+              14,
+              28
+            ],
+            "Id": "t_d5023763999a48d48c411edaffdcbc7c",
+            "Name": "Christian Chapel - C",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 725,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 103.6,
+              "AverageCorrect": 10.7,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 61,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Lia Lian",
+            "Quizzers": [
+              7,
+              8,
+              12,
+              17
+            ],
+            "Id": "t_6d7c6bf2982a475e91b7ea4224f80291",
+            "Name": "Far East Mission Church (Tulsa) #2",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 655,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.6,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 51,
+              "Correct20s": 7,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Esther Khai",
+            "Quizzers": [
+              4,
+              5,
+              21,
+              22
+            ],
+            "Id": "t_5221df5f41bd4000acfc9dabfe9c0e8a",
+            "Name": "Far East Mission Church (Tulsa) #3",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 55,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.9,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 35,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -5,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Mung Mung",
+            "Quizzers": [
+              18,
+              19,
+              26,
+              29
+            ],
+            "Id": "t_0308b1dcbc0348a18fe5ff712e595c92",
+            "Name": "Far East Mission Church (Tulsa) #5",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 530,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 75.7,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 43,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 45,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Niang Tawi",
+            "Quizzers": [
+              6,
+              9,
+              31,
+              34
+            ],
+            "Id": "t_4e3a11cac7de4c2fa7600fca58c13ded",
+            "Name": "Far East Mission Church (Tulsa) #6",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 2,
+              "WinPercentage": 57,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 805,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 115.0,
+              "AverageCorrect": 9.7,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 57,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 110,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              20,
+              24,
+              25,
+              32,
+              33,
+              35
+            ],
+            "Id": "t_6e1fec72381e42fe9b9cd03a0a293061_22",
+            "Name": "Far East Mission Church (Tulsa) #7",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 7,
+              "WinPercentage": 0,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Mollie Payne",
+            "Quizzers": [
+              1,
+              2,
+              10,
+              16,
+              27,
+              30
+            ],
+            "Id": "t_bdca7863128b4f3788138932bc9a2792",
+            "Name": "SFAKids",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 29,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.7,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 30,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "E4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 35,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "E3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 110,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "E1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0,
+          5,
+          4,
+          2,
+          7,
+          3,
+          6
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Christian Chapel - C",
+            "YearsQuizzing": null,
+            "Id": "q_10f5432afa5146c43b7b08ddfc56c036",
+            "Name": "Abe Geppelt",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.6,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 30,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_4c6479b9c79243b683a108df24d69b23",
+            "Name": "Adam Payne",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.7,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_04d01626e8fe461183a808df24d69b23",
+            "Name": "Caitlyn Payne",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - C",
+            "YearsQuizzing": null,
+            "Id": "q_a66082f06d2948e9d1b708df21f76ae1",
+            "Name": "Charli Lock",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.1,
+              "AverageCorrect": 2.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 12,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #3",
+            "YearsQuizzing": null,
+            "Id": "q_3071c2d52f8a4f80d26608df21f76ae1",
+            "Name": "Ciin Kiim",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #3",
+            "YearsQuizzing": null,
+            "Id": "q_7a08e2c58834462cd26008df21f76ae1",
+            "Name": "Ciin Nuam",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #6",
+            "YearsQuizzing": null,
+            "Id": "q_cb4f0e5907624c57c14208df379bdde4",
+            "Name": "Cing Kip",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "YearsQuizzing": null,
+            "Id": "q_e0d60c1bc05a4316c11f08df379bdde4",
+            "Name": "Cing Muan",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "YearsQuizzing": null,
+            "Id": "q_5a09919ec03c4e25d24508df21f76ae1",
+            "Name": "Cing Nuam",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #6",
+            "YearsQuizzing": null,
+            "Id": "q_13f642f8a4f14333c14808df379bdde4",
+            "Name": "Esther Huai",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.1,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 37,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_ac4544446bb44222839f08df24d69b23",
+            "Name": "Ezekiel Wynn",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": true,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.3,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 13,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bosses (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_501021630be945adfaab08df2157bbfb",
+            "Name": "Gabriel Wagner",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 605,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.4,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 29,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "YearsQuizzing": null,
+            "Id": "q_fb0fe1339d5a44ffd23508df21f76ae1",
+            "Name": "Genesis Hatlang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 17,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bosses (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_0c28069e42da4e4bfab708df2157bbfb",
+            "Name": "Harley Goodman",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 35,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.4,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - C",
+            "YearsQuizzing": null,
+            "Id": "q_7152614c224f4bec770708dcdb413b3b",
+            "Name": "Isaac Ray",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 265,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 37.9,
+              "AverageCorrect": 3.6,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 19,
+              "Correct20s": 6,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bosses (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_a7cf124cefcc40a6fab108df2157bbfb",
+            "Name": "John Boughan",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 9.3,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_122c2559ea3c42d883a408df24d69b23",
+            "Name": "Jonathan Payne",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 19,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 45,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #2",
+            "YearsQuizzing": null,
+            "Id": "q_9f06e8e634fc4be1d23008df21f76ae1",
+            "Name": "Joyce Khai",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 375,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 53.6,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 34,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #5",
+            "YearsQuizzing": null,
+            "Id": "q_23d40a88de8f4b03d29c08df21f76ae1",
+            "Name": "Khup Khai",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 360,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 51.4,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 28,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #5",
+            "YearsQuizzing": null,
+            "Id": "q_a4d23f14c1b448fed29008df21f76ae1",
+            "Name": "Lian Cing",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #7",
+            "YearsQuizzing": null,
+            "Id": "q_6e1fec72381e42fe9b9cd03a0a293061_198",
+            "Name": "Lian Sian Cing",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #3",
+            "YearsQuizzing": null,
+            "Id": "q_76cfc5d105eb460ec18008df379bdde4",
+            "Name": "Lun Tawisang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.6,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #3",
+            "YearsQuizzing": null,
+            "Id": "q_de4e7848dac94c74d25508df21f76ae1",
+            "Name": "Man Lun",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bosses (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_7e7bbd2907114be670ae08ddf523e127",
+            "Name": "Micah Morgan",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.7,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #7",
+            "YearsQuizzing": null,
+            "Id": "q_6e1fec72381e42fe9b9cd03a0a293061_197",
+            "Name": "Mung Sian Kop",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #7",
+            "YearsQuizzing": null,
+            "Id": "q_6e1fec72381e42fe9b9cd03a0a293061_200",
+            "Name": "Nang Suan Khup",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #5",
+            "YearsQuizzing": null,
+            "Id": "q_13f21a6dafb145d9d29608df21f76ae1",
+            "Name": "Niang Siam",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_875097ff57764b4a810908df342f443e",
+            "Name": "Norah Ballard",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - C",
+            "YearsQuizzing": null,
+            "Id": "q_6b327dc822274bc9d1b208df21f76ae1",
+            "Name": "Olivia McKinley",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 36,
+              "IsTie": false,
+              "TotalPoints": -35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -5.0,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 11,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #5",
+            "YearsQuizzing": null,
+            "Id": "q_b389c1b100aa4ad6d2a208df21f76ae1",
+            "Name": "Pau Lian",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.3,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 15,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "SFAKids",
+            "YearsQuizzing": null,
+            "Id": "q_5998848005484e5483b708df24d69b23",
+            "Name": "Ryker Payne",
+            "ChurchId": "28c623b1-19d1-4aef-ac7f-d740b65d2f2f",
+            "ChurchName": "Skiatook First Assembly of God",
+            "City": "Skiatook",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #6",
+            "YearsQuizzing": null,
+            "Id": "q_d1cfdc28ce4049a1c13008df379bdde4",
+            "Name": "Samuel Hatlang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 255,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 36.4,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 11,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #7",
+            "YearsQuizzing": null,
+            "Id": "q_6e1fec72381e42fe9b9cd03a0a293061_195",
+            "Name": "Thang Muan Sang",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #7",
+            "YearsQuizzing": null,
+            "Id": "q_6e1fec72381e42fe9b9cd03a0a293061_199",
+            "Name": "Thang Sian Khual",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #6",
+            "YearsQuizzing": null,
+            "Id": "q_6bd9a24bb2bf4517c13608df379bdde4",
+            "Name": "Tuan Kuitung",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 45,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.4,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #7",
+            "YearsQuizzing": null,
+            "Id": "q_6e1fec72381e42fe9b9cd03a0a293061_196",
+            "Name": "Vum Sian Cing",
+            "ChurchId": null,
+            "ChurchName": "Far East Mission Church",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          11,
+          9,
+          17,
+          18,
+          0,
+          12,
+          14,
+          31,
+          3,
+          29,
+          10,
+          1,
+          23,
+          15,
+          34,
+          6,
+          5,
+          21,
+          2,
+          16,
+          33,
+          4,
+          7,
+          8,
+          19,
+          20,
+          22,
+          24,
+          25,
+          26,
+          27,
+          30,
+          32,
+          35,
+          13,
+          28
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "E1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "E2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "E3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 4,
+            "Name": "E4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": "11:30 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "6e1fec72-381e-42fe-9b9c-d03a0a293061",
+        "MeetId": 7,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Searcher2",
+        "LastUpdated": "11/7/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-05T04:42:34.1821244+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Kevin Wagner",
+            "Quizzers": [
+              2,
+              5
+            ],
+            "Id": "t_da7bbf8f9e584ba6a8867136bc9aafb1",
+            "Name": "Bible Blitz (Owasso 1st Assembly)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.0,
+              "AverageCorrect": 6.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 23,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 75,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tamara Beasler",
+            "Quizzers": [
+              0,
+              1,
+              3,
+              9,
+              10
+            ],
+            "Id": "t_6bef80f29ca24bb6a247f62bb1b64055",
+            "Name": "Christian Chapel - D",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 530,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 106.0,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 33,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 115,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sang Nu",
+            "Quizzers": [
+              4,
+              16,
+              17,
+              21
+            ],
+            "Id": "t_d27e8d07cb3f49ddb8d2a9522587f01b",
+            "Name": "Far East Mission Church (Tulsa) #1",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 460,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 92.0,
+              "AverageCorrect": 8.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 28,
+              "Correct20s": 13,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Cin Pu",
+            "Quizzers": [
+              6,
+              12,
+              13,
+              18,
+              20
+            ],
+            "Id": "t_e7aefebd03c04f83a44bd61d3351d218",
+            "Name": "Far East Mission Church (Tulsa) #4",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 350,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 22,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Mike Hopfer",
+            "Quizzers": [
+              7,
+              11,
+              19
+            ],
+            "Id": "t_87400e941efb4787b3dbf552491a0cd9",
+            "Name": "M1A Buzzer Boyz",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 94.0,
+              "AverageCorrect": 8.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 38,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ila Boggs",
+            "Quizzers": [
+              8,
+              14,
+              15
+            ],
+            "Id": "t_bd9caa1ad0de466dae8920128b75027a",
+            "Name": "The Bible Girls (Owasso 1st Assembly)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 89.0,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 26,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "S2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "S1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "S3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          5,
+          1,
+          4,
+          3,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by head-to-head record of teams."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Christian Chapel - D",
+            "YearsQuizzing": null,
+            "Id": "q_0b59a8ea8638474cd1cc08df21f76ae1",
+            "Name": "Braedon Strausser",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.0,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 13,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - D",
+            "YearsQuizzing": null,
+            "Id": "q_2c59a7c64bb64c87d1d108df21f76ae1",
+            "Name": "Bryson Strausser",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Blitz (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_2bb50e0313bc415ccdea08dccfacd3a9",
+            "Name": "Caleb Wagner",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 83.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 22,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - D",
+            "YearsQuizzing": null,
+            "Id": "q_9486cd101b3b4b71d1d608df21f76ae1",
+            "Name": "Charles McKinley",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a1b82f56f2ac47f2ca0508df2279a286",
+            "Name": "Cing Kim",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Blitz (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_a82a9d05d5d84c20fa7908df2157bbfb",
+            "Name": "Collin Pingleton",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #4",
+            "YearsQuizzing": null,
+            "Id": "q_0fcc77996f474901d27208df21f76ae1",
+            "Name": "David Lian",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 56.0,
+              "AverageCorrect": 4.4,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 12,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A Buzzer Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_ac6ab03defd94a62818908dcdb19fbaa",
+            "Name": "Elijah Staggers",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 235,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 47.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 20,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Girls (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_5570bb2c5d3c4526ce0808dccfacd3a9",
+            "Name": "Ellie Boggs",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 20,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - D",
+            "YearsQuizzing": null,
+            "Id": "q_5b6fb063db8c4b2bd1db08df21f76ae1",
+            "Name": "Fisher Douglas",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Christian Chapel - D",
+            "YearsQuizzing": null,
+            "Id": "q_100ebf810f0344a33b9e08ddfc56c036",
+            "Name": "Gryffin Woods",
+            "ChurchId": "0fa7f28f-e53f-42eb-991c-3b988a7d8314",
+            "ChurchName": "Christian Chapel Assembly",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.0,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 15,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A Buzzer Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_f80b20f0b8c648f2ef6508ddff6180fc",
+            "Name": "Jett Green",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 210,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.0,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 16,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #4",
+            "YearsQuizzing": null,
+            "Id": "q_a4fa387acf7041b9c12a08df379bdde4",
+            "Name": "Joel Pau",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #4",
+            "YearsQuizzing": null,
+            "Id": "q_8a93bfba819e44ddd27808df21f76ae1",
+            "Name": "Kap Sang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Girls (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_d4c1898ffc9942f7fa8b08df2157bbfb",
+            "Name": "Kealoha Alves",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Bible Girls (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_9154bd454850402ffa9108df2157bbfb",
+            "Name": "Millie Frazier",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 14,
+              "IsTie": true,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #1",
+            "YearsQuizzing": null,
+            "Id": "q_50680e7645eb4d5cca0a08df2279a286",
+            "Name": "Piang Lian",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 27.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 13,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #1",
+            "YearsQuizzing": null,
+            "Id": "q_e03e51587bd9408dca0e08df2279a286",
+            "Name": "Siam Sang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 5.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 15,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #4",
+            "YearsQuizzing": null,
+            "Id": "q_58e34d34b1294b87d28408df21f76ae1",
+            "Name": "Thang Sang",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "M1A Buzzer Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_0a836282d6ce499fef6a08ddff6180fc",
+            "Name": "TJ Mauhar",
+            "ChurchId": "f221c89e-5546-4711-94cc-b57e6a93d86d",
+            "ChurchName": "First Assembly of God",
+            "City": "Muskogee",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #4",
+            "YearsQuizzing": null,
+            "Id": "q_c1e0cd7f30cc472cd27e08df21f76ae1",
+            "Name": "Tuang Khai",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": -20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -4.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Far East Mission Church (Tulsa) #1",
+            "YearsQuizzing": null,
+            "Id": "q_7a3f259b335f4dd4ca0708df2279a286",
+            "Name": "Vung It",
+            "ChurchId": "6f7e5f9f-7431-40a4-9c8c-f8d20b662d31",
+            "ChurchName": "Far East Mission Church",
+            "City": "Tulsa",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          2,
+          8,
+          10,
+          17,
+          6,
+          7,
+          11,
+          0,
+          16,
+          13,
+          1,
+          14,
+          19,
+          12,
+          15,
+          3,
+          4,
+          9,
+          18,
+          21,
+          5,
+          20
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "S1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "S2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "S3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "6e1fec72-381e-42fe-9b9c-d03a0a293061",
+        "MeetId": 8,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "Master2",
+        "LastUpdated": "11/7/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-05T04:42:34.1821244+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Aaron Jackson",
+            "Quizzers": [
+              2,
+              3
+            ],
+            "Id": "t_a070df1c744c460e993a398dc9ed2471",
+            "Name": "Bible Bros (Owasso 1st Assembly)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 615,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 153.8,
+              "AverageCorrect": 10.5,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 24,
+              "Correct20s": 13,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 145,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sarah Childress",
+            "Quizzers": [
+              0,
+              1
+            ],
+            "Id": "t_fac476ae084e4314b8ede845d1357192",
+            "Name": "Buzzer Buddies (Owasso 1st Assembly)",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 140.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 15,
+              "Correct20s": 14,
+              "Correct30s": 7,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 145,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "M1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Buzzer Buddies (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_9a5e49deca974f9aa6c808da90edc9c7",
+            "Name": "Anna Wagner",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 118.8,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 2,
+              "Correct20s": 14,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Buzzer Buddies (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_e9eed4b6bc3f445dce7008dccfacd3a9",
+            "Name": "Ella Childress",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.3,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 59,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_ebcc9112ef6e4239a70608da90edc9c7",
+            "Name": "Holden Hanover",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 20,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Bible Bros (Owasso 1st Assembly)",
+            "YearsQuizzing": null,
+            "Id": "q_87d132fcd5fd4b15a6e208da90edc9c7",
+            "Name": "Maverick Boggs",
+            "ChurchId": "d32c61c2-32f8-4834-85aa-0189260aac03",
+            "ChurchName": "Owasso 1st Assembly",
+            "City": "Owasso",
+            "State": "OK",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 435,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 108.8,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 4,
+              "Correct20s": 13,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "M1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-07T17:26:28.8817483+00:00"
+}
