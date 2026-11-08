@@ -1,0 +1,1004 @@
+{
+  "EventName": "2026-2027 JBQ Glidden November League Meet",
+  "DatabaseNames": {
+    "a117d082-69da-4274-92be-2438df395c05": "November 2026 Glidden Meet"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2026 November Individual Stats",
+        "LastUpdated": "11/8/26 3:20 AM",
+        "DatabaseLastUpdated": "2026-11-06T02:12:35.6738854+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": null,
+        "RankedTeams": null,
+        "TeamFootnotes": null,
+        "Quizzers": [
+          {
+            "TeamName": "Glidden Banana Peels",
+            "YearsQuizzing": 5,
+            "Id": "q_bbc96bf23dae4e2fc08808df3a2653cf",
+            "Name": "Ajani Zielke",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 82.5,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 4,
+              "Correct20s": 23,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Legacy Quizzers",
+            "YearsQuizzing": 3,
+            "Id": "q_22aa2f5a74f64641c05108df3a2653cf",
+            "Name": "Anya Buchanan",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 23.3,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 15,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Venomous Snake Crushers",
+            "YearsQuizzing": 3,
+            "Id": "q_df342150072e4903bfa808df3a2653cf",
+            "Name": "Brenna Buchanan",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 140,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 700,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 116.7,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 12,
+              "Correct20s": 19,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Legacy Quizzers",
+            "YearsQuizzing": 3,
+            "Id": "q_9f8c5c0c9ad74caec03a08df3a2653cf",
+            "Name": "Eden Denison",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 110,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 440,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 73.3,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 5,
+              "Correct20s": 19,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Venomous Snake Crushers",
+            "YearsQuizzing": 1,
+            "Id": "q_630bf5c19e7a4c8ebfae08df3a2653cf",
+            "Name": "Enoch Denison",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mellen",
+            "YearsQuizzing": 2,
+            "Id": "q_00000000000000000000000000000002_9",
+            "Name": "Gabby Zimmerman",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Mellen Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.8,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Banana Peels",
+            "YearsQuizzing": 1,
+            "Id": "q_20872b55fd424164c09408df3a2653cf",
+            "Name": "Leila McGhee",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.8,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 10,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Banana Peels",
+            "YearsQuizzing": 2,
+            "Id": "q_29412cc91b9845f6c08e08df3a2653cf",
+            "Name": "Sadie McGhee",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.3,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Legacy Quizzers",
+            "YearsQuizzing": 1,
+            "Id": "q_b5be1b6a7fbd4a6ec05708df3a2653cf",
+            "Name": "William Buchanan",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 63,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          6,
+          8,
+          5,
+          7,
+          2,
+          3,
+          1,
+          0
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": null,
+        "Rooms": null,
+        "TeamRankingLabel": null,
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Grouped by years in quiz (Ascending), then ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Years Quizzing & Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": true
+      },
+      {
+        "DatabaseId": "a117d082-69da-4274-92be-2438df395c05",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "November 2026",
+        "LastUpdated": "11/8/26 3:20 AM",
+        "DatabaseLastUpdated": "2026-11-06T02:12:35.6738854+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Elissa McGhee",
+            "Quizzers": [
+              0,
+              6,
+              7
+            ],
+            "Id": "t_d74eeadddcde42948fe45378fb37159f",
+            "Name": "Glidden Banana Peels",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 670,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 111.7,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 23,
+              "Correct20s": 24,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Matt Buchanan",
+            "Quizzers": [
+              1,
+              3,
+              8
+            ],
+            "Id": "t_f69da357324a4de99292b0009e3f71f2",
+            "Name": "Glidden Legacy Quizzers",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 615,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 102.5,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 25,
+              "Correct20s": 19,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 65,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 130,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Steve Denison",
+            "Quizzers": [
+              2,
+              4
+            ],
+            "Id": "t_a718fc32f2dc425d8e0346ea85d34977",
+            "Name": "Glidden Venomous Snake Crushers",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 820,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 136.7,
+              "AverageCorrect": 8.3,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 26,
+              "Correct20s": 19,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 150,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5
+            ],
+            "Id": "t_a117d08269da427492be2438df395c05_4",
+            "Name": "Mellen",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Mellen Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.8,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 18,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 70,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Glidden Banana Peels",
+            "YearsQuizzing": 5,
+            "Id": "q_bbc96bf23dae4e2fc08808df3a2653cf",
+            "Name": "Ajani Zielke",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Legacy Quizzers",
+            "YearsQuizzing": 3,
+            "Id": "q_22aa2f5a74f64641c05108df3a2653cf",
+            "Name": "Anya Buchanan",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Venomous Snake Crushers",
+            "YearsQuizzing": 3,
+            "Id": "q_df342150072e4903bfa808df3a2653cf",
+            "Name": "Brenna Buchanan",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Legacy Quizzers",
+            "YearsQuizzing": 3,
+            "Id": "q_9f8c5c0c9ad74caec03a08df3a2653cf",
+            "Name": "Eden Denison",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Venomous Snake Crushers",
+            "YearsQuizzing": 1,
+            "Id": "q_630bf5c19e7a4c8ebfae08df3a2653cf",
+            "Name": "Enoch Denison",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mellen",
+            "YearsQuizzing": 2,
+            "Id": "q_a117d08269da427492be2438df395c05_28",
+            "Name": "Gabby Zimmerman",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Mellen Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Banana Peels",
+            "YearsQuizzing": 1,
+            "Id": "q_20872b55fd424164c09408df3a2653cf",
+            "Name": "Leila McGhee",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Banana Peels",
+            "YearsQuizzing": 2,
+            "Id": "q_29412cc91b9845f6c08e08df3a2653cf",
+            "Name": "Sadie McGhee",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Legacy Quizzers",
+            "YearsQuizzing": 1,
+            "Id": "q_b5be1b6a7fbd4a6ec05708df3a2653cf",
+            "Name": "William Buchanan",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": null,
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": null,
+        "QuizzerFootnotes": null,
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "A",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "",
+        "TeamRankingAwardsLabel": "",
+        "QuizzerRankingLabel": null,
+        "QuizzerRankingAwardsLabel": null,
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-08T03:20:40.7634418+00:00"
+}

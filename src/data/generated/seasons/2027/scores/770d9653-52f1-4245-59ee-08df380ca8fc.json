@@ -1,0 +1,2168 @@
+{
+  "EventName": "Western Section Meet 1",
+  "DatabaseNames": {
+    "31cb4acd-0e28-4f1b-8195-cc07f2d2ee03": "2026-27_NY_Western_Section_JBQ"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "31cb4acd-0e28-4f1b-8195-cc07f2d2ee03",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2026-27 NY Western Section JBQ Meet 1",
+        "LastUpdated": "11/7/26 5:19 PM",
+        "DatabaseLastUpdated": "2026-11-07T14:52:48.5535994+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Christy Sabatino",
+            "Quizzers": [
+              2,
+              6,
+              11,
+              16
+            ],
+            "Id": "t_fe4ff14014b444c1a34f75770d2e838e",
+            "Name": "Crazy Quizzers - Blue Team",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 59.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
+              "Correct10s": 23,
+              "Correct20s": 9,
+              "Correct30s": 1,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 85,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Sue Given",
+            "Quizzers": [
+              14,
+              19,
+              21,
+              26
+            ],
+            "Id": "t_31cb4acd0e284f1b8195cc07f2d2ee03_7",
+            "Name": "Crazy Quizzers - Gold Team",
+            "ChurchId": null,
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 35.0,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 26,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 45,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 75,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Michael Crooks",
+            "Quizzers": [
+              10,
+              22,
+              23
+            ],
+            "Id": "t_0cad407562304f57ad207dab247d055f",
+            "Name": "Jesus Generation - Mike",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 2,
+              "WinPercentage": 71,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 192.1,
+              "AverageCorrect": 9.9,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 32,
+              "Correct20s": 19,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 4,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 150,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 240,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Wendy Conheady",
+            "Quizzers": [
+              1,
+              13,
+              20
+            ],
+            "Id": "t_3c96588e362b4c048a77b8111c6491af",
+            "Name": "Jesus Generation - Wendy",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 1,
+              "WinPercentage": 86,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1750,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 250.0,
+              "AverageCorrect": 13.7,
+              "QuizOuts": 17,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 47,
+              "Correct20s": 36,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 7,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 290,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 310,
+                "OtherTeam": 6,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 285,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 315,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kathy Matiasz",
+            "Quizzers": [
+              7,
+              28,
+              29,
+              32
+            ],
+            "Id": "t_04fe9d04ec75461897003701709533e6",
+            "Name": "PCF - Kathy",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 820,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 117.1,
+              "AverageCorrect": 7.1,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 29,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 185,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 7,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Savannah Matiasz",
+            "Quizzers": [
+              8,
+              9,
+              12,
+              25
+            ],
+            "Id": "t_d08271890c4a4defb4a6ffb929602a05",
+            "Name": "PCF - Savannah",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "Wins": 7,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1955,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 279.3,
+              "AverageCorrect": 14.4,
+              "QuizOuts": 16,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 53,
+              "Correct20s": 31,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 335,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 330,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 320,
+                "OtherTeam": 7,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 340,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 195,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 6,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Tammy Spears",
+            "Quizzers": [
+              4,
+              5,
+              17,
+              27,
+              30
+            ],
+            "Id": "t_ee308c79c27c481992d7f98f3e86fcc3",
+            "Name": "The Donut Kingdom",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Evangel Assembly of God",
+            "City": "Williamsville",
+            "State": "NY",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 3,
+              "WinPercentage": 57,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 170.0,
+              "AverageCorrect": 9.7,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 37,
+              "Correct20s": 26,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 115,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 0,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 215,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 7,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 150,
+                "OtherTeam": 5,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Delorah Mast",
+            "Quizzers": [
+              0,
+              3,
+              15,
+              18,
+              24,
+              31,
+              33
+            ],
+            "Id": "t_31cb4acd0e284f1b8195cc07f2d2ee03_9",
+            "Name": "The Tabernacle",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 6,
+              "WinPercentage": 14,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 520,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 74.3,
+              "AverageCorrect": 5.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 22,
+              "Correct20s": 12,
+              "Correct30s": 2,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 3,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 1,
+                "RoomId": 4,
+                "Room": "4",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 6,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          5,
+          3,
+          2,
+          6,
+          4,
+          7,
+          0,
+          1
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_0a1d20e8c58f473df78a08dcef1bbbfc",
+            "Name": "Abigail Jenks",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 31,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jesus Generation - Wendy",
+            "YearsQuizzing": 3,
+            "Id": "q_2c16800c354a4843f7da08dcef1bbbfc",
+            "Name": "Amelia Bianchi",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 795,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 113.6,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 0,
+              "Correct20s": 20,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Blue Team",
+            "YearsQuizzing": 0,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_53",
+            "Name": "Andrea Vaquez",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 170,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 24.3,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 12,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_74",
+            "Name": "Bryce Davila",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 290,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 41.4,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Donut Kingdom",
+            "YearsQuizzing": 0,
+            "Id": "q_fde839b3a2cd4106b7e208dccac0cba7",
+            "Name": "Cade Spears",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Evangel Assembly of God",
+            "City": "Williamsville",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.7,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Donut Kingdom",
+            "YearsQuizzing": 1,
+            "Id": "q_12169f8594164b97b7e508dccac0cba7",
+            "Name": "Caleb Tan",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Evangel Assembly of God",
+            "City": "Williamsville",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.6,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 33,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Blue Team",
+            "YearsQuizzing": 0,
+            "Id": "q_d6ff0570ed734065f6f008dcef1bbbfc",
+            "Name": "Damian Cruz",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 21,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Kathy",
+            "YearsQuizzing": 2,
+            "Id": "q_634eb11e5ba54a79f62d08dcef1bbbfc",
+            "Name": "Eliana Larivey",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 0,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Savannah",
+            "YearsQuizzing": 1,
+            "Id": "q_ddc6f6ac2b7a4cacf62108dcef1bbbfc",
+            "Name": "Gabriel Wagner",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 420,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 60.0,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 25,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Savannah",
+            "YearsQuizzing": 2,
+            "Id": "q_8e8c5203ed3f4fc5f63308dcef1bbbfc",
+            "Name": "Gunnar Dispence",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.7,
+              "AverageCorrect": 1.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 4,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jesus Generation - Mike",
+            "YearsQuizzing": 0,
+            "Id": "q_ad5f6377c396410ff77e08dcef1bbbfc",
+            "Name": "Hope Degraaf",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.9,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 11,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Blue Team",
+            "YearsQuizzing": 0,
+            "Id": "q_a54f01fb696e405af68b08dcef1bbbfc",
+            "Name": "Jaxxon Floyd",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 27,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.9,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Savannah",
+            "YearsQuizzing": 2,
+            "Id": "q_0105e383debe4331f62708dcef1bbbfc",
+            "Name": "Jayla Wagner",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1010,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 144.3,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 18,
+              "Correct30s": 17,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jesus Generation - Wendy",
+            "YearsQuizzing": 1,
+            "Id": "q_401575b63a9349bbf7d408dcef1bbbfc",
+            "Name": "Jeana Fiore",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 410,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 58.6,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 33,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Gold Team",
+            "YearsQuizzing": 1,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_58",
+            "Name": "Jebidiah Seward",
+            "ChurchId": null,
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_76",
+            "Name": "Josiah Ware",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 21,
+              "IsTie": true,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 9,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Blue Team",
+            "YearsQuizzing": 0,
+            "Id": "q_e0d777bccc4b44aef69108dcef1bbbfc",
+            "Name": "Julio Vasquez",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 155,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.1,
+              "AverageCorrect": 1.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 8,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Donut Kingdom",
+            "YearsQuizzing": 2,
+            "Id": "q_5cd13a0f4fcb4428b7e008dccac0cba7",
+            "Name": "Kali Martino",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Evangel Assembly of God",
+            "City": "Williamsville",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 25,
+              "IsTie": true,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 0,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_760d7861f080475eb7f308dccac0cba7",
+            "Name": "Londyn Ware",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 28,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.1,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Gold Team",
+            "YearsQuizzing": 0,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_57",
+            "Name": "Losson Baker",
+            "ChurchId": null,
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 29,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jesus Generation - Wendy",
+            "YearsQuizzing": 3,
+            "Id": "q_592c4d5a6717467bf7eb08dcef1bbbfc",
+            "Name": "Luke Bianchi",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 545,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 77.9,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 14,
+              "Correct20s": 16,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Gold Team",
+            "YearsQuizzing": 0,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_56",
+            "Name": "Lyza Baker",
+            "ChurchId": null,
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 15,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jesus Generation - Mike",
+            "YearsQuizzing": null,
+            "Id": "q_25337762e87349f3f68508dcef1bbbfc",
+            "Name": "Makayla Crooks",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 955,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 136.4,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 0,
+              "Correct20s": 16,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Jesus Generation - Mike",
+            "YearsQuizzing": null,
+            "Id": "q_58f2092502454adbf7e508dcef1bbbfc",
+            "Name": "Marshall Crooks",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "The Bridge",
+            "City": "Niagara Falls",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 42.9,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 21,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_31cb4acd0e284f1b8195cc07f2d2ee03_75",
+            "Name": "Riley Magnum",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 23,
+              "IsTie": true,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.7,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Savannah",
+            "YearsQuizzing": 0,
+            "Id": "q_40665eadca29475cf65b08dcef1bbbfc",
+            "Name": "Rylin Townson",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 415,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 59.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 24,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Crazy Quizzers - Gold Team",
+            "YearsQuizzing": 0,
+            "Id": "q_e429b8b3c96447dbf69708dcef1bbbfc",
+            "Name": "Sebastian Cruz",
+            "ChurchId": null,
+            "ChurchName": "Batavia Assembly of God",
+            "City": "Batavia",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 95,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 13.6,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Donut Kingdom",
+            "YearsQuizzing": null,
+            "Id": "q_7d0226f8a2b645b2b7ee08dccac0cba7",
+            "Name": "Shawn Saqib",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Evangel Assembly of God",
+            "City": "Williamsville",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 675,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 96.4,
+              "AverageCorrect": 4.1,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 0,
+              "Correct20s": 24,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Kathy",
+            "YearsQuizzing": 0,
+            "Id": "q_39829f8cd09e4b6ff65508dcef1bbbfc",
+            "Name": "Silas Prutsman",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 29,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.4,
+              "AverageCorrect": 0.1,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Kathy",
+            "YearsQuizzing": 0,
+            "Id": "q_52813c1ab1ed4598f64f08dcef1bbbfc",
+            "Name": "Sophia Belz",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Donut Kingdom",
+            "YearsQuizzing": 1,
+            "Id": "q_535c30a0ae1f4fe3b7e908dccac0cba7",
+            "Name": "Sophia Martino",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Evangel Assembly of God",
+            "City": "Williamsville",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 31,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_2ee92b440f5347a0f79008dcef1bbbfc",
+            "Name": "Sophie Haas",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 25,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.3,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "PCF - Kathy",
+            "YearsQuizzing": 2,
+            "Id": "q_25e38a5ea2a84ecaf66108dcef1bbbfc",
+            "Name": "Violet Kozlowski",
+            "ChurchId": "7898b4a7-4c67-49e2-80bd-ecb8fa837c00",
+            "ChurchName": "Pioneer Christian Fellowship",
+            "City": "Arcade",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.7,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 28,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Tabernacle",
+            "YearsQuizzing": 0,
+            "Id": "q_3ec4176947eb45aef78408dcef1bbbfc",
+            "Name": "Zoey Zybert",
+            "ChurchId": null,
+            "ChurchName": "The Tabernale",
+            "City": "Orchard Park",
+            "State": "NY",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 20,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.7,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          12,
+          22,
+          1,
+          27,
+          20,
+          7,
+          5,
+          8,
+          25,
+          13,
+          32,
+          23,
+          3,
+          2,
+          16,
+          21,
+          9,
+          26,
+          10,
+          33,
+          6,
+          15,
+          4,
+          24,
+          31,
+          17,
+          11,
+          18,
+          19,
+          28,
+          0,
+          14,
+          29,
+          30
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 4,
+            "Name": "4",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 7,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 7,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 6,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 7,
+            "MatchTime": null,
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-07T17:19:30.1444303+00:00"
+}
