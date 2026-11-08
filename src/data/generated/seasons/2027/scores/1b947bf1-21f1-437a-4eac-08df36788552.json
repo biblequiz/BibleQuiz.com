@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Championship M2",
-        "LastUpdated": "11/7/26 4:33 PM",
-        "DatabaseLastUpdated": "2026-11-07T13:53:00.9776393+00:00",
+        "LastUpdated": "11/8/26 1:48 PM",
+        "DatabaseLastUpdated": "2026-11-08T13:36:27.8971852+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -32,21 +32,21 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "Wins": 2,
+              "Wins": 3,
               "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 2,
+              "WinPercentage": 60,
+              "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 570,
+              "TotalPoints": 750,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 142.5,
-              "AverageCorrect": 9.5,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 73,
-              "Correct10s": 19,
-              "Correct20s": 9,
-              "Correct30s": 10,
-              "FootnoteIndex": 0
+              "AveragePoints": 150.0,
+              "AverageCorrect": 9.6,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 74,
+              "Correct10s": 24,
+              "Correct20s": 11,
+              "Correct30s": 13,
+              "FootnoteIndex": null
             },
             "Matches": [
               {
@@ -86,16 +86,16 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 180,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "C1",
-                "State": "InProgress",
-                "CurrentQuestion": 20
+                "State": "Completed",
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 4
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Emily Wunderlich",
@@ -111,20 +111,20 @@
             "State": "PA",
             "Scores": {
               "Wins": 2,
-              "Losses": 2,
-              "WinPercentage": 50,
-              "Rank": 1,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 580,
+              "TotalPoints": 750,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 145.0,
-              "AverageCorrect": 8.8,
-              "QuizOuts": 5,
-              "QuestionCorrectPercentage": 92,
-              "Correct10s": 16,
-              "Correct20s": 17,
+              "AveragePoints": 150.0,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 21,
+              "Correct20s": 22,
               "Correct30s": 2,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             },
             "Matches": [
               {
@@ -164,28 +164,23 @@
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 170,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "C1",
-                "State": "InProgress",
-                "CurrentQuestion": 20
+                "State": "Completed",
+                "CurrentQuestion": null
               }
             ],
-            "CurrentMatchId": 4
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
-          1,
-          0
+          0,
+          1
         ],
-        "TeamFootnotes": [
-          {
-            "Symbol": "*",
-            "Text": "Tie couldn't be broken by tie breaking rules."
-          }
-        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Bible Buddies",
@@ -197,7 +192,7 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 0,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 0,
@@ -224,15 +219,15 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
-              "Rank": 3,
+              "MaxPoints": 85,
+              "Rank": 4,
               "IsTie": false,
-              "TotalPoints": 200,
+              "TotalPoints": 180,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 50.0,
-              "AverageCorrect": 3.8,
+              "AveragePoints": 36.0,
+              "AverageCorrect": 3.0,
               "QuizOuts": 2,
-              "QuestionCorrectPercentage": 83,
+              "QuestionCorrectPercentage": 71,
               "Correct10s": 8,
               "Correct20s": 7,
               "Correct30s": 0,
@@ -251,18 +246,18 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 140,
               "Rank": 2,
               "IsTie": false,
-              "TotalPoints": 295,
+              "TotalPoints": 435,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 73.8,
-              "AverageCorrect": 3.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 80,
+              "AveragePoints": 87.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 85,
               "Correct10s": 0,
-              "Correct20s": 2,
-              "Correct30s": 10,
+              "Correct20s": 4,
+              "Correct30s": 13,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -278,16 +273,16 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 60,
               "Rank": 5,
               "IsTie": false,
-              "TotalPoints": 75,
+              "TotalPoints": 135,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 18.8,
-              "AverageCorrect": 2.8,
-              "QuizOuts": 1,
-              "QuestionCorrectPercentage": 58,
-              "Correct10s": 11,
+              "AveragePoints": 27.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 16,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -305,17 +300,17 @@
             "City": "Coalport",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 110,
               "Rank": 1,
               "IsTie": false,
-              "TotalPoints": 400,
+              "TotalPoints": 510,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 100.0,
+              "AveragePoints": 102.0,
               "AverageCorrect": 4.8,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 86,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
               "Correct10s": 0,
-              "Correct20s": 17,
+              "Correct20s": 22,
               "Correct30s": 2,
               "FootnoteIndex": null
             },
@@ -332,16 +327,16 @@
             "City": "Coalport",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
-              "Rank": 4,
+              "MaxPoints": 60,
+              "Rank": 3,
               "IsTie": false,
-              "TotalPoints": 180,
+              "TotalPoints": 240,
               "PerMeetTotalPoints": null,
-              "AveragePoints": 45.0,
-              "AverageCorrect": 4.0,
-              "QuizOuts": 2,
+              "AveragePoints": 48.0,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 3,
               "QuestionCorrectPercentage": 100,
-              "Correct10s": 16,
+              "Correct10s": 21,
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
@@ -353,8 +348,8 @@
         "RankedQuizzers": [
           4,
           2,
-          1,
           5,
+          1,
           3,
           0
         ],
@@ -368,8 +363,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -378,8 +373,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -388,8 +383,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -398,21 +393,21 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
                 "Blockers": null
               },
               {
-                "CurrentQuestion": 20,
+                "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "InProgress",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
@@ -455,8 +450,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "4 of 5 Match(es) Done",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -470,8 +465,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Discovery M2",
-        "LastUpdated": "11/7/26 4:33 PM",
-        "DatabaseLastUpdated": "2026-11-07T13:53:00.9776393+00:00",
+        "LastUpdated": "11/8/26 1:48 PM",
+        "DatabaseLastUpdated": "2026-11-08T13:36:27.8971852+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -850,7 +845,7 @@
             "City": "Cherry Tree",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 0,
               "Rank": 11,
               "IsTie": false,
               "TotalPoints": 0,
@@ -877,7 +872,7 @@
             "City": "Cherry Tree",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 90,
               "Rank": 4,
               "IsTie": false,
               "TotalPoints": 420,
@@ -904,7 +899,7 @@
             "City": "Coalport",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 60,
               "Rank": 7,
               "IsTie": false,
               "TotalPoints": 190,
@@ -931,7 +926,7 @@
             "City": "Coalport",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 90,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 445,
@@ -958,7 +953,7 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 20,
               "Rank": 9,
               "IsTie": false,
               "TotalPoints": 60,
@@ -985,7 +980,7 @@
             "City": "Cherry Tree",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 100,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 520,
@@ -1012,7 +1007,7 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 85,
               "Rank": 2,
               "IsTie": false,
               "TotalPoints": 485,
@@ -1039,7 +1034,7 @@
             "City": "Coalport",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 110,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 350,
@@ -1066,7 +1061,7 @@
             "City": "Cherry Tree",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 80,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": 410,
@@ -1093,7 +1088,7 @@
             "City": "Williamsburg",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 30,
               "Rank": 10,
               "IsTie": false,
               "TotalPoints": 50,
@@ -1120,7 +1115,7 @@
             "City": "Cherry Tree",
             "State": "PA",
             "Scores": {
-              "MaxPoints": null,
+              "MaxPoints": 60,
               "Rank": 8,
               "IsTie": false,
               "TotalPoints": 175,
@@ -1370,5 +1365,5 @@
       }
     }
   ],
-  "Freshness": "2026-11-07T16:33:13.6944341+00:00"
+  "Freshness": "2026-11-08T13:48:47.1484695+00:00"
 }
