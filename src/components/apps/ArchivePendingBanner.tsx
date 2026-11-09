@@ -45,7 +45,7 @@ export default function ArchivePendingBanner({ id, label, liveVersion, isMissing
         <div role="alert" className="alert alert-info mb-2">
             <FontAwesomeIcon icon="fas faClockRotateLeft" />
             <span>
-                To save money, the changes you've made to this {label} only appear in <i>Upcoming & Live Events</i> or the season results every 3 hours (3:30 AM, 6:30 AM, etc.).
+                To save money, the changes you've made to this {label} only appear in <i>Upcoming & Live Events</i> or the season results every 3 hours.
             </span>
         </div>
     );
