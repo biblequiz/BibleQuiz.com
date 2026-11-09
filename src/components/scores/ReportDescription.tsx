@@ -14,6 +14,6 @@ export default function ReportDescription() {
     }
 
     return (
-        <p className="whitespace-pre-line mt-0 mb-4">{description}</p>
+        <p className="hide-on-print whitespace-pre-line mt-0 mb-4">{description}</p>
     );
 }
