@@ -402,6 +402,12 @@ export class EventReport extends EventReportBase {
 export class SeasonReport extends EventReportBase {
 
     /**
+     * Optional plain text (at most 1,000 characters) shown at the top of the report.
+     * Null leaves the stored value unchanged when saving, and an empty string clears it.
+     */
+    public Description!: string | null;
+
+    /**
      * Current archive version of the report. If it differs from the version published to the site,
      * changes are still waiting to be archived.
      */

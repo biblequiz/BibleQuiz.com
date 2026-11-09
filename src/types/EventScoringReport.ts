@@ -8,6 +8,11 @@ export class EventScoringReport {
     public readonly EventName!: string;
 
     /**
+     * Optional plain text shown at the top of a season report.
+     */
+    public readonly Description?: string | null;
+
+    /**
      * Names for databases by database id.
      */
     public readonly DatabaseNames!: Record<string, string>;

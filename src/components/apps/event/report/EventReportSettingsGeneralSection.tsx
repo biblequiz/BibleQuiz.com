@@ -33,6 +33,7 @@ export default function EventReportSettingsGeneralSection({
     const [isVisible, setIsVisible] = useState(info.isVisible);
     const [showPerDivisionPoints, setShowPerDivisionPoints] = useState(info.showPerDivisionPoints);
     const [reportType, setReportType] = useState(info.reportType);
+    const [description, setDescription] = useState(info.description);
 
     const filteredRegions = useMemo(
         () => filterToAuthorizedRegions(auth, regions, eventType, regionId),
@@ -104,6 +105,24 @@ export default function EventReportSettingsGeneralSection({
                         required
                     />
                 </div>
+                {allowScope && (
+                    <div className="w-full mt-0 md:col-span-2">
+                        <label className="label">
+                            <span className="label-text font-medium text-sm">Description</span>
+                        </label>
+                        <textarea
+                            name="description"
+                            className="textarea w-full"
+                            rows={3}
+                            value={description}
+                            maxLength={1000}
+                            placeholder="Optional text shown at the top of the report"
+                            onChange={e => setDescription(e.target.value)}
+                            onBlur={() => setInfo({ ...info, description: description.trim() })}
+                            disabled={isDisabled}
+                        />
+                    </div>
+                )}
                 {allowScope && (
                     <div className="w-full mt-0">
                         <label className="label">

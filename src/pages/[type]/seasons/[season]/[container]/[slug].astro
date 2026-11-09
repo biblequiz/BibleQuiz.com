@@ -5,6 +5,7 @@ import PrintDialog from "components/scores/PrintDialog.astro";
 import PrintDialogResolver from "components/scores/PrintDialogResolver";
 import EventScoringReportLoader from "components/scores/EventScoringReportLoader";
 import EventScoringReportSearch from "components/scores/EventScoringReportSearch";
+import ReportDescription from "components/scores/ReportDescription";
 import RoomDialog from "components/scores/RoomDialog.astro";
 import StatsTabContent from "components/scores/StatsTabContent";
 import CoordinatorTabContent from "components/scores/CoordinatorTabContent";
@@ -244,6 +245,7 @@ const qstatsTabId = "qstats_tab";
         client:only="react"
     />
     <EventScoringReportSearch parentTabId="scoreTabs" client:only="react" />
+    {eventInfo.isReport && <ReportDescription client:only="react" />}
     <div id="scoreTabs" class="hide-on-print" style={{ display: "none" }}>
         {
             eventInfo.isReport && (
