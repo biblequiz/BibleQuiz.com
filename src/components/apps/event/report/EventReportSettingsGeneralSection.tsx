@@ -31,6 +31,7 @@ export default function EventReportSettingsGeneralSection({
     const [regionId, setRegionId] = useState<string | null>(info.regionId);
     const [districtId, setDistrictId] = useState<string | null>(info.districtId);
     const [isVisible, setIsVisible] = useState(info.isVisible);
+    const [showPerDivisionPoints, setShowPerDivisionPoints] = useState(info.showPerDivisionPoints);
     const [reportType, setReportType] = useState(info.reportType);
 
     const filteredRegions = useMemo(
@@ -197,6 +198,28 @@ export default function EventReportSettingsGeneralSection({
                             Show on BibleQuiz.com?
                         </span>
                     </label>
+                </div>
+                <div className="w-full mt-2">
+                    <label className="label text-wrap">
+                        <input
+                            type="checkbox"
+                            name="showPerDivisionPoints"
+                            className="checkbox checkbox-sm checkbox-info"
+                            checked={showPerDivisionPoints}
+                            onChange={e => {
+                                const newChecked = e.target.checked;
+                                setShowPerDivisionPoints(newChecked);
+                                setInfo({ ...info, showPerDivisionPoints: newChecked });
+                            }}
+                            disabled={isDisabled}
+                        />
+                        <span className="text-sm">
+                            Show per Division Points
+                        </span>
+                    </label>
+                    <p className="mt-0 mb-0 text-sm">
+                        Adds a points column for each division when the report combines more than one.
+                    </p>
                 </div>
             </div>
         </>);

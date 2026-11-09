@@ -357,6 +357,12 @@ export abstract class EventReportBase {
      * Overrides the number of matches.
      */
     public MatchesOverride!: number | null;
+
+    /**
+     * Value indicating whether to show a points column for each division when the report combines more than one.
+     * Null leaves the stored value unchanged when saving.
+     */
+    public ShowPerDivisionPoints!: boolean | null;
 }
 
 /**
