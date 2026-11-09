@@ -394,3 +394,14 @@ div.main-frame {
         fill: #333 !important;
     }
 }
+
+/* DaisyUI colors tabs from the OS theme, but the page follows Starlight's theme toggle, so inactive tab text could
+   match the background. Use Starlight's colors for link-based tabs instead. */
+nav.tabs > a.tab {
+    color: var(--sl-color-gray-2);
+}
+
+nav.tabs > a.tab:hover,
+nav.tabs > a.tab.tab-active {
+    color: var(--sl-color-white);
+}
