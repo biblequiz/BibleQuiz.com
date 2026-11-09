@@ -122,7 +122,7 @@ export default function SeasonReportProvider({ }: Props) {
                 <nav aria-label="Report pages" className="tabs tabs-border mt-0 mb-4">
                     <Link
                         to={`/${reportId}`}
-                        className={`tab mt-0 no-underline ${isDevicesPage ? "" : "tab-active"}`}
+                        className={`tab mt-0 no-underline text-neutral-content ${isDevicesPage ? "" : "tab-active"}`}
                         aria-current={isDevicesPage ? undefined : "page"}
                     >
                         <FontAwesomeIcon icon="fas faGear" classNames={["mr-2"]} />
@@ -130,7 +130,7 @@ export default function SeasonReportProvider({ }: Props) {
                     </Link>
                     <Link
                         to={`/${reportId}/devices`}
-                        className={`tab mt-0 no-underline ${isDevicesPage ? "tab-active" : ""}`}
+                        className={`tab mt-0 no-underline text-neutral-content ${isDevicesPage ? "tab-active" : ""}`}
                         aria-current={isDevicesPage ? "page" : undefined}
                     >
                         <FontAwesomeIcon icon="fas faTabletScreenButton" classNames={["mr-2"]} />
