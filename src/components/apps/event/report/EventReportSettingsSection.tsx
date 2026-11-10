@@ -37,6 +37,7 @@ export interface EventReportGeneralInfo {
     reportType: ReportType;
     isVisible: boolean;
     showPerDivisionPoints: boolean;
+    description: string;
 }
 
 export interface EventReportQuizzerRankInfo {
@@ -79,6 +80,7 @@ export default function EventReportSettingsSection({
         districtId: (report as SeasonReport)?.DistrictId ?? eventDistrictId ?? null,
         isVisible: report?.IsVisible ?? true,
         showPerDivisionPoints: report?.ShowPerDivisionPoints ?? true,
+        description: (report as SeasonReport)?.Description ?? "",
         reportType: report?.Type ?? ReportType.Teams
     }));
     const [quizzerRank, setQuizzerRank] = useState(() => ({
@@ -121,6 +123,8 @@ export default function EventReportSettingsSection({
             else if (general.regionId) {
                 seasonReport.RegionId = general.regionId;
             }
+
+            seasonReport.Description = general.description;
 
             newReport = seasonReport;
         }
