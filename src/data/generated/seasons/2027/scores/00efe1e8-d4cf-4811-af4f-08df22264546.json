@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Northern Meet#1",
-        "LastUpdated": "11/5/26 9:01 PM",
-        "DatabaseLastUpdated": "2026-11-05T20:15:05.956795+00:00",
+        "LastUpdated": "11/13/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-11-12T21:37:12.5747039+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -209,6 +209,7 @@
             "City": "Gaylord",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 25,
               "Rank": 2,
               "IsTie": false,
               "TotalPoints": 20,
@@ -235,6 +236,7 @@
             "City": "Cheboygan",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 65,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 250,
@@ -261,6 +263,7 @@
             "City": "Cheboygan",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 20,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": -35,
@@ -287,6 +290,7 @@
             "City": "Gaylord",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 4,
               "IsTie": false,
               "TotalPoints": 0,
@@ -313,6 +317,7 @@
             "City": "Cheboygan",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 10,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 10,
@@ -465,8 +470,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Central-Thumb Meet#1",
-        "LastUpdated": "11/5/26 9:01 PM",
-        "DatabaseLastUpdated": "2026-11-05T20:15:05.956795+00:00",
+        "LastUpdated": "11/13/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-11-12T21:37:12.5747039+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -1025,6 +1030,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 20,
               "Rank": 12,
               "IsTie": false,
               "TotalPoints": 30,
@@ -1051,6 +1057,7 @@
             "City": "Clio",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 35,
               "Rank": 8,
               "IsTie": false,
               "TotalPoints": 70,
@@ -1077,6 +1084,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 17,
               "IsTie": false,
               "TotalPoints": 0,
@@ -1103,6 +1111,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 60,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": 90,
@@ -1129,6 +1138,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 20,
               "Rank": 10,
               "IsTie": false,
               "TotalPoints": 40,
@@ -1155,6 +1165,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 25,
               "Rank": 10,
               "IsTie": true,
               "TotalPoints": 40,
@@ -1181,6 +1192,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 15,
               "Rank": 13,
               "IsTie": false,
               "TotalPoints": 20,
@@ -1207,6 +1219,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 35,
               "Rank": 4,
               "IsTie": false,
               "TotalPoints": 115,
@@ -1233,6 +1246,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 10,
               "Rank": 15,
               "IsTie": false,
               "TotalPoints": 10,
@@ -1259,6 +1273,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 23,
               "IsTie": false,
               "TotalPoints": -15,
@@ -1285,6 +1300,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
@@ -1311,6 +1327,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 110,
               "Rank": 2,
               "IsTie": false,
               "TotalPoints": 430,
@@ -1337,6 +1354,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
@@ -1363,6 +1381,7 @@
             "City": "Clio",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 23,
               "IsTie": true,
               "TotalPoints": -15,
@@ -1389,6 +1408,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 10,
               "Rank": 14,
               "IsTie": false,
               "TotalPoints": 15,
@@ -1415,6 +1435,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 10,
               "Rank": 16,
               "IsTie": false,
               "TotalPoints": 5,
@@ -1441,6 +1462,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
@@ -1467,6 +1489,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 140,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 655,
@@ -1493,6 +1516,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
@@ -1519,6 +1543,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 20,
               "Rank": 9,
               "IsTie": false,
               "TotalPoints": 45,
@@ -1545,6 +1570,7 @@
             "City": "Clio",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 50,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 80,
@@ -1571,6 +1597,7 @@
             "City": "Saint Louis",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 17,
               "IsTie": true,
               "TotalPoints": 0,
@@ -1597,6 +1624,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 85,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 195,
@@ -1623,6 +1651,7 @@
             "City": "Bay City",
             "State": "MI",
             "Scores": {
+              "MaxPoints": 40,
               "Rank": 7,
               "IsTie": false,
               "TotalPoints": 75,
@@ -1956,5 +1985,5 @@
       }
     }
   ],
-  "Freshness": "2026-11-05T20:15:06.0198479+00:00"
+  "Freshness": "2026-11-12T21:37:12.6468745+00:00"
 }
