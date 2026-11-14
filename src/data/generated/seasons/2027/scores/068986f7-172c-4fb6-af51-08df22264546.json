@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "WTX South Meet 1 26-27 Beginner",
-        "LastUpdated": "10/10/26 3:33 PM",
-        "DatabaseLastUpdated": "2026-10-10T14:38:13.7547709+00:00",
+        "LastUpdated": "11/14/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-11-13T21:20:36.3567253+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -279,6 +279,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 70,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 205,
@@ -305,6 +306,7 @@
             "City": "Snyder",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 70,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 195,
@@ -331,6 +333,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 70,
               "Rank": 1,
               "IsTie": true,
               "TotalPoints": 205,
@@ -357,6 +360,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 65,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": 145,
@@ -383,6 +387,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 11,
               "IsTie": false,
               "TotalPoints": -10,
@@ -409,6 +414,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 0,
               "Rank": 10,
               "IsTie": false,
               "TotalPoints": 0,
@@ -435,6 +441,7 @@
             "City": "Snyder",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 30,
               "Rank": 8,
               "IsTie": false,
               "TotalPoints": 40,
@@ -461,6 +468,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 65,
               "Rank": 3,
               "IsTie": true,
               "TotalPoints": 195,
@@ -487,6 +495,7 @@
             "City": "Snyder",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 30,
               "Rank": 9,
               "IsTie": false,
               "TotalPoints": 30,
@@ -513,6 +522,7 @@
             "City": "Odessa",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 70,
               "Rank": 7,
               "IsTie": false,
               "TotalPoints": 75,
@@ -539,6 +549,7 @@
             "City": "Snyder",
             "State": "TX",
             "Scores": {
+              "MaxPoints": 40,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 80,
@@ -690,8 +701,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "WTX South Meet 2 - 2026-2027",
-        "LastUpdated": "10/10/26 3:33 PM",
-        "DatabaseLastUpdated": "2026-10-10T14:38:13.7547709+00:00",
+        "LastUpdated": "11/14/26 12:01 AM",
+        "DatabaseLastUpdated": "2026-11-13T21:20:36.3567253+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -699,7 +710,7 @@
             "CoachName": "Allye McWilliams",
             "Quizzers": [
               1,
-              10
+              3
             ],
             "Id": "t_d3edfaff989d463ab811ccd5d42d2b1f",
             "Name": "Calvary Assembly of God (Midland) #1",
@@ -752,9 +763,7 @@
           {
             "CoachName": "Cindy Guerra",
             "Quizzers": [
-              0,
-              3,
-              4
+              0
             ],
             "Id": "t_a9179f953ab44827933d7fef2bd44133",
             "Name": "OFA Legacy",
@@ -806,10 +815,7 @@
           },
           {
             "CoachName": "Tonya Thurlby",
-            "Quizzers": [
-              5,
-              9
-            ],
+            "Quizzers": [],
             "Id": "t_e01ea655fa5d4082a1dba33f99eca00c",
             "Name": "OFA Overcomers",
             "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
@@ -861,8 +867,7 @@
           {
             "CoachName": "Margie Torres",
             "Quizzers": [
-              2,
-              7
+              2
             ],
             "Id": "t_c10572c2d2bb4695b8655c5129827f1e",
             "Name": "OFA Warriors",
@@ -914,11 +919,7 @@
           },
           {
             "CoachName": "Chain Navarro",
-            "Quizzers": [
-              6,
-              8,
-              11
-            ],
+            "Quizzers": [],
             "Id": "t_4d8f56cf4e0040f9bc05b593b961ce97",
             "Name": "Revival Squad",
             "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
@@ -975,7 +976,7 @@
             "TeamName": "OFA Legacy",
             "YearsQuizzing": null,
             "Id": "q_3231194d09d041f8db3708df21f76ae1",
-            "Name": "A'marianah Coleman",
+            "Name": "A’marianah Coleman",
             "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
             "ChurchName": "First Assembly of God",
             "City": "Odessa",
@@ -1000,99 +1001,8 @@
           {
             "TeamName": "OFA Warriors",
             "YearsQuizzing": null,
-            "Id": "q_473fe9cc6e514be2f21208dde44dc889",
-            "Name": "Diana Ako",
-            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
-            "ChurchName": "First Assembly of God",
-            "City": "Odessa",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "OFA Legacy",
-            "YearsQuizzing": null,
-            "Id": "q_d1a66b30a6e64e73f21d08dde44dc889",
-            "Name": "Faith Ako",
-            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
-            "ChurchName": "First Assembly of God",
-            "City": "Odessa",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "OFA Legacy",
-            "YearsQuizzing": null,
-            "Id": "q_65cda3def74f45d5f1e808dde44dc889",
-            "Name": "Gabriella Ako",
-            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
-            "ChurchName": "First Assembly of God",
-            "City": "Odessa",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "OFA Overcomers",
-            "YearsQuizzing": null,
-            "Id": "q_b0461e0d584d469725e608ddea676075",
-            "Name": "Jayleen Zepeda",
-            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
-            "ChurchName": "First Assembly of God",
-            "City": "Odessa",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "Revival Squad",
-            "YearsQuizzing": null,
-            "Id": "q_775676ec601c45cf7c4508df0e8be302",
-            "Name": "Leiah Torres",
-            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
-            "ChurchName": "First Assembly of God",
-            "City": "Snyder",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "OFA Warriors",
-            "YearsQuizzing": null,
             "Id": "q_234c51c43b874b0469b208df08d7e9db",
             "Name": "Melissa Torres",
-            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
-            "ChurchName": "First Assembly of God",
-            "City": "Odessa",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "Revival Squad",
-            "YearsQuizzing": null,
-            "Id": "q_55ba4e9746d649cc7c6108df0e8be302",
-            "Name": "Nayeli Castillo",
-            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
-            "ChurchName": "First Assembly of God",
-            "City": "Snyder",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "OFA Overcomers",
-            "YearsQuizzing": null,
-            "Id": "q_12a0874e3d194d0ebd2508dcfa81fbd4",
-            "Name": "Saidey Harlow",
             "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
             "ChurchName": "First Assembly of God",
             "City": "Odessa",
@@ -1109,19 +1019,6 @@
             "ChurchId": "311a978e-27a1-4b41-81c8-e1de32e0c721",
             "ChurchName": "Calvary Assembly of God",
             "City": "Midland",
-            "State": "TX",
-            "Scores": null,
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "TeamName": "Revival Squad",
-            "YearsQuizzing": null,
-            "Id": "q_3d450a83e1c44346af6f08dde9509179",
-            "Name": "Zoelee Maya",
-            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
-            "ChurchName": "First Assembly of God",
-            "City": "Snyder",
             "State": "TX",
             "Scores": null,
             "Matches": null,
@@ -1322,5 +1219,5 @@
       }
     }
   ],
-  "Freshness": "2026-10-10T15:33:45.9872498+00:00"
+  "Freshness": "2026-11-13T21:20:36.4293081+00:00"
 }
