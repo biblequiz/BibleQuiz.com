@@ -13,6 +13,7 @@
         "LastUpdated": "3/21/26 5:17 PM",
         "DatabaseLastUpdated": "2026-03-21T14:52:26.0748408+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Suzy Walker",
@@ -22,9 +23,7 @@
               11,
               15
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_8dff9898-af1f-4836-877d-2b06a06cf346",
+            "Id": "t_8dff9898af1f4836877d2b06a06cf346",
             "Name": "Chicago",
             "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
             "ChurchName": "Metro Praise International Church",
@@ -51,7 +50,9 @@
               "Correct20s": 28,
               "Correct30s": 4,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Jeff Papendick",
@@ -62,9 +63,7 @@
               12,
               13
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_701f8b71-3e08-4476-b8f4-cc38a6f4c25b",
+            "Id": "t_701f8b713e084476b8f4cc38a6f4c25b",
             "Name": "Naperville (J)",
             "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
             "ChurchName": "Calvary Church",
@@ -91,7 +90,9 @@
               "Correct20s": 114,
               "Correct30s": 27,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Scott Papendick",
@@ -102,9 +103,7 @@
               9,
               14
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_62e642f2-575e-4034-9aa0-1ecc5757e804",
+            "Id": "t_62e642f2575e40349aa01ecc5757e804",
             "Name": "Naperville (S)",
             "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
             "ChurchName": "Calvary Church",
@@ -131,7 +130,9 @@
               "Correct20s": 124,
               "Correct30s": 53,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Sagaya Melwin",
@@ -139,9 +140,7 @@
               0,
               7
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_2d81c2e1-19c2-4eba-ac95-90ca95a2c4c2",
+            "Id": "t_2d81c2e119c24ebaac9590ca95a2c4c2",
             "Name": "Palatine",
             "ChurchId": "dcc9b945-38ca-4db5-bdb9-08ddf3df6d81",
             "ChurchName": "Chicago Indian Church",
@@ -168,7 +167,9 @@
               "Correct20s": 85,
               "Correct30s": 38,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -189,6 +190,7 @@
             "City": "Palatine",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": 1385,
@@ -206,7 +208,9 @@
               "Correct20s": 23,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (S)",
@@ -218,6 +222,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 3480,
@@ -235,7 +240,9 @@
               "Correct20s": 102,
               "Correct30s": 52,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (J)",
@@ -247,6 +254,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 14,
               "IsTie": false,
               "TotalPoints": 50,
@@ -264,7 +272,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (S)",
@@ -276,6 +286,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 13,
               "IsTie": false,
               "TotalPoints": 160,
@@ -293,7 +304,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -305,6 +318,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 15,
               "IsTie": false,
               "TotalPoints": 10,
@@ -322,7 +336,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (S)",
@@ -334,6 +350,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 16,
               "IsTie": false,
               "TotalPoints": 10,
@@ -351,7 +368,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -363,6 +382,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 9,
               "IsTie": false,
               "TotalPoints": 260,
@@ -380,7 +400,9 @@
               "Correct20s": 4,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Palatine",
@@ -392,6 +414,7 @@
             "City": "Palatine",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 2520,
@@ -409,7 +432,9 @@
               "Correct20s": 62,
               "Correct30s": 38,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (J)",
@@ -421,6 +446,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 2,
               "IsTie": false,
               "TotalPoints": 2585,
@@ -438,7 +464,9 @@
               "Correct20s": 106,
               "Correct30s": 24,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (S)",
@@ -450,6 +478,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 7,
               "IsTie": false,
               "TotalPoints": 680,
@@ -467,7 +496,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (J)",
@@ -479,6 +510,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 12,
               "IsTie": false,
               "TotalPoints": 185,
@@ -496,7 +528,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -508,6 +542,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 10,
               "IsTie": false,
               "TotalPoints": 255,
@@ -525,7 +560,9 @@
               "Correct20s": 3,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (J)",
@@ -537,6 +574,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 4,
               "IsTie": false,
               "TotalPoints": 1635,
@@ -554,7 +592,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (J)",
@@ -566,6 +606,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": false,
               "TotalPoints": 225,
@@ -583,7 +624,9 @@
               "Correct20s": 8,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville (S)",
@@ -595,6 +638,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 8,
               "IsTie": false,
               "TotalPoints": 335,
@@ -612,7 +656,9 @@
               "Correct20s": 22,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -624,6 +670,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 940,
@@ -641,7 +688,9 @@
               "Correct20s": 21,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
