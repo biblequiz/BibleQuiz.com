@@ -1,0 +1,1543 @@
+{
+  "EventName": "MIJBQ Meet #2 Central-Thumb & Northern sections",
+  "DatabaseNames": {
+    "a0701965-3fcd-4643-afce-ad67cccdb555": "MIJBQ_2026_27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "a0701965-3fcd-4643-afce-ad67cccdb555",
+        "MeetId": 16,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B Meet#2 CT",
+        "LastUpdated": "11/15/26 1:02 AM",
+        "DatabaseLastUpdated": "2026-11-13T13:55:07.0721581+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Kendra Pero",
+            "Quizzers": [
+              0,
+              12,
+              16,
+              19,
+              21,
+              22
+            ],
+            "Id": "t_5e1ff1d6f1f24d10ade88951111eedcf",
+            "Name": "Holy Hustlers",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 1,
+              "WinPercentage": 80,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 78.0,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 20,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 80,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Heather Martinez",
+            "Quizzers": [
+              1,
+              15,
+              23,
+              27
+            ],
+            "Id": "t_8e02ff80cdf84bb993d6bb2028a3960f",
+            "Name": "Kingdom Quizzers",
+            "ChurchId": "48b4f514-5f1b-4571-6852-08de1fc0776e",
+            "ChurchName": "Clio Community Church of God",
+            "City": "Clio",
+            "State": "MI",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 3,
+              "WinPercentage": 40,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 32.0,
+              "AverageCorrect": 3.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 25,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 55,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Emily Pennell",
+            "Quizzers": [
+              2,
+              11,
+              18,
+              20,
+              26
+            ],
+            "Id": "t_f04b9e6e60b04031ae17558a4f0c5e79",
+            "Name": "Life360 Church",
+            "ChurchId": "9592c095-3780-4b0b-236d-08dd08b9277c",
+            "ChurchName": "Life360 Bay City Church",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 745,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 149.0,
+              "AverageCorrect": 8.8,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 18,
+              "Correct20s": 20,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 115,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 95,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kristy Loomis",
+            "Quizzers": [
+              4,
+              6,
+              10,
+              24
+            ],
+            "Id": "t_a07019653fcd4643afcead67cccdb555_50",
+            "Name": "Parkside Assembly of God (Saint Louis) #1",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 5,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 4,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -20,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 5,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 0,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ronda Friday-Stiffler",
+            "Quizzers": [
+              3,
+              7,
+              9
+            ],
+            "Id": "t_a07019653fcd4643afcead67cccdb555_49",
+            "Name": "Parkside Assembly of God (Saint Louis) #2",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 4,
+              "WinPercentage": 20,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 125,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 10,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 50,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 40,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 40,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -20,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kyle Pennell",
+            "Quizzers": [
+              5,
+              8,
+              13,
+              14,
+              17,
+              25
+            ],
+            "Id": "t_5bd44590f0a447bcb7b53b7e69f4e8c9",
+            "Name": "Pulse Ministries (Bay City) #1",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 2,
+              "WinPercentage": 60,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 67.0,
+              "AverageCorrect": 6.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 30,
+              "Correct20s": 2,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 55,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 60,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 20,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "3",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          0,
+          5,
+          1,
+          4,
+          3
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Holy Hustlers",
+            "YearsQuizzing": null,
+            "Id": "q_70b723ae44e74ecd302a08df1a4c4c50",
+            "Name": "Aalonah Pero",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_1bde18d8bd5a4d49dc1608de1fc083f0",
+            "Name": "Amirah Martinez",
+            "ChurchId": "48b4f514-5f1b-4571-6852-08de1fc0776e",
+            "ChurchName": "Clio Community Church of God",
+            "City": "Clio",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 Church",
+            "YearsQuizzing": null,
+            "Id": "q_8ce37ef5f4784f59258808df1a4c4c50",
+            "Name": "Arabella Alvarado",
+            "ChurchId": "9592c095-3780-4b0b-236d-08dd08b9277c",
+            "ChurchName": "Life360 Bay City Church",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 28,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -2.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #2",
+            "YearsQuizzing": 0,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_435",
+            "Name": "Bailey Hubbard",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #1",
+            "YearsQuizzing": 0,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_444",
+            "Name": "Braelyn Tice",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pulse Ministries (Bay City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_f345b3dbfde24eb3300508df1a4c4c50",
+            "Name": "Connor Bone",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 17.0,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_445",
+            "Name": "Deklan Tice",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #2",
+            "YearsQuizzing": 0,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_436",
+            "Name": "Elijah Hulwick",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pulse Ministries (Bay City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_359",
+            "Name": "Elikai Roat",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 60,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #2",
+            "YearsQuizzing": 0,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_434",
+            "Name": "Emery Esquivel",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 6.0,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #1",
+            "YearsQuizzing": 0,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_443",
+            "Name": "Ezra Loomis",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 Church",
+            "YearsQuizzing": null,
+            "Id": "q_fa47ef25042746bdb4bf08de251e06b1",
+            "Name": "Gabe Bordan",
+            "ChurchId": "9592c095-3780-4b0b-236d-08dd08b9277c",
+            "ChurchName": "Life360 Bay City Church",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Holy Hustlers",
+            "YearsQuizzing": null,
+            "Id": "q_32d1e273b5e544d9cdd508df21f76ae1",
+            "Name": "Grayson Stevens",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 100,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 79.0,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 19,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pulse Ministries (Bay City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_27052128c36f4e852ffc08df1a4c4c50",
+            "Name": "Hailey Hershey",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pulse Ministries (Bay City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_358",
+            "Name": "Harmony Kimbrue",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_fd3a0d4cec7b485a2fd508df1a4c4c50",
+            "Name": "Isabella Baird",
+            "ChurchId": "48b4f514-5f1b-4571-6852-08de1fc0776e",
+            "ChurchName": "Clio Community Church of God",
+            "City": "Clio",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Holy Hustlers",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_357",
+            "Name": "James Josiah Dunn",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pulse Ministries (Bay City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_1b179851e6424a27300108df1a4c4c50",
+            "Name": "Jameson Wood",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 Church",
+            "YearsQuizzing": null,
+            "Id": "q_ca11dd065f204a42b4b308de251e06b1",
+            "Name": "Janae Petrimoulx",
+            "ChurchId": "9592c095-3780-4b0b-236d-08dd08b9277c",
+            "ChurchName": "Life360 Bay City Church",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 26,
+              "IsTie": true,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Holy Hustlers",
+            "YearsQuizzing": null,
+            "Id": "q_b7b8ee2d6b8e406c301d08df1a4c4c50",
+            "Name": "Jocie Logan-Hewitt",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 Church",
+            "YearsQuizzing": null,
+            "Id": "q_6888f6fe831d47c4b4f208de251e06b1",
+            "Name": "Jubilee Pennell",
+            "ChurchId": "9592c095-3780-4b0b-236d-08dd08b9277c",
+            "ChurchName": "Life360 Bay City Church",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 160,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 620,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 124.0,
+              "AverageCorrect": 5.6,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 2,
+              "Correct20s": 20,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Holy Hustlers",
+            "YearsQuizzing": null,
+            "Id": "q_2b0d29cd13eb46ac301608df1a4c4c50",
+            "Name": "June Damm",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Holy Hustlers",
+            "YearsQuizzing": null,
+            "Id": "q_fb50450799254177302308df1a4c4c50",
+            "Name": "King Pero",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 5,
+              "Rank": 26,
+              "IsTie": false,
+              "TotalPoints": -5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -1.0,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 33,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_27dbf65481eb43e42fdb08df1a4c4c50",
+            "Name": "Lyra Lindland",
+            "ChurchId": "48b4f514-5f1b-4571-6852-08de1fc0776e",
+            "ChurchName": "Clio Community Church of God",
+            "City": "Clio",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 14.0,
+              "AverageCorrect": 1.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Parkside Assembly of God (Saint Louis) #1",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_446",
+            "Name": "Mikayla Tice",
+            "ChurchId": null,
+            "ChurchName": "Parkside Assembly of God",
+            "City": "Saint Louis",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Pulse Ministries (Bay City) #1",
+            "YearsQuizzing": null,
+            "Id": "q_47219bdbc14a4da82ffe08df1a4c4c50",
+            "Name": "Sophia Bone",
+            "ChurchId": "cca82d5b-e2be-4d0f-bf61-08df1a21dd0c",
+            "ChurchName": "Pulse Ministries",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 80,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 43.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 19,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Life360 Church",
+            "YearsQuizzing": null,
+            "Id": "q_a200c1d3b38342b5b4a708de251e06b1",
+            "Name": "Temperance Bordan",
+            "ChurchId": "9592c095-3780-4b0b-236d-08dd08b9277c",
+            "ChurchName": "Life360 Bay City Church",
+            "City": "Bay City",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 28.0,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 16,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Kingdom Quizzers",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_239",
+            "Name": "Wyatt Szukhent",
+            "ChurchId": "48b4f514-5f1b-4571-6852-08de1fc0776e",
+            "ChurchName": "Clio Community Church of God",
+            "City": "Clio",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 3.0,
+              "AverageCorrect": 0.4,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          20,
+          12,
+          25,
+          26,
+          5,
+          1,
+          7,
+          23,
+          9,
+          3,
+          17,
+          4,
+          27,
+          8,
+          6,
+          0,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          19,
+          21,
+          24,
+          22,
+          18,
+          2
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-15T01:02:59.9060474+00:00"
+}

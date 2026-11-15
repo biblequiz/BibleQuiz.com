@@ -1,0 +1,1808 @@
+{
+  "EventName": "Nebraska District JBQ November 2026 Match",
+  "DatabaseNames": {
+    "1537c17e-69e0-45be-b5d0-9a61fd4c0169": "Nebraska_2026-2027_Teams_Database"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "1537c17e-69e0-45be-b5d0-9a61fd4c0169",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "A League - 11-14-2026",
+        "LastUpdated": "11/14/26 8:14 PM",
+        "DatabaseLastUpdated": "2026-11-13T03:23:38.2354094+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "David Olsen",
+            "Quizzers": [
+              3,
+              8,
+              9
+            ],
+            "Id": "t_3e0a69f5ff974cbcbef60a29fa5cdb1c",
+            "Name": "Quizers for Jesus Omaha Christian Center (Omaha) #1",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 470,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 117.5,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 20,
+              "Correct20s": 9,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              null,
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 160,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 95,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Zippie Jayaseelan",
+            "Quizzers": [
+              0,
+              1,
+              5,
+              11
+            ],
+            "Id": "t_10d29824f8e841e4b547536256764c6c",
+            "Name": "The Unbeatable Buzzers",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 495,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 123.8,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 12,
+              "Correct20s": 14,
+              "Correct30s": 6,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "L",
+                "Score": 15,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Kelly Hassler",
+            "Quizzers": [
+              2,
+              4,
+              6,
+              7,
+              10
+            ],
+            "Id": "t_9a0ad4655a5a49b8bcb4bdc143a8109a",
+            "Name": "Truth Seekers",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 685,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 171.3,
+              "AverageCorrect": 11.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 22,
+              "Correct20s": 15,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 165,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "A1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          2,
+          1,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "The Unbeatable Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_eabd8d5a84714e46b47308dab68a0866",
+            "Name": "Esmee Arthur",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Unbeatable Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_04335b9c09e64b5cb1ea08dbe3208b6b",
+            "Name": "Ethan Jayaseelan",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 150,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 98.8,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 76,
+              "Correct10s": 0,
+              "Correct20s": 14,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_b08b399098a246bab3aa08dab68a0866",
+            "Name": "Hosanna Tidjani",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 90,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 275,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 68.8,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quizers for Jesus Omaha Christian Center (Omaha) #1",
+            "YearsQuizzing": null,
+            "Id": "q_8b8ef72c4cb1436f759708df26de375d",
+            "Name": "Jeremy Montejo",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_0a764574d20a44bccbbf08df288347a5",
+            "Name": "KakuuBari Dumka",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.3,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Unbeatable Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_e4bef0f662714fd3b39e08dab68a0866",
+            "Name": "Landon Miller",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 55,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 90,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 22.5,
+              "AverageCorrect": 2.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 10,
+              "Correct20s": 0,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_b6556e301a014f25c9d108df288347a5",
+            "Name": "Layla McKean",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 8,
+              "IsTie": true,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_d5358d1310044d4db38f08dab68a0866",
+            "Name": "Marc Asiamah",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 110,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 325,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 81.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 84,
+              "Correct10s": 0,
+              "Correct20s": 12,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quizers for Jesus Omaha Christian Center (Omaha) #1",
+            "YearsQuizzing": null,
+            "Id": "q_b61ea1e564f944b4300908ddfaa89b9a",
+            "Name": "Olivia Gabriel",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 110,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 200,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.0,
+              "AverageCorrect": 3.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 1,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Quizers for Jesus Omaha Christian Center (Omaha) #1",
+            "YearsQuizzing": null,
+            "Id": "q_f5c2685a737e49c9863508de3fc76a6c",
+            "Name": "Oswine Gabriel",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 85,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 62.5,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 10,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Truth Seekers",
+            "YearsQuizzing": null,
+            "Id": "q_0f78e77a8f9e46f0c2ed08dcf172b8f0",
+            "Name": "Roselyn Hoffman",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Unbeatable Buzzers",
+            "YearsQuizzing": null,
+            "Id": "q_838e0004a0144410b1bd08dbe3208b6b",
+            "Name": "Tessa Adkisson",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          1,
+          7,
+          2,
+          9,
+          8,
+          5,
+          10,
+          3,
+          6,
+          0,
+          4,
+          11
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "A1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:35 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      },
+      {
+        "DatabaseId": "1537c17e-69e0-45be-b5d0-9a61fd4c0169",
+        "MeetId": 2,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B League - 11-14-2026",
+        "LastUpdated": "11/14/26 8:14 PM",
+        "DatabaseLastUpdated": "2026-11-13T03:23:38.2354094+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Camille Clark",
+            "Quizzers": [
+              6,
+              8,
+              13
+            ],
+            "Id": "t_9b4c751392bc4c33948fbcc78cd544dc",
+            "Name": "Dragons and Angels for Jesus Omaha christi Center (Omaha) #2",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 6,
+              "WinPercentage": 0,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 540,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 20,
+              "Correct20s": 19,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 110,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Lily Barton",
+            "Quizzers": [
+              4,
+              7,
+              9
+            ],
+            "Id": "t_0ea4434558994c47a70c16354b49b7ed",
+            "Name": "Full Life Flash - Ridge Church Papillion",
+            "ChurchId": "9d491674-5376-4cd8-8035-9dacf8335491",
+            "ChurchName": "Southridge Church",
+            "City": "Papillion",
+            "State": "NE",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 790,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 131.7,
+              "AverageCorrect": 9.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 30,
+              "Correct20s": 24,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 100,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 145,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 105,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Moyo Ogun",
+            "Quizzers": [
+              0,
+              1,
+              5,
+              10,
+              15
+            ],
+            "Id": "t_077b917eec9e48c0913e66ec99633232",
+            "Name": "Scripture Scholars",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 3,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 875,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 145.8,
+              "AverageCorrect": 9.2,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 22,
+              "Correct20s": 33,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 90,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 155,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 140,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 120,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 180,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Ayoola Ogun",
+            "Quizzers": [
+              2,
+              3,
+              11,
+              12,
+              14,
+              16
+            ],
+            "Id": "t_f0b2b5b879554af19c36173ccf1056ea",
+            "Name": "Superbook Heros",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "Wins": 6,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1250,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 208.3,
+              "AverageCorrect": 13.2,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 41,
+              "Correct20s": 38,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 220,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 230,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 190,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 210,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Scripture Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_ec016a1f5fef41fdca7f08df288347a5",
+            "Name": "Alexander Gomez",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 75,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_0a90d6d8a8254afff82608ddfee5ce2e",
+            "Name": "Emmy Diawara",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 110,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 18.3,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 11,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Superbook Heros",
+            "YearsQuizzing": null,
+            "Id": "q_c9c9a0ae11ca45f5ca5308df288347a5",
+            "Name": "Fenou Houanya",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Superbook Heros",
+            "YearsQuizzing": null,
+            "Id": "q_f4c9d8bbc2a04464f82008ddfee5ce2e",
+            "Name": "Glorious Tidjani",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 34,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Full Life Flash - Ridge Church Papillion",
+            "YearsQuizzing": null,
+            "Id": "q_4cdf75f8fd99405e321908df1a4c4c50",
+            "Name": "Idalia Espinoza",
+            "ChurchId": "9d491674-5376-4cd8-8035-9dacf8335491",
+            "ChurchName": "Southridge Church",
+            "City": "Papillion",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 13,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 1.7,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_9e994d20688749e7f7e108ddfee5ce2e",
+            "Name": "Isaac Franks",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 93.3,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 0,
+              "Correct20s": 28,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dragons and Angels for Jesus Omaha christi Center (Omaha) #2",
+            "YearsQuizzing": null,
+            "Id": "q_fd0e2c070fcc48e276c008df26de375d",
+            "Name": "Jabel Montejo",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 60,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 160,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 4,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Full Life Flash - Ridge Church Papillion",
+            "YearsQuizzing": null,
+            "Id": "q_16a00c345c4a4540321e08df1a4c4c50",
+            "Name": "Jaxxon Johnson",
+            "ChurchId": "9d491674-5376-4cd8-8035-9dacf8335491",
+            "ChurchName": "Southridge Church",
+            "City": "Papillion",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 305,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 50.8,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 97,
+              "Correct10s": 29,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dragons and Angels for Jesus Omaha christi Center (Omaha) #2",
+            "YearsQuizzing": null,
+            "Id": "q_59c0f7ab2067423f2fb408ddfaa89b9a",
+            "Name": "Michael S. Clark",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 100,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 63.3,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 16,
+              "Correct20s": 11,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Full Life Flash - Ridge Church Papillion",
+            "YearsQuizzing": null,
+            "Id": "q_46326cd05d354419321408df1a4c4c50",
+            "Name": "Nathan Sargent",
+            "ChurchId": "9d491674-5376-4cd8-8035-9dacf8335491",
+            "ChurchName": "Southridge Church",
+            "City": "Papillion",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 79.2,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 0,
+              "Correct20s": 24,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_4899766a96094c41ca8508df288347a5",
+            "Name": "Paislee Kirby",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Superbook Heros",
+            "YearsQuizzing": null,
+            "Id": "q_c907e4cdf2544f2df7e908ddfee5ce2e",
+            "Name": "Ronen Donica",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Superbook Heros",
+            "YearsQuizzing": null,
+            "Id": "q_03bf1ef3a81744a1c2fb08dcf172b8f0",
+            "Name": "Ruby Hoffman",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Dragons and Angels for Jesus Omaha christi Center (Omaha) #2",
+            "YearsQuizzing": null,
+            "Id": "q_b9e5fb14e1ad4e962fb808ddfaa89b9a",
+            "Name": "Serenity Miller",
+            "ChurchId": "4f4a9670-aac6-4994-986f-c05010851ce5",
+            "ChurchName": "Omaha Christian Center",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Superbook Heros",
+            "YearsQuizzing": null,
+            "Id": "q_4305695edbc94b3bf7ef08ddfee5ce2e",
+            "Name": "Sofia Lopez",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Scripture Scholars",
+            "YearsQuizzing": null,
+            "Id": "q_4c6f44d46d544bbdf81a08ddfee5ce2e",
+            "Name": "Troy Adkisson",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 0,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Superbook Heros",
+            "YearsQuizzing": null,
+            "Id": "q_2f192f0b416c4362c2a508dcf172b8f0",
+            "Name": "Wesley Lauren",
+            "ChurchId": "333634f3-1576-4f01-976f-a94efe7e495e",
+            "ChurchName": "Good News Church",
+            "City": "Omaha",
+            "State": "NE",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 760,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 126.7,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 0,
+              "Correct20s": 36,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          16,
+          5,
+          9,
+          3,
+          8,
+          7,
+          6,
+          1,
+          11,
+          15,
+          0,
+          10,
+          2,
+          4,
+          12,
+          13,
+          14
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:10 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "10:35 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "11:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    },
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-14T20:14:06.4334115+00:00"
+}
