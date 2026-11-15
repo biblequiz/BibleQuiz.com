@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { formatStateOption } from "utils/StateLabels";
 import regions from "data/regions.json";
 import type { Address } from "types/services/models/Address";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
@@ -115,7 +116,7 @@ export default function AddressSelector({
                 >
                     <option value="" disabled>State</option>
                     {ALL_STATES.map(s => (
-                        <option key={`state-${id}-${s}`} value={s}>{s}</option>
+                        <option key={`state-${id}-${s}`} value={s}>{formatStateOption(s)}</option>
                     ))}
                 </select>
             </div>
@@ -126,7 +127,7 @@ export default function AddressSelector({
                     className="input w-full"
                     value={zipCode}
                     minLength={5}
-                    maxLength={5}
+                    maxLength={6}
                     onChange={e => setZipCode(e.target.valueAsNumber)}
                     onBlur={() => setAddress(getLatestAddress())}
                     required={addressRequired || hasAddress}

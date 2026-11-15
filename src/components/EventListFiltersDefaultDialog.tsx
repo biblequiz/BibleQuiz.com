@@ -1,4 +1,5 @@
 import React, { useMemo, useRef, useState } from 'react';
+import { formatStateOption } from 'utils/StateLabels';
 import { useModalDialog } from "hooks/useModalDialog";
 import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
 import FontAwesomeIcon from './FontAwesomeIcon';
@@ -205,7 +206,7 @@ export default function EventListFiltersDefaultDialog({
               >
                 {Array.from(stateToRegionAndDistricts.keys()).map(state => (
                   <option key={`state_${state}`} value={state}>
-                    {state}
+                    {formatStateOption(state)}
                   </option>))}
               </select>
             </div>

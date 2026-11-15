@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import { formatStateOption } from "utils/StateLabels";
 import { useModalDialog } from "hooks/useModalDialog";
 import { AuthManager } from "types/AuthManager";
 import { PeopleService, Person, PersonParentType } from "types/services/PeopleService";
@@ -421,7 +422,7 @@ export default function PersonDialog({
                                 >
                                     <option value="" disabled={addressRequired}></option>
                                     {stateData.map(s => (
-                                        <option key={s.code} value={s.code}>{s.code}</option>
+                                        <option key={s.code} value={s.code}>{formatStateOption(s.code)}</option>
                                     ))}
                                 </select>
                                 <input
@@ -431,8 +432,8 @@ export default function PersonDialog({
                                     placeholder="Zip"
                                     onChange={e => setZip(e.target.value)}
                                     required={addressRequired}
-                                    pattern="[0-9]{5}"
-                                    maxLength={5}
+                                    pattern="[0-9]{5,6}"
+                                    maxLength={6}
                                     disabled={isSaving}
                                 />
                             </div>
