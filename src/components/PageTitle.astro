@@ -110,7 +110,7 @@ const isWiki = Astro.request.url
             )}
             {(eventDates || eventLocation) && (
                 <i>
-                    {eventDates} @ {eventLocation}
+                    {eventDates} {eventLocation ? `@ ${eventLocation}` : ""}
                 </i>
             )}
         </div>
