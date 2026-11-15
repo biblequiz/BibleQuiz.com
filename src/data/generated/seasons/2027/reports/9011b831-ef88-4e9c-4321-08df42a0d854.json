@@ -1,0 +1,1053 @@
+{
+  "EventName": "2026-27 WI/NM District Combined XP5 Stats",
+  "Description": "Combined District XP5 Stats October - November",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2026-27 WI/NM District Combined XP5 Stats",
+        "LastUpdated": "11/15/26 2:05 AM",
+        "DatabaseLastUpdated": "2026-11-12T21:17:05.023887+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              5
+            ],
+            "Id": "t_00000000000000000000000000000002_10",
+            "Name": "Glidden Doves",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Glidden Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                445
+              ],
+              "AveragePoints": 111.3,
+              "AverageCorrect": 5.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 7,
+              "Correct20s": 12,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              10,
+              17
+            ],
+            "Id": "t_00000000000000000000000000000002_9",
+            "Name": "Grand View Disciples",
+            "ChurchId": "89c32583-e8fd-437d-bef9-c684d85282b3",
+            "ChurchName": "Great Divide Christian Center",
+            "City": "Grand View",
+            "State": "WI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 3,
+              "WinPercentage": 25,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 425,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                425
+              ],
+              "AveragePoints": 106.3,
+              "AverageCorrect": 6.5,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 14,
+              "Correct20s": 9,
+              "Correct30s": 3,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Jeff Rapp",
+            "Quizzers": [
+              3,
+              11,
+              14
+            ],
+            "Id": "t_8ce235d6e03c40cfa8d24268ca07caed",
+            "Name": "New Richmond \"Be Quiet!\"",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "Wins": 10,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 2030,
+              "PerMeetTotalPoints": [
+                1365,
+                null,
+                665
+              ],
+              "AveragePoints": 203.0,
+              "AverageCorrect": 11.4,
+              "QuizOuts": 14,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 52,
+              "Correct20s": 49,
+              "Correct30s": 13,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              8
+            ],
+            "Id": "t_4c67389582cf4bcebb19d32f1ba7e68f",
+            "Name": "Oconto XP 1",
+            "ChurchId": "99cb619d-0c74-4f62-a775-fe5da1aaf371",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Oconto",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 6,
+              "WinPercentage": 45,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 1245,
+              "PerMeetTotalPoints": [
+                780,
+                465,
+                null
+              ],
+              "AveragePoints": 113.2,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 81,
+              "Correct10s": 44,
+              "Correct20s": 34,
+              "Correct30s": 5,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              12,
+              15
+            ],
+            "Id": "t_d8a27a7689a74a98aa38bccea549026c",
+            "Name": "Oconto XP 2",
+            "ChurchId": "99cb619d-0c74-4f62-a775-fe5da1aaf371",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Oconto",
+            "State": "WI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 11,
+              "WinPercentage": 0,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": [
+                280,
+                115,
+                null
+              ],
+              "AveragePoints": 35.9,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 72,
+              "Correct10s": 22,
+              "Correct20s": 13,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4
+            ],
+            "Id": "t_33be957c3d524cc68bd6e948a5cffd5a",
+            "Name": "Portage \"Hope\"",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Wins": 3,
+              "Losses": 8,
+              "WinPercentage": 27,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 1105,
+              "PerMeetTotalPoints": [
+                610,
+                495,
+                null
+              ],
+              "AveragePoints": 100.5,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 18,
+              "Correct20s": 29,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              7,
+              18
+            ],
+            "Id": "t_166a75deff374ca7aff7d235dcb29d67",
+            "Name": "Sparta \"Fishers of People\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 6,
+              "WinPercentage": 45,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1475,
+              "PerMeetTotalPoints": [
+                840,
+                635,
+                null
+              ],
+              "AveragePoints": 134.1,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 34,
+              "Correct20s": 37,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              6,
+              9
+            ],
+            "Id": "t_b188bca1cc31423f8d5de624c8bf9b5b",
+            "Name": "Sparta \"God's Good News\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 2,
+              "WinPercentage": 82,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 2050,
+              "PerMeetTotalPoints": [
+                1040,
+                1010,
+                null
+              ],
+              "AveragePoints": 186.4,
+              "AverageCorrect": 9.4,
+              "QuizOuts": 17,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 43,
+              "Correct20s": 46,
+              "Correct30s": 14,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              13,
+              16
+            ],
+            "Id": "t_fcb4aad69a804e238eb409aef43a6794",
+            "Name": "Sparta \"The Straps of His Sandals\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 8,
+              "Losses": 3,
+              "WinPercentage": 73,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1570,
+              "PerMeetTotalPoints": [
+                820,
+                750,
+                null
+              ],
+              "AveragePoints": 142.7,
+              "AverageCorrect": 7.8,
+              "QuizOuts": 13,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 38,
+              "Correct20s": 40,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [],
+            "Id": "t_00000000000000000000000000000002_7",
+            "Name": "Superior Fox Trots",
+            "ChurchId": "c0252c7b-0d37-46ce-aedd-4f526f6fa52d",
+            "ChurchName": "Central Assembly of God",
+            "City": "Superior",
+            "State": "WI",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                0
+              ],
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          9,
+          2,
+          7,
+          8,
+          6,
+          3,
+          5,
+          0,
+          1,
+          4
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Sparta \"Fishers of People\"",
+            "YearsQuizzing": null,
+            "Id": "q_68818cc90e8047d298fd08de045d4f17",
+            "Name": "Alliah Amstutz",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": [
+                40,
+                40,
+                null
+              ],
+              "AveragePoints": 7.3,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 3,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oconto XP 1",
+            "YearsQuizzing": null,
+            "Id": "q_e211e713527e42c585c808df24d69b23",
+            "Name": "Antalya LaFever",
+            "ChurchId": "99cb619d-0c74-4f62-a775-fe5da1aaf371",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Oconto",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 95,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 680,
+              "PerMeetTotalPoints": [
+                325,
+                355,
+                null
+              ],
+              "AveragePoints": 61.8,
+              "AverageCorrect": 3.8,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 88,
+              "Correct10s": 22,
+              "Correct20s": 17,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Doves",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_19",
+            "Name": "Breylyn Zielke",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Glidden Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 18,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                50
+              ],
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "New Richmond \"Be Quiet!\"",
+            "YearsQuizzing": null,
+            "Id": "q_a41c8c2741bc48e0220308df1a4c4c50",
+            "Name": "Bryson Boone",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 75,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 445,
+              "PerMeetTotalPoints": [
+                305,
+                null,
+                140
+              ],
+              "AveragePoints": 44.5,
+              "AverageCorrect": 3.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 27,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Hope\"",
+            "YearsQuizzing": null,
+            "Id": "q_e247f384b7174fcf6b5f08db1c497da3",
+            "Name": "Clara Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 140,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1105,
+              "PerMeetTotalPoints": [
+                610,
+                495,
+                null
+              ],
+              "AveragePoints": 100.5,
+              "AverageCorrect": 4.9,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 18,
+              "Correct20s": 29,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Doves",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_18",
+            "Name": "Emmett Schultz",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Glidden Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 395,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                395
+              ],
+              "AveragePoints": 98.8,
+              "AverageCorrect": 4.3,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 2,
+              "Correct20s": 12,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"God's Good News\"",
+            "YearsQuizzing": null,
+            "Id": "q_9846cb0a265344c93d5008dbd94ef9ff",
+            "Name": "Evalyn Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1025,
+              "PerMeetTotalPoints": [
+                585,
+                440,
+                null
+              ],
+              "AveragePoints": 93.2,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 23,
+              "Correct20s": 24,
+              "Correct30s": 6,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Fishers of People\"",
+            "YearsQuizzing": null,
+            "Id": "q_b9bafb1f07c84bb798f808de045d4f17",
+            "Name": "Isabella Amstutz",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 100,
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 335,
+              "PerMeetTotalPoints": [
+                105,
+                230,
+                null
+              ],
+              "AveragePoints": 30.5,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 13,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oconto XP 1",
+            "YearsQuizzing": null,
+            "Id": "q_89d3cd705c98480985be08df24d69b23",
+            "Name": "Isaiah Rakowski",
+            "ChurchId": "99cb619d-0c74-4f62-a775-fe5da1aaf371",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Oconto",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 110,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 565,
+              "PerMeetTotalPoints": [
+                455,
+                110,
+                null
+              ],
+              "AveragePoints": 51.4,
+              "AverageCorrect": 3.7,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 22,
+              "Correct20s": 17,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"God's Good News\"",
+            "YearsQuizzing": null,
+            "Id": "q_8a15f581a20847bc3d5f08dbd94ef9ff",
+            "Name": "Jade Vian",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1025,
+              "PerMeetTotalPoints": [
+                455,
+                570,
+                null
+              ],
+              "AveragePoints": 93.2,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 20,
+              "Correct20s": 22,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Grand View Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_17",
+            "Name": "Josiah Renz",
+            "ChurchId": "89c32583-e8fd-437d-bef9-c684d85282b3",
+            "ChurchName": "Great Divide Christian Center",
+            "City": "Grand View",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 16,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                70
+              ],
+              "AveragePoints": 17.5,
+              "AverageCorrect": 1.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 5,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "New Richmond \"Be Quiet!\"",
+            "YearsQuizzing": null,
+            "Id": "q_6cf5eb29808247681a5508de1687ad9b",
+            "Name": "Malachi Starkweather",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 930,
+              "PerMeetTotalPoints": [
+                595,
+                null,
+                335
+              ],
+              "AveragePoints": 93.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 26,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oconto XP 2",
+            "YearsQuizzing": null,
+            "Id": "q_7471f7352ed1451a85dc08df24d69b23",
+            "Name": "Mark Garrison",
+            "ChurchId": "99cb619d-0c74-4f62-a775-fe5da1aaf371",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Oconto",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 150,
+              "PerMeetTotalPoints": [
+                150,
+                0,
+                null
+              ],
+              "AveragePoints": 13.6,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 9,
+              "Correct20s": 4,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"The Straps of His Sandals\"",
+            "YearsQuizzing": null,
+            "Id": "q_e70386ec22c7482684db08df24d69b23",
+            "Name": "Paityn Aspenson",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 95,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 560,
+              "PerMeetTotalPoints": [
+                210,
+                350,
+                null
+              ],
+              "AveragePoints": 50.9,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 22,
+              "Correct20s": 14,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "New Richmond \"Be Quiet!\"",
+            "YearsQuizzing": null,
+            "Id": "q_f1abc90263a84348221b08df1a4c4c50",
+            "Name": "Roger Thomassen",
+            "ChurchId": "78230ef8-e9c7-42c3-a3b3-0d64cb199fe0",
+            "ChurchName": "Cornerstone Assembly of God",
+            "City": "New Richmond",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 655,
+              "PerMeetTotalPoints": [
+                465,
+                null,
+                190
+              ],
+              "AveragePoints": 65.5,
+              "AverageCorrect": 3.2,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 8,
+              "Correct20s": 15,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oconto XP 2",
+            "YearsQuizzing": null,
+            "Id": "q_0d300b274a6f40f885e608df24d69b23",
+            "Name": "Shaylee Tappa",
+            "ChurchId": "99cb619d-0c74-4f62-a775-fe5da1aaf371",
+            "ChurchName": "Harvest Assembly of God",
+            "City": "Oconto",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 60,
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 245,
+              "PerMeetTotalPoints": [
+                130,
+                115,
+                null
+              ],
+              "AveragePoints": 22.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 73,
+              "Correct10s": 13,
+              "Correct20s": 9,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"The Straps of His Sandals\"",
+            "YearsQuizzing": null,
+            "Id": "q_9a2db80a6e29448f6a9c08db1c497da3",
+            "Name": "Sophia Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 1010,
+              "PerMeetTotalPoints": [
+                610,
+                400,
+                null
+              ],
+              "AveragePoints": 91.8,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 91,
+              "Correct10s": 16,
+              "Correct20s": 26,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Grand View Disciples",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_16",
+            "Name": "Stephen Renz",
+            "ChurchId": "89c32583-e8fd-437d-bef9-c684d85282b3",
+            "ChurchName": "Great Divide Christian Center",
+            "City": "Grand View",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 355,
+              "PerMeetTotalPoints": [
+                null,
+                null,
+                355
+              ],
+              "AveragePoints": 88.8,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 9,
+              "Correct20s": 7,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta \"Fishers of People\"",
+            "YearsQuizzing": null,
+            "Id": "q_3e6f3890ffdf46a63d4108dbd94ef9ff",
+            "Name": "Violet Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 130,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1060,
+              "PerMeetTotalPoints": [
+                695,
+                365,
+                null
+              ],
+              "AveragePoints": 96.4,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 18,
+              "Correct20s": 26,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          4,
+          5,
+          18,
+          6,
+          9,
+          11,
+          16,
+          17,
+          14,
+          1,
+          8,
+          13,
+          3,
+          7,
+          15,
+          10,
+          12,
+          2,
+          0
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by total quiz outs."
+          }
+        ],
+        "MeetNames": [
+          "2026-27 Wisconsin/NM TBQ League Meet October (TBQ): XP5 Oct 2026",
+          "2026-27 Wisconsin/NM TBQ League Meet November (TBQ): XP5 November 2026",
+          "2026-27 Wisconsin/NM TBQ League Meet November (TBQ): XP5 November 2026 Northern League"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-15T02:05:58.6913319+00:00"
+}
