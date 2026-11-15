@@ -12,8 +12,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "ETX- Beginner - League 1- 10/26/27",
-        "LastUpdated": "11/14/26 12:01 AM",
-        "DatabaseLastUpdated": "2026-11-13T22:51:54.7181882+00:00",
+        "LastUpdated": "11/14/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-14T01:53:54.3512612+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -494,8 +494,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "ETX-Intermediate-League 1-Oct 26/27",
-        "LastUpdated": "11/14/26 12:01 AM",
-        "DatabaseLastUpdated": "2026-11-13T22:51:54.7181882+00:00",
+        "LastUpdated": "11/14/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-14T01:53:54.3512612+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -1427,8 +1427,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "ETX-Beginner-League 2-Nov 26/27",
-        "LastUpdated": "11/14/26 12:01 AM",
-        "DatabaseLastUpdated": "2026-11-13T22:51:54.7181882+00:00",
+        "LastUpdated": "11/14/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-14T01:53:54.3512612+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -1447,42 +1447,58 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 595,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 148.8,
+              "AverageCorrect": 12.3,
+              "QuizOuts": 7,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 44,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 145,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 170,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 125,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 155,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -1501,50 +1517,69 @@
             "ChurchName": "New Horizons Assembly of God",
             "City": "Grand Saline",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 50,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 80,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 35,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 15,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "A",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
             "CurrentMatchId": null
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          0,
+          1
+        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Fantastic 5 Bible Buds",
@@ -1555,7 +1590,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1568,7 +1617,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 75,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 280,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 23,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1581,7 +1644,21 @@
             "ChurchName": "New Horizons Assembly of God",
             "City": "Grand Saline",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1594,7 +1671,21 @@
             "ChurchName": "New Horizons Assembly of God",
             "City": "Grand Saline",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1607,7 +1698,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 80,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 285,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 71.3,
+              "AverageCorrect": 5.8,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 96,
+              "Correct10s": 20,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1620,7 +1725,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1633,7 +1752,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 5,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1646,13 +1779,41 @@
             "ChurchName": "New Horizons Assembly of God",
             "City": "Grand Saline",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 80,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 45.0,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 11,
+              "Correct20s": 5,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          4,
+          1,
+          7,
+          5,
+          0,
+          2,
+          3,
+          6
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -1662,50 +1823,50 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -1733,8 +1894,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -1748,8 +1909,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "ETX-Intermediate-League 2-Nov 26/27",
-        "LastUpdated": "11/14/26 12:01 AM",
-        "DatabaseLastUpdated": "2026-11-13T22:51:54.7181882+00:00",
+        "LastUpdated": "11/14/26 5:26 PM",
+        "DatabaseLastUpdated": "2026-11-14T01:53:54.3512612+00:00",
         "CompetitionType": "JBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -1767,44 +1928,60 @@
             "ChurchName": "Victory Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "Wins": 4,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 730,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 182.5,
+              "AverageCorrect": 11.8,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 25,
+              "Correct20s": 18,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 145,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               null,
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 245,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 125,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               null,
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 215,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -1823,44 +2000,60 @@
             "ChurchName": "Iglesia Nueva Vida Asamblea de Dios",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "Wins": 0,
+              "Losses": 4,
+              "WinPercentage": 0,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 105,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 4,
+              "Correct20s": 4,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": [
               null,
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 15,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 20,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               null,
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 50,
                 "OtherTeam": 2,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 20,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               }
             ],
@@ -1881,43 +2074,59 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "Wins": 2,
+              "Losses": 2,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 480,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 120.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 94,
+              "Correct10s": 17,
+              "Correct20s": 14,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": [
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 50,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 170,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               null,
               {
-                "Result": null,
-                "Score": null,
+                "Result": "L",
+                "Score": 100,
                 "OtherTeam": 0,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               {
-                "Result": null,
-                "Score": null,
+                "Result": "W",
+                "Score": 160,
                 "OtherTeam": 1,
                 "RoomId": 1,
                 "Room": "B",
-                "State": "NotStarted",
+                "State": "Completed",
                 "CurrentQuestion": null
               },
               null
@@ -1925,8 +2134,12 @@
             "CurrentMatchId": null
           }
         ],
-        "RankedTeams": null,
-        "TeamFootnotes": null,
+        "RankedTeams": [
+          0,
+          2,
+          1
+        ],
+        "TeamFootnotes": [],
         "Quizzers": [
           {
             "TeamName": "Iglesia Nueva Vida Asamblea de Dios (Longview) #1",
@@ -1937,7 +2150,21 @@
             "ChurchName": "Iglesia Nueva Vida Asamblea de Dios",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 85,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 21.3,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 3,
+              "Correct20s": 3,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1950,7 +2177,21 @@
             "ChurchName": "Iglesia Nueva Vida Asamblea de Dios",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 7,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 0,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1963,7 +2204,21 @@
             "ChurchName": "Victory Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1976,7 +2231,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 345,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 86.3,
+              "AverageCorrect": 4.8,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 4,
+              "Correct20s": 14,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -1989,7 +2258,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 33.8,
+              "AverageCorrect": 3.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 13,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2002,7 +2285,21 @@
             "ChurchName": "Iglesia Nueva Vida Asamblea de Dios",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2015,7 +2312,21 @@
             "ChurchName": "Victory Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 25,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 15.0,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 3,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2028,7 +2339,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2041,7 +2366,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2054,7 +2393,21 @@
             "ChurchName": "First Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 9,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2067,7 +2420,21 @@
             "ChurchName": "Victory Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 140,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 455,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 113.8,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 6,
+              "Correct20s": 15,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           },
@@ -2080,13 +2447,45 @@
             "ChurchName": "Victory Assembly of God",
             "City": "Longview",
             "State": "TX",
-            "Scores": null,
+            "Scores": {
+              "MaxPoints": 80,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 215,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 53.8,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 16,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
             "Matches": null,
             "CurrentMatchId": null
           }
         ],
-        "RankedQuizzers": null,
-        "QuizzerFootnotes": null,
+        "RankedQuizzers": [
+          10,
+          3,
+          11,
+          4,
+          0,
+          6,
+          5,
+          1,
+          2,
+          7,
+          8,
+          9
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
         "MeetNames": null,
         "Rooms": [
           {
@@ -2096,70 +2495,70 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 2,
-                "Team2": 0,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 0,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 2,
-                "Team2": 0,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
                 "Blockers": null
               },
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 1,
-                "Team2": 0,
+                "Team1": 2,
+                "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
-                "State": "NotStarted",
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
                 "Blockers": null
               }
             ]
           }
         ],
-        "TeamRankingLabel": null,
-        "TeamRankingAwardsLabel": null,
-        "QuizzerRankingLabel": null,
-        "QuizzerRankingAwardsLabel": null,
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
         "Matches": [
           {
             "Id": 1,
@@ -2199,8 +2598,8 @@
           }
         ],
         "HasRoomCompletionMismatch": false,
-        "HasScoringCompleted": false,
-        "ScoringProgressMessage": "",
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
         "HasRoomCompletionMismatchForCombined": false,
         "HasScoringCompletedForCombined": false,
         "ScoringProgressMessageForCombined": null,
@@ -2267,5 +2666,5 @@
       }
     }
   ],
-  "Freshness": "2026-11-13T22:51:54.7772937+00:00"
+  "Freshness": "2026-11-14T17:26:26.2445479+00:00"
 }
