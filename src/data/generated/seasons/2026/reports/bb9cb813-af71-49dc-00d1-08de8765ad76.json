@@ -13,6 +13,7 @@
         "LastUpdated": "3/21/26 4:45 PM",
         "DatabaseLastUpdated": "2026-03-21T00:51:37.9640344+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Jennifer Schneider",
@@ -24,9 +25,7 @@
               13,
               15
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_9f6e05a8-e136-4a45-b795-7a2b31c32122",
+            "Id": "t_9f6e05a8e1364a45b7957a2b31c32122",
             "Name": "Bethalto",
             "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
             "ChurchName": "Cornerstone Assembly of God",
@@ -35,7 +34,7 @@
             "Scores": {
               "Wins": 2,
               "Losses": 14,
-              "WinPercentage": 12,
+              "WinPercentage": 13,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 355,
@@ -46,14 +45,16 @@
                 60
               ],
               "AveragePoints": 22.2,
-              "AverageCorrect": 2.2,
+              "AverageCorrect": 2.3,
               "QuizOuts": 0,
               "QuestionCorrectPercentage": 92,
               "Correct10s": 35,
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Thomas Miller",
@@ -65,9 +66,7 @@
               14,
               16
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_7c14fe45-cb7f-41d9-ab19-0e4078adec7d",
+            "Id": "t_7c14fe45cb7f41d9ab190e4078adec7d",
             "Name": "Carlinville",
             "ChurchId": "891360fb-848f-4fab-b009-979139d2f58e",
             "ChurchName": "First Assembly of God",
@@ -94,7 +93,9 @@
               "Correct20s": 15,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Angelin Blasha Kanakaraj",
@@ -105,9 +106,7 @@
               7,
               12
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_81c11786-3cc1-4203-b873-f04751565c07",
+            "Id": "t_81c117863cc14203b873f04751565c07",
             "Name": "Normal",
             "ChurchId": "c92dc539-f28e-47f4-bef0-693153ad7436",
             "ChurchName": "First Assembly of God",
@@ -134,7 +133,9 @@
               "Correct20s": 45,
               "Correct30s": 15,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -154,6 +155,7 @@
             "City": "Carlinville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": false,
               "TotalPoints": 0,
@@ -171,7 +173,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Normal",
@@ -183,6 +187,7 @@
             "City": "Normal",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 885,
@@ -200,7 +205,9 @@
               "Correct20s": 26,
               "Correct30s": 11,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Normal",
@@ -212,6 +219,7 @@
             "City": "Normal",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 485,
@@ -224,12 +232,14 @@
               "AveragePoints": 30.3,
               "AverageCorrect": 2.3,
               "QuizOuts": 3,
-              "QuestionCorrectPercentage": 92,
+              "QuestionCorrectPercentage": 93,
               "Correct10s": 28,
               "Correct20s": 8,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Normal",
@@ -241,6 +251,7 @@
             "City": "Normal",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 2,
               "IsTie": false,
               "TotalPoints": 530,
@@ -258,7 +269,9 @@
               "Correct20s": 9,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethalto",
@@ -270,6 +283,7 @@
             "City": "Bethalto",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 165,
@@ -287,18 +301,21 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethalto",
             "YearsQuizzing": 0,
-            "Id": "q_00000000-0000-0000-0000-000000000002_35",
+            "Id": "q_00000000000000000000000000000002_35",
             "Name": "Ethan Colclasure",
             "ChurchId": "fc433d70-8706-4ceb-ad7f-70033b0817de",
             "ChurchName": "Cornerstone Assembly of God",
             "City": "Bethalto",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": true,
               "TotalPoints": 0,
@@ -316,7 +333,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville",
@@ -328,6 +347,7 @@
             "City": "Carlinville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": true,
               "TotalPoints": 0,
@@ -345,7 +365,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Normal",
@@ -357,6 +379,7 @@
             "City": "Normal",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 7,
               "IsTie": false,
               "TotalPoints": 170,
@@ -374,7 +397,9 @@
               "Correct20s": 2,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethalto",
@@ -386,6 +411,7 @@
             "City": "Bethalto",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 8,
               "IsTie": false,
               "TotalPoints": 135,
@@ -403,7 +429,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethalto",
@@ -415,6 +443,7 @@
             "City": "Bethalto",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 10,
               "IsTie": false,
               "TotalPoints": 10,
@@ -432,7 +461,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville",
@@ -444,6 +475,7 @@
             "City": "Carlinville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 4,
               "IsTie": false,
               "TotalPoints": 450,
@@ -461,7 +493,9 @@
               "Correct20s": 5,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville",
@@ -473,6 +507,7 @@
             "City": "Carlinville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": true,
               "TotalPoints": 0,
@@ -490,7 +525,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Normal",
@@ -502,6 +539,7 @@
             "City": "Normal",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": true,
               "TotalPoints": 0,
@@ -519,7 +557,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethalto",
@@ -531,6 +571,7 @@
             "City": "Bethalto",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 9,
               "IsTie": false,
               "TotalPoints": 45,
@@ -548,7 +589,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville",
@@ -560,6 +603,7 @@
             "City": "Carlinville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": 445,
@@ -577,7 +621,9 @@
               "Correct20s": 10,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bethalto",
@@ -589,6 +635,7 @@
             "City": "Bethalto",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": true,
               "TotalPoints": 0,
@@ -606,7 +653,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Carlinville",
@@ -618,6 +667,7 @@
             "City": "Carlinville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": true,
               "TotalPoints": 0,
@@ -635,7 +685,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [

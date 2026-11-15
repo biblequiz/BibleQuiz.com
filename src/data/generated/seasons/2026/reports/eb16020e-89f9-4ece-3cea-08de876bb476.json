@@ -13,6 +13,7 @@
         "LastUpdated": "3/21/26 5:17 PM",
         "DatabaseLastUpdated": "2026-03-21T14:52:26.0748408+00:00",
         "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
         "Teams": [
           {
             "CoachName": "Rachel McNicholas",
@@ -22,9 +23,7 @@
               16,
               24
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_be993d0e-38b2-49b0-8f3a-e87bddc7b39d",
+            "Id": "t_be993d0e38b249b08f3ae87bddc7b39d",
             "Name": "Bolingbrook",
             "ChurchId": "add2352a-08fb-4108-b7d6-3d508faf3e59",
             "ChurchName": "Living Water",
@@ -51,7 +50,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Griselda Govea",
@@ -62,9 +63,7 @@
               17,
               22
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_06e51353-8d3d-4040-8c9e-ce7f815ad030",
+            "Id": "t_06e513538d3d40408c9ece7f815ad030",
             "Name": "Chicago",
             "ChurchId": "64110346-27b0-4914-747f-08d736d13938",
             "ChurchName": "Metro Praise International Church",
@@ -91,7 +90,9 @@
               "Correct20s": 62,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Sri Paulraj",
@@ -101,9 +102,7 @@
               18,
               23
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_2c440130-1eb6-4dfa-b41b-f08e2649441a",
+            "Id": "t_2c4401301eb64dfab41bf08e2649441a",
             "Name": "Chicago",
             "ChurchId": "1cbf8b08-cf99-4871-ba18-b895092457b1",
             "ChurchName": "The Chicago Tabernacle",
@@ -130,7 +129,9 @@
               "Correct20s": 64,
               "Correct30s": 13,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Phil Zuziak",
@@ -139,9 +140,7 @@
               15,
               19
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_3be71bfa-e3c5-477d-a64d-2f163c53e25e",
+            "Id": "t_3be71bfae3c5477da64d2f163c53e25e",
             "Name": "Hanover Park",
             "ChurchId": "087c637e-75b9-45a6-8fef-468340febf84",
             "ChurchName": "Evangel Assembly of God",
@@ -168,7 +167,9 @@
               "Correct20s": 96,
               "Correct30s": 63,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Jeff Papendick",
@@ -179,9 +180,7 @@
               11,
               21
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_7ca9e10e-1053-4e79-b386-93d0de9e879a",
+            "Id": "t_7ca9e10e10534e79b38693d0de9e879a",
             "Name": "Naperville",
             "ChurchId": "a81e5624-b243-4af7-8bb1-c8abe7a1bf36",
             "ChurchName": "Calvary Church",
@@ -208,7 +207,9 @@
               "Correct20s": 142,
               "Correct30s": 36,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Elie Abdelnour",
@@ -216,9 +217,7 @@
               9,
               20
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_0ab45882-7d4c-42ef-888b-f76591919278",
+            "Id": "t_0ab458827d4c42ef888bf76591919278",
             "Name": "Orland Park",
             "ChurchId": "ddd21f99-428c-4801-bb60-62369577024f",
             "ChurchName": "The Stone Church",
@@ -245,7 +244,9 @@
               "Correct20s": 28,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Aziza Butler",
@@ -253,9 +254,7 @@
               2,
               3
             ],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_a6d91acf-fdb5-496c-b3ae-61921fd4f0f1",
+            "Id": "t_a6d91acffdb5496cb3ae61921fd4f0f1",
             "Name": "South Holland",
             "ChurchId": "e09a7002-da3c-4447-ae5b-a5306af5bf96",
             "ChurchName": "River Oaks",
@@ -282,14 +281,14 @@
               "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "CoachName": "Aziza Buter",
             "Quizzers": [],
-            "Matches": null,
-            "CurrentMatchId": null,
-            "Id": "t_00000000-0000-0000-0000-000000000002_23",
+            "Id": "t_00000000000000000000000000000002_23",
             "Name": "South Holland",
             "ChurchId": null,
             "ChurchName": "River Oaks",
@@ -316,7 +315,9 @@
               "Correct20s": 4,
               "Correct30s": 1,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
@@ -346,6 +347,7 @@
             "City": "Bolingbrook",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 20,
               "IsTie": false,
               "TotalPoints": 30,
@@ -363,7 +365,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville",
@@ -375,6 +379,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 2,
               "IsTie": false,
               "TotalPoints": 2280,
@@ -392,7 +397,9 @@
               "Correct20s": 108,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "South Holland",
@@ -404,6 +411,7 @@
             "City": "South Holland",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 12,
               "IsTie": false,
               "TotalPoints": 310,
@@ -421,7 +429,9 @@
               "Correct20s": 7,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "South Holland",
@@ -433,6 +443,7 @@
             "City": "South Holland",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 22,
               "IsTie": false,
               "TotalPoints": 25,
@@ -450,7 +461,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville",
@@ -462,6 +475,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 4,
               "IsTie": false,
               "TotalPoints": 1295,
@@ -479,7 +493,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -491,6 +507,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 16,
               "IsTie": false,
               "TotalPoints": 205,
@@ -508,7 +525,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville",
@@ -520,6 +539,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 10,
               "IsTie": false,
               "TotalPoints": 810,
@@ -537,7 +557,9 @@
               "Correct20s": 0,
               "Correct30s": 26,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -549,6 +571,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 8,
               "IsTie": false,
               "TotalPoints": 825,
@@ -566,7 +589,9 @@
               "Correct20s": 14,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bolingbrook",
@@ -578,6 +603,7 @@
             "City": "Bolingbrook",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 15,
               "IsTie": false,
               "TotalPoints": 75,
@@ -595,7 +621,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Orland Park",
@@ -607,6 +635,7 @@
             "City": "Orland Park",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 6,
               "IsTie": false,
               "TotalPoints": 1000,
@@ -624,7 +653,9 @@
               "Correct20s": 28,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Hanover Park",
@@ -636,6 +667,7 @@
             "City": "Hanover Park",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 1,
               "IsTie": false,
               "TotalPoints": 3370,
@@ -653,7 +685,9 @@
               "Correct20s": 76,
               "Correct30s": 60,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville",
@@ -665,6 +699,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 13,
               "IsTie": false,
               "TotalPoints": 460,
@@ -682,7 +717,9 @@
               "Correct20s": 33,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -694,6 +731,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 23,
               "IsTie": false,
               "TotalPoints": 20,
@@ -711,7 +749,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -723,6 +763,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 9,
               "IsTie": false,
               "TotalPoints": 820,
@@ -740,7 +781,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -752,6 +795,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 3,
               "IsTie": false,
               "TotalPoints": 1430,
@@ -769,7 +813,9 @@
               "Correct20s": 34,
               "Correct30s": 7,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Hanover Park",
@@ -781,6 +827,7 @@
             "City": "Hanover Park",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 7,
               "IsTie": false,
               "TotalPoints": 910,
@@ -798,7 +845,9 @@
               "Correct20s": 19,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bolingbrook",
@@ -810,6 +859,7 @@
             "City": "Bolingbrook",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 24,
               "IsTie": false,
               "TotalPoints": 0,
@@ -827,7 +877,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -839,6 +891,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 5,
               "IsTie": false,
               "TotalPoints": 1230,
@@ -856,7 +909,9 @@
               "Correct20s": 60,
               "Correct30s": 1,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -868,6 +923,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 14,
               "IsTie": false,
               "TotalPoints": 330,
@@ -885,7 +941,9 @@
               "Correct20s": 13,
               "Correct30s": 3,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Hanover Park",
@@ -897,6 +955,7 @@
             "City": "Hanover Park",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 18,
               "IsTie": false,
               "TotalPoints": 225,
@@ -914,7 +973,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Orland Park",
@@ -926,6 +987,7 @@
             "City": "Orland Park",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 24,
               "IsTie": true,
               "TotalPoints": 0,
@@ -943,7 +1005,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": 0
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Naperville",
@@ -955,6 +1019,7 @@
             "City": "Naperville",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 17,
               "IsTie": false,
               "TotalPoints": 260,
@@ -972,7 +1037,9 @@
               "Correct20s": 1,
               "Correct30s": 10,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -984,6 +1051,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 11,
               "IsTie": false,
               "TotalPoints": 680,
@@ -1001,7 +1069,9 @@
               "Correct20s": 1,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Chicago",
@@ -1013,6 +1083,7 @@
             "City": "Chicago",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 21,
               "IsTie": false,
               "TotalPoints": 80,
@@ -1030,18 +1101,21 @@
               "Correct20s": 3,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           },
           {
             "TeamName": "Bolingbrook",
             "YearsQuizzing": null,
-            "Id": "q_00000000-0000-0000-0000-000000000002_56",
+            "Id": "q_00000000000000000000000000000002_56",
             "Name": "Zuri Jackson",
             "ChurchId": "add2352a-08fb-4108-b7d6-3d508faf3e59",
             "ChurchName": "Living Water",
             "City": "Bolingbrook",
             "State": "IL",
             "Scores": {
+              "MaxPoints": null,
               "Rank": 19,
               "IsTie": false,
               "TotalPoints": 40,
@@ -1059,7 +1133,9 @@
               "Correct20s": 0,
               "Correct30s": 0,
               "FootnoteIndex": null
-            }
+            },
+            "Matches": null,
+            "CurrentMatchId": null
           }
         ],
         "RankedQuizzers": [
