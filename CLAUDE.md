@@ -8,4 +8,4 @@ This repo is only the UI (Astro + React). The data it shows, and defaults such a
 2. Then check the ModernApps side that produces that field (`gh search code --repo biblequiz/ModernApps <term>` works without a clone).
 3. Fix at the real fault, and prefer the smallest change. Check that this UI passes the right data before assuming the backend is wrong (e.g. the team division editor once passed `DefaultIndividualRules` for team divisions, which no backend change could fix).
 
-If the fix needs both repos, open paired PRs and link them. There is no PR CI here and deploys come from `main`, so say in the PR what was and wasn't tested, and run `npm install && npm run check` locally (see `DEVELOPMENT.md`).
+If the fix needs both repos, open paired PRs and link them. The only PR check is `build` (`.github/workflows/build.yml`: `npm ci` and `npm run build`, on every pull request to `main`, drafts included), and deploys come from `main`. So say in the PR what was and wasn't tested, and run `npm install && npm run check` locally (see `DEVELOPMENT.md`).
