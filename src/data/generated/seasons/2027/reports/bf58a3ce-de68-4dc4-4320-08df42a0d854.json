@@ -1,0 +1,718 @@
+{
+  "EventName": "2026-27 WI/NM District Combined Championship Stats",
+  "Description": "Combined Stats October - November",
+  "DatabaseNames": {},
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "00000000-0000-0000-0000-000000000002",
+        "MeetId": 1,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "2026-27 WI/NM District Combined Championship Stats",
+        "LastUpdated": "11/14/26 7:51 PM",
+        "DatabaseLastUpdated": "2026-11-12T21:17:05.023887+00:00",
+        "CompetitionType": "TBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5,
+              8,
+              12
+            ],
+            "Id": "t_a675543d111a485985c2f00882000f67",
+            "Name": "Oak Creek \"Must Take Last\"",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "Wins": 14,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 4050,
+              "PerMeetTotalPoints": [
+                2110,
+                1940
+              ],
+              "AveragePoints": 289.3,
+              "AverageCorrect": 14.1,
+              "QuizOuts": 35,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 71,
+              "Correct20s": 89,
+              "Correct30s": 37,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              11
+            ],
+            "Id": "t_56be5d6779e34cd2bf170677d578eec4",
+            "Name": "Portage \"Have Mercy on Us\"",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 12,
+              "WinPercentage": 14,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 1325,
+              "PerMeetTotalPoints": [
+                600,
+                725
+              ],
+              "AveragePoints": 94.6,
+              "AverageCorrect": 6.4,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 53,
+              "Correct20s": 32,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Don Batty",
+            "Quizzers": [
+              9,
+              10
+            ],
+            "Id": "t_0f5edf8b7e1b4ba799100dce9b6c821d",
+            "Name": "Portage \"N&N Courage\"",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "Wins": 4,
+              "Losses": 10,
+              "WinPercentage": 29,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1195,
+              "PerMeetTotalPoints": [
+                545,
+                650
+              ],
+              "AveragePoints": 85.4,
+              "AverageCorrect": 5.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 42,
+              "Correct20s": 36,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              2,
+              7,
+              13
+            ],
+            "Id": "t_d3c57793b30d43d29d2864cf83159315",
+            "Name": "Sparta Boys",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 8,
+              "Losses": 6,
+              "WinPercentage": 57,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1490,
+              "PerMeetTotalPoints": [
+                860,
+                630
+              ],
+              "AveragePoints": 106.4,
+              "AverageCorrect": 6.9,
+              "QuizOuts": 9,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 34,
+              "Correct20s": 52,
+              "Correct30s": 11,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              4,
+              6
+            ],
+            "Id": "t_66f3bf4c65cd4d7daf784e031f569651",
+            "Name": "Sparta Girls 1",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 9,
+              "Losses": 5,
+              "WinPercentage": 64,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1815,
+              "PerMeetTotalPoints": [
+                1035,
+                780
+              ],
+              "AveragePoints": 129.6,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 87,
+              "Correct10s": 35,
+              "Correct20s": 40,
+              "Correct30s": 19,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              1,
+              3
+            ],
+            "Id": "t_3a5538859215479588d589af0c8341b2",
+            "Name": "Sparta Girls 2",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 9,
+              "WinPercentage": 36,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1065,
+              "PerMeetTotalPoints": [
+                485,
+                580
+              ],
+              "AveragePoints": 76.1,
+              "AverageCorrect": 5.7,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 68,
+              "Correct10s": 39,
+              "Correct20s": 32,
+              "Correct30s": 9,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          4,
+          3,
+          5,
+          2,
+          1
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "Portage \"Have Mercy on Us\"",
+            "YearsQuizzing": null,
+            "Id": "q_e66564914fff479c00da08d9cd6f31c9",
+            "Name": "Brenna Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 945,
+              "PerMeetTotalPoints": [
+                460,
+                485
+              ],
+              "AveragePoints": 67.5,
+              "AverageCorrect": 4.2,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 32,
+              "Correct20s": 22,
+              "Correct30s": 5,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Girls 2",
+            "YearsQuizzing": null,
+            "Id": "q_03ce532b136a469a063908d8f2259de9",
+            "Name": "Eiliyah Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 515,
+              "PerMeetTotalPoints": [
+                265,
+                250
+              ],
+              "AveragePoints": 36.8,
+              "AverageCorrect": 3.1,
+              "QuizOuts": 3,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 20,
+              "Correct20s": 17,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Boys",
+            "YearsQuizzing": null,
+            "Id": "q_57e22eba706f49043d5a08dbd94ef9ff",
+            "Name": "Elias Baldwin",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 100,
+              "PerMeetTotalPoints": [
+                50,
+                50
+              ],
+              "AveragePoints": 7.1,
+              "AverageCorrect": 0.6,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 7,
+              "Correct20s": 2,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Girls 2",
+            "YearsQuizzing": null,
+            "Id": "q_ef55fe14794e4179df2308df21f76ae1",
+            "Name": "Ella VandeHei",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 550,
+              "PerMeetTotalPoints": [
+                220,
+                330
+              ],
+              "AveragePoints": 39.3,
+              "AverageCorrect": 2.6,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 19,
+              "Correct20s": 15,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Girls 1",
+            "YearsQuizzing": null,
+            "Id": "q_5581b3626c024675063408d8f2259de9",
+            "Name": "Isabella Millard",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 1475,
+              "PerMeetTotalPoints": [
+                855,
+                620
+              ],
+              "AveragePoints": 105.4,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 16,
+              "Correct20s": 32,
+              "Correct30s": 18,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oak Creek \"Must Take Last\"",
+            "YearsQuizzing": null,
+            "Id": "q_1ee2d8b99de94add298308daf5b040d4",
+            "Name": "Levi Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 1085,
+              "PerMeetTotalPoints": [
+                585,
+                500
+              ],
+              "AveragePoints": 77.5,
+              "AverageCorrect": 4.6,
+              "QuizOuts": 11,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 29,
+              "Correct20s": 35,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Girls 1",
+            "YearsQuizzing": null,
+            "Id": "q_3c8dee9cc60e4dc4063e08d8f2259de9",
+            "Name": "Libby Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 340,
+              "PerMeetTotalPoints": [
+                180,
+                160
+              ],
+              "AveragePoints": 24.3,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 19,
+              "Correct20s": 8,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Boys",
+            "YearsQuizzing": null,
+            "Id": "q_292632c2ff374e03062a08d8f2259de9",
+            "Name": "Lucas Abbott",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 370,
+              "PerMeetTotalPoints": [
+                325,
+                45
+              ],
+              "AveragePoints": 26.4,
+              "AverageCorrect": 2.1,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 15,
+              "Correct20s": 12,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oak Creek \"Must Take Last\"",
+            "YearsQuizzing": null,
+            "Id": "q_8759654677cd47b9c33b08d8f272c07b",
+            "Name": "Lucas Mank",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 1930,
+              "PerMeetTotalPoints": [
+                970,
+                960
+              ],
+              "AveragePoints": 137.9,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 14,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 0,
+              "Correct20s": 37,
+              "Correct30s": 33,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"N&N Courage\"",
+            "YearsQuizzing": null,
+            "Id": "q_9a74549d6ab54d5d6b5008db1c497da3",
+            "Name": "Noah Martens",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 895,
+              "PerMeetTotalPoints": [
+                465,
+                430
+              ],
+              "AveragePoints": 63.9,
+              "AverageCorrect": 3.9,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 79,
+              "Correct10s": 22,
+              "Correct20s": 28,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"N&N Courage\"",
+            "YearsQuizzing": null,
+            "Id": "q_c9e8f656cd324c966b5508db1c497da3",
+            "Name": "Nolan Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 13,
+              "IsTie": false,
+              "TotalPoints": 300,
+              "PerMeetTotalPoints": [
+                80,
+                220
+              ],
+              "AveragePoints": 21.4,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 82,
+              "Correct10s": 20,
+              "Correct20s": 8,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Portage \"Have Mercy on Us\"",
+            "YearsQuizzing": null,
+            "Id": "q_72ffe61b6b8f429d6b5a08db1c497da3",
+            "Name": "Silas Schoessow",
+            "ChurchId": "10773de8-e9d5-40ae-8567-4bb74b1f7cab",
+            "ChurchName": "CrossPoint AG",
+            "City": "Portage",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 380,
+              "PerMeetTotalPoints": [
+                140,
+                240
+              ],
+              "AveragePoints": 27.1,
+              "AverageCorrect": 2.2,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 21,
+              "Correct20s": 10,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Oak Creek \"Must Take Last\"",
+            "YearsQuizzing": null,
+            "Id": "q_db3fd5988284457f018508db1c4cce3d",
+            "Name": "Stella Olson",
+            "ChurchId": "6a1afecc-ebab-411a-ac0d-839c36500269",
+            "ChurchName": "Discover Church",
+            "City": "Oak Creek",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1035,
+              "PerMeetTotalPoints": [
+                555,
+                480
+              ],
+              "AveragePoints": 73.9,
+              "AverageCorrect": 4.5,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 90,
+              "Correct10s": 42,
+              "Correct20s": 17,
+              "Correct30s": 4,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Sparta Boys",
+            "YearsQuizzing": null,
+            "Id": "q_d30a29315ff14cff16e808da165f544a",
+            "Name": "Will Meyer",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": null,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 1020,
+              "PerMeetTotalPoints": [
+                485,
+                535
+              ],
+              "AveragePoints": 72.9,
+              "AverageCorrect": 4.1,
+              "QuizOuts": 8,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 12,
+              "Correct20s": 38,
+              "Correct30s": 8,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          8,
+          4,
+          5,
+          12,
+          13,
+          0,
+          9,
+          3,
+          1,
+          11,
+          7,
+          6,
+          10,
+          2
+        ],
+        "QuizzerFootnotes": [],
+        "MeetNames": [
+          "2026-27 Wisconsin/NM TBQ League Meet October (TBQ): Championship Oct 2026",
+          "2026-27 Wisconsin/NM TBQ League Meet November (TBQ): Championship Nov 2026"
+        ],
+        "Rooms": null,
+        "TeamRankingLabel": "Ranked by win percentage. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": null,
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": true
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-14T19:51:46.923576+00:00"
+}
