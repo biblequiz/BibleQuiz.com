@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { formatStateOption } from 'utils/StateLabels';
 import { PeopleService } from 'types/services/PeopleService';
 import { ChurchesService } from 'types/services/ChurchesService';
 import type { AuthManager } from 'types/AuthManager';
@@ -45,7 +46,7 @@ interface NormalizedAddress {
 }
 
 const EMPTY_LABEL = 'Empty';
-const ZIP_CODE_PATTERN = /^\d{5}$/;
+const ZIP_CODE_PATTERN = /^\d{5,6}$/;
 const DISTRICTS = districts as DistrictInfo[];
 const PERSON_ADDRESS_STATES = (stateData as Array<{ code: string }>).map(state => state.code);
 const DISTRICT_NAME_BY_ID: Record<string, string> = {};
@@ -584,7 +585,7 @@ export default function MergePanel({
             } else {
                 const zipText = DataTypeHelpers.formatZipCode(address.zip);
                 if (!ZIP_CODE_PATTERN.test(zipText)) {
-                    errors.push('Zip must be a valid 5-digit value.');
+                    errors.push('Zip must be a 5- or 6-digit value.');
                 }
             }
         }
@@ -607,7 +608,7 @@ export default function MergePanel({
             } else {
                 const zipText = DataTypeHelpers.formatZipCode(address.zip);
                 if (!ZIP_CODE_PATTERN.test(zipText)) {
-                    errors.push('Zip must be a valid 5-digit value.');
+                    errors.push('Zip must be a 5- or 6-digit value.');
                 }
             }
         }
@@ -1237,7 +1238,7 @@ export default function MergePanel({
                                                 >
                                                     <option value="">State</option>
                                                     {(isPeopleMerge ? PERSON_ADDRESS_STATES : CHURCH_ADDRESS_STATES).map(state => (
-                                                        <option key={state} value={state}>{state}</option>
+                                                        <option key={state} value={state}>{formatStateOption(state)}</option>
                                                     ))}
                                                 </select>
                                                 <input
@@ -1247,8 +1248,8 @@ export default function MergePanel({
                                                     onChange={event => updateOverride('addressZip', event.target.value)}
                                                     placeholder="Zip"
                                                     minLength={5}
-                                                    maxLength={5}
-                                                    pattern="[0-9]{5}"
+                                                    maxLength={6}
+                                                    pattern="[0-9]{5,6}"
                                                 />
                                             </div>
                                         )}

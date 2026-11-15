@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { formatStateOption } from "utils/StateLabels";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ConfirmationDialog from "components/ConfirmationDialog";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
@@ -311,14 +312,14 @@ function PayoutEntryDialog({
                         >
                             <option value=""></option>
                             {stateData.map(s => (
-                                <option key={s.code} value={s.code}>{s.code}</option>
+                                <option key={s.code} value={s.code}>{formatStateOption(s.code)}</option>
                             ))}
                         </select>
                         <input
                             type="text"
                             className="input input-bordered w-full mt-0 mb-0"
-                            pattern="[0-9]{5}"
-                            maxLength={5}
+                            pattern="[0-9]{5,6}"
+                            maxLength={6}
                             placeholder="Zip"
                             value={zipCode}
                             onChange={e => setZipCode(e.target.value)}

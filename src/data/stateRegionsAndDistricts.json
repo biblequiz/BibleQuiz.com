@@ -68,6 +68,24 @@
     ]
   },
   {
+    "code": "BR",
+    "label": "Bihar",
+    "country": "IN",
+    "regions": [
+      {
+        "id": "f9be3e78-720a-4965-bdec-561418da88cf",
+        "name": "India"
+      }
+    ],
+    "districts": [
+      {
+        "id": "49bc4ab9-707c-4e47-a14a-5ba87092ccdc",
+        "name": "Bihar",
+        "regionId": "f9be3e78-720a-4965-bdec-561418da88cf"
+      }
+    ]
+  },
+  {
     "code": "CA",
     "label": "California",
     "regions": [
@@ -304,6 +322,24 @@
         "id": "32ca0b21-693f-440f-9706-c81d197faf43",
         "name": "Kansas",
         "regionId": "a4a4c03c-7409-4ef6-b706-8abda87b24cc"
+      }
+    ]
+  },
+  {
+    "code": "KT",
+    "label": "Kathmandu",
+    "country": "NP",
+    "regions": [
+      {
+        "id": "b2b91aa3-db2e-4f06-b792-d368f10640de",
+        "name": "Nepal"
+      }
+    ],
+    "districts": [
+      {
+        "id": "d3bf70e7-b77f-4d50-89f2-7c8f2a1166e6",
+        "name": "Kathmandu",
+        "regionId": "b2b91aa3-db2e-4f06-b792-d368f10640de"
       }
     ]
   },

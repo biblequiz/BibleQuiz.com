@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { formatStateOption } from "utils/StateLabels";
 import { useModalDialog } from "hooks/useModalDialog";
 import { Church, ChurchesService } from 'types/services/ChurchesService';
 import regions from 'data/regions.json';
@@ -314,7 +315,7 @@ export default function ChurchSettingsDialog({
                                     >
                                         {validStates.map(s => (
                                             <option key={`state_${s}`} value={s}>
-                                                {s}
+                                                {formatStateOption(s)}
                                             </option>))}
                                     </select>
                                 </div>
@@ -333,7 +334,7 @@ export default function ChurchSettingsDialog({
                                     className="input input-bordered w-full"
                                     disabled={isSaving}
                                     minLength={5}
-                                    maxLength={5}
+                                    maxLength={6}
                                     pattern="[0-9]*"
                                     required
                                 />
