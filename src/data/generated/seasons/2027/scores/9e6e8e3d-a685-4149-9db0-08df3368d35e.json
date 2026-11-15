@@ -1,0 +1,1382 @@
+{
+  "EventName": "WTX JBQ 26-27 South Meet 3 Intent to Quiz at First AG Snyder",
+  "DatabaseNames": {
+    "2e7cb04a-f92e-4f47-b904-ae1c119c5902": "WTX_JBQ_South_26-27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "2e7cb04a-f92e-4f47-b904-ae1c119c5902",
+        "MeetId": 3,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "WTX South Meet 3 2026-2027",
+        "LastUpdated": "11/14/26 7:16 PM",
+        "DatabaseLastUpdated": "2026-11-14T16:05:49.4302347+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "Irma Rodriguez",
+            "Quizzers": [
+              4,
+              10,
+              14,
+              20
+            ],
+            "Id": "t_c988a08f206a44ea8651f978e571d59d",
+            "Name": "Chosen Warriors",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 135,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 135.0,
+              "AverageCorrect": 12.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 92,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "InProgress",
+                "CurrentQuestion": 1
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 135,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": 0
+          },
+          {
+            "CoachName": "Tonya Thurlby",
+            "Quizzers": [
+              2,
+              8
+            ],
+            "Id": "t_9251672a94644aaeada957210e767406",
+            "Name": "OFA Legacy - 1",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 0,
+              "WinPercentage": 0,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 80.0,
+              "AverageCorrect": 7.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 7,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 80,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Shaina Harlow",
+            "Quizzers": [
+              7,
+              17
+            ],
+            "Id": "t_1767cb926e954502a4a3481fe68455f3",
+            "Name": "OFA Overcomers-1",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 180,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 90.0,
+              "AverageCorrect": 8.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 17,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 100,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": 80,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Stacy Castillo",
+            "Quizzers": [
+              6,
+              15,
+              16,
+              21
+            ],
+            "Id": "t_9a84218b452b46e4a3bac15fffc15635",
+            "Name": "Revival squad First Assembly of God (Snyder) #1",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 0,
+              "WinPercentage": 100,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 8.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 80,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "InProgress",
+                "CurrentQuestion": 1
+              },
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 4,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": 0
+          },
+          {
+            "CoachName": "Dulce Mancine",
+            "Quizzers": [
+              3,
+              5,
+              18,
+              19
+            ],
+            "Id": "t_2788c0e8d818405baedc2b49614433cf",
+            "Name": "Royal citizens",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "Wins": 0,
+              "Losses": 3,
+              "WinPercentage": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 120,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 14,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": 60,
+                "OtherTeam": 2,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 3,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 35,
+                "OtherTeam": 5,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 25,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Krystina Bruner",
+            "Quizzers": [
+              0,
+              1,
+              9,
+              11,
+              12,
+              13
+            ],
+            "Id": "t_257bd8b09c974fa6bbe427956ab3e966",
+            "Name": "Royal Conquererors",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 1,
+              "WinPercentage": 50,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 190,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 95.0,
+              "AverageCorrect": 9.5,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 83,
+              "Correct10s": 19,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": [
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 1,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 65,
+                "OtherTeam": 3,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 0,
+                "RoomId": 2,
+                "Room": "B2",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "B1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": null,
+                "Score": null,
+                "OtherTeam": 2,
+                "RoomId": 3,
+                "Room": "B3",
+                "State": "NotStarted",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          0,
+          2,
+          3,
+          5,
+          1,
+          4
+        ],
+        "TeamFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie broken by comparing total points of each team."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "Quizzers": [
+          {
+            "TeamName": "Royal Conquererors",
+            "YearsQuizzing": null,
+            "Id": "q_c9c39062b1ca4fdcaa4b08dc53e1935e",
+            "Name": "AnnaJoy Udayakumar",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 140,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal Conquererors",
+            "YearsQuizzing": null,
+            "Id": "q_6d15188057354007f1e708df3baca47f",
+            "Name": "Avery Bruner",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 17,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy - 1",
+            "YearsQuizzing": null,
+            "Id": "q_473fe9cc6e514be2f21208dde44dc889",
+            "Name": "Diana Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal citizens",
+            "YearsQuizzing": null,
+            "Id": "q_a430ca4051024127f1af08df3baca47f",
+            "Name": "Ellie Mancine",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 22,
+              "IsTie": false,
+              "TotalPoints": -10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": -3.3,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chosen Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_31a57b7c4068467d5a1308de6ddace24",
+            "Name": "Evangeline Udayakumar",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal citizens",
+            "YearsQuizzing": null,
+            "Id": "q_feb3ee00c40e42a2f1a908df3baca47f",
+            "Name": "Everette Mancine",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 7,
+              "IsTie": false,
+              "TotalPoints": 80,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 26.7,
+              "AverageCorrect": 2.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 8,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival squad First Assembly of God (Snyder) #1",
+            "YearsQuizzing": null,
+            "Id": "q_9d3d1992c22d471eaf6608dde9509179",
+            "Name": "Ezra Pena",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 9,
+              "IsTie": false,
+              "TotalPoints": 20,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 20.0,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Overcomers-1",
+            "YearsQuizzing": null,
+            "Id": "q_d1a66b30a6e64e73f21d08dde44dc889",
+            "Name": "Faith Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 130,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 12,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Legacy - 1",
+            "YearsQuizzing": null,
+            "Id": "q_65cda3def74f45d5f1e808dde44dc889",
+            "Name": "Gabriella Ako",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal Conquererors",
+            "YearsQuizzing": null,
+            "Id": "q_5a384b13a47e4cc5f1ed08df3baca47f",
+            "Name": "Grayson Heath",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 14,
+              "IsTie": false,
+              "TotalPoints": 15,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 7.5,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 67,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chosen Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_4601492e577e4dd1606608dd64e9acc8",
+            "Name": "Isaiah Thomas Udayakumar",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 70,
+              "Rank": 2,
+              "IsTie": true,
+              "TotalPoints": 70,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 70.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal Conquererors",
+            "YearsQuizzing": null,
+            "Id": "q_2f086cedca2d4486f1e108df3baca47f",
+            "Name": "Kennadee Heath",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 5,
+              "Rank": 15,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal Conquererors",
+            "YearsQuizzing": null,
+            "Id": "q_377eaa511b0a4802f1db08df3baca47f",
+            "Name": "Kennedy Mitchell",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 15,
+              "IsTie": true,
+              "TotalPoints": 5,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 2.5,
+              "AverageCorrect": 0.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal Conquererors",
+            "YearsQuizzing": 1,
+            "Id": "q_2e7cb04af92e4f47b904ae1c119c5902_216",
+            "Name": "Laura WIlson",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 11,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 12.5,
+              "AverageCorrect": 1.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 3,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chosen Warriors",
+            "YearsQuizzing": 1,
+            "Id": "q_2e7cb04af92e4f47b904ae1c119c5902_178",
+            "Name": "Leander Wilson",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 65,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 65,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 6.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 1
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival squad First Assembly of God (Snyder) #1",
+            "YearsQuizzing": null,
+            "Id": "q_775676ec601c45cf7c4508df0e8be302",
+            "Name": "Leiah Torres",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival squad First Assembly of God (Snyder) #1",
+            "YearsQuizzing": null,
+            "Id": "q_55ba4e9746d649cc7c6108df0e8be302",
+            "Name": "Nayeli Castillo",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 12,
+              "IsTie": true,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "OFA Overcomers-1",
+            "YearsQuizzing": null,
+            "Id": "q_12a0874e3d194d0ebd2508dcfa81fbd4",
+            "Name": "Saidey Harlow",
+            "ChurchId": "a48ea91e-219c-4ba0-a970-30f29b01e29e",
+            "ChurchName": "First Assembly of God",
+            "City": "Odessa",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 8,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 25.0,
+              "AverageCorrect": 2.5,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal citizens",
+            "YearsQuizzing": null,
+            "Id": "q_c6db27b7dbb1466df1b508df3baca47f",
+            "Name": "Samuel Mendoza Willis",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 10,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 16.7,
+              "AverageCorrect": 2.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 75,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Royal citizens",
+            "YearsQuizzing": 1,
+            "Id": "q_2e7cb04af92e4f47b904ae1c119c5902_205",
+            "Name": "Suma Raj",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Chosen Warriors",
+            "YearsQuizzing": null,
+            "Id": "q_c0bf31f0b0cf47b9f19208df3baca47f",
+            "Name": "Theo Sandoval",
+            "ChurchId": "8ecedf12-d490-40da-08e6-08dc53e1527e",
+            "ChurchName": "Abilene Christian School",
+            "City": "Abilene",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 17,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Revival squad First Assembly of God (Snyder) #1",
+            "YearsQuizzing": null,
+            "Id": "q_3d450a83e1c44346af6f08dde9509179",
+            "Name": "Zoelee Maya",
+            "ChurchId": "f5486ab7-b67b-4998-bf14-c2ba65d39360",
+            "ChurchName": "First Assembly of God",
+            "City": "Snyder",
+            "State": "TX",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 40,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 40.0,
+              "AverageCorrect": 5.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 71,
+              "Correct10s": 5,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          0,
+          2,
+          10,
+          7,
+          14,
+          21,
+          5,
+          17,
+          6,
+          18,
+          13,
+          8,
+          16,
+          9,
+          11,
+          12,
+          1,
+          4,
+          15,
+          19,
+          20,
+          3
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          },
+          {
+            "Symbol": "**",
+            "Text": "Tie broken by comparing total points of each quizzer."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "B1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 2,
+            "Name": "B2",
+            "Matches": [
+              {
+                "CurrentQuestion": 1,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "InProgress",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          },
+          {
+            "RoomId": 3,
+            "Name": "B3",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 5,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 2,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 3,
+                "Team2": 4,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 0,
+                "Team2": 1,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 2,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "NotStarted",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "10:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "11:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "11:45 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "12:15 PM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": true,
+        "HasScoringCompleted": false,
+        "ScoringProgressMessage": "0 of 5 Match(es) Done, +5 by some Room(s)",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": true,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-14T19:16:49.5136811+00:00"
+}
