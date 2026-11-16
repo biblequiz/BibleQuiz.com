@@ -1,6 +1,5 @@
 {
   "EventName": "2026-27 WI/NM District Combined XP5 Stats",
-  "Description": "Combined District XP5 Stats October - November",
   "DatabaseNames": {},
   "Report": {
     "Meets": [
@@ -11,8 +10,8 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "2026-27 WI/NM District Combined XP5 Stats",
-        "LastUpdated": "11/15/26 2:05 AM",
-        "DatabaseLastUpdated": "2026-11-12T21:17:05.023887+00:00",
+        "LastUpdated": "11/15/26 11:44 PM",
+        "DatabaseLastUpdated": "2026-11-15T23:26:12.6582354+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
         "Teams": [
@@ -20,34 +19,37 @@
             "CoachName": null,
             "Quizzers": [
               2,
-              5
+              3,
+              7,
+              8
             ],
-            "Id": "t_00000000000000000000000000000002_10",
+            "Id": "t_636f9a94ddc34b7f851971d61d1dfbb0",
             "Name": "Glidden Doves",
             "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
-            "ChurchName": "Glidden Assembly of God",
+            "ChurchName": "Assembly of God",
             "City": "Glidden",
             "State": "WI",
             "Scores": {
-              "Wins": 1,
-              "Losses": 3,
-              "WinPercentage": 25,
-              "Rank": 8,
+              "Wins": 3,
+              "Losses": 4,
+              "WinPercentage": 43,
+              "Rank": 6,
               "IsTie": false,
-              "TotalPoints": 445,
+              "TotalPoints": 775,
               "PerMeetTotalPoints": [
                 null,
+                330,
                 null,
                 445
               ],
-              "AveragePoints": 111.3,
-              "AverageCorrect": 5.5,
-              "QuizOuts": 3,
-              "QuestionCorrectPercentage": 96,
-              "Correct10s": 7,
-              "Correct20s": 12,
-              "Correct30s": 3,
-              "FootnoteIndex": 0
+              "AveragePoints": 110.7,
+              "AverageCorrect": 5.4,
+              "QuizOuts": 5,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 12,
+              "Correct20s": 20,
+              "Correct30s": 6,
+              "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -55,10 +57,10 @@
           {
             "CoachName": null,
             "Quizzers": [
-              10,
-              17
+              14,
+              21
             ],
-            "Id": "t_00000000000000000000000000000002_9",
+            "Id": "t_00000000000000000000000000000002_18",
             "Name": "Grand View Disciples",
             "ChurchId": "89c32583-e8fd-437d-bef9-c684d85282b3",
             "ChurchName": "Great Divide Christian Center",
@@ -74,6 +76,7 @@
               "PerMeetTotalPoints": [
                 null,
                 null,
+                null,
                 425
               ],
               "AveragePoints": 106.3,
@@ -83,7 +86,7 @@
               "Correct10s": 14,
               "Correct20s": 9,
               "Correct30s": 3,
-              "FootnoteIndex": 0
+              "FootnoteIndex": null
             },
             "Matches": null,
             "CurrentMatchId": null
@@ -91,9 +94,9 @@
           {
             "CoachName": "Jeff Rapp",
             "Quizzers": [
-              3,
-              11,
-              14
+              4,
+              15,
+              18
             ],
             "Id": "t_8ce235d6e03c40cfa8d24268ca07caed",
             "Name": "New Richmond \"Be Quiet!\"",
@@ -105,11 +108,12 @@
               "Wins": 10,
               "Losses": 0,
               "WinPercentage": 100,
-              "Rank": 2,
+              "Rank": 1,
               "IsTie": false,
               "TotalPoints": 2030,
               "PerMeetTotalPoints": [
                 1365,
+                null,
                 null,
                 665
               ],
@@ -129,7 +133,7 @@
             "CoachName": null,
             "Quizzers": [
               1,
-              8
+              12
             ],
             "Id": "t_4c67389582cf4bcebb19d32f1ba7e68f",
             "Name": "Oconto XP 1",
@@ -141,11 +145,12 @@
               "Wins": 5,
               "Losses": 6,
               "WinPercentage": 45,
-              "Rank": 6,
+              "Rank": 5,
               "IsTie": false,
               "TotalPoints": 1245,
               "PerMeetTotalPoints": [
                 780,
+                null,
                 465,
                 null
               ],
@@ -164,8 +169,8 @@
           {
             "CoachName": null,
             "Quizzers": [
-              12,
-              15
+              16,
+              19
             ],
             "Id": "t_d8a27a7689a74a98aa38bccea549026c",
             "Name": "Oconto XP 2",
@@ -182,6 +187,7 @@
               "TotalPoints": 395,
               "PerMeetTotalPoints": [
                 280,
+                null,
                 115,
                 null
               ],
@@ -200,7 +206,7 @@
           {
             "CoachName": null,
             "Quizzers": [
-              4
+              6
             ],
             "Id": "t_33be957c3d524cc68bd6e948a5cffd5a",
             "Name": "Portage \"Hope\"",
@@ -212,11 +218,12 @@
               "Wins": 3,
               "Losses": 8,
               "WinPercentage": 27,
-              "Rank": 7,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": 1105,
               "PerMeetTotalPoints": [
                 610,
+                null,
                 495,
                 null
               ],
@@ -235,45 +242,8 @@
           {
             "CoachName": null,
             "Quizzers": [
-              0,
-              7,
-              18
-            ],
-            "Id": "t_166a75deff374ca7aff7d235dcb29d67",
-            "Name": "Sparta \"Fishers of People\"",
-            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
-            "ChurchName": "New Life Assembly of God",
-            "City": "Sparta",
-            "State": "WI",
-            "Scores": {
-              "Wins": 5,
-              "Losses": 6,
-              "WinPercentage": 45,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 1475,
-              "PerMeetTotalPoints": [
-                840,
-                635,
-                null
-              ],
-              "AveragePoints": 134.1,
-              "AverageCorrect": 7.2,
-              "QuizOuts": 10,
-              "QuestionCorrectPercentage": 93,
-              "Correct10s": 34,
-              "Correct20s": 37,
-              "Correct30s": 8,
-              "FootnoteIndex": 0
-            },
-            "Matches": null,
-            "CurrentMatchId": null
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              6,
-              9
+              10,
+              13
             ],
             "Id": "t_b188bca1cc31423f8d5de624c8bf9b5b",
             "Name": "Sparta \"God's Good News\"",
@@ -285,11 +255,12 @@
               "Wins": 9,
               "Losses": 2,
               "WinPercentage": 82,
-              "Rank": 3,
+              "Rank": 2,
               "IsTie": false,
               "TotalPoints": 2050,
               "PerMeetTotalPoints": [
                 1040,
+                null,
                 1010,
                 null
               ],
@@ -308,8 +279,8 @@
           {
             "CoachName": null,
             "Quizzers": [
-              13,
-              16
+              17,
+              20
             ],
             "Id": "t_fcb4aad69a804e238eb409aef43a6794",
             "Name": "Sparta \"The Straps of His Sandals\"",
@@ -321,11 +292,12 @@
               "Wins": 8,
               "Losses": 3,
               "WinPercentage": 73,
-              "Rank": 4,
+              "Rank": 3,
               "IsTie": false,
               "TotalPoints": 1570,
               "PerMeetTotalPoints": [
                 820,
+                null,
                 750,
                 null
               ],
@@ -343,32 +315,74 @@
           },
           {
             "CoachName": null,
-            "Quizzers": [],
-            "Id": "t_00000000000000000000000000000002_7",
+            "Quizzers": [
+              0,
+              11,
+              22
+            ],
+            "Id": "t_166a75deff374ca7aff7d235dcb29d67",
+            "Name": "Sparta XP 3",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 6,
+              "WinPercentage": 45,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 1475,
+              "PerMeetTotalPoints": [
+                840,
+                null,
+                635,
+                null
+              ],
+              "AveragePoints": 134.1,
+              "AverageCorrect": 7.2,
+              "QuizOuts": 10,
+              "QuestionCorrectPercentage": 93,
+              "Correct10s": 34,
+              "Correct20s": 37,
+              "Correct30s": 8,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              5,
+              9
+            ],
+            "Id": "t_50624ffd8d614d518412f4b353036bcb",
             "Name": "Superior Fox Trots",
             "ChurchId": "c0252c7b-0d37-46ce-aedd-4f526f6fa52d",
             "ChurchName": "Central Assembly of God",
             "City": "Superior",
             "State": "WI",
             "Scores": {
-              "Wins": 0,
-              "Losses": 0,
-              "WinPercentage": 0,
-              "Rank": 1,
+              "Wins": 1,
+              "Losses": 2,
+              "WinPercentage": 33,
+              "Rank": 7,
               "IsTie": false,
-              "TotalPoints": 0,
+              "TotalPoints": 225,
               "PerMeetTotalPoints": [
                 null,
+                225,
                 null,
                 0
               ],
-              "AveragePoints": 0.0,
-              "AverageCorrect": 0.0,
-              "QuizOuts": 0,
-              "QuestionCorrectPercentage": 0,
-              "Correct10s": 0,
-              "Correct20s": 0,
-              "Correct30s": 0,
+              "AveragePoints": 75.0,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 89,
+              "Correct10s": 11,
+              "Correct20s": 4,
+              "Correct30s": 1,
               "FootnoteIndex": null
             },
             "Matches": null,
@@ -376,14 +390,14 @@
           }
         ],
         "RankedTeams": [
-          9,
           2,
+          6,
           7,
           8,
-          6,
           3,
-          5,
           0,
+          9,
+          5,
           1,
           4
         ],
@@ -395,7 +409,7 @@
         ],
         "Quizzers": [
           {
-            "TeamName": "Sparta \"Fishers of People\"",
+            "TeamName": "Sparta XP 3",
             "YearsQuizzing": null,
             "Id": "q_68818cc90e8047d298fd08de045d4f17",
             "Name": "Alliah Amstutz",
@@ -405,11 +419,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 20,
-              "Rank": 19,
+              "Rank": 22,
               "IsTie": false,
               "TotalPoints": 80,
               "PerMeetTotalPoints": [
                 40,
+                null,
                 40,
                 null
               ],
@@ -436,11 +451,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 95,
-              "Rank": 10,
+              "Rank": 11,
               "IsTie": false,
               "TotalPoints": 680,
               "PerMeetTotalPoints": [
                 325,
+                null,
                 355,
                 null
               ],
@@ -459,18 +475,51 @@
           {
             "TeamName": "Glidden Doves",
             "YearsQuizzing": null,
-            "Id": "q_00000000000000000000000000000002_19",
+            "Id": "q_00000000000000000000000000000002_16",
             "Name": "Breylyn Zielke",
             "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
-            "ChurchName": "Glidden Assembly of God",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 5,
+              "Rank": 23,
+              "IsTie": false,
+              "TotalPoints": 10,
+              "PerMeetTotalPoints": [
+                null,
+                10,
+                null,
+                null
+              ],
+              "AveragePoints": 3.3,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 2,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Doves",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_38",
+            "Name": "Breylyn Zielke",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
             "City": "Glidden",
             "State": "WI",
             "Scores": {
               "MaxPoints": 20,
-              "Rank": 18,
+              "Rank": 21,
               "IsTie": false,
               "TotalPoints": 50,
               "PerMeetTotalPoints": [
+                null,
                 null,
                 null,
                 50
@@ -498,11 +547,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 75,
-              "Rank": 13,
+              "Rank": 15,
               "IsTie": false,
               "TotalPoints": 445,
               "PerMeetTotalPoints": [
                 305,
+                null,
                 null,
                 140
               ],
@@ -519,6 +569,38 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "Superior Fox Trots",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_18",
+            "Name": "Caleb Burmeister",
+            "ChurchId": "c0252c7b-0d37-46ce-aedd-4f526f6fa52d",
+            "ChurchName": "Central Assembly of God",
+            "City": "Superior",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 100,
+              "Rank": 12,
+              "IsTie": false,
+              "TotalPoints": 175,
+              "PerMeetTotalPoints": [
+                null,
+                175,
+                null,
+                null
+              ],
+              "AveragePoints": 58.3,
+              "AverageCorrect": 4.0,
+              "QuizOuts": 1,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 8,
+              "Correct20s": 3,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Portage \"Hope\"",
             "YearsQuizzing": null,
             "Id": "q_e247f384b7174fcf6b5f08db1c497da3",
@@ -529,11 +611,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 140,
-              "Rank": 1,
+              "Rank": 2,
               "IsTie": false,
               "TotalPoints": 1105,
               "PerMeetTotalPoints": [
                 610,
+                null,
                 495,
                 null
               ],
@@ -552,18 +635,51 @@
           {
             "TeamName": "Glidden Doves",
             "YearsQuizzing": null,
-            "Id": "q_00000000000000000000000000000002_18",
+            "Id": "q_00000000000000000000000000000002_17",
             "Name": "Emmett Schultz",
             "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
-            "ChurchName": "Glidden Assembly of God",
+            "ChurchName": "Assembly of God",
+            "City": "Glidden",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 120,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 320,
+              "PerMeetTotalPoints": [
+                null,
+                320,
+                null,
+                null
+              ],
+              "AveragePoints": 106.7,
+              "AverageCorrect": 4.7,
+              "QuizOuts": 2,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 8,
+              "Correct30s": 3,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Glidden Doves",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_37",
+            "Name": "Emmett Schultz",
+            "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
+            "ChurchName": "Assembly of God",
             "City": "Glidden",
             "State": "WI",
             "Scores": {
               "MaxPoints": 130,
-              "Rank": 2,
+              "Rank": 3,
               "IsTie": false,
               "TotalPoints": 395,
               "PerMeetTotalPoints": [
+                null,
                 null,
                 null,
                 395
@@ -581,6 +697,38 @@
             "CurrentMatchId": null
           },
           {
+            "TeamName": "Superior Fox Trots",
+            "YearsQuizzing": null,
+            "Id": "q_00000000000000000000000000000002_19",
+            "Name": "Ethan Burmeister",
+            "ChurchId": "c0252c7b-0d37-46ce-aedd-4f526f6fa52d",
+            "ChurchName": "Central Assembly of God",
+            "City": "Superior",
+            "State": "WI",
+            "Scores": {
+              "MaxPoints": 40,
+              "Rank": 19,
+              "IsTie": false,
+              "TotalPoints": 50,
+              "PerMeetTotalPoints": [
+                null,
+                50,
+                null,
+                null
+              ],
+              "AveragePoints": 16.7,
+              "AverageCorrect": 1.3,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 100,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
             "TeamName": "Sparta \"God's Good News\"",
             "YearsQuizzing": null,
             "Id": "q_9846cb0a265344c93d5008dbd94ef9ff",
@@ -591,11 +739,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 120,
-              "Rank": 4,
+              "Rank": 5,
               "IsTie": false,
               "TotalPoints": 1025,
               "PerMeetTotalPoints": [
                 585,
+                null,
                 440,
                 null
               ],
@@ -612,7 +761,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Sparta \"Fishers of People\"",
+            "TeamName": "Sparta XP 3",
             "YearsQuizzing": null,
             "Id": "q_b9bafb1f07c84bb798f808de045d4f17",
             "Name": "Isabella Amstutz",
@@ -622,11 +771,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 100,
-              "Rank": 14,
+              "Rank": 16,
               "IsTie": false,
               "TotalPoints": 335,
               "PerMeetTotalPoints": [
                 105,
+                null,
                 230,
                 null
               ],
@@ -653,11 +803,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 110,
-              "Rank": 11,
+              "Rank": 13,
               "IsTie": false,
               "TotalPoints": 565,
               "PerMeetTotalPoints": [
                 455,
+                null,
                 110,
                 null
               ],
@@ -684,11 +835,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 130,
-              "Rank": 5,
+              "Rank": 6,
               "IsTie": false,
               "TotalPoints": 1025,
               "PerMeetTotalPoints": [
                 455,
+                null,
                 570,
                 null
               ],
@@ -707,7 +859,7 @@
           {
             "TeamName": "Grand View Disciples",
             "YearsQuizzing": null,
-            "Id": "q_00000000000000000000000000000002_17",
+            "Id": "q_00000000000000000000000000000002_36",
             "Name": "Josiah Renz",
             "ChurchId": "89c32583-e8fd-437d-bef9-c684d85282b3",
             "ChurchName": "Great Divide Christian Center",
@@ -715,10 +867,11 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 30,
-              "Rank": 16,
+              "Rank": 18,
               "IsTie": false,
               "TotalPoints": 70,
               "PerMeetTotalPoints": [
+                null,
                 null,
                 null,
                 70
@@ -746,11 +899,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 130,
-              "Rank": 6,
+              "Rank": 7,
               "IsTie": false,
               "TotalPoints": 930,
               "PerMeetTotalPoints": [
                 595,
+                null,
                 null,
                 335
               ],
@@ -777,11 +931,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 70,
-              "Rank": 17,
+              "Rank": 20,
               "IsTie": false,
               "TotalPoints": 150,
               "PerMeetTotalPoints": [
                 150,
+                null,
                 0,
                 null
               ],
@@ -808,11 +963,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 95,
-              "Rank": 12,
+              "Rank": 14,
               "IsTie": false,
               "TotalPoints": 560,
               "PerMeetTotalPoints": [
                 210,
+                null,
                 350,
                 null
               ],
@@ -839,11 +995,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 130,
-              "Rank": 9,
+              "Rank": 10,
               "IsTie": false,
               "TotalPoints": 655,
               "PerMeetTotalPoints": [
                 465,
+                null,
                 null,
                 190
               ],
@@ -870,11 +1027,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 60,
-              "Rank": 15,
+              "Rank": 17,
               "IsTie": false,
               "TotalPoints": 245,
               "PerMeetTotalPoints": [
                 130,
+                null,
                 115,
                 null
               ],
@@ -901,11 +1059,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 120,
-              "Rank": 7,
+              "Rank": 8,
               "IsTie": false,
               "TotalPoints": 1010,
               "PerMeetTotalPoints": [
                 610,
+                null,
                 400,
                 null
               ],
@@ -924,7 +1083,7 @@
           {
             "TeamName": "Grand View Disciples",
             "YearsQuizzing": null,
-            "Id": "q_00000000000000000000000000000002_16",
+            "Id": "q_00000000000000000000000000000002_35",
             "Name": "Stephen Renz",
             "ChurchId": "89c32583-e8fd-437d-bef9-c684d85282b3",
             "ChurchName": "Great Divide Christian Center",
@@ -932,10 +1091,11 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 120,
-              "Rank": 8,
+              "Rank": 9,
               "IsTie": false,
               "TotalPoints": 355,
               "PerMeetTotalPoints": [
+                null,
                 null,
                 null,
                 355
@@ -953,7 +1113,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Sparta \"Fishers of People\"",
+            "TeamName": "Sparta XP 3",
             "YearsQuizzing": null,
             "Id": "q_3e6f3890ffdf46a63d4108dbd94ef9ff",
             "Name": "Violet Baldwin",
@@ -963,11 +1123,12 @@
             "State": "WI",
             "Scores": {
               "MaxPoints": 130,
-              "Rank": 3,
+              "Rank": 4,
               "IsTie": false,
               "TotalPoints": 1060,
               "PerMeetTotalPoints": [
                 695,
+                null,
                 365,
                 null
               ],
@@ -985,25 +1146,29 @@
           }
         ],
         "RankedQuizzers": [
-          4,
-          5,
-          18,
-          6,
-          9,
-          11,
-          16,
-          17,
-          14,
-          1,
-          8,
-          13,
-          3,
           7,
-          15,
+          6,
+          8,
+          22,
           10,
+          13,
+          15,
+          20,
+          21,
+          18,
+          1,
+          5,
           12,
-          2,
-          0
+          17,
+          4,
+          11,
+          19,
+          14,
+          9,
+          16,
+          3,
+          0,
+          2
         ],
         "QuizzerFootnotes": [
           {
@@ -1013,6 +1178,7 @@
         ],
         "MeetNames": [
           "2026-27 Wisconsin/NM TBQ League Meet October (TBQ): XP5 Oct 2026",
+          "2026-27 Wisconsin/NM TBQ League Meet October (TBQ): XP5 Oct Northern League",
           "2026-27 Wisconsin/NM TBQ League Meet November (TBQ): XP5 November 2026",
           "2026-27 Wisconsin/NM TBQ League Meet November (TBQ): XP5 November 2026 Northern League"
         ],
@@ -1049,5 +1215,5 @@
       }
     }
   ],
-  "Freshness": "2026-11-15T02:05:58.6913319+00:00"
+  "Freshness": "2026-11-16T00:01:15.5331069+00:00"
 }
