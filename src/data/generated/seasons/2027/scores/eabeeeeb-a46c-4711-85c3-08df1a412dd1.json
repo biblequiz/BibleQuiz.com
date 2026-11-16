@@ -12,7 +12,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "Championship Oct 2026",
-        "LastUpdated": "11/15/26 11:44 PM",
+        "LastUpdated": "11/16/26 12:31 AM",
         "DatabaseLastUpdated": "2026-11-15T23:26:12.6582354+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -1297,7 +1297,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 Oct 2026",
-        "LastUpdated": "11/15/26 11:44 PM",
+        "LastUpdated": "11/16/26 12:31 AM",
         "DatabaseLastUpdated": "2026-11-15T23:26:12.6582354+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -1345,7 +1345,7 @@
               {
                 "Result": "W",
                 "Score": 205,
-                "OtherTeam": 6,
+                "OtherTeam": 4,
                 "RoomId": 3,
                 "Room": "F",
                 "State": "Completed",
@@ -1373,7 +1373,7 @@
               {
                 "Result": "W",
                 "Score": 270,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
@@ -1382,7 +1382,7 @@
               {
                 "Result": "W",
                 "Score": 260,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 2,
                 "Room": "E",
                 "State": "Completed",
@@ -1433,7 +1433,7 @@
               {
                 "Result": "L",
                 "Score": 130,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 2,
                 "Room": "E",
                 "State": "Completed",
@@ -1442,7 +1442,7 @@
               {
                 "Result": "L",
                 "Score": 105,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
@@ -1452,7 +1452,7 @@
               {
                 "Result": "W",
                 "Score": 180,
-                "OtherTeam": 6,
+                "OtherTeam": 4,
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
@@ -1512,7 +1512,7 @@
               {
                 "Result": "L",
                 "Score": 70,
-                "OtherTeam": 6,
+                "OtherTeam": 4,
                 "RoomId": 2,
                 "Room": "E",
                 "State": "Completed",
@@ -1540,7 +1540,7 @@
               {
                 "Result": "L",
                 "Score": 60,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 2,
                 "Room": "E",
                 "State": "Completed",
@@ -1549,7 +1549,7 @@
               {
                 "Result": "L",
                 "Score": 80,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 3,
                 "Room": "F",
                 "State": "Completed",
@@ -1618,7 +1618,7 @@
               {
                 "Result": "L",
                 "Score": 90,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 3,
                 "Room": "F",
                 "State": "Completed",
@@ -1627,7 +1627,7 @@
               {
                 "Result": "L",
                 "Score": 100,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 3,
                 "Room": "F",
                 "State": "Completed",
@@ -1645,7 +1645,96 @@
               {
                 "Result": "L",
                 "Score": 110,
+                "OtherTeam": 4,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": null,
+            "Quizzers": [
+              0,
+              5,
+              14
+            ],
+            "Id": "t_166a75deff374ca7aff7d235dcb29d67",
+            "Name": "Sparta \"Fishers of People\"",
+            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
+            "ChurchName": "New Life Assembly of God",
+            "City": "Sparta",
+            "State": "WI",
+            "Scores": {
+              "Wins": 2,
+              "Losses": 4,
+              "WinPercentage": 33,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 840,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 140.0,
+              "AverageCorrect": 6.7,
+              "QuizOuts": 6,
+              "QuestionCorrectPercentage": 95,
+              "Correct10s": 14,
+              "Correct20s": 19,
+              "Correct30s": 7,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 125,
+                "OtherTeam": 2,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 0,
+                "RoomId": 3,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 5,
+                "RoomId": 3,
+                "Room": "F",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 125,
                 "OtherTeam": 6,
+                "RoomId": 2,
+                "Room": "E",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 130,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "D",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              null,
+              {
+                "Result": "W",
+                "Score": 200,
+                "OtherTeam": 3,
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
@@ -1687,7 +1776,7 @@
               {
                 "Result": "W",
                 "Score": 135,
-                "OtherTeam": 5,
+                "OtherTeam": 6,
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
@@ -1705,7 +1794,7 @@
               {
                 "Result": "W",
                 "Score": 135,
-                "OtherTeam": 6,
+                "OtherTeam": 4,
                 "RoomId": 3,
                 "Room": "F",
                 "State": "Completed",
@@ -1775,7 +1864,7 @@
               {
                 "Result": "L",
                 "Score": 130,
-                "OtherTeam": 4,
+                "OtherTeam": 5,
                 "RoomId": 1,
                 "Room": "D",
                 "State": "Completed",
@@ -1794,7 +1883,7 @@
               {
                 "Result": "W",
                 "Score": 135,
-                "OtherTeam": 6,
+                "OtherTeam": 4,
                 "RoomId": 2,
                 "Room": "E",
                 "State": "Completed",
@@ -1829,110 +1918,21 @@
               }
             ],
             "CurrentMatchId": null
-          },
-          {
-            "CoachName": null,
-            "Quizzers": [
-              0,
-              5,
-              14
-            ],
-            "Id": "t_166a75deff374ca7aff7d235dcb29d67",
-            "Name": "Sparta XP 3",
-            "ChurchId": "c98724cb-a704-4ae4-a09a-862915dcc448",
-            "ChurchName": "New Life Assembly of God",
-            "City": "Sparta",
-            "State": "WI",
-            "Scores": {
-              "Wins": 2,
-              "Losses": 4,
-              "WinPercentage": 33,
-              "Rank": 5,
-              "IsTie": false,
-              "TotalPoints": 840,
-              "PerMeetTotalPoints": null,
-              "AveragePoints": 140.0,
-              "AverageCorrect": 6.7,
-              "QuizOuts": 6,
-              "QuestionCorrectPercentage": 95,
-              "Correct10s": 14,
-              "Correct20s": 19,
-              "Correct30s": 7,
-              "FootnoteIndex": null
-            },
-            "Matches": [
-              {
-                "Result": "W",
-                "Score": 125,
-                "OtherTeam": 2,
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 130,
-                "OtherTeam": 0,
-                "RoomId": 3,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 130,
-                "OtherTeam": 4,
-                "RoomId": 3,
-                "Room": "F",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 125,
-                "OtherTeam": 5,
-                "RoomId": 2,
-                "Room": "E",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              {
-                "Result": "L",
-                "Score": 130,
-                "OtherTeam": 1,
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null
-              },
-              null,
-              {
-                "Result": "W",
-                "Score": 200,
-                "OtherTeam": 3,
-                "RoomId": 1,
-                "Room": "D",
-                "State": "Completed",
-                "CurrentQuestion": null
-              }
-            ],
-            "CurrentMatchId": null
           }
         ],
         "RankedTeams": [
           0,
-          4,
           5,
-          1,
           6,
+          1,
+          4,
           3,
           2
         ],
         "TeamFootnotes": [],
         "Quizzers": [
           {
-            "TeamName": "Sparta XP 3",
+            "TeamName": "Sparta \"Fishers of People\"",
             "YearsQuizzing": null,
             "Id": "q_68818cc90e8047d298fd08de045d4f17",
             "Name": "Alliah Amstutz",
@@ -2067,7 +2067,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Sparta XP 3",
+            "TeamName": "Sparta \"Fishers of People\"",
             "YearsQuizzing": null,
             "Id": "q_b9bafb1f07c84bb798f808de045d4f17",
             "Name": "Isabella Amstutz",
@@ -2310,7 +2310,7 @@
             "CurrentMatchId": null
           },
           {
-            "TeamName": "Sparta XP 3",
+            "TeamName": "Sparta \"Fishers of People\"",
             "YearsQuizzing": null,
             "Id": "q_3e6f3890ffdf46a63d4108dbd94ef9ff",
             "Name": "Violet Baldwin",
@@ -2373,8 +2373,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 5,
+                "Team1": 5,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2393,7 +2393,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 6,
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2414,16 +2414,6 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 1,
-                "Team2": 6,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 0,
                 "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2433,7 +2423,17 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 0,
+                "Team2": 5,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 4,
                 "Team2": 3,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2449,7 +2449,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 6,
+                "Team1": 4,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2459,7 +2459,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 5,
                 "Team2": 1,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2479,8 +2479,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
-                "Team2": 6,
+                "Team1": 6,
+                "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2489,7 +2489,7 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
+                "Team1": 5,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2510,7 +2510,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 5,
+                "Team2": 6,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2536,7 +2536,7 @@
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
                 "Team1": 0,
-                "Team2": 6,
+                "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2545,18 +2545,8 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 6,
-                "Quizzers": null,
-                "RankedTeamsOrQuizzers": null,
-                "State": "Completed",
-                "Blockers": null
-              },
-              {
-                "CurrentQuestion": null,
-                "LinkedMeet": null,
-                "Team1": 4,
-                "Team2": 3,
+                "Team1": 5,
+                "Team2": 4,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
                 "State": "Completed",
@@ -2575,7 +2565,17 @@
               {
                 "CurrentQuestion": null,
                 "LinkedMeet": null,
-                "Team1": 5,
+                "Team1": 6,
+                "Team2": 3,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 6,
                 "Team2": 2,
                 "Quizzers": null,
                 "RankedTeamsOrQuizzers": null,
@@ -2659,7 +2659,7 @@
         "HasLinkedMeets": false,
         "HasQuestionStats": false,
         "Name": "XP5 Oct Northern League",
-        "LastUpdated": "11/15/26 11:44 PM",
+        "LastUpdated": "11/16/26 12:31 AM",
         "DatabaseLastUpdated": "2026-11-15T23:26:12.6582354+00:00",
         "CompetitionType": "TBQ",
         "IsIndividualCompetition": false,
@@ -2794,7 +2794,7 @@
           {
             "TeamName": "Glidden Doves",
             "YearsQuizzing": null,
-            "Id": "q_fb77e953db694636914fc6b8f661e91c_127",
+            "Id": "q_e4b9f20f22824422352908df4371210b",
             "Name": "Breylyn Zielke",
             "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
             "ChurchName": "Assembly of God",
@@ -2848,7 +2848,7 @@
           {
             "TeamName": "Glidden Doves",
             "YearsQuizzing": null,
-            "Id": "q_fb77e953db694636914fc6b8f661e91c_128",
+            "Id": "q_1594869c565b4812352a08df4371210b",
             "Name": "Emmett Schultz",
             "ChurchId": "fc2eb433-5fce-49f5-b03a-7cf822297acc",
             "ChurchName": "Assembly of God",
@@ -3025,5 +3025,5 @@
       }
     }
   ],
-  "Freshness": "2026-11-15T23:52:06.931781+00:00"
+  "Freshness": "2026-11-16T00:31:34.8476479+00:00"
 }
