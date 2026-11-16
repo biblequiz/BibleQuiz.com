@@ -12,7 +12,8 @@ import {
 } from "types/services/EventsService";
 
 export default function RegistrationReceiptPage() {
-    const { auth, eventId, church, isEditable } = useOutletContext<RegistrationProviderContext>();
+    const { auth, eventId, church, isEditable, setRegistration, setRegistrationVersion } =
+        useOutletContext<RegistrationProviderContext>();
     const [searchParams] = useSearchParams();
 
     // Set by the return URL handed to the payment processor, so this is the landing after a checkout.
@@ -32,16 +33,30 @@ export default function RegistrationReceiptPage() {
 
         const churchId = church.Id;
 
+        let isCancelled = false;
+
         setIsLoading(true);
         setError(null);
 
         // Reconcile first when returning from checkout, otherwise the charge that was just completed still
         // shows as a pending balance until the server's periodic reconciliation catches up.
         const reconciled = isReturningFromPayment
-            ? RegistrationService.reconcilePayments(auth, eventId, churchId).catch(() => {
-                // The periodic reconciliation is the backstop, so a failure here only costs a stale balance.
-                // Don't block the receipt on it.
-            })
+            ? RegistrationService.reconcilePayments(auth, eventId, churchId)
+                .then(page => {
+                    // The provider loaded the registration before this page mounted, so it still holds the
+                    // pre-reconcile balances the registration page shows. The reconcile returns the updated
+                    // registration, so hand that to the provider rather than calling reloadRegistration(), which
+                    // swaps this page for a loading screen and remounts it, re-running this reconcile in a loop.
+                    const reconciledRegistration = page.Items?.[0];
+                    if (reconciledRegistration && !isCancelled) {
+                        setRegistration(reconciledRegistration);
+                        setRegistrationVersion(reconciledRegistration.Version ?? 0);
+                    }
+                })
+                .catch(() => {
+                    // The periodic reconciliation is the backstop, so a failure here only costs a stale balance.
+                    // Don't block the receipt on it.
+                })
             : Promise.resolve();
 
         reconciled
@@ -56,6 +71,10 @@ export default function RegistrationReceiptPage() {
                 setError(err?.message || "An error occurred loading the receipt.");
                 setIsLoading(false);
             });
+
+        return () => {
+            isCancelled = true;
+        };
     }, [auth, eventId, church?.Id, isReturningFromPayment]);
 
     if (isLoading) {
