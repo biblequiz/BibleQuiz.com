@@ -32,7 +32,7 @@ export interface EventReportsProviderContext {
 
     parentUrl: string;
     useNavigateForParent: boolean;
-    getDatabaseUrl: (eventId: string, databaseId: string) => { url: string, useNavigate: boolean };
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean };
     getItemUrl: (type: "event" | "season", reportId: string | null) => string;
 
     eventReports: LoadedReport<EventReport>[];
@@ -153,8 +153,8 @@ export default function EventReportsProvider({ }: Props) {
             parentUrl: `${context.rootUrl}/reports`,
             useNavigateForParent: true,
             getItemUrl: (type, reportId) => `${context.rootUrl}/reports/${type}/${reportId}`,
-            getDatabaseUrl: (eventId, databaseId) => ({
-                url: `/${eventId}/scoring/databases/${databaseId}/meets`,
+            getDatabaseUrl: (eventId, databaseId, page = "meets") => ({
+                url: `/${eventId}/scoring/databases/${databaseId}/${page}`,
                 useNavigate: true
             }),
 

@@ -19,7 +19,7 @@ interface Props {
     meets: ReportMeetFilter[];
     setMeets: (meets: ReportMeetFilter[]) => void;
     setReportTitle: (title: string, isReport: boolean) => void;
-    getDatabaseUrl: (eventId: string, databaseId: string) => { url: string, useNavigate: boolean };
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean };
     isDisabled: boolean;
 }
 
@@ -29,10 +29,28 @@ const getMeetCard = (
     hasQuizzers: boolean,
     navigate: NavigateFunction,
     removeMeet: (meet: ReportMeetFilter) => void,
-    getDatabaseUrl: (eventId: string, databaseId: string) => { url: string, useNavigate: boolean },
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean },
     setReportTitle: (title: string, isReport: boolean) => void,
 
     isDisabled: boolean) => {
+
+    const openDatabasePage = (page?: "meets" | "teamsAndQuizzers") => {
+        const { url, useNavigate } = getDatabaseUrl(
+            filter.EventId,
+            filter.DatabaseId,
+            page);
+
+        if (eventName) {
+            setReportTitle(eventName, false);
+        }
+
+        if (useNavigate) {
+            navigate(url);
+        }
+        else {
+            window.location.href = url;
+        }
+    };
 
     return (
         <div
@@ -52,29 +70,14 @@ const getMeetCard = (
                             <button
                                 type="button"
                                 className="btn btn-sm btn-warning w-full"
-                                onClick={() => alert("TODO: Needs to be implemented.")}
+                                onClick={() => openDatabasePage("teamsAndQuizzers")}
                                 disabled={isDisabled}>
                                 <FontAwesomeIcon icon="fas faUserTag" /> Manage Quizzers
                             </button>)}
                         <button
                             type="button"
                             className="btn btn-sm btn-primary w-full mt-2"
-                            onClick={() => {
-                                const { url, useNavigate } = getDatabaseUrl(
-                                    filter.EventId,
-                                    filter.DatabaseId);
-
-                                if (eventName) {
-                                    setReportTitle(eventName, false);
-                                }
-
-                                if (useNavigate) {
-                                    navigate(url);
-                                }
-                                else {
-                                    window.location.href = url;
-                                }
-                            }}
+                            onClick={() => openDatabasePage()}
                             disabled={isDisabled}>
                             <FontAwesomeIcon icon="fas faCog" /> Manage Settings
                         </button>
