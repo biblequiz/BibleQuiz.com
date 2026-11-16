@@ -9,3 +9,15 @@ This repo is only the UI (Astro + React). The data it shows, and defaults such a
 3. Fix at the real fault, and prefer the smallest change. Check that this UI passes the right data before assuming the backend is wrong (e.g. the team division editor once passed `DefaultIndividualRules` for team divisions, which no backend change could fix).
 
 If the fix needs both repos, open paired PRs and link them. The only PR check is `build` (`.github/workflows/build.yml`: `npm ci` and `npm run build`, on every pull request to `main`, drafts included), and deploys come from `main`. So say in the PR what was and wasn't tested, and run `npm install && npm run check` locally (see `DEVELOPMENT.md`).
+
+## The service types are a contract with ModernApps
+
+`src/types/services/*Service.ts` and `src/types/services/models/` mirror the ModernApps controllers and their models (e.g. `ChurchesService` calls `/api/Churches`, served by `ChurchesController`). A change to a route, parameter or field on either side needs the matching change in the other repo, as paired PRs.
+
+## Merging is deploying
+
+The site is hosted on Cloudflare Pages, which builds and deploys `main`. Unlike ModernApps, there is no batched release here, and a bot (`bible-quiz-bot`) also commits data to `main` every few hours. So agents must not merge PRs or push to `main` unless asked; that is a deployment. A fix is live once it merges and Cloudflare finishes the build.
+
+## Errors on the 500 page never reach Application Insights
+
+Deployed builds send global `window.error` and `unhandledrejection` exceptions to Application Insights (`src/utils/setupGlobalNotificationManager.ts`). But an exception that react-router catches is shown as the "500 - Internal Error" page (`src/components/apps/ErrorPage.tsx`) and is never sent to Application Insights. Debug those in the browser (console, a local `npm run dev` repro), not in API telemetry.
