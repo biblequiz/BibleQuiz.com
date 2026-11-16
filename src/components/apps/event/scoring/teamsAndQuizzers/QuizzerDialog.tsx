@@ -54,6 +54,7 @@ export default function QuizzerDialog({
     const [yearsOfQuizzing, setYearsOfQuizzing] = useState<number | undefined>();
     const [team, setTeam] = useState<Team | undefined>();
     const [isHidden, setIsHidden] = useState(false);
+    const [isVerified, setIsVerified] = useState<boolean | undefined>();
 
     // Load quizzer data when dialog opens
     useEffect(() => {
@@ -81,6 +82,7 @@ export default function QuizzerDialog({
         setIsDefaultPersonName(!quizzer || newPersonName === quizzer.Name);
         setYearsOfQuizzing(quizzer?.YearsQuizzing);
         setIsHidden(quizzer?.IsHidden || false);
+        setIsVerified(quizzer?.IsVerifiedRemotely);
     }, [quizzer, defaultTeamId]);
 
     const handleSave = (e: React.MouseEvent | React.FormEvent) => {
@@ -101,6 +103,10 @@ export default function QuizzerDialog({
         updatedQuizzer.RemoteChurchId = church?.id || team?.RemoteChurchId;
         updatedQuizzer.ChurchName = church?.displayName || team?.Church;
         updatedQuizzer.IsHidden = isHidden;
+
+        // A quizzer can only be verified against a linked person. An unset value is kept as-is so
+        // the automatic verification when scores are synced can still fill it in.
+        updatedQuizzer.IsVerifiedRemotely = isVerified && !person ? false : isVerified;
 
         onSave(updatedQuizzer);
         dialogRef.current?.close();
@@ -301,6 +307,25 @@ export default function QuizzerDialog({
                                 <span className="label-text">Hidden</span>
                             </label>
                         </div>
+
+                        {/* Verified */}
+                        <div className="form-control">
+                            <label className="label cursor-pointer justify-start gap-3">
+                                <input
+                                    type="checkbox"
+                                    className="checkbox"
+                                    checked={!!person && isVerified === true}
+                                    onChange={e => setIsVerified(e.target.checked)}
+                                    disabled={isReadOnly || !person}
+                                />
+                                <span className="label-text">Verified</span>
+                            </label>
+                            <div className="mt-0 text-xs text-gray-500 italic">
+                                {person
+                                    ? "Check once you have confirmed this quizzer is the selected person."
+                                    : "Select a person to verify this quizzer."}
+                            </div>
+                        </div>
                     </form>
 
                     <div className="modal-action">
@@ -333,11 +358,16 @@ export default function QuizzerDialog({
                     parentType={PersonParentType.Church}
                     parentId={church?.id || team?.RemoteChurchId!}
                     excludeIds={new Set<string>(excludePeopleId.filter(id => id !== person?.id))}
-                    onSelect={person => {
-                        if (person) {
-                            const name = `${person.FirstName} ${person.LastName}`;
-                            setPerson({ id: person.Id!, name });
-                            people[person.Id!] = name;
+                    onSelect={selectedPerson => {
+                        if (selectedPerson) {
+                            const name = `${selectedPerson.FirstName} ${selectedPerson.LastName}`;
+                            if (selectedPerson.Id !== person?.id) {
+                                // The verification was for the previous person.
+                                setIsVerified(false);
+                            }
+
+                            setPerson({ id: selectedPerson.Id!, name });
+                            people[selectedPerson.Id!] = name;
 
                             if (isDefaultPersonName) {
                                 setName(name);

@@ -161,8 +161,8 @@ export default function SeasonReportProvider({ }: Props) {
                 parentUrl: `/manage-events`,
                 useNavigateForParent: false,
                 getItemUrl: (_type, reportId) => `/${reportId}`,
-                getDatabaseUrl: (eventId, databaseId) => ({
-                    url: `/manage-events/event/#/${eventId}/scoring/databases/${databaseId}/meets`,
+                getDatabaseUrl: (eventId, databaseId, page = "meets") => ({
+                    url: `/manage-events/event/#/${eventId}/scoring/databases/${databaseId}/${page}`,
                     useNavigate: false
                 }),
 

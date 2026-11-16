@@ -467,6 +467,9 @@ function TeamRow({
                                                         {quizzer.IsHidden && (
                                                             <span className="badge badge-ghost badge-sm ml-2">Hidden</span>
                                                         )}
+                                                        {!quizzer.IsHidden && quizzer.IsVerifiedRemotely !== true && (
+                                                            <span className="badge badge-warning badge-sm ml-2" title="Not verified against a person">Unverified</span>
+                                                        )}
                                                     </td>
                                                     <td>{quizzer.YearsQuizzing ?? "None"}</td>
                                                     <td>
@@ -645,6 +648,9 @@ function NoTeamRow({
                                                         {quizzer.Name}
                                                         {quizzer.IsHidden && (
                                                             <span className="badge badge-ghost badge-sm ml-2">Hidden</span>
+                                                        )}
+                                                        {!quizzer.IsHidden && quizzer.IsVerifiedRemotely !== true && (
+                                                            <span className="badge badge-warning badge-sm ml-2" title="Not verified against a person">Unverified</span>
                                                         )}
                                                     </td>
                                                     <td>{quizzer.YearsQuizzing ?? "None"}</td>
