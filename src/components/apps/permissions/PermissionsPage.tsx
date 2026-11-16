@@ -64,27 +64,41 @@ export default function PermissionsPage({ }: Props) {
     // People are only visible within the districts the user administers. Users who only administer
     // churches have no districts, so they pick one of their churches instead.
     const peopleDistricts = getPeopleDistricts(userProfile);
-    const isChurchOnlyAdmin = peopleDistricts.length === 0 && (userProfile?.churchPermissions?.size ?? 0) > 0;
+    const churchPermissions = userProfile?.churchPermissions ?? null;
+    const isChurchOnlyAdmin = peopleDistricts.length === 0 && (churchPermissions?.size ?? 0) > 0;
 
+    // Only needed once the People tab is open; reloaded if the user's churches change.
+    const needsPeopleChurches = isChurchOnlyAdmin && currentScope === null;
     useEffect(() => {
-        if (!isChurchOnlyAdmin) {
+        if (!needsPeopleChurches) {
             return;
         }
 
+        let isCurrent = true;
         ChurchesService.getChurches(
             auth,
-            userProfile?.churchPermissions?.size ?? 0,
+            churchPermissions?.size ?? 0,
             0,
             null,
             null,
             null,
             ChurchResultFilter.IncludeDirectAuthorized)
             .then(page => {
-                setPeopleChurches(page.Items || []);
-                setPeopleChurchesError(undefined);
+                if (isCurrent) {
+                    setPeopleChurches(page.Items || []);
+                    setPeopleChurchesError(undefined);
+                }
             })
-            .catch(err => setPeopleChurchesError((err as any).message || 'Failed to load churches'));
-    }, [isChurchOnlyAdmin, auth]);
+            .catch(err => {
+                if (isCurrent) {
+                    setPeopleChurchesError((err as any).message || 'Failed to load churches');
+                }
+            });
+
+        return () => {
+            isCurrent = false;
+        };
+    }, [needsPeopleChurches, auth, churchPermissions]);
 
     // ProtectedRoute handles auth, profile completion, and permission checks.
     if (!userProfile) {
@@ -276,6 +290,8 @@ export default function PermissionsPage({ }: Props) {
                         )}
                         {(!isChurchOnlyAdmin || peopleChurchId) && (
                             <PeopleTable
+                                // Remount when the filters change so paging starts over at the first page.
+                                key={[searchText, peopleDistrictId, peopleChurchId, checkboxStates.allDistricts, checkboxStates.unapprovedOnly, checkboxStates.potentialDuplicates, checkboxStates.usersOnly].join('|')}
                                 searchText={searchText}
                                 districtId={peopleDistrictId}
                                 churchId={isChurchOnlyAdmin ? peopleChurchId : undefined}
