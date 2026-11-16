@@ -1,16 +1,36 @@
-import { useState } from 'react';
-import { AuthManager } from 'types/AuthManager';
+import { useEffect, useState } from 'react';
+import { AuthManager, type UserAccountProfile } from 'types/AuthManager';
 import { PersonPermissionScope } from 'types/services/PermissionsService';
 import type { Person } from 'types/services/PeopleService';
-import type { Church } from 'types/services/ChurchesService';
+import { ChurchesService, ChurchResultFilter, type Church } from 'types/services/ChurchesService';
+import type { DistrictInfo } from 'types/RegionAndDistricts';
+import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import ScopeSelector from './ScopeSelector';
-import SearchAndFilterBar, { DEFAULT_DISTRICT_ID, DEFAULT_REGION_ID } from './SearchAndFilterBar';
+import SearchAndFilterBar, { ALL_DISTRICTS, DEFAULT_DISTRICT_ID, DEFAULT_REGION_ID } from './SearchAndFilterBar';
 import PermissionsTable from './PermissionsTable';
 import ChurchesTable from './ChurchesTable';
 import PeopleTable from './PeopleTable';
 import MergePanel from './MergePanel';
 
 interface Props {
+}
+
+/**
+ * Districts whose people the user administers, at any competition type (the People API doesn't
+ * restrict by competition type).
+ */
+function getPeopleDistricts(profile: UserAccountProfile | null): DistrictInfo[] {
+    if (!profile) {
+        return [];
+    }
+
+    if (profile.organizationPermission) {
+        return ALL_DISTRICTS;
+    }
+
+    return ALL_DISTRICTS.filter(d =>
+        (!!profile.regionPermissions && d.regionId in profile.regionPermissions) ||
+        (!!profile.districtPermissions && d.id in profile.districtPermissions));
 }
 
 export default function PermissionsPage({ }: Props) {
@@ -37,6 +57,48 @@ export default function PermissionsPage({ }: Props) {
     const [mergeSecondChurch, setMergeSecondChurch] = useState<Church | null>(null);
     const [peopleRefreshToken, setPeopleRefreshToken] = useState(0);
     const [churchesRefreshToken, setChurchesRefreshToken] = useState(0);
+    const [selectedChurch, setSelectedChurch] = useState<string | undefined>(undefined);
+    const [peopleChurches, setPeopleChurches] = useState<Church[] | null>(null);
+    const [peopleChurchesError, setPeopleChurchesError] = useState<string | undefined>(undefined);
+
+    // People are only visible within the districts the user administers. Users who only administer
+    // churches have no districts, so they pick one of their churches instead.
+    const peopleDistricts = getPeopleDistricts(userProfile);
+    const churchPermissions = userProfile?.churchPermissions ?? null;
+    const isChurchOnlyAdmin = peopleDistricts.length === 0 && (churchPermissions?.size ?? 0) > 0;
+
+    // Only needed once the People tab is open; reloaded if the user's churches change.
+    const needsPeopleChurches = isChurchOnlyAdmin && currentScope === null;
+    useEffect(() => {
+        if (!needsPeopleChurches) {
+            return;
+        }
+
+        let isCurrent = true;
+        ChurchesService.getChurches(
+            auth,
+            churchPermissions?.size ?? 0,
+            0,
+            null,
+            null,
+            null,
+            ChurchResultFilter.IncludeDirectAuthorized)
+            .then(page => {
+                if (isCurrent) {
+                    setPeopleChurches(page.Items || []);
+                    setPeopleChurchesError(undefined);
+                }
+            })
+            .catch(err => {
+                if (isCurrent) {
+                    setPeopleChurchesError((err as any).message || 'Failed to load churches');
+                }
+            });
+
+        return () => {
+            isCurrent = false;
+        };
+    }, [needsPeopleChurches, auth, churchPermissions]);
 
     // ProtectedRoute handles auth, profile completion, and permission checks.
     if (!userProfile) {
@@ -44,6 +106,13 @@ export default function PermissionsPage({ }: Props) {
     }
 
     const canMergeAndImpersonate = userProfile.hasUnrestrictedOrganizationPermission();
+
+    const peopleDistrictId = peopleDistricts.some(d => d.id === selectedDistrict)
+        ? selectedDistrict
+        : peopleDistricts[0]?.id;
+    const peopleChurchId = peopleChurches?.some(c => c.Id === selectedChurch)
+        ? selectedChurch
+        : (peopleChurches?.[0]?.Id ?? undefined);
 
     type CheckboxKey = keyof typeof checkboxStates;
 
@@ -130,11 +199,15 @@ export default function PermissionsPage({ }: Props) {
                 onSearchChange={setSearchText}
                 selectedRegion={selectedRegion}
                 onRegionChange={setSelectedRegion}
-                selectedDistrict={selectedDistrict}
+                selectedDistrict={currentScope === null ? peopleDistrictId : selectedDistrict}
                 onDistrictChange={setSelectedDistrict}
                 checkboxStates={checkboxStates}
                 onCheckboxChange={handleCheckboxChange}
                 currentScope={currentScope}
+                peopleDistricts={peopleDistricts}
+                peopleChurches={isChurchOnlyAdmin ? (peopleChurches ?? []) : null}
+                selectedChurch={peopleChurchId}
+                onChurchChange={setSelectedChurch}
             />
 
             {/* Content based on scope */}
@@ -204,19 +277,34 @@ export default function PermissionsPage({ }: Props) {
                             auth={auth}
                             onMergeComplete={() => setPeopleRefreshToken(prev => prev + 1)}
                         />
-                        <PeopleTable
-                            searchText={searchText}
-                            districtId={selectedDistrict}
-                            allDistricts={checkboxStates.allDistricts}
-                            unapprovedOnly={checkboxStates.unapprovedOnly}
-                            potentialDuplicates={checkboxStates.potentialDuplicates}
-                            usersOnly={checkboxStates.usersOnly}
-                            auth={auth}
-                            canImpersonate={canMergeAndImpersonate}
-                            onMergeSelect={handleMergePerson}
-                            currentMergePersonIds={currentMergePersonIds}
-                            refreshToken={peopleRefreshToken}
-                        />
+                        {peopleChurchesError && (
+                            <div role="alert" className="alert alert-error">
+                                <FontAwesomeIcon icon="fas faCircleExclamation" />
+                                <span>{peopleChurchesError}</span>
+                            </div>
+                        )}
+                        {isChurchOnlyAdmin && !peopleChurchesError && !peopleChurchId && (
+                            peopleChurches === null
+                                ? <div className="text-center py-8"><span className="loading loading-spinner loading-lg"></span></div>
+                                : <div className="text-center text-base-content/60">No churches found</div>
+                        )}
+                        {(!isChurchOnlyAdmin || peopleChurchId) && (
+                            <PeopleTable
+                                // Remount when the filters change so paging starts over at the first page.
+                                key={[searchText, peopleDistrictId, peopleChurchId, checkboxStates.allDistricts, checkboxStates.unapprovedOnly, checkboxStates.potentialDuplicates, checkboxStates.usersOnly].join('|')}
+                                searchText={searchText}
+                                districtId={peopleDistrictId}
+                                churchId={isChurchOnlyAdmin ? peopleChurchId : undefined}
+                                allDistricts={checkboxStates.allDistricts}
+                                unapprovedOnly={checkboxStates.unapprovedOnly}
+                                potentialDuplicates={checkboxStates.potentialDuplicates}
+                                usersOnly={checkboxStates.usersOnly}
+                                auth={auth}
+                                canMergeAndImpersonate={canMergeAndImpersonate}
+                                onMergeSelect={handleMergePerson}
+                                currentMergePersonIds={currentMergePersonIds}
+                                refreshToken={peopleRefreshToken}
+                            />)}
                     </>
                 )}
             </div>

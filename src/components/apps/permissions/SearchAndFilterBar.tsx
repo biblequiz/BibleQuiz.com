@@ -4,6 +4,7 @@ import regionsData from 'data/regions.json';
 import districtsData from 'data/districts.json';
 import FontAwesomeIcon from 'components/FontAwesomeIcon';
 import type { DistrictInfo, RegionInfo } from 'types/RegionAndDistricts';
+import type { Church } from 'types/services/ChurchesService';
 
 interface CheckboxStates {
     allDistricts: boolean;
@@ -23,10 +24,14 @@ interface Props {
     checkboxStates: CheckboxStates;
     onCheckboxChange: (key: keyof CheckboxStates) => void;
     currentScope: PersonPermissionScope | null;
+    peopleDistricts: DistrictInfo[];
+    peopleChurches: Church[] | null;
+    selectedChurch: string | undefined;
+    onChurchChange: (church: string) => void;
 }
 
 const ALL_REGIONS = regionsData as RegionInfo[];
-const ALL_DISTRICTS = districtsData as DistrictInfo[];
+export const ALL_DISTRICTS = districtsData as DistrictInfo[];
 export const DEFAULT_REGION_ID = ALL_REGIONS[0].id;
 export const DEFAULT_DISTRICT_ID = ALL_DISTRICTS[0].id;
 
@@ -39,16 +44,26 @@ export default function SearchAndFilterBar({
     onDistrictChange,
     checkboxStates,
     onCheckboxChange,
-    currentScope
+    currentScope,
+    peopleDistricts,
+    peopleChurches,
+    selectedChurch,
+    onChurchChange
 }: Props) {
     const [intermediateSearchText, setIntermediateSearchText] = useState<string | undefined>(searchText);
 
     const isRegionScope = currentScope === PersonPermissionScope.Region;
 
-    const showDistrictControls = currentScope === PersonPermissionScope.Church ||
+    // People are scoped to the user's own districts, or to their churches when they only administer churches.
+    const isPeopleScope = currentScope === null;
+    const showChurchControls = isPeopleScope && peopleChurches !== null;
+    const districts = isPeopleScope ? peopleDistricts : ALL_DISTRICTS;
+
+    const showDistrictControls = !showChurchControls && (
+        currentScope === PersonPermissionScope.Church ||
         currentScope === PersonPermissionScope.Region ||
         currentScope === PersonPermissionScope.District ||
-        currentScope === null;
+        currentScope === null);
 
     const showCheckboxes = currentScope === PersonPermissionScope.Church || currentScope === null;
 
@@ -101,9 +116,20 @@ export default function SearchAndFilterBar({
                                 {region.name} Region
                             </option>
                         ))}
-                        {!isRegionScope && ALL_DISTRICTS.map((district) => (
+                        {!isRegionScope && districts.map((district) => (
                             <option key={`dis_${district.id}`} value={district.id}>
                                 {district.name} District
+                            </option>
+                        ))}
+                    </select>)}
+                {showChurchControls && (
+                    <select
+                        className="select select-sm mt-0 w-auto"
+                        onChange={e => onChurchChange(e.target.value)}
+                        value={selectedChurch ?? ""}>
+                        {peopleChurches.map((church) => (
+                            <option key={`chu_${church.Id}`} value={church.Id ?? ""}>
+                                {church.Name} ({church.PhysicalAddress.City}, {church.PhysicalAddress.State})
                             </option>
                         ))}
                     </select>)}
@@ -111,17 +137,18 @@ export default function SearchAndFilterBar({
                     <>
                         {(currentScope === PersonPermissionScope.Church || currentScope === null) && (
                             <>
-                                <label className="label mt-0 mb-0">
-                                    <input
-                                        type="checkbox"
-                                        className="checkbox checkbox-info"
-                                        value="allDistricts"
-                                        checked={checkboxStates.allDistricts}
-                                        onChange={() => onCheckboxChange('allDistricts')} />
-                                    <span className="text-sm">
-                                        Search in All Districts
-                                    </span>
-                                </label>
+                                {!showChurchControls && (
+                                    <label className="label mt-0 mb-0">
+                                        <input
+                                            type="checkbox"
+                                            className="checkbox checkbox-info"
+                                            value="allDistricts"
+                                            checked={checkboxStates.allDistricts}
+                                            onChange={() => onCheckboxChange('allDistricts')} />
+                                        <span className="text-sm">
+                                            Search in All Districts
+                                        </span>
+                                    </label>)}
                                 <label className="label mt-0 mb-0">
                                     <input
                                         type="checkbox"
