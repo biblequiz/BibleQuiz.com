@@ -266,22 +266,20 @@ export class RegistrationService {
      * @param auth AuthManager to use for authentication.
      * @param eventId Id for the event.
      * @param churchId Id for the church.
+     * @returns The registration with its reconciled balances, or null if the church isn't registered.
      */
     public static reconcilePayments(
         auth: AuthManager,
         eventId: string,
-        churchId: string): Promise<RemoteServicePage<Registration>> {
+        churchId: string): Promise<Registration | null> {
 
-        return RemoteServiceUtility.executeHttpRequest<RemoteServicePage<Registration>>(
+        return RegistrationService.getRegistrationByChurchId(
             auth,
-            "GET",
-            RemoteServiceUrlBase.Registration,
-            URL_ROOT_PATH,
-            RemoteServiceUtility.getFilteredUrlParameters({
-                eid: eventId,
-                cid: churchId,
-                rp: true,
-            }));
+            eventId,
+            churchId,
+            undefined, // mapToEventId
+            undefined, // includeOnlyApprovedTeams
+            true); // refreshPayments
     }
 }
 

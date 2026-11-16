@@ -42,12 +42,11 @@ export default function RegistrationReceiptPage() {
         // shows as a pending balance until the server's periodic reconciliation catches up.
         const reconciled = isReturningFromPayment
             ? RegistrationService.reconcilePayments(auth, eventId, churchId)
-                .then(page => {
+                .then(reconciledRegistration => {
                     // The provider loaded the registration before this page mounted, so it still holds the
                     // pre-reconcile balances the registration page shows. The reconcile returns the updated
                     // registration, so hand that to the provider rather than calling reloadRegistration(), which
                     // swaps this page for a loading screen and remounts it, re-running this reconcile in a loop.
-                    const reconciledRegistration = page.Items?.[0];
                     if (reconciledRegistration && !isCancelled) {
                         setRegistration(reconciledRegistration);
                         setRegistrationVersion(reconciledRegistration.Version ?? 0);
@@ -62,12 +61,20 @@ export default function RegistrationReceiptPage() {
         reconciled
             .then(() => EventsService.getEventSummary(auth, eventId, churchId))
             .then(summary => {
+                if (isCancelled) {
+                    return;
+                }
+
                 setEventSummary(summary);
                 const matchingChurch = summary.Churches?.find(c => c.Id === churchId) ?? null;
                 setChurchSummary(matchingChurch);
                 setIsLoading(false);
             })
             .catch(err => {
+                if (isCancelled) {
+                    return;
+                }
+
                 setError(err?.message || "An error occurred loading the receipt.");
                 setIsLoading(false);
             });
