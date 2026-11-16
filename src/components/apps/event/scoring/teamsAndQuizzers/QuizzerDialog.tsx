@@ -104,9 +104,9 @@ export default function QuizzerDialog({
         updatedQuizzer.ChurchName = church?.displayName || team?.Church;
         updatedQuizzer.IsHidden = isHidden;
 
-        // A quizzer can only be verified against a linked person. An unset value is kept as-is so
-        // the automatic verification when scores are synced can still fill it in.
-        updatedQuizzer.IsVerifiedRemotely = isVerified && !person ? false : isVerified;
+        // A quizzer can only be verified against a linked person. An unset value is left unset so the
+        // automatic verification when scores are synced can still fill it in.
+        updatedQuizzer.IsVerifiedRemotely = person ? isVerified : undefined;
 
         onSave(updatedQuizzer);
         dialogRef.current?.close();
@@ -362,8 +362,9 @@ export default function QuizzerDialog({
                         if (selectedPerson) {
                             const name = `${selectedPerson.FirstName} ${selectedPerson.LastName}`;
                             if (selectedPerson.Id !== person?.id) {
-                                // The verification was for the previous person.
-                                setIsVerified(false);
+                                // The verification was for the previous person. Leave it unset so the
+                                // automatic verification can check the new person.
+                                setIsVerified(undefined);
                             }
 
                             setPerson({ id: selectedPerson.Id!, name });

@@ -19,7 +19,7 @@ interface Props {
     meets: ReportMeetFilter[];
     setMeets: (meets: ReportMeetFilter[]) => void;
     setReportTitle: (title: string, isReport: boolean) => void;
-    getDatabaseUrl: (eventId: string, databaseId: string, page?: string) => { url: string, useNavigate: boolean };
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean };
     isDisabled: boolean;
 }
 
@@ -29,12 +29,12 @@ const getMeetCard = (
     hasQuizzers: boolean,
     navigate: NavigateFunction,
     removeMeet: (meet: ReportMeetFilter) => void,
-    getDatabaseUrl: (eventId: string, databaseId: string, page?: string) => { url: string, useNavigate: boolean },
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean },
     setReportTitle: (title: string, isReport: boolean) => void,
 
     isDisabled: boolean) => {
 
-    const openDatabasePage = (page?: string) => {
+    const openDatabasePage = (page?: "meets" | "teamsAndQuizzers") => {
         const { url, useNavigate } = getDatabaseUrl(
             filter.EventId,
             filter.DatabaseId,

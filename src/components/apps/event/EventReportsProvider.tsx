@@ -32,7 +32,7 @@ export interface EventReportsProviderContext {
 
     parentUrl: string;
     useNavigateForParent: boolean;
-    getDatabaseUrl: (eventId: string, databaseId: string, page?: string) => { url: string, useNavigate: boolean };
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean };
     getItemUrl: (type: "event" | "season", reportId: string | null) => string;
 
     eventReports: LoadedReport<EventReport>[];

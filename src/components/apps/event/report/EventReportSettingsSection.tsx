@@ -23,7 +23,7 @@ interface Props {
     setReportTitle: (title: string, isReport: boolean) => void;
     setReportHidden: (isHidden: boolean) => void;
     type: "event" | "season";
-    getDatabaseUrl: (eventId: string, databaseId: string, page?: string) => { url: string, useNavigate: boolean };
+    getDatabaseUrl: (eventId: string, databaseId: string, page?: "meets" | "teamsAndQuizzers") => { url: string, useNavigate: boolean };
     saveReport: (report: EventReport | SeasonReport, force?: boolean) => Promise<void>;
     deleteReport: () => void;
     backToAllReports: () => void;
