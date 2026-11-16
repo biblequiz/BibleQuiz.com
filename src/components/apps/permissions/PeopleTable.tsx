@@ -10,12 +10,13 @@ import Pagination from 'components/Pagination';
 interface Props {
     searchText: string;
     districtId?: string;
+    churchId?: string;
     allDistricts: boolean;
     unapprovedOnly: boolean;
     potentialDuplicates: boolean;
     usersOnly: boolean;
     auth: AuthManager;
-    canImpersonate: boolean;
+    canMergeAndImpersonate: boolean;
     onMergeSelect?: (person: Person) => void;
     currentMergePersonIds?: string[];
     refreshToken?: number;
@@ -24,12 +25,13 @@ interface Props {
 export default function PeopleTable({
     searchText,
     districtId,
+    churchId,
     allDistricts,
     unapprovedOnly,
     potentialDuplicates,
     usersOnly,
     auth,
-    canImpersonate,
+    canMergeAndImpersonate,
     onMergeSelect,
     currentMergePersonIds = [],
     refreshToken = 0
@@ -45,17 +47,22 @@ export default function PeopleTable({
 
     useEffect(() => {
         loadPeople();
-    }, [searchText, districtId, allDistricts, unapprovedOnly, potentialDuplicates, usersOnly, pageNumber, auth, refreshToken]);
+    }, [searchText, districtId, churchId, allDistricts, unapprovedOnly, potentialDuplicates, usersOnly, pageNumber, auth, refreshToken]);
+
+    // Church-only administrators are scoped to one of their churches; everyone else to a district
+    // (or, with no district, every area they administer).
+    const parentType = churchId ? PersonParentType.Church : PersonParentType.District;
+    const parentId = churchId ?? (allDistricts ? null : (districtId || null));
 
     const loadPeople = async () => {
         setIsLoading(true);
+        setError(undefined);
         try {
-            const parentId = allDistricts ? null : (districtId || null);
             const page = await PeopleService.getPeople(
                 auth,
                 25,
                 pageNumber,
-                PersonParentType.District,
+                parentType,
                 parentId,
                 searchText || null,
                 false,
@@ -66,6 +73,8 @@ export default function PeopleTable({
             );
             setPeople(page.Items || []);
             setPageCount(page.PageCount || 0);
+        } catch (err) {
+            setError((err as any).message || 'Failed to load people');
         } finally {
             setIsLoading(false);
         }
@@ -107,7 +116,7 @@ export default function PeopleTable({
                     <tbody>
                         {people.length === 0 ? (
                             <tr>
-                                <td colSpan={canImpersonate ? 6 : 5} className="text-center text-base-content/60">
+                                <td colSpan={4} className="text-center text-base-content/60">
                                     No people found
                                 </td>
                             </tr>
@@ -118,7 +127,7 @@ export default function PeopleTable({
                                     <td>{person.LastName}</td>
                                     <td>{person.CurrentChurch?.Name}</td>
                                     <td className="text-right">
-                                        {canImpersonate && person.IsUser && (
+                                        {canMergeAndImpersonate && person.IsUser && (
                                             <button
                                                 className="btn btn-secondary btn-sm mt-0 mb-0 mr-2"
                                                 onClick={() => {
@@ -131,15 +140,16 @@ export default function PeopleTable({
                                             >
                                                 <FontAwesomeIcon icon="fas faUserSecret" />
                                             </button>)}
-                                        <button
-                                            className={`btn btn-sm text-white mr-2 mt-0 mb-0 ${currentMergePersonIds.includes(person.Id ?? '')
-                                                ? 'btn-warning'
-                                                : 'btn-primary'}`}
-                                            onClick={() => onMergeSelect?.(person)}
-                                            title="Select for merge"
-                                        >
-                                            <FontAwesomeIcon icon="fas faCompressAlt" />
-                                        </button>
+                                        {canMergeAndImpersonate && (
+                                            <button
+                                                className={`btn btn-sm text-white mr-2 mt-0 mb-0 ${currentMergePersonIds.includes(person.Id ?? '')
+                                                    ? 'btn-warning'
+                                                    : 'btn-primary'}`}
+                                                onClick={() => onMergeSelect?.(person)}
+                                                title="Select for merge"
+                                            >
+                                                <FontAwesomeIcon icon="fas faCompressAlt" />
+                                            </button>)}
                                         <button
                                             className="btn btn-ghost btn-sm mt-0 mb-0"
                                             onClick={() => setEditingPerson(person)}
@@ -172,8 +182,9 @@ export default function PeopleTable({
                     <PersonDialog
                         title="Update Person"
                         existingPerson={editingPerson}
-                        parentType={PersonParentType.District}
-                        parentId={allDistricts ? null : (districtId ?? null)}
+                        parentType={parentType}
+                        parentId={parentId}
+                        currentChurch={editingPerson.CurrentChurch ?? null}
                         onClose={(updatedPerson) => {
                             setEditingPerson(null);
                             if (updatedPerson) {

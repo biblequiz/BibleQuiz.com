@@ -56,7 +56,7 @@ export default function ScopeSelector({ currentScope, onScopeChange, userProfile
                 </button>
             )}
 
-            {hasOrgPermission && (
+            {hasChurchPermission && (
                 <button
                     className={`btn btn-sm mt-0 mb-0 ${currentScope === null ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => onScopeChange(null)}
