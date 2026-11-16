@@ -30,3 +30,16 @@ Deployed builds send only *uncaught* `window` `error` and `unhandledrejection` e
 - Errors a component catches itself (a try/catch that shows a toast, an error boundary).
 
 So no match in Application Insights doesn't mean an error didn't happen in production. Debug these in the browser (console, a local `npm run dev` repro).
+
+## Work in a worktree, not the main checkout
+
+Several Claude sessions can run against this repo at once. Start any change in its own worktree under `.claude/worktrees/` (gitignored), e.g. with the EnterWorktree tool or `git worktree add .claude/worktrees/<name> -b <branch> origin/main`, and never switch branches in the main checkout: another session may be working there.
+
+## Open the PR as a draft, review it, then mark it ready
+
+`build` runs on drafts too, and this repo is public, so CI minutes aren't the constraint they are in ModernApps. A draft is still the review stage, because a ready PR can be merged, and merging deploys.
+
+1. Commit, push the branch and open the PR **as a draft** (`gh pr create --draft`).
+2. Run `/review-pr <n>` on the draft. Fix or consciously dismiss each finding, push, then run `/recheck-pr <n>` to verify the fixes. `/review-pr` and `/recheck-pr` come from the workflow-skills plugin; without it, run `/code-review` on the branch instead. Batch fixes into one push per round.
+3. Run `npm run check` and `npm run build` locally. For a UI change, open the affected screen with `npm run dev`, or say in the PR that you didn't.
+4. Only then mark it ready (`gh pr ready <n>`), with `build` green. Say in the description what was reviewed and tested.
