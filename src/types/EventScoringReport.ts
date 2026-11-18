@@ -259,6 +259,12 @@ export abstract class ScoringReportScoreBase {
     public readonly TotalPoints!: number;
 
     /**
+     * Number of matches (rounds) used to calculate the averages for the team or quizzer, or null if it isn't known
+     * (for example, the report was generated before this value existed).
+     */
+    public readonly Rounds?: number | null;
+
+    /**
      * List of per meet totals (each item corresponds toScoringReportMeet.MeetNames and will only
      * be set if ScoringReportMeet.MeetNames is set). A null item means the team or quizzer didn't
      * compete in that match.
