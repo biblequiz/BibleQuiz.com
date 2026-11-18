@@ -139,7 +139,8 @@ export default function StatsTabContent({
                                 <td className="text-right">{team.Scores!.Wins}</td>
                                 <td className="text-right">{team.Scores!.Losses}</td>
                                 <td className="text-right">{team.Scores!.WinPercentage}%</td>
-                                <td className="text-right">{team.Scores!.Rounds ? team.Scores!.Rounds : (<>&nbsp;</>)}</td>
+                                {meet.IsCombinedReport && (
+                                    <td className="text-right">{team.Scores!.Rounds ? team.Scores!.Rounds : (<>&nbsp;</>)}</td>)}
                                 <td className="text-right">{team.Scores!.TotalPoints}</td>
                                 <td className="text-right">{team.Scores!.AveragePoints ? team.Scores!.AveragePoints : (<>&nbsp;</>)}</td>
                                 <td className="text-right">{team.Scores!.QuizOuts ? team.Scores!.QuizOuts : (<>&nbsp;</>)}</td>
@@ -208,7 +209,8 @@ export default function StatsTabContent({
                                     <td className="text-right">
                                         {quizzer.YearsQuizzing == null ? (<>&nbsp;</>) : quizzer.YearsQuizzing}
                                     </td>)}
-                                <td className="text-right">{quizzer.Scores!.Rounds ? quizzer.Scores!.Rounds : (<>&nbsp;</>)}</td>
+                                {meet.IsCombinedReport && (
+                                    <td className="text-right">{quizzer.Scores!.Rounds ? quizzer.Scores!.Rounds : (<>&nbsp;</>)}</td>)}
                                 <td className="text-right">{quizzer.Scores!.TotalPoints}</td>
                                 <td className="text-right">{quizzer.Scores!.AveragePoints ? quizzer.Scores!.AveragePoints : (<>&nbsp;</>)}</td>
                                 <td className="text-right">{quizzer.Scores!.MaxPoints ? quizzer.Scores!.MaxPoints : (<>&nbsp;</>)}</td>
@@ -281,7 +283,8 @@ export default function StatsTabContent({
                                                     <th className="text-right">W</th>
                                                     <th className="text-right">L</th>
                                                     <th className="text-right">W%</th>
-                                                    <th className="text-right">Rnd</th>
+                                                    {meet.IsCombinedReport && (
+                                                        <th className="text-right">Rnd</th>)}
                                                     <th className="text-right">Total</th>
                                                     <th className="text-right">Avg</th>
                                                     <th className="text-right">QO</th>
@@ -295,7 +298,7 @@ export default function StatsTabContent({
                                                 {rankedTeams}
                                                 {teamCount === 0 && (
                                                     <tr>
-                                                        <td colSpan={13} className="text-center">No favorite teams found.</td>
+                                                        <td colSpan={meet.IsCombinedReport ? 13 : 12} className="text-center">No favorite teams found.</td>
                                                     </tr>
                                                 )}
                                             </tbody>
@@ -313,7 +316,8 @@ export default function StatsTabContent({
                                                     <th>Team (Church)</th>
                                                     {meet.ShowYearsQuizzing && (
                                                         <th className="text-right">Yrs</th>)}
-                                                    <th className="text-right">Rnd</th>
+                                                    {meet.IsCombinedReport && (
+                                                        <th className="text-right">Rnd</th>)}
                                                     <th className="text-right">Total</th>
                                                     <th className="text-right">Avg</th>
                                                     <th className="text-right">Max</th>
@@ -328,7 +332,7 @@ export default function StatsTabContent({
                                                 {rankedQuizzers}
                                                 {quizzerCount === 0 && (
                                                     <tr>
-                                                        <td colSpan={13} className="text-center">No favorite quizzers found.</td>
+                                                        <td colSpan={11 + (meet.ShowYearsQuizzing ? 1 : 0) + (meet.IsCombinedReport ? 1 : 0)} className="text-center">No favorite quizzers found.</td>
                                                     </tr>
                                                 )}
                                             </tbody>
