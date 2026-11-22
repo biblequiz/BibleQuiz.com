@@ -1,0 +1,557 @@
+{
+  "EventName": "MIJBQ Meet #2 Northern section",
+  "DatabaseNames": {
+    "a0701965-3fcd-4643-afce-ad67cccdb555": "MIJBQ_2026_27"
+  },
+  "Report": {
+    "Meets": [
+      {
+        "DatabaseId": "a0701965-3fcd-4643-afce-ad67cccdb555",
+        "MeetId": 17,
+        "CombinedName": null,
+        "HasLinkedMeets": false,
+        "HasQuestionStats": false,
+        "Name": "B Meet#2 North",
+        "LastUpdated": "11/21/26 4:53 PM",
+        "DatabaseLastUpdated": "2026-11-19T22:06:34.6197948+00:00",
+        "CompetitionType": "JBQ",
+        "IsIndividualCompetition": false,
+        "Teams": [
+          {
+            "CoachName": "kidz hope",
+            "Quizzers": [
+              1,
+              4
+            ],
+            "Id": "t_47e35d2bd38442a7b933ddfba4bafec5",
+            "Name": "Mount Hope Assembly of God (Gaylord) #1",
+            "ChurchId": "518fc2ad-7774-429c-ace5-549b04830db8",
+            "ChurchName": "Mount Hope Assembly of God",
+            "City": "Gaylord",
+            "State": "MI",
+            "Scores": {
+              "Wins": 1,
+              "Losses": 5,
+              "WinPercentage": 17,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 35,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.8,
+              "AverageCorrect": 0.8,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 56,
+              "Correct10s": 4,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "W",
+                "Score": 5,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 30,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": 10,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 1,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          },
+          {
+            "CoachName": "Mickey Agee",
+            "Quizzers": [
+              0,
+              2,
+              3,
+              5,
+              6
+            ],
+            "Id": "t_fad65ed267b7450e82431811f1246161",
+            "Name": "The Life Boyz",
+            "ChurchId": "f916d774-4583-4555-907d-0024549c3adf",
+            "ChurchName": "Life Worship Center",
+            "City": "Cheboygan",
+            "State": "MI",
+            "Scores": {
+              "Wins": 5,
+              "Losses": 1,
+              "WinPercentage": 83,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 475,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 79.2,
+              "AverageCorrect": 7.5,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 78,
+              "Correct10s": 37,
+              "Correct20s": 6,
+              "Correct30s": 2,
+              "FootnoteIndex": null
+            },
+            "Matches": [
+              {
+                "Result": "L",
+                "Score": -10,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 70,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 85,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 110,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 130,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              },
+              {
+                "Result": "W",
+                "Score": 90,
+                "OtherTeam": 0,
+                "RoomId": 1,
+                "Room": "1",
+                "State": "Completed",
+                "CurrentQuestion": null
+              }
+            ],
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedTeams": [
+          1,
+          0
+        ],
+        "TeamFootnotes": [],
+        "Quizzers": [
+          {
+            "TeamName": "The Life Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_302",
+            "Name": "Elijah Boyd",
+            "ChurchId": "f916d774-4583-4555-907d-0024549c3adf",
+            "ChurchName": "Life Worship Center",
+            "City": "Cheboygan",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 6,
+              "IsTie": false,
+              "TotalPoints": 0,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mount Hope Assembly of God (Gaylord) #1",
+            "YearsQuizzing": null,
+            "Id": "q_0d9e6227089e4765309f08df1a4c4c50",
+            "Name": "Jed Glazier",
+            "ChurchId": "518fc2ad-7774-429c-ace5-549b04830db8",
+            "ChurchName": "Mount Hope Assembly of God",
+            "City": "Gaylord",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 30,
+              "Rank": 3,
+              "IsTie": false,
+              "TotalPoints": 30,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 5.0,
+              "AverageCorrect": 0.7,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 57,
+              "Correct10s": 3,
+              "Correct20s": 1,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Life Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_1c29cce93bb241f31d0c08df1a4c4c50",
+            "Name": "Landon Dobias",
+            "ChurchId": "f916d774-4583-4555-907d-0024549c3adf",
+            "ChurchName": "Life Worship Center",
+            "City": "Cheboygan",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 110,
+              "Rank": 1,
+              "IsTie": false,
+              "TotalPoints": 390,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 65.0,
+              "AverageCorrect": 5.3,
+              "QuizOuts": 4,
+              "QuestionCorrectPercentage": 86,
+              "Correct10s": 26,
+              "Correct20s": 5,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Life Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_5b1653c8f27b4fa01d0a08df1a4c4c50",
+            "Name": "Lennox Agee",
+            "ChurchId": "f916d774-4583-4555-907d-0024549c3adf",
+            "ChurchName": "Life Worship Center",
+            "City": "Cheboygan",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 50,
+              "Rank": 2,
+              "IsTie": false,
+              "TotalPoints": 60,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 10.0,
+              "AverageCorrect": 1.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 70,
+              "Correct10s": 5,
+              "Correct20s": 1,
+              "Correct30s": 1,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "Mount Hope Assembly of God (Gaylord) #1",
+            "YearsQuizzing": null,
+            "Id": "q_0930645e21c4400b30a108df1a4c4c50",
+            "Name": "Penelope Glazier",
+            "ChurchId": "518fc2ad-7774-429c-ace5-549b04830db8",
+            "ChurchName": "Mount Hope Assembly of God",
+            "City": "Gaylord",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 10,
+              "Rank": 5,
+              "IsTie": false,
+              "TotalPoints": 5,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.8,
+              "AverageCorrect": 0.2,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 50,
+              "Correct10s": 1,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Life Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_a49821cdcbe7426c1d0f08df1a4c4c50",
+            "Name": "Tiahna Loehne",
+            "ChurchId": "f916d774-4583-4555-907d-0024549c3adf",
+            "ChurchName": "Life Worship Center",
+            "City": "Cheboygan",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 0,
+              "Rank": 6,
+              "IsTie": true,
+              "TotalPoints": 0,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 0.0,
+              "AverageCorrect": 0.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 0,
+              "Correct10s": 0,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": 0
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          },
+          {
+            "TeamName": "The Life Boyz",
+            "YearsQuizzing": null,
+            "Id": "q_a07019653fcd4643afcead67cccdb555_303",
+            "Name": "Zebulon Wright",
+            "ChurchId": "f916d774-4583-4555-907d-0024549c3adf",
+            "ChurchName": "Life Worship Center",
+            "City": "Cheboygan",
+            "State": "MI",
+            "Scores": {
+              "MaxPoints": 20,
+              "Rank": 4,
+              "IsTie": false,
+              "TotalPoints": 25,
+              "Rounds": 6,
+              "PerMeetTotalPoints": null,
+              "AveragePoints": 4.2,
+              "AverageCorrect": 1.0,
+              "QuizOuts": 0,
+              "QuestionCorrectPercentage": 55,
+              "Correct10s": 6,
+              "Correct20s": 0,
+              "Correct30s": 0,
+              "FootnoteIndex": null
+            },
+            "Matches": null,
+            "CurrentMatchId": null
+          }
+        ],
+        "RankedQuizzers": [
+          2,
+          3,
+          1,
+          6,
+          4,
+          0,
+          5
+        ],
+        "QuizzerFootnotes": [
+          {
+            "Symbol": "*",
+            "Text": "Tie couldn't be broken by tie breaking rules."
+          }
+        ],
+        "MeetNames": null,
+        "Rooms": [
+          {
+            "RoomId": 1,
+            "Name": "1",
+            "Matches": [
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              },
+              {
+                "CurrentQuestion": null,
+                "LinkedMeet": null,
+                "Team1": 1,
+                "Team2": 0,
+                "Quizzers": null,
+                "RankedTeamsOrQuizzers": null,
+                "State": "Completed",
+                "Blockers": null
+              }
+            ]
+          }
+        ],
+        "TeamRankingLabel": "Ranked by win/loss record. 2-way ties broken by head-to-head matches and 3+-way ties broken by points.",
+        "TeamRankingAwardsLabel": "Excellence",
+        "QuizzerRankingLabel": "Ranked by average points, then by total quiz outs.",
+        "QuizzerRankingAwardsLabel": "Excellence",
+        "Matches": [
+          {
+            "Id": 1,
+            "MatchTime": "09:00 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 2,
+            "MatchTime": "09:25 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 3,
+            "MatchTime": "09:50 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 4,
+            "MatchTime": "10:15 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 5,
+            "MatchTime": "10:40 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          },
+          {
+            "Id": 6,
+            "MatchTime": "11:05 AM",
+            "PlayoffIndex": null,
+            "RegularQuestionStats": null
+          }
+        ],
+        "HasRoomCompletionMismatch": false,
+        "HasScoringCompleted": true,
+        "ScoringProgressMessage": "All Room(s) Reported",
+        "HasRoomCompletionMismatchForCombined": false,
+        "HasScoringCompletedForCombined": false,
+        "ScoringProgressMessageForCombined": null,
+        "ShowYearsQuizzing": false,
+        "IsCombinedReport": false
+      }
+    ]
+  },
+  "MeetDisplay": [
+    {
+      "Teams": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      },
+      "Quizzers": {
+        "ShowAverageCorrect": false,
+        "Show10s": true,
+        "Show20s": true,
+        "Show30s": true
+      }
+    }
+  ],
+  "Freshness": "2026-11-21T16:53:38.2721861+00:00"
+}
