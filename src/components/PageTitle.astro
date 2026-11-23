@@ -21,6 +21,7 @@ import PrintDialogButton from "./scores/PrintDialogButton.astro";
 import ToggleFavoritesOnlyButton from "./scores/ToggleFavoritesOnlyButton";
 import EventScopeBadge from "./EventScopeBadge";
 import { getCurrentSeasonResultsUrl } from "utils/Seasons";
+import { getTaskForPath } from "utils/Tasks";
 
 const currentSeasonLink =
     eventType && showSeasonButtons
@@ -37,6 +38,11 @@ if (!resolvedEventType) {
     }
 }
 
+// Every page inside a Task links back to its Task Hub (D11).
+const pathname = Astro.url.pathname.endsWith("/") ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const crumbTask = getTaskForPath(pathname);
+const showCrumb = crumbTask !== null && pathname.toLowerCase() !== crumbTask.href;
+
 const isWiki = Astro.request.url
     ? new URL(Astro.request.url).pathname.startsWith("/wiki/")
     : false;
@@ -48,6 +54,14 @@ const isWiki = Astro.request.url
             <EditLink />
             <LastUpdated />
         </div>
+    )
+}
+
+{
+    showCrumb && (
+        <a class="bq-crumb hide-on-print" href={crumbTask.href}>
+            ← {crumbTask.label}
+        </a>
     )
 }
 
@@ -76,7 +90,7 @@ const isWiki = Astro.request.url
                     <div class="flex flex-wrap items-start gap-2 mt-2">
                         <a
                             class="btn btn-primary cursor-pointer hide-on-print whitespace-nowrap"
-                            href={`/?type=${eventType}`}
+                            href={`/events/?type=${eventType}`}
                         >
                             Live & Upcoming Events
                         </a>
@@ -116,6 +130,21 @@ const isWiki = Astro.request.url
         </div>
     )
 }
+
+<style>
+    .bq-crumb {
+        display: inline-block;
+        margin-bottom: 0.25rem;
+        font-size: var(--sl-text-sm);
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--sl-color-text-accent);
+    }
+
+    .bq-crumb:hover {
+        text-decoration: underline;
+    }
+</style>
 
 <script>
     const hideParentElement = document.getElementById("_top_hide_parent_id");

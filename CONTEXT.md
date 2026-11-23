@@ -33,6 +33,28 @@ _Avoid_: Download
 **Event List** — The shared public list for discovering live, upcoming, and recent events. It is the entry point for both public scores and event registration.
 _Avoid_: Scores page, registration list
 
+**Season** — One year of competition for a Program, named by the calendar year in which it ends (the 2027 Season runs 2026–27).
+
+**Next Season** — The Season after the Current Season, already announced so visitors can prepare. It is always the latest Season the site knows about.
+_Avoid_: Future season, upcoming season
+
+**Current Season** — The Season immediately before the Next Season; the one being competed now or most recently.
+
+**Task** — Something a visitor comes to the site to accomplish, such as following scores or registering for an event. Tasks, not audiences, are the primary way visitors navigate the site.
+_Avoid_: Persona, section
+
+**Task Chooser** — The home page, which asks visitors what they are trying to do and offers each Task as a single choice.
+_Avoid_: Landing page, gateway
+
+**Task Hub** — The page a Task opens, gathering everything a visitor needs to complete that Task.
+_Avoid_: Section page, landing page
+
+**Section Navigation** — The list of pages within one Task, or within one event's administration, shown beside the page on wide screens and behind a single button on phones.
+_Avoid_: Sidebar, side menu
+
+**Happening Now** — A shortcut on the Task Chooser to the public scores of events that are live at that moment. It appears only while at least one event is live.
+_Avoid_: Live banner
+
 ## News Publishing
 
 **Newsletter Issue** — The monthly source communication from AG Youth Ministries containing Teen Bible Quiz news, dates, resources, and contact information.

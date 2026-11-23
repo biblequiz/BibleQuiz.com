@@ -1,0 +1,128 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ProgramSwitch from "components/tasks/ProgramSwitch.astro";
+import { getDocPage, getDocPagesUnder } from "utils/DocPages";
+import { getSeasons } from "utils/Seasons";
+
+/**
+ * Study & practice (Task 4, D21): this season's material, practice questions and training.
+ */
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Study & practice",
+    description: "This season's material, practice questions, training and study tools for JBQ and TBQ.",
+    template: "doc",
+    tableOfContents: false,
+};
+
+const [nextSeason, currentSeason] = await getSeasons(import.meta.url);
+const seasonLabel = (season: number) => `${season - 1}–${String(season).slice(-2)}`;
+
+const tbqSeason = await getDocPage(`tbq/seasons/${currentSeason}`);
+const tbqSeasonPages = (await getDocPagesUnder(`tbq/seasons/${currentSeason}/`, /\/(results|events|rules|nationals)(\/|$)/))
+    .filter((p) => p.href !== tbqSeason?.href);
+const tbqNextSeason = await getDocPage(`tbq/seasons/${nextSeason}`);
+const training = await getDocPagesUnder("tbq/training/");
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide bq-hub">
+        <ProgramSwitch />
+
+        <div data-bq-program-content="tbq" hidden class="bq-hub">
+            <section>
+                <h2>This season: {seasonLabel(currentSeason)}</h2>
+                <div class="bq-cards">
+                    {
+                        tbqSeason && (
+                            <a class="bq-card" href={tbqSeason.href}>
+                                <span class="bq-chip"><FontAwesomeIcon icon="fas faBookBible" /></span>
+                                <span class="bq-card-text">
+                                    <span class="bq-card-title">Season overview &amp; material</span>
+                                    <span class="bq-card-desc">What to study, material breakdown and scripture updates</span>
+                                </span>
+                            </a>
+                        )
+                    }
+                    {
+                        tbqSeasonPages.map((page) => (
+                            <a class="bq-card" href={page.href}>
+                                <span class="bq-card-text"><span class="bq-card-title">{page.title}</span></span>
+                            </a>
+                        ))
+                    }
+                    {
+                        tbqNextSeason && (
+                            <a class="bq-card" href={tbqNextSeason.href}>
+                                <span class="bq-card-text">
+                                    <span class="bq-card-title">Next season ({seasonLabel(nextSeason)}) →</span>
+                                    <span class="bq-card-desc">Get a head start on next year's material</span>
+                                </span>
+                            </a>
+                        )
+                    }
+                </div>
+            </section>
+
+            <section>
+                <h2>Practice</h2>
+                <div class="bq-cards">
+                    <a class="bq-card" href="/tbq/questions/">
+                        <span class="bq-chip"><FontAwesomeIcon icon="fas faCircleQuestion" /></span>
+                        <span class="bq-card-text">
+                            <span class="bq-card-title">Practice questions</span>
+                            <span class="bq-card-desc">Free Application Questions and practice sets to buy</span>
+                        </span>
+                    </a>
+                    <a class="bq-card" href="/study-hub-sign-up/">
+                        <span class="bq-chip"><FontAwesomeIcon icon="fas faUsers" /></span>
+                        <span class="bq-card-text">
+                            <span class="bq-card-title">Join Study Hub</span>
+                            <span class="bq-card-desc">Study together online</span>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section>
+                <h2>Training</h2>
+                <div class="bq-cards">
+                    {
+                        training.map((page) => (
+                            <a class="bq-card" href={page.href}>
+                                <span class="bq-chip"><FontAwesomeIcon icon="fas faChalkboardUser" /></span>
+                                <span class="bq-card-text"><span class="bq-card-title">{page.title}</span></span>
+                            </a>
+                        ))
+                    }
+                </div>
+            </section>
+        </div>
+
+        <div data-bq-program-content="jbq" hidden class="bq-hub">
+            <section>
+                <h2>Practice</h2>
+                <div class="bq-cards">
+                    <a class="bq-card" href="/jbq/question-generator/">
+                        <span class="bq-chip"><FontAwesomeIcon icon="fas faShuffle" /></span>
+                        <span class="bq-card-text">
+                            <span class="bq-card-title">Question Generator</span>
+                            <span class="bq-card-desc">Make custom question sets for practices and tournaments, free</span>
+                        </span>
+                    </a>
+                    <a class="bq-card" href="https://myhealthychurch.com/store/startcat.cfm?cat=iBFACTPAK">
+                        <span class="bq-chip"><FontAwesomeIcon icon="fas faCartShopping" /></span>
+                        <span class="bq-card-text">
+                            <span class="bq-card-title">Bible Fact-Pak</span>
+                            <span class="bq-card-desc">The 576 questions JBQ is based on</span>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+</StarlightPage>

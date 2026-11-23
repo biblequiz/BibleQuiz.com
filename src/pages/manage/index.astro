@@ -1,0 +1,26 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import ManageHubLinks from "components/tasks/ManageHubLinks";
+
+/**
+ * Manage events, people & more (Task 6, D15). Entries appear only to the people allowed to use
+ * them, exactly as before.
+ */
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Manage events, people & more",
+    description: "Tools for event coordinators and administrators.",
+    template: "doc",
+    tableOfContents: false,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide bq-hub">
+        <ManageHubLinks client:only="react" />
+    </div>
+</StarlightPage>

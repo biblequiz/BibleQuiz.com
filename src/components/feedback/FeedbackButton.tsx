@@ -26,8 +26,9 @@ export default function FeedbackButton({ mobile = false }: Props) {
 
     const open = () => {
         if (prefersSheet() || !openFeedbackWindow()) {
-            // The phone menu, where this button is, closes first: a screenshot is of the page, not the menu.
+            // The phone menu or the Menu, where this button is, closes first: a screenshot is of the page, not the menu.
             document.querySelector<HTMLButtonElement>('starlight-menu-button[aria-expanded="true"] button')?.click();
+            document.querySelector<HTMLDialogElement>("#bq-menu-dialog[open]")?.close();
             setSheetOpen(true);
         }
     };

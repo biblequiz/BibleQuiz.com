@@ -7,7 +7,10 @@ import { sharedGlobalStatusToast } from "utils/SharedState";
 export enum AuthButtonType {
     Desktop,
     Mobile,
-    ProtectedRoute
+    ProtectedRoute,
+
+    /** The site header's account menu, shown at every screen size (D29). */
+    Header
 }
 
 interface Props {
@@ -18,9 +21,11 @@ export default function AuthButton({ type }: Props) {
 
     const authManager = AuthManager.useNanoStore();
 
-    const isMobile = type !== AuthButtonType.Desktop;
+    const isHeader = type === AuthButtonType.Header;
+    const isMobile = type !== AuthButtonType.Desktop && !isHeader;
     const isActiveViewportForType =
         type === AuthButtonType.ProtectedRoute ||
+        isHeader ||
         (typeof window !== "undefined" &&
             window.matchMedia(type === AuthButtonType.Desktop ? "(min-width: 1024px)" : "(max-width: 1023px)").matches);
 
@@ -80,13 +85,15 @@ export default function AuthButton({ type }: Props) {
             (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
             (userProfile.churchPermissions && userProfile.churchPermissions.size > 0));
         const canManagePayouts = !authManager.isImpersonating && userProfile.isPayoutManager;
-        const buttonClassName = authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
+        const buttonClassName = isHeader
+            ? `btn btn-sm h-10 m-0 max-w-40 md:max-w-60 ${authManager.isImpersonating ? "btn-error text-white" : "btn-ghost border border-white/40 text-white"}`
+            : authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
         const buttonLabel = authManager.isImpersonating ? `Impersonating: ${displayName}` : displayName;
 
         buttonElement = (
             <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
                 <div tabIndex={0} role="button" className={buttonClassName}>
-                    <FontAwesomeIcon icon={authManager.isImpersonating ? "fas faUserSecret" : "fas faUser"} />&nbsp;{buttonLabel}
+                    <FontAwesomeIcon icon={authManager.isImpersonating ? "fas faUserSecret" : "fas faUser"} />&nbsp;<span className="truncate">{buttonLabel}</span>
                 </div>
                 <ul
                     tabIndex={0}
@@ -121,7 +128,17 @@ export default function AuthButton({ type }: Props) {
                             </a>
                         </li>
                     )}
-                    {hasPermissions && (
+                    {isHeader && (hasPermissions || canManagePayouts) && (
+                        <li>
+                            <a
+                                href="/manage/"
+                                className="text-base-content">
+                                <FontAwesomeIcon icon="fas faLock" />
+                                Manage events, people &amp; more
+                            </a>
+                        </li>
+                    )}
+                    {!isHeader && hasPermissions && (
                         <li>
                             <a
                                 href="/admin/permissions"
@@ -131,7 +148,7 @@ export default function AuthButton({ type }: Props) {
                             </a>
                         </li>
                     )}
-                    {canManagePayouts && (
+                    {!isHeader && canManagePayouts && (
                         <li>
                             <a
                                 href="/admin/payouts"
@@ -166,29 +183,51 @@ export default function AuthButton({ type }: Props) {
             : isMobile ? "flex flex-col gap-2 w-full" : "flex gap-2";
 
         buttonElement = (
-            <div className={layoutClassName}>
-                <button
-                    className="btn btn-primary mt-0 mb-0"
-                    disabled={isBusy}
-                    onClick={() => {
-                        authManager.login();
-                    }}>
-                    Sign In
-                </button>
-                <button
-                    className="btn btn-outline btn-primary mt-0 mb-0"
-                    disabled={isBusy}
-                    onClick={() => {
-                        authManager.login(true);
-                    }}>
-                    {isProtectedRoute ? "New here? Create an account" : "Create Account"}
-                </button>
-                {isProtectedRoute && (
-                    <p className="text-sm text-base-content/70 max-w-xs m-0">
-                        Students: on the next screen choose <strong>Sign up with Google</strong> if you have
-                        a Gmail account.
-                    </p>)}
-            </div>);
+            isHeader
+                ? (
+                    // The header is narrow on a phone, so "Create account" joins "Sign in" only where the Task links fit (76rem).
+                    <div className="flex gap-2">
+                        <button
+                            className="btn btn-sm h-10 m-0 btn-ghost border border-white/40 text-white"
+                            disabled={isBusy}
+                            onClick={() => {
+                                authManager.login();
+                            }}>
+                            Sign in
+                        </button>
+                        <button
+                            className="btn btn-sm h-10 m-0 btn-ghost text-white hidden min-[76rem]:inline-flex"
+                            disabled={isBusy}
+                            onClick={() => {
+                                authManager.login(true);
+                            }}>
+                            Create account
+                        </button>
+                    </div>)
+                : (
+                    <div className={layoutClassName}>
+                        <button
+                            className="btn btn-primary mt-0 mb-0"
+                            disabled={isBusy}
+                            onClick={() => {
+                                authManager.login();
+                            }}>
+                            Sign In
+                        </button>
+                        <button
+                            className="btn btn-outline btn-primary mt-0 mb-0"
+                            disabled={isBusy}
+                            onClick={() => {
+                                authManager.login(true);
+                            }}>
+                            {isProtectedRoute ? "New here? Create an account" : "Create Account"}
+                        </button>
+                        {isProtectedRoute && (
+                            <p className="text-sm text-base-content/70 max-w-xs m-0">
+                                Students: on the next screen choose <strong>Sign up with Google</strong> if you have
+                                a Gmail account.
+                            </p>)}
+                    </div>));
     }
 
     if (isMobile) {

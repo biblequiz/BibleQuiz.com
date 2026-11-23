@@ -15,7 +15,7 @@ interface Props {
   allowTypeFilter?: boolean;
 }
 
-const FILTERS_STORAGE_KEY = "event-list-filters--";
+export const FILTERS_STORAGE_KEY = "event-list-filters--";
 
 const setSharedStateAndPersist = (newFilters: EventFilterConfiguration) => {
   $eventFilters.set(newFilters);

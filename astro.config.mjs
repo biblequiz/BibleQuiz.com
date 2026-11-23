@@ -46,7 +46,7 @@ export default defineConfig({
                 dark: "./src/assets/images/dark-logo.png",
                 replacesTitle: true,
             },
-            customCss: ["./src/styles/custom.css", "./src/styles/global.css"],
+            customCss: ["./src/styles/custom.css", "./src/styles/global.css", "./src/styles/tasks.css"],
             head: [
                 {
                     tag: "script",
@@ -152,6 +152,7 @@ export default defineConfig({
                 SocialIcons: "./src/components/SocialIcons.astro",
                 TwoColumnContent: "./src/components/TwoColumnContent.astro",
             },
+            routeMiddleware: "./src/routeData.ts",
             editLink: {
                 baseUrl: 'https://github.com/biblequiz/BibleQuiz.com/edit/main/'
             },
@@ -171,6 +172,8 @@ export default defineConfig({
                     prefix: "news",
                     postCount: 10,
                     recentPostCount: 10,
+                    // News is a header link and Menu entry of its own (src/utils/Tasks.ts).
+                    navigation: "none",
                 }),
             ],
         }),
