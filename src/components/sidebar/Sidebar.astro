@@ -159,10 +159,8 @@ function sortSeasonsAndIndexSidebar(
 }
 
 // Filter out the Authors entry from the sidebar
-const filteredSidebar = [
-    { type: "authButton", entries: [] },
-    ...filterOutAuthors(Astro.locals.starlightRoute.sidebar),
-];
+// The account menu is in the header on every screen size, so the sidebar no longer adds one.
+const filteredSidebar = filterOutAuthors(Astro.locals.starlightRoute.sidebar);
 
 // Sort the sidebar and build the index.
 const sidebarIndex: SidebarIndex = {

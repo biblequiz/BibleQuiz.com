@@ -1,38 +1,13 @@
 ---
-import type { EventTypeList } from "types/EventTypes";
 import LiveAndUpcomingRoot from "./LiveAndUpcomingRoot";
-import futureEvents from "data/generated/futureEvents.json";
 
 import regions from "data/regions.json";
 import districts from "data/districts.json";
 
-import path from "path";
-import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
-import { getCurrentSeasonResultsUrl, getSeasons } from "utils/Seasons";
+import { getLiveAndUpcomingData } from "utils/LiveEvents";
 
-const metaUrl = import.meta.url;
-const seasons = await getSeasons(metaUrl);
-const rootSourcePath = await getAstroRootSourcePath(metaUrl);
-
-const maxSeasonPath = path.resolve(
-    rootSourcePath,
-    `data/generated/seasons/${seasons[0]}/events.json`,
-);
-const lastSeasonPath = path.resolve(
-    rootSourcePath,
-    `data/generated/seasons/${seasons[1]}/events.json`,
-);
-
-const maxSeasonEvents = await tryReadFileAsJson<EventTypeList>(maxSeasonPath);
-
-const currentSeason = maxSeasonEvents ? seasons[0] : seasons[1];
-const currentSeasonLinks = {
-    jbq: await getCurrentSeasonResultsUrl(metaUrl, "jbq"),
-    tbq: await getCurrentSeasonResultsUrl(metaUrl, "tbq"),
-};
-
-const recentSeasonEvents =
-    maxSeasonEvents ?? (await tryReadFileAsJson<EventTypeList>(lastSeasonPath));
+const { currentSeason, currentSeasonLinks, recentSeasonEvents, futureEvents } =
+    await getLiveAndUpcomingData(import.meta.url);
 ---
 
 <div id="generator-fallback" class="flex justify-center items-center">
@@ -46,6 +21,6 @@ const recentSeasonEvents =
     recentSeasonEvents={recentSeasonEvents}
     currentSeason={currentSeason}
     currentSeasonLinks={currentSeasonLinks}
-    futureEvents={futureEvents as any as EventTypeList}
+    futureEvents={futureEvents}
     loadingElementId="generator-fallback"
 />

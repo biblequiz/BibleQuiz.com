@@ -1,6 +1,8 @@
 ---
 // @ts-nocheck
 import Pagination from "virtual:starlight/components/Pagination";
+import ThemeSelect from "virtual:starlight/components/ThemeSelect";
+import SocialIcons from "./SocialIcons.astro";
 
 const {
     hideFooterOnPrint,
@@ -41,6 +43,14 @@ const {
         </div>
     </div>
 
+    <nav class="bq-footer-links hide-on-print" aria-label="Site">
+        <a href="/">Home</a>
+        <a href="/terms/">Terms &amp; Conditions</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <SocialIcons />
+        <ThemeSelect />
+    </nav>
+
     <div style={{ textAlign: "center" }}>
         <i>
             Junior Bible Quiz graphics, logos, product images, and service names
@@ -74,6 +84,17 @@ const {
         .kudos :global(svg) {
             color: var(--sl-color-orange);
         }
+    }
+
+    .bq-footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem 1.25rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--sl-color-hairline);
+        font-size: var(--sl-text-sm);
     }
 
     img {

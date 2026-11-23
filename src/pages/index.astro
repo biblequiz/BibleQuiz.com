@@ -3,119 +3,72 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 
-import { CardGrid, LinkCard } from "@astrojs/starlight/components";
-import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import HappeningNow from "components/apps/liveAndUpcoming/HappeningNow";
+import { getLiveAndUpcomingData } from "utils/LiveEvents";
+import { TASKS } from "utils/Tasks";
+
+/**
+ * The Task Chooser (D3): asks what the visitor is trying to do. Everything must fit one phone
+ * screen without scrolling (D5).
+ */
 
 const frontmatter: StarlightPageFrontmatter = {
-    title: "Home Page",
+    title: "What are you trying to do?",
+    description: "Home of AG Bible Quiz: live scores, past results, apps, rules, study material and news for Junior Bible Quiz and Teen Bible Quiz.",
     template: "doc",
     hidePageTitle: true,
-    sidebar: {
-        order: 1,
-        attrs: {
-            icon: "fas faBroadcastTower",
-        },
-    },
+    tableOfContents: false,
+    pagefind: false,
 };
+
+const { recentSeasonEvents, futureEvents } = await getLiveAndUpcomingData(import.meta.url);
+
+const publicTasks = TASKS.filter((t) => !t.isAdmin);
+const adminTask = TASKS.find((t) => t.isAdmin)!;
 ---
+
 <StarlightPage frontmatter={frontmatter}>
-    <div
-        style="display: flex; flex-direction: column"
-        class="home-flex-container mb-0"
-    >
-        <h1
-            id="type-label"
-            class="page-title mb-4 flex items-start gap-4"
-            style="display:none"
-        >
-            <div class="shrink-0">
-                <img
-                    src={`/assets/logos/jbq/jbq-logo.png`}
-                    alt="Junior Bible Quiz"
-                    width="72"
-                    height="72"
-                    class="event-icon"
-                    id="jbq-title-icon"
-                    style="display:none; object-fit: contain; object-position: center;"
-                />
-                <img
-                    src={`/assets/logos/tbq/tbq-logo.png`}
-                    alt="Teen Bible Quiz"
-                    width="72"
-                    height="72"
-                    class="event-icon"
-                    id="tbq-title-icon"
-                    style="display:none; object-fit: contain; object-position: top;"
-                />
-            </div>
-            <div class="text-md">LIVE & UPCOMING EVENTS</div>
-        </h1>
-        <div class="m-0" id="type-card-deck">
-            <CardGrid>
-                <LinkCard
-                    title="Junior Bible Quiz (JBQ)"
-                    href="/jbq"
-                    description={`
-                    <div class="flex items-start gap-4 text-sm">
-                            <img src="/assets/logos/jbq/jbq-logo.png" alt="JBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
-                            <div>An exciting program for kids in grades 1-6 that helps them grow in faith by learning the Bible from Genesis to Revelation. Using a 576-question 'Fact-Pak', children memorize key facts about Scripture and put their knowledge to the test through fun, fast-paced competitions.</div>
-                    </div>`}
-                />
-
-                <LinkCard
-                    title="Teen Bible Quiz (TBQ)"
-                    href="/tbq"
-                    description={`
-                    <div class="flex items-start gap-4 text-sm">
-                            <img src="/assets/logos/tbq/tbq-logo.png" alt="TBQ Logo" class="w-20 h-20 flex-shrink-0 mt-6" />
-                            <div>Teen Bible Quiz helps middle and high school students grow in faith by memorizing and mastering New Testament books. Through competition at local, regional, and national tournaments, students develop spiritual maturity, critical thinking skills, and lifelong friendships — along with opportunities to earn scholarships.</div>
-                    </div>`}
-                />
-            </CardGrid><!--
-            <a href="/tbq/seasons/2026/nationals/" class="mt-4 block">
-                <img
-                    src="/assets/2026/nationals/2026-tbq-tucson.jpg"
-                    alt="2026 AG Teen Bible Quiz National Finals in Tucson"
-                    class="max-h-[400px] w-full object-contain"
-                />
-            </a> -->
-        </div>
-        <div class="mt-0" style="flex: 1">
-            <LiveAndUpcomingApp />
-        </div>
-    </div>
-
-    <script>
-        const titleElement = document.getElementById("type-label");
-        const cardDeckElement = document.getElementById("type-card-deck");
-        const jbqIcon = document.getElementById("jbq-title-icon");
-        const tbqIcon = document.getElementById("tbq-title-icon");
-
-        function updateTitleDisplay() {
-            if (titleElement && cardDeckElement && jbqIcon && tbqIcon) {
-                const type = new URLSearchParams(window.location.search).get(
-                    "type",
-                );
-
-                if (type) {
-                    const isTbq = type.toLowerCase() === "tbq";
-                    jbqIcon.style.display = isTbq ? "none" : "";
-                    tbqIcon.style.display = isTbq ? "" : "none";
-                    titleElement.style.display = "";
-                    cardDeckElement.style.display = "none";
-                } else {
-                    titleElement.style.display = "none";
-                    cardDeckElement.style.display = "";
-                }
-            }
+    <script is:inline>
+        // The Event List used to be the home page (/?type=jbq). Send those links to its new page (D3).
+        if (new URLSearchParams(window.location.search).has("type")) {
+            window.location.replace("/events/" + window.location.search + window.location.hash);
         }
-
-        // Initial load
-        updateTitleDisplay();
-
-        // Listen for URL changes from the toggle buttons
-        window.addEventListener("popstate", updateTitleDisplay);
-        // Listen for custom event from React component
-        window.addEventListener("typeChanged", updateTitleDisplay);
     </script>
+
+    <div class="not-content bq-wide bq-home">
+        <div>
+            <h1>What are you trying to do?</h1>
+            <p class="bq-home-sub">Choose one to get started.</p>
+        </div>
+
+        <HappeningNow
+            client:only="react"
+            futureEvents={futureEvents}
+            recentSeasonEvents={recentSeasonEvents}
+        />
+
+        <div class="bq-tiles">
+            {
+                publicTasks.map((task) => (
+                    <a class="bq-tile" href={task.href}>
+                        <span class="bq-chip">
+                            <FontAwesomeIcon icon={task.icon} />
+                        </span>
+                        <span class="bq-tile-label">{task.label}</span>
+                        <span class="bq-tile-desc">{task.description}</span>
+                    </a>
+                ))
+            }
+        </div>
+
+        <a class="bq-admin-row" href={adminTask.href}>
+            <FontAwesomeIcon icon={adminTask.icon} />
+            <span class="bq-card-text" style="flex: 1">
+                <span class="bq-tile-label">{adminTask.label}</span>
+                <span class="bq-tile-desc">{adminTask.description}</span>
+            </span>
+            <FontAwesomeIcon icon="fas faChevronRight" />
+        </a>
+    </div>
 </StarlightPage>
