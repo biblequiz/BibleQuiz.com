@@ -27,6 +27,19 @@
     </div>
 </div>
 
+<noscript>
+    <style>
+        /* Without scripts the switch can't work, so show both Programs' content. */
+        [data-bq-program-content][hidden][hidden] {
+            display: flex !important;
+        }
+
+        .bq-program-switch {
+            display: none;
+        }
+    </style>
+</noscript>
+
 <script>
     const STORAGE_KEY = "bq-program";
 

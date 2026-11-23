@@ -100,6 +100,16 @@ const task = getTaskForPath(Astro.url.pathname);
 	}
 </style>
 
+<style>
+	/* The sidebar itself shows from 64rem (PageFrame), so the bar stops there too. Unlayered so it
+	   beats Starlight's `sl-flex` utility. */
+	@media (min-width: 64rem) {
+		button {
+			display: none;
+		}
+	}
+</style>
+
 <style is:global>
 	@layer starlight.core {
 		:root {

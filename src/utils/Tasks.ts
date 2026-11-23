@@ -119,6 +119,9 @@ const PATH_RULES: readonly [RegExp, TaskId][] = [
     // A season's list of invitational tournaments and training events.
     [/^\/(jbq|tbq)\/seasons\/\d{4}\/events(\/|$)/i, "events"],
 
+    // A season's Nationals pages are the event itself.
+    [/^\/(jbq|tbq)\/seasons\/\d{4}\/nationals(\/|$)/i, "scores"],
+
     // Season results and event scores.
     [/^\/(jbq|tbq)\/seasons\/\d{4}\/results(\/|$)/i, "scores"],
     [/^\/(jbq|tbq)\/seasons\/\d{4}\/[^/]+\/[^/]+(\/|$)/i, "scores"],

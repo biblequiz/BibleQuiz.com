@@ -6,7 +6,8 @@ import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import ProgramSwitch from "components/tasks/ProgramSwitch.astro";
 import { getDocPage, getDocPagesUnder, type DocPageLink } from "utils/DocPages";
-import { getAstroRootSourcePath, fileExists } from "utils/FileSystem";
+import { getAstroRootSourcePath, tryReadFileAsJson } from "utils/FileSystem";
+import type { EventTypeList } from "types/EventTypes";
 import { getSeasons } from "utils/Seasons";
 
 /**
@@ -43,7 +44,8 @@ async function getSeasonLinks(program: Program): Promise<SeasonLink[]> {
         }
 
         const resultsPage = await getDocPage(`${program}/seasons/${season}/results`);
-        const hasOnlineResults = await fileExists(`${rootSourcePath}/data/generated/seasons/${season}/events.json`);
+        const seasonEvents = await tryReadFileAsJson<EventTypeList>(`${rootSourcePath}/data/generated/seasons/${season}/events.json`);
+        const hasOnlineResults = Object.keys(seasonEvents?.[program] ?? {}).length > 0;
         links.push({
             season,
             label: `${season - 1}–${String(season).slice(-2)}`,
@@ -56,8 +58,8 @@ async function getSeasonLinks(program: Program): Promise<SeasonLink[]> {
 }
 
 /**
- * The default season is the Current Season if any of its events have results, otherwise the season
- * before it (D19).
+ * The default season is the Current Season if any of this program's events have results, otherwise
+ * the season before it (D19).
  */
 function getDefaultSeason(links: SeasonLink[]): SeasonLink | undefined {
     return links.find((l) => l.hasOnlineResults) ?? links[0];
