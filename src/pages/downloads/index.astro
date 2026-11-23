@@ -1,0 +1,182 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import { getCollection } from "astro:content";
+
+import AppQuickDownload from "components/AppQuickDownload.astro";
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ProgramSwitch from "components/tasks/ProgramSwitch.astro";
+import { getDocPage, getDocPagesUnder } from "utils/DocPages";
+import { getSeasons } from "utils/Seasons";
+
+/**
+ * Apps, rules & downloads (Task 3, D22). Apps are shared by both Programs, so they come first,
+ * above the JBQ / TBQ switch.
+ */
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Apps, rules & downloads",
+    description: "Bible Quiz apps, rulebooks, scoresheets, forms and graphics for JBQ and TBQ.",
+    template: "doc",
+    tableOfContents: false,
+};
+
+// The Current Season is the one before the Next Season (the highest season folder).
+const [nextSeason, currentSeason] = await getSeasons(import.meta.url);
+
+const tbqRules = await getDocPage(`tbq/seasons/${currentSeason}/rules`);
+const tbqRulePages = (await getDocPagesUnder(`tbq/seasons/${currentSeason}/rules/`))
+    .filter((p) => p.href !== tbqRules?.href);
+const tbqNextRules = await getDocPage(`tbq/seasons/${nextSeason}/rules`);
+
+const pastTbqRules = (
+    await Promise.all(
+        (await getSeasons(import.meta.url))
+            .filter((s) => s < currentSeason)
+            .map(async (s) => ({ season: s, page: await getDocPage(`tbq/seasons/${s}/rules`) })),
+    )
+).filter((r) => r.page);
+
+// The JBQ rules page is a sidebar link straight to the rulebook PDF.
+const jbqRulesEntry = (await getCollection("docs")).find((d) => d.id === "jbq/rules");
+const jbqRulesHref = (jbqRulesEntry?.data.sidebar?.attrs as Record<string, string> | undefined)?.href ?? "/jbq/rules/";
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide bq-hub">
+        <div class="bq-jump">
+            <a href="#apps"><FontAwesomeIcon icon="fas faTabletScreenButton" /> Apps</a>
+            <a href="#rules"><FontAwesomeIcon icon="fas faBook" /> Rules</a>
+            <a href="#downloads"><FontAwesomeIcon icon="fas faFileArrowDown" /> Scoresheets &amp; forms</a>
+        </div>
+
+        <section id="apps">
+            <h2>Apps for JBQ and TBQ</h2>
+            <AppQuickDownload />
+            <div class="bq-cards" style="margin-top: 0.75rem">
+                <a class="bq-card" href="/apps/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faClipboardList" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Coaching App</span>
+                        <span class="bq-card-desc">Keep score, look up answers, see schedules and live scores</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="/apps/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faTabletScreenButton" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">EZScore</span>
+                        <span class="bq-card-desc">The electronic score sheet for each room at a meet</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="/apps/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faDownload" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">All apps &amp; platforms</span>
+                        <span class="bq-card-desc">Every app, for Windows, Mac, Android, iPhone and iPad</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section id="rules" class="bq-hub">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem;">
+                <h2 style="margin: 0">Rules</h2>
+                <ProgramSwitch />
+            </div>
+
+            <div data-bq-program-content="tbq" hidden class="bq-hub">
+                <div class="bq-cards">
+                    {
+                        tbqRules && (
+                            <a class="bq-card" href={tbqRules.href}>
+                                <span class="bq-chip"><FontAwesomeIcon icon="fas faBook" /></span>
+                                <span class="bq-card-text">
+                                    <span class="bq-card-title">{currentSeason - 1}–{String(currentSeason).slice(-2)} TBQ rules</span>
+                                    <span class="bq-card-desc">The official rules for this season</span>
+                                </span>
+                            </a>
+                        )
+                    }
+                    {
+                        tbqRulePages.map((page) => (
+                            <a class="bq-card" href={page.href}>
+                                <span class="bq-card-text"><span class="bq-card-title">{page.title}</span></span>
+                            </a>
+                        ))
+                    }
+                    {
+                        tbqNextRules && (
+                            <a class="bq-card" href={tbqNextRules.href}>
+                                <span class="bq-card-text">
+                                    <span class="bq-card-title">Next season's rules ({nextSeason - 1}–{String(nextSeason).slice(-2)})</span>
+                                </span>
+                            </a>
+                        )
+                    }
+                </div>
+
+                <div id="downloads">
+                    <h3>Scoresheets, forms &amp; graphics</h3>
+                    <div class="bq-cards">
+                        <a class="bq-card" href="/tbq/downloads/#just-the-essentials">
+                            <span class="bq-card-text">
+                                <span class="bq-card-title">Just the Essentials</span>
+                                <span class="bq-card-desc">The quickest way to learn TBQ; a must for a new team's first meet</span>
+                            </span>
+                        </a>
+                        <a class="bq-card" href="/tbq/downloads/#scoresheets">
+                            <span class="bq-card-text">
+                                <span class="bq-card-title">Scoresheets</span>
+                                <span class="bq-card-desc">Paper and Excel scoresheets</span>
+                            </span>
+                        </a>
+                        <a class="bq-card" href="/tbq/downloads/#graphics">
+                            <span class="bq-card-text">
+                                <span class="bq-card-title">Graphics &amp; videos</span>
+                                <span class="bq-card-desc">Logos and promo videos</span>
+                            </span>
+                        </a>
+                        <a class="bq-card" href="/tbq/downloads/">
+                            <span class="bq-card-text">
+                                <span class="bq-card-title">All TBQ downloads &amp; forms</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                {
+                    pastTbqRules.length > 0 && (
+                        <div>
+                            <h3>Past rules ({pastTbqRules.length})</h3>
+                            <div class="bq-jump">
+                                {pastTbqRules.map((r) => (
+                                    <a href={r.page!.href}>{r.season - 1}–{String(r.season).slice(-2)}</a>
+                                ))}
+                            </div>
+                        </div>
+                    )
+                }
+            </div>
+
+            <div data-bq-program-content="jbq" hidden class="bq-hub">
+                <div class="bq-cards">
+                    <a class="bq-card" href={jbqRulesHref} target={jbqRulesHref.endsWith(".pdf") ? "_blank" : undefined}>
+                        <span class="bq-chip"><FontAwesomeIcon icon="fas faBook" /></span>
+                        <span class="bq-card-text">
+                            <span class="bq-card-title">JBQ rules</span>
+                            <span class="bq-card-desc">The official rulebook (PDF)</span>
+                        </span>
+                    </a>
+                    <a class="bq-card" href="https://myhealthychurch.com/store/startcat.cfm?cat=iBFACTPAK">
+                        <span class="bq-chip"><FontAwesomeIcon icon="fas faCartShopping" /></span>
+                        <span class="bq-card-text">
+                            <span class="bq-card-title">Bible Fact-Pak</span>
+                            <span class="bq-card-desc">The 576 questions JBQ is based on</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</StarlightPage>

@@ -353,6 +353,27 @@ div.main-frame {
     padding-top: 56px;
 }
 
+/* On phones, pages with Section Navigation also have the "In this section" bar under the header. */
+@media (max-width: 63.99rem) {
+    :root[data-has-sidebar] div.main-frame {
+        padding-top: calc(56px + var(--bq-section-bar-height));
+    }
+}
+
+/* Below 72rem the page outline is a fixed "On this page" bar, which would otherwise cover the
+   breadcrumb and title. */
+@media (max-width: 71.99rem) {
+    :root[data-has-toc] div.main-frame {
+        padding-top: calc(56px + var(--sl-mobile-toc-height));
+    }
+}
+
+@media (max-width: 63.99rem) {
+    :root[data-has-sidebar][data-has-toc] div.main-frame {
+        padding-top: calc(56px + var(--bq-section-bar-height) + var(--sl-mobile-toc-height));
+    }
+}
+
 /* Bracket Visualization Styles */
 .bracket-visualization {
     position: relative;

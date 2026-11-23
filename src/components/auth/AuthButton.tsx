@@ -7,7 +7,10 @@ import { sharedGlobalStatusToast } from "utils/SharedState";
 export enum AuthButtonType {
     Desktop,
     Mobile,
-    ProtectedRoute
+    ProtectedRoute,
+
+    /** The site header's account menu, shown at every screen size (D29). */
+    Header
 }
 
 interface Props {
@@ -18,9 +21,11 @@ export default function AuthButton({ type }: Props) {
 
     const authManager = AuthManager.useNanoStore();
 
-    const isMobile = type !== AuthButtonType.Desktop;
+    const isHeader = type === AuthButtonType.Header;
+    const isMobile = type !== AuthButtonType.Desktop && !isHeader;
     const isActiveViewportForType =
         type === AuthButtonType.ProtectedRoute ||
+        isHeader ||
         (typeof window !== "undefined" &&
             window.matchMedia(type === AuthButtonType.Desktop ? "(min-width: 1024px)" : "(max-width: 1023px)").matches);
 
@@ -80,13 +85,15 @@ export default function AuthButton({ type }: Props) {
             (userProfile.districtPermissions && Object.keys(userProfile.districtPermissions).length > 0) ||
             (userProfile.churchPermissions && userProfile.churchPermissions.size > 0));
         const canManagePayouts = !authManager.isImpersonating && userProfile.isPayoutManager;
-        const buttonClassName = authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
+        const buttonClassName = isHeader
+            ? `btn btn-sm h-10 m-0 max-w-40 md:max-w-60 ${authManager.isImpersonating ? "btn-error text-white" : "btn-ghost border border-white/40 text-white"}`
+            : authManager.isImpersonating ? "btn btn-error text-white m-1" : "btn btn-primary m-1";
         const buttonLabel = authManager.isImpersonating ? `Impersonating: ${displayName}` : displayName;
 
         buttonElement = (
             <div className={`dropdown dropdown-${isMobile ? "start" : "end"}`}>
                 <div tabIndex={0} role="button" className={buttonClassName}>
-                    <FontAwesomeIcon icon={authManager.isImpersonating ? "fas faUserSecret" : "fas faUser"} />&nbsp;{buttonLabel}
+                    <FontAwesomeIcon icon={authManager.isImpersonating ? "fas faUserSecret" : "fas faUser"} />&nbsp;<span className="truncate">{buttonLabel}</span>
                 </div>
                 <ul
                     tabIndex={0}
@@ -121,7 +128,17 @@ export default function AuthButton({ type }: Props) {
                             </a>
                         </li>
                     )}
-                    {hasPermissions && (
+                    {isHeader && (hasPermissions || canManagePayouts) && (
+                        <li>
+                            <a
+                                href="/manage/"
+                                className="text-base-content">
+                                <FontAwesomeIcon icon="fas faLock" />
+                                Manage events, people &amp; more
+                            </a>
+                        </li>
+                    )}
+                    {!isHeader && hasPermissions && (
                         <li>
                             <a
                                 href="/admin/permissions"
@@ -131,7 +148,7 @@ export default function AuthButton({ type }: Props) {
                             </a>
                         </li>
                     )}
-                    {canManagePayouts && (
+                    {!isHeader && canManagePayouts && (
                         <li>
                             <a
                                 href="/admin/payouts"
@@ -159,12 +176,12 @@ export default function AuthButton({ type }: Props) {
     else {
         buttonElement = (
             <button
-                className="btn btn-primary mt-0 mb-0"
+                className={isHeader ? "btn btn-sm h-10 m-0 btn-ghost border border-white/40 text-white" : "btn btn-primary mt-0 mb-0"}
                 disabled={authManager.popupType != PopupType.None}
                 onClick={() => {
                     authManager.login();
                 }}>
-                Sign In or Sign-Up
+                {isHeader ? "Sign in" : "Sign In or Sign-Up"}
             </button>);
     }
 

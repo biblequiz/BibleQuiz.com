@@ -1,0 +1,33 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import LiveAndUpcomingApp from "components/apps/liveAndUpcoming/LiveAndUpcomingApp.astro";
+
+/**
+ * Live & upcoming events (Task 1): today's scores, schedules and registration. The Event List
+ * itself is unchanged in Phase 1; it moved here from the home page (D3).
+ */
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Live & upcoming events",
+    description: "Scores for events happening today, schedules, and registration for upcoming JBQ and TBQ events.",
+    template: "doc",
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide bq-hub">
+        <div class="bq-jump">
+            <a href="/quizzer-search/"><FontAwesomeIcon icon="fas faMagnifyingGlass" /> Find a quizzer</a>
+            <a href="/scores/"><FontAwesomeIcon icon="fas faTrophy" /> Past scores</a>
+        </div>
+
+        <div id="live">
+            <LiveAndUpcomingApp />
+        </div>
+    </div>
+</StarlightPage>

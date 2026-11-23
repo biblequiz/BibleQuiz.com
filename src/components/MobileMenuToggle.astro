@@ -1,16 +1,25 @@
 ---
 import { Icon } from '@astrojs/starlight/components';
+import { getTaskForPath } from 'utils/Tasks';
+
+/**
+ * On phones, the Section Navigation (D12) opens from a labeled bar directly under the header
+ * instead of Starlight's round floating button. It is only rendered on pages that have Section
+ * Navigation; the site-wide Tasks are in the header's Menu.
+ */
+const task = getTaskForPath(Astro.url.pathname);
 ---
 
 <starlight-menu-button class="print:hidden">
 	<button
 		aria-expanded="false"
-		aria-label={Astro.locals.t('menuButton.accessibleLabel')}
 		aria-controls="starlight__sidebar"
 		class="sl-flex lg:sl-hidden"
 	>
-		<Icon name="bars" class="open-menu" />
+		<Icon name="list-format" class="open-menu" />
 		<Icon name="close" class="close-menu" />
+		<span class="label">In this section{task ? `: ${task.label}` : ''}</span>
+		<Icon name="down-caret" class="caret" />
 	</button>
 </starlight-menu-button>
 
@@ -54,53 +63,63 @@ import { Icon } from '@astrojs/starlight/components';
 	@layer starlight.core {
 		button {
 			position: fixed;
-			top: calc((var(--sl-nav-height) - var(--sl-menu-button-size)) / 2);
-			inset-inline-end: var(--sl-nav-pad-x);
+			top: var(--sl-nav-height);
+			inset-inline: 0;
 			z-index: var(--sl-z-index-navbar);
+			height: var(--bq-section-bar-height);
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0 var(--sl-nav-pad-x);
 			border: 0;
-			border-radius: 50%;
-			width: var(--sl-menu-button-size);
-			height: var(--sl-menu-button-size);
-			padding: 0.5rem;
-			background-color: var(--sl-color-white);
-			color: var(--sl-color-black);
-			box-shadow: var(--sl-shadow-md);
+			border-bottom: 1px solid var(--sl-color-hairline-shade);
+			background-color: var(--sl-color-bg-nav);
+			color: var(--sl-color-white);
+			font: inherit;
+			font-size: var(--sl-text-sm);
+			font-weight: 600;
+			text-align: start;
 			cursor: pointer;
 		}
 
-		[aria-expanded='true'] button {
-			background-color: var(--sl-color-gray-2);
-			box-shadow: none;
+		.label {
+			flex: 1;
+			min-width: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
 		}
 
-		[aria-expanded='true'] button .open-menu {
+		[aria-expanded='true'] button .open-menu,
+		[aria-expanded='true'] button .caret {
 			display: none;
 		}
 
 		:not([aria-expanded='true']) button .close-menu {
 			display: none;
 		}
-
-		:global([data-theme='light']) button {
-			background-color: var(--sl-color-black);
-			color: var(--sl-color-white);
-		}
-
-		:global([data-theme='light']) [aria-expanded='true'] button {
-			background-color: var(--sl-color-gray-5);
-		}
 	}
 </style>
 
 <style is:global>
 	@layer starlight.core {
+		:root {
+			--bq-section-bar-height: 2.75rem;
+		}
+
 		[data-mobile-menu-expanded] {
 			overflow: hidden;
 		}
 
-		@media (min-width: 50rem) {
+		@media (min-width: 64rem) {
 			[data-mobile-menu-expanded] {
 				overflow: auto;
+			}
+		}
+
+		/* Starlight's "On this page" bar sits below the section bar on phones. */
+		@media (max-width: 63.99rem) {
+			:root[data-has-sidebar] mobile-starlight-toc nav {
+				top: calc(var(--sl-nav-height) + var(--bq-section-bar-height) - 1px) !important;
 			}
 		}
 	}

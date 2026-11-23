@@ -1,0 +1,152 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+import ProgramSwitch from "components/tasks/ProgramSwitch.astro";
+import { getDocPage, getDocPagesUnder, type DocPageLink } from "utils/DocPages";
+import { getAstroRootSourcePath, fileExists } from "utils/FileSystem";
+import { getSeasons } from "utils/Seasons";
+
+/**
+ * Past scores & history (Task 2, D19, D20): results by season, then Nationals records and history.
+ */
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Past scores & history",
+    description: "Results for every JBQ and TBQ season, Nationals records, and Bible Quiz history.",
+    template: "doc",
+    tableOfContents: false,
+};
+
+type Program = "jbq" | "tbq";
+
+interface SeasonLink {
+    season: number;
+    label: string;
+    href: string;
+    hasOnlineResults: boolean;
+}
+
+const rootSourcePath = await getAstroRootSourcePath(import.meta.url);
+
+// The highest season is the Next Season, which has no results yet, so it is never listed (D19).
+const [, ...pastAndCurrentSeasons] = await getSeasons(import.meta.url);
+
+async function getSeasonLinks(program: Program): Promise<SeasonLink[]> {
+    const links: SeasonLink[] = [];
+    for (const season of pastAndCurrentSeasons) {
+        const seasonPage = await getDocPage(`${program}/seasons/${season}`);
+        if (!seasonPage) {
+            continue;
+        }
+
+        const resultsPage = await getDocPage(`${program}/seasons/${season}/results`);
+        const hasOnlineResults = await fileExists(`${rootSourcePath}/data/generated/seasons/${season}/events.json`);
+        links.push({
+            season,
+            label: `${season - 1}–${String(season).slice(-2)}`,
+            href: (resultsPage ?? seasonPage).href,
+            hasOnlineResults,
+        });
+    }
+
+    return links;
+}
+
+/**
+ * The default season is the Current Season if any of its events have results, otherwise the season
+ * before it (D19).
+ */
+function getDefaultSeason(links: SeasonLink[]): SeasonLink | undefined {
+    return links.find((l) => l.hasOnlineResults) ?? links[0];
+}
+
+const programs: { id: Program; name: string; seasons: SeasonLink[] }[] = [
+    { id: "jbq", name: "Junior Bible Quiz", seasons: await getSeasonLinks("jbq") },
+    { id: "tbq", name: "Teen Bible Quiz", seasons: await getSeasonLinks("tbq") },
+];
+
+const nationalsHistory: DocPageLink[] = await getDocPagesUnder("tbq/history/nationals/");
+const generalHistory: DocPageLink[] = await getDocPagesUnder("tbq/history/general/");
+const seasonAwards = await getDocPage("tbq/season-awards");
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide bq-hub">
+        <div class="bq-jump">
+            <a href="/quizzer-search/"><FontAwesomeIcon icon="fas faMagnifyingGlass" /> Find a quizzer</a>
+            <a href="#seasons"><FontAwesomeIcon icon="fas faCalendarDays" /> Results by season</a>
+            <a href="#history"><FontAwesomeIcon icon="fas faLandmark" /> Nationals records &amp; history</a>
+        </div>
+
+        <section id="seasons" class="bq-hub">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem;">
+                <h2 style="margin: 0">Results by season</h2>
+                <ProgramSwitch />
+            </div>
+
+            {
+                programs.map((program) => {
+                    const defaultSeason = getDefaultSeason(program.seasons);
+                    const otherSeasons = program.seasons.filter((s) => s !== defaultSeason);
+                    return (
+                        <div data-bq-program-content={program.id} hidden class="bq-hub">
+                            {defaultSeason && (
+                                <a class="bq-card" href={defaultSeason.href}>
+                                    <span class="bq-chip"><FontAwesomeIcon icon="fas faTrophy" /></span>
+                                    <span class="bq-card-text">
+                                        <span class="bq-card-title">{defaultSeason.label} season results</span>
+                                        <span class="bq-card-desc">Every {program.id.toUpperCase()} event's scores and standings from the most recent season with results</span>
+                                    </span>
+                                </a>
+                            )}
+                            {otherSeasons.length > 0 && (
+                                <div>
+                                    <h3>Earlier seasons ({otherSeasons.length})</h3>
+                                    <div class="bq-jump">
+                                        {otherSeasons.map((s) => (
+                                            <a href={s.href}>{s.label}</a>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    );
+                })
+            }
+        </section>
+
+        <section id="history">
+            <h2>Nationals records &amp; history</h2>
+            <p class="bq-hub-intro" style="margin-bottom: 0.75rem">Teen Bible Quiz history going back to 1963.</p>
+            <div class="bq-cards">
+                {
+                    nationalsHistory.map((page) => (
+                        <a class="bq-card" href={page.href}>
+                            <span class="bq-card-text"><span class="bq-card-title">{page.title}</span></span>
+                        </a>
+                    ))
+                }
+                {
+                    seasonAwards && (
+                        <a class="bq-card" href={seasonAwards.href}>
+                            <span class="bq-card-text"><span class="bq-card-title">{seasonAwards.title}</span></span>
+                        </a>
+                    )
+                }
+            </div>
+            <h3 style="margin-top: 1.25rem">More history</h3>
+            <div class="bq-cards">
+                {
+                    generalHistory.map((page) => (
+                        <a class="bq-card" href={page.href}>
+                            <span class="bq-card-text"><span class="bq-card-title">{page.title}</span></span>
+                        </a>
+                    ))
+                }
+            </div>
+        </section>
+    </div>
+</StarlightPage>

@@ -1,0 +1,115 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+
+import FontAwesomeIcon from "components/FontAwesomeIcon";
+
+/**
+ * Learn about Bible Quiz (Task 5, D23): what JBQ and TBQ are, how to get started, and how to stay
+ * connected.
+ */
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "Learn about Bible Quiz",
+    description: "What Junior Bible Quiz and Teen Bible Quiz are, how to start a team, and how to stay connected.",
+    template: "doc",
+    tableOfContents: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide bq-hub">
+        <section>
+            <h2>What is Bible Quiz?</h2>
+            <div class="bq-cards">
+                <a class="bq-card" href="/jbq/">
+                    <img src="/assets/logos/jbq/jbq-logo.png" alt="" width="64" height="64" style="flex: none" />
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Junior Bible Quiz (JBQ)</span>
+                        <span class="bq-card-desc">For kids in grades 1–6. Children learn the Bible from Genesis to Revelation with a 576-question Fact-Pak, then put it to the test in fun, fast-paced competitions.</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="/tbq/">
+                    <img src="/assets/logos/tbq/tbq-logo.png" alt="" width="64" height="64" style="flex: none" />
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Teen Bible Quiz (TBQ)</span>
+                        <span class="bq-card-desc">For middle and high school students. Teens memorize New Testament books and compete at local, regional and national tournaments, with scholarships available.</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Get started</h2>
+            <div class="bq-cards">
+                <a class="bq-card" href="/tbq/training/coaches/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faFlag" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Start a team</span>
+                        <span class="bq-card-desc">How to start a Bible Quiz team and order materials</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="/events/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faLocationDot" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Find events near you</span>
+                        <span class="bq-card-desc">Upcoming meets and tournaments, with registration</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="mailto:pastorbernie@biblequiz.com">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faEnvelope" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Talk to the national coordinator</span>
+                        <span class="bq-card-desc">Pastor Bernie Elliot can help you get started</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Stay connected</h2>
+            <div class="bq-cards">
+                <a class="bq-card" href="/news/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faNewspaper" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">News</span>
+                        <span class="bq-card-desc">Newsletters and announcements</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="/subscribe/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fas faBell" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Subscribe</span>
+                        <span class="bq-card-desc">Get news and updates by email</span>
+                    </span>
+                </a>
+                <a class="bq-card" href="/discord/">
+                    <span class="bq-chip"><FontAwesomeIcon icon="fab faDiscord" /></span>
+                    <span class="bq-card-text">
+                        <span class="bq-card-title">Discord</span>
+                        <span class="bq-card-desc">Chat with the Bible Quiz community</span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>More about TBQ</h2>
+            <div class="bq-cards">
+                <a class="bq-card" href="/tbq/scholarships/">
+                    <span class="bq-card-text"><span class="bq-card-title">Scholarships</span></span>
+                </a>
+                <a class="bq-card" href="/tbq/products/">
+                    <span class="bq-card-text"><span class="bq-card-title">Products</span></span>
+                </a>
+                <a class="bq-card" href="/tbq/links/">
+                    <span class="bq-card-text"><span class="bq-card-title">Links</span></span>
+                </a>
+                <a class="bq-card" href="/scores/#history">
+                    <span class="bq-card-text"><span class="bq-card-title">Bible Quiz history</span></span>
+                </a>
+            </div>
+        </section>
+    </div>
+</StarlightPage>

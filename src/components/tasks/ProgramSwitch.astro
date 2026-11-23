@@ -1,0 +1,126 @@
+---
+/**
+ * The inline JBQ / TBQ switch for Task Hubs whose content differs by Program (D14). Content for
+ * each Program is marked with `data-bq-program-content="jbq|tbq"`. The browser remembers the
+ * choice; on a first visit the page asks with two large buttons instead of showing either.
+ */
+---
+
+<bq-program-switch class="bq-program-switch">
+    <div class="bq-switch" role="group" aria-label="Program">
+        <button type="button" data-program="jbq" aria-pressed="false">JBQ</button>
+        <button type="button" data-program="tbq" aria-pressed="false">TBQ</button>
+    </div>
+</bq-program-switch>
+
+<div class="bq-program-ask" data-bq-program-ask hidden>
+    <p class="bq-program-ask-title">Which program are you here for?</p>
+    <div class="bq-program-ask-buttons">
+        <button type="button" data-program="jbq">
+            <img src="/assets/logos/jbq/jbq-logo.png" alt="" width="48" height="48" />
+            <span><strong>Junior Bible Quiz</strong><br />Grades 1–6</span>
+        </button>
+        <button type="button" data-program="tbq">
+            <img src="/assets/logos/tbq/tbq-logo.png" alt="" width="48" height="48" />
+            <span><strong>Teen Bible Quiz</strong><br />Middle & high school</span>
+        </button>
+    </div>
+</div>
+
+<script>
+    const STORAGE_KEY = "bq-program";
+
+    function readProgram(): string | null {
+        const fromUrl = new URLSearchParams(window.location.search).get("program")?.toLowerCase();
+        if (fromUrl === "jbq" || fromUrl === "tbq") {
+            return fromUrl;
+        }
+
+        try {
+            const stored = localStorage.getItem(STORAGE_KEY);
+            return stored === "jbq" || stored === "tbq" ? stored : null;
+        }
+        catch {
+            return null;
+        }
+    }
+
+    function applyProgram(program: string | null) {
+        document.querySelectorAll<HTMLElement>("[data-bq-program-content]").forEach((element) => {
+            element.hidden = program === null || element.dataset.bqProgramContent !== program;
+        });
+
+        document.querySelectorAll<HTMLElement>("[data-bq-program-ask]").forEach((element) => {
+            element.hidden = program !== null;
+        });
+
+        document.querySelectorAll<HTMLButtonElement>(".bq-switch button[data-program]").forEach((button) => {
+            button.setAttribute("aria-pressed", String(button.dataset.program === program));
+        });
+    }
+
+    class BqProgramSwitch extends HTMLElement {
+        connectedCallback() {
+            applyProgram(readProgram());
+
+            document.querySelectorAll<HTMLButtonElement>(".bq-switch button[data-program], [data-bq-program-ask] button[data-program]")
+                .forEach((button) => button.addEventListener("click", () => {
+                    const program = button.dataset.program!;
+                    try {
+                        localStorage.setItem(STORAGE_KEY, program);
+                    }
+                    catch {
+                        // Private browsing can block storage; the choice still applies to this page.
+                    }
+
+                    applyProgram(program);
+                }));
+        }
+    }
+
+    customElements.define("bq-program-switch", BqProgramSwitch);
+</script>
+
+<style>
+    .bq-program-ask {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .bq-program-ask[hidden] {
+        display: none;
+    }
+
+    .bq-program-ask-title {
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: var(--sl-color-white);
+    }
+
+    .bq-program-ask-buttons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+        gap: 0.75rem;
+    }
+
+    .bq-program-ask-buttons button {
+        display: flex;
+        align-items: center;
+        gap: 0.875rem;
+        min-height: 5rem;
+        padding: 0.875rem 1rem;
+        border: 2px solid var(--sl-color-gray-5);
+        border-radius: 1rem;
+        background: var(--bq-surface);
+        color: var(--sl-color-white);
+        font: inherit;
+        text-align: start;
+        cursor: pointer;
+    }
+
+    .bq-program-ask-buttons button:hover {
+        border-color: var(--sl-color-accent);
+    }
+</style>
