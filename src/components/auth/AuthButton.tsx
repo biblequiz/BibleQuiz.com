@@ -107,6 +107,16 @@ export default function AuthButton({ type }: Props) {
                             My Profile
                         </a>
                     </li>
+                    {isHeader && (
+                        <li>
+                            <a
+                                href="/my-registrations/"
+                                className="text-base-content">
+                                <FontAwesomeIcon icon="fas faClipboardList" />
+                                My registrations
+                            </a>
+                        </li>
+                    )}
                     {authManager.isImpersonating && (
                         <li className="text-base-content">
                             <a
