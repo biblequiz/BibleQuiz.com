@@ -7,8 +7,8 @@ import type { EventTypeList } from "types/EventTypes";
 import { getLiveAndUpcomingData } from "utils/LiveEvents";
 
 /**
- * My registrations (D29), opened from the account menu. Upcoming vs past is decided in the browser from each
- * event's end date, so it stays right between builds.
+ * My registrations (D29), opened from the account menu. Which events haven't ended yet is decided in the browser
+ * from each event's end date, so it stays right between builds.
  */
 const { recentSeasonEvents, futureEvents } = await getLiveAndUpcomingData(import.meta.url);
 
@@ -25,7 +25,7 @@ for (const list of [recentSeasonEvents, futureEvents] as (EventTypeList | null)[
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "My registrations",
-    description: "Your church's event registrations: open one to add teams, people and forms, or to pay.",
+    description: "Your church's registrations for upcoming events: open one to add teams, people and forms, or to pay.",
     template: "doc",
     tableOfContents: false,
     pagefind: false,

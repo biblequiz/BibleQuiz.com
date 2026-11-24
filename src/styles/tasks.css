@@ -650,3 +650,9 @@ a.bq-card:hover {
 .bq-empty p {
     margin: 0;
 }
+
+.bq-my-registrations-note {
+    margin: 1rem 0 0;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+}
