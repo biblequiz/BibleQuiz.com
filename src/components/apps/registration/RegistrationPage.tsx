@@ -17,6 +17,7 @@ import { EmailRecipientType } from "types/services/EmailService";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
 import ChurchSettingsDialog, { type AddingChurchState } from "components/ChurchSettingsDialog";
 import EventPaymentsEntryDialog from "components/apps/event/EventPaymentsEntryDialog";
+import ConfirmationDialog from "components/ConfirmationDialog";
 import { getRegistrationSteps, getStepPath, type RegistrationStep } from "./RegistrationSteps";
 
 export default function RegistrationPage() {
@@ -52,6 +53,8 @@ export default function RegistrationPage() {
     const [registeredChurchIds, setRegisteredChurchIds] = useState<Set<string>>(new Set());
     const [editingTeam, setEditingTeam] = useState<RegistrationTeam | null>(null);
     const [isAddingTeam, setIsAddingTeam] = useState(false);
+    const [removingTeam, setRemovingTeam] = useState<RegistrationTeam | null>(null);
+    const [teamError, setTeamError] = useState<string | null>(null);
     const [editingPerson, setEditingPerson] = useState<{ person: RegistrationPerson | null; role: PersonRole } | null>(null);
     const [descriptionExpanded, setDescriptionExpanded] = useState(false);
     const [showEmailDialog, setShowEmailDialog] = useState(false);
@@ -311,69 +314,97 @@ export default function RegistrationPage() {
         )}
         </>);
 
+    // Teams follow the people pattern (R3): "+ Add team" at the top, then a card per team with Edit and Remove.
+    // A team is named first in its dialog, then quizzers and coaches are added inside it the same way as people.
+    const canChangeTeams = isEditable && sectionEditability.teams;
+
+    const removeTeam = async (team: RegistrationTeam) => {
+        setRemovingTeam(null);
+        setTeamError(null);
+        try {
+            const result = await RegistrationService.deleteTeam(auth, eventId, church!.Id!, team.Version ?? 0, team.Id!);
+            setRegistrationVersion(result.NewVersion ?? registrationVersion);
+            await reloadRegistration();
+        }
+        catch (error) {
+            setTeamError((error as Error)?.message || `${team.Name} couldn't be removed.`);
+        }
+    };
+
     const renderTeams = () => (
         <>
-        {/* Team Cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
-            {registration?.Teams?.map(team => (
-                <div
-                    key={`team-${team.Id}`}
-                    className="card card-compact bg-base-200 border border-base-300 cursor-pointer hover:border-primary transition-colors mt-0"
-                    onClick={() => setEditingTeam(team)}
-                >
-                    <div className="card-body p-3">
-                        <h3 className="card-title text-sm m-0">{team.Name}</h3>
-                        {event.Divisions?.length > 0 && (() => {
-                            const divisionLabel = team.DivisionId
-                                ? event.Divisions.find(d => d.Id === team.DivisionId)?.Label
-                                : undefined;
-                            return divisionLabel
-                                ? <p className="text-xs m-0 opacity-70">{divisionLabel}</p>
-                                : (
-                                    <p className="text-xs m-0 text-warning font-semibold">
-                                        <FontAwesomeIcon icon="fas faTriangleExclamation" classNames={["mr-1"]} />
-                                        Select a division
-                                    </p>
-                                );
-                        })()}
-                        {(() => {
-                            const coachCount = team.People?.filter(p => p.Role === PersonRole.Coach).length ?? 0;
-                            const quizzerCount = (team.People?.length ?? 0) - coachCount;
-                            return (
-                                <p className="text-xs m-0">
-                                    <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
-                                    {quizzerCount} quizzer{quizzerCount !== 1 ? "s" : ""}
-                                    {coachCount > 0 && (
-                                        <>
-                                            <FontAwesomeIcon icon="fas faChalkboardUser" classNames={["ml-2", "mr-1"]} />
-                                            {coachCount} coach{coachCount !== 1 ? "es" : ""}
-                                        </>
-                                    )}
-                                </p>
-                            );
-                        })()}
-                        {event.CalculatePayment && (
-                            <p className="text-xs m-0 font-semibold">
-                                ${team.CalculatedPayment?.toFixed(2) ?? "0.00"}
-                            </p>
-                        )}
-                    </div>
-                </div>
-            ))}
-
-            {isEditable && sectionEditability.teams && (
+            {canChangeTeams && (
                 <button
                     type="button"
-                    className="card card-compact bg-base-200 border border-dashed border-base-300 hover:border-primary transition-colors cursor-pointer mt-0"
-                    onClick={() => setIsAddingTeam(true)}
-                >
-                    <div className="card-body p-3 items-center justify-center">
-                        <FontAwesomeIcon icon="fas faPlus" />
-                        <span className="text-xs">Add Team</span>
-                    </div>
-                </button>
-            )}
-        </div>
+                    className="btn btn-primary bq-people-add"
+                    onClick={() => setIsAddingTeam(true)}>
+                    <FontAwesomeIcon icon="fas faPlus" />
+                    Add Team
+                </button>)}
+            {teamError && (
+                <div role="alert" className="alert alert-error">
+                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    {/* The server HTML-encodes the values in its messages. */}
+                    <span dangerouslySetInnerHTML={{ __html: teamError }} />
+                </div>)}
+            <div className="bq-people">
+                {registration?.Teams?.map(team => {
+                    const divisionLabel = team.DivisionId
+                        ? event.Divisions?.find(d => d.Id === team.DivisionId)?.Label
+                        : undefined;
+                    const coachCount = team.People?.filter(p => p.Role === PersonRole.Coach).length ?? 0;
+                    const quizzerCount = (team.People?.length ?? 0) - coachCount;
+
+                    return (
+                        <article key={`team-${team.Id}`} className="bq-person">
+                            <h4 className="bq-person-name">
+                                <FontAwesomeIcon icon="fas faPeopleGroup" />
+                                {team.Name}
+                            </h4>
+                            <ul className="m-0 p-0 list-none text-sm">
+                                {(event.Divisions?.length ?? 0) > 0 && (
+                                    divisionLabel
+                                        ? <li className="text-base-content/70">{divisionLabel}</li>
+                                        : (
+                                            <li className="text-warning font-semibold">
+                                                <FontAwesomeIcon icon="fas faTriangleExclamation" classNames={["mr-1"]} />
+                                                Select a division
+                                            </li>))}
+                                <li className="text-base-content/70">
+                                    {quizzerCount} quizzer{quizzerCount !== 1 ? "s" : ""}
+                                    {coachCount > 0 && ` · ${coachCount} coach${coachCount !== 1 ? "es" : ""}`}
+                                </li>
+                                {event.CalculatePayment && (
+                                    <li className="font-semibold">${team.CalculatedPayment?.toFixed(2) ?? "0.00"}</li>)}
+                            </ul>
+                            <div className="bq-person-actions">
+                                <button type="button" className="btn btn-sm btn-outline m-0" onClick={() => setEditingTeam(team)}>
+                                    <FontAwesomeIcon icon={canChangeTeams ? "fas faPenToSquare" : "fas faEye"} />
+                                    {canChangeTeams ? "Edit" : "View"}
+                                </button>
+                                {canChangeTeams && (
+                                    <button
+                                        type="button"
+                                        className="btn btn-sm btn-ghost text-error m-0"
+                                        onClick={() => setRemovingTeam(team)}>
+                                        <FontAwesomeIcon icon="fas faTrash" />
+                                        Remove
+                                    </button>)}
+                            </div>
+                        </article>);
+                })}
+            </div>
+            {(registration?.Teams?.length ?? 0) === 0 && (
+                <p className="bq-people-empty">No teams yet.</p>)}
+            {removingTeam && (
+                <ConfirmationDialog
+                    title={`Remove ${removingTeam.Name}?`}
+                    yesLabel="Remove team"
+                    noLabel="Keep"
+                    onYes={() => void removeTeam(removingTeam)}
+                    onNo={() => setRemovingTeam(null)}>
+                    {removingTeam.Name} and everyone on it will be taken off this registration.
+                </ConfirmationDialog>)}
         </>);
 
     const renderPeople = (role: PersonRole) => {
@@ -389,6 +420,7 @@ export default function RegistrationPage() {
                         isEditable={isEditable && sectionEditability.teams}
                         onEdit={person => setEditingPerson({ person, role: PersonRole.QuizzerWithoutTeam })}
                         onAdd={() => setEditingPerson({ person: null, role: PersonRole.QuizzerWithoutTeam })}
+                        onRemove={person => handleRemovePerson(person, PersonRole.QuizzerWithoutTeam)}
                     />);
             case PersonRole.Attendee:
                 return (
@@ -401,6 +433,7 @@ export default function RegistrationPage() {
                         isEditable={isEditable && sectionEditability.attendees}
                         onEdit={person => setEditingPerson({ person, role: PersonRole.Attendee })}
                         onAdd={() => setEditingPerson({ person: null, role: PersonRole.Attendee })}
+                        onRemove={person => handleRemovePerson(person, PersonRole.Attendee)}
                     />);
             default:
                 return (
@@ -413,6 +446,7 @@ export default function RegistrationPage() {
                         isEditable={isEditable && sectionEditability.officials}
                         onEdit={person => setEditingPerson({ person, role: PersonRole.Official })}
                         onAdd={() => setEditingPerson({ person: null, role: PersonRole.Official })}
+                        onRemove={person => handleRemovePerson(person, PersonRole.Official)}
                     />);
         }
     };

@@ -173,7 +173,7 @@ export default function RegistrationTeamDialog({
             className="modal"
             onClose={() => onClose(null)}
         >
-            <div className="modal-box max-w-5xl w-11/12 max-h-[90vh] flex flex-col">
+            <div className="modal-box bq-sheet max-w-5xl w-11/12 max-h-[90vh] flex flex-col">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-4">
                     <h3 className="font-bold text-lg m-0">
@@ -259,6 +259,8 @@ export default function RegistrationTeamDialog({
                             isEditable={!isSaving && !isDeleting}
                             onEdit={person => setEditingPerson({ person, role: PersonRole.Quizzer })}
                             onAdd={() => setEditingPerson({ person: null, role: PersonRole.Quizzer })}
+                            onRemove={person => setPeople(prev => prev.filter(p => !isSamePerson(p, person)))}
+                            removeMessage="They'll come off this team when you press Done."
                             emptyMessage="No quizzers added yet."
                         />
                         {event.MaxTeamMembers > 0 && (
@@ -280,13 +282,15 @@ export default function RegistrationTeamDialog({
                             isEditable={!isSaving && !isDeleting}
                             onEdit={person => setEditingPerson({ person, role: PersonRole.Coach })}
                             onAdd={() => setEditingPerson({ person: null, role: PersonRole.Coach })}
+                            onRemove={person => setPeople(prev => prev.filter(p => !isSamePerson(p, person)))}
+                            removeMessage="They'll come off this team when you press Done."
                             emptyMessage={event.RequireTeamCoaches ? "Each team must have at least one coach." : "No coaches added yet."}
                         />
                     </div>
                 </div>
 
                 {/* Footer */}
-                <div className="modal-action mt-4 flex justify-between">
+                <div className="modal-action bq-sheet-footer mt-4 flex justify-between">
                     <div>
                         {team?.Id && (
                             <button
@@ -304,17 +308,17 @@ export default function RegistrationTeamDialog({
                     <div className="flex gap-2">
                         <button
                             type="button"
-                            className="btn btn-primary btn-sm m-0"
+                            className="btn btn-primary m-0"
                             disabled={isSaving || isDeleting}
                             onClick={handleSave}
                         >
                             {isSaving
                                 ? (<><span className="loading loading-spinner loading-xs"></span> Saving...</>)
-                                : (<><FontAwesomeIcon icon="fas faFloppyDisk" classNames={["mr-1"]} /> Save</>)}
+                                : (<><FontAwesomeIcon icon="fas faCheck" classNames={["mr-1"]} /> Done</>)}
                         </button>
                         <button
                             type="button"
-                            className="btn btn-ghost btn-sm m-0"
+                            className="btn btn-outline m-0"
                             disabled={isSaving || isDeleting}
                             onClick={() => onClose(null)}
                         >
