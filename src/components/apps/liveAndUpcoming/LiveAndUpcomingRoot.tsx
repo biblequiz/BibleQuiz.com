@@ -136,7 +136,7 @@ export default function LiveAndUpcomingRoot({
 
                         // TBQ has a special landing page for Nationals. If the date is in the future,
                         // redirect to the special landing page.
-                        if (isNationals && !isLive && type === "tbq") {
+                        if (isNationals && startDate > today && type === "tbq") {
                             eventItem.urlSlug = "nationals/";
                         }
 
@@ -251,7 +251,7 @@ export default function LiveAndUpcomingRoot({
                         <span className="border-1 p-1 rounded-md inline-block ml-1 mr-1">
                             <FontAwesomeIcon icon="fas faFilterCircleXmark" />&nbsp;
                             Reset Search Filters</span> above
-                        to see every event.
+                        to see every event{urlType && ", or switch between JBQ and TBQ at the top"}.
                     </span>
                 </div>)}
             {totalEvents === 0 && (

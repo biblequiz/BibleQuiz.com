@@ -35,7 +35,7 @@ function getBadge(status: EventStatus, event: EventInfo, today: Date): { label: 
         case "live":
             return { label: "Live now", className: "bq-status--live", icon: "faTowerBroadcast" };
         case "finished":
-            return { label: "Results posted", className: "bq-status--finished", icon: "faFlagCheckered" };
+            return { label: "Finished", className: "bq-status--finished", icon: "faFlagCheckered" };
         case "upcoming":
             return { label: "Upcoming", className: "bq-status--upcoming", icon: "faCalendarDays" };
         case "registrationOpen": {
