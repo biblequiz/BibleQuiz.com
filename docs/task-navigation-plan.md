@@ -90,7 +90,7 @@ Started 2026-11-23 on `users/michsco/task-nav`. Each item is a commit; the PR in
 | URL | Page | Notes |
 | --- | --- | --- |
 | `/` | Task Chooser with Happening Now | Old `/?type=jbq\|tbq` links redirect client-side to `/events/?type=…`. |
-| `/events/` | Live & upcoming events | The Event List (`LiveAndUpcomingApp`) moves here unchanged in Phase 1; card redesign (D18) follows. |
+| `/events/` | Live & upcoming events | The Event List (`LiveAndUpcomingApp`), with the D18 cards and sections (built in a follow-up PR). |
 | `/scores/` | Past scores & history | Season picker links to the existing `/{program}/seasons/{season}/results/` pages; History links. |
 | `/downloads/` | Apps, rules & downloads | Links to `/apps/`, rules and `/tbq/downloads/`. |
 | `/study/` | Study & practice | JBQ / TBQ switch. |
@@ -105,4 +105,4 @@ Shell:
 3. Footer: Terms, Privacy and social links.
 4. Breadcrumb "← [Task Hub]" above page titles.
 
-Not in this pass: the event card redesign (D18), the Program first-visit prompt (D14), the workspace Section Navigation restyle (D28), and My registrations (D29).
+Not in this pass: the Program first-visit prompt (D14), the workspace Section Navigation restyle (D28), and My registrations (D29).
