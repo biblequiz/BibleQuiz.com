@@ -85,10 +85,11 @@ export default function RegistrationPage() {
 
     // With exactly one church, preselect it and skip choosing (R2).
     useEffect(() => {
-        if (!church && !isChoosingChurch && !isLoadingUserChurches && userChurches.length === 1) {
+        // Event owners often register other churches, so they always choose.
+        if (!church && !isChoosingChurch && !isEventOwner && !isLoadingUserChurches && userChurches.length === 1) {
             setChurch(userChurches[0]);
         }
-    }, [church, isChoosingChurch, isLoadingUserChurches, userChurches]);
+    }, [church, isChoosingChurch, isEventOwner, isLoadingUserChurches, userChurches]);
 
     // Mark the churches already registered for this event, so choosing one opens its summary (R2).
     useEffect(() => {
@@ -203,7 +204,7 @@ export default function RegistrationPage() {
     // ---------- Steps (R1, R2) ----------
 
     // With exactly one church, it's preselected and choosing it isn't a step.
-    const includeChurchStep = isLoadingUserChurches || userChurches.length !== 1 || isChoosingChurch;
+    const includeChurchStep = isLoadingUserChurches || userChurches.length !== 1 || isChoosingChurch || isEventOwner;
     const steps = getRegistrationSteps(event, registration, includeChurchStep);
     const firstStep = steps.find(s => s.id !== "church") ?? steps[0];
     const isRegistered = !!registration?.Id;
@@ -446,9 +447,9 @@ export default function RegistrationPage() {
                                                     Done {DataTypeHelpers.formatDate(form.CompletedDate)}
                                                 </span>)
                                             : <span className="bq-reg-form-status">Not done</span>}
-                                        {form.Url && !form.CompletedDate && (
+                                        {form.Url && (
                                             <a href={form.Url} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline m-0">
-                                                Open form
+                                                {form.CompletedDate ? "View form" : "Open form"}
                                                 <FontAwesomeIcon icon="fas faArrowUpRightFromSquare" />
                                             </a>)}
                                     </li>))}
@@ -705,7 +706,11 @@ export default function RegistrationPage() {
                 if (event.CalculatePayment && registration) {
                     return { text: `Total cost: $${registration.CalculatedPayment?.toFixed(2) ?? "0.00"}` };
                 }
-                return { text: "Check everything" };
+                {
+                    const people = (registration?.Teams ?? []).reduce((sum, t) => sum + (t.People?.length ?? 0), 0)
+                        + individualCount + officialCount + attendeeCount;
+                    return { text: `${plural(people, "person", "people")} registered` };
+                }
             default:
                 return { text: church?.Name ?? "" };
         }
@@ -841,8 +846,9 @@ export default function RegistrationPage() {
                 {currentStep && (
                     <section className="bq-reg-step" aria-labelledby="bq-reg-step-title">
                         {/* Progress (R1): every step can be tapped. */}
+                        {!isLoadingUserChurches && (
                         <div className="bq-reg-progress">
-                            <p id="bq-reg-step-title" className="bq-reg-progress-label">
+                            <p className="bq-reg-progress-label">
                                 Step {stepIndex + 1} of {steps.length}: <strong>{currentStep.label}</strong>
                             </p>
                             <ol>
@@ -858,8 +864,9 @@ export default function RegistrationPage() {
                                     </li>))}
                             </ol>
                         </div>
+                        )}
 
-                        <h2 className="bq-reg-step-title">
+                        <h2 id="bq-reg-step-title" className="bq-reg-step-title">
                             <FontAwesomeIcon icon={currentStep.icon} />
                             {currentStep.label}
                         </h2>
@@ -904,6 +911,8 @@ export default function RegistrationPage() {
                     <section className="bq-reg-summary">
                         <h2>Your registration</h2>
                         {renderStepCards(steps.filter(s => s.id !== "church"))}
+                        {/* Event owners' payment tools stay on the summary screen (R4). */}
+                        {isEventOwner && renderPayment()}
                     </section>)}
 
             </fieldset>
