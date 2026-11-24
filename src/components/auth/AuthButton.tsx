@@ -157,15 +157,38 @@ export default function AuthButton({ type }: Props) {
             </div>);
     }
     else {
+        // Someone new gets their own button, which opens the sign-in page on its "Create account" screen. Students
+        // should sign up with Google: typing a Gmail address there makes a separate email-code account instead.
+        const isProtectedRoute = type === AuthButtonType.ProtectedRoute;
+        const isBusy = authManager.popupType != PopupType.None;
+        const layoutClassName = isProtectedRoute
+            ? "flex flex-col items-center gap-3"
+            : isMobile ? "flex flex-col gap-2 w-full" : "flex gap-2";
+
         buttonElement = (
-            <button
-                className="btn btn-primary mt-0 mb-0"
-                disabled={authManager.popupType != PopupType.None}
-                onClick={() => {
-                    authManager.login();
-                }}>
-                Sign In or Sign-Up
-            </button>);
+            <div className={layoutClassName}>
+                <button
+                    className="btn btn-primary mt-0 mb-0"
+                    disabled={isBusy}
+                    onClick={() => {
+                        authManager.login();
+                    }}>
+                    Sign In
+                </button>
+                <button
+                    className="btn btn-outline btn-primary mt-0 mb-0"
+                    disabled={isBusy}
+                    onClick={() => {
+                        authManager.login(true);
+                    }}>
+                    {isProtectedRoute ? "New here? Create an account" : "Create Account"}
+                </button>
+                {isProtectedRoute && (
+                    <p className="text-sm text-base-content/70 max-w-xs m-0">
+                        Students: on the next screen choose <strong>Sign up with Google</strong> if you have
+                        a Gmail account.
+                    </p>)}
+            </div>);
     }
 
     if (isMobile) {

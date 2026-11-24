@@ -548,8 +548,10 @@ export class AuthManager {
 
     /**
      * Starts the login flow.
+     * @param signUp Opens the sign-in page on its "Create account" screen (`prompt=create`), where someone new is
+     *               offered "Sign up with Google", instead of the sign-in screen.
      */
-    public async login(): Promise<void> {
+    public async login(signUp: boolean = false): Promise<void> {
 
         const client = await this.getInitializedClient();
 
@@ -561,7 +563,7 @@ export class AuthManager {
         // page, so a user who gets stuck there (or hits an error) would otherwise leave no trace.
         const attempt = createSignInAttemptId();
         const startedAt = Date.now();
-        let stage = "loginPopup";
+        let stage = signUp ? "signUpPopup" : "loginPopup";
         let correlationId: string | null = null;
         reportSignInProgress({ kind: "Started", stage, attempt });
 
@@ -569,7 +571,7 @@ export class AuthManager {
             client
                 .loginPopup({
                     scopes: TOKEN_SCOPES,
-                    prompt: 'select_account',
+                    prompt: signUp ? 'create' : 'select_account',
                     state: window.location.pathname,
                     extraQueryParameters: {
                         // Request offline access for refresh tokens
