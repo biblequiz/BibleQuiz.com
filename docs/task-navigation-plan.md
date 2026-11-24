@@ -107,6 +107,22 @@ Shell:
 
 Not in this pass: the Program first-visit prompt (D14). My registrations (D29) was built in a follow-up PR at `/my-registrations/`. It lists only registrations for events that haven't ended, asking `GET /api/Registration?eid=&cid=` per church and upcoming event (no backend change): that route recalculates and saves costs when an event's pricing changed, so past registrations are deliberately not loaded. D28 was built in a follow-up PR (workspace groups, collapse to icons, the phone sheet label, and the "/ [Event]" breadcrumb). It still uses the existing Starlight and React sidebars rather than one shared Section Navigation component; that replacement remains open.
 
+## Phase 2 build plan
+
+Started 2026-11-23. Answers to the Phase 2 open questions, from `biblequiz/ModernApps` at `origin` (`93daa105`):
+
+- **Cost before sign-in (R2):** not available. The Registration API requires sign-in for every route (`Startup.cs` sets a fallback policy requiring an authenticated user, and no controller allows anonymous access). The signed-out event card shows only what the public event data has: name, dates and location.
+- **Person lookup (R3):** the registration dialogs already use `PersonLookupDialog`, which searches people belonging to the church (`PeopleService.getPeople` with the church as parent), can switch to another church unless the event is official, and can add someone new. So "search first" is a change to the flow, not new data.
+
+Two PRs into `preview`:
+
+| PR | Covers | What |
+| --- | --- | --- |
+| A | R1, R2, R4 | Routes `#/{event}` (choose church), `#/{event}/{church}` (summary once registered, else the first step), `#/{event}/{church}/step/{step}`. Progress bar, Back/Next, "Registering for: [church] · Change". One church: preselected. Several: large choices marked "already registered". Signed out: an event card with Sign in. Forms grouped by person with "n of m forms done". Review & pay recaps each step and keeps the existing Pay now, Receipt and owner payment entries. |
+| B | R3 | People steps: "+ Add [role]" at the top opens the person search first; cards with Edit and Remove; full-screen dialogs on phones. Teams named first, then quizzers added inside them. |
+
+The existing screen's sections, dialogs and saves are reused, not rewritten: each change still saves immediately.
+
 ## Finish: rebase on `main`, then merge
 
 `main` keeps moving while this work sits on `preview`: `bible-quiz-bot` commits new events and results to `main` every few hours, and other fixes land there too. So, as the last step of the whole plan (after Phase 2):
