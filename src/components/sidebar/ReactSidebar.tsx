@@ -70,18 +70,36 @@ function getCurrentPage(entries: ReactSidebarEntry[]): ReactSidebarLink | null {
 }
 
 /**
- * Gets the label for the phone section bar (D28): the current page's name, or its top-level group's name when
- * the page is just that group's "General" page (e.g. "Scoring").
+ * Gets the groups that lead to a page, outermost first, or null when the page isn't in these entries.
  */
-function getCurrentPageLabel(entries: ReactSidebarEntry[], page: ReactSidebarLink): string {
-    if (page.label !== "General") {
-        return page.label;
+function getGroupPath(entries: ReactSidebarEntry[], page: ReactSidebarLink): ReactSidebarGroup[] | null {
+    for (const entry of entries) {
+        if (entry === page) {
+            return [];
+        }
+        else if (entry.type === "group") {
+            const path = getGroupPath(entry.entries, page);
+            if (path) {
+                return [entry, ...path];
+            }
+        }
     }
 
-    for (const entry of entries) {
-        if (entry.type === "group" && getCurrentPage(entry.entries) === page) {
-            return entry.label;
-        }
+    return null;
+}
+
+/**
+ * Gets the label for the phone section bar (D28): the current page's name, with enough context to tell pages
+ * of the same name apart. A group's "General" page uses the group's name (e.g. "Scoring"), and a page inside a
+ * nested group such as a scoring database adds that group's name (e.g. "Region A: Teams & Quizzers").
+ */
+function getCurrentPageLabel(entries: ReactSidebarEntry[], page: ReactSidebarLink): string {
+    const path = getGroupPath(entries, page) ?? [];
+    if (page.label === "General" && path.length > 0) {
+        return path[0].label;
+    }
+    else if (path.length > 1) {
+        return `${path[path.length - 1].label}: ${page.label}`;
     }
 
     return page.label;

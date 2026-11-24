@@ -6,6 +6,7 @@ import { AstroEventsService } from "types/services/AstroEventsService";
 import { EventInfo, EventRegistrationStatus } from "types/services/EventsService";
 import ArchivePendingBanner from "components/apps/ArchivePendingBanner";
 import { currentDatabaseSummaries } from "./EventRoot";
+import { getTask } from "utils/Tasks";
 import type { OnlineDatabaseSummary } from "types/services/AstroDatabasesService";
 
 interface Props {
@@ -167,6 +168,7 @@ export default function EventProvider({ }: Props) {
     const [eventIsHidden, setEventIsHidden] = useState<boolean>(false);
     const [clonePermissionsFromEventId, setClonePermissionsFromEventId] = useState<string | undefined>(undefined);
 
+
     useEffect(() => {
         if (eventId && eventId != NEW_ID_PLACEHOLDER) {
             setIsLoading(true);
@@ -253,9 +255,15 @@ export default function EventProvider({ }: Props) {
     }
 
     const eventType = eventTypeId.substring(2) || "jbq";
+    const manageTask = getTask("manage");
 
     return (
         <>
+            {/* The workspace hides Starlight's page title, so it shows its own breadcrumb (D11, D28). */}
+            <nav className="bq-crumb-row hide-on-print" aria-label="Breadcrumb">
+                <a className="bq-crumb" href={manageTask.href}>← {manageTask.label}</a>
+                <span aria-current="page"> / {eventTitle}</span>
+            </nav>
             <h1 className="page-title mt-0">
                 {eventType && (
                     <img

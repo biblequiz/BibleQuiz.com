@@ -576,10 +576,11 @@ a.bq-card:hover {
         padding-inline: 0.5rem;
     }
 
+    /* Items inside a group keep a slim rule on their left, so they read as part of it. */
     :root[data-bq-nav-collapsed] #starlight__sidebar ul ul li {
-        margin-inline-start: 0;
-        border-inline-start: 0;
-        padding-inline-start: 0;
+        margin-inline-start: 0.25rem;
+        border-inline-start: 2px solid var(--sl-color-gray-5);
+        padding-inline-start: 0.125rem;
     }
 
     :root[data-bq-nav-collapsed] #starlight__sidebar a,
@@ -598,4 +599,21 @@ a.bq-card:hover {
 
 .bq-workspace-nav > astro-island > ul > li > div > a[aria-current="page"] {
     color: var(--sl-color-text-invert);
+}
+
+/* Breadcrumb inside the event workspace, which hides Starlight's page title (D28). */
+.bq-crumb-row {
+    margin-bottom: 0.25rem;
+    font-size: var(--sl-text-sm);
+    font-weight: 600;
+    color: var(--sl-color-gray-3);
+}
+
+.bq-crumb-row .bq-crumb {
+    color: var(--sl-color-text-accent);
+    text-decoration: none;
+}
+
+.bq-crumb-row .bq-crumb:hover {
+    text-decoration: underline;
 }
