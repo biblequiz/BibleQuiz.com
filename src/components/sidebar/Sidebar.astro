@@ -3,6 +3,7 @@
 import MobileMenuFooter from "virtual:starlight/components/MobileMenuFooter";
 import SidebarPersister from "@astrojs/starlight/components/SidebarPersister.astro";
 import SidebarSublist from "components/sidebar/SidebarSublist.astro";
+import { getTaskForPath } from "utils/Tasks";
 // @ts-nocheck
 import type { SidebarEntry } from "@astrojs/starlight/utils/routing/types";
 
@@ -183,7 +184,33 @@ if (
 ) {
     sidebarIndex.potentialParentPage.isCurrent = true;
 }
+
+// Manage events, people & more can shrink its Section Navigation to icons on wide screens (D28). Public
+// Tasks can't: most of their pages have no icon.
+const canCollapse = getTaskForPath(Astro.url.pathname)?.id === "manage";
 ---
+
+{
+    canCollapse && (
+        <>
+            <script is:inline>
+                try {
+                    if (localStorage.getItem("bq-nav-collapsed") === "true") {
+                        document.documentElement.setAttribute("data-bq-nav-collapsed", "");
+                    }
+                } catch {
+                    // Storage can be blocked; the list then starts expanded.
+                }
+            </script>
+            <button type="button" class="bq-nav-collapse" data-bq-nav-collapse>
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                </svg>
+                <span>Collapse</span>
+            </button>
+        </>
+    )
+}
 
 <SidebarPersister>
     <SidebarSublist sublist={filteredSidebar} />
@@ -192,6 +219,32 @@ if (
 <div class="lg:sl-hidden">
     <MobileMenuFooter />
 </div>
+
+<script>
+    // Collapse toggle for Section Navigation (D28).
+    const collapseButton = document.querySelector<HTMLButtonElement>("[data-bq-nav-collapse]");
+    if (collapseButton) {
+        const root = document.documentElement;
+        const sync = () => {
+            const collapsed = root.hasAttribute("data-bq-nav-collapsed");
+            collapseButton.setAttribute("aria-pressed", String(collapsed));
+            collapseButton.setAttribute("aria-label", collapsed ? "Expand navigation" : "Collapse navigation");
+            collapseButton.title = collapsed ? "Expand navigation" : "Collapse navigation";
+        };
+
+        sync();
+        collapseButton.addEventListener("click", () => {
+            const collapsed = !root.hasAttribute("data-bq-nav-collapsed");
+            root.toggleAttribute("data-bq-nav-collapsed", collapsed);
+            try {
+                localStorage.setItem("bq-nav-collapsed", String(collapsed));
+            } catch {
+                // The choice then lasts only for this page.
+            }
+            sync();
+        });
+    }
+</script>
 
 <script>
     // This script is customized
