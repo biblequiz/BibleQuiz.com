@@ -300,8 +300,8 @@ export default function RegistrationTeamDialog({
                                 onClick={handleDelete}
                             >
                                 {isDeleting
-                                    ? (<><span className="loading loading-spinner loading-xs"></span> Deleting...</>)
-                                    : (<><FontAwesomeIcon icon="fas faTrash" classNames={["mr-1"]} /> Delete Team</>)}
+                                    ? (<><span className="loading loading-spinner loading-xs"></span> Removing...</>)
+                                    : (<><FontAwesomeIcon icon="fas faTrash" classNames={["mr-1"]} /> Remove team</>)}
                             </button>
                         )}
                     </div>

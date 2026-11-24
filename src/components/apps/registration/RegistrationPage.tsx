@@ -54,7 +54,8 @@ export default function RegistrationPage() {
     const [editingTeam, setEditingTeam] = useState<RegistrationTeam | null>(null);
     const [isAddingTeam, setIsAddingTeam] = useState(false);
     const [removingTeam, setRemovingTeam] = useState<RegistrationTeam | null>(null);
-    const [teamError, setTeamError] = useState<string | null>(null);
+    // Server messages arrive HTML-encoded; local fallbacks are plain text and are never rendered as HTML.
+    const [teamError, setTeamError] = useState<{ html?: string; text?: string } | null>(null);
     const [editingPerson, setEditingPerson] = useState<{ person: RegistrationPerson | null; role: PersonRole } | null>(null);
     const [descriptionExpanded, setDescriptionExpanded] = useState(false);
     const [showEmailDialog, setShowEmailDialog] = useState(false);
@@ -327,7 +328,8 @@ export default function RegistrationPage() {
             await reloadRegistration();
         }
         catch (error) {
-            setTeamError((error as Error)?.message || `${team.Name} couldn't be removed.`);
+            const message = (error as Error)?.message;
+            setTeamError(message ? { html: message } : { text: `${team.Name} couldn't be removed.` });
         }
     };
 
@@ -345,7 +347,9 @@ export default function RegistrationPage() {
                 <div role="alert" className="alert alert-error">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />
                     {/* The server HTML-encodes the values in its messages. */}
-                    <span dangerouslySetInnerHTML={{ __html: teamError }} />
+                    {teamError.html
+                        ? <span dangerouslySetInnerHTML={{ __html: teamError.html }} />
+                        : <span>{teamError.text}</span>}
                 </div>)}
             <div className="bq-people">
                 {registration?.Teams?.map(team => {

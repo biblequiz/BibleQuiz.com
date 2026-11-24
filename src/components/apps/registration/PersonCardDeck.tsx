@@ -85,7 +85,8 @@ export default function PersonCardDeck({
 
     const [removingPerson, setRemovingPerson] = useState<RegistrationPerson | null>(null);
     const [isRemoving, setIsRemoving] = useState(false);
-    const [removeError, setRemoveError] = useState<string | null>(null);
+    // Server messages arrive HTML-encoded; local fallbacks are plain text and are never rendered as HTML.
+    const [removeError, setRemoveError] = useState<{ html?: string; text?: string } | null>(null);
 
     const getPersonName = (person: RegistrationPerson) =>
         person.Person?.FirstName || person.Person?.LastName
@@ -104,7 +105,8 @@ export default function PersonCardDeck({
             await onRemove(person);
         }
         catch (error) {
-            setRemoveError((error as Error)?.message || `${getPersonName(person)} couldn't be removed.`);
+            const message = (error as Error)?.message;
+            setRemoveError(message ? { html: message } : { text: `${getPersonName(person)} couldn't be removed.` });
         }
         finally {
             setIsRemoving(false);
@@ -160,7 +162,9 @@ export default function PersonCardDeck({
                 <div role="alert" className="alert alert-error mt-2">
                     <FontAwesomeIcon icon="fas faCircleExclamation" />
                     {/* The server HTML-encodes the values in its messages. */}
-                    <span dangerouslySetInnerHTML={{ __html: removeError }} />
+                    {removeError.html
+                        ? <span dangerouslySetInnerHTML={{ __html: removeError.html }} />
+                        : <span>{removeError.text}</span>}
                 </div>)}
             <div className="bq-people">
                 {people.map((person, index) => {
