@@ -8,6 +8,7 @@ import ErrorPage from 'components/apps/ErrorPage';
 import RegistrationProvider from './RegistrationProvider';
 import RegistrationPage from './RegistrationPage';
 import RegistrationReceiptPage from './RegistrationReceiptPage';
+import RegistrationSignIn from './RegistrationSignIn';
 
 interface Props {
     loadingElementId: string;
@@ -57,7 +58,7 @@ const router = createHashRouter([
         children: [
             {
                 path: "/",
-                element: <ProtectedRoute />,
+                element: <ProtectedRoute notAuthenticated={<RegistrationSignIn />} />,
                 children: [
                     {
                         path: "/",
@@ -69,6 +70,10 @@ const router = createHashRouter([
                             },
                             {
                                 path: "/:eventId/:churchId",
+                                element: <RegistrationPage />
+                            },
+                            {
+                                path: "/:eventId/:churchId/step/:stepId",
                                 element: <RegistrationPage />
                             },
                             {

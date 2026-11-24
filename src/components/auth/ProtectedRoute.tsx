@@ -10,9 +10,12 @@ interface Props {
 
     /** Set only on the Study Hub sign-up page; passed to the sign-up form. */
     studyHub?: StudyHubSignUpOptions;
+
+    /** Shown in place of the standard sign-in prompt when the user isn't signed in (optional). */
+    notAuthenticated?: React.ReactNode;
 }
 
-export default function ProtectedRoute({ permissionCheck, children, studyHub }: Props) {
+export default function ProtectedRoute({ permissionCheck, children, studyHub, notAuthenticated }: Props) {
 
     const authManager = AuthManager.useNanoStore();
     authManager.showLoginWindowFromBackground();
@@ -20,7 +23,7 @@ export default function ProtectedRoute({ permissionCheck, children, studyHub }: 
     // The user isn't signed in at all.
     const currentProfile = authManager.userProfile;
     if (!currentProfile) {
-        return <NotAuthenticatedSection />;
+        return notAuthenticated ?? <NotAuthenticatedSection />;
     }
 
     // The user is signed in, but they haven't completed their profile setup.

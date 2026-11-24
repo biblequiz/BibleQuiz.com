@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import { useOutletContext } from "react-router-dom";
+import { useOutletContext, useParams, useSearchParams } from "react-router-dom";
 import type { RegistrationProviderContext } from "./RegistrationProvider";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import CollapsibleSection from "components/CollapsibleSection";
 import ChurchLookup, { ChurchSearchTips } from "components/ChurchLookup";
 import PersonCardDeck from "./PersonCardDeck";
 import RegistrationBanner from "./RegistrationBanner";
@@ -18,8 +17,7 @@ import { EmailRecipientType } from "types/services/EmailService";
 import { useEscapeToClose } from "hooks/useEscapeToClose";
 import ChurchSettingsDialog, { type AddingChurchState } from "components/ChurchSettingsDialog";
 import EventPaymentsEntryDialog from "components/apps/event/EventPaymentsEntryDialog";
-
-const PAGE_ID = "registration";
+import { getRegistrationSteps, getStepPath, type RegistrationStep } from "./RegistrationSteps";
 
 export default function RegistrationPage() {
     const context = useOutletContext<RegistrationProviderContext>();
@@ -44,7 +42,14 @@ export default function RegistrationPage() {
         saveRegistration,
     } = context;
 
+    const { stepId } = useParams();
+    const [searchParameters] = useSearchParams();
+
+    // "Change" on any step comes back here with ?choose=1, so a single church isn't preselected again.
+    const isChoosingChurch = searchParameters.get("choose") === "1";
+
     const [showChurchSearch, setShowChurchSearch] = useState(false);
+    const [registeredChurchIds, setRegisteredChurchIds] = useState<Set<string>>(new Set());
     const [editingTeam, setEditingTeam] = useState<RegistrationTeam | null>(null);
     const [isAddingTeam, setIsAddingTeam] = useState(false);
     const [editingPerson, setEditingPerson] = useState<{ person: RegistrationPerson | null; role: PersonRole } | null>(null);
@@ -77,6 +82,40 @@ export default function RegistrationPage() {
         window.addEventListener("pageshow", handlePageShow);
         return () => window.removeEventListener("pageshow", handlePageShow);
     }, []);
+
+    // With exactly one church, preselect it and skip choosing (R2).
+    useEffect(() => {
+        // Event owners often register other churches, so they always choose.
+        if (!church && !isChoosingChurch && !isEventOwner && !isLoadingUserChurches && userChurches.length === 1) {
+            setChurch(userChurches[0]);
+        }
+    }, [church, isChoosingChurch, isEventOwner, isLoadingUserChurches, userChurches]);
+
+    // Mark the churches already registered for this event, so choosing one opens its summary (R2).
+    useEffect(() => {
+        if (church && !isChoosingChurch) {
+            return;
+        }
+
+        let isCancelled = false;
+        Promise.allSettled(userChurches.map(c =>
+            RegistrationService.getRegistrations(auth, 1, 0, eventId, c.Id!)))
+            .then(results => {
+                if (isCancelled) {
+                    return;
+                }
+
+                const ids = new Set<string>();
+                results.forEach((result, index) => {
+                    if (result.status === "fulfilled" && result.value.Items.length > 0) {
+                        ids.add(userChurches[index].Id!);
+                    }
+                });
+                setRegisteredChurchIds(ids);
+            });
+
+        return () => { isCancelled = true; };
+    }, [userChurches, eventId, church, isChoosingChurch]);
 
     // Load payment entries for event owners
     useEffect(() => {
@@ -162,8 +201,565 @@ export default function RegistrationPage() {
         await saveRegistration(updated);
     };
 
+    // ---------- Steps (R1, R2) ----------
+
+    // With exactly one church, it's preselected and choosing it isn't a step.
+    const includeChurchStep = isLoadingUserChurches || userChurches.length !== 1 || isChoosingChurch || isEventOwner;
+    const steps = getRegistrationSteps(event, registration, includeChurchStep);
+    const firstStep = steps.find(s => s.id !== "church") ?? steps[0];
+    const isRegistered = !!registration?.Id;
+
+    let currentStep: RegistrationStep | null = null;
+    if (!church || isChoosingChurch) {
+        currentStep = steps.find(s => s.id === "church") ?? null;
+    }
+    else if (stepId) {
+        currentStep = steps.find(s => s.id === stepId) ?? firstStep;
+    }
+    else if (!isRegistered) {
+        currentStep = firstStep;
+    }
+
+    const stepIndex = currentStep ? steps.findIndex(s => s.id === currentStep!.id) : -1;
+    const previousStep = stepIndex > 0 ? steps[stepIndex - 1] : null;
+    const nextStep = stepIndex >= 0 && stepIndex < steps.length - 1 ? steps[stepIndex + 1] : null;
+
+    // ---------- Section contents ----------
+
+    const renderChurch = () => (
+        <>
+        {/* Permission error */}
+        {churchPermissionError && (
+            <div role="alert" className="alert alert-error mb-2">
+                <FontAwesomeIcon icon="fas faCircleExclamation" />
+                <span>{churchPermissionError}</span>
+            </div>
+        )}
+
+        {/* No church selected prompt */}
+        {!church && (
+            <p className="bq-reg-lead mb-2">Which church are you registering?</p>
+        )}
+
+        {/* Large choices, marked when already registered (R2). */}
+        {!isLoadingUserChurches && userChurches.length > 0 && (
+            <div className="bq-reg-churches">
+                {userChurches.map(c => {
+                    const isSelected = church?.Id === c.Id;
+                    const location = formatChurchLocation(c);
+                    const isRegisteredChurch = registeredChurchIds.has(c.Id!);
+                    return (
+                        <button
+                            key={`church-${c.Id}`}
+                            type="button"
+                            className={`bq-reg-church ${isSelected ? "is-selected" : ""}`}
+                            onClick={() => setChurch(c)}
+                        >
+                            <FontAwesomeIcon icon="fas faChurch" />
+                            <span className="bq-reg-church-text">
+                                <span className="bq-reg-church-name">{c.Name}</span>
+                                {location && <span className="bq-reg-church-location">{location}</span>}
+                            </span>
+                            {isRegisteredChurch && (
+                                <span className="bq-reg-church-badge">
+                                    <FontAwesomeIcon icon="fas faCircleCheck" />
+                                    Already registered
+                                </span>)}
+                        </button>
+                    );
+                })}
+            </div>
+        )}
+
+        {isLoadingUserChurches && (
+            <div className="flex items-center gap-2 mb-2">
+                <span className="loading loading-spinner loading-sm"></span>
+                <span className="text-sm">Loading your churches...</span>
+            </div>
+        )}
+
+        {/* Find another church: search, ending with "Add a new church" (R2). */}
+        {!showChurchSearch && (
+            <button
+                type="button"
+                className="btn btn-outline btn-sm m-0"
+                onClick={() => setShowChurchSearch(true)}
+            >
+                <FontAwesomeIcon icon="fas faMagnifyingGlass" classNames={["mr-1"]} />
+                Find another church
+            </button>
+        )}
+
+        {showChurchSearch && (
+            <div className="mt-2 p-2 border border-base-300 rounded-lg">
+                <ChurchLookup
+                    onSelect={(_selected, info, authorized) => {
+                        setChurch(info);
+                        setShowChurchSearch(false);
+
+                        if (authorized) {
+                            addUserChurch(info);
+                        }
+                    }}
+                    showTips={ChurchSearchTips.Basic}
+                    allowAdd={!isEventOwner ? {
+                        authorizeChurch: true,
+                        onAdding: setAddingChurchState
+                    } : undefined}
+                />
+            </div>
+        )}
+        </>);
+
+    const renderTeams = () => (
+        <>
+        {/* Team Cards */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+            {registration?.Teams?.map(team => (
+                <div
+                    key={`team-${team.Id}`}
+                    className="card card-compact bg-base-200 border border-base-300 cursor-pointer hover:border-primary transition-colors mt-0"
+                    onClick={() => setEditingTeam(team)}
+                >
+                    <div className="card-body p-3">
+                        <h3 className="card-title text-sm m-0">{team.Name}</h3>
+                        {event.Divisions?.length > 0 && (() => {
+                            const divisionLabel = team.DivisionId
+                                ? event.Divisions.find(d => d.Id === team.DivisionId)?.Label
+                                : undefined;
+                            return divisionLabel
+                                ? <p className="text-xs m-0 opacity-70">{divisionLabel}</p>
+                                : (
+                                    <p className="text-xs m-0 text-warning font-semibold">
+                                        <FontAwesomeIcon icon="fas faTriangleExclamation" classNames={["mr-1"]} />
+                                        Select a division
+                                    </p>
+                                );
+                        })()}
+                        {(() => {
+                            const coachCount = team.People?.filter(p => p.Role === PersonRole.Coach).length ?? 0;
+                            const quizzerCount = (team.People?.length ?? 0) - coachCount;
+                            return (
+                                <p className="text-xs m-0">
+                                    <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
+                                    {quizzerCount} quizzer{quizzerCount !== 1 ? "s" : ""}
+                                    {coachCount > 0 && (
+                                        <>
+                                            <FontAwesomeIcon icon="fas faChalkboardUser" classNames={["ml-2", "mr-1"]} />
+                                            {coachCount} coach{coachCount !== 1 ? "es" : ""}
+                                        </>
+                                    )}
+                                </p>
+                            );
+                        })()}
+                        {event.CalculatePayment && (
+                            <p className="text-xs m-0 font-semibold">
+                                ${team.CalculatedPayment?.toFixed(2) ?? "0.00"}
+                            </p>
+                        )}
+                    </div>
+                </div>
+            ))}
+
+            {isEditable && sectionEditability.teams && (
+                <button
+                    type="button"
+                    className="card card-compact bg-base-200 border border-dashed border-base-300 hover:border-primary transition-colors cursor-pointer mt-0"
+                    onClick={() => setIsAddingTeam(true)}
+                >
+                    <div className="card-body p-3 items-center justify-center">
+                        <FontAwesomeIcon icon="fas faPlus" />
+                        <span className="text-xs">Add Team</span>
+                    </div>
+                </button>
+            )}
+        </div>
+        </>);
+
+    const renderPeople = (role: PersonRole) => {
+        switch (role) {
+            case PersonRole.QuizzerWithoutTeam:
+                return (
+                    <PersonCardDeck
+                        icon="fas faPerson"
+                        event={event}
+                        scope={EventFieldScopes.QuizzerWithoutTeam}
+                        addLabel="Add Quizzer"
+                        people={registration?.Individuals ?? []}
+                        isEditable={isEditable && sectionEditability.teams}
+                        onEdit={person => setEditingPerson({ person, role: PersonRole.QuizzerWithoutTeam })}
+                        onAdd={() => setEditingPerson({ person: null, role: PersonRole.QuizzerWithoutTeam })}
+                    />);
+            case PersonRole.Attendee:
+                return (
+                    <PersonCardDeck
+                        icon="fas faPerson"
+                        event={event}
+                        scope={EventFieldScopes.Attendee}
+                        addLabel="Add Attendee"
+                        people={registration?.Attendees ?? []}
+                        isEditable={isEditable && sectionEditability.attendees}
+                        onEdit={person => setEditingPerson({ person, role: PersonRole.Attendee })}
+                        onAdd={() => setEditingPerson({ person: null, role: PersonRole.Attendee })}
+                    />);
+            default:
+                return (
+                    <PersonCardDeck
+                        icon="fas faUserTie"
+                        event={event}
+                        scope={EventFieldScopes.Official}
+                        addLabel="Add Official"
+                        people={registration?.Officials ?? []}
+                        isEditable={isEditable && sectionEditability.officials}
+                        onEdit={person => setEditingPerson({ person, role: PersonRole.Official })}
+                        onAdd={() => setEditingPerson({ person: null, role: PersonRole.Official })}
+                    />);
+        }
+    };
+
+    // Forms checklist grouped by person (R4). People may continue with forms outstanding.
+    const renderForms = () => {
+        const forms = registration?.Forms ?? [];
+        const byPerson = new Map<string, typeof forms>();
+        for (const form of forms) {
+            const key = form.PersonName || "Church";
+            byPerson.set(key, [...(byPerson.get(key) ?? []), form]);
+        }
+
+        return (
+            <>
+                <p className="bq-reg-lead">
+                    <strong>{formCompleted} of {formTotal} forms done.</strong>{" "}
+                    {formCompleted < formTotal && "You can keep going and finish the rest later."}
+                </p>
+                <div className="bq-reg-forms">
+                    {[...byPerson.entries()].map(([personName, personForms]) => (
+                        <div key={personName} className="bq-reg-form-person">
+                            <h3>{personName}</h3>
+                            <ul>
+                                {personForms.map((form, index) => (
+                                    <li key={`${personName}-${index}`}>
+                                        <span className="bq-reg-form-name">{form.FormName}</span>
+                                        {form.CompletedDate
+                                            ? (
+                                                <span className="bq-reg-form-status is-done">
+                                                    <FontAwesomeIcon icon="fas faCircleCheck" />
+                                                    Done {DataTypeHelpers.formatDate(form.CompletedDate)}
+                                                </span>)
+                                            : <span className="bq-reg-form-status">Not done</span>}
+                                        {form.Url && (
+                                            <a href={form.Url} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline m-0">
+                                                {form.CompletedDate ? "View form" : "Open form"}
+                                                <FontAwesomeIcon icon="fas faArrowUpRightFromSquare" />
+                                            </a>)}
+                                    </li>))}
+                            </ul>
+                        </div>))}
+                </div>
+            </>);
+    };
+
+    const renderPayment = () => (event.CalculatePayment || event.TrackPayments) && registration && (
+        <div className="bq-reg-payment">
+            <h3>Payment</h3>
+        <div className="flex flex-wrap gap-4 items-center">
+            {event.CalculatePayment && (
+                <div className="stat p-2 pb-0 pt-0 mt-0 mb-0">
+                    <div className="stat-title text-xs">Total Cost</div>
+                    <div className="stat-value text-lg">${registration.CalculatedPayment?.toFixed(2) ?? "0.00"}</div>
+                </div>
+            )}
+            {event.TrackPayments && (
+                <>
+                    <div className="stat p-2 pt-0 pb-0 mt-0 mb-0">
+                        <div className="stat-title text-xs">Balance Due</div>
+                        <div className="stat-value text-lg text-error">${registration.PaymentBalance?.toFixed(2) ?? "0.00"}</div>
+                    </div>
+                    {registration.PendingPaymentBalance > 0 && (
+                        <div className="stat p-2 pt-0 pb-0 mt-0 mb-0">
+                            <div className="stat-title text-xs">Pending</div>
+                            <div className="stat-value text-lg text-warning">${registration.PendingPaymentBalance.toFixed(2)}</div>
+                        </div>
+                    )}
+                </>
+            )}
+        </div>
+        <div className="flex gap-2 mt-2">
+            {(event.TrackPayments && Math.max(0, registration.CalculatedPayment - registration.PendingPaymentBalance - registration.PaymentBalance) > 0) && (
+                <button
+                    type="button"
+                    className="btn btn-lg btn-primary m-0"
+                    disabled={isStartingPayment}
+                    onClick={async () => {
+                        setIsStartingPayment(true);
+                        setStartPaymentError(null);
+                        try {
+                            // Send the browser back to the receipt once the payment completes.
+                            // "paid" tells the receipt to reconcile before it renders.
+                            const returnUrl = `${window.location.origin}${window.location.pathname}#/${eventId}/${registration.ChurchId}/Receipt?paid=1`;
+                            const paymentLink = await RegistrationService.startPayment(
+                                auth,
+                                eventId,
+                                registration.ChurchId,
+                                returnUrl
+                            );
+
+                            window.location.href = paymentLink.Url;
+                        } catch (err: any) {
+                            // The services reject with a RemoteServiceError object rather than an
+                            // Error instance, so the message has to be read off whatever was thrown.
+                            setStartPaymentError(err?.message || "Failed to start the payment");
+                            setIsStartingPayment(false);
+                        }
+                    }}>
+                    {isStartingPayment ? (
+                        <span className="loading loading-spinner loading-xs mr-1"></span>
+                    ) : (
+                        <FontAwesomeIcon icon="fas faCreditCard" classNames={["mr-1"]} />
+                    )}
+                    Pay Now
+                </button>
+            )}
+            <a
+                href={`#/${eventId}/${church!.Id}/Receipt`}
+                className="btn btn-sm btn-outline m-0"
+            >
+                <FontAwesomeIcon icon="fas faReceipt" classNames={["mr-1"]} />
+                View Receipt
+            </a>
+        </div>
+        {startPaymentError && (
+            <div className="alert alert-error alert-sm mt-2">
+                <span className="text-sm">{startPaymentError}</span>
+            </div>
+        )}
+
+        {/* Payment Entries Management (Event Owners Only) */}
+        {event.TrackPayments && isEventOwner && (
+            <div className="mt-6">
+                <div className="flex items-center justify-between mb-2">
+                    <h4 className="font-semibold text-base">Payment Entries</h4>
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-primary m-0"
+                        disabled={isSavingPaymentEntries || !paymentEntriesLoaded}
+                        onClick={() => setEditingPaymentEntry({
+                            Id: null,
+                            EntryDate: DataTypeHelpers.formatDate(DataTypeHelpers.nowDateOnly, "yyyy-MM-dd")!,
+                            Description: "",
+                            Amount: 0,
+                            IsAutomated: false
+                        } as PaymentEntry)}
+                    >
+                        <FontAwesomeIcon icon="fas faPlus" classNames={["mr-1"]} />
+                        Add Entry
+                    </button>
+                </div>
+
+                {paymentEntriesError && (
+                    <div className="alert alert-error mb-2">
+                        <FontAwesomeIcon icon="fas faCircleExclamation" classNames={["mr-2"]} />
+                        {paymentEntriesError}
+                    </div>
+                )}
+
+                {!paymentEntriesLoaded ? (
+                    <div className="flex items-center gap-2 py-4">
+                        <span className="loading loading-spinner loading-sm"></span>
+                        <span className="text-base-content/60">Loading payment entries...</span>
+                    </div>
+                ) : paymentEntries.length > 0 ? (
+                    <div className="overflow-x-auto">
+                        <table className="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th className="text-right">Amount</th>
+                                    <th className="w-10"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {paymentEntries.map((entry, index) => (
+                                    <tr key={entry.Id ?? `new-${index}`} className={entry.IsAutomated ? "opacity-60" : ""}>
+                                        <td>{DataTypeHelpers.formatDate(DataTypeHelpers.parseDateOnly(entry.EntryDate), "MMM d, yyyy")}</td>
+                                        <td>
+                                            {entry.Description}
+                                            {entry.IsAutomated && (
+                                                <span className="badge badge-sm badge-ghost ml-2">Auto</span>
+                                            )}
+                                        </td>
+                                        <td className={`text-right ${entry.Amount >= 0 ? "text-success" : "text-error"}`}>
+                                            {entry.Amount >= 0 ? "" : "-"}${Math.abs(entry.Amount).toFixed(2)}
+                                        </td>
+                                        <td>
+                                            {!entry.IsAutomated && (
+                                                <button
+                                                    type="button"
+                                                    className="btn btn-xs btn-ghost m-0"
+                                                    disabled={isSavingPaymentEntries}
+                                                    onClick={() => setEditingPaymentEntry(entry)}
+                                                    title="Edit entry"
+                                                >
+                                                    <FontAwesomeIcon icon="fas faPen" />
+                                                </button>
+                                            )}
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                            <tfoot>
+                                <tr className="font-semibold">
+                                    <td colSpan={2}>Total</td>
+                                    <td className="text-right">
+                                        ${paymentEntries.reduce((sum, e) => sum + e.Amount, 0).toFixed(2)}
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                ) : (
+                    <p className="text-base-content/60 italic">No payment entries recorded.</p>
+                )}
+
+                {paymentEntriesDirty && (
+                    <div className="flex gap-2 mt-4">
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-success m-0"
+                            disabled={isSavingPaymentEntries}
+                            onClick={async () => {
+                                if (!church) return;
+                                setIsSavingPaymentEntries(true);
+                                setPaymentEntriesError(null);
+                                try {
+                                    await RegistrationService.updateChurchBalanceEntries(
+                                        auth,
+                                        eventId,
+                                        church!.Id!,
+                                        paymentEntries
+                                    );
+                                    setPaymentEntriesDirty(false);
+                                    // Reload registration to get updated balance
+                                    reloadRegistration();
+                                } catch (err) {
+                                    setPaymentEntriesError(err instanceof Error ? err.message : "Failed to save payment entries");
+                                } finally {
+                                    setIsSavingPaymentEntries(false);
+                                }
+                            }}
+                        >
+                            {isSavingPaymentEntries ? (
+                                <span className="loading loading-spinner loading-xs mr-1"></span>
+                            ) : (
+                                <FontAwesomeIcon icon="fas faCheck" classNames={["mr-1"]} />
+                            )}
+                            Save Payment Entries
+                        </button>
+                        <button
+                            type="button"
+                            className="btn btn-sm btn-ghost m-0"
+                            disabled={isSavingPaymentEntries}
+                            onClick={() => {
+                                // Re-fetch payment entries to revert changes
+                                setPaymentEntriesLoaded(false);
+                                setPaymentEntriesDirty(false);
+                                setPaymentEntriesError(null);
+                            }}
+                        >
+                            Cancel
+                        </button>
+                    </div>)}
+            </div>)}
+        </div>);
+
+    // ---------- Step status, for the summary cards and the review recap (R1, R4) ----------
+
+    const plural = (count: number, singular: string, pluralLabel: string = `${singular}s`) =>
+        `${count} ${count === 1 ? singular : pluralLabel}`;
+
+    const getStepStatus = (step: RegistrationStep): { text: string; isWarning?: boolean } => {
+        switch (step.id) {
+            case "teams": {
+                const missingDivision = (event.Divisions?.length ?? 0) > 0
+                    ? (registration?.Teams ?? []).filter(t => !t.DivisionId).length
+                    : 0;
+                return missingDivision > 0
+                    ? { text: `${plural(teamCount, "team")} · ${missingDivision === 1 ? "1 team needs" : `${missingDivision} teams need`} a division`, isWarning: true }
+                    : { text: plural(teamCount, "team") };
+            }
+            case "individuals":
+                return { text: plural(individualCount, "quizzer") };
+            case "officials":
+                return { text: plural(officialCount, "official") };
+            case "attendees":
+                return { text: plural(attendeeCount, "attendee") };
+            case "forms":
+                return formCompleted < formTotal
+                    ? { text: `${plural(formTotal - formCompleted, "form")} still needed`, isWarning: true }
+                    : { text: "All forms done" };
+            case "review":
+                if (event.TrackPayments && registration) {
+                    return { text: `Balance due: $${registration.PaymentBalance?.toFixed(2) ?? "0.00"}` };
+                }
+                if (event.CalculatePayment && registration) {
+                    return { text: `Total cost: $${registration.CalculatedPayment?.toFixed(2) ?? "0.00"}` };
+                }
+                {
+                    const people = (registration?.Teams ?? []).reduce((sum, t) => sum + (t.People?.length ?? 0), 0)
+                        + individualCount + officialCount + attendeeCount;
+                    return { text: `${plural(people, "person", "people")} registered` };
+                }
+            default:
+                return { text: church?.Name ?? "" };
+        }
+    };
+
+    const renderStepCards = (cardSteps: RegistrationStep[]) => (
+        <div className="bq-reg-cards">
+            {cardSteps.map(step => {
+                const status = getStepStatus(step);
+                return (
+                    <a key={step.id} className="bq-reg-card" href={getStepPath(eventId, church?.Id, step.id)}>
+                        <span className="bq-reg-card-icon"><FontAwesomeIcon icon={step.icon} /></span>
+                        <span className="bq-reg-card-text">
+                            <span className="bq-reg-card-title">{step.label}</span>
+                            <span className={`bq-reg-card-status ${status.isWarning ? "is-warning" : ""}`}>
+                                {status.isWarning && <FontAwesomeIcon icon="fas faTriangleExclamation" />}
+                                {status.text}
+                            </span>
+                        </span>
+                        <span className="bq-reg-card-action">{isEditable ? "Edit" : "View"}</span>
+                    </a>);
+            })}
+        </div>);
+
+    const renderStepContent = (step: RegistrationStep) => {
+        switch (step.id) {
+            case "church":
+                return renderChurch();
+            case "teams":
+                return renderTeams();
+            case "individuals":
+                return renderPeople(PersonRole.QuizzerWithoutTeam);
+            case "officials":
+                return renderPeople(PersonRole.Official);
+            case "attendees":
+                return renderPeople(PersonRole.Attendee);
+            case "forms":
+                return renderForms();
+            case "review":
+                return (
+                    <>
+                        {renderStepCards(steps.filter(s => s.id !== "church" && s.id !== "review"))}
+                        {renderPayment()}
+                    </>);
+        }
+    };
+
     return (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-3 bq-reg">
             {/* Banner */}
             {!isEventOwner && <RegistrationBanner event={event} />}
 
@@ -239,514 +835,85 @@ export default function RegistrationPage() {
                     )}
                 </div>
 
-                {/* Church Section */}
-                <CollapsibleSection
-                    pageId={PAGE_ID}
-                    elementId="church"
-                    icon="fas faChurch"
-                    title="Church"
-                    defaultOpen={!church}
-                    forceOpen={!church}
-                    badges={church
-                        ? [{ className: "badge-lg badge-soft badge-success", icon: "fas faCheck", text: church.Name }]
-                        : [{ className: "badge-lg badge-soft badge-warning", icon: "fas faTriangleExclamation", text: "Church required" }]}
-                    addTopPadding={true}
-                >
-                    {/* Permission error */}
-                    {churchPermissionError && (
-                        <div role="alert" className="alert alert-error mb-2">
-                            <FontAwesomeIcon icon="fas faCircleExclamation" />
-                            <span>{churchPermissionError}</span>
+                {/* Which church every step is for (R2). */}
+                {church && !isChoosingChurch && (
+                    <p className="bq-reg-for">
+                        <FontAwesomeIcon icon="fas faChurch" />
+                        <span>Registering for: <strong>{church.Name}</strong></span>
+                        <a href={getStepPath(eventId, null, "church")}>Change</a>
+                    </p>)}
+
+                {currentStep && (
+                    <section className="bq-reg-step" aria-labelledby="bq-reg-step-title">
+                        {/* Progress (R1): every step can be tapped. */}
+                        {!isLoadingUserChurches && (
+                        <div className="bq-reg-progress">
+                            <p className="bq-reg-progress-label">
+                                Step {stepIndex + 1} of {steps.length}: <strong>{currentStep.label}</strong>
+                            </p>
+                            <ol>
+                                {steps.map((step, index) => (
+                                    <li key={step.id}>
+                                        <a
+                                            href={church || step.id === "church" ? getStepPath(eventId, church?.Id, step.id) : undefined}
+                                            aria-current={index === stepIndex ? "step" : undefined}
+                                            className={index < stepIndex ? "is-before" : ""}
+                                            title={step.label}>
+                                            <span className="sr-only">{step.label}</span>
+                                        </a>
+                                    </li>))}
+                            </ol>
                         </div>
-                    )}
-
-                    {/* No church selected prompt */}
-                    {!church && (
-                        <div role="alert" className="alert alert-warning mb-2">
-                            <FontAwesomeIcon icon="fas faChurch" />
-                            <div>
-                                <div className="text-md font-bold mt-0 mb-0">
-                                    Choose one of your churches below or search for a different church to get started.
-                                </div>
-                            </div>
-                        </div>
-                    )}
-
-                    {/* Quick-select cards */}
-                    {!isLoadingUserChurches && userChurches.length > 0 && (
-                        <div className="flex flex-wrap gap-2 mb-2">
-                            {userChurches.map(c => {
-                                const isSelected = church?.Id === c.Id;
-                                const location = formatChurchLocation(c);
-                                return (
-                                    <button
-                                        key={`church-${c.Id}`}
-                                        type="button"
-                                        className={`btn btn-sm m-0 ${isSelected ? "btn-primary" : "btn-outline"}`}
-                                        onClick={() => setChurch(c)}
-                                    >
-                                        <FontAwesomeIcon icon="fas faChurch" classNames={["mr-1"]} />
-                                        {c.Name}
-                                        {location && <span className="text-xs ml-1 opacity-70">({location})</span>}
-                                    </button>
-                                );
-                            })}
-                        </div>
-                    )}
-
-                    {isLoadingUserChurches && (
-                        <div className="flex items-center gap-2 mb-2">
-                            <span className="loading loading-spinner loading-sm"></span>
-                            <span className="text-sm">Loading your churches...</span>
-                        </div>
-                    )}
-
-                    {/* Register with a different church */}
-                    {!showChurchSearch && (
-                        <button
-                            type="button"
-                            className="btn btn-ghost btn-xs m-0"
-                            onClick={() => setShowChurchSearch(true)}
-                        >
-                            <FontAwesomeIcon icon="fas faMagnifyingGlass" classNames={["mr-1"]} />
-                            Register with a different church
-                        </button>
-                    )}
-
-                    {showChurchSearch && (
-                        <div className="mt-2 p-2 border border-base-300 rounded-lg">
-                            <ChurchLookup
-                                onSelect={(_selected, info, authorized) => {
-                                    setChurch(info);
-                                    setShowChurchSearch(false);
-
-                                    if (authorized) {
-                                        addUserChurch(info);
-                                    }
-                                }}
-                                showTips={ChurchSearchTips.Basic}
-                                allowAdd={!isEventOwner ? {
-                                    authorizeChurch: true,
-                                    onAdding: setAddingChurchState
-                                } : undefined}
-                            />
-                        </div>
-                    )}
-                </CollapsibleSection>
-
-                {/* Only show remaining sections if a church is selected and no permission error */}
-                {church && !churchPermissionError && (
-                    <>
-                        {/* Teams Section */}
-                        {(event.MaxTeamMembers > 0 || (registration?.Teams?.length ?? 0) > 0) && (
-                            <CollapsibleSection
-                                pageId={PAGE_ID}
-                                elementId="teams"
-                                icon="fas faPeopleGroup"
-                                title="Teams"
-                                defaultOpen
-                                badges={teamCount > 0 ? [{ className: "badge-lg badge-soft badge-primary", icon: "fas faPeopleGroup", text: teamCount.toString() }] : []}
-                                addTopPadding={true}
-                            >
-                                {/* Team Cards */}
-                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
-                                    {registration?.Teams?.map(team => (
-                                        <div
-                                            key={`team-${team.Id}`}
-                                            className="card card-compact bg-base-200 border border-base-300 cursor-pointer hover:border-primary transition-colors mt-0"
-                                            onClick={() => setEditingTeam(team)}
-                                        >
-                                            <div className="card-body p-3">
-                                                <h3 className="card-title text-sm m-0">{team.Name}</h3>
-                                                {event.Divisions?.length > 0 && (() => {
-                                                    const divisionLabel = team.DivisionId
-                                                        ? event.Divisions.find(d => d.Id === team.DivisionId)?.Label
-                                                        : undefined;
-                                                    return divisionLabel
-                                                        ? <p className="text-xs m-0 opacity-70">{divisionLabel}</p>
-                                                        : (
-                                                            <p className="text-xs m-0 text-warning font-semibold">
-                                                                <FontAwesomeIcon icon="fas faTriangleExclamation" classNames={["mr-1"]} />
-                                                                Select a division
-                                                            </p>
-                                                        );
-                                                })()}
-                                                {(() => {
-                                                    const coachCount = team.People?.filter(p => p.Role === PersonRole.Coach).length ?? 0;
-                                                    const quizzerCount = (team.People?.length ?? 0) - coachCount;
-                                                    return (
-                                                        <p className="text-xs m-0">
-                                                            <FontAwesomeIcon icon="fas faPerson" classNames={["mr-1"]} />
-                                                            {quizzerCount} quizzer{quizzerCount !== 1 ? "s" : ""}
-                                                            {coachCount > 0 && (
-                                                                <>
-                                                                    <FontAwesomeIcon icon="fas faChalkboardUser" classNames={["ml-2", "mr-1"]} />
-                                                                    {coachCount} coach{coachCount !== 1 ? "es" : ""}
-                                                                </>
-                                                            )}
-                                                        </p>
-                                                    );
-                                                })()}
-                                                {event.CalculatePayment && (
-                                                    <p className="text-xs m-0 font-semibold">
-                                                        ${team.CalculatedPayment?.toFixed(2) ?? "0.00"}
-                                                    </p>
-                                                )}
-                                            </div>
-                                        </div>
-                                    ))}
-
-                                    {isEditable && sectionEditability.teams && (
-                                        <button
-                                            type="button"
-                                            className="card card-compact bg-base-200 border border-dashed border-base-300 hover:border-primary transition-colors cursor-pointer mt-0"
-                                            onClick={() => setIsAddingTeam(true)}
-                                        >
-                                            <div className="card-body p-3 items-center justify-center">
-                                                <FontAwesomeIcon icon="fas faPlus" />
-                                                <span className="text-xs">Add Team</span>
-                                            </div>
-                                        </button>
-                                    )}
-                                </div>
-                            </CollapsibleSection>
                         )}
 
-                        {/* Individual Quizzers Section */}
-                        {event.AllowIndividuals && (
-                            <CollapsibleSection
-                                pageId={PAGE_ID}
-                                elementId="individuals"
-                                icon="fas faPerson"
-                                title="Individual Quizzers"
-                                defaultOpen
-                                badges={individualCount > 0 ? [{ className: "badge-lg badge-soft badge-info", icon: "fas faPerson", text: individualCount.toString() }] : []}
-                                addTopPadding={true}
-                            >
-                                <PersonCardDeck
-                                    icon="fas faPerson"
-                                    event={event}
-                                    scope={EventFieldScopes.QuizzerWithoutTeam}
-                                    addLabel="Add Quizzer"
-                                    people={registration?.Individuals ?? []}
-                                    isEditable={isEditable && sectionEditability.teams}
-                                    onEdit={person => setEditingPerson({ person, role: PersonRole.QuizzerWithoutTeam })}
-                                    onAdd={() => setEditingPerson({ person: null, role: PersonRole.QuizzerWithoutTeam })}
-                                />
-                            </CollapsibleSection>
-                        )}
+                        <h2 id="bq-reg-step-title" className="bq-reg-step-title">
+                            <FontAwesomeIcon icon={currentStep.icon} />
+                            {currentStep.label}
+                        </h2>
 
-                        {/* Officials Section */}
-                        <CollapsibleSection
-                            pageId={PAGE_ID}
-                            elementId="officials"
-                            icon="fas faUserTie"
-                            title="Officials"
-                            defaultOpen
-                            badges={officialCount > 0 ? [{ className: "badge-lg badge-soft badge-info", icon: "fas faUserTie", text: officialCount.toString() }] : []}
-                            addTopPadding={true}
-                        >
-                            <PersonCardDeck
-                                icon="fas faUserTie"
-                                event={event}
-                                scope={EventFieldScopes.Official}
-                                addLabel="Add Official"
-                                people={registration?.Officials ?? []}
-                                isEditable={isEditable && sectionEditability.officials}
-                                onEdit={person => setEditingPerson({ person, role: PersonRole.Official })}
-                                onAdd={() => setEditingPerson({ person: null, role: PersonRole.Official })}
-                            />
-                        </CollapsibleSection>
+                        {church && churchPermissionError && currentStep.id !== "church"
+                            ? (
+                                <div role="alert" className="alert alert-error">
+                                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                                    <span>{churchPermissionError}</span>
+                                </div>)
+                            : renderStepContent(currentStep)}
 
-                        {/* Attendees Section */}
-                        {event.AllowAttendees && (
-                            <CollapsibleSection
-                                pageId={PAGE_ID}
-                                elementId="attendees"
-                                icon="fas faUsers"
-                                title="Attendees"
-                                defaultOpen
-                                badges={attendeeCount > 0 ? [{ className: "badge-lg badge-soft badge-info", icon: "fas faUsers", text: attendeeCount.toString() }] : []}
-                                addTopPadding={true}
-                            >
-                                <PersonCardDeck
-                                    icon="fas faPerson"
-                                    event={event}
-                                    scope={EventFieldScopes.Attendee}
-                                    addLabel="Add Attendee"
-                                    people={registration?.Attendees ?? []}
-                                    isEditable={isEditable && sectionEditability.attendees}
-                                    onEdit={person => setEditingPerson({ person, role: PersonRole.Attendee })}
-                                    onAdd={() => setEditingPerson({ person: null, role: PersonRole.Attendee })}
-                                />
-                            </CollapsibleSection>
-                        )}
+                        {/* Large Back and Next (R1). Every change is already saved. */}
+                        {currentStep.id !== "church" && (
+                            <nav className="bq-reg-nav" aria-label="Registration steps">
+                                {previousStep
+                                    ? (
+                                        <a className="btn btn-lg btn-outline" href={getStepPath(eventId, church?.Id, previousStep.id)}>
+                                            <FontAwesomeIcon icon="fas faArrowLeft" />
+                                            Back
+                                        </a>)
+                                    : <span />}
+                                {nextStep && (
+                                    <a className="btn btn-lg btn-primary" href={getStepPath(eventId, church?.Id, nextStep.id)}>
+                                        Next: {nextStep.label}
+                                        <FontAwesomeIcon icon="fas faArrowRight" />
+                                    </a>)}
+                                {!nextStep && isRegistered && (
+                                    <a className="btn btn-lg btn-primary" href={`#/${eventId}/${church!.Id}`}>
+                                        <FontAwesomeIcon icon="fas faCheck" />
+                                        Done
+                                    </a>)}
+                            </nav>)}
+                        {currentStep.id === "review" && !isRegistered && (
+                            <p className="bq-reg-lead">
+                                Nothing is registered yet: add at least one team or person to register.
+                            </p>)}
+                    </section>)}
 
-                        {/* Forms Section */}
-                        {registration?.Forms && registration.Forms.length > 0 && (
-                            <CollapsibleSection
-                                pageId={PAGE_ID}
-                                elementId="forms"
-                                icon="fas faFileLines"
-                                title="Forms"
-                                badges={[{ className: `badge-lg badge-soft ${formCompleted === formTotal ? "badge-success" : "badge-warning"}`, icon: "fas faFileLines", text: `${formCompleted}/${formTotal}` }]}
-                                addTopPadding={true}
-                            >
-                                <div className="overflow-x-auto">
-                                    <table className="table table-sm">
-                                        <thead>
-                                            <tr>
-                                                <th>Person</th>
-                                                <th>Form</th>
-                                                <th>Status</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {registration.Forms.map((form, idx) => (
-                                                <tr key={`form-${idx}`}>
-                                                    <td>{form.PersonName}</td>
-                                                    <td>
-                                                        {form.Url
-                                                            ? <a href={form.Url} target="_blank" rel="noopener noreferrer" className="link">{form.FormName}</a>
-                                                            : form.FormName}
-                                                    </td>
-                                                    <td>
-                                                        {form.CompletedDate
-                                                            ? <span className="text-success"><FontAwesomeIcon icon="fas faCircleCheck" classNames={["mr-1"]} />{DataTypeHelpers.formatDate(form.CompletedDate)}</span>
-                                                            : <span className="text-error"><FontAwesomeIcon icon="fas faCircleXmark" classNames={["mr-1"]} />Incomplete</span>}
-                                                    </td>
-                                                </tr>
-                                            ))}
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </CollapsibleSection>
-                        )}
-
-                        {/* Payment Section */}
-                        {(event.CalculatePayment || event.TrackPayments) && registration && (
-                            <CollapsibleSection
-                                pageId={PAGE_ID}
-                                elementId="payment"
-                                icon="fas faCreditCard"
-                                title="Payment"
-                                defaultOpen
-                                addTopPadding={true}
-                            >
-                                <div className="flex flex-wrap gap-4 items-center">
-                                    {event.CalculatePayment && (
-                                        <div className="stat p-2 pb-0 pt-0 mt-0 mb-0">
-                                            <div className="stat-title text-xs">Total Cost</div>
-                                            <div className="stat-value text-lg">${registration.CalculatedPayment?.toFixed(2) ?? "0.00"}</div>
-                                        </div>
-                                    )}
-                                    {event.TrackPayments && (
-                                        <>
-                                            <div className="stat p-2 pt-0 pb-0 mt-0 mb-0">
-                                                <div className="stat-title text-xs">Balance Due</div>
-                                                <div className="stat-value text-lg text-error">${registration.PaymentBalance?.toFixed(2) ?? "0.00"}</div>
-                                            </div>
-                                            {registration.PendingPaymentBalance > 0 && (
-                                                <div className="stat p-2 pt-0 pb-0 mt-0 mb-0">
-                                                    <div className="stat-title text-xs">Pending</div>
-                                                    <div className="stat-value text-lg text-warning">${registration.PendingPaymentBalance.toFixed(2)}</div>
-                                                </div>
-                                            )}
-                                        </>
-                                    )}
-                                </div>
-                                <div className="flex gap-2 mt-2">
-                                    {(event.TrackPayments && Math.max(0, registration.CalculatedPayment - registration.PendingPaymentBalance - registration.PaymentBalance) > 0) && (
-                                        <button
-                                            type="button"
-                                            className="btn btn-sm btn-primary m-0"
-                                            disabled={isStartingPayment}
-                                            onClick={async () => {
-                                                setIsStartingPayment(true);
-                                                setStartPaymentError(null);
-                                                try {
-                                                    // Send the browser back to the receipt once the payment completes.
-                                                    // "paid" tells the receipt to reconcile before it renders.
-                                                    const returnUrl = `${window.location.origin}${window.location.pathname}#/${eventId}/${registration.ChurchId}/Receipt?paid=1`;
-                                                    const paymentLink = await RegistrationService.startPayment(
-                                                        auth,
-                                                        eventId,
-                                                        registration.ChurchId,
-                                                        returnUrl
-                                                    );
-
-                                                    window.location.href = paymentLink.Url;
-                                                } catch (err: any) {
-                                                    // The services reject with a RemoteServiceError object rather than an
-                                                    // Error instance, so the message has to be read off whatever was thrown.
-                                                    setStartPaymentError(err?.message || "Failed to start the payment");
-                                                    setIsStartingPayment(false);
-                                                }
-                                            }}>
-                                            {isStartingPayment ? (
-                                                <span className="loading loading-spinner loading-xs mr-1"></span>
-                                            ) : (
-                                                <FontAwesomeIcon icon="fas faCreditCard" classNames={["mr-1"]} />
-                                            )}
-                                            Pay Now
-                                        </button>
-                                    )}
-                                    <a
-                                        href={`#/${eventId}/${church!.Id}/Receipt`}
-                                        className="btn btn-sm btn-outline m-0"
-                                    >
-                                        <FontAwesomeIcon icon="fas faReceipt" classNames={["mr-1"]} />
-                                        View Receipt
-                                    </a>
-                                </div>
-                                {startPaymentError && (
-                                    <div className="alert alert-error alert-sm mt-2">
-                                        <span className="text-sm">{startPaymentError}</span>
-                                    </div>
-                                )}
-
-                                {/* Payment Entries Management (Event Owners Only) */}
-                                {event.TrackPayments && isEventOwner && (
-                                    <div className="mt-6">
-                                        <div className="flex items-center justify-between mb-2">
-                                            <h4 className="font-semibold text-base">Payment Entries</h4>
-                                            <button
-                                                type="button"
-                                                className="btn btn-sm btn-primary m-0"
-                                                disabled={isSavingPaymentEntries || !paymentEntriesLoaded}
-                                                onClick={() => setEditingPaymentEntry({
-                                                    Id: null,
-                                                    EntryDate: DataTypeHelpers.formatDate(DataTypeHelpers.nowDateOnly, "yyyy-MM-dd")!,
-                                                    Description: "",
-                                                    Amount: 0,
-                                                    IsAutomated: false
-                                                } as PaymentEntry)}
-                                            >
-                                                <FontAwesomeIcon icon="fas faPlus" classNames={["mr-1"]} />
-                                                Add Entry
-                                            </button>
-                                        </div>
-
-                                        {paymentEntriesError && (
-                                            <div className="alert alert-error mb-2">
-                                                <FontAwesomeIcon icon="fas faCircleExclamation" classNames={["mr-2"]} />
-                                                {paymentEntriesError}
-                                            </div>
-                                        )}
-
-                                        {!paymentEntriesLoaded ? (
-                                            <div className="flex items-center gap-2 py-4">
-                                                <span className="loading loading-spinner loading-sm"></span>
-                                                <span className="text-base-content/60">Loading payment entries...</span>
-                                            </div>
-                                        ) : paymentEntries.length > 0 ? (
-                                            <div className="overflow-x-auto">
-                                                <table className="table table-sm">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Date</th>
-                                                            <th>Description</th>
-                                                            <th className="text-right">Amount</th>
-                                                            <th className="w-10"></th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        {paymentEntries.map((entry, index) => (
-                                                            <tr key={entry.Id ?? `new-${index}`} className={entry.IsAutomated ? "opacity-60" : ""}>
-                                                                <td>{DataTypeHelpers.formatDate(DataTypeHelpers.parseDateOnly(entry.EntryDate), "MMM d, yyyy")}</td>
-                                                                <td>
-                                                                    {entry.Description}
-                                                                    {entry.IsAutomated && (
-                                                                        <span className="badge badge-sm badge-ghost ml-2">Auto</span>
-                                                                    )}
-                                                                </td>
-                                                                <td className={`text-right ${entry.Amount >= 0 ? "text-success" : "text-error"}`}>
-                                                                    {entry.Amount >= 0 ? "" : "-"}${Math.abs(entry.Amount).toFixed(2)}
-                                                                </td>
-                                                                <td>
-                                                                    {!entry.IsAutomated && (
-                                                                        <button
-                                                                            type="button"
-                                                                            className="btn btn-xs btn-ghost m-0"
-                                                                            disabled={isSavingPaymentEntries}
-                                                                            onClick={() => setEditingPaymentEntry(entry)}
-                                                                            title="Edit entry"
-                                                                        >
-                                                                            <FontAwesomeIcon icon="fas faPen" />
-                                                                        </button>
-                                                                    )}
-                                                                </td>
-                                                            </tr>
-                                                        ))}
-                                                    </tbody>
-                                                    <tfoot>
-                                                        <tr className="font-semibold">
-                                                            <td colSpan={2}>Total</td>
-                                                            <td className="text-right">
-                                                                ${paymentEntries.reduce((sum, e) => sum + e.Amount, 0).toFixed(2)}
-                                                            </td>
-                                                            <td></td>
-                                                        </tr>
-                                                    </tfoot>
-                                                </table>
-                                            </div>
-                                        ) : (
-                                            <p className="text-base-content/60 italic">No payment entries recorded.</p>
-                                        )}
-
-                                        {paymentEntriesDirty && (
-                                            <div className="flex gap-2 mt-4">
-                                                <button
-                                                    type="button"
-                                                    className="btn btn-sm btn-success m-0"
-                                                    disabled={isSavingPaymentEntries}
-                                                    onClick={async () => {
-                                                        if (!church) return;
-                                                        setIsSavingPaymentEntries(true);
-                                                        setPaymentEntriesError(null);
-                                                        try {
-                                                            await RegistrationService.updateChurchBalanceEntries(
-                                                                auth,
-                                                                eventId,
-                                                                church!.Id!,
-                                                                paymentEntries
-                                                            );
-                                                            setPaymentEntriesDirty(false);
-                                                            // Reload registration to get updated balance
-                                                            reloadRegistration();
-                                                        } catch (err) {
-                                                            setPaymentEntriesError(err instanceof Error ? err.message : "Failed to save payment entries");
-                                                        } finally {
-                                                            setIsSavingPaymentEntries(false);
-                                                        }
-                                                    }}
-                                                >
-                                                    {isSavingPaymentEntries ? (
-                                                        <span className="loading loading-spinner loading-xs mr-1"></span>
-                                                    ) : (
-                                                        <FontAwesomeIcon icon="fas faCheck" classNames={["mr-1"]} />
-                                                    )}
-                                                    Save Payment Entries
-                                                </button>
-                                                <button
-                                                    type="button"
-                                                    className="btn btn-sm btn-ghost m-0"
-                                                    disabled={isSavingPaymentEntries}
-                                                    onClick={() => {
-                                                        // Re-fetch payment entries to revert changes
-                                                        setPaymentEntriesLoaded(false);
-                                                        setPaymentEntriesDirty(false);
-                                                        setPaymentEntriesError(null);
-                                                    }}
-                                                >
-                                                    Cancel
-                                                </button>
-                                            </div>)}
-                                    </div>)}
-                            </CollapsibleSection>
-                        )}
-                    </>
-                )}
+                {/* Summary screen (R1): once started, a registration opens here. */}
+                {!currentStep && church && (
+                    <section className="bq-reg-summary">
+                        <h2>Your registration</h2>
+                        {renderStepCards(steps.filter(s => s.id !== "church"))}
+                        {/* Event owners' payment tools stay on the summary screen (R4). */}
+                        {isEventOwner && renderPayment()}
+                    </section>)}
 
             </fieldset>
 
