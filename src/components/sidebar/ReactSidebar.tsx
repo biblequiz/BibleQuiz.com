@@ -69,6 +69,24 @@ function getCurrentPage(entries: ReactSidebarEntry[]): ReactSidebarLink | null {
     return null;
 }
 
+/**
+ * Gets the label for the phone section bar (D28): the current page's name, or its top-level group's name when
+ * the page is just that group's "General" page (e.g. "Scoring").
+ */
+function getCurrentPageLabel(entries: ReactSidebarEntry[], page: ReactSidebarLink): string {
+    if (page.label !== "General") {
+        return page.label;
+    }
+
+    for (const entry of entries) {
+        if (entry.type === "group" && getCurrentPage(entry.entries) === page) {
+            return entry.label;
+        }
+    }
+
+    return page.label;
+}
+
 export default function ReactSidebar({ loadingElementId, parentId, nested }: Props) {
 
     const auth = AuthManager.useNanoStore();
@@ -92,6 +110,13 @@ export default function ReactSidebar({ loadingElementId, parentId, nested }: Pro
             setCurrentPage(getCurrentPage(sidebarState.entries));
         }
     }, [loadingElementId, sidebarState, isLatestShowParent]);
+
+    useEffect(() => {
+        const label = document.querySelector<HTMLElement>("[data-bq-section-label]");
+        if (label && currentPage) {
+            label.textContent = `In this event: ${getCurrentPageLabel(sidebarState.entries, currentPage)}`;
+        }
+    }, [currentPage, sidebarState]);
 
     if (!sidebarState || sidebarState.entries.length === 0) {
         return null;

@@ -105,4 +105,14 @@ Shell:
 3. Footer: Terms, Privacy and social links.
 4. Breadcrumb "← [Task Hub]" above page titles.
 
-Not in this pass: the Program first-visit prompt (D14), the workspace Section Navigation restyle (D28), and My registrations (D29).
+Not in this pass: the Program first-visit prompt (D14) and My registrations (D29). The workspace Section Navigation restyle (D28) was built in a follow-up PR.
+
+## Finish: rebase on `main`, then merge
+
+`main` keeps moving while this work sits on `preview`: `bible-quiz-bot` commits new events and results to `main` every few hours, and other fixes land there too. So, as the last step of the whole plan (after Phase 2):
+
+1. Rebase `preview` onto the latest `main`, so it carries every event and fix added since `preview` was reset (D26). Resolve conflicts in favor of `main`'s generated data (`src/data/generated/`) and this plan's shell changes.
+2. Run `npm ci && npm run build` and check the new hubs against the new events (Happening Now, the Event List, the season pickers).
+3. Only then open the PR from `preview` into `main` (D8). Merging it deploys the site, so it happens only when the owner asks.
+
+Doing the same rebase before each hallway test (D31) keeps `preview` showing current events.

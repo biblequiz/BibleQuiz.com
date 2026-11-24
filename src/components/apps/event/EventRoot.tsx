@@ -164,7 +164,7 @@ function buildSidebar(
         [
             {
                 type: 'group' as const,
-                label: "Registration",
+                label: "Registration setup",
                 icon: "fas faUserPen",
                 entries: [
                     {
@@ -297,6 +297,7 @@ function buildSidebar(
                     {
                         type: 'group' as const,
                         label: "Databases",
+                        icon: "fas faServer",
                         collapsed: true,
                         entries: databaseEntries
                     }
@@ -311,7 +312,6 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faFileImport"
         };
-        sidebarEntries.push(registrationsEntry);
 
         const paymentsEntry: ReactSidebarLink =
         {
@@ -321,7 +321,6 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faSackDollar"
         };
-        sidebarEntries.push(paymentsEntry);
 
         const reportsEntry: ReactSidebarLink =
         {
@@ -331,7 +330,6 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faBook"
         };
-        sidebarEntries.push(reportsEntry);
 
         const permissionsEntry: ReactSidebarLink =
         {
@@ -341,7 +339,6 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faLock"
         };
-        sidebarEntries.push(permissionsEntry);
 
         const emailEntry: ReactSidebarLink =
         {
@@ -351,7 +348,6 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faEnvelope"
         };
-        sidebarEntries.push(emailEntry);
 
         const cloneEntry: ReactSidebarLink =
         {
@@ -361,7 +357,6 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faClone"
         };
-        sidebarEntries.push(cloneEntry);
 
         const deleteEntry: ReactSidebarLink =
         {
@@ -371,7 +366,26 @@ function buildSidebar(
             isCurrent: false,
             icon: "fas faTrash"
         };
-        sidebarEntries.push(deleteEntry);
+
+        // Workspace groups (D28). Dashboard, Registration setup and Scoring must stay the first three entries:
+        // the current page of a registration or scoring route is found by its route index.
+        sidebarEntries.push(
+            {
+                type: 'group' as const,
+                label: "Summary",
+                icon: "fas faClipboardList",
+                collapsed: true,
+                entries: [registrationsEntry, paymentsEntry]
+            } as ReactSidebarGroup,
+            reportsEntry,
+            {
+                // Rare or risky actions sit under More.
+                type: 'group' as const,
+                label: "More",
+                icon: "fas faEllipsis",
+                collapsed: true,
+                entries: [permissionsEntry, emailEntry, cloneEntry, deleteEntry]
+            } as ReactSidebarGroup);
 
         switch (lastSegmentId) {
             case DASHBOARD_ID:

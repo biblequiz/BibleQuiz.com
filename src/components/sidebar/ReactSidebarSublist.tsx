@@ -55,8 +55,17 @@ export default function ReactSidebarSublist({
                                         if (previousHash !== currentHash ||
                                             currentPath !== window.location.pathname) {
                                             setCurrentPage(entry);
+
+                                            // On phones the navigation is a full-screen sheet (D28): close it
+                                            // once the new page is showing.
+                                            const menuButton = document.querySelector("starlight-menu-button") as
+                                                (HTMLElement & { setExpanded?: (expanded: boolean) => void }) | null;
+                                            if (menuButton?.getAttribute("aria-expanded") === "true") {
+                                                menuButton.setExpanded?.(false);
+                                            }
                                         }
                                     }}
+                                    title={entry.label}
                                     aria-current={entry.isCurrent && "page"}
                                     className={`cursor-pointer ${entry.attrs?.className ?? ""} ${nested ? "" : "large"}`}
                                     {...entry.attrs}
@@ -83,7 +92,7 @@ export default function ReactSidebarSublist({
                                         ) || !entry.collapsed
                                     }
                                 >
-                                    <summary>
+                                    <summary title={entry.label}>
                                         <div className="group-label">
                                             {entry.icon && (
                                                 <FontAwesomeIcon icon={entry.icon} classNames={iconClassNames} />

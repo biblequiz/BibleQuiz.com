@@ -8,6 +8,10 @@ import { getTaskForPath } from 'utils/Tasks';
  * Navigation; the site-wide Tasks are in the header's Menu.
  */
 const task = getTaskForPath(Astro.url.pathname);
+
+// The event workspace names the current page once its navigation loads (D28).
+const isWorkspace = /^\/manage-events\/event\/?$/i.test(Astro.url.pathname);
+const label = isWorkspace ? 'In this event' : `In this section${task ? `: ${task.label}` : ''}`;
 ---
 
 <starlight-menu-button class="print:hidden">
@@ -18,7 +22,7 @@ const task = getTaskForPath(Astro.url.pathname);
 	>
 		<Icon name="list-format" class="open-menu" />
 		<Icon name="close" class="close-menu" />
-		<span class="label">In this section{task ? `: ${task.label}` : ''}</span>
+		<span class="label" data-bq-section-label>{label}</span>
 		<Icon name="down-caret" class="caret" />
 	</button>
 </starlight-menu-button>
