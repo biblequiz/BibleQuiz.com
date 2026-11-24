@@ -105,7 +105,7 @@ Shell:
 3. Footer: Terms, Privacy and social links.
 4. Breadcrumb "← [Task Hub]" above page titles.
 
-Not in this pass: the Program first-visit prompt (D14) and My registrations (D29). D28 was built in a follow-up PR (workspace groups, collapse to icons, the phone sheet label, and the "/ [Event]" breadcrumb). It still uses the existing Starlight and React sidebars rather than one shared Section Navigation component; that replacement remains open.
+Not in this pass: the Program first-visit prompt (D14). My registrations (D29) was built in a follow-up PR at `/my-registrations/`, using the existing `GET /api/Registration?cid=` route (no backend change). D28 was built in a follow-up PR (workspace groups, collapse to icons, the phone sheet label, and the "/ [Event]" breadcrumb). It still uses the existing Starlight and React sidebars rather than one shared Section Navigation component; that replacement remains open.
 
 ## Finish: rebase on `main`, then merge
 

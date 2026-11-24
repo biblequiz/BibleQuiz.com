@@ -1,0 +1,39 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+// @ts-ignore
+import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
+import MyRegistrations from "components/tasks/MyRegistrations";
+import type { EventTypeList } from "types/EventTypes";
+import { getLiveAndUpcomingData } from "utils/LiveEvents";
+
+/**
+ * My registrations (D29), opened from the account menu. Upcoming vs past is decided in the browser from each
+ * event's end date, so it stays right between builds.
+ */
+const { recentSeasonEvents, futureEvents } = await getLiveAndUpcomingData(import.meta.url);
+
+const eventEndDates: Record<string, string> = {};
+for (const list of [recentSeasonEvents, futureEvents] as (EventTypeList | null)[]) {
+    for (const events of Object.values(list ?? {})) {
+        for (const event of Object.values(events)) {
+            if (event.endDate) {
+                eventEndDates[event.id] = event.endDate;
+            }
+        }
+    }
+}
+
+const frontmatter: StarlightPageFrontmatter = {
+    title: "My registrations",
+    description: "Your church's event registrations: open one to add teams, people and forms, or to pay.",
+    template: "doc",
+    tableOfContents: false,
+    pagefind: false,
+};
+---
+
+<StarlightPage frontmatter={frontmatter}>
+    <div class="not-content bq-wide">
+        <MyRegistrations client:only="react" eventEndDates={eventEndDates} />
+    </div>
+</StarlightPage>

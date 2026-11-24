@@ -109,7 +109,7 @@ const PATH_RULES: readonly [RegExp, TaskId][] = [
     [/^\/(manage|manage-events|admin)(\/|$)/, "manage"],
 
     // Live & upcoming events, including registration.
-    [/^\/(events|register)(\/|$)/, "events"],
+    [/^\/(events|register|my-registrations)(\/|$)/, "events"],
 
     // Rules are downloads, even when they live under a season.
     [/^\/(jbq|tbq)\/seasons\/\d{4}\/rules(\/|$)/i, "downloads"],
