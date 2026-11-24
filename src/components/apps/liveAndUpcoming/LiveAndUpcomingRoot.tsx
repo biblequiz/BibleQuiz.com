@@ -2,10 +2,10 @@ import FontAwesomeIcon from "components/FontAwesomeIcon";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { EventInfo, EventTypeList } from "types/EventTypes";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
-import EventCard from "./EventCard";
+import EventStatusCard, { type EventStatus } from "./EventStatusCard";
 import EventListFilters, { matchesFilter } from "components/EventListFilters";
 import type { RegionInfo, DistrictInfo } from "types/RegionAndDistricts";
-import { $eventFilters, type EventFilterConfiguration } from "utils/SharedState";
+import { $eventFilters } from "utils/SharedState";
 import { useStore } from "@nanostores/react";
 
 interface Props {
@@ -20,6 +20,7 @@ interface Props {
 
 interface ProcessedEvents {
     liveEvents: EventItem[];
+    openEvents: EventItem[];
     upcomingEvents: EventItem[];
     recentEvents: EventItem[];
 }
@@ -29,88 +30,38 @@ interface EventItem {
     type: string;
     urlSlug: string;
     sortDate: Date;
-    isNationals: boolean;
-    isRegistrationOpen: boolean;
+    status: EventStatus;
 }
 
-function renderEventSection(
-    title: string,
-    titleClass: string,
-    icon: string,
-    events: EventItem[],
-    eventFilters: EventFilterConfiguration,
-    typeFilterOverride: string | undefined,
-    isLive: boolean,
-    currentSeason?: number,
-    seasonLink?: string) {
+interface EventSection {
+    id: string;
+    title: string;
+    icon: string;
+    events: EventItem[];
+}
 
-    if (events.length === 0) {
-        return null;
-    }
-
-    const filteredEvents = eventFilters
-        ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type, false, typeFilterOverride))
-        : events;
-
-    const seasonLinkElement = seasonLink && (
-        <a
-            className="card live-events-card w-90 card-sm shadow-sm border-2 border-solid mt-4 relative"
-            href={seasonLink}
-            target="_self">
-            <div className="card-body p-2 pl-4">
-                <div className="mt-3">
-                    <h2 className="card-title">
-                        Past {typeFilterOverride?.toUpperCase()} Events for {currentSeason} Season
-                    </h2>
-                    <p className="text-base mt-1">
-                        Search through the full list of past events across the current season.
-                    </p>
-                </div>
-                <FontAwesomeIcon
-                    icon="fas faArrowRight"
-                    classNames={["icon text-lg rtl:flip absolute top-4 right-4"]}
-                />
-            </div>
-        </a>);
-
+/**
+ * Renders one section of the Event List, its heading showing how many events it holds (D18, D30).
+ */
+function renderEventSection(section: EventSection, today: Date) {
     return (
-        <div className="mt-4">
-            <div className={`badge badge-${titleClass} text-md p-4 mt-0`}>
-                <FontAwesomeIcon icon={`fas ${icon}`} />
-                <span className="font-bold">{title}</span>
+        <section key={section.id} id={section.id} className="bq-event-section">
+            <h2>
+                <FontAwesomeIcon icon={`fas ${section.icon}`} />
+                {section.title} <span className="bq-count">({section.events.length})</span>
+            </h2>
+            <div className="bq-event-grid">
+                {section.events.map(event => (
+                    <EventStatusCard
+                        key={event.info.id}
+                        type={event.type}
+                        urlSlug={event.urlSlug}
+                        event={event.info}
+                        status={event.status}
+                        today={today}
+                    />))}
             </div>
-            {filteredEvents.length > 0 && (
-                <div className="flex flex-wrap gap-4">
-                    {filteredEvents.map(event => {
-                        return (
-                            <EventCard
-                                key={event.info.id}
-                                info={{
-                                    type: event.type,
-                                    urlSlug: event.urlSlug,
-                                    event: event.info,
-                                    isNationals: event.isNationals,
-                                    isRegistrationOpen: event.isRegistrationOpen
-                                }}
-                                isLive={isLive}
-                            />
-                        );
-                    })}
-                    {seasonLinkElement}
-                </div>)}
-            {filteredEvents.length === 0 && seasonLinkElement && seasonLinkElement}
-            {(filteredEvents.length === 0 && !seasonLinkElement) && (
-                <div role="alert" className="alert alert-info alert-outline">
-                    <FontAwesomeIcon icon="far faLightbulb" />
-                    <span className="text-base-content">
-                        No events match your filter criteria. Click the
-                        <div className="border-1 p-1 rounded-md inline-block ml-1 mr-1">
-                            <FontAwesomeIcon icon="fas faFilterCircleXmark" />&nbsp;
-                            Reset Search Filters</div> button above
-                        to clear all filters.
-                    </span>
-                </div>)}
-        </div>);
+        </section>);
 }
 
 export default function LiveAndUpcomingRoot({
@@ -139,19 +90,15 @@ export default function LiveAndUpcomingRoot({
         return urlParameters.get('type') || undefined;
     }, [urlParameters]);
 
-    const { liveEvents, upcomingEvents, recentEvents } = useMemo(
+    const { today, liveEvents, openEvents, upcomingEvents, recentEvents } = useMemo(
         () => {
-            if (!futureEvents && !recentSeasonEvents) {
-                return { liveEvents: [], upcomingEvents: [], recentEvents: [] } as ProcessedEvents;
-            }
-
-            const liveEvents: EventItem[] = [];
-            const upcomingEvents: EventItem[] = [];
-            const recentEvents: EventItem[] = [];
-
-            // Collect all the events.
             const today: Date = new Date();
             today.setHours(0, 0, 0, 0);
+
+            const liveEvents: EventItem[] = [];
+            const openEvents: EventItem[] = [];
+            const upcomingEvents: EventItem[] = [];
+            const recentEvents: EventItem[] = [];
 
             const recentCutoff: Date = new Date(today.getTime());
             recentCutoff.setDate(today.getDate() - 10);
@@ -176,57 +123,74 @@ export default function LiveAndUpcomingRoot({
 
                         const startDate = DataTypeHelpers.parseDateOnly(event.startDate)!;
                         const endDate = DataTypeHelpers.parseDateOnly(event.endDate)!;
+                        const isNationals = urlSlug === "nationals/results/";
+                        const isLive = startDate <= today && endDate >= today;
 
                         const eventItem: EventItem = {
                             info: event,
                             sortDate: startDate,
                             type: type,
                             urlSlug: urlSlug,
-                            isNationals: urlSlug === "nationals/results/",
-                            isRegistrationOpen: false
+                            status: "live",
                         };
 
                         // TBQ has a special landing page for Nationals. If the date is in the future,
                         // redirect to the special landing page.
-                        const isLive = startDate <= today && endDate >= today;
-                        if (eventItem.isNationals && !isLive && type === "tbq") {
+                        if (isNationals && startDate > today && type === "tbq") {
                             eventItem.urlSlug = "nationals/";
                         }
 
                         if (isLive) {
                             liveEvents.push(eventItem);
-                        } else {
-                            let isUpcoming = false;
-                            if (eventItem.isNationals && startDate > today) {
-                                isUpcoming = true;
+                        }
+                        else if (startDate > today) {
+                            // Nationals registration doesn't go through the Event List.
+                            const registrationEnd = isNationals
+                                ? null
+                                : DataTypeHelpers.parseDateOnly(event.registrationEndDate);
+
+                            // Registration stays open through the end of the closing day.
+                            if (registrationEnd && registrationEnd >= today) {
+                                eventItem.status = "registrationOpen";
+                                openEvents.push(eventItem);
                             }
                             else {
-                                isUpcoming = startDate > today;
-                                if (event.registrationEndDate) {
-                                    const date = DataTypeHelpers.parseDateOnly(event.registrationEndDate)!;
-                                    // Registration stays open through the end of the closing day.
-                                    eventItem.isRegistrationOpen = date >= today;
-                                }
-                            }
-
-                            if (isUpcoming) {
+                                eventItem.status = "upcoming";
                                 upcomingEvents.push(eventItem);
                             }
-                            else if (endDate >= recentCutoff && endDate < today) {
-                                recentEvents.push(eventItem);
-                            }
+                        }
+                        else if (endDate >= recentCutoff && endDate < today) {
+                            eventItem.status = "finished";
+                            recentEvents.push(eventItem);
                         }
                     }
                 }
             }
 
-            // Sort the lists.
-            const sortedLive = liveEvents.sort((a, b) => a.sortDate.getTime() - b.sortDate.getTime());
-            const sortedRecent = recentEvents.sort((a, b) => b.sortDate.getTime() - a.sortDate.getTime());
-            const sortedUpcoming = upcomingEvents.sort((a, b) => a.sortDate.getTime() - b.sortDate.getTime());
-
-            return { liveEvents: sortedLive, upcomingEvents: sortedUpcoming, recentEvents: sortedRecent };
+            const byDate = (a: EventItem, b: EventItem) => a.sortDate.getTime() - b.sortDate.getTime();
+            return {
+                today,
+                liveEvents: liveEvents.sort(byDate),
+                openEvents: openEvents.sort(byDate),
+                upcomingEvents: upcomingEvents.sort(byDate),
+                recentEvents: recentEvents.sort((a, b) => byDate(b, a)),
+            } as ProcessedEvents & { today: Date };
         }, [futureEvents, recentSeasonEvents]);
+
+    const applyFilters = (events: EventItem[]) => eventFilters
+        ? events.filter(event => matchesFilter(eventFilters, event.urlSlug, event.info, event.type, false, urlType))
+        : events;
+
+    const seasonLink = urlType ? currentSeasonLinks[urlType] : undefined;
+    const sections: EventSection[] = [
+        { id: "live-now", title: "Live now", icon: "faTowerBroadcast", events: applyFilters(liveEvents) },
+        { id: "registration-open", title: "Registration open", icon: "faPenToSquare", events: applyFilters(openEvents) },
+        { id: "coming-up", title: "Coming up", icon: "faCalendarDays", events: applyFilters(upcomingEvents) },
+        { id: "recently-finished", title: "Recently finished", icon: "faFlagCheckered", events: applyFilters(recentEvents) },
+    ];
+
+    const totalEvents = liveEvents.length + openEvents.length + upcomingEvents.length + recentEvents.length;
+    const shownSections = sections.filter(section => section.events.length > 0);
 
     const eventListRef = useRef<HTMLDivElement>(null);
 
@@ -270,31 +234,32 @@ export default function LiveAndUpcomingRoot({
                 districts={districts}
                 allowTypeFilter={!urlType}
             />
-            {renderEventSection(
-                "LIVE EVENTS",
-                "success",
-                "faTowerBroadcast",
-                liveEvents,
-                eventFilters,
-                urlType,
-                true)}
-            {renderEventSection(
-                "JUST HAPPENED",
-                "info",
-                "faClockRotateLeft",
-                recentEvents,
-                eventFilters,
-                urlType,
-                true,
-                currentSeason,
-                urlType ? currentSeasonLinks[urlType] : undefined)}
-            {renderEventSection(
-                "COMING UP",
-                "primary",
-                "faCalendarDays",
-                upcomingEvents,
-                eventFilters,
-                urlType,
-                false)}
+            {shownSections.length > 0 && (
+                <nav className="bq-jump bq-event-jump" aria-label="On this page">
+                    {shownSections.map(section => (
+                        <a key={section.id} href={`#${section.id}`}>
+                            <FontAwesomeIcon icon={`fas ${section.icon}`} />
+                            {section.title} ({section.events.length})
+                        </a>))}
+                </nav>)}
+            {shownSections.map(section => renderEventSection(section, today))}
+            {shownSections.length === 0 && totalEvents > 0 && (
+                <div role="alert" className="alert alert-info alert-outline mt-4">
+                    <FontAwesomeIcon icon="far faLightbulb" />
+                    <span className="text-base-content">
+                        No events match your filters. Use
+                        <span className="border-1 p-1 rounded-md inline-block ml-1 mr-1">
+                            <FontAwesomeIcon icon="fas faFilterCircleXmark" />&nbsp;
+                            Reset Search Filters</span> above
+                        to see every event{urlType && ", or switch between JBQ and TBQ at the top"}.
+                    </span>
+                </div>)}
+            {totalEvents === 0 && (
+                <p className="mt-4">There are no live or upcoming events right now. Check back soon.</p>)}
+            {seasonLink && (
+                <a className="bq-event-more" href={seasonLink}>
+                    All {urlType?.toUpperCase()} events from the {currentSeason} season
+                    <FontAwesomeIcon icon="fas faArrowRight" classNames={["rtl:flip"]} />
+                </a>)}
         </div>);
 }
