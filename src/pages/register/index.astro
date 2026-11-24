@@ -3,6 +3,9 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
 // @ts-ignore
 import type { StarlightPageFrontmatter } from "@astrojs/starlight/types";
 import RegistrationRoot from "components/apps/registration/RegistrationRoot";
+import { PUBLIC_EVENTS_ELEMENT_ID, type PublicEventSummary } from "components/apps/registration/RegistrationSignIn";
+import type { EventTypeList } from "types/EventTypes";
+import { getLiveAndUpcomingData } from "utils/LiveEvents";
 
 const frontmatter: StarlightPageFrontmatter = {
     title: "Event Registration",
@@ -10,9 +13,28 @@ const frontmatter: StarlightPageFrontmatter = {
     hideAdsOnPrint: true,
     pagefind: false
 };
+
+// Public details of this season's and upcoming events, so a signed-out visitor sees which event they're
+// registering for (R2). The registration API itself needs sign-in.
+const { recentSeasonEvents, futureEvents } = await getLiveAndUpcomingData(import.meta.url);
+const publicEvents: Record<string, PublicEventSummary> = {};
+for (const list of [recentSeasonEvents, futureEvents] as (EventTypeList | null)[]) {
+    for (const [type, events] of Object.entries(list ?? {})) {
+        for (const event of Object.values(events)) {
+            const location = [event.locationName, event.locationCity].filter(Boolean).join(", ");
+            publicEvents[event.id] = {
+                name: event.name,
+                type,
+                dates: event.dates,
+                location: location || null,
+            };
+        }
+    }
+}
 ---
 
 <StarlightPage frontmatter={frontmatter}>
+    <script is:inline type="application/json" id={PUBLIC_EVENTS_ELEMENT_ID} set:html={JSON.stringify(publicEvents).replaceAll("<", "\\u003c")} />
     <div id="registration-fallback" class="flex justify-center items-center">
         <span class="loading loading-spinner loading-xl"></span>&nbsp; Loading Page ...
     </div>
