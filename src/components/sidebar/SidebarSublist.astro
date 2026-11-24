@@ -52,6 +52,7 @@ const { sublist, nested } = Astro.props;
                         <div>
                             <a
                                 href={entry.attrs?.href || entry.href}
+                                title={entry.label}
                                 aria-current={entry.isCurrent && "page"}
                                 class:list={[
                                     { large: !nested },
@@ -73,18 +74,36 @@ const { sublist, nested } = Astro.props;
                             </a>
                         </div>
                     )}
-                    {(renderAsReactEntry || entry.type === "group") && (
+                    {renderAsReactEntry && (
+                        <div id="reactsidebar-root" class="bq-workspace-nav">
+                            <p class="bq-nav-heading">This event</p>
+                            <div
+                                id="react-sidebar-fallback"
+                                class="flex justify-center"
+                            >
+                                <span class="loading loading-spinner loading-sm" />
+                                <span class="text-sm">
+                                    &nbsp;Loading Menu Items
+                                </span>
+                            </div>
+                            <ReactSidebar
+                                loadingElementId="react-sidebar-fallback"
+                                parentId="reactsidebar-root"
+                                nested={true}
+                                client:only="react"
+                            />
+                        </div>
+                    )}
+                    {!renderAsReactEntry && entry.type === "group" && (
                         <details
-                            id={renderAsReactEntry ? "reactsidebar-root" : undefined}
                             open={
                                 !entry.collapsed ||
-                                renderAsReactEntry ||
                                 flattenSidebar(entry.entries).some(
                                     (i) => i.isCurrent,
                                 )
                             }
                         >
-                            {!renderAsReactEntry && <SidebarRestorePoint />}
+                            <SidebarRestorePoint />
                             <summary>
                                 <div class="group-label">
                                     <span class="large">{entry.label}</span>
@@ -102,31 +121,10 @@ const { sublist, nested } = Astro.props;
                                     size="1.25rem"
                                 />
                             </summary>
-                            {renderAsReactEntry && (
-                                <>
-                                    <div
-                                        id="react-sidebar-fallback"
-                                        class="flex justify-center"
-                                    >
-                                        <span class="loading loading-spinner loading-sm" />
-                                        <span class="text-sm">
-                                            &nbsp;Loading Menu Items
-                                        </span>
-                                    </div>
-                                    <ReactSidebar
-                                        loadingElementId="react-sidebar-fallback"
-                                        parentId="reactsidebar-root"
-                                        nested={true}
-                                        client:only="react"
-                                    />
-                                </>
-                            )}
-                            {!renderAsReactEntry && (
-                                <Astro.self
-                                    sublist={entry.entries}
-                                    nested
-                                />
-                            )}
+                            <Astro.self
+                                sublist={entry.entries}
+                                nested
+                            />
                         </details>
                     )}
                 </li>
