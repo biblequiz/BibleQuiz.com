@@ -80,6 +80,15 @@ function RootLayout({ loadingElementId }: Props) {
 
     // Subscribe to dirty state
     const routeParameters: Readonly<Params<string>> = useParams();
+
+    // The workspace needs an event. Opened without one (e.g. /manage-events/event/ with no #/{event}), it used
+    // to fail with "500 - Internal Error"; send the person to the list of events instead.
+    const hasNoEvent = !routeParameters.eventId && !routeParameters["*"];
+    useEffect(() => {
+        if (hasNoEvent) {
+            window.location.replace("/manage-events/");
+        }
+    }, [hasNoEvent]);
     const [showPrompt, setShowPrompt] = useState(false);
 
     useStore(sharedDirtyWindowState);
@@ -153,7 +162,7 @@ function buildSidebar(
     databases: OnlineDatabaseSummary[] | undefined,
     navigate: NavigateFunction): ReactSidebarEntry[] {
 
-    if (routeParameters["*"]) {
+    if (routeParameters["*"] || !routeParameters.eventId) {
         return [];
     }
 
@@ -446,6 +455,10 @@ function buildSidebar(
             }
 
             currentPage = (currentPage as ReactSidebarGroup).entries[segment + segmentOffset];
+            if (!currentPage) {
+                // The route doesn't map to an entry, so no entry is marked as the current page.
+                return sidebarEntries;
+            }
         }
     }
 
@@ -455,7 +468,7 @@ function buildSidebar(
         }
     }
 
-    if (currentPage.type === "link") {
+    if (currentPage?.type === "link") {
         (currentPage as ReactSidebarLink).isCurrent = true;
     }
 
