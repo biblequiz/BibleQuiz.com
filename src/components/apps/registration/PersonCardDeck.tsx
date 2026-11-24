@@ -1,5 +1,6 @@
 import FontAwesomeIcon from "components/FontAwesomeIcon";
-import type { JSX } from "react";
+import { useState, type JSX } from "react";
+import ConfirmationDialog from "components/ConfirmationDialog";
 import { EventField, EventFieldDataType, EventFieldScopes, type EventInfo } from "types/services/EventsService";
 import { PersonRole } from "types/services/PeopleService";
 import { OfficialRole, RegistrationOfficial, type RegistrationPerson } from "types/services/RegistrationService";
@@ -35,6 +36,15 @@ interface Props {
 
     /** Optional message shown when the deck is empty. */
     emptyMessage?: string;
+
+    /**
+     * Removes a person, after the user confirms (optional; without it there's no Remove button). If it throws,
+     * the error's message is shown above the cards.
+     */
+    onRemove?: (person: RegistrationPerson) => Promise<void> | void;
+
+    /** What removing does, shown when confirming (e.g. whether it's saved right away). */
+    removeMessage?: string;
 }
 
 /**
@@ -54,10 +64,9 @@ function formatFieldValue(field: EventField, rawValue: string): string {
 }
 
 /**
- * Card deck that renders a list of RegistrationPersons as clickable cards.
- * Each card shows the person's name, role, and any custom fields that have
- * a value, formatted in a readable way (e.g. "Yes/No" for booleans).
- * An "Add" card-button appears at the end of the deck when `isEditable`.
+ * The people of one role in a registration (R3 in docs/task-navigation-plan.md): a large "+ Add" button at the
+ * top, then a card per person with their details and Edit and Remove buttons. Each card shows the person's name,
+ * role, and any custom fields that have a value, formatted in a readable way (e.g. "Yes/No" for booleans).
  */
 export default function PersonCardDeck({
     title,
@@ -70,7 +79,39 @@ export default function PersonCardDeck({
     onEdit,
     onAdd,
     emptyMessage,
+    onRemove,
+    removeMessage = "They'll be taken off this registration.",
 }: Props) {
+
+    const [removingPerson, setRemovingPerson] = useState<RegistrationPerson | null>(null);
+    const [isRemoving, setIsRemoving] = useState(false);
+    // Server messages arrive HTML-encoded; local fallbacks are plain text and are never rendered as HTML.
+    const [removeError, setRemoveError] = useState<{ html?: string; text?: string } | null>(null);
+
+    const getPersonName = (person: RegistrationPerson) =>
+        person.Person?.FirstName || person.Person?.LastName
+            ? `${person.Person?.FirstName ?? ""} ${person.Person?.LastName ?? ""}`.trim()
+            : "(Unnamed)";
+
+    const confirmRemove = async (person: RegistrationPerson) => {
+        setRemovingPerson(null);
+        if (!onRemove) {
+            return;
+        }
+
+        setIsRemoving(true);
+        setRemoveError(null);
+        try {
+            await onRemove(person);
+        }
+        catch (error) {
+            const message = (error as Error)?.message;
+            setRemoveError(message ? { html: message } : { text: `${getPersonName(person)} couldn't be removed.` });
+        }
+        finally {
+            setIsRemoving(false);
+        }
+    };
 
     const scopedFields = event.Fields?.filter(
         f => DataTypeHelpers.hasEnumFlag(f.Scopes, scope)) ?? [];
@@ -108,13 +149,27 @@ export default function PersonCardDeck({
                     <span>{title}</span>
                     <span className="badge badge-neutral">{people.length}</span>
                 </h3>)}
-            <div className="flex flex-wrap gap-3">
+            {isEditable && (
+                <button
+                    type="button"
+                    className="btn btn-primary bq-people-add"
+                    disabled={isRemoving}
+                    onClick={onAdd}>
+                    <FontAwesomeIcon icon="fas faPlus" />
+                    {addLabel}
+                </button>)}
+            {removeError && (
+                <div role="alert" className="alert alert-error mt-2">
+                    <FontAwesomeIcon icon="fas faCircleExclamation" />
+                    {/* The server HTML-encodes the values in its messages. */}
+                    {removeError.html
+                        ? <span dangerouslySetInnerHTML={{ __html: removeError.html }} />
+                        : <span>{removeError.text}</span>}
+                </div>)}
+            <div className="bq-people">
                 {people.map((person, index) => {
 
-                    const personName = person.Person?.FirstName || person.Person?.LastName
-                        ? `${person.Person?.FirstName ?? ""} ${person.Person?.LastName ?? ""}`.trim()
-                        : "(Unnamed)";
-
+                    const personName = getPersonName(person);
                     const fieldRows = renderFieldRows(person);
 
                     // Officials have additional metadata to surface.
@@ -141,43 +196,50 @@ export default function PersonCardDeck({
                     }
 
                     return (
-                        <button
-                            type="button"
+                        <article
                             key={`person-${person.Id ?? person.PersonId ?? index}`}
-                            className="card card-sm bg-base-100 border-2 border-base-300 w-72 text-left hover:border-primary transition-colors mt-0"
-                            onClick={() => onEdit(person)}>
-                            <div className="card-body p-3">
-                                <div className="flex justify-between items-start gap-2">
-                                    <h4 className="card-title text-base mt-0">
-                                        {personName}
-                                    </h4>
-                                </div>
+                            className="bq-person">
+                            <h4 className="bq-person-name">
+                                <FontAwesomeIcon icon={icon} />
+                                {personName}
+                            </h4>
+                            {(officialMetadata || fieldRows.length > 0) && (
                                 <ul className="m-0 p-0 list-none">
                                     {officialMetadata}
                                     {fieldRows}
-                                </ul>
-                                {isEditable && (
-                                    <div className="text-right mt-2">
-                                        <span className="text-xs text-primary">
-                                            <FontAwesomeIcon icon="fas faPenToSquare" /> Edit
-                                        </span>
-                                    </div>)}
+                                </ul>)}
+                            <div className="bq-person-actions">
+                                <button
+                                    type="button"
+                                    className="btn btn-sm btn-outline m-0"
+                                    disabled={isRemoving}
+                                    onClick={() => onEdit(person)}>
+                                    <FontAwesomeIcon icon={isEditable ? "fas faPenToSquare" : "fas faEye"} />
+                                    {isEditable ? "Edit" : "View"}
+                                </button>
+                                {isEditable && onRemove && (
+                                    <button
+                                        type="button"
+                                        className="btn btn-sm btn-ghost text-error m-0"
+                                        disabled={isRemoving}
+                                        onClick={() => setRemovingPerson(person)}>
+                                        <FontAwesomeIcon icon="fas faTrash" />
+                                        Remove
+                                    </button>)}
                             </div>
-                        </button>);
+                        </article>);
                 })}
-                {isEditable && (
-                    <button
-                        type="button"
-                        className="card card-sm w-72 border-2 border-dashed border-base-300 hover:border-primary hover:bg-base-200 transition-colors flex items-center justify-center text-base-content/70 mt-0"
-                        onClick={onAdd}
-                        style={{ minHeight: "8rem" }}>
-                        <div className="card-body items-center justify-center text-center p-3 h-full">
-                            <FontAwesomeIcon icon="fas faPlus" classNames={["text-2xl"]} />
-                            <span className="font-medium">{addLabel}</span>
-                        </div>
-                    </button>)}
-                {!isEditable && people.length === 0 && emptyMessage && (
-                    <div className="text-base-content/60 italic">{emptyMessage}</div>)}
             </div>
+            {people.length === 0 && (
+                <p className="bq-people-empty">{emptyMessage ?? "Nobody added yet."}</p>)}
+            {removingPerson && (
+                <ConfirmationDialog
+                    title={`Remove ${getPersonName(removingPerson)}?`}
+                    yesLabel="Remove"
+                    noLabel="Keep"
+                    onYes={() => void confirmRemove(removingPerson)}
+                    onNo={() => setRemovingPerson(null)}>
+                    {removeMessage}
+                </ConfirmationDialog>)}
         </section>);
 }

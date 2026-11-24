@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import PersonDialog from "components/PersonDialog";
 import PersonLookupDialog from "components/PersonLookupDialog";
@@ -163,6 +163,15 @@ export default function RegistrationPersonDialog({
         dialogRef,
         () => onClose(null), isShowingLookup || isEditingRequiredDetails || isSaving);
 
+    // Adding someone starts with the search of people already in the system, with "New [role]" as the
+    // fallback (R3 in docs/task-navigation-plan.md). It opens once this dialog is showing, so the search
+    // stacks on top of it: the last modal opened is the one in front.
+    useEffect(() => {
+        if (!existingPerson && !readOnly) {
+            setIsShowingLookup(true);
+        }
+    }, []);
+
     /** Saves the result (if there's a save handler) and closes the dialog once it succeeds. */
     const complete = async (result: RegistrationPerson | "delete"): Promise<void> => {
         if (!onSave) {
@@ -230,6 +239,10 @@ export default function RegistrationPersonDialog({
     const handleSelectExistingPerson = (selected: Person | null): void => {
         setIsShowingLookup(false);
         if (!selected) {
+            // Closing the search before anyone was chosen cancels adding.
+            if (!existingPerson && !linkedPerson) {
+                onClose(null);
+            }
             return;
         }
 
@@ -325,7 +338,7 @@ export default function RegistrationPersonDialog({
     return (
         <>
             <dialog ref={dialogRef} className="modal">
-                <div className="modal-box w-11/12 max-w-full md:w-3/4 lg:w-1/2">
+                <div className="modal-box bq-sheet w-11/12 max-w-full md:w-3/4 lg:w-1/2">
                     <h3 className="font-bold text-lg flex items-center gap-2">
                         <FontAwesomeIcon icon="fas faUser" />
                         <span>{title}</span>
@@ -463,7 +476,7 @@ export default function RegistrationPersonDialog({
                             disabled={readOnly}
                         />
 
-                        <div className="mt-4 flex flex-wrap gap-2 justify-end">
+                        <div className="bq-sheet-footer mt-4 flex flex-wrap gap-2 justify-end">
                             {existingPerson && !readOnly && (
                                 <button
                                     type="button"
@@ -480,11 +493,11 @@ export default function RegistrationPersonDialog({
                                 {isSaving
                                     ? <span className="loading loading-spinner loading-xs"></span>
                                     : <FontAwesomeIcon icon="fas faCheck" />}
-                                Save
+                                Done
                             </button>
                             <button
                                 type="button"
-                                className="btn btn-warning mt-0"
+                                className="btn btn-outline mt-0"
                                 disabled={isSaving}
                                 onClick={() => onClose(null)}>
                                 Cancel
@@ -496,7 +509,7 @@ export default function RegistrationPersonDialog({
 
             {isShowingLookup && (
                 <PersonLookupDialog
-                    title={`Find a ${roleLabel}`}
+                    title={`Find ${/^[AEIOU]/i.test(roleLabel) ? "an" : "a"} ${roleLabel}`}
                     parentType={PersonParentType.Church}
                     parentId={church.Id ?? undefined}
                     eventId={event.Id ?? undefined}

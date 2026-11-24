@@ -119,7 +119,7 @@ Two PRs into `preview`:
 | PR | Covers | What |
 | --- | --- | --- |
 | A | R1, R2, R4 | Routes `#/{event}` (choose church), `#/{event}/{church}` (summary once registered, else the first step), `#/{event}/{church}/step/{step}`. Progress bar, Back/Next, "Registering for: [church] · Change". One church: preselected. Several: large choices marked "already registered". Signed out: an event card with Sign in. Forms grouped by person with "n of m forms done". Review & pay recaps each step and keeps the existing Pay now, Receipt and owner payment entries. |
-| B | R3 | People steps: "+ Add [role]" at the top opens the person search first; cards with Edit and Remove; full-screen dialogs on phones. Teams named first, then quizzers added inside them. |
+| B | R3 (built) | People steps: "+ Add [role]" at the top opens the person search first; cards with Edit and Remove; full-screen dialogs on phones. Teams named first, then quizzers added inside them. |
 
 The existing screen's sections, dialogs and saves are reused, not rewritten: each change still saves immediately.
 
