@@ -158,7 +158,7 @@ export default function AuthButton({ type }: Props) {
     }
     else {
         // Someone new gets their own button, which opens the sign-in page on its "Create account" screen. Students
-        // should sign up with Google: typing a Gmail address there makes a separate email-code account instead.
+        // should sign up with Google: typing a Gmail address there makes a separate email-and-password account instead.
         const isProtectedRoute = type === AuthButtonType.ProtectedRoute;
         const isBusy = authManager.popupType != PopupType.None;
         const layoutClassName = isProtectedRoute
