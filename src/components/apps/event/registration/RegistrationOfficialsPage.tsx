@@ -47,7 +47,8 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || getDefaultExtendedDate(general.registrationEndDate));
 
     // The server requires an extended date to fall after the end of registration and no later than
-    // the first day of the event. A date equal to the end of registration (the default) is rejected.
+    // the first day of the event. A date equal to the end of registration is rejected, which is why
+    // the default is the following day.
     const getExtendedDateMessage = (isAllowed: boolean, value: string): string | null => {
         if (!isAllowed || !value) {
             return null;
@@ -184,6 +185,7 @@ export default function RegistrationOfficialsPage({ }: Props) {
                 </label>
                 <input
                     ref={extendedOfficialsRef}
+                    aria-label="Last day for officials to register"
                     type="date"
                     className="input w-full"
                     value={extendedOfficialsEndDate || ""}
@@ -218,6 +220,7 @@ export default function RegistrationOfficialsPage({ }: Props) {
                         </label>
                         <input
                             ref={extendedAttendeesRef}
+                            aria-label="Last day for attendees to register"
                             type="date"
                             className="input w-full"
                             value={extendedAttendeesEndDate || ""}

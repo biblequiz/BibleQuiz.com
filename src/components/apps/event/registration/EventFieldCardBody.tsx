@@ -321,6 +321,7 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                         {controlType === EventFieldControlType.GradeList && (
                             <div className="mt-0">
                                 <select
+                                    aria-label="Lowest grade"
                                     className="select select-info w-auto mt-0"
                                     value={minNumber ?? 0}
                                     onChange={e => {
@@ -338,6 +339,7 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                                 </select>
                                 <span> - </span>
                                 <select
+                                    aria-label="Highest grade"
                                     className="select select-info w-auto mt-0"
                                     value={maxNumber ?? 13}
                                     onChange={e => {
@@ -359,6 +361,7 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                             <div className="mt-0">
                                 <input
                                     type="number"
+                                    aria-label="Minimum value"
                                     className="input input-info w-1/4 mt-0"
                                     value={minNumber ?? undefined}
                                     onChange={e => setMinNumber(parseInt(e.target.value))}
@@ -373,6 +376,7 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                                 <span> - </span>
                                 <input
                                     type="number"
+                                    aria-label="Maximum value"
                                     className="input input-info w-1/4 mt-0"
                                     value={maxNumber ?? undefined}
                                     onChange={e => setMaxNumber(parseInt(e.target.value))}

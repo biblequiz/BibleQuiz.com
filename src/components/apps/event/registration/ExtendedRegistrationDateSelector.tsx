@@ -47,6 +47,7 @@ export default function ExtendedRegistrationDateSelector({
                 <div className="mt-0 mb-0">
                     <input
                         name={`extendedRegistrationDate-${id}`}
+                        aria-label={`Last day to register for ${label}`}
                         type="date"
                         className="input w-full"
                         value={extendedDate || registrationEndDate || undefined}
