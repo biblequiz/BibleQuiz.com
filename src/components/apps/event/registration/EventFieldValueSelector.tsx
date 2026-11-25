@@ -34,6 +34,7 @@ export default function EventFieldValueSelector({ values, setValues }: Props) {
                 <input
                     type="text"
                     ref={possibleValueRef}
+                    aria-label="Possible value"
                     value={possibleValue?.text ?? ""}
                     onChange={e => {
                         e.target.setCustomValidity("");

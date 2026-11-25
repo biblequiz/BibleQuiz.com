@@ -23,6 +23,11 @@ export default function RegistrationDivisionsPage({ }: Props) {
     const [eventDivisions, setEventDivisions] = useState<EventDivision[]>(() => [...divisions]);
     const [deleteIndex, setDeleteIndex] = useState<number | null>(null);
 
+    // Card values are edited in place, so this re-renders every card and lets each one re-check
+    // itself (e.g. a duplicate label that was just fixed on another card).
+    const [, setRevision] = useState(0);
+    const revalidate = () => setRevision(r => r + 1);
+
     return (
         <>
             <RegistrationPageForm
@@ -71,6 +76,7 @@ export default function RegistrationDivisionsPage({ }: Props) {
                                 </button>
                             </div>
                             <EventDivisionCardBody
+                                onChanged={revalidate}
                                 division={division}
                                 getAbbreviationValidityMessage={newAbbreviation => {
                                     if (newAbbreviation) {

@@ -77,6 +77,7 @@ export default function EventFieldPaymentSelector({
                     <FontAwesomeIcon icon="fas faDollarSign" />
                     <input
                         type="number"
+                        aria-label="Cost if selected"
                         value={cost}
                         onChange={e => setCost(parseFloat(e.target.value))}
                         onBlur={e => {
@@ -104,6 +105,7 @@ export default function EventFieldPaymentSelector({
                 <span className="italic text-sm">except when</span>&nbsp;
                 <select
                     name={`paymentexceptions_${fieldLabel}`}
+                    aria-label="Payment exception"
                     className="select select-bordered w-1/2 mt-0"
                     value={unselectValue ?? ""}
                     onChange={e => {

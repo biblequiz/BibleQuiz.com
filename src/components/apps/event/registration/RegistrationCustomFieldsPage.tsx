@@ -27,6 +27,11 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
     const [eventFields, setEventFields] = useState<EventField[]>(() => [...fields]);
     const [deleteIndex, setDeleteIndex] = useState<number | null>(null);
 
+    // Card values are edited in place, so this re-renders every card and lets each one re-check
+    // itself (e.g. a duplicate label that was just fixed on another card).
+    const [, setRevision] = useState(0);
+    const revalidate = () => setRevision(r => r + 1);
+
     const commonDialogRef = useRef<HTMLDialogElement>(null);
 
     return (
@@ -77,6 +82,7 @@ export default function RegistrationCustomFieldsPage({ }: Props) {
                                 </button>
                             </div>
                             <EventFieldCardBody
+                                onChanged={revalidate}
                                 field={field}
                                 allowIndividuals={teamsAndQuizzers.allowIndividuals}
                                 allowAttendees={officialsAndAttendees.allowAttendees}

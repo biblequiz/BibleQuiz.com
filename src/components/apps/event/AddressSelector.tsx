@@ -40,25 +40,52 @@ export default function AddressSelector({
     const [streetAddress, setStreetAddress] = useState(address?.StreetAddress || "");
     const [city, setCity] = useState(address?.City || "");
     const [state, setState] = useState(address?.State || "");
-    const [zipCode, setZipCode] = useState(address?.ZipCode || undefined);
+    const [zipText, setZipText] = useState(address?.ZipCode ? String(address.ZipCode).padStart(5, "0") : "");
 
-    const getLatestAddress = (): Address | null => {
-        if (DataTypeHelpers.isNullOrEmpty(streetAddress) &&
-            DataTypeHelpers.isNullOrEmpty(city) &&
-            !zipCode) {
+    // Only the 5 digits are stored, so a ZIP+4 (what browsers often autofill) is accepted too.
+    const parseZipCode = (text: string): number | null => {
+        const match = /^\s*(\d{5})(?:-\d{4})?\s*$/.exec(text);
+        return match ? parseInt(match[1], 10) : null;
+    };
+
+    const buildAddress = (
+        newStreetAddress: string,
+        newCity: string,
+        newState: string,
+        newZipText: string): Address | null => {
+
+        if (DataTypeHelpers.isNullOrEmpty(newStreetAddress) &&
+            DataTypeHelpers.isNullOrEmpty(newCity) &&
+            DataTypeHelpers.isNullOrEmpty(newZipText)) {
 
             return null;
         }
 
         return {
-            StreetAddress: streetAddress,
-            City: city,
-            State: state,
-            ZipCode: zipCode || null
+            StreetAddress: newStreetAddress,
+            City: newCity,
+            State: newState,
+            ZipCode: parseZipCode(newZipText)
         };
     };
 
-    const hasAddress = !!getLatestAddress();
+    // Every change goes to the page straight away. Waiting for blur meant that a browser
+    // autofill (which fills every field without blurring any of them) left the page holding
+    // the old address until each field had been tabbed through.
+    const updateAddress = (
+        newStreetAddress: string,
+        newCity: string,
+        newState: string,
+        newZipText: string) => {
+
+        setStreetAddress(newStreetAddress);
+        setCity(newCity);
+        setState(newState);
+        setZipText(newZipText);
+        setAddress(buildAddress(newStreetAddress, newCity, newState, newZipText));
+    };
+
+    const hasAddress = !!buildAddress(streetAddress, city, state, zipText);
 
     return (
         <div className="grid grid-cols-1 md:grid-cols-6 gap-2 p-2 mt-0">
@@ -73,8 +100,10 @@ export default function AddressSelector({
                     className="input w-full"
                     value={name}
                     maxLength={500}
-                    onChange={e => setName(e.target.value)}
-                    onBlur={e => setAddressName(e.target.value)}
+                    onChange={e => {
+                        setName(e.target.value);
+                        setAddressName(e.target.value);
+                    }}
                     required={nameRequired}
                     placeholder={label}
                 />
@@ -82,12 +111,12 @@ export default function AddressSelector({
             <div className="w-full mt-0 md:col-span-2">
                 <input
                     name={`streetAddress-${id}`}
+                    aria-label="Street address"
                     type="text"
                     className="input w-full"
                     value={streetAddress}
                     maxLength={200}
-                    onChange={e => setStreetAddress(e.target.value)}
-                    onBlur={() => setAddress(getLatestAddress())}
+                    onChange={e => updateAddress(e.target.value, city, state, zipText)}
                     required={addressRequired || hasAddress}
                     placeholder="123 Main St (Street Address)"
                 />
@@ -95,12 +124,12 @@ export default function AddressSelector({
             <div className="w-full mt-0 md:col-span-2">
                 <input
                     name={`city-${id}`}
+                    aria-label="City"
                     type="text"
                     className="input w-full"
                     value={city}
                     maxLength={100}
-                    onChange={e => setCity(e.target.value)}
-                    onBlur={() => setAddress(getLatestAddress())}
+                    onChange={e => updateAddress(streetAddress, e.target.value, state, zipText)}
                     required={addressRequired || hasAddress}
                     placeholder="Anytown (City)"
                 />
@@ -108,10 +137,10 @@ export default function AddressSelector({
             <div className="w-full mt-0">
                 <select
                     name={`state-${id}`}
+                    aria-label="State"
                     className="select select-bordered w-full mt-0"
                     value={state || ""}
-                    onChange={e => setState(e.target.value)}
-                    onBlur={() => setAddress(getLatestAddress())}
+                    onChange={e => updateAddress(streetAddress, city, e.target.value, zipText)}
                     required={addressRequired || hasAddress}
                 >
                     <option value="" disabled>State</option>
@@ -123,13 +152,16 @@ export default function AddressSelector({
             <div className="w-full mt-0">
                 <input
                     name={`zip-${id}`}
-                    type="number"
+                    aria-label="ZIP code"
+                    type="text"
+                    inputMode="numeric"
+                    autoComplete="postal-code"
                     className="input w-full"
-                    value={zipCode}
-                    minLength={5}
-                    maxLength={6}
-                    onChange={e => setZipCode(e.target.valueAsNumber)}
-                    onBlur={() => setAddress(getLatestAddress())}
+                    value={zipText}
+                    maxLength={10}
+                    pattern="\s*\d{5}(-\d{4})?\s*"
+                    title="Enter a 5-digit ZIP code, like 12345 or 12345-6789."
+                    onChange={e => updateAddress(streetAddress, city, state, e.target.value)}
                     required={addressRequired || hasAddress}
                     placeholder="12345 (Zip Code)"
                 />

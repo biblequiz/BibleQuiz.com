@@ -9,6 +9,7 @@ import RegistrationPageForm from "./RegistrationPageForm";
 import { EventPublishType } from "types/services/EventsService";
 import EventTypeSelectorCards from "./EventTypeSelectorCards";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { useCustomValidity } from "utils/useCustomValidity";
 
 interface Props {
 }
@@ -121,6 +122,66 @@ export default function RegistrationGeneralPage({ }: Props) {
     const [locationName, setLocationName] = useState(general?.locationName || "");
     const [eventLocation, setEventLocation] = useState<Address | null>(general?.locationAddress || null);
 
+    // These mirror the server's date checks (all but its rule that an event can't span two seasons,
+    // which is still only reported after saving) so the problem is shown next to the date at fault,
+    // rather than as a message after saving. They follow the current values (not blur), so
+    // changing any one date re-checks the others.
+    const dateMessages = (() => {
+        const eventStart = DataTypeHelpers.parseDateOnly(startDate);
+        const eventEnd = DataTypeHelpers.parseDateOnly(endDate);
+        const registerStart = DataTypeHelpers.parseDateOnly(registrationStartDate);
+        const registerEnd = DataTypeHelpers.parseDateOnly(registrationEndDate);
+
+        const yesterday = new Date(DataTypeHelpers.nowDateOnly.getTime());
+        yesterday.setDate(yesterday.getDate() - 1);
+
+        const isPast = (d: Date | null) => isNewEvent && d !== null && d.getTime() < yesterday.getTime();
+        const pastMessage = "A new event can't use a date in the past.";
+
+        let eventStartMessage: string | null = null;
+        let eventEndMessage: string | null = null;
+        let registerStartMessage: string | null = null;
+        let registerEndMessage: string | null = null;
+
+        if (isPast(eventStart)) {
+            eventStartMessage = pastMessage;
+        }
+
+        if (eventStart && eventEnd && eventEnd.getTime() < eventStart.getTime()) {
+            eventEndMessage = "The last day of the event can't be before the first day.";
+        }
+        else if (isPast(eventEnd)) {
+            eventEndMessage = pastMessage;
+        }
+        else if (eventStart && eventEnd && (isNewEvent || eventStart.getFullYear() >= 2025)) {
+            const days = Math.round((eventEnd.getTime() - eventStart.getTime()) / 86400000) + 1;
+            if (days > 8) {
+                eventEndMessage = `An event can last at most 8 days, but this one lasts ${days}.`;
+            }
+        }
+
+        if (isPast(registerStart)) {
+            registerStartMessage = pastMessage;
+        }
+
+        if (registerStart && registerEnd && registerEnd.getTime() < registerStart.getTime()) {
+            registerEndMessage = "The last day to register can't be before the first day to register.";
+        }
+        else if (registerEnd && eventStart && registerEnd.getTime() > eventStart.getTime()) {
+            registerEndMessage = "Registration must close on or before the first day of the event.";
+        }
+        else if (isPast(registerEnd)) {
+            registerEndMessage = pastMessage;
+        }
+
+        return { eventStartMessage, eventEndMessage, registerStartMessage, registerEndMessage };
+    })();
+
+    const startDateRef = useCustomValidity<HTMLInputElement>(dateMessages.eventStartMessage);
+    const endDateRef = useCustomValidity<HTMLInputElement>(dateMessages.eventEndMessage);
+    const registrationStartDateRef = useCustomValidity<HTMLInputElement>(dateMessages.registerStartMessage);
+    const registrationEndDateRef = useCustomValidity<HTMLInputElement>(dateMessages.registerEndMessage);
+
     const isTypeReadOnly = !isNewEvent &&
         ((originalEventType === "agjbq" && !allowJbqEvents) ||
             (originalEventType === "agtbq" && !allowTbqEvents));
@@ -199,6 +260,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                         <span className="label-text-alt text-error">*</span>
                     </label>
                     <input
+                        ref={startDateRef}
                         name="startDate"
                         type="date"
                         className="input w-full"
@@ -248,6 +310,7 @@ export default function RegistrationGeneralPage({ }: Props) {
                         <span className="label-text-alt text-error">*</span>
                     </label>
                     <input
+                        ref={endDateRef}
                         name="endDate"
                         type="date"
                         className="input w-full"
@@ -265,7 +328,8 @@ export default function RegistrationGeneralPage({ }: Props) {
                         <span className="label-text-alt text-error">*</span>
                     </label>
                     <input
-                        name="startDate"
+                        ref={registrationStartDateRef}
+                        name="registrationStartDate"
                         type="date"
                         className="input w-full"
                         value={registrationStartDate}
@@ -282,7 +346,8 @@ export default function RegistrationGeneralPage({ }: Props) {
                         <span className="label-text-alt text-error">*</span>
                     </label>
                     <input
-                        name="endDate"
+                        ref={registrationEndDateRef}
+                        name="registrationEndDate"
                         type="date"
                         className="input w-full"
                         value={registrationEndDate}
