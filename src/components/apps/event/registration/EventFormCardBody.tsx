@@ -3,12 +3,16 @@ import { useState } from "react";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { useCustomValidity } from "utils/useCustomValidity";
 import { PersonRole } from "types/services/PeopleService";
 
 interface Props {
     allowAttendees: boolean;
     form: EventExternalForm;
     getLabelValidityMessage: (label: string) => string | null;
+
+    /** Called when a value changes so the page can re-check the other cards for duplicates. */
+    onChanged: () => void;
 }
 
 function trimAndUpdateRequiredState(
@@ -82,10 +86,14 @@ const FORM_WAIVER_HTML_TEMPLATE = `
     this Release as my own free act and deed; and that this Release shall be binding upon me, my heirs, legal representatives and assigns.
 </p>`;
 
-export default function EventFormCardBody({ allowAttendees, form, getLabelValidityMessage }: Props) {
+export default function EventFormCardBody({ allowAttendees, form, getLabelValidityMessage, onChanged }: Props) {
 
     const [isExternalUrl, setIsExternalUrl] = useState(() => DataTypeHelpers.isNullOrEmpty(form.WaiverHtml) || !DataTypeHelpers.isNullOrEmpty(form.Url));
     const [label, setLabel] = useState(form.Label);
+    const labelRef = useCustomValidity<HTMLInputElement>(
+        label.trim()
+            ? getLabelValidityMessage(label)
+            : "Enter a label.");
     const [formRoles, setFormRoles] = useState(form.Roles);
     const [isRequired, setIsRequired] = useState(form.IsRequired);
     const [isTracked, setIsTracked] = useState(form.IsTracked);
@@ -131,19 +139,15 @@ export default function EventFormCardBody({ allowAttendees, form, getLabelValidi
                 <input
                     type="text"
                     className="input input-info w-full mt-0"
+                    ref={labelRef}
                     value={label}
                     onChange={e => {
-                        e.target.setCustomValidity("");
                         setLabel(e.target.value);
-                    }}
-                    onBlur={e => {
-                        const validityMessage = getLabelValidityMessage(label);
-                        (e.target as HTMLInputElement).setCustomValidity(
-                            validityMessage || "");
-
-                        form.Label = trimAndUpdateRequiredState(label, setLabel);
+                        form.Label = e.target.value.trim();
                         sharedDirtyWindowState.set(true);
+                        onChanged();
                     }}
+                    onBlur={() => trimAndUpdateRequiredState(label, setLabel)}
                     maxLength={100}
                     required
                 />

@@ -1,8 +1,9 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import type { RegistrationProviderContext } from "../RegistrationProvider";
 import { useOutletContext } from "react-router-dom";
 import RegistrationPageForm from "./RegistrationPageForm";
 import { sharedDirtyWindowState } from "utils/SharedState";
+import { useCustomValidity } from "utils/useCustomValidity";
 
 interface Props {
 }
@@ -28,19 +29,16 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
     const [allowCustomTeamNames, setAllowCustomTeamNames] = useState(teamsAndQuizzers.allowCustomTeamNames);
     const [allowIndividuals, setAllowIndividuals] = useState(teamsAndQuizzers.allowIndividuals);
 
-    const minTeamMembersRef = useRef<HTMLInputElement>(null);
+    // Follows the current values, so the message disappears as soon as either number is fixed.
+    const minTeamMembersRef = useCustomValidity<HTMLInputElement>(
+        maxTeamMembers < minTeamMembers
+            ? `Min Team Members (${minTeamMembers}) cannot be greater than Max Team Members (${maxTeamMembers}).`
+            : null);
 
     return (
         <RegistrationPageForm
             context={context}
             isSaving={isSaving}
-            setCustomValidation={() => {
-                if (minTeamMembersRef.current && maxTeamMembers < minTeamMembers) {
-                    minTeamMembersRef.current.setCustomValidity("Cannot be greater than Max Team Members.");
-                }
-
-                return true;
-            }}
             persistFormToEventInfo={() => {
                 setTeamsAndQuizzers({
                     ...teamsAndQuizzers,
@@ -70,7 +68,6 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                         value={minTeamMembers}
                         ref={minTeamMembersRef}
                         onChange={e => {
-                            e.target.setCustomValidity("");
                             setMinTeamMembers(e.target.valueAsNumber);
                             sharedDirtyWindowState.set(true);
                         }}
@@ -83,7 +80,7 @@ export default function RegistrationTeamsAndQuizzersPage({ }: Props) {
                         <span className="label-text-alt text-error">*</span>
                     </label>
                     <input
-                        name="minTeamMembers"
+                        name="maxTeamMembers"
                         type="number"
                         className="input w-full"
                         min={1}

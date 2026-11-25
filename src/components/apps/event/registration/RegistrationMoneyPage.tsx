@@ -10,6 +10,7 @@ import AddressSelector from "../AddressSelector";
 import EventFieldCard from "./EventFieldCard";
 import EventRolePaymentCardBody from "./EventRolePaymentCardBody";
 import { PersonRole } from "types/services/PeopleService";
+import { useCustomValidity } from "utils/useCustomValidity";
 
 interface Props {
 }
@@ -28,6 +29,34 @@ export interface RegistrationMoneyInfo {
 }
 
 const PAYMENT_CARD_WIDTH = "md:w-70";
+
+// These mirror the server's checks (StripePaymentProcessor.ValidateStatementDescriptor). The
+// server adds a 2-letter prefix and a separator to what is entered, which is why the limit is
+// 18 characters even though a card statement allows 22.
+const MAX_DESCRIPTOR_LENGTH = 18;
+
+const getDescriptorValidityMessage = (descriptor: string | null): string | null => {
+    const text = (descriptor ?? "").trim();
+    if (!text) {
+        return "Enter the description that should appear on credit card statements.";
+    }
+
+    if (text.length > MAX_DESCRIPTOR_LENGTH) {
+        return `The description can be at most ${MAX_DESCRIPTOR_LENGTH} characters, but this one is ` +
+            `${text.length}. Remove ${text.length - MAX_DESCRIPTOR_LENGTH} (spaces count).`;
+    }
+
+    const invalid = Array.from(new Set(text.match(/[^A-Za-z0-9. -]/g) ?? []));
+    if (invalid.length > 0) {
+        return `The description can only use letters, numbers, spaces, dashes and periods. Remove: ${invalid.join(" ")}`;
+    }
+
+    if (!/[A-Za-z]/.test(text)) {
+        return "The description must contain at least one letter.";
+    }
+
+    return null;
+};
 
 const getRolePaymentControl = (
     label: string,
@@ -85,6 +114,9 @@ export default function RegistrationMoneyPage({ }: Props) {
     const [perTeamCost, setPerTeamCost] = useState<number | null>(money.perTeamCost);
     const [rolePayment, setRolePayment] = useState<EventRolePayment | null>(money.rolePayment);
 
+    const descriptorRef = useCustomValidity<HTMLInputElement>(
+        automatedFeeType !== null ? getDescriptorValidityMessage(automatedPaymentDescriptor) : null);
+
     const handleFeeTypeChange = (
         newCalculatePayment: boolean,
         newTrackPayment: boolean,
@@ -106,7 +138,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                     calculatePayment,
                     trackPayments,
                     automatedFeeType,
-                    automatedPaymentDescriptor,
+                    automatedPaymentDescriptor: automatedPaymentDescriptor?.trim() || null,
                     payeeName,
                     payeeEmail,
                     payeeAddress,
@@ -249,10 +281,10 @@ export default function RegistrationMoneyPage({ }: Props) {
                             <span className="label-text-alt text-error">*</span>
                         </label>
                         <input
+                            ref={descriptorRef}
                             type="text"
                             className="input w-full"
-                            value={automatedPaymentDescriptor || undefined}
-                            maxLength={22}
+                            value={automatedPaymentDescriptor ?? ""}
                             placeholder="Description for charges on Credit Card statements"
                             onChange={e => {
                                 setAutomatedPaymentDescriptor(e.target.value);
@@ -269,7 +301,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                         <input
                             type="email"
                             className="input w-full"
-                            value={payeeEmail || undefined}
+                            value={payeeEmail ?? ""}
                             maxLength={150}
                             placeholder="Payee E-mail Address"
                             onChange={e => {

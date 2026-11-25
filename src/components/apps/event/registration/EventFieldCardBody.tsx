@@ -4,6 +4,7 @@ import { useState } from "react";
 import RichTextEditor from "components/RichTextEditor";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { DataTypeHelpers } from "utils/DataTypeHelpers";
+import { useCustomValidity } from "utils/useCustomValidity";
 import EventFieldValueSelector from "./EventFieldValueSelector";
 import EventFieldPaymentSelector from "./EventFieldPaymentSelector";
 
@@ -12,6 +13,9 @@ interface Props {
     allowAttendees: boolean;
     field: EventField;
     getLabelValidityMessage: (label: string) => string | null;
+
+    /** Called when a value changes so the page can re-check the other cards for duplicates. */
+    onChanged: () => void;
 }
 
 function trimAndUpdateRequiredState(
@@ -71,9 +75,13 @@ const controlTypeRestrictions: Record<EventFieldControlType, ControlTypeRestrict
     [EventFieldControlType.Textbox]: new ControlTypeRestrictions(true, false, false),
 };
 
-export default function EventFieldCardBody({ allowIndividuals, allowAttendees, field, getLabelValidityMessage }: Props) {
+export default function EventFieldCardBody({ allowIndividuals, allowAttendees, field, getLabelValidityMessage, onChanged }: Props) {
 
     const [label, setLabel] = useState<string>(field.Label);
+    const labelRef = useCustomValidity<HTMLInputElement>(
+        label.trim()
+            ? getLabelValidityMessage(label)
+            : "Enter a label.");
     const [visibility, setVisibility] = useState<EventFieldVisibility>(field.Visibility);
     const [controlType, setControlType] = useState(field.ControlType);
     const [scopes, setScopes] = useState<EventFieldScopes>(() => {
@@ -147,20 +155,15 @@ export default function EventFieldCardBody({ allowIndividuals, allowAttendees, f
                 <input
                     type="text"
                     className="input input-info w-full mt-0"
+                    ref={labelRef}
                     value={label}
                     onChange={e => {
-                        e.target.setCustomValidity("");
                         setLabel(e.target.value);
-                    }}
-                    onBlur={e => {
-
-                        const validityMessage = getLabelValidityMessage(label);
-                        (e.target as HTMLInputElement).setCustomValidity(
-                            validityMessage || "");
-
-                        field.Label = trimAndUpdateRequiredState(label, setLabel);
+                        field.Label = e.target.value.trim();
                         sharedDirtyWindowState.set(true);
+                        onChanged();
                     }}
+                    onBlur={() => trimAndUpdateRequiredState(label, setLabel)}
                     maxLength={60}
                     required
                 />

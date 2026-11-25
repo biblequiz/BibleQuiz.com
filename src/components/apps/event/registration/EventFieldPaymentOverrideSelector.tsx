@@ -33,6 +33,14 @@ export default function EventFieldPaymentOverrideSelector({
         }
     }, [isEditFocused]);
 
+    // An age-range message set when "Add" was pressed would otherwise stay on its field after
+    // the user changed a different field to fix it, and block saving the page.
+    const clearValidity = () => {
+        costRef.current?.setCustomValidity("");
+        minAgeRef.current?.setCustomValidity("");
+        maxAgeRef.current?.setCustomValidity("");
+    };
+
     const getOverrideValueControl = () => {
 
         const maxAgeOffset = (overrideMinAge ?? 1);
@@ -45,7 +53,10 @@ export default function EventFieldPaymentOverrideSelector({
                         ref={costRef}
                         type="number"
                         value={overrideCost ?? ""}
-                        onChange={e => setOverrideCost(e.target.valueAsNumber)}
+                        onChange={e => {
+                            clearValidity();
+                            setOverrideCost(e.target.valueAsNumber);
+                        }}
                         min={-10000}
                         max={10000}
                         step={0.01}
@@ -58,7 +69,7 @@ export default function EventFieldPaymentOverrideSelector({
                     value={overrideMinAge ?? ""}
                     onChange={e => {
                         const minAge = Number(e.target.value) ?? null;
-                        e.target.setCustomValidity("");
+                        clearValidity();
                         setOverrideMinAge(minAge);
                     }}
                     className="select select-info w-auto mt-0"
@@ -75,7 +86,7 @@ export default function EventFieldPaymentOverrideSelector({
                     value={overrideMaxAge ?? ""}
                     onChange={e => {
                         const maxAge = Number(e.target.value) ?? null;
-                        e.target.setCustomValidity("");
+                        clearValidity();
                         setOverrideMaxAge(maxAge);
                     }}
                     className="select select-info w-auto mt-0"

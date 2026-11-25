@@ -89,3 +89,13 @@ details#starlight__mobile-toc .toggle svg {
     display: block !important;
     grid-template-rows: unset !important;
 }
+
+/* Registration wizard: once a save/next/previous attempt has failed, mark every field that has a problem. */
+form.show-validation-errors input:invalid,
+form.show-validation-errors select:invalid,
+form.show-validation-errors textarea:invalid {
+    border-color: var(--color-error, #dc2626) !important;
+    outline: 2px solid var(--color-error, #dc2626);
+    outline-offset: 0;
+    background-color: color-mix(in srgb, var(--color-error, #dc2626) 8%, transparent);
+}

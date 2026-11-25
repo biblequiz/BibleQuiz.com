@@ -24,6 +24,11 @@ export default function RegistrationFormsPage({ }: Props) {
 
     const [deleteIndex, setDeleteIndex] = useState<number | null>(null);
 
+    // Card values are edited in place, so this re-renders every card and lets each one re-check
+    // itself (e.g. a duplicate label that was just fixed on another card).
+    const [, setRevision] = useState(0);
+    const revalidate = () => setRevision(r => r + 1);
+
     return (
         <>
             <RegistrationPageForm
@@ -69,6 +74,7 @@ export default function RegistrationFormsPage({ }: Props) {
                                 </button>
                             </div>
                             <EventFormCardBody
+                                onChanged={revalidate}
                                 form={form}
                                 allowAttendees={officialsAndAttendees.allowAttendees}
                                 getLabelValidityMessage={newLabel => {

@@ -3,6 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import RegistrationPageForm from "./RegistrationPageForm";
 import { useState } from "react";
 import { sharedDirtyWindowState } from "utils/SharedState";
+import { useCustomValidity } from "utils/useCustomValidity";
 
 interface Props {
 }
@@ -32,6 +33,29 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const [extendedOfficialsEndDate, setExtendedOfficialsEndDate] = useState(officialsAndAttendees.extendedOfficialsEndDate || general.registrationEndDate);
     const [allowExtendedAttendees, setAllowExtendedAttendees] = useState(!!officialsAndAttendees.extendedAttendeesEndDate);
     const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || general.registrationEndDate);
+
+    // The server requires an extended date to fall after the end of registration and no later than
+    // the first day of the event. A date equal to the end of registration (the default) is rejected.
+    const getExtendedDateMessage = (isAllowed: boolean, value: string): string | null => {
+        if (!isAllowed || !value) {
+            return null;
+        }
+
+        if (general.registrationEndDate && value <= general.registrationEndDate) {
+            return `The extended date must be after the regular last day to register (${general.registrationEndDate}).`;
+        }
+
+        if (general.startDate && value > general.startDate) {
+            return `The extended date can't be after the first day of the event (${general.startDate}).`;
+        }
+
+        return null;
+    };
+
+    const extendedOfficialsRef = useCustomValidity<HTMLInputElement>(
+        getExtendedDateMessage(allowExtendedOfficials, extendedOfficialsEndDate));
+    const extendedAttendeesRef = useCustomValidity<HTMLInputElement>(
+        getExtendedDateMessage(allowExtendedAttendees && allowAttendees, extendedAttendeesEndDate));
 
     return (
         <RegistrationPageForm
@@ -147,9 +171,10 @@ export default function RegistrationOfficialsPage({ }: Props) {
                     </span>
                 </label>
                 <input
+                    ref={extendedOfficialsRef}
                     type="date"
                     className="input w-full"
-                    value={extendedOfficialsEndDate || undefined}
+                    value={extendedOfficialsEndDate || ""}
                     onChange={e => {
                         setExtendedOfficialsEndDate(e.target.value);
                     }}
@@ -160,8 +185,6 @@ export default function RegistrationOfficialsPage({ }: Props) {
                         });
                         sharedDirtyWindowState.set(true);
                     }}
-                    min={general.registrationStartDate}
-                    max={general.endDate}
                     required={allowExtendedOfficials}
                     disabled={!allowExtendedOfficials}
                 />
@@ -182,9 +205,10 @@ export default function RegistrationOfficialsPage({ }: Props) {
                             </span>
                         </label>
                         <input
+                            ref={extendedAttendeesRef}
                             type="date"
                             className="input w-full"
-                            value={extendedAttendeesEndDate || undefined}
+                            value={extendedAttendeesEndDate || ""}
                             onChange={e => {
                                 setExtendedAttendeesEndDate(e.target.value);
                             }}
@@ -195,8 +219,6 @@ export default function RegistrationOfficialsPage({ }: Props) {
                                 });
                                 sharedDirtyWindowState.set(true);
                             }}
-                            min={general.registrationStartDate}
-                            max={general.endDate}
                             required={allowExtendedAttendees}
                             disabled={!allowExtendedAttendees}
                         />
