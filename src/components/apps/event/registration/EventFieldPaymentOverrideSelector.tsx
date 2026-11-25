@@ -51,6 +51,7 @@ export default function EventFieldPaymentOverrideSelector({
                     <FontAwesomeIcon icon="fas faDollarSign" />
                     <input
                         ref={costRef}
+                        aria-label="Cost"
                         type="number"
                         value={overrideCost ?? ""}
                         onChange={e => {
@@ -66,6 +67,7 @@ export default function EventFieldPaymentOverrideSelector({
                 </label>
                 <select
                     ref={minAgeRef}
+                    aria-label="Minimum age"
                     value={overrideMinAge ?? ""}
                     onChange={e => {
                         const minAge = Number(e.target.value) ?? null;
@@ -83,6 +85,7 @@ export default function EventFieldPaymentOverrideSelector({
                 <span> - </span>
                 <select
                     ref={maxAgeRef}
+                    aria-label="Maximum age"
                     value={overrideMaxAge ?? ""}
                     onChange={e => {
                         const maxAge = Number(e.target.value) ?? null;

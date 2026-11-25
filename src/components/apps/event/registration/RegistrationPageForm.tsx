@@ -1,7 +1,7 @@
 import { useStore } from "@nanostores/react";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import type React from "react";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BlockerCallbackResult, sharedDirtyWindowState, sharedRequireBlockerCallback as sharedShouldBlockCallback } from "utils/SharedState";
 import { copyToClipboard } from "utils/Clipboard";
@@ -21,15 +21,15 @@ const describeControl = (control: InvalidControl): string => {
         return labelled;
     }
 
-    // Walk up to the nearest container that has a visible label (e.g. "Abbreviation", "Min Team Members").
-    let container: HTMLElement | null = control.parentElement;
-    while (container && container.tagName !== "FORM") {
-        const text = container.querySelector(".label-text")?.textContent?.trim();
-        if (text) {
-            return text;
-        }
-
-        container = container.parentElement;
+    // Only the label directly above the control counts. Looking further up finds the first label
+    // of some other field in a shared container (e.g. the address inputs share a grid with a name
+    // field), which would name the wrong field. Controls without their own label need an aria-label.
+    const text = control.parentElement
+        ?.querySelector(":scope > label .label-text")
+        ?.textContent
+        ?.trim();
+    if (text) {
+        return text;
     }
 
     return (control as HTMLInputElement).placeholder || control.name || "This field";
@@ -86,20 +86,21 @@ export default function RegistrationPageForm({
         problem.control.reportValidity();
     };
 
-    // Keep the list current as the person fixes things, so fixed fields drop off it.
-    const handleFormChanged = () => {
+    // Keep the list current after every render, so a field drops off it when it is fixed, and a
+    // card that is deleted (which fires no change event) doesn't leave a dead entry behind.
+    // Child effects have already applied their validity messages by the time this runs.
+    useEffect(() => {
         if (problems === null || !registrationFormRef.current) {
             return;
         }
 
-        const form = registrationFormRef.current;
-
-        // Wait for the change (and the validity effects it triggers) to render first.
-        setTimeout(() => {
-            const remaining = collectProblems(form);
-            setProblems(remaining.length > 0 ? remaining : null);
-        }, 0);
-    };
+        const current = collectProblems(registrationFormRef.current);
+        const isSame = current.length === problems.length &&
+            current.every((p, i) => p.control === problems[i].control && p.message === problems[i].message);
+        if (!isSame) {
+            setProblems(current.length > 0 ? current : null);
+        }
+    });
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
@@ -231,7 +232,6 @@ export default function RegistrationPageForm({
             ref={registrationFormRef}
             className={`space-y-6 mt-0${problems ? " show-validation-errors" : ""}`}
             onSubmit={handleSubmit}
-            onChange={handleFormChanged}
             noValidate>
             <div className="w-full mt-0 mb-0 flex flex-wrap justify-end gap-2">
                 {buttons}

@@ -111,6 +111,7 @@ export default function AddressSelector({
             <div className="w-full mt-0 md:col-span-2">
                 <input
                     name={`streetAddress-${id}`}
+                    aria-label="Street address"
                     type="text"
                     className="input w-full"
                     value={streetAddress}
@@ -123,6 +124,7 @@ export default function AddressSelector({
             <div className="w-full mt-0 md:col-span-2">
                 <input
                     name={`city-${id}`}
+                    aria-label="City"
                     type="text"
                     className="input w-full"
                     value={city}
@@ -135,6 +137,7 @@ export default function AddressSelector({
             <div className="w-full mt-0">
                 <select
                     name={`state-${id}`}
+                    aria-label="State"
                     className="select select-bordered w-full mt-0"
                     value={state || ""}
                     onChange={e => updateAddress(streetAddress, city, e.target.value, zipText)}
@@ -149,6 +152,7 @@ export default function AddressSelector({
             <div className="w-full mt-0">
                 <input
                     name={`zip-${id}`}
+                    aria-label="ZIP code"
                     type="text"
                     inputMode="numeric"
                     autoComplete="postal-code"

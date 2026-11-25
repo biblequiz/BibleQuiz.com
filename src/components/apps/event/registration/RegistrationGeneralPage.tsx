@@ -122,7 +122,8 @@ export default function RegistrationGeneralPage({ }: Props) {
     const [locationName, setLocationName] = useState(general?.locationName || "");
     const [eventLocation, setEventLocation] = useState<Address | null>(general?.locationAddress || null);
 
-    // These mirror the server's date checks so the problem is shown next to the date at fault,
+    // These mirror the server's date checks (all but its rule that an event can't span two seasons,
+    // which is still only reported after saving) so the problem is shown next to the date at fault,
     // rather than as a message after saving. They follow the current values (not blur), so
     // changing any one date re-checks the others.
     const dateMessages = (() => {

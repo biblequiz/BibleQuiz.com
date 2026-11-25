@@ -4,6 +4,7 @@ import RegistrationPageForm from "./RegistrationPageForm";
 import { useState } from "react";
 import { sharedDirtyWindowState } from "utils/SharedState";
 import { useCustomValidity } from "utils/useCustomValidity";
+import { DataTypeHelpers } from "utils/DataTypeHelpers";
 
 interface Props {
 }
@@ -16,6 +17,17 @@ export interface RegistrationOfficialsAndAttendeesInfo {
     allowTimekeepers: boolean;
     allowAttendees: boolean;
 }
+
+// An extended date has to be after registration closes, so start on the following day.
+const getDefaultExtendedDate = (registrationEndDate: string): string => {
+    const parsed = DataTypeHelpers.parseDateOnly(registrationEndDate);
+    if (!parsed) {
+        return registrationEndDate;
+    }
+
+    parsed.setDate(parsed.getDate() + 1);
+    return DataTypeHelpers.formatDate(parsed, "yyyy-MM-dd") ?? registrationEndDate;
+};
 
 export default function RegistrationOfficialsPage({ }: Props) {
     const {
@@ -30,9 +42,9 @@ export default function RegistrationOfficialsPage({ }: Props) {
     const [allowTimekeepers, setAllowTimekeepers] = useState(officialsAndAttendees.allowTimekeepers);
     const [allowAttendees, setAllowAttendees] = useState(officialsAndAttendees.allowAttendees);
     const [allowExtendedOfficials, setAllowExtendedOfficials] = useState(!!officialsAndAttendees.extendedOfficialsEndDate);
-    const [extendedOfficialsEndDate, setExtendedOfficialsEndDate] = useState(officialsAndAttendees.extendedOfficialsEndDate || general.registrationEndDate);
+    const [extendedOfficialsEndDate, setExtendedOfficialsEndDate] = useState(officialsAndAttendees.extendedOfficialsEndDate || getDefaultExtendedDate(general.registrationEndDate));
     const [allowExtendedAttendees, setAllowExtendedAttendees] = useState(!!officialsAndAttendees.extendedAttendeesEndDate);
-    const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || general.registrationEndDate);
+    const [extendedAttendeesEndDate, setExtendedAttendeesEndDate] = useState(officialsAndAttendees.extendedAttendeesEndDate || getDefaultExtendedDate(general.registrationEndDate));
 
     // The server requires an extended date to fall after the end of registration and no later than
     // the first day of the event. A date equal to the end of registration (the default) is rejected.

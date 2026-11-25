@@ -285,6 +285,7 @@ export default function RegistrationMoneyPage({ }: Props) {
                             type="text"
                             className="input w-full"
                             value={automatedPaymentDescriptor ?? ""}
+                            maxLength={60}
                             placeholder="Description for charges on Credit Card statements"
                             onChange={e => {
                                 setAutomatedPaymentDescriptor(e.target.value);

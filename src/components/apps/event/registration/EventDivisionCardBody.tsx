@@ -58,7 +58,8 @@ export default function EventDivisionCardBody({
                     className="input input-info w-full mt-0"
                     value={abbreviation}
                     onChange={e => {
-                        setAbbreviation(e.target.value);
+                        // A single character, so leading/trailing spaces would only block typing the letter.
+                        setAbbreviation(e.target.value.trim());
 
                         // Written to the division right away (not on blur) so Enter, autofill or
                         // a click that never blurs the field can't save a stale value.
