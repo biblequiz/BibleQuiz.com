@@ -31,9 +31,9 @@
   "name": "New EZScore Release",
   "draft": false,
   "immutable": false,
-  "prerelease": true,
+  "prerelease": false,
   "created_at": "2026-01-30T04:14:08Z",
-  "updated_at": "2026-11-25T17:11:57Z",
+  "updated_at": "2026-11-25T17:12:22Z",
   "published_at": "2026-11-25T17:11:48Z",
   "assets": [
     {
@@ -111,5 +111,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/tarball/v2026.11.25.1",
   "zipball_url": "https://api.github.com/repos/biblequiz/Releases.EZScore/zipball/v2026.11.25.1",
-  "body": "Latest version of EZScore"
+  "body": "## What's new\n- Windows: a new score grid that scrolls in sync with the rest of the screen.\n- Warns before completing a match with a tied score.\n\n## Bug fixes\n- If an upload to BibleQuiz.com fails, scores upload again once the connection is back, without restarting EZScore.\n- Updates ask about unsaved work first, install one at a time, and install more reliably.\n- A question with no point value can no longer be scored by mistake.\n- Cancelling or timing out a browser sign-in no longer blocks the next attempt.\n"
 }
