@@ -18,7 +18,8 @@ export default defineConfig({
         ignoredDiagnosticCodes: [80006],
     },
     integrations: [
-        sitemap(),
+        // The Give feedback window is not a page to find.
+        sitemap({ filter: page => !page.endsWith("/feedback/") && !page.endsWith("/feedback") }),
         starlight({
             title: "BibleQuiz.com",
             description: "Home of AG Bible Quiz",
@@ -184,6 +185,10 @@ export default defineConfig({
         host: "0.0.0.0",
     },
     vite: {
+        // The site build a Give feedback report came from: the commit it was built from, or "dev" locally.
+        define: {
+            __BQ_SITE_VERSION__: JSON.stringify((process.env.CF_PAGES_COMMIT_SHA || process.env.GITHUB_SHA || "dev").slice(0, 7)),
+        },
         resolve: {
             alias: {
                 "assets": path.resolve("./src/assets"),

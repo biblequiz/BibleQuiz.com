@@ -1,6 +1,7 @@
 ﻿import { ParameterHelpers } from 'utils/ParameterHelpers';
 import type { AuthManager } from "../AuthManager";
 import { sharedGlobalStatusToast } from 'utils/SharedState';
+import { recordCall } from 'utils/feedback/ApiHistory';
 
 /**
  * Endpoint in the service to use.
@@ -380,6 +381,8 @@ export class RemoteServiceUtility {
 
             fetch(url, fetchOptions)
                 .then(async response => {
+                    // Kept for Give feedback: the method, path and status only.
+                    recordCall(method, url, response.status);
 
                     if (response.ok) {
                         // Clear any error currently displayed in case the user was retrying.
@@ -436,6 +439,7 @@ export class RemoteServiceUtility {
                 })
                 .catch(error => {
                     console.error(error);
+                    recordCall(method, url, 0);
                     reject({
                         message: "Unable to execute request. Check to make sure you have an internet connection and try again."
                     } as RemoteServiceError);
