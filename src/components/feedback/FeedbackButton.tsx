@@ -50,24 +50,32 @@ export default function FeedbackButton({ mobile = false }: Props) {
 function FeedbackSheet({ getBridge, onClose }: { getBridge: () => FeedbackBridge | null; onClose: () => void }) {
     const dialog = useRef<HTMLDialogElement>(null);
     const dirty = useRef(false);
+    const [busy, setBusy] = useState(false);
     const close = useCallback(() => {
+        if (busy) {
+            return;
+        }
+
         if (!dirty.current || window.confirm("Close without sending your feedback?")) {
             onClose();
         }
-    }, [onClose]);
-    useModalDialog(dialog, close);
+    }, [onClose, busy]);
+    // Escape doesn't close it while a send is under way.
+    useModalDialog(dialog, close, busy);
 
     return (
         <dialog ref={dialog} className="modal" data-report-exclude="" onCancel={event => { event.preventDefault(); close(); }}>
             <div className="modal-box w-full max-w-lg max-h-[100dvh] sm:max-h-[90vh] h-full sm:h-auto rounded-none sm:rounded-box">
                 <div className="flex items-center justify-between mb-3">
                     <h2 className="text-lg font-bold m-0">Give feedback</h2>
-                    <button type="button" className="btn btn-sm btn-ghost" aria-label="Close" onClick={close}>✕</button>
+                    <button type="button" className="btn btn-sm btn-ghost" aria-label="Close" disabled={busy} onClick={close}>✕</button>
                 </div>
                 <FeedbackForm
                     getBridge={getBridge}
                     lostText="Reload the page and open Give feedback again."
                     onClose={onClose}
+                    onCancel={close}
+                    onBusyChange={setBusy}
                     onDirtyChange={value => { dirty.current = value; }} />
             </div>
         </dialog>

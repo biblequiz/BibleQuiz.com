@@ -1,5 +1,4 @@
 import type { AuthManager } from "types/AuthManager";
-import { RemoteServiceUrlBase, RemoteServiceUtility, type RemoteServiceError } from "types/services/RemoteServiceUtility";
 import { feedbackContext, type FeedbackContext } from "./FeedbackContext";
 import { captureScreenshot, fitImage } from "./FeedbackScreenshot";
 
@@ -7,8 +6,8 @@ import { captureScreenshot, fitImage } from "./FeedbackScreenshot";
  * Give feedback on biblequiz.com (the same design as Study Hub's). On a computer it is a separate window (/feedback), so it never covers the page being
  * reported and stays open while the person goes back to it, page after page, taking a screenshot at each step. On a phone, or when the browser blocks
  * the window, it is a full-screen sheet over the page instead. Either way the form does everything through a "bridge" the main window makes: the
- * context, the screenshots and the calls to the API all come from the main window, so the report is about the page the person is on, sent with their
- * sign-in when they have one.
+ * context and the screenshots come from the main window, so the report is about the page the person is on, and its sign-in token when there is one;
+ * the calls to the API are made from the form's own window (FeedbackApi.ts), so leaving the page mid-send can't strand them.
  *
  * biblequiz.com is a site of separate pages: each page load makes a new bridge, and the separate window looks it up again at every call
  * (`openerBridge`), so a screenshot is always of the page the person is on now. A picture belongs to the page that drew it and goes when that page
@@ -31,43 +30,20 @@ export interface FeedbackPicture {
     size: number;
 }
 
-export interface FeedbackReport {
-    kind: string;
-    description: string;
-    context: FeedbackContext;
-    screenshotCount: number;
-    captchaToken: string | null;
-}
-
-export type FeedbackResult =
-    | { ok: true; id: string; uploadToken: string; maxScreenshots: number }
-    | { ok: false; status: number; message: string };
-
 export interface FeedbackBridge {
     context(): FeedbackContext;
     isSignedIn(): boolean;
     capture(): Promise<FeedbackPicture | null>;
     adopt(bytes: ArrayBuffer, type: string): Promise<FeedbackPicture | null>;
     release(url: string): void;
-    send(report: FeedbackReport): Promise<FeedbackResult>;
-    /** Sends one screenshot, given as its bytes so the blob is made in the window that sends it. */
-    sendScreenshot(id: string, uploadToken: string, bytes: ArrayBuffer, type: string): Promise<{ ok: boolean; status: number; message: string }>;
+    /** The signed-in person's token for the API, or null for a visitor. The form sends with it from its own window (FeedbackApi.ts). */
+    accessToken(): Promise<string | null>;
 }
 
 declare global {
     interface Window {
         [bridgeName]?: FeedbackBridge;
     }
-}
-
-/** The API's error message as text: it can carry HTML line breaks. */
-export function errorText(error: unknown, fallback: string): string {
-    const message = (error as RemoteServiceError | undefined)?.message;
-    if (!message) {
-        return fallback;
-    }
-
-    return message.replace(/<br\s*\/?>/gi, " ").replace(/<[^>]+>/g, "").replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim() || fallback;
 }
 
 export function createFeedbackBridge(auth: AuthManager, win: Window & typeof globalThis = window): FeedbackBridge {
@@ -96,49 +72,8 @@ export function createFeedbackBridge(auth: AuthManager, win: Window & typeof glo
                 win.URL.revokeObjectURL(url);
             }
         },
-        async send(report) {
-            try {
-                const answer = await RemoteServiceUtility.executeHttpRequest<{ id: string; uploadToken: string; maxScreenshots: number }>(
-                    signedIn() ? auth : null,
-                    "POST",
-                    RemoteServiceUrlBase.Registration,
-                    "/api/Feedback",
-                    null,
-                    {
-                        kind: report.kind,
-                        description: report.description,
-                        route: report.context.route,
-                        appVersion: report.context.appVersion,
-                        browser: report.context.browser,
-                        operatingSystem: report.context.operatingSystem,
-                        recentApiCalls: report.context.recentApiCalls,
-                        screenshotCount: report.screenshotCount,
-                        captchaToken: signedIn() ? null : report.captchaToken,
-                    });
-                return { ok: true, id: answer.id, uploadToken: answer.uploadToken, maxScreenshots: answer.maxScreenshots };
-            }
-            catch (error) {
-                return { ok: false, status: (error as RemoteServiceError)?.statusCode ?? 0, message: errorText(error, "Your feedback couldn't be sent. Please try again.") };
-            }
-        },
-        async sendScreenshot(id, uploadToken, bytes, type) {
-            const form = new win.FormData();
-            form.append("token", uploadToken);
-            form.append("screenshot", new win.Blob([bytes], { type }), "screenshot");
-            try {
-                await RemoteServiceUtility.executeHttpRequestWithoutResponse(
-                    signedIn() ? auth : null,
-                    "POST",
-                    RemoteServiceUrlBase.Registration,
-                    `/api/Feedback/${encodeURIComponent(id)}/Screenshots`,
-                    null,
-                    form,
-                    true);
-                return { ok: true, status: 204, message: "" };
-            }
-            catch (error) {
-                return { ok: false, status: (error as RemoteServiceError)?.statusCode ?? 0, message: errorText(error, "It couldn't be sent.") };
-            }
+        async accessToken() {
+            return signedIn() ? await auth.getLatestAccessToken() : null;
         },
     };
 }
@@ -166,8 +101,9 @@ export function openerBridge(win: Window = window): FeedbackBridge | null {
 
 /** A phone (or a narrow window) gets the sheet: a separate window there is awkward to get back from. */
 export function prefersSheet(win: Window = window): boolean {
+    // Below 50rem, where the site's menu is the phone menu.
     const matches = (query: string) => !!win.matchMedia?.(query)?.matches;
-    return matches("(max-width: 47.99rem)") || matches("(hover: none) and (pointer: coarse)");
+    return matches("(max-width: 49.99rem)") || matches("(hover: none) and (pointer: coarse)");
 }
 
 const windowWidth = 480;
@@ -191,13 +127,27 @@ export function feedbackWindowFeatures(win: Window = window): string {
 }
 
 /**
- * Opens (or brings forward) the separate window. Returns false when the browser refused it, so the caller shows the sheet instead. Not noopener: the
- * window is this site's own page, and it reaches this window's bridge through window.opener.
+ * Opens the separate window, or brings it forward when it is already open, without loading it again (which would lose what the person wrote). Returns
+ * false when the browser refused it, so the caller shows the sheet instead. Not noopener: the window is this site's own page, and it reaches this
+ * window's bridge through window.opener.
  */
 export function openFeedbackWindow(win: Window = window): boolean {
-    const opened = win.open(feedbackPath, feedbackWindowName, feedbackWindowFeatures(win));
+    // An empty address finds the window by its name without navigating it (or opens a blank one, which is then sent to the form).
+    const opened = win.open("", feedbackWindowName, feedbackWindowFeatures(win));
     if (!opened) {
         return false;
+    }
+
+    let open = false;
+    try {
+        open = opened.location.pathname === feedbackPath;
+    }
+    catch {
+        // Not readable: it is somewhere else, so it is sent to the form.
+    }
+
+    if (!open) {
+        opened.location.replace(feedbackPath);
     }
 
     opened.focus?.();

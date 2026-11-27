@@ -14,6 +14,14 @@ import "../styles/global.css";
         <meta name="robots" content="noindex" />
         <title>Give feedback · BibleQuiz.com</title>
         <link rel="icon" href="/favicon.ico" />
+        <script is:inline>
+            // The theme chosen on the site (Starlight keeps it here), else the system's.
+            (() => {
+                const stored = localStorage.getItem("starlight-theme");
+                const theme = stored === "light" || stored === "dark" ? stored : matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+                document.documentElement.dataset.theme = theme;
+            })();
+        </script>
     </head>
     <body class="bg-base-100 text-base-content">
         <main class="max-w-xl mx-auto p-4">

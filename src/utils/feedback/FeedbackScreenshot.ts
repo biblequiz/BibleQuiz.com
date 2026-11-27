@@ -3,7 +3,9 @@
  * only when used), never from the screen: it shows biblequiz.com only and asks the browser for nothing. It is the part of the page on screen when
  * Take screenshot is pressed (many of the site's pages are long, and the person scrolls to what they mean to show), not the whole page. Nothing is drawn until the person presses Take
  * screenshot. Before drawing, every email address in the page's text and fields is replaced with "[email hidden]", and password and email fields and
- * anything marked data-report-redact are covered, in the copy that is drawn (never the page itself). The feedback sheet (data-report-exclude) is left
+ * anything marked data-report-redact are covered, in the copy that is drawn (never the page itself). An address is found within one run of text, so
+ * one split across elements (a name and a domain in separate tags) is not; a screen that shows other people's addresses that way should mark them
+ * data-report-redact. The feedback sheet (data-report-exclude) is left
  * out, and pictures from another site are drawn blank rather than fetched again. Text put in by CSS (::before, ::after) is not covered.
  *
  * A picture the person attaches is always drawn again, so only its pixels are sent (a phone photo's place, device and time never leave the device).

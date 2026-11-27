@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 import { CloudflareTurnstile } from "utils/CloudflareTurnstile";
 import type { FeedbackContext } from "utils/feedback/FeedbackContext";
+import { sendFeedbackReport, sendFeedbackScreenshot } from "utils/feedback/FeedbackApi";
 import {
     kindLabels,
     signedInMaxScreenshots,
@@ -24,10 +25,27 @@ interface Props {
     /** In the separate window: what to say when the main window has gone. */
     lostText: string;
     onClose: () => void;
+    /** Cancel: the sheet asks first when something is written; the separate window just closes. Defaults to onClose. */
+    onCancel?: () => void;
     onDirtyChange?: (dirty: boolean) => void;
+    onBusyChange?: (busy: boolean) => void;
 }
 
 const maxLength = 4000;
+/** How long a call into the main window's page may take before the form says it has gone (it may be loading another page, which drops the call). */
+const captureTimeoutMs = 30_000;
+const tokenTimeoutMs = 15_000;
+
+class BridgeTimeout extends Error {}
+
+function withTimeout<T>(work: Promise<T>, ms: number): Promise<T> {
+    return new Promise<T>((resolve, reject) => {
+        const timer = window.setTimeout(() => reject(new BridgeTimeout()), ms);
+        work.then(
+            value => { window.clearTimeout(timer); resolve(value); },
+            error => { window.clearTimeout(timer); reject(error); });
+    });
+}
 
 /**
  * The Give feedback form (the same design as Study Hub's), in the separate window on a computer and in the sheet on a phone. The person chooses when to
@@ -36,12 +54,20 @@ const maxLength = 4000;
  * follow, and the screenshots after it in that order; if only some fail, the report still counts and the person is told which. A visitor who isn't
  * signed in passes Cloudflare Turnstile and may send fewer screenshots.
  */
-export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChange }: Props) {
+export default function FeedbackForm({ getBridge, lostText, onClose, onCancel, onDirtyChange, onBusyChange }: Props) {
     const [kind, setKind] = useState("idea");
     const [description, setDescription] = useState("");
     const [shots, setShots] = useState<Shot[]>([]);
     const [context, setContext] = useState<FeedbackContext | null>(null);
-    const [signedIn, setSignedIn] = useState(false);
+    // Read at once, so a signed-in person's form never starts as a visitor's (which would load Cloudflare's check for a moment).
+    const [signedIn, setSignedIn] = useState(() => {
+        try {
+            return getBridge()?.isSignedIn() ?? false;
+        }
+        catch {
+            return false;
+        }
+    });
     const [captchaToken, setCaptchaToken] = useState<string | null>(null);
     const [capturing, setCapturing] = useState(false);
     const [sending, setSending] = useState(false);
@@ -51,6 +77,7 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
     const fileInput = useRef<HTMLInputElement>(null);
     const shotsList = useRef<HTMLOListElement>(null);
     const turnstile = useRef<TurnstileInstance | null>(null);
+    const sentMessage = useRef<HTMLParagraphElement>(null);
     const shotsRef = useRef<Shot[]>([]);
     shotsRef.current = shots;
 
@@ -79,6 +106,17 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
     useEffect(() => {
         onDirtyChange?.(!sent && (description.trim() !== "" || shots.length > 0));
     }, [description, shots.length, sent, onDirtyChange]);
+
+    useEffect(() => {
+        onBusyChange?.(sending);
+    }, [sending, onBusyChange]);
+
+    // The result replaces the form, and the control that had focus with it: focus goes to the result, so it is read out.
+    useEffect(() => {
+        if (sent) {
+            sentMessage.current?.focus();
+        }
+    }, [sent]);
 
     const release = (shot: Shot) => URL.revokeObjectURL(shot.url);
 
@@ -117,7 +155,7 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
         setCaptureMessage("");
         setCapturing(true);
         try {
-            const picture = await bridge.capture();
+            const picture = await withTimeout(bridge.capture(), captureTimeoutMs);
             if (!picture) {
                 setCaptureMessage("The page is too big to send as a picture. You can send your feedback without it.");
                 return;
@@ -126,8 +164,10 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
             added(await keep(bridge, picture, "page", "Screenshot"));
             readContext();
         }
-        catch {
-            setCaptureMessage("The page couldn't be drawn. You can try again, or send your feedback without it.");
+        catch (error) {
+            setCaptureMessage(error instanceof BridgeTimeout
+                ? lostText
+                : "The page couldn't be drawn. You can try again, or send your feedback without it.");
         }
         finally {
             setCapturing(false);
@@ -154,7 +194,7 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
                 let picture: FeedbackPicture | null = null;
                 try {
                     // Its bytes go to the main window, which makes (and sends) the picture.
-                    picture = await bridge.adopt(await file.arrayBuffer(), file.type);
+                    picture = await withTimeout(bridge.adopt(await file.arrayBuffer(), file.type), captureTimeoutMs);
                 }
                 catch {
                     picture = null;
@@ -194,6 +234,8 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
         release(shot);
         setShots(current => current.filter((_, at) => at !== index));
         setCaptureMessage("");
+        // The button that had focus has gone with its picture.
+        setTimeout(() => document.querySelector<HTMLButtonElement>('[data-test="feedback-take-screenshot"]')?.focus(), 0);
     };
 
     const send = async () => {
@@ -210,8 +252,20 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
         setMessage("");
         setSending(true);
         try {
-            const current = bridge.context();
-            const result = await bridge.send({
+            // The context and the sign-in come from the main window; the calls themselves are made from this window, so they finish even if the
+            // person goes to another page there meanwhile.
+            let current: FeedbackContext;
+            let token: string | null;
+            try {
+                current = bridge.context();
+                token = await withTimeout(bridge.accessToken(), tokenTimeoutMs);
+            }
+            catch {
+                setMessage(signedIn ? "Your sign-in couldn't be read. Go back to biblequiz.com, then send this again." : lostText);
+                return;
+            }
+
+            const result = await sendFeedbackReport(token, {
                 kind,
                 description: description.trim(),
                 context: current,
@@ -220,33 +274,38 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
             });
             if (!result.ok) {
                 setMessage(result.message);
-                // A Turnstile token is good for one try.
+                // A Turnstile token is good for one try, and the sign-in may have changed (which decides whether one is needed).
                 turnstile.current?.reset();
                 setCaptchaToken(null);
+                readContext();
                 return;
             }
 
-            // One at a time, in the order taken, so they are numbered in that order. Any past what this report may carry is not sent.
+            // One at a time, in the order taken, so they are numbered in that order.
+            const sendable = shots.slice(0, result.maxScreenshots);
             const failed: string[] = [];
             let why = "";
-            for (const [index, shot] of shots.slice(0, result.maxScreenshots).entries()) {
-                const sender = getBridge();
-                const uploaded = sender
-                    ? await sender.sendScreenshot(result.id, result.uploadToken, await shot.blob.arrayBuffer(), shot.blob.type)
-                    : { ok: false, status: 0, message: lostText };
+            for (const [index, shot] of sendable.entries()) {
+                const uploaded = await sendFeedbackScreenshot(token, result.id, result.uploadToken, shot.blob);
                 if (!uploaded.ok) {
                     failed.push(shot.source === "file" ? shot.label : `screenshot ${index + 1}`);
                     why ||= uploaded.message;
                 }
             }
 
-            let warning = "";
+            const notes: string[] = [];
             if (failed.length > 0) {
-                warning = failed.length === 1 && shots.length === 1
+                notes.push(failed.length === 1 && shots.length === 1
                     ? `Your feedback was sent, but the screenshot couldn't be added. ${why}`
-                    : `Your feedback was sent, but ${failed.length === 1 ? "this" : "these"} couldn't be added: ${failed.join(", ")}. ${why}`;
+                    : `Your feedback was sent, but ${failed.length === 1 ? "this" : "these"} couldn't be added: ${failed.join(", ")}. ${why}`);
             }
 
+            if (shots.length > sendable.length) {
+                const left = shots.length - sendable.length;
+                notes.push(`Only ${result.maxScreenshots} screenshots can go with feedback sent without signing in, so the last ${left === 1 ? "one was" : `${left} were`} not sent.`);
+            }
+
+            const warning = notes.join(" ");
             shots.forEach(release);
             setShots([]);
             setDescription("");
@@ -269,7 +328,7 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
     if (sent) {
         return (
             <div className="space-y-3" data-test="feedback-sent">
-                <p role="status" className="alert alert-success" data-test="feedback-sent-message">
+                <p ref={sentMessage} tabIndex={-1} role="status" className="alert alert-success" data-test="feedback-sent-message">
                     Thank you. Your feedback was sent.
                 </p>
                 {sent.warning && (
@@ -293,7 +352,7 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
             }}>
             <fieldset>
                 <legend className="font-semibold mb-2">What is it?</legend>
-                <div className="join w-full" role="group" aria-label="What is it?">
+                <div className="join w-full">
                     {kindLabels.map(option => (
                         <button
                             key={option.code}
@@ -313,6 +372,8 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
                     {kind === "idea" ? "What would you like?" : kind === "problem" ? "What happened?" : "What would you like to tell us?"}
                 </span>
                 <textarea
+                    required
+                    aria-required="true"
                     className="textarea w-full mt-1"
                     rows={5}
                     maxLength={maxLength}
@@ -366,7 +427,7 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
                         That's the most that can go with one report ({limit}). Remove one to add another.
                     </p>
                 )}
-                {captureMessage && <p role="alert" className="text-sm text-error" data-test="feedback-capture-message">{captureMessage}</p>}
+                {captureMessage && <p role="status" className="text-sm text-warning-content bg-warning/20 rounded p-2" data-test="feedback-capture-message">{captureMessage}</p>}
                 {shots.length > 0 && (
                     <ol ref={shotsList} className="grid grid-cols-2 gap-2 p-0 m-0" style={{ listStyle: "none" }} data-test="feedback-preview">
                         {shots.map((shot, index) => (
@@ -438,8 +499,13 @@ export default function FeedbackForm({ getBridge, lostText, onClose, onDirtyChan
             )}
 
             {message && <p role="alert" className="alert alert-error" data-test="feedback-message">{message}</p>}
+            {!canSend && !sending && (
+                <p className="text-sm opacity-80 text-right" data-test="feedback-send-hint">
+                    {description.trim() === "" ? "Write what happened, or what you'd like, to send." : !signedIn && !captchaToken ? "Complete the Cloudflare check above to send." : ""}
+                </p>
+            )}
             <div className="flex justify-end gap-2">
-                <button type="button" className="btn" disabled={sending} onClick={onClose} data-test="feedback-cancel">Cancel</button>
+                <button type="button" className="btn" disabled={sending} onClick={onCancel ?? onClose} data-test="feedback-cancel">Cancel</button>
                 <button type="submit" className="btn btn-primary" disabled={!canSend} aria-busy={sending} data-test="feedback-send">
                     {sending && <span className="loading loading-spinner loading-sm"></span>}
                     {sending ? "Sending…" : "Send"}

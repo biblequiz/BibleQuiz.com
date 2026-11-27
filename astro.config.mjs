@@ -18,7 +18,8 @@ export default defineConfig({
         ignoredDiagnosticCodes: [80006],
     },
     integrations: [
-        sitemap(),
+        // The Give feedback window is not a page to find.
+        sitemap({ filter: page => !page.endsWith("/feedback/") && !page.endsWith("/feedback") }),
         starlight({
             title: "BibleQuiz.com",
             description: "Home of AG Bible Quiz",
