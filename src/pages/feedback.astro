@@ -1,0 +1,27 @@
+---
+import FeedbackWindowRoot from "components/feedback/FeedbackWindowRoot";
+import "../styles/global.css";
+
+// The separate Give feedback window (utils/feedback/FeedbackBridge.ts): a small window of its own, so it has none of the site's header, menu or
+// footer. The page it reports on is the window that opened it.
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex" />
+        <title>Give feedback · BibleQuiz.com</title>
+        <link rel="icon" href="/favicon.ico" />
+    </head>
+    <body class="bg-base-100 text-base-content">
+        <main class="max-w-xl mx-auto p-4">
+            <h1 class="text-xl font-bold mb-4">Give feedback</h1>
+            <div id="feedback-fallback" class="flex items-center gap-2">
+                <span class="loading loading-spinner"></span> Loading ...
+            </div>
+            <FeedbackWindowRoot client:only="react" />
+        </main>
+    </body>
+</html>

@@ -8,6 +8,7 @@ import { Icon, Badge } from "@astrojs/starlight/components";
 import SidebarRestorePoint from "components/sidebar/SidebarRestorePoint.astro";
 import FontAwesomeIcon from "components/FontAwesomeIcon";
 import AuthButton, { AuthButtonType } from "../auth/AuthButton";
+import FeedbackButton from "../feedback/FeedbackButton";
 import ReactSidebar from "./ReactSidebar";
 import "./sidebar-sublist.css";
 
@@ -43,6 +44,9 @@ const { sublist, nested } = Astro.props;
                             type={AuthButtonType.Mobile}
                             client:only="react"
                         />
+                    )}
+                    {entry.type == "authButton" && (
+                        <FeedbackButton mobile client:only="react" />
                     )}
                     {!renderAsReactEntry && entry.type === "link" && (
                         <div>
